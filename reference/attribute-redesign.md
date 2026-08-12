@@ -9,19 +9,42 @@ treats, supplements, accessories — EU brands).
 
 - **Codes:** kebab-case, singular, no units baked in (`breed-size`, not
   `size-kg`).
+- **Never borrow a brand's word for a facet** — brands use the same word for
+  different concepts (RC "Size" = breed size, not pack weight). Translate brand
+  wording into our names via table 3 in `reference/data-tables.md`.
 - **Labels (values):** Title Case, one consistent form per concept — never two
   spellings of the same thing ("Grain-Free" only, never also "Grain Free").
-- **Weights:** one format, always: `400 g`, `1.5 kg` (dot decimal, space before
+- **Weights: metric only, kilogram-based — never lbs/oz** (user rule,
+  2026-08-12). One format, always: `400 g`, `1.5 kg` (dot decimal, space before
   unit, lowercase unit). The old data had "0,4", "400 g", and duplicates —
-  that's what we're cleaning.
-- Value lists sorted logically (lifestage by age, size by weight), not
+  that's what we're cleaning. If a source page gives pounds/ounces (US sites,
+  Chewy), **convert**: `lb x 0.4536 = kg`, `oz x 28.35 = g`; round to the pack
+  size the manufacturer actually prints in metric (a US "5 lb" bag is the EU
+  "2 kg" bag, not "2.27 kg" — prefer the brand's own metric pack size when the
+  EU/UK page lists one). The variant `weight` field is likewise **kilograms**.
+- Value lists sorted logically (lifestage by age, product-weight by weight), not
   alphabetically — `sort_order` supports this.
 
 ## The attributes (9)
 
-### 1. `size` — Size
-Variant pack size. Values created as needed per product, following the weight
-format above. Starter set from the CSV:
+### 1. `product-weight` — Product Weight
+Variant pack weight (how much food is in the bag/can). Values created as needed
+per product, following the weight format above.
+
+> **Not set on weight-priced variants** (user rule, 2026-08-12): a variant with
+> `pricing_type: "per_kg"` carries a Pack weight field and the admin generates the
+> weight from it, so tagging the attribute too would duplicate it. Only
+> unit-priced (`fixed`) variants get `product-weight`. One exception: a product
+> whose variants differ *only* by pack size keeps it, because the API rejects two
+> variants with identical attribute combinations. See table 4 of
+> `reference/data-tables.md`.
+
+> **Not called "Size".** Renamed from `size`/"Size" on 2026-08-12 by user
+> decision: Royal Canin (and most pet brands) use "Size" for the *dog's* body
+> size, which is our `breed-size` — so "Size" here reads as the wrong facet.
+> Never reintroduce a `size` attribute; see table 3 in `reference/data-tables.md`.
+
+Starter set from the CSV:
 `85 g · 100 g · 150 g · 195 g · 400 g · 800 g · 1 kg · 1.5 kg · 2 kg · 3 kg ·
 4 kg · 8 kg · 10 kg · 12 kg · 15 kg · 17 kg`
 
@@ -150,9 +173,11 @@ Only the real attributes get created in the admin:
 - **Price / Deals & Savings** — computed from variant pricing, never an
   attribute. The storefront derives these.
 - **Product Weight bands** ("Less than 5 lbs", "5–10 lbs") — computed from the
-  variant's numeric `weight` field, not hand-tagged. We keep exact sizes in
-  `size` + the variant `weight` field; if banded weight filtering is wanted,
-  it's a storefront feature over `weight`, not an attribute to maintain.
+  variant's numeric `weight` field, not hand-tagged. We keep exact pack weights
+  in `product-weight` + the variant `weight` field; if banded weight filtering is
+  wanted, it's a storefront feature over `weight`, not an attribute to maintain.
+  (Chewy's facet is *named* the same as our attribute but is a computed band —
+  don't create the bands as values.)
 - **Flavor parent groups** (Poultry / Meat / Seafood & Fish / Fruits &
   Vegetables) — Chewy's flavor facet is two-level; at our catalog size a flat
   flavor list filters fine. Revisit if the flavor list passes ~30 values.
@@ -170,10 +195,10 @@ Order = dropdown order in the form.
 
 | Family | Attributes (in order) |
 |---|---|
-| **Dry Food** | size, flavor, breed-size, lifestage, special-diet, health-feature |
-| **Wet Food** | size, flavor, lifestage, texture, special-diet, health-feature, packaging |
-| **Treats** | size, flavor, lifestage, special-diet, health-feature |
-| **Supplements** | food-form, size, lifestage, health-feature, packaging |
+| **Dry Food** | product-weight, flavor, breed-size, lifestage, special-diet, health-feature |
+| **Wet Food** | product-weight, flavor, lifestage, texture, special-diet, health-feature, packaging |
+| **Treats** | product-weight, flavor, lifestage, special-diet, health-feature |
+| **Supplements** | food-form, product-weight, lifestage, health-feature, packaging |
 
 Accessories: no family (no shared attributes yet). All old brand-named
 families (Royal/Monge/Orijen Dry Food) die with the wipe.

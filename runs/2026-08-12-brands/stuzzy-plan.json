@@ -1,0 +1,23 @@
+[
+{"key":"stuzzy-cat-chunks-85g","rows":[57,58],
+ "name":"Cat Chunks 85g","slug":"stuzzy-cat-chunks-85g",
+ "category_ids":[11],"family":2,
+ "variants":[
+  {"row":57,"label":"Chicken 85 g","sku":"STUZZY-CAT-CHUNKS-CHICKEN-85G","src":"cat-chunks-chicken",
+   "pricing":"fixed","price":500,"weight":0.085,"cost":420,"stock":24,
+   "attrs":{"food-form":18,"product-weight":1,"lifestage":27,"flavor":36,"packaging":148,"special-diet":85}},
+  {"row":58,"label":"Salmon 85 g","sku":"STUZZY-CAT-CHUNKS-SALMON-85G","src":"cat-chunks-salmon",
+   "pricing":"fixed","price":500,"weight":0.085,"cost":420,"stock":24,
+   "attrs":{"food-form":18,"product-weight":1,"lifestage":27,"flavor":38,"packaging":148,"special-diet":85}}]},
+
+{"key":"stuzzy-dog-pate-150g","rows":[68,69],
+ "name":"Dog Paté 150g","slug":"stuzzy-dog-pate-150g",
+ "category_ids":[4],"family":2,
+ "variants":[
+  {"row":68,"label":"Chicken 150 g","sku":"STUZZY-DOG-PATE-CHICKEN-150G","src":"dog-pate-chicken-22x150",
+   "pricing":"fixed","price":600,"weight":0.15,"cost":500,"stock":12,
+   "attrs":{"food-form":18,"product-weight":3,"lifestage":27,"flavor":36,"texture":138,"packaging":149,"special-diet":85}},
+  {"row":69,"label":"Beef 150 g","sku":"STUZZY-DOG-PATE-BEEF-150G","src":"dog-pate-beef-22x150",
+   "pricing":"fixed","price":600,"weight":0.15,"cost":500,"stock":12,
+   "attrs":{"food-form":18,"product-weight":3,"lifestage":27,"flavor":37,"texture":138,"packaging":149,"special-diet":85}}]}
+]

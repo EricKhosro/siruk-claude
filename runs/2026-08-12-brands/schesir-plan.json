@@ -1,0 +1,29 @@
+[
+{"key":"schesir-tuna-in-jelly-85g","rows":[55],
+ "name":"Tuna in Jelly 85g","slug":"schesir-tuna-in-jelly-85g",
+ "category_ids":[11],"family":2,
+ "variants":[{"row":55,"label":"85 g","sku":"21123003","src":"tuna-in-jelly-85g-in-can-1",
+   "pricing":"fixed","price":820,"weight":0.085,"cost":680,"stock":24,
+   "attrs":{"food-form":18,"product-weight":1,"lifestage":27,"flavor":41,"texture":140,"packaging":147,"special-diet":85}}]},
+
+{"key":"schesir-after-dark-chicken-pate-80g","rows":[56],
+ "name":"After Dark Chicken in Paté 80g","slug":"schesir-after-dark-chicken-in-pate-80g",
+ "category_ids":[11],"family":2,
+ "variants":[{"row":56,"label":"80 g","sku":"21142003","src":"chicken-in-pate-80g-in-can",
+   "pricing":"fixed","price":880,"weight":0.08,"cost":730,"stock":24,
+   "attrs":{"food-form":18,"lifestage":27,"flavor":36,"texture":138,"packaging":147,"special-diet":75}}]},
+
+{"key":"schesir-training-snacks-chicken-113g","rows":[85],
+ "name":"Training Snacks Flavoured with Chicken 113g","slug":"schesir-training-snacks-flavoured-with-chicken-113g",
+ "category_ids":[6],"family":3,
+ "variants":[{"row":85,"label":"113 g","sku":"26261604","src":"flavoured-with-chicken-6x113g",
+   "pricing":"fixed","price":1550,"weight":0.113,"cost":1310,"stock":6,
+   "attrs":{"flavor":36,"special-diet":86}}]},
+
+{"key":"schesir-wild-salmon-snack-115g","rows":[86],
+ "name":"Wild Salmon Snack Hair & Skin 115g","slug":"schesir-wild-salmon-snack-hair-and-skin-115g",
+ "category_ids":[6],"family":3,
+ "variants":[{"row":86,"label":"115 g","sku":"26262504","src":"wild-salmon-snack-maintaining-shiny-hair-and-skin-6x115g",
+   "pricing":"fixed","price":3850,"weight":0.115,"cost":3190,"stock":3,
+   "attrs":{"flavor":38,"health-feature":133}}]}
+]

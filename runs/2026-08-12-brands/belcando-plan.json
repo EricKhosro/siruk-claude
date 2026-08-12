@@ -1,0 +1,29 @@
+[
+{"key":"belcando-adult-dinner","rows":[17],
+ "name":"Adult Dinner 12.5kg","slug":"belcando-adult-dinner-12-5kg",
+ "category_ids":[3],"family":1,
+ "variants":[{"row":17,"label":"12.5 kg","sku":"557325","src":"belcando-adult-dinner-12.5-kg",
+   "pricing":"per_kg","price":27500,"weight":12.5,"cost":24000,"stock":1,
+   "attrs":{"food-form":17,"lifestage":27,"special-diet":72}}]},
+
+{"key":"belcando-adult-gf-poultry","rows":[18],
+ "name":"Adult GF Poultry 12.5kg","slug":"belcando-adult-gf-poultry-12-5kg",
+ "category_ids":[3],"family":1,
+ "variants":[{"row":18,"label":"12.5 kg","sku":"556225","src":"belcando-adult-gf-poultry-12.5-kg",
+   "pricing":"per_kg","price":36500,"weight":12.5,"cost":31500,"stock":1,
+   "attrs":{"food-form":17,"lifestage":27,"special-diet":73}}]},
+
+{"key":"belcando-finest-selection-chicken-300g","rows":[70],
+ "name":"Finest Selection Chicken with Rice, Carrots & Courgettes 300g","slug":"belcando-finest-selection-chicken-rice-carrots-courgettes-300g",
+ "category_ids":[4],"family":2,
+ "variants":[{"row":70,"label":"300 g","sku":"511535","src":"belcando-finest-selection-chicken-with-rice-carrots-courgettes-6-x-300-g",
+   "pricing":"fixed","price":1400,"weight":0.3,"cost":1200,"stock":12,
+   "attrs":{"food-form":18,"lifestage":27,"flavor":36,"special-diet":72}}]},
+
+{"key":"belcando-baseline-beef-800g","rows":[71],
+ "name":"Baseline Beef 800g","slug":"belcando-baseline-beef-800g",
+ "category_ids":[4],"family":2,
+ "variants":[{"row":71,"label":"800 g","sku":"513425","src":"belcando-baseline-beef-6-x-800-g",
+   "pricing":"fixed","price":2550,"weight":0.8,"cost":2200,"stock":6,
+   "attrs":{"food-form":18,"product-weight":6,"lifestage":27,"flavor":37,"special-diet":73,"health-feature":133}}]}
+]

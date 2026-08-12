@@ -1,0 +1,5 @@
+# admin API token (JWT) — never commit
+.siruk-token
+
+# scratch: script working files, downloaded images
+.siruk-cache/

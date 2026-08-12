@@ -1,0 +1,15 @@
+[
+{"key":"leonardo-fs-pure-chicken-85g","rows":[59],
+ "name":"Finest Selection Pure Chicken 85g","slug":"leonardo-finest-selection-pure-chicken-85g",
+ "category_ids":[11],"family":2,
+ "variants":[{"row":59,"label":"85 g","sku":"756315","src":"leonardo-finest-selection-pure-chicken-16-x-85-g",
+   "pricing":"fixed","price":700,"weight":0.085,"cost":600,"stock":12,
+   "attrs":{"food-form":18,"product-weight":1,"lifestage":27,"flavor":36,"special-diet":101,"health-feature":133,"packaging":148}}]},
+
+{"key":"leonardo-fs-kitten-poultry-85g","rows":[60],
+ "name":"Finest Selection Kitten Poultry Pure 85g","slug":"leonardo-finest-selection-kitten-poultry-pure-85g",
+ "category_ids":[11],"family":2,
+ "variants":[{"row":60,"label":"85 g","sku":"756305","src":"leonardo-finest-selection-kitten-poultry-pure-16-x-85-g",
+   "pricing":"fixed","price":700,"weight":0.085,"cost":600,"stock":12,
+   "attrs":{"food-form":18,"product-weight":1,"lifestage":26,"special-diet":73,"health-feature":133,"packaging":148}}]}
+]

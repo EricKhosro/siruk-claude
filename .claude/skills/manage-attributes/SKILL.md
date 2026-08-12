@@ -20,14 +20,23 @@ Base `https://demo-api.siruk.am/api/admin` · header
 `Authorization: Bearer <JWT>` · always send a real User-Agent (WAF 403s
 `Python-urllib`; curl default is fine).
 
-- Token: from the logged-in SPA via chrome-devtools MCP:
-  `JSON.parse(localStorage.access_token).token` (log in with CLAUDE.md
-  credentials if needed). Cache it in the session scratchpad.
+**Use `scripts/api.sh METHOD PATH [payload.json|-]` for every call** (it handles
+auth, status codes and error dumps) and `scripts/ids.sh` to see what exists —
+see `scripts/README.md`. The paths below are what to pass it.
+
+- Token: `.siruk-token` in the repo root (gitignored, survives reboots). Verify
+  with `scripts/api.sh GET /account`; only if that 401s, re-capture from the
+  logged-in SPA via chrome-devtools MCP
+  (`JSON.parse(localStorage.access_token).token`) and rewrite that file.
 - List: `GET /attributes?forProducts=true` → `{data:[{id,code,name,values:[{id,label,value}]}]}`
 - List families: `GET /attribute-families?forProducts=true` → `{data:[{id,name,code,attributes:[...]}]}`
 - Create attribute: `POST /attributes` `{code, name}` → `{data:{id,...}}`
   (defaults `isVariant/isFilterable: true`)
 - Create value: `POST /attribute-values` `{attribute_id, value, label}` → `{data:{id,...}}`
+- Rename attribute: `PUT /attributes/<id>` `{code, name}` (PATCH equivalent) →
+  renames in place; value ids/labels and family membership survive, and each
+  value's derived `name` re-derives from the new code. Verified 2026-08-12
+  (`size`/"Size" → `product-weight`/"Product Weight").
 - Create family: **endpoint not yet verified.** Try
   `POST /attribute-families` `{name, code, attribute_ids:[...]}` (also try
   `attributes:[{id,position}]` if that 422s). If both fail, capture the real
@@ -52,11 +61,16 @@ Base `https://demo-api.siruk.am/api/admin` · header
    weights as `400 g` / `1.5 kg` (dot decimal, space, lowercase unit).
    Auto-fix casing/format silently; flag anything ambiguous instead of
    guessing.
+   **Never name an attribute after a brand's word for it** — brands reuse words
+   for different concepts (Royal Canin "Size" = breed size, not pack weight).
+   Pack weight is `product-weight` / "Product Weight"; **do not (re)create a
+   `size` attribute.** Full brand-wording → our-name mapping: table 3 of
+   `reference/data-tables.md`.
 4. **Create** in order: attributes → values → families (families reference
    attribute ids). Verify each response has an id.
-5. **Refresh the menu**: regenerate `reference/attribute-values.json` from a
-   fresh `GET /attributes?forProducts=true` (command in CLAUDE.md →
-   "Refreshing the attribute menu").
+5. **Refresh the menu**: `scripts/refresh-attributes.sh` (regenerates
+   `reference/attribute-values.json` from a fresh
+   `GET /attributes?forProducts=true`, atomic write).
 6. **Report**: table of created (name → id), skipped-as-duplicate,
    flagged near-matches/questions, and any endpoint discoveries appended to
    CLAUDE.md.

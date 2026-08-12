@@ -15,17 +15,25 @@ was created (with ids), skipped, or flagged.
 - Every request: `Authorization: Bearer <JWT>` + `Accept: application/json`.
   Always send a real User-Agent — the WAF returns 403 for `Python-urllib`;
   curl's default UA works.
-- Getting the token: check the session scratchpad for a saved token file
-  first. Otherwise use the chrome-devtools MCP: navigate to
+- **Use the repo's scripts instead of hand-built curl:**
+  `scripts/api.sh METHOD PATH [payload.json|-]` for every call,
+  `scripts/ids.sh` to list what exists, `scripts/refresh-attributes.sh` to
+  regenerate the menu file. See `scripts/README.md`.
+- Getting the token: it lives in `.siruk-token` at the repo root (gitignored,
+  survives reboots) — verify with `scripts/api.sh GET /account`. Only if that
+  401s, re-capture via the chrome-devtools MCP: navigate to
   `https://demo-api.siruk.am/admin`, run
   `JSON.parse(localStorage.access_token).token` via `evaluate_script` (log in
   first with the credentials in the project `CLAUDE.md` if redirected), and
-  save the token to the scratchpad for reuse.
+  write it back to `.siruk-token`.
 - Endpoints (verified):
   - `GET /attributes?forProducts=true` → `{data:[{id,code,name,values:[{id,label,value}]}]}`
   - `GET /attribute-families?forProducts=true` → `{data:[{id,name,code,attributes:[{id,code,position}]}]}`
   - `POST /attributes` `{code, name}` → `{data:{id}}` (defaults isVariant/isFilterable true)
   - `POST /attribute-values` `{attribute_id, value, label}` → `{data:{id}}`
+  - `PUT /attributes/<id>` `{code, name}` → rename in place; value ids/labels
+    and family membership survive (verified 2026-08-12). Renames still need an
+    explicit user ask — see rule 5.
 - Family create is NOT yet verified. Try `POST /attribute-families`
   `{name, code, attribute_ids:[...]}`; on 422 read the validation message and
   adapt (likely alternative: `attributes:[{id,position}]`). If the API refuses
@@ -45,14 +53,16 @@ was created (with ids), skipped, or flagged.
    attribute codes kebab-case singular (`breed-size`); value labels Title
    Case; weights formatted `400 g` / `1.5 kg` (dot decimal, space before
    lowercase unit). Auto-normalize obvious formatting; flag ambiguity instead
-   of guessing.
+   of guessing. **Never name an attribute after a brand's word for it** — pack
+   weight is `product-weight` / "Product Weight" and a `size` attribute must
+   never be (re)created, because Royal Canin's "Size" means breed size. Mapping
+   table: table 3 of `reference/data-tables.md`.
 3. **Creation order:** attributes → values (need attribute_id) → families
    (need attribute ids).
 4. **Verify as you go:** every create response must contain an id; keep a
-   running map. After the batch, re-fetch `GET /attributes?forProducts=true`
-   and regenerate `reference/attribute-values.json` in the project repo
-   (shape: `{<code>: {attribute_id, name, values: {<label>: <id>}}}`,
-   pretty-printed, ensure_ascii=False).
+   running map. After the batch, regenerate the menu with
+   `scripts/refresh-attributes.sh` (shape:
+   `{<code>: {attribute_id, name, values: {<label>: <id>}}}`).
 5. **NEVER delete or rename anything** unless the delegating prompt states
    the user explicitly asked for it. If deletion was asked: before deleting a
    value, check products for variants referencing its id and list them in the

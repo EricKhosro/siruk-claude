@@ -1,0 +1,51 @@
+# Royal Canin import plan — one row per CSV row (33 rows → 28 products).
+# Rows sharing product_key become one product with several variants; the first
+# row of a key is the default variant and supplies the product-level fields.
+# Grouping follows reference/data-tables.md §2: lifestage + pack weight are
+# variant axes; breed size is NOT (Mini/Medium/Maxi = separate products); a
+# named breed groups a line. Lifestage is NOT a variant axis (user rule
+# 2026-08-12): Puppy and Adult of the same line are separate products, because
+# the packaging artwork/colour changes with lifestage. Variant axes = pack size,
+# flavor and texture (gravy/jelly) — same bag, option named on a band.
+# attrs = attribute_value_ids (ids from reference/attribute-values.json).
+# sku: RC article code (wmsCode) when the site sells that exact pack, else
+# BRAND-SLUG-WEIGHT per CLAUDE.md.
+# pricing: per_kg = sold by weight (dry kibble) → the API takes `price_per_kg`
+# (= price / weight_kg, 2dp) + `weight` and IGNORES `price`; product-weight is
+# left off the attrs because the admin derives it from the pack weight.
+# fixed = sold by the unit (pouch/can/multipack/tin) → `price` as before.
+#
+#product_key	product_name	slug	cat	fam	main	variant_label	sku	price	cost	stock	weight_kg	pricing	attrs	csv_row
+mini-adult	Mini Adult 8kg	royal-canin-mini-adult-8kg	3	1	3001	8 kg	1024080	26500	23000	2	8	per_kg	{"food-form":17,"lifestage":27,"breed-size":31}	9
+mini-puppy	Mini Puppy 8kg	royal-canin-mini-puppy-8kg	3	1	3000	8 kg	1002080	29000	25000	1	8	per_kg	{"food-form":17,"lifestage":25,"breed-size":31,"health-feature":119}	10
+medium	Medium Adult 15kg	royal-canin-medium-adult-15kg	3	1	3004	15 kg	1223150	45500	39500	2	15	per_kg	{"food-form":17,"lifestage":27,"breed-size":32,"health-feature":124}	11
+maxi	Maxi Adult 15kg	royal-canin-maxi-adult-15kg	3	1	3007	15 kg	1423150	45500	39500	1	15	per_kg	{"food-form":17,"lifestage":27,"breed-size":33,"health-feature":111}	12
+mini-indoor-adult	Mini Indoor Adult 1.5kg	royal-canin-mini-indoor-adult-1-5kg	3	1	2434	1.5 kg	RC-MINI-INDOOR-ADULT-1.5KG	8600	7500	2	1.5	per_kg	{"food-form":17,"lifestage":27,"breed-size":31,"special-diet":78,"health-feature":111}	35
+mini-indoor-puppy	Mini Indoor Puppy 1.5kg	royal-canin-mini-indoor-puppy-1-5kg	3	1	2433	1.5 kg	RC-MINI-INDOOR-PUPPY-1.5KG	8600	7500	1	1.5	per_kg	{"food-form":17,"lifestage":25,"breed-size":31,"special-diet":78,"health-feature":119}	36
+mini-wet-adult	Mini Adult Gravy 12x85g	royal-canin-mini-adult-gravy-12x85g	4	2	1096	12 x 85 g	1890021	8600	7500	3	1.02	fixed	{"food-form":18,"lifestage":27,"breed-size":31,"texture":139}	65
+mini-wet-puppy	Mini Puppy Gravy 12x85g	royal-canin-mini-puppy-gravy-12x85g	4	2	1099	12 x 85 g	1890011	8600	7500	2	1.02	fixed	{"food-form":18,"lifestage":25,"breed-size":31,"texture":139,"health-feature":119}	66
+medium-wet	Medium Adult Gravy 10x140g	royal-canin-medium-adult-gravy-10x140g	4	2	1095	10 x 140 g	1890051	9800	8500	2	1.4	fixed	{"food-form":18,"lifestage":27,"breed-size":32,"texture":139,"health-feature":124}	67
+sterilised-37	Sterilised 37	royal-canin-sterilised-37	10	1	2537	15 kg	RC-STERILISED-37-15KG	60000	52000	1	15	per_kg	{"food-form":17,"lifestage":27,"special-diet":102,"health-feature":137,"product-weight":15}	23
+sterilised-37	Sterilised 37	royal-canin-sterilised-37	10	1	2537	2 kg	RC-STERILISED-37-2KG	10500	9000	1	2	per_kg	{"food-form":17,"lifestage":27,"special-diet":102,"health-feature":137,"product-weight":9}	30
+kitten-dry	Kitten Second Age 10kg	royal-canin-kitten-second-age-10kg	10	1	2522	10 kg	2052100	39500	34500	1	10	per_kg	{"food-form":17,"lifestage":26,"health-feature":119}	24
+hairball	Hairball Care 10kg	royal-canin-hairball-care-10kg	10	1	2534	10 kg	2704100	39500	34500	1	10	per_kg	{"food-form":17,"lifestage":27,"health-feature":114}	25
+indoor-27	Indoor 27 Home Life 10kg	royal-canin-indoor-27-home-life-10kg	10	1	2529	10 kg	2452100	39500	34500	1	10	per_kg	{"food-form":17,"lifestage":27,"special-diet":78}	26
+savour-exigent	Savour Exigent 10kg	royal-canin-savour-exigent-10kg	10	1	2531	10 kg	RC-SAVOUR-EXIGENT-10KG	39500	34500	1	10	per_kg	{"food-form":17,"lifestage":27,"health-feature":104}	27
+maine-coon-adult	Maine Coon Adult 2kg	royal-canin-maine-coon-adult-2kg	10	1	2550	2 kg	2552020	10500	9000	1	2	per_kg	{"food-form":17,"lifestage":27}	28
+maine-coon-kitten	Maine Coon Kitten 2kg	royal-canin-maine-coon-kitten-2kg	10	1	2558	2 kg	2551020	10500	9000	1	2	per_kg	{"food-form":17,"lifestage":26,"health-feature":119}	29
+persian	Persian Adult 10kg	royal-canin-persian-adult-10kg	10	1	2552	10 kg	2352100	39500	34500	1	10	per_kg	{"food-form":17,"lifestage":27,"health-feature":133}	31
+siamese	Siamese Adult 2kg	royal-canin-siamese-adult-2kg	10	1	2551	2 kg	2602020	10500	9000	1	2	per_kg	{"food-form":17,"lifestage":27}	34
+urinary-so	Urinary S/O Index Cat 7kg	royal-canin-urinary-so-index-cat-7kg	10	1	3901	7 kg	RC-URINARY-SO-7KG	29000	25000	1	7	per_kg	{"food-form":17,"lifestage":27,"special-diet":97,"health-feature":135}	32
+satiety	Satiety Weight Mgmt Cat 3.5kg	royal-canin-satiety-weight-mgmt-cat-3-5kg	10	1	3943	3.5 kg	RC-SATIETY-3.5KG	16500	14500	1	3.5	per_kg	{"food-form":17,"lifestage":27,"special-diet":97,"health-feature":137}	33
+instinctive	Instinctive 12x85g	royal-canin-instinctive-12x85g	11	2	4059	Gravy 12 x 85 g	2862001	8600	7500	3	1.02	fixed	{"food-form":18,"lifestage":27,"texture":139}	43
+kitten-gravy	Kitten Gravy 12x85g	royal-canin-kitten-gravy-12x85g	11	2	4058	12 x 85 g	2861001	8600	7500	3	1.02	fixed	{"food-form":18,"lifestage":26,"texture":139,"health-feature":119}	44
+sterilised-wet	Sterilised 12x85g	royal-canin-sterilised-12x85g	11	2	4095	Gravy 12 x 85 g	2870001	8600	7500	3	1.02	fixed	{"food-form":18,"lifestage":27,"texture":139,"special-diet":102,"health-feature":137}	45
+sterilised-wet	Sterilised 12x85g	royal-canin-sterilised-12x85g	11	2	4156	Jelly 12 x 85 g	2879001	8600	7500	2	1.02	fixed	{"food-form":18,"lifestage":27,"texture":140,"special-diet":102,"health-feature":137}	46
+instinctive	Instinctive 12x85g	royal-canin-instinctive-12x85g	11	2	4074	Jelly 12 x 85 g	2867001	8600	7500	2	1.02	fixed	{"food-form":18,"lifestage":27,"texture":140}	47
+hairball-gravy	Hairball Care Gravy 12x85g	royal-canin-hairball-care-gravy-12x85g	11	2	4158	12 x 85 g	2880001	8600	7500	2	1.02	fixed	{"food-form":18,"lifestage":27,"health-feature":114,"texture":139}	48
+sensory-smell	Sensory Smell 12x85g	royal-canin-sensory-smell-12x85g	11	2	1517	12 x 85 g	2840001	8600	7500	2	1.02	fixed	{"food-form":18,"lifestage":27,"texture":139}	49
+sensory-taste	Sensory Taste 12x85g	royal-canin-sensory-taste-12x85g	11	2	1518	12 x 85 g	2840003	8600	7500	2	1.02	fixed	{"food-form":18,"lifestage":27,"texture":139}	50
+renal-chicken	Renal Chicken Pouch 12x85g	royal-canin-renal-chicken-pouch-12x85g	11	2	4030	12 x 85 g	RC-RENAL-CHICKEN-12X85G	8600	7500	1	1.02	fixed	{"food-form":18,"lifestage":27,"flavor":36,"special-diet":97,"health-feature":121,"packaging":148,"texture":139}	51
+urinary-care-wet	Urinary Care Gravy 12x85g	royal-canin-urinary-care-gravy-12x85g	11	2	4157	12 x 85 g	2881001	8600	7500	1	1.02	fixed	{"food-form":18,"lifestage":27,"health-feature":135,"texture":139}	52
+mother-babycat	Mother & Babycat Can 195g	royal-canin-mother-babycat-can-195g	11	2	4098	195 g	2871002	2300	2000	6	0.195	fixed	{"product-weight":4,"food-form":18,"lifestage":26,"texture":144,"health-feature":127,"packaging":147}	53
+babycat-milk	Babycat Milk 300g	royal-canin-babycat-milk-300g	11	4	2553	300 g	2001001	9200	8000	3	0.3	fixed	{"food-form":22,"lifestage":26,"health-feature":119}	54
