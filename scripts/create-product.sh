@@ -3,7 +3,8 @@
 #
 #   scripts/create-product.sh payloads/rc-mini.json
 #
-# Payload shape (see CLAUDE.md for the full variant field list):
+# Payload shape (reference/admin-api.md has the full variant field list;
+# price = hafo sale price, cost_price = CSV price — reference/pricing.md):
 # {
 #   "name": "Royal Canin Mini", "slug": "royal-canin-mini",
 #   "category_ids": [3], "brand_id": 7, "attribute_family_id": 1,
@@ -29,6 +30,8 @@ jq -e '(.variants // []) | all(
           (.pricing_type == "fixed"  and (.price // 0) > 0) or
           (.pricing_type == "per_kg" and (.price_per_kg // 0) > 0 and (.weight // 0) > 0)))' "$payload" >/dev/null \
   || die "every variant needs sku plus either pricing_type:\"fixed\" + price, or pricing_type:\"per_kg\" + price_per_kg + weight"
+
+price_guard "$(jq -c '.variants // []' "$payload")"
 
 name=$(jq -r .name "$payload")
 existing=$(api GET "/products?search=$(urlencode "$name")" | jq -r '.data[] | "\(.id)\t\(.name)"')

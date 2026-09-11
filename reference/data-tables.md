@@ -237,7 +237,7 @@ url is worse.
 > size, diet and health claims — so a facet reading only the default variant
 > still returns the right products. It would only mis-answer a
 > **Product Weight** filter. Still worth confirming, together with the
-> multi-value question on `special-diet` / `health-feature` in CLAUDE.md.
+> multi-value question on `special-diet` / `health-feature` in `reference/admin-api.md`.
 
 ---
 
@@ -270,7 +270,7 @@ converted `2.27 kg` for a real SKU.
 
 If a brand concept has no attribute here, do **not** invent one: leave the field
 blank and report it under "wanted but missing" so the user decides (attribute
-vocabulary is curated by hand — see CLAUDE.md).
+vocabulary is curated by hand — see `reference/admin-api.md`).
 
 ---
 
@@ -312,4 +312,4 @@ variants for exactly this reason.
 `weight` (or the generated weight value) instead of hand-tagged attributes only?
 If yes, `product-weight` can come off every weight-priced variant with no
 exception. Same bucket of backend questions as the multi-value
-`special-diet`/`health-feature` one in CLAUDE.md.
+`special-diet`/`health-feature` one in `reference/admin-api.md`.

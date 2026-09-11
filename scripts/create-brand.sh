@@ -4,11 +4,16 @@
 #   scripts/create-brand.sh "Farmina" 'https://www.farmina.com/…/logo.png'
 #   scripts/create-brand.sh "Farmina" ./logo.png
 #   scripts/create-brand.sh "Farmina" 42                  # an existing media id
-#   scripts/create-brand.sh "Farmina"                     # no logo (API allows it,
+#   NO_LOGO=1 scripts/create-brand.sh "Farmina"           # no logo (API allows it,
 #                                                         #   the UI marks it required)
+#
+# The logo should be a file you have already looked at — run it through
+# scripts/fetch-logo.sh and Read the image first. A brand is a shared reference:
+# a wrong logo shows up on every product of that brand.
 #
 # Slug defaults to the kebab-cased name; pass a third arg to override.
 # Env: FORCE=1 create even though a similar brand exists ·
+#      NO_LOGO=1 deliberately create without a logo (to be filled in later) ·
 #      KEEP_ALPHA=1 keep logo transparency (default: flattened onto white,
 #      because the storefront composites transparent images on black) ·
 #      META_DESC="…" meta description (default: "<Name> pet food and products").
@@ -46,7 +51,12 @@ if [[ -n $near ]]; then
   [[ ${FORCE:-} == 1 ]] || exit 1
 fi
 
-# Logo → media id.
+# Logo → media id. Refuse to create a logo-less brand by accident: the field is
+# required in the UI, and a brand created blank tends to stay blank.
+if [[ -z $logo && ${NO_LOGO:-} != 1 ]]; then
+  die "no logo given — find the brand's official logo first (scripts/fetch-logo.sh <url…>, then look at it), or NO_LOGO=1 to create the brand without one and flag it for the user"
+fi
+
 media=null
 if [[ -n $logo ]]; then
   if [[ $logo =~ ^[0-9]+$ ]]; then
@@ -71,3 +81,9 @@ note "created brand $id"
 # Read back from the live list — that is what the product form reads.
 api GET '/brands?forProducts=true' | jq -r --argjson i "$id" '
   .data[] | select(.id == $i) | "brand \(.id)\t\(.name)\tslug=\(.slug // "-")\timage=\(.image // "none")"'
+
+# …and where the logo actually ended up, so it can be opened and checked.
+if [[ $media != null ]]; then
+  url=$(media_url "$media") || url=""
+  note "logo media $media${url:+  $url}"
+fi

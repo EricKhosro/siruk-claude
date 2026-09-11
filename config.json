@@ -1,0 +1,150 @@
+{
+  "_comment": [
+    "Pacing / retry knobs for everything in scripts/. All times are SECONDS",
+    "(decimals allowed). Edit this file — the scripts read it on every call, no",
+    "restart needed. Env vars win over the file: SIRUK_DELAY, SIRUK_CHUNK_SIZE,",
+    "SIRUK_CHUNK_PAUSE, SIRUK_MEDIA_DELAY, SIRUK_RETRIES, MAX_PX.",
+    "SIRUK_NO_PACE=1 disables all waiting for one command (single ad-hoc calls).",
+    "SIRUK_CONFIG=/path/other.json points at a different config file.",
+    "Turn any knob off with 0."
+  ],
+  "request": {
+    "_comment": "Applies to every JSON API call (api.sh and everything built on it).",
+    "delay_seconds": 0.6,
+    "jitter_seconds": 0.3,
+    "chunk_size": 15,
+    "chunk_pause_seconds": 5,
+    "idle_reset_seconds": 120,
+    "timeout_seconds": 60,
+    "connect_timeout_seconds": 15
+  },
+  "retry": {
+    "_comment": "Automatic retry with exponential backoff. Applies to API calls and media uploads.",
+    "attempts": 4,
+    "backoff_seconds": 2,
+    "backoff_factor": 2,
+    "max_backoff_seconds": 30,
+    "retry_on_status": [
+      408,
+      425,
+      429,
+      500,
+      502,
+      503,
+      504
+    ],
+    "retry_on_network_error": true
+  },
+  "media": {
+    "_comment": "Uploads are the heavy calls (multipart + server-side thumbnail/webp generation) — pace them harder than plain API calls.",
+    "delay_seconds": 2,
+    "jitter_seconds": 0.5,
+    "chunk_size": 5,
+    "chunk_pause_seconds": 15,
+    "max_pixels": 2000,
+    "verify": {
+      "_comment": "The demo server sometimes returns a media id whose file was never written (silent 404 on the storage URL, found 2026-08-13). After each upload, fetch the media record and HEAD its URL before trusting the id.",
+      "enabled": true,
+      "wait_seconds": 1,
+      "attempts": 3,
+      "delete_broken": true,
+      "retry_upload": true,
+      "upload_attempts": 2
+    }
+  },
+  "product": {
+    "_comment": "pause_seconds is the breather between two CSV rows in an import run — call scripts/pace.sh product between products.",
+    "pause_seconds": 3
+  },
+  "images": {
+    "_comment": [
+      "Ordered fallback chain for product photos, read by scripts/enrich-images.py.",
+      "A source may only be used when the match is keyed to the article code or the",
+      "EAN that resolves to it (CLAUDE.md rule 7) — never a name match. Lower rank",
+      "wins the gallery order, and images[0] is the feature image, so a source that",
+      "cannot prove its first picture is a clean packshot must not rank 1.",
+      "hafo is last and watermarked: every variant that ends up on it is written to",
+      "runs/<date>/needs-image.csv as the hand-replacement worklist (rule 7a).",
+      "Approved by the PM 2026-09-11; the evaluation of the 21 candidates is in",
+      "runs/2026-09-11/image-source-candidates.md.",
+      "2026-09-11: trixie-es and zoovet added (user request). zoovet is the only source whose match is NOT article-keyed — require_confirmation means a human confirms identity before its picture is attached."
+    ],
+    "require_article_key": true,
+    "min_pixels": 500,
+    "sources": [
+      {
+        "id": "brand-site",
+        "enabled": true,
+        "_comment": "trixie.de + its CDN and the country domains (trixie.es, scripts/trixie-es.py), monge.it / monge.shop by EAN, schesir.com, neoterica.ru … (reference/brand-sites.md). Ranked by the file-name prefix where the brand has one."
+      },
+      {
+        "id": "trixie-es",
+        "enabled": true,
+        "brands": [
+          "Trixie"
+        ],
+        "kind": "html-search",
+        "site": "https://www.trixie.es",
+        "lookup_script": "scripts/trixie-es.py",
+        "cache": ".siruk-cache/trixie-es.json",
+        "key": "the page's own `ref` cell (Trixie's article) + the article in the file name",
+        "_note": "Trixie's Spanish company (ePages). Keeps its own 1500x1500 copies of the official photos and has the articles trixie.de dropped — 16 of the 38 hafo-placeholder variants of 2026-09-11 were found there. Wired into scripts/trixie-image.sh, which asks it whenever .de gives no packshot or fewer than three files (TRIXIE_ES=0 / =always).",
+        "rank_first_image": 3,
+        "rank_other_images": 4,
+        "refresh_days": 30,
+        "delay_seconds": 0.4
+      },
+      {
+        "id": "trixie-shop",
+        "enabled": true,
+        "brands": [
+          "Trixie"
+        ],
+        "kind": "shopify",
+        "catalogue_url": "https://trixie.shop/products.json?limit=250&page={page}",
+        "index_script": "scripts/trixie-shop-index.py",
+        "cache": ".siruk-cache/trixie-shop-art-images.json",
+        "key": "variant.sku, and the article number inside the image file name",
+        "exclude_filename_contains": [
+          "created-with-AI"
+        ],
+        "refresh_days": 30,
+        "delay_seconds": 0.8
+      },
+      {
+        "id": "trixiecz",
+        "enabled": true,
+        "brands": [
+          "Trixie"
+        ],
+        "kind": "html-index",
+        "site": "https://www.trixiecz.cz",
+        "index_script": "scripts/trixiecz-index.py",
+        "cache": ".siruk-cache/trixiecz-index.json",
+        "key": "data-code (our article) + data-ean on every product page",
+        "_note": "The sitemap omits most discontinued stock; the id sweep (--sweep, ids z1…z18000) is what reaches it — 4,687 articles vs 2,433 from the sitemap. Images are the originals the lightbox links to (_0, 1000-1920 px); the file names carry no article, so the page's `Kód` is the key and the pictures rank under every brand shot.",
+        "rank_first_image": 4,
+        "rank_other_images": 5,
+        "refresh_days": 30,
+        "parallel": 12
+      },
+      {
+        "id": "zoovet",
+        "enabled": true,
+        "site": "https://zoovet.am",
+        "lookup_script": "scripts/zoovet-lookup.py",
+        "requires_hand_confirmation": true,
+        "_comment": "CLAUDE.md rule 7b: unwatermarked brand packshots, but zoovet carries no article code (its ME-… number collides with brand articles), so every hit stays a candidate until a human confirms it. A confirmed zoovet photo is a finished image and leads the gallery like a brand shot — which is why it is not ranked automatically here. reference/zoovet.md."
+      },
+      {
+        "id": "hafo",
+        "enabled": true,
+        "watermarked": true,
+        "rank": 9,
+        "gallery_position": "last",
+        "use_when": "the earlier sources gave the variant fewer than two pictures",
+        "log_to": "runs/<date>/needs-image.csv"
+      }
+    ]
+  }
+}

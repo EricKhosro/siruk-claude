@@ -225,6 +225,6 @@ families (Royal/Monge/Orijen Dry Food) die with the wipe.
 
 ## After the wipe + recreate
 
-Refresh `reference/attribute-values.json` (command in CLAUDE.md) so the import
+Refresh `reference/attribute-values.json` (`scripts/refresh-attributes.sh`) so the import
 picks from the new menu. The import skill needs no changes — it reads whatever
 the menu file contains.

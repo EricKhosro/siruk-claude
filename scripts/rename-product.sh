@@ -9,7 +9,7 @@
 # guards as add-variant.sh. Never hand-write the PUT body.
 #
 # Product names must NOT contain the brand: the storefront prints the brand
-# before the name (see CLAUDE.md → Admin product form).
+# before the name (see reference/product-rules.md).
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/lib.sh"
 

@@ -1,0 +1,45 @@
+=== IMAGES Fri Sep 11 15:05:24 +04 2026
+=== POST Fri Sep 11 16:23:03 +04 2026 — 471 products
+--- backfill translations
+product 797 [ru]: name='SMART растительный комкующийся наполнитель для кошек, 11 л'  variants=1  OK
+product 797 [hy]: name='SMART բուսական գնդվող լցանյութ կատուների համար, 11 լ'  variants=1  OK
+
+products processed: 471
+--- verify translations
+products: 471  categories: 65  brands: 30
+product: 0 missing translation(s)
+category: 0 missing translation(s)
+brand: 0 missing translation(s)
+attribute names / value labels / family names / variant labels: NOT translatable on this backend (see reference/admin-api.md)
+--- verify media
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+
+1655 references, 1651 distinct media, 1 broken, 0 repaired, 1 still broken
+report: /Users/conceptmacmini01/Documents/Projects/Siruk-claude/.siruk-cache/media-check.json
+--- feature image audit
+ 792 Oral Care Spray with Silver Ions,                 FLAG unknown
+ 793 Eye Cleansing Lotion with Silver I                FLAG unknown
+ 794 Ear Cleansing Lotion with Silver I                FLAG unknown
+ 795 Hairball Malt Paste, 75 ml                        FLAG unknown
+ 796 SMART Clumping Plant-Based Cat Lit                FLAG unknown
+ 797 SMART Clumping Plant-Based Cat Lit                FLAG unknown
+
+524 variants in 471 products · 0 variants / 0 products to reorder · 249 flagged → runs/2026-09-11/needs-packshot.csv
+--- hafo price check
+ 796 SMART Clumping Plant-Based Cat Litter, 5 1101413:3850→3850 match
+ 797 SMART Clumping Plant-Based Cat Litter, 1 1101213:7700→7700 match
+
+== summary == {'match': 516, 'sibling match': 2, 'not on hafo under gemon': 1, 'not on hafo': 4, 'not on hafo under monge': 1} 
+→ /Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-09-11/price-check.csv
+0 variant(s) would be updated; run with --apply
+--- csvs + report
+no-hafo-price.csv 178
+not-found.csv 37
+sibling-priced.csv 1
+blocked-no-category.csv 7
+needs-image.csv 32
+needs-packshot.csv 9
+report.md 1052 lines; ids: 603
+=== FINISH DONE Fri Sep 11 19:36:16 +04 2026

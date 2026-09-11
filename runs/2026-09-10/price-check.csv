@@ -1,0 +1,3 @@
+product_id,product,variant,sku,siruk_price,siruk_cost,pricing_type,hafo_listing,hafo_sku,hafo_price,hafo_wholesale,hafo_change_price,hafo_stock,flags,status
+326,Paté Adult 150 g,Beef & Peas 150 g,009257,480,355,fixed,7333 pashtet-shneri-hamar-tavari-msov-ev-siserov,009257,480,355,480,536,,match
+326,Paté Adult 150 g,Chicken & Liver 150 g,009267,480,355,fixed,,,480,,,,priced from sibling 009257 (not on hafo),sibling match

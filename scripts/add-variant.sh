@@ -19,7 +19,11 @@ source "$(dirname "${BASH_SOURCE[0]}")/lib.sh"
 id=$1 vfile=$2
 [[ -f $vfile ]] || die "no such file: $vfile"
 jq -e 'type == "object"' "$vfile" >/dev/null || die "$vfile must be a single variant object"
-jq -e '.sku and .price' "$vfile" >/dev/null || die "variant needs at least sku and price"
+jq -e '.sku and (
+        ((.pricing_type // "fixed") == "fixed"  and (.price // 0) > 0) or
+        (.pricing_type == "per_kg" and (.price_per_kg // 0) > 0 and (.weight // 0) > 0))' "$vfile" >/dev/null \
+  || die "variant needs sku plus either pricing_type:\"fixed\" + price, or pricing_type:\"per_kg\" + price_per_kg + weight"
+price_guard "$(jq -c '[.]' "$vfile")"
 jq -e 'has("id") | not' "$vfile" >/dev/null || die "variant must not carry an \"id\" — that would edit an existing one"
 
 before=$(api GET "/products/$id")

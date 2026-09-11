@@ -10,7 +10,7 @@ Siruk admin. Input (inline list, file path, or "from redesign doc" =
 
 $ARGUMENTS
 
-Read `CLAUDE.md` first (credentials, API notes). For large batches (>15
+Read `CLAUDE.md` first (credentials), then `reference/admin-api.md` (API notes, live ids). For large batches (>15
 creations), delegate to the `attribute-manager` agent instead of doing it
 inline — pass it the exact list and these rules.
 
@@ -37,13 +37,14 @@ see `scripts/README.md`. The paths below are what to pass it.
   renames in place; value ids/labels and family membership survive, and each
   value's derived `name` re-derives from the new code. Verified 2026-08-12
   (`size`/"Size" → `product-weight`/"Product Weight").
-- Create family: **endpoint not yet verified.** Try
-  `POST /attribute-families` `{name, code, attribute_ids:[...]}` (also try
-  `attributes:[{id,position}]` if that 422s). If both fail, capture the real
-  payload from the admin UI network tab while creating one family manually,
-  then append the verified shape to CLAUDE.md.
-- Delete (only on explicit user ask, see Safety): try
-  `DELETE /attribute-values/<id>`, `DELETE /attributes/<id>`,
+- Create family (verified 2026-09-09): `POST /attribute-families`
+  `{name, code, sortOrder, attribute_ids:[...]}`. An `attributes` array (the
+  shape the API returns) is **silently ignored** — you get 201 with an empty
+  family. Read back `attributes` to confirm.
+- Delete (only on explicit user ask, see Safety): `DELETE /attributes/<id>`
+  → 204 (verified 2026-09-10; variants referencing it silently lose that key,
+  so check multi-variant products for now-identical combinations first). Try
+  `DELETE /attribute-values/<id>`,
   `DELETE /attribute-families/<id>` (other admin resources use this pattern;
   products verified → 204).
 
@@ -73,7 +74,19 @@ see `scripts/README.md`. The paths below are what to pass it.
    `GET /attributes?forProducts=true`, atomic write).
 6. **Report**: table of created (name → id), skipped-as-duplicate,
    flagged near-matches/questions, and any endpoint discoveries appended to
-   CLAUDE.md.
+   `reference/admin-api.md`.
+
+## Translations
+
+Attribute names, value labels and family names are **single-language** on this
+backend (verified 2026-09-10 — a `locale` PUT rewrites the one stored label;
+the admin UI's Ru/Hy tabs show the same label because there is only one).
+Create them in English only, and **never describe attribute values as
+translated** — the label a user sees under Ru/Hy is the English one until
+the backend stores labels per locale. Put the ru/hy wording for every new value into
+`reference/translations-attributes.json` so `scripts/translate-attributes.py`
+can apply it once the backend stores per-locale labels (it probes and refuses
+until then).
 
 ## Safety
 
