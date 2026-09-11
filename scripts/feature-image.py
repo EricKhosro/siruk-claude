@@ -6,12 +6,16 @@ product alone / in its own pack on a plain background — no animal, no hand, no
 scene, no group of siblings. A lifestyle or group shot may lead only when the
 product has nothing clean at all; those go to needs-packshot.csv for the user.
 
-Classification is by the media FILENAME (Trixie CDN convention):
+Classification is by the media FILENAME. Two conventions are known —
+Trixie's CDN prefixes and Champion Petfoods' (Acana / Orijen) view-in-the-name:
     PHO_PRO_CLIP_*   packshot   rank 1   clean
     PHO_PAC_CLIP_*   pack       rank 2   clean
     PHO_PRO_GROUP*   group      rank 4   not clean
     GRA_*            drawing    rank 5   not clean
     PHO_PRO_<other>  lifestyle  rank 3   not clean (DOG/CAT/… = animal playing)
+    *Front Right*    packshot   rank 1   clean    (Champion: bag alone on white)
+    *Back*           pack       rank 2   clean    (Champion: back of the same bag)
+    *Bowl/Features/New Look*    lifestyle  rank 3   not clean (Champion graphics)
     anything else    unknown    rank 3   must be checked by eye (--sheet)
 Filenames are the ones the media library stores; nothing is guessed from a
 product name. Reordering only moves ids around — no image is dropped or added.
@@ -60,11 +64,20 @@ def api(method, path, payload=None):
 
 def classify(fname):
     f = fname or ""
+    # Trixie CDN convention
     if re.match(r"PHO_PRO_CLIP_", f): return "packshot", 1
     if re.match(r"PHO_PAC_CLIP_", f): return "pack", 2
     if re.match(r"PHO_PRO_GROUP", f): return "group", 4
     if re.match(r"GRA_", f): return "drawing", 5
     if re.match(r"PHO_PRO_[A-Z]+_", f): return "lifestyle", 3
+    # Champion Petfoods (Acana / Orijen, emea.*.com) name the view in the file:
+    # "… Front Right 6kg EMEA APAC", "… Back 9.7kg …". Both are the bag alone on
+    # white. "Bowl Image" / "Features" / "Key Features" / "New Look" are graphics.
+    # Verified by eye 2026-09-11 across the 23-product Acana/Orijen import.
+    if re.search(r"(?i)\bfront[-_ ]?(right|left)?\b", f): return "packshot", 1
+    if re.search(r"(?i)\bback\b", f): return "pack", 2
+    if re.search(r"(?i)\b(bowl|key[-_ ]?features?|features?|new[-_ ]?look|benefits|wholeprey|ingredients)\b", f):
+        return "lifestyle", 3
     return "unknown", 3
 
 
