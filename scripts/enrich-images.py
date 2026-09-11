@@ -56,6 +56,15 @@ TRIXIE_RANK = {"PHO_PRO_CLIP": 1, "PHO_PAC_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO
 # trailing supplier digit (300607 -> …300605, 300617 -> …300612: EAN-13 check
 # digits make the run look irregular), and the file also names the line, the
 # flavour and the pack, which is what rule 7 asks for.
+# Hand-verified images for articles the brand's own sites do not picture, found by
+# EAN (hafo row barcode) on catalogues that name the file after the EAN, and looked
+# at one by one before writing (rule 7, fallback level 2). Kept as data so a rebuild
+# never drops them: reference/recovered-images.json.
+def _recovered():
+    p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reference", "recovered-images.json")
+    return json.load(open(p)) if os.path.exists(p) else {}
+
+
 OVERRIDE = {
             # ok-lock.pet (the brand's own site) shows both packs, and each file is
             # the pack whose size is printed on it — looked at 2026-09-11
@@ -70,7 +79,8 @@ OVERRIDE = {
             # article, the invoice and hafo's own row all say poultry — use Monge's
             # own picture of the adult dog chunks with chicken instead (2026-09-11)
             "390807": ["https://www.monge.it/wp-content/uploads/2020/06/monge_cane_umido_leos_bocconi_con_pollo_adult.jpg"]}
-DENY = {"390807"}          # articles whose hafo photo shows the wrong flavour
+DENY = {"390807"}
+_RECOVERED = _recovered()
 
 
 def load(p, d=None):
@@ -205,7 +215,7 @@ def build():
                         ranked.append((rank, len(ranked), url)); src[url] = where
 
                 mine = (rowbar.get(code) or {}).get("barcode", "")
-                for u in OVERRIDE.get(code, []):
+                for u in OVERRIDE.get(code, []) + _RECOVERED.get(code, []):
                     add(u, 1, "monge.it (line/flavour/pack in the file name)")
                 for i, u in enumerate(v.get("images") or []):        # what the planner already found
                     if wrong_ean(u, mine):

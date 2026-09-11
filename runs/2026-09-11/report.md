@@ -12,10 +12,10 @@ Request: *import every product from csv/products.csv if it's not already added*.
 
 | Plan | Products planned | Variants | Products created | Failed | Pending | Rows without hafo price | Rows not found | Rows blocked (no category) | Variants without image |
 |---|---|---|---|---|---|---|---|---|---|
-| Trixie | 496 | 500 | 427 | 0 | 69 | 161 | 11 | 0 | 109 |
+| Trixie | 496 | 500 | 496 | 0 | 0 | 161 | 11 | 0 | 109 |
 | Monge group | 100 | 144 | 100 | 0 | 0 | 8 | 0 | 0 | 17 |
 | Small brands | 76 | 80 | 76 | 0 | 0 | 9 | 21 | 7 | 2 |
-| **Total** | 672 | 724 | 603 | 0 | 69 | 178 | 32 | 7 | 128 |
+| **Total** | 672 | 724 | 672 | 0 | 0 | 178 | 32 | 7 | 128 |
 
 Every created variant carries **cost = CSV buy price** and **sale price = the hafo.am row for its own article code** (`price_source: variant`, `wholesale_price == cost`); the one sibling-priced row is in `sibling-priced.csv`. Stock: the CSV quantity, 10 where the invoice says 1 (placeholder rule). Everything else that could not be settled by the rules is in the CSVs below — nothing was invented.
 
@@ -460,75 +460,75 @@ Columns: admin id · product (slug) · variant label [article code] · invoice n
 | 935 | Comfort Soft Harness, S: 33–50 cm/20 mm, blush (`trixie-comfort-soft-harness-s-33-50-cm-20-mm-blush`) | S: 33–50 cm/20 mm, blush [162735Tx] **no image** | Շլեյկա շների համար S 33-50սմ 20մմ, վարդագույն-blush/67921 | 4935 → 7900 | 69 | fallback: hafo/invoice | — |
 | 936 | Comfort Soft Harness, S–M: 35–60 cm/20 mm, black (`trixie-comfort-soft-harness-s-m-35-60-cm-20-mm-black`) | S–M: 35–60 cm/20 mm, black [16281Tx] **no image** | Շլեյկա շների համար S–M 35-60սմ 20մմ սև | 5655 → 9050 | 69 | fallback: hafo/invoice | — |
 | 937 | BE NORDIC Leather Collar with Metal Buckle, XS–S: 30–36 cm/15 mm, sand (`trixie-be-nordic-leather-collar-with-metal-buckle-xs-s-30-36-cm-15-mm-sand`) | XS–S: 30–36 cm/15 mm, sand [17501Tx] **no image** | Վզնոց` կաշվե BE NORDIC, մետաղյա գառռով, ավազի գույն, XS–S, 30–36 սմ/15 մմ | 2810 → 4500 | 69 | fallback: hafo/invoice | — |
-| pending | Active Comfort Leather Collar with Rhinestones, S–M: 27–33 cm/15 mm, pink (`trixie-active-comfort-leather-collar-with-rhinestones-s-m-27-33-cm-15-mm-pink`) | S–M: 27–33 cm/15 mm, pink [19033Tx] **no image** | Վզնոց կաշվե` Active Comfort, քարիկներով, S–M, 27–33սմ/15մմ, վարդագույն | 5000 → 8000 | 69 | fallback: hafo/invoice | — |
-| pending | Active Comfort Leather Collar with Rhinestones, XS–S: 20–24 cm/12 mm, white (`trixie-active-comfort-leather-collar-with-rhinestones-xs-s-20-24-cm-12-mm-white`) | XS–S: 20–24 cm/12 mm, white [19021Tx] **no image** | Վզնոց կաշվե` Active Comfort, քարիկներով, XS–S, 20–24սմ/12մմ, սպիտակ | 4655 → 7450 | 69 | fallback: hafo/invoice | — |
-| pending | Active Comfort Leather Collar with Rhinestones, XXS–XS: 17–21 cm/12 mm, pink (`trixie-active-comfort-leather-collar-with-rhinestones-xxs-xs-17-21-cm-12-mm-pink`) | XXS–XS: 17–21 cm/12 mm, pink [19030Tx] **no image** | Վզնոց կաշվե` Active Comfort, քարիկներով, XXS–XS, 17–21սմ/12մմ, վարդագույն | 4530 → 7250 | 69 | fallback: hafo/invoice | — |
-| pending | Adjustable Harness, XXS–XS: 26–38 cm/10 mm, purple (`trixie-adjustable-harness-xxs-xs-26-38-cm-10-mm-purple`) | XXS–XS: 26–38 cm/10 mm, purple [202021Tx] **no image** | Շլեյկա` շների համար կարգավորվող, XXS-XS-26–38 սմ/10մմ/մանուշակագույն/41954 | 2500 → 4000 | 69 | fallback: hafo/invoice | — |
-| pending | BE NORDIC Leather Collar (`trixie-be-nordic-leather-collar`) | S, 35–41 cm/15 mm, light grey [17510Tx] | Վզնոց` կաշվե BE NORDIC, մետաղյա գառռով, մոխրագույն, S, 35–41 սմ/15 մմ | 3090 → 4950 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/be-nordic-leather-collar-1001435549-1001437759?itemNo=17500) | — |
-| pending | BE NORDIC Leather Collar with Metal Buckle, M: 45–51 cm/20 mm, sand (`trixie-be-nordic-leather-collar-with-metal-buckle-m-45-51-cm-20-mm-sand`) | M: 45–51 cm/20 mm, sand [17531Tx] **no image** | Վզնոց` կաշվե BE NORDIC, մետաղյա գառռով, ավազի գույն, 45-51 սմ/20 մմ/M | 4215 → 6750 | 69 | fallback: hafo/invoice | — |
-| pending | Chain Collar, chrome-plated, 70 cm/4 mm (`trixie-chain-collar-chrome-plated-70-cm-4-mm`) | 70 cm/4 mm [2154Tx] | Վզնոց մետաղական 4մմ 70սմ քրոմապատ | 1715 → 2750 | 69 | fallback: hafo/invoice | — |
-| pending | Choke Chain, chrome-plated, 78 cm/4 mm (`trixie-choke-chain-chrome-plated-78-cm-4-mm`) | 78 cm/4 mm [2155Tx] | Վզնոց մետաղական խեղդող 4մմ 78սմ քրոմապատ | 1965 → 3150 | 69 | fallback: hafo/invoice | — |
-| pending | CityStyle Collar, M–L, 40–47 cm/25 mm, black (`trixie-citystyle-collar-m-l-40-47-cm-25-mm-black`) | M–L, 40–47 cm/25 mm, black [1971601Tx] **no image** | Վզնոց CityStyle PVC, Էլաստիկ, M-L, 40-47սմ/25 մմ/65932/սև | 2715 → 4350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/citystyle-collar-1001435549-1001437701?itemNo=1971901) | — |
-| pending | CityStyle Collar, XS–S, 25–32 cm/20 mm, black (`trixie-citystyle-collar-xs-s-25-32-cm-20-mm-black`) | XS–S, 25–32 cm/20 mm, black [1971901Tx] **no image** | Վզնոց CityStyle PVC, Էլաստիկ, XS-S, 25-32սմ/20 մմ/68064/սև | 2280 → 3650 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/citystyle-collar-1001435549-1001437701?itemNo=1971901) | — |
-| pending | CityStyle Lead (`trixie-citystyle-lead`) | S–M, 1.20 m/13 mm, black [1970001Tx] | Զգեստիկ CityStyle,բամբակյա, կարգավորվող, S–M, 1.20մ*13մմ/68133/սև | 4590 → 7350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/citystyle-lead-1001435547-1001437321?itemNo=1970001) | — |
-| pending | Easy Life Tracking Lead (`trixie-easy-life-tracking-lead`) | S–M, 5 m/13 mm, ocean [19950Tx] | Զգեստիկ` M–L, հարթ գոտիով, Էլաստիկ, 5մ/13 մմ կապույտ` ocean | 3905 → 6250 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/easy-life-tracking-lead-1001435547-1001437434?itemNo=19950) | — |
-| pending | Flat Cotton Lead, 5.00 m/20 mm, green (`trixie-flat-cotton-lead-5-00-m-20-mm-green`) | 5.00 m/20 mm, green [19904Tx] **no image** | Զգեստիկ հարթ գոտիով, բամբակյա, կանաչ 5մ 20 մմ | 2250 → 3600 | 69 | fallback: hafo/invoice | — |
-| pending | Greased Leather Collar Rustic Heartbeat, M, 38–47 cm/40 mm, black (`trixie-greased-leather-collar-rustic-heartbeat-m-38-47-cm-40-mm-black`) | M, 38–47 cm/40 mm, black [18985Tx] | Վզնոց` բնական կաշվից, M չափ/38–47 սմ/40 մմ, սև | 5250 → 8400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-heartbeat-1001435549-1001437832?itemNo=19014) | — |
-| pending | Greased Leather Collar Rustic Heartbeat, M, 38–47 cm/40 mm, brown (`trixie-greased-leather-collar-rustic-heartbeat-m-38-47-cm-40-mm-brown`) | M, 38–47 cm/40 mm, brown [19015Tx] | Վզնոց` բնական կաշվից, M չափ/38–47 սմ/40 մմ, շագանակագույն | 5250 → 8400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-heartbeat-1001435549-1001437832?itemNo=19014) | — |
-| pending | Greased Leather Collar Rustic Heartbeat, S–M, 34–40 cm/30 mm, black (`trixie-greased-leather-collar-rustic-heartbeat-s-m-34-40-cm-30-mm-black`) | S–M, 34–40 cm/30 mm, black [18984Tx] **no image** | Վզնոց` բնական կաշվից, S–M չափ/34–40 սմ/30 մմ, սև | 4435 → 7100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-heartbeat-1001435549-1001437832?itemNo=19014) | — |
-| pending | Greased Leather Collar Rustic, L, 48–56 cm/30 mm, dark brown (`trixie-greased-leather-collar-rustic-l-48-56-cm-30-mm-dark-brown`) | L, 48–56 cm/30 mm, dark brown [19008Tx] | Վզնոց` բնական կաշվից, L չափ/48–56 սմ/30 մմ, շագանակագույն, մետաղյա գառռով | 4185 → 6700 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
-| pending | Greased Leather Collar Rustic, M, 37–44 cm/25 mm, dark brown (`trixie-greased-leather-collar-rustic-m-37-44-cm-25-mm-dark-brown`) | M, 37–44 cm/25 mm, dark brown [19006Tx] | Վզնոց` բնական կաշվից, M չափ/37–44 սմ/25 մմ, շագանակագույն, մետաղյա գառռով | 3250 → 5200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
-| pending | Greased Leather Collar Rustic, M–L, 42–48 cm/25 mm, dark brown (`trixie-greased-leather-collar-rustic-m-l-42-48-cm-25-mm-dark-brown`) | M–L, 42–48 cm/25 mm, dark brown [19007Tx] | Վզնոց` բնական կաշվից, M–L չափ/42–48 սմ/25 մմ, շագանակագույն, մետաղյա գառռով | 3560 → 5700 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
-| pending | Greased Leather Collar Rustic, S–M, 34–40 cm/25 mm, dark brown (`trixie-greased-leather-collar-rustic-s-m-34-40-cm-25-mm-dark-brown`) | S–M, 34–40 cm/25 mm, dark brown [19005Tx] | Վզնոց` բնական կաշվից, S-M չափ/34–40 սմ/25 մմ, շագանակագույն, մետաղյա գառռով | 3625 → 4800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
-| pending | Junior Puppy Tracking Lead, round (`trixie-junior-puppy-tracking-lead-round`) | XXS–XS, 4 m/ø 4 mm, red [19930Tx] | Զգեստիկ պարանից` ձագերի համար, 4մ/4մմ, XXS-XS, կարմիր | 2125 → 3400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/junior-puppy-tracking-lead-round-1001435547-1001437476?itemNo=19930) | — |
-| pending | Nylon Lead with Rubber Handle, S–M: 5.00 m/15 mm, fuchsia (`trixie-nylon-lead-with-rubber-handle-s-m-5-00-m-15-mm-fuchsia`) | S–M: 5.00 m/15 mm, fuchsia [19783Tx] **no image** | Զգեստիկ` նեյլոնե, ռետինե բռնակով, S–M, 5մ/15մմ, վարդագույն` fuchsia | 2905 → 4650 | 69 | fallback: hafo/invoice | — |
-| pending | Premium Adjustable Collar, L–XL: 40–65 cm/25 mm, mint (`trixie-premium-adjustable-collar-l-xl-40-65-cm-25-mm-mint`) | L–XL: 40–65 cm/25 mm, mint [201724Tx] **no image** | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ, կանաչ-մյատա/43116 | 1530 → 2450 | 69 | fallback: hafo/invoice | — |
-| pending | Premium Collar, L–XL, 40–65 cm/25 mm, black (`trixie-premium-collar-l-xl-40-65-cm-25-mm-black`) | L–XL, 40–65 cm/25 mm, black [201701Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ սև 20171 | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, L–XL, 40–65 cm/25 mm, fuchsia (`trixie-premium-collar-l-xl-40-65-cm-25-mm-fuchsia`) | L–XL, 40–65 cm/25 mm, fuchsia [201711Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ վարդագույն` fuchsia | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, L–XL, 40–65 cm/25 mm, red (`trixie-premium-collar-l-xl-40-65-cm-25-mm-red`) | L–XL, 40–65 cm/25 mm, red [201703Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ կարմիր | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, L–XL, 40–65 cm/25 mm, royal blue (`trixie-premium-collar-l-xl-40-65-cm-25-mm-royal-blue`) | L–XL, 40–65 cm/25 mm, royal blue [201702Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ Էլեկտրիկ կապույտ | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, M–L, 35–55 cm/20 mm, black (`trixie-premium-collar-m-l-35-55-cm-20-mm-black`) | M–L, 35–55 cm/20 mm, black [201601Tx] | Վզնոց նեյլոնե, կարգավորվող M–L 35–55սմ 20 մմ սև | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, M–L, 35–55 cm/20 mm, olive green (`trixie-premium-collar-m-l-35-55-cm-20-mm-olive-green`) | M–L, 35–55 cm/20 mm, olive green [201633Tx] | Վզնոց նեյլոնե, կարգավորվող M–L/5–55 սմ*20 մմ/կանաչ-olive green/67103 | 1200 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, M–L, 35–55 cm/20 mm, red (`trixie-premium-collar-m-l-35-55-cm-20-mm-red`) | M–L, 35–55 cm/20 mm, red [201603Tx] | Վզնոց նեյլոնե, կարգավորվող M–L 35–55սմ 20 մմ կարմիր | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, M–L, 35–55 cm/20 mm, royal blue (`trixie-premium-collar-m-l-35-55-cm-20-mm-royal-blue`) | M–L, 35–55 cm/20 mm, royal blue [201602Tx] | Վզնոց նեյլոնե, կարգավորվող M–L 35–55սմ 20 մմ Էլեկտրիկ կապույտ | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, S, 25–40 cm/15 mm, fuchsia (`trixie-premium-collar-s-25-40-cm-15-mm-fuchsia`) | S, 25–40 cm/15 mm, fuchsia [202211Tx] | Վզնոց նեյլոնե, կարգավորվող S 25–40 սմ 15 մմ վարդագույն` fuchsia | 840 → 1350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, S, 25–40 cm/15 mm, red (`trixie-premium-collar-s-25-40-cm-15-mm-red`) | S, 25–40 cm/15 mm, red [202203Tx] | Վզնոց նեյլոնե, կարգավորվող S 25–40 սմ 15 մմ կարմիր 20223 | 840 → 1350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, S, 25–40 cm/15 mm, royal blue (`trixie-premium-collar-s-25-40-cm-15-mm-royal-blue`) | S, 25–40 cm/15 mm, royal blue [202202Tx] | Վզնոց նեյլոնե, կարգավորվող S 25–40 սմ 15 մմ Էլեկտրիկ կապույտ 20222 | 840 → 1350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, S–M, 30–45 cm/15 mm, black (`trixie-premium-collar-s-m-30-45-cm-15-mm-black`) | S–M, 30–45 cm/15 mm, black [201501Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ սև | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, S–M, 30–45 cm/15 mm, fuchsia (`trixie-premium-collar-s-m-30-45-cm-15-mm-fuchsia`) | S–M, 30–45 cm/15 mm, fuchsia [201511Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ վարդագույն` fuchsia | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, S–M, 30–45 cm/15 mm, red (`trixie-premium-collar-s-m-30-45-cm-15-mm-red`) | S–M, 30–45 cm/15 mm, red [201503Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ կարմիր | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, S–M, 30–45 cm/15 mm, royal blue (`trixie-premium-collar-s-m-30-45-cm-15-mm-royal-blue`) | S–M, 30–45 cm/15 mm, royal blue [201502Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ Էլեկտրիկ կապույտ | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, XS–S, 22–35 cm/10 mm, black (`trixie-premium-collar-xs-s-22-35-cm-10-mm-black`) | XS–S, 22–35 cm/10 mm, black [201401Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ սև | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, XS–S, 22–35 cm/10 mm, fuchsia (`trixie-premium-collar-xs-s-22-35-cm-10-mm-fuchsia`) | XS–S, 22–35 cm/10 mm, fuchsia [201411Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ վարդագույն` fuchsia 01954 | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, XS–S, 22–35 cm/10 mm, red (`trixie-premium-collar-xs-s-22-35-cm-10-mm-red`) | XS–S, 22–35 cm/10 mm, red [201403Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ կարմիր | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, XS–S, 22–35 cm/10 mm, royal blue (`trixie-premium-collar-xs-s-22-35-cm-10-mm-royal-blue`) | XS–S, 22–35 cm/10 mm, royal blue [201402Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ Էլեկտրիկ կապույտ | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, XXS–XS, 15–25 cm/10 mm, black (`trixie-premium-collar-xxs-xs-15-25-cm-10-mm-black`) | XXS–XS, 15–25 cm/10 mm, black [202101Tx] | Վզնոց նեյլոնե, կարգավորվող XXS–XS 15-25 սմ 10 մմ սև 20211 | 685 → 1100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, XXS–XS, 15–25 cm/10 mm, red (`trixie-premium-collar-xxs-xs-15-25-cm-10-mm-red`) | XXS–XS, 15–25 cm/10 mm, red [202103Tx] | Վզնոց նեյլոնե, կարգավորվող XXS–XS 15-25 սմ 10 մմ կարմիր | 685 → 1100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Collar, XXS–XS, 15–25 cm/10 mm, royal blue (`trixie-premium-collar-xxs-xs-15-25-cm-10-mm-royal-blue`) | XXS–XS, 15–25 cm/10 mm, royal blue [202102Tx] | Վզնոց նեյլոնե, կարգավորվող XXS–XS 15-25 սմ 10 մմ Էլեկտրիկ կապույտ | 685 → 1100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
-| pending | Premium Semi-Choke Collar, S–M, 30–40 cm/15 mm, black (`trixie-premium-semi-choke-collar-s-m-30-40-cm-15-mm-black`) | S–M, 30–40 cm/15 mm, black [202701Tx] | Վզնոց-չոկեր, նեյլոնե շղթայով S–M 30–40 սմ 15 մմ սև 20271 | 1340 → 2150 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-semi-choke-collar-1001435549-1001437687?itemNo=202701) | — |
-| pending | Premium Semi-Choke Collar, S–M, 30–40 cm/15 mm, red (`trixie-premium-semi-choke-collar-s-m-30-40-cm-15-mm-red`) | S–M, 30–40 cm/15 mm, red [202703Tx] | Վզնոց-չոկեր, նեյլոնե շղթայով S–M 30–40 սմ 15 մմ կարմիր | 1340 → 2150 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-semi-choke-collar-1001435549-1001437687?itemNo=202701) | — |
-| pending | Premium Touring Harness, L, 60–100 cm/25 mm, royal blue (`trixie-premium-touring-harness-l-60-100-cm-25-mm-royal-blue`) | L, 60–100 cm/25 mm, royal blue [204102Tx] | Շլեյկա նեյլոնե, L 60–100 սմ 25 մմ/կապույտ-royal blue/20412 | 4530 → 7250 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-touring-harness-1001435551-1001437883?itemNo=203601) | — |
-| pending | Premium Touring Harness, S, 35–65 cm/20 mm, sand (`trixie-premium-touring-harness-s-35-65-cm-20-mm-sand`) | S, 35–65 cm/20 mm, sand [203736Tx] | Շլեյկա շների համար կարգավորվող S 35–65 սմ 20 մմ ավազագույն-sand/67716 | 3090 → 4950 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-touring-harness-1001435551-1001437883?itemNo=203601) | — |
-| pending | Premium Touring Harness, XS–S, 30–55 cm/15 mm, petrol (`trixie-premium-touring-harness-xs-s-30-55-cm-15-mm-petrol`) | XS–S, 30–55 cm/15 mm, petrol [203632Tx] | Շլեյկա շների համար կարգավորվող XS–S 30–40 սմ 15 մմ բենզինի գույն-petrol/67708 | 2655 → 4250 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-touring-harness-1001435551-1001437883?itemNo=203601) | — |
-| pending | Premium Trekking Harness, S, 36–44 cm/15 mm, blush/graphite (`trixie-premium-trekking-harness-s-36-44-cm-15-mm-blush-graphite`) | S, 36–44 cm/15 mm, blush/graphite [1997035Tx] | Շլեյկա` Premium Trekking, S /36-44 մմ/15 մմ, վարդագույն/գրաֆիտ/67889 | 5340 → 8550 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
-| pending | Premium Trekking Harness, S–M, 44–53 cm/20 mm, curry/graphite (`trixie-premium-trekking-harness-s-m-44-53-cm-20-mm-curry-graphite`) | S–M, 44–53 cm/20 mm, curry/graphite [1997129Tx] | Շլեյկա` Premium Trekking, S–M/44-53 սմ/20 մմ, կարրի գույն/գրաֆիտ/67884 | 5750 → 9200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
-| pending | Premium Trekking Harness, S–M, 44–53 cm/20 mm, sand/graphite (`trixie-premium-trekking-harness-s-m-44-53-cm-20-mm-sand-graphite`) | S–M, 44–53 cm/20 mm, sand/graphite [1997136Tx] | Շլեյկա` Premium Trekking, S–M/44-53 սմ/20 մմ, ավազագույն/մոխրագույն/67878 | 5750 → 9200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
-| pending | Premium Trekking Harness, XS–S, 32–38 cm/13 mm, sage/graphite (`trixie-premium-trekking-harness-xs-s-32-38-cm-13-mm-sage-graphite`) | XS–S, 32–38 cm/13 mm, sage/graphite [1996934Tx] | Շլեյկա` Premium Trekking, XS-S /32-38 սմ/13 մմ, խակ կանաչ/մոխրագույն/67991 | 5250 → 8400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
-| pending | Rustic Greased Leather Collar Rivets, extra wide (`trixie-rustic-greased-leather-collar-rivets-extra-wide`) | M, 38–47 cm/40 mm, dark brown [18974Tx] | Վզնոց` բնական կաշվից, M չափ/38–47 սմ/40 մմ, մուգ շագանակագույն | 7935 → 12700 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/rustic-greased-leather-collar-rivets-extra-wide-1001435549-1001439336?itemNo=18973) | — |
-| pending | Semi-Choke Collar with Nylon Chain, M–L: 35–50 cm/20 mm, grey (`trixie-semi-choke-collar-with-nylon-chain-m-l-35-50-cm-20-mm-grey`) | M–L: 35–50 cm/20 mm, grey [202816Tx] **no image** | Վզնոց-չոկեր, նեյլոնե շղթայով M–L 35–50 սմ 20 մմ մոխրագույն/02144 | 1560 → 2500 | 69 | fallback: hafo/invoice | — |
-| pending | Semi-Choke Collar with Nylon Chain, M–L: 35–50 cm/20 mm, royal blue (`trixie-semi-choke-collar-with-nylon-chain-m-l-35-50-cm-20-mm-royal-blue`) | M–L: 35–50 cm/20 mm, royal blue [202802Tx] **no image** | Վզնոց-չոկեր, նեյլոնե շղթայով M–L/35–50սմ/20մմ/Էլեկտրիկ կապույտ/20282 | 1560 → 2500 | 69 | fallback: hafo/invoice | — |
-| pending | Semi-Choke Collar with Nylon Chain, S–M: 30–40 cm/15 mm, orchid (`trixie-semi-choke-collar-with-nylon-chain-s-m-30-40-cm-15-mm-orchid`) | S–M: 30–40 cm/15 mm, orchid [202720Tx] **no image** | Վզնոց-չոկեր, նեյլոնե շղթայով, S–M/30–40 սմ/15 մմ/մանուշակագույն-orchid/02495 | 1340 → 2150 | 69 | fallback: hafo/invoice | — |
-| pending | Soft Rope Adjustable Lead (`trixie-soft-rope-adjustable-lead`) | XS–S, 2.00 m/ø 6 mm, red/cream [1985203Tx] | Զգեստիկ հյուսված, XS-S, 2 մ/6 մմ, կարմիր/կրեմագույն/68115 | 7500 → 12000 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-adjustable-lead-1001435547-1001437418?itemNo=1984101) | — |
-| pending | Soft Rope Lead, M–L, 1.00 m/ø 10 mm, black/grey (`trixie-soft-rope-lead-m-l-1-00-m-10-mm-black-grey`) | M–L, 1.00 m/ø 10 mm, black/grey [1984001Tx] | Զգեստիկ հյուսված, M-L, 1 մ/10 մմ, սև/մոխրագույն/66359 | 7500 → 12000 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-lead-1001435547-1001437414?itemNo=1985001) | — |
-| pending | Soft Rope Lead, M–L, 1.00 m/ø 10 mm, red/cream (`trixie-soft-rope-lead-m-l-1-00-m-10-mm-red-cream`) | M–L, 1.00 m/ø 10 mm, red/cream [1984003Tx] | Զգեստիկ հյուսված, M-L, 1 մ/10 մմ, կարմիր/կրեմագույն/66360 | 7500 → 12000 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-lead-1001435547-1001437414?itemNo=1985001) | — |
-| pending | Soft Rope Lead, XS–S, 1.20 m/ø 6 mm, black/grey (`trixie-soft-rope-lead-xs-s-1-20-m-6-mm-black-grey`) | XS–S, 1.20 m/ø 6 mm, black/grey [1985001Tx] **no image** | Զգեստիկ հյուսված, XS-S, 1.2 մ/6 մմ, սև/մոխրագույն/68109 | 4780 → 7650 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-lead-1001435547-1001437414?itemNo=1985001) | — |
-| pending | Tape Lead, S–M: 5.00 m/15 mm, sangria (`trixie-tape-lead-s-m-5-00-m-15-mm-sangria`) | S–M: 5.00 m/15 mm, sangria [197894Tx] **no image** | Զգեստիկ S-M 5մ/15մմ մանուշակագույն/sangria | 3280 → 5250 | 69 | fallback: hafo/invoice | — |
-| pending | Tracking Lead (`trixie-tracking-lead`) | M, 5 m/20 mm, black [19901Tx] | Զգեստիկ հարթ գոտիով, բամբակյա, սև 5մ 20 մմ | 2250 → 3600 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/tracking-lead-1001435547-1001437456?itemNo=19901) | — |
-| pending | Tracking Lead, extra light-weight (`trixie-tracking-lead-extra-light-weight`) | XS–S, 5 m/10 mm, rust [198060Tx] | Զգեստիկ XS-S 5մ/10մմ, դարչնագույն | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/tracking-lead-extra-light-weight-1001435547-1001437462?itemNo=19800) | — |
-| pending | Y-Harness, M–L: 65–80 cm/20 mm, red (`trixie-y-harness-m-l-65-80-cm-20-mm-red`) | M–L: 65–80 cm/20 mm, red [1998603Tx] **no image** | Շլեյկա` Y-harness, M-L/65-80 սմ/20 մմ, կարմիր/40532 | 7685 → 12300 | 69 | fallback: hafo/invoice | — |
-| pending | Y-Harness, S: 42–50 cm/15 mm, black (`trixie-y-harness-s-42-50-cm-15-mm-black`) | S: 42–50 cm/15 mm, black [1998301Tx] **no image** | Շլեյկա` Y-harness, S/42-50 սմ/15 մմ, սև/40539 | 6655 → 10650 | 69 | fallback: hafo/invoice | — |
-| pending | Y-Harness, S–M: 50–60 cm/15 mm, indigo (`trixie-y-harness-s-m-50-60-cm-15-mm-indigo`) | S–M: 50–60 cm/15 mm, indigo [1998413Tx] **no image** | Շլեյկա` Y-harness, S–M/50-60 սմ/15 մմ, կապույտ-indigo/40556 | 6905 → 11050 | 69 | fallback: hafo/invoice | — |
-| pending | Y-Harness, XS–S: 37–45 cm/15 mm, green (`trixie-y-harness-xs-s-37-45-cm-15-mm-green`) | XS–S: 37–45 cm/15 mm, green [1998219Tx] **no image** | Շլեյկա` Y-harness, XS–S/37–45 սմ/15 մմ, կանաչ/40528 | 6405 → 10250 | 69 | fallback: hafo/invoice | — |
+| 938 | BE NORDIC Leather Collar (`trixie-be-nordic-leather-collar`) | S, 35–41 cm/15 mm, light grey [17510Tx] | Վզնոց` կաշվե BE NORDIC, մետաղյա գառռով, մոխրագույն, S, 35–41 սմ/15 մմ | 3090 → 4950 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/be-nordic-leather-collar-1001435549-1001437759?itemNo=17500) | — |
+| 939 | BE NORDIC Leather Collar with Metal Buckle, M: 45–51 cm/20 mm, sand (`trixie-be-nordic-leather-collar-with-metal-buckle-m-45-51-cm-20-mm-sand`) | M: 45–51 cm/20 mm, sand [17531Tx] **no image** | Վզնոց` կաշվե BE NORDIC, մետաղյա գառռով, ավազի գույն, 45-51 սմ/20 մմ/M | 4215 → 6750 | 69 | fallback: hafo/invoice | — |
+| 940 | Rustic Greased Leather Collar Rivets, extra wide (`trixie-rustic-greased-leather-collar-rivets-extra-wide`) | M, 38–47 cm/40 mm, dark brown [18974Tx] | Վզնոց` բնական կաշվից, M չափ/38–47 սմ/40 մմ, մուգ շագանակագույն | 7935 → 12700 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/rustic-greased-leather-collar-rivets-extra-wide-1001435549-1001439336?itemNo=18973) | — |
+| 941 | Greased Leather Collar Rustic Heartbeat, S–M, 34–40 cm/30 mm, black (`trixie-greased-leather-collar-rustic-heartbeat-s-m-34-40-cm-30-mm-black`) | S–M, 34–40 cm/30 mm, black [18984Tx] **no image** | Վզնոց` բնական կաշվից, S–M չափ/34–40 սմ/30 մմ, սև | 4435 → 7100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-heartbeat-1001435549-1001437832?itemNo=19014) | — |
+| 942 | Greased Leather Collar Rustic Heartbeat, M, 38–47 cm/40 mm, black (`trixie-greased-leather-collar-rustic-heartbeat-m-38-47-cm-40-mm-black`) | M, 38–47 cm/40 mm, black [18985Tx] | Վզնոց` բնական կաշվից, M չափ/38–47 սմ/40 մմ, սև | 5250 → 8400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-heartbeat-1001435549-1001437832?itemNo=19014) | — |
+| 943 | Greased Leather Collar Rustic, S–M, 34–40 cm/25 mm, dark brown (`trixie-greased-leather-collar-rustic-s-m-34-40-cm-25-mm-dark-brown`) | S–M, 34–40 cm/25 mm, dark brown [19005Tx] | Վզնոց` բնական կաշվից, S-M չափ/34–40 սմ/25 մմ, շագանակագույն, մետաղյա գառռով | 3625 → 4800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
+| 944 | Greased Leather Collar Rustic, M, 37–44 cm/25 mm, dark brown (`trixie-greased-leather-collar-rustic-m-37-44-cm-25-mm-dark-brown`) | M, 37–44 cm/25 mm, dark brown [19006Tx] | Վզնոց` բնական կաշվից, M չափ/37–44 սմ/25 մմ, շագանակագույն, մետաղյա գառռով | 3250 → 5200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
+| 945 | Greased Leather Collar Rustic, M–L, 42–48 cm/25 mm, dark brown (`trixie-greased-leather-collar-rustic-m-l-42-48-cm-25-mm-dark-brown`) | M–L, 42–48 cm/25 mm, dark brown [19007Tx] | Վզնոց` բնական կաշվից, M–L չափ/42–48 սմ/25 մմ, շագանակագույն, մետաղյա գառռով | 3560 → 5700 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
+| 946 | Greased Leather Collar Rustic, L, 48–56 cm/30 mm, dark brown (`trixie-greased-leather-collar-rustic-l-48-56-cm-30-mm-dark-brown`) | L, 48–56 cm/30 mm, dark brown [19008Tx] | Վզնոց` բնական կաշվից, L չափ/48–56 սմ/30 մմ, շագանակագույն, մետաղյա գառռով | 4185 → 6700 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-1001435549-1001437825?itemNo=19004) | — |
+| 947 | Greased Leather Collar Rustic Heartbeat, M, 38–47 cm/40 mm, brown (`trixie-greased-leather-collar-rustic-heartbeat-m-38-47-cm-40-mm-brown`) | M, 38–47 cm/40 mm, brown [19015Tx] | Վզնոց` բնական կաշվից, M չափ/38–47 սմ/40 մմ, շագանակագույն | 5250 → 8400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/greased-leather-collar-rustic-heartbeat-1001435549-1001437832?itemNo=19014) | — |
+| 948 | Active Comfort Leather Collar with Rhinestones, XS–S: 20–24 cm/12 mm, white (`trixie-active-comfort-leather-collar-with-rhinestones-xs-s-20-24-cm-12-mm-white`) | XS–S: 20–24 cm/12 mm, white [19021Tx] **no image** | Վզնոց կաշվե` Active Comfort, քարիկներով, XS–S, 20–24սմ/12մմ, սպիտակ | 4655 → 7450 | 69 | fallback: hafo/invoice | — |
+| 949 | Active Comfort Leather Collar with Rhinestones, XXS–XS: 17–21 cm/12 mm, pink (`trixie-active-comfort-leather-collar-with-rhinestones-xxs-xs-17-21-cm-12-mm-pink`) | XXS–XS: 17–21 cm/12 mm, pink [19030Tx] **no image** | Վզնոց կաշվե` Active Comfort, քարիկներով, XXS–XS, 17–21սմ/12մմ, վարդագույն | 4530 → 7250 | 69 | fallback: hafo/invoice | — |
+| 950 | Active Comfort Leather Collar with Rhinestones, S–M: 27–33 cm/15 mm, pink (`trixie-active-comfort-leather-collar-with-rhinestones-s-m-27-33-cm-15-mm-pink`) | S–M: 27–33 cm/15 mm, pink [19033Tx] **no image** | Վզնոց կաշվե` Active Comfort, քարիկներով, S–M, 27–33սմ/15մմ, վարդագույն | 5000 → 8000 | 69 | fallback: hafo/invoice | — |
+| 951 | CityStyle Lead (`trixie-citystyle-lead`) | S–M, 1.20 m/13 mm, black [1970001Tx] | Զգեստիկ CityStyle,բամբակյա, կարգավորվող, S–M, 1.20մ*13մմ/68133/սև | 4590 → 7350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/citystyle-lead-1001435547-1001437321?itemNo=1970001) | — |
+| 952 | CityStyle Collar, M–L, 40–47 cm/25 mm, black (`trixie-citystyle-collar-m-l-40-47-cm-25-mm-black`) | M–L, 40–47 cm/25 mm, black [1971601Tx] **no image** | Վզնոց CityStyle PVC, Էլաստիկ, M-L, 40-47սմ/25 մմ/65932/սև | 2715 → 4350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/citystyle-collar-1001435549-1001437701?itemNo=1971901) | — |
+| 953 | CityStyle Collar, XS–S, 25–32 cm/20 mm, black (`trixie-citystyle-collar-xs-s-25-32-cm-20-mm-black`) | XS–S, 25–32 cm/20 mm, black [1971901Tx] **no image** | Վզնոց CityStyle PVC, Էլաստիկ, XS-S, 25-32սմ/20 մմ/68064/սև | 2280 → 3650 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/citystyle-collar-1001435549-1001437701?itemNo=1971901) | — |
+| 954 | Nylon Lead with Rubber Handle, S–M: 5.00 m/15 mm, fuchsia (`trixie-nylon-lead-with-rubber-handle-s-m-5-00-m-15-mm-fuchsia`) | S–M: 5.00 m/15 mm, fuchsia [19783Tx] **no image** | Զգեստիկ` նեյլոնե, ռետինե բռնակով, S–M, 5մ/15մմ, վարդագույն` fuchsia | 2905 → 4650 | 69 | fallback: hafo/invoice | — |
+| 955 | Tape Lead, S–M: 5.00 m/15 mm, sangria (`trixie-tape-lead-s-m-5-00-m-15-mm-sangria`) | S–M: 5.00 m/15 mm, sangria [197894Tx] **no image** | Զգեստիկ S-M 5մ/15մմ մանուշակագույն/sangria | 3280 → 5250 | 69 | fallback: hafo/invoice | — |
+| 956 | Tracking Lead, extra light-weight (`trixie-tracking-lead-extra-light-weight`) | XS–S, 5 m/10 mm, rust [198060Tx] | Զգեստիկ XS-S 5մ/10մմ, դարչնագույն | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/tracking-lead-extra-light-weight-1001435547-1001437462?itemNo=19800) | — |
+| 957 | Soft Rope Lead, M–L, 1.00 m/ø 10 mm, black/grey (`trixie-soft-rope-lead-m-l-1-00-m-10-mm-black-grey`) | M–L, 1.00 m/ø 10 mm, black/grey [1984001Tx] | Զգեստիկ հյուսված, M-L, 1 մ/10 մմ, սև/մոխրագույն/66359 | 7500 → 12000 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-lead-1001435547-1001437414?itemNo=1985001) | — |
+| 958 | Soft Rope Lead, M–L, 1.00 m/ø 10 mm, red/cream (`trixie-soft-rope-lead-m-l-1-00-m-10-mm-red-cream`) | M–L, 1.00 m/ø 10 mm, red/cream [1984003Tx] | Զգեստիկ հյուսված, M-L, 1 մ/10 մմ, կարմիր/կրեմագույն/66360 | 7500 → 12000 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-lead-1001435547-1001437414?itemNo=1985001) | — |
+| 959 | Soft Rope Lead, XS–S, 1.20 m/ø 6 mm, black/grey (`trixie-soft-rope-lead-xs-s-1-20-m-6-mm-black-grey`) | XS–S, 1.20 m/ø 6 mm, black/grey [1985001Tx] **no image** | Զգեստիկ հյուսված, XS-S, 1.2 մ/6 մմ, սև/մոխրագույն/68109 | 4780 → 7650 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-lead-1001435547-1001437414?itemNo=1985001) | — |
+| 960 | Soft Rope Adjustable Lead (`trixie-soft-rope-adjustable-lead`) | XS–S, 2.00 m/ø 6 mm, red/cream [1985203Tx] | Զգեստիկ հյուսված, XS-S, 2 մ/6 մմ, կարմիր/կրեմագույն/68115 | 7500 → 12000 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/soft-rope-adjustable-lead-1001435547-1001437418?itemNo=1984101) | — |
+| 961 | Tracking Lead (`trixie-tracking-lead`) | M, 5 m/20 mm, black [19901Tx] | Զգեստիկ հարթ գոտիով, բամբակյա, սև 5մ 20 մմ | 2250 → 3600 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/tracking-lead-1001435547-1001437456?itemNo=19901) | — |
+| 962 | Flat Cotton Lead, 5.00 m/20 mm, green (`trixie-flat-cotton-lead-5-00-m-20-mm-green`) | 5.00 m/20 mm, green [19904Tx] **no image** | Զգեստիկ հարթ գոտիով, բամբակյա, կանաչ 5մ 20 մմ | 2250 → 3600 | 69 | fallback: hafo/invoice | — |
+| 963 | Junior Puppy Tracking Lead, round (`trixie-junior-puppy-tracking-lead-round`) | XXS–XS, 4 m/ø 4 mm, red [19930Tx] | Զգեստիկ պարանից` ձագերի համար, 4մ/4մմ, XXS-XS, կարմիր | 2125 → 3400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/junior-puppy-tracking-lead-round-1001435547-1001437476?itemNo=19930) | — |
+| 965 | Easy Life Tracking Lead (`trixie-easy-life-tracking-lead`) | S–M, 5 m/13 mm, ocean [19950Tx] | Զգեստիկ` M–L, հարթ գոտիով, Էլաստիկ, 5մ/13 մմ կապույտ` ocean | 3905 → 6250 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-leashes/easy-life-tracking-lead-1001435547-1001437434?itemNo=19950) | — |
+| 966 | Premium Trekking Harness, XS–S, 32–38 cm/13 mm, sage/graphite (`trixie-premium-trekking-harness-xs-s-32-38-cm-13-mm-sage-graphite`) | XS–S, 32–38 cm/13 mm, sage/graphite [1996934Tx] | Շլեյկա` Premium Trekking, XS-S /32-38 սմ/13 մմ, խակ կանաչ/մոխրագույն/67991 | 5250 → 8400 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
+| 968 | Premium Trekking Harness, S, 36–44 cm/15 mm, blush/graphite (`trixie-premium-trekking-harness-s-36-44-cm-15-mm-blush-graphite`) | S, 36–44 cm/15 mm, blush/graphite [1997035Tx] | Շլեյկա` Premium Trekking, S /36-44 մմ/15 մմ, վարդագույն/գրաֆիտ/67889 | 5340 → 8550 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
+| 970 | Premium Trekking Harness, S–M, 44–53 cm/20 mm, curry/graphite (`trixie-premium-trekking-harness-s-m-44-53-cm-20-mm-curry-graphite`) | S–M, 44–53 cm/20 mm, curry/graphite [1997129Tx] | Շլեյկա` Premium Trekking, S–M/44-53 սմ/20 մմ, կարրի գույն/գրաֆիտ/67884 | 5750 → 9200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
+| 972 | Premium Trekking Harness, S–M, 44–53 cm/20 mm, sand/graphite (`trixie-premium-trekking-harness-s-m-44-53-cm-20-mm-sand-graphite`) | S–M, 44–53 cm/20 mm, sand/graphite [1997136Tx] | Շլեյկա` Premium Trekking, S–M/44-53 սմ/20 մմ, ավազագույն/մոխրագույն/67878 | 5750 → 9200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-trekking-harness-1001435551-1001437872?itemNo=1996901) | — |
+| 973 | Y-Harness, XS–S: 37–45 cm/15 mm, green (`trixie-y-harness-xs-s-37-45-cm-15-mm-green`) | XS–S: 37–45 cm/15 mm, green [1998219Tx] **no image** | Շլեյկա` Y-harness, XS–S/37–45 սմ/15 մմ, կանաչ/40528 | 6405 → 10250 | 69 | fallback: hafo/invoice | — |
+| 975 | Y-Harness, S: 42–50 cm/15 mm, black (`trixie-y-harness-s-42-50-cm-15-mm-black`) | S: 42–50 cm/15 mm, black [1998301Tx] **no image** | Շլեյկա` Y-harness, S/42-50 սմ/15 մմ, սև/40539 | 6655 → 10650 | 69 | fallback: hafo/invoice | — |
+| 976 | Y-Harness, S–M: 50–60 cm/15 mm, indigo (`trixie-y-harness-s-m-50-60-cm-15-mm-indigo`) | S–M: 50–60 cm/15 mm, indigo [1998413Tx] **no image** | Շլեյկա` Y-harness, S–M/50-60 սմ/15 մմ, կապույտ-indigo/40556 | 6905 → 11050 | 69 | fallback: hafo/invoice | — |
+| 977 | Y-Harness, M–L: 65–80 cm/20 mm, red (`trixie-y-harness-m-l-65-80-cm-20-mm-red`) | M–L: 65–80 cm/20 mm, red [1998603Tx] **no image** | Շլեյկա` Y-harness, M-L/65-80 սմ/20 մմ, կարմիր/40532 | 7685 → 12300 | 69 | fallback: hafo/invoice | — |
+| 979 | Premium Collar, XS–S, 22–35 cm/10 mm, black (`trixie-premium-collar-xs-s-22-35-cm-10-mm-black`) | XS–S, 22–35 cm/10 mm, black [201401Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ սև | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 980 | Premium Collar, XS–S, 22–35 cm/10 mm, royal blue (`trixie-premium-collar-xs-s-22-35-cm-10-mm-royal-blue`) | XS–S, 22–35 cm/10 mm, royal blue [201402Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ Էլեկտրիկ կապույտ | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 981 | Premium Collar, XS–S, 22–35 cm/10 mm, red (`trixie-premium-collar-xs-s-22-35-cm-10-mm-red`) | XS–S, 22–35 cm/10 mm, red [201403Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ կարմիր | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 983 | Premium Collar, XS–S, 22–35 cm/10 mm, fuchsia (`trixie-premium-collar-xs-s-22-35-cm-10-mm-fuchsia`) | XS–S, 22–35 cm/10 mm, fuchsia [201411Tx] | Վզնոց նեյլոնե, կարգավորվող XS–S 22–35սմ 10մմ վարդագույն` fuchsia 01954 | 750 → 1200 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 984 | Premium Collar, S–M, 30–45 cm/15 mm, black (`trixie-premium-collar-s-m-30-45-cm-15-mm-black`) | S–M, 30–45 cm/15 mm, black [201501Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ սև | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 986 | Premium Collar, S–M, 30–45 cm/15 mm, royal blue (`trixie-premium-collar-s-m-30-45-cm-15-mm-royal-blue`) | S–M, 30–45 cm/15 mm, royal blue [201502Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ Էլեկտրիկ կապույտ | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 987 | Premium Collar, S–M, 30–45 cm/15 mm, red (`trixie-premium-collar-s-m-30-45-cm-15-mm-red`) | S–M, 30–45 cm/15 mm, red [201503Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ կարմիր | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 989 | Premium Collar, S–M, 30–45 cm/15 mm, fuchsia (`trixie-premium-collar-s-m-30-45-cm-15-mm-fuchsia`) | S–M, 30–45 cm/15 mm, fuchsia [201511Tx] | Վզնոց նեյլոնե, կարգավորվող S–M 30–45 սմ 15 մմ վարդագույն` fuchsia | 905 → 1450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 990 | Premium Collar, M–L, 35–55 cm/20 mm, black (`trixie-premium-collar-m-l-35-55-cm-20-mm-black`) | M–L, 35–55 cm/20 mm, black [201601Tx] | Վզնոց նեյլոնե, կարգավորվող M–L 35–55սմ 20 մմ սև | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 991 | Premium Collar, M–L, 35–55 cm/20 mm, royal blue (`trixie-premium-collar-m-l-35-55-cm-20-mm-royal-blue`) | M–L, 35–55 cm/20 mm, royal blue [201602Tx] | Վզնոց նեյլոնե, կարգավորվող M–L 35–55սմ 20 մմ Էլեկտրիկ կապույտ | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 992 | Premium Collar, M–L, 35–55 cm/20 mm, red (`trixie-premium-collar-m-l-35-55-cm-20-mm-red`) | M–L, 35–55 cm/20 mm, red [201603Tx] | Վզնոց նեյլոնե, կարգավորվող M–L 35–55սմ 20 մմ կարմիր | 1125 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 994 | Premium Collar, M–L, 35–55 cm/20 mm, olive green (`trixie-premium-collar-m-l-35-55-cm-20-mm-olive-green`) | M–L, 35–55 cm/20 mm, olive green [201633Tx] | Վզնոց նեյլոնե, կարգավորվող M–L/5–55 սմ*20 մմ/կանաչ-olive green/67103 | 1200 → 1800 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 995 | Premium Collar, L–XL, 40–65 cm/25 mm, black (`trixie-premium-collar-l-xl-40-65-cm-25-mm-black`) | L–XL, 40–65 cm/25 mm, black [201701Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ սև 20171 | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 996 | Premium Collar, L–XL, 40–65 cm/25 mm, royal blue (`trixie-premium-collar-l-xl-40-65-cm-25-mm-royal-blue`) | L–XL, 40–65 cm/25 mm, royal blue [201702Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ Էլեկտրիկ կապույտ | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 997 | Premium Collar, L–XL, 40–65 cm/25 mm, red (`trixie-premium-collar-l-xl-40-65-cm-25-mm-red`) | L–XL, 40–65 cm/25 mm, red [201703Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ կարմիր | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 998 | Premium Collar, L–XL, 40–65 cm/25 mm, fuchsia (`trixie-premium-collar-l-xl-40-65-cm-25-mm-fuchsia`) | L–XL, 40–65 cm/25 mm, fuchsia [201711Tx] | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ վարդագույն` fuchsia | 1530 → 2450 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 999 | Premium Adjustable Collar, L–XL: 40–65 cm/25 mm, mint (`trixie-premium-adjustable-collar-l-xl-40-65-cm-25-mm-mint`) | L–XL: 40–65 cm/25 mm, mint [201724Tx] **no image** | Վզնոց նեյլոնե, կարգավորվող L–XL 40–65 սմ 25 մմ, կանաչ-մյատա/43116 | 1530 → 2450 | 69 | fallback: hafo/invoice | — |
+| 1001 | Adjustable Harness, XXS–XS: 26–38 cm/10 mm, purple (`trixie-adjustable-harness-xxs-xs-26-38-cm-10-mm-purple`) | XXS–XS: 26–38 cm/10 mm, purple [202021Tx] **no image** | Շլեյկա` շների համար կարգավորվող, XXS-XS-26–38 սմ/10մմ/մանուշակագույն/41954 | 2500 → 4000 | 69 | fallback: hafo/invoice | — |
+| 1002 | Premium Collar, XXS–XS, 15–25 cm/10 mm, black (`trixie-premium-collar-xxs-xs-15-25-cm-10-mm-black`) | XXS–XS, 15–25 cm/10 mm, black [202101Tx] | Վզնոց նեյլոնե, կարգավորվող XXS–XS 15-25 սմ 10 մմ սև 20211 | 685 → 1100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 1003 | Premium Collar, XXS–XS, 15–25 cm/10 mm, royal blue (`trixie-premium-collar-xxs-xs-15-25-cm-10-mm-royal-blue`) | XXS–XS, 15–25 cm/10 mm, royal blue [202102Tx] | Վզնոց նեյլոնե, կարգավորվող XXS–XS 15-25 սմ 10 մմ Էլեկտրիկ կապույտ | 685 → 1100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 1004 | Premium Collar, XXS–XS, 15–25 cm/10 mm, red (`trixie-premium-collar-xxs-xs-15-25-cm-10-mm-red`) | XXS–XS, 15–25 cm/10 mm, red [202103Tx] | Վզնոց նեյլոնե, կարգավորվող XXS–XS 15-25 սմ 10 մմ կարմիր | 685 → 1100 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 1005 | Premium Collar, S, 25–40 cm/15 mm, royal blue (`trixie-premium-collar-s-25-40-cm-15-mm-royal-blue`) | S, 25–40 cm/15 mm, royal blue [202202Tx] | Վզնոց նեյլոնե, կարգավորվող S 25–40 սմ 15 մմ Էլեկտրիկ կապույտ 20222 | 840 → 1350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 1007 | Premium Collar, S, 25–40 cm/15 mm, red (`trixie-premium-collar-s-25-40-cm-15-mm-red`) | S, 25–40 cm/15 mm, red [202203Tx] | Վզնոց նեյլոնե, կարգավորվող S 25–40 սմ 15 մմ կարմիր 20223 | 840 → 1350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 1008 | Premium Collar, S, 25–40 cm/15 mm, fuchsia (`trixie-premium-collar-s-25-40-cm-15-mm-fuchsia`) | S, 25–40 cm/15 mm, fuchsia [202211Tx] | Վզնոց նեյլոնե, կարգավորվող S 25–40 սմ 15 մմ վարդագույն` fuchsia | 840 → 1350 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-collar-1001435549-1001437682?itemNo=202101) | — |
+| 1010 | Premium Semi-Choke Collar, S–M, 30–40 cm/15 mm, black (`trixie-premium-semi-choke-collar-s-m-30-40-cm-15-mm-black`) | S–M, 30–40 cm/15 mm, black [202701Tx] | Վզնոց-չոկեր, նեյլոնե շղթայով S–M 30–40 սմ 15 մմ սև 20271 | 1340 → 2150 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-semi-choke-collar-1001435549-1001437687?itemNo=202701) | — |
+| 1011 | Premium Semi-Choke Collar, S–M, 30–40 cm/15 mm, red (`trixie-premium-semi-choke-collar-s-m-30-40-cm-15-mm-red`) | S–M, 30–40 cm/15 mm, red [202703Tx] | Վզնոց-չոկեր, նեյլոնե շղթայով S–M 30–40 սմ 15 մմ կարմիր | 1340 → 2150 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-collars/premium-semi-choke-collar-1001435549-1001437687?itemNo=202701) | — |
+| 1012 | Semi-Choke Collar with Nylon Chain, S–M: 30–40 cm/15 mm, orchid (`trixie-semi-choke-collar-with-nylon-chain-s-m-30-40-cm-15-mm-orchid`) | S–M: 30–40 cm/15 mm, orchid [202720Tx] **no image** | Վզնոց-չոկեր, նեյլոնե շղթայով, S–M/30–40 սմ/15 մմ/մանուշակագույն-orchid/02495 | 1340 → 2150 | 69 | fallback: hafo/invoice | — |
+| 1013 | Semi-Choke Collar with Nylon Chain, M–L: 35–50 cm/20 mm, royal blue (`trixie-semi-choke-collar-with-nylon-chain-m-l-35-50-cm-20-mm-royal-blue`) | M–L: 35–50 cm/20 mm, royal blue [202802Tx] **no image** | Վզնոց-չոկեր, նեյլոնե շղթայով M–L/35–50սմ/20մմ/Էլեկտրիկ կապույտ/20282 | 1560 → 2500 | 69 | fallback: hafo/invoice | — |
+| 1014 | Semi-Choke Collar with Nylon Chain, M–L: 35–50 cm/20 mm, grey (`trixie-semi-choke-collar-with-nylon-chain-m-l-35-50-cm-20-mm-grey`) | M–L: 35–50 cm/20 mm, grey [202816Tx] **no image** | Վզնոց-չոկեր, նեյլոնե շղթայով M–L 35–50 սմ 20 մմ մոխրագույն/02144 | 1560 → 2500 | 69 | fallback: hafo/invoice | — |
+| 1016 | Premium Touring Harness, XS–S, 30–55 cm/15 mm, petrol (`trixie-premium-touring-harness-xs-s-30-55-cm-15-mm-petrol`) | XS–S, 30–55 cm/15 mm, petrol [203632Tx] | Շլեյկա շների համար կարգավորվող XS–S 30–40 սմ 15 մմ բենզինի գույն-petrol/67708 | 2655 → 4250 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-touring-harness-1001435551-1001437883?itemNo=203601) | — |
+| 1017 | Premium Touring Harness, S, 35–65 cm/20 mm, sand (`trixie-premium-touring-harness-s-35-65-cm-20-mm-sand`) | S, 35–65 cm/20 mm, sand [203736Tx] | Շլեյկա շների համար կարգավորվող S 35–65 սմ 20 մմ ավազագույն-sand/67716 | 3090 → 4950 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-touring-harness-1001435551-1001437883?itemNo=203601) | — |
+| 1019 | Premium Touring Harness, L, 60–100 cm/25 mm, royal blue (`trixie-premium-touring-harness-l-60-100-cm-25-mm-royal-blue`) | L, 60–100 cm/25 mm, royal blue [204102Tx] | Շլեյկա նեյլոնե, L 60–100 սմ 25 մմ/կապույտ-royal blue/20412 | 4530 → 7250 | 69 | [page](https://www.trixie.de/en/productworld/dog/leads-collars-harnesses/dog-harnesses/premium-touring-harness-1001435551-1001437883?itemNo=203601) | — |
+| 1020 | Chain Collar, chrome-plated, 70 cm/4 mm (`trixie-chain-collar-chrome-plated-70-cm-4-mm`) | 70 cm/4 mm [2154Tx] | Վզնոց մետաղական 4մմ 70սմ քրոմապատ | 1715 → 2750 | 69 | fallback: hafo/invoice | — |
+| 1022 | Choke Chain, chrome-plated, 78 cm/4 mm (`trixie-choke-chain-chrome-plated-78-cm-4-mm`) | 78 cm/4 mm [2155Tx] | Վզնոց մետաղական խեղդող 4մմ 78սմ քրոմապատ | 1965 → 3150 | 69 | fallback: hafo/invoice | — |
 
 ### Monge group
 
@@ -840,25 +840,26 @@ The first pass took only what the product page listed, which left 57 variants wi
 
 | Images on a variant | Variants |
 |---|---|
-| 1 | 34 |
-| 2 | 197 |
-| 3 | 67 |
-| 4 | 43 |
-| 5 | 41 |
-| 6 | 43 |
-| 7 | 26 |
-| 8 | 33 |
-| 9 | 21 |
+| 1 | 42 |
+| 2 | 212 |
+| 3 | 71 |
+| 4 | 69 |
+| 5 | 45 |
+| 6 | 47 |
+| 7 | 30 |
+| 8 | 48 |
+| 9 | 24 |
 | 10 | 15 |
 | 11 | 20 |
-| 12 | 19 |
+| 12 | 25 |
 | 13 | 6 |
-| 14 | 6 |
+| 14 | 10 |
 | 15 | 8 |
-| 16 | 5 |
+| 16 | 7 |
 | 17 | 5 |
 | 18 | 3 |
 | 19 | 2 |
+| 20 | 3 |
 | 21 | 5 |
 | 22 | 3 |
 | 23 | 2 |
@@ -866,104 +867,98 @@ The first pass took only what the product page listed, which left 57 variants wi
 | 26 | 2 |
 | 27 | 2 |
 | 28 | 2 |
-| 30 | 1 |
+| 30 | 3 |
 | 32 | 1 |
 | 33 | 1 |
 | 38 | 1 |
 | 39 | 1 |
 | 40 | 1 |
-| **total** | **623** |
+| 48 | 1 |
+| **total** | **724** |
 
 | Source | Images |
 |---|---|
-| brand page | 1182 |
-| trixie.shop (article in file name) | 1046 |
-| trixiecz.cz (Kód + EAN on the page) | 842 |
-| trixie CDN | 549 |
+| trixie.shop (article in file name) | 1513 |
+| brand page | 1296 |
+| trixiecz.cz (Kód + EAN on the page) | 875 |
+| trixie CDN | 567 |
 | hafo.am (watermarked placeholder — replace by hand) | 119 |
+| monge.it (line/flavour/pack in the file name) | 74 |
 | monge.it (EAN) | 50 |
-| monge.it (line/flavour/pack in the file name) | 5 |
 | monge.shop (EAN) | 2 |
 
-### Watermarked placeholder only — `runs/2026-09-11/needs-image.csv` (32)
+### Watermarked placeholder only — `runs/2026-09-11/needs-image.csv` (17)
 
 These carry a hafo photo and nothing else, so the whole gallery needs replacing. 38 are Trixie articles that have left the catalogue: no product page, nothing on the CDN (12 file prefixes × 26 indices × 10 name suffixes probed), and no sibling page carries them. Four are Gran Bontà cans in a pack size monge.it does not picture (it publishes 150 g, 300 g and 1230 g only). Price, text and attributes are complete; only the picture is a stand-in.
 
 | Code | Product | admin id |
 |---|---|---|
-| 00265Tx | Denta Fun Chew Bites with Mint, 150 g | 331 |
 | 041537 | Gran Bonta Adult Dog Meat 400 g | 660 |
-| 041587 | Gran Bonta Adult Dog Chicken & Turkey 400 g | 659 |
 | 041787 | Gran Bonta Chef Adult Dog Meat, Egg & Cheese 400 g | 663 |
 | 041887 | Gran Bonta Chef Adult Dog Beef 1250 g | 664 |
-| 17321Tx | BE NORDIC Bandana Collar, S: 30 cm, dark blue | 800 |
-| 17333Tx | BE NORDIC Bandana Collar, M: 40 cm, dark grey | 801 |
-| 17335Tx | BE NORDIC Bandana Collar, L: 50 cm, dark grey | 802 |
+| 12221Tx | Silver Reflect Collar with Paw Prints, XS–S: 22–35 cm/15 mm, grey/black | 919 |
+| 12224Tx | Silver Reflect Collar with Paw Prints, L–XL: 40–65 cm/25 mm, grey/black | 922 |
+| 19021Tx | Active Comfort Leather Collar with Rhinestones, XS–S: 20–24 cm/12 mm, white | 948 |
+| 1971601Tx | CityStyle Collar, M–L, 40–47 cm/25 mm, black | 952 |
+| 1971901Tx | CityStyle Collar, XS–S, 25–32 cm/20 mm, black | 953 |
+| 19783Tx | Nylon Lead with Rubber Handle, S–M: 5.00 m/15 mm, fuchsia | 954 |
+| 19904Tx | Flat Cotton Lead, 5.00 m/20 mm, green | 962 |
 | 200720Tx | Premium Adjustable Lead, XS–S: 2.00 m/15 mm, light lilac | 803 |
 | 201320Tx | Nylon Lead, XS: 2.00 m/10 mm, purple | 809 |
-| 2356Tx | Comb Set, nickel-plated, 11 × 14 cm | 472 |
-| 2411Tx | Comb with Rotating Pins, 18 cm | 494 |
-| 24183Tx | Trimmer Comb, 6 × 15 cm, green | 500 |
-| 25141Tx | Stainless Steel Bowl with Rubber Base, 0.2 l/ø 15 cm, grey | 829 |
-| 25142Tx | Stainless Steel Bowl with Rubber Base, 0.45 l/ø 19 cm, grey | 830 |
-| 25143Tx | Stainless Steel Bowl with Rubber Base, 0.7 l/ø 21 cm, grey | 831 |
-| 25144Tx | Stainless Steel Bowl with Rubber Base, 0.9 l/ø 23 cm, grey | 832 |
+| 202720Tx | Semi-Choke Collar with Nylon Chain, S–M: 30–40 cm/15 mm, orchid | 1012 |
+| 202816Tx | Semi-Choke Collar with Nylon Chain, M–L: 35–50 cm/20 mm, grey | 1014 |
 | 25180Tx | Melamine Bowl with Rubber Base, 0.2 l/ø 14 cm, white | 833 |
 | 25189Tx | Melamine Bowl with Rubber Base, 0.25 l/ø 17 cm, white | 834 |
-| 25200Tx | Stainless Steel Bowl for Short-nosed Breeds, 0.25 l/ø 19 cm | 835 |
-| 25243Tx | Stainless Steel Bowl with Paw Prints and Rubber Base, 0.8 l/ø 17 cm | 839 |
-| 25244Tx | Stainless Steel Bowl with Paw Prints and Rubber Base, 1.5 l/ø 21 cm | 840 |
-| 25245Tx | Stainless Steel Bowl with Paw Prints and Rubber Base, 2.2 l/ø 23 cm | 841 |
 | 29411Tx | Dry Foam Shampoo, 450 ml | 590 |
-| 33360Tx | Dumbbell with Soft Ends, rubber, 17 cm | 411 |
-| 33445Tx | Ring, thermoplastic rubber, ø 11 cm | 413 |
-| 3435Tx | Football Ball, ø 6 cm | 414 |
-| 35031Tx | Animals, latex, 18 cm | 420 |
-| 35041Tx | Animal Balls, rubber, ø 6 cm | 421 |
-| 35061Tx | Animals, latex, 30–32 cm | 446 |
-| 35821Tx | Rope Toy, plush, 17 cm | 426 |
-| 42424Tx | Matatabi Spray, 175 ml | 598 |
 
-### Still on a single picture (34)
+### Still on a single picture (42)
 
 For these the brand publishes exactly one photo of the article. Nothing was invented to pad them.
 
 | Code | Product | The one image comes from |
 |---|---|---|
-| 00265Tx | Denta Fun Chew Bites with Mint, 150 g | hafo.am (watermarked placeholder — replace by hand) |
 | 041537 | Gran Bonta Adult Dog Meat 400 g | hafo.am (watermarked placeholder — replace by hand) |
 | 041567 | Gran Bonta Adult Dog Meat 1250 g | monge.it (EAN) |
-| 041587 | Gran Bonta Adult Dog Chicken & Turkey 400 g | hafo.am (watermarked placeholder — replace by hand) |
 | 041787 | Gran Bonta Chef Adult Dog Meat, Egg & Cheese 400 g | hafo.am (watermarked placeholder — replace by hand) |
 | 041887 | Gran Bonta Chef Adult Dog Beef 1250 g | hafo.am (watermarked placeholder — replace by hand) |
-| 17321Tx | BE NORDIC Bandana Collar, S: 30 cm, dark blue | hafo.am (watermarked placeholder — replace by hand) |
-| 17333Tx | BE NORDIC Bandana Collar, M: 40 cm, dark grey | hafo.am (watermarked placeholder — replace by hand) |
-| 17335Tx | BE NORDIC Bandana Collar, L: 50 cm, dark grey | hafo.am (watermarked placeholder — replace by hand) |
+| 12221Tx | Silver Reflect Collar with Paw Prints, XS–S: 22–35 cm/15 mm, grey/black | hafo.am (watermarked placeholder — replace by hand) |
+| 12224Tx | Silver Reflect Collar with Paw Prints, L–XL: 40–65 cm/25 mm, grey/black | hafo.am (watermarked placeholder — replace by hand) |
+| 12232Tx | Silver Reflect Harness with Paw Prints, S–M: 40–65 cm/20 mm, grey/black | monge.it (line/flavour/pack in the file name) |
+| 12233Tx | Silver Reflect H-Harness | trixie.shop (article in file name) |
+| 13062Tx | Flash Light Collar, nylon, S–M: 30–40 cm/25 mm, orange | monge.it (line/flavour/pack in the file name) |
+| 13063Tx | Flash Light Collar, nylon, M–L: 40–55 cm/25 mm, orange | monge.it (line/flavour/pack in the file name) |
+| 13064Tx | Flash Light Collar, nylon, L–XL: 55–70 cm/25 mm, orange | monge.it (line/flavour/pack in the file name) |
+| 13071Tx | Flash USB Light Collar, nylon, M–L: 40–50 cm/25 mm, red | monge.it (line/flavour/pack in the file name) |
+| 17321Tx | BE NORDIC Bandana Collar, S: 30 cm, dark blue | monge.it (line/flavour/pack in the file name) |
+| 17333Tx | BE NORDIC Bandana Collar, M: 40 cm, dark grey | monge.it (line/flavour/pack in the file name) |
+| 17335Tx | BE NORDIC Bandana Collar, L: 50 cm, dark grey | monge.it (line/flavour/pack in the file name) |
+| 19021Tx | Active Comfort Leather Collar with Rhinestones, XS–S: 20–24 cm/12 mm, white | hafo.am (watermarked placeholder — replace by hand) |
+| 19030Tx | Active Comfort Leather Collar with Rhinestones, XXS–XS: 17–21 cm/12 mm, pink | monge.it (line/flavour/pack in the file name) |
+| 19033Tx | Active Comfort Leather Collar with Rhinestones, S–M: 27–33 cm/15 mm, pink | monge.it (line/flavour/pack in the file name) |
+| 1971601Tx | CityStyle Collar, M–L, 40–47 cm/25 mm, black | hafo.am (watermarked placeholder — replace by hand) |
+| 1971901Tx | CityStyle Collar, XS–S, 25–32 cm/20 mm, black | hafo.am (watermarked placeholder — replace by hand) |
+| 197894Tx | Tape Lead, S–M: 5.00 m/15 mm, sangria | monge.it (line/flavour/pack in the file name) |
+| 1985001Tx | Soft Rope Lead, XS–S, 1.20 m/ø 6 mm, black/grey | monge.it (line/flavour/pack in the file name) |
+| 19904Tx | Flat Cotton Lead, 5.00 m/20 mm, green | hafo.am (watermarked placeholder — replace by hand) |
+| 1998219Tx | Y-Harness, XS–S: 37–45 cm/15 mm, green | monge.it (line/flavour/pack in the file name) |
+| 1998301Tx | Y-Harness, S: 42–50 cm/15 mm, black | monge.it (line/flavour/pack in the file name) |
+| 1998413Tx | Y-Harness, S–M: 50–60 cm/15 mm, indigo | monge.it (line/flavour/pack in the file name) |
+| 1998603Tx | Y-Harness, M–L: 65–80 cm/20 mm, red | monge.it (line/flavour/pack in the file name) |
 | 200720Tx | Premium Adjustable Lead, XS–S: 2.00 m/15 mm, light lilac | hafo.am (watermarked placeholder — replace by hand) |
 | 201320Tx | Nylon Lead, XS: 2.00 m/10 mm, purple | hafo.am (watermarked placeholder — replace by hand) |
-| 2356Tx | Comb Set, nickel-plated, 11 × 14 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 2411Tx | Comb with Rotating Pins, 18 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 24183Tx | Trimmer Comb, 6 × 15 cm, green | hafo.am (watermarked placeholder — replace by hand) |
+| 201724Tx | Premium Adjustable Collar, L–XL: 40–65 cm/25 mm, mint | monge.it (line/flavour/pack in the file name) |
+| 202021Tx | Adjustable Harness, XXS–XS: 26–38 cm/10 mm, purple | monge.it (line/flavour/pack in the file name) |
+| 202720Tx | Semi-Choke Collar with Nylon Chain, S–M: 30–40 cm/15 mm, orchid | hafo.am (watermarked placeholder — replace by hand) |
+| 24183Tx | Trimmer Comb, 6 × 15 cm, green | monge.it (line/flavour/pack in the file name) |
 | 25073Tx | Stainless Steel Bowl, 1.7 l/ø 21 cm | brand page |
 | 25074Tx | Stainless Steel Bowl, 2.5 l/ø 24 cm | brand page |
-| 25141Tx | Stainless Steel Bowl with Rubber Base, 0.2 l/ø 15 cm, grey | hafo.am (watermarked placeholder — replace by hand) |
-| 25142Tx | Stainless Steel Bowl with Rubber Base, 0.45 l/ø 19 cm, grey | hafo.am (watermarked placeholder — replace by hand) |
-| 25143Tx | Stainless Steel Bowl with Rubber Base, 0.7 l/ø 21 cm, grey | hafo.am (watermarked placeholder — replace by hand) |
-| 25144Tx | Stainless Steel Bowl with Rubber Base, 0.9 l/ø 23 cm, grey | hafo.am (watermarked placeholder — replace by hand) |
+| 25142Tx | Stainless Steel Bowl with Rubber Base, 0.45 l/ø 19 cm, grey | monge.it (line/flavour/pack in the file name) |
+| 25143Tx | Stainless Steel Bowl with Rubber Base, 0.7 l/ø 21 cm, grey | monge.it (line/flavour/pack in the file name) |
 | 25180Tx | Melamine Bowl with Rubber Base, 0.2 l/ø 14 cm, white | hafo.am (watermarked placeholder — replace by hand) |
-| 25200Tx | Stainless Steel Bowl for Short-nosed Breeds, 0.25 l/ø 19 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 25243Tx | Stainless Steel Bowl with Paw Prints and Rubber Base, 0.8 l/ø 17 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 25244Tx | Stainless Steel Bowl with Paw Prints and Rubber Base, 1.5 l/ø 21 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 25245Tx | Stainless Steel Bowl with Paw Prints and Rubber Base, 2.2 l/ø 23 cm | hafo.am (watermarked placeholder — replace by hand) |
 | 29411Tx | Dry Foam Shampoo, 450 ml | hafo.am (watermarked placeholder — replace by hand) |
 | 300617 | Adult Dog Pouch | monge.it (line/flavour/pack in the file name) |
-| 3435Tx | Football Ball, ø 6 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 35031Tx | Animals, latex, 18 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 35041Tx | Animal Balls, rubber, ø 6 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 35061Tx | Animals, latex, 30–32 cm | hafo.am (watermarked placeholder — replace by hand) |
-| 35821Tx | Rope Toy, plush, 17 cm | hafo.am (watermarked placeholder — replace by hand) |
+| 3435Tx | Football Ball, ø 6 cm | monge.it (line/flavour/pack in the file name) |
 | 390807 | Leo's Adult Chunks Poultry 400 g | monge.it (line/flavour/pack in the file name) |
-| 42424Tx | Matatabi Spray, 175 ml | hafo.am (watermarked placeholder — replace by hand) |
 
 ### Identity errors the image work uncovered
 

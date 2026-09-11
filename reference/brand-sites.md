@@ -37,6 +37,40 @@ dropped. Before falling back to a distributor photo, try them. For Trixie the
 table is below; for any other brand, `<brand>.<cc>` is worth one HEAD request
 before you give up on an article, and a live one gets a row in the table above.
 
+## Finding a photo by EAN when every brand site fails (2026-09-11)
+
+For ~60 articles neither trixie.de, its CDN, trixie.shop, trixie.es nor
+trixiecz.cz has a picture. The EAN of **our own hafo row** unlocks most of them,
+because some catalogues name the image file after the EAN — so the hit is keyed
+to the article, not to a name (fallback level 2; flag the row):
+
+- `scripts/ean-image-lookup.py` — searches **hornung-baushop.de** by EAN and
+  keeps files whose name carries it (`napf-nahrungsaufnahme-4047974251416-…jpg`).
+  The product slug comes back too, so the identification can be read in words.
+  **Take a file that names one EAN, ours.** A multi-EAN file
+  (`buerste-pflegen-4011905023540-4011905023564-4011905023533-…`) is a set photo
+  and may show a sibling.
+- **Carrefour ES** serves `…/catalog-pictures-carrefour-es/catalog/pictures/
+  hd_510x_/<EAN>_<n>.jpg`. Probe `_1.._3` — a 404 means it is not carried, so the
+  URL itself is the check.
+- **lumenet.hu is a trap**: `img/555/<EAN>/<EAN>.webp` returns 200 for *any*
+  EAN, including invented ones. Never use it.
+
+Two identity facts learned here:
+
+- **Our vendor code is often Trixie's article plus a trailing digit** — 35031 is
+  article 3503, 35061 is 3506, 35821 is 3582 — and the EAN proves it, since its
+  item field carries our five digits (`4011905 35031 8`). hafo's row barcode is
+  the safest form; where hafo has none, compute the check digit over each Trixie
+  prefix (4011905, 4047974, 4053032) and let a 200 confirm the guess.
+- **A family page names the whole set in one file**:
+  `PHO_PRO_CLIP_25241-25242-25243-25244-25245-1`, and the line name can come
+  first: `PHO_PRO_CLIP_SilverReflect-12214-12215-12216-1`. Match the article as a
+  `-`/`_` delimited token, not as a substring.
+
+Every recovered URL is kept in `reference/recovered-images.json`, which
+`scripts/enrich-images.py` merges into its plan so a rebuild never drops them.
+
 ## hafo.am images are watermarked placeholders (PM decision, 2026-09-11)
 
 Every photo hafo serves — `image_main_url`, the listing page, all of them — is

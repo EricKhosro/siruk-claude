@@ -1,525 +1,208 @@
 product_id,product,variant,sku,siruk_price,siruk_cost,pricing_type,hafo_listing,hafo_sku,hafo_price,hafo_wholesale,hafo_change_price,hafo_stock,flags,status
-327,"Carlo Litter Tray with Hood, 38 × 17 × 58 cm, grey","38 × 17 × 58 cm, grey",40121,4950,3090,fixed,956 carlo-katuneri-zugaran-mokhraguyn,TX 401211,4950,3090,4950,14,,match
-328,"Classic Litter Tray, 37 × 15 × 47 cm, mint green/white","37 × 15 × 47 cm, mint green/white",40181,4650,2905,fixed,4347 zugaran-katuneri-hamar-classic-kanach,40181Tx,4650,2905,4650,22,,match
-329,"Delio Litter Tray, with Rim","38 × 20 × 50 cm, purple/white",40397,7850,4905,fixed,4941 katuneri-tualet-delio-plastike-barcr-ezrerov,40397Tx,7850,4905,7850,5,,match
-330,Simple'n'Clean Cat Litter Deodorizer,"750 g, active carbon",42404,3750,2340,fixed,7185 simple-clean-hotazercich-poshi-lcanyuti-hamar-750-g,42404Tx,3750,2340,3750,2,,match
-331,"Denta Fun Chew Bites with Mint, 150 g",150 g,00265,1400,875,fixed,122 denta-fun-chew-bites,00265Tx,1400,875,1400,38,,match
-332,Hiding Place for Tablets for dogs,100 g,25841,2000,1250,fixed,6945 trixie-hyurasirutyun-dexery-hesht-yndunelu-hamar-100-g,25841Tx,2000,1250,2000,332,,match
-333,Chips with Spirulina,50 g,2674,1100,685,fixed,3506 hyurasirutyun-shneri-hamar-dentafun-chips,2674Tx,1100,685,1100,38,,match
-334,Dips with rabbit & chicken,120 g,27152,1650,1030,fixed,7147 hyurasirutyun-shneri-hamar-jagari-tatikner-havi-msov-120-g,27152Tx,1650,1030,1650,186,,match
-335,Knot,"110 g, natural",31121,1800,1125,fixed,163 knotted-chewing-bone,TX 311211,1800,1125,1800,0,,match
-336,Roll,165 g,31146,3150,1965,fixed,6702 trixie-havi-roll-shneri-hamar,31146Tx,3150,1965,3150,20,,match
-337,Sticks with Vegetables,120 g,31288,1600,1000,fixed,6947 trixie-hyurasirutyun-shneri-hamar-vegan-dzoxikner-100-g,31288Tx,1600,1000,1600,2,,match
-338,Soft Snack Dots with parsley and thyme,200 g,31294,1800,1125,fixed,7163 trixie-vegan-dots-banjarexenayin-hyurasirutyun-shneri-hamar,31294Tx,1800,1125,1800,5,,match
-339,Dentros with parsley,500 g,31296,3200,2000,fixed,7165 trixie-vegan-dentros-500-g,31296Tx,3200,2000,3200,54,,match
-340,Soft Snack Hearts with Lamb,500 g,31497,3400,2125,fixed,1883 happy-hearts-papuk-patarner-shneri-hamar,TX 314971,3400,2125,3400,35,,match
-341,Soft Snack Rolls with Salmon,500 g,31498,3400,2125,fixed,137 happy-rolls,TX 314981,3400,2125,3400,175,,match
-342,"Soft Snack Bouncies with poultry, lamb & tripe",140 g,31507,1500,935,fixed,123 soft-snacks-bouncies,TX 315071,1500,935,1500,106,,match
-343,Soft Snack Baffos with beef & tripe,140 g,31508,1500,935,fixed,6712 baffos-hyurasirutyun-shneri-hamar,31508Tx,1500,935,1500,91,,match
-344,Soft Snack Lupinos with lupins,500 g,31517,3750,2340,fixed,3692 hyurasirutyun-alergik-shneri-trchnamsov-voskorikner,31517Tx,3750,2340,3750,45,,match
-345,Junior Soft Snack Bones,140 g,31518,1500,935,fixed,3511 hyurasirutyun-shneri-dzageri-gunavor-voskorikner,31518Tx,1500,935,1500,229,,match
-346,Junior Soft Snack Dots,140 g,31519,1500,935,fixed,3512 hyurasirutyun-shneri-dzageri-gunavor-hatikner,31519Tx,1500,935,1500,81,,match
-347,Soft Snack Dog'o'Rado with Chicken,500 g,31522,3400,2125,fixed,125 dog-o-rado,TX 315221,3400,2125,3400,80,,match
-348,Trainer Snack Bones,500 g,31523,3150,1965,fixed,1978 mini-bones-trainer-snack-qaxcr-patar-shneri-hamar,TX 315231,3150,1965,3150,80,,match
-349,Trainer Snack Hearts,200 g,31524,1650,1030,fixed,126 mini-hearts,TX 315241,1650,1030,1650,82,,match
-350,Soft Snack Bony Mix XXL,"1,800 g",31526,6300,3935,fixed,3509 hyurasirutyun-shneri-bony-mix-gunavor-voskorikner,31526Tx,6300,3935,6300,370.73,,match
-351,Trainer Snack Dots with Salmon,500 g,31527,3400,2125,fixed,3510 hyurasirutyun-shneri-gunavor-hatikner,31527Tx,3400,2125,3400,45,,match
-352,Coins with Chicken Breast,100 g,31531,1700,1060,fixed,62 premio-chicken-coins-havi-msov-khortik,31531Tx,1700,1060,1700,12,,match
-353,Filets with Chicken Breast,100 g,31532,1850,1155,fixed,90 premio-chicken-filets-havi-file,TX 315321,1850,1155,1850,59,,match
-353,Filets with Chicken Breast,300 g,31801,5100,3185,fixed,3629 hyurasirutyun-shneri-havi-krcqamsi-ktorner,31801Tx,5100,3185,5100,4,,match
-354,Dumbbells with Chicken,100 g,31533,1700,1060,fixed,61 premio-chicken-bites-voskor-havi-msov,31533Tx,1700,1060,1700,77,,match
-354,Dumbbells with Chicken,300 g,31802,4200,2625,fixed,2787 premio-chicken-bites-qaxcr-patar-shneri-hamar,TX 318021,4200,2625,4200,108,,match
-355,Omegas with Chicken,100 g,31536,1800,1125,fixed,154 premio-omega-stripes-havi-msov-ev-omegayov,TX 315361,1800,1125,1800,132,,match
-356,Stripes with Duck,100 g,31537,1950,1215,fixed,1896 premio-qaxcr-patarner-shneri-hamar,TX 315371,1950,1215,1950,15,,match
-357,Duckies with Duck Breast,100 g,31538,1950,1215,fixed,136 premio-duckies,31538Tx,1950,1215,1950,169,,match
-358,Flags with Chicken Breast,100 g,31539,1850,1155,fixed,158 premio-chicken-flags,TX 315391,1850,1155,1850,120,,match
-358,Flags with Chicken Breast,400 g,31588,7850,4905,fixed,3887 hyurasirutyun-shneri-hamar-havi-msov-premio,31588Tx,7850,4905,7850,68,,match
-359,Cubes with Rabbit,100 g,31545,2000,1250,fixed,3534 hyurasirutyun-shneri-premio-jagari-kubikner,31545Tx,2000,1250,2000,166,,match
-360,Stripes with Rabbit and Cod,100 g,31547,1800,1125,fixed,7360 msayin-bekorner-shneri-hamar-chagar-dzuk-100gr,31547Tx,1800,1125,1800,55,,match
-361,Rotolinis with tripe,"12 pcs./120 g, tripe",3155,750,465,fixed,1885 rotolinis-hamex-patar-poroq,3155Tx,750,465,750,943,,match
-362,Stripes with poultry,"10 pcs./100 g, poultry",3156,750,465,fixed,43 stripes,3156Tx,750,465,750,352,,match
-363,Premio Lolly with duck & cod,80 g,31570,1600,1000,fixed,6940 hyurasirutyun-shneri-hamar-lolly-badi-mis-ev-dzuk-80-g,31570Tx,1600,1000,1600,0,,match
-364,Whitefish skin,60 g,31572,1400,875,fixed,3661 hyurasirutyun-shneri-hamar-premio-sushi-bekorner,31572Tx,1400,875,1400,58,,match
-365,Sushi with Whitefish,100 g,31573,1900,1185,fixed,134 premio-sushi-rolls,TX 315731,1900,1185,1900,64,,match
-366,Salmon skin,6 pcs./70 g,31576,2500,1560,fixed,3523 hyurasirutyun-shneri-hamar-premio-saxmonov-glanakner,31576Tx,2500,1560,2500,47,,match
-367,Bites with chicken breast & banana,100 g,31582,1850,1155,fixed,4319 hyurasirutyun-shneri-hamar-havov-ev-bananov,31582Tx,1850,1155,1850,45,,match
-368,Drumsticks with Chicken Breast,5 pcs./95 g,31585,1700,1060,fixed,148 premio-chicken-drumsticks,TX 315851,1700,1060,1700,187,,match
-369,Stripes with Chicken Breast and Cheese,100 g,31586,1950,1215,fixed,127 premio-cheese-chicken-stripes-khortik-havi-msov-ev-panrov,TX 315861,1950,1215,1950,170,,match
-370,Coins with Duck Breast,80 g,31587,1650,1030,fixed,2782 premio-duck-coins-qaxcr-patar-shneri-hamar,TX 315871,1650,1030,1650,67,,match
-371,Rolls with Chicken Breast and Cheese,100 g,31589,1850,1155,fixed,3440 hyurasirutyun-shneri-hamar-hav-panir,31589Tx,1850,1155,1850,32,,match
-372,Dumbbells with Duck Breast,80 g,31592,1600,1000,fixed,83 premio-duck-bites-voskorikner-badi,31592Tx,1600,1000,1600,65,,match
-373,Bites with chicken breast & apple,100 g,31593,1700,1060,fixed,4320 hyurasirutyun-shneri-hamar-havov-ev-xndzorov,31593Tx,1700,1060,1700,30,,match
-374,Marbled Softies with lamb & fish,100 g,31604,1700,1060,fixed,3535 hyurasirutyun-shneri-hamar-gari-bekorner,31604Tx,1700,1060,1700,52,,match
-375,Freeze Dried Chicken Breast,50 g,31606,2600,1625,fixed,6941 trixie-choracvac-havi-krcqamis-alergik-shneri-hamar-50-g,31606Tx,2600,1625,2600,14,,match
-376,Freeze Dried Duck Breast,50 g,31607,2600,1625,fixed,6942 trixie-choracvac-badi-krcqamis-alergik-shneri-hamar-50-g,31607Tx,2600,1625,2600,21,,match
-377,Choco Drops,75 g,31611,950,635,fixed,99 shokolade-hatikner,TX 316111,950,635,950,379,,match
-378,Mini Pretzels with Chicken,100 g,31656,1900,1185,fixed,6611 trixie-havi-msov-txvacqablitner-100-g,31656Tx,1900,1185,1900,80,,match
-379,Cookie Bones,1.3 kg,31662,3900,2515,fixed,57 cookie-snack,31662Tx,3900,2515,3900,91.69,,match
-380,Cookie Farmies,1.3 kg,31663,3900,2515,fixed,57 cookie-snack,31663Tx,3900,2515,3900,88.8,,match
-381,Cookie Giants with Lamb,1.25 kg,31664,4150,2590,fixed,3023 txvacqablit-garan-hamov,316641,4150,2590,4150,21.2,,match
-382,"Premio Stars with Chicken and Rice, 100 g",100 g,31667,2150,1340,fixed,6704 trixie-premio-havov-ev-brndzov-hyurasirutyun-100-g,31667Tx,2150,1340,2150,78,,match
-383,Cookie Snack Loops,1.3 kg,31671,4600,2875,fixed,7166 vegan-loops-banjarexenayin-txvacqablitner-1.300-g,31671Tx,4600,2875,4600,214.5,,match
-384,Balls with Chicken and Rice,80 g,31701,1300,810,fixed,3021 sneyq-shneri-hav-brindz,31701Tx,1300,810,1300,52,,match
-385,Pasta with chicken meat & chicken liver,100 g,31703,1850,1155,fixed,1890 premio-chicken-pasta-hamex-patar-shneri-hamar,317031,1850,1155,1850,28,,match
-386,Balls with Duck and Rice,80 g,31704,1350,840,fixed,3022 hyurasirutyun-shneri-hamar-badi-mis-brindz,31704Tx,1350,840,1350,165,,match
-387,Crispies with Duck,100 g,31705,2000,1250,fixed,36 crispy-duck,31705Tx,2000,1250,2000,26,,match
-388,Bagels with Lamb & Chicken,100 g,31707,2150,1340,fixed,1884 premio-lamb-chicken-bagels-hamex-patar-shneri-hamar,31707Tx,2150,1340,2150,188,,match
-389,Sticks with Rabbit,100 g,31709,1900,1185,fixed,128 premio-rabbit-sticks,TX 317091,1900,1185,1900,37,,match
-390,Rotolinis with poultry,"12 pcs./120 g, poultry",3171,800,500,fixed,59 rotolinis-khortik-trchni-msov,3171Tx,800,500,800,577,,match
-391,Stripes with beef,"10 pcs./100 g, beef",3172,750,465,fixed,43 stripes,3172Tx,750,465,750,656,,match
-392,Stripes with Lamb,100 g,31741,1950,1215,fixed,38 premio-lamb-stripes,31741Tx,1950,1215,1950,27,,match
-393,Bones with Duck and Rice,80 g,31742,1450,905,fixed,98 premio-rice-duck,TX 317421,1450,905,1450,126,,match
-394,Sticks with chicken breast & fish,80 g,31747,1400,875,fixed,157 premio-fish-chicken-sticks,TX 317471,1400,875,1400,30,,match
-395,Wheels with chicken breast & fish,75 g,31748,1650,1030,fixed,82 premio-fish-chicken,31748Tx,1650,1030,1650,60,,match
-396,Corn Dogs with Duck,4 pcs./100 g,31749,1900,1185,fixed,3530 hyurasirutyun-shneri-hamar-bad-egiptacoren,31749Tx,1900,1185,1900,72,,match
-397,Rotolinis with beef,"12 pcs./120 g, beef",31771,800,500,fixed,1886 rotolinis-khortik-tavari-msov,31771Tx,800,500,800,336,,match
-398,"Sticks with Chicken and Fish, 300 g",300 g,31803,4000,2500,fixed,3923 hyurasirutyun-shneri-hamar-dzoxikner-hav-dzuk,31803Tx,4000,2500,4000,12,,match
-399,Carpaccio with duck & cod,80 g,31804,1900,1185,fixed,4322 premio-carpaccio-sneyq-shneri-XXL,31804Tx,1900,1185,1900,33,,match
-400,Stripes with Horse Meat,100 g,31855,3450,2155,fixed,3708 hyurasirutyun-shneri-hamar-dziu-msov-dzoxikner,31855Tx,3450,2155,3450,22,,match
-401,Balls with Salmon,500 g,31865,5600,3500,fixed,3630 hyurasirutyun-shneri-be-nordic-dzkan-klorakner,31865Tx,5600,3500,5600,46,,match
-402,Soft Snack Stars with Lamb,140 g,42733,1800,1200,fixed,1399 kitty-stars-papuk-patar-katuneri-hamar,TX 427331,1800,1200,1800,87,,match
-403,Knotted Ball for Dogs,"ø 10 cm, multi coloured",32622,4450,2780,fixed,1921 hyusvats-retine-gndak-10sm,TX 326221,4450,2780,4450,0,,match
-404,"Playing Rope, 20 cm",20 cm,3271,550,340,fixed,195 hangucavor-paran-voskoranman,3271Tx,550,340,550,109,,match
-405,"Playing Rope, 26 cm",26 cm,3272,900,560,fixed,195 hangucavor-paran-voskoranman,3272Tx,900,560,900,25,,match
-406,"Rope Ball, ø 9 cm",ø 9 cm,32814,1150,715,fixed,5340 xaxaliq-shneri-hamar-parane-gndak,32814Tx,1150,715,1150,30,,match
-407,"Denta Fun Ball, natural rubber, ø 7 cm",ø 7 cm,3289,2100,1310,fixed,203 denta-fun-gndak,3289Tx,2100,1310,2100,29,,match
-408,"Dumbbell, thermoplastic rubber, 17 cm",17 cm,32911,5600,3500,fixed,3546 xaxaliq-shneri-jermaplastik-kauchukic-gantel,32911Tx,5600,3500,5600,8,,match
-409,Denta Fun Bone,15 cm,32944,4450,2870,fixed,3548 xaxaliq-shneri-denta-fun-bnakan-kauchukic-voskor,32944Tx,4450,2870,4450,31,,match
-410,"Ball on a Rope, natural rubber, ø 5 cm/100 cm",ø 5 cm/100 cm,3304,1550,965,fixed,199 gndak-paranov,3304Tx,1550,965,1550,1,,match
-411,"Dumbbell with Soft Ends, rubber, 17 cm",17 cm,33360,4000,2500,fixed,6983 trixie-xaxaliq-gantel-shneri-hamar,33360Tx,4000,2500,4000,4,,match
-412,"Snack Cube, thermoplastic rubber, 6 cm",6 cm,33411,2700,1685,fixed,5304 xaxaliq-hyurasirutyan-hamar-xoranardik-termopalstik-kauchukic,33411Tx,2700,1685,2700,58,,match
-413,"Ring, thermoplastic rubber, ø 11 cm",ø 11 cm,33445,1900,1185,fixed,3304 xaxaliq-shneri-oxak,33445Tx,1900,1185,1900,2,,match
-414,"Football Ball, ø 6 cm",ø 6 cm,3435,900,560,fixed,2045 futboli-gndak-shneri-hamar,3435Tx,900,560,900,5,,match
-415,"Hippo with Inner Rope, plush, 50 cm",50 cm,34722,7400,4625,fixed,7086 trixie-xaxaliq-getadzi-shnri-hamar-50-sm,34722Tx,7400,4625,7400,0,,match
-416,"Ball Leopard, plush, ø 13 cm",ø 13 cm,34741,4500,2810,fixed,7087 trixie-papuk-gndakner-shneri-hamar,34741Tx,4500,2810,4500,2,,match
-417,Ball Dog Toy,"ø 9 cm, pink",34842,2700,1685,fixed,286 bnakan-kauchukic gndak,TX 348421,2700,1685,2700,5,,match
-418,"Be Eco Ball on a Rope, 6 × 13 cm",ø 6 × 13 cm,34870,5300,3310,fixed,4048 xaxaliq-be-eco-plastike-gndak-paranov,34870Tx,5300,3310,5300,2,,match
-419,"Be Eco Jumper Ball, 9 × 16 cm",ø 9 × 16 cm,34871,5300,3310,fixed,4049 xaxaliq-be-eco-plastike-trchkotox-gndak,34871Tx,5300,3310,5300,4,,match
-420,"Animals, latex, 18 cm",18 cm,35031,2100,1310,fixed,2710 xaxaliq-shneri-hamar-18sm,TX 350311,2100,1310,2100,22,,match
-421,"Animal Balls, rubber, ø 6 cm",ø 6 cm,35041,1350,840,fixed,1965 kendananman-gndakner,35041Tx,1350,840,1350,16,,match
-422,"Mouse, latex, 22 cm",22 cm,35232,2650,1655,fixed,1105 shan-hamar-xaxaliq-muk-lateqs,35232Tx,2650,1655,2650,6,,match
-423,"Animals, latex, 13 cm",13 cm,35263,2800,1750,fixed,3904 xaxaliq-lateksic-kendaniner,35263Tx,2800,1750,2800,7,,match
-424,"Hippo, latex, 15 cm",15 cm,35510,3100,1935,fixed,3905 xaxaliq-lateksic-getadzi,35510Tx,3100,1935,3100,17,,match
-425,"Dino, latex, 14 cm",14 cm,35516,2700,1685,fixed,5309 xaxaliq-dino-lateqsic-dinozavr,35516Tx,2700,1685,2700,8,,match
-426,"Rope Toy, plush, 17 cm",17 cm,35821,2650,1655,fixed,1976 paranic-xaxaliq-shneri-hamar,TX 358211,2650,1655,2650,38,,match
-427,"Unicorn, plush, 28 cm",28 cm,35856,3550,2215,fixed,3578 xaxaliq-papuk-miayexjyur,35856Tx,3550,2215,3550,4,,match
-428,Longie,"ø 7 × 35 cm, sorted",35872,2350,1465,fixed,4808 papuk-ktoric-kendaniner-erkaraviz,35872Tx,2350,1465,2350,2,,match
-429,"Rabbit, plush, 24 cm",24 cm,36154,3600,2250,fixed,7343 papuk-xaxaliq-napastak-24sm,36154Tx,3600,2250,3600,8,,match
-430,Scoop for Feed or Litter,S,4045,650,405,fixed,1342 sherep-katvi-lcanyuti-hamar-s,TX 040451,650,405,650,255,,match
-431,Scoop for Feed or Litter,L,4046,1050,655,fixed,1343 savok-katvi-lcanyuti-hamar-l,TX 040461,1050,655,1050,14,,match
-432,Litter Scoop for Ultra Litter,L,40473,1050,655,fixed,3354 sherep-katuneri-lcanyuti-hamar-L,40473Tx,1050,655,1050,33,,match
-433,Litter Scoop with Stand,L,40475,3100,1935,fixed,4392 sherep-tarrayov-katuneri-tualeti-hamar-l,40475Tx,3100,1935,3100,2,,match
-434,Litter Scoop with Dirt Bags,M,40477,1400,875,fixed,4021 sherep-katuneri-lcanyuti-axbi-toprakov,40477Tx,1400,875,1400,38,,match
-435,Litter Scoop for Clumping and Silicate Litter,S,4048,400,250,fixed,1391 savok-katvi-lcanyuti-hamar-s,TX 040481,400,250,400,59,,match
-436,"Litter Scoop for Ultra Litter, M",M,4050,700,435,fixed,1390 ultra-savok-katvi-lcanyuti-hamar-m,TX 040501,700,435,700,133,,match
-437,"Litter Scoop for Ultra Litter with Mesh, M",M,40534,550,340,fixed,6622 trixie-eco-sherep-katuneri-lcanyuti-hamar-cancov,40534Tx,550,340,550,87,,match
-438,Stainless Steel Litter Scoop,M,40539,5150,3215,fixed,4930 sherep-katuneri-tualeti-hamar-poxpate-m-chap,40539Tx,5150,3215,5150,4,,match
-439,"Playing Rope, 37 cm",37 cm,3273,1950,1215,fixed,195 hangucavor-paran-voskoranman,3273Tx,1950,1215,1950,0,,match
-440,"Dog Disc, ø 24 cm, pink","ø 24 cm, pink",33503,4700,2935,fixed,248 frisbee,33503Tx,4700,2935,4700,7,,match
-441,"Dog Disc, thermoplastic rubber, ø 18 cm",ø 18 cm,33505,3100,1935,fixed,2718 friskbi-skavarak-deghin,TX 335051,3100,1935,3100,4,,match
-442,"Dog Disc, ø 23 cm",ø 23 cm,33562,3850,2405,fixed,256 fresbee-disk,TX 335621,3850,2405,3850,14,,match
-443,"Aqua Toy Rope Ball with Handle, ø 7 × 21 cm",ø 7 × 21 cm,33661,1800,1125,fixed,5344 paranic-gndak-brnakov-aqua-toy,33661Tx,1800,1125,1800,14,,match
-444,"Rope Ball with Handle, ø 5 × 33 cm",ø 5 × 33 cm,34864,1150,715,fixed,5345 xaxaliq-shneri-hamar-gndak-paranic-brnakov,34864Tx,1150,715,1150,0,,match
-445,"Playing Rope with Cone, 48 cm",48 cm,34889,1150,715,fixed,5348 xaxaliq-shneri-hamar-paran-mejtexum-kon,34889Tx,1150,715,1150,60,,match
-446,"Animals, latex, 30–32 cm",30–32 cm,35061,3550,2215,fixed,2725 xaxaliq-shneri-hamar-lateqsic,TX 350611,3550,2215,3550,13,,match
-447,"Pig, latex, 44 cm",44 cm,3540,4800,3000,fixed,1099 shan-xaxaliq-xozuki-tesqov-lateqs,3540Tx,4800,3000,4800,5,,match
-448,"Soft Brush, 10 × 18 cm",10 × 18 cm,2300,1750,1090,fixed,859 mazaheracnox-xozanak-miakoxmani,2300Tx,1750,1090,1750,11,,match
-449,"Soft Brush, 10 × 17 cm",10 × 17 cm,2301,1800,1125,fixed,1927 mazaheracnox-xozanak-karmir,2301Tx,1800,1125,1800,92,,match
-450,"Soft Brush, bamboo, metal pins, 7 × 16 cm",7 × 16 cm,23022,2700,1685,fixed,4157 sanr-bambuki-paytic,23022Tx,2700,1685,2700,5,,match
-451,"Soft Brush, 9 × 15 cm",9 × 15 cm,23023,3150,1965,fixed,4157 sanr-bambuki-paytic,23023Tx,3150,1965,3150,26,,match
-452,"Soft Brush, 12 × 15 cm",12 × 15 cm,23024,3600,2250,fixed,4157 sanr-bambuki-paytic,23024Tx,3600,2250,3600,24,,match
-453,"Long-hair Comb, bamboo, with rotating pins, 10 × 17 cm",10 × 17 cm,23026,3000,1875,fixed,4543 sanr-erkaramaz-shneri-hamar-erkate-pttvox-atamiknerov-bambuki-paytic,23026Tx,3000,1875,3000,10,,match
-454,"Coat Untangler Combi-Comb, 22 cm, dark grey/antique pink","22 cm, dark grey/antique pink",23121,3900,2435,fixed,4553 sanr-erkaramaz-katuneri-hamar,23121Tx,3900,2435,3900,67,,match
-455,"Soft Brush, 7 × 16 cm, dark grey/antique pink","7 × 16 cm, dark grey/antique pink",23125,4350,2715,fixed,4544 sanr-katuneri-hamar-erkate-gndikavor-atamiknerov-retine-brnakov,23125Tx,4350,2715,4350,34,,match
-456,"Soft Brush for Cats, rubber handle, 7 × 16 cm",7 × 16 cm,23126,3600,2250,fixed,4547 sanr-katuneri-hamar-retine-brnakov,23126Tx,3600,2250,3600,70,,match
-457,"Brush for Cats, wood, 5 × 18 cm",5 × 18 cm,23129,1650,1030,fixed,4537 sanr-xozanak-katuneri-hamar,23129Tx,1650,1030,1650,24,,match
-458,Corner Massage Brush,"8 × 13 cm, grey",23131,2250,1405,fixed,5000 sanr-masajor-katuneri-hamar,23131Tx,2250,1405,2250,23,,match
-459,Coat Care Glove,"16 × 24 cm, pink/black",23132,2150,1340,fixed,5398 sanr-retine-dzernoc-katuneri-hamar,23132Tx,2150,1340,2150,2,,match
-460,"Brush, double sided, 6 × 21 cm",6 × 21 cm,2315,1850,1155,fixed,806 erkkoghmani-sanr-neylon,2315Tx,1850,1155,1850,2,,match
-461,"Wooden Brush with Nylon Bristles, 5 × 18 cm",5 × 18 cm,2325,1250,780,fixed,840 xozanak-sanr-neylone,2325Tx,1250,780,1250,69,,match
-462,"Brush, wood, natural bristles, 5 × 18 cm",5 × 18 cm,2326,1450,905,fixed,839 sanr-bnakan-mazov,2326Tx,1450,905,1450,46,,match
-463,Brush,5 × 21 cm,2327,1550,965,fixed,839 sanr-bnakan-mazov,2327Tx,1550,965,1550,4,,match
-464,Care Brush,8 × 13 cm,2330,2200,1375,fixed,783 xozanak-poghpatic-atamiiknerov,2330Tx,2200,1375,2200,58,,match
-465,"Massage Brush, rubber, double sided, 12 × 14 cm",12 × 14 cm,2334,3550,2215,fixed,786 erkkoxmani-mersman-dzernoc,2334Tx,3550,2215,3550,48,,match
-466,"Fur Care Glove, 14 × 25 cm",14 × 25 cm,2335,1950,1215,fixed,793 mazaheracnox-dzernoc-1425,2335Tx,1950,1215,1950,108,,match
-467,Massage Brush,8 × 13 cm,2336,2950,1840,fixed,784 mersman-xozanak,2336Tx,2950,1840,2950,66,,match
-468,"Fur Care Glove, 18 × 24 cm",18 × 24 cm,23392,3700,2310,fixed,797 mazaheracnox-dzernoc-metaxakan,23392Tx,3700,2310,3700,35,,match
-469,"Fur Care Glove, 16 × 24 cm, dark grey/blue","16 × 24 cm, dark grey/blue",23393,2550,1590,fixed,2636 mazaheracnox-ev-mersox-dzernoc,23393Tx,2550,1590,2550,29,,match
-470,"Soft Brush, 6 × 13 cm",6 × 13 cm,2353,1550,965,fixed,117 sanri-komplekt,2353Tx,1550,965,1550,2,,match
-471,"Soft Brush, 9 × 13 cm",9 × 13 cm,2354,1750,1090,fixed,117 sanri-komplekt,2354Tx,1750,1090,1750,7,,match
-472,"Soft Brush with Comb, nickel-plated, 11 × 14 cm",11 × 14 cm,2356,2100,1310,fixed,117 sanri-komplekt,2356Tx,2100,1310,2100,107,,match
-473,Face and Paw Scissors,8 cm,2360,1800,1125,fixed,1936 mkrat-demqi-tateri-hamar,2360Tx,1800,1125,1800,4,,match
-474,"Trimming Knife, coarse","19 cm, dark grey/blue",2362,4650,2905,fixed,4531 sanr-mejqi-ev-pori-hamar,2362Tx,4650,2905,4650,0,,match
-475,"Claw Scissors, 12 cm",12 cm,2367,4050,2530,fixed,1084 eghungktrich-shneri-hamar,2367Tx,4050,2530,4050,49,,match
-476,Professional Face and Paw Scissors,13 cm,23692,6550,4090,fixed,5383 mkrat-klor-cayrerov-cgjangotvox-poxpatic,23692Tx,6550,4090,6550,20,,match
-477,"Claw Clippers, 11 cm",11 cm,2370,2450,1530,fixed,1937 kusachki-gilyotina-exungktrich,2370Tx,2450,1530,2450,16,,match
-478,"Claw Scissors, 13 cm, dark grey/blue","13 cm, dark grey/blue",2371,4500,2810,fixed,1938 exungktrich-13sm,2371Tx,4500,2810,4500,8,,match
-479,"Claw Scissors, 8 cm, dark grey/blue","8 cm, dark grey/blue",2373,1950,1215,fixed,1949 mkrat-poqr-kendanineri-hamar,2373Tx,1950,1215,1950,235,,match
-480,"Comb, fine teeth",22 cm,23764,3500,2185,fixed,734 karch-atamnerov-sanr-64,TX 237641,3500,2185,3500,25,,match
-481,Combi-Comb,"22 cm, dark grey/blue",23767,3100,1935,fixed,736 sanr-poxnord-atamiknerov,TX 237671,3100,1935,3100,71,,match
-482,"Coat Untangler, medium teeth","22 cm, dark grey/blue",23772,3950,2465,fixed,737 sanr-mijin-atamiknerov,TX 237721,3950,2465,3950,41,,match
-483,"Coat Untangler Combi-Comb, 22 cm, dark grey/blue","22 cm, dark grey/blue",23773,3950,2465,fixed,738 sanr-pokhnord-atamiknerov,TX 237731,3950,2465,3950,9,,match
-484,"Long Hair Groomer, 10 × 15 cm",10 × 15 cm,23782,4100,2560,fixed,763 metaxakan-sanr-erkar-atamiknerov,TX 237821,4100,2560,4100,43,,match
-485,"Long Hair Groomer, 10 × 15 cm, dark grey/blue","10 × 15 cm, dark grey/blue",23783,4950,3090,fixed,764 metaxakan-sanr-pokhnord-atamiknerov,TX 237831,4950,3090,4950,10,,match
-486,Long Hair Coat Untangler,"7 × 14 cm, dark grey/blue",23791,4400,2750,fixed,766 metaxakan-sanr-erkar-klor-atamiknerov,TX 237911,4400,2750,4400,30,,match
-487,Short Hair Coat Untangler,10 × 15 cm,23792,4400,2750,fixed,765 metaxakan-sanr-karch-klor-atamiknerov,TX 237921,4400,2750,4400,39,,match
-488,"Comb with Wooden Handle, 18 cm",18 cm,2391,1650,1030,fixed,770 sanr-nosr-atamiknerov,2391Tx,1650,1030,1650,67,,match
-489,"Comb, double sided",17 cm,2396,1900,1185,fixed,771 erkkoghmani-sanr,2396Tx,1900,1185,1900,60,,match
-490,Flea and Dust Comb,6 cm,2401,4800,3000,fixed,4560 sanr-naxatesvac-vojilneri-ev-kexti-maqrman-hamar,2401Tx,4800,3000,4800,1,,match
-491,"Soft Brush, rubber handle, metal pins, 7 × 16 cm",7 × 16 cm,24055,2450,1530,fixed,4158 sanr-retine-brnakov-metaxakan-atamiknerov,24055Tx,2450,1530,2450,66,,match
-492,"Soft Brush, 9 × 16 cm",9 × 16 cm,24056,2900,1810,fixed,4158 sanr-retine-brnakov-metaxakan-atamiknerov,24056Tx,2900,1810,2900,7,,match
-493,"Soft Brush, 12 × 16 cm",12 × 16 cm,24057,3250,2030,fixed,4158 sanr-retine-brnakov-metaxakan-atamiknerov,24057Tx,3250,2030,3250,93,,match
-494,"Comb with Rotating Pins, 18 cm",18 cm,2411,1500,935,fixed,3724 sanr-shneri-hamar-pttvox-atamiknerov,2411Tx,1500,935,1500,143,,match
-495,"Brush, double-sided","5 × 19 cm, dark grey/blue",24151,4850,3030,fixed,4555 sanr-xozanak-erkkoxm-plastike-gndikavor-atamiknerov,24151Tx,4850,3030,4850,7,,match
-496,"Brush, double sided, 6 × 19 cm",6 × 19 cm,24153,4950,3090,fixed,4556 sanr-xozanak-erankyunadzev,24153Tx,4950,3090,4950,1,,match
-497,"Soft Brush, 19 cm",19 cm,24155,1800,1125,fixed,2640 xozanak-papuk-atamiknerov,24155Tx,1800,1125,1800,102,,match
-498,"Fur Detangler, 19 cm, dark grey/blue","19 cm, dark grey/blue",24162,4000,2500,fixed,4562 sanr-koltunorez-erkar-ker-atamiknerov,24162Tx,4000,2500,4000,1,,match
-499,Carding Groomer,"8 × 14 cm, dark grey/blue",24173,8250,5155,fixed,767 sanr-trimer,TX 241731,8250,5155,8250,3,,match
-500,"Trimmer Comb, 6 × 15 cm, green","6 × 15 cm, green",24183,7350,4590,fixed,1926 sanr-trimer-kanach,TX 241831,7350,4590,7350,16,,match
-501,"Carding Groomer, extra sharp","8 × 14 cm, dark grey/blue",24185,8550,5340,fixed,1926 sanr-trimer-kanach,TX 241851,8550,5340,8550,17,,match
-502,"Claw Clippers, 14 cm, dark grey/blue","14 cm, dark grey/blue",2423,3600,2250,fixed,1085 eghungktrich-shneri-hamar-14-sm,2423Tx,3600,2250,3600,37,,match
-503,"Fur Detangler, 6 × 18 cm, dark grey/blue","6 × 18 cm, dark grey/blue",24242,5600,3500,fixed,1925 universal-sanr-koltunarez,TX 242421,5600,3500,5600,11,,match
-504,Tooth Brush Set,2 pcs.,2550,800,500,fixed,694 atami-xozanak,2550Tx,800,500,800,138,,match
-505,Dental Hygiene Set,2561,2561,2700,1740,fixed,731 atamneri-xnamqi-havaqatsu,2561Tx,2700,1740,2700,25,,match
-506,"Dental Hygiene Set, 50 g",50 g,25620,2250,1405,fixed,1616 katuneri-berani-xorochi-higienayi-havaqacu,TX 256201,2250,1405,2250,38,,match
-507,Toothbrush Set,"4 pcs., white",25621,1350,840,fixed,695 atami-xozanak-poqr-shneri-hamar,TX 256211,1350,840,1350,8,,match
-508,Silicone Finger Toothbrush Set,2 pcs.,25624,1350,840,fixed,4156 matin-hagnox-xozanakneri-havaqacu,25624Tx,1350,840,1350,94,,match
-509,Cat Waste Bags,"3 rolls of 10 bags,​3 l",40478,1850,1190,fixed,4940 axbi-toprak-katuneri-hamar-3-hatanoc-patet,40478Tx,1850,1190,1850,77,,match
-510,"Hiding Place for Tablets, for Cats",50 g,25842,1100,685,fixed,7473 hyurasirutyuun-katuneri-hamar-naaxatesvats-haberi-hamar-50g,25842Tx,1100,685,1100,94,,match
-511,Buffalo scalp,200 g,27153,2600,1625,fixed,7139 trixie-gomeshi-kashvic-hyurasirutyun-alergik-shneri-hamar-200-g,27153Tx,2600,1625,2600,65,,match
-512,Twists,2 pcs./85 g,31145,2000,1250,fixed,6699 Trixie-kolagenov-patrastvac-hyurasirutyun-shneri-hamar,31145Tx,2000,1250,2000,35,,match
-513,Croissants,2 pcs./80 g,31147,1850,1155,fixed,6700 trixie-havi-msov-kruasan-shneri-hamar,31147Tx,1850,1155,1850,12,,match
-514,Braid,65 g,31148,1550,965,fixed,6701 trixie-havi-msov-hyusq-shneri-hamar,31148Tx,1550,965,1550,7,,match
-515,Marbled Rolls with beef & white fish,3 pcs./140 g,31227,2650,1655,fixed,4294 hyurasirutyun-shneri-hamar-marbled-dentafun-dzoxikner,31227Tx,2650,1655,2650,230,,match
-515,Marbled Rolls with beef & white fish,6 pcs./70 g,31225,1550,965,fixed,3526 hyurasirutyun-shneri-marbled-dentafun-tavari,31225Tx,1550,965,1550,398,,match
-516,Soft Snack Dots with Carrot,200 g,31295,1800,1125,fixed,7164 trixie-vegan-dots-banjarexenayin-hyurasirutyun-shneri-hamar-gazarov,31295Tx,1800,1125,1800,2,,match
-517,Knot with Chicken,5 pcs./70 g,31321,1550,965,fixed,3017 voskor-shneri-hamar-havi-denta-fun,313211,1550,965,1550,121,,match
-518,"Knot with Chicken, 2 pcs./70 g",2 pcs./70 g,31322,1550,965,fixed,3013 voskor-shneri-hamar-havi-msov,313221,1550,965,1550,25,,match
-519,"Knot with Chicken, 70 g",70 g,31323,1350,840,fixed,3012 voskor-shneri-hamar-hanguycnerov-havi,31323Tx,1350,840,1350,9,,match
-520,"Knot with Chicken, 120 g",120 g,31324,1950,1215,fixed,3250 voskor-shneri-hamar-havi,31324Tx,1950,1215,1950,26,,match
-521,Rolls with Chicken,3 pcs./140 g,31327,2700,1685,fixed,3527 dzoxikner-shneri-denta-fun-havi-hamov,31327Tx,2700,1685,2700,246,,match
-522,"Rolls with Chicken, 120 g",120 g,31346,2650,1655,fixed,2655 denta-fun-dzoxikner-havi-msov-6sm,TX 313461,2650,1655,2650,121,,match
-523,Ring with Chicken,2 pcs./110 g,31332,2350,1465,fixed,6609 Trixie-havi-msayin-oxakner,31332Tx,2350,1465,2350,23,,match
-524,Rolls with Rabbit,6 pcs./70 g,31338,1650,1030,fixed,3016 dzoxikner-shneri-volorac-chagari,31338Tx,1650,1030,1650,181,,match
-525,Mini Bones with Chicken,8 pcs./120 g,31340,2550,1590,fixed,155 denta-fun-havi-msov,31340Tx,2550,1590,2550,89,,match
-526,Dumbbells with Chicken and Rice,6 pcs./100 g,31342,1600,1000,fixed,63 denta-fun,31342Tx,1600,1000,1600,16,,match
-527,Bone with Chicken,140 g,31344,2450,1530,fixed,3011 voskorner-shneri-havi-hamov,31344Tx,2450,1530,2450,71,,match
-528,"Bone with Chicken, 2 × 60 g",2 × 60 g,31343,2150,1340,fixed,3011 voskorner-shneri-havi-hamov,31343Tx,2150,1340,2150,88,,match
-529,"Bone with Chicken, 200 g",200 g,31345,3250,2030,fixed,7760 voskorner-shneri-havi-hamov-denta-fun,31345Tx,3250,2030,3250,18,,match
-530,Rolls with Duck,10 pcs./80 g,31371,1850,1155,fixed,167 denta-fun-badi-msov,31371Tx,1850,1155,1850,501,,match
-531,"Rolls with Duck, 120 g",120 g,31347,2600,1625,fixed,2656 denta-fun-dzoxikner-badi-msov-6sm,31347Tx,2600,1625,2600,82,,match
-532,"Roll Mix with Chicken, Lamb or Beef",250 g,31372,5600,3500,fixed,3459 volorac-dzoxikner-shneri-hamar-denta-fun-mix,31372Tx,5600,3500,5600,337,,match
-533,Barbecue Rolls with Chicken Breast,3 pcs./105 g,31377,2400,1500,fixed,3015 dzoxikner-shneri-volorac-havi-denta-fun,31377Tx,2400,1500,2400,49,,match
-534,Rolls with buffalo meat,"5 pcs./70 g, buffalo",31388,1850,1155,fixed,1895 denta-fun-rulet-shneri-hamar-gomesh,TX 313881,1850,1155,1850,28,,match
-535,Barbecue Ribs with Duck,2 pcs./110 g,31466,2450,1530,fixed,3249 xortikner-shneri-hamar-badi,31466Tx,2450,1530,2450,0,,match
-536,Barbecue Ribs with Chicken,3 pcs./90 g,31467,2200,1375,fixed,3014 voskor-shneri-havi-xortikner-Denta-fun,31467Tx,2200,1375,2200,24,,match
-537,Drumsticks with Rabbit,8 pcs./100 g,31546,1900,1185,fixed,2699 premio-rabbit-drumsticks-qaxcr-patar,TX 315461,1900,1185,1900,399,,match
-538,Chickies with Chicken Breast,100 g,31591,1800,1125,fixed,153 premio-chickies,31591Tx,1800,1125,1800,176,,match
-539,Fishies with Whitefish,100 g,31599,1900,1185,fixed,1898 premio-fishies-qaxcr-patarner-shneri-hamar,TX 315991,1900,1185,1900,271,,match
-540,Coins with beef,100 g,31706,2000,1250,fixed,110 premio-beef-coins,TX 317061,2000,1250,2000,81,,match
-541,Rabbit Ears with Chicken,80 g,31808,1950,1185,fixed,3020 hyurasirutyun-shneri-hamar-chagari-akanjner,31808Tx,1950,1185,1950,694,,match
-542,Veggie Topping,300 ml,31849,2500,1720,fixed,7723 busakan-hexuk-havelum-keri-hamy-barelavelu-hamar,31849Tx,2500,1720,2500,2,,match
-543,"Premio Filets with Lamb, 80 g",80 g,31858,1400,875,fixed,6943 hyurasirutyun-shneri-hamar-gari-msayin-filener-80-g,31858Tx,1400,875,1400,265,,match
-544,"Premio Filets with Beef, 80 g",80 g,31859,1400,875,fixed,6944 hyurasirutyun-shneri-hamar-horti-msayin-filener-80-g,31859Tx,1400,875,1400,170,,match
-545,Softies with Duck Breast,100 g,31869,1900,1185,fixed,3498 hyurasirutyun-shneri-badi-msayin-bekorner,31869Tx,1900,1185,1900,169,,match
-546,Creamy Snack with Chicken Breast,5 × 14 g,42681,1000,625,fixed,5278 hyurasirutyun-katuneri-hamar-havi-pyure,42681Tx,1000,625,1000,765,,match
-547,Creamy Snack with Shrimp,5 × 14 g,42682,1000,625,fixed,5279 hyurasirutyun-katuneri-hamar-tuna-dzkan-ev-covaxecgetni-pyure,42682Tx,1000,625,1000,809,,match
-548,Creamy Snack with Whitefish,5 × 14 g,42683,1000,625,fixed,5280 hyurasirutyun-katuneri-hamar-tuna-ev-spitak-dzkan-pyure,42683Tx,1000,625,1000,723,,match
-549,Premio Hearts with Duck Breast and Pollock,50 g,42705,1100,685,fixed,1302 premio-ducky-hearts-katuneri-hamar,TX 427051,1100,685,1100,69,,match
-550,Premio Cubes with Chicken Breast,50 g,42706,1200,750,fixed,1295 premio-chicken-cubes-katuneri-hamar,TX 427061,1200,750,1200,44,,match
-551,Mini Sticks with Chicken Breast and Rice,50 g,42708,1000,625,fixed,1298 premio-chicken-mini-sticks-katuneri-hamar,TX 427081,1000,625,1000,107,,match
-552,Premio Cubes with Chicken Breast and Cheese,50 g,42717,1200,750,fixed,1299 premio-cheese-chicken-cubes-katuneri-hamar,TX 427171,1200,750,1200,34,,match
-553,Premio Sandwiches with Tuna and Chicken Breast,50 g,42731,1350,840,fixed,1294 premio-tuna-sandwiches-katuneri-hamar,TX 427311,1350,840,1350,112,,match
-554,Premio Rolls with Tuna and Chicken Breast,50 g,42732,1350,840,fixed,1292 premio-tuna-rolls-katuneri-hamar,TX 427321,1350,840,1350,3,,match
-555,Premio Bites with Tuna and Chicken Breast,50 g,42734,1350,840,fixed,1300 premio-tuna-bites-katuneri-hamar,TX 427341,1350,840,1350,40,,match
-556,Premio Tenders Chicken Breast,4 pcs./70 g,42735,1400,875,fixed,5908 hyurasirutyun-katuneri-hamar-chicken-tenders-havi-krcqamis-70g,42735Tx,1400,875,1400,3,,match
-557,"Premio Trainer Snack Mini Nuggets with Tuna, Chicken and Catnip",50 g,42741,1300,810,fixed,1334 mini-nuggets-trainer-snack-katuneri-hamar,TX 427411,1300,810,1300,23,,match
-558,Cookies with Salmon and Catnip,50 g,42743,1000,665,fixed,2748 cookies-qaxcr-patar-katuneri-hamar,TX 427431,1000,665,1000,16,,match
-559,Premio Strips with Tuna & Whitefish,20 g,42746,700,435,fixed,2999 hyuirasirutyun-katuneri-hamar-dzkan-bekorner,42746Tx,700,435,700,87,,match
-560,Cookies with chicken and prawn,50 g,42748,650,405,fixed,7475 txvacqablit-katuneri-hamar-krivetkayi-ev-havi-msov-50g,42748Tx,650,405,650,70,,match
-561,Junior Clouds,40 g,42754,1200,750,fixed,3698 hyurasirutyun-katuneri-dzageri-hamar,42754Tx,1200,750,1200,82,,match
-562,Freeze Dried Shrimps,25 g,42755,1550,965,fixed,5906 hyurasirutyun-katuneri-hamar-shrips-choracvac-manracovaxecgetin-25g,42755Tx,1550,965,1550,4,,match
-563,Freeze Dried Chicken Hearts,25 g,42756,1100,685,fixed,7325 xortik-katuneri-havi-choratsrats-sirt,42756Tx,1100,685,1100,5,,match
-564,Premio Rolls with Chicken Breast & Tuna,"50 g, poultry/tuna",42763,1500,935,fixed,7454 hyurasirutyun-katuneri-hamar-havi-ev-tunayi-msov-roller-50g,42763Tx,1500,935,1500,26,,match
-565,Premio Rolls with Chicken Breast and Cheese,"50 g, poultry/cheese",42764,1500,935,fixed,7359 hyurasirutyun-katuneri-hamar-havi-msov-ev-panrov-roller-50g,42764Tx,1500,935,1500,3,,match
-566,Freeze Dried lamb liver & salmon,25 g,42804,1400,875,fixed,6950 trixie-hyurasirutyun-katuneri-hamar-gar-ev-dzuk,42804Tx,1400,875,1400,80,,match
-567,Freeze Dried chicken meat & cheese,25 g,42805,1400,875,fixed,6949 trixie-hyurasirutyun-katuneri-hamar-havi-mis-ev-panir,42805Tx,1400,875,1400,21,,match
-568,Balm for the Eye Area,50 ml,2546,2100,1355,fixed,691 balzam-achqeri-xnamqi-hamar,2546Tx,2100,1355,2100,41,,match
-569,Ear Care,50 ml,2547,2000,1250,fixed,6483 trixie-akanji-katilner-kendnineri-hamar-50ml,2547Tx,2000,1250,2000,5,,match
-570,Dental Hygiene Spray,50 ml,2548,1850,1155,fixed,730 berani-xorochi-sprey,2548Tx,1850,1155,1850,20,,match
-571,Tearstain Remover,50 ml,2559,2000,1250,fixed,6482 trixie-achqeri-katilner-kendanineri-hamar-50ml,2559Tx,2000,1250,2000,32,,match
-572,Paw Care Spray,50 ml,2572,1650,1030,fixed,4071 coxarkich-shneri-ev-katuneri-tatikneri-hamar,2572Tx,1650,1030,1650,15,,match
-573,Honey Shampoo,250 ml,2899,1950,1215,fixed,728 shampun-shneri-meghrov,2899Tx,1950,1215,1950,11,,match
-574,"Herbal Shampoo, 250 ml",250 ml,2900,1950,1215,fixed,724 busakan-shampun-shneri,2900Tx,1950,1215,1950,141,,match
-575,Anti-Dandruff Shampoo,250 ml,2904,1950,1215,fixed,816 shampun-tepi-dem,2904Tx,1950,1215,1950,158,,match
-576,Coconut Oil Shampoo,250 ml,2905,1950,1215,fixed,743 shampun-kokosi-yughov,2905Tx,1950,1215,1950,13,,match
-577,Puppy Shampoo,250 ml,2906,1950,1215,fixed,519 shampun-shan-dzageri-hamar-trixie,2906Tx,1950,1215,1950,197,,match
-578,Cat Shampoo,250 ml,2908,1950,1215,fixed,1392 shampun--karchamaz-katuneri-hamar,TX 029081,1950,1215,1950,32,,match
-579,"Colour Shampoo for White Dogs, 250 ml",250 ml,2914,1950,1215,fixed,817 shampun-bac-guyni-mazer-unecox-shneri-hamar,2914Tx,1950,1215,1950,574,,match
-580,"Colour Shampoo for Black Dogs, 250 ml",250 ml,2915,1950,1215,fixed,841 shampun-mug-mazer-unecox-shneri-hamar,2915Tx,1950,1215,1950,148,,match
-581,Dry Shampoo,100 g,29181,1550,965,fixed,1951 chor-shampun-100g,TX 291811,1550,965,1550,80,,match
-582,Cat Shampoo for Long Hair,250 ml,29191,1950,1215,fixed,1538 shampun-erkaramaz-katuneri-hamar,TX 291911,1950,1215,1950,14,,match
-583,Jojoba Oil Shampoo,250 ml,29192,1950,1215,fixed,742 shampun-jojobayi-yughov-shneri-hamar,TX 291921,1950,1215,1950,42,,match
-584,Jojoba Oil Conditioner,250 ml,29193,1950,1215,fixed,883 kondicioner-jojobayi-yughov,29193Tx,1950,1215,1950,2,,match
-585,Orange Shampoo,250 ml,29194,1950,1215,fixed,741 shampun-narinj,TX 291941,1950,1215,1950,31,,match
-586,Natural-Oil Shampoo,250 ml,29195,1950,1215,fixed,757 shampun-bnakan-yughov,TX 291951,1950,1215,1950,30,,match
-587,Two in One Shampoo,250 ml,29197,1950,1215,fixed,843 shampun-erkus@-mekum,29197Tx,1950,1215,1950,146,,match
-588,"Single-use Finger Pads for Ear Care, 50 pcs.",50 pcs.,29392,3500,2185,fixed,6529 trixie-matnocner-kendanineri-akanjnery-maqrelu-hamar-50-hat,29392Tx,3500,2185,3500,112,,match
-589,"Single-use Finger Pads for Dental Care, 50 pcs.",50 pcs.,29393,3350,2090,fixed,4371 matnoc-kendanineri-atamneri-maqrman-hamar-50-hat,29393Tx,3350,2090,3350,20,,match
-590,"Dry Foam Shampoo, 450 ml",450 ml,29411,3600,2250,fixed,1950 chor-shampun-450ml,TX 294111,3600,2250,3600,26,,match
-591,Tea Tree Oil Shampoo,250 ml,2945,1950,1215,fixed,1952 shampun-shneri-hamar-teyi-tsari-yughov,2945Tx,1950,1215,1950,0,,match
-592,"Puppy Toy Skein, latex, 15 cm",15 cm,35513,2200,1375,fixed,3907 xaxaliq-dzageri-teli-tesqov,35513Tx,2200,1375,2200,2,,match
-593,Catnip,30 g,42241,1600,1000,fixed,3719 katuneri-ananux-choracvac,42241Tx,1600,1000,1600,33,,match
-594,Soft Grass,bowl/approx. 100 g,4232,1500,935,fixed,3707 xoti-sermer-katuneri-dzageri-hamar,4232Tx,1500,935,1500,103,,match
-595,"Simple'n'Clean Deodorising Spray, 175 ml",175 ml,4237,1950,1215,fixed,7601 cogharkich-katuneri-hamar-hoti-dem,4237Tx,1950,1215,1950,3,,match
-596,"Simple'n'Clean Deodorising Spray, 750 ml",750 ml,42407,4650,2905,fixed,4325 simple-n-clean-coxarkich-katuneri-,42407Tx,4650,2905,4650,20,,match
-597,Matatabi play spray,50 ml,42423,1650,1030,fixed,7195 trixie-matatabii-extractov-coxarkich-50-ml,42423Tx,1650,1030,1650,4,,match
-598,"Matatabi Spray, 175 ml",175 ml,42424,2350,1465,fixed,7196 trixie-matatabii-extractov-coxarkich-175-ml,42424Tx,2350,1465,2350,18,,match
-599,Matatabi Lolly,11 cm,42430,1850,1155,fixed,3684 chupachups-katuneri-hamar-mentolov,42430Tx,1850,1155,1850,9,,match
-600,Matatabi Feather Game,20 cm,42431,1300,810,fixed,4498 katuneri-xaxaliq-peturov-ev-matatabiov-berani-higienayi-hamar,42431Tx,1300,810,1300,18,,match
-601,"Matatabi Lolly, Heart",23 cm,42441,2000,1250,fixed,6952 trixie-srtik-xaxaliq-katuneri-hamar-matatabiov-ev-ananuxov,42441Tx,2000,1250,2000,12,,match
-602,"Matatabi Lolly, Mouse",20 cm,42442,2000,1250,fixed,6953 trixie-mknik-xaxaliq-katuneri-hamar-matatabiov-ev-ananuxov,42442Tx,2000,1250,2000,4,,match
-603,Matatabi Lolly XXL,13.5 cm,42444,2100,1310,fixed,7581 matatabi-payik-katvaxoti-gndikov-katuneri-hamar,42444Tx,2100,1310,2100,36,,match
-604,Set of Catnip Mice,2 pcs.,45749,1150,715,fixed,4373 katvaxotic-patrastvac-mknikner-katuneri-hamar,45749Tx,1150,715,1150,7,,match
-605,"Ball on a Stick for Kittens, 18 cm",18 cm,46000,5350,3340,fixed,7444 xaxaliq-katuneri-hamar-gndak-dzoxi-vra-18sm,46000Tx,5350,3340,5350,3,,match
-606,Premium First Aid Kit,19455,19455,12450,8025,fixed,4367 arajin-bujognutyan-dexatup-shneri-ev-katuneri-hamar,19455Tx,12450,8025,12450,8,,match
-607,Towel,"66 × 43 cm, grey",23375,4100,2560,fixed,3731 xonavecnox-srbich-kendanineri-hamar,23375Tx,4100,2560,4100,0,,match
-608,"Bathrobe, XS, grey","XS, grey",23571,6800,4250,fixed,4055 loganqi-xalat-vermak-bambakya,23571Tx,6800,4250,6800,0,,match
-609,"Bathrobe, S, grey","S, grey",23572,9050,5655,fixed,4055 loganqi-xalat-vermak-bambakya,23572Tx,9050,5655,9050,3,,match
-610,"Toothpaste, 100 g, Tea tree oil","100 g, Tea tree oil",2549,1500,965,fixed,698 atami-macuk-teyi-tsari-yughov,2549Tx,1500,965,1500,19,,match
-611,"Toothpaste, 100 g, Mint","100 g, Mint",2557,1400,900,fixed,697 atami-macuk-ananukh,2557Tx,1400,900,1400,89,,match
-612,Toothpaste with Enzymes,100 g,25626,1490,930,fixed,7484 atami -macuk-fermentnerov-harust-enzymes-100g,25626Tx,1490,930,1490,42,,match
-613,Paw cleaner for dogs with silicone bristles,"M–L, dark grey/blue",25705,4200,2625,fixed,6338 tatiknere-maqrox-mijoc-mersox-silikonnerov-kapuyt-s-m,25705Tx,4200,2625,4200,2,,match
-614,Universal Care Wipes,40 pcs.,29417,1650,1030,fixed,7485 xonav-andzerocik-mortu-hamar-40-hat-aloe-verayov,29417Tx,1650,1030,1650,96,,match
-615,Eye Care Wipes,40 pcs.,29418,1650,1030,fixed,7486 xonav-andzerocik-achqeri-hamar-40-hat-aloe-verayov,29418Tx,1650,1030,1650,113,,match
-616,Ear Care Wipes,40 pcs.,29419,1650,1030,fixed,7487 xonav-andzerocik-akanjneri-hamar-40-hat-aloe-verayov,29419Tx,1650,1030,1650,145,,match
-617,Liver Pâté,110 g,3176,1950,1215,fixed,3870 hyurasirutyun-shneri-premio-pashtet,3176Tx,1950,1215,1950,11,,match
-618,Bacon Pâté,110 g,31842,1950,1215,fixed,4191 hyurasirutyun-shneri-hamar-premio-bekoni-pashtet,31842Tx,1950,1215,1950,11,,match
-619,Lamb Pâté,110 g,31843,2350,1465,fixed,4037 hyurasirutyun-shneri-hamar-premio-garan-pashtet,31843Tx,2350,1465,2350,0,,match
-620,Cat Malt,100 g,4220,2400,1500,fixed,1934 macuk-katuneri-hamar,TX 042201,2400,1500,2400,14,,match
-621,Poultry Pâté,"75 g, poultry",42728,1750,1090,fixed,4291 pashtet-katuneri-hamar-premio-trchnamsov,42728Tx,1750,1090,1750,10,,match
-622,BWild Grain Free Adult Cat,Cod with Prawns & Vegetables 85 g,012767,600,420,fixed,3345 pauch-katuneri-hamar-monge-bwild-adult-dzkan-merluzo,012767,600,420,600,3277,,match
-622,BWild Grain Free Adult Cat,Buffalo with Vegetables 85 g,012757,600,420,fixed,3346 pauch-katuneri-hamar-monge-bwild-adult-bizon,012757,600,420,600,5097,,match
-622,BWild Grain Free Adult Cat,Anchovies with Vegetables 85 g,012777,600,420,fixed,3348 pauch-katuneri-hamar-monge-bwild-adult-dzkan-anchous,012777,600,420,600,3388,,match
-623,BWild Grain Free Sterilised Cat,Salmon with Prawns & Vegetables 85 g,012787,600,420,fixed,3347 pauch-sterilizacvac-katuneri-hamar-monge-bwild-dzkan-salmon,012787,600,420,600,2622,,match
-623,BWild Grain Free Sterilised Cat,Tuna with Prawns & Vegetables 85 g,012797,600,420,fixed,3350 pauch-sterilizacvac-katuneri-hamar-monge-bwild-tonno,012797,600,420,600,7112,,match
-623,BWild Grain Free Sterilised Cat,Wild Boar with Vegetables 85 g,012807,600,420,fixed,3349 pauch-sterilizacvac-katuneri-hamar-monge-bwild-vayri-varazi-msov,012807,600,420,600,5730,,match
-624,Grill Adult Dog,Chicken & Turkey 100 g,013117,500,370,fixed,1114 monge-grill-hav-hndkahav-shneri-100g,MG 013117,500,370,500,883,,match
-624,Grill Adult Dog,Salmon 100 g,013127,500,370,fixed,1113 monge-grill-saghmon-shneri-100g,MG 013127,500,370,500,1,,match
-624,Grill Adult Dog,Lamb with Vegetables 100 g,013167,500,370,fixed,1109 monge-grill-gar-banjarexen-shneri-100g,MG 013167,500,370,500,1364,,match
-625,Grill Puppy Chicken & Turkey 100 g,Chicken & Turkey 100 g,013177,500,370,fixed,3395 ker-shneri-dzageri-monge-grill-hav-hndkahav,013177,500,370,500,6288,,match
-626,Fruit Adult Dog Paté,Pork with Pineapple 100 g,013257,600,450,fixed,862 monge-fruit-xoz-arqayakhndzor,MG 013257,600,450,600,21,,match
-626,Fruit Adult Dog Paté,Turkey with Citrus Fruits 400 g,014337,2100,1500,fixed,6380 monge-Solo-pashtet-shneri-hamar-hndkahavi-ev-citrus-400-g-grain-free,014337,2100,1500,2100,193,,match
-626,Fruit Adult Dog Paté,Chicken with Raspberries 100 g,013217,600,450,fixed,860 monge-fruit-hav-aznvamori,MG 013217,600,450,600,1401,,match
-626,Fruit Adult Dog Paté,Duck with Orange 100 g,013237,600,450,fixed,861 monge-fruit-bad-narinj,MG 013237,600,450,600,377,,match
-626,Fruit Adult Dog Paté,Salmon with Pear 100 g,013247,600,450,fixed,864 monge-fruit-saxmon-tandz,MG 013247 ,600,450,600,1,,match
-627,Grill Kitten Salmon 85 g,Salmon 85 g,013607,550,380,fixed,3359 pauch-katuneri-dzageri-hamar,013607,550,380,550,7011,,match
-628,Grill Adult Cat,Rabbit 85 g,013617,550,380,fixed,3065 monge-grill-katuneri-hamar-chagar,013617,550,380,550,5096,,match
-628,Grill Adult Cat,Lamb 85 g,013627,550,380,fixed,3066 monge-grill-katuneri-hamar-gar,013627,550,380,550,2436,,match
-629,Grill Sterilised Cat Chicken 85 g,Chicken 85 g,013637,550,380,fixed,3067 monge-grill-steril-katuneri-hamar-hav,013637,550,380,550,6139,,match
-630,Grill Sterilised Cat Veal 85 g,Veal 85 g,013647,550,380,fixed,3068 monge-gril-steril-katuneri-hamar-hort,013647,550,380,550,6775,,match
-631,Grill Sterilised Cat Trout 85 g,Trout 85 g,013657,550,380,fixed,5288 monge-ishxani-hamov-pauch-sterilizacvac-katuneri-hamar-85g,013657,550,380,550,8624,,match
-632,VetSolution Urinary Struvite Cat 100 g,100 g,014627,600,470,fixed,2796 vetsolution-urinary-struvite-pashtet-katuneri-hamar-100g,MV 014627,600,470,600,30,,match
-633,Adult Dog Pouch,Beef & Ham 100 g,300607,450,340,fixed,799 tavari-xozapuxti-hamov-pauch-mets-shneri-hamar,MM 300607,450,340,450,147,,match
-633,Adult Dog Pouch,Salmon 100 g,300617,450,340,fixed,,,450,,,,"priced from sibling 300607,300627 (not on hafo)",sibling match
-633,Adult Dog Pouch,Game 100 g,300627,450,340,fixed,800 badi-msov-pauch-mets-shneri-hamar,MM 300627,450,340,450,48,,match
-634,Adult Cat Pouch Pork 100 g,Pork 100 g,300687,450,310,fixed,7854 pauch-katuneri-hamar-gemon-adult-xoz-100-gr,300687,450,310,450,600,,match
-635,Fresh Sterilised Cat,Herring 85 g,301097,450,310,fixed,7846 pauch-katuneri-hamar-monge-fresh-steril-tarekh-85-gr,301097,450,310,450,616,,match
-635,Fresh Sterilised Cat,Beef 85 g,301087,450,310,fixed,7844 pauch-katuneri-hamar-monge-fresh-steril-tavar-85-gr,301087,450,310,450,672,,match
-636,Mini Adult Chicken & Rice 800 g,Chicken & Rice 800 g,004097,3850,2850,per_kg,5245 ker-shneri-hamar-monge-mini-adult-hav-brindz,004097,3850,2850,3850,7,,match
-637,Monoprotein Adult Cat Salmon 1.5 kg,Salmon 1.5 kg,005517,7500,6000,per_kg,5388 ker-katuneri-hamar-monge-monoprotein-saxmon,005517,7500,6000,7500,13,,match
-638,Monoprotein Sterilised Cat Beef 1.5 kg,Beef 1.5 kg,005527,8800,6500,per_kg,5243 ker-katuneri-hamar-monge-sterilised-monoprotein-horti-msov,005527,8800,6500,8800,13,,match
-639,All Breeds Puppy & Junior Lamb & Rice 800 g,Lamb & Rice 800 g,011257,4600,3550,per_kg,2786 all-breads-puppy-junior-shneri-chor-ker-gar-brindz-800g,MG 011257,4600,3550,4600,0,,match
-640,Extra Small Puppy & Junior Chicken 800 g,Chicken 800 g,011407,4250,3200,per_kg,837 monge-extra-small-puppy-junior-havi-hamov,MG 011407,4250,3200,4250,6,,match
-641,Extra Small Adult Lamb & Rice 800 g,Lamb & Rice 800 g,011477,4900,3700,per_kg,4008 ker-shneri-hamar-monge-extra-small-adult-gar-brindz,011477,4900,3700,4900,56,,match
-642,Sterilised Cat Chicken 1.5 kg,Chicken 1.5 kg,011937,8500,6200,per_kg,1038 monge-sterilised-chor-ker-katuneri-hamar-1,MG 011937,8500,6200,8500,21,,match
-643,BWild Adult Cat Hare 1.5 kg,Hare 1.5 kg,012007,9000,7550,per_kg,"4902 bwild-chor-ker-hasun-katuneri-hamar-chagar-(1,5kg)",012007,9000,7550,9000,11,,match
-644,BWild Grain Free Large Breed Cat Buffalo 1.5 kg,Buffalo 1.5 kg,012067,10000,8250,per_kg,3733 ker-katuneri-hamar-bwild-cat,012067,10000,8250,10000,38,,match
-645,BWild Grain Free Sterilised Cat Tuna with Peas 1.5 kg,Tuna with Peas 1.5 kg,012087,10000,8250,per_kg,3735 ker-steril-bwild-cat-tyunos,012087,10000,8250,10000,35,,match
-646,VetSolution Gastrointestinal Cat 1.5 kg,1.5 kg,081517,8900,7300,per_kg,999 vetsolution-gastrointestinal-bjshkakan-chor-ker-katuneri-hamar,MV 081517,8900,7300,8900,127,,match
-647,VetSolution Renal Cat 1.5 kg,1.5 kg,081657,8900,7300,per_kg,998 vetsolution-renal-bjshkakan-chor-ker-katuneri-hamar,MV 081657,8900,7300,8900,48,,match
-648,VetSolution Hepatic Cat 1.5 kg,1.5 kg,081687,8900,7300,per_kg,995 vetsolution-hepatic-bjshkakan-chor-ker-katuneri-hamar,MV 081687,8900,7300,8900,25,,match
-649,VetSolution Diabetic Cat 1.5 kg,1.5 kg,081757,8900,7300,per_kg,994 vetsolution-diabetic-bjshkakan-chor-ker-katuneri-hamar,MV 081757,8900,7300,8900,33,,match
-650,BWild Grain Free Puppy Duck 400 g,Duck 400 g,012607,1250,900,fixed,3272 pahaco-shneri-dzageri-hamar-bwild,012607,1250,900,1250,1033,,match
-651,BWild Grain Free Adult Dog,Lamb 400 g,012617,1250,900,fixed,3481 pahaco-bolor-cexatesaki-hasun-shneri-hamar-bwild-gar,012617,1250,900,1250,625,,match
-651,BWild Grain Free Adult Dog,Salmon 400 g,012627,1250,900,fixed,3480 pahaco-bolor-cexatesaki-hasun-shneri-hamar-bwild-saxmon,012627,1250,900,1250,385,,match
-651,BWild Grain Free Adult Dog,Turkey 400 g,012647,1250,900,fixed,3274 pahaco-bolor-cexatesaki-hasun-shneri-bwild,012647,1250,900,1250,515,,match
-652,BWild Grain Free Mini Adult Dog Duck 400 g,Duck 400 g,012637,1250,900,fixed,3273 pahaco-poqr-cexatesaki-hasun-shneri-hamar-bwild,012637,1250,900,1250,524,,match
-653,Solo Monoprotein Adult Dog Paté,Chicken 400 g,014217,2000,1450,fixed,871 monge-monoproteico-miayn-hav,MG 014217,2000,1450,2000,33,,match
-653,Solo Monoprotein Adult Dog Paté,Turkey 400 g,014227,2000,1450,fixed,873 monge-monoproteico-miayn-hndkahav,MG 014227 ,2000,1450,2000,46,,match
-653,Solo Monoprotein Adult Dog Paté,Lamb 400 g,014237,2000,1450,fixed,870 monge-monoproteico-miayn-gar,MG 014237 ,2000,1450,2000,192,,match
-653,Solo Monoprotein Adult Dog Paté,Tuna 400 g,014247,2000,1450,fixed,869 monge-monoproteico-miayn-tyunos,MG 014247 ,2000,1450,2000,64,,match
-653,Solo Monoprotein Adult Dog Paté,Duck 400 g,014437,2000,1450,fixed,3071 ker-shneri-hamar-pahaco-monge-monoprotein-bad,014437,2000,1450,2000,120,,match
-653,Solo Monoprotein Adult Dog Paté,Chicken 150 g,014137,1000,750,fixed,1117 monge-monoproteico-havov-pashtet-150g,MG 014137,1000,750,1000,60,,match
-653,Solo Monoprotein Adult Dog Paté,Turkey 150 g,014147,1000,750,fixed,6373 monge-Solo-pashtet-shneri-hamar-հնդկահավի-hamov-150-g-grain-free,014147,1000,750,1000,0,,match
-653,Solo Monoprotein Adult Dog Paté,Venison 150 g,014177,1000,750,fixed,6370 monge-Solo-pashtet-shneri-hamar-exniki-hamov-150-g-grain-free,014177,1000,750,1000,132,,match
-653,Solo Monoprotein Adult Dog Paté,Duck 150 g,014187,1000,750,fixed,6369 monge-Solo-pashtet-shneri-hamar-badi-hamov-150-g-grain-free,014187,1000,750,1000,24,,match
-653,Solo Monoprotein Adult Dog Paté,Beef 150 g,014407,1000,750,fixed,6379 monge-Solo-pashtet-shneri-hamar-horti-hamov-150-g-grain-free,014407,1000,750,1000,132,,match
-653,Solo Monoprotein Adult Dog Paté,Pork 150 g,014417,1000,750,fixed,6378 monge-Solo-pashtet-shneri-hamar-xozi-hamov-150-g-grain-free,014417,1000,750,1000,73,,match
-654,Fresh Puppy Veal with Vegetables 400 g,Veal with Vegetables 400 g,014447,1250,900,fixed,3076 pahaco-shneri-dzageri-hamar-monge-fresh,014447,1250,900,1250,2464,,match
-655,Fresh Adult Dog,Pork 400 g,014467,1250,900,fixed,3078 pahaco-shneri-hamar-monge-fresh-xoz,014467,1250,900,1250,423,,match
-655,Fresh Adult Dog,Chicken 400 g,014477,1250,900,fixed,3077 pahaco-shneri-hamar-monge-fresh-hav,014477,1250,900,1250,267,,match
-655,Fresh Adult Dog,Duck 400 g,014567,1250,900,fixed,3080 pahaco-shneri-hamar-monge-fresh-bad,014567,1250,900,1250,541,,match
-655,Fresh Adult Dog,Lamb 400 g,014577,1250,900,fixed,3079 pahaco-shneri-hamar-monge-fresh-gar,014577,1250,900,1250,1391,,match
-656,Fresh Adult Dog Veal 400 g,Veal 400 g,014457,1250,900,fixed,3081 pahaco-shneri-hamar-monge-fresh-hort,014457,1250,900,1250,2728,,match
-657,Fresh Adult Dog Trout 400 g,Trout 400 g,014497,1250,900,fixed,7811 pahaco-shneri-hamar-monge-fresh-ishxan,014497,1250,900,1250,633,,match
-658,Fresh Senior Dog Turkey with Vegetables 400 g,Turkey with Vegetables 400 g,014487,1250,900,fixed,6897 pahaco-shneri-hamar-monge-fresh-senior-hndkahav,014487,1250,900,1250,442,,match
-659,Gran Bonta Adult Dog Chicken & Turkey 400 g,Chicken & Turkey 400 g,041587,700,550,fixed,3736 pahaco-shneri-hamar-gran-bonta-hav-hndkahav,041587,700,550,700,2,,match
-660,Gran Bonta Adult Dog Meat 400 g,Meat 400 g,041537,700,550,fixed,3737 pahaco-shneri-hamar-monge-gran-bonta-msayin,041537,700,550,700,87,,match
-661,Gran Bonta Adult Dog Meat 1230 g,Meat 1230 g,041567,1550,1150,fixed,3737 pahaco-shneri-hamar-monge-gran-bonta-msayin,041567,1550,1150,1550,61,,match
-662,Gran Bonta Adult Dog Chicken & Turkey 1230 g,Chicken & Turkey 1230 g,041577,1550,1150,fixed,3736 pahaco-shneri-hamar-gran-bonta-hav-hndkahav,041577,1550,1150,1550,47,,match
-663,"Gran Bonta Chef Adult Dog Meat, Egg & Cheese 415 g","Meat, Egg & Cheese 415 g",041787,700,550,fixed,3738 pahaco-shneri-hamar-monge-gran-bonta-chef-mis,041787,700,550,700,1,,match
-664,Gran Bonta Chef Adult Dog Beef 1230 g,Beef 1230 g,041887,1550,1150,fixed,3740 pahaco-shneri-hamar-monge-gran-bonta-chef-tavar,041887,1550,1150,1550,36,,match
-665,Excellence Medium Adult Lamb 1275 g,Lamb 1275 g,060347,1900,1400,fixed,3741 pahaco-shneri-hamar-special-dog-excellence-medium-adult,060347,1900,1400,1900,35,,match
-666,Excellence Maxi Adult Beef 1275 g,Beef 1275 g,060357,1900,1400,fixed,3742 pahaco-shneri-hamar-special-dog-tavar,060357,1900,1400,1900,31,,match
-667,Excellence Adult Cat Beef 100 g,Beef 100 g,061787,570,420,fixed,5821 pauch-katuneri-hamar-lechat-excellence,061787,570,420,570,96,,match
-668,VetSolution Diabetic & Obesity Dog 400 g,400 g,082017,1650,1250,fixed,5871 Pahaco-shneri-hamar-monge-vet-diabetic-and-obesity-tuna,082017,1650,1250,1650,391,,match
-669,VetSolution Hypo Monoprotein Dog,Tuna 400 g,082037,1650,1250,fixed,5868 pahaco-shneri-hamar-monge-vet-hypo-monoprotein-tuna,082037,1650,1250,1650,52,,match
-669,VetSolution Hypo Monoprotein Dog,Duck 400 g,082047,1650,1250,fixed,7517 pahaco-shneri-hamar-monge-vet-hypo-monoprotein-bad-400gr,082047,1650,1250,1650,61,,match
-669,VetSolution Hypo Monoprotein Dog,Lamb 400 g,082057,1650,1250,fixed,5869 pahaco-shneri-hamar-monge-vet-hypo-monoprotein-gar,082057,1650,1250,1650,186,,match
-670,Sterilised Cat Paté Turkey 400 g,Turkey 400 g,299957,920,660,fixed,3310 pashtet-gemon-katuneri-sterilizet,299957,920,660,920,774,,match
-671,Adult Cat Paté Beef 400 g,Beef 400 g,299967,920,660,fixed,3311 pashtet-gemon-katuneri-horti-400g,299967,920,660,920,175,,match
-672,Puppy & Junior Dog Pouch Chicken 100 g,Chicken 100 g,300637,450,340,fixed,,,,,,,,not on hafo under gemon (1 other-brand hits)
-673,Adult Cat Chunks Salmon & Shrimp 415 g,Salmon & Shrimp 415 g,300737,750,540,fixed,7337 pahaco-katuneri-saghmonov-,300737,750,540,750,435,,match
-674,Sterilised Cat Chunks Tuna & White Fish 415 g,Tuna & White Fish 415 g,300747,750,540,fixed,7332 pahaco-katuneri-tunayov-ev-ovkianosayin-dzknerov,300747,750,540,750,383,,match
-675,Sterilised Cat Pouch Tuna 100 g,Tuna 100 g,300907,450,310,fixed,1060 gemon-dzkan-pauch-sterilized-katuneri-100,MM 300907,450,310,450,50,,match
-676,Adult Cat Mousse,Chicken & Salmon 85 g,301017M,430,335,fixed,,,,,,,,not on hafo
-676,Adult Cat Mousse,Chicken & Pork 85 g,301027M,430,335,fixed,,,,,,,,not on hafo
-677,Sterilised Cat Mousse,Chicken & Liver 85 g,301037M,430,335,fixed,,,,,,,,not on hafo
-677,Sterilised Cat Mousse,Tuna & Pork 85 g,301047M,430,335,fixed,,,,,,,,not on hafo
-678,Adult Dog Paté,Beef & Tripe 400 g,387807,800,600,fixed,5641 gemon-pashtet-shneri-hamar-tavari-hamov,387807,800,600,800,755,,match
-678,Adult Dog Paté,Lamb 400 g,387817,800,600,fixed,5901 gemon-pashtet-shneri-hamar-gari-hamov-400g,387817,800,600,800,291,,match
-679,Medium Adult Dog Chunks Veal & Liver 415 g,Veal & Liver 415 g,387857,750,540,fixed,3152 pahaco-gemon-mijin-cexatesaki-hasun-shneri-hamar-hort-lyard,387857,750,540,750,237,,match
-680,Puppy & Junior Dog Chunks Chicken & Turkey 415 g,Chicken & Turkey 415 g,387867,750,540,fixed,3153 pahaco-gemon-shneri-dzageri-hamar-hav-hndkahav,387867,750,540,750,427,,match
-681,Mini Adult Dog Chunks Chicken & Rice 415 g,Chicken & Rice 415 g,387877,750,540,fixed,3151 pahaco-gemon-poqr-cexatesaki-hasun-shneri-hamar-hav,387877,750,540,750,1151,,match
-682,Maxi Adult Dog Chunks,Beef & Rice 1250 g,387907,1750,1300,fixed,792 tavari-brndzi-hamov-pashtet-mets-shneri-hamar,MM 387907,1750,1300,1750,379,,match
-682,Maxi Adult Dog Chunks,Pork & Rice 1250 g,387947,1750,1300,fixed,,,1750,,,,priced from sibling 387907 (not on hafo),sibling match
-683,Medium Adult Dog Paté,Lamb & Rice 1250 g,387917,1750,1300,fixed,790 garan-brndzi-hamov-pashtet-mets-shneri-hamar,MM 387917,1750,1300,1750,220,,match
-683,Medium Adult Dog Paté,Chicken & Turkey 1250 g,387927,1750,1300,fixed,791 havi-hdnkahavi-hamov-pashtet-mets-shneri-hamar,MM 387927,1750,1300,1750,26,,match
-684,Leo's Puppy Chunks Chicken & Turkey 415 g,Chicken & Turkey 415 g,390797,690,500,fixed,3769 pahaco-shneri-dzageri-hamar-leos-hav-hndkahav,390797,690,500,690,120,,match
-685,Leo's Adult Chunks Poultry 415 g,Poultry 415 g,390807,690,500,fixed,3770 pahaco-shneri-hamar-monge-leos-adult-trchnamis,390807,690,500,690,32,,match
-686,Gift Soft Sticks Adult Cat Rabbit with Sage 15 g,15 g,08523MG,750,500,fixed,5674 dzoxikner-katuneri-hamar-monge-gift-grain-free-dental-jagar-exespak-3stiks15g,08523MG,750,500,750,186,,match
-687,Gift Soft Sticks Kitten Trout with Chamomile 15 g,15 g,08524MG,750,500,fixed,5673 dzoxikner-katuneri-hamar-monge-gift-grain-free-kitten-ishxan-ericuk-3stiks15gram,08524MG,750,500,750,250,,match
-688,Gift Soft Sticks Adult Cat Pork with Rosehips & Cheese 15 g,15 g,08525MG,750,500,fixed,5669 dzoxikner-katuneri-hamar-monge-gift-grain-free-training-xoz-masur-3stiks-15gram,08525MG,750,500,750,180,,match
-689,Gift Soft Sticks Hairball Cat Salmon with Artichoke 15 g,15 g,08526MG,750,500,fixed,5670 dzoxikner-katuneri-hamar-monge-gift-grain-free-hairball-saxmon-artijuk-3stiks15gram,08526MG,750,500,750,215,,match
-690,Gift Soft Sticks Skin Support Cat Cod,08527MG,08527MG,750,500,fixed,5671 dzoxikner-katuneri-hamar-monge-gift-grain-free-skin-support-god-fish-karmir-ereqnuk-3stiks15g,08527MG,750,500,750,203,,match
-691,Gift Soft Sticks Sterilised Cat Duck with Lemon Balm & Cranberries 15 g,15 g,08528MG,750,500,fixed,5672 dzoxikner-katuneri-hamar-monge-gift-grain-free-sterilized-bad-limoni-terev-3stiks15gram,08528MG,750,500,750,218,,match
-692,Gift Sticks Adult Dog Rabbit with Betaglucans 45 g,45 g,08539MG,1650,1100,fixed,5658 monge-gift-dzoxikner-shneri-hamar-jagar-beta-glyukanner-grain-free-immunity-support,08539MG,1650,1100,1650,10,,match
-693,Gift Sticks Adult Dog Trout with Turmeric 45 g,45 g,08540MG,1650,1100,fixed,5657 monge-gift-dzoxikner-shneri-hamar-ishxan-imbir-grain-free-mobility-support,08540MG,1650,1100,1650,50,,match
-694,Gift Sticks Puppy & Junior Pork with Milk 45 g,45 g,08541MG,1650,1100,fixed,5656 monge-gift-dzoxikner-shneri-dzageri-hamar-xoz-kat-grain-free-puppy-junior,08541MG,1650,1100,1650,26,,match
-695,Gift Sticks Adult Dog Lamb with Chestnuts 45 g,45 g,08542MG,1650,1100,fixed,5655 monge-gift-dzoxikner-shneri-hamar-gar-shaganak-grain-free-sensitive,08542MG,1650,1100,1650,50,,match
-696,Gift Sticks Adult Dog Salmon with Aloe Vera 45 g,45 g,08543MG,1650,1100,fixed,5654 monge-gift-dzoxikner-shneri-hamar-saxmon-aloe-grain-free-skin-support,08543MG,1650,1100,1650,29,,match
-697,Gift Sticks Adult Dog Duck with Spirulina 45 g,45 g,08544MG,1650,1100,fixed,5653 monge-gift-dzoxikner-shneri-hamar-bad-spirulina-grain-free-training,08544MG,1650,1100,1650,52,,match
-698,Gift Filled & Crunchy Dental Cat Rabbit with Peppermint 60 g,60 g,08500MG,1050,700,fixed,5692 bardzikner-katuneri-hamar-monge-gift-grain-free-dental-jagar-ananux-60g,08500MG,1050,700,1050,3,,match
-699,Gift Filled & Crunchy Kitten Trout with Milk 60 g,60 g,08501MG,1050,700,fixed,5690 bardzikner-katuneri-hamar-monge-gift-grain-free-kitten-ishxan-kat-60g,08501MG,1050,700,1050,33,,match
-700,Gift Filled & Crunchy Adult Cat Pork with Cheese 60 g,60 g,08502MG,1050,700,fixed,5687 bardzikner-katuneri-hamar-monge-gift-grain-free-xoz-panir-60g,08502MG,1050,700,1050,64,,match
-701,Gift Filled & Crunchy Hairball Cat Salmon with Catnip 60 g,60 g,08503MG,1050,700,fixed,5691 bardzikner-katuneri-hamar-monge-gift-grain-free-hairball-saxmon-katvaxot-60g,08503MG,1050,700,1050,71,,match
-702,Gift Filled & Crunchy Skin Support Cat Cod with Aloe Vera 60 g,60 g,08504MG,1050,700,fixed,5689 bardzikner-katuneri-hamar-monge-gift-grain-free-skin-support-godfish-aloe-60g,08504MG,1050,700,1050,95,,match
-703,Gift Filled & Crunchy Sterilised Cat Duck with Cranberries 60 g,60 g,08505MG,1050,700,fixed,5688 bardzikner-katuneri-hamar-monge-gift-grain-free-sterilised-bad-loramirg-60g,08505MG,1050,700,1050,31,,match
-704,Gift Meat Minis Hairball Cat Salmon with Plum 50 g,50 g,08513MG,1800,1200,fixed,5649 monge-gift-katuneri-hamar-saxmon-salor-grain-free-skin-support,08513MG,1800,1200,1800,79,,match
-705,Gift Meat Minis Dental Cat Rabbit with Apple 50 g,50 g,08514MG,1800,1200,fixed,5652 monge-gift-katuneri-hamar-jagar-xndzor-grain-free-dental,08514MG,1800,1200,1800,74,,match
-706,Gift Meat Minis Kitten Trout with Blueberries 50 g,50 g,08515MG,1800,1200,fixed,5651 monge-gift-katuneri-dzageri-hamar-ishxan-sev-haxarj-grain-free-kitten,08515MG,1800,1200,1800,72,,match
-707,Gift Meat Minis Adult Cat Pork with Pineapple & Cheese 50 g,50 g,08516MG,1800,1200,fixed,5647 monge-gift-katuneri-hamar-xoz-arqayaxndzor-grain-free,08516MG,1800,1200,1800,26,,match
-708,Gift Meat Minis Sterilised Cat Duck with Pomegranate & Cranberries 50 g,50 g,08518MG,1800,1200,fixed,5648 Monge-gift-katuneri-hamar-bad-nur-grain-free-sterilised,08518MG,1800,1200,1800,27,,match
-709,Fresh Adult Cat Paté,Beef 100 g,008607,620,460,fixed,5815 pashtet-katuneri-hamar-lechat-fresh-tavar-100g,008607,620,460,620,144,,match
-709,Fresh Adult Cat Paté,Chicken with Vegetables 100 g,008617,620,460,fixed,5816 pashtet-katuneri-hamar-lechat-fresh-hav-banjarexen-100g,008617,620,460,620,288,,match
-709,Fresh Adult Cat Paté,Duck 100 g,008627,620,460,fixed,5817 pashtet-katuneri-hamar-lechat-fresh-bad-100g,008627,620,460,620,112,,match
-709,Fresh Adult Cat Paté,Salmon 100 g,008637,620,460,fixed,5814 pashtet-katuneri-hamar-lechat-fresh-salmon-100g,008637,620,460,620,81,,match
-710,BWild Grain Free Large Breed Cat Paté Buffalo 100 g,Buffalo 100 g,012857,630,470,fixed,3279 pashtet-mec-katuneri-hamar-bwild,012857,630,470,630,480,,match
-711,BWild Grain Free Adult Cat Paté,Cod 100 g,012867,630,470,fixed,3277 pashtet-katuneri-hamar-bwild-merluzo,012867,630,470,630,1754,,match
-711,BWild Grain Free Adult Cat Paté,Anchovies 100 g,012877,630,470,fixed,3275 pashtet-hasun-katuneri-bwild,012877,630,470,630,1664,,match
-711,BWild Grain Free Adult Cat Paté,Salmon 100 g,012887,630,470,fixed,3276 pashtet-hasun-katuneri-hamar- bwild,012887,630,470,630,1839,,match
-712,BWild Grain Free Sterilised Cat Paté,Tuna 100 g,012897,630,470,fixed,3278 pahstet-hasun-katuneri-hamar-sterilizet-bwild,012897,630,470,630,768,,match
-712,BWild Grain Free Sterilised Cat Paté,Wild Boar 100 g,012907,630,470,fixed,4905 pashtet-sterilizacvac-hasun-katuneri-hamar-vayri-varaz,012907,630,470,630,3846,,match
-713,Fresh Adult Dog Paté,Tuna 100 g,013017,550,410,fixed,857 monge-fresh-pashtet-tyunosi-msov,MG 013017,550,410,550,3042,,match
-713,Fresh Adult Dog Paté,Chicken with Vegetables 100 g,013037,550,410,fixed,858 monge-fresh-pashtet-havi-msov-banjarexenov,MG 013037,550,410,550,1249,,match
-713,Fresh Adult Dog Paté,Pork 100 g,013097,550,410,fixed,851 monge-fresh-pashtet-xozi-msov,MG 013097,550,410,550,1099,,match
-713,Fresh Adult Dog Paté,Cod 100 g,013107,550,410,fixed,850 monge-fresh-pashtet-dzoghadzkan-hamov,MG 013107,550,410,550,60,,match
-714,Fresh Adult Dog Paté Chicken 100 g,Chicken 100 g,013067,550,410,fixed,854 monge-fresh-pashtet-havi-msov,MG 013067,550,410,550,638,,match
-715,VetSolution Dermatosis Dog 150 g,150 g,014507,750,570,fixed,,,,,,,,not on hafo under monge (1 other-brand hits)
-716,VetSolution Gastrointestinal Dog 150 g,150 g,014517,750,570,fixed,835 vetsolution-gastrointestinal-pashtet,MV 014517,750,570,750,1656,,match
-717,VetSolution Renal Dog 150 g,150 g,014527,750,570,fixed,833 vetsolution-renal-oxalate-pashtet-150,MV 014527,750,570,750,60,,match
-718,VetSolution Recovery Dog 150 g,150 g,014537,750,570,fixed,834 vetsolution-recovery-pashtet-150,MV 014537,750,570,750,84,,match
-719,VetSolution Renal & Oxalate Cat 100 g,100 g,014647,600,470,fixed,6828 vetsolution-renal-oxalate-pashtet-katuneri-hamar-100-g,014647,600,470,600,0,,match
-720,VetSolution Recovery Cat 100 g,100 g,014657,600,470,fixed,6827 vetsolution-recovery-pashtet-katuneri-hamar-100-g,014657,600,470,600,360,,match
-721,Fresh Adult Cat Chicken with Vegetables 85 g,Chicken with Vegetables 85 g,301067,450,310,fixed,7847 pauch-katuneri-hamar-monge-fresh-hav-banjareghen85-gr,301067,450,310,450,391,,match
-722,Mint Dental Rugby,"8 × 6.5 cm, pink",19245AQ,3600,2250,fixed,7457 xaxaliq-regbi-gndak-8*6.5sm-mentoli-horov-vardaguyn,19245AQ,3600,2250,3600,11,,match
-723,Snacky Strawberry,"7.5 × 6.5 cm, red",19256AQ,2850,1780,fixed,6512 comfy-xaxaliq-elak,19256AQ,2850,1780,2850,20,,match
-724,Snacky Ball,"ø 8.5 cm, green",19284AQ,2850,1780,fixed,7456 xaxaliq-comfy-elustnerov-8.5sm-kanach,19284AQ,2850,1780,2850,16,,match
-725,Mint Dental Bone,"16.5 cm, green",19449AQ,4000,2665,fixed,5486 xaxaliq-shneri-hamar-dental-bone-mentoli-hotov-kanach,19449AQ,4000,2665,4000,4,,match
-726,Strong Dog Hammer,"13.5 cm, red",30681AQ,5150,3215,fixed,7461 xaxaliq-comfy-strong-dog-13.5sm-karmir-114329,30681AQ,5150,3215,5150,28,,match
-727,Premium Adult Cat,Beef in Jelly 85 g,142565,270,225,fixed,7052 club-4-paws-horti-msov-jele-katuneri-hamar-85-g,142565,270,225,270,1010,,match
-727,Premium Adult Cat,Chicken in Gravy 85 g,142525,270,225,fixed,3032 club-4-paws-tac-ker-katuneri-hamar-havi-sousov-85g,142525,270,225,270,873,,match
-727,Premium Adult Cat,Duck in Gravy 85 g,142505,270,225,fixed,7053 club-4-paws-badi-msov-sous-katuneri-hamar-85g,142505,270,225,270,1364,,match
-727,Premium Adult Cat,Rabbit in Jelly 85 g,142515,270,225,fixed,3033 club-4-paws-chagari-msov-jele-katuneri-hamar-85-g,142515,270,225,270,667,,match
-727,Premium Adult Cat,Turkey in Jelly 85 g,142495,270,225,fixed,7007 club-4-paws-jelly-hndkahavi-hamov-85-g,142495,270,225,270,1302,,match
-728,Premium Adult Cat Veal in Gravy 85 g,Veal in Gravy 85 g,143015,270,225,fixed,3031 4-tat-tac-ker-katuneri-hamar-horti-sousov-85g,143015,270,225,270,668,,match
-729,Premium Sterilised Cat,Chicken in Jelly 80 g,908935,270,225,fixed,7055 club-4-paws-sterilised-havi-jelly-katuneri-hamar-80-g,908935,270,225,270,3402,,match
-730,"Traditional Line Lemon Shampoo for Short Coats, 300 ml",300 ml,03168IVS,7000,4375,fixed,7522 shampun-karchamaz-shneri-ev-katuneri-hamar-traditional-pluskitroni-hotov-300ml,03168IVS,7000,4375,7000,4,,match
-731,"Traditional Line Green Apple Shampoo for Long Coats, 300 ml",300 ml,03174IVS,7000,4375,fixed,7521 shampun-erkaramaz-shneri-ev-katuneri-hamartraditional-plus-xndzori-hotov-300ml,03174IVS,7000,4375,7000,7,,match
-732,"Traditional Line Lemon Conditioner for Short Coats, 300 ml",300 ml,03177IVS,7550,4715,fixed,7524 balzam-karchamaz-shneri-ev-katuneri-hamar-traditional-plus-kitroni-hotov-300ml,03177IVS,7550,4715,7550,8,,match
-733,"Traditional Line Green Apple Conditioner for Long Coats, 300 ml",300 ml,03183IVS,7550,4715,fixed,7525 balzam-erkaramaz-shneri-ev-katuneri-hamar-traditional-plus-xndzori-hotov-300ml,03183IVS,7550,4715,7550,2,,match
-734,"Protective Shield Shampoo, 300 ml",300 ml,03681IVS,7800,4875,fixed,7526 iv-san-bernard-isb-protective-shield-antiparazitayin-shampun-300ml,03681IVS,7800,4875,7800,2,,match
-735,"Protective Shield Conditioner, 300 ml",300 ml,03684IVS,9300,5810,fixed,7527 balzam-shneri-ev-katuneri-hamar-traditional-plus-evkalipti-ev-mentoli-hotov-300ml,03684IVS,9300,5810,9300,5,,match
-736,"Atami H270 Two-Phase Detangling Spray Conditioner, 300 ml",300 ml,04115IVS,14600,9125,fixed,6253 H270-coxarkich-conditioner-mazeri-xchchvelu-dem-300-ml,04115IVS,14600,9125,14600,12,,match
-737,"Lactol Puppy Milk, 250 g",250 g,15247,7950,5125,fixed,5973 poshi-kat-shneri-hamar-lactol-puppy-250g,15247,7950,5125,7950,56,,match
-738,"Lactol Kitten Milk, 250 g",250 g,15248,8050,5190,fixed,5974 poshi-kat-katuneri-hamar-lactol-kitty-250g,15248,8050,5190,8050,46,,match
-739,"3D Flea & Tick Collar for Medium Dogs, 65 cm",65 cm,071582,4170,2605,fixed,6275 rolf-club-mijin-shneri-vzkap-tzeri-lveri-dem,071582,4170,2605,4170,348,,match
-740,"3D Flea & Tick Collar for Puppies and Small Dogs, 40 cm",40 cm,071622,3640,2275,fixed,6274 rolf-club-shneri-ev-dzageri-vzkap-tzeri-lveri-dem,071622,3640,2275,3640,165,,match
-741,"3D Flea & Tick Collar for Large Dogs, 75 cm",75 cm,072092,5090,3180,fixed,6276 rolf-club-xoshor-shneri-vzkap-tzeri-lveri-dem,072092,5090,3180,5090,105,,match
-742,3D Flea & Tick Drops for Dogs 4–10 kg,"4–10 kg, 0.8 ml",071832,3790,2365,fixed,6269 rolf-club-katilner-tzeri-ev-lveri-dem-shneri-hamar-4-10kg,071832,3790,2365,3790,74,,match
-743,3D Flea & Tick Drops for Dogs 10–20 kg,"10–20 kg, 1.5 ml",071842,4590,2865,fixed,6270 rolf-club-katilner-tzeri-ev-lveri-dem-shneri-hamar-10-20kg,071842,4590,2865,4590,149,,match
-744,3D Flea & Tick Drops for Dogs 40–60 kg,"40–60 kg, 4 ml",072582,5930,3705,fixed,6272 rolf-club-katilner-tzeri-ev-lveri-dem-shneri-hamar-40-60kg,072582,5930,3705,5930,65,,match
-745,3D Flea & Tick Drops for Cats up to 4 kg,"up to 4 kg, 0.5 ml",071862,2760,1725,fixed,6273 rolf-3d-katilner-katuneri-hamar-tzeri-ev-vojilneri-dem-(minchev-4-kg),071862,2760,1725,2760,44,,match
-746,3D Flea & Tick Drops for Cats 8–15 kg,"8–15 kg, 1.5 ml",075302,3500,2185,fixed,4909 katilner-8-15-kg-katuneri-hamar-mijatneri-dem,075302,3500,2185,3500,37,,match
-747,"3D Flea & Tick Spray for Dogs, 200 ml",200 ml,072012,6060,3785,fixed,6392 rolf-club-sprey-tzeri-ev-lveri-dem-shneri-hamar-200ml,072012,6060,3785,6060,287,,match
-748,"SexControl Tablets for Female Cats, 10 tablets",10 tablets,070932,1340,835,fixed,2283 seks-kontrol-haber-eg-katuneri-hamar-10-hab,ER 070932,1340,835,1340,432,,match
-749,"SexControl Tablets for Male Cats, 10 tablets",10 tablets,070952,1340,835,fixed,2282 seks-kontrol-haber-vordz-katuneri-hamar-10-hab,ER 070952,1340,835,1340,160,,match
-750,"SexControl Drops for Female Cats, 3 ml",3 ml,071502,2080,1300,fixed,1800 sekskontrol-katilner-katuneri-hamar-3ml,ER 071502,2080,1300,2080,102,,match
-751,"SexControl Drops for Male Cats, 3 ml",3 ml,071522,2080,1300,fixed,2275 seks-konrol-katilner-eg-katuneri-hamar,ER 071522,2080,1300,2080,34,,match
-752,"SexControl Tablets for Dogs, 10 tablets",10 tablets,075742,1890,1180,fixed,2286 seks-kontrol-haber-eg-ev-vordz-shneri-hamar-10-hab,ER 075742,1890,1180,1890,90,,match
-753,"Flea & Tick Collar for Medium Dogs, 65 cm",65 cm,073242,5500,3435,fixed,6303 chichuneri-tzeri-dem-vzkap-mijin-shneri-hamar,073242,5500,3435,5500,19,,match
-754,"Flea & Tick Collar for Small Dogs, 40 cm",40 cm,075772,4820,3010,fixed,7804 vznoc-shneri-katuneri-hamar-40sm,075772,4820,3010,4820,22,,match
-755,Mini Drops for Cats and Dogs 0.5–2 kg,0.5–2 kg,075112,4210,2630,fixed,6284 hakatzayin-ev-hakachichvayin-katilner-minchev-2-kg-katuneri-ev-shneri-hamar,075112,4210,2630,4210,32,,match
-756,Quadro Drops for Cats 1–4 kg,1–4 kg,077562,4630,2890,fixed,6286 chichuneri-ev-tzeri-dem-katilner-1-4-katuneri-hamar,077562,4630,2890,4630,45,,match
-757,Quadro Drops for Cats 4–8 kg,4–8 kg,077572,5190,3240,fixed,6287 chichuneri-tzeri-dem-katilner-4-8-kg-katuneri-hamar,077572,5190,3240,5190,36,,match
-758,Quadro Drops for Dogs 1–4 kg,1–4 kg,077592,4870,3040,fixed,6285 katilner-tzeri-ev-chichuneri-dem-shneri-hamar-1-4,077592,4870,3040,4870,23,,match
-759,Quadro Drops for Dogs 4–10 kg,4–10 kg,077602,5350,3340,fixed,6283 chichuneri-ev-tzeri-dem-katilner-shneri-hamar-4-10,077602,5350,3340,5350,41,,match
-760,Quadro Drops for Dogs 10–25 kg,"10–25 kg, 2.5 ml",077612,6330,3955,fixed,6282 chichuneri-dem-katilner-shneri-hamar-10-25,077612,6330,3955,6330,29,,match
-761,Quadro Drops for Dogs 40–60 kg,"40–60 kg, 6 ml",077632,9700,6060,fixed,6280 hakavojilayin-katilner-40-60-kg-shneri-hamar-inspector-quadro-c,077632,9700,6060,9700,34,,match
-762,"Ear Drops for Dogs and Cats, 10 ml",10 ml,077922,4510,2815,fixed,6553 inspector-hakamijatayin-akanji-katilner-shneri-ev-katuneri-hamar,077922,4510,2815,4510,66,,match
-763,Quadro Tabs for Cats and Dogs 0.5–2 kg,0.5–2 kg,077982,8340,5210,fixed,3363 chichvamux-haber-shneri-katuneri,077982,8340,5210,8340,101,,match
-764,Quadro Tabs for Cats and Dogs 2–8 kg,2–8 kg,077992,9530,5955,fixed,3361 chichvamux-haber-2-8kg,077992,9530,5955,9530,235,,match
-765,Quadro Tabs for Cats and Dogs 8–16 kg,8–16 kg,078002,10720,6700,fixed,3364 chichvamux-haber-shneri-katuneri-8-16kg,078002,10720,6700,10720,160,,match
-766,Quadro Tabs for Dogs over 16 kg,over 16 kg,078012,11910,7440,fixed,3365 chichvamux-haber-16kg-ic-mec-shneri,078012,11910,7440,11910,219,,match
-767,Spot-on for Cats up to 4 kg,"up to 4 kg, 0.4 ml",073452,2910,1815,fixed,6430 chichuneri-dem-katilner-miinchev-4kg-katuneri-hamar,073452,2910,1815,2910,26,,match
-768,Spot-on for Cats 4–10 kg,"4–10 kg, 1 ml",073722,3670,2290,fixed,6429 chichuneri-dem-katilner-minchev-10kg-katuneri-hamar,073722,3670,2290,3670,12,,match
-769,Spot-on for Puppies and Dogs up to 10 kg,"up to 10 kg, 2 × 0.5 ml",074302,3670,2290,fixed,6302 chichuneri-dem-katilner-minchev-10kg-shneri-hamar,074302,3670,2290,3670,15,,match
-770,Spot-on for Dogs over 10 kg,"over 10 kg, 2 × 2.5 ml",074312,5020,3135,fixed,6301 chichuneri-dem-katilner-shneri-hamar,074312,5020,3135,5020,24,,match
-771,"Syrup for Kittens and Cats under 4 kg, 5 ml",5 ml,074022,2210,1380,fixed,2350 chichuneri-dem-osharak-katuneri-hamar,EG 074022,2210,1380,2210,50,,match
-772,"Syrup for Cats over 4 kg, 5 ml",5 ml,074052,2820,1760,fixed,2288 chichuneri-dem-osharak-katuneri-hamar-4kg-avel,EG 074052,2820,1760,2820,22,,match
-773,"Syrup for Puppies and Dogs under 10 kg, 10 ml",10 ml,074042,2840,1775,fixed,1430 chichuneri-dem-osharak-dzageri-hamar,EG 074042,2840,1775,2840,12,,match
-774,"Syrup for Dogs over 10 kg, 10 ml",10 ml,074032,3650,2280,fixed,1431 chichuneri-dem-osharak-10kg-shneri-hamar,EG 074032,3650,2280,3650,98,,match
-775,"Tablets for Kittens and Cats up to 4 kg, 2 tablets",2 tablets,074072,2650,1655,fixed,3098 chichvamux-haber-katuneri-hamar-minchev-4kg,074072,2650,1655,2650,230,,match
-776,"Tablets for Cats over 4 kg, 2 tablets",2 tablets,074082,4190,2615,fixed,3099 chichvamux-haber-katuneri-hamar-4kg-ic-barcr,074082,4190,2615,4190,166,,match
-777,"Tablets for Puppies and Dogs under 10 kg, 2 tablets",2 tablets,074092,3090,1930,fixed,3097 chichvamux-haber-shneri-hamar-minchev-10kg,074092,3090,1930,3090,357,,match
-778,"Tablets for Dogs over 10 kg, 2 tablets",2 tablets,074102,4410,2755,fixed,3096 chichvamux-haber-shneri-hamar-10kg-ic-barcr,074102,4410,2755,4410,322,,match
-779,"Mini Syrup for Puppies and Kittens, 10 ml",10 ml,078362,2840,1775,fixed,3442 gelmintal-osharak-poqr-cexatesaki-shneri-katuneri-dzageri,078362,2840,1775,2840,64,,match
-780,"Mini Tabs for Puppies, Kittens and Small Breeds, 10 tablets",10 tablets,792732,2370,1480,fixed,6532 gelmintal-mini-chichvamux-haber-shneri-katuneri-ev-nranc-dzageri-hamar,792732,2370,1480,2370,77,,match
-781,Flea & Tick Drops for Cats and Dogs 2–4 kg,"2–4 kg, 0.5 ml",073652,1080,675,fixed,6291 tzeri-dem-katilner-shneri-katuneri-hamar-2-4kg,073652,1080,675,1080,20,,match
-782,Flea & Tick Drops for Cats and Dogs 4–10 kg,"4–10 kg, 0.8 ml",073662,1140,710,fixed,6292 tzeri-dem-katilner-shneri-hamar-4-10kg,073662,1140,710,1140,306,,match
-783,Flea & Tick Drops for Dogs 10–20 kg,"10–20 kg, 1.5 ml",073672,1670,1040,fixed,6290 tzeri-dem-katilner-shneri-hamar-10-20kg,073672,1670,1040,1670,302,,match
-784,Flea & Tick Drops for Dogs 40–60 kg,"40–60 kg, 4.3 ml",073692,2880,1800,fixed,6288 tzeri-dem-katilner-shneri-hamar-40-60kg,073692,2880,1800,2880,141,,match
-785,Combo Drops for Cats 1–4 kg,1–4 kg,791832,1410,880,fixed,6473 insectal-kombo-k-1-4-kg-katuneri-hamar,791832,1410,880,1410,91,,match
-786,Combo Drops for Cats 4–8 kg,4–8 kg,791842,1480,925,fixed,6479 insectal-kombo-k-4-8-kg-katuneri-hamar,791842,1480,925,1480,86,,match
-787,Combo Drops for Dogs 1–4 kg,1–4 kg,791852,1460,910,fixed,6474 insectal-kombo-c-1-4-kg-shneri-hamar,791852,1460,910,1460,54,,match
-788,Combo Drops for Dogs 4–10 kg,4–10 kg,791862,1540,960,fixed,6477 insectal-kombo-c-4-10-kg-shneri-hamar,791862,1540,960,1540,55,,match
-789,Combo Drops for Dogs 10–25 kg,10–25 kg,791872,2170,1355,fixed,6472 insectal-kombo-c-10-25-kg-shneri-hamar,791872,2170,1355,2170,68,,match
-790,"Dental Gel with Silver Ions, 75 ml",75 ml,073502,2530,1580,fixed,1867 atami-gel-shneri-katuneri-hamar-75ml,EN 073502,2530,1580,2530,36,,match
-791,"Oral Care Liquid with Silver Ions, 300 ml",300 ml,073532,3420,2135,fixed,1869 berani-xorochi-hexuk-shneri-katuneri-hamar-300,EN 073532,3420,2135,3420,119,,match
-792,"Oral Care Spray with Silver Ions, 100 ml",100 ml,074282,2330,1455,fixed,1870 berani-xorochi-sprey-shneri-katuneri-hamar-100ml,EN 074282,2330,1455,2330,129,,match
-793,"Eye Cleansing Lotion with Silver Ions, 50 ml",50 ml,073542,2540,1585,fixed,2236 cliny-achqere-maqrox-losion-shneri-katuneri-hamar,EN 073542,2540,1585,2540,173,,match
-794,"Ear Cleansing Lotion with Silver Ions, 50 ml",50 ml,073552,2660,1660,fixed,2237 cliny-akanjnere-maqrox-losion-shneri-katuneri-hamar,EN 073552,2660,1660,2660,123,,match
-795,"Hairball Malt Paste, 75 ml",75 ml,073512,3750,2340,fixed,2239 macuk-mazagndere-hanelu-hamar-75ml,EN 073512,3750,2340,3750,123,,match
-796,"SMART Clumping Plant-Based Cat Litter, 5 l",5 l,1101413,3850,2405,fixed,5630 smart-lcanyut-ok-lock-5-l,1101413,3850,2405,3850,80,,match
-797,"SMART Clumping Plant-Based Cat Litter, 11 l",11 l,1101213,7700,4810,fixed,5629 smart-lcanyut-ok-lock-11-l,1101213,7700,4810,7700,309,,match
+798,"Stainless Steel Bowl, 0.2 l/ø 15 cm",0.2 l/ø 15 cm,24870,1200,715,fixed,2023 poghpate-keraman-jraman-katuneri,TX 248701,1200,715,1200,130,,match
+799,Mesh Y-Harness with Lead,39–60 cm/10 mm,41890,8250,5155,fixed,4431 shleyka-dzgapokov-katuneri-hamar-yadzev,41890Tx,8250,5155,8250,10,,match
+800,"BE NORDIC Bandana Collar, S: 30 cm, dark blue","S: 30 cm, dark blue",17321,2450,1530,fixed,4759 vznoc-bandana-be-nordic-mug-kapuyt,17321Tx,2450,1530,2450,15,,match
+801,"BE NORDIC Bandana Collar, M: 40 cm, dark grey","M: 40 cm, dark grey",17333,2700,1685,fixed,4760 vznoc-bandana-be-nordic-mug-moxraguyn,17333Tx,2700,1685,2700,5,,match
+802,"BE NORDIC Bandana Collar, L: 50 cm, dark grey","L: 50 cm, dark grey",17335,2900,1810,fixed,4760 vznoc-bandana-be-nordic-mug-moxraguyn,17335Tx,2900,1810,2900,10,,match
+803,"Premium Adjustable Lead, XS–S: 2.00 m/15 mm, light lilac","XS–S: 2.00 m/15 mm, light lilac",200720,5700,3560,fixed,4572 kargavorvox-dzgapok-neylone-XS-S,200720Tx,5700,3560,5700,4,,match
+804,"Premium Adjustable Lead, double-layered","XS–S, 2.00 m/15 mm, aqua",200728,5700,3560,fixed,6663 trixie-erkshert-neylone-kargavorvox-dzgapoker-shneri-hamar-XS-S,200728Tx,5700,3560,5700,7,,match
+805,"Premium Adjustable Lead, XS, 2.00 m/10 mm, black","XS, 2.00 m/10 mm, black",201301,3450,2155,fixed,3210 dzgapok-neylone-sev,201301Tx,3450,2155,3450,6,,match
+806,"Premium Adjustable Lead, XS, 2.00 m/10 mm, red","XS, 2.00 m/10 mm, red",201303,3450,2155,fixed,3205 dzgapok-neylone-karmir,201303Tx,3450,2155,3450,5,,match
+807,"Premium Adjustable Lead, XS, 2.00 m/10 mm, fuchsia","XS, 2.00 m/10 mm, fuchsia",201311,3450,2155,fixed,3204 dzgapok-neylone-vardaguyn,201311Tx,3450,2155,3450,0,,match
+808,"Premium Adjustable Lead, XS, 2.00 m/10 mm, graphite","XS, 2.00 m/10 mm, graphite",201316,3450,2155,fixed,3217 dzgapok-neylone-moxraguyn,201316Tx,3450,2155,3450,1,,match
+809,"Nylon Lead, XS: 2.00 m/10 mm, purple","XS: 2.00 m/10 mm, purple",201320,3450,2155,fixed,3206 dzgapok-neylone-manushakaguyn,201320Tx,3450,2155,3450,4,,match
+810,"Plastic Bowl with Rubber Base, 0.65 l/ø 22 cm",0.65 l/ø 22 cm,24428,2350,1465,fixed,4050 keraman-plastik-retine-takov,24428Tx,2350,1465,2350,20,,match
+811,Place Mat,"45 × 25 cm, dark grey",24561,4500,2810,fixed,4203 skutex-jraman-keramani,24561Tx,4500,2810,4500,4,,match
+812,BE NORDIC Place Mat,"48 × 30 cm, grey",24575,6800,4535,fixed,4079 jramani-keramani-gorg-be-nordic,24575Tx,6800,4535,6800,9,,match
+813,Plastic Bowl,0.25 l/ø 10 cm,2471,600,375,fixed,3002 keraman-plastik-retine-votiknerov,2471Tx,600,375,600,76,,match
+814,Bowl Set,2 pcs.,24831,2650,1655,fixed,547 poghpatya-keraman-takdirov,TX 248311,2650,1655,2650,0,,match
+815,"Stainless Steel Bowl, 0.45 l/ø 19 cm",0.45 l/ø 19 cm,24851,1650,1030,fixed,534 poghpatya-keraman-retine-tsayrerov,24851Tx,1650,1030,1650,100,,match
+816,"Stainless Steel Bowl, 0.7 l/ø 21 cm",0.7 l/ø 21 cm,24852,1900,1185,fixed,534 poghpatya-keraman-retine-tsayrerov,24852Tx,1900,1185,1900,29,,match
+817,"Stainless Steel Bowl, 0.9 l/ø 23 cm",0.9 l/ø 23 cm,24853,2350,1465,fixed,534 poghpatya-keraman-retine-tsayrerov,24853Tx,2350,1465,2350,7,,match
+818,"Stainless Steel Bowl, 1.75 l/ø 30 cm",1.75 l/ø 30 cm,24854,3300,2060,fixed,534 poghpatya-keraman-retine-tsayrerov,24854Tx,3300,2060,3300,0,,match
+819,"Stainless Steel Bowl, 2.7 l/ø 32 cm",2.7 l/ø 32 cm,24855,4200,2625,fixed,534 poghpatya-keraman-retine-tsayrerov,24855Tx,4200,2625,4200,5,,match
+820,Stainless Steel Long-Ear Bowl,0.9 l/ø 25 cm,2488,2400,1500,fixed,3001 keraman-erkarakanj-shneri-hamar,2488Tx,2400,1500,2400,10,,match
+821,"Bowl Set on Silicone Tray, 2 × 0.3 l/ø 16 cm, 47 × 3 × 26 cm",2 × 0.3 l/ø 16 cm,24981,9950,6215,fixed,4384 erktex-keraman-silikone-skutexi-vra,24981Tx,9950,6215,9950,7,,match
+822,"Bowl Set on Silicone Tray, 2 × 0.4 l/ø 16 cm, 40 × 5 × 23 cm",2 × 0.4 l/ø 16 cm,24983,10500,6560,fixed,4080 keraman-erktexanoc-silikone-skutexi-vra,24983Tx,10500,6560,10500,5,,match
+823,"Slow Feeding Plastic Bowl, 0.3 l/ø 16 cm",0.3 l/ø 16 cm,25026,1350,840,fixed,5284 plastik-keraman-atamiknerov-dandax-kerakrman-hamar,25026Tx,1350,840,1350,10,,match
+824,"Slow Feeding Plastic Bowl, 1.4 l/ø 25 cm",1.4 l/ø 25 cm,25028,3050,1905,fixed,5284 plastik-keraman-atamiknerov-dandax-kerakrman-hamar,25028Tx,3050,1905,3050,18,,match
+825,"Slow Feeding Plastic Bowl, 0.9 l/ø 23 cm",0.9 l/ø 23 cm,25032,2500,1560,fixed,3008 keraman-plastike-retine-takov,25032Tx,2500,1560,2500,19,,match
+826,"Stainless Steel Bowl, 0.5 l/ø 14 cm",0.5 l/ø 14 cm,25071,1750,1090,fixed,535 poghpatya-keraman-jraman,TX 250711,1750,1090,1750,6,,match
+827,"Stainless Steel Bowl, 1.7 l/ø 21 cm",1.7 l/ø 21 cm,25073,3550,2215,fixed,535 poghpatya-keraman-jraman,TX 250731,3550,2215,3550,2,,match
+828,"Stainless Steel Bowl, 2.5 l/ø 24 cm",2.5 l/ø 24 cm,25074,5300,3310,fixed,535 poghpatya-keraman-jraman,TX 250741,5300,3310,5300,4,,match
+829,"Stainless Steel Bowl with Rubber Base, 0.2 l/ø 15 cm, grey","0.2 l/ø 15 cm, grey",25141,2250,1405,fixed,4358 keraman-katuneri-hamar-chjangotvox-poxpatic-retine-takov,25141Tx,2250,1405,2250,108,,match
+830,"Stainless Steel Bowl with Rubber Base, 0.45 l/ø 19 cm, grey","0.45 l/ø 19 cm, grey",25142,2850,1780,fixed,3521 keraman-chjangotvox-poxpatic-shneri-hamar,25142Tx,2850,1780,2850,9,,match
+831,"Stainless Steel Bowl with Rubber Base, 0.7 l/ø 21 cm, grey","0.7 l/ø 21 cm, grey",25143,3300,2060,fixed,3521 keraman-chjangotvox-poxpatic-shneri-hamar,25143Tx,3300,2060,3300,59,,match
+832,"Stainless Steel Bowl with Rubber Base, 0.9 l/ø 23 cm, grey","0.9 l/ø 23 cm, grey",25144,3750,2340,fixed,4359 keraman-shneri-hamar-chjangotvox-poxpatic-retine-takov,25144Tx,3750,2340,3750,45,,match
+833,"Melamine Bowl with Rubber Base, 0.2 l/ø 14 cm, white","0.2 l/ø 14 cm, white",25180,3150,1965,fixed,4081 keraman-melaminapat,25180Tx,3150,1965,3150,9,,match
+834,"Melamine Bowl with Rubber Base, 0.25 l/ø 17 cm, white","0.25 l/ø 17 cm, white",25189,2550,1590,fixed,4387 melaminapat-keraman-retine-takov-spitak,25189Tx,2550,1590,2550,0,,match
+835,"Stainless Steel Bowl for Short-nosed Breeds, 0.25 l/ø 19 cm",0.25 l/ø 19 cm,25200,3100,1935,fixed,5269 keraman-karjadunch-shneri-hamar,25200Tx,3100,1935,3100,27,,match
+836,"Bowl, enamel/stainless steel, 0.9 l/ø 17 cm, green","0.9 l/ø 17 cm, green",25212,3100,1935,fixed,5905 keraman-chjangotvox-poxpatic-kanach,25212Tx,3100,1935,3100,7,,match
+837,"Bowl, enamel/stainless steel, 1.9 l/ø 21 cm, green","1.9 l/ø 21 cm, green",25213,4300,2685,fixed,5270 chjangotvox-poxpatic-keraman-kanach,25213Tx,4300,2685,4300,38,,match
+838,Bowl Set with Rattle Protection,"2 pcs., grey",25233,8200,5125,fixed,7739 kersmsn-erku-texanoc-chjangotox-poxpat,25233Tx,8200,5125,8200,0,,match
+839,"Stainless Steel Bowl with Paw Prints and Rubber Base, 0.8 l/ø 17 cm",0.8 l/ø 17 cm,25243,4000,2500,fixed,539 poghpatya-keri-amanov-voskorov,TX 252431,4000,2500,4000,42,,match
+840,"Stainless Steel Bowl with Paw Prints and Rubber Base, 1.5 l/ø 21 cm",1.5 l/ø 21 cm,25244,5700,3560,fixed,539 poghpatya-keri-amanov-voskorov,TX 252441,5700,3560,5700,11,,match
+841,"Stainless Steel Bowl with Paw Prints and Rubber Base, 2.2 l/ø 23 cm",2.2 l/ø 23 cm,25245,7500,4685,fixed,539 poghpatya-keri-amanov-voskorov,TX 252451,7500,4685,7500,16,,match
+842,"Long-Ear Bowl, Stainless Steel/Plastic",0.9 l/ø 19 cm,25247,5700,3560,fixed,540 keraman-erkar-akanjnerov-shneri-hamar,25247Tx,5700,3560,5700,13,,match
+843,"Slow Feeding Stainless Steel Bowl with Rubber Base, 1 l/ø 21 cm",1 l/ø 21 cm,25249,7600,4750,fixed,3645 keraman-shneri-hamar-slow-feed,25249Tx,7600,4750,7600,9,,match
+844,"Stainless Steel Bowl, 0.75 l/ø 17 cm",0.75 l/ø 17 cm,25256,4700,2935,fixed,541 poghpatya-keraman-jraman-retine-tsayrerov,TX 252561,4700,2935,4700,5,,match
+845,"Stainless Steel Bowl, 500 ml/ø 13 cm",500 ml/ø 13 cm,25271,2000,1250,fixed,3519 keraman-shneri-hamar,25271Tx,2000,1250,2000,11,,match
+846,"Stainless Steel Bowl, 1.0 l/ø 15 cm",1.0 l/ø 15 cm,25272,3000,1875,fixed,3644 keraman-chjangotvox-poxpatic-retine-takov,25272Tx,3000,1875,3000,16,,match
+847,"Stainless Steel Bowl, 2.0 l/ø 20 cm",2.0 l/ø 20 cm,25273,4000,2500,fixed,3882 keraman-shneri-hamar-retine-takov,25273Tx,4000,2500,4000,4,,match
+848,"I.D. Tag, gold",gold,2278,500,310,fixed,2634 medalion-hasceater-voskeguyn,TX 2278Tx,500,310,500,40,,match
+849,"I.D. Tag, chrome",chrome,2280,700,435,fixed,415 medalyon-hasceater,2280Tx,700,435,700,17,,match
+850,"Bottle with Bowl, 0.75 l, blue/green","0.75 l, blue/green",24606,8100,5060,fixed,7508 poxpatic-shish-jramanov-chanaparhayin-0.75l,24606Tx,8100,5060,8100,7,,match
+851,"Bottle with Bowl, 0.55 l",0.55 l,24607,4300,2685,fixed,7584 jraman-chanaparhayin-xmelu-harmaranqov,24607Tx,4300,2685,4300,3,,match
+852,"Travel Bottle with Bowl, 500 ml",500 ml,2461,1950,1215,fixed,341 jri-shish-amanov,2461Tx,1950,1215,1950,4,,match
+853,Travel Bowl,0.5 l/ø 14 cm,25017,2500,1560,fixed,7585 jraman-chanaparhayin-retine-metaghakan-brnakov-kapuyt,25017Tx,2500,1560,2500,1,,match
+854,Jogging Lead,"1.33–1.80 m/20 mm, petrol/aqua",12763,7300,4560,fixed,4107 dzgapok-kargavorvox-vazqi-hamar,12763Tx,7300,4560,7300,4,,match
+855,Jogging Belt with lead,"belt: 70–130 cm/23 cm, lead: 1.15–1.50 m/20 mm, grey/black",12769,12450,7780,fixed,4419 goti-payusak-vazqi-hamar,12769Tx,12450,7780,12450,4,,match
+856,"Poisoned Bait Protection, S, black","S, black",17592,3150,2030,fixed,4418 dnchkal-cance,17592Tx,3150,2030,3150,1,,match
+857,"Poisoned Bait Protection, S–M, black","S–M, black",17593,3500,2255,fixed,4418 dnchkal-cance,17593Tx,3500,2255,3500,12,,match
+858,"Poisoned Bait Protection, M–L, black","M–L, black",17594,3850,2485,fixed,4418 dnchkal-cance,17594Tx,3850,2485,3850,15,,match
+859,"Poisoned Bait Protection, XL, black","XL, black",17596,4500,2900,fixed,4418 dnchkal-cance,17596Tx,4500,2900,4500,10,,match
+860,"Dog Socks, XXS–XS, 2 pcs., grey","XXS–XS, 2 pcs., grey",19500,1450,935,fixed,645 gulpa-shneri-hamar,TX 195001,1450,935,1450,18,,match
+861,"Dog Socks, XS–S, 2 pcs., grey","XS–S, 2 pcs., grey",19501,1700,1095,fixed,645 gulpa-shneri-hamar,TX 195011,1700,1095,1700,2,,match
+862,"Dog Socks, S–M, 2 pcs., grey","S–M, 2 pcs., grey",19502,1700,1095,fixed,645 gulpa-shneri-hamar,TX 195021,1700,1095,1700,11,,match
+863,"Dog Socks, M–L, 2 pcs., grey","M–L, 2 pcs., grey",19503,1900,1225,fixed,645 gulpa-shneri-hamar,TX 195031,1900,1225,1900,14,,match
+864,"Dog Socks, XL, 2 pcs., black","XL, 2 pcs., black",19526,5500,3545,fixed,4423 gulpa-shneri-hamar-retinapat,19526Tx,5500,3545,5500,16,,match
+865,"Dog Poop Bags with Scent, 4 × 20 bags, lavender scent, purple","4 × 20 bags, lavender scent, purple",22839,950,635,fixed,651 miangamya-ogtagorcman-toprakner-lavanda,TX 228391,950,635,950,56,,match
+866,"Dog Poop Bags, 4 × 20 bags, sorted","4 × 20 bags, sorted",22840,1100,735,fixed,4072 axbi-toprak-20-hatanoc-patet,22840Tx,1100,735,1100,79,,match
+867,"Dog Poop Bags, 8 × 20 bags, sorted","8 × 20 bags, sorted",22844,1950,1300,fixed,4073 axbi-toprak-8-hatanoc-tup,22844Tx,1950,1300,1950,60,,match
+873,Poop Bag Dispenser,1 × 15 bags,22846,1250,780,fixed,3542 tup-axbi-topraki-hamar,22846Tx,1250,780,1250,50,,match
+876,"Poop Bag Dispenser with Adhesive Strip, 1 × 20 bags",1 × 20 bags,22849,3250,2030,fixed,4121 tup-axbi-topraki-hamar-inqnakpchunov,22849Tx,3250,2030,3250,5,,match
+878,"Poop Bag Dispenser with Belt Loop, 1 × 20 bags",1 × 20 bags,22854,2150,1340,fixed,4127 tup-axbi-topraki-hamar-poqr-gotiov,22854Tx,2150,1340,2150,10,,match
+879,Replacement Lint Rollers,2 × 60 sheets,23230,2000,1250,fixed,4520 mazahanox-sarqi-lracucich-glxikner,23230Tx,2000,1250,2000,9,,match
+880,Lint Roller,1 × 60 sheets,23231,1750,1090,fixed,4550 mazery-makeresneric-havaqox-sarq,23231Tx,1750,1090,1750,61,,match
+881,Lint Roller XXL,"20 × 30 cm, grey/white",23236,5080,3175,fixed,5002 lipki-rolik-xxl-mazery-havaqelu-hamar-silikone-glxikov,23236Tx,5080,3175,5080,15,,match
+882,Upholstery and Textile Brush,"7 × 10 cm, grey",23237,2200,1375,fixed,5003 xozanak-mazery-havaqelu-hamar,23237Tx,2200,1375,2200,5,,match
+883,"Protective Pants, mesh, S: 30–37 cm",S: 30–37 cm,23241,1950,1215,fixed,934 pashtpanich-takdir-kapuyt,TX 232411,1950,1215,1950,12,,match
+884,"Protective Pants, mesh, S–M: 35–43 cm",S–M: 35–43 cm,23242,2250,1405,fixed,934 pashtpanich-takdir-kapuyt,TX 232421,2250,1405,2250,19,,match
+885,Lint Brush,"26 cm, grey/white",2329,1750,1090,fixed,4546 erkkoxmani-xozanak-mortin-ev-mazery-maqrelu-hamar,2329Tx,1750,1090,1750,11,,match
+886,"Dog Poop Bags, 4 × 20 bags, black","4 × 20 bags, black",2332,950,635,fixed,4075 axbi-toprak-4-hatanoc-tup,2332Tx,950,635,950,77,,match
+887,Protective Pants Comfort,"M, black",23434,3900,2435,fixed,7026 higienik-karch-kisavartiq-m,23434Tx,3900,2435,3900,10,,match
+888,"Cardboard Poop Scoops, 10 pcs.",10 pcs.,2345,1500,1000,fixed,4130 axb-havaqelu-hamar-naxatesvac-stvaratxte-harmaranq,2345Tx,1500,1000,1500,1,,match
+889,"Dog Poop Bags with Scent, 4 × 20 bags, rose scent, pink","4 × 20 bags, rose scent, pink",23475,950,635,fixed,3893 vardi-hotov-toprak-shneri-hamar,23475Tx,950,635,950,54,,match
+890,Protective Pants,"XS, black",23490,1750,1090,fixed,932 pashtpanich-takdir-sev,TX 234901,1750,1090,1750,4,,match
+891,"Pads for Protective Pants, XS, S, S–M, 10 pcs.","XS, S, S–M, 10 pcs.",23496,600,375,fixed,4564 higienik-kisavartiqi-mijadirner,23496Tx,600,375,600,212,,match
+892,"Pads for Protective Pants, M, 10 pcs.","M, 10 pcs.",23497,850,530,fixed,4564 higienik-kisavartiqi-mijadirner,23497Tx,850,530,850,147,,match
+893,"Cat Collar with Bell, nylon, patterned",patterned,41551,2000,1250,fixed,7030 trixie-zangakov-ev-naxshov-vzakap-katuneri-hamar,41551Tx,2000,1250,2000,9,,match
+894,"Junior Collar, Reflecting",41685,41685,1800,1125,fixed,1320 lusardzakox-vzkap-katvi-dzageri-hamar,TX 416851,1800,1125,1800,19,,match
+895,Junior Collar,4178,4178,1200,750,fixed,1314 vzkap-katuneri-dzageri-hamar-78,TX 041781,1200,750,1200,12,,match
+896,Cat Collar with Address Tag,4180,4180,1400,875,fixed,1322 vznoc-katuneri-hamar-neylone-zangakov-my-home,TX 041801,1400,875,1400,13,,match
+897,"Kitten Collar with Bell, nylon",nylon,41904,1550,965,fixed,1327 katvi-dzageri-hamar-vzkap-neylon,TX 419041,1550,965,1550,0,,match
+898,Cat Collar,4207,4207,1800,1125,fixed,1332 vzkap-katuneri-hamar-plastik-neylon-71,TX 042071,1800,1125,1800,4,,match
+899,Scratching Board,"11 × 56 cm, nature",43181,3700,2310,fixed,1009 katuneri-chankelu-taxtak-sizal,TX 431811,3700,2310,3700,46,,match
+900,Scratching Cardboard,"38 × 6 × 18 cm, light grey",48011,3200,2000,fixed,3713 katuneri-dzageri-chankelu-taxtak-stvaratxtic,48011Tx,3200,2000,3200,24,,match
+901,"Car Seat Cover, 1.80 × 1.30 m, black/beige","1.80 × 1.30 m, black/beige",13238,13500,8435,fixed,2631 bernaxciki-takdir,13238Tx,13500,8435,13500,2,,match
+902,"Lint Roller with Rubber Teeth, 23 cm",23 cm,23234,2400,1500,fixed,3725 lipki-rolik-mazer@-havaqelu-hamar,23234Tx,2400,1500,2400,3,,match
+903,Hygiene Pad Nappy with Lavender Fragrance,7 pcs.,23371,230,140,fixed,4455 takdir-shneri-hamar-lavandayi-hotov,23371Tx,230,140,230,76,,match
+904,"Hygiene Pad Nappy, 7 pcs.",7 pcs.,23410,160,100,fixed,5336 takdir-shneri-hamar-30-50-sm,23410Tx,160,100,160,336,,match
+905,"Hygiene Pad Nappy, 8 pcs.",8 pcs.,23413,410,255,fixed,646 papuk-takdir-dzageri-hamar,TX 234131,410,255,410,312,,match
+907,"Diapers for Female Dogs, XS–S, 12 pcs.","XS–S, 12 pcs.",23631,270,165,fixed,687 takdirner-shneri-hamar,TX 236311,270,165,270,199,,match
+908,"Diapers for Female Dogs, M–L, 12 pcs.","M–L, 12 pcs.",23634,400,250,fixed,687 takdirner-shneri-hamar,TX 236341,400,250,400,191,,match
+909,"Diapers for Male Dogs, S–M, 12 pcs.","S–M, 12 pcs.",23641,360,232,fixed,2638 takdirner-vordz-shneri-hamar,TX 236411,360,232,360,480,,match
+910,"Diapers for Male Dogs, M–L, 12 pcs.","M–L, 12 pcs.",23642,400,258,fixed,2638 takdirner-vordz-shneri-hamar,TX 236421,400,258,400,492,,match
+911,"Diapers for Male Dogs, L–XL, 12 pcs.","L–XL, 12 pcs.",23643,450,280,fixed,5926 takdir-vordz-shneri-hamar-l-xl,23643Tx,450,280,450,360,,match
+912,"Cooling Mat, M: 50 × 40 cm, white/grey","M: 50 × 40 cm, white/grey",28773,4950,3095,fixed,7384 sarecvox-gorg-m50*40sm-spitak-moxraguyn,28773Tx,4950,3095,4950,12,,match
+913,"Cooling Mat, S: 40 × 30 cm, blue, bubble pattern","S: 40 × 30 cm, blue",28776,3750,2340,fixed,4830 sarecnox-nerqnak-shneri-hamar-pxpjaknerov,28776Tx,3750,2340,3750,6,,match
+914,"Premium Reflect Collar, XS–S, 25–35 cm/20 mm, graphite","XS–S, 25–35 cm/20 mm, graphite",1199216,2450,1530,fixed,7598 dzgapok-neylone-kargavorvogh-xs-s--25-35-sm-20mm-graphite,1199216Tx,2450,1530,2450,11,,match
+915,"Premium Reflect Collar, S–M, 30–45 cm/20 mm, graphite","S–M, 30–45 cm/20 mm, graphite",1199316,2850,1780,fixed,7626 dzgapok-neylone-kargavorvogh-s-m--30-45sm-20mm-graphite,1199316Tx,2850,1780,2850,10,,match
+916,"Premium Reflect Collar, M–L, 36–55 cm/25 mm, graphite","M–L, 36–55 cm/25 mm, graphite",1199416,3750,2340,fixed,7624 dzgapok-nelyone-m-l--trixie,1199416Tx,3750,2340,3750,11,,match
+917,"Premium Reflect Collar, L–XL, 42–65 cm/30 mm, graphite","L–XL, 42–65 cm/30 mm, graphite",1199516,4100,2560,fixed,7625 dzgapok-nelyone-l-xl--trixie,1199516Tx,4100,2560,4100,11,,match
+918,"Silver Reflect Adjustable Lead, XS–S: 2.00 m/15 mm, black/grey","XS–S: 2.00 m/15 mm, black/grey",12214,4650,2905,fixed,7502 luysy-artacolox-dzgapok-kargavorvox-xs-s-2m-15mm-sev-moxraguyn,12214Tx,4650,2905,4650,7,,match
+919,"Silver Reflect Collar with Paw Prints, XS–S: 22–35 cm/15 mm, grey/black",XS–S: 22–35 cm/15 mm,12221,1650,1030,fixed,2526 silver-reflect-lusardzakox-vzkap-tatiknerov,TX 122211,1650,1030,1650,9,,match
+920,"Silver Reflect Collar, S–M, 30–45 cm/15 mm, black/silver grey","S–M, 30–45 cm/15 mm, black/silver grey",12222,1850,1155,fixed,2526 silver-reflect-lusardzakox-vzkap-tatiknerov,TX 122221,1850,1155,1850,15,,match
+921,"Silver Reflect Collar, M–L, 35–55 cm/20 mm, black/silver grey","M–L, 35–55 cm/20 mm, black/silver grey",12223,2200,1375,fixed,2526 silver-reflect-lusardzakox-vzkap-tatiknerov,TX 122231,2200,1375,2200,15,,match
+922,"Silver Reflect Collar with Paw Prints, L–XL: 40–65 cm/25 mm, grey/black",L–XL: 40–65 cm/25 mm,12224,2900,1935,fixed,2526 silver-reflect-lusardzakox-vzkap-tatiknerov,TX 122241,2900,1935,2900,8,,match
+923,"Silver Reflect Harness with Paw Prints, S–M: 40–65 cm/20 mm, grey/black",S–M: 40–65 cm/20 mm,12232,5450,3405,fixed,2448 silver-reflect-lusardzakox-shleyka-tatiknerov,TX 122321,5450,3405,5450,6,,match
+924,Silver Reflect H-Harness,"M–L, 52–75 cm/25 mm, black/silver grey",12233,7200,4500,fixed,2448 silver-reflect-lusardzakox-shleyka-tatiknerov,TX 122331,7200,4500,7200,2,,match
+925,"Flash Light Collar, nylon, S–M: 30–40 cm/25 mm, orange","S–M: 30–40 cm/25 mm, orange",13062,4200,2625,fixed,2536 flash-lusavorvox-vzkap-narnjaguyn,TX 130621,4200,2625,4200,6,,match
+926,"Flash Light Collar, nylon, M–L: 40–55 cm/25 mm, orange","M–L: 40–55 cm/25 mm, orange",13063,4650,2905,fixed,2536 flash-lusavorvox-vzkap-narnjaguyn,TX 130631,4650,2905,4650,17,,match
+927,"Flash Light Collar, nylon, L–XL: 55–70 cm/25 mm, orange","L–XL: 55–70 cm/25 mm, orange",13064,5800,3625,fixed,2536 flash-lusavorvox-vzkap-narnjaguyn,TX 130641,5800,3625,5800,14,,match
+928,"Flash USB Light Collar, nylon, M–L: 40–50 cm/25 mm, red","M–L: 40–50 cm/25 mm, red",13071,9600,6000,fixed,2537 usb-flash-lusavorvox-vzkap-karmir-patkernerov,TX 130711,9600,6000,9600,1,,match
+929,"Easy Flash USB Light Collar, silicone, L–XL: 40–65 cm/25 mm, neon blue","L–XL: 40–65 cm/25 mm, neon blue",13314,7800,5200,fixed,2539 easy-flash-usb-lusavorvox-vzkap-silikon-kapuyt,TX 133141,7800,5200,7800,2,,match
+930,"Easy Flash USB Light Collar, silicone, L–XL: 40–65 cm/25 mm, neon pink","L–XL: 40–65 cm/25 mm, neon pink",13319,7800,5200,fixed,2540 easy-flash-usb-lusavorvox-vzkap-silikon-vardaguyn,TX 133191,7800,5200,7800,3,,match
+931,"Chain Lead with Neoprene Hand Loop, XS–S, 1.10 m/2.0 mm, black","XS–S, 1.10 m/2.0 mm, black",14011,3100,1935,fixed,635 dzgapok-shkhta-neylone-brnakov-sev,TX 140111,3100,1935,3100,6,,match
+932,"Chain Lead with Neoprene Hand Loop, M–L, 1.00 m/3.0 mm, red","M–L, 1.00 m/3.0 mm, red",14023,3600,2250,fixed,634 dzgapok-shkhta-neylone-brnakov-karmir,TX 140231,3600,2250,3600,6,,match
+933,"Chain Lead with Neoprene Hand Loop, L–XL, 1.00 m/4.0 mm, black","L–XL, 1.00 m/4.0 mm, black",14031,4550,2840,fixed,635 dzgapok-shkhta-neylone-brnakov-sev,TX 140311,4550,2840,4550,8,,match
+934,"Comfort Soft Harness, XXS–XS: 28–40 cm/15 mm, fuchsia","XXS–XS: 28–40 cm/15 mm, fuchsia",16258,6200,3875,fixed,2455 comfort-soft-shleyka-shneri-hamar-fuksia,TX 162581,6200,3875,6200,0,,match
+935,"Comfort Soft Harness, S: 33–50 cm/20 mm, blush","S: 33–50 cm/20 mm, blush",162735,7900,4935,fixed,6645 comfort-soft-lanjapok-shleyka-shneri-hamar-s,162735Tx,7900,4935,7900,0,,match
+936,"Comfort Soft Harness, S–M: 35–60 cm/20 mm, black","S–M: 35–60 cm/20 mm, black",16281,9050,5655,fixed,159 lanjapok-neylon-sev,TX 162811,9050,5655,9050,4,,match
+937,"BE NORDIC Leather Collar with Metal Buckle, XS–S: 30–36 cm/15 mm, sand","XS–S: 30–36 cm/15 mm, sand",17501,4500,2810,fixed,5317 kashve-vznoc-be-nordic-metaxya-zardov-avazi-guyn,17501Tx,4500,2810,4500,0,,match
+938,BE NORDIC Leather Collar,"S, 35–41 cm/15 mm, light grey",17510,4950,3090,fixed,5411 kashve-vznoc-be-nordic-metaxya-zardov-moxraguyn-S,17510Tx,4950,3090,4950,4,,match
+939,"BE NORDIC Leather Collar with Metal Buckle, M: 45–51 cm/20 mm, sand","M: 45–51 cm/20 mm, sand",17531,6750,4215,fixed,5412 kashve-vznoc-be-nordic-metaxya-zardov-avazi-guyn-s-ev-m,17531Tx,6750,4215,6750,3,,match
+940,"Rustic Greased Leather Collar Rivets, extra wide","M, 38–47 cm/40 mm, dark brown",18974,12700,7935,fixed,7565 test1,18974Tx,12700,7935,12700,5,discount markers: discount=None max_discount=None unique_price=22,match
+941,"Greased Leather Collar Rustic Heartbeat, S–M, 34–40 cm/30 mm, black","S–M, 34–40 cm/30 mm, black",18984,7100,4435,fixed,7145 trixie-bnakan-kashvic-vznoc-shneri-hamar,18984Tx,7100,4435,7100,4,,match
+942,"Greased Leather Collar Rustic Heartbeat, M, 38–47 cm/40 mm, black","M, 38–47 cm/40 mm, black",18985,8400,5250,fixed,7154 Trixie-bnakan-kashvic-vznoc-shneri-hamar-M,18985Tx,8400,5250,8400,5,,match
+943,"Greased Leather Collar Rustic, S–M, 34–40 cm/25 mm, dark brown","S–M, 34–40 cm/25 mm, dark brown",19005,4800,3625,fixed,7155 Trixie-bnakan-kashvic-vznoc-shneri-hamar-S-M,19005Tx,4800,3625,4800,2,,match
+944,"Greased Leather Collar Rustic, M, 37–44 cm/25 mm, dark brown","M, 37–44 cm/25 mm, dark brown",19006,5200,3250,fixed,7156 trixie-bnakan-kashvic-vznoc-shneri-hamar-M-shaganakaguyn,19006Tx,5200,3250,5200,7,,match
+945,"Greased Leather Collar Rustic, M–L, 42–48 cm/25 mm, dark brown","M–L, 42–48 cm/25 mm, dark brown",19007,5700,3560,fixed,7157 trixie-bnakan-kashvic-vznoc-shneri-hamar-M-L-shaganakaguyn,19007Tx,5700,3560,5700,3,,match
+946,"Greased Leather Collar Rustic, L, 48–56 cm/30 mm, dark brown","L, 48–56 cm/30 mm, dark brown",19008,6700,4185,fixed,7158 trixie-bnakan-kashvic-vznoc-shneri-hamar-L-shaganakaguyn,19008Tx,6700,4185,6700,3,,match
+947,"Greased Leather Collar Rustic Heartbeat, M, 38–47 cm/40 mm, brown","M, 38–47 cm/40 mm, brown",19015,8400,5250,fixed,7161 trixie-bnakan-kashvic-vznoc-shneri-hamar-M-bac-shaganakaguyn,19015Tx,8400,5250,8400,2,,match
+948,"Active Comfort Leather Collar with Rhinestones, XS–S: 20–24 cm/12 mm, white","XS–S: 20–24 cm/12 mm, white",19021,7450,4655,fixed,4742 vznoc-kashve-active-comfort-qariknerov-spitak,19021Tx,7450,4655,7450,1,,match
+949,"Active Comfort Leather Collar with Rhinestones, XXS–XS: 17–21 cm/12 mm, pink","XXS–XS: 17–21 cm/12 mm, pink",19030,7250,4530,fixed,4744 vznoc-kashve-active-comfort-qariknerov-vardaguyn,19030Tx,7250,4530,7250,3,,match
+950,"Active Comfort Leather Collar with Rhinestones, S–M: 27–33 cm/15 mm, pink","S–M: 27–33 cm/15 mm, pink",19033,8000,5000,fixed,4744 vznoc-kashve-active-comfort-qariknerov-vardaguyn,19033Tx,8000,5000,8000,0,,match
+951,CityStyle Lead,"S–M, 1.20 m/13 mm, black",1970001,7350,4590,fixed,6843 CityStyle-bambakya-kargavorvox-dzgapok-shneri-hamar,1970001Tx,7350,4590,7350,3,,match
+952,"CityStyle Collar, M–L, 40–47 cm/25 mm, black","M–L, 40–47 cm/25 mm, black",1971601,4350,2715,fixed,"7453 vzkap-citystyle-pvc-elastik-sev, M-L",1971601Tx,4350,2715,4350,12,,match
+953,"CityStyle Collar, XS–S, 25–32 cm/20 mm, black","XS–S, 25–32 cm/20 mm, black",1971901,3650,2280,fixed,"7449 vzkap-citystyle-pvc-elastik-sev, XS-S",1971901Tx,3650,2280,3650,11,,match
+954,"Nylon Lead with Rubber Handle, S–M: 5.00 m/15 mm, fuchsia","S–M: 5.00 m/15 mm, fuchsia",19783,4650,2905,fixed,4762 dzgapok-neylone-retine-brnakov-vardaguyn,19783Tx,4650,2905,4650,0,,match
+955,"Tape Lead, S–M: 5.00 m/15 mm, sangria","S–M: 5.00 m/15 mm, sangria",197894,5250,3280,fixed,6632 trixie-japavenayin-dzgapok-shneri-hamar,197894Tx,5250,3280,5250,3,,match
+956,"Tracking Lead, extra light-weight","XS–S, 5 m/10 mm, rust",198060,1800,1125,fixed,6634 trixie-japavenayin-dzgapok-shneri hamar-XS-S,198060Tx,1800,1125,1800,1,,match
+957,"Soft Rope Lead, M–L, 1.00 m/ø 10 mm, black/grey","M–L, 1.00 m/ø 10 mm, black/grey",1984001,12000,7500,fixed,6988 trixie-hyusvac-dzgapok-shneri-hamar-sev-moxraguyn-m-l,1984001Tx,12000,7500,12000,4,,match
+958,"Soft Rope Lead, M–L, 1.00 m/ø 10 mm, red/cream","M–L, 1.00 m/ø 10 mm, red/cream",1984003,12000,7500,fixed,6989 trixie-hyusvac-dzgapok-shneri-hamar-karmir-marmnaguyn-m-l,1984003Tx,12000,7500,12000,5,,match
+959,"Soft Rope Lead, XS–S, 1.20 m/ø 6 mm, black/grey","XS–S, 1.20 m/ø 6 mm, black/grey",1985001,7650,4780,fixed,6649 Trixie-hyusvac-dzgapok-shneri-hamar-XS-S,1985001Tx,7650,4780,7650,2,,match
+960,Soft Rope Adjustable Lead,"XS–S, 2.00 m/ø 6 mm, red/cream",1985203,12000,7500,fixed,7000 trixie-hyusvac-dzgapok-shneri-hamar-karmir-kremaguyn-xs-s,1985203Tx,12000,7500,12000,3,,match
+961,Tracking Lead,"M, 5 m/20 mm, black",19901,3600,2250,fixed,6650 trixie-hart-gotiov-dzgapok-shneri-hamar-5m-20mm,19901Tx,3600,2250,3600,27,,match
+962,"Flat Cotton Lead, 5.00 m/20 mm, green","5.00 m/20 mm, green",19904,3600,2250,fixed,6347 dzgapok-hart-gotiov-bambakya-kanach-5m-20mm,19904Tx,3600,2250,3600,37,,match
+963,"Junior Puppy Tracking Lead, round","XXS–XS, 4 m/ø 4 mm, red",19930,3400,2125,fixed,6619 parane-dzgapok-dzageri-hamar-4m-xxs-xs-karmir,19930Tx,3400,2125,3400,0,,match
+965,Easy Life Tracking Lead,"S–M, 5 m/13 mm, ocean",19950,6250,3905,fixed,5441 trixie-bambakya-hart-gotiov-dzgapok-M-L,19950Tx,6250,3905,6250,6,,match
+966,"Premium Trekking Harness, XS–S, 32–38 cm/13 mm, sage/graphite","XS–S, 32–38 cm/13 mm, sage/graphite",1996934,8400,5250,fixed,7651 premium-trekking-lanjapok-shleyka-shneri-hamar-xak-kamach-moxraguyn-xs-s,1996934Tx,8400,5250,8400,4,,match
+968,"Premium Trekking Harness, S, 36–44 cm/15 mm, blush/graphite","S, 36–44 cm/15 mm, blush/graphite",1997035,8550,5340,fixed,7657 premium-trekking-lanjapok-shleyka-shneri-hamar-vardaguyn-grafit-s,1997035Tx,8550,5340,8550,4,,match
+970,"Premium Trekking Harness, S–M, 44–53 cm/20 mm, curry/graphite","S–M, 44–53 cm/20 mm, curry/graphite",1997129,9200,5750,fixed,7659 premium-trekking-lanjapok-shleyka-shneri-hamar-kari-moxraguyn-s-m,1997129Tx,9200,5750,9200,3,,match
+972,"Premium Trekking Harness, S–M, 44–53 cm/20 mm, sand/graphite","S–M, 44–53 cm/20 mm, sand/graphite",1997136,9200,5750,fixed,7662 premium-trekking-lanjapok-shleyka-shneri-hamar-avazaguyn-moxraguyn-s-m,1997136Tx,9200,5750,9200,5,,match
+973,"Y-Harness, XS–S: 37–45 cm/15 mm, green","XS–S: 37–45 cm/15 mm, green",1998219,10250,6405,fixed,4216 shleyka-y-harness-xs-s,1998219Tx,10250,6405,10250,2,,match
+975,"Y-Harness, S: 42–50 cm/15 mm, black","S: 42–50 cm/15 mm, black",1998301,10650,6655,fixed,4217 shleyka-y-harness-s,1998301Tx,10650,6655,10650,4,,match
+976,"Y-Harness, S–M: 50–60 cm/15 mm, indigo","S–M: 50–60 cm/15 mm, indigo",1998413,11050,6905,fixed,4218 shleyka-y-harness-s-m,1998413Tx,11050,6905,11050,4,,match
+977,"Y-Harness, M–L: 65–80 cm/20 mm, red","M–L: 65–80 cm/20 mm, red",1998603,12300,7685,fixed,4220 shleyka-y-harness-m-l,1998603Tx,12300,7685,12300,1,,match
+979,"Premium Collar, XS–S, 22–35 cm/10 mm, black","XS–S, 22–35 cm/10 mm, black",201401,1200,750,fixed,2549 premium-vzkap-sev,TX 201401Tx,1200,750,1200,19,,match
+980,"Premium Collar, XS–S, 22–35 cm/10 mm, royal blue","XS–S, 22–35 cm/10 mm, royal blue",201402,1200,750,fixed,2550 premium-vzkap-elektrik-kapuyt,TX 201402Tx,1200,750,1200,27,,match
+981,"Premium Collar, XS–S, 22–35 cm/10 mm, red","XS–S, 22–35 cm/10 mm, red",201403,1200,750,fixed,2551 premium-vzkap-karmir,TX 201403Tx,1200,750,1200,16,,match
+983,"Premium Collar, XS–S, 22–35 cm/10 mm, fuchsia","XS–S, 22–35 cm/10 mm, fuchsia",201411,1200,750,fixed,7283 trixie-vardaguyn-vzakap-shneri-haamr-xs-s,201411Tx,1200,750,1200,25,,match
+984,"Premium Collar, S–M, 30–45 cm/15 mm, black","S–M, 30–45 cm/15 mm, black",201501,1450,905,fixed,2549 premium-vzkap-sev,TX 201501Tx,1450,905,1450,20,,match
+986,"Premium Collar, S–M, 30–45 cm/15 mm, royal blue","S–M, 30–45 cm/15 mm, royal blue",201502,1450,905,fixed,2550 premium-vzkap-elektrik-kapuyt,TX 201502Tx,1450,905,1450,15,,match
+987,"Premium Collar, S–M, 30–45 cm/15 mm, red","S–M, 30–45 cm/15 mm, red",201503,1450,905,fixed,2551 premium-vzkap-karmir,TX 201503Tx,1450,905,1450,29,,match
+989,"Premium Collar, S–M, 30–45 cm/15 mm, fuchsia","S–M, 30–45 cm/15 mm, fuchsia",201511,1450,905,fixed,2560 premium-vzkap-fuksia,TX 201511Tx,1450,905,1450,12,,match
+990,"Premium Collar, M–L, 35–55 cm/20 mm, black","M–L, 35–55 cm/20 mm, black",201601,1800,1125,fixed,2549 premium-vzkap-sev,TX 201601Tx,1800,1125,1800,28,,match
+991,"Premium Collar, M–L, 35–55 cm/20 mm, royal blue","M–L, 35–55 cm/20 mm, royal blue",201602,1800,1125,fixed,2550 premium-vzkap-elektrik-kapuyt,TX 201602Tx,1800,1125,1800,9,,match
+992,"Premium Collar, M–L, 35–55 cm/20 mm, red","M–L, 35–55 cm/20 mm, red",201603,1800,1125,fixed,2551 premium-vzkap-karmir,TX 201603Tx,1800,1125,1800,13,,match
+994,"Premium Collar, M–L, 35–55 cm/20 mm, olive green","M–L, 35–55 cm/20 mm, olive green",201633,1800,1200,fixed,7402 vznoc-neylone-kargavorvox-m-l/5-55sm*20mm-kanach-olive green/67103,201633Tx,1800,1200,1800,1,,match
+995,"Premium Collar, L–XL, 40–65 cm/25 mm, black","L–XL, 40–65 cm/25 mm, black",201701,2450,1530,fixed,2549 premium-vzkap-sev,TX 201701Tx,2450,1530,2450,111,,match
+996,"Premium Collar, L–XL, 40–65 cm/25 mm, royal blue","L–XL, 40–65 cm/25 mm, royal blue",201702,2450,1530,fixed,2550 premium-vzkap-elektrik-kapuyt,TX 201702Tx,2450,1530,2450,19,,match
+997,"Premium Collar, L–XL, 40–65 cm/25 mm, red","L–XL, 40–65 cm/25 mm, red",201703,2450,1530,fixed,2551 premium-vzkap-karmir,TX 201703Tx,2450,1530,2450,26,,match
+998,"Premium Collar, L–XL, 40–65 cm/25 mm, fuchsia","L–XL, 40–65 cm/25 mm, fuchsia",201711,2450,1530,fixed,2560 premium-vzkap-fuksia,TX 201711Tx,2450,1530,2450,5,,match
+999,"Premium Adjustable Collar, L–XL: 40–65 cm/25 mm, mint","L–XL: 40–65 cm/25 mm, mint",201724,2450,1530,fixed,4255 vznoc-neylone-kargavorvox-l-xl,201724Tx,2450,1530,2450,13,,match
+1001,"Adjustable Harness, XXS–XS: 26–38 cm/10 mm, purple","XXS–XS: 26–38 cm/10 mm, purple",202021,4000,2500,fixed,4261 kargavorvox-shleyka-shneri-hamar-xxs-xs,202021Tx,4000,2500,4000,5,,match
+1002,"Premium Collar, XXS–XS, 15–25 cm/10 mm, black","XXS–XS, 15–25 cm/10 mm, black",202101,1100,685,fixed,2549 premium-vzkap-sev,TX 202101Tx,1100,685,1100,2,,match
+1003,"Premium Collar, XXS–XS, 15–25 cm/10 mm, royal blue","XXS–XS, 15–25 cm/10 mm, royal blue",202102,1100,685,fixed,2550 premium-vzkap-elektrik-kapuyt,TX 202102Tx,1100,685,1100,1,,match
+1004,"Premium Collar, XXS–XS, 15–25 cm/10 mm, red","XXS–XS, 15–25 cm/10 mm, red",202103,1100,685,fixed,2551 premium-vzkap-karmir,TX 202103Tx,1100,685,1100,35,,match
+1005,"Premium Collar, S, 25–40 cm/15 mm, royal blue","S, 25–40 cm/15 mm, royal blue",202202,1350,840,fixed,2550 premium-vzkap-elektrik-kapuyt,TX 202202Tx,1350,840,1350,42,,match
+1007,"Premium Collar, S, 25–40 cm/15 mm, red","S, 25–40 cm/15 mm, red",202203,1350,840,fixed,2551 premium-vzkap-karmir,TX 202203Tx,1350,840,1350,39,,match
+1008,"Premium Collar, S, 25–40 cm/15 mm, fuchsia","S, 25–40 cm/15 mm, fuchsia",202211,1350,840,fixed,2560 premium-vzkap-fuksia,TX 202211Tx,1350,840,1350,25,,match
+1010,"Premium Semi-Choke Collar, S–M, 30–40 cm/15 mm, black","S–M, 30–40 cm/15 mm, black",202701,2150,1340,fixed,2563 vzkap-sexmoxak-sev-shxtayov,TX 202701Tx,2150,1340,2150,5,,match
+1011,"Premium Semi-Choke Collar, S–M, 30–40 cm/15 mm, red","S–M, 30–40 cm/15 mm, red",202703,2150,1340,fixed,2564 vzkap-sexmoxak-karmir-shxtayov,TX 202703Tx,2150,1340,2150,3,,match
+1012,"Semi-Choke Collar with Nylon Chain, S–M: 30–40 cm/15 mm, orchid","S–M: 30–40 cm/15 mm, orchid",202720,2150,1340,fixed,4798 vznoc-choker-shneri-hamar-neylone-shxtayov-manushakaguyn,202720Tx,2150,1340,2150,9,,match
+1013,"Semi-Choke Collar with Nylon Chain, M–L: 35–50 cm/20 mm, royal blue","M–L: 35–50 cm/20 mm, royal blue",202802,2500,1560,fixed,4263 neylone-vznoc-choker-shxtayov-m-l,202802Tx,2500,1560,2500,7,,match
+1014,"Semi-Choke Collar with Nylon Chain, M–L: 35–50 cm/20 mm, grey","M–L: 35–50 cm/20 mm, grey",202816,2500,1560,fixed,4767 vznoc-choker-shneri-hamar-neylone-shxtayov-m-l,202816Tx,2500,1560,2500,0,,match
+1016,"Premium Touring Harness, XS–S, 30–55 cm/15 mm, petrol","XS–S, 30–55 cm/15 mm, petrol",203632,4250,2655,fixed,7019 trixie-lanjapok-shleyka-shneri-hamar-benzinaguyn-xs-s,203632Tx,4250,2655,4250,2,,match
+1017,"Premium Touring Harness, S, 35–65 cm/20 mm, sand","S, 35–65 cm/20 mm, sand",203736,4950,3090,fixed,7021 trixie-lanjapok-shleyka-shneri-hamar-avazaguyn-sand-s,203736Tx,4950,3090,4950,2,,match
+1019,"Premium Touring Harness, L, 60–100 cm/25 mm, royal blue","L, 60–100 cm/25 mm, royal blue",204102,7250,4530,fixed,5169 shleyka-neylone-l-kapuyt,204102Tx,7250,4530,7250,5,,match
+1020,"Chain Collar, chrome-plated, 70 cm/4 mm",70 cm/4 mm,2154,2750,1715,fixed,640 erkshert-qromapat-shkhta-erkaramaz-shneri-hamar,2154Tx,2750,1715,2750,14,,match
+1022,"Choke Chain, chrome-plated, 78 cm/4 mm",78 cm/4 mm,2155,3150,1965,fixed,640 erkshert-qromapat-shkhta-erkaramaz-shneri-hamar,2155Tx,3150,1965,3150,14,,match
+1023,Expert Stain & Odour Eliminator 3-in-1 for Cats & Ferrets,500 ml,075732,3150,1965,fixed,4603 coxarkich-katuneri-hoti-ev-hetqeri-dem,075732,3150,1965,3150,56,,match
+1025,Expert Stain & Odour Eliminator 3-in-1 for Dogs,500 ml,075762,3150,1965,fixed,2886 mr.fresh-coxarkich-hoti-ev-hetqeri-dem-shneri-hamar,EF 075762,3150,1965,3150,75,,match
+1027,Expert Anti-Soiling Spray for Cats,200 ml,076412,3140,1960,fixed,2249 sprey-katuneri-kextotelu-dem,EF 076412,3140,1960,3140,55,,match
+1028,Expert Anti-Chewing Spray for Dogs,200 ml,076472,2700,1685,fixed,3178 coxarkich-shneri-krcelu-dem,076472,2700,1685,2700,27,,match
+1030,Expert Anti-Scratching Spray for Cats,200 ml,076482,2700,1685,fixed,7814 coxarkich-katuneri-hamar-chankelu-dem-200-ml-mr-fresh,076482,2700,1685,2700,16,,match
+1032,Expert Anti-Soiling Spray for Dogs,200 ml,076492,3140,1960,fixed,2885 mr.fresh-spray-shneri-kextotelu-dem,EF 076492,3140,1960,3140,87,,match
+1034,Expert Litter Training Spray for Cats,200 ml,076502,2700,1685,fixed,7815 coxarkich-katuneri-texin-sovorecnelu-200-ml-mr-fresh,076502,2700,1685,2700,18,,match
