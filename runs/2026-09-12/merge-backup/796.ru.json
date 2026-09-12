@@ -1,0 +1,56 @@
+{
+ "id": 796,
+ "name": "SMART растительный комкующийся наполнитель для кошек, 5 л",
+ "slug": "ok-lock-smart-clumping-plant-based-cat-litter-5-l",
+ "category_ids": [
+  60
+ ],
+ "brand_id": 16,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 952,
+   "name": "5 l",
+   "about_this_item": "<p>SMART растительный комкующийся наполнитель для кошачьего туалета от OK-LOCK: образует плотные комки и запирает запахи.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "1101413",
+   "price": 3850,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2405,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    7399
+   ],
+   "attributes": {
+    "product-weight": "5 л"
+   },
+   "attribute_values": [
+    {
+     "id": 190,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Вес упаковки",
+     "value": "5 l",
+     "label": "5 л"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 190
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T09:54:46.000000Z",
+ "updatedAt": "2026-09-11T13:00:21.000000Z"
+}

@@ -1,0 +1,44 @@
+{
+ "id": 943,
+ "name": "Greased Leather Collar Rustic, S–M, 34–40 cm/25 mm, dark brown",
+ "slug": "trixie-greased-leather-collar-rustic-s-m-34-40-cm-25-mm-dark-brown",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1101,
+   "name": "S–M, 34–40 cm/25 mm, dark brown",
+   "about_this_item": "<ul><li>D-ring position allows attaching lead while optimally protecting larynx</li><li>stitched</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "19005",
+   "price": 4800,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 3625,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9011,
+    9014
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:38:06.000000Z",
+ "updatedAt": "2026-09-11T16:08:24.000000Z"
+}

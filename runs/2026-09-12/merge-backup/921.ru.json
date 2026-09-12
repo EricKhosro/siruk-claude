@@ -1,0 +1,43 @@
+{
+ "id": 921,
+ "name": "Silver Reflect ошейник, M–L, 35–55 см/20 мм, чёрный/серебристо-серый",
+ "slug": "trixie-silver-reflect-collar-m-l-35-55-cm-20-mm-black-silver-grey",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1079,
+   "name": "M–L, 35–55 cm/20 mm, black/silver grey",
+   "about_this_item": "<ul><li>верх: пластик/внутренняя сторона: стропа</li><li>светоотражающий</li><li>полностью регулируемая посадка</li><li>от размера S–M с пряжкой с разгрузкой от натяжения</li><li>стропа: чёрный</li><li>ремешок с рисунком: серебристо-серый с лапками</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "12223",
+   "price": 2200,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1375,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9934
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:31:44.000000Z",
+ "updatedAt": "2026-09-11T16:06:54.000000Z"
+}

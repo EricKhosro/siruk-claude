@@ -1,0 +1,51 @@
+{
+ "id": 824,
+ "name": "Slow Feeding Plastic Bowl, 1.4 l/ø 25 cm",
+ "slug": "trixie-slow-feeding-plastic-bowl-1-4-l-25-cm",
+ "category_ids": [
+  70
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 980,
+   "name": "1.4 l/ø 25 cm",
+   "about_this_item": "<ul><li>prevents gulping down food</li><li>suitable for all feed types</li><li>non-slip due to rubber base ring</li><li>tested by an independent expert body for animal welfare and animal protection</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "25028",
+   "price": 3050,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1905,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8041,
+    8044,
+    8047,
+    8050,
+    8053,
+    8056,
+    8059,
+    8062,
+    8065
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T14:44:43.000000Z",
+ "updatedAt": "2026-09-11T16:00:29.000000Z"
+}

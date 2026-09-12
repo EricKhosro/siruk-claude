@@ -1,0 +1,46 @@
+{
+ "id": 432,
+ "name": "Շերեփ Ultra լցանյութի համար",
+ "slug": "trixie-litter-scoop-for-ultra-litter",
+ "category_ids": [
+  67
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 539,
+   "name": "L",
+   "about_this_item": "<ul><li>պլաստիկ</li><li>էկոլոգիական՝ վերամշակված պլաստիկի շնորհիվ</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "40473",
+   "price": 1050,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 655,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3410,
+    3413,
+    6125,
+    6128
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T07:01:30.000000Z",
+ "updatedAt": "2026-09-11T12:31:04.000000Z"
+}

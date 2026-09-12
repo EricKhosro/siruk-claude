@@ -1,0 +1,43 @@
+{
+ "id": 952,
+ "name": "CityStyle Collar, M–L, 40–47 cm/25 mm, black",
+ "slug": "trixie-citystyle-collar-m-l-40-47-cm-25-mm-black",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1110,
+   "name": "M–L, 40–47 cm/25 mm, black",
+   "about_this_item": "<ul><li>webbing tape with PVC coating</li><li>water repellent and wipeable</li><li>tested by an independent expert body for animal welfare and animal protection</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "1971601",
+   "price": 4350,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2715,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    10021
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:39:56.000000Z",
+ "updatedAt": "2026-09-11T16:09:00.000000Z"
+}

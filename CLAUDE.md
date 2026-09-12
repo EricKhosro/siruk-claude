@@ -141,8 +141,21 @@ step you are on needs it.
    one value set you may extend, deduplicating synonyms.
 9. **Search before create.** `scripts/find-product.sh` first; an existing
    product gets the row as a variant (`scripts/add-variant.sh`), never a second
-   product. Variant axes: pack weight, flavour, texture. Anything else splits
-   products (`reference/product-rules.md`).
+   product. Variant axes: pack weight, flavour, texture — **and, for
+   accessories and grooming, size and colour too** (the type skill's axes win;
+   colour only splits a *food* pack). One collar in six sizes and five colours
+   is one product with 30 options. A row-by-row import that ignores this made
+   131 duplicate products, folded back on 2026-09-12
+   (`runs/2026-09-12/report.md`); `scripts/find-duplicate-products.py` →
+   `plan-product-merge.py` → `merge-products.py` re-runs the sweep, and
+   `reference/product-rules.md` → "Sibling products" has the evidence rules.
+   Anything else splits products (`reference/product-rules.md`).
+9a. **A product with two or more variants needs a variant ATTRIBUTE per
+   variant.** The storefront builds the selector from attributes, never from
+   the variant label, and a variant missing the axis value is unreachable —
+   product 874 hid half its stock that way. Accessory axes: `size` 28 (letter
+   sizes plus measurement strings) and `color-family` 15; antiparasitic dose
+   bands: `pet-weight-range` 27. The full measurement stays in the label.
 10. **Write only through `scripts/`.** Never hand-write a `PUT /products` body
    (PUT replaces the whole variants array). Never trust a media id you have not
    verified readable.
@@ -265,7 +278,9 @@ Full tree with names in `reference/admin-api.md`.
 Brands: 1 Acana, 2 Belcando, 3 Brit, 4 Canvit, 5 Monge, 6 Orijen, 7 Royal
 Canin, 8 Trixie, 9 Farmina, 10 Schesir, 11 Leonardo, 12 Stuzzy, 13 Bewi Dog,
 14 Bewi Cat, 15 Dogland, 16 Ok-Lock, 17 Club 4 Paws, 18 Gemon, 19 Simba.
-Families: 1 Dry Food, 2 Wet Food, 3 Treats, 4 Supplements, 5 Toys. The
+Families: 1 Dry Food, 2 Wet Food, 3 Treats, 4 Supplements, 5 Toys.
+Attributes gained **27 `pet-weight-range`** and **28 `size`** on 2026-09-12
+(the accessory variant axes — `reference/admin-api.md`). The
 attribute vocabulary replicates Chewy's filters (`reference/chewy-attributes.json`;
 `toy-size` 16 is the hidden toy variant axis). Type skills say which apply.
 Any id in a note written before 2026-08-12 predates the rebuild and is wrong.

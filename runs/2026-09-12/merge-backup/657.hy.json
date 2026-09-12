@@ -1,0 +1,87 @@
+{
+ "id": 657,
+ "name": "Fresh հասուն շների համար, իշխան, 400 գ",
+ "slug": "monge-fresh-adult-dog-trout-400-g",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Թաց կեր",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 794,
+   "name": "Trout 400 g",
+   "about_this_item": "",
+   "ingredient_information": "<p><strong>Բաղադրություն:</strong> միս և կենդանական ծագման մթերքներ, ձուկ և ձկնային մթերքներ (իշխան 16%), հացահատիկ, յուղեր և ճարպեր, հանքանյութեր.</p><p><strong>Անալիտիկ բաղադրիչներ:</strong> Հում սպիտակուց 7.5%, Հում բջջանյութ 0.5%, Հում ճարպ 6.5%, Հում մոխիր 2%, Խոնավություն 78%.</p><p><strong>Հավելումներ:</strong> , Սննդային հավելումներ/կգ: Վիտամին D3 280 iu, Վիտամին E (all-rac-ալֆա-տոկոֆերիլացետատ 3a700i) 15 mg, Սելեն (նատրիումի սելենիտ 0.03 mg) 0.015 mg, Մանգան (մանգանի սուլֆատ մոնոհիդրատ 6.9 mg) 2.3 mg, Ցինկ (ցինկի օքսիդ 13 mg) 10.5 mg, Պղինձ (Պղինձ (II) սուլֆատ պենտահիդրատ 3.5 mg) 0.9 mg, Երկաթ (Երկաթ (II) սուլֆատ մոնոհիդրատ 22.8 mg) 7.5 mg, Յոդ (կալցիումի յոդատ անջուր 0.18 mg) 0.12 mg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "014497",
+   "price": 1250,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 900,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    4988,
+    7309
+   ],
+   "attributes": {
+    "product-weight": "400 գ",
+    "lifestage": "Չափահաս",
+    "texture": "Պաշտետ",
+    "packaging": "Պահածո"
+   },
+   "attribute_values": [
+    {
+     "id": 5,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "400-g",
+     "label": "400 գ"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Տարիք",
+     "value": "adult",
+     "label": "Չափահաս"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Հյուսվածք",
+     "value": "pate",
+     "label": "Պաշտետ"
+    },
+    {
+     "id": 147,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Փաթեթավորման տեսակ",
+     "value": "can",
+     "label": "Պահածո"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 5,
+    "lifestage": 27,
+    "texture": 138,
+    "packaging": 147
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T08:55:12.000000Z",
+ "updatedAt": "2026-09-11T12:49:02.000000Z"
+}

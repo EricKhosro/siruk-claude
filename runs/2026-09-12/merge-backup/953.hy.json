@@ -1,0 +1,43 @@
+{
+ "id": 953,
+ "name": "CityStyle վզկապ, XS–S, 25–32 սմ/20 մմ, սև",
+ "slug": "trixie-citystyle-collar-xs-s-25-32-cm-20-mm-black",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1111,
+   "name": "XS–S, 25–32 cm/20 mm, black",
+   "about_this_item": "<ul><li>ժապավեն PVC պատվածքով</li><li>ջրավանիչ և սրբվող</li><li>փորձարկված է կենդանիների բարեկեցության և պաշտպանության անկախ փորձագիտական մարմնի կողմից</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "1971901",
+   "price": 3650,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2280,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    10051
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:40:08.000000Z",
+ "updatedAt": "2026-09-11T16:09:05.000000Z"
+}

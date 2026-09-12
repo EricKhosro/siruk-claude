@@ -1,0 +1,48 @@
+{
+ "id": 914,
+ "name": "Premium Reflect Collar, XS–S, 25–35 cm/20 mm, graphite",
+ "slug": "trixie-premium-reflect-collar-xs-s-25-35-cm-20-mm-graphite",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1072,
+   "name": "XS–S, 25–35 cm/20 mm, graphite",
+   "about_this_item": "<ul><li>top: plastic/inner side: webbing</li><li>reflective</li><li>fully adjustable fit</li><li>from size S–M with strain-relieved buckle</li><li>webbing tape: graphite</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "1199216",
+   "price": 2450,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1530,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8936,
+    8939,
+    8942,
+    8945,
+    8948,
+    8951
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:30:33.000000Z",
+ "updatedAt": "2026-09-11T16:06:14.000000Z"
+}

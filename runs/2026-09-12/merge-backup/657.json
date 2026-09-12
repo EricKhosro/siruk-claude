@@ -1,0 +1,87 @@
+{
+ "id": 657,
+ "name": "Fresh Adult Dog Trout 400 g",
+ "slug": "monge-fresh-adult-dog-trout-400-g",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Wet Food",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 794,
+   "name": "Trout 400 g",
+   "about_this_item": "",
+   "ingredient_information": "<p><strong>Composition:</strong> Meat and animal derivatives, fish and fish derivatives (trout 16%), cereals, oils and fats, minerals.</p><p><strong>Analytical constituents:</strong> Crude Protein 7.5%, Crude Fibre 0.5%, Crude Fat 6.5%, Crude Ash 2%, Moisture 78%.</p><p><strong>Additives:</strong> NUTRITIONAL ADDITIVES/kg: Vitamin D3 280 IU, Vitamin E (all-rac-alpha-tocopheryl acetate 3a700i) 15 mg, Selenium (Sodium selenite 0.03 mg) 0.015 mg, Manganese (Manganous sulphate monohydrate 6.9 mg) 2.3 mg, Zinc (Zinc oxide 13 mg) 10.5 mg, Copper (Copper (II) sulphate pentahydrate 3.5 mg) 0.9 mg, Iron (Iron (II) sulphate monohydrate 22.8 mg) 7.5 mg, Iodine (Calcium iodate anhydrous 0.18 mg) 0.12 mg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "014497",
+   "price": 1250,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 900,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    4988,
+    7309
+   ],
+   "attributes": {
+    "product-weight": "400 g",
+    "lifestage": "Adult",
+    "texture": "Pate",
+    "packaging": "Can"
+   },
+   "attribute_values": [
+    {
+     "id": 5,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "400-g",
+     "label": "400 g"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "pate",
+     "label": "Pate"
+    },
+    {
+     "id": 147,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "can",
+     "label": "Can"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 5,
+    "lifestage": 27,
+    "texture": 138,
+    "packaging": 147
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T08:55:12.000000Z",
+ "updatedAt": "2026-09-11T12:49:02.000000Z"
+}

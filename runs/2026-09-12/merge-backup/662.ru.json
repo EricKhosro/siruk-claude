@@ -1,0 +1,76 @@
+{
+ "id": 662,
+ "name": "Gran Bonta для взрослых собак, курица и индейка, 1230 г",
+ "slug": "monge-gran-bonta-adult-dog-chicken-turkey-1230-g",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Влажный корм",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 799,
+   "name": "Chicken & Turkey 1230 g",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "041577",
+   "price": 1550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1150,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    7318
+   ],
+   "attributes": {
+    "lifestage": "Взрослые",
+    "flavor": "Курица",
+    "packaging": "Банка"
+   },
+   "attribute_values": [
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Возраст",
+     "value": "adult",
+     "label": "Взрослые"
+    },
+    {
+     "id": 36,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Вкус",
+     "value": "chicken",
+     "label": "Курица"
+    },
+    {
+     "id": 147,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Тип упаковки",
+     "value": "can",
+     "label": "Банка"
+    }
+   ],
+   "attribute_value_ids": {
+    "lifestage": 27,
+    "flavor": 36,
+    "packaging": 147
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T08:56:08.000000Z",
+ "updatedAt": "2026-09-11T12:49:24.000000Z"
+}

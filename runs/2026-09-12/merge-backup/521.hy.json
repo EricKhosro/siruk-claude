@@ -1,0 +1,71 @@
+{
+ "id": 521,
+ "name": "Ռուլետիկներ հավով",
+ "slug": "trixie-rolls-with-chicken",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 8,
+ "attribute_family_id": 3,
+ "attribute_family_name": "Հյուրասիրություններ",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 629,
+   "name": "3 pcs./140 g",
+   "about_this_item": "<ul><li>փաթեթավորված</li></ul>",
+   "ingredient_information": "<p><strong>Բաղադրություն:</strong> հում կաշի, հավի միս (28 %), եգիպտացորենի օսլա, գլիցերին, սորբիտ, առանց գլյուտենի բաղադրություն, Պահել զով և չոր տեղում.</p><p><strong>Անալիտիկ բաղադրիչներ:</strong> Ճարպեր 3 %, Խոնավություն 16 %, Սպիտակուց 72 %, Հում մոխիր 3 %, Հում բջջանյութ 1 %</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "31327",
+   "price": 2700,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1685,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3890,
+    6840,
+    6851,
+    3893,
+    3896,
+    3899
+   ],
+   "attributes": {
+    "product-weight": "140 գ",
+    "flavor": "Հավ"
+   },
+   "attribute_values": [
+    {
+     "id": 163,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "140-g",
+     "label": "140 գ"
+    },
+    {
+     "id": 36,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Համ",
+     "value": "chicken",
+     "label": "Հավ"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 163,
+    "flavor": 36
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T07:39:38.000000Z",
+ "updatedAt": "2026-09-11T12:37:38.000000Z"
+}

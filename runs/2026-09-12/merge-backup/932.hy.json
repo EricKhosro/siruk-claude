@@ -1,0 +1,43 @@
+{
+ "id": 932,
+ "name": "Շղթայե ձգափոկ նեոպրենե բռնակով, M–L, 1,00 մ/3,0 մմ, կարմիր",
+ "slug": "trixie-chain-lead-with-neoprene-hand-loop-m-l-1-00-m-3-0-mm-red",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1090,
+   "name": "M–L, 1.00 m/3.0 mm, red",
+   "about_this_item": "<ul><li>քրոմ</li><li>փափուկ ձեռքի օղակ</li><li>կարված</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "14023",
+   "price": 3600,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2250,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8966
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:34:01.000000Z",
+ "updatedAt": "2026-09-11T16:07:40.000000Z"
+}

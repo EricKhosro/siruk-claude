@@ -45,7 +45,24 @@ Run these in order, one row at a time, and verify before the next row.
 | `scripts/feature-image.py` | is the first image a clean product shot? `--apply` reorders, `--sheet` renders a contact sheet to look at |
 | `scripts/check-hafo-prices.py` | every variant's sale price against its hafo row → `runs/<date>/price-check.csv`; `--apply` fixes unflagged mismatches only |
 | `scripts/verify-translations.py` | ru/hy coverage of products, categories, brands; exit 1 if anything is English-only |
+| `scripts/find-duplicate-products.py [--refresh]` | sibling rows imported as separate products — one collar sold as 22. Cross-checks trixie.de + trixie.shop against the names; writes `.siruk-cache/dedup/groups.json` and a review list |
 | `scripts/translate-attributes.py --verify-only` | attribute names, value labels and family names read back in all three locales |
+
+## 2b. Folding duplicate products back together
+
+A row-by-row import makes one product per CSV row, so sibling rows become
+sibling products. Three steps, and nothing is written until the plan reads right
+(`reference/product-rules.md` → "Sibling products"):
+
+| Step | Command | Notes |
+|---|---|---|
+| 1 Find them | `scripts/find-duplicate-products.py --refresh` | reads the whole catalogue, groups by trixie.de page / trixie.shop product / stripped name. `--refresh` re-reads the API (en + ru + hy) into `.siruk-cache/dedup/` |
+| 2 Plan | `scripts/plan-product-merge.py` | picks the surviving product, its name, slug, categories and the **variant axis** each variant needs; writes `runs/<date>/merge-plan.json` and lists the attribute values the vocabulary still lacks |
+| 2b Vocabulary | `scripts/sync-attributes.py --spec runs/<date>/attribute-spec.json` → `scripts/refresh-attributes.sh` → add ru/hy to `reference/translations-attributes.json` → `scripts/translate-attributes.py` | only on an explicit ask (rule 8) |
+| 3 Merge | `scripts/merge-products.py --dry-run`, then for real | backs every product up in en/ru/hy, checks the whole body BEFORE deleting anything, DELETEs the absorbed products (SKUs are unique catalogue-wide), PUTs the survivor, re-writes ru/hy, and records `runs/<date>/variant-id-map.csv` |
+
+`merge-products.py` is resumable (`runs/<date>/merge-state.json`) and falls back
+to its own backup for a product a previous run already deleted.
 
 ## 3. Fixing a product that already exists
 
@@ -64,7 +81,7 @@ Create in `en`, then write `ru` and `hy`. One locale per request.
 
 | Resource | Command | When |
 |---|---|---|
-| One product | `scripts/set-translation.py <id> <ru\|hy> <file.json>` | right after create / add-variant (pipeline step 6) |
+| One product | `scripts/set-translation.py <id> <ru\|hy> <file.json>` | right after create / add-variant (pipeline step 6). **List every sku** — one left out gets the English text written into that locale, wiping a translation that was already there |
 | Many products | `scripts/backfill-translations.py [--only id,…] [--dry-run]` | after a batch import; uses the phrase tables in `reference/translations.json` |
 | Categories | `scripts/create-category.py <spec.json>` | creating categories — only on an explicit user ask; `--dry-run` first |
 | Categories | `scripts/translate-categories.py [--dry-run]` | after adding a category (add it to the table inside the script first) |

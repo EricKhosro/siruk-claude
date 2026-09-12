@@ -1,0 +1,76 @@
+{
+ "id": 663,
+ "name": "Gran Bonta Chef Adult Dog Meat, Egg & Cheese 415 g",
+ "slug": "monge-gran-bonta-chef-adult-dog-meat-egg-cheese-415-g",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Wet Food",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 800,
+   "name": "Meat, Egg & Cheese 415 g",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "041787",
+   "price": 700,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 550,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    7537
+   ],
+   "attributes": {
+    "lifestage": "Adult",
+    "flavor": "Egg",
+    "packaging": "Can"
+   },
+   "attribute_values": [
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 160,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "egg",
+     "label": "Egg"
+    },
+    {
+     "id": 147,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "can",
+     "label": "Can"
+    }
+   ],
+   "attribute_value_ids": {
+    "lifestage": 27,
+    "flavor": 160,
+    "packaging": 147
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T08:56:15.000000Z",
+ "updatedAt": "2026-09-11T12:49:28.000000Z"
+}

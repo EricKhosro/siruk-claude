@@ -1,0 +1,458 @@
+{
+ "id": 727,
+ "name": "Premium Adult Cat",
+ "slug": "club-4-paws-premium-adult-cat",
+ "category_ids": [
+  11
+ ],
+ "brand_id": 17,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Wet Food",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 879,
+   "name": "Beef in Jelly 85 g",
+   "about_this_item": "<p>Complete canned food for adult cats with chunks of meat in jelly, rich in beef.</p>",
+   "ingredient_information": "<p><strong>Composition:</strong> 77 % meat and animal derivatives in slices, including 9 % of beef, vegetable protein extract, cereals, minerals, oils and fats (salmon oil 0,4 %), fruits (banana 0,1 %, hawthorn 0,03 %)*, various sugars, vegetable (tomatoes 0,11 %)*, ginger* 0,005 %.</p><p><strong>Analytical constituents:</strong> crude protein 8,5 %, crude fat 5 %, crude ash 1,5 %, crude fibre 0,3 %, humidity 81 %, calcium 0,35 %, phosphorus 0,3 %, omega-3 fatty acids 0,1 %, omega-6 fatty acids 0,4 %.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "142565",
+   "price": 270,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 225,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 15,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    5393
+   ],
+   "attributes": {
+    "product-weight": "85 gr",
+    "lifestage": "Adult",
+    "flavor": "Beef",
+    "texture": "Chunks in Jelly",
+    "packaging": "Pouch",
+    "ingredient": "Beef"
+   },
+   "attribute_values": [
+    {
+     "id": 1,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "85-g",
+     "label": "85 gr"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 37,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "beef",
+     "label": "Beef"
+    },
+    {
+     "id": 140,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "chunks-in-jelly",
+     "label": "Chunks in Jelly"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "pouch",
+     "label": "Pouch"
+    },
+    {
+     "id": 450,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Ingredient",
+     "value": "beef",
+     "label": "Beef"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 1,
+    "lifestage": 27,
+    "flavor": 37,
+    "texture": 140,
+    "packaging": 148,
+    "ingredient": 450
+   }
+  },
+  {
+   "id": 880,
+   "name": "Chicken in Gravy 85 g",
+   "about_this_item": "<p>Complete canned food for adult cats with chunks of meat in gravy, rich in chicken.</p>",
+   "ingredient_information": "<p><strong>Composition:</strong> 77 % meat and animal derivatives in slices (13 % of chicken), cereals, vegetable protein extracts, minerals, oils and fats (salmon oil 0,43 %), derivatives of vegetable origin, fruit (banana 0,1 %, hawthorn 0,03 %)*, vegetables (tomatoes 0,11 %)*, ginger* 0,01 %.</p><p><strong>Analytical constituents:</strong> crude protein 8,5 %, crude fat 5 %, crude ash 2,5 %, crude fibre 0,3 %, moisture 82 %, calcium 0,35 %, phosphorus 0,3 %, omega-3 fatty acids 0,1 %, omega-6 fatty acids 0,34 %.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "142525",
+   "price": 270,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 225,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": false,
+   "stock": 20,
+   "vendor_stock": false,
+   "sort_order": 1,
+   "images": [
+    5396
+   ],
+   "attributes": {
+    "product-weight": "85 gr",
+    "lifestage": "Adult",
+    "flavor": "Chicken",
+    "texture": "Chunks in Gravy",
+    "packaging": "Pouch",
+    "ingredient": "Chicken"
+   },
+   "attribute_values": [
+    {
+     "id": 1,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "85-g",
+     "label": "85 gr"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 36,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "chicken",
+     "label": "Chicken"
+    },
+    {
+     "id": 139,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "chunks-in-gravy",
+     "label": "Chunks in Gravy"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "pouch",
+     "label": "Pouch"
+    },
+    {
+     "id": 461,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Ingredient",
+     "value": "chicken",
+     "label": "Chicken"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 1,
+    "lifestage": 27,
+    "flavor": 36,
+    "texture": 139,
+    "packaging": 148,
+    "ingredient": 461
+   }
+  },
+  {
+   "id": 881,
+   "name": "Duck in Gravy 85 g",
+   "about_this_item": "<p>Complete canned food for adult cats with chunks of meat in gravy, rich in duck.</p>",
+   "ingredient_information": "<p><strong>Composition:</strong> 79 % meat and animal derivatives in slices, including 10 % of duck, cereals, vegetable protein extract, minerals, oils and fats (salmon oil 0,5 %), fruits (banana 0,1 %, hawthorn 0,03 %)*, vegetable (tomatoes 0,11 %)*, ginger * 0,005 %.</p><p><strong>Analytical constituents:</strong> crude protein 8,5 %, crude fat 5 %, crude ash 2 %, crude fibre 0,3 %, humidity 82 %, calcium 0,35 %, phosphorus 0,3 %, omega-3 fatty acids 0,11 %, omega-6 fatty acids 0,25 %.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "142505",
+   "price": 270,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 225,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": false,
+   "stock": 13,
+   "vendor_stock": false,
+   "sort_order": 2,
+   "images": [
+    5399
+   ],
+   "attributes": {
+    "product-weight": "85 gr",
+    "lifestage": "Adult",
+    "flavor": "Duck",
+    "texture": "Chunks in Gravy",
+    "packaging": "Pouch",
+    "ingredient": "Duck"
+   },
+   "attribute_values": [
+    {
+     "id": 1,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "85-g",
+     "label": "85 gr"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 42,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "duck",
+     "label": "Duck"
+    },
+    {
+     "id": 139,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "chunks-in-gravy",
+     "label": "Chunks in Gravy"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "pouch",
+     "label": "Pouch"
+    },
+    {
+     "id": 469,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Ingredient",
+     "value": "duck",
+     "label": "Duck"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 1,
+    "lifestage": 27,
+    "flavor": 42,
+    "texture": 139,
+    "packaging": 148,
+    "ingredient": 469
+   }
+  },
+  {
+   "id": 882,
+   "name": "Rabbit in Jelly 85 g",
+   "about_this_item": "<p>Complete canned food for adult cats with chunks of meat in jelly, rich in rabbit.</p>",
+   "ingredient_information": "<p><strong>Composition:</strong> 77 % meat and animal derivatives in slices (4 % of rabbit), cereals, vegetable protein extracts, minerals, oils and fats (salmon oil 0,21 %), fruit (banana 0,1 %, hawthorn 0,03 %)*, vegetables (tomatoes 0,11 %)*, derivatives of vegetable origin, ginger* 0,01 %.</p><p><strong>Analytical constituents:</strong> crude protein 8,5 %, crude fat 5 %, crude ash 2,5 %, crude fibre 0,3 %, moisture 82 %, calcium 0,35 %, phosphorus 0,3 %, omega-3 fatty acids 0,1 %, omega-6 fatty acids 0,33 %.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "142515",
+   "price": 270,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 225,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": false,
+   "stock": 18,
+   "vendor_stock": false,
+   "sort_order": 3,
+   "images": [
+    5402
+   ],
+   "attributes": {
+    "product-weight": "85 gr",
+    "lifestage": "Adult",
+    "flavor": "Rabbit",
+    "texture": "Chunks in Jelly",
+    "packaging": "Pouch",
+    "ingredient": "Rabbit"
+   },
+   "attribute_values": [
+    {
+     "id": 1,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "85-g",
+     "label": "85 gr"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 52,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "rabbit",
+     "label": "Rabbit"
+    },
+    {
+     "id": 140,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "chunks-in-jelly",
+     "label": "Chunks in Jelly"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "pouch",
+     "label": "Pouch"
+    },
+    {
+     "id": 485,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Ingredient",
+     "value": "rabbit",
+     "label": "Rabbit"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 1,
+    "lifestage": 27,
+    "flavor": 52,
+    "texture": 140,
+    "packaging": 148,
+    "ingredient": 485
+   }
+  },
+  {
+   "id": 883,
+   "name": "Turkey in Jelly 85 g",
+   "about_this_item": "<p>Complete canned food for adult cats with chunks of meat in jelly, rich in turkey.</p>",
+   "ingredient_information": "<p><strong>Composition:</strong> 78 % meat and animal derivatives in slices, including 10 % of turkey, vegetable protein extract, cereals, minerals, oils and fats (salmon oil 0,45 %), fruits (banana 0,1 %, hawthorn 0,03 %)*, various sugars, vegetable (tomatoes 0,11 %)*, ginger* 0,005 %.</p><p><strong>Analytical constituents:</strong> crude protein 8,5 %, crude fat 5 %, crude ash 1,5 %, crude fibre 0,3 %, humidity 81 %, calcium 0,35 %, phosphorus 0,3 %, omega-3 fatty acids 0,1 %, omega-6 fatty acids 0,29 %.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "142495",
+   "price": 270,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 225,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": false,
+   "stock": 24,
+   "vendor_stock": false,
+   "sort_order": 4,
+   "images": [
+    5405
+   ],
+   "attributes": {
+    "product-weight": "85 gr",
+    "lifestage": "Adult",
+    "flavor": "Turkey",
+    "texture": "Chunks in Jelly",
+    "packaging": "Pouch",
+    "ingredient": "Turkey"
+   },
+   "attribute_values": [
+    {
+     "id": 1,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "85-g",
+     "label": "85 gr"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 39,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "turkey",
+     "label": "Turkey"
+    },
+    {
+     "id": 140,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "chunks-in-jelly",
+     "label": "Chunks in Jelly"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "pouch",
+     "label": "Pouch"
+    },
+    {
+     "id": 495,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Ingredient",
+     "value": "turkey",
+     "label": "Turkey"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 1,
+    "lifestage": 27,
+    "flavor": 39,
+    "texture": 140,
+    "packaging": 148,
+    "ingredient": 495
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T09:27:06.000000Z",
+ "updatedAt": "2026-09-11T12:54:17.000000Z"
+}

@@ -1,0 +1,44 @@
+{
+ "id": 908,
+ "name": "Տակդիրներ էգ շների համար, M–L, 12 հատ",
+ "slug": "trixie-diapers-for-female-dogs-m-l-12-pcs",
+ "category_ids": [
+  76
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1066,
+   "name": "M–L, 12 pcs.",
+   "about_this_item": "<ul><li>հիգիենա անմիզապահության, էգերի հոսքի և վիրահատություններից հետո</li><li>լավ նստվածք գոտկատեղի և ոտքերի առաձգական ժապավենի շնորհիվ</li><li>պոչի համար անցքով</li><li>երկու կողմից լայն կպչուն ամրակներով</li><li>պարունակություն՝ 12 հատ</li><li>ոչ գործվածքային նյութ (պոլիէսթեր)</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "23634",
+   "price": 400,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 250,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 12,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8903,
+    8885
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:27:23.000000Z",
+ "updatedAt": "2026-09-11T16:05:48.000000Z"
+}

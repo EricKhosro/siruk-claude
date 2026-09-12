@@ -23,6 +23,11 @@ are two products; Sterilised in gravy + in jelly is one product with two
 variants. Unclear → separate products + flag. Full reasoning in
 `reference/data-tables.md` §2.
 
+**Those axes are the FOOD axes.** A product type's own skill overrides them:
+`accessories` adds **size, colour and volume**, so one collar in six sizes and
+five colours is one product with 30 options, not 30 products. Same for
+`grooming` (size, scent). Colour only splits a *food* pack.
+
 Grouping lessons (2026-08-13, `runs/2026-08-13-schesir-regroup.md`):
 - Never let a variant axis into a grouping key (pack weight/texture in the key
   made 81 products of 70).
@@ -74,6 +79,52 @@ cardboards → **81**. Cat behaviour and odour sprays go to **67** (Litter Boxes
 & Accessories) — the Cat menu has no Cleaning or Training node (user call,
 2026-09-11). **13 Accessories is not a product category** (`forProducts`
 omits it); a row landing there is a bug, not a fallback.
+
+## Sibling products — finding them after the fact (2026-09-12)
+
+An import that walks a CSV row by row makes one product per row, and sibling
+rows become sibling *products*: `Premium Collar, S, 25–40 cm/15 mm, fuchsia`
+and `Premium Collar, S–M, 30–45 cm/15 mm, black` were 22 separate products
+where Trixie sells one collar. 131 such duplicates were folded away on
+2026-09-12 (`runs/2026-09-12/report.md`).
+
+`scripts/find-duplicate-products.py` re-runs the detection. Three signals, the
+first two authoritative **both ways** — they merge and they split:
+
+| Signal | What it is |
+|---|---|
+| **trixie.de** | the article codes sit on the same official product page (`trixie-product.py` parses its whole variant table) |
+| **trixie.shop** | the article codes are options of the same Shopify product — reaches discontinued lines the .de catalogue dropped |
+| **name** | identical product name once the variant label is stripped, same brand, same categories — only where no official signal contradicts it |
+
+The splitting half is what keeps look-alikes apart: three **Stainless Steel
+Bowl** lines (24851–55 heavy weight, 25071–74 non-slip, 25271–73 varnished),
+six **Soft Brush** lines, and `Dog Socks XL/black` (19526), a different product
+from the grey 19500–19503. A name group spanning several official products
+never merges, and a member with no official key of its own goes to the review
+list. `SPLIT_OFF` in the script holds the hand-checked exceptions with their
+evidence.
+
+**A merged product needs a variant axis.** The storefront builds the selector
+from **attributes**, not from the variant label — verified on product 874,
+whose second variant carried no `flavor` and was simply unreachable. So before
+merging, every variant needs a value on an attribute that varies across the
+group. `scripts/plan-product-merge.py` works that out and names the vocabulary
+it still needs; `scripts/merge-products.py` refuses to write a product where
+two variants share an attribute combination.
+
+Accessory axes (created 2026-09-12): **`size` 28** — letter sizes (XXS–XS …
+XL) for collars, harnesses, leads and apparel, measurement strings
+("0.45 l/ø 19 cm", "9 × 15 cm") for bowls, brushes and packs; not filterable,
+same call as `toy-size`. **`pet-weight-range` 27** — the dose band on
+antiparasitic drops and tablets (1–4 kg …); filterable. Colour rides on
+`color-family`. The full measurement stays in the variant label, so
+"XS–S, 22–35 cm/10 mm, black" still reads in full on the product page.
+
+**Merging deletes before it writes.** SKUs are unique catalogue-wide, so the
+surviving product cannot claim a sku another product still holds; the absorbed
+products are DELETEd first, which is why `merge-products.py` backs every one of
+them up (en/ru/hy) before it touches anything.
 
 ## Multiple categories per product (verified 2026-09-12)
 

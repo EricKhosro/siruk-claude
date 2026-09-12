@@ -370,8 +370,8 @@
     819
    ],
    "name": "Stainless Steel Bowl, heavy weight",
-   "name_ru": "Миска из нержавеющей стали",
-   "name_hy": "Չժանգոտվող պողպատե աման",
+   "name_ru": "Миска из нержавеющей стали, утяжелённая",
+   "name_hy": "Չժանգոտվող պողպատե աման, ծանրացված",
    "slug": "trixie-stainless-steel-bowl-heavy-weight",
    "old_slug": "trixie-stainless-steel-bowl-0-45-l-19-cm",
    "brand_id": 8,
@@ -531,7 +531,11 @@
      "existing": {
       "flavor": 36
      },
+     "fill": {
+      "product-weight": "120 g"
+     },
      "axes": {
+      "product-weight": "120 g",
       "size": "120 g"
      }
     }
@@ -653,8 +657,8 @@
     808
    ],
    "name": "Premium Adjustable Lead",
-   "name_ru": "Premium регулируемый поводок, XS, 2,00 м/10 мм",
-   "name_hy": "Premium կարգավորվող ձգափոկ, XS, 2,00 մ/10 մմ",
+   "name_ru": "Premium регулируемый поводок",
+   "name_hy": "Premium կարգավորվող ձգափոկ",
    "slug": "trixie-premium-adjustable-lead",
    "old_slug": "trixie-premium-adjustable-lead-xs-2-00-m-10-mm-black",
    "brand_id": 8,
@@ -732,8 +736,8 @@
     832
    ],
    "name": "Stainless Steel Bowl with Rubber Base",
-   "name_ru": "Миска из нержавеющей стали на резиновой основе, 0",
-   "name_hy": "Չժանգոտվող պողպատե աման ռետինե հիմքով, 0",
+   "name_ru": "Миска из нержавеющей стали на резиновой основе",
+   "name_hy": "Չժանգոտվող պողպատե աման ռետինե հիմքով",
    "slug": "trixie-stainless-steel-bowl-with-rubber-base",
    "old_slug": "trixie-stainless-steel-bowl-with-rubber-base-0-2-l-15-cm-grey",
    "brand_id": 8,
@@ -1434,8 +1438,8 @@
     452
    ],
    "name": "Soft Brush, bamboo",
-   "name_ru": "Мягкая щётка",
-   "name_hy": "Փափուկ խոզանակ",
+   "name_ru": "Мягкая щётка, бамбук",
+   "name_hy": "Փափուկ խոզանակ, բամբուկ",
    "slug": "trixie-soft-brush-bamboo",
    "old_slug": "trixie-soft-brush-bamboo-metal-pins-7-16-cm",
    "brand_id": 8,
@@ -1499,8 +1503,8 @@
     493
    ],
    "name": "Soft Brush, rubber handle",
-   "name_ru": "Мягкая щётка",
-   "name_hy": "Փափուկ խոզանակ",
+   "name_ru": "Мягкая щётка, резиновая ручка",
+   "name_hy": "Փափուկ խոզանակ, ռետինե բռնակ",
    "slug": "trixie-soft-brush-rubber-handle",
    "old_slug": "trixie-soft-brush-rubber-handle-metal-pins-7-16-cm",
    "brand_id": 8,
@@ -1618,7 +1622,11 @@
      "existing": {
       "flavor": 36
      },
+     "fill": {
+      "product-weight": "200 g"
+     },
      "axes": {
+      "product-weight": "200 g",
       "size": "200 g"
      }
     }
@@ -2076,8 +2084,8 @@
     828
    ],
    "name": "Stainless Steel Bowl, non-slip",
-   "name_ru": "Миска из нержавеющей стали",
-   "name_hy": "Չժանգոտվող պողպատե աման",
+   "name_ru": "Миска из нержавеющей стали, нескользящая",
+   "name_hy": "Չժանգոտվող պողպատե աման, ոչ սահող",
    "slug": "trixie-stainless-steel-bowl-non-slip",
    "old_slug": "trixie-stainless-steel-bowl-0-5-l-14-cm",
    "brand_id": 8,
@@ -2206,8 +2214,8 @@
     847
    ],
    "name": "Stainless Steel Bowl, varnished",
-   "name_ru": "Миска из нержавеющей стали",
-   "name_hy": "Չժանգոտվող պողպատե աման",
+   "name_ru": "Миска из нержавеющей стали, лакированная",
+   "name_hy": "Չժանգոտվող պողպատե աման, լաքապատ",
    "slug": "trixie-stainless-steel-bowl-varnished",
    "old_slug": "trixie-stainless-steel-bowl-500-ml-13-cm",
    "brand_id": 8,
@@ -2816,7 +2824,7 @@
    ],
    "name": "Premium Touring Harness",
    "name_ru": "Premium Touring шлейка",
-   "name_hy": "Premium Touring",
+   "name_hy": "Premium Touring լանջափոկ",
    "slug": "trixie-premium-touring-harness",
    "old_slug": "trixie-premium-touring-harness-xs-s-30-55-cm-15-mm-petrol",
    "brand_id": 8,
@@ -2882,8 +2890,8 @@
     446
    ],
    "name": "Longie, latex/polyester fleece",
-   "name_ru": "Животные, латекс",
-   "name_hy": "Կենդանիներ, լատեքս",
+   "name_ru": "Longie, латекс/полиэстеровый флис",
+   "name_hy": "Longie, լատեքս/պոլիեսթերային ֆլիս",
    "slug": "trixie-longie-latex-polyester-fleece",
    "old_slug": "trixie-animals-latex-18-cm",
    "brand_id": 8,
@@ -2992,8 +3000,8 @@
     463
    ],
    "name": "Brush, wood, natural bristles",
-   "name_ru": "Щётка",
-   "name_hy": "Խոզանակ",
+   "name_ru": "Щётка, дерево, натуральная щетина",
+   "name_hy": "Խոզանակ, փայտ, բնական մազիկներ",
    "slug": "trixie-brush-wood-natural-bristles",
    "old_slug": "trixie-brush-wood-natural-bristles-5-18-cm",
    "brand_id": 8,
@@ -3043,8 +3051,8 @@
     471
    ],
    "name": "Soft Brush with Brush Cleaner, wooden handle",
-   "name_ru": "Мягкая щётка",
-   "name_hy": "Փափուկ խոզանակ",
+   "name_ru": "Мягкая щётка с очистителем, деревянная ручка",
+   "name_hy": "Փափուկ խոզանակ մաքրիչով, փայտե բռնակ",
    "slug": "trixie-soft-brush-with-brush-cleaner-wooden-handle",
    "old_slug": "trixie-soft-brush-6-13-cm",
    "brand_id": 8,
@@ -3134,7 +3142,11 @@
      "existing": {
       "flavor": 36
      },
+     "fill": {
+      "product-weight": "120 g"
+     },
      "axes": {
+      "product-weight": "120 g",
       "size": "120 g"
      }
     }
@@ -3190,7 +3202,11 @@
      "existing": {
       "flavor": 42
      },
+     "fill": {
+      "product-weight": "120 g"
+     },
      "axes": {
+      "product-weight": "120 g",
       "size": "120 g"
      }
     }
@@ -3308,8 +3324,8 @@
     611
    ],
    "name": "Toothpaste",
-   "name_ru": "Зубная паста, 100 г, м",
-   "name_hy": "Ատամի մածուկ, 100 գ",
+   "name_ru": "Зубная паста",
+   "name_hy": "Ատամի մածուկ",
    "slug": "trixie-toothpaste",
    "old_slug": "trixie-toothpaste-100-g-tea-tree-oil",
    "brand_id": 8,
@@ -3875,6 +3891,9 @@
      "_size": "11 l",
      "_colour": null,
      "existing": {},
+     "fill": {
+      "product-weight": "11 l"
+     },
      "axes": {
       "product-weight": "11 l"
      }
@@ -3942,8 +3961,8 @@
     834
    ],
    "name": "Melamine Bowl with Rubber Base",
-   "name_ru": "Меламиновая миска на резиновой основе, 0,2",
-   "name_hy": "Մելամինե աման ռետինե հիմքով, 0,2",
+   "name_ru": "Меламиновая миска на резиновой основе",
+   "name_hy": "Մելամինե աման ռետինե հիմքով",
    "slug": "trixie-melamine-bowl-with-rubber-base",
    "old_slug": "trixie-melamine-bowl-with-rubber-base-0-2-l-14-cm-white",
    "brand_id": 8,
@@ -4095,8 +4114,8 @@
     889
    ],
    "name": "Dog Poop Bags with Scent",
-   "name_ru": "Ароматизированные пакеты для собачьих отходов, 4 × 20 шт., аромат",
-   "name_hy": "Բուրավետ տոպրակներ շան աղբի համար, 4 × 20 հատ",
+   "name_ru": "Ароматизированные пакеты для собачьих отходов",
+   "name_hy": "Բուրավետ տոպրակներ շան աղբի համար",
    "slug": "trixie-dog-poop-bags-with-scent",
    "old_slug": "trixie-dog-poop-bags-with-scent-4-20-bags-lavender-scent-purple",
    "brand_id": 8,
@@ -4200,8 +4219,8 @@
     884
    ],
    "name": "Protective Pants, mesh",
-   "name_ru": "Защитные трусы, сетка, S",
-   "name_hy": "Պաշտպանիչ կիսավարտիք, ցանց, S",
+   "name_ru": "Защитные трусы, сетка",
+   "name_hy": "Պաշտպանիչ կիսավարտիք, ցանց",
    "slug": "trixie-protective-pants-mesh",
    "old_slug": "trixie-protective-pants-mesh-s-30-37-cm",
    "brand_id": 8,
@@ -4455,8 +4474,8 @@
     930
    ],
    "name": "Easy Flash USB Light Collar, silicone",
-   "name_ru": "Easy Flash USB светящийся ошейник, силикон, L–XL: 40–65 см/25 мм, неоново",
-   "name_hy": "Easy Flash USB լուսավորվող վզկապ, սիլիկոն, L–XL: 40–65 սմ/25 մմ, նեոն",
+   "name_ru": "Easy Flash USB светящийся ошейник, силикон",
+   "name_hy": "Easy Flash USB լուսավորվող վզկապ, սիլիկոն",
    "slug": "trixie-easy-flash-usb-light-collar-silicone",
    "old_slug": "trixie-easy-flash-usb-light-collar-silicone-l-xl-40-65-cm-25-mm-neon-blue",
    "brand_id": 8,
@@ -4608,8 +4627,8 @@
     1011
    ],
    "name": "Premium Semi-Choke Collar",
-   "name_ru": "Premium полуудавка, S–M, 30–40 см/15 мм",
-   "name_hy": "Premium կիսախեղդող վզկապ, S–M, 30–40 սմ/15 մմ",
+   "name_ru": "Premium полуудавка",
+   "name_hy": "Premium կիսախեղդող վզկապ",
    "slug": "trixie-premium-semi-choke-collar",
    "old_slug": "trixie-premium-semi-choke-collar-s-m-30-40-cm-15-mm-black",
    "brand_id": 8,
@@ -4659,8 +4678,8 @@
     1022
    ],
    "name": "Chain Collar, chrome-plated",
-   "name_ru": "Цепь",
-   "name_hy": null,
+   "name_ru": "Цепь-ошейник, хромированная",
+   "name_hy": "Շղթայե վզկապ, քրոմապատ",
    "slug": "trixie-chain-collar-chrome-plated",
    "old_slug": "trixie-chain-collar-chrome-plated-70-cm-4-mm",
    "brand_id": 8,
@@ -4701,91 +4720,5 @@
    ]
   }
  ],
- "missing_values": {
-  "flavor": [
-   "Chicken and Vegetables",
-   "Tea Tree Oil",
-   "Trout",
-   "Veal"
-  ],
-  "pet-weight-range": [
-   "0.5–2 kg",
-   "10–25 kg",
-   "1–4 kg",
-   "2–8 kg",
-   "4–10 kg",
-   "4–8 kg",
-   "8–16 kg"
-  ],
-  "product-weight": [
-   "11 l",
-   "175 ml",
-   "750 ml"
-  ],
-  "size": [
-   "0.2 l/ø 14 cm",
-   "0.2 l/ø 15 cm",
-   "0.25 l/ø 17 cm",
-   "0.3 l/ø 16 cm",
-   "0.45 l/ø 19 cm",
-   "0.5 l/ø 14 cm",
-   "0.7 l/ø 21 cm",
-   "0.8 l/ø 17 cm",
-   "0.9 l/ø 17 cm",
-   "0.9 l/ø 23 cm",
-   "1.0 l/ø 15 cm",
-   "1.4 l/ø 25 cm",
-   "1.5 l/ø 21 cm",
-   "1.7 l/ø 21 cm",
-   "1.75 l/ø 30 cm",
-   "1.9 l/ø 21 cm",
-   "10 pcs./80 g",
-   "12 × 15 cm",
-   "12 × 16 cm",
-   "120 g",
-   "140 g",
-   "2 pcs./70 g",
-   "2 × 60 g",
-   "2.0 l/ø 20 cm",
-   "2.2 l/ø 23 cm",
-   "2.5 l/ø 24 cm",
-   "2.7 l/ø 32 cm",
-   "200 g",
-   "3 pcs./140 g",
-   "4 × 20 bags",
-   "4 × 20 bags, lavender scent",
-   "4 × 20 bags, rose scent",
-   "5 pcs./70 g",
-   "5 × 18 cm",
-   "5 × 21 cm",
-   "500 ml/ø 13 cm",
-   "6 × 13 cm",
-   "7 pcs.",
-   "7 × 16 cm",
-   "70 cm/4 mm",
-   "70 g",
-   "78 cm/4 mm",
-   "8 pcs.",
-   "8 × 20 bags",
-   "9 × 13 cm",
-   "9 × 15 cm",
-   "9 × 16 cm",
-   "L",
-   "L–XL",
-   "M",
-   "M, with mesh",
-   "M–L",
-   "S",
-   "S–M",
-   "XL",
-   "XS",
-   "XS, S, S–M",
-   "XS–S",
-   "XXS–XS"
-  ],
-  "toy-size": [
-   "30–32 cm",
-   "37 cm"
-  ]
- }
+ "missing_values": {}
 }

@@ -1,0 +1,43 @@
+{
+ "id": 931,
+ "name": "Поводок-цепь с неопреновой ручкой, XS–S, 1,10 м/2,0 мм, чёрный",
+ "slug": "trixie-chain-lead-with-neoprene-hand-loop-xs-s-1-10-m-2-0-mm-black",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1089,
+   "name": "XS–S, 1.10 m/2.0 mm, black",
+   "about_this_item": "<ul><li>хром</li><li>мягкая ручная петля</li><li>прошитый</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "14011",
+   "price": 3100,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1935,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8963
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:33:50.000000Z",
+ "updatedAt": "2026-09-11T16:07:36.000000Z"
+}

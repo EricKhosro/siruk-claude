@@ -1,0 +1,43 @@
+{
+ "id": 829,
+ "name": "Stainless Steel Bowl with Rubber Base, 0.2 l/ø 15 cm, grey",
+ "slug": "trixie-stainless-steel-bowl-with-rubber-base-0-2-l-15-cm-grey",
+ "category_ids": [
+  70
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 985,
+   "name": "0.2 l/ø 15 cm, grey",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "25141",
+   "price": 2250,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1405,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9542
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T14:46:40.000000Z",
+ "updatedAt": "2026-09-11T16:00:51.000000Z"
+}

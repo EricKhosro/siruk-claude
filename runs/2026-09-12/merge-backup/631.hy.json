@@ -1,0 +1,97 @@
+{
+ "id": 631,
+ "name": "Grill ստերիլիզացված կատուների համար, իշխան, 85 գ",
+ "slug": "monge-grill-sterilised-cat-trout-85-g",
+ "category_ids": [
+  11
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Թաց կեր",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 750,
+   "name": "Trout 85 g",
+   "about_this_item": "<p>Monge Natural Superpremium Grilled Cat Sterilised իշխանով՝ ամբողջական և առանց հացահատիկի կեր հասուն ստերիլիզացված կատուների համար։ Խորոված մսի կտորներ՝ ձեր կատվին կատարյալ սննդակարգին մոտեցնելու համար։ Բաղադրատոմսը պարունակում է բարձրորակ կենդանական սպիտակուցի աղբյուրներ՝ ընտրված իրենց սննդային հատկությունների համար։ Իտալական իշխանը՝ նուրբ և հեշտ մարսվող միս, բնականորեն հարուստ է էական վիտամիններով և միկրոտարրերով։ Լյարդը բարձրացնում է համային գրավչությունը, ինչը հատկապես օգտակար է պահանջկոտ կատուների համար։ Հատուկ բարձր սպիտակուցային, ցածր ճարպային բաղադրությունն օգնում է պահպանել մարմնի վիճակը ավելորդ քաշի կամ ճարպակալման հակված ամորձատված կատուների մոտ։</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "013657",
+   "price": 550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 380,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 16,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    4631,
+    4634
+   ],
+   "attributes": {
+    "product-weight": "85 գ",
+    "lifestage": "Չափահաս",
+    "special-diet": "Ստերիլիզացվածների համար",
+    "texture": "Կտորներ դոնդողով",
+    "packaging": "Պաուչ"
+   },
+   "attribute_values": [
+    {
+     "id": 1,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "85-g",
+     "label": "85 գ"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Տարիք",
+     "value": "adult",
+     "label": "Չափահաս"
+    },
+    {
+     "id": 102,
+     "attribute_id": 6,
+     "attribute_code": "special-diet",
+     "attribute_name": "Հատուկ դիետա",
+     "value": "sterilised",
+     "label": "Ստերիլիզացվածների համար"
+    },
+    {
+     "id": 140,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Հյուսվածք",
+     "value": "chunks-in-jelly",
+     "label": "Կտորներ դոնդողով"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Փաթեթավորման տեսակ",
+     "value": "pouch",
+     "label": "Պաուչ"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 1,
+    "lifestage": 27,
+    "special-diet": 102,
+    "texture": 140,
+    "packaging": 148
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T08:33:11.000000Z",
+ "updatedAt": "2026-09-11T12:47:02.000000Z"
+}

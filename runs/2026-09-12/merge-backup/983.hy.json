@@ -1,0 +1,43 @@
+{
+ "id": 983,
+ "name": "Premium վզկապ, XS–S, 22–35 սմ/10 մմ, ֆուքսիա",
+ "slug": "trixie-premium-collar-xs-s-22-35-cm-10-mm-fuchsia",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1141,
+   "name": "XS–S, 22–35 cm/10 mm, fuchsia",
+   "about_this_item": "<ul><li>անընդհատ կարգավորվող ժապավեն</li><li>S–M չափից սկսած՝ լարվածությունից ազատված ճարմանդով</li><li>փորձարկված է կենդանիների բարեկեցության և պաշտպանության անկախ փորձագիտական մարմնի կողմից</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "201411",
+   "price": 1200,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 750,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9140
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:46:41.000000Z",
+ "updatedAt": "2026-09-11T16:10:39.000000Z"
+}

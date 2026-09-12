@@ -1,0 +1,45 @@
+{
+ "id": 837,
+ "name": "Աման, էմալ/չժանգոտվող պողպատ, 1,9 լ/ø 21 սմ, կանաչ",
+ "slug": "trixie-bowl-enamel-stainless-steel-1-9-l-21-cm-green",
+ "category_ids": [
+  70
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 993,
+   "name": "1.9 l/ø 21 cm, green",
+   "about_this_item": "<ul><li>չի սահում սիլիկոնե կետերի շնորհիվ</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "25213",
+   "price": 4300,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2685,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8092,
+    8095,
+    8098
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T14:48:42.000000Z",
+ "updatedAt": "2026-09-11T16:01:25.000000Z"
+}

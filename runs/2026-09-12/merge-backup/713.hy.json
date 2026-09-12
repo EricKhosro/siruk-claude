@@ -1,0 +1,358 @@
+{
+ "id": 713,
+ "name": "Fresh պաշտետ հասուն շների համար",
+ "slug": "monge-fresh-adult-dog-pat",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Թաց կեր",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 862,
+   "name": "Tuna 100 g",
+   "about_this_item": "<p>MONGE FRESH՝ համեղ պաշտետ թարմ թունայով, ամբողջական կեր, որը մշակված է ամեն օր ձեր ընտանի կենդանու բարեկեցությանն աջակցելու համար։ Բաղադրատոմսը չի պարունակում հիդրոգենացված ճարպեր։ Fresh շարքի փափուկ և համեղ պաշտետը իդեալական կերակուր է փոքր շների համար և հյուրասիրություն՝ ավելի մեծերի։ Monge Fresh-ը պատրաստվում է Իտալիայում, չի փորձարկվում կենդանիների վրա և չունի արհեստական հավելումներ կամ ներկանյութեր։</p>",
+   "ingredient_information": "<p><strong>Բաղադրություն:</strong> միս և կենդանական ծագման մթերքներ 50%, ձուկ և ձկնային մթերքներ 30% (թարմ թունա 10%), հանքանյութեր.</p><p><strong>Անալիտիկ բաղադրիչներ:</strong> Հում սպիտակուց 9,0%, Հում բջջանյութ 0,5%, Հում ճարպ 7,0%, Հում մոխիր 1,2%. Խոնավություն 82,0%.</p><p><strong>Հավելումներ:</strong> , Սննդային հավելումներ: Վիտամին A (ռետինիլացետատ) 3000 IU, Վիտամին D3 400 iu, Վիտամին E (all-rac-ալֆա-տոկոֆերիլացետատ) 15 mg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "013017",
+   "price": 550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 410,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    5264,
+    7363,
+    5267
+   ],
+   "attributes": {
+    "product-weight": "100 գ",
+    "lifestage": "Չափահաս",
+    "flavor": "Թունա",
+    "texture": "Պաշտետ",
+    "packaging": "Պաուչ"
+   },
+   "attribute_values": [
+    {
+     "id": 2,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "100-g",
+     "label": "100 գ"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Տարիք",
+     "value": "adult",
+     "label": "Չափահաս"
+    },
+    {
+     "id": 41,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Համ",
+     "value": "tuna",
+     "label": "Թունա"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Հյուսվածք",
+     "value": "pate",
+     "label": "Պաշտետ"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Փաթեթավորման տեսակ",
+     "value": "pouch",
+     "label": "Պաուչ"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 2,
+    "lifestage": 27,
+    "flavor": 41,
+    "texture": 138,
+    "packaging": 148
+   }
+  },
+  {
+   "id": 863,
+   "name": "Chicken with Vegetables 100 g",
+   "about_this_item": "<p>MONGE FRESH՝ համեղ պաշտետ թարմ հավով, ամբողջական կեր, որը մշակված է ամեն օր ձեր ընտանի կենդանու բարեկեցությանն աջակցելու համար։ Բաղադրատոմսը չի պարունակում հիդրոգենացված ճարպեր։ Fresh շարքի փափուկ և համեղ պաշտետը իդեալական կերակուր է փոքր շների համար և հյուրասիրություն՝ ավելի մեծերի։ Monge Fresh-ը պատրաստվում է Իտալիայում, չի փորձարկվում կենդանիների վրա և չունի արհեստական հավելումներ կամ ներկանյութեր։</p>",
+   "ingredient_information": "<p><strong>Բաղադրություն:</strong> միս և կենդանական ծագման մթերքներ 76% (թարմ հավ 10%), բանջարեղեն (4,2%), հանքանյութեր.</p><p><strong>Անալիտիկ բաղադրիչներ:</strong> Հում սպիտակուց 9,0%, Հում բջջանյութ 0,5%, Հում ճարպ 7,0%, Հում մոխիր 1,2%. Խոնավություն 82,0%.</p><p><strong>Հավելումներ:</strong> , Սննդային հավելումներ: Վիտամին A (ռետինիլացետատ) 3000 IU, Վիտամին D3 400 iu, Վիտամին E (all-rac-ալֆա-տոկոֆերիլացետատ) 15 mg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "013037",
+   "price": 550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 410,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": false,
+   "stock": 12,
+   "vendor_stock": false,
+   "sort_order": 1,
+   "images": [
+    5270,
+    7366,
+    5273
+   ],
+   "attributes": {
+    "product-weight": "100 գ",
+    "lifestage": "Չափահաս",
+    "flavor": "Հավ",
+    "texture": "Պաշտետ",
+    "packaging": "Պաուչ",
+    "ingredient": "Հավ"
+   },
+   "attribute_values": [
+    {
+     "id": 2,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "100-g",
+     "label": "100 գ"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Տարիք",
+     "value": "adult",
+     "label": "Չափահաս"
+    },
+    {
+     "id": 36,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Համ",
+     "value": "chicken",
+     "label": "Հավ"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Հյուսվածք",
+     "value": "pate",
+     "label": "Պաշտետ"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Փաթեթավորման տեսակ",
+     "value": "pouch",
+     "label": "Պաուչ"
+    },
+    {
+     "id": 461,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Բաղադրիչ",
+     "value": "chicken",
+     "label": "Հավ"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 2,
+    "lifestage": 27,
+    "flavor": 36,
+    "texture": 138,
+    "packaging": 148,
+    "ingredient": 461
+   }
+  },
+  {
+   "id": 864,
+   "name": "Pork 100 g",
+   "about_this_item": "<p>MONGE FRESH՝ համեղ պաշտետ թարմ խոզի մսով, ամբողջական կեր, որը մշակված է ամեն օր ձեր ընտանի կենդանու բարեկեցությանն աջակցելու համար։ Բաղադրատոմսը չի պարունակում հիդրոգենացված ճարպեր։ Fresh շարքի փափուկ և համեղ պաշտետը իդեալական կերակուր է փոքր շների համար և հյուրասիրություն՝ ավելի մեծերի։ Monge Fresh-ը պատրաստվում է Իտալիայում, չի փորձարկվում կենդանիների վրա և չունի արհեստական հավելումներ կամ ներկանյութեր։</p>",
+   "ingredient_information": "<p><strong>Բաղադրություն:</strong> միս և կենդանական ծագման մթերքներ 80% (թարմ խոզի միս 10%), հանքանյութեր.</p><p><strong>Անալիտիկ բաղադրիչներ:</strong> Հում սպիտակուց 9,0%, Հում բջջանյութ 0,5%, Հում ճարպ 7,0%, Հում մոխիր 1,2%. Խոնավություն 82,0%.</p><p><strong>Հավելումներ:</strong> , Սննդային հավելումներ: Վիտամին A (ռետինիլացետատ) 3000 IU, Վիտամին D3 400 iu, Վիտամին E (all-rac-ալֆա-տոկոֆերիլացետատ) 15 mg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "013097",
+   "price": 550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 410,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": false,
+   "stock": 9,
+   "vendor_stock": false,
+   "sort_order": 2,
+   "images": [
+    5276,
+    7369,
+    5279
+   ],
+   "attributes": {
+    "product-weight": "100 գ",
+    "lifestage": "Չափահաս",
+    "flavor": "Խոզի միս",
+    "texture": "Պաշտետ",
+    "packaging": "Պաուչ",
+    "ingredient": "Խոզի միս"
+   },
+   "attribute_values": [
+    {
+     "id": 2,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "100-g",
+     "label": "100 գ"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Տարիք",
+     "value": "adult",
+     "label": "Չափահաս"
+    },
+    {
+     "id": 47,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Համ",
+     "value": "pork",
+     "label": "Խոզի միս"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Հյուսվածք",
+     "value": "pate",
+     "label": "Պաշտետ"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Փաթեթավորման տեսակ",
+     "value": "pouch",
+     "label": "Պաուչ"
+    },
+    {
+     "id": 482,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Բաղադրիչ",
+     "value": "pork",
+     "label": "Խոզի միս"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 2,
+    "lifestage": 27,
+    "flavor": 47,
+    "texture": 138,
+    "packaging": 148,
+    "ingredient": 482
+   }
+  },
+  {
+   "id": 865,
+   "name": "Cod 100 g",
+   "about_this_item": "<p>MONGE FRESH՝ համեղ պաշտետ թարմ ձողաձկով։ Ամբողջական կեր, որը մշակված է ամեն օր ձեր ընտանի կենդանու բարեկեցությանն աջակցելու համար։ Բաղադրատոմսը չի պարունակում հիդրոգենացված ճարպեր։ Fresh շարքի փափուկ և համեղ պաշտետը իդեալական կերակուր է փոքր շների համար և հյուրասիրություն՝ ավելի մեծերի։ Monge Fresh-ը պատրաստվում է Իտալիայում, չի փորձարկվում կենդանիների վրա և չունի արհեստական հավելումներ կամ ներկանյութեր։</p>",
+   "ingredient_information": "<p><strong>Բաղադրություն:</strong> միս և կենդանական ծագման մթերքներ 50%, ձուկ և ձկնային մթերքներ 30% (թարմ ձողաձուկ 10%), հանքանյութեր.</p><p><strong>Անալիտիկ բաղադրիչներ:</strong> Հում սպիտակուց 9,0%, Հում բջջանյութ 0,5%, Հում ճարպ 7,0%, Հում մոխիր 1,2%. Խոնավություն 82,0%.</p><p><strong>Հավելումներ:</strong> , Սննդային հավելումներ: Վիտամին A (ռետինիլացետատ) 3000 IU, Վիտամին D3 400 iu, Վիտամին E (all-rac-ալֆա-տոկոֆերիլացետատ) 15 mg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "013107",
+   "price": 550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 410,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": false,
+   "stock": 8,
+   "vendor_stock": false,
+   "sort_order": 3,
+   "images": [
+    5282,
+    7372,
+    5285
+   ],
+   "attributes": {
+    "product-weight": "100 գ",
+    "lifestage": "Չափահաս",
+    "flavor": "Ձողաձուկ",
+    "texture": "Պաշտետ",
+    "packaging": "Պաուչ"
+   },
+   "attribute_values": [
+    {
+     "id": 2,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "100-g",
+     "label": "100 գ"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Տարիք",
+     "value": "adult",
+     "label": "Չափահաս"
+    },
+    {
+     "id": 63,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Համ",
+     "value": "cod",
+     "label": "Ձողաձուկ"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Հյուսվածք",
+     "value": "pate",
+     "label": "Պաշտետ"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Փաթեթավորման տեսակ",
+     "value": "pouch",
+     "label": "Պաուչ"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 2,
+    "lifestage": 27,
+    "flavor": 63,
+    "texture": 138,
+    "packaging": 148
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T09:18:43.000000Z",
+ "updatedAt": "2026-09-11T12:53:16.000000Z"
+}

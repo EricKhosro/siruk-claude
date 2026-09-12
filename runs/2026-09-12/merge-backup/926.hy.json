@@ -1,0 +1,43 @@
+{
+ "id": 926,
+ "name": "Flash լուսավորվող վզկապ, նեյլոն, M–L: 40–55 սմ/25 մմ, նարնջագույն",
+ "slug": "trixie-flash-light-collar-nylon-m-l-40-55-cm-25-mm-orange",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1084,
+   "name": "M–L: 40–55 cm/25 mm, orange",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "13063",
+   "price": 4650,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2905,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9620
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:32:29.000000Z",
+ "updatedAt": "2026-09-11T16:07:14.000000Z"
+}

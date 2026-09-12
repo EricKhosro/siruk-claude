@@ -1,0 +1,44 @@
+{
+ "id": 462,
+ "name": "Brush, wood, natural bristles, 5 × 18 cm",
+ "slug": "trixie-brush-wood-natural-bristles-5-18-cm",
+ "category_ids": [
+  28
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 569,
+   "name": "5 × 18 cm",
+   "about_this_item": "<ul><li>natural bristles for gentle care</li><li>item 2326: light natural bristles, item 2327: dark natural bristles</li><li>wood</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "2326",
+   "price": 1450,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 905,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3554,
+    6317
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T07:13:09.000000Z",
+ "updatedAt": "2026-09-11T12:33:21.000000Z"
+}

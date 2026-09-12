@@ -1,0 +1,108 @@
+{
+ "id": 714,
+ "name": "Fresh Adult Dog Paté Chicken 100 g",
+ "slug": "monge-fresh-adult-dog-pat-chicken-100-g",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Wet Food",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 866,
+   "name": "Chicken 100 g",
+   "about_this_item": "<p>MONGE FRESH delicious pate with fresh chicken is a complete food developed to support your pet's well-being on a daily basis. The recipe contains no hydrogenated fats. The fluffy and tasty pate from the Fresh range is the ideal meal for small dogs and a treat for larger dogs. Monge Fresh is made in Italy, not tested on animals and has no artificial additives or colours.</p>",
+   "ingredient_information": "<p><strong>Composition:</strong> Meat and animal derivatives 80% (fresh chicken 10%), minerals.</p><p><strong>Analytical constituents:</strong> Crude protein 9,0%, crude fibres 0,5%, crude fat 7,0%, crude ash 1,2%. Moisture 82,0%.</p><p><strong>Additives:</strong> NUTRITIONAL ADDITIVES: Vitamin A (Retinyl Acetate) 3000 IU, Vitamin D3 400 IU, Vitamin E (all rac-alpha-tocopheryl-acetate) 15 mg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "013067",
+   "price": 550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 410,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 16,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    5288,
+    7375,
+    5291
+   ],
+   "attributes": {
+    "product-weight": "100 g",
+    "lifestage": "Adult",
+    "flavor": "Chicken",
+    "texture": "Pate",
+    "packaging": "Pouch",
+    "ingredient": "Chicken"
+   },
+   "attribute_values": [
+    {
+     "id": 2,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "100-g",
+     "label": "100 g"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 36,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "chicken",
+     "label": "Chicken"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "pate",
+     "label": "Pate"
+    },
+    {
+     "id": 148,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "pouch",
+     "label": "Pouch"
+    },
+    {
+     "id": 461,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Ingredient",
+     "value": "chicken",
+     "label": "Chicken"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 2,
+    "lifestage": 27,
+    "flavor": 36,
+    "texture": 138,
+    "packaging": 148,
+    "ingredient": 461
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T09:19:01.000000Z",
+ "updatedAt": "2026-09-11T12:53:20.000000Z"
+}

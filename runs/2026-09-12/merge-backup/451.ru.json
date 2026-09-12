@@ -1,0 +1,43 @@
+{
+ "id": 451,
+ "name": "Мягкая щётка, 9 × 15 см",
+ "slug": "trixie-soft-brush-9-15-cm",
+ "category_ids": [
+  28
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 558,
+   "name": "9 × 15 cm",
+   "about_this_item": "<ul><li>мягкие проволочные зубцы</li><li>бамбук</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "23023",
+   "price": 3150,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1965,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3500
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T07:09:00.000000Z",
+ "updatedAt": "2026-09-11T12:32:33.000000Z"
+}

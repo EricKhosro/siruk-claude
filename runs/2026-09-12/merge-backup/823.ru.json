@@ -1,0 +1,51 @@
+{
+ "id": 823,
+ "name": "Пластиковая миска для медленного кормления, 0,3 л/ø 16 см",
+ "slug": "trixie-slow-feeding-plastic-bowl-0-3-l-16-cm",
+ "category_ids": [
+  70
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 979,
+   "name": "0.3 l/ø 16 cm",
+   "about_this_item": "<ul><li>препятствует заглатыванию корма</li><li>подходит для всех видов корма</li><li>не скользит благодаря резиновому кольцу в основании</li><li>протестировано независимой экспертной организацией по защите и благополучию животных</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "25026",
+   "price": 1350,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 840,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8041,
+    8044,
+    8047,
+    8050,
+    8053,
+    8056,
+    8059,
+    8062,
+    8065
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T14:44:30.000000Z",
+ "updatedAt": "2026-09-11T16:00:24.000000Z"
+}

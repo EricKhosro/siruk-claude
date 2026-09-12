@@ -1,0 +1,43 @@
+{
+ "id": 934,
+ "name": "Comfort Soft шлейка, XXS–XS: 28–40 см/15 мм, фуксия",
+ "slug": "trixie-comfort-soft-harness-xxs-xs-28-40-cm-15-mm-fuchsia",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1092,
+   "name": "XXS–XS: 28–40 cm/15 mm, fuchsia",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "16258",
+   "price": 6200,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 3875,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9955
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:34:31.000000Z",
+ "updatedAt": "2026-09-11T16:07:48.000000Z"
+}

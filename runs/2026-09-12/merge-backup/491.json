@@ -1,0 +1,44 @@
+{
+ "id": 491,
+ "name": "Soft Brush, rubber handle, metal pins, 7 × 16 cm",
+ "slug": "trixie-soft-brush-rubber-handle-metal-pins-7-16-cm",
+ "category_ids": [
+  28
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 598,
+   "name": "7 × 16 cm",
+   "about_this_item": "<ul><li>soft wire bristles</li><li>plastic handle with rubber grip/metal</li></ul><p>Top Coat & Base Coat</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "24055",
+   "price": 2450,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1530,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3680,
+    6569
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T07:24:14.000000Z",
+ "updatedAt": "2026-09-11T12:35:26.000000Z"
+}

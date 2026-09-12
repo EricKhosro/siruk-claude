@@ -1,0 +1,43 @@
+{
+ "id": 905,
+ "name": "Гигиенические пелёнки-подгузники, 8 шт.",
+ "slug": "trixie-hygiene-pad-nappy-8-pcs",
+ "category_ids": [
+  76
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1063,
+   "name": "8 pcs.",
+   "about_this_item": "<ul><li>для приучения к туалету</li><li>можно также использовать в корзинах или лежаках при недержании</li><li>герметичный край не даёт влаге вытекать</li><li>из длинноволокнистой натуральной целлюлозы</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "23413",
+   "price": 410,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 255,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 8,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8855
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:25:42.000000Z",
+ "updatedAt": "2026-09-11T16:05:40.000000Z"
+}

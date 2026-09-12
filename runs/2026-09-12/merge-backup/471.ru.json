@@ -1,0 +1,43 @@
+{
+ "id": 471,
+ "name": "Мягкая щётка, 9 × 13 см",
+ "slug": "trixie-soft-brush-9-13-cm",
+ "category_ids": [
+  28
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 578,
+   "name": "9 × 13 cm",
+   "about_this_item": "<ul><li>с очистителем для щётки</li><li>мягкие проволочные зубцы</li><li>с деревянной ручкой/металл</li></ul><p>остевой волос и подшёрсток</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "2354",
+   "price": 1750,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1090,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3599
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T07:16:49.000000Z",
+ "updatedAt": "2026-09-11T12:34:00.000000Z"
+}

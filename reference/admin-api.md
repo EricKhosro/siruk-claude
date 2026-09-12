@@ -64,6 +64,16 @@ Exactly `fixed` or `per_kg`; anything else 422s.
   (found 2026-09-09, product 199): with empty `attribute_value_ids` everywhere,
   no selector renders and every `/dp/<id>` URL shows the default variant. The
   uniqueness guard does not fire on empty combinations (dev question).
+- The selector is built **per attribute**, not from the variant label: the page
+  renders one dropdown per attribute that any variant carries, listing that
+  attribute's values across the variants. A value MISSING on one variant
+  quietly drops it from that dropdown — product 874's second variant had no
+  `flavor` and was unreachable (fixed 2026-09-12). On an informational
+  attribute that is only cosmetic (713 shows "Ingredient: Chicken, Pork" plus
+  "See available options"); on the **axis** it hides stock. So when merging
+  sibling products, fill the axis on every variant
+  (`scripts/plan-product-merge.py` does, and `merge-products.py` refuses to
+  write a product whose variants share a combination).
 - Attributes are optional only on a single-variant product.
 
 ## Translations — `en` / `ru` / `hy` (verified 2026-09-10)
@@ -98,6 +108,13 @@ a throwaway attribute first and refuses on a regression. Bodies mirror the
 admin UI: attribute `{locale, name, code, is_variant, is_filterable}`; value
 `{locale, attribute_id, value, label, color_hex, sort_order, image}`; family
 `{locale, name, code, sortOrder, attribute_ids}`.
+
+**`set-translation.py` writes EVERY variant, so a sku left out of the file gets
+the English text written into that locale** — it does not leave the stored
+translation alone (found 2026-09-12: translating one variant of product 1016
+overwrote the Armenian texts of the other two). On a product that already has
+translations, put every sku in the file, taking the ones you are not changing
+from a `SIRUK_LANG=<lang> scripts/api.sh GET /products/<id>` first.
 
 Use `scripts/set-translation.py <id> <ru|hy> <translation.json>` for products
 — it copies every single-language field from the `en` record, refuses a file
@@ -228,7 +245,14 @@ drives the toy leaf category), 12 `material` (49), 13 `toy-feature` (35),
 15 `color-family` (24), **16 `toy-size`** (42, `isFilterable: false` — variant
 axis only, hidden from the sidebar; set the flag with the snake_case key
 `is_filterable` too or the PUT is a no-op), 17 `ingredient` (69),
-18 `product-form` (35), 19 `active-ingredient` (107). Values we had that Chewy
+18 `product-form` (35), 19 `active-ingredient` (107),
+**27 `pet-weight-range`** (7, added 2026-09-12 — the dose band printed on
+antiparasitic drops/tablets, `1–4 kg` … `10–25 kg`; filterable) and
+**28 `size`** (59, added 2026-09-12 — the accessory variant axis: letter sizes
+`XXS–XS` 702 … `XL` 713 for collars, harnesses, leads and apparel, and
+measurement strings `0.45 l/ø 19 cm`, `9 × 15 cm`, `4 × 20 bags` for bowls,
+brushes and packs; `isFilterable: false`, same call as `toy-size`, because the
+value set is deliberately mixed). Values we had that Chewy
 lacks were kept (Hypoallergenic, Monoprotein, Sterilised; Herring, Fish,
 Seabass…; Plush, Paper Cord, Cotton/Polyester; Massages Gums, With Bell…).
 Deleted 2026-09-10 on the user's ask: 10 `7015`/"test"; 14 (the first

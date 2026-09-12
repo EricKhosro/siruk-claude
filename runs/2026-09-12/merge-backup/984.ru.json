@@ -1,0 +1,44 @@
+{
+ "id": 984,
+ "name": "Premium ошейник, S–M, 30–45 см/15 мм, чёрный",
+ "slug": "trixie-premium-collar-s-m-30-45-cm-15-mm-black",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1142,
+   "name": "S–M, 30–45 cm/15 mm, black",
+   "about_this_item": "<ul><li>плавно регулируемая стропа</li><li>от размера S–M с пряжкой с разгрузкой от натяжения</li><li>протестировано независимой экспертной организацией по защите и благополучию животных</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "201501",
+   "price": 1450,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 905,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9149,
+    9155
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:47:17.000000Z",
+ "updatedAt": "2026-09-11T16:10:43.000000Z"
+}

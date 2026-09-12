@@ -1,0 +1,1935 @@
+{
+ "done": [
+  979,
+  815,
+  517,
+  659,
+  805,
+  829,
+  856,
+  860,
+  914,
+  943,
+  966,
+  973,
+  404,
+  432,
+  450,
+  491,
+  527,
+  629,
+  655,
+  763,
+  787,
+  800,
+  826,
+  839,
+  845,
+  909,
+  925,
+  931,
+  934,
+  941,
+  948,
+  957,
+  1012,
+  1016,
+  420,
+  430,
+  462,
+  470,
+  521,
+  530,
+  595,
+  608,
+  610,
+  663,
+  713,
+  727,
+  756,
+  758,
+  785,
+  796,
+  823,
+  833,
+  836,
+  848,
+  865,
+  866,
+  883,
+  891,
+  904,
+  907,
+  920,
+  929,
+  937,
+  952,
+  1010,
+  1020
+ ],
+ "idmap": [
+  {
+   "sku": "201401",
+   "old_product": 979,
+   "old_variant": 1137,
+   "new_product": 979,
+   "new_variant": 1137,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201402",
+   "old_product": 980,
+   "old_variant": 1138,
+   "new_product": 979,
+   "new_variant": 1195,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201403",
+   "old_product": 981,
+   "old_variant": 1139,
+   "new_product": 979,
+   "new_variant": 1196,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201411",
+   "old_product": 983,
+   "old_variant": 1141,
+   "new_product": 979,
+   "new_variant": 1197,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201501",
+   "old_product": 984,
+   "old_variant": 1142,
+   "new_product": 979,
+   "new_variant": 1198,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201502",
+   "old_product": 986,
+   "old_variant": 1144,
+   "new_product": 979,
+   "new_variant": 1199,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201503",
+   "old_product": 987,
+   "old_variant": 1145,
+   "new_product": 979,
+   "new_variant": 1200,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201511",
+   "old_product": 989,
+   "old_variant": 1147,
+   "new_product": 979,
+   "new_variant": 1201,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201601",
+   "old_product": 990,
+   "old_variant": 1148,
+   "new_product": 979,
+   "new_variant": 1202,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201602",
+   "old_product": 991,
+   "old_variant": 1149,
+   "new_product": 979,
+   "new_variant": 1203,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201603",
+   "old_product": 992,
+   "old_variant": 1150,
+   "new_product": 979,
+   "new_variant": 1204,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201633",
+   "old_product": 994,
+   "old_variant": 1152,
+   "new_product": 979,
+   "new_variant": 1205,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201701",
+   "old_product": 995,
+   "old_variant": 1153,
+   "new_product": 979,
+   "new_variant": 1206,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201702",
+   "old_product": 996,
+   "old_variant": 1154,
+   "new_product": 979,
+   "new_variant": 1207,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201703",
+   "old_product": 997,
+   "old_variant": 1155,
+   "new_product": 979,
+   "new_variant": 1208,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "201711",
+   "old_product": 998,
+   "old_variant": 1156,
+   "new_product": 979,
+   "new_variant": 1209,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "202101",
+   "old_product": 1002,
+   "old_variant": 1160,
+   "new_product": 979,
+   "new_variant": 1210,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "202102",
+   "old_product": 1003,
+   "old_variant": 1161,
+   "new_product": 979,
+   "new_variant": 1211,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "202103",
+   "old_product": 1004,
+   "old_variant": 1162,
+   "new_product": 979,
+   "new_variant": 1212,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "202202",
+   "old_product": 1005,
+   "old_variant": 1163,
+   "new_product": 979,
+   "new_variant": 1213,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "202203",
+   "old_product": 1007,
+   "old_variant": 1165,
+   "new_product": 979,
+   "new_variant": 1214,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "202211",
+   "old_product": 1008,
+   "old_variant": 1166,
+   "new_product": 979,
+   "new_variant": 1215,
+   "old_slug": null,
+   "new_slug": "trixie-premium-collar-979"
+  },
+  {
+   "sku": "24851",
+   "old_product": 815,
+   "old_variant": 971,
+   "new_product": 815,
+   "new_variant": 971,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-heavy-weight-815"
+  },
+  {
+   "sku": "24852",
+   "old_product": 816,
+   "old_variant": 972,
+   "new_product": 815,
+   "new_variant": 1216,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-heavy-weight-815"
+  },
+  {
+   "sku": "24853",
+   "old_product": 817,
+   "old_variant": 973,
+   "new_product": 815,
+   "new_variant": 1217,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-heavy-weight-815"
+  },
+  {
+   "sku": "24854",
+   "old_product": 818,
+   "old_variant": 974,
+   "new_product": 815,
+   "new_variant": 1218,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-heavy-weight-815"
+  },
+  {
+   "sku": "24855",
+   "old_product": 819,
+   "old_variant": 975,
+   "new_product": 815,
+   "new_variant": 1219,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-heavy-weight-815"
+  },
+  {
+   "sku": "31321",
+   "old_product": 517,
+   "old_variant": 625,
+   "new_product": 517,
+   "new_variant": 625,
+   "old_slug": null,
+   "new_slug": "trixie-knot-with-chicken"
+  },
+  {
+   "sku": "31322",
+   "old_product": 518,
+   "old_variant": 626,
+   "new_product": 517,
+   "new_variant": 1220,
+   "old_slug": null,
+   "new_slug": "trixie-knot-with-chicken"
+  },
+  {
+   "sku": "31323",
+   "old_product": 519,
+   "old_variant": 627,
+   "new_product": 517,
+   "new_variant": 1221,
+   "old_slug": null,
+   "new_slug": "trixie-knot-with-chicken"
+  },
+  {
+   "sku": "31324",
+   "old_product": 520,
+   "old_variant": 628,
+   "new_product": 517,
+   "new_variant": 1222,
+   "old_slug": null,
+   "new_slug": "trixie-knot-with-chicken"
+  },
+  {
+   "sku": "041587",
+   "old_product": 659,
+   "old_variant": 796,
+   "new_product": 659,
+   "new_variant": 796,
+   "old_slug": null,
+   "new_slug": "monge-gran-bonta-adult-dog-659"
+  },
+  {
+   "sku": "041537",
+   "old_product": 660,
+   "old_variant": 797,
+   "new_product": 659,
+   "new_variant": 1223,
+   "old_slug": null,
+   "new_slug": "monge-gran-bonta-adult-dog-659"
+  },
+  {
+   "sku": "041567",
+   "old_product": 661,
+   "old_variant": 798,
+   "new_product": 659,
+   "new_variant": 1224,
+   "old_slug": null,
+   "new_slug": "monge-gran-bonta-adult-dog-659"
+  },
+  {
+   "sku": "041577",
+   "old_product": 662,
+   "old_variant": 799,
+   "new_product": 659,
+   "new_variant": 1225,
+   "old_slug": null,
+   "new_slug": "monge-gran-bonta-adult-dog-659"
+  },
+  {
+   "sku": "201301",
+   "old_product": 805,
+   "old_variant": 961,
+   "new_product": 805,
+   "new_variant": 961,
+   "old_slug": null,
+   "new_slug": "trixie-premium-adjustable-lead-805"
+  },
+  {
+   "sku": "201303",
+   "old_product": 806,
+   "old_variant": 962,
+   "new_product": 805,
+   "new_variant": 1226,
+   "old_slug": null,
+   "new_slug": "trixie-premium-adjustable-lead-805"
+  },
+  {
+   "sku": "201311",
+   "old_product": 807,
+   "old_variant": 963,
+   "new_product": 805,
+   "new_variant": 1227,
+   "old_slug": null,
+   "new_slug": "trixie-premium-adjustable-lead-805"
+  },
+  {
+   "sku": "201316",
+   "old_product": 808,
+   "old_variant": 964,
+   "new_product": 805,
+   "new_variant": 1228,
+   "old_slug": null,
+   "new_slug": "trixie-premium-adjustable-lead-805"
+  },
+  {
+   "sku": "25141",
+   "old_product": 829,
+   "old_variant": 985,
+   "new_product": 829,
+   "new_variant": 985,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-with-rubber-base-829"
+  },
+  {
+   "sku": "25142",
+   "old_product": 830,
+   "old_variant": 986,
+   "new_product": 829,
+   "new_variant": 1229,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-with-rubber-base-829"
+  },
+  {
+   "sku": "25143",
+   "old_product": 831,
+   "old_variant": 987,
+   "new_product": 829,
+   "new_variant": 1230,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-with-rubber-base-829"
+  },
+  {
+   "sku": "25144",
+   "old_product": 832,
+   "old_variant": 988,
+   "new_product": 829,
+   "new_variant": 1231,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-with-rubber-base-829"
+  },
+  {
+   "sku": "17592",
+   "old_product": 856,
+   "old_variant": 1012,
+   "new_product": 856,
+   "new_variant": 1012,
+   "old_slug": null,
+   "new_slug": "trixie-poisoned-bait-protection-856"
+  },
+  {
+   "sku": "17593",
+   "old_product": 857,
+   "old_variant": 1013,
+   "new_product": 856,
+   "new_variant": 1232,
+   "old_slug": null,
+   "new_slug": "trixie-poisoned-bait-protection-856"
+  },
+  {
+   "sku": "17594",
+   "old_product": 858,
+   "old_variant": 1014,
+   "new_product": 856,
+   "new_variant": 1233,
+   "old_slug": null,
+   "new_slug": "trixie-poisoned-bait-protection-856"
+  },
+  {
+   "sku": "17596",
+   "old_product": 859,
+   "old_variant": 1015,
+   "new_product": 856,
+   "new_variant": 1234,
+   "old_slug": null,
+   "new_slug": "trixie-poisoned-bait-protection-856"
+  },
+  {
+   "sku": "19500",
+   "old_product": 860,
+   "old_variant": 1016,
+   "new_product": 860,
+   "new_variant": 1016,
+   "old_slug": null,
+   "new_slug": "trixie-dog-socks-860"
+  },
+  {
+   "sku": "19501",
+   "old_product": 861,
+   "old_variant": 1017,
+   "new_product": 860,
+   "new_variant": 1235,
+   "old_slug": null,
+   "new_slug": "trixie-dog-socks-860"
+  },
+  {
+   "sku": "19502",
+   "old_product": 862,
+   "old_variant": 1018,
+   "new_product": 860,
+   "new_variant": 1236,
+   "old_slug": null,
+   "new_slug": "trixie-dog-socks-860"
+  },
+  {
+   "sku": "19503",
+   "old_product": 863,
+   "old_variant": 1019,
+   "new_product": 860,
+   "new_variant": 1237,
+   "old_slug": null,
+   "new_slug": "trixie-dog-socks-860"
+  },
+  {
+   "sku": "1199216",
+   "old_product": 914,
+   "old_variant": 1072,
+   "new_product": 914,
+   "new_variant": 1072,
+   "old_slug": null,
+   "new_slug": "trixie-premium-reflect-collar-914"
+  },
+  {
+   "sku": "1199316",
+   "old_product": 915,
+   "old_variant": 1073,
+   "new_product": 914,
+   "new_variant": 1238,
+   "old_slug": null,
+   "new_slug": "trixie-premium-reflect-collar-914"
+  },
+  {
+   "sku": "1199416",
+   "old_product": 916,
+   "old_variant": 1074,
+   "new_product": 914,
+   "new_variant": 1239,
+   "old_slug": null,
+   "new_slug": "trixie-premium-reflect-collar-914"
+  },
+  {
+   "sku": "1199516",
+   "old_product": 917,
+   "old_variant": 1075,
+   "new_product": 914,
+   "new_variant": 1240,
+   "old_slug": null,
+   "new_slug": "trixie-premium-reflect-collar-914"
+  },
+  {
+   "sku": "19005",
+   "old_product": 943,
+   "old_variant": 1101,
+   "new_product": 943,
+   "new_variant": 1101,
+   "old_slug": null,
+   "new_slug": "trixie-greased-leather-collar-rustic-943"
+  },
+  {
+   "sku": "19006",
+   "old_product": 944,
+   "old_variant": 1102,
+   "new_product": 943,
+   "new_variant": 1241,
+   "old_slug": null,
+   "new_slug": "trixie-greased-leather-collar-rustic-943"
+  },
+  {
+   "sku": "19007",
+   "old_product": 945,
+   "old_variant": 1103,
+   "new_product": 943,
+   "new_variant": 1242,
+   "old_slug": null,
+   "new_slug": "trixie-greased-leather-collar-rustic-943"
+  },
+  {
+   "sku": "19008",
+   "old_product": 946,
+   "old_variant": 1104,
+   "new_product": 943,
+   "new_variant": 1243,
+   "old_slug": null,
+   "new_slug": "trixie-greased-leather-collar-rustic-943"
+  },
+  {
+   "sku": "1996934",
+   "old_product": 966,
+   "old_variant": 1124,
+   "new_product": 966,
+   "new_variant": 1124,
+   "old_slug": null,
+   "new_slug": "trixie-premium-trekking-harness-966"
+  },
+  {
+   "sku": "1997035",
+   "old_product": 968,
+   "old_variant": 1126,
+   "new_product": 966,
+   "new_variant": 1244,
+   "old_slug": null,
+   "new_slug": "trixie-premium-trekking-harness-966"
+  },
+  {
+   "sku": "1997129",
+   "old_product": 970,
+   "old_variant": 1128,
+   "new_product": 966,
+   "new_variant": 1245,
+   "old_slug": null,
+   "new_slug": "trixie-premium-trekking-harness-966"
+  },
+  {
+   "sku": "1997136",
+   "old_product": 972,
+   "old_variant": 1130,
+   "new_product": 966,
+   "new_variant": 1246,
+   "old_slug": null,
+   "new_slug": "trixie-premium-trekking-harness-966"
+  },
+  {
+   "sku": "1998219",
+   "old_product": 973,
+   "old_variant": 1131,
+   "new_product": 973,
+   "new_variant": 1131,
+   "old_slug": null,
+   "new_slug": "trixie-y-harness-973"
+  },
+  {
+   "sku": "1998301",
+   "old_product": 975,
+   "old_variant": 1133,
+   "new_product": 973,
+   "new_variant": 1247,
+   "old_slug": null,
+   "new_slug": "trixie-y-harness-973"
+  },
+  {
+   "sku": "1998413",
+   "old_product": 976,
+   "old_variant": 1134,
+   "new_product": 973,
+   "new_variant": 1248,
+   "old_slug": null,
+   "new_slug": "trixie-y-harness-973"
+  },
+  {
+   "sku": "1998603",
+   "old_product": 977,
+   "old_variant": 1135,
+   "new_product": 973,
+   "new_variant": 1249,
+   "old_slug": null,
+   "new_slug": "trixie-y-harness-973"
+  },
+  {
+   "sku": "3271",
+   "old_product": 404,
+   "old_variant": 511,
+   "new_product": 404,
+   "new_variant": 511,
+   "old_slug": null,
+   "new_slug": "trixie-playing-rope-404"
+  },
+  {
+   "sku": "3272",
+   "old_product": 405,
+   "old_variant": 512,
+   "new_product": 404,
+   "new_variant": 1250,
+   "old_slug": null,
+   "new_slug": "trixie-playing-rope-404"
+  },
+  {
+   "sku": "3273",
+   "old_product": 439,
+   "old_variant": 546,
+   "new_product": 404,
+   "new_variant": 1251,
+   "old_slug": null,
+   "new_slug": "trixie-playing-rope-404"
+  },
+  {
+   "sku": "40473",
+   "old_product": 432,
+   "old_variant": 539,
+   "new_product": 432,
+   "new_variant": 539,
+   "old_slug": null,
+   "new_slug": "trixie-litter-scoop-for-ultra-litter"
+  },
+  {
+   "sku": "4050",
+   "old_product": 436,
+   "old_variant": 543,
+   "new_product": 432,
+   "new_variant": 1252,
+   "old_slug": null,
+   "new_slug": "trixie-litter-scoop-for-ultra-litter"
+  },
+  {
+   "sku": "40534",
+   "old_product": 437,
+   "old_variant": 544,
+   "new_product": 432,
+   "new_variant": 1253,
+   "old_slug": null,
+   "new_slug": "trixie-litter-scoop-for-ultra-litter"
+  },
+  {
+   "sku": "23022",
+   "old_product": 450,
+   "old_variant": 557,
+   "new_product": 450,
+   "new_variant": 557,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-bamboo-450"
+  },
+  {
+   "sku": "23023",
+   "old_product": 451,
+   "old_variant": 558,
+   "new_product": 450,
+   "new_variant": 1254,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-bamboo-450"
+  },
+  {
+   "sku": "23024",
+   "old_product": 452,
+   "old_variant": 559,
+   "new_product": 450,
+   "new_variant": 1255,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-bamboo-450"
+  },
+  {
+   "sku": "24055",
+   "old_product": 491,
+   "old_variant": 598,
+   "new_product": 491,
+   "new_variant": 598,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-rubber-handle-491"
+  },
+  {
+   "sku": "24056",
+   "old_product": 492,
+   "old_variant": 599,
+   "new_product": 491,
+   "new_variant": 1256,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-rubber-handle-491"
+  },
+  {
+   "sku": "24057",
+   "old_product": 493,
+   "old_variant": 600,
+   "new_product": 491,
+   "new_variant": 1257,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-rubber-handle-491"
+  },
+  {
+   "sku": "31344",
+   "old_product": 527,
+   "old_variant": 635,
+   "new_product": 527,
+   "new_variant": 635,
+   "old_slug": null,
+   "new_slug": "trixie-bone-with-chicken"
+  },
+  {
+   "sku": "31343",
+   "old_product": 528,
+   "old_variant": 636,
+   "new_product": 527,
+   "new_variant": 1258,
+   "old_slug": null,
+   "new_slug": "trixie-bone-with-chicken"
+  },
+  {
+   "sku": "31345",
+   "old_product": 529,
+   "old_variant": 637,
+   "new_product": 527,
+   "new_variant": 1259,
+   "old_slug": null,
+   "new_slug": "trixie-bone-with-chicken"
+  },
+  {
+   "sku": "013637",
+   "old_product": 629,
+   "old_variant": 748,
+   "new_product": 629,
+   "new_variant": 748,
+   "old_slug": null,
+   "new_slug": "monge-grill-sterilised-cat-629"
+  },
+  {
+   "sku": "013647",
+   "old_product": 630,
+   "old_variant": 749,
+   "new_product": 629,
+   "new_variant": 1260,
+   "old_slug": null,
+   "new_slug": "monge-grill-sterilised-cat-629"
+  },
+  {
+   "sku": "013657",
+   "old_product": 631,
+   "old_variant": 750,
+   "new_product": 629,
+   "new_variant": 1261,
+   "old_slug": null,
+   "new_slug": "monge-grill-sterilised-cat-629"
+  },
+  {
+   "sku": "014467",
+   "old_product": 655,
+   "old_variant": 789,
+   "new_product": 655,
+   "new_variant": 789,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog"
+  },
+  {
+   "sku": "014477",
+   "old_product": 655,
+   "old_variant": 790,
+   "new_product": 655,
+   "new_variant": 790,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog"
+  },
+  {
+   "sku": "014567",
+   "old_product": 655,
+   "old_variant": 791,
+   "new_product": 655,
+   "new_variant": 791,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog"
+  },
+  {
+   "sku": "014577",
+   "old_product": 655,
+   "old_variant": 792,
+   "new_product": 655,
+   "new_variant": 792,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog"
+  },
+  {
+   "sku": "014457",
+   "old_product": 656,
+   "old_variant": 793,
+   "new_product": 655,
+   "new_variant": 1262,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog"
+  },
+  {
+   "sku": "014497",
+   "old_product": 657,
+   "old_variant": 794,
+   "new_product": 655,
+   "new_variant": 1263,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog"
+  },
+  {
+   "sku": "077982",
+   "old_product": 763,
+   "old_variant": 919,
+   "new_product": 763,
+   "new_variant": 919,
+   "old_slug": null,
+   "new_slug": "inspector-quadro-tabs-for-cats-and-dogs-763"
+  },
+  {
+   "sku": "077992",
+   "old_product": 764,
+   "old_variant": 920,
+   "new_product": 763,
+   "new_variant": 1264,
+   "old_slug": null,
+   "new_slug": "inspector-quadro-tabs-for-cats-and-dogs-763"
+  },
+  {
+   "sku": "078002",
+   "old_product": 765,
+   "old_variant": 921,
+   "new_product": 763,
+   "new_variant": 1265,
+   "old_slug": null,
+   "new_slug": "inspector-quadro-tabs-for-cats-and-dogs-763"
+  },
+  {
+   "sku": "791852",
+   "old_product": 787,
+   "old_variant": 943,
+   "new_product": 787,
+   "new_variant": 943,
+   "old_slug": null,
+   "new_slug": "insectal-combo-drops-for-dogs-787"
+  },
+  {
+   "sku": "791862",
+   "old_product": 788,
+   "old_variant": 944,
+   "new_product": 787,
+   "new_variant": 1266,
+   "old_slug": null,
+   "new_slug": "insectal-combo-drops-for-dogs-787"
+  },
+  {
+   "sku": "791872",
+   "old_product": 789,
+   "old_variant": 945,
+   "new_product": 787,
+   "new_variant": 1267,
+   "old_slug": null,
+   "new_slug": "insectal-combo-drops-for-dogs-787"
+  },
+  {
+   "sku": "17321",
+   "old_product": 800,
+   "old_variant": 956,
+   "new_product": 800,
+   "new_variant": 956,
+   "old_slug": null,
+   "new_slug": "trixie-be-nordic-bandana-collar-800"
+  },
+  {
+   "sku": "17333",
+   "old_product": 801,
+   "old_variant": 957,
+   "new_product": 800,
+   "new_variant": 1268,
+   "old_slug": null,
+   "new_slug": "trixie-be-nordic-bandana-collar-800"
+  },
+  {
+   "sku": "17335",
+   "old_product": 802,
+   "old_variant": 958,
+   "new_product": 800,
+   "new_variant": 1269,
+   "old_slug": null,
+   "new_slug": "trixie-be-nordic-bandana-collar-800"
+  },
+  {
+   "sku": "25071",
+   "old_product": 826,
+   "old_variant": 982,
+   "new_product": 826,
+   "new_variant": 982,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-non-slip-826"
+  },
+  {
+   "sku": "25073",
+   "old_product": 827,
+   "old_variant": 983,
+   "new_product": 826,
+   "new_variant": 1270,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-non-slip-826"
+  },
+  {
+   "sku": "25074",
+   "old_product": 828,
+   "old_variant": 984,
+   "new_product": 826,
+   "new_variant": 1271,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-non-slip-826"
+  },
+  {
+   "sku": "25243",
+   "old_product": 839,
+   "old_variant": 995,
+   "new_product": 839,
+   "new_variant": 995,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-with-paw-prints-and-rubber-base-839"
+  },
+  {
+   "sku": "25244",
+   "old_product": 840,
+   "old_variant": 996,
+   "new_product": 839,
+   "new_variant": 1272,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-with-paw-prints-and-rubber-base-839"
+  },
+  {
+   "sku": "25245",
+   "old_product": 841,
+   "old_variant": 997,
+   "new_product": 839,
+   "new_variant": 1273,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-with-paw-prints-and-rubber-base-839"
+  },
+  {
+   "sku": "25271",
+   "old_product": 845,
+   "old_variant": 1001,
+   "new_product": 845,
+   "new_variant": 1001,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-varnished-845"
+  },
+  {
+   "sku": "25272",
+   "old_product": 846,
+   "old_variant": 1002,
+   "new_product": 845,
+   "new_variant": 1274,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-varnished-845"
+  },
+  {
+   "sku": "25273",
+   "old_product": 847,
+   "old_variant": 1003,
+   "new_product": 845,
+   "new_variant": 1275,
+   "old_slug": null,
+   "new_slug": "trixie-stainless-steel-bowl-varnished-845"
+  },
+  {
+   "sku": "23641",
+   "old_product": 909,
+   "old_variant": 1067,
+   "new_product": 909,
+   "new_variant": 1067,
+   "old_slug": null,
+   "new_slug": "trixie-diapers-for-male-dogs-909"
+  },
+  {
+   "sku": "23642",
+   "old_product": 910,
+   "old_variant": 1068,
+   "new_product": 909,
+   "new_variant": 1276,
+   "old_slug": null,
+   "new_slug": "trixie-diapers-for-male-dogs-909"
+  },
+  {
+   "sku": "23643",
+   "old_product": 911,
+   "old_variant": 1069,
+   "new_product": 909,
+   "new_variant": 1277,
+   "old_slug": null,
+   "new_slug": "trixie-diapers-for-male-dogs-909"
+  },
+  {
+   "sku": "13062",
+   "old_product": 925,
+   "old_variant": 1083,
+   "new_product": 925,
+   "new_variant": 1083,
+   "old_slug": null,
+   "new_slug": "trixie-flash-light-collar-nylon-925"
+  },
+  {
+   "sku": "13063",
+   "old_product": 926,
+   "old_variant": 1084,
+   "new_product": 925,
+   "new_variant": 1278,
+   "old_slug": null,
+   "new_slug": "trixie-flash-light-collar-nylon-925"
+  },
+  {
+   "sku": "13064",
+   "old_product": 927,
+   "old_variant": 1085,
+   "new_product": 925,
+   "new_variant": 1279,
+   "old_slug": null,
+   "new_slug": "trixie-flash-light-collar-nylon-925"
+  },
+  {
+   "sku": "14011",
+   "old_product": 931,
+   "old_variant": 1089,
+   "new_product": 931,
+   "new_variant": 1089,
+   "old_slug": null,
+   "new_slug": "trixie-chain-lead-with-neoprene-hand-loop-931"
+  },
+  {
+   "sku": "14023",
+   "old_product": 932,
+   "old_variant": 1090,
+   "new_product": 931,
+   "new_variant": 1280,
+   "old_slug": null,
+   "new_slug": "trixie-chain-lead-with-neoprene-hand-loop-931"
+  },
+  {
+   "sku": "14031",
+   "old_product": 933,
+   "old_variant": 1091,
+   "new_product": 931,
+   "new_variant": 1281,
+   "old_slug": null,
+   "new_slug": "trixie-chain-lead-with-neoprene-hand-loop-931"
+  },
+  {
+   "sku": "16258",
+   "old_product": 934,
+   "old_variant": 1092,
+   "new_product": 934,
+   "new_variant": 1092,
+   "old_slug": null,
+   "new_slug": "trixie-comfort-soft-harness-934"
+  },
+  {
+   "sku": "162735",
+   "old_product": 935,
+   "old_variant": 1093,
+   "new_product": 934,
+   "new_variant": 1282,
+   "old_slug": null,
+   "new_slug": "trixie-comfort-soft-harness-934"
+  },
+  {
+   "sku": "16281",
+   "old_product": 936,
+   "old_variant": 1094,
+   "new_product": 934,
+   "new_variant": 1283,
+   "old_slug": null,
+   "new_slug": "trixie-comfort-soft-harness-934"
+  },
+  {
+   "sku": "18984",
+   "old_product": 941,
+   "old_variant": 1099,
+   "new_product": 941,
+   "new_variant": 1099,
+   "old_slug": null,
+   "new_slug": "trixie-greased-leather-collar-rustic-heartbeat-941"
+  },
+  {
+   "sku": "18985",
+   "old_product": 942,
+   "old_variant": 1100,
+   "new_product": 941,
+   "new_variant": 1284,
+   "old_slug": null,
+   "new_slug": "trixie-greased-leather-collar-rustic-heartbeat-941"
+  },
+  {
+   "sku": "19015",
+   "old_product": 947,
+   "old_variant": 1105,
+   "new_product": 941,
+   "new_variant": 1285,
+   "old_slug": null,
+   "new_slug": "trixie-greased-leather-collar-rustic-heartbeat-941"
+  },
+  {
+   "sku": "19021",
+   "old_product": 948,
+   "old_variant": 1106,
+   "new_product": 948,
+   "new_variant": 1106,
+   "old_slug": null,
+   "new_slug": "trixie-active-comfort-leather-collar-with-rhinestones-948"
+  },
+  {
+   "sku": "19030",
+   "old_product": 949,
+   "old_variant": 1107,
+   "new_product": 948,
+   "new_variant": 1286,
+   "old_slug": null,
+   "new_slug": "trixie-active-comfort-leather-collar-with-rhinestones-948"
+  },
+  {
+   "sku": "19033",
+   "old_product": 950,
+   "old_variant": 1108,
+   "new_product": 948,
+   "new_variant": 1287,
+   "old_slug": null,
+   "new_slug": "trixie-active-comfort-leather-collar-with-rhinestones-948"
+  },
+  {
+   "sku": "1984001",
+   "old_product": 957,
+   "old_variant": 1115,
+   "new_product": 957,
+   "new_variant": 1115,
+   "old_slug": null,
+   "new_slug": "trixie-soft-rope-lead-957"
+  },
+  {
+   "sku": "1984003",
+   "old_product": 958,
+   "old_variant": 1116,
+   "new_product": 957,
+   "new_variant": 1288,
+   "old_slug": null,
+   "new_slug": "trixie-soft-rope-lead-957"
+  },
+  {
+   "sku": "1985001",
+   "old_product": 959,
+   "old_variant": 1117,
+   "new_product": 957,
+   "new_variant": 1289,
+   "old_slug": null,
+   "new_slug": "trixie-soft-rope-lead-957"
+  },
+  {
+   "sku": "202720",
+   "old_product": 1012,
+   "old_variant": 1170,
+   "new_product": 1012,
+   "new_variant": 1170,
+   "old_slug": null,
+   "new_slug": "trixie-semi-choke-collar-with-nylon-chain-1012"
+  },
+  {
+   "sku": "202802",
+   "old_product": 1013,
+   "old_variant": 1171,
+   "new_product": 1012,
+   "new_variant": 1290,
+   "old_slug": null,
+   "new_slug": "trixie-semi-choke-collar-with-nylon-chain-1012"
+  },
+  {
+   "sku": "202816",
+   "old_product": 1014,
+   "old_variant": 1172,
+   "new_product": 1012,
+   "new_variant": 1291,
+   "old_slug": null,
+   "new_slug": "trixie-semi-choke-collar-with-nylon-chain-1012"
+  },
+  {
+   "sku": "203632",
+   "old_product": 1016,
+   "old_variant": 1174,
+   "new_product": 1016,
+   "new_variant": 1174,
+   "old_slug": null,
+   "new_slug": "trixie-premium-touring-harness-1016"
+  },
+  {
+   "sku": "203736",
+   "old_product": 1017,
+   "old_variant": 1175,
+   "new_product": 1016,
+   "new_variant": 1292,
+   "old_slug": null,
+   "new_slug": "trixie-premium-touring-harness-1016"
+  },
+  {
+   "sku": "204102",
+   "old_product": 1019,
+   "old_variant": 1177,
+   "new_product": 1016,
+   "new_variant": 1293,
+   "old_slug": null,
+   "new_slug": "trixie-premium-touring-harness-1016"
+  },
+  {
+   "sku": "35031",
+   "old_product": 420,
+   "old_variant": 527,
+   "new_product": 420,
+   "new_variant": 527,
+   "old_slug": null,
+   "new_slug": "trixie-longie-latex-polyester-fleece-420"
+  },
+  {
+   "sku": "35061",
+   "old_product": 446,
+   "old_variant": 553,
+   "new_product": 420,
+   "new_variant": 1294,
+   "old_slug": null,
+   "new_slug": "trixie-longie-latex-polyester-fleece-420"
+  },
+  {
+   "sku": "4045",
+   "old_product": 430,
+   "old_variant": 537,
+   "new_product": 430,
+   "new_variant": 537,
+   "old_slug": null,
+   "new_slug": "trixie-scoop-for-feed-or-litter"
+  },
+  {
+   "sku": "4046",
+   "old_product": 431,
+   "old_variant": 538,
+   "new_product": 430,
+   "new_variant": 1295,
+   "old_slug": null,
+   "new_slug": "trixie-scoop-for-feed-or-litter"
+  },
+  {
+   "sku": "2326",
+   "old_product": 462,
+   "old_variant": 569,
+   "new_product": 462,
+   "new_variant": 569,
+   "old_slug": null,
+   "new_slug": "trixie-brush-wood-natural-bristles-462"
+  },
+  {
+   "sku": "2327",
+   "old_product": 463,
+   "old_variant": 570,
+   "new_product": 462,
+   "new_variant": 1296,
+   "old_slug": null,
+   "new_slug": "trixie-brush-wood-natural-bristles-462"
+  },
+  {
+   "sku": "2353",
+   "old_product": 470,
+   "old_variant": 577,
+   "new_product": 470,
+   "new_variant": 577,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-with-brush-cleaner-wooden-handle-470"
+  },
+  {
+   "sku": "2354",
+   "old_product": 471,
+   "old_variant": 578,
+   "new_product": 470,
+   "new_variant": 1297,
+   "old_slug": null,
+   "new_slug": "trixie-soft-brush-with-brush-cleaner-wooden-handle-470"
+  },
+  {
+   "sku": "31327",
+   "old_product": 521,
+   "old_variant": 629,
+   "new_product": 521,
+   "new_variant": 629,
+   "old_slug": null,
+   "new_slug": "trixie-rolls-with-chicken"
+  },
+  {
+   "sku": "31346",
+   "old_product": 522,
+   "old_variant": 630,
+   "new_product": 521,
+   "new_variant": 1298,
+   "old_slug": null,
+   "new_slug": "trixie-rolls-with-chicken"
+  },
+  {
+   "sku": "31371",
+   "old_product": 530,
+   "old_variant": 638,
+   "new_product": 530,
+   "new_variant": 638,
+   "old_slug": null,
+   "new_slug": "trixie-rolls-with-duck"
+  },
+  {
+   "sku": "31347",
+   "old_product": 531,
+   "old_variant": 639,
+   "new_product": 530,
+   "new_variant": 1299,
+   "old_slug": null,
+   "new_slug": "trixie-rolls-with-duck"
+  },
+  {
+   "sku": "4237",
+   "old_product": 595,
+   "old_variant": 703,
+   "new_product": 595,
+   "new_variant": 703,
+   "old_slug": null,
+   "new_slug": "trixie-simplenclean-deodorising-spray-595"
+  },
+  {
+   "sku": "42407",
+   "old_product": 596,
+   "old_variant": 704,
+   "new_product": 595,
+   "new_variant": 1300,
+   "old_slug": null,
+   "new_slug": "trixie-simplenclean-deodorising-spray-595"
+  },
+  {
+   "sku": "23571",
+   "old_product": 608,
+   "old_variant": 716,
+   "new_product": 608,
+   "new_variant": 716,
+   "old_slug": null,
+   "new_slug": "trixie-bathrobe-608"
+  },
+  {
+   "sku": "23572",
+   "old_product": 609,
+   "old_variant": 717,
+   "new_product": 608,
+   "new_variant": 1301,
+   "old_slug": null,
+   "new_slug": "trixie-bathrobe-608"
+  },
+  {
+   "sku": "2549",
+   "old_product": 610,
+   "old_variant": 718,
+   "new_product": 610,
+   "new_variant": 718,
+   "old_slug": null,
+   "new_slug": "trixie-toothpaste-610"
+  },
+  {
+   "sku": "2557",
+   "old_product": 611,
+   "old_variant": 719,
+   "new_product": 610,
+   "new_variant": 1302,
+   "old_slug": null,
+   "new_slug": "trixie-toothpaste-610"
+  },
+  {
+   "sku": "041787",
+   "old_product": 663,
+   "old_variant": 800,
+   "new_product": 663,
+   "new_variant": 800,
+   "old_slug": null,
+   "new_slug": "monge-gran-bonta-chef-adult-dog-663"
+  },
+  {
+   "sku": "041887",
+   "old_product": 664,
+   "old_variant": 801,
+   "new_product": 663,
+   "new_variant": 1303,
+   "old_slug": null,
+   "new_slug": "monge-gran-bonta-chef-adult-dog-663"
+  },
+  {
+   "sku": "013017",
+   "old_product": 713,
+   "old_variant": 862,
+   "new_product": 713,
+   "new_variant": 862,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog-pat"
+  },
+  {
+   "sku": "013037",
+   "old_product": 713,
+   "old_variant": 863,
+   "new_product": 713,
+   "new_variant": 863,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog-pat"
+  },
+  {
+   "sku": "013097",
+   "old_product": 713,
+   "old_variant": 864,
+   "new_product": 713,
+   "new_variant": 864,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog-pat"
+  },
+  {
+   "sku": "013107",
+   "old_product": 713,
+   "old_variant": 865,
+   "new_product": 713,
+   "new_variant": 865,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog-pat"
+  },
+  {
+   "sku": "013067",
+   "old_product": 714,
+   "old_variant": 866,
+   "new_product": 713,
+   "new_variant": 1304,
+   "old_slug": null,
+   "new_slug": "monge-fresh-adult-dog-pat"
+  },
+  {
+   "sku": "142565",
+   "old_product": 727,
+   "old_variant": 879,
+   "new_product": 727,
+   "new_variant": 879,
+   "old_slug": null,
+   "new_slug": "club-4-paws-premium-adult-cat"
+  },
+  {
+   "sku": "142525",
+   "old_product": 727,
+   "old_variant": 880,
+   "new_product": 727,
+   "new_variant": 880,
+   "old_slug": null,
+   "new_slug": "club-4-paws-premium-adult-cat"
+  },
+  {
+   "sku": "142505",
+   "old_product": 727,
+   "old_variant": 881,
+   "new_product": 727,
+   "new_variant": 881,
+   "old_slug": null,
+   "new_slug": "club-4-paws-premium-adult-cat"
+  },
+  {
+   "sku": "142515",
+   "old_product": 727,
+   "old_variant": 882,
+   "new_product": 727,
+   "new_variant": 882,
+   "old_slug": null,
+   "new_slug": "club-4-paws-premium-adult-cat"
+  },
+  {
+   "sku": "142495",
+   "old_product": 727,
+   "old_variant": 883,
+   "new_product": 727,
+   "new_variant": 883,
+   "old_slug": null,
+   "new_slug": "club-4-paws-premium-adult-cat"
+  },
+  {
+   "sku": "143015",
+   "old_product": 728,
+   "old_variant": 884,
+   "new_product": 727,
+   "new_variant": 1305,
+   "old_slug": null,
+   "new_slug": "club-4-paws-premium-adult-cat"
+  },
+  {
+   "sku": "077562",
+   "old_product": 756,
+   "old_variant": 912,
+   "new_product": 756,
+   "new_variant": 912,
+   "old_slug": null,
+   "new_slug": "inspector-quadro-drops-for-cats-756"
+  },
+  {
+   "sku": "077572",
+   "old_product": 757,
+   "old_variant": 913,
+   "new_product": 756,
+   "new_variant": 1306,
+   "old_slug": null,
+   "new_slug": "inspector-quadro-drops-for-cats-756"
+  },
+  {
+   "sku": "077592",
+   "old_product": 758,
+   "old_variant": 914,
+   "new_product": 758,
+   "new_variant": 914,
+   "old_slug": null,
+   "new_slug": "inspector-quadro-drops-for-dogs-758"
+  },
+  {
+   "sku": "077602",
+   "old_product": 759,
+   "old_variant": 915,
+   "new_product": 758,
+   "new_variant": 1307,
+   "old_slug": null,
+   "new_slug": "inspector-quadro-drops-for-dogs-758"
+  },
+  {
+   "sku": "791832",
+   "old_product": 785,
+   "old_variant": 941,
+   "new_product": 785,
+   "new_variant": 941,
+   "old_slug": null,
+   "new_slug": "insectal-combo-drops-for-cats-785"
+  },
+  {
+   "sku": "791842",
+   "old_product": 786,
+   "old_variant": 942,
+   "new_product": 785,
+   "new_variant": 1308,
+   "old_slug": null,
+   "new_slug": "insectal-combo-drops-for-cats-785"
+  },
+  {
+   "sku": "1101413",
+   "old_product": 796,
+   "old_variant": 952,
+   "new_product": 796,
+   "new_variant": 952,
+   "old_slug": null,
+   "new_slug": "ok-lock-smart-clumping-plant-based-cat-litter-796"
+  },
+  {
+   "sku": "1101213",
+   "old_product": 797,
+   "old_variant": 953,
+   "new_product": 796,
+   "new_variant": 1309,
+   "old_slug": null,
+   "new_slug": "ok-lock-smart-clumping-plant-based-cat-litter-796"
+  },
+  {
+   "sku": "25026",
+   "old_product": 823,
+   "old_variant": 979,
+   "new_product": 823,
+   "new_variant": 979,
+   "old_slug": null,
+   "new_slug": "trixie-slow-feeding-plastic-bowl-823"
+  },
+  {
+   "sku": "25028",
+   "old_product": 824,
+   "old_variant": 980,
+   "new_product": 823,
+   "new_variant": 1310,
+   "old_slug": null,
+   "new_slug": "trixie-slow-feeding-plastic-bowl-823"
+  },
+  {
+   "sku": "25180",
+   "old_product": 833,
+   "old_variant": 989,
+   "new_product": 833,
+   "new_variant": 989,
+   "old_slug": null,
+   "new_slug": "trixie-melamine-bowl-with-rubber-base-833"
+  },
+  {
+   "sku": "25189",
+   "old_product": 834,
+   "old_variant": 990,
+   "new_product": 833,
+   "new_variant": 1311,
+   "old_slug": null,
+   "new_slug": "trixie-melamine-bowl-with-rubber-base-833"
+  },
+  {
+   "sku": "25212",
+   "old_product": 836,
+   "old_variant": 992,
+   "new_product": 836,
+   "new_variant": 992,
+   "old_slug": null,
+   "new_slug": "trixie-bowl-enamel-stainless-steel-836"
+  },
+  {
+   "sku": "25213",
+   "old_product": 837,
+   "old_variant": 993,
+   "new_product": 836,
+   "new_variant": 1312,
+   "old_slug": null,
+   "new_slug": "trixie-bowl-enamel-stainless-steel-836"
+  },
+  {
+   "sku": "2278",
+   "old_product": 848,
+   "old_variant": 1004,
+   "new_product": 848,
+   "new_variant": 1004,
+   "old_slug": null,
+   "new_slug": "trixie-i-d-tag-848"
+  },
+  {
+   "sku": "2280",
+   "old_product": 849,
+   "old_variant": 1005,
+   "new_product": 848,
+   "new_variant": 1313,
+   "old_slug": null,
+   "new_slug": "trixie-i-d-tag-848"
+  },
+  {
+   "sku": "22839",
+   "old_product": 865,
+   "old_variant": 1021,
+   "new_product": 865,
+   "new_variant": 1021,
+   "old_slug": null,
+   "new_slug": "trixie-dog-poop-bags-with-scent-865"
+  },
+  {
+   "sku": "23475",
+   "old_product": 889,
+   "old_variant": 1047,
+   "new_product": 865,
+   "new_variant": 1314,
+   "old_slug": null,
+   "new_slug": "trixie-dog-poop-bags-with-scent-865"
+  },
+  {
+   "sku": "22840",
+   "old_product": 866,
+   "old_variant": 1022,
+   "new_product": 866,
+   "new_variant": 1022,
+   "old_slug": null,
+   "new_slug": "trixie-dog-poop-bags-866"
+  },
+  {
+   "sku": "22844",
+   "old_product": 867,
+   "old_variant": 1023,
+   "new_product": 866,
+   "new_variant": 1315,
+   "old_slug": null,
+   "new_slug": "trixie-dog-poop-bags-866"
+  },
+  {
+   "sku": "23241",
+   "old_product": 883,
+   "old_variant": 1041,
+   "new_product": 883,
+   "new_variant": 1041,
+   "old_slug": null,
+   "new_slug": "trixie-protective-pants-mesh-883"
+  },
+  {
+   "sku": "23242",
+   "old_product": 884,
+   "old_variant": 1042,
+   "new_product": 883,
+   "new_variant": 1316,
+   "old_slug": null,
+   "new_slug": "trixie-protective-pants-mesh-883"
+  },
+  {
+   "sku": "23496",
+   "old_product": 891,
+   "old_variant": 1049,
+   "new_product": 891,
+   "new_variant": 1049,
+   "old_slug": null,
+   "new_slug": "trixie-pads-for-protective-pants-891"
+  },
+  {
+   "sku": "23497",
+   "old_product": 892,
+   "old_variant": 1050,
+   "new_product": 891,
+   "new_variant": 1317,
+   "old_slug": null,
+   "new_slug": "trixie-pads-for-protective-pants-891"
+  },
+  {
+   "sku": "23410",
+   "old_product": 904,
+   "old_variant": 1062,
+   "new_product": 904,
+   "new_variant": 1062,
+   "old_slug": null,
+   "new_slug": "trixie-hygiene-pad-nappy-904"
+  },
+  {
+   "sku": "23413",
+   "old_product": 905,
+   "old_variant": 1063,
+   "new_product": 904,
+   "new_variant": 1318,
+   "old_slug": null,
+   "new_slug": "trixie-hygiene-pad-nappy-904"
+  },
+  {
+   "sku": "23631",
+   "old_product": 907,
+   "old_variant": 1065,
+   "new_product": 907,
+   "new_variant": 1065,
+   "old_slug": null,
+   "new_slug": "trixie-diapers-for-female-dogs-907"
+  },
+  {
+   "sku": "23634",
+   "old_product": 908,
+   "old_variant": 1066,
+   "new_product": 907,
+   "new_variant": 1319,
+   "old_slug": null,
+   "new_slug": "trixie-diapers-for-female-dogs-907"
+  },
+  {
+   "sku": "12222",
+   "old_product": 920,
+   "old_variant": 1078,
+   "new_product": 920,
+   "new_variant": 1078,
+   "old_slug": null,
+   "new_slug": "trixie-silver-reflect-collar-920"
+  },
+  {
+   "sku": "12223",
+   "old_product": 921,
+   "old_variant": 1079,
+   "new_product": 920,
+   "new_variant": 1320,
+   "old_slug": null,
+   "new_slug": "trixie-silver-reflect-collar-920"
+  },
+  {
+   "sku": "13314",
+   "old_product": 929,
+   "old_variant": 1087,
+   "new_product": 929,
+   "new_variant": 1087,
+   "old_slug": null,
+   "new_slug": "trixie-easy-flash-usb-light-collar-silicone-929"
+  },
+  {
+   "sku": "13319",
+   "old_product": 930,
+   "old_variant": 1088,
+   "new_product": 929,
+   "new_variant": 1321,
+   "old_slug": null,
+   "new_slug": "trixie-easy-flash-usb-light-collar-silicone-929"
+  },
+  {
+   "sku": "17501",
+   "old_product": 937,
+   "old_variant": 1095,
+   "new_product": 937,
+   "new_variant": 1095,
+   "old_slug": null,
+   "new_slug": "trixie-be-nordic-leather-collar-with-metal-buckle-937"
+  },
+  {
+   "sku": "17531",
+   "old_product": 939,
+   "old_variant": 1097,
+   "new_product": 937,
+   "new_variant": 1322,
+   "old_slug": null,
+   "new_slug": "trixie-be-nordic-leather-collar-with-metal-buckle-937"
+  },
+  {
+   "sku": "1971601",
+   "old_product": 952,
+   "old_variant": 1110,
+   "new_product": 952,
+   "new_variant": 1110,
+   "old_slug": null,
+   "new_slug": "trixie-citystyle-collar-952"
+  },
+  {
+   "sku": "1971901",
+   "old_product": 953,
+   "old_variant": 1111,
+   "new_product": 952,
+   "new_variant": 1323,
+   "old_slug": null,
+   "new_slug": "trixie-citystyle-collar-952"
+  },
+  {
+   "sku": "202701",
+   "old_product": 1010,
+   "old_variant": 1168,
+   "new_product": 1010,
+   "new_variant": 1168,
+   "old_slug": null,
+   "new_slug": "trixie-premium-semi-choke-collar-1010"
+  },
+  {
+   "sku": "202703",
+   "old_product": 1011,
+   "old_variant": 1169,
+   "new_product": 1010,
+   "new_variant": 1324,
+   "old_slug": null,
+   "new_slug": "trixie-premium-semi-choke-collar-1010"
+  },
+  {
+   "sku": "2154",
+   "old_product": 1020,
+   "old_variant": 1178,
+   "new_product": 1020,
+   "new_variant": 1178,
+   "old_slug": null,
+   "new_slug": "trixie-chain-collar-chrome-plated-1020"
+  },
+  {
+   "sku": "2155",
+   "old_product": 1022,
+   "old_variant": 1180,
+   "new_product": 1020,
+   "new_variant": 1325,
+   "old_slug": null,
+   "new_slug": "trixie-chain-collar-chrome-plated-1020"
+  }
+ ]
+}

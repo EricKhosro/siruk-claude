@@ -1,0 +1,79 @@
+{
+ "id": 420,
+ "name": "Animals, latex, 18 cm",
+ "slug": "trixie-animals-latex-18-cm",
+ "category_ids": [
+  18
+ ],
+ "brand_id": 8,
+ "attribute_family_id": 5,
+ "attribute_family_name": "Toys",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 527,
+   "name": "18 cm",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "35031",
+   "price": 2100,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1310,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 9,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9455,
+    7810,
+    7813,
+    7816
+   ],
+   "attributes": {
+    "toy-type": "Latex & Rubber",
+    "material": "Latex",
+    "toy-size": "18 cm"
+   },
+   "attribute_values": [
+    {
+     "id": 193,
+     "attribute_id": 11,
+     "attribute_code": "toy-type",
+     "attribute_name": "Toy Type",
+     "value": "Latex & Rubber",
+     "label": "Latex & Rubber"
+    },
+    {
+     "id": 203,
+     "attribute_id": 12,
+     "attribute_code": "material",
+     "attribute_name": "Material",
+     "value": "Latex",
+     "label": "Latex"
+    },
+    {
+     "id": 367,
+     "attribute_id": 16,
+     "attribute_code": "toy-size",
+     "attribute_name": "Toy Size",
+     "value": "18-cm",
+     "label": "18 cm"
+    }
+   ],
+   "attribute_value_ids": {
+    "toy-type": 193,
+    "material": 203,
+    "toy-size": 367
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T06:57:59.000000Z",
+ "updatedAt": "2026-09-11T12:30:08.000000Z"
+}

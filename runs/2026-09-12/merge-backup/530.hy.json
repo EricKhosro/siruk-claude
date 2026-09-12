@@ -1,0 +1,69 @@
+{
+ "id": 530,
+ "name": "Ռուլետիկներ բադով",
+ "slug": "trixie-rolls-with-duck",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 8,
+ "attribute_family_id": 3,
+ "attribute_family_name": "Հյուրասիրություններ",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 638,
+   "name": "10 pcs./80 g",
+   "about_this_item": "<ul><li>հում կաշի՝ փաթաթված բադի մսով</li><li>#31395 0 % ավելացված շաքար</li><li>փաթեթավորված</li></ul>",
+   "ingredient_information": "<p><strong>Բաղադրություն:</strong> հում կաշի, բադի միս (23 %), եգիպտացորենի օսլա, գլիցերին, սորբիտ, առանց գլյուտենի բաղադրություն, Պահել զով և չոր տեղում.</p><p><strong>Անալիտիկ բաղադրիչներ:</strong> Ճարպեր 3 %, Խոնավություն 16.0 %, Սպիտակուց 72 %, Հում մոխիր 3 %, Հում բջջանյութ 1 %</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "31371",
+   "price": 1850,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1155,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3953,
+    3956,
+    3959,
+    3962
+   ],
+   "attributes": {
+    "product-weight": "80 գ",
+    "flavor": "Բադ"
+   },
+   "attribute_values": [
+    {
+     "id": 158,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Փաթեթի քաշ",
+     "value": "80-g",
+     "label": "80 գ"
+    },
+    {
+     "id": 42,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Համ",
+     "value": "duck",
+     "label": "Բադ"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 158,
+    "flavor": 42
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T07:44:05.000000Z",
+ "updatedAt": "2026-09-11T12:38:17.000000Z"
+}

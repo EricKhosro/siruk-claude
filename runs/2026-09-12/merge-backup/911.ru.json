@@ -1,0 +1,45 @@
+{
+ "id": 911,
+ "name": "Подгузники для кобелей, L–XL, 12 шт.",
+ "slug": "trixie-diapers-for-male-dogs-l-xl-12-pcs",
+ "category_ids": [
+  76
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1069,
+   "name": "L–XL, 12 pcs.",
+   "about_this_item": "<ul><li>гигиена при недержании и после операций</li><li>хорошая посадка благодаря эластичной резинке и липким застёжкам</li><li>содержимое: 12 шт.</li><li>нетканый материал (полиэстер)</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "23643",
+   "price": 450,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 280,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 12,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8933,
+    8924,
+    8927
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:28:50.000000Z",
+ "updatedAt": "2026-09-11T16:06:01.000000Z"
+}

@@ -1,0 +1,49 @@
+{
+ "id": 609,
+ "name": "Bathrobe, S, grey",
+ "slug": "trixie-bathrobe-s-grey",
+ "category_ids": [
+  30
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 717,
+   "name": "S, grey",
+   "about_this_item": "<ul><li>terry cloth (100% cotton)</li><li>protects the dog from getting cold</li><li>wide collar, adjustable with elastic drawstring</li><li>with bib and continuously adjustable belly strap with buckle</li><li>with press studs in tail area for easy putting on</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "23572",
+   "price": 9050,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 5655,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    4454,
+    4457,
+    4472,
+    4466,
+    7198,
+    7201,
+    4475
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T08:21:52.000000Z",
+ "updatedAt": "2026-09-11T12:45:19.000000Z"
+}

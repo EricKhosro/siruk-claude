@@ -1,0 +1,44 @@
+{
+ "id": 939,
+ "name": "BE NORDIC կաշվե վզկապ մետաղյա ճարմանդով, M: 45–51 սմ/20 մմ, ավազագույն",
+ "slug": "trixie-be-nordic-leather-collar-with-metal-buckle-m-45-51-cm-20-mm-sand",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 1097,
+   "name": "M: 45–51 cm/20 mm, sand",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "17531",
+   "price": 6750,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 4215,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9964,
+    9967
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T15:36:40.000000Z",
+ "updatedAt": "2026-09-11T16:08:08.000000Z"
+}

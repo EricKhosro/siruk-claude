@@ -1,0 +1,43 @@
+{
+ "id": 800,
+ "name": "BE NORDIC ошейник-бандана, S: 30 см, тёмно-синий",
+ "slug": "trixie-be-nordic-bandana-collar-s-30-cm-dark-blue",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 956,
+   "name": "S: 30 cm, dark blue",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "17321",
+   "price": 2450,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1530,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9569
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T14:35:45.000000Z",
+ "updatedAt": "2026-09-11T15:58:44.000000Z"
+}

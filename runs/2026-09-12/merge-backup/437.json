@@ -1,0 +1,47 @@
+{
+ "id": 437,
+ "name": "Litter Scoop for Ultra Litter with Mesh, M",
+ "slug": "trixie-litter-scoop-for-ultra-litter-with-mesh-m",
+ "category_ids": [
+  67
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 544,
+   "name": "M",
+   "about_this_item": "<ul><li>plastic</li><li>sustainable thanks to recycled plastic</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "40534",
+   "price": 550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 340,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    3452,
+    3455,
+    3458,
+    3461,
+    3464
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T07:04:49.000000Z",
+ "updatedAt": "2026-09-11T12:31:27.000000Z"
+}

@@ -1,0 +1,83 @@
+{
+ "id": 446,
+ "name": "Животные, латекс, 30–32 см",
+ "slug": "trixie-animals-latex-30-32-cm",
+ "category_ids": [
+  18
+ ],
+ "brand_id": 8,
+ "attribute_family_id": 5,
+ "attribute_family_name": "Игрушки",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 553,
+   "name": "30–32 cm",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "35061",
+   "price": 3550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2215,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 3,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    9470,
+    9473,
+    9476,
+    9479,
+    7872,
+    7875,
+    7878,
+    7881
+   ],
+   "attributes": {
+    "toy-type": "Латекс и резина",
+    "material": "Латекс",
+    "toy-size": "32 см"
+   },
+   "attribute_values": [
+    {
+     "id": 193,
+     "attribute_id": 11,
+     "attribute_code": "toy-type",
+     "attribute_name": "Тип игрушки",
+     "value": "Latex & Rubber",
+     "label": "Латекс и резина"
+    },
+    {
+     "id": 203,
+     "attribute_id": 12,
+     "attribute_code": "material",
+     "attribute_name": "Материал",
+     "value": "Latex",
+     "label": "Латекс"
+    },
+    {
+     "id": 378,
+     "attribute_id": 16,
+     "attribute_code": "toy-size",
+     "attribute_name": "Размер игрушки",
+     "value": "32-cm",
+     "label": "32 см"
+    }
+   ],
+   "attribute_value_ids": {
+    "toy-type": 193,
+    "material": 203,
+    "toy-size": 378
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T07:07:33.000000Z",
+ "updatedAt": "2026-09-11T12:32:10.000000Z"
+}

@@ -1,0 +1,43 @@
+{
+ "id": 818,
+ "name": "Չժանգոտվող պողպատե աման, 1,75 լ/ø 30 սմ",
+ "slug": "trixie-stainless-steel-bowl-1-75-l-30-cm",
+ "category_ids": [
+  70
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 974,
+   "name": "1.75 l/ø 30 cm",
+   "about_this_item": "<ul><li>ծանրացված տարբերակ</li><li>չի սահում ռետինե հիմքի օղակի շնորհիվ</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "24854",
+   "price": 3300,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 2060,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8032
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T14:41:47.000000Z",
+ "updatedAt": "2026-09-11T15:59:59.000000Z"
+}

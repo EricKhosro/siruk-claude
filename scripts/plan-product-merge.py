@@ -107,7 +107,37 @@ FLAVOUR_FILL = {
     "013037": "Chicken and Vegetables",
 }
 TEXTURE_FILL = {"143015": "Chunks in Gravy"}
-WEIGHT_RE_TAIL = re.compile(r"(\d+(?:[.,]\d+)?\s*(?:g|kg|ml|l))\s*$", re.I)
+
+# Where the merged product gets a new English name, its ru/hy names cannot be
+# derived from the old ones — they are written out here.
+NAME_TR = {
+    "Stainless Steel Bowl, heavy weight":
+        ("Миска из нержавеющей стали, утяжелённая", "Չժանգոտվող պողպատե աման, ծանրացված"),
+    "Stainless Steel Bowl, non-slip":
+        ("Миска из нержавеющей стали, нескользящая", "Չժանգոտվող պողպատե աման, ոչ սահող"),
+    "Stainless Steel Bowl, varnished":
+        ("Миска из нержавеющей стали, лакированная", "Չժանգոտվող պողպատե աման, լաքապատ"),
+    "Soft Brush, bamboo":
+        ("Мягкая щётка, бамбук", "Փափուկ խոզանակ, բամբուկ"),
+    "Soft Brush, rubber handle":
+        ("Мягкая щётка, резиновая ручка", "Փափուկ խոզանակ, ռետինե բռնակ"),
+    "Soft Brush with Brush Cleaner, wooden handle":
+        ("Мягкая щётка с очистителем, деревянная ручка",
+         "Փափուկ խոզանակ մաքրիչով, փայտե բռնակ"),
+    "Longie, latex/polyester fleece":
+        ("Longie, латекс/полиэстеровый флис", "Longie, լատեքս/պոլիեսթերային ֆլիս"),
+    # 463 was imported as a bare "Brush" and 1018's hy record was never
+    # translated, so neither group's translated base can be derived.
+    "Brush, wood, natural bristles":
+        ("Щётка, дерево, натуральная щетина", "Խոզանակ, փայտ, բնական մազիկներ"),
+    "Premium Touring Harness":
+        ("Premium Touring шлейка", "Premium Touring լանջափոկ"),
+    "Chain Collar, chrome-plated":
+        ("Цепь-ошейник, хромированная", "Շղթայե վզկապ, քրոմապատ"),
+}
+# "120 g", "3 pcs./140 g" -> the pack weight.  "2 × 60 g" is deliberately not
+# matched: 60 g is the piece, and the pack weight is not printed.
+WEIGHT_RE_TAIL = re.compile(r"(?<![×x]\s)(\b\d+(?:[.,]\d+)?\s*(?:g|kg|ml|l))\s*$", re.I)
 
 
 def base_name(p):
@@ -129,6 +159,20 @@ def split_colour(label):
         return label or "", None
     word = m.group(1).lower().split("/")[0].strip()
     return label[: m.start()].rstrip(" ,"), COLOUR.get(word)
+
+
+SPEC_TAIL = re.compile(
+    r"(?:[,\s]+(?:\d[\d.,]*|(?:XXS|XS|S|M|L|XL|XXL)(?:\s*[–-]\s*(?:XXS|XS|S|M|L|XL|XXL))?))$",
+    re.I)
+
+
+def _tidy(s):
+    """Drop a dangling size token or half-read number left by the cut."""
+    s = (s or "").strip().rstrip(" ,–-:")
+    while True:
+        t = SPEC_TAIL.sub("", s).strip().rstrip(" ,–-:")
+        if t == s: return s
+        s = t
 
 
 def slugify(s):
@@ -216,6 +260,13 @@ def main():
         # Food groups lean on flavour/weight/texture that the import already
         # wrote; fill the holes it left so no variant is told apart by a
         # MISSING value (that renders as a selector with one option).
+        for v in vs:
+            m = WEIGHT_RE_TAIL.search(v["label"])
+            if m and "product-weight" not in v["existing"]:
+                w = m.group(1).replace(",", ".")
+                if any("product-weight" in x["existing"] for x in vs):
+                    v.setdefault("fill", {})["product-weight"] = w
+                    vocab["product-weight"].add(w)
         if not axis_size and not axis_colour:
             for v in vs:
                 fl = FLAVOUR_FILL.get(v["sku"], "")
@@ -245,22 +296,46 @@ def main():
             if axis_colour and v["_colour"]:
                 v["axes"]["color-family"] = v["_colour"]
 
+        # --- translations -----------------------------------------------------
+        # The English name lost N comma-separated segments when its variant
+        # label was stripped; drop the same N from the translated name, which
+        # was written to the same shape.  A common prefix would cut mid-word
+        # where two variants differ only in colour.
+        def translated(lang):
+            if name in NAME_TR:
+                return NAME_TR[name][0 if lang == "ru" else 1]
+            ns = [tr[lang][i]["name"] for i in sorted(g) if i in tr[lang]]
+            if not ns: return None
+            # (a) what every translated name in the group shares, cut back to a
+            #     whole word — this is empty of any spec that varies;
+            pre = os.path.commonprefix(ns)
+            # only cut back to a word boundary when the prefix actually stops
+            # mid-word — otherwise "Узел с курицей" would lose "курицей".
+            if not all(len(n) == len(pre) or n[len(pre)] in " ,:" for n in ns):
+                pre = pre[: max(pre.rfind(" "), pre.rfind(","), 0)]
+            # (b) the name minus as many trailing comma segments as the English
+            #     label has — this catches a group that varies only in colour,
+            #     where (a) would keep the shared size.
+            src = sorted(i for i in g if i in tr[lang])[0]
+            lbl = (prod[src]["variants"][0].get("name") or "").strip()
+            cut = tr[lang][src]["name"]
+            if prod[src]["name"].endswith(lbl) and prod[src]["name"] != lbl:
+                drop = len([x for x in lbl.split(",") if x.strip()])
+                parts = cut.split(",")
+                if drop and len(parts) > drop:
+                    cut = ",".join(parts[:-drop])
+            best = min((x for x in (pre, cut) if x.strip()), key=len, default="")
+            return _tidy(best) or None
+
         brand = brands.get(target) or ""
         slug = slugify(f"{brand} {name}")
         if slug in taken_slugs and slug != prod[target]["slug"]:
             slug = slug + "-" + str(target)
         taken_slugs.add(slug)
 
-        # --- translations: the shared prefix of the group's translated names --
-        def common(lang):
-            ns = [tr[lang][i]["name"] for i in g if i in tr[lang]]
-            if not ns: return None
-            pre = os.path.commonprefix(ns).rstrip()
-            return pre.rstrip(" ,–-") or None
-
         plan.append({
             "group": sorted(g), "target": target, "absorb": sorted(set(g) - {target}),
-            "name": name, "name_ru": common("ru"), "name_hy": common("hy"),
+            "name": name, "name_ru": translated("ru"), "name_hy": translated("hy"),
             "slug": slug, "old_slug": prod[target]["slug"],
             "brand_id": prod[target]["brand_id"], "brand": brand,
             "category_ids": cats,

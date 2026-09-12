@@ -1,0 +1,76 @@
+{
+ "id": 664,
+ "name": "Gran Bonta Chef Adult Dog Beef 1230 g",
+ "slug": "monge-gran-bonta-chef-adult-dog-beef-1230-g",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Wet Food",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 801,
+   "name": "Beef 1230 g",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "041887",
+   "price": 1550,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1150,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    7540
+   ],
+   "attributes": {
+    "lifestage": "Adult",
+    "flavor": "Beef",
+    "packaging": "Can"
+   },
+   "attribute_values": [
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 37,
+     "attribute_id": 5,
+     "attribute_code": "flavor",
+     "attribute_name": "Flavor",
+     "value": "beef",
+     "label": "Beef"
+    },
+    {
+     "id": 147,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "can",
+     "label": "Can"
+    }
+   ],
+   "attribute_value_ids": {
+    "lifestage": 27,
+    "flavor": 37,
+    "packaging": 147
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T08:56:27.000000Z",
+ "updatedAt": "2026-09-11T12:49:33.000000Z"
+}

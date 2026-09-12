@@ -1,0 +1,98 @@
+{
+ "id": 656,
+ "name": "Fresh Adult Dog Veal 400 g",
+ "slug": "monge-fresh-adult-dog-veal-400-g",
+ "category_ids": [
+  4
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Wet Food",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 793,
+   "name": "Veal 400 g",
+   "about_this_item": "<p>Monge Fresh is a complete and balanced food for adult dogs. It is made from tasty meat pieces in a delicate pate. The recipe is based on more than 50 years of experience in food production. It is based on the highest quality ingredients, such as highly digestible fresh veal meat.</p>",
+   "ingredient_information": "<p><strong>Composition:</strong> Meats and derivatives (fresh meat; calf 26% and chicken 10%), cereals, oils and fats, mineral substances.</p><p><strong>Analytical constituents:</strong> Crude Protein: 8.0% - Crude fibre: 0.5% - Crude fats: 5.0% - Crude ash: 3.0% - Moisture: 79%.</p><p><strong>Additives:</strong> NUTRITIONAL ADDITIVES: Vitamin D3 450 IU/kg, Vitamin E (all-rac-alpha-tocopherol-acetate) 15 mg/kg, Selenium (Sodium selenite 0.04 mg/kg) 0.018 mg/kg, Manganese (Manganous sulphate monohydrate 9 mg/kg) 2.9 mg/kg, Zinc (Zinc oxide 32 mg/kg): 25.7 mg/kg, Copper (Copper (II) sulphate pentahydrate 3.5 mg/kg) 0.89 mg/kg, Iron (Iron (II) sulphate monohydrate15 mg/kg) 4.93 mg/ kg, Iodine (Calcium iodate anhydrous 1.8 mg/kg) 1.17 mg/kg.</p>",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "014457",
+   "price": 1250,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 900,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    4982,
+    7306,
+    4985
+   ],
+   "attributes": {
+    "product-weight": "400 g",
+    "lifestage": "Adult",
+    "texture": "Pate",
+    "packaging": "Can",
+    "ingredient": "Chicken"
+   },
+   "attribute_values": [
+    {
+     "id": 5,
+     "attribute_id": 1,
+     "attribute_code": "product-weight",
+     "attribute_name": "Product weight",
+     "value": "400-g",
+     "label": "400 g"
+    },
+    {
+     "id": 27,
+     "attribute_id": 3,
+     "attribute_code": "lifestage",
+     "attribute_name": "Lifestage",
+     "value": "adult",
+     "label": "Adult"
+    },
+    {
+     "id": 138,
+     "attribute_id": 8,
+     "attribute_code": "texture",
+     "attribute_name": "Food Texture",
+     "value": "pate",
+     "label": "Pate"
+    },
+    {
+     "id": 147,
+     "attribute_id": 9,
+     "attribute_code": "packaging",
+     "attribute_name": "Packaging Type",
+     "value": "can",
+     "label": "Can"
+    },
+    {
+     "id": 461,
+     "attribute_id": 17,
+     "attribute_code": "ingredient",
+     "attribute_name": "Ingredient",
+     "value": "chicken",
+     "label": "Chicken"
+    }
+   ],
+   "attribute_value_ids": {
+    "product-weight": 5,
+    "lifestage": 27,
+    "texture": 138,
+    "packaging": 147,
+    "ingredient": 461
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T08:54:55.000000Z",
+ "updatedAt": "2026-09-11T12:48:57.000000Z"
+}

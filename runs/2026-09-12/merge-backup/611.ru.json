@@ -1,0 +1,44 @@
+{
+ "id": 611,
+ "name": "Зубная паста, 100 г, мята",
+ "slug": "trixie-toothpaste-100-g-mint",
+ "category_ids": [
+  30
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 719,
+   "name": "100 g, Mint",
+   "about_this_item": "<ul><li>для собак</li></ul>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "2557",
+   "price": 1400,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 900,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    4481,
+    7207
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T08:22:16.000000Z",
+ "updatedAt": "2026-09-11T12:45:28.000000Z"
+}

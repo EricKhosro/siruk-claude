@@ -1,0 +1,66 @@
+{
+ "id": 788,
+ "name": "Комбо капли для собак 4–10 кг",
+ "slug": "insectal-combo-drops-for-dogs-4-10-kg",
+ "category_ids": [
+  42
+ ],
+ "brand_id": 25,
+ "attribute_family_id": 4,
+ "attribute_family_name": "Добавки",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 944,
+   "name": "4–10 kg",
+   "about_this_item": "<p>Капли для собак Инсектал Комбо, 4-10 кг ✅ товары для животных Neoterica GmbH (Неотерика) О компании Новости FAQ Видео Лаборатория Производство Каталог продукции Продукция Бренды Все Inspector Protecto Акции Где купить Контакты RU EN Поиск Главная Продукция Инсектал Капли для собак Инсектал Комбо, 4-10 кг Вес 4-10 кг Капли для собак Инсектал Комбо, 4-10 кг Инсектал Комбо - комплексная защита от внешних и внутренних паразитов. Новая формула: ✔ Фипронил от клещей, блох, вшей и власоедов ✔ Моксидектин от блох, вшей, власоедов, клещей, круглых гельминтов Срок действия: ✔от клещей - 4 недели ✔от блох - 6 недель ✔от круглых гельминтов - 1 месяц Используйте капли Инсектал Комбо: ✔ с 2 месяцев (7 нед</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "791862",
+   "price": 1540,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 960,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    5783
+   ],
+   "attributes": {
+    "health-feature": "Противопаразитарное",
+    "product-form": "Жидкость"
+   },
+   "attribute_values": [
+    {
+     "id": 407,
+     "attribute_id": 7,
+     "attribute_code": "health-feature",
+     "attribute_name": "Польза для здоровья",
+     "value": "anti-parasitic",
+     "label": "Противопаразитарное"
+    },
+    {
+     "id": 529,
+     "attribute_id": 18,
+     "attribute_code": "product-form",
+     "attribute_name": "Форма выпуска",
+     "value": "liquid",
+     "label": "Жидкость"
+    }
+   ],
+   "attribute_value_ids": {
+    "health-feature": 407,
+    "product-form": 529
+   }
+  }
+ ],
+ "createdAt": "2026-09-11T09:51:35.000000Z",
+ "updatedAt": "2026-09-11T12:59:42.000000Z"
+}

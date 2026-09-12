@@ -1,0 +1,43 @@
+{
+ "id": 833,
+ "name": "Melamine Bowl with Rubber Base, 0.2 l/ø 14 cm, white",
+ "slug": "trixie-melamine-bowl-with-rubber-base-0-2-l-14-cm-white",
+ "category_ids": [
+  70
+ ],
+ "brand_id": 8,
+ "attribute_family_id": null,
+ "attribute_family_name": null,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "variants": [
+  {
+   "id": 989,
+   "name": "0.2 l/ø 14 cm, white",
+   "about_this_item": "",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "pricing_type": "fixed",
+   "sku": "25180",
+   "price": 3150,
+   "price_per_kg": null,
+   "min_allowed_price": null,
+   "cost_price": 1965,
+   "compare_at_price": null,
+   "weight": null,
+   "is_default": true,
+   "stock": 10,
+   "vendor_stock": false,
+   "sort_order": 0,
+   "images": [
+    8786
+   ],
+   "attributes": [],
+   "attribute_values": [],
+   "attribute_value_ids": []
+  }
+ ],
+ "createdAt": "2026-09-11T14:47:19.000000Z",
+ "updatedAt": "2026-09-11T16:01:08.000000Z"
+}
