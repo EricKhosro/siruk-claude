@@ -110,6 +110,13 @@ w("**A trap worth knowing** — `scripts/set-translation.py` writes *every* vari
   "Translating one variant of product 1016 wiped the Armenian texts of its other two; both "
   "are restored, and the warning is now in `reference/admin-api.md` and the script guide.\n")
 w("## Still open\n")
+w("- **The category grid still draws one card per variant** — that is the storefront's own "
+  "rule, not the data (`reference/product-rules.md`: \"Category listing shows one card per "
+  "variant; `/api/search` one per product\"). What changed is that the cards now read as "
+  "options of one product and all land on the same page: "
+  "\"Active Comfort Leather Collar with Rhinestones, Pink, XXS–XS\" and \"…, Pink, S–M\" "
+  "instead of two separately-named products. Collapsing the grid to one card per product is "
+  "a frontend change; say the word and I will write it up for the dev team.")
 w("- **`size` is not filterable.** Its values mix letter sizes with measurement strings, so a "
   "sidebar facet would read badly — same call as `toy-size`. If you want collars filterable by "
   "size, the fix is to split the measurement strings onto their own attribute, not to flip the "

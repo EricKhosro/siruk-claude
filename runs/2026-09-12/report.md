@@ -141,6 +141,7 @@ All 19 attributes, 713 values and 5 family names read back clean in en/ru/hy (`s
 
 ## Still open
 
+- **The category grid still draws one card per variant** — that is the storefront's own rule, not the data (`reference/product-rules.md`: "Category listing shows one card per variant; `/api/search` one per product"). What changed is that the cards now read as options of one product and all land on the same page: "Active Comfort Leather Collar with Rhinestones, Pink, XXS–XS" and "…, Pink, S–M" instead of two separately-named products. Collapsing the grid to one card per product is a frontend change; say the word and I will write it up for the dev team.
 - **`size` is not filterable.** Its values mix letter sizes with measurement strings, so a sidebar facet would read badly — same call as `toy-size`. If you want collars filterable by size, the fix is to split the measurement strings onto their own attribute, not to flip the flag.
 - Three products remain English-only in ru/hy from earlier imports, untouched here: 906 Towel with Pockets, 346 Junior Soft Snack Dots, 350 Soft Snack Bony Mix XXL. (MOT®-Fun, Longie, Turbinio and Twists are Latin brand names by policy.)
 - The detection only has an authoritative second opinion for **Trixie**. Monge, Inspector, Insectal, Club 4 Paws and Ok-Lock groups rest on the name plus consecutive article codes within one line; each was read by hand, but a brand-site index for them would make the next sweep as strong as Trixie's.
