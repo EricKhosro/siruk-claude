@@ -1,0 +1,4791 @@
+{
+ "plan": [
+  {
+   "group": [
+    979,
+    980,
+    981,
+    983,
+    984,
+    986,
+    987,
+    989,
+    990,
+    991,
+    992,
+    994,
+    995,
+    996,
+    997,
+    998,
+    1002,
+    1003,
+    1004,
+    1005,
+    1007,
+    1008
+   ],
+   "target": 979,
+   "absorb": [
+    980,
+    981,
+    983,
+    984,
+    986,
+    987,
+    989,
+    990,
+    991,
+    992,
+    994,
+    995,
+    996,
+    997,
+    998,
+    1002,
+    1003,
+    1004,
+    1005,
+    1007,
+    1008
+   ],
+   "name": "Premium Collar",
+   "name_ru": "Premium ошейник",
+   "name_hy": "Premium վզկապ",
+   "slug": "trixie-premium-collar",
+   "old_slug": "trixie-premium-collar-xs-s-22-35-cm-10-mm-black",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 979,
+     "old_variant_id": 1137,
+     "sku": "201401",
+     "label": "XS–S, 22–35 cm/10 mm, black",
+     "_size": "XS–S",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 980,
+     "old_variant_id": 1138,
+     "sku": "201402",
+     "label": "XS–S, 22–35 cm/10 mm, royal blue",
+     "_size": "XS–S",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 981,
+     "old_variant_id": 1139,
+     "sku": "201403",
+     "label": "XS–S, 22–35 cm/10 mm, red",
+     "_size": "XS–S",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 983,
+     "old_variant_id": 1141,
+     "sku": "201411",
+     "label": "XS–S, 22–35 cm/10 mm, fuchsia",
+     "_size": "XS–S",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 984,
+     "old_variant_id": 1142,
+     "sku": "201501",
+     "label": "S–M, 30–45 cm/15 mm, black",
+     "_size": "S–M",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 986,
+     "old_variant_id": 1144,
+     "sku": "201502",
+     "label": "S–M, 30–45 cm/15 mm, royal blue",
+     "_size": "S–M",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 987,
+     "old_variant_id": 1145,
+     "sku": "201503",
+     "label": "S–M, 30–45 cm/15 mm, red",
+     "_size": "S–M",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 989,
+     "old_variant_id": 1147,
+     "sku": "201511",
+     "label": "S–M, 30–45 cm/15 mm, fuchsia",
+     "_size": "S–M",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 990,
+     "old_variant_id": 1148,
+     "sku": "201601",
+     "label": "M–L, 35–55 cm/20 mm, black",
+     "_size": "M–L",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 991,
+     "old_variant_id": 1149,
+     "sku": "201602",
+     "label": "M–L, 35–55 cm/20 mm, royal blue",
+     "_size": "M–L",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 992,
+     "old_variant_id": 1150,
+     "sku": "201603",
+     "label": "M–L, 35–55 cm/20 mm, red",
+     "_size": "M–L",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 994,
+     "old_variant_id": 1152,
+     "sku": "201633",
+     "label": "M–L, 35–55 cm/20 mm, olive green",
+     "_size": "M–L",
+     "_colour": "Green",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Green"
+     }
+    },
+    {
+     "from_product": 995,
+     "old_variant_id": 1153,
+     "sku": "201701",
+     "label": "L–XL, 40–65 cm/25 mm, black",
+     "_size": "L–XL",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "L–XL",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 996,
+     "old_variant_id": 1154,
+     "sku": "201702",
+     "label": "L–XL, 40–65 cm/25 mm, royal blue",
+     "_size": "L–XL",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "L–XL",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 997,
+     "old_variant_id": 1155,
+     "sku": "201703",
+     "label": "L–XL, 40–65 cm/25 mm, red",
+     "_size": "L–XL",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "L–XL",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 998,
+     "old_variant_id": 1156,
+     "sku": "201711",
+     "label": "L–XL, 40–65 cm/25 mm, fuchsia",
+     "_size": "L–XL",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "L–XL",
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 1002,
+     "old_variant_id": 1160,
+     "sku": "202101",
+     "label": "XXS–XS, 15–25 cm/10 mm, black",
+     "_size": "XXS–XS",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "XXS–XS",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 1003,
+     "old_variant_id": 1161,
+     "sku": "202102",
+     "label": "XXS–XS, 15–25 cm/10 mm, royal blue",
+     "_size": "XXS–XS",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "XXS–XS",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 1004,
+     "old_variant_id": 1162,
+     "sku": "202103",
+     "label": "XXS–XS, 15–25 cm/10 mm, red",
+     "_size": "XXS–XS",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "XXS–XS",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 1005,
+     "old_variant_id": 1163,
+     "sku": "202202",
+     "label": "S, 25–40 cm/15 mm, royal blue",
+     "_size": "S",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 1007,
+     "old_variant_id": 1165,
+     "sku": "202203",
+     "label": "S, 25–40 cm/15 mm, red",
+     "_size": "S",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 1008,
+     "old_variant_id": 1166,
+     "sku": "202211",
+     "label": "S, 25–40 cm/15 mm, fuchsia",
+     "_size": "S",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Pink"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    815,
+    816,
+    817,
+    818,
+    819
+   ],
+   "target": 815,
+   "absorb": [
+    816,
+    817,
+    818,
+    819
+   ],
+   "name": "Stainless Steel Bowl, heavy weight",
+   "name_ru": "Миска из нержавеющей стали",
+   "name_hy": "Չժանգոտվող պողպատե աման",
+   "slug": "trixie-stainless-steel-bowl-heavy-weight",
+   "old_slug": "trixie-stainless-steel-bowl-0-45-l-19-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.de page 1001441312 bullet 'heavy weight version' — three different bowl lines would otherwise share one name",
+   "variants": [
+    {
+     "from_product": 815,
+     "old_variant_id": 971,
+     "sku": "24851",
+     "label": "0.45 l/ø 19 cm",
+     "_size": "0.45 l/ø 19 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "0.45 l/ø 19 cm"
+     }
+    },
+    {
+     "from_product": 816,
+     "old_variant_id": 972,
+     "sku": "24852",
+     "label": "0.7 l/ø 21 cm",
+     "_size": "0.7 l/ø 21 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "0.7 l/ø 21 cm"
+     }
+    },
+    {
+     "from_product": 817,
+     "old_variant_id": 973,
+     "sku": "24853",
+     "label": "0.9 l/ø 23 cm",
+     "_size": "0.9 l/ø 23 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "0.9 l/ø 23 cm"
+     }
+    },
+    {
+     "from_product": 818,
+     "old_variant_id": 974,
+     "sku": "24854",
+     "label": "1.75 l/ø 30 cm",
+     "_size": "1.75 l/ø 30 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "1.75 l/ø 30 cm"
+     }
+    },
+    {
+     "from_product": 819,
+     "old_variant_id": 975,
+     "sku": "24855",
+     "label": "2.7 l/ø 32 cm",
+     "_size": "2.7 l/ø 32 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "2.7 l/ø 32 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    517,
+    518,
+    519,
+    520
+   ],
+   "target": 517,
+   "absorb": [
+    518,
+    519,
+    520
+   ],
+   "name": "Knot with Chicken",
+   "name_ru": "Узел с курицей",
+   "name_hy": "Հանգույց հավով",
+   "slug": "trixie-knot-with-chicken",
+   "old_slug": "trixie-knot-with-chicken",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    85
+   ],
+   "attribute_family_id": 3,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 517,
+     "old_variant_id": 625,
+     "sku": "31321",
+     "label": "5 pcs./70 g",
+     "_size": "5 pcs./70 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 171,
+      "flavor": 36
+     },
+     "axes": {
+      "size": "5 pcs./70 g"
+     }
+    },
+    {
+     "from_product": 518,
+     "old_variant_id": 626,
+     "sku": "31322",
+     "label": "2 pcs./70 g",
+     "_size": "2 pcs./70 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 171,
+      "flavor": 36
+     },
+     "axes": {
+      "size": "2 pcs./70 g"
+     }
+    },
+    {
+     "from_product": 519,
+     "old_variant_id": 627,
+     "sku": "31323",
+     "label": "70 g",
+     "_size": "70 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 171,
+      "flavor": 36
+     },
+     "axes": {
+      "size": "70 g"
+     }
+    },
+    {
+     "from_product": 520,
+     "old_variant_id": 628,
+     "sku": "31324",
+     "label": "120 g",
+     "_size": "120 g",
+     "_colour": null,
+     "existing": {
+      "flavor": 36
+     },
+     "axes": {
+      "size": "120 g"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    659,
+    660,
+    661,
+    662
+   ],
+   "target": 659,
+   "absorb": [
+    660,
+    661,
+    662
+   ],
+   "name": "Gran Bonta Adult Dog",
+   "name_ru": "Gran Bonta для взрослых собак",
+   "name_hy": "Gran Bonta հասուն շների համար",
+   "slug": "monge-gran-bonta-adult-dog",
+   "old_slug": "monge-gran-bonta-adult-dog-chicken-turkey-400-g",
+   "brand_id": 5,
+   "brand": "Monge",
+   "category_ids": [
+    4
+   ],
+   "attribute_family_id": 2,
+   "axis": [],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 659,
+     "old_variant_id": 796,
+     "sku": "041587",
+     "label": "Chicken & Turkey 400 g",
+     "_size": "Chicken & Turkey 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "flavor": 36,
+      "packaging": 147
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 660,
+     "old_variant_id": 797,
+     "sku": "041537",
+     "label": "Meat 400 g",
+     "_size": "Meat 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "packaging": 147
+     },
+     "fill": {
+      "flavor": "Meat"
+     },
+     "axes": {
+      "flavor": "Meat"
+     }
+    },
+    {
+     "from_product": 661,
+     "old_variant_id": 798,
+     "sku": "041567",
+     "label": "Meat 1230 g",
+     "_size": "Meat 1230 g",
+     "_colour": null,
+     "existing": {
+      "lifestage": 27,
+      "packaging": 147
+     },
+     "fill": {
+      "flavor": "Meat",
+      "product-weight": "1230 g"
+     },
+     "axes": {
+      "flavor": "Meat",
+      "product-weight": "1230 g"
+     }
+    },
+    {
+     "from_product": 662,
+     "old_variant_id": 799,
+     "sku": "041577",
+     "label": "Chicken & Turkey 1230 g",
+     "_size": "Chicken & Turkey 1230 g",
+     "_colour": null,
+     "existing": {
+      "lifestage": 27,
+      "flavor": 36,
+      "packaging": 147
+     },
+     "fill": {
+      "product-weight": "1230 g"
+     },
+     "axes": {
+      "product-weight": "1230 g"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    805,
+    806,
+    807,
+    808
+   ],
+   "target": 805,
+   "absorb": [
+    806,
+    807,
+    808
+   ],
+   "name": "Premium Adjustable Lead",
+   "name_ru": "Premium регулируемый поводок, XS, 2,00 м/10 мм",
+   "name_hy": "Premium կարգավորվող ձգափոկ, XS, 2,00 մ/10 մմ",
+   "slug": "trixie-premium-adjustable-lead",
+   "old_slug": "trixie-premium-adjustable-lead-xs-2-00-m-10-mm-black",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 805,
+     "old_variant_id": 961,
+     "sku": "201301",
+     "label": "XS, 2.00 m/10 mm, black",
+     "_size": "XS, 2.00 m/10 mm",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 806,
+     "old_variant_id": 962,
+     "sku": "201303",
+     "label": "XS, 2.00 m/10 mm, red",
+     "_size": "XS, 2.00 m/10 mm",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 807,
+     "old_variant_id": 963,
+     "sku": "201311",
+     "label": "XS, 2.00 m/10 mm, fuchsia",
+     "_size": "XS, 2.00 m/10 mm",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 808,
+     "old_variant_id": 964,
+     "sku": "201316",
+     "label": "XS, 2.00 m/10 mm, graphite",
+     "_size": "XS, 2.00 m/10 mm",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "color-family": "Grey"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    829,
+    830,
+    831,
+    832
+   ],
+   "target": 829,
+   "absorb": [
+    830,
+    831,
+    832
+   ],
+   "name": "Stainless Steel Bowl with Rubber Base",
+   "name_ru": "Миска из нержавеющей стали на резиновой основе, 0",
+   "name_hy": "Չժանգոտվող պողպատե աման ռետինե հիմքով, 0",
+   "slug": "trixie-stainless-steel-bowl-with-rubber-base",
+   "old_slug": "trixie-stainless-steel-bowl-with-rubber-base-0-2-l-15-cm-grey",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 829,
+     "old_variant_id": 985,
+     "sku": "25141",
+     "label": "0.2 l/ø 15 cm, grey",
+     "_size": "0.2 l/ø 15 cm",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "0.2 l/ø 15 cm"
+     }
+    },
+    {
+     "from_product": 830,
+     "old_variant_id": 986,
+     "sku": "25142",
+     "label": "0.45 l/ø 19 cm, grey",
+     "_size": "0.45 l/ø 19 cm",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "0.45 l/ø 19 cm"
+     }
+    },
+    {
+     "from_product": 831,
+     "old_variant_id": 987,
+     "sku": "25143",
+     "label": "0.7 l/ø 21 cm, grey",
+     "_size": "0.7 l/ø 21 cm",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "0.7 l/ø 21 cm"
+     }
+    },
+    {
+     "from_product": 832,
+     "old_variant_id": 988,
+     "sku": "25144",
+     "label": "0.9 l/ø 23 cm, grey",
+     "_size": "0.9 l/ø 23 cm",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "0.9 l/ø 23 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    856,
+    857,
+    858,
+    859
+   ],
+   "target": 856,
+   "absorb": [
+    857,
+    858,
+    859
+   ],
+   "name": "Poisoned Bait Protection",
+   "name_ru": "Защита от отравленных приманок",
+   "name_hy": "Պաշտպանություն թունավոր խայծից",
+   "slug": "trixie-poisoned-bait-protection",
+   "old_slug": "trixie-poisoned-bait-protection-s-black",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    74
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 856,
+     "old_variant_id": 1012,
+     "sku": "17592",
+     "label": "S, black",
+     "_size": "S",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "S"
+     }
+    },
+    {
+     "from_product": 857,
+     "old_variant_id": 1013,
+     "sku": "17593",
+     "label": "S–M, black",
+     "_size": "S–M",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    },
+    {
+     "from_product": 858,
+     "old_variant_id": 1014,
+     "sku": "17594",
+     "label": "M–L, black",
+     "_size": "M–L",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    },
+    {
+     "from_product": 859,
+     "old_variant_id": 1015,
+     "sku": "17596",
+     "label": "XL, black",
+     "_size": "XL",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "XL"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    860,
+    861,
+    862,
+    863
+   ],
+   "target": 860,
+   "absorb": [
+    861,
+    862,
+    863
+   ],
+   "name": "Dog Socks",
+   "name_ru": "Носки для собак",
+   "name_hy": "Գուլպաներ շների համար",
+   "slug": "trixie-dog-socks",
+   "old_slug": "trixie-dog-socks-xxs-xs-2-pcs-grey",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    72
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 860,
+     "old_variant_id": 1016,
+     "sku": "19500",
+     "label": "XXS–XS, 2 pcs., grey",
+     "_size": "XXS–XS",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "XXS–XS"
+     }
+    },
+    {
+     "from_product": 861,
+     "old_variant_id": 1017,
+     "sku": "19501",
+     "label": "XS–S, 2 pcs., grey",
+     "_size": "XS–S",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "XS–S"
+     }
+    },
+    {
+     "from_product": 862,
+     "old_variant_id": 1018,
+     "sku": "19502",
+     "label": "S–M, 2 pcs., grey",
+     "_size": "S–M",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    },
+    {
+     "from_product": 863,
+     "old_variant_id": 1019,
+     "sku": "19503",
+     "label": "M–L, 2 pcs., grey",
+     "_size": "M–L",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    914,
+    915,
+    916,
+    917
+   ],
+   "target": 914,
+   "absorb": [
+    915,
+    916,
+    917
+   ],
+   "name": "Premium Reflect Collar",
+   "name_ru": "Premium Reflect ошейник",
+   "name_hy": "Premium Reflect վզկապ",
+   "slug": "trixie-premium-reflect-collar",
+   "old_slug": "trixie-premium-reflect-collar-xs-s-25-35-cm-20-mm-graphite",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 914,
+     "old_variant_id": 1072,
+     "sku": "1199216",
+     "label": "XS–S, 25–35 cm/20 mm, graphite",
+     "_size": "XS–S",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "XS–S"
+     }
+    },
+    {
+     "from_product": 915,
+     "old_variant_id": 1073,
+     "sku": "1199316",
+     "label": "S–M, 30–45 cm/20 mm, graphite",
+     "_size": "S–M",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    },
+    {
+     "from_product": 916,
+     "old_variant_id": 1074,
+     "sku": "1199416",
+     "label": "M–L, 36–55 cm/25 mm, graphite",
+     "_size": "M–L",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    },
+    {
+     "from_product": 917,
+     "old_variant_id": 1075,
+     "sku": "1199516",
+     "label": "L–XL, 42–65 cm/30 mm, graphite",
+     "_size": "L–XL",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "L–XL"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    943,
+    944,
+    945,
+    946
+   ],
+   "target": 943,
+   "absorb": [
+    944,
+    945,
+    946
+   ],
+   "name": "Greased Leather Collar Rustic",
+   "name_ru": "Ошейник из жированной кожи Rustic",
+   "name_hy": "Յուղված կաշվե վզկապ Rustic",
+   "slug": "trixie-greased-leather-collar-rustic",
+   "old_slug": "trixie-greased-leather-collar-rustic-s-m-34-40-cm-25-mm-dark-brown",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 943,
+     "old_variant_id": 1101,
+     "sku": "19005",
+     "label": "S–M, 34–40 cm/25 mm, dark brown",
+     "_size": "S–M",
+     "_colour": "Brown",
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    },
+    {
+     "from_product": 944,
+     "old_variant_id": 1102,
+     "sku": "19006",
+     "label": "M, 37–44 cm/25 mm, dark brown",
+     "_size": "M",
+     "_colour": "Brown",
+     "existing": {},
+     "axes": {
+      "size": "M"
+     }
+    },
+    {
+     "from_product": 945,
+     "old_variant_id": 1103,
+     "sku": "19007",
+     "label": "M–L, 42–48 cm/25 mm, dark brown",
+     "_size": "M–L",
+     "_colour": "Brown",
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    },
+    {
+     "from_product": 946,
+     "old_variant_id": 1104,
+     "sku": "19008",
+     "label": "L, 48–56 cm/30 mm, dark brown",
+     "_size": "L",
+     "_colour": "Brown",
+     "existing": {},
+     "axes": {
+      "size": "L"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    966,
+    968,
+    970,
+    972
+   ],
+   "target": 966,
+   "absorb": [
+    968,
+    970,
+    972
+   ],
+   "name": "Premium Trekking Harness",
+   "name_ru": "Premium Trekking шлейка",
+   "name_hy": "Premium Trekking լանջափոկ",
+   "slug": "trixie-premium-trekking-harness",
+   "old_slug": "trixie-premium-trekking-harness-xs-s-32-38-cm-13-mm-sage-graphite",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 966,
+     "old_variant_id": 1124,
+     "sku": "1996934",
+     "label": "XS–S, 32–38 cm/13 mm, sage/graphite",
+     "_size": "XS–S",
+     "_colour": "Green",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Green"
+     }
+    },
+    {
+     "from_product": 968,
+     "old_variant_id": 1126,
+     "sku": "1997035",
+     "label": "S, 36–44 cm/15 mm, blush/graphite",
+     "_size": "S",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 970,
+     "old_variant_id": 1128,
+     "sku": "1997129",
+     "label": "S–M, 44–53 cm/20 mm, curry/graphite",
+     "_size": "S–M",
+     "_colour": "Yellow",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Yellow"
+     }
+    },
+    {
+     "from_product": 972,
+     "old_variant_id": 1130,
+     "sku": "1997136",
+     "label": "S–M, 44–53 cm/20 mm, sand/graphite",
+     "_size": "S–M",
+     "_colour": "Beige",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Beige"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    973,
+    975,
+    976,
+    977
+   ],
+   "target": 973,
+   "absorb": [
+    975,
+    976,
+    977
+   ],
+   "name": "Y-Harness",
+   "name_ru": "Y-шлейка",
+   "name_hy": "Y-լանջափոկ",
+   "slug": "trixie-y-harness",
+   "old_slug": "trixie-y-harness-xs-s-37-45-cm-15-mm-green",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 973,
+     "old_variant_id": 1131,
+     "sku": "1998219",
+     "label": "XS–S: 37–45 cm/15 mm, green",
+     "_size": "XS–S",
+     "_colour": "Green",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Green"
+     }
+    },
+    {
+     "from_product": 975,
+     "old_variant_id": 1133,
+     "sku": "1998301",
+     "label": "S: 42–50 cm/15 mm, black",
+     "_size": "S",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 976,
+     "old_variant_id": 1134,
+     "sku": "1998413",
+     "label": "S–M: 50–60 cm/15 mm, indigo",
+     "_size": "S–M",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 977,
+     "old_variant_id": 1135,
+     "sku": "1998603",
+     "label": "M–L: 65–80 cm/20 mm, red",
+     "_size": "M–L",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Red"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    404,
+    405,
+    439
+   ],
+   "target": 404,
+   "absorb": [
+    405,
+    439
+   ],
+   "name": "Playing Rope",
+   "name_ru": "Игровой канат",
+   "name_hy": "Խաղային պարան",
+   "slug": "trixie-playing-rope",
+   "old_slug": "trixie-playing-rope-20-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    19
+   ],
+   "attribute_family_id": 5,
+   "axis": [
+    "toy-size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 404,
+     "old_variant_id": 511,
+     "sku": "3271",
+     "label": "20 cm",
+     "_size": "20 cm",
+     "_colour": null,
+     "existing": {
+      "toy-type": 194,
+      "material": 206,
+      "toy-size": 368
+     },
+     "axes": {
+      "toy-size": "20 cm"
+     }
+    },
+    {
+     "from_product": 405,
+     "old_variant_id": 512,
+     "sku": "3272",
+     "label": "26 cm",
+     "_size": "26 cm",
+     "_colour": null,
+     "existing": {
+      "toy-type": 194,
+      "material": 206,
+      "toy-size": 374
+     },
+     "axes": {
+      "toy-size": "26 cm"
+     }
+    },
+    {
+     "from_product": 439,
+     "old_variant_id": 546,
+     "sku": "3273",
+     "label": "37 cm",
+     "_size": "37 cm",
+     "_colour": null,
+     "existing": {
+      "toy-type": 194,
+      "material": 206
+     },
+     "axes": {
+      "toy-size": "37 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    432,
+    436,
+    437
+   ],
+   "target": 432,
+   "absorb": [
+    436,
+    437
+   ],
+   "name": "Litter Scoop for Ultra Litter",
+   "name_ru": "Совок для наполнителя Ultra",
+   "name_hy": "Շերեփ Ultra լցանյութի համար",
+   "slug": "trixie-litter-scoop-for-ultra-litter",
+   "old_slug": "trixie-litter-scoop-for-ultra-litter",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    67
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.de lists 4050 and 40534 both as size M; 40534 is the mesh version (our own product name said so)",
+   "variants": [
+    {
+     "from_product": 432,
+     "old_variant_id": 539,
+     "sku": "40473",
+     "label": "L",
+     "_size": "L",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "L"
+     }
+    },
+    {
+     "from_product": 436,
+     "old_variant_id": 543,
+     "sku": "4050",
+     "label": "M",
+     "_size": "M",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "M"
+     }
+    },
+    {
+     "from_product": 437,
+     "old_variant_id": 544,
+     "sku": "40534",
+     "label": "M, with mesh",
+     "_size": "M, with mesh",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "M, with mesh"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    450,
+    451,
+    452
+   ],
+   "target": 450,
+   "absorb": [
+    451,
+    452
+   ],
+   "name": "Soft Brush, bamboo",
+   "name_ru": "Мягкая щётка",
+   "name_hy": "Փափուկ խոզանակ",
+   "slug": "trixie-soft-brush-bamboo",
+   "old_slug": "trixie-soft-brush-bamboo-metal-pins-7-16-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    28
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.de page 1001467013 bullet 'bamboo'",
+   "variants": [
+    {
+     "from_product": 450,
+     "old_variant_id": 557,
+     "sku": "23022",
+     "label": "7 × 16 cm",
+     "_size": "7 × 16 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "7 × 16 cm"
+     }
+    },
+    {
+     "from_product": 451,
+     "old_variant_id": 558,
+     "sku": "23023",
+     "label": "9 × 15 cm",
+     "_size": "9 × 15 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "9 × 15 cm"
+     }
+    },
+    {
+     "from_product": 452,
+     "old_variant_id": 559,
+     "sku": "23024",
+     "label": "12 × 15 cm",
+     "_size": "12 × 15 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "12 × 15 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    491,
+    492,
+    493
+   ],
+   "target": 491,
+   "absorb": [
+    492,
+    493
+   ],
+   "name": "Soft Brush, rubber handle",
+   "name_ru": "Мягкая щётка",
+   "name_hy": "Փափուկ խոզանակ",
+   "slug": "trixie-soft-brush-rubber-handle",
+   "old_slug": "trixie-soft-brush-rubber-handle-metal-pins-7-16-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    28
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.de page 1001466607 bullet 'plastic handle with rubber grip/metal'",
+   "variants": [
+    {
+     "from_product": 491,
+     "old_variant_id": 598,
+     "sku": "24055",
+     "label": "7 × 16 cm",
+     "_size": "7 × 16 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "7 × 16 cm"
+     }
+    },
+    {
+     "from_product": 492,
+     "old_variant_id": 599,
+     "sku": "24056",
+     "label": "9 × 16 cm",
+     "_size": "9 × 16 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "9 × 16 cm"
+     }
+    },
+    {
+     "from_product": 493,
+     "old_variant_id": 600,
+     "sku": "24057",
+     "label": "12 × 16 cm",
+     "_size": "12 × 16 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "12 × 16 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    527,
+    528,
+    529
+   ],
+   "target": 527,
+   "absorb": [
+    528,
+    529
+   ],
+   "name": "Bone with Chicken",
+   "name_ru": "Косточка с курицей",
+   "name_hy": "Ոսկոր հավով",
+   "slug": "trixie-bone-with-chicken",
+   "old_slug": "trixie-bone-with-chicken",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    85
+   ],
+   "attribute_family_id": 3,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 527,
+     "old_variant_id": 635,
+     "sku": "31344",
+     "label": "140 g",
+     "_size": "140 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 163,
+      "flavor": 36
+     },
+     "axes": {
+      "size": "140 g"
+     }
+    },
+    {
+     "from_product": 528,
+     "old_variant_id": 636,
+     "sku": "31343",
+     "label": "2 × 60 g",
+     "_size": "2 × 60 g",
+     "_colour": null,
+     "existing": {
+      "flavor": 36
+     },
+     "axes": {
+      "size": "2 × 60 g"
+     }
+    },
+    {
+     "from_product": 529,
+     "old_variant_id": 637,
+     "sku": "31345",
+     "label": "200 g",
+     "_size": "200 g",
+     "_colour": null,
+     "existing": {
+      "flavor": 36
+     },
+     "axes": {
+      "size": "200 g"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    629,
+    630,
+    631
+   ],
+   "target": 629,
+   "absorb": [
+    630,
+    631
+   ],
+   "name": "Grill Sterilised Cat",
+   "name_ru": "Grill для стерилизованных кошек",
+   "name_hy": "Grill ստերիլիզացված կատուների համար",
+   "slug": "monge-grill-sterilised-cat",
+   "old_slug": "monge-grill-sterilised-cat-chicken-85-g",
+   "brand_id": 5,
+   "brand": "Monge",
+   "category_ids": [
+    11
+   ],
+   "attribute_family_id": 2,
+   "axis": [],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 629,
+     "old_variant_id": 748,
+     "sku": "013637",
+     "label": "Chicken 85 g",
+     "_size": "Chicken 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "flavor": 36,
+      "special-diet": 102,
+      "texture": 140,
+      "packaging": 148
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 630,
+     "old_variant_id": 749,
+     "sku": "013647",
+     "label": "Veal 85 g",
+     "_size": "Veal 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "special-diet": 102,
+      "texture": 140,
+      "packaging": 148
+     },
+     "fill": {
+      "flavor": "Veal"
+     },
+     "axes": {
+      "flavor": "Veal"
+     }
+    },
+    {
+     "from_product": 631,
+     "old_variant_id": 750,
+     "sku": "013657",
+     "label": "Trout 85 g",
+     "_size": "Trout 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "special-diet": 102,
+      "texture": 140,
+      "packaging": 148
+     },
+     "fill": {
+      "flavor": "Trout"
+     },
+     "axes": {
+      "flavor": "Trout"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    655,
+    656,
+    657
+   ],
+   "target": 655,
+   "absorb": [
+    656,
+    657
+   ],
+   "name": "Fresh Adult Dog",
+   "name_ru": "Fresh для взрослых собак",
+   "name_hy": "Fresh հասուն շների համար",
+   "slug": "monge-fresh-adult-dog",
+   "old_slug": "monge-fresh-adult-dog",
+   "brand_id": 5,
+   "brand": "Monge",
+   "category_ids": [
+    4
+   ],
+   "attribute_family_id": 2,
+   "axis": [],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 655,
+     "old_variant_id": 789,
+     "sku": "014467",
+     "label": "Pork 400 g",
+     "_size": "Pork 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "flavor": 47,
+      "texture": 138,
+      "packaging": 147,
+      "ingredient": 482
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 655,
+     "old_variant_id": 790,
+     "sku": "014477",
+     "label": "Chicken 400 g",
+     "_size": "Chicken 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "flavor": 36,
+      "texture": 138,
+      "packaging": 147,
+      "ingredient": 461
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 655,
+     "old_variant_id": 791,
+     "sku": "014567",
+     "label": "Duck 400 g",
+     "_size": "Duck 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "flavor": 42,
+      "texture": 138,
+      "packaging": 147,
+      "ingredient": 469
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 655,
+     "old_variant_id": 792,
+     "sku": "014577",
+     "label": "Lamb 400 g",
+     "_size": "Lamb 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "flavor": 40,
+      "texture": 138,
+      "packaging": 147,
+      "ingredient": 476
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 656,
+     "old_variant_id": 793,
+     "sku": "014457",
+     "label": "Veal 400 g",
+     "_size": "Veal 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "texture": 138,
+      "packaging": 147,
+      "ingredient": 461
+     },
+     "fill": {
+      "flavor": "Veal"
+     },
+     "axes": {
+      "flavor": "Veal"
+     }
+    },
+    {
+     "from_product": 657,
+     "old_variant_id": 794,
+     "sku": "014497",
+     "label": "Trout 400 g",
+     "_size": "Trout 400 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 5,
+      "lifestage": 27,
+      "texture": 138,
+      "packaging": 147
+     },
+     "fill": {
+      "flavor": "Trout"
+     },
+     "axes": {
+      "flavor": "Trout"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    763,
+    764,
+    765
+   ],
+   "target": 763,
+   "absorb": [
+    764,
+    765
+   ],
+   "name": "Quadro Tabs for Cats and Dogs",
+   "name_ru": "Quadro Tabs таблетки для кошек и собак",
+   "name_hy": "Quadro Tabs հաբեր կատուների և շների համար",
+   "slug": "inspector-quadro-tabs-for-cats-and-dogs",
+   "old_slug": "inspector-quadro-tabs-for-cats-and-dogs-0-5-2-kg",
+   "brand_id": 23,
+   "brand": "Inspector",
+   "category_ids": [
+    46,
+    55
+   ],
+   "attribute_family_id": 4,
+   "axis": [
+    "pet-weight-range"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 763,
+     "old_variant_id": 919,
+     "sku": "077982",
+     "label": "0.5–2 kg",
+     "_size": "0.5–2 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 533
+     },
+     "axes": {
+      "pet-weight-range": "0.5–2 kg"
+     }
+    },
+    {
+     "from_product": 764,
+     "old_variant_id": 920,
+     "sku": "077992",
+     "label": "2–8 kg",
+     "_size": "2–8 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 533
+     },
+     "axes": {
+      "pet-weight-range": "2–8 kg"
+     }
+    },
+    {
+     "from_product": 765,
+     "old_variant_id": 921,
+     "sku": "078002",
+     "label": "8–16 kg",
+     "_size": "8–16 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 533
+     },
+     "axes": {
+      "pet-weight-range": "8–16 kg"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    787,
+    788,
+    789
+   ],
+   "target": 787,
+   "absorb": [
+    788,
+    789
+   ],
+   "name": "Combo Drops for Dogs",
+   "name_ru": "Комбо капли для собак",
+   "name_hy": "Կոմբո կաթիլներ շների համար",
+   "slug": "insectal-combo-drops-for-dogs",
+   "old_slug": "insectal-combo-drops-for-dogs-1-4-kg",
+   "brand_id": 25,
+   "brand": "Insectal",
+   "category_ids": [
+    42
+   ],
+   "attribute_family_id": 4,
+   "axis": [
+    "pet-weight-range"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 787,
+     "old_variant_id": 943,
+     "sku": "791852",
+     "label": "1–4 kg",
+     "_size": "1–4 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "1–4 kg"
+     }
+    },
+    {
+     "from_product": 788,
+     "old_variant_id": 944,
+     "sku": "791862",
+     "label": "4–10 kg",
+     "_size": "4–10 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "4–10 kg"
+     }
+    },
+    {
+     "from_product": 789,
+     "old_variant_id": 945,
+     "sku": "791872",
+     "label": "10–25 kg",
+     "_size": "10–25 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "10–25 kg"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    800,
+    801,
+    802
+   ],
+   "target": 800,
+   "absorb": [
+    801,
+    802
+   ],
+   "name": "BE NORDIC Bandana Collar",
+   "name_ru": "BE NORDIC ошейник-бандана",
+   "name_hy": "BE NORDIC վզկապ-բանդանա",
+   "slug": "trixie-be-nordic-bandana-collar",
+   "old_slug": "trixie-be-nordic-bandana-collar-s-30-cm-dark-blue",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 800,
+     "old_variant_id": 956,
+     "sku": "17321",
+     "label": "S: 30 cm, dark blue",
+     "_size": "S",
+     "_colour": "Dark Blue",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Dark Blue"
+     }
+    },
+    {
+     "from_product": 801,
+     "old_variant_id": 957,
+     "sku": "17333",
+     "label": "M: 40 cm, dark grey",
+     "_size": "M",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "M",
+      "color-family": "Grey"
+     }
+    },
+    {
+     "from_product": 802,
+     "old_variant_id": 958,
+     "sku": "17335",
+     "label": "L: 50 cm, dark grey",
+     "_size": "L",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "L",
+      "color-family": "Grey"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    826,
+    827,
+    828
+   ],
+   "target": 826,
+   "absorb": [
+    827,
+    828
+   ],
+   "name": "Stainless Steel Bowl, non-slip",
+   "name_ru": "Миска из нержавеющей стали",
+   "name_hy": "Չժանգոտվող պողպատե աման",
+   "slug": "trixie-stainless-steel-bowl-non-slip",
+   "old_slug": "trixie-stainless-steel-bowl-0-5-l-14-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.de page 1001441303 bullet 'non-slip due to rubber base'",
+   "variants": [
+    {
+     "from_product": 826,
+     "old_variant_id": 982,
+     "sku": "25071",
+     "label": "0.5 l/ø 14 cm",
+     "_size": "0.5 l/ø 14 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "0.5 l/ø 14 cm"
+     }
+    },
+    {
+     "from_product": 827,
+     "old_variant_id": 983,
+     "sku": "25073",
+     "label": "1.7 l/ø 21 cm",
+     "_size": "1.7 l/ø 21 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "1.7 l/ø 21 cm"
+     }
+    },
+    {
+     "from_product": 828,
+     "old_variant_id": 984,
+     "sku": "25074",
+     "label": "2.5 l/ø 24 cm",
+     "_size": "2.5 l/ø 24 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "2.5 l/ø 24 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    839,
+    840,
+    841
+   ],
+   "target": 839,
+   "absorb": [
+    840,
+    841
+   ],
+   "name": "Stainless Steel Bowl with Paw Prints and Rubber Base",
+   "name_ru": "Миска из нержавеющей стали с лапками на резиновой основе",
+   "name_hy": "Չժանգոտվող պողպատե աման թաթիկներով, ռետինե հիմքով",
+   "slug": "trixie-stainless-steel-bowl-with-paw-prints-and-rubber-base",
+   "old_slug": "trixie-stainless-steel-bowl-with-paw-prints-and-rubber-base-0-8-l-17-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 839,
+     "old_variant_id": 995,
+     "sku": "25243",
+     "label": "0.8 l/ø 17 cm",
+     "_size": "0.8 l/ø 17 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "0.8 l/ø 17 cm"
+     }
+    },
+    {
+     "from_product": 840,
+     "old_variant_id": 996,
+     "sku": "25244",
+     "label": "1.5 l/ø 21 cm",
+     "_size": "1.5 l/ø 21 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "1.5 l/ø 21 cm"
+     }
+    },
+    {
+     "from_product": 841,
+     "old_variant_id": 997,
+     "sku": "25245",
+     "label": "2.2 l/ø 23 cm",
+     "_size": "2.2 l/ø 23 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "2.2 l/ø 23 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    845,
+    846,
+    847
+   ],
+   "target": 845,
+   "absorb": [
+    846,
+    847
+   ],
+   "name": "Stainless Steel Bowl, varnished",
+   "name_ru": "Миска из нержавеющей стали",
+   "name_hy": "Չժանգոտվող պողպատե աման",
+   "slug": "trixie-stainless-steel-bowl-varnished",
+   "old_slug": "trixie-stainless-steel-bowl-500-ml-13-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.de page 1001441291 bullet 'varnished'",
+   "variants": [
+    {
+     "from_product": 845,
+     "old_variant_id": 1001,
+     "sku": "25271",
+     "label": "500 ml/ø 13 cm",
+     "_size": "500 ml/ø 13 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "500 ml/ø 13 cm"
+     }
+    },
+    {
+     "from_product": 846,
+     "old_variant_id": 1002,
+     "sku": "25272",
+     "label": "1.0 l/ø 15 cm",
+     "_size": "1.0 l/ø 15 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "1.0 l/ø 15 cm"
+     }
+    },
+    {
+     "from_product": 847,
+     "old_variant_id": 1003,
+     "sku": "25273",
+     "label": "2.0 l/ø 20 cm",
+     "_size": "2.0 l/ø 20 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "2.0 l/ø 20 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    909,
+    910,
+    911
+   ],
+   "target": 909,
+   "absorb": [
+    910,
+    911
+   ],
+   "name": "Diapers for Male Dogs",
+   "name_ru": "Подгузники для кобелей",
+   "name_hy": "Տակդիրներ արու շների համար",
+   "slug": "trixie-diapers-for-male-dogs",
+   "old_slug": "trixie-diapers-for-male-dogs-s-m-12-pcs",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    76
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 909,
+     "old_variant_id": 1067,
+     "sku": "23641",
+     "label": "S–M, 12 pcs.",
+     "_size": "S–M",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    },
+    {
+     "from_product": 910,
+     "old_variant_id": 1068,
+     "sku": "23642",
+     "label": "M–L, 12 pcs.",
+     "_size": "M–L",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    },
+    {
+     "from_product": 911,
+     "old_variant_id": 1069,
+     "sku": "23643",
+     "label": "L–XL, 12 pcs.",
+     "_size": "L–XL",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "L–XL"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    925,
+    926,
+    927
+   ],
+   "target": 925,
+   "absorb": [
+    926,
+    927
+   ],
+   "name": "Flash Light Collar, nylon",
+   "name_ru": "Flash светящийся ошейник, нейлон",
+   "name_hy": "Flash լուսավորվող վզկապ, նեյլոն",
+   "slug": "trixie-flash-light-collar-nylon",
+   "old_slug": "trixie-flash-light-collar-nylon-s-m-30-40-cm-25-mm-orange",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 925,
+     "old_variant_id": 1083,
+     "sku": "13062",
+     "label": "S–M: 30–40 cm/25 mm, orange",
+     "_size": "S–M",
+     "_colour": "Orange",
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    },
+    {
+     "from_product": 926,
+     "old_variant_id": 1084,
+     "sku": "13063",
+     "label": "M–L: 40–55 cm/25 mm, orange",
+     "_size": "M–L",
+     "_colour": "Orange",
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    },
+    {
+     "from_product": 927,
+     "old_variant_id": 1085,
+     "sku": "13064",
+     "label": "L–XL: 55–70 cm/25 mm, orange",
+     "_size": "L–XL",
+     "_colour": "Orange",
+     "existing": {},
+     "axes": {
+      "size": "L–XL"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    931,
+    932,
+    933
+   ],
+   "target": 931,
+   "absorb": [
+    932,
+    933
+   ],
+   "name": "Chain Lead with Neoprene Hand Loop",
+   "name_ru": "Поводок-цепь с неопреновой ручкой",
+   "name_hy": "Շղթայե ձգափոկ նեոպրենե բռնակով",
+   "slug": "trixie-chain-lead-with-neoprene-hand-loop",
+   "old_slug": "trixie-chain-lead-with-neoprene-hand-loop-xs-s-1-10-m-2-0-mm-black",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 931,
+     "old_variant_id": 1089,
+     "sku": "14011",
+     "label": "XS–S, 1.10 m/2.0 mm, black",
+     "_size": "XS–S",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 932,
+     "old_variant_id": 1090,
+     "sku": "14023",
+     "label": "M–L, 1.00 m/3.0 mm, red",
+     "_size": "M–L",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 933,
+     "old_variant_id": 1091,
+     "sku": "14031",
+     "label": "L–XL, 1.00 m/4.0 mm, black",
+     "_size": "L–XL",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "L–XL",
+      "color-family": "Black"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    934,
+    935,
+    936
+   ],
+   "target": 934,
+   "absorb": [
+    935,
+    936
+   ],
+   "name": "Comfort Soft Harness",
+   "name_ru": "Comfort Soft шлейка",
+   "name_hy": "Comfort Soft լանջափոկ",
+   "slug": "trixie-comfort-soft-harness",
+   "old_slug": "trixie-comfort-soft-harness-xxs-xs-28-40-cm-15-mm-fuchsia",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 934,
+     "old_variant_id": 1092,
+     "sku": "16258",
+     "label": "XXS–XS: 28–40 cm/15 mm, fuchsia",
+     "_size": "XXS–XS",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "XXS–XS",
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 935,
+     "old_variant_id": 1093,
+     "sku": "162735",
+     "label": "S: 33–50 cm/20 mm, blush",
+     "_size": "S",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 936,
+     "old_variant_id": 1094,
+     "sku": "16281",
+     "label": "S–M: 35–60 cm/20 mm, black",
+     "_size": "S–M",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Black"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    941,
+    942,
+    947
+   ],
+   "target": 941,
+   "absorb": [
+    942,
+    947
+   ],
+   "name": "Greased Leather Collar Rustic Heartbeat",
+   "name_ru": "Ошейник из жированной кожи Rustic Heartbeat",
+   "name_hy": "Յուղված կաշվե վզկապ Rustic Heartbeat",
+   "slug": "trixie-greased-leather-collar-rustic-heartbeat",
+   "old_slug": "trixie-greased-leather-collar-rustic-heartbeat-s-m-34-40-cm-30-mm-black",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 941,
+     "old_variant_id": 1099,
+     "sku": "18984",
+     "label": "S–M, 34–40 cm/30 mm, black",
+     "_size": "S–M",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 942,
+     "old_variant_id": 1100,
+     "sku": "18985",
+     "label": "M, 38–47 cm/40 mm, black",
+     "_size": "M",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "M",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 947,
+     "old_variant_id": 1105,
+     "sku": "19015",
+     "label": "M, 38–47 cm/40 mm, brown",
+     "_size": "M",
+     "_colour": "Brown",
+     "existing": {},
+     "axes": {
+      "size": "M",
+      "color-family": "Brown"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    948,
+    949,
+    950
+   ],
+   "target": 948,
+   "absorb": [
+    949,
+    950
+   ],
+   "name": "Active Comfort Leather Collar with Rhinestones",
+   "name_ru": "Active Comfort кожаный ошейник со стразами",
+   "name_hy": "Active Comfort կաշվե վզկապ քարիկներով",
+   "slug": "trixie-active-comfort-leather-collar-with-rhinestones",
+   "old_slug": "trixie-active-comfort-leather-collar-with-rhinestones-xs-s-20-24-cm-12-mm-white",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 948,
+     "old_variant_id": 1106,
+     "sku": "19021",
+     "label": "XS–S: 20–24 cm/12 mm, white",
+     "_size": "XS–S",
+     "_colour": "White",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "White"
+     }
+    },
+    {
+     "from_product": 949,
+     "old_variant_id": 1107,
+     "sku": "19030",
+     "label": "XXS–XS: 17–21 cm/12 mm, pink",
+     "_size": "XXS–XS",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "XXS–XS",
+      "color-family": "Pink"
+     }
+    },
+    {
+     "from_product": 950,
+     "old_variant_id": 1108,
+     "sku": "19033",
+     "label": "S–M: 27–33 cm/15 mm, pink",
+     "_size": "S–M",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Pink"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    957,
+    958,
+    959
+   ],
+   "target": 957,
+   "absorb": [
+    958,
+    959
+   ],
+   "name": "Soft Rope Lead",
+   "name_ru": "Мягкий верёвочный поводок",
+   "name_hy": "Փափուկ պարանե ձգափոկ",
+   "slug": "trixie-soft-rope-lead",
+   "old_slug": "trixie-soft-rope-lead-m-l-1-00-m-10-mm-black-grey",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 957,
+     "old_variant_id": 1115,
+     "sku": "1984001",
+     "label": "M–L, 1.00 m/ø 10 mm, black/grey",
+     "_size": "M–L",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 958,
+     "old_variant_id": 1116,
+     "sku": "1984003",
+     "label": "M–L, 1.00 m/ø 10 mm, red/cream",
+     "_size": "M–L",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Red"
+     }
+    },
+    {
+     "from_product": 959,
+     "old_variant_id": 1117,
+     "sku": "1985001",
+     "label": "XS–S, 1.20 m/ø 6 mm, black/grey",
+     "_size": "XS–S",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Black"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    1012,
+    1013,
+    1014
+   ],
+   "target": 1012,
+   "absorb": [
+    1013,
+    1014
+   ],
+   "name": "Semi-Choke Collar with Nylon Chain",
+   "name_ru": "Полуудавка с нейлоновой цепью",
+   "name_hy": "Կիսախեղդող վզկապ նեյլոնե շղթայով",
+   "slug": "trixie-semi-choke-collar-with-nylon-chain",
+   "old_slug": "trixie-semi-choke-collar-with-nylon-chain-s-m-30-40-cm-15-mm-orchid",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 1012,
+     "old_variant_id": 1170,
+     "sku": "202720",
+     "label": "S–M: 30–40 cm/15 mm, orchid",
+     "_size": "S–M",
+     "_colour": "Purple",
+     "existing": {},
+     "axes": {
+      "size": "S–M",
+      "color-family": "Purple"
+     }
+    },
+    {
+     "from_product": 1013,
+     "old_variant_id": 1171,
+     "sku": "202802",
+     "label": "M–L: 35–50 cm/20 mm, royal blue",
+     "_size": "M–L",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 1014,
+     "old_variant_id": 1172,
+     "sku": "202816",
+     "label": "M–L: 35–50 cm/20 mm, grey",
+     "_size": "M–L",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "M–L",
+      "color-family": "Grey"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    1016,
+    1017,
+    1019
+   ],
+   "target": 1016,
+   "absorb": [
+    1017,
+    1019
+   ],
+   "name": "Premium Touring Harness",
+   "name_ru": "Premium Touring шлейка",
+   "name_hy": "Premium Touring",
+   "slug": "trixie-premium-touring-harness",
+   "old_slug": "trixie-premium-touring-harness-xs-s-30-55-cm-15-mm-petrol",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 1016,
+     "old_variant_id": 1174,
+     "sku": "203632",
+     "label": "XS–S, 30–55 cm/15 mm, petrol",
+     "_size": "XS–S",
+     "_colour": "Teal",
+     "existing": {},
+     "axes": {
+      "size": "XS–S",
+      "color-family": "Teal"
+     }
+    },
+    {
+     "from_product": 1017,
+     "old_variant_id": 1175,
+     "sku": "203736",
+     "label": "S, 35–65 cm/20 mm, sand",
+     "_size": "S",
+     "_colour": "Beige",
+     "existing": {},
+     "axes": {
+      "size": "S",
+      "color-family": "Beige"
+     }
+    },
+    {
+     "from_product": 1019,
+     "old_variant_id": 1177,
+     "sku": "204102",
+     "label": "L, 60–100 cm/25 mm, royal blue",
+     "_size": "L",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "size": "L",
+      "color-family": "Blue"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    420,
+    446
+   ],
+   "target": 420,
+   "absorb": [
+    446
+   ],
+   "name": "Longie, latex/polyester fleece",
+   "name_ru": "Животные, латекс",
+   "name_hy": "Կենդանիներ, լատեքս",
+   "slug": "trixie-longie-latex-polyester-fleece",
+   "old_slug": "trixie-animals-latex-18-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    18
+   ],
+   "attribute_family_id": 5,
+   "axis": [
+    "toy-size"
+   ],
+   "why_name": "trixiecz pages for 35031/35061 name the line 'Longie, latex/polyester fleece … sorted'; 'Animals, latex' was an import guess",
+   "variants": [
+    {
+     "from_product": 420,
+     "old_variant_id": 527,
+     "sku": "35031",
+     "label": "18 cm",
+     "_size": "18 cm",
+     "_colour": null,
+     "existing": {
+      "toy-type": 193,
+      "material": 203,
+      "toy-size": 367
+     },
+     "axes": {
+      "toy-size": "18 cm"
+     }
+    },
+    {
+     "from_product": 446,
+     "old_variant_id": 553,
+     "sku": "35061",
+     "label": "30–32 cm",
+     "_size": "30–32 cm",
+     "_colour": null,
+     "existing": {
+      "toy-type": 193,
+      "material": 203,
+      "toy-size": 378
+     },
+     "axes": {
+      "toy-size": "30–32 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    430,
+    431
+   ],
+   "target": 430,
+   "absorb": [
+    431
+   ],
+   "name": "Scoop for Feed or Litter",
+   "name_ru": "Совок для корма или наполнителя",
+   "name_hy": "Շերեփ կերի կամ լցանյութի համար",
+   "slug": "trixie-scoop-for-feed-or-litter",
+   "old_slug": "trixie-scoop-for-feed-or-litter",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    67
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 430,
+     "old_variant_id": 537,
+     "sku": "4045",
+     "label": "S",
+     "_size": "S",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "S"
+     }
+    },
+    {
+     "from_product": 431,
+     "old_variant_id": 538,
+     "sku": "4046",
+     "label": "L",
+     "_size": "L",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "L"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    462,
+    463
+   ],
+   "target": 462,
+   "absorb": [
+    463
+   ],
+   "name": "Brush, wood, natural bristles",
+   "name_ru": "Щётка",
+   "name_hy": "Խոզանակ",
+   "slug": "trixie-brush-wood-natural-bristles",
+   "old_slug": "trixie-brush-wood-natural-bristles-5-18-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    28
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 462,
+     "old_variant_id": 569,
+     "sku": "2326",
+     "label": "5 × 18 cm",
+     "_size": "5 × 18 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "5 × 18 cm"
+     }
+    },
+    {
+     "from_product": 463,
+     "old_variant_id": 570,
+     "sku": "2327",
+     "label": "5 × 21 cm",
+     "_size": "5 × 21 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "5 × 21 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    470,
+    471
+   ],
+   "target": 470,
+   "absorb": [
+    471
+   ],
+   "name": "Soft Brush with Brush Cleaner, wooden handle",
+   "name_ru": "Мягкая щётка",
+   "name_hy": "Փափուկ խոզանակ",
+   "slug": "trixie-soft-brush-with-brush-cleaner-wooden-handle",
+   "old_slug": "trixie-soft-brush-6-13-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    28
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.de page for 2353/2354, bullets 'with brush cleaner', 'with wooden handle/metal'",
+   "variants": [
+    {
+     "from_product": 470,
+     "old_variant_id": 577,
+     "sku": "2353",
+     "label": "6 × 13 cm",
+     "_size": "6 × 13 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "6 × 13 cm"
+     }
+    },
+    {
+     "from_product": 471,
+     "old_variant_id": 578,
+     "sku": "2354",
+     "label": "9 × 13 cm",
+     "_size": "9 × 13 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "9 × 13 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    521,
+    522
+   ],
+   "target": 521,
+   "absorb": [
+    522
+   ],
+   "name": "Rolls with Chicken",
+   "name_ru": "Рулетики с курицей",
+   "name_hy": "Ռուլետիկներ հավով",
+   "slug": "trixie-rolls-with-chicken",
+   "old_slug": "trixie-rolls-with-chicken",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    85
+   ],
+   "attribute_family_id": 3,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 521,
+     "old_variant_id": 629,
+     "sku": "31327",
+     "label": "3 pcs./140 g",
+     "_size": "3 pcs./140 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 163,
+      "flavor": 36
+     },
+     "axes": {
+      "size": "3 pcs./140 g"
+     }
+    },
+    {
+     "from_product": 522,
+     "old_variant_id": 630,
+     "sku": "31346",
+     "label": "120 g",
+     "_size": "120 g",
+     "_colour": null,
+     "existing": {
+      "flavor": 36
+     },
+     "axes": {
+      "size": "120 g"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    530,
+    531
+   ],
+   "target": 530,
+   "absorb": [
+    531
+   ],
+   "name": "Rolls with Duck",
+   "name_ru": "Рулетики с уткой",
+   "name_hy": "Ռուլետիկներ բադով",
+   "slug": "trixie-rolls-with-duck",
+   "old_slug": "trixie-rolls-with-duck",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    85
+   ],
+   "attribute_family_id": 3,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 530,
+     "old_variant_id": 638,
+     "sku": "31371",
+     "label": "10 pcs./80 g",
+     "_size": "10 pcs./80 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 158,
+      "flavor": 42
+     },
+     "axes": {
+      "size": "10 pcs./80 g"
+     }
+    },
+    {
+     "from_product": 531,
+     "old_variant_id": 639,
+     "sku": "31347",
+     "label": "120 g",
+     "_size": "120 g",
+     "_colour": null,
+     "existing": {
+      "flavor": 42
+     },
+     "axes": {
+      "size": "120 g"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    595,
+    596
+   ],
+   "target": 595,
+   "absorb": [
+    596
+   ],
+   "name": "Simple'n'Clean Deodorising Spray",
+   "name_ru": "Simple'n'Clean дезодорирующий спрей",
+   "name_hy": "Simple'n'Clean հոտազերծող սփրեյ",
+   "slug": "trixie-simplenclean-deodorising-spray",
+   "old_slug": "trixie-simple-n-clean-deodorising-spray-175-ml",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    67
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "product-weight"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 595,
+     "old_variant_id": 703,
+     "sku": "4237",
+     "label": "175 ml",
+     "_size": "175 ml",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "product-weight": "175 ml"
+     }
+    },
+    {
+     "from_product": 596,
+     "old_variant_id": 704,
+     "sku": "42407",
+     "label": "750 ml",
+     "_size": "750 ml",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "product-weight": "750 ml"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    608,
+    609
+   ],
+   "target": 608,
+   "absorb": [
+    609
+   ],
+   "name": "Bathrobe",
+   "name_ru": "Халат",
+   "name_hy": "Խալաթ",
+   "slug": "trixie-bathrobe",
+   "old_slug": "trixie-bathrobe-xs-grey",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    30
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 608,
+     "old_variant_id": 716,
+     "sku": "23571",
+     "label": "XS, grey",
+     "_size": "XS",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "XS"
+     }
+    },
+    {
+     "from_product": 609,
+     "old_variant_id": 717,
+     "sku": "23572",
+     "label": "S, grey",
+     "_size": "S",
+     "_colour": "Grey",
+     "existing": {},
+     "axes": {
+      "size": "S"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    610,
+    611
+   ],
+   "target": 610,
+   "absorb": [
+    611
+   ],
+   "name": "Toothpaste",
+   "name_ru": "Зубная паста, 100 г, м",
+   "name_hy": "Ատամի մածուկ, 100 գ",
+   "slug": "trixie-toothpaste",
+   "old_slug": "trixie-toothpaste-100-g-tea-tree-oil",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    30
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "flavor"
+   ],
+   "why_name": "the two variants differ only in flavour",
+   "variants": [
+    {
+     "from_product": 610,
+     "old_variant_id": 718,
+     "sku": "2549",
+     "label": "100 g, Tea tree oil",
+     "_size": "Tea Tree Oil",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "flavor": "Tea Tree Oil"
+     }
+    },
+    {
+     "from_product": 611,
+     "old_variant_id": 719,
+     "sku": "2557",
+     "label": "100 g, Mint",
+     "_size": "Mint",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "flavor": "Mint"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    663,
+    664
+   ],
+   "target": 663,
+   "absorb": [
+    664
+   ],
+   "name": "Gran Bonta Chef Adult Dog",
+   "name_ru": "Gran Bonta Chef для взрослых собак",
+   "name_hy": "Gran Bonta Chef հասուն շների համար",
+   "slug": "monge-gran-bonta-chef-adult-dog",
+   "old_slug": "monge-gran-bonta-chef-adult-dog-meat-egg-cheese-415-g",
+   "brand_id": 5,
+   "brand": "Monge",
+   "category_ids": [
+    4
+   ],
+   "attribute_family_id": 2,
+   "axis": [],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 663,
+     "old_variant_id": 800,
+     "sku": "041787",
+     "label": "Meat, Egg & Cheese 415 g",
+     "_size": "Meat, Egg & Cheese 415 g",
+     "_colour": null,
+     "existing": {
+      "lifestage": 27,
+      "flavor": 160,
+      "packaging": 147
+     },
+     "fill": {
+      "product-weight": "415 g"
+     },
+     "axes": {
+      "product-weight": "415 g"
+     }
+    },
+    {
+     "from_product": 664,
+     "old_variant_id": 801,
+     "sku": "041887",
+     "label": "Beef 1230 g",
+     "_size": "Beef 1230 g",
+     "_colour": null,
+     "existing": {
+      "lifestage": 27,
+      "flavor": 37,
+      "packaging": 147
+     },
+     "fill": {
+      "product-weight": "1230 g"
+     },
+     "axes": {
+      "product-weight": "1230 g"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    713,
+    714
+   ],
+   "target": 713,
+   "absorb": [
+    714
+   ],
+   "name": "Fresh Adult Dog Paté",
+   "name_ru": "Fresh паштет для взрослых собак",
+   "name_hy": "Fresh պաշտետ հասուն շների համար",
+   "slug": "monge-fresh-adult-dog-pat",
+   "old_slug": "monge-fresh-adult-dog-pat",
+   "brand_id": 5,
+   "brand": "Monge",
+   "category_ids": [
+    4
+   ],
+   "attribute_family_id": 2,
+   "axis": [],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 713,
+     "old_variant_id": 862,
+     "sku": "013017",
+     "label": "Tuna 100 g",
+     "_size": "Tuna 100 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 2,
+      "lifestage": 27,
+      "flavor": 41,
+      "texture": 138,
+      "packaging": 148
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 713,
+     "old_variant_id": 863,
+     "sku": "013037",
+     "label": "Chicken with Vegetables 100 g",
+     "_size": "Chicken with Vegetables 100 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 2,
+      "lifestage": 27,
+      "flavor": 36,
+      "texture": 138,
+      "packaging": 148,
+      "ingredient": 461
+     },
+     "fill": {
+      "flavor": "Chicken and Vegetables"
+     },
+     "axes": {
+      "flavor": "Chicken and Vegetables"
+     }
+    },
+    {
+     "from_product": 713,
+     "old_variant_id": 864,
+     "sku": "013097",
+     "label": "Pork 100 g",
+     "_size": "Pork 100 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 2,
+      "lifestage": 27,
+      "flavor": 47,
+      "texture": 138,
+      "packaging": 148,
+      "ingredient": 482
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 713,
+     "old_variant_id": 865,
+     "sku": "013107",
+     "label": "Cod 100 g",
+     "_size": "Cod 100 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 2,
+      "lifestage": 27,
+      "flavor": 63,
+      "texture": 138,
+      "packaging": 148
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 714,
+     "old_variant_id": 866,
+     "sku": "013067",
+     "label": "Chicken 100 g",
+     "_size": "Chicken 100 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 2,
+      "lifestage": 27,
+      "flavor": 36,
+      "texture": 138,
+      "packaging": 148,
+      "ingredient": 461
+     },
+     "axes": {}
+    }
+   ]
+  },
+  {
+   "group": [
+    727,
+    728
+   ],
+   "target": 727,
+   "absorb": [
+    728
+   ],
+   "name": "Premium Adult Cat",
+   "name_ru": "Premium для взрослых кошек",
+   "name_hy": "Premium հասուն կատուների համար",
+   "slug": "club-4-paws-premium-adult-cat",
+   "old_slug": "club-4-paws-premium-adult-cat",
+   "brand_id": 17,
+   "brand": "Club 4 Paws",
+   "category_ids": [
+    11
+   ],
+   "attribute_family_id": 2,
+   "axis": [],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 727,
+     "old_variant_id": 879,
+     "sku": "142565",
+     "label": "Beef in Jelly 85 g",
+     "_size": "Beef in Jelly 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "flavor": 37,
+      "texture": 140,
+      "packaging": 148,
+      "ingredient": 450
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 727,
+     "old_variant_id": 880,
+     "sku": "142525",
+     "label": "Chicken in Gravy 85 g",
+     "_size": "Chicken in Gravy 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "flavor": 36,
+      "texture": 139,
+      "packaging": 148,
+      "ingredient": 461
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 727,
+     "old_variant_id": 881,
+     "sku": "142505",
+     "label": "Duck in Gravy 85 g",
+     "_size": "Duck in Gravy 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "flavor": 42,
+      "texture": 139,
+      "packaging": 148,
+      "ingredient": 469
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 727,
+     "old_variant_id": 882,
+     "sku": "142515",
+     "label": "Rabbit in Jelly 85 g",
+     "_size": "Rabbit in Jelly 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "flavor": 52,
+      "texture": 140,
+      "packaging": 148,
+      "ingredient": 485
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 727,
+     "old_variant_id": 883,
+     "sku": "142495",
+     "label": "Turkey in Jelly 85 g",
+     "_size": "Turkey in Jelly 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "flavor": 39,
+      "texture": 140,
+      "packaging": 148,
+      "ingredient": 495
+     },
+     "axes": {}
+    },
+    {
+     "from_product": 728,
+     "old_variant_id": 884,
+     "sku": "143015",
+     "label": "Veal in Gravy 85 g",
+     "_size": "Veal in Gravy 85 g",
+     "_colour": null,
+     "existing": {
+      "product-weight": 1,
+      "lifestage": 27,
+      "texture": 139,
+      "packaging": 148
+     },
+     "fill": {
+      "flavor": "Veal",
+      "texture": "Chunks in Gravy"
+     },
+     "axes": {
+      "flavor": "Veal",
+      "texture": "Chunks in Gravy"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    756,
+    757
+   ],
+   "target": 756,
+   "absorb": [
+    757
+   ],
+   "name": "Quadro Drops for Cats",
+   "name_ru": "Quadro капли для кошек",
+   "name_hy": "Quadro կաթիլներ կատուների համար",
+   "slug": "inspector-quadro-drops-for-cats",
+   "old_slug": "inspector-quadro-drops-for-cats-1-4-kg",
+   "brand_id": 23,
+   "brand": "Inspector",
+   "category_ids": [
+    51
+   ],
+   "attribute_family_id": 4,
+   "axis": [
+    "pet-weight-range"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 756,
+     "old_variant_id": 912,
+     "sku": "077562",
+     "label": "1–4 kg",
+     "_size": "1–4 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "1–4 kg"
+     }
+    },
+    {
+     "from_product": 757,
+     "old_variant_id": 913,
+     "sku": "077572",
+     "label": "4–8 kg",
+     "_size": "4–8 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "4–8 kg"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    758,
+    759
+   ],
+   "target": 758,
+   "absorb": [
+    759
+   ],
+   "name": "Quadro Drops for Dogs",
+   "name_ru": "Quadro капли для собак",
+   "name_hy": "Quadro կաթիլներ շների համար",
+   "slug": "inspector-quadro-drops-for-dogs",
+   "old_slug": "inspector-quadro-drops-for-dogs-1-4-kg",
+   "brand_id": 23,
+   "brand": "Inspector",
+   "category_ids": [
+    42
+   ],
+   "attribute_family_id": 4,
+   "axis": [
+    "pet-weight-range"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 758,
+     "old_variant_id": 914,
+     "sku": "077592",
+     "label": "1–4 kg",
+     "_size": "1–4 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "1–4 kg"
+     }
+    },
+    {
+     "from_product": 759,
+     "old_variant_id": 915,
+     "sku": "077602",
+     "label": "4–10 kg",
+     "_size": "4–10 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "4–10 kg"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    785,
+    786
+   ],
+   "target": 785,
+   "absorb": [
+    786
+   ],
+   "name": "Combo Drops for Cats",
+   "name_ru": "Комбо капли для кошек",
+   "name_hy": "Կոմբո կաթիլներ կատուների համար",
+   "slug": "insectal-combo-drops-for-cats",
+   "old_slug": "insectal-combo-drops-for-cats-1-4-kg",
+   "brand_id": 25,
+   "brand": "Insectal",
+   "category_ids": [
+    51
+   ],
+   "attribute_family_id": 4,
+   "axis": [
+    "pet-weight-range"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 785,
+     "old_variant_id": 941,
+     "sku": "791832",
+     "label": "1–4 kg",
+     "_size": "1–4 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "1–4 kg"
+     }
+    },
+    {
+     "from_product": 786,
+     "old_variant_id": 942,
+     "sku": "791842",
+     "label": "4–8 kg",
+     "_size": "4–8 kg",
+     "_colour": null,
+     "existing": {
+      "health-feature": 407,
+      "product-form": 529
+     },
+     "axes": {
+      "pet-weight-range": "4–8 kg"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    796,
+    797
+   ],
+   "target": 796,
+   "absorb": [
+    797
+   ],
+   "name": "SMART Clumping Plant-Based Cat Litter",
+   "name_ru": "SMART растительный комкующийся наполнитель для кошек",
+   "name_hy": "SMART բուսական գնդվող լցանյութ կատուների համար",
+   "slug": "ok-lock-smart-clumping-plant-based-cat-litter",
+   "old_slug": "ok-lock-smart-clumping-plant-based-cat-litter-5-l",
+   "brand_id": 16,
+   "brand": "Ok-Lock",
+   "category_ids": [
+    60
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "product-weight"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 796,
+     "old_variant_id": 952,
+     "sku": "1101413",
+     "label": "5 l",
+     "_size": "5 l",
+     "_colour": null,
+     "existing": {
+      "product-weight": 190
+     },
+     "axes": {
+      "product-weight": "5 l"
+     }
+    },
+    {
+     "from_product": 797,
+     "old_variant_id": 953,
+     "sku": "1101213",
+     "label": "11 l",
+     "_size": "11 l",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "product-weight": "11 l"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    823,
+    824
+   ],
+   "target": 823,
+   "absorb": [
+    824
+   ],
+   "name": "Slow Feeding Plastic Bowl",
+   "name_ru": "Пластиковая миска для медленного кормления",
+   "name_hy": "Պլաստիկ աման դանդաղ կերակրման համար",
+   "slug": "trixie-slow-feeding-plastic-bowl",
+   "old_slug": "trixie-slow-feeding-plastic-bowl-0-3-l-16-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 823,
+     "old_variant_id": 979,
+     "sku": "25026",
+     "label": "0.3 l/ø 16 cm",
+     "_size": "0.3 l/ø 16 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "0.3 l/ø 16 cm"
+     }
+    },
+    {
+     "from_product": 824,
+     "old_variant_id": 980,
+     "sku": "25028",
+     "label": "1.4 l/ø 25 cm",
+     "_size": "1.4 l/ø 25 cm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "1.4 l/ø 25 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    833,
+    834
+   ],
+   "target": 833,
+   "absorb": [
+    834
+   ],
+   "name": "Melamine Bowl with Rubber Base",
+   "name_ru": "Меламиновая миска на резиновой основе, 0,2",
+   "name_hy": "Մելամինե աման ռետինե հիմքով, 0,2",
+   "slug": "trixie-melamine-bowl-with-rubber-base",
+   "old_slug": "trixie-melamine-bowl-with-rubber-base-0-2-l-14-cm-white",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 833,
+     "old_variant_id": 989,
+     "sku": "25180",
+     "label": "0.2 l/ø 14 cm, white",
+     "_size": "0.2 l/ø 14 cm",
+     "_colour": "White",
+     "existing": {},
+     "axes": {
+      "size": "0.2 l/ø 14 cm"
+     }
+    },
+    {
+     "from_product": 834,
+     "old_variant_id": 990,
+     "sku": "25189",
+     "label": "0.25 l/ø 17 cm, white",
+     "_size": "0.25 l/ø 17 cm",
+     "_colour": "White",
+     "existing": {},
+     "axes": {
+      "size": "0.25 l/ø 17 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    836,
+    837
+   ],
+   "target": 836,
+   "absorb": [
+    837
+   ],
+   "name": "Bowl, enamel/stainless steel",
+   "name_ru": "Миска, эмаль/нержавеющая сталь",
+   "name_hy": "Աման, էմալ/չժանգոտվող պողպատ",
+   "slug": "trixie-bowl-enamel-stainless-steel",
+   "old_slug": "trixie-bowl-enamel-stainless-steel-0-9-l-17-cm-green",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    70
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 836,
+     "old_variant_id": 992,
+     "sku": "25212",
+     "label": "0.9 l/ø 17 cm, green",
+     "_size": "0.9 l/ø 17 cm",
+     "_colour": "Green",
+     "existing": {},
+     "axes": {
+      "size": "0.9 l/ø 17 cm"
+     }
+    },
+    {
+     "from_product": 837,
+     "old_variant_id": 993,
+     "sku": "25213",
+     "label": "1.9 l/ø 21 cm, green",
+     "_size": "1.9 l/ø 21 cm",
+     "_colour": "Green",
+     "existing": {},
+     "axes": {
+      "size": "1.9 l/ø 21 cm"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    848,
+    849
+   ],
+   "target": 848,
+   "absorb": [
+    849
+   ],
+   "name": "I.D. Tag",
+   "name_ru": "Адресник",
+   "name_hy": "Հասցեատեր",
+   "slug": "trixie-i-d-tag",
+   "old_slug": "trixie-i-d-tag-gold",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 848,
+     "old_variant_id": 1004,
+     "sku": "2278",
+     "label": "gold",
+     "_size": "",
+     "_colour": "Gold",
+     "existing": {},
+     "axes": {
+      "color-family": "Gold"
+     }
+    },
+    {
+     "from_product": 849,
+     "old_variant_id": 1005,
+     "sku": "2280",
+     "label": "chrome",
+     "_size": "",
+     "_colour": "Silver",
+     "existing": {},
+     "axes": {
+      "color-family": "Silver"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    865,
+    889
+   ],
+   "target": 865,
+   "absorb": [
+    889
+   ],
+   "name": "Dog Poop Bags with Scent",
+   "name_ru": "Ароматизированные пакеты для собачьих отходов, 4 × 20 шт., аромат",
+   "name_hy": "Բուրավետ տոպրակներ շան աղբի համար, 4 × 20 հատ",
+   "slug": "trixie-dog-poop-bags-with-scent",
+   "old_slug": "trixie-dog-poop-bags-with-scent-4-20-bags-lavender-scent-purple",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    77
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size",
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 865,
+     "old_variant_id": 1021,
+     "sku": "22839",
+     "label": "4 × 20 bags, lavender scent, purple",
+     "_size": "4 × 20 bags, lavender scent",
+     "_colour": "Purple",
+     "existing": {},
+     "axes": {
+      "size": "4 × 20 bags, lavender scent",
+      "color-family": "Purple"
+     }
+    },
+    {
+     "from_product": 889,
+     "old_variant_id": 1047,
+     "sku": "23475",
+     "label": "4 × 20 bags, rose scent, pink",
+     "_size": "4 × 20 bags, rose scent",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "size": "4 × 20 bags, rose scent",
+      "color-family": "Pink"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    866,
+    867
+   ],
+   "target": 866,
+   "absorb": [
+    867
+   ],
+   "name": "Dog Poop Bags",
+   "name_ru": "Пакеты для собачьих отходов",
+   "name_hy": "Տոպրակներ շան աղբի համար",
+   "slug": "trixie-dog-poop-bags",
+   "old_slug": "trixie-dog-poop-bags-4-20-bags-sorted",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    77
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 866,
+     "old_variant_id": 1022,
+     "sku": "22840",
+     "label": "4 × 20 bags, sorted",
+     "_size": "4 × 20 bags",
+     "_colour": "Color Varies",
+     "existing": {},
+     "axes": {
+      "size": "4 × 20 bags"
+     }
+    },
+    {
+     "from_product": 867,
+     "old_variant_id": 1023,
+     "sku": "22844",
+     "label": "8 × 20 bags, sorted",
+     "_size": "8 × 20 bags",
+     "_colour": "Color Varies",
+     "existing": {},
+     "axes": {
+      "size": "8 × 20 bags"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    883,
+    884
+   ],
+   "target": 883,
+   "absorb": [
+    884
+   ],
+   "name": "Protective Pants, mesh",
+   "name_ru": "Защитные трусы, сетка, S",
+   "name_hy": "Պաշտպանիչ կիսավարտիք, ցանց, S",
+   "slug": "trixie-protective-pants-mesh",
+   "old_slug": "trixie-protective-pants-mesh-s-30-37-cm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    76
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 883,
+     "old_variant_id": 1041,
+     "sku": "23241",
+     "label": "S: 30–37 cm",
+     "_size": "S",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "S"
+     }
+    },
+    {
+     "from_product": 884,
+     "old_variant_id": 1042,
+     "sku": "23242",
+     "label": "S–M: 35–43 cm",
+     "_size": "S–M",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    891,
+    892
+   ],
+   "target": 891,
+   "absorb": [
+    892
+   ],
+   "name": "Pads for Protective Pants",
+   "name_ru": "Прокладки для защитных трусов",
+   "name_hy": "Միջադիրներ պաշտպանիչ կիսավարտիքի համար",
+   "slug": "trixie-pads-for-protective-pants",
+   "old_slug": "trixie-pads-for-protective-pants-xs-s-s-m-10-pcs",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    76
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 891,
+     "old_variant_id": 1049,
+     "sku": "23496",
+     "label": "XS, S, S–M, 10 pcs.",
+     "_size": "XS, S, S–M",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "XS, S, S–M"
+     }
+    },
+    {
+     "from_product": 892,
+     "old_variant_id": 1050,
+     "sku": "23497",
+     "label": "M, 10 pcs.",
+     "_size": "M",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "M"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    904,
+    905
+   ],
+   "target": 904,
+   "absorb": [
+    905
+   ],
+   "name": "Hygiene Pad Nappy",
+   "name_ru": "Гигиенические пелёнки-подгузники",
+   "name_hy": "Հիգիենիկ տակդիրներ",
+   "slug": "trixie-hygiene-pad-nappy",
+   "old_slug": "trixie-hygiene-pad-nappy-7-pcs",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    76
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 904,
+     "old_variant_id": 1062,
+     "sku": "23410",
+     "label": "7 pcs.",
+     "_size": "7 pcs.",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "7 pcs."
+     }
+    },
+    {
+     "from_product": 905,
+     "old_variant_id": 1063,
+     "sku": "23413",
+     "label": "8 pcs.",
+     "_size": "8 pcs.",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "8 pcs."
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    907,
+    908
+   ],
+   "target": 907,
+   "absorb": [
+    908
+   ],
+   "name": "Diapers for Female Dogs",
+   "name_ru": "Подгузники для сук",
+   "name_hy": "Տակդիրներ էգ շների համար",
+   "slug": "trixie-diapers-for-female-dogs",
+   "old_slug": "trixie-diapers-for-female-dogs-xs-s-12-pcs",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    76
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 907,
+     "old_variant_id": 1065,
+     "sku": "23631",
+     "label": "XS–S, 12 pcs.",
+     "_size": "XS–S",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "XS–S"
+     }
+    },
+    {
+     "from_product": 908,
+     "old_variant_id": 1066,
+     "sku": "23634",
+     "label": "M–L, 12 pcs.",
+     "_size": "M–L",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    920,
+    921
+   ],
+   "target": 920,
+   "absorb": [
+    921
+   ],
+   "name": "Silver Reflect Collar",
+   "name_ru": "Silver Reflect ошейник",
+   "name_hy": "Silver Reflect վզկապ",
+   "slug": "trixie-silver-reflect-collar",
+   "old_slug": "trixie-silver-reflect-collar-s-m-30-45-cm-15-mm-black-silver-grey",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 920,
+     "old_variant_id": 1078,
+     "sku": "12222",
+     "label": "S–M, 30–45 cm/15 mm, black/silver grey",
+     "_size": "S–M",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "S–M"
+     }
+    },
+    {
+     "from_product": 921,
+     "old_variant_id": 1079,
+     "sku": "12223",
+     "label": "M–L, 35–55 cm/20 mm, black/silver grey",
+     "_size": "M–L",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    929,
+    930
+   ],
+   "target": 929,
+   "absorb": [
+    930
+   ],
+   "name": "Easy Flash USB Light Collar, silicone",
+   "name_ru": "Easy Flash USB светящийся ошейник, силикон, L–XL: 40–65 см/25 мм, неоново",
+   "name_hy": "Easy Flash USB լուսավորվող վզկապ, սիլիկոն, L–XL: 40–65 սմ/25 մմ, նեոն",
+   "slug": "trixie-easy-flash-usb-light-collar-silicone",
+   "old_slug": "trixie-easy-flash-usb-light-collar-silicone-l-xl-40-65-cm-25-mm-neon-blue",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 929,
+     "old_variant_id": 1087,
+     "sku": "13314",
+     "label": "L–XL: 40–65 cm/25 mm, neon blue",
+     "_size": "L–XL: 40–65 cm/25 mm",
+     "_colour": "Blue",
+     "existing": {},
+     "axes": {
+      "color-family": "Blue"
+     }
+    },
+    {
+     "from_product": 930,
+     "old_variant_id": 1088,
+     "sku": "13319",
+     "label": "L–XL: 40–65 cm/25 mm, neon pink",
+     "_size": "L–XL: 40–65 cm/25 mm",
+     "_colour": "Pink",
+     "existing": {},
+     "axes": {
+      "color-family": "Pink"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    937,
+    939
+   ],
+   "target": 937,
+   "absorb": [
+    939
+   ],
+   "name": "BE NORDIC Leather Collar with Metal Buckle",
+   "name_ru": "BE NORDIC кожаный ошейник с металлической пряжкой",
+   "name_hy": "BE NORDIC կաշվե վզկապ մետաղյա ճարմանդով",
+   "slug": "trixie-be-nordic-leather-collar-with-metal-buckle",
+   "old_slug": "trixie-be-nordic-leather-collar-with-metal-buckle-xs-s-30-36-cm-15-mm-sand",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 937,
+     "old_variant_id": 1095,
+     "sku": "17501",
+     "label": "XS–S: 30–36 cm/15 mm, sand",
+     "_size": "XS–S",
+     "_colour": "Beige",
+     "existing": {},
+     "axes": {
+      "size": "XS–S"
+     }
+    },
+    {
+     "from_product": 939,
+     "old_variant_id": 1097,
+     "sku": "17531",
+     "label": "M: 45–51 cm/20 mm, sand",
+     "_size": "M",
+     "_colour": "Beige",
+     "existing": {},
+     "axes": {
+      "size": "M"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    952,
+    953
+   ],
+   "target": 952,
+   "absorb": [
+    953
+   ],
+   "name": "CityStyle Collar",
+   "name_ru": "CityStyle ошейник",
+   "name_hy": "CityStyle վզկապ",
+   "slug": "trixie-citystyle-collar",
+   "old_slug": "trixie-citystyle-collar-m-l-40-47-cm-25-mm-black",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 952,
+     "old_variant_id": 1110,
+     "sku": "1971601",
+     "label": "M–L, 40–47 cm/25 mm, black",
+     "_size": "M–L",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "M–L"
+     }
+    },
+    {
+     "from_product": 953,
+     "old_variant_id": 1111,
+     "sku": "1971901",
+     "label": "XS–S, 25–32 cm/20 mm, black",
+     "_size": "XS–S",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "size": "XS–S"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    1010,
+    1011
+   ],
+   "target": 1010,
+   "absorb": [
+    1011
+   ],
+   "name": "Premium Semi-Choke Collar",
+   "name_ru": "Premium полуудавка, S–M, 30–40 см/15 мм",
+   "name_hy": "Premium կիսախեղդող վզկապ, S–M, 30–40 սմ/15 մմ",
+   "slug": "trixie-premium-semi-choke-collar",
+   "old_slug": "trixie-premium-semi-choke-collar-s-m-30-40-cm-15-mm-black",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "color-family"
+   ],
+   "why_name": null,
+   "variants": [
+    {
+     "from_product": 1010,
+     "old_variant_id": 1168,
+     "sku": "202701",
+     "label": "S–M, 30–40 cm/15 mm, black",
+     "_size": "S–M, 30–40 cm/15 mm",
+     "_colour": "Black",
+     "existing": {},
+     "axes": {
+      "color-family": "Black"
+     }
+    },
+    {
+     "from_product": 1011,
+     "old_variant_id": 1169,
+     "sku": "202703",
+     "label": "S–M, 30–40 cm/15 mm, red",
+     "_size": "S–M, 30–40 cm/15 mm",
+     "_colour": "Red",
+     "existing": {},
+     "axes": {
+      "color-family": "Red"
+     }
+    }
+   ]
+  },
+  {
+   "group": [
+    1020,
+    1022
+   ],
+   "target": 1020,
+   "absorb": [
+    1022
+   ],
+   "name": "Chain Collar, chrome-plated",
+   "name_ru": "Цепь",
+   "name_hy": null,
+   "slug": "trixie-chain-collar-chrome-plated",
+   "old_slug": "trixie-chain-collar-chrome-plated-70-cm-4-mm",
+   "brand_id": 8,
+   "brand": "Trixie",
+   "category_ids": [
+    69
+   ],
+   "attribute_family_id": null,
+   "axis": [
+    "size"
+   ],
+   "why_name": "trixie.shop 'Kettenhalsband' carries 2154 (XL, 70 cm) and 2155 (XXL, 78 cm) as two sizes of one product",
+   "variants": [
+    {
+     "from_product": 1020,
+     "old_variant_id": 1178,
+     "sku": "2154",
+     "label": "70 cm/4 mm",
+     "_size": "70 cm/4 mm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "70 cm/4 mm"
+     }
+    },
+    {
+     "from_product": 1022,
+     "old_variant_id": 1180,
+     "sku": "2155",
+     "label": "78 cm/4 mm",
+     "_size": "78 cm/4 mm",
+     "_colour": null,
+     "existing": {},
+     "axes": {
+      "size": "78 cm/4 mm"
+     }
+    }
+   ]
+  }
+ ],
+ "missing_values": {
+  "flavor": [
+   "Chicken and Vegetables",
+   "Tea Tree Oil",
+   "Trout",
+   "Veal"
+  ],
+  "pet-weight-range": [
+   "0.5–2 kg",
+   "10–25 kg",
+   "1–4 kg",
+   "2–8 kg",
+   "4–10 kg",
+   "4–8 kg",
+   "8–16 kg"
+  ],
+  "product-weight": [
+   "11 l",
+   "175 ml",
+   "750 ml"
+  ],
+  "size": [
+   "0.2 l/ø 14 cm",
+   "0.2 l/ø 15 cm",
+   "0.25 l/ø 17 cm",
+   "0.3 l/ø 16 cm",
+   "0.45 l/ø 19 cm",
+   "0.5 l/ø 14 cm",
+   "0.7 l/ø 21 cm",
+   "0.8 l/ø 17 cm",
+   "0.9 l/ø 17 cm",
+   "0.9 l/ø 23 cm",
+   "1.0 l/ø 15 cm",
+   "1.4 l/ø 25 cm",
+   "1.5 l/ø 21 cm",
+   "1.7 l/ø 21 cm",
+   "1.75 l/ø 30 cm",
+   "1.9 l/ø 21 cm",
+   "10 pcs./80 g",
+   "12 × 15 cm",
+   "12 × 16 cm",
+   "120 g",
+   "140 g",
+   "2 pcs./70 g",
+   "2 × 60 g",
+   "2.0 l/ø 20 cm",
+   "2.2 l/ø 23 cm",
+   "2.5 l/ø 24 cm",
+   "2.7 l/ø 32 cm",
+   "200 g",
+   "3 pcs./140 g",
+   "4 × 20 bags",
+   "4 × 20 bags, lavender scent",
+   "4 × 20 bags, rose scent",
+   "5 pcs./70 g",
+   "5 × 18 cm",
+   "5 × 21 cm",
+   "500 ml/ø 13 cm",
+   "6 × 13 cm",
+   "7 pcs.",
+   "7 × 16 cm",
+   "70 cm/4 mm",
+   "70 g",
+   "78 cm/4 mm",
+   "8 pcs.",
+   "8 × 20 bags",
+   "9 × 13 cm",
+   "9 × 15 cm",
+   "9 × 16 cm",
+   "L",
+   "L–XL",
+   "M",
+   "M, with mesh",
+   "M–L",
+   "S",
+   "S–M",
+   "XL",
+   "XS",
+   "XS, S, S–M",
+   "XS–S",
+   "XXS–XS"
+  ],
+  "toy-size": [
+   "30–32 cm",
+   "37 cm"
+  ]
+ }
+}

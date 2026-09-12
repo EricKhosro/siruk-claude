@@ -17,9 +17,10 @@ Relief 45/54 · Heartworm & Dewormers 46 (dog only) · Pharmacy & Prescriptions
 47/55 · Anxiety & Calming Care 48/56 · Urinary Tract & Kidneys 57 (cat only)
 · Test Kits 49/58. A product for both species goes in both leaves (the mirror
 leaf in each tree — never a parent, which rolls its children up anyway).
-**An oral dewormer takes two dog leaves: 46 Heartworm & Dewormers + 47
-Pharmacy & Prescriptions** (the pattern on Inspector Quadro Tabs 763–765 and
-Gelmintal 779–780), plus 55 when it is also for cats.
+**Cat has no dewormer leaf**, so a cat dewormer goes in 55 Pharmacy &
+Prescriptions and a **dual-species dewormer is 46 + 55** (Inspector Quadro
+Tabs 763–765, Gelmintal 779–780). A dog-only dewormer is just 46 — do **not**
+also add 47, which holds only first-aid and SexControl.
 Family **4 Supplements**: food-form, product-weight,
 lifestage, health-feature, packaging, product-form, active-ingredient,
 special-diet, flavor, breed-size, material.

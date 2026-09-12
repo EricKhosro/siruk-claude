@@ -22,8 +22,9 @@ Rules, each needing evidence from the product's own stored text:
 
   dual-species  the pack/brand text says it is for dogs AND cats
                 -> add the MIRROR leaf in the other species' tree
-  dewormer      an oral antiparasitic sitting in 46 Heartworm & Dewormers
-                -> add 47 Pharmacy & Prescriptions (and 55 if dual-species)
+  (a dual-species dewormer therefore becomes 46 + 55: Cat has no dewormer
+   leaf, so 46 mirrors to 55 Pharmacy & Prescriptions -- which is exactly how
+   Inspector Quadro Tabs 763-765 and Gelmintal 779-780 are already filed.)
   vet-diet      a stated clinical indication on a food
                 -> add 5 Health Condition (dog; cat has no such leaf)
 
@@ -73,22 +74,43 @@ MIRROR = {
     77: None, 78: None, 81: None, 17: None, 18: None, 19: None, 20: None,
     21: None, 23: None, 24: None, 25: None, 93: None, 94: None,
 }
-DOG_LEAVES = {3,4,5,7,17,18,19,20,21,22,28,29,30,31,32,33,42,43,44,45,46,47,48,
-              49,69,70,71,72,73,74,76,77,78,82,83,84,85,86,87,88}
-
-# "for dogs and cats" in any of the wordings the brand pages actually use.
+# The dual-species claim must be a SUITABILITY claim about this product, not
+# brand boilerplate. Every real hit in the catalogue reads "for dogs and cats",
+# "for dogs, cats and other small animals", "designed for ... dogs and cats" or
+# "cleaning of the ears of dogs and cats" -- anchored by for/of/on/with, and
+# always PLURAL. Acana's range blurb "help your dog and cat live a full and
+# healthy life" is the shape to reject, so "your" is excluded and the singular
+# is not accepted (found on 988/993/1000, 2026-09-12).
+SPECIES = r"(?:dogs|puppies)\s*(?:,|and|&|/|\+)\s*(?:cats|kittens)" \
+          r"|(?:cats|kittens)\s*(?:,|and|&|/|\+)\s*(?:dogs|puppies)"
 DUAL = re.compile(
-    r"\bfor (?:both )?(?:dogs?|puppies)\s*(?:,|and|&|/|\+)\s*(?:cats?|kittens?)\b"
-    r"|\bfor (?:both )?(?:cats?|kittens?)\s*(?:,|and|&|/|\+)\s*(?:dogs?|puppies)\b"
-    r"|\b(?:dogs?|puppies)\s*(?:and|&|/)\s*(?:cats?|kittens?)\b"
-    r"|\b(?:cats?|kittens?)\s*(?:and|&|/)\s*(?:dogs?|puppies)\b"
-    r"|\bshn?/kat\b|\bշն\s*/\s*կատ\b|\bշների և կատուների\b",
+    r"\b(?:for|of|on|with|suits?|suitable for)\s+"
+    r"(?!your\b)(?:(?!your\b)[a-z][a-z-]*\s+){0,4}"
+    r"(?:both\s+)?(?:" + SPECIES + r")\b"
+    r"|\bշների և կատուների\b|\bշն\s*/\s*կատ\b|\bշն/կատ\b",
     re.I)
 # A dog-only or cat-only statement that would contradict a loose DUAL hit.
 VET = re.compile(r"vetsolution|veterinary diet|dietetic|clinical|"
                  r"prescription diet", re.I)
-WORMER = re.compile(r"\b(dewormer|anthelmintic|antiparasitic|wormer|"
-                    r"praziquantel|pyrantel|milbemycin|helminth)\b", re.I)
+
+
+def load_tree():
+    """{leaf id -> 'Dog'|'Cat'} and {id -> name}, read from the live tree."""
+    out = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET",
+                          "/categories?forProducts=true"],
+                         capture_output=True, text=True, cwd=ROOT, timeout=180).stdout
+    data = json.loads(out[out.index("{"):])["data"]
+    sp, nm = {}, {}
+    def walk(nodes, top):
+        for n in nodes:
+            sp[n["id"]] = top; nm[n["id"]] = n["name"]
+            walk(n.get("children") or [], top)
+    for t in data:
+        walk([t], t["name"])
+    return sp, nm
+
+
+SPECIES_OF, LEAF_NAME = {}, {}
 
 
 def api(method, path, payload=None):
@@ -117,20 +139,28 @@ def plan_for(d, inv):
 
     m = DUAL.search(t) or DUAL.search(arm)
     if m:
+        # Which species trees is it already shelved in? A product already on
+        # both sides needs nothing -- Inspector Quadro Tabs are 46 (dog
+        # dewormer) + 55 (cat pharmacy) and must NOT also collect 47.
+        have = {SPECIES_OF.get(c) for c in cur} - {None}
         for c in sorted(cur):
             mir = MIRROR.get(c, "unknown")
             if mir is None:
-                gaps.append(f"leaf {c} has no mirror in the other tree")
+                gaps.append(f"leaf {c} ({LEAF_NAME.get(c,'?')}) has no counterpart in the other tree")
             elif mir == "unknown":
                 gaps.append(f"leaf {c} not in the mirror map")
+            elif SPECIES_OF.get(mir) in have:
+                pass                       # that species is already covered
             elif mir not in cur:
                 add.add(mir)
-                reasons.append(f"dual-species ({c}->{mir}): '{m.group(0).strip()[:48]}'")
+                reasons.append(f"dual-species ({c} {LEAF_NAME.get(c,'?')} -> "
+                               f"{mir} {LEAF_NAME.get(mir,'?')}): '{m.group(0).strip()[:52]}'")
 
-    if 46 in cur and 47 not in cur:
-        add.add(47); reasons.append("dewormer in 46 -> also 47 Pharmacy & Prescriptions")
-    if WORMER.search(t) and cur & {46, 47} and 46 in DOG_LEAVES and 46 not in cur:
-        pass  # only ever ADD the pharmacy side, never reclassify
+    # NOTE: there is deliberately no "dewormer also goes in 47" rule. Checked
+    # 2026-09-12: 46 holds 12 dewormers, 55 holds the cat ones (Cat has no
+    # dewormer leaf) and 47 holds only the First Aid Kit and SexControl. The
+    # dual-species dewormers are 46+55, which the mirror rule above already
+    # produces -- 46+47 was never a convention here.
 
     mv = VET.search(t)
     if mv and cur & {3, 4} and 5 not in cur:
@@ -144,6 +174,8 @@ def plan_for(d, inv):
 
 def main():
     apply = "--apply" in sys.argv
+    global SPECIES_OF, LEAF_NAME
+    SPECIES_OF, LEAF_NAME = load_tree()
     det = [json.loads(l) for l in open(os.path.join(CACHE, "detail.ndjson"))]
     inv = {}
     tp = os.path.join(ROOT, ".siruk-cache", "trixie-plan.json")

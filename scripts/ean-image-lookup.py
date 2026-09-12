@@ -13,6 +13,15 @@ so a hit is keyed to our own hafo row's barcode, not to a name. The product slug
 comes back too, so the identification can be checked in words before anything is
 written. Photos are TRIXIE's own, unwatermarked.
 
+Carrefour ES publishes the same kind of file without a search at all: its
+catalogue bucket is addressed BY the EAN, so the url can simply be constructed —
+
+    …/catalog-pictures-carrefour-es/catalog/pictures/original/<ean>_1.jpg
+
+`original/` is the full-resolution file (hd_510x_ is the 510 px rendition the
+site shows). Both shops name the file after the barcode of the article, which is
+the key rule 7 asks for; both serve the brand's own photo, unwatermarked.
+
     scripts/ean-image-lookup.py <ean> [...]
     scripts/ean-image-lookup.py --from .siruk-cache/gap-barcodes.json --out out.json
 """
@@ -21,12 +30,27 @@ import json, re, subprocess, sys, time
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 SEARCH = "https://hornung-baushop.de/search?search={ean}"
+CARREFOUR = ("https://storage.googleapis.com/catalog-pictures-carrefour-es/"
+             "catalog/pictures/original/{ean}_{n}.jpg")
 
 
 def get(url, timeout=60):
     r = subprocess.run(["curl", "-sSL", "-A", UA, "--max-time", str(timeout), url],
                        capture_output=True, text=True)
     return r.stdout if r.returncode == 0 else ""
+
+
+def carrefour(ean, most=5):
+    """Constructed, not searched: the bucket is keyed by the barcode itself."""
+    out = []
+    for n in range(1, most + 1):
+        u = CARREFOUR.format(ean=ean, n=n)
+        r = subprocess.run(["curl", "-sS", "-o", "/dev/null", "-w", "%{http_code}",
+                            "-A", UA, "--max-time", "20", u], capture_output=True, text=True)
+        if r.stdout.strip() != "200":
+            break
+        out.append(u)
+    return out
 
 
 def lookup(ean):
@@ -41,7 +65,9 @@ def lookup(ean):
     for s in re.findall(r'href="(https://hornung-baushop\.de/[a-z0-9-]+)"', h):
         if s not in slugs and "/search" not in s:
             slugs.append(s)
-    return {"ean": ean, "images": imgs, "page": slugs[0] if slugs else None,
+    cf = carrefour(ean)
+    return {"ean": ean, "images": imgs + cf, "hornung": imgs, "carrefour": cf,
+            "page": slugs[0] if slugs else None,
             "slug_words": slugs[0].rsplit("/", 1)[-1].replace("-", " ") if slugs else ""}
 
 

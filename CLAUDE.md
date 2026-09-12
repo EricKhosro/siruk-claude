@@ -119,9 +119,13 @@ step you are on needs it.
      established pairs: a **dual-species** item (the pack says "for dogs and
      cats") takes the **mirror leaf in both trees** (Ear Care 32 + 39, Flea &
      Tick 42 + 51, Shampoos 29 + 36, Paw & Nail 31 + 38, Grooming Tools
-     30 + 37, Skin Care 33 + 40, Pharmacy 47 + 55); a **dewormer** takes
-     Heartworm & Dewormers + Pharmacy & Prescriptions; a **veterinary diet**
-     takes its food leaf + Health Condition 5.
+     30 + 37, Skin Care 33 + 40, Pharmacy 47 + 55). Where one species has no
+     matching leaf the mirror is the nearest shelf that species does have —
+     a dual-species **dewormer** is **46 + 55**, because Cat has no dewormer
+     leaf (Inspector Quadro Tabs 763–765, Gelmintal 779–780). A **veterinary
+     diet** takes its food leaf + Health Condition 5. Where there is no such
+     shelf at all (Cat has no Health Condition, Bowls, Beds or Cleaning node)
+     **report it — do not invent a category**.
    - Evidence still rules (rule 8): add a leaf only when the product's own
      text, pack or brand page supports it. Never add a species the brand does
      not claim.
