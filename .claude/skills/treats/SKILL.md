@@ -46,6 +46,15 @@ Notes that matter:
 Family **3 Treats**: product-weight, flavor, lifestage, special-diet,
 health-feature, breed-size, packaging, ingredient.
 
+**Dual species → both trees.** `category_ids` is a list. When the pack or brand
+page says the product is for dogs *and* cats, file it in the **mirror leaf of
+both** species' trees (the pattern already in the catalogue: Ear Care 32 + 39,
+Shampoos 29 + 36, Grooming Tools 30 + 37, Paw & Nail 31 + 38, Skin Care
+33 + 40, Flea & Tick 42 + 51, Vitamins 43 + 52, Pharmacy 47 + 55, Collars
+69 + 79). Never add a parent — parents roll their children up. Never add a
+species the brand does not claim. See `reference/product-rules.md`.
+
+
 ## Attributes
 All picks from the closed menu `reference/attribute-values.json` (full lists in
 `reference/chewy-attributes.json`), **one value per attribute per variant** —

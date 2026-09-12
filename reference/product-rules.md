@@ -75,6 +75,35 @@ cardboards → **81**. Cat behaviour and odour sprays go to **67** (Litter Boxes
 2026-09-11). **13 Accessories is not a product category** (`forProducts`
 omits it); a row landing there is a bug, not a fallback.
 
+## Multiple categories per product (verified 2026-09-12)
+
+`category_ids` is an **array** and the admin's Categories field is a
+multi-select tree (`ant-select-multiple ant-tree-select`) — a product may sit
+on several shelves at once. A two-id `PUT` reads back with both ids, and 29
+products (572, 606, 668/669, 715–718, 730–736, 755–794) were already filed
+this way; the big Trixie / Monge / toy / treat imports each wrote a single id,
+which is what needs fixing.
+
+**Parents roll up, so never add one.** The storefront `/dog/treat/` renders 48
+product cards drawn from leaves 7 and 82–88 even though *nothing* is assigned
+to category 6 — checked by finding products from three different leaves
+(Bacon Pâté → 88, Bagels → 82, Barbecue Ribs → 85) on that one page. Filing a
+product in a parent adds nothing and breaks the leaf rule.
+
+**When a second leaf is right** — the conventions already in the catalogue:
+
+| Case | Categories | Evidence to require |
+|---|---|---|
+| Dual species | the **mirror leaf in both trees** — 29+36 Shampoos, 30+37 Grooming Tools, 31+38 Paw & Nail, 32+39 Ear Care, 33+40 Skin Care, 42+51 Flea & Tick, 47+55 Pharmacy, 43+52 Vitamins, 69+79 Collars | the pack/brand page says "for dogs and cats" (or the invoice names both `շն` and `կատ`) |
+| Dewormer | 46 Heartworm & Dewormers **+** 47 Pharmacy & Prescriptions | it is an antiparasitic given orally |
+| Veterinary diet | its food leaf (3/4/10/11) **+** 5 Health Condition | a stated clinical indication |
+
+Add a leaf only on the product's own evidence — never a species the brand does
+not claim (rule 8 still applies). And because `PUT /products` replaces the
+whole record, always build the body from a fresh `GET` and **extend**
+`category_ids`; `scripts/multi-category.py` does this and refuses to shrink a
+product's category list.
+
 Missing category → flag, never invent.
 
 ## Storefront behaviour worth knowing

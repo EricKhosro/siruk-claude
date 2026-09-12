@@ -28,6 +28,12 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
 - One product fully finished (written + verified) before starting the next.
 - **Never create a product that already exists** — search first; if it's there,
   the row goes on as a new variant (step 8/9).
+- **`category_ids` is a list — give a product every leaf it belongs to.** A
+  pack that says "for dogs and cats" gets the **mirror leaf in both species'
+  trees**; a dewormer gets Heartworm & Dewormers + Pharmacy & Prescriptions; a
+  veterinary diet gets its food leaf + Health Condition 5. Never add a parent
+  (parents roll their children up on their own) and never add a species the
+  brand does not claim. Full table in `reference/product-rules.md`.
 - Do not invent categories/attribute values that don't exist in the admin; flag
   in the report instead. A **missing brand** is the one exception: run the
   `/create-brand` skill for it (official logo → media library → brand) and use
@@ -170,8 +176,9 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
 9. **Write via API** — one of two paths, both scripted (write the JSON to
    `.siruk-cache/` and pass the path):
    - **New product** → `scripts/create-product.sh <payload.json>`. Payload shape
-     in CLAUDE.md / the script header: name, slug, `category_ids` (from the CSV
-     category map in CLAUDE.md), `brand_id`, `attribute_family_id`, variants with
+     in CLAUDE.md / the script header: name, slug, `category_ids` (**every**
+     leaf that fits — the category map and the multi-category table in
+     `reference/product-rules.md`), `brand_id`, `attribute_family_id`, variants with
      sku/cost_price(CSV)/stock/images, the right **pricing shape** (table 4 of
      `reference/data-tables.md`: dry kibble → `pricing_type:"per_kg"` with
      `price_per_kg` = hafo sale price ÷ pack weight and `weight`; units →
@@ -211,7 +218,8 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
    both must print OK. A product added as a variant to an existing product
    needs the new variant's texts translated too (same script, same product id).
 10. **Verify** — `scripts/show-product.sh <id>` (both write scripts already
-   print this): confirm name, categories, that **every** variant (pre-existing +
+   print this): confirm name, categories (**all** of them — a dual-species item
+   must show both trees' leaves), that **every** variant (pre-existing +
    new) is present with the right price/stock/images, and that
    `attribute_value_ids` are set as intended.
    Record status, and say in the report whether the row was created as a new

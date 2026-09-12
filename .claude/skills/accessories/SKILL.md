@@ -11,7 +11,9 @@ Until it is edited, the live family below is the spec.**
 
 ## Where it is filed
 
-Cat litter → Cat → 59 Litter → leaf by type (60 Clumping, 61 Scented, 62 Unscented, 63 Natural, 64 Lightweight, 65 Crystal). Litter boxes, scoops, mats → Cat → 66 Supplies → 67 Litter Boxes & Accessories. Everything else → 13 Accessories (flat, fallback) until the Supplies tree grows (Chewy: Beds, Bowls & Feeders, Collars/Leashes/Harnesses, Carriers & Travel, Crates, Clothing…).
+Cat litter → Cat → 59 Litter → leaf by type (60 Clumping, 61 Scented, 62 Unscented, 63 Natural, 64 Lightweight, 65 Crystal). Litter boxes, scoops, mats → Cat → 66 Supplies → 67 Litter Boxes & Accessories. Everything else → the **leaf** under Dog 68 Supplies / 75 Cleaning & Potty or Cat 66 Supplies / 80 Trees, Condos & Scratchers (created 2026-09-11 from the Chewy menu): 69 Collars, Leashes & Harnesses · 70 Bowls & Feeders · 71 Beds · 72 Clothing & Accessories · 73 Carriers & Travel · 74 Training & Behavior · 76 Pee Pads & Diapers · 77 Poop Bags & Scoopers · 78 Cleaners & Stain Removers · 79 Collars, Leashes & Harnesses (cat) · 81 Scratchers & Scratching Posts. **13 Accessories is NOT a product category** — `forProducts` omits it; a row landing there is a bug, not a fallback.
+
+**Dual species → both trees.** `category_ids` is a list: a bowl, mat or collar the pack sells for dogs *and* cats goes in both leaves (e.g. 69 + 79). Never add a parent. See `reference/product-rules.md`.
 
 ## Attributes
 

@@ -107,6 +107,28 @@ step you are on needs it.
    brand-CDN shot. Anything the chain still misses: a Trixie EAN is computable
    (`4011905` + article padded to 5 + check digit) — search it and accept only a
    page that prints the same EAN back.
+7d. **A product belongs to EVERY category that fits — `category_ids` is a
+   list, not a single id** (verified 2026-09-12: the admin's Categories field
+   is a multi-select tree, `ant-select-multiple`, and a two-id `PUT` reads
+   back with both). The early bulk imports each wrote one id; that was the
+   bug, not the schema.
+   - **Parent categories roll up on their own.** `/dog/treat/` lists every
+     product in leaves 7/82–88 although nothing is assigned to 6. So keep
+     filing in **leaves only** — never add a parent to make a product appear.
+   - **Add a second leaf when the product really sits on two shelves.** The
+     established pairs: a **dual-species** item (the pack says "for dogs and
+     cats") takes the **mirror leaf in both trees** (Ear Care 32 + 39, Flea &
+     Tick 42 + 51, Shampoos 29 + 36, Paw & Nail 31 + 38, Grooming Tools
+     30 + 37, Skin Care 33 + 40, Pharmacy 47 + 55); a **dewormer** takes
+     Heartworm & Dewormers + Pharmacy & Prescriptions; a **veterinary diet**
+     takes its food leaf + Health Condition 5.
+   - Evidence still rules (rule 8): add a leaf only when the product's own
+     text, pack or brand page supports it. Never add a species the brand does
+     not claim.
+   - **Never drop categories a product already has.** `PUT /products` replaces
+     the whole record, so build the body from a fresh `GET` and *extend*
+     `category_ids`. `scripts/multi-category.py` is the audit + writer.
+
 8. **Never fabricate specs.** Empty field beats a guess. Attribute values only
    from the closed menu `reference/attribute-values.json`, with an evidence
    quote. Don't create attributes, values or categories without an explicit

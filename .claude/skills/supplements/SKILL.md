@@ -15,7 +15,12 @@ The **leaf** under Dog → 41 Health & Pharmacy or Cat → 50 Health & Pharmacy
 Supplements 43/52 · Probiotics & Digestive Health 44/53 · Allergy & Itch
 Relief 45/54 · Heartworm & Dewormers 46 (dog only) · Pharmacy & Prescriptions
 47/55 · Anxiety & Calming Care 48/56 · Urinary Tract & Kidneys 57 (cat only)
-· Test Kits 49/58. A product for both species goes in both leaves. Family **4 Supplements**: food-form, product-weight,
+· Test Kits 49/58. A product for both species goes in both leaves (the mirror
+leaf in each tree — never a parent, which rolls its children up anyway).
+**An oral dewormer takes two dog leaves: 46 Heartworm & Dewormers + 47
+Pharmacy & Prescriptions** (the pattern on Inspector Quadro Tabs 763–765 and
+Gelmintal 779–780), plus 55 when it is also for cats.
+Family **4 Supplements**: food-form, product-weight,
 lifestage, health-feature, packaging, product-form, active-ingredient,
 special-diet, flavor, breed-size, material.
 

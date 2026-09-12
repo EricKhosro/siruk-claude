@@ -21,7 +21,9 @@ ignored and returns everything.
 
 ## Product create — `POST /products`
 
-Required: `name`, `slug`, `category_ids[]`. Also send `brand_id`,
+Required: `name`, `slug`, `category_ids[]` — an **array, and products often
+need more than one id** (the admin field is a multi-select tree; see
+"Multiple categories per product" in `reference/product-rules.md`). Also send `brand_id`,
 `attribute_family_id` (nullable), `is_best_seller`, `is_on_sale`, `variants`.
 Variant shape:
 
@@ -113,6 +115,10 @@ Same shape as create. **PUT replaces the whole variants array**: an omitted
 variant is deleted silently (200), or 422 if it was the default. Build the body
 from a fresh GET — `scripts/add-variant.sh` / `scripts/set-variant.sh` /
 `scripts/rename-product.sh` do this; never hand-write one.
+
+**`category_ids` is replaced wholesale like everything else** — a PUT that
+sends one id on a product that had two silently drops the other. Build the
+body from a fresh GET and extend the list (`scripts/multi-category.py`).
 
 **SKUs are unique catalogue-wide.** Moving a variant between products: DELETE
 the source *before* the target PUT claims the SKU (else 422 "SKU already in
