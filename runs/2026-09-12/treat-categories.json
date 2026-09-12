@@ -1,0 +1,15 @@
+[
+  {"parent": 6,  "name": "Soft & Chewy Treats",        "slug": "dog-treat-soft-chewy",              "meta_title": "Soft & Chewy Dog Treats"},
+  {"parent": 6,  "name": "Dental Treats",              "slug": "dog-treat-dental",                  "meta_title": "Dental Dog Treats"},
+  {"parent": 6,  "name": "Biscuits & Cookies",         "slug": "dog-treat-biscuits-cookies",        "meta_title": "Dog Biscuits & Cookies"},
+  {"parent": 6,  "name": "Long-Lasting Chews",         "slug": "dog-treat-long-lasting-chews",      "meta_title": "Long-Lasting Dog Chews"},
+  {"parent": 6,  "name": "Jerky Treats",               "slug": "dog-treat-jerky",                   "meta_title": "Jerky Dog Treats"},
+  {"parent": 6,  "name": "Freeze-Dried & Dehydrated",  "slug": "dog-treat-freeze-dried-dehydrated", "meta_title": "Freeze-Dried & Dehydrated Dog Treats"},
+  {"parent": 6,  "name": "Lickable Treats",            "slug": "dog-treat-lickable",                "meta_title": "Lickable Dog Treats"},
+  {"parent": 14, "name": "Crunchy Treats",             "slug": "cat-treat-crunchy",                 "meta_title": "Crunchy Cat Treats"},
+  {"parent": 14, "name": "Lickable Treats",            "slug": "cat-treat-lickable",                "meta_title": "Lickable Cat Treats"},
+  {"parent": 14, "name": "Soft & Chewy Treats",        "slug": "cat-treat-soft-chewy",              "meta_title": "Soft & Chewy Cat Treats"},
+  {"parent": 14, "name": "Dental Treats",              "slug": "cat-treat-dental",                  "meta_title": "Dental Cat Treats"},
+  {"parent": 14, "name": "Catnip",                     "slug": "cat-treat-catnip",                  "meta_title": "Catnip"},
+  {"parent": 14, "name": "Cat Grass",                  "slug": "cat-treat-cat-grass",               "meta_title": "Cat Grass"}
+]

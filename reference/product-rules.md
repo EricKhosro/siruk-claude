@@ -44,7 +44,12 @@ variant to a product that already exists".
 ## Category map (CSV `Category` → admin id)
 
 Dry food—Dogs → 3 · Wet food—Dogs → 4 · Dry food—Cats → 10 · Wet food—Cats →
-11 · Treats—Dogs → 6 · Treats—Cats → 14 · Vitamins & supplements → **43**
+11 · Treats → the **leaf** under 6 (dog) or 14 (cat), chosen by treat form —
+see the table in the `treats` skill (dog: 7 Bones/Bully Sticks & Naturals,
+82 Soft & Chewy, 83 Dental, 84 Biscuits & Cookies, 85 Long-Lasting Chews,
+86 Jerky, 87 Freeze-Dried & Dehydrated, 88 Lickable; cat: 89 Crunchy,
+90 Lickable, 91 Soft & Chewy, 92 Dental, 93 Catnip, 94 Cat Grass) ·
+Vitamins & supplements → **43**
 (dog) / **52** (cat), the other Health & Pharmacy leaves by purpose (42–49 /
 51–58, see `reference/admin-api.md`) · Cat litter → the leaf under 59 by type
 (60 Clumping, 61 Scented, 62 Unscented, 63 Natural, 64 Lightweight, 65

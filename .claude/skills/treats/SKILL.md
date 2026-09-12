@@ -9,10 +9,42 @@ Chewy treat filters (user decision 2026-09-10): **Flavor, Ingredient, Special
 Diet, Breed Size, Health Feature, Lifestage, Packaging Type**.
 
 ## Where it is filed
-Dog → **6 Treat**, or **7 Dog Bones, Bully Sticks & Chews** for natural chews /
-bones / bully sticks; Cat → **14 Treat**. Family **3 Treats**: product-weight,
-flavor, lifestage, special-diet, health-feature, breed-size, packaging,
-ingredient.
+
+Treats go in a **leaf**, never the parent (6 / 14 hold nothing). The leaves
+replicate Chewy's treat menu (created 2026-09-12). Pick by the **form of the
+treat**, decided from the brand page's composition and bullets — not from the
+name alone where text exists. First match wins:
+
+| # | Test (evidence from the product's own text) | Dog | Cat |
+|---|---|---|---|
+| 1 | composition says **freeze-dried** | 87 Freeze-Dried & Dehydrated | 89 Crunchy |
+| 2 | **single-ingredient dried animal part** — "100 % … skin/headskin, dried", rabbit ears/legs/tails, fish skin — and no hide substrate | 7 Bones, Bully Sticks & Naturals | 91 Soft & Chewy |
+| 3 | composition contains **rawhide / collagen / buffalo or beef skin** | 85 Long-Lasting Chews | 91 Soft & Chewy |
+| 4 | **liquid snack / pâté / paste / malt** (moisture ≳ 55 %, spreadable) | 88 Lickable | 90 Lickable |
+| 5 | the product's **own line or claim is dental** — Denta Fun, Dentros, Monge Gift Dental, "support dental hygiene", "fresh breath" | 83 Dental | 92 Dental |
+| 6 | **baked cookie/biscuit**: name says cookie/biscuit/farmies/loops/choco drops **and** the composition is cereal- or flour-led (or declares no moisture) | 84 Biscuits & Cookies | 89 Crunchy |
+| 7 | the pack's form word is a **flat sliced-meat format** — filet, stripe/strip, coin, carpaccio, tender | 86 Jerky | 91 Soft & Chewy |
+| 8 | an explicit **crunchy** layer or format | 82 Soft & Chewy | 89 Crunchy |
+| 9 | **catnip / matatabi attractant** (dried herb, matatabi stick, lolly) | — | 93 Catnip |
+| 10 | **grass to grow or eat** (seed-substrate, ryegrass) | — | 94 Cat Grass |
+| 11 | *default* — semi-moist meaty or cereal morsels, the main treat shelf | 82 Soft & Chewy | 91 Soft & Chewy |
+
+Notes that matter:
+- **Rule 3 is a bright line**: rawhide anywhere in the composition means
+  Long-Lasting Chews, even when the name says "Softies" or "Crispies". It is
+  what a shopper filtering rawhide-free needs, and it keeps the call reviewable.
+- Rule 7 is deliberately narrow — a *stick*, ball, cube or roll is not jerky.
+- **Cat has six leaves, not eight.** A cat row that lands on Naturals, Chews or
+  Jerky goes to 91 Soft & Chewy (those are moist meat treats); a cat row that
+  lands on Freeze-Dried or Biscuits goes to 89 Crunchy. Open question with the
+  user: whether cat should get its own Freeze-Dried & Dehydrated leaf (4
+  products would move out of 89).
+- `scripts/classify-treats.py` implements this table and can re-file the whole
+  catalogue (`--apply`); its plan lands in `.siruk-cache/treats/plan.json` with
+  an evidence quote per row.
+
+Family **3 Treats**: product-weight, flavor, lifestage, special-diet,
+health-feature, breed-size, packaging, ingredient.
 
 ## Attributes
 All picks from the closed menu `reference/attribute-values.json` (full lists in

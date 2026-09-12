@@ -215,19 +215,26 @@ layout); the others are templates for the user to fill.
 
 ## Quick ids (demo, 2026-09-10 — `scripts/ids.sh` is the truth)
 
-Categories: Dog 1 → Food 2 → {Dry 3, Wet 4, Health Condition 5}, Treat 6 →
-{7}, Toys 15 → {17–22}, Grooming 27 → {28–33}, Health & Pharmacy 41 → {42–49},
+Categories: Dog 1 → Food 2 → {Dry 3, Wet 4, Health Condition 5},
+**Treat 6 → {7 Bones/Bully Sticks & Naturals, 82 Soft & Chewy, 83 Dental,
+84 Biscuits & Cookies, 85 Long-Lasting Chews, 86 Jerky,
+87 Freeze-Dried & Dehydrated, 88 Lickable}**,
+Toys 15 → {17–22}, Grooming 27 → {28–33}, Health & Pharmacy 41 → {42–49},
 **Supplies 68 → {69 Collars/Leashes/Harnesses, 70 Bowls & Feeders, 71 Beds,
 72 Clothing & Accessories, 73 Carriers & Travel, 74 Training & Behavior},
 Cleaning & Potty 75 → {76 Pee Pads & Diapers, 77 Poop Bags & Scoopers,
-78 Cleaners & Stain Removers}** · Cat 8 → Food 9 → {Dry 10, Wet 11}, Treat 14,
+78 Cleaners & Stain Removers}** · Cat 8 → Food 9 → {Dry 10, Wet 11},
+**Treat 14 → {89 Crunchy, 90 Lickable, 91 Soft & Chewy, 92 Dental, 93 Catnip,
+94 Cat Grass}**,
 Toys 16 → {23–26}, Grooming 34 → {35–40}, Health & Pharmacy 50 → {51–58},
 Litter 59 → {60–65}, Supplies 66 → {67 Litter Boxes & Accessories,
 **79 Collars/Leashes/Harnesses**}, **Trees, Condos & Scratchers 80 →
 {81 Scratchers & Scratching Posts}** · Accessories 13 is **not** a product
 category — never file a row there. Products go in a **leaf**, never a parent.
-All categories carry ru/hy names (68–81 added 2026-09-11 from the Chewy menu,
-`scripts/create-category.py`).
+All categories carry ru/hy names (68–81 added 2026-09-11 and the treat leaves
+82–94 on 2026-09-12, both from the Chewy menu, `scripts/create-category.py`).
+Which treat leaf a row gets is decided by the table in the `treats` skill;
+`scripts/classify-treats.py` re-files the whole treat catalogue.
 Full tree with names in `reference/admin-api.md`.
 Brands: 1 Acana, 2 Belcando, 3 Brit, 4 Canvit, 5 Monge, 6 Orijen, 7 Royal
 Canin, 8 Trixie, 9 Farmina, 10 Schesir, 11 Leonardo, 12 Stuzzy, 13 Bewi Dog,
