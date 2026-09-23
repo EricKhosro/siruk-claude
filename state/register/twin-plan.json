@@ -1,0 +1,74 @@
+[
+ {
+  "reg_no": "00028",
+  "product_id": 1006,
+  "pack_sku": "5401112",
+  "pack_label": "11.4 kg",
+  "product": "Highest Protein Wild Prairie, 11.4 kg",
+  "pack_kg": 11.4,
+  "pack_price": 52400.0,
+  "kg_rate": 6600.0,
+  "cost_per_kg": 3565.79,
+  "cost_pack": 40650.0
+ },
+ {
+  "reg_no": "00029",
+  "product_id": 1009,
+  "pack_sku": "5121112",
+  "pack_label": "11.4 kg",
+  "product": "Light & Fit, 11.4 kg",
+  "pack_kg": 11.4,
+  "pack_price": 50000.0,
+  "kg_rate": 4500.0,
+  "cost_per_kg": 3048.25,
+  "cost_pack": 34750.0
+ },
+ {
+  "reg_no": "00073",
+  "product_id": 1021,
+  "pack_sku": "AC5301112",
+  "pack_label": "11.4 kg",
+  "product": "Sport & Agility, 11.4 kg",
+  "pack_kg": 11.4,
+  "pack_price": 50000.0,
+  "kg_rate": 4500.0,
+  "cost_per_kg": 3048.25,
+  "cost_pack": 34750.0
+ },
+ {
+  "reg_no": "00076",
+  "product_id": 1029,
+  "pack_sku": "AC5001112",
+  "pack_label": "11.4 kg",
+  "product": "Puppy, 11.4 kg",
+  "pack_kg": 11.4,
+  "pack_price": 44500.0,
+  "kg_rate": 4000.0,
+  "cost_per_kg": 3017.54,
+  "cost_pack": 34400.0
+ },
+ {
+  "reg_no": "00078",
+  "product_id": 1033,
+  "pack_sku": "AC5421112",
+  "pack_label": "11.4 kg",
+  "product": "Highest Protein Grasslands, 11.4 kg",
+  "pack_kg": 11.4,
+  "pack_price": 60000.0,
+  "kg_rate": 5400.0,
+  "cost_per_kg": 4048.25,
+  "cost_pack": 46150.0
+ },
+ {
+  "reg_no": "00079",
+  "product_id": 1035,
+  "pack_sku": "AC5411112",
+  "pack_label": "11.4 kg",
+  "product": "Highest Protein Pacifica, 11.4 kg",
+  "pack_kg": 11.4,
+  "pack_price": 56000.0,
+  "kg_rate": 5050.0,
+  "cost_per_kg": 3785.09,
+  "cost_pack": 43150.0
+ }
+]

@@ -193,7 +193,11 @@ def lookup(code, name=""):
     tried = []
 
     # 1. exact article code
-    for q in [code] + ([code[:-len(s)] for s in SUFFIXES if code.endswith(s)] or []):
+    # hafo stores prefixed codes with a space or NBSP ('MM\xa0005617', 'BP 12960')
+    # and its search does not find the joined form, so also ask for the digits
+    m = re.match(r"^([A-Za-z]+)[\s\xa0]*(\d{4,})$", code)
+    digits = [m.group(2)] if m else []
+    for q in [code] + ([code[:-len(s)] for s in SUFFIXES if code.endswith(s)] or []) + digits:
         if not q or q in tried:
             continue
         tried.append(q)

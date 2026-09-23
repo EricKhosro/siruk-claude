@@ -146,10 +146,11 @@ def main():
     ap.add_argument("--plan", default=None)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--only", default="", help="comma-separated target ids")
+    ap.add_argument("--run", default=None, help="run folder for the plan, backups and state (default runs/<today>)")
     a = ap.parse_args()
 
     day = datetime.date.today().isoformat()
-    run = ROOT / "runs" / day
+    run = pathlib.Path(a.run) if a.run else ROOT / "runs" / day
     plan = json.load(open(a.plan or run / "merge-plan.json"))["plan"]
     attrs = json.load(open(ROOT / "reference/attribute-values.json"))
     only = {int(x) for x in a.only.split(",") if x.strip()}

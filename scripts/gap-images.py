@@ -8,6 +8,8 @@ order and stops at the first that yields pictures:
     1 brand          scripts/trixie-image.sh  (trixie.de CDN + trixie.es)
     2 trixie.shop    Trixie's own Shopify store, cached index, article-keyed
     3 trixiecz.cz    official Czech distributor, cached index, `Kód` + EAN
+    4 tiierisch.de   German shop, Shopify: variant sku = article, barcode = EAN,
+                     and images are linked to the variant they belong to
     4 monge          monge.it / monge.shop pages, keyed by the EAN
     5 web search     scripts/image-search.py — Bing Images on the EAN, keeping
                      only files whose NAME carries the EAN/article (rule 7d)
@@ -15,10 +17,10 @@ order and stops at the first that yields pictures:
 Everything is downloaded to <out>/<article>/ with its provenance, measured, and
 rendered into one contact sheet, because nothing may be attached before it has
 been looked at (rule 7). Writing is a separate step:
-`scripts/_apply-recovered-images.py`.
+`scripts/archive/_apply-recovered-images.py`.
 
     scripts/gap-images.py --worklist .siruk-cache/image-worklist.json \
-                          --out runs/2026-09-12/found --sheet [--only 25141,3435]
+                          --out runs/<date>/found --sheet [--only 25141,3435]
 """
 import hashlib, html as htmllib, json, os, re, subprocess, sys, time
 
@@ -120,7 +122,8 @@ def web_fallback(row, hafo_ean=None):
     return found
 
 
-def collect(row, shop, cz, monge):
+def collect(row, shop, cz, monge, tii=None):
+    tii = tii or {}
     art, brand = row["article"], row.get("brand", "")
     ean = ean_of(art, brand)
     found = []          # (rank, source, url, note)
@@ -131,6 +134,11 @@ def collect(row, shop, cz, monge):
         if not found:
             for u in shop.get(art, []):
                 found.append((trixie_rank(u), "trixie.shop", u, "Trixie file name, article " + art))
+        if not found and art in tii:
+            rec = tii[art]
+            for i, u in enumerate(rec.get("images") or []):
+                found.append((4 if i == 0 else 5, "tiierisch", u,
+                              f'sku {art} ({rec.get("variant","")[:40]}), EAN {rec.get("ean")}'))
         if not found and art in cz:
             # the page's own `Kód` IS our article number, which is the key rule 7
             # asks for; the EAN is only recorded. (Trixie's barcodes are not a
@@ -203,11 +211,12 @@ def main():
     shop = load("trixie-shop-art-images.json", {})
     cz = load("trixiecz-index.json", {})
     monge = load("mongeshop-pages.json", {})
+    tii = load("tiierisch-index.json", {})
     barcodes = load("hafo-variant-barcode.json", {})
     web = "--web" in a
     res = []
     for r in wl:
-        cands, ean = collect(r, shop, cz, monge)
+        cands, ean = collect(r, shop, cz, monge, tii)
         imgs = download(cands, os.path.join(out, r["article"]), r["article"])
         if not imgs and web:            # a source that had the article but no usable file
             cands = web_fallback(r, (barcodes.get(r["sku"]) or {}).get("barcode")) or cands

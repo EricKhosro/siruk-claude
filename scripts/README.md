@@ -36,6 +36,13 @@ Tokens last ~1 year. `SIRUK_TOKEN=eyJ... scripts/…` overrides the file;
 | `fetch-logo.sh <url\|file…>` | **before create-brand** — downloads logo candidates, rejects svg/html/favicons (<160px), flags <400px as low-res, prints local paths so you can **Read (look at) the image** before uploading it. `MIN_PX=` / `HARD_MIN=` move the bars |
 | `create-brand.sh "<Name>" [logo file\|url\|mediaId] [slug]` | creates a missing brand: refuses on an exact/near duplicate, uploads the logo, POSTs `{name,slug,image,meta}`, reads it back and prints the logo url. `FORCE=1` overrides the near-match guard, `KEEP_ALPHA=1` keeps logo transparency, `NO_LOGO=1` is required to create a brand with no image |
 | `find-product.sh <text>` | **run before creating anything** — does the product already exist? |
+| `fix-outgrown-names.py [--plan …] [--ids …] [--apply]` | renames a product that gained a sibling and still carries its first variant's label (or a plan's `rename_to`); re-cuts the ru/hy names or lists them for a hand-written one |
+| `plan-variant-merge.py --run runs/<date>` | hand-decided sibling groups (`variant-groups.json`: flavour / dose-band / colour options that were imported as separate products) → `merge-plan.json` for `merge-products.py`; refuses attribute-combination collisions, lists missing vocabulary |
+| `backfill-variant-axes.py [--ids …] [--apply]` | rule 9a: gives every variant of a multi-variant product the axis its siblings carry, read off the label (`size`, `color-family`, `flavor`, `product-weight`, `pet-weight-range`, `toy-size`); reports what still collides |
+| `register-price-sync.py --run state/register [--apply]` | re-prices every live variant to the register's `Վաճառքի գին` (rule 2c); SKIPs at-or-below-cost rows and typo-level jumps (SUSPECT) into `price-sync.csv` |
+| `translate-attribute-values.py <id …>` | ru/hy for a few attribute values by id (after `add-attribute-values.py`), from `reference/translations-attributes.json`; reads en/ru/hy back |
+| `catalogue-snapshot.py --ids <id …>` | re-reads only those products into the snapshot and drops the ones that 404 — after a merge or an import |
+| `read-register.py` / `match-register.py --reg` / `register-status.py --run --overrides` / `register-audit.py --run` | the register chain (`reference/script-guide.md` §10c); `read-register.py` reads `csv/Product.numbers` directly |
 | `show-product.sh <id> [--json]` | variant summary, or the full re-postable body |
 | `create-product.sh <payload.json>` | validates required fields, **refuses a variant priced at or below its cost** (`ALLOW_BELOW_COST=1` only on the user's say-so), warns if a similar product exists (`FORCE=1` to override), POSTs, reads back |
 | `add-variant.sh <id> <variant.json>` | GET → append → safety-check (incl. the price-vs-cost guard) → PUT → read back |
@@ -51,9 +58,20 @@ Tokens last ~1 year. `SIRUK_TOKEN=eyJ... scripts/…` overrides the file;
 | `restore-toy-size.py` | one-off: put `toy-size` back on toy variants from their labels |
 | `check-hafo-prices.py [--apply] [--only id,…]` | compares every Siruk variant's sale price with its hafo row (+ `/product/change` cross-check) → `runs/<date>/price-check.csv`; `--apply` fixes unflagged mismatches |
 | `hafo-lookup.py --code <art> [--name …]` | **the primary source of a sale price** — hafo.am row for our article code (`reference/pricing.md`, `reference/hafo.md`) |
+| `4lapy-lookup.py --search "<words>" [--ean <ean>]`, `--url <page>`, `--reindex` | 4lapy.ru: finds products through the product sitemap (its `/search/` is robots-disallowed), then reads every pack-size offer — barcode, gallery, Russian description / composition / feeding. An offer whose barcode equals `--ean` is `confirmed: true`; a slug match alone is a candidate. RUB prices are never used |
 | `zoovet-lookup.py --search "<ru text>" [--brand <slug>]`, `--url <page>`, `--brand <slug>`, `--brands` | zoovet.am: unwatermarked brand packshots (the original behind the thumbnail), a second AMD price, stock and a Russian description. It has **no article code** — its `ME-…` number collides with brand articles — so every hit is `confirmed: false` until confirmed by hand (`reference/zoovet.md`, CLAUDE.md rules 2b / 7b) |
+| `nemo-lookup.py --search "<text>" [--brand <slug>]`, `--url <page>`, `--brand <slug>` | nemo.am (nopCommerce): AMD price, stock, manufacturer, description, one image. No manufacturer article code anywhere on the platform, so every hit is `confirmed: false` until confirmed by hand the same way as zoovet — brand+line+flavour+pack, pack photo matching (`reference/pricing.md`, CLAUDE.md rule 2b) |
+| `tiierisch-index.py [--brand TRIXIE]`, `--lookup <art>` | indexes tiierisch.de (Shopify) → `{article: {ean, title, variant, images, family}}`. `sku` is the Trixie article and `barcode` the EAN, and Shopify says which image belongs to which variant, so a colour never inherits its sibling's photo. 5,223 Trixie articles — the widest fallback we have (rule 7d) |
+| `ean-image-lookup.py <ean> […]` | a photo **by barcode**: hornung-baushop.de (EAN in the file name) plus the carrefour-es picture bucket, which is addressed by the EAN directly (`…/original/<ean>_1.jpg`, no search) |
+| `image-search.py --article <a> [--ean …] [--brand …] [--name …] [--sheet]` | the rule 7d image search: Bing Images on the EAN and on the article, every hit classified `keyed-file` / `keyed-page` / `name-only`; only keyed hits are downloaded, measured and sheeted. A name-only hit is reported, never used |
+| `web-image-lookup.py --article <a> [--ean …] <url>…` | the other half of rule 7d: takes pages **you** found and reports which of our keys each one actually prints, then pulls its images. A page that prints none of them is refused in the output |
+| `gap-images.py --worklist … --out … [--web] [--only …] [--sheet]` | walks the whole ladder for every variant with no usable photo (brand site → trixie.shop → trixiecz → tiierisch → monge → `--web`: EAN shops, then image search), downloads everything with its provenance and renders one contact sheet |
+| `hafo-audit.py [--csv runs/<date>/hafo-images.csv]` | every variant in the catalogue still showing a hafo photo — by the url it was uploaded from **and** by hafo's own file-name shapes (a bare upload timestamp, or timestamp + article), which is what catches the ones the caches lost |
+| `apply-gap-images.py <found.json>… [--only …] [--dry-run]` | uploads the reviewed images and sets `variant.images` in gallery order (one PUT per product, rebuilt from a fresh GET); drops any hafo placeholder the variant still carried |
+| `contact-sheet.py <out.html> <found.json>…` \| `--dir <folder>` | contact sheet with the thumbnails inlined as data: URIs — headless Chrome will not load `file://` images from a `file://` page, so a sheet that references them shows nothing |
 | `rename-product.sh <id> "<name>" [slug]` | rename without touching variants (product names must not contain the brand — the storefront prints it separately) |
 | `set-variant.sh <id> <sku> '<json patch>'` | patch one existing variant in place (deep-merges, so `attribute_value_ids` merges key-by-key) |
+| `backfill-product-weight.py [--create-values] [--apply] [--refresh] [--families all]` | **rule 8a**: puts `product-weight` on every variant whose pack prints a weight. Evidence order — numeric `weight` field (grams below a kilo, so 0.8 → the menu's existing `800 g`), then the variant label, then the product name; a dose band (`1–4 kg`), a length or bowl capacity (`75 cm`, `0.4 l/ø 17 cm`) and a bare count (`10 tablets`) are refused and reported. Fills a product **all-or-none** (a half-filled axis hides a variant, product 874), never overwrites an existing value, and warns where the numeric field and the printed label disagree. Catalogue cached in `.siruk-cache/pwfill/` — `--refresh` to re-fetch |
 | `trixie-image.sh <art> [--first]` | every official gallery image for a Trixie article, packshot first (page-based; probes the CDN for `PHO_PRO_CLIP`/`PHO_PAC_CLIP` whenever the page lists no packshot, and as the fallback when there is no page). When trixie.de yields no packshot or fewer than three files it also asks **trixie.es** and merges those in behind them — `TRIXIE_ES=0` skips it, `TRIXIE_ES=always` asks every time |
 | `trixie-es.py --images <art>` / `--article <art>` | the Spanish TRIXIE shop: articles trixie.de has dropped, 1500×1500 files, the English name and the on-page `Ref.` that confirms the article. Only files carrying **our** article are returned; a trailing-1 vendor form (`35031` → article `3503`) is reported on stderr as a candidate, never used silently. Cache: `.siruk-cache/trixie-es.json` |
 | `trixie-shop-index.py [--cached] [--lookup <art>]` | **trixie.shop**, Trixie's own Shopify store (approved fallback, 2026-09-11): pulls the whole catalogue in 12 requests and indexes it by article number. Variant `sku` is the article and the files keep Trixie's names, so a hit is self-verifying; it also carries the family files the CDN probe cannot guess (`PHO_PRO_CLIP_SilverReflect-12222-1`). Drops `created-with-AI` renders. Index: `.siruk-cache/trixie-shop-art-images.json` |
@@ -66,7 +84,6 @@ Tokens last ~1 year. `SIRUK_TOKEN=eyJ... scripts/…` overrides the file;
 | `set-brand-logo.sh <brand-id> <file\|url\|mediaId>` | replaces an existing brand's logo, keeping name/slug/meta. Refuses an image another brand already uses (`FORCE=1` overrides) and verifies the new url resolves |
 | `rasterize-svg.sh <file.svg> [width] [out.png]` | renders an SVG logo to a tight PNG with headless Chrome. The media library can't serve SVG, and Bewital (Belcando/Leonardo/Bewi) and Agras (Schesir/Stuzzy) publish only SVG. `qlmanage` is not a substitute — it pads or clips |
 | `pace.sh [product\|api\|media\|show]` | `show` prints the effective pacing/retry settings; `product` is the breather to call between two CSV rows |
-| `regroup-schesir.py [--apply] [--only <name>]` | replays the corrected `plan-schesir.py` grouping onto the live catalogue: moves variants onto the product holding most of the range's SKUs, renames only what a merge invalidated, deletes the emptied products. Dry-run by default; `--apply` backs every touched product up to `.siruk-cache/schesir-regroup-backup.json` first |
 
 ## Pacing, retries and the image check — `config.json`
 
@@ -169,3 +186,18 @@ Common failures:
 - **"sale price at or below cost"** → the variant's `price` is not hafo's row
   for that SKU (or was invented). Re-run `hafo-lookup.py`; never override
   without the user.
+
+## Keeping this folder clean
+
+`scripts/archive/` holds one-off run scripts whose job is finished — a driver
+hardcoded to one date/brand/batch (`_run-import-2026-09-11.sh`,
+`plan-small.py`) that nothing else calls and that a fresh CSV wouldn't reuse.
+Moved there with `git mv`, never deleted, so the history stays. They resolve
+the project root from their own path, so an archived script must be moved
+back into `scripts/` before it will run. When a run
+script's job is done, archive it in the same session rather than leaving it
+at the top level — that's what let 30 of these pile up before the
+2026-09-23 cleanup. A script belongs in the main folder, not archive, if
+anything still calls it by name (grep `reference/script-guide.md`, `CLAUDE.md`,
+`.claude/skills/*/SKILL.md`) or if it's general-purpose enough for the next
+brand/run to reuse as-is.

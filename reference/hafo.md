@@ -25,7 +25,13 @@ carry `title`, `content` (HTML), `image_main_url`, `price`, `wholesale_price`,
 `slug`, `meta_*`, `product_maker` and `product_additional_information[]`.
 
 **`search` matches the SKU**, so an article-code lookup is exact and
-language-independent.
+language-independent. It also matches the Armenian `title` and the per-row
+`name`, which is how a **codeless** register row is identified (CLAUDE.md
+rule 6, 2026-09-17): `scripts/identify-by-name.py` searches the register
+name, lists every `product_additional_information[]` row of every hit with
+its `sku`, `name`, `price` and `wholesale_price`, and the row is taken only
+when brand + line + flavour + pack all match (cost equality is confirming
+evidence, not a requirement — the PM's cost can lag hafo's).
 
 ## `product_additional_information[]` is the real record
 
@@ -120,6 +126,45 @@ code and EAN are reliable, the title's flavour is a translation. When the
 brand site has no EAN join, a web search for the bare EAN plus the brand
 returns retailer listings that name the flavour; the brand's own spec sheet
 then confirms it.
+
+## Identifying a row with no article code at all (rule 6, 2026-09-17)
+
+**With a code, the code is the identity** — a name hit can never override it:
+a hafo name-search hit is a candidate (`confirmed: false`), never a match, and
+a code that resolves to a different product than the name says is a
+stop-and-check, not a coin toss. (This reverses the earlier "identity only
+from the code" rule — a codeless row still needs identifying, below.)
+
+**Without a code** (the PM's register, `csv/Product.numbers`, prints none —
+140 rows had no recoverable code on 2026-09-16) identify the row by name, in
+this order, stopping at the first source that confirms it:
+
+1. **hafo** — search the Armenian name; a hit whose
+   `product_additional_information[]` row has our exact brand + line + flavour
+   + pack — and, when it lists one, a `wholesale_price` matching our cost as a
+   tie-break among candidates — is the article, and its `sku` becomes the
+   row's code.
+2. **zoovet.am or nemo.am** — Russian/Armenian name search, either order;
+   neither carries a manufacturer article code, so a hit is a candidate until
+   confirmed the same way: brand + line + flavour + pack all matching, or the
+   article read off the pack in a full-size photo where one is printed.
+   `reference/zoovet.md` has zoovet's specific confirmation tests (including
+   its `ME-…` code-collision trap); nemo.am has no documented quirks yet —
+   confirm it on the same brand/line/flavour/pack basis until one turns up.
+3. **web search** — Google/Bing; the brand's own page or an EAN-keyed shop for
+   the same brand + line + flavour + pack.
+
+**"Same product" means every axis matches** — brand, line, lifestage/function,
+flavour, pack size, and for accessories size and colour. A hit that matches
+only the line, or only the pack, or a same-cost flavour sibling, is refused
+and the row goes to `runs/<date>/not-found.csv` with the nearest candidate
+named.
+
+Every name-identified row is logged in `state/register/identified-by-name.csv`
+(register row, name, source, hit url, code found, evidence) and the recovered
+code goes into `state/register/match-overrides.json` so the register chain
+(`reference/pricing.md` → "The register") treats it as a coded row from then
+on. `scripts/identify-by-name.py` drives the search and writes both files.
 
 ## When hafo names a brand we don't have
 

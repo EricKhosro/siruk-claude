@@ -33,6 +33,16 @@ jq -e '(.variants // []) | all(
 
 price_guard "$(jq -c '.variants // []' "$payload")"
 
+# Rule 8b: never an empty attribute family — create the family first if the
+# type's own doesn't exist yet (reference/admin-api.md has the live list).
+jq -e '(.attribute_family_id // 0) > 0' "$payload" >/dev/null \
+  || die "payload has no attribute_family_id — every product needs its type's family (CLAUDE.md rule 8b)"
+
+# No product ships without at least one image on at least one variant
+# (user rule 2026-09-23). ALLOW_NO_IMAGE=1 is a rare, explicit override.
+jq -e '(.variants // []) | any((.images // []) | length > 0)' "$payload" >/dev/null \
+  || { [[ ${ALLOW_NO_IMAGE:-} == 1 ]] || die "no variant in $payload has any images — every product needs at least one (set ALLOW_NO_IMAGE=1 to override)"; }
+
 name=$(jq -r .name "$payload")
 existing=$(api GET "/products?search=$(urlencode "$name")" | jq -r '.data[] | "\(.id)\t\(.name)"')
 if [[ -n $existing ]]; then

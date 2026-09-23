@@ -202,8 +202,6 @@ def main():
                 flags.append(f"discount markers: discount={listing.get('discount')} max_discount={listing.get('max_discount')} unique_price={row.get('unique_price')}")
             if chg.get("price") is not None and chg.get("price") != row.get("price"):
                 flags.append(f"/product/change says {chg.get('price')} vs listing row {row.get('price')}")
-            if cost and row.get("wholesale_price") not in (None, cost):
-                flags.append(f"hafo wholesale {row.get('wholesale_price')} != our cost {cost}")
             if row.get("price") is not None and cost and row["price"] <= cost:
                 flags.append("hafo price at or below our cost")
             rec["flags"] = "; ".join(flags)

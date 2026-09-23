@@ -47,9 +47,10 @@ Exactly `fixed` or `per_kg`; anything else 422s.
   weight`; only 2 decimals are stored (4666.666… → 4666.67, pack price within
   hundredths). The storefront shows the "֏/kg" rate **only** on `per_kg`
   variants — on a `fixed` variant `price_per_kg` is stored and never displayed.
-- On a `per_kg` variant do **not** set `product-weight` (the admin derives it)
-  — unless the product's variants would then have identical attribute
-  combinations (API refuses); keep it and flag it (`data-tables.md` table 4).
+- Set `product-weight` on a `per_kg` variant **too** (reversed 2026-09-14 —
+  it used to say the opposite). The numeric `weight` field is a pricing input;
+  the attribute is what the storefront facets and the pack-size dropdown read,
+  and nothing derives one from the other (`data-tables.md` table 4).
 - Volume goods (litter "5 l / 8 l") need a real kg `weight` before `per_kg`;
   the storefront hard-labels the rate "֏/kg". A weight derived from another
   pack of the identical product needs the user's explicit approval (done once,
@@ -208,7 +209,7 @@ Kidneys, 58 Test Kits]. The flat **12 Vitamins & Supplements was deleted**
 Accessories, 79 Collars, Leashes & Harnesses]; **Cat Trees, Condos &
 Scratchers** 80 → [81 Scratchers & Scratching Posts].
 **Dog Supplies / Cleaning & Potty** (Chewy menu, created 2026-09-11 on user
-approval to unblock the 208 rows in `runs/2026-09-11/blocked-no-category.csv`):
+approval to unblock 208 rows of the 2026-09-11 run):
 Dog 68 Supplies → [69 Collars, Leashes & Harnesses, 70 Bowls & Feeders,
 71 Beds, 72 Clothing & Accessories, 73 Carriers & Travel, 74 Training &
 Behavior]; Dog 75 Cleaning & Potty → [76 Pee Pads & Diapers, 77 Poop Bags &
@@ -218,12 +219,17 @@ created — Chewy's empty ones (Crates/Pens & Gates, Tech & Smart Home, Vacuums
 Window Perches) were deliberately left out. 13 Accessories is now empty but
 kept (it is not a product category — `forProducts` omits it).
 Every category has `ru`/`hy` names (`scripts/translate-categories.py`).
-**Products are filed in a leaf**, never a parent (`scripts/recategorize-toys.py`
+**Products are filed in a leaf**, never a parent (`scripts/archive/recategorize-toys.py`
 re-filed the first toy import).
 
-**Brands**: 1 Acana, 2 Belcando, 3 Brit, 4 Canvit, 5 Monge, 6 Orijen, 7 Royal
-Canin, 8 Trixie, 9 Farmina, 10 Schesir, 11 Leonardo, 12 Stuzzy, 13 Bewi Dog,
-14 Bewi Cat, 15 Dogland, 16 Ok-Lock, 17 Club 4 Paws, 18 Gemon, 19 Simba.
+**Brands**: 1 Acana, 2 Belcando, 3 Brit, 4 Canvit, 5 Monge, 6 Orijen, 7
+Royal Canin, 8 Trixie, 9 Farmina, 10 Schesir, 11 Leonardo, 12 Stuzzy, 13
+Bewi Dog, 14 Bewi Cat, 15 Dogland, 16 Ok-Lock, 17 Club 4 Paws, 18 Gemon, 19
+Simba, 20 Lechat, 21 Special Dog, 22 Rolf Club, 23 Inspector, 24 Gelmintal,
+25 Insectal, 26 Cliny, 27 Mr. Fresh, 28 Comfy, 29 Iv San Bernard, 30
+Beaphar, 31 8in1, 32 Mooor, 33 KorMell, 34 Justin, 35 Myau, **36 Versele-Laga,
+37 Mnyams, 38 Derevenskie Lakomstva, 39 flexi, 40 Eco-Premium, 41 Kaskad,
+42 Pchelodar** (added 2026-09-17, `reference/brand-sites.md` has the sites).
 
 **Attribute families** (after the 2026-09-10 Chewy sync): 1 Dry Food
 `[product-weight, flavor, breed-size, lifestage, special-diet, health-feature,
@@ -233,7 +239,14 @@ texture, special-diet, health-feature, packaging, ingredient]`, 3 Treats
 packaging, ingredient]`, 4 Supplements `[food-form, product-weight, lifestage,
 health-feature, packaging, product-form, active-ingredient, special-diet,
 flavor, breed-size, material]`, 5 Toys `[toy-type, material, toy-feature,
-color-family, lifestage, breed-size, toy-size]`.
+color-family, lifestage, breed-size, toy-size]`, 7 Grooming `[size,
+color-family, product-weight, material, breed-size, product-form,
+active-ingredient, health-feature]`, 8 Accessories `[size, color-family,
+material, product-weight, breed-size, pet-weight-range, product-form]`,
+9 Litter `[product-weight, material, product-form, health-feature]` (read
+live 2026-09-23; there is no family 6). A row whose
+product-type skill names a family that isn't in this list yet must have it
+created first, never left empty (rule 8b).
 
 **Attributes** — the vocabulary now replicates Chewy's filters
 (`reference/chewy-attributes.json`, applied by `scripts/sync-attributes.py`,
@@ -261,6 +274,17 @@ variant from its label (`scripts/restore-toy-size.py`). `DELETE
 /attributes/<id>` → 204; variants referencing it silently lose the key. **Multi-value is not supported**: `attribute_value_ids.<code>` must
 be an integer — an array 422s (verified 2026-09-10). User decision: stay
 single-valued for now.
+
+**New values from the 2026-09-16 variant merge** (`scripts/plan-variant-merge.py`,
+`reference/product-rules.md` → "Sibling products"): 9 antiparasitic dose
+bands on `pet-weight-range` 27 (`up to 4 kg` … `40–60 kg`, ids 830–838),
+collar lengths 40/65/75 cm on `size` 28 (839–841), flavour `Horse` on
+`flavor` (842), colours Aqua / Blush / Sage on `color-family` (843–845 — Trixie's
+palette needed them because royal blue/aqua and fuchsia/blush both mapped
+onto plain Blue/Pink), bowl capacities on `size` (846–854) and toy sizes on
+`toy-size` (855–859). All with ru/hy —
+`scripts/translate-attribute-values.py <ids>` writes just the new ones,
+`translate-attributes.py` rewrites everything.
 
 ## Open dev questions (for the backend team)
 

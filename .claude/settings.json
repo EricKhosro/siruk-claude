@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./scripts/set-variant.sh:*)",
+      "Bash(./scripts/add-variant.sh:*)",
+      "Bash(./scripts/create-product.sh:*)",
+      "Bash(./scripts/api.sh:*)",
+      "Bash(./scripts/upload-media.sh:*)",
+      "Bash(./scripts/set-translation.py:*)"
+    ]
+  }
+}

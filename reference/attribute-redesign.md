@@ -31,13 +31,18 @@ treats, supplements, accessories — EU brands).
 Variant pack weight (how much food is in the bag/can). Values created as needed
 per product, following the weight format above.
 
-> **Not set on weight-priced variants** (user rule, 2026-08-12): a variant with
-> `pricing_type: "per_kg"` carries a Pack weight field and the admin generates the
-> weight from it, so tagging the attribute too would duplicate it. Only
-> unit-priced (`fixed`) variants get `product-weight`. One exception: a product
-> whose variants differ *only* by pack size keeps it, because the API rejects two
-> variants with identical attribute combinations. See table 4 of
-> `reference/data-tables.md`.
+> **Set on every variant whose pack prints a weight** (user rule, 2026-09-14),
+> `pricing_type: "per_kg"` included. This reverses the 2026-08-12 rule, which
+> skipped weight-priced variants on the grounds that the Pack weight field
+> already held the number: it does, but only for pricing — the storefront's
+> filter sidebar and pack-size dropdown read the *attribute*, and nothing
+> derives it from the field. Skipping it left every dry-food product with no
+> pack size on the shop. See table 4 of `reference/data-tables.md`.
+>
+> **Not a pack weight, and not this attribute:** a dose band (`1–4 kg`,
+> `over 16 kg`) is the pet's weight → `pet-weight-range` 27; a length or a bowl
+> capacity (`75 cm`, `0.4 l/ø 17 cm`) → `size` 28; a bare count (`10 tablets`)
+> has no weight at all. Leave the attribute empty rather than guess (rule 8).
 
 > **Not called "Size".** Renamed from `size`/"Size" on 2026-08-12 by user
 > decision: Royal Canin (and most pet brands) use "Size" for the *dog's* body

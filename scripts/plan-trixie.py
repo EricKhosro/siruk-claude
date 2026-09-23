@@ -3,7 +3,7 @@
 scripts/import-plan.py, plus the per-run CSV rows (unpriced / not found).
 
 Rules applied (CLAUDE.md): sale price only from hafo's row for the article
-(price_source "variant", wholesale == CSV cost, price > cost) or the
+(price_source "variant", price > cost) or the
 sibling-price fallback (same product group, same cost, siblings agree);
 identity from the article code (Tx suffix + trixie.de catalogue); name /
 texts / gallery from trixie.de; attributes only from the closed menu with a
@@ -17,6 +17,21 @@ import argparse, csv, json, os, re, sys, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
 BRAND = 8
+
+# Register price (user rule 2026-09-16): the PM's register `Վաճառքի գին` is the
+# sale price and outranks hafo. REGISTER_STATUS=state/register/register-status.json
+# turns it on; a register price at or below cost is ignored (rule 5).
+_REG = {}
+if os.environ.get("REGISTER_STATUS"):
+    for _r in json.load(open(os.environ["REGISTER_STATUS"])):
+        if _r.get("code") and _r.get("sale_price"):
+            _REG[_r["code"].strip()] = float(_r["sale_price"])
+
+
+def register_price(code, cost):
+    p = _REG.get(code.strip())
+    return int(p) if p and p > cost else None
+
 MENU = json.load(open(os.path.join(ROOT, "reference/attribute-values.json")))
 VAL = {code: {k.lower(): v for k, v in d["values"].items()} for code, d in MENU.items()}
 
@@ -53,6 +68,91 @@ def clean_name(name):
         name = MATERIAL_SUFFIX.sub("", name).strip()
     return name.strip(" ,")
 
+
+
+# --------------------------------------------------- accessories (2026-09-16)
+# Supplies / Cleaning & Potty / Scratcher leaves (68–81, created 2026-09-11)
+# keyed by the trixie.de shelf segment, with the name overrides
+# scripts/archive/_recat-blocked-2026-09-11.py used. 13 "Accessories" is not a
+# product category any more.
+ACC_CAT = {"dog-collars": 69, "dog-bowls": 70, "dog-beds": 71, "dog-clothing": 72, "dog-travel": 73,
+           "dog-training": 74, "dog-pads": 76, "dog-poop": 77, "dog-cleaners": 78, "cat-collars": 79,
+           "cat-scratchers": 81, "dog-grooming-tools": 30, "litter-acc": 67}
+ACC_SHELF = {"dog-collars": "dog-collars", "dog-leashes": "dog-collars", "dog-harnesses": "dog-collars",
+             "luminous-items-safety": "dog-collars", "jogging-accessories": "dog-collars",
+             "dog-bowls-accessories": "dog-bowls", "travel-bowls-drinking-bottles": "dog-bowls",
+             "dog-poop-bags-dispensers": "dog-poop", "textile-cleaning": "dog-cleaners",
+             "cat-harnesses-collars": "cat-collars", "scratching-cardboards": "cat-scratchers",
+             "scratching-furniture-for-wall-mounting": "cat-scratchers", "cat-litter-tray": "litter-acc",
+             "litter-trays": "litter-acc", "litter-tray-accessories": "litter-acc",
+             "cat-bowls-accessories": "dog-bowls", "dog-clothing": "dog-clothing", "dog-beds": "dog-beds",
+             "cat-beds": "dog-beds", "transport": "dog-travel", "car-accessories": "dog-travel",
+             "training": "dog-training", "dog-sport": "dog-training", "hygiene": "dog-pads"}
+
+
+def acc_bucket(name, seg, lowinv, species):
+    n = (name or "").lower()
+    if "poisoned bait protection" in n or "muzzle" in n:            return "dog-training"
+    if "dog socks" in n or re.search(r"\bcoat\b|jumper|raincoat|sweater", n): return "dog-clothing"
+    if "cooling mat" in n or "cushion" in n or "blanket" in n:      return "dog-beds"
+    if "car seat cover" in n or "carrier" in n or "transport box" in n: return "dog-travel"
+    if "towel with pockets" in n:                                   return "dog-grooming-tools"
+    if "poop scoop" in n or "poop bag" in n or "dirt bag" in n:     return "dog-poop"
+    if "place mat" in n or "silicone tray" in n:                    return "dog-bowls"
+    if re.search(r"\b(nappy|diaper|protective pants|pads for protective)", n): return "dog-pads"
+    if "lint" in n or "upholstery" in n or "textile brush" in n:    return "dog-cleaners"
+    if "scratching" in n:                                           return "cat-scratchers"
+    if re.search(r"litter|dustpan|scoop", n) or re.search(KW[0][0], lowinv): return "litter-acc"
+    if seg in ACC_SHELF:
+        b = ACC_SHELF[seg]
+        if b == "dog-collars" and species.startswith("cat"):
+            return "cat-collars"
+        return b
+    if re.search(r"\b(collar|harness|lead|leash|bandana|choke|chain|i\.d\. tag|address)", n) or re.search(r"վզնոց|ձգափոկ|շլեյկա|մեդալիոն", lowinv):
+        return "cat-collars" if (species.startswith("cat") or re.search(r"\b(cat|kitten)\b", n) or "կատ" in lowinv) else "dog-collars"
+    if "bowl" in n or "bottle" in n or "կերաման" in lowinv:        return "dog-bowls"
+    return None
+
+
+LETTER = r"(?:XXS|XS|S|M|L|XL|XXL)"
+LETTER_RUN_RE = re.compile(rf"^({LETTER}(?:\s*[–-]\s*{LETTER})?(?:,\s*{LETTER}(?:\s*[–-]\s*{LETTER})?)*)\s*(?:[,:]|$)")
+CAPACITY_RE = re.compile(r"^(\d+(?:[.,]\d+)?\s*(?:l|ml)\s*/\s*ø\s*\d+(?:[.,]\d+)?\s*cm)", re.I)
+ACC_COLOUR = {"black": "Black", "royal blue": "Blue", "blue": "Blue", "dark blue": "Dark Blue", "neon blue": "Blue",
+              "indigo": "Blue", "aqua": "Aqua", "ocean": "Blue", "petrol": "Teal", "red": "Red", "coral": "Red",
+              "fuchsia": "Pink", "pink": "Pink", "neon pink": "Pink", "blush": "Blush", "antique pink": "Pink",
+              "orchid": "Purple", "light lilac": "Purple", "purple": "Purple", "sangria": "Purple", "olive green": "Green",
+              "green": "Green", "sage": "Sage", "mint": "Green", "apple": "Green", "khaki": "Green", "grey": "Grey",
+              "dark grey": "Grey", "light grey": "Grey", "graphite": "Grey", "silver grey": "Silver", "silver": "Silver",
+              "chrome": "Silver", "gold": "Gold", "white": "White", "cream": "Ivory", "dark brown": "Brown", "brown": "Brown",
+              "rust": "Brown", "orange": "Orange", "papaya": "Orange", "sand": "Beige", "beige": "Beige", "curry": "Yellow",
+              "yellow": "Yellow", "neon yellow": "Yellow", "sorted": "Color Varies", "various": "Color Varies",
+              "assorted": "Color Varies", "bronze": "Gold", "anthracite": "Grey"}
+
+
+def acc_size(label):
+    """'XS–S, 22–35 cm/10 mm, black' -> 'XS–S'; '0.25 l/ø 12 cm' -> that; else None."""
+    lab = (label or "").strip()
+    m = LETTER_RUN_RE.match(lab)
+    if m:
+        return m.group(1).strip()
+    m = CAPACITY_RE.match(lab)
+    if m:
+        return m.group(1).replace(",", ".").strip()
+    return None
+
+
+def acc_colour(spec_colour, label):
+    txt = (spec_colour or "").lower().strip()
+    if not txt:
+        parts = [x.strip().lower() for x in (label or "").split(",")]
+        txt = parts[-1] if len(parts) > 1 else (parts[0] if parts and parts[0] in ACC_COLOUR else "")
+    if not txt:
+        return None
+    first = re.split(r"\s*/\s*", txt)[0].strip()
+    for k in sorted(ACC_COLOUR, key=len, reverse=True):
+        if first == k or first.endswith(" " + k) or first.startswith(k + " "):
+            return ACC_COLOUR[k]
+    return None
 
 # ------------------------------------------------------------- categories --
 TOY_TYPE = {"plush-toys": "Plush", "latex-rubber-toys": "Latex & Rubber", "tugging-rope-toys": "Rope & Tug",
@@ -222,7 +322,7 @@ def main():
     a = ap.parse_args()
     types = set(a.types.split(","))
 
-    rows = [r for r in json.load(open(os.path.join(CACHE, "todo-rows.json"))) if r["Brand"] == "Trixie"]
+    rows = [r for r in json.load(open(os.environ.get("TODO_ROWS") or os.path.join(CACHE, "todo-rows.json"))) if r["Brand"] == "Trixie"]
     hafo = json.load(open(os.path.join(CACHE, "hafo-all.json")))
     catalogue = json.load(open(os.path.join(CACHE, "trixie-catalogue.json")))
     pages = json.load(open(os.path.join(CACHE, "trixie-todo-pages-parsed.json")))
@@ -231,6 +331,17 @@ def main():
     names = json.load(open(a.names)) if os.path.exists(a.names) else {}
     live_by_slug = {p["slug"]: (pid, p) for pid, p in live.items()}
     live_skus = {str(v["sku"]) for p in live.values() for v in p["variants"]}
+    # official signal: a live product whose variant sits on the same trixie.de page
+    # is THE product a new article of that page belongs to (rule 9, the 2026-09-12
+    # dedup rule A); the name/slug rule below is only the fallback.
+    tmap = os.path.join(CACHE, "dedup", "trixie-map.json")
+    a2p_live = json.load(open(tmap))["a2p"] if os.path.exists(tmap) else {}
+    live_by_page = {}
+    for pid, p in live.items():
+        for v in p["variants"]:
+            u = a2p_live.get(str(v["sku"]))
+            if u:
+                live_by_page.setdefault(u.split("?")[0], pid)
 
     # article -> page (catalogue link, or a sibling page that lists it as a variant)
     art2page = {}
@@ -264,12 +375,17 @@ def main():
             continue
         # --- price
         price, why, hafo_note = None, None, ""
-        if h.get("confirmed") and h.get("price_source") == "variant":
+        if register_price(code, cost):
+            price = register_price(code, cost); hafo_note = "price: register"
+        elif h.get("confirmed") and h.get("price_source") == "variant":
             p, w = h.get("price_amd"), h.get("wholesale_price_amd")
             if hb and hb != "TRIXIE" and w != cost:
                 why = "wrong row"; hafo_note = f"hafo row {h.get('variant_sku')} is {h.get('brand')} '{(h.get('title_hy') or '')[:50]}'"
-            elif w != cost or not p or p <= cost:
-                why = "wrong row"; hafo_note = f"hafo row {h.get('variant_sku')} price {p} wholesale {w} vs cost {cost} — '{(h.get('title_hy') or '')[:50]}'"
+            elif not p or p <= cost:
+                # only price > cost gates (rule 5); wholesale != cost is not a
+                # reason to reject (user, 2026-09-23) — it still helps above, to
+                # spot a non-Trixie row
+                why = "wrong row"; hafo_note = f"hafo row {h.get('variant_sku')} price {p} at/below cost {cost} — '{(h.get('title_hy') or '')[:50]}'"
             else:
                 price = int(p)
         elif h.get("hafo_id") and h.get("confirmed"):
@@ -348,13 +464,15 @@ def main():
                 else: cat_ids = pair(30, 37); flagged.append({"code": code, "what": "dental care filed under Grooming Tools (no Dental Care leaf)"})
             elif key in ("dog-health", "cat-health"):
                 if re.search(r"tick|flea|տիզ|լու", nm): cat_ids = pair(42, 51); ptype = "supplements"
-                elif re.search(r"sock|pant|diaper|nappy|pad|bait|protection|boot|shoe|belly band|muzzle|collar|lint|roller|glove|blanket|mat\b", nm): cat_ids = [13]; ptype = "accessories"
+                elif re.search(r"sock|pant|diaper|nappy|pad|bait|protection|boot|shoe|belly band|muzzle|collar|lint|roller|glove|blanket|mat\b", nm):
+                    b = acc_bucket((page or {}).get("name", ""), seg, lowinv, species); cat_ids = [ACC_CAT[b]] if b else [13]; ptype = "accessories"
                 elif re.search(r"tablet|pill|medic|դեղ|հաբ", nm) and not re.search(r"hiding", nm): cat_ids = pair(47, 55); ptype = "supplements"
                 elif re.search(r"vitamin|supplement|paste|drops|oil|malt|calcium|powder|tabs|վիտամին|մալթ", nm): cat_ids = pair(43, 52); ptype = "supplements"
-                else: cat_ids = [13]; ptype = "accessories"; flagged.append({"code": code, "what": "dog/cat-health item filed under Accessories — check leaf"})
+                else:
+                    b = acc_bucket((page or {}).get("name", ""), seg, lowinv, species); cat_ids = [ACC_CAT[b]] if b else [13]; ptype = "accessories"
+                    if not b: flagged.append({"code": code, "what": "dog/cat-health item filed under Accessories — check leaf"})
             elif key == "textile-cleaning" or key == "litter-acc":
-                cat_ids = [13] if key == "textile-cleaning" else [67]; ptype = "accessories"
-                if key == "textile-cleaning": flagged.append({"code": code, "what": "stain/odour remover filed under Accessories (no Cleaning leaf)"})
+                cat_ids = [78] if key == "textile-cleaning" else [67]; ptype = "accessories"
             elif key in GROOM_LEAF and GROOM_LEAF[key]:
                 cat_ids = pair(*GROOM_LEAF[key])
             else:
@@ -377,7 +495,8 @@ def main():
             elif seg == "supplementary-feed":
                 cat_ids = pair(43, 52); ptype = "supplements"
             else:
-                cat_ids = [13]
+                b = acc_bucket((page or {}).get("name", ""), seg, lowinv, species)
+                cat_ids = [ACC_CAT[b]] if b else [13]
         if ov.get("cat_ids"):
             cat_ids = ov["cat_ids"]
         if ptype not in types:
@@ -385,11 +504,11 @@ def main():
 
         # --- name / label / texts
         if art in names and names[art].get("force"):
-            name = names[art]["name"]; src = page["url"] if page else "fallback: hafo/invoice"
+            name = names[art]["name"]; src = names[art].get("src") or (page["url"] if page else "fallback: hafo/invoice")
         elif page:
             name = clean_name(page["name"]); src = page["url"]
         elif art in names:
-            name = names[art]["name"]; src = "fallback: hafo/invoice"
+            name = names[art]["name"]; src = names[art].get("src") or "fallback: hafo/invoice"
         else:
             if not price:
                 unpriced.append({"Article Code": code, "Brand": "Trixie", "Official Site": "not on trixie.de (no product page)", "Proposed Product Name": inv,
@@ -477,6 +596,16 @@ def main():
         elif ptype == "litter":
             wl = weight_label(spec, inv)
             if wl and vid("product-weight", wl): attrs["product-weight"] = vid("product-weight", wl); ev["product-weight"] = wl
+        if ptype in ("accessories", "grooming"):
+            # accessory variant axes (rule 9a): size 28 + color-family 15
+            sz = acc_size(label)
+            if sz:
+                if vid("size", sz): attrs["size"] = vid("size", sz); ev["size"] = f"label '{label}'"
+                else: wanted[("size", sz)] += 1; wanted_ev[("size", sz)] = f"{name} — {label}"
+            cf = acc_colour(spec.get("Colour"), label)
+            if cf:
+                if vid("color-family", cf): attrs["color-family"] = vid("color-family", cf); ev["color-family"] = f"Colour: {spec.get('Colour') or label}"
+                else: wanted[("color-family", cf)] += 1; wanted_ev[("color-family", cf)] = f"{name} — {label}"
         attrs = {k: v for k, v in attrs.items() if v}
 
         # --- texts
@@ -496,7 +625,9 @@ def main():
                    "attribute_value_ids": attrs, "about_this_item": about, "ingredient_information": ingr,
                    "feeding_instructions": feed, "_ev": ev, "_inv": inv, "_why": why, "_hafo": hafo_note, "_species": species}
         # grouping key: page for families with variant axes, else the row itself
-        gkey = (art2page.get(art) if (page and ptype in ("toys", "treats", "supplements", "litter")) else f"row:{art}")
+        gkey = (art2page.get(art) if page else (f"name:{names[art]['name']}" if art in names else f"row:{art}"))
+        if art in names and names[art].get("existing"):
+            variant["_existing"] = int(names[art]["existing"])
         groups.setdefault(gkey, {"name": name, "ptype": ptype, "cat_ids": cat_ids, "family": family, "src": src, "rows": []})
         groups[gkey]["rows"].append(variant)
 
@@ -542,8 +673,19 @@ def main():
                     seen[k] = v
             main = [v for v in keep if not any(v is b[0] for b in buckets)]
             buckets = ([main] if main else []) + buckets
+        elif len(keep) > 1 and not g["family"]:
+            # accessories: one product per page, variants told apart by size/colour
+            seen = {}
+            for v in keep:
+                k = json.dumps(v["attribute_value_ids"], sort_keys=True)
+                if k in seen or not v["attribute_value_ids"]:
+                    buckets.append([v]); flagged.append({"code": v["code"], "what": f"split from '{g['name']}': attribute combination not distinct ({k})"})
+                else:
+                    seen[k] = v
+            main = [v for v in keep if not any(v is b[0] for b in buckets)]
+            buckets = ([main] if main else []) + buckets
         else:
-            buckets = [[v] for v in keep] if not g["family"] else [keep]
+            buckets = [keep]
         for bi, bucket in enumerate(buckets):
             name = g["name"]
             if bi > 0:
@@ -555,7 +697,11 @@ def main():
             if slug in live_by_slug or slugs_used[base]:
                 slug = f"{base}-{bucket[0]['sku']}"
             slugs_used[base] += 1
-            existing = live_by_slug.get(base, (None,))[0] if base in live_by_slug and live_by_slug[base][1]["name"] == name else None
+            existing = live_by_page.get((gkey or "").split("?")[0]) if not gkey.startswith(("row:", "name:")) else None
+            if not existing:
+                existing = next((v["_existing"] for v in bucket if v.get("_existing")), None)
+            if not existing:
+                existing = live_by_slug.get(base, (None,))[0] if base in live_by_slug and live_by_slug[base][1]["name"] == name else None
             variants = []
             for i, v in enumerate(sorted(bucket, key=lambda x: (x["name"] or ""))):
                 variants.append({k: v[k] for k in ("sku", "name", "pricing_type", "price", "cost_price", "stock", "images",

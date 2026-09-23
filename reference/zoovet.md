@@ -24,8 +24,12 @@ And one thing it cannot do at all, which decides how it may be used:
 
 So a zoovet hit is a **candidate**, exactly like a hafo name-search hit —
 `scripts/zoovet-lookup.py` always returns `confirmed: false`. CLAUDE.md rule 6
-(identity only from the article code) and rule 7 (never attach an image from a
-fuzzy name match) still hold. Confirming a candidate is the step below.
+(the article code is the identity when the row has one; a codeless row is
+identified by name — hafo, then zoovet, then a web search — only when every
+axis matches) and rule 7 (never attach an image from a fuzzy name match)
+still hold. Confirming a candidate is the step below; for a codeless register
+row a confirmed zoovet hit is the identity itself and is logged in
+`state/register/identified-by-name.csv`.
 
 ## Confirming a candidate
 
@@ -100,8 +104,8 @@ site).
 ## Coverage — what it will and will not rescue
 
 zoovet carries food, treats, toys, grooming, litter and pharmacy. It does
-**not** carry most Trixie hardware: of the 161 unpriced Trixie rows in
-`runs/2026-09-11/no-hafo-price.csv` (mostly leads, harnesses and collars), its
+**not** carry most Trixie hardware: of the 161 unpriced Trixie rows of the
+2026-09-11 run (mostly leads, harnesses and collars), its
 Trixie range of 339 products has no harness at all and no "Berto" litter box.
 Expect it to rescue snacks, shampoos, toys and litter, not accessories.
 

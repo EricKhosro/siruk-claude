@@ -20,7 +20,7 @@ store, which keeps Trixie's file names and so proves the article the same way
 the CDN does; it carries the family files the CDN probe cannot guess.
 The chain and what each source may be used for live in `config.json`
 → `images.sources`; the evaluation that picked them is in
-`runs/2026-09-11/image-source-candidates.md`.
+`reference/image-sources.md`.
   9 hafo.am          the distributor's own photo for the SAME article code —
                      the documented fallback, used only when the brand site
                      gives the variant fewer than two pictures, and only when

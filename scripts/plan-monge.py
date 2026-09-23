@@ -9,12 +9,27 @@ Grouping table .siruk-cache/monge-groups.json, one entry per article code:
               "images": [..optional override urls..], "attrs": {..optional overrides..},
               "page": "<optional monge.it/monge.shop url for texts>"}}
 Rows without an entry are reported, not planned. Prices only from hafo
-(variant row, wholesale == cost, price > cost) or the sibling fallback.
+(variant row, price > cost) or the sibling fallback.
 """
 import json, os, re, sys, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
+
+# Register price (user rule 2026-09-16): the PM's register `Վաճառքի գին` is the
+# sale price and outranks hafo. REGISTER_STATUS=state/register/register-status.json
+# turns it on; a register price at or below cost is ignored (rule 5).
+_REG = {}
+if os.environ.get("REGISTER_STATUS"):
+    for _r in json.load(open(os.environ["REGISTER_STATUS"])):
+        if _r.get("code") and _r.get("sale_price"):
+            _REG[_r["code"].strip()] = float(_r["sale_price"])
+
+
+def register_price(code, cost):
+    p = _REG.get(code.strip())
+    return int(p) if p and p > cost else None
+
 MENU = json.load(open(os.path.join(ROOT, "reference/attribute-values.json")))
 VAL = {code: {k.lower(): v for k, v in d["values"].items()} for code, d in MENU.items()}
 BRAND_SLUG = {5: "monge", 18: "gemon", 20: "lechat", 21: "special-dog", 19: "simba"}
@@ -77,7 +92,7 @@ def pick(code, label, ev, attrs, evd):
 
 def main():
     out_path = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else os.path.join(CACHE, "monge-plan.json")
-    rows = [r for r in json.load(open(os.path.join(CACHE, "todo-rows.json"))) if r["Brand"] in ("Monge", "Gemon", "Lechat", "Special Dog")]
+    rows = [r for r in json.load(open(os.environ.get("TODO_ROWS") or os.path.join(CACHE, "todo-rows.json"))) if r["Brand"] in ("Monge", "Gemon", "Lechat", "Special Dog")]
     hafo = json.load(open(os.path.join(CACHE, "hafo-all.json")))
     shop = {x["article"]: x for x in json.load(open(os.path.join(CACHE, "mongeshop-group.json")))}
     pages = json.load(open(os.path.join(CACHE, "mongeshop-pages.json")))
@@ -106,12 +121,18 @@ def main():
             ungrouped.append({**r, "hafo_title": h.get("title_hy"), "hafo_price": h.get("price_amd"), "shop_name": shop.get(code, {}).get("name_en")})
             continue
         price, why, note = None, None, ""
-        if h.get("confirmed") and h.get("price_source") == "variant":
+        if register_price(code, cost):
+            price = register_price(code, cost); note = "price: register"
+        elif h.get("confirmed") and h.get("price_source") == "variant":
             p, w = h.get("price_amd"), h.get("wholesale_price_amd")
-            if w == cost and p and p > cost:
+            # hafo's wholesale is NOT expected to equal our cost (user, 2026-09-23) —
+            # only price > cost gates the row (rule 5)
+            if p and p > cost:
                 price = int(p)
+                if w != cost:
+                    note = f"hafo wholesale {w} != cost {cost} (info only)"
             else:
-                why, note = "wrong row", f"hafo row {h.get('variant_sku')} price {p} wholesale {w} vs cost {cost}"
+                why, note = "wrong row", f"hafo row {h.get('variant_sku')} price {p} at/below cost {cost}"
         elif h.get("hafo_id") and h.get("confirmed"):
             why, note = "on hafo, size missing", f"listing '{(h.get('title_hy') or '')[:60]}' skus {h.get('skus')}"
         else:

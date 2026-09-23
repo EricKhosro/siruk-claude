@@ -1,0 +1,11 @@
+reg_no,code,sku,product_id,product,variant_id,variant,pricing_type,cost,our_price,register_price,action,note,patch
+00029,5121112,5121112,1009,"Light & Fit, 11.4 kg",1167,11.4 kg,per_kg,34750.0,45000.02,50000.0,SKIP,per_kg variant: the audit carries no weight — handle by hand,
+00073,AC5301112,AC5301112,1021,"Sport & Agility, 11.4 kg",1179,11.4 kg,per_kg,34750.0,45000.02,50000.0,SKIP,per_kg variant: the audit carries no weight — handle by hand,
+00585,42746,42746,559,Premio Strips with Tuna & Whitefish,667,20 g,fixed,435.0,1100.0,700.0,WRITTEN,,"{""price"": 700}"
+00644,42743,42743,558,Cookies,666,Salmon & Catnip 50 g,fixed,665.0,1000.0,1100.0,WRITTEN,,"{""price"": 1100}"
+00829,42735,42735,556,Premio Tenders Chicken Breast,664,4 pcs./70 g,fixed,875.0,1350.0,1400.0,WRITTEN,,"{""price"": 1400}"
+00830,42755,42755,562,Freeze Dried Cat Snacks,670,Shrimps 25 g,fixed,965.0,1200.0,1550.0,WRITTEN,,"{""price"": 1550}"
+00831,42763,42763,554,Premio Rolls,1401,Chicken Breast & Tuna 50 g,fixed,935.0,1100.0,1500.0,WRITTEN,,"{""price"": 1500}"
+00834,42756,42756,562,Freeze Dried Cat Snacks,1395,Chicken Hearts 25 g,fixed,685.0,1550.0,1100.0,WRITTEN,,"{""price"": 1100}"
+00951,42748,42748,558,Cookies,1394,Chicken & Prawn 50 g,fixed,405.0,700.0,650.0,WRITTEN,,"{""price"": 650}"
+01024,42754,42754,561,Junior Clouds,669,40 g,fixed,750.0,650.0,1200.0,WRITTEN,,"{""price"": 1200}"

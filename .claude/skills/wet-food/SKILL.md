@@ -31,7 +31,7 @@ Skipped on purpose from Chewy: Made In, Deals & Savings.
 | `texture` | Broth, Chunks in Gravy, Chunks in Jelly, Fillets, Minced, Mousse, Mousse & Shreds, Pate, Shredded, Stew | from the pack wording ("in gravy", "in jelly", "paté", "mousse"); vendor-string words in `reference/csv-formats.md` |
 | `ingredient` | Chewy's 69 | first ingredient of the composition |
 | `packaging` | Can, Pouch, Tray, Cup, Tub, Box, Variety Pack… | from the format: pouch / can / tray; a multipack of one flavour keeps its unit packaging, a mixed box → Variety Pack |
-| `product-weight` | pack weight menu (85 g, 100 g, 400 g…) | the **unit** weight, never the case (`12X85G` = 85 g) |
+| `product-weight` | pack weight menu (85 g, 100 g, 400 g…) | **always.** The **unit** weight, never the case (`12X85G` = twelve separately-sized cans → 85 g). A single tray/can prints its own weight (`415 g`, `1250 g`) |
 
 ### Single-value consequence
 Chewy's Special Diet, Health Feature and Ingredient are multi-tag; ours hold
@@ -43,6 +43,13 @@ composition (the headline protein), nothing else.
 ## Variant axes
 Pack weight, flavour and texture. A flavour or texture variant must carry that
 attribute or the API rejects the second variant.
+
+**Flavour and texture never go in the product Name**, and a brand giving each
+flavour its own page is not a split signal. Packaging (85 g pouch vs 400 g can
+vs 100 g tray) does split products here — the pack art changes — which is why
+"Fresh Adult Dog" (cans) and "Fresh Adult Dog Paté" (trays) stay apart. Before
+creating: find the line product and add the row as a variant; rename a
+single-variant product whose Name carries the flavour (rule 9, CLAUDE.md).
 
 ## Pricing
 `pricing_type: "fixed"`, `price` = hafo's row for that article code (one retail

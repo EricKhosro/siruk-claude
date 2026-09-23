@@ -67,7 +67,8 @@
       "runs/<date>/needs-image.csv as the hand-replacement worklist (rule 7a).",
       "Approved by the PM 2026-09-11; the evaluation of the 21 candidates is in",
       "runs/2026-09-11/image-source-candidates.md.",
-      "2026-09-11: trixie-es and zoovet added (user request). zoovet is the only source whose match is NOT article-keyed — require_confirmation means a human confirms identity before its picture is attached."
+      "2026-09-11: trixie-es and zoovet added (user request). zoovet is the only source whose match is NOT article-keyed — require_confirmation means a human confirms identity before its picture is attached.",
+      "2026-09-12: tiierisch, carrefour-es, hornung-baushop and web-search added (rule 7d). Everything above hafo is unwatermarked; web-search is the only rung whose match must be checked by eye as well as by number."
     ],
     "require_article_key": true,
     "min_pixels": 500,
@@ -135,6 +136,67 @@
         "lookup_script": "scripts/zoovet-lookup.py",
         "requires_hand_confirmation": true,
         "_comment": "CLAUDE.md rule 7b: unwatermarked brand packshots, but zoovet carries no article code (its ME-… number collides with brand articles), so every hit stays a candidate until a human confirms it. A confirmed zoovet photo is a finished image and leads the gallery like a brand shot — which is why it is not ranked automatically here. reference/zoovet.md."
+      },
+      {
+        "id": "tiierisch",
+        "enabled": true,
+        "brands": [
+          "Trixie"
+        ],
+        "kind": "shopify",
+        "catalogue_url": "https://www.tiierisch.de/products.json?limit=250&page={page}",
+        "index_script": "scripts/tiierisch-index.py",
+        "cache": ".siruk-cache/tiierisch-index.json",
+        "key": "variant.sku = the article number, variant.barcode = the EAN",
+        "_note": "German pet shop, found 2026-09-12. 5,223 Trixie articles, more than trixiecz, and Shopify records which image belongs to which variant (image.variant_ids) so a colour does not inherit its sibling's photo. Variant-linked images only; the product-level shots are returned separately as `family` and need a look before use.",
+        "rank_first_image": 4,
+        "rank_other_images": 5,
+        "refresh_days": 30,
+        "delay_seconds": 0.5
+      },
+      {
+        "id": "4lapy",
+        "enabled": true,
+        "site": "https://4lapy.ru",
+        "lookup_script": "scripts/4lapy-lookup.py",
+        "cache": ".siruk-cache/4lapy-index.json",
+        "key": "the manufacturer barcode (Штрихкод) printed on each pack-size offer = our EAN",
+        "_note": "Added 2026-09-23 (user's fallback list). Any brand. Per-offer gallery plus Russian description/composition/feeding. robots.txt disallows /search/, so products are found through the product sitemap. RUB prices are never used.",
+        "refresh_days": 30,
+        "delay_seconds": 1.0
+      },
+      {
+        "id": "carrefour-es",
+        "enabled": true,
+        "kind": "ean-bucket",
+        "url": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/original/{ean}_{n}.jpg",
+        "lookup_script": "scripts/ean-image-lookup.py",
+        "key": "the EAN, in the url itself",
+        "_note": "Addressed by the barcode, so no search at all: probe _1.._5. `original/` is the full-resolution file (hd_510x_ is the 510 px rendition). Coverage is only what Carrefour ES sells.",
+        "rank_first_image": 6,
+        "rank_other_images": 7
+      },
+      {
+        "id": "hornung-baushop",
+        "enabled": true,
+        "kind": "html-search",
+        "site": "https://hornung-baushop.de",
+        "lookup_script": "scripts/ean-image-lookup.py",
+        "key": "the EAN, in the image file name",
+        "rank_first_image": 6,
+        "rank_other_images": 7
+      },
+      {
+        "id": "web-search",
+        "enabled": true,
+        "kind": "search",
+        "lookup_script": "scripts/image-search.py",
+        "verify_script": "scripts/web-image-lookup.py",
+        "requires_hand_confirmation": true,
+        "key": "the article number or EAN in the image file name (keyed-file) or in the source page url (keyed-page); a name-only hit is refused",
+        "_note": "CLAUDE.md rule 7d, user instruction 2026-09-12. Last resort, after every other source has missed. Keyed is necessary but not sufficient — look at the picture: a page printing EAN 8009470041539 carried the wrong flavour's can (2026-09-12).",
+        "rank_first_image": 8,
+        "rank_other_images": 8
       },
       {
         "id": "hafo",

@@ -5,7 +5,12 @@
 #
 #   scripts/upload-media.sh ./img/rc-mini-adult.jpg
 #   scripts/upload-media.sh 'https://www.royalcanin.com/.../packshot.jpg'
-#   scripts/upload-media.sh ./a.jpg products   # into a subdirectory
+#   scripts/upload-media.sh ./a.jpg products/trixie/toys/   # into a folder
+#
+# Rule 7: every upload goes in a media-library folder — `products/<brand-slug>/
+# <type>/` or `banners/…`, never the root. The folder is the 2nd argument, else
+# $MEDIA_DIR (for scripts that call this without one); with neither, it still
+# uploads, but says so loudly.
 #
 # Pacing, retries and the post-upload check are configured in config.json
 # (media.* section). The check matters: the server can return a media id whose
@@ -14,7 +19,8 @@ set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/lib.sh"
 
 [[ $# -ge 1 ]] || die "usage: $0 <file|url> [directory]"
-src=$1 dir=${2:-}
+src=$1 dir=${2:-${MEDIA_DIR:-}}
+[[ -n $dir ]] || note "⚠ no folder given (arg 2 or MEDIA_DIR) — uploading to the media root; rule 7 wants products/<brand>/<type>/ or banners/"
 
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36'
 

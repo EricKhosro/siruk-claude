@@ -29,6 +29,18 @@ jq -e 'has("id") | not' "$vfile" >/dev/null || die "variant must not carry an \"
 before=$(api GET "/products/$id")
 printf '%s\n' "$before" > "$CACHE/product-$id-before.json"
 
+# No product ships without at least one image on at least one variant
+# (user rule 2026-09-23). ALLOW_NO_IMAGE=1 is a rare, explicit override.
+if [[ $(jq '(.images // []) | length' "$vfile") == 0 ]] \
+   && ! jq -e '.data.variants[] | (.images // []) | length > 0' <<<"$before" >/dev/null; then
+  [[ ${ALLOW_NO_IMAGE:-} == 1 ]] || die "new variant has no images, and product $id has none on any variant either — every product needs at least one (set ALLOW_NO_IMAGE=1 to override)"
+fi
+
+# Rule 8b: the PUT below re-sends the product's family; don't re-write a
+# product that has none — give it one first (scripts/set-attribute-family.py).
+jq -e '(.data.attribute_family_id // 0) > 0' <<<"$before" >/dev/null \
+  || die "product $id has no attribute family — set it first (scripts/set-attribute-family.py --apply --only $id), CLAUDE.md rule 8b"
+
 sku=$(jq -r .sku "$vfile")
 if jq -e --arg s "$sku" '.data.variants[] | select(.sku == $s)' <<<"$before" >/dev/null; then
   die "product $id already has a variant with sku $sku — nothing to add"

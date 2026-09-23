@@ -8,6 +8,16 @@ create an account or touch checkout. Ignore every price on a brand site.
 Not in the table → web-search `"<brand>" official site`, use the manufacturer
 domain (never a retailer/marketplace), and **add the row here**.
 
+**This table grows from every run, not just new brands.** When a brand *is*
+already listed but its site has nothing for a given article (discontinued,
+dropped from the catalogue, region-locked) and a web search turns up a site
+that actually works for it — another country TLD, a distributor, an
+EAN-keyed shop — don't just use it for that one row and move on: add it to
+that brand's **Notes** column (or a new row) so the next run doesn't repeat
+the same search. A finding stays session-only only when it's a one-off,
+unkeyed, low-confidence hit that isn't worth trusting again (rule 7d) — log
+those in the run report instead, not here.
+
 | Brand | Official site | Notes |
 |---|---|---|
 | Brit | `https://www.krmivo-brit.cz` | `brit-petfood.com` redirects here (VAFO's shop). Sitemap `…/out/sitemaps/ArticleEntity/cz.xml.gz` → 572 product pages, slugs are English names |
@@ -27,6 +37,17 @@ domain (never a retailer/marketplace), and **add the row here**.
 | Iv San Bernard | `https://isbusa.com` (US distributor mirror), `https://ivsanbernardcanada.ca` for the logo | `ivsanbernard.it` sits behind a CAPTCHA — not scrapeable. isbusa.com has the lines (Traditional, Protective Shield, Atami) with an English name and description but **only group shots of the sizes** (no single-bottle packshot → `needs-packshot.csv`). The DIY perfume line has no page anywhere reachable |
 | Acana, Orijen | `https://emea.acana.com/en/` and `https://emea.orijenpetfoods.com/en/` (the **EMEA** hosts, not `www.acana.com`/`www.orijenpetfoods.com`, which serve the North-American catalogue under different recipe names) | Champion Petfoods; Salesforce Commerce Cloud. Sitemap `…/en/sitemap_0.xml`; product slugs are `eu-aca-<recipe>` / `eu-ori-ns-ori-<recipe>`. The **JSON-LD `Product` block carries `name` and an HTML `description`** — use it, the flattened page text is full of nav noise. Composition sits in `<div id="section2">` under `<h2>Composition</h2>`, analytical constituents under `<h2>Analytical Constituents</h2>`, feeding in `<div id="section3">`. Images are `/dw/image/v2/…master-catalog/…` with **spaces in the filename** (encode before fetching; add `?sw=1200` for full size) — filenames name the recipe, the view (`Front Right` / `Back`) and a pack size. **One packshot per recipe regardless of pack size** — an 11.4 kg bag is shown by the 6 kg photo and no other size renders (404). Two filename traps seen 2026-09-11: the Adult Small Breed front shot is named `…Light & Fit…` (the photo itself is correct — look before dropping it), and the Ranchlands page carries a `…Wild Prairie Features…` graphic that belongs to another recipe (drop it). EU recipe names differ from US ones: Singles are `Yorkshire Pork` / `Grass-fed Lamb` / `Free-Run Duck` here, `Pork & Squash` / `Lamb & Apple` / `Duck & Pear` in the US catalogue |
 | Beaphar | `https://www.beaphar.com` (EN `/en-gb/`) | Product pages `/en-gb/product/<slug>`; gallery + description + composition in the HTML |
+| 8in1 | `https://www.8in1.eu/en` | Laroy Group's brand. Product pages `/en/products/<slug>`, sizes as `/en/products/dental-bones/L`. **Prints no article number** — the join is hafo (which is keyed to the article) naming the same line, flavour and pack, then the pack photo itself printing the weight. Its own photos are `/fileadmin/_processed_/…csm_TH<nnnnn>_<size>_<hash>.png` (1000 px): `_9649` is the flat front packshot (the feature image), `_9652` a 3/4 pack, `_14255` another angle, and `csm_TR<nnnnn>_9632` the bare treat on white. Everything under `/fileadmin/pictures/8in1_*_Category_*` is a menu banner — drop it. Reader: `scripts/8in1-page.py`. **EAN prefix `4048422…`** |
+| Mooor, KorMell, Justin | `https://rupetfood.ru` (producer, АО «Лемниската»); Justin also `https://justin-petfood.ru` | Three brands of one Russian producer — **EAN prefix `4620213…` for all three**, which is what proves they are separate brands and not one brand spelled three ways. Corporate sites only: brand logos yes, **per-article packshots no**, and justin-petfood.ru's "Justin" assets are all packshots rather than a wordmark. Justin's logo is white-on-transparent — keep the alpha (`KEEP_ALPHA=1`), the storefront composites on black. Photos for these articles come from hafo |
+| Myau (`Мяу!`) | `https://miau.ua` | Kormotech's Ukrainian economy cat line — **a separate brand from Club 4 Paws** (brand 17), both Kormotech, which hafo confirms by listing `МЯУ` and `Club4Paws` as distinct brand values. The site is a **single-page app**: every path returns the same shell, so there is no per-article page and no packshot to key on. The logo is there though: `/frontAssets/assets/img/logo-red.svg` (render it, don't take the bitmap). **EAN prefix `4820269…`** |
+| Versele-Laga (brand 36, 2026-09-17) | `https://www.versele.com/en/vl` | Belgian litter (eXtreme Compact, Senegal, Silica); GS1 `5410340…`, our codes end `V`. Packshots are literally `<EAN>pack.ashx` — EAN-keyed. Rebranded "Versele" in 2025; packs still say Versele-Laga |
+| Mnyams / Мнямс (37) | `https://mnyams.ru` | Russian cat treats; GS1 `4610011…` (older articles) / `4620202…` (current). Our `5488xx` codes are the current articles while hafo carries the older EANs — two pillow flavours changed between generations, check the pack |
+| Derevenskie Lakomstva / Деревенские лакомства (38) | `https://derlak.ru` | dog jerky made in China for ООО ТК Адресник, GS1 `6921959…` / `6921499…`; pages print the article |
+| flexi (39) | `https://flexi.de/en/` | retractable leads, GS1 `4000498…`; flexi-world.com is now parked. Pages print no article — identity rests on hafo naming line + size + colour |
+| Eco-Premium / ЭКО-Премиум (40) | `https://xn----jtbjfmbjjj7a9g.xn--p1ai/` | Russian clumping wood litter, GS1 `4631155…`, codes end `E`; one generic page, photos show only the Green bag |
+| Kaskad / Каскад (41) | `https://www.kaskad-pet.ru` | Russian leather collars, GS1 `4605350…`, codes end `K`; pages print the article |
+| Pchelodar / Пчелодар = АО «Агробиопром» (42) | `https://agrobioprom.ru` | veterinary drops (Дезацид форте, Отидез форте), codes end `PCHL`; only the corporate logo exists, so the brand carries no image |
+| Beaphar — codes | `https://www.beaphar.cz` | **our Beaphar article numbers are the Czech-market SKUs**: beaphar.cz prints the SKU in the spec table and names the gallery file after it; the UK/NL sites sell the same lines under other articles/EANs (usable as English text only). beaphar.ru (importer) prints `Артикул` too |
 
 ## A brand has more than one site — check the country TLDs
 
@@ -86,6 +107,12 @@ hand. So:
 - every variant carrying one goes into `runs/<date>/needs-image.csv`, which is
   the replacement worklist, and the report says these galleries are placeholders.
 
+Texts when the brand site has none: 4lapy.ru (EAN-keyed), zoovet.am and
+petshop.ru (both confirmed by hand; petshop.ru is text-only) — the full
+fallback table with what each may be used for is in
+`reference/image-sources.md` → "Fallback sites". petfood.ru and zoozavr.ru
+were on the same list but cannot be used (robots.txt / bot wall).
+
 A hafo photo is now the **third** choice, not the second: try the brand's
 country TLDs (below) and then a confirmed zoovet.am original
 (`reference/zoovet.md`) first — both are unwatermarked, so a variant sourced
@@ -93,7 +120,7 @@ from either is finished and does **not** go on `needs-image.csv`.
 
 Discontinued Trixie articles are the usual case: gone from trixie.de and from
 its CDN, and no sibling page carries them. Checked 2026-09-11 against
-trixie.es: of the 38 Trixie variants on `runs/2026-09-11/needs-image.csv`, 16
+trixie.es: of the 38 Trixie variants then on the needs-image list, 16
 have a page there with the article confirmed and 13 of those have article-keyed
 photos — so that worklist should be re-run before anyone photographs anything.
 
@@ -202,7 +229,7 @@ Twenty-one candidate sites were tested — status codes, protection headers,
 robots.txt and a live lookup of one of our own articles. Two passed and are now
 in the chain (`config.json` → `images.sources`, CLAUDE.md rule 7c); the full
 evaluation, including why zooplus, idealo, rozetka, pets24.ee and the rest were
-turned down, is in `runs/2026-09-11/image-source-candidates.md`.
+turned down, is in `reference/image-sources.md` → "Sites already tested and turned down".
 
 **`trixie.shop`** — Trixie's own Shopify storefront.
 
@@ -369,7 +396,7 @@ is shared across sizes, so it is safe; one that carries a different EAN is not.
 - **monge.shop has no Simba** — the EAN join returns nothing. Identity for
   flavours hafo names ambiguously came from a web search of the hafo EAN
   (`"8009470009157" Simba` → retailer listings naming the product); three
-  rows were resolved that way, see `runs/2026-09-10/simba-report.md`.
+  rows were resolved that way (2026-09-10).
 - Line names on the sheets: dog "Chunks with …" (pack "Bocconi Adult"), cat
   "Chunkies with …" ("Bocconcini Adult"), dog "Paté with …" ("Paté Adult",
   alutray 150 g / 300 g). Products 324 / 325 / 326.
@@ -398,9 +425,25 @@ this order:
    the brands' own, unwatermarked. Its identity has to be confirmed by hand
    (it has no article code), but a confirmed photo is a finished photo, not a
    placeholder;
-3. **hafo.am** — text and identity freely, images only as the watermarked
+3. **the EAN-keyed shops** — **`4lapy.ru`** for any brand (every pack-size
+   offer prints the manufacturer barcode; photos + Russian description,
+   composition, feeding — `scripts/4lapy-lookup.py`, added 2026-09-23),
+   `tiierisch.de` (Shopify: `sku` = the article,
+   `barcode` = the EAN, images tied to the right variant —
+   `scripts/tiierisch-index.py`, 5,223 Trixie articles), the **carrefour-es**
+   picture bucket and `hornung-baushop.de` (both `scripts/ean-image-lookup.py`);
+4. **hafo.am** — text and identity freely, images only as the watermarked
    placeholder described above (`needs-image.csv`);
-4. a general web/image search for the exact product.
+5. **a general web/image search** (CLAUDE.md rule 7d, user rule 2026-09-12) —
+   `scripts/image-search.py` finds them, `scripts/web-image-lookup.py` checks a
+   page you found by hand. A hit counts only when the **file name or the page
+   url carries our article or EAN**; a name match is refused. Then look at the
+   picture anyway: a page printing our own barcode has been seen carrying the
+   wrong flavour's can.
+
+The whole ladder, with what each rung is keyed to and the Trixie numbering traps
+(two GS1 prefixes, the colour suffix, the trailing vendor digit), is in
+`reference/image-sources.md`.
 
 Flag the row "sourced from fallback" and name which one. Never fabricate specs.
 

@@ -12,15 +12,32 @@ $ARGUMENTS
 Read `CLAUDE.md` first (hard rules, pipeline, environments), then the
 reference doc for the step you are on: `reference/pricing.md` (price),
 `reference/hafo.md` (identity lookup), `reference/brand-sites.md` (sources,
-country TLDs), `reference/zoovet.md` (the second Armenian shop),
+country TLDs), `reference/zoovet.md` (zoovet.am and nemo.am, the other two
+Armenian shops), `reference/image-sources.md` (every image source, in order),
 `reference/admin-api.md` (payloads, ids), `reference/product-rules.md`
 (grouping, naming, categories). Key constraints:
 
-- **The CSV price is our cost. The sale price comes from hafo.am, per article
-  code, per variant. Never invent, derive or estimate a sale price.** When hafo
-  has no price: a **confirmed** zoovet.am price (rule 2b), then the sibling
+- **The CSV price is our cost. The sale price is the PM's register
+  (`csv/Product.numbers`, `Վաճառքի գին` — CLAUDE.md rule 2c) where it has the
+  row, else hafo.am per article code, per variant. Never invent, derive or
+  estimate a sale price.** `REGISTER_STATUS=state/register/register-status.json`
+  makes the planners take the register first. When neither prices the row: a
+  **confirmed** zoovet.am or nemo.am price (rule 2b), then the sibling
   fallback (rule 2a); a row none of those can price goes to
   `runs/<date>/no-hafo-price.csv` and is NOT imported (`reference/pricing.md`).
+  A register price at or below cost is not a price (rule 5) — the row is held
+  and listed.
+- **Exception — the user names a sale-price column up front** ("column X is
+  our selling price"): that column is `price` for the run and the whole
+  price-lookup chain (register, hafo, zoovet/nemo, sibling) is **skipped** for
+  those rows. hafo is still used for identity. Rule 5 still applies — a
+  value at or below cost stops the row. Only when the user said it for *this*
+  run; a filled sale-price column the user did not name is not that
+  (`reference/pricing.md`).
+- **No product without an image, none without an attribute family.** Both
+  write scripts refuse an image-less product (`ALLOW_NO_IMAGE=1` only on the
+  user's say-so) and a missing `attribute_family_id`; if the type's family
+  doesn't exist yet, create it first (CLAUDE.md rule 8b).
 
 - Source data from the **brand's official website** (per the brand map in
   CLAUDE.md), NOT Chewy. Sites are **read-only** (no cart, no account, no forms).
@@ -63,10 +80,18 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
    it first and use the brand id it returns (creating one brand once, not per
    row); note the creation in the report.
 3a. **hafo first** — `scripts/hafo-lookup.py --code <article code> --name
-   "<name>"` (`reference/hafo.md`). The row continues only with
+   "<name>"` (`reference/hafo.md`). **A row with no article code** (the PM's
+   register) is identified by name first — `scripts/identify-by-name.py`:
+   hafo by Armenian name, then nemo.am / zoovet.am by name (the script adds
+   their hits as `shop_candidates` when hafo is weak), then a web search —
+   and only a hit where brand, line, lifestage/function, flavour, pack (and
+   size/colour for accessories) ALL match is taken; its code goes into
+   `state/register/match-overrides.json` and the row is logged in
+   `state/register/identified-by-name.csv` (CLAUDE.md rule 6). A hit that matches
+   only part of that → `not-found.csv`, candidate named. The row continues only with
    `confirmed: true` **and** `price_source: "variant"`; that variant row's
-   `price` is the sale price and its `wholesale_price` should equal the CSV
-   cost. Confirmed but unpriced → `runs/<date>/no-hafo-price.csv`; not
+   `price` is the sale price (hafo's `wholesale_price` is only a tie-break
+   between several candidate rows, never a gate). Confirmed but unpriced → `runs/<date>/no-hafo-price.csv`; not
    confirmed → `runs/<date>/not-found.csv`. Either way stop the row here. Each
    variant of a multi-variant product gets its own lookup and its own price.
    **One fallback** (CLAUDE.md rule 2a, `reference/pricing.md`): an unpriced
@@ -75,13 +100,17 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
    unless same-cost siblings disagree on price (then the CSV, `Why no price`
    = `sibling prices differ`). Log it in `runs/<date>/sibling-priced.csv` and
    the report. Identity, images and texts still come from the brand site.
-   **Before that fallback, try zoovet.am** (CLAUDE.md rule 2b,
-   `reference/zoovet.md`): `scripts/zoovet-lookup.py --search "<russian words>"
-   [--brand <slug>]`. Its hits are always `confirmed: false` — usable only once
-   you confirm the identity (the article read off the pack in the full-size
-   photo, or brand + line + flavour + pack all matching) and the price beats
-   cost. Log it in `runs/<date>/zoovet-priced.csv`. An unconfirmed candidate is
-   not a price: put it in the CSV's `Why no price` text instead.
+   **Before that fallback, try zoovet.am and nemo.am** (CLAUDE.md rule 2b,
+   `reference/zoovet.md`; neither outranks the other), both **by product
+   name** — neither carries our article code:
+   `scripts/zoovet-lookup.py --search "<russian/latin words>" [--brand <slug>]`,
+   `scripts/nemo-lookup.py --search "<armenian/latin words>" [--brand <slug>]`.
+   Their hits are always `confirmed: false` — usable only once you confirm the
+   identity (the article read off the pack in the full-size photo, or brand +
+   line + flavour + pack all matching) and the price beats cost. Log it in
+   `runs/<date>/zoovet-priced.csv` / `nemo-priced.csv` (same columns). An
+   unconfirmed candidate is not a price: put it in the CSV's `Why no price`
+   text instead.
 4. **Find on the brand's official site** — resolve the site from the row's
    `Brand / Vendor` using the brand→site map in CLAUDE.md. A brand has more
    than one official domain: when the main site has no page for the article,
@@ -93,9 +122,15 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
    match: same brand, line, and pack weight as the CSV name. If the exact weight
    isn't on the site, use the closest product page for copy/images and keep the
    CSV pack weight in the admin Name/Label. If the brand site is unreachable or has no
-   product page, use the CLAUDE.md fallback in order — country TLD, then
-   zoovet.am (confirmed), then a hafo placeholder, then a general web search —
-   and mark the row's source as "fallback", naming which one.
+   product page, use the fallback sites in order — country TLD, then
+   **4lapy.ru by EAN** (`scripts/4lapy-lookup.py --search "<brand line words>"
+   --ean <ean>`: photos + texts, confirmed by the barcode), then zoovet.am
+   (confirmed by hand), then **petshop.ru for texts only** (confirmed by hand,
+   never its photos), then a hafo placeholder, then a general web search —
+   and mark the row's source as "fallback", naming which one. Their texts are
+   Russian: evidence and the `ru` translation; translated into English only
+   when no English source exists. petfood.ru and zoozavr.ru are not usable
+   (`reference/image-sources.md` → "Fallback sites").
 5. **Extract** with a single `evaluate_script` returning JSON only:
    title, brand, pack weight/format, **every** gallery image URL (highest
    resolution; upload them all, a product with one picture is a defect —
@@ -121,9 +156,14 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
    - **CSV wins** over the brand site on any conflict (e.g. pack weight).
    - **Weights are metric, kilogram-based — never lbs/oz.** Convert a US source
      (`lb x 0.4536 = kg`), preferring the brand's own metric pack size.
-   - **Skip `product-weight` on weight-priced (`per_kg`) variants** — the admin
-     derives it from Pack weight (table 4 of `reference/data-tables.md`). Keep it
-     only if the product's variants would otherwise have identical attributes.
+   - **Always set `product-weight` when the pack prints one** — `per_kg`
+     variants included (rule reversed 2026-09-14; it used to say the opposite).
+     The numeric `weight` field prices the bag, the attribute is what the
+     storefront filter and the pack-size dropdown read, and nothing derives one
+     from the other (table 4 of `reference/data-tables.md`). What is *not* a
+     pack weight: a dose band (`1–4 kg` → `pet-weight-range` 27), a length or a
+     bowl capacity (`75 cm`, `0.4 l/ø 17 cm` → `size` 28), a bare count
+     (`10 tablets`). Leave those blank.
    - **Our definitions win** over the brand's: `reference/data-tables.md` defines
      how Siruk understands attribute concepts (Lifestage age bands, etc.) and
      how to translate brand wording into them. Read it before picking any
@@ -147,8 +187,11 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
      brand page; product-wide facts (breed size, food form, diet, health
      feature) are identical on every variant — if they aren't, it's a separate
      product (see `reference/data-tables.md`).
-7. **Images** — `scripts/upload-media.sh <image-url>` per image (it downloads
-   with a browser User-Agent and prints the media id). Collect the ids for the
+7. **Images** — `scripts/upload-media.sh <image-url> products/<brand-slug>/<type>/`
+   per image (it downloads with a browser User-Agent and prints the media id).
+   The folder is required by rule 7 — never the media root; `<type>` is the
+   type skill's name (`dry-food`, `toys`, …). `MEDIA_DIR=…` in the environment
+   does the same for scripts that call it without the argument. Collect the ids for the
    variant's `images` array. The script sanitizes the filename and confirms the
    uploaded file is really readable before printing an id — the api otherwise
    hands back ids whose files 404 (see CLAUDE.md). If it dies with "never became
@@ -171,8 +214,18 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
    lifestage/weight/flavor, then the brand name if that misses), and
    `scripts/show-product.sh <id>` on any hit. A hit is the **same product** only
    if brand, line, lifestage, breed size, food form, diet and health claims all
-   match and it differs only in **pack weight, flavor or texture** — then this row
-   is a new variant of it. Anything else is a new product.
+   match and it differs only in **pack weight, flavor or texture** (food) or
+   **size, colour, dose band** (accessories, grooming, antiparasitics) — then
+   this row is a new variant of it. Anything else is a new product.
+   **Search for the LINE, not the row's name**: "Barbecue Ribs", not "Barbecue
+   Ribs with Duck". A live single-variant product whose Name still carries the
+   axis ("Barbecue Ribs with Chicken", "Flash USB Light Collar, nylon, M–L …,
+   red") IS the line product: add the row to it and rename it to the line name
+   with `scripts/rename-product.sh` (label + attributes carry the axis from
+   then on). For Trixie the strongest key is the **page**: a live product whose
+   variant sits on the same trixie.de page takes the row (`plan-trixie.py`
+   does this with `existing_id`). 55 duplicates made by ignoring this were
+   folded away on 2026-09-16.
 9. **Write via API** — one of two paths, both scripted (write the JSON to
    `.siruk-cache/` and pass the path):
    - **New product** → `scripts/create-product.sh <payload.json>`. Payload shape
@@ -232,6 +285,17 @@ country TLDs), `reference/zoovet.md` (the second Armenian shop),
 At the **end of the run**, sweep the images once: `scripts/verify-media.sh
 <id> <id> …` for the products you touched (`--fix` to re-upload and relink
 anything dead) and put the result in the report.
+
+**Then run the sibling check over everything you created** (user rule
+2026-09-16): `scripts/catalogue-snapshot.py --ids <created ids>`, then
+`scripts/find-duplicate-products.py --refresh` → `plan-product-merge.py` for
+Trixie accessories/toys, and a hand-written `runs/<date>/variant-groups.json`
+→ `scripts/plan-variant-merge.py --run runs/<date>` for any food, treat or
+pharmacy product whose Name carries a flavour, pack, dose band or colour that a
+live sibling shares. Merge with `scripts/merge-products.py --run runs/<date>`:
+it moves EVERY variant of the wrongly created product onto the right one
+before deleting it. Finish with `scripts/backfill-variant-axes.py --apply`
+(rule 9a) and `scripts/register-price-sync.py --run state/register` (rule 2c).
 
 Fallback: if the API create fails validation in a way that can't be fixed from
 the error message (`.siruk-cache/` keeps the exact payload sent — diff it), fall

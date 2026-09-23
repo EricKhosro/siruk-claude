@@ -294,22 +294,41 @@ Two kinds of product, two pricing shapes (user rule, 2026-08-12). Decide from
   hundredths of an AMD (15 kg × 3033.33 = 44,999.95). That rounds back to the CSV
   price; anything worse means the weight or price is wrong.
 - **Cost price stays per pack** (the CSV's buy price), not per kilo.
-- **Do not set the `product-weight` attribute** — the admin generates the weight
-  from Pack weight, so tagging it duplicates the same fact.
+- **Set `product-weight` as well** — the `weight` field and the attribute do two
+  different jobs and both are required. See the box below.
 
-### ⚠️ The one conflict, and the dev question behind it
+### ⚠️ `weight` prices the bag; `product-weight` is what the shop can see
 
-The API requires every variant of a product to have a **unique attribute
-combination**. A product whose variants differ *only* by pack size therefore
-breaks when `product-weight` is dropped: both variants end up with identical
-attributes and the second is refused with *"This attribute combination is already
-used in variant N."*
+**Reversed 2026-09-14 (user rule).** From 2026-08-12 to 2026-09-14 this file
+said the opposite — *"do not set the `product-weight` attribute, the admin
+generates the weight from Pack weight, so tagging it duplicates the same
+fact."* That was a bad generalisation of a true statement about the **pricing
+form**, and it cost the storefront its pack-size facet:
 
-Live example: **Sterilised 37** (15 kg + 2 kg) keeps `product-weight` on both
-variants for exactly this reason.
+- the numeric `weight` field is a **pricing input** — rate × weight = the price;
+- the `product-weight` attribute is what the **storefront reads**, both for the
+  filter sidebar and for the pack-size dropdown on a multi-variant product.
 
-→ **Ask the dev team:** for `per_kg` variants, should the uniqueness check include
-`weight` (or the generated weight value) instead of hand-tagged attributes only?
-If yes, `product-weight` can come off every weight-priced variant with no
-exception. Same bucket of backend questions as the multi-value
-`special-diet`/`health-feature` one in `reference/admin-api.md`.
+Nothing derives the second from the first. With the attribute skipped, all 37
+dry-food products (every one of them `per_kg`) went to production carrying no
+pack size at all: `/dog/food/dry-food/` offered a single "800 g" — a hand-fix
+leak on product 636 — and `/cat/food/dry-food/` offered no weight filter
+whatsoever. Backfilled on 2026-09-14 by `scripts/backfill-product-weight.py`
+(163 variants, 39 new menu values). **`product-weight` is deliberately
+filterable for now** — the PM wants the pack sizes visible in the sidebar;
+hiding it (`isFilterable: false`, the `toy-size` treatment) is a later call,
+not a default.
+
+The old rule also had to carve out an exception, which disappears with it: the
+API requires every variant to have a **unique attribute combination**, so a
+product whose variants differ *only* by pack size (Sterilised 37, 15 kg + 2 kg)
+broke when `product-weight` was dropped — the second variant was refused with
+*"This attribute combination is already used in variant N."* Keeping the
+attribute is what makes those products legal.
+
+**What is NOT a pack weight** (empty beats a guess, rule 8): a **dose band**
+(`1–4 kg`, `over 16 kg`) is the *pet's* weight → `pet-weight-range` 27; a
+**length or bowl capacity** (`75 cm`, `0.4 l/ø 17 cm`) → `size` 28; a **bare
+count** (`10 tablets`) is no weight at all. A product gets `product-weight` on
+**every** variant or on none — a variant missing it drops out of the
+pack-size dropdown.

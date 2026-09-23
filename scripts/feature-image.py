@@ -26,7 +26,7 @@ product name. Reordering only moves ids around — no image is dropped or added.
                                                   # of every feature image (open it
                                                   # in the browser, screenshot, look)
     scripts/feature-image.py --only 315,316       # restrict to products
-    scripts/feature-image.py --out runs/2026-09-10
+    scripts/feature-image.py --out runs/<date>
 
 Outputs (in --out, default runs/<today>/):
     feature-images.csv    every variant: order before/after, class of the leader

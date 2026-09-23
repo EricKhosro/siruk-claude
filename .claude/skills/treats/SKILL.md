@@ -73,7 +73,7 @@ Skipped on purpose from Chewy: Made In, Deals & Savings.
 | `health-feature` | Chewy's 52 | "dental" → Dental & Breath Care; "digestion" → Digestive Health; "calming" → Calming |
 | `lifestage` | Puppy, Kitten, Adult, Senior, All Lifestages | explicit claim only ("puppy treats") |
 | `packaging` | Bag, Pouch, Box, Tub, Tube, Can, Tray, Roll, Cup, Bottle, Shaker | from the format |
-| `product-weight` | pack weight menu | the unit weight |
+| `product-weight` | pack weight menu | **always, when the pack prints one.** The **net pack** weight, not the piece: `12 pcs./120 g` is 120 g, `2 × 60 g` is 120 g (evidence: product 527's sibling variants are 140 g and 200 g, so the axis is the pack). A **length** — `23 cm` Matatabi lolly — is not a weight; leave it blank |
 
 ### Single-value consequence
 Chewy's Special Diet, Health Feature and Ingredient are multi-tag; ours hold
@@ -85,6 +85,19 @@ composition (the headline protein), nothing else.
 ## Variant axes
 Pack weight and flavour (a dental stick in S / M / L is a **breed-size split**,
 not a variant — separate products, per the shelf test).
+
+**The flavour never goes in the product Name** — it is the variant label and
+the `flavor` value. "Barbecue Ribs with Duck" and "Barbecue Ribs with Chicken"
+are ONE product "Barbecue Ribs" with two variants, however the brand pages
+them (trixie.de gives every flavour its own page — that is not a split
+signal for food). Before creating a treat, look for the line product
+(`scripts/find-product.sh "Barbecue Ribs"`); a single-variant product whose
+Name carries the flavour or pack (`… with Duck 110 g`) takes the row as a
+variant and is renamed to the line name (`scripts/rename-product.sh`). The
+2026-09-16 sweep folded 21 Trixie
+and Monge treat lines this way; `scripts/plan-variant-merge.py` is the tool.
+A line whose members differ by lifestage or health function (Monge Gift
+Sticks Adult vs Puppy; Filled & Crunchy Hairball vs Sterilised) stays split.
 
 ## Pricing
 `pricing_type: "fixed"`, `price` = hafo's row for that article code,

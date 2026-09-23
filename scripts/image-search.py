@@ -21,7 +21,7 @@ the picture (--sheet) before it goes anywhere near upload-media.sh.
 
     scripts/image-search.py --article 3435 --brand Trixie --name "Fussball Vinyl 6 cm"
     scripts/image-search.py --article 041537 --ean 8009470041539 --brand "Gran Bonta"
-    scripts/image-search.py --from gaps.json --out runs/2026-09-12/found --sheet
+    scripts/image-search.py --from gaps.json --out runs/<date>/found --sheet
 
 The EAN is computed for Trixie (4011905 + article padded to 5 + check digit) and
 Monge/Gemon (8009470 + vendor code minus its trailing 7, padded to 5) unless

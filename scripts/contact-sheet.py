@@ -4,8 +4,8 @@
 Thumbnails are inlined as data: URIs — headless Chrome will not load file://
 images from a file:// page, so a sheet that references them never shows anything.
 
-    scripts/_sheet.py out.html found.json [found2.json ...]
-    scripts/_sheet.py out.html --dir some/folder
+    scripts/contact-sheet.py out.html found.json [found2.json ...]
+    scripts/contact-sheet.py out.html --dir some/folder
 """
 import base64, html, json, os, subprocess, sys, tempfile
 

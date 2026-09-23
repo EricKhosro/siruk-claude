@@ -17,7 +17,13 @@ Cat litter → Cat → 59 Litter → leaf by type (60 Clumping, 61 Scented, 62 U
 
 ## Attributes
 
-Family **none yet** carries: none.
+Family **8 `accessories`** (created 2026-09-15, from attributes that already
+existed) carries: `size` 28 · `color-family` 15 · `material` 12 ·
+`product-weight` 1 · `breed-size` 4 · `pet-weight-range` 27 · `product-form`
+18. Cat litter is its own family, **9 `litter`** (`product-weight` 1 ·
+`material` 12 · `product-form` 18 · `health-feature` 7). An attribute no
+product carries a value for does not render, so the lists are deliberately
+generous; the user has still to say which filters these types should show.
 All picks from the closed menu `reference/attribute-values.json`, one value
 per attribute per variant, with an evidence quote; empty beats a guess. Our
 definitions in `reference/data-tables.md` beat the brand's wording.
@@ -37,8 +43,15 @@ Do not create values for this type without an explicit ask.
 **Size, colour, volume** — these override the food shelf test in
 `reference/product-rules.md`, which splits on colour. One collar in six sizes
 and five colours is ONE product with 30 options: that is how Trixie sells it,
-and 131 duplicates created by the other reading were folded away on 2026-09-12
-(`runs/2026-09-12/report.md`).
+and 131 duplicates created by the other reading were folded away on 2026-09-12.
+Every variant carries `size` 28 (letter size, or the bowl capacity string
+"0.25 l/ø 12 cm") and `color-family` 15; `scripts/plan-trixie.py` sets both
+from the page spec and attaches a row to the live product on the same
+trixie.de page (`existing_id`), and `scripts/backfill-variant-axes.py` fills
+the axis on older single variants afterwards. Trixie's palette needs the finer
+values Aqua / Blush / Sage where royal blue + aqua or fuchsia + blush would
+otherwise share one family inside a product
+(2026-09-12 merge).
 
 Keep the **full** measurement in the variant label ("XS–S, 22–35 cm/10 mm,
 black") and put only the letter size on `size` — the label is what the shopper

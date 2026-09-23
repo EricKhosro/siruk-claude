@@ -58,10 +58,31 @@ def find_by_slug(slug, name):
     return None
 
 
-def upload(url, media):
+# Rule 7: uploads go in products/<brand-slug>/<type>/, never the media root.
+# The type is the family's type-skill name; a plan product may set `media_dir`.
+FAMILY_TYPE = {1: "dry-food", 2: "wet-food", 3: "treats", 4: "supplements", 5: "toys",
+               7: "grooming", 8: "accessories", 9: "litter"}
+_BRAND_SLUGS = None
+
+
+def media_dir(p):
+    global _BRAND_SLUGS
+    if p.get("media_dir"):
+        return p["media_dir"]
+    if _BRAND_SLUGS is None:
+        _, out, _ = sh([os.path.join(ROOT, "scripts/api.sh"), "GET", "/brands?per_page=200"])
+        try:
+            _BRAND_SLUGS = {b["id"]: b["slug"] for b in json.loads(out)["data"]}
+        except Exception:
+            _BRAND_SLUGS = {}
+    brand = _BRAND_SLUGS.get(p.get("brand_id"), f"brand-{p.get('brand_id')}")
+    return f"products/{brand}/{FAMILY_TYPE.get(p.get('attribute_family_id'), 'other')}/"
+
+
+def upload(url, media, folder=""):
     if url in media:
         return media[url]
-    code, out, err = sh([os.path.join(ROOT, "scripts/upload-media.sh"), url], timeout=900)
+    code, out, err = sh([os.path.join(ROOT, "scripts/upload-media.sh"), url, folder], timeout=900)
     mid = None
     for line in reversed(out.splitlines()):
         if line.strip().isdigit():
@@ -100,7 +121,7 @@ def main():
             for url in v.get("images") or []:
                 if a.dry_run:
                     ids.append(0); continue
-                mid = upload(url, state["media"])
+                mid = upload(url, state["media"], media_dir(p))
                 save(state_path, state)
                 if mid and mid not in ids:
                     ids.append(mid)

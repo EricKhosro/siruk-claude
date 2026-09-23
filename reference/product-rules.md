@@ -28,7 +28,7 @@ variants. Unclear → separate products + flag. Full reasoning in
 five colours is one product with 30 options, not 30 products. Same for
 `grooming` (size, scent). Colour only splits a *food* pack.
 
-Grouping lessons (2026-08-13, `runs/2026-08-13-schesir-regroup.md`):
+Grouping lessons (2026-08-13, the Schesir regroup):
 - Never let a variant axis into a grouping key (pack weight/texture in the key
   made 81 products of 70).
 - An unknown field must not discriminate — fold rows with unknown species/
@@ -86,7 +86,7 @@ An import that walks a CSV row by row makes one product per row, and sibling
 rows become sibling *products*: `Premium Collar, S, 25–40 cm/15 mm, fuchsia`
 and `Premium Collar, S–M, 30–45 cm/15 mm, black` were 22 separate products
 where Trixie sells one collar. 131 such duplicates were folded away on
-2026-09-12 (`runs/2026-09-12/report.md`).
+2026-09-12.
 
 `scripts/find-duplicate-products.py` re-runs the detection. Three signals, the
 first two authoritative **both ways** — they merge and they split:
@@ -120,6 +120,21 @@ same call as `toy-size`. **`pet-weight-range` 27** — the dose band on
 antiparasitic drops and tablets (1–4 kg …); filterable. Colour rides on
 `color-family`. The full measurement stays in the variant label, so
 "XS–S, 22–35 cm/10 mm, black" still reads in full on the product page.
+
+**The second sweep (2026-09-16) was about food, treats and pharmacy**, which
+the three signals above cannot see: the brand gives every flavour its own page
+(so the page signal *splits* them) and the flavour sits inside the product
+Name (so the stripped-name signal never joins them). "Barbecue Ribs with Duck"
++ "…with Chicken", five Monge Gift Sticks recipes, Trixie Premio Stripes in
+five flavours, Rolf Club / Inspector / Insectal / Gelmintal antiparasitics in
+their dose bands and a litter tray in two colours — 36 products from 91,
+decided by hand, one evidence line per group
+(`scripts/plan-variant-merge.py` reads a `variant-groups.json` of that shape). The tell-tale is **an axis value in the
+Name**: flavour, dose band, pack, colour. Kept apart on purpose: lines that
+differ by lifestage or health function (Gift Sticks Adult vs Puppy & Junior,
+Filled & Crunchy Hairball vs Sterilised), by packaging (85 g pouch vs 100 g
+tray vs 400 g can), by sex-specific formulation (SexControl for male vs female
+cats) and by species-specific pack ("Spray for Dogs" vs "for Cats").
 
 **Merging deletes before it writes.** SKUs are unique catalogue-wide, so the
 surviving product cannot claim a sku another product still holds; the absorbed
@@ -171,6 +186,22 @@ Missing category → flag, never invent.
 - Variant selector is built from variant attributes — see the multi-variant
   rule in `reference/admin-api.md`.
 - Rate "֏/kg" shows only on `per_kg` variants.
+- **The filter sidebar of a category = the product's attribute FAMILY's
+  attributes ∩ `isFilterable` ∩ the values products in that category actually
+  use** (verified 2026-09-14 against the JSON the page ships as
+  `availableAttributes`). Three consequences: an attribute the family does not
+  list never facets, however many variants carry it (`toys` has no
+  `product-weight`); a product with `attribute_family_id: null` — every
+  accessory, grooming, cleaning and litter row today — serves **no attribute
+  facets at all**, even for attributes its variants do carry; and an attribute
+  with one value in use still renders as a one-option facet.
+- **The sidebar sorts a facet by the leading NUMBER of the label and ignores
+  both the unit and `sort_order`** (verified 2026-09-14 on `/hy/dog/treat/`:
+  `1.25 կգ, 1.3 կգ, 45 գ, 50 գ … 500 գ, 1800 գ`, and `300 գ` / `300 մլ`
+  adjacent). So a mixed-unit value list reads out of order on the shop no
+  matter how `sort_order` is set — `sort_order` only tidies the admin's own
+  list. The only real fix is one unit per attribute; `product-weight` is
+  deliberately left as each pack prints it, pending the PM's call.
 
 ## Admin form field map (UI fallback only — `/admin/catalog/products/create`)
 
@@ -179,7 +210,7 @@ Missing category → flag, never invent.
 | Name / Slug | yes | rules above |
 | Categories | yes | map above |
 | Brand | yes | must exist (else `/create-brand`) |
-| Attribute Family | no | matching family or empty |
+| Attribute Family | yes | the product-type skill's family — never left empty; create the family first if it doesn't exist yet (rule 8b) |
 | Variant SKU | yes | article code |
 | Variant Label | no | varying axes |
 | Pricing type | yes | "priced by weight" for dry kibble by the kilo; fixed otherwise |

@@ -24,7 +24,12 @@ species the brand does not claim. See `reference/product-rules.md`.
 
 ## Attributes
 
-Family **none yet — no attribute family for grooming; create one via /manage-attributes when the user lists the attributes** carries: none.
+Family **7 `grooming`** (created 2026-09-15, from attributes that already
+existed — no new ones invented) carries: `size` 28 · `color-family` 15 ·
+`product-weight` 1 · `material` 12 · `breed-size` 4 · `product-form` 18 ·
+`active-ingredient` 19 · `health-feature` 7. An attribute no product carries a
+value for simply does not render, so the list is deliberately generous; the
+user has still to say which Chewy-style filters grooming should really show.
 All picks from the closed menu `reference/attribute-values.json`, one value
 per attribute per variant, with an evidence quote; empty beats a guess. Our
 definitions in `reference/data-tables.md` beat the brand's wording.
@@ -38,7 +43,9 @@ Do not create values for this type without an explicit ask.
 
 ## Variant axes
 
-Size and colour (a brush in two sizes; a comb in two colours) — needs attributes before multi-variant products can be created.
+Size and colour (a brush in two sizes; a comb in two colours) — `size` 28 and
+`color-family` 15, set per variant (`scripts/backfill-variant-axes.py` derives
+them from the label for products that gained a sibling).
 
 ## Pricing
 

@@ -46,7 +46,7 @@ Skipped on purpose from Chewy: Made In, Deals & Savings.
 | `breed-size` | Chewy's 6 | weight-banded dewormers / spot-ons ("for dogs 10–25 kg" → the matching band via table 3 of data-tables.md; flag if unsure) |
 | `material` | Chewy's 46 | only for non-consumables (pill dispenser, dental brush, collar) |
 | `packaging` | Bottle, Tube, Box, Tub, Shaker, Pouch… | from the format |
-| `product-weight` | pack size menu | the unit size (ml or g — volumes need a real weight before `per_kg`, which never applies here anyway) |
+| `product-weight` | pack size menu | **always, when the pack prints a size** — the contents (ml or g; volumes need a real weight before `per_kg`, which never applies here anyway). A multi-pipette pack is its total (`2 × 0.5 ml` → `1 ml`). **Not** the dose band (`1–4 kg`, `over 16 kg` → `pet-weight-range` 27), **not** a collar length (`75 cm` → `size` 28), **not** a bare count (`10 tablets` → leave blank) |
 
 ### Single-value consequence
 Chewy's Special Diet, Health Feature and Ingredient are multi-tag; ours hold
@@ -56,8 +56,16 @@ least searchable. `ingredient` = the **first named ingredient** of the
 composition (the headline protein), nothing else.
 
 ## Variant axes
-Pack size, flavour, product form (tablets vs powder of the same supplement).
-Breed-size / weight-band versions of a dewormer are **separate products**.
+Pack size, flavour, product form (tablets vs powder of the same supplement) —
+and **the dose band**: "Quadro Drops for Dogs 1–4 kg / 4–10 kg / 10–25 kg /
+40–60 kg" is ONE product with four variants on `pet-weight-range` 27 (the
+axis created 2026-09-12; nine more bands added 2026-09-16, `up to 4 kg` …
+`40–60 kg`). Same for "up to 10 kg / over 10 kg" syrups, tablets and spot-ons,
+and for a flea collar's lengths (40 / 65 / 75 cm → `size` 28). What still
+splits: species-specific packs the brand names separately ("for Female Cats"
+vs "for Male Cats", "Spray for Dogs" vs "Spray for Cats") and a different
+formulation ("Flea, Tick & Worm" vs "Flea & Tick"). The dose band stays in
+the label ("4–10 kg, 0.8 ml") and never on `product-weight` (rule 8a).
 
 ## Pricing
 `pricing_type: "fixed"`, `price` = hafo's row for that article code,

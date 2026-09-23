@@ -31,7 +31,7 @@ Skipped on purpose from Chewy: Made In, Deals & Savings.
 | `flavor` | Chewy's 61 (+ our extras: Herring, Fish, Seabass…) | the named protein/flavour in the product name |
 | `ingredient` | Chewy's 69 | first ingredient of the composition |
 | `packaging` | Bag, Box, … Variety Pack | almost always **Bag** |
-| `product-weight` | pack weight menu | **skip on `per_kg` variants** — the admin derives it — unless the product's variants would otherwise collide (then keep it and flag) |
+| `product-weight` | pack weight menu | **always** — including `per_kg` variants (rule reversed 2026-09-14). The numeric `weight` field prices the bag; this attribute is what the storefront filter and the pack-size dropdown read |
 
 ### Single-value consequence
 Chewy's Special Diet, Health Feature and Ingredient are multi-tag; ours hold
@@ -44,6 +44,12 @@ composition (the headline protein), nothing else.
 Pack weight and flavour. Lifestage, breed size, special diet and health feature
 **split products** (`reference/product-rules.md`). A flavour variant must carry
 `flavor`.
+
+The flavour never goes in the product Name (it is the label + `flavor`);
+"BWild Adult Cat Hare 1.5 kg" is acceptable only while the product has one
+variant — a second flavour or pack renames it to the line ("BWild Adult Cat")
+and moves the flavour/weight into the labels. The register's `Kg` column adds a
+per-kilo twin variant (`scripts/make-perkg-twin.py`, `weight: 1`).
 
 ## Pricing
 `pricing_type: "per_kg"`: `price_per_kg` = hafo sale price ÷ pack kg (2
