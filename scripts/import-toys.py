@@ -84,7 +84,7 @@ def upload(url, mediamap):
     if url in mediamap:
         return mediamap[url]
     # rule 7 folder; this runner only imports Trixie toys
-    code, out, err = sh([os.path.join(ROOT, "scripts/upload-media.sh"), url, "products/trixie/toys/"], timeout=300)
+    code, out, err = sh([os.path.join(ROOT, "scripts/upload-media.sh"), url, "products/trixie/toys"], timeout=300)
     mid = None
     for line in reversed(out.splitlines()):
         if line.strip().isdigit():

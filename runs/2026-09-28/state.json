@@ -1,0 +1,442 @@
+{
+ "done": {
+  "prestige-premium-canaries": {
+   "id": 1203,
+   "slug": "versele-laga-prestige-premium-canaries",
+   "skus": [
+    "421171V"
+   ],
+   "images": {
+    "421171V": [
+     12377
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "prestige-budgies": {
+   "id": 1204,
+   "slug": "versele-laga-prestige-budgies",
+   "skus": [
+    "421620V"
+   ],
+   "images": {
+    "421620V": [
+     12380
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "prestige-premium-budgies": {
+   "id": 1205,
+   "slug": "versele-laga-prestige-premium-budgies",
+   "skus": [
+    "421699V"
+   ],
+   "images": {
+    "421699V": [
+     12383
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "prestige-premium-exotic-parrots-nuts": {
+   "id": 1206,
+   "slug": "versele-laga-prestige-premium-exotic-parrots-nuts",
+   "skus": [
+    "421782V"
+   ],
+   "images": {
+    "421782V": [
+     12386
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "prestige-parrots": {
+   "id": 1207,
+   "slug": "versele-laga-prestige-parrots",
+   "skus": [
+    "421795V"
+   ],
+   "images": {
+    "421795V": [
+     12389
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "prestige-premium-loro-parque-african-parrot-mix": {
+   "id": 1208,
+   "slug": "versele-laga-prestige-premium-loro-parque-african-parrot-mix",
+   "skus": [
+    "422201V"
+   ],
+   "images": {
+    "422201V": [
+     12392
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "prestige-premium-loro-parque-african-parakeet-mix": {
+   "id": 1209,
+   "slug": "versele-laga-prestige-premium-loro-parque-african-parakeet-mix",
+   "skus": [
+    "422220V"
+   ],
+   "images": {
+    "422220V": [
+     12395
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-cuni-junior": {
+   "id": 1210,
+   "slug": "versele-laga-nature-cuni-junior",
+   "skus": [
+    "461407V"
+   ],
+   "images": {
+    "461407V": [
+     12398
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-cavia": {
+   "id": 1211,
+   "slug": "versele-laga-nature-cavia",
+   "skus": [
+    "461409V"
+   ],
+   "images": {
+    "461409V": [
+     12401
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-cuni": {
+   "id": 1212,
+   "slug": "versele-laga-nature-cuni",
+   "skus": [
+    "461448V"
+   ],
+   "images": {
+    "461448V": [
+     12404
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-original-cuni": {
+   "id": 1213,
+   "slug": "versele-laga-nature-original-cuni",
+   "skus": [
+    "461455V"
+   ],
+   "images": {
+    "461455V": [
+     12407
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-original-cavia": {
+   "id": 1214,
+   "slug": "versele-laga-nature-original-cavia",
+   "skus": [
+    "461457V"
+   ],
+   "images": {
+    "461457V": [
+     12410
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "crispy-muesli-guinea-pigs": {
+   "id": 1215,
+   "slug": "versele-laga-crispy-muesli-guinea-pigs",
+   "skus": [
+    "461698V",
+    "461711V"
+   ],
+   "images": {
+    "461698V": [
+     12413,
+     12416
+    ],
+    "461711V": [
+     12413,
+     12416
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "crispy-muesli-hamsters-co": {
+   "id": 1216,
+   "slug": "versele-laga-crispy-muesli-hamsters-co",
+   "skus": [
+    "461699V"
+   ],
+   "images": {
+    "461699V": [
+     12419,
+     12422
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-snack": {
+   "id": 1217,
+   "slug": "versele-laga-nature-snack",
+   "skus": [
+    "461434V",
+    "461435V"
+   ],
+   "images": {
+    "461434V": [
+     12425
+    ],
+    "461435V": [
+     12428
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-snack-cereals": {
+   "id": 1218,
+   "slug": "versele-laga-nature-snack-cereals",
+   "skus": [
+    "461438V"
+   ],
+   "images": {
+    "461438V": [
+     12431
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-snack-fibres": {
+   "id": 1219,
+   "slug": "versele-laga-nature-snack-fibres",
+   "skus": [
+    "461440V"
+   ],
+   "images": {
+    "461440V": [
+     12434
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "natural-hay": {
+   "id": 1220,
+   "slug": "versele-laga-natural-hay",
+   "skus": [
+    "424131V"
+   ],
+   "images": {
+    "424131V": [
+     12437
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "nature-timothy-hay-beetroot-tomato": {
+   "id": 1221,
+   "slug": "versele-laga-nature-timothy-hay-beetroot-tomato",
+   "skus": [
+    "424194V"
+   ],
+   "images": {
+    "424194V": [
+     12440
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "natural-wood-woodchips": {
+   "id": 1222,
+   "slug": "versele-laga-natural-wood-woodchips",
+   "skus": [
+    "424128V"
+   ],
+   "images": {
+    "424128V": [
+     12443
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "calcium-stone-with-sepia": {
+   "id": 1223,
+   "slug": "trixie-calcium-stone-with-sepia",
+   "skus": [
+    "50540"
+   ],
+   "images": {
+    "50540": [
+     12446,
+     12449,
+     12452
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "iodine-pecking-stone": {
+   "id": 1224,
+   "slug": "trixie-iodine-pecking-stone",
+   "skus": [
+    "5105"
+   ],
+   "images": {
+    "5105": [
+     12455,
+     12458,
+     12461
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "pecking-stone-with-seashells": {
+   "id": 1225,
+   "slug": "trixie-pecking-stone-with-seashells",
+   "skus": [
+    "5108"
+   ],
+   "images": {
+    "5108": [
+     12464,
+     12467
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "salt-lick": {
+   "id": 1226,
+   "slug": "trixie-salt-lick",
+   "skus": [
+    "6000"
+   ],
+   "images": {
+    "6000": [
+     12470,
+     12473,
+     12476,
+     12479
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "clay-stone-with-carrot": {
+   "id": 1227,
+   "slug": "trixie-clay-stone-with-carrot",
+   "skus": [
+    "60146"
+   ],
+   "images": {
+    "60146": [
+     12482,
+     12485,
+     12488,
+     12491
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  },
+  "hay-bale-with-beetroot-and-parsnip": {
+   "id": 1228,
+   "slug": "trixie-hay-bale-with-beetroot-and-parsnip",
+   "skus": [
+    "60795"
+   ],
+   "images": {
+    "60795": [
+     12494
+    ]
+   },
+   "translations": {
+    "ru": true,
+    "hy": true
+   }
+  }
+ }
+}

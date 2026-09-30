@@ -1,0 +1,30 @@
+{
+  "code": "074322",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "supplements",
+  "brand_id": 22,
+  "name": "SexControl Spot-On for Female Cats",
+  "label": "3 ml",
+  "existing_id": null,
+  "category_ids": [55],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "product-weight": {"value": "3 ml", "quote": "3мл"},
+    "health-feature": {"value": "Hormone Support", "quote": "Препарат для регуляции половой охоты у кошек."},
+    "product-form": {"value": "Topical", "quote": "Лекарственная форма: раствор для наружного применения."},
+    "packaging": {"value": "Bottle", "quote": "флаконы-капельницы"}
+  },
+  "images": [
+    "https://neoterica.ru/sitefiles/Items/963e5b9ba036e1fae00bc26be80c040422b6695d.jpg",
+    "https://neoterica.ru/sitefiles/Items/eefc49016e70fa1561becbed2610321166613388.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "SexControl Spot-On is a veterinary hormonal preparation for regulating sexual heat in female cats, applied as drops on the withers. During heat, cats often behave badly — they meow a lot and loudly, mark the home and try to escape — because of high levels of sex hormones. SexControl is prescribed to female cats to delay heat or to interrupt heat that has already started; it suits owners who do not plan to spay the cat, to prevent unwanted pregnancy and to correct unwanted behaviour. Drops on the withers are a convenient way to give the preparation, especially to aggressive or timid cats, and do not stress the animal. Active substances: megestrol acetate 2.5% and ethinylestradiol 0.02%; excipients: menthol, vitamin E and diethylene glycol monoethyl ether. Dosage form: solution for external use, 3 ml in a dropper bottle, packed in a carton with instructions. Contraindicated in diseases of the urogenital system, tumours, diabetes mellitus, and in sexually immature, pregnant and lactating animals. Hormonal medicine — read the instructions carefully and consult a veterinarian before use. Store closed in the original pack, dry, away from direct sunlight and food, at 5–30 °C, out of reach of children; after opening, use within 6 months.",
+    "ingredient_information": "Active substances: megestrol acetate 2.5%, ethinylestradiol 0.02%. Excipients: menthol, vitamin E, diethylene glycol monoethyl ether.",
+    "feeding_instructions": "Apply to the skin at one point on the back of the neck (withers), between the shoulder blades, where the cat cannot lick it. To delay heat (between heats): 2 drops for a cat up to 5 kg, 4 drops for 5–10 kg, once a week, for no more than 18 months in a row; repeat the course only after the cat has shown a normal sexual cycle. To interrupt heat: at the first signs (no later than 2 days after onset), 4 drops for a cat up to 5 kg, 8 drops for 5–10 kg, once a day for 4–7 days (until the signs disappear, plus one day). Do not stop the course early."
+  },
+  "source": {"kind": "brand-site", "url": "https://neoterica.ru/products/sekskontrol-spot-on-dlya-koshek-3-ml", "identity": ["https://zapovednik96.ru/product/rolf_klub_sekskontrol_stop_on_d_kosh_r109/", "https://zooman.ru/catalog/products/sekskontrol_spot_on_3ml_kapli_na_kholku_d_koshek/", "https://vetapteka1.ru/catalogue/medicine/gormonalnye_preparaty/sekskontrol_spot-on_kapli_dlya_koshek/"]},
+  "evidence_file": "cards/074322.source.txt"
+}

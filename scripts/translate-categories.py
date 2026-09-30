@@ -87,6 +87,14 @@ NAMES = {
     "Cleaners & Stain Removers": ("Средства от запаха и пятен", "Հոտի և բծերի դեմ միջոցներ"),
     "Trees, Condos & Scratchers": ("Домики и когтеточки", "Տնակներ և ճանկասրիչներ"),
     "Scratchers & Scratching Posts": ("Когтеточки", "Ճանկասրիչներ"),
+    # Bird / Small Animal trees (2026-09-28, user approval for the sirook.pdf invoice)
+    "Bird": ("Птицы", "Թռչուններ"),
+    "Small Animal": ("Грызуны", "Կրծողներ"),
+    "Treats & Supplements": ("Лакомства и добавки", "Հյուրասիրություններ և հավելումներ"),
+    "Hay": ("Сено", "Խոտ"),
+    "Treats": ("Лакомства", "Հյուրասիրություններ"),
+    "Supplements & Salt Licks": ("Добавки и минеральные камни", "Հավելումներ և աղի քարեր"),
+    "Bedding": ("Подстилка", "Թեփ և ներքնակ"),
 }
 
 

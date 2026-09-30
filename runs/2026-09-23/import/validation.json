@@ -1,0 +1,22 @@
+{
+ "03623K": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "hafo placeholder only — goes on needs-image.csv"
+   ]
+  ]
+ },
+ "147245": {
+  "status": "hold",
+  "fails": [],
+  "warns": []
+ },
+ "61001K": {
+  "status": "hold",
+  "fails": [],
+  "warns": []
+ }
+}

@@ -21,6 +21,18 @@ and the debugging notes; this guide is the "which one, and when".
 | Before filling attributes | `scripts/refresh-attributes.sh` | rewrites `reference/attribute-values.json`, the closed menu. Run it whenever someone edited attributes in the admin |
 | Curious about pacing | `scripts/pace.sh show` | the effective delay / retry settings from `config.json` |
 
+## 1b. Batch import, token-lean (in trial since 2026-09-23)
+
+Code makes every decision it can; a model only fills the parts that need
+reading a page. Card format: `reference/card-schema.md`.
+
+| Step | Command | What you get |
+|---|---|---|
+| 1 Plan the rows | `scripts/prepare-run.py <csv> --run runs/<date>` | `rows.jsonl` — per row: price + source (register > hafo variant, guards applied), route (`live` / `ready` / `needs-price` / `hold` / `not-found` / `needs-identity`), pack size, brand id, existing-product hints; `batches.json` (per brand + type); `not-found.csv`, `holds.csv`. `--sale-column` only when the user named one; `--reuse-hafo` seeds lookups from an older file |
+| 2 Workers | one card per `ready` / `needs-price` row → `runs/<date>/cards/<code>.json` | brand page, attributes with quotes, gallery, English texts. No admin writes |
+| 3 Check | `scripts/validate-card.py --run runs/<date> [codes…]` | `PASS` / `FAIL <rule>` / `WARN` per card, `validation.json`; exit 1 on any fail |
+| — | `scripts/live-ids.py` | refreshes `.siruk-cache/live-ids.json` (brands, category tree, families); the two scripts above reload it when older than 12 h |
+
 ## 2. Importing one CSV row (the pipeline)
 
 Run these in order, one row at a time, and verify before the next row.
@@ -30,7 +42,7 @@ Run these in order, one row at a time, and verify before the next row.
 | 1 Identity + price | `scripts/hafo-lookup.py --code <article> --name "<csv name>"` | **Always first.** Need `confirmed: true` and `price_source: "variant"`. Confirmed but unpriced → try `scripts/zoovet-lookup.py` (rule 2b) and the sibling fallback, else `runs/<date>/no-hafo-price.csv`; not confirmed → `not-found.csv` |
 | 2 Brand site | see section 8 | title, gallery, description from the official site (`reference/brand-sites.md`) |
 | 3 Exists already? | `scripts/find-product.sh "<name words>"` | **Before creating anything.** A hit means the row becomes a variant of that product |
-| 4 Images | `scripts/upload-media.sh <url-or-file> products/<brand-slug>/<type>/` per gallery image | prints a verified-readable media id; URL→id is cached, so re-running a row never re-uploads. Always pass the directory — `banners/…` for non-product images |
+| 4 Images | `scripts/upload-media.sh <url-or-file> products/<brand-slug>/<type>` per gallery image | prints a verified-readable media id; URL→id is cached, so re-running a row never re-uploads. Always pass the directory — `logos`, `categories` or `banners` (page-top banners) for non-product images. It creates the folder record itself and refuses a non-image download |
 | 5a New product | `scripts/create-product.sh payload.json` | validates, refuses a variant priced at or below cost, warns on a similar product (`FORCE=1` to override), POSTs, reads back |
 | 5b Extra variant | `scripts/add-variant.sh <product-id> variant.json` | GET → append → safety check → PUT → read back. Never hand-write the PUT |
 | 6 Translate | `scripts/set-translation.py <id> ru .siruk-cache/tr-<id>-ru.json` then the same with `hy` | name + per-SKU texts per locale; copies every single-language field from `en` and verifies `en` is untouched |
@@ -175,6 +187,7 @@ Swap a logo later: `scripts/set-brand-logo.sh <brand-id> <file|url|mediaId>` (re
 | Trixie (internal) | `scripts/trixie-parse.py --url "<page>"` / `--urls list.json --out out.json` | parses a page already cached by `trixie-product.py` into name, breadcrumb, species, gallery order, bullets, prose, per-article variant table, composition/analytical/additives |
 | Trixie (internal) | `scripts/trixie-gallery.py <article…>` / `--batch articles.json` | every official gallery image for an article, ranked packshot first, from the cached page plus a CDN probe — the logic `trixie-image.sh` calls |
 | Trixie (internal) | `scripts/trixie-cdn-sweep.py <article…>` / `--plan plan.json [--refresh]` | probes the trixie.de CDN directly for every `PHO_*`/`GRA_*` shot of an article, not just the ones a product page happens to list — needed since one page often covers a whole product family |
+| any brand, by barcode | `scripts/barcode-lookup.py --code <art> --name "<name>"` (or `--ean <ean>`), then WebSearch `"<ean>"` | **first stop when the brand site has no page** (2026-09-25): hafo's confirmed barcode for our code → our EAN caches, UPCitemdb, Open Pet Food Facts, and the web search to run. Identity from two EAN pages; content only from pages printing our EAN (`reference/image-sources.md` → "Barcode lookup") |
 | any brand, by EAN | `scripts/4lapy-lookup.py --search "<brand line words>" --ean <ean>` (or `--url <page>`) | 4lapy.ru: each pack-size offer prints its barcode, so an EAN hit is **confirmed**; per-offer photos + Russian description, composition, feeding. `--reindex` refreshes the sitemap cache |
 | any brand | `scripts/zoovet-lookup.py --search "<russian text>" [--brand <slug>]` | zoovet.am candidates: unwatermarked photo, AMD price, stock, ru description. **Always `confirmed: false`** — confirm by hand (`reference/zoovet.md`) |
 | any brand | `scripts/nemo-lookup.py --search "<text>" [--brand <slug>]` / `--url <page>` | nemo.am candidates: AMD price, stock, manufacturer, ru/hy description. No article code at all on the platform — **always `confirmed: false`**, confirm the same way as zoovet (brand+line+flavour+pack, pack photo matching) |

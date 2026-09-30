@@ -64,7 +64,7 @@ if [[ -n $logo ]]; then
   else
     [[ $logo == *.svg || $logo == *.svg\?* ]] && \
       die "SVG logos are not supported by the media library — find a PNG/JPEG (≥400px)"
-    media=$("$(dirname "${BASH_SOURCE[0]}")/upload-media.sh" "$logo" "${MEDIA_DIR:-}") \
+    media=$("$(dirname "${BASH_SOURCE[0]}")/upload-media.sh" "$logo" "${MEDIA_DIR:-logos}") \
       || die "logo upload failed: $logo"
     note "logo → media $media"
   fi

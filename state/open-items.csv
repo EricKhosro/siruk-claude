@@ -1,4 +1,7 @@
 Area,Priority,Issue,Detail,Register row,Article code,Product id,Product,Variant id,Variant,Source
+import: hold,1,SUSPECT register price,register 8300 for an 85 g jelly pouch at cost 225 (36.9×) — typo? PM to confirm,,142535,,Club 4 Paws jelly fish 85 g,,,prepare-run 2026-09-23
+import: hold,1,identity unconfirmed,hafo does not confirm the code; hafo EAN 4820083906848 is off Myau's 4820269 prefix; sterilised claim unconfirmed vs live product 1050,,147245,,Myau sterilised turkey in sauce 85 g,,,prepare-run 2026-09-23
+import: hold,1,no hafo listing; size/mesh unconfirmed,dogman.ru 'Туалет большой' 41×31×7.5 cm no mesh vs magizoo DOGMAN 06222 42×31×8 cm with mesh; invoice 42.5×31×8 cm — needs article/EAN off the pack,,61001K,,Dogman litter tray 42.5×31×8 cm,,,prepare-run 2026-09-23
 register: data,1,no images,,00655,36121Tx,1066,Tennis Ball with Fabric Animals,1496,16 cm,register audit
 register: data,1,no images,,01027,23394Tx,1085,"Grooming Glove, nylon/rubber",1531,pair,register audit
 register: data,1,no images,,01153,25060Tx,1087,"BE NORDIC Bowl, melamine/stainless steel",1541,"0.2 l/ø 14 cm, white",register audit
@@ -8,43 +11,20 @@ register: data,1,no images,,01159,200717Tx,804,"Premium Adjustable Lead, double-
 register: data,1,no images,,01160,200722Tx,804,"Premium Adjustable Lead, double-layered",1545,"XS–S, 2.00 m/15 mm, coral",register audit
 register: data,1,no images,,01161,200725Tx,804,"Premium Adjustable Lead, double-layered",1547,"XS–S, 2.00 m/15 mm, purple",register audit
 register: data,1,no images,,01162,201018Tx,805,Premium Adjustable Lead,1548,"XS, 2.00 m/10 mm, papaya",register audit
-register: missing,1,import (code known),"code from hand override; cost 1675.0, register price 2700.0",00115,074322,,Կատուների սեքս-հսկիչ 3մլ SPOT-ON R109,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1675.0, register price 2700.0",00187,10665,,"Բիո-վզնոց միջատներին վախեցնող ՝ միջին ցեղ. շն. և ձագ. համար, կանաչ/65սմ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 2675.0, register price 4300.0",00191,IN10863,,Կերային հավելում  շների համար մուլտի վիտամին փափի 100 հաբ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 2900.0, register price 4650.0",00192,IN10937,,Կերային հավելում շների համար մուլտի վիտամին սմոլ բրիդ 70 հաբ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 5125.0, register price 8200.0",00193,IN12429,,Կերային հավելում շների համար գլյուկոզամին + ՄՍՄ 55 հաբ,,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 225.0, register price 8300.0",00210,142535,,"4 ԹԱԹ ժելե կատուների համար ձուկ/ժելե, 85 գ",,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1215.0, register price 1950.0",00291,61001K,,"Տակդիր կատուների լցանյութի համար` 42.5*31*8 սմ, DOGMAN/09307018",,,register audit
-register: missing,1,import (code known),"code from fuzzy-name+cost; cost 1030.0, register price 1700.0",00292,03623K,,"Տակդիր կատուների լցանյութի համար ցանցով` Интеко, М/09307021",,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 160.0, register price 300.0",00355,147245,,ՄՅԱՈՒ  ժելե կատուների (ստերիլ)համար հնդկահավը սոուսում 85գ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 805.0, register price 1300.0",00401,12623,,"Հյուրասիրություն կատ. և ձագերի համար՝ կատվի անանուխով, 35 գ",,,register audit
-register: missing,1,import (code known),"code from hafo name+cost; cost 805.0, register price 2600.0",00402,12625,,"Հյուրասիրություն կատուների համար` VIT bits, 35գ",,,register audit
+import: hold,1,SUSPECT register price,"register 2600 is 3.2× cost 805 and 2.1× hafo 1250 (rule 2c typo guard); identity is fine (Beaphar Vit Bits 35 g, EAN 8711231126255) — PM to confirm the sale price",00402,12625,,"Հյուրասիրություն կատուների համար` VIT bits, 35գ",,,import 2026-09-25
 register: missing,1,import (code known),"code from hafo name+cost; cost 1000.0, register price 1000.0",00427,208986,,"Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ սագի մսային ձողիկներ, 55գ",,,register audit
-register: missing,1,import (code known),"code from hafo name+cost; cost 685.0, register price 1100.0",00469,703823,,Մնյամս կատուների համար պյուրե՝ թյունոսով և ծովախեցգետնով  15գ x4,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1965.0, register price 3150.0",00471,10778S,,"Ջլե գնդակներ՝ հավի համով, S, 2 հատ/40 գ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1935.0, register price 3100.0",00472,10250S,,"Ջլե ձողիկներ՝ հավի համով, M, 3 հատ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1450.0, register price 2350.0",00479,DL710306,,Հյուրասիրություն շն. ձագերի համար՝ գառան ձողիկներ 90գ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1450.0, register price 2350.0",00483,DL711836,,"Հյուրասիրություն շն. ձագերի համար՝ ճագարի ականջներ, 90 գ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 645.0, register price 1050.0",00484,DL711396,,Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ ճագարի ականջներ 15գ,,,register audit
+import: hold,2,flavour value missing,"Mnyams Cream Treat tuna & scallop 4×15 g (2 EAN pages, mnyams.ru) joins product 1137, but the flavour menu has no Scallop and Tuna / Seafood & Fish are taken by siblings (rule 9a) — add a flavour value 'Scallop'?",00469,703823,,Մնյամս կատուների համար պյուրե՝ թյունոսով և ծովախեցգետնով  15գ x4,,,import 2026-09-25
+import: hold,2,size on our barcode unresolved,"EAN 4048422107781: hafo + register say Delights Chicken Balls S 2 pcs/40 g, but the barcode pages (hubun.pl, kakadu.pl, UPCitemdb) say size M — PM to read size off the pack",00471,10778S,,"Ջլե գնդակներ՝ հավի համով, S, 2 հատ/40 գ",,,import 2026-09-25
 register: missing,1,import (code known),"code from hafo name+cost; cost 1000.0, register price 1000.0",00488,711536,,Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ բադի ձողիկներ 55գ,,,register audit
 register: missing,1,import (code known),"code from hand override; cost 1000.0, register price 1000.0",00489,DL711516,,Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ գառան համով 55գ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1450.0, register price 2350.0",00501,DL711796,,Հյուրասիրություն շների համար՝ բադի խորոված 90գ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1450.0, register price 2350.0",00503,DL711166,,"Հյուրասիրություն շների համար՝ հավի խորոված,90գ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1480.0, register price 2400.0",00551,14612S,,"Հյուրասիրություն՝ հավի մսային բեկորներ գազարով, 50 գ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 645.0, register price 1050.0",00563,504026,,Թխվածքաբլիթ շների համար՝ բադի և խնձորի համով 100գ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 645.0, register price 1050.0",00564,504036,,Թխվածքաբլիթ շների համար՝ ճագարի և գազարի համով 100գ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 645.0, register price 1050.0",00565,504046,,Թխվածքաբլիթ շների համար՝ հորթի և սպանախի համով 100գ,,,register audit
-register: missing,1,import (code known),"code from hand override; cost 645.0, register price 1050.0",00566,504056,,Թխվածքաբլիթ շների համար՝ գառի և դդմի համով 100գ,,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1310.0, register price 1310.0",00659,35718Tx,,Խաղալիք պարանե 2 բռնակով 38 սմ,,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1250.0, register price 1250.0",00900,22858Tx,,Տուփ աղբի տոպրակի համար՝ 20 հատ/1 փաթեթ,,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1310.0, register price 1310.0",00949,2410Tx,,"Սանր շների համար՝ սև/մոխրագույն բռնակով, պտտվող ատամիկներով, 15 սմ",,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1000.0, register price 1000.0",00964,41590Tx,,"Վզնոց նեյլոնե կատվի,ֆոսֆոր/վարդագույն, կարմիր",,,register audit
-register: missing,1,import (code known),"code from hafo name+cost; cost 1190.0, register price 1950.0",01000,11244S,,"Ֆիլե` հավի համով, մարսողությանը նպաստող, 80 գ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1800.0, register price 2900.0",01113,12207S,,"Ոսկոր՝ XS, հավի և խոզի համերով, 7 հատ/ 84 գ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 5435.0, register price 8700.0",01260,FX023508,,Ձգափոկ մեխանիկական` max-12կգ/3մ/XS չափ/լենտա/NEON,,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1000.0, register price 1000.0",01267,45765Tx,,"Խաղալիք կատուների համար՝ փափուկ, գունավոր թռչուններ, փետուրներով, 8 սմ",,,register audit
-register: missing,1,import (code known),"code from hand override; cost 1975.0, register price 3200.0",01272,077412,,"Մածուկ շն./կատ. համար՝ ԿԱԼՑԻՈՒՄ +, 75 մլ/ K116",,,register audit
-register: missing,1,import (code known),"code from hafo name+cost; cost 4155.0, register price 6450.0",01275,042718,,"Ձգափոկ  մեխանիկական, XS-8կգ/3մ տռոս, բաց կապույտ COMFORT",,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1000.0, register price 1000.0",01305,45665Tx,,"Խաղալիք կատուների՝ փափուկ արջուկ, 12 սմ",,,register audit
 register: missing,1,import (code known),"code from exact-name; cost 1000.0, register price 1000.0",01306,45689Tx,,"Խաղալիք կատուների՝ փափուկ մոնստրիկ, 12 սմ, վարդագույն",,,register audit
 register: price,1,PM to confirm register price,"HELD (typo-level jump): register 9600.0, cost 750.0, ours 1000.0",00269,014417,653,Solo Monoprotein Adult Dog Paté,787,Pork 150 g,register audit
@@ -119,11 +99,13 @@ register: price,1,PM to confirm register price,"HELD (at/below cost): register 1
 register: price,1,PM to confirm register price,"HELD (at/below cost): register 1250.0, cost 1250.0, ours 2000.0",01311,42442Tx,602,"Matatabi Lolly, Mouse",710,20 cm,register audit
 register: price,1,PM to confirm register price,"HELD (at/below cost): register 1250.0, cost 1250.0, ours 2000.0",01312,45490Tx,314,Set of Tubes,406,15 cm,register audit
 register: price,1,PM to confirm register price,"HELD (at/below cost): register 1250.0, cost 1250.0, ours 2000.0",01329,45768Tx,320,Squirrel,412,9 cm,register audit
+catalogue,2,no clean packshot,flexi discontinued the Neon XS 3 m; gallery = flexi's tape-outlet detail shot + hafo's watermarked full-lead photo (last),,FX023508,1150,New Neon Tape Lead,1751,"XS, 3 m, black/neon",state/carried-items.json
 catalogue,2,only a watermarked placeholder image,nemo.am photo with nemo's logo tiled across it (rule 7a); no brand or keyed shop has this 20 kg bag,,MM005627,1183,Puppy & Junior Dog,1736,Chicken & Rice 20 kg,state/carried-items.json
 catalogue,2,only a watermarked placeholder image,same nemo.am placeholder,,MM005627-KG,1183,Puppy & Junior Dog,1737,"By weight, 1 kg",state/carried-items.json
 catalogue,2,only hafo placeholder image,not in the register,,,1178,Kitten Dry Food,1718,"By weight, 1 kg",live check
 catalogue,2,only hafo placeholder image,not in the register,,,1165,Adult Cat,1690,"By weight, 1 kg",live check
 catalogue,2,only hafo placeholder image,not in the register,,,1163,Kitten Cat,1686,"By weight, 1 kg",live check
+import: image,2,hafo placeholder image,Inteko has no official site; replace the watermarked hafo photo,,03623K,1194,Litter Tray with Mesh,1752,M,prepare-run 2026-09-23
 register: data,2,missing axis attr: color-family,,00755,3272Tx,404,Playing Rope,1250,26 cm,register audit
 register: data,2,missing axis attr: color-family,,00756,3273Tx,404,Playing Rope,1251,37 cm,register audit
 register: data,2,missing axis attr: color-family,,00760,3271Tx,404,Playing Rope,511,20 cm,register audit
@@ -136,6 +118,7 @@ register: data,2,only hafo placeholder image,,00040,MG 004817,1163,Kitten Cat,1
 register: data,2,only hafo placeholder image,,00042,MG 004807,1165,Adult Cat,1689,Chicken 10 kg,register audit
 register: data,2,only hafo placeholder image,,00081,902135,1178,Kitten Dry Food,1717,11 kg,register audit
 register: data,2,only hafo placeholder image,,00184,21382,1057,Stop It Indoor Repellent Spray,1354,200 ml,register audit
+register: data,2,only hafo placeholder image,,00292,03623K,1194,Litter Tray with Mesh,1752,M,register audit
 register: data,2,only hafo placeholder image,,00314,041887,663,Gran Bonta Chef Adult Dog,1303,Beef 1230 g,register audit
 register: data,2,only hafo placeholder image,,00334,83010J,1053,"Cat Pouch in Jelly, 75 g",1349,Juicy Chicken,register audit
 register: data,2,only hafo placeholder image,,00335,83014J,1053,"Cat Pouch in Jelly, 75 g",1350,Appetising Beef,register audit
@@ -261,3 +244,12 @@ catalogue,3,first image is not a clean packshot,Iv San Bernard: only the brand's
 catalogue,3,first image is not a clean packshot,Iv San Bernard: only the brand's group shot of the pack sizes,,,733,"Traditional Line Green Apple Conditioner for Long Coats, 300 ml",,,state/carried-items.json
 catalogue,3,first image is not a clean packshot,Iv San Bernard: only the brand's group shot of the pack sizes,,,734,"Protective Shield Shampoo, 300 ml",,,state/carried-items.json
 catalogue,3,first image is not a clean packshot,Iv San Bernard: only the brand's group shot of the pack sizes,,,735,"Protective Shield Conditioner, 300 ml",,,state/carried-items.json
+media: unfiled,3,268 media left in the library root,"site content (About us icons, blog tiles, illustrations), ~200 pre-rebuild product photos no live product uses, 32 unused — folder decision for the team; list in runs/2026-09-23/media-reorg/root-after.json",,,,,,,organize-media 2026-09-23
+media: cleanup,3,29 unused fake media (404 pages saved as .png),"replaced 2026-09-24 on products 1043–1049, 1151; old ids 11814 10297 10299 10301 10303 10289 10291 10293 10295 10281 10283 10285 10287 10273 10275 10277 10279 10265 10267 10269 10271 10257 10259 10261 10263 10249 10251 10253 10255 are no longer referenced — delete only on the user's say-so",,,,,,,organize-media 2026-09-23
+import: image,3,hafo placeholder image,only hafo's watermarked photo; no readable EAN page with a photo,01113,12207S,1200,Delights Pork Bones,1758,"XS, 7 pcs / 84 g",import 2026-09-25
+import: hold,1,no sale price,"Trixie Lick made of Himalaya Salt 60 g (EAN 4011905060040): not on hafo, zoovet or nemo; cost 625 — send the sale price and it imports into Small Animal > Supplements & Salt Licks (102)",01369,6004Tx,,Lick made of Himalaya Salt,,60 g,sirook.pdf 2026-09-28
+images,2,photo shows another pack size,Crispy Muesli Guinea Pigs 1 kg leads with zoovet's 400 g shot of the same (pre-2025) pack; hafo placeholder last,01364,461711V,1215,Crispy Muesli Guinea Pigs,1774,1 kg,sirook.pdf 2026-09-28
+images,3,hafo placeholder in gallery,Crispy 400 g variants: zoovet original leads; hafo watermarked photo sits last — drop it once the PM is happy,,461698V / 461699V,1215 / 1216,Crispy Muesli,1773 / 1775,400 g,sirook.pdf 2026-09-28
+vocabulary,3,wanted flavor values,"Nature Snack variants use Cranberry (Berries) and Pineapple (Fruities) as stand-ins — add flavor values ""Berries"" and ""Fruit Mix""?",,461434V / 461435V,1217,Nature Snack,,Berries / Fruities 85 g,sirook.pdf 2026-09-28
+vocabulary,3,wanted lifestage value,"Nature Cuni Junior is ""for (dwarf) rabbits up to 8 months"" — lifestage menu has only Puppy/Kitten for young animals; add ""Junior""/""Young""?",,461407V,1210,Nature Cuni Junior,,700 g,sirook.pdf 2026-09-28
+categories,3,new pet trees have no tile image,"Bird 95 and Small Animal 98 were created 2026-09-28 without category images (Dog/Cat have them); the storefront menu may need them added",,,,,,,sirook.pdf 2026-09-28

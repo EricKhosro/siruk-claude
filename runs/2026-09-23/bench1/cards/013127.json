@@ -1,0 +1,52 @@
+{
+ "code": "013127",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "wet-food",
+ "brand_id": 5,
+ "name": "Grill Adult Dog",
+ "label": "Salmon 100 g",
+ "existing_id": 624,
+ "category_ids": [
+  4
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Salmon",
+   "quote": "grilled salmon"
+  },
+  "special-diet": {
+   "value": "Grain-Free",
+   "quote": "grain-free recipe"
+  },
+  "texture": {
+   "value": "Chunks in Gravy",
+   "quote": "cuts of grilled meat in a sauce"
+  },
+  "product-weight": {
+   "value": "100 g",
+   "quote": "100g"
+  },
+  "lifestage": {
+   "value": "Adult",
+   "quote": "adult dogs"
+  }
+ },
+ "images": [
+  "https://monge.shop/807-thickbox_default/monge-grill-meat-pieces-with-salmon-100g.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Monge Grill is delicious cuts of grilled meat in a sauce. Monge Grill recipes contain the highest quality source of animal protein, selected for their nutritional properties. Recipes developed to meet the nutritional needs of dogs of different ages. Complete food for adult dogs made from selected grilled salmon meat. The grain-free recipe is enriched with glucosamine and chondroitin sulphate for joint support. Monge GRILL Salmon is a complete food with grilled fresh salmon, made according to an original Italian recipe. It contains chondroitin and glucosamine for proper joint development.",
+  "ingredient_information": "Composition: Meat and animal derivatives, fish and fish derivatives 25% (salmon 14%), minerals, glucosamine 0.008%, chondroitin sulphate 0.004%. Analytical constituents: Crude protein 10.5%, crude fibre 0.5%, crude fat 6%, crude ash 1.8%, moisture 78.5%.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://monge.shop/gb/foods/dog/wet-food/monge-grill/273-monge-grill-meat-pieces-with-salmon-100g.html"
+ },
+ "evidence_file": "cards/013127.source.txt"
+}

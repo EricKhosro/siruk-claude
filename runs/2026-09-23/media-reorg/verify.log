@@ -1,0 +1,1102 @@
+listing the catalog…
+HTTP 200  GET /products?perPage=100&page=1
+HTTP 200  GET /products?perPage=100&page=2
+HTTP 200  GET /products?perPage=100&page=3
+HTTP 200  GET /products?perPage=100&page=4
+HTTP 200  GET /products?perPage=100&page=5
+HTTP 200  GET /products?perPage=100&page=6
+HTTP 200  GET /products?perPage=100&page=7
+HTTP 200  GET /products?perPage=100&page=8
+HTTP 200  GET /products?perPage=100&page=9
+checking 803 product(s)
+HTTP 200  GET /products/1194
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1193
+HTTP 200  GET /products/1192
+HTTP 200  GET /products/1191
+HTTP 200  GET /products/1190
+HTTP 200  GET /products/1189
+HTTP 200  GET /products/1188
+HTTP 200  GET /products/1187
+HTTP 200  GET /products/1186
+HTTP 200  GET /products/1185
+HTTP 200  GET /products/1184
+HTTP 200  GET /products/1183
+HTTP 200  GET /products/1182
+HTTP 200  GET /products/1181
+HTTP 200  GET /products/1180
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1179
+HTTP 200  GET /products/1178
+HTTP 200  GET /products/1177
+HTTP 200  GET /products/1176
+HTTP 200  GET /products/1175
+HTTP 200  GET /products/1174
+HTTP 200  GET /products/1173
+HTTP 200  GET /products/1172
+HTTP 200  GET /products/1171
+HTTP 200  GET /products/1170
+HTTP 200  GET /products/1169
+HTTP 200  GET /products/1168
+HTTP 200  GET /products/1167
+HTTP 200  GET /products/1166
+HTTP 200  GET /products/1165
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1164
+HTTP 200  GET /products/1163
+HTTP 200  GET /products/1162
+HTTP 200  GET /products/1161
+HTTP 200  GET /products/1160
+HTTP 200  GET /products/1159
+HTTP 200  GET /products/1158
+HTTP 200  GET /products/1157
+HTTP 200  GET /products/1156
+HTTP 200  GET /products/1155
+HTTP 200  GET /products/1154
+HTTP 200  GET /products/1153
+HTTP 200  GET /products/1152
+HTTP 200  GET /products/1151
+HTTP 200  GET /products/1150
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1149
+HTTP 200  GET /products/1148
+HTTP 200  GET /products/1147
+HTTP 200  GET /products/1146
+HTTP 200  GET /products/1145
+HTTP 200  GET /products/1144
+HTTP 200  GET /products/1143
+HTTP 200  GET /products/1142
+HTTP 200  GET /products/1141
+HTTP 200  GET /products/1140
+HTTP 200  GET /products/1139
+HTTP 200  GET /products/1138
+HTTP 200  GET /products/1137
+HTTP 200  GET /products/1136
+HTTP 200  GET /products/1135
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1134
+HTTP 200  GET /products/1133
+HTTP 200  GET /products/1132
+HTTP 200  GET /products/1131
+HTTP 200  GET /products/1130
+HTTP 200  GET /products/1129
+HTTP 200  GET /products/1128
+HTTP 200  GET /products/1127
+HTTP 200  GET /products/1126
+HTTP 200  GET /products/1125
+HTTP 200  GET /products/1124
+HTTP 200  GET /products/1123
+HTTP 200  GET /products/1122
+HTTP 200  GET /products/1121
+HTTP 200  GET /products/1120
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1119
+HTTP 200  GET /products/1118
+HTTP 200  GET /products/1117
+HTTP 200  GET /products/1116
+HTTP 200  GET /products/1115
+HTTP 200  GET /products/1114
+HTTP 200  GET /products/1113
+HTTP 200  GET /products/1112
+HTTP 200  GET /products/1111
+HTTP 200  GET /products/1110
+HTTP 200  GET /products/1109
+HTTP 200  GET /products/1108
+HTTP 200  GET /products/1107
+HTTP 200  GET /products/1106
+HTTP 200  GET /products/1105
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1104
+HTTP 200  GET /products/1103
+HTTP 200  GET /products/1102
+HTTP 200  GET /products/1101
+HTTP 200  GET /products/1100
+HTTP 200  GET /products/1099
+HTTP 200  GET /products/1098
+HTTP 200  GET /products/1097
+HTTP 200  GET /products/1096
+HTTP 200  GET /products/1095
+HTTP 200  GET /products/1094
+HTTP 200  GET /products/1093
+HTTP 200  GET /products/1092
+HTTP 200  GET /products/1091
+HTTP 200  GET /products/1090
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1089
+HTTP 200  GET /products/1088
+HTTP 200  GET /products/1087
+HTTP 200  GET /products/1086
+HTTP 200  GET /products/1085
+HTTP 200  GET /products/1084
+HTTP 200  GET /products/1083
+HTTP 200  GET /products/1082
+HTTP 200  GET /products/1081
+HTTP 200  GET /products/1080
+HTTP 200  GET /products/1079
+HTTP 200  GET /products/1078
+HTTP 200  GET /products/1077
+HTTP 200  GET /products/1076
+HTTP 200  GET /products/1075
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1074
+HTTP 200  GET /products/1073
+HTTP 200  GET /products/1072
+HTTP 200  GET /products/1071
+HTTP 200  GET /products/1069
+HTTP 200  GET /products/1068
+HTTP 200  GET /products/1067
+HTTP 200  GET /products/1066
+HTTP 200  GET /products/1065
+HTTP 200  GET /products/1064
+HTTP 200  GET /products/1063
+HTTP 200  GET /products/1062
+HTTP 200  GET /products/1061
+HTTP 200  GET /products/1059
+HTTP 200  GET /products/1058
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1057
+HTTP 200  GET /products/1056
+HTTP 200  GET /products/1055
+HTTP 200  GET /products/1054
+HTTP 200  GET /products/1053
+HTTP 200  GET /products/1052
+HTTP 200  GET /products/1051
+HTTP 200  GET /products/1050
+HTTP 200  GET /products/1049
+HTTP 200  GET /products/1048
+HTTP 200  GET /products/1047
+HTTP 200  GET /products/1046
+HTTP 200  GET /products/1045
+HTTP 200  GET /products/1044
+HTTP 200  GET /products/1043
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1042
+HTTP 200  GET /products/1041
+HTTP 200  GET /products/1040
+HTTP 200  GET /products/1039
+HTTP 200  GET /products/1038
+HTTP 200  GET /products/1037
+HTTP 200  GET /products/1036
+HTTP 200  GET /products/1035
+HTTP 200  GET /products/1034
+HTTP 200  GET /products/1033
+HTTP 200  GET /products/1032
+HTTP 200  GET /products/1031
+HTTP 200  GET /products/1030
+HTTP 200  GET /products/1029
+HTTP 200  GET /products/1028
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1027
+HTTP 200  GET /products/1026
+HTTP 200  GET /products/1025
+HTTP 200  GET /products/1024
+HTTP 200  GET /products/1023
+HTTP 200  GET /products/1021
+HTTP 200  GET /products/1020
+HTTP 200  GET /products/1018
+HTTP 200  GET /products/1016
+HTTP 200  GET /products/1015
+HTTP 200  GET /products/1012
+HTTP 200  GET /products/1010
+HTTP 200  GET /products/1009
+HTTP 200  GET /products/1006
+HTTP 200  GET /products/1001
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1000
+HTTP 200  GET /products/999
+HTTP 200  GET /products/993
+HTTP 200  GET /products/988
+HTTP 200  GET /products/985
+HTTP 200  GET /products/982
+HTTP 200  GET /products/979
+HTTP 200  GET /products/978
+HTTP 200  GET /products/974
+HTTP 200  GET /products/973
+HTTP 200  GET /products/971
+HTTP 200  GET /products/969
+HTTP 200  GET /products/967
+HTTP 200  GET /products/966
+HTTP 200  GET /products/965
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/964
+HTTP 200  GET /products/963
+HTTP 200  GET /products/962
+HTTP 200  GET /products/961
+HTTP 200  GET /products/960
+HTTP 200  GET /products/957
+HTTP 200  GET /products/956
+HTTP 200  GET /products/955
+HTTP 200  GET /products/954
+HTTP 200  GET /products/952
+HTTP 200  GET /products/951
+HTTP 200  GET /products/948
+HTTP 200  GET /products/943
+HTTP 200  GET /products/941
+HTTP 200  GET /products/940
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/938
+HTTP 200  GET /products/937
+HTTP 200  GET /products/934
+HTTP 200  GET /products/931
+HTTP 200  GET /products/929
+HTTP 200  GET /products/928
+HTTP 200  GET /products/925
+HTTP 200  GET /products/924
+HTTP 200  GET /products/923
+HTTP 200  GET /products/922
+HTTP 200  GET /products/920
+HTTP 200  GET /products/919
+HTTP 200  GET /products/918
+HTTP 200  GET /products/914
+HTTP 200  GET /products/913
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/912
+HTTP 200  GET /products/909
+HTTP 200  GET /products/907
+HTTP 200  GET /products/906
+HTTP 200  GET /products/904
+HTTP 200  GET /products/903
+HTTP 200  GET /products/902
+HTTP 200  GET /products/901
+HTTP 200  GET /products/900
+HTTP 200  GET /products/899
+HTTP 200  GET /products/898
+HTTP 200  GET /products/897
+HTTP 200  GET /products/896
+HTTP 200  GET /products/895
+HTTP 200  GET /products/894
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/893
+HTTP 200  GET /products/891
+HTTP 200  GET /products/890
+HTTP 200  GET /products/888
+HTTP 200  GET /products/887
+HTTP 200  GET /products/886
+HTTP 200  GET /products/885
+HTTP 200  GET /products/883
+HTTP 200  GET /products/882
+HTTP 200  GET /products/881
+HTTP 200  GET /products/880
+HTTP 200  GET /products/879
+HTTP 200  GET /products/878
+HTTP 200  GET /products/877
+HTTP 200  GET /products/876
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/875
+HTTP 200  GET /products/874
+HTTP 200  GET /products/873
+HTTP 200  GET /products/872
+HTTP 200  GET /products/871
+HTTP 200  GET /products/869
+HTTP 200  GET /products/868
+HTTP 200  GET /products/866
+HTTP 200  GET /products/865
+HTTP 200  GET /products/864
+HTTP 200  GET /products/860
+HTTP 200  GET /products/856
+HTTP 200  GET /products/855
+HTTP 200  GET /products/854
+HTTP 200  GET /products/853
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/852
+HTTP 200  GET /products/851
+HTTP 200  GET /products/850
+HTTP 200  GET /products/848
+HTTP 200  GET /products/845
+HTTP 200  GET /products/844
+HTTP 200  GET /products/843
+HTTP 200  GET /products/842
+HTTP 200  GET /products/839
+HTTP 200  GET /products/838
+HTTP 200  GET /products/836
+HTTP 200  GET /products/835
+HTTP 200  GET /products/833
+HTTP 200  GET /products/829
+HTTP 200  GET /products/826
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/825
+HTTP 200  GET /products/823
+HTTP 200  GET /products/822
+HTTP 200  GET /products/821
+HTTP 200  GET /products/820
+HTTP 200  GET /products/815
+HTTP 200  GET /products/814
+HTTP 200  GET /products/813
+HTTP 200  GET /products/812
+HTTP 200  GET /products/811
+HTTP 200  GET /products/810
+HTTP 200  GET /products/809
+HTTP 200  GET /products/805
+HTTP 200  GET /products/804
+HTTP 200  GET /products/800
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/799
+HTTP 200  GET /products/798
+HTTP 200  GET /products/796
+HTTP 200  GET /products/795
+HTTP 200  GET /products/794
+HTTP 200  GET /products/793
+HTTP 200  GET /products/792
+HTTP 200  GET /products/791
+HTTP 200  GET /products/790
+HTTP 200  GET /products/787
+HTTP 200  GET /products/785
+HTTP 200  GET /products/783
+HTTP 200  GET /products/781
+HTTP 200  GET /products/780
+HTTP 200  GET /products/779
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/777
+HTTP 200  GET /products/775
+HTTP 200  GET /products/773
+HTTP 200  GET /products/771
+HTTP 200  GET /products/769
+HTTP 200  GET /products/767
+HTTP 200  GET /products/763
+HTTP 200  GET /products/762
+HTTP 200  GET /products/758
+HTTP 200  GET /products/756
+HTTP 200  GET /products/755
+HTTP 200  GET /products/753
+HTTP 200  GET /products/752
+HTTP 200  GET /products/751
+HTTP 200  GET /products/750
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/749
+HTTP 200  GET /products/748
+HTTP 200  GET /products/747
+HTTP 200  GET /products/745
+HTTP 200  GET /products/742
+HTTP 200  GET /products/739
+HTTP 200  GET /products/738
+HTTP 200  GET /products/737
+HTTP 200  GET /products/736
+HTTP 200  GET /products/735
+HTTP 200  GET /products/734
+HTTP 200  GET /products/733
+HTTP 200  GET /products/732
+HTTP 200  GET /products/731
+HTTP 200  GET /products/730
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/729
+HTTP 200  GET /products/727
+HTTP 200  GET /products/726
+HTTP 200  GET /products/725
+HTTP 200  GET /products/724
+HTTP 200  GET /products/723
+HTTP 200  GET /products/722
+HTTP 200  GET /products/721
+HTTP 200  GET /products/720
+HTTP 200  GET /products/719
+HTTP 200  GET /products/718
+HTTP 200  GET /products/717
+HTTP 200  GET /products/716
+HTTP 200  GET /products/715
+HTTP 200  GET /products/713
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/712
+HTTP 200  GET /products/711
+HTTP 200  GET /products/710
+HTTP 200  GET /products/709
+HTTP 200  GET /products/708
+HTTP 200  GET /products/707
+HTTP 200  GET /products/706
+HTTP 200  GET /products/705
+HTTP 200  GET /products/704
+HTTP 200  GET /products/703
+HTTP 200  GET /products/702
+HTTP 200  GET /products/701
+HTTP 200  GET /products/700
+HTTP 200  GET /products/699
+HTTP 200  GET /products/698
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/694
+HTTP 200  GET /products/692
+HTTP 200  GET /products/691
+HTTP 200  GET /products/690
+HTTP 200  GET /products/689
+HTTP 200  GET /products/688
+HTTP 200  GET /products/687
+HTTP 200  GET /products/686
+HTTP 200  GET /products/685
+HTTP 200  GET /products/684
+HTTP 200  GET /products/683
+HTTP 200  GET /products/682
+HTTP 200  GET /products/681
+HTTP 200  GET /products/680
+HTTP 200  GET /products/679
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/678
+HTTP 200  GET /products/677
+HTTP 200  GET /products/676
+HTTP 200  GET /products/675
+HTTP 200  GET /products/674
+HTTP 200  GET /products/673
+HTTP 200  GET /products/672
+HTTP 200  GET /products/671
+HTTP 200  GET /products/670
+HTTP 200  GET /products/669
+HTTP 200  GET /products/668
+HTTP 200  GET /products/667
+HTTP 200  GET /products/666
+HTTP 200  GET /products/665
+HTTP 200  GET /products/663
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/659
+HTTP 200  GET /products/658
+HTTP 200  GET /products/655
+HTTP 200  GET /products/654
+HTTP 200  GET /products/653
+HTTP 200  GET /products/652
+HTTP 200  GET /products/651
+HTTP 200  GET /products/650
+HTTP 200  GET /products/649
+HTTP 200  GET /products/648
+HTTP 200  GET /products/647
+HTTP 200  GET /products/646
+HTTP 200  GET /products/645
+HTTP 200  GET /products/644
+HTTP 200  GET /products/643
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/642
+HTTP 200  GET /products/641
+HTTP 200  GET /products/640
+HTTP 200  GET /products/639
+HTTP 200  GET /products/638
+HTTP 200  GET /products/637
+HTTP 200  GET /products/636
+HTTP 200  GET /products/635
+HTTP 200  GET /products/634
+HTTP 200  GET /products/633
+HTTP 200  GET /products/632
+HTTP 200  GET /products/629
+HTTP 200  GET /products/628
+HTTP 200  GET /products/627
+HTTP 200  GET /products/626
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/625
+HTTP 200  GET /products/624
+HTTP 200  GET /products/623
+HTTP 200  GET /products/622
+HTTP 200  GET /products/621
+HTTP 200  GET /products/620
+HTTP 200  GET /products/617
+HTTP 200  GET /products/616
+HTTP 200  GET /products/615
+HTTP 200  GET /products/614
+HTTP 200  GET /products/613
+HTTP 200  GET /products/612
+HTTP 200  GET /products/610
+HTTP 200  GET /products/608
+HTTP 200  GET /products/607
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/606
+HTTP 200  GET /products/605
+HTTP 200  GET /products/604
+HTTP 200  GET /products/603
+HTTP 200  GET /products/602
+HTTP 200  GET /products/601
+HTTP 200  GET /products/600
+HTTP 200  GET /products/599
+HTTP 200  GET /products/598
+HTTP 200  GET /products/597
+HTTP 200  GET /products/595
+HTTP 200  GET /products/594
+HTTP 200  GET /products/593
+HTTP 200  GET /products/592
+HTTP 200  GET /products/591
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/590
+HTTP 200  GET /products/589
+HTTP 200  GET /products/588
+HTTP 200  GET /products/587
+HTTP 200  GET /products/586
+HTTP 200  GET /products/585
+HTTP 200  GET /products/584
+HTTP 200  GET /products/583
+HTTP 200  GET /products/582
+HTTP 200  GET /products/581
+HTTP 200  GET /products/580
+HTTP 200  GET /products/579
+HTTP 200  GET /products/578
+HTTP 200  GET /products/577
+HTTP 200  GET /products/576
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/575
+HTTP 200  GET /products/574
+HTTP 200  GET /products/573
+HTTP 200  GET /products/572
+HTTP 200  GET /products/571
+HTTP 200  GET /products/570
+HTTP 200  GET /products/569
+HTTP 200  GET /products/568
+HTTP 200  GET /products/562
+HTTP 200  GET /products/561
+HTTP 200  GET /products/559
+HTTP 200  GET /products/558
+HTTP 200  GET /products/557
+HTTP 200  GET /products/556
+HTTP 200  GET /products/555
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/554
+HTTP 200  GET /products/553
+HTTP 200  GET /products/551
+HTTP 200  GET /products/550
+HTTP 200  GET /products/549
+HTTP 200  GET /products/546
+HTTP 200  GET /products/545
+HTTP 200  GET /products/542
+HTTP 200  GET /products/541
+HTTP 200  GET /products/539
+HTTP 200  GET /products/538
+HTTP 200  GET /products/535
+HTTP 200  GET /products/533
+HTTP 200  GET /products/532
+HTTP 200  GET /products/527
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/526
+HTTP 200  GET /products/525
+HTTP 200  GET /products/523
+HTTP 200  GET /products/521
+HTTP 200  GET /products/517
+HTTP 200  GET /products/515
+HTTP 200  GET /products/514
+HTTP 200  GET /products/513
+HTTP 200  GET /products/512
+HTTP 200  GET /products/511
+HTTP 200  GET /products/510
+HTTP 200  GET /products/509
+HTTP 200  GET /products/508
+HTTP 200  GET /products/507
+HTTP 200  GET /products/506
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/505
+HTTP 200  GET /products/504
+HTTP 200  GET /products/503
+HTTP 200  GET /products/502
+HTTP 200  GET /products/501
+HTTP 200  GET /products/500
+HTTP 200  GET /products/499
+HTTP 200  GET /products/498
+HTTP 200  GET /products/497
+HTTP 200  GET /products/496
+HTTP 200  GET /products/495
+HTTP 200  GET /products/494
+HTTP 200  GET /products/491
+HTTP 200  GET /products/490
+HTTP 200  GET /products/489
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/488
+HTTP 200  GET /products/487
+HTTP 200  GET /products/486
+HTTP 200  GET /products/485
+HTTP 200  GET /products/484
+HTTP 200  GET /products/483
+HTTP 200  GET /products/482
+HTTP 200  GET /products/481
+HTTP 200  GET /products/480
+HTTP 200  GET /products/479
+HTTP 200  GET /products/478
+HTTP 200  GET /products/477
+HTTP 200  GET /products/476
+HTTP 200  GET /products/475
+HTTP 200  GET /products/474
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/473
+HTTP 200  GET /products/472
+HTTP 200  GET /products/470
+HTTP 200  GET /products/469
+HTTP 200  GET /products/468
+HTTP 200  GET /products/467
+HTTP 200  GET /products/466
+HTTP 200  GET /products/465
+HTTP 200  GET /products/464
+HTTP 200  GET /products/462
+HTTP 200  GET /products/461
+HTTP 200  GET /products/460
+HTTP 200  GET /products/459
+HTTP 200  GET /products/458
+HTTP 200  GET /products/457
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/456
+HTTP 200  GET /products/455
+HTTP 200  GET /products/454
+HTTP 200  GET /products/453
+HTTP 200  GET /products/450
+HTTP 200  GET /products/449
+HTTP 200  GET /products/448
+HTTP 200  GET /products/447
+HTTP 200  GET /products/445
+HTTP 200  GET /products/444
+HTTP 200  GET /products/443
+HTTP 200  GET /products/442
+HTTP 200  GET /products/441
+HTTP 200  GET /products/440
+HTTP 200  GET /products/438
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/435
+HTTP 200  GET /products/434
+HTTP 200  GET /products/433
+HTTP 200  GET /products/432
+HTTP 200  GET /products/430
+HTTP 200  GET /products/429
+HTTP 200  GET /products/428
+HTTP 200  GET /products/427
+HTTP 200  GET /products/426
+HTTP 200  GET /products/425
+HTTP 200  GET /products/424
+HTTP 200  GET /products/423
+HTTP 200  GET /products/422
+HTTP 200  GET /products/421
+HTTP 200  GET /products/420
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/419
+HTTP 200  GET /products/418
+HTTP 200  GET /products/417
+HTTP 200  GET /products/416
+HTTP 200  GET /products/415
+HTTP 200  GET /products/414
+HTTP 200  GET /products/413
+HTTP 200  GET /products/412
+HTTP 200  GET /products/411
+HTTP 200  GET /products/410
+HTTP 200  GET /products/409
+HTTP 200  GET /products/408
+HTTP 200  GET /products/407
+HTTP 200  GET /products/406
+HTTP 200  GET /products/404
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/403
+HTTP 200  GET /products/402
+HTTP 200  GET /products/401
+HTTP 200  GET /products/399
+HTTP 200  GET /products/398
+HTTP 200  GET /products/396
+HTTP 200  GET /products/395
+HTTP 200  GET /products/393
+HTTP 200  GET /products/389
+HTTP 200  GET /products/388
+HTTP 200  GET /products/387
+HTTP 200  GET /products/385
+HTTP 200  GET /products/384
+HTTP 200  GET /products/383
+HTTP 200  GET /products/382
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/381
+HTTP 200  GET /products/380
+HTTP 200  GET /products/379
+HTTP 200  GET /products/378
+HTTP 200  GET /products/377
+HTTP 200  GET /products/375
+HTTP 200  GET /products/374
+HTTP 200  GET /products/371
+HTTP 200  GET /products/368
+HTTP 200  GET /products/367
+HTTP 200  GET /products/366
+HTTP 200  GET /products/365
+HTTP 200  GET /products/364
+HTTP 200  GET /products/363
+HTTP 200  GET /products/362
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/361
+HTTP 200  GET /products/359
+HTTP 200  GET /products/358
+HTTP 200  GET /products/357
+HTTP 200  GET /products/356
+HTTP 200  GET /products/355
+HTTP 200  GET /products/354
+HTTP 200  GET /products/353
+HTTP 200  GET /products/352
+HTTP 200  GET /products/351
+HTTP 200  GET /products/350
+HTTP 200  GET /products/349
+HTTP 200  GET /products/348
+HTTP 200  GET /products/347
+HTTP 200  GET /products/346
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/345
+HTTP 200  GET /products/344
+HTTP 200  GET /products/343
+HTTP 200  GET /products/342
+HTTP 200  GET /products/341
+HTTP 200  GET /products/340
+HTTP 200  GET /products/339
+HTTP 200  GET /products/338
+HTTP 200  GET /products/337
+HTTP 200  GET /products/336
+HTTP 200  GET /products/335
+HTTP 200  GET /products/334
+HTTP 200  GET /products/333
+HTTP 200  GET /products/332
+HTTP 200  GET /products/331
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/330
+HTTP 200  GET /products/329
+HTTP 200  GET /products/328
+HTTP 200  GET /products/327
+HTTP 200  GET /products/326
+HTTP 200  GET /products/325
+HTTP 200  GET /products/324
+HTTP 200  GET /products/321
+HTTP 200  GET /products/320
+HTTP 200  GET /products/319
+HTTP 200  GET /products/318
+HTTP 200  GET /products/317
+HTTP 200  GET /products/316
+HTTP 200  GET /products/315
+HTTP 200  GET /products/314
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/313
+HTTP 200  GET /products/312
+HTTP 200  GET /products/311
+HTTP 200  GET /products/310
+HTTP 200  GET /products/309
+HTTP 200  GET /products/308
+HTTP 200  GET /products/306
+HTTP 200  GET /products/305
+HTTP 200  GET /products/304
+HTTP 200  GET /products/303
+HTTP 200  GET /products/302
+HTTP 200  GET /products/301
+HTTP 200  GET /products/300
+HTTP 200  GET /products/299
+HTTP 200  GET /products/298
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/297
+HTTP 200  GET /products/296
+HTTP 200  GET /products/295
+HTTP 200  GET /products/294
+HTTP 200  GET /products/293
+HTTP 200  GET /products/292
+HTTP 200  GET /products/291
+HTTP 200  GET /products/289
+HTTP 200  GET /products/288
+HTTP 200  GET /products/287
+HTTP 200  GET /products/286
+HTTP 200  GET /products/284
+HTTP 200  GET /products/283
+HTTP 200  GET /products/282
+HTTP 200  GET /products/281
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/280
+HTTP 200  GET /products/279
+HTTP 200  GET /products/278
+HTTP 200  GET /products/277
+HTTP 200  GET /products/276
+HTTP 200  GET /products/275
+HTTP 200  GET /products/274
+HTTP 200  GET /products/273
+HTTP 200  GET /products/272
+HTTP 200  GET /products/271
+HTTP 200  GET /products/270
+HTTP 200  GET /products/269
+HTTP 200  GET /products/268
+HTTP 200  GET /products/267
+HTTP 200  GET /products/266
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/265
+HTTP 200  GET /products/264
+HTTP 200  GET /products/263
+HTTP 200  GET /products/262
+HTTP 200  GET /products/261
+HTTP 200  GET /products/260
+HTTP 200  GET /products/258
+HTTP 200  GET /products/257
+HTTP 200  GET /products/256
+HTTP 200  GET /products/255
+HTTP 200  GET /products/254
+HTTP 200  GET /products/253
+HTTP 200  GET /products/252
+HTTP 200  GET /products/251
+HTTP 200  GET /products/250
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/249
+HTTP 200  GET /products/248
+HTTP 200  GET /products/247
+HTTP 200  GET /products/246
+HTTP 200  GET /products/245
+HTTP 200  GET /products/244
+HTTP 200  GET /products/243
+HTTP 200  GET /products/242
+HTTP 200  GET /products/241
+HTTP 200  GET /products/240
+HTTP 200  GET /products/239
+HTTP 200  GET /products/238
+HTTP 200  GET /products/237
+HTTP 200  GET /products/236
+HTTP 200  GET /products/235
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/234
+HTTP 200  GET /products/233
+HTTP 200  GET /products/232
+HTTP 200  GET /products/231
+HTTP 200  GET /products/230
+HTTP 200  GET /products/229
+HTTP 200  GET /products/228
+HTTP 200  GET /products/227
+HTTP 200  GET /products/226
+HTTP 200  GET /products/225
+HTTP 200  GET /products/224
+HTTP 200  GET /products/223
+HTTP 200  GET /products/222
+HTTP 200  GET /products/221
+HTTP 200  GET /products/220
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/219
+HTTP 200  GET /products/218
+HTTP 200  GET /products/217
+HTTP 200  GET /products/215
+HTTP 200  GET /products/214
+HTTP 200  GET /products/213
+HTTP 200  GET /products/212
+HTTP 200  GET /products/211
+HTTP 200  GET /products/210
+HTTP 200  GET /products/209
+HTTP 200  GET /products/208
+HTTP 200  GET /products/207
+HTTP 200  GET /products/206
+HTTP 200  GET /products/205
+HTTP 200  GET /products/204
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/203
+HTTP 200  GET /products/202
+HTTP 200  GET /products/199
+HTTP 200  GET /products/307
+HTTP 200  GET /products/290
+HTTP 200  GET /products/285
+HTTP 200  GET /products/259
+HTTP 200  GET /products/216
+3355 image reference(s) to check
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+✗ media 9964  no-record  
+✗ media 9967  no-record  
+✗ media 9970  no-record  
+✗ media 9973  no-record  
+✗ media 9976  no-record  
+✗ media 9979  no-record  
+✗ media 9982  no-record  
+✗ media 9985  no-record  
+✗ media 9988  no-record  
+✗ media 9991  no-record  
+✗ media 9994  no-record  
+✗ media 9997  no-record  
+✗ media 10000  no-record  
+✗ media 10003  no-record  
+✗ media 10006  no-record  
+✗ media 10009  no-record  
+✗ media 10012  no-record  
+✗ media 10015  no-record  
+✗ media 10018  no-record  
+✗ media 10021  no-record  
+✗ media 10024  no-record  
+✗ media 10027  no-record  
+✗ media 10030  no-record  
+✗ media 10033  no-record  
+✗ media 10036  no-record  
+✗ media 10039  no-record  
+✗ media 10078  no-record  
+✗ media 10081  no-record  
+✗ media 10084  no-record  
+✗ media 10087  no-record  
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+
+3355 references, 3013 distinct media, 30 broken, 0 repaired, 30 still broken
+report: /Users/conceptmacmini01/Documents/Projects/Siruk-claude/.siruk-cache/media-check.json

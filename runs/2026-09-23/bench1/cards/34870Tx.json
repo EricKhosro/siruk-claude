@@ -1,0 +1,51 @@
+{
+  "code": "34870Tx",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "toys",
+  "brand_id": 8,
+  "name": "Be Eco Ball with Cord",
+  "label": "6 × 13 cm",
+  "existing_id": null,
+  "category_ids": [
+    20
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "toy-type": {
+      "value": "Ball",
+      "quote": "tvrdý plovoucí gumový míč"
+    },
+    "material": {
+      "value": "Thermoplastic Rubber",
+      "quote": "TPE"
+    },
+    "toy-feature": {
+      "value": "Floats",
+      "quote": "tvrdý plovoucí gumový míč (hard floating rubber ball)."
+    },
+    "color-family": {
+      "value": "Orange",
+      "quote": "Looked at first image: solid orange rubber ball on white background."
+    }
+  },
+  "images": [
+    "https://www.trixiecz.cz/data/tmp/0/5/43355_0.jpg",
+    "https://www.trixiecz.cz/data/tmp/0/3/43353_0.jpg",
+    "https://www.trixiecz.cz/data/tmp/0/4/43354_0.jpg",
+    "https://www.trixiecz.cz/data/tmp/0/2/43352_0.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "A hard floating rubber ball with an attached rubber cord for easy throwing and retrieving, made of TPE.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "country-site",
+    "url": "https://www.trixiecz.cz/en/be-eco-tvrdy-plovouci-gumovy-mic-s-gumovym-provazkem-tpe-6-13-cm_z14071/"
+  },
+  "evidence_file": "cards/34870Tx.source.txt"
+}

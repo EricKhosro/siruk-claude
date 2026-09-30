@@ -1,0 +1,54 @@
+{
+  "code": "34720Tx",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "toys",
+  "brand_id": 8,
+  "name": "Monkey Plush Toy",
+  "label": "40 cm",
+  "existing_id": null,
+  "category_ids": [
+    17
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "toy-type": {
+      "value": "Plush",
+      "quote": "plush/rope (polyester/cotton)"
+    },
+    "material": {
+      "value": "Plush",
+      "quote": "plush/rope (polyester/cotton)"
+    },
+    "toy-feature": {
+      "value": "With Rope",
+      "quote": "durable due to inner rope"
+    },
+    "toy-size": {
+      "value": "40 cm",
+      "quote": "40 սմ"
+    },
+    "color-family": {
+      "value": "Brown",
+      "quote": "Looked at first image: brown plush monkey on white background."
+    }
+  },
+  "images": [
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_34720-2_%23SALL_%23AWK_%23V1.jpg",
+    "https://www.trixie.es/WebRoot/StoreWeb/Shops/Trixie/6499/8540/9110/0F9D/3306/0A6E/0E02/9DD6/PHO_PRO_CLIP_34720-1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/GRA_PRO_34720-1_%23SALL_%23AWK_%23V1.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "A soft plush monkey dog toy with a cotton rope handle running through it for extra durability. Great for tugging and fetch.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "brand-site",
+    "url": "https://www.trixie.de/en/productworld/dog/toys/plush-toys/monkey-1001435583-1001454287?itemNo=34720"
+  },
+  "evidence_file": "cards/34720Tx.source.txt"
+}

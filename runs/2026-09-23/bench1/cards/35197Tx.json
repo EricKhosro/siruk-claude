@@ -1,0 +1,49 @@
+{
+  "code": "35197Tx",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "toys",
+  "brand_id": 8,
+  "name": "Fox",
+  "label": "17 cm",
+  "existing_id": null,
+  "category_ids": [
+    18
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "toy-type": {
+      "value": "Latex & Rubber",
+      "quote": "latex"
+    },
+    "material": {
+      "value": "Latex",
+      "quote": "latex"
+    },
+    "toy-size": {
+      "value": "17 cm",
+      "quote": "17 սմ"
+    },
+    "color-family": {
+      "value": "Orange",
+      "quote": "Looked at first image: orange latex fox figure on white background."
+    }
+  },
+  "images": [
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_35197-1_%23SALL_%23AWK_%23V1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_35197-2_%23SALL_%23AWK_%23V1.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "A latex fox-shaped dog toy, 17 cm.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "brand-site",
+    "url": "https://www.trixie.de/en/productworld/dog/toys/latex-rubber-toys/fox-1001435585-1001473373?itemNo=35197"
+  },
+  "evidence_file": "cards/35197Tx.source.txt"
+}

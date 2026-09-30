@@ -63,8 +63,12 @@ linked doc before you rely on a number from memory.
    (no animal/hand/scene/group) or it goes to `needs-packshot.csv`. **No
    product ships with an empty gallery** (2026-09-23; `ALLOW_NO_IMAGE=1` is
    the rare hand override) and every upload goes in a media-library folder
-   (`banners/…`, `products/<brand>/<type>/`), never the root. The full
-   fallback ladder (country TLDs → trixie.shop/trixiecz → EAN-keyed shops incl.
+   — `products/<brand-slug>/<type>/`, `logos/`, `categories/`, or `banners/`
+   (page-top banners only) — never the root. The full
+   fallback ladder (country TLDs → **barcode lookup** (2026-09-25: hafo's
+   confirmed EAN → `scripts/barcode-lookup.py` + a web search for the EAN;
+   identity from two EAN pages, content only from pages printing our EAN) →
+   trixie.shop/trixiecz → EAN-keyed shops incl.
    4lapy.ru → zoovet → hafo placeholder → web search → reverse-image search;
    petshop.ru for texts only) and every
    rung's confirmation rule: `reference/image-sources.md`. hafo's own photo is
@@ -154,7 +158,10 @@ linked doc before you rely on a number from memory.
 4. **Brand site** — resolve from the brand hafo returned
    (`reference/brand-sites.md`), find the product page, extract title, images,
    description, composition, feeding guide, spec text. Nothing there? the
-   brand's other country domains, then 4lapy.ru by EAN
+   brand's other country domains, then the **barcode lookup**
+   (`scripts/barcode-lookup.py --code <code>`, then WebSearch `"<ean>"`;
+   `reference/image-sources.md` → "Barcode lookup" — also whenever the
+   identity is in doubt), then 4lapy.ru by EAN
    (`scripts/4lapy-lookup.py`), then zoovet / petshop.ru confirmed by hand
    (`reference/image-sources.md` → "Fallback sites"). New
    brand → research the official site, add it to the table, `/create-brand`.
@@ -162,7 +169,7 @@ linked doc before you rely on a number from memory.
    (`reference/data-tables.md`) beat the brand's wording.
 6. **Group / exists?** — `reference/product-rules.md` for product-vs-variant,
    Name/slug/label, categories. `scripts/find-product.sh` before writing.
-7. **Write** — `scripts/upload-media.sh <file> products/<brand-slug>/<type>/`
+7. **Write** — `scripts/upload-media.sh <file> products/<brand-slug>/<type>`
    per image (all gallery images; Trixie: `scripts/trixie-image.sh <art>`
    lists them all, .de plus the .es shop), then
    `scripts/create-product.sh` or `scripts/add-variant.sh`. Payload shapes and
@@ -218,6 +225,8 @@ Toys 15 {17–22}, Grooming 27 {28–33}, Health & Pharmacy 41 {42–49}, Suppli
 68 {69–74}, Cleaning & Potty 75 {76–78}. Cat 8 → Food 9 {Dry 10, Wet 11},
 Treat 14 (leaves 89–94), Toys 16 {23–26}, Grooming 34 {35–40}, Health &
 Pharmacy 50 {51–58}, Litter 59 {60–65}, Supplies 66 {67, 79}, Trees 80 {81}.
+Bird 95 → {Food 96, Treats & Supplements 97}; Small Animal 98 → {Food 99,
+Hay 100, Treats 101, Supplements & Salt Licks 102, Bedding 103} (2026-09-28).
 **Accessories 13 is not a product category** — never file a row there.
 Products go in a **leaf**, never a parent. Which treat leaf a row gets is
 decided by the table in the `treats` skill (`scripts/classify-treats.py`

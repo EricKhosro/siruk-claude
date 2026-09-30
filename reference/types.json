@@ -1,0 +1,58 @@
+{
+  "_comment": [
+    "Machine-readable summary of the per-type skills (.claude/skills/<type>/SKILL.md),",
+    "read by scripts/prepare-run.py and scripts/validate-card.py. The skills stay the",
+    "prose source; when a skill changes its family, leaves, pricing or axes, change",
+    "this file in the same commit.",
+    "leaves: every leaf a product of this type may be filed in (dual species = both).",
+    "axes: the variant-axis attributes (rule 9a). csv_category: CSV `Category` values."
+  ],
+  "dry-food": {
+    "family": 1, "pricing": "per_kg",
+    "leaves": [3, 5, 10],
+    "axes": ["product-weight", "flavor"],
+    "csv_category": ["Dry food", "Dry Food"]
+  },
+  "wet-food": {
+    "family": 2, "pricing": "fixed",
+    "leaves": [4, 5, 11],
+    "axes": ["product-weight", "flavor", "texture"],
+    "csv_category": ["Wet food", "Wet Food"]
+  },
+  "treats": {
+    "family": 3, "pricing": "fixed",
+    "leaves": [7, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94],
+    "axes": ["product-weight", "flavor"],
+    "csv_category": ["Treats"]
+  },
+  "supplements": {
+    "family": 4, "pricing": "fixed",
+    "leaves": [42, 43, 44, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, 58],
+    "axes": ["product-weight", "pet-weight-range", "flavor"],
+    "csv_category": ["Vitamins & supplements"]
+  },
+  "toys": {
+    "family": 5, "pricing": "fixed",
+    "leaves": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
+    "axes": ["toy-size", "color-family"],
+    "csv_category": ["Toys"]
+  },
+  "grooming": {
+    "family": 7, "pricing": "fixed",
+    "leaves": [28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40],
+    "axes": ["size", "color-family", "product-weight"],
+    "csv_category": ["Grooming"]
+  },
+  "accessories": {
+    "family": 8, "pricing": "fixed",
+    "leaves": [67, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 81],
+    "axes": ["size", "color-family", "pet-weight-range"],
+    "csv_category": ["Accessories"]
+  },
+  "litter": {
+    "family": 9, "pricing": "fixed",
+    "leaves": [60, 61, 62, 63, 64, 65],
+    "axes": ["product-weight"],
+    "csv_category": ["Cat litter"]
+  }
+}

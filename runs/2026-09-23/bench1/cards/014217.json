@@ -1,0 +1,52 @@
+{
+ "code": "014217",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "wet-food",
+ "brand_id": 5,
+ "name": "Solo Monoprotein Adult Dog Paté",
+ "label": "Chicken 400 g",
+ "existing_id": 653,
+ "category_ids": [
+  4
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "single source of animal protein – chicken"
+  },
+  "texture": {
+   "value": "Pate",
+   "quote": "complete wet food for adult dogs"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "Chicken 65% (equivalent to 100% of the meat used)"
+  },
+  "product-weight": {
+   "value": "400 g",
+   "quote": "MONGE DOG SOLO CHICKEN 150g"
+  },
+  "lifestage": {
+   "value": "Adult",
+   "quote": "complete wet food for adult dogs"
+  }
+ },
+ "images": [
+  "https://monge.shop/3664-thickbox_default/monge-dog-solo-chicken-150g.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Monge Monoprotein Dog Solo Chicken is a complete wet food for adult dogs, developed to provide a balanced diet for everyday feeding. The recipe is based on a single source of animal protein – chicken, which provides high-quality, easily digestible protein with high biological value.",
+  "ingredient_information": "Composition: Chicken 65% (equivalent to 100% of the meat used), minerals. Analytical constituents: Crude protein 7.5%, crude fibre 0.3%, crude fat 6%, crude ash 2%, moisture 80%.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://monge.shop/gb/monoprotein/342-monge-dog-solo-chicken-150g.html"
+ },
+ "evidence_file": "cards/014217.source.txt"
+}

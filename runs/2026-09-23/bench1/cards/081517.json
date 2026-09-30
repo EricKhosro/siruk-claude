@@ -1,0 +1,28 @@
+{
+  "code": "081517",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "dry-food",
+  "brand_id": 5,
+  "name": "VetSolution Gastrointestinal Feline",
+  "label": "1.5 kg",
+  "existing_id": null,
+  "category_ids": [10],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "special-diet": {"value": "Veterinary Diet", "quote": "a complete dietetic feed for cats formulated for the reduction of intestinal absorptive disorders"},
+    "health-feature": {"value": "Digestive Health", "quote": "Xylo-oligosaccharides (XOS) to secure the intestinal microbiota"},
+    "flavor": {"value": "Pork", "quote": "Dried pork meat (28%)"},
+    "ingredient": {"value": "Pork", "quote": "Dried pork meat (28%)"},
+    "product-weight": {"value": "1.5 kg", "quote": "400 g - 1,5 kg"}
+  },
+  "images": ["https://www.monge.it/wp-content/uploads/2016/05/VETSolution_GASTROINTESTINAL_gatto_15-kg_8009470081511-copia.jpg"],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Monge VetSolution Gastrointestinal Feline is a complete dietetic feed for cats formulated to reduce intestinal absorptive disorders. Contains melon juice concentrate to neutralize free radicals, horse chestnut for intestinal support, and Xylo-oligosaccharides (XOS) to secure the intestinal microbiota. Highly digestible feed with increased sodium and potassium.",
+    "ingredient_information": "Dried pork meat (28%), tapioca, potatoes, hydrolysed salmon protein, animal fat (chicken oil), animal fat (tallow), pea fibre, fish oil (salmon oil), dried peas, dried fish (Anchovy 4%), minerals, Xylo-Oligosaccharide (XOS 0.4%), pineapple, dried horse chestnut (0.01%), products and by-products from processing fresh fruits and vegetables (melon juice concentrate), milk protein powder.",
+    "feeding_instructions": "It is recommended that a veterinarian's opinion be sought before use. Recommended length of time for use: up to 12 weeks. Recommended daily feeding intakes in grams to be fed in two meals. Fresh and clean water should be available at all times."
+  },
+  "source": {"kind": "brand-site", "url": "https://www.monge.it/en/product/gastrointestinal/"},
+  "evidence_file": "cards/081517.source.txt"
+}

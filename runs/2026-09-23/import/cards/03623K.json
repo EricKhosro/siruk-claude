@@ -1,0 +1,23 @@
+{
+  "code": "03623K",
+  "status": "ready",
+  "type": "accessories",
+  "brand_id": 44,
+  "name": "Litter Tray with Mesh",
+  "label": "M",
+  "existing_id": null,
+  "category_ids": [67],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "size": {"value": "M, with mesh", "quote": "Ցանցով\nՉափս՝ M"}
+  },
+  "images": ["https://d1b3l6j8a0ngef.cloudfront.net/uploads/1649773304441792958.jpg"],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Cat litter tray with a mesh grid. Size M.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {"kind": "hafo", "url": "https://hafo.am/products/takdir-katuneri-lcanyuti-hamar"},
+  "evidence_file": "cards/03623K.source.txt"
+}

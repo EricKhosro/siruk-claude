@@ -1,0 +1,11 @@
+[
+ {"parent": null, "name": "Bird", "slug": "bird", "meta_title": "Bird"},
+ {"parent": "Bird", "name": "Food", "slug": "bird-food", "meta_title": "Bird Food"},
+ {"parent": "Bird", "name": "Treats & Supplements", "slug": "bird-treats-supplements", "meta_title": "Bird Treats & Supplements"},
+ {"parent": null, "name": "Small Animal", "slug": "small-animal", "meta_title": "Small Animal"},
+ {"parent": "Small Animal", "name": "Food", "slug": "small-animal-food", "meta_title": "Small Animal Food"},
+ {"parent": "Small Animal", "name": "Hay", "slug": "small-animal-hay", "meta_title": "Small Animal Hay"},
+ {"parent": "Small Animal", "name": "Treats", "slug": "small-animal-treats", "meta_title": "Small Animal Treats"},
+ {"parent": "Small Animal", "name": "Supplements & Salt Licks", "slug": "small-animal-supplements-salt-licks", "meta_title": "Small Animal Supplements & Salt Licks"},
+ {"parent": "Small Animal", "name": "Bedding", "slug": "small-animal-bedding", "meta_title": "Small Animal Bedding"}
+]

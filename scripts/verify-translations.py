@@ -4,7 +4,7 @@ products (name + variant texts), categories (name), brands (name + meta).
 A locale counts as missing when its value is empty or identical to the English
 one (a fallback, not a translation) — except brand names, which are Latin by policy.
 
-    scripts/verify-translations.py [--only id,id] [--fix-products]
+    scripts/verify-translations.py [--only id,id] [--fix-products] [--out missing.json]
 """
 import html, json, os, re, subprocess, sys
 
@@ -92,6 +92,8 @@ def main():
             if (r.get("meta") or {}).get("description") in (None, "", (en.get("meta") or {}).get("description")):
                 missing["brand"].append((b["id"], l, "meta.description", en.get("name")))
     print(f"products: {len(set(ids))}  categories: {len(cats)}  brands: {len(api('/brands?forProducts=true','en').get('data', []))}")
+    if "--out" in sys.argv:          # the full list; the printout stops at 40 per kind
+        json.dump(missing, open(sys.argv[sys.argv.index("--out") + 1], "w"), ensure_ascii=False, indent=1)
     for k, v in missing.items():
         print(f"{k}: {len(v)} missing translation(s)")
         for t in v[:40]:

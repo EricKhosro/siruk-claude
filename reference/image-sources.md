@@ -10,6 +10,7 @@ the product alone (rule 7).
 |---|---|---|---|---|
 | 1 | the brand's own site + CDN | file name carries the article | `trixie-image.sh`, `monge-it-page.py`, `neoterica-fetch.py` | the only rung that is automatically finished quality |
 | 2 | the brand's country domains | same | `trixie-es.py` (wired into `trixie-image.sh`) | keeps articles the main site dropped |
+| 2b | **barcode lookup** (added 2026-09-25) | our EAN, from hafo's confirmed listing | `barcode-lookup.py --code <art>`, then WebSearch `"<ean>"` | run it the moment rungs 1–2 have nothing: it says **what the product is** and **which pages print our EAN** — identity, name, texts and photo leads for every brand. Rules: "Barcode lookup" below |
 | 3 | trixie.shop (Trixie's Shopify) | `variant.sku` + Trixie file names | `trixie-shop-index.py` | reaches the group files the CDN probe cannot guess |
 | 4 | trixiecz.cz (official CZ distributor) | the page's `Kód` (+ EAN) | `trixiecz-index.py --sweep` | 4,697 articles, incl. discontinued; photos 570–1920 px |
 | 5 | tiierisch.de (German shop, Shopify) | `variant.sku` = article, `variant.barcode` = EAN | `tiierisch-index.py` | 5,223 Trixie articles; images are linked to the variant |
@@ -43,6 +44,67 @@ English copy only when no English source exists; say which site the copy came
 from in the run report. Their prices are RUB retail and are never a sale
 price (rule 2).
 
+## Barcode lookup (user rule 2026-09-25)
+
+**Why it exists.** On 2026-09-25, 11 rows hafo had already identified (code,
+price and barcode all known) were still not on the site, because the brand's
+own site had no page for the pack: discontinued (flexi New Comfort, 8in1 Pro
+Digest), renamed (8in1 Excel → Vitality) or a market-specific article
+(Beaphar 12625). A plain web search for the barcode named every one of the 6
+we tested, through shops that print it. Two rows the 2026-09-23 run had
+parked were settled by the barcode alone: DL711836 *is* Dog Fest "Rabbit Ears
+with Chicken for Puppies 90 g" (the run had rejected that page as a different
+product), and 074322 SexControl is a Neoterica product (Rolf Club's maker).
+
+**When.** For every row with a code, as soon as the brand site and its country
+domains (rungs 1–2) have no page for our exact pack — and any time the
+identity itself is in doubt (flavour, recipe, size). It does not replace
+rungs 3–5b for Trixie photos; it runs alongside them and before anything
+unkeyed (zoovet, petshop.ru, name-based web search).
+
+**Steps.**
+1. `scripts/barcode-lookup.py --code <art> --name "<row name>"`. The barcode
+   counts **only** if hafo confirms the code *and* the barcode belongs to the
+   variant whose own sku / article is our code — the script enforces both and
+   validates the check digit. It also answers from the EAN caches we already
+   have (4lapy.ru, monge.it, hornung/carrefour) and from UPCitemdb / Open Pet
+   Food Facts. No barcode → this rung is skipped, never guessed.
+2. WebSearch the EAN in quotes: `"4048422108634"`. Read the result titles.
+3. **Identity** is confirmed when **two independent pages** that show our
+   EAN agree on brand + line + flavour/recipe + pack, and agree with hafo's
+   own name for the row. A disagreement (a different flavour, another pack
+   size) stops the row — log it, don't pick one.
+4. **Content** may then come from a page that **prints our exact EAN** on the
+   page itself (title, spec table, url or image file name) — the result
+   snippet alone is evidence for identity, never a source to copy from:
+   - English name: from an EAN-keyed page in English; else translate an
+     EAN-keyed page's title. Our Name rules (`reference/product-rules.md`) still
+     apply.
+   - Description, composition, feeding guide: from EAN-keyed pages; texts in
+     another language are translated, and Russian texts also feed `ru`.
+   - Photos: from EAN-keyed pages, looked at before upload ("Keyed is
+     necessary, not sufficient" below), unwatermarked, clean packshot first.
+     Open Pet Food Facts photos are CC-BY-SA — evidence only.
+5. **Only open pages we are allowed to read.** Sites with a bot wall or a
+   robots.txt that shuts us out stay closed, even when the search lists them —
+   see "Sites already tested and turned down" (rozetka.com.ua is Cloudflare,
+   pets24.ee disallows AI crawlers). Their search-result title can still count
+   toward identity (step 3).
+6. **Log** every row this rung touched in `runs/<date>/barcode-sourced.csv`:
+   `Article Code, EAN, Identity pages, Name from, Text from, Images from,
+   Notes`. The run report names these rows as "barcode lookup", like any other
+   fallback.
+
+**Sources tested 2026-09-25**, on 9 barcodes of stuck rows:
+
+| Source | Result |
+|---|---|
+| web search for `"<ean>"` | 6 / 6 identified, with shop pages carrying photos and texts |
+| UPCitemdb trial API | 1 / 6 (throttles bursts: `TOO_FAST`; 100 lookups a day) |
+| Open Pet Food Facts / Open Food Facts / Open Products Facts | 0 / 9 |
+| barcodelookup.com | 403 bot wall; its API is a paid subscription — not used |
+| listex.info search, barcodes.olegon.ru | no usable direct lookup (404 / redirect) |
+
 ## No product ships with an empty gallery (user rule 2026-09-23)
 
 `scripts/create-product.sh` and `scripts/add-variant.sh` both refuse a
@@ -54,12 +116,22 @@ rare enough to stop and ask, not to force through the override by default.
 
 `scripts/upload-media.sh <file> <directory>` takes the media API's
 `directory` field — pass it on every call during an import, don't leave it to
-the default. Convention: `banners/…` for site banners and other non-product
-marketing images; `products/<brand-slug>/<product-type>/` for everything else
-(e.g. `products/trixie/toys/`, `products/royal-canin/dry-food/`) — brand slug
-matches `reference/brand-sites.md`, product type matches the skill name
-(`dry-food`, `wet-food`, `treats`, `toys`, `supplements`, `grooming`,
-`accessories`).
+the default. Layout (user, 2026-09-23):
+
+| Folder | What |
+|---|---|
+| `products/<brand-slug>/<product-type>/` | product images, e.g. `products/trixie/toys` ("Products / Trixie / Toys") |
+| `logos/` | brand logos (`create-brand.sh` / `set-brand-logo.sh` default here) |
+| `categories/` | category tiles (the square 500–600 px images on category pages) |
+| `banners/` | page-top banners only — free-shipping strip, landing-page and blog banners |
+
+Brand slug is the brand's admin slug, product type the attribute family code =
+the skill name (`dry-food`, `wet-food`, `treats`, `toys`, `supplements`,
+`grooming`, `accessories`, `litter`). `upload-media.sh` refuses anything outside
+this layout and creates the folder record first (`scripts/media-folder.py`);
+`scripts/organize-media.py` re-files existing media (run 2026-09-23 filed the
+whole catalogue). The root keeps only the team's site content (About us icons,
+blog tiles, illustrations) and the pre-rebuild photos no live product uses.
 
 ## Why the hafo placeholder is attached at all, not dropped
 

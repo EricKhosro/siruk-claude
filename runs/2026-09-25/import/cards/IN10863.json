@@ -1,0 +1,55 @@
+{
+  "code": "IN10863",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "supplements",
+  "brand_id": 31,
+  "name": "Excel Multi Vitamin Puppy",
+  "label": "100 tablets",
+  "existing_id": null,
+  "category_ids": [
+    43
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "product-form": {
+      "value": "Tablet",
+      "quote": "100 таблеток"
+    },
+    "health-feature": {
+      "value": "Vitamins & Minerals",
+      "quote": "комплексная витаминно-минеральная добавка"
+    },
+    "lifestage": {
+      "value": "Puppy",
+      "quote": "специально разработанная для потребностей щенков и растущих собак"
+    },
+    "packaging": {
+      "value": "Tub",
+      "basis": "photo"
+    }
+  },
+  "images": [
+    "https://icf.listex.info/orig/725579c5-e7c4-4537-a946-5d002dc49a94.png",
+    "https://icf.listex.info/orig/bf0f0263-ffae-2f95-ee72-ea4b762ee6f5.jpg",
+    "https://icf.listex.info/orig/0519237f-6ee8-15f7-7956-a3946ca8501f.jpg",
+    "https://icf.listex.info/orig/7861d611-d74e-c1ff-e987-21f65c18128f.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Excel Multi Vitamin Puppy is a complete vitamin and mineral supplement developed specifically for the needs of puppies and growing dogs. Its balanced formula of vitamins and trace elements helps prevent problems caused by an incomplete diet and actively supports puppies during growth.\n- Multivitamin complex with 11 vitamins and 10 minerals that puppies especially need for proper growth and healthy development\n- Calcium-to-phosphorus ratio optimal for developing strong bones and teeth; linoleic acid supports healthy skin and coat\n- Antioxidants (vitamins E and C) strengthen the immune system\n- Omega-3 fatty acids help the puppy develop harmoniously\n- Zinc, magnesium and B vitamins increase resistance to stress\n- Provides docosahexaenoic acid (DHA), which stimulates the puppy's mental development and the formation of a healthy nervous system\n100 tablets. Shelf life: 27 months.",
+    "ingredient_information": "Minerals, yeast, vegetable products, oils and fats, fish and fish products, milk and its derivatives, various sugars, stearic acid, magnesium stearate",
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "barcode",
+    "url": "https://listex.info/uk/product/8in1-vitality-excel-pup-multi-vitamin-vitamin-kompl-dcucmol-sob-100-sht-ua-4048422108634",
+    "also": [
+      "https://aqplus.ru/catalog/product/108634/"
+    ],
+    "ean": "4048422108634"
+  },
+  "evidence_file": "cards/IN10863.source.txt"
+}

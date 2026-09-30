@@ -1,0 +1,28 @@
+{
+  "code": "012087",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "dry-food",
+  "brand_id": 5,
+  "name": "BWild Grain Free Sterilised Tuna with Peas",
+  "label": "1.5 kg",
+  "existing_id": null,
+  "category_ids": [10],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "lifestage": {"value": "Adult", "quote": "a complete and balanced pet food for adult sterilised cats"},
+    "special-diet": {"value": "Sterilised", "quote": "Formulated for the wellbeing of your sterilised cat"},
+    "health-feature": {"value": "Heart Care", "quote": "It contains taurine to support the cardiac functions"},
+    "flavor": {"value": "Tuna", "quote": "high quality ingredients (as Tuna)"},
+    "product-weight": {"value": "1.5 kg", "quote": "1,5 kg"}
+  },
+  "images": ["https://www.monge.it/wp-content/uploads/2020/02/monge_gatto_secco_bwild_sterilised_tonno_con_piselli.jpg"],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Monge BWild Grain Free Formula Sterilised Cat Tuna with Peas is a complete and balanced food for adult sterilised cats, formulated with L-Carnitine and DL-Methionine to help ideal body weight control. Uses alternative carbohydrate sources (peas) and high quality ingredients such as tuna. Enriched with MOS and XOS prebiotics, omega-3 fatty acids for coat shine, and taurine for cardiac function. No added dyes or artificial preservatives.",
+    "ingredient_information": "Tuna (dried 38%, fresh 15%), potatoes (15%), animal fat (10%) (chicken oil purified 99.5%), potato protein, dried beet pulp, peas (5%), pea fibre, hydrolysed animal proteins, dried fish salmon (4%), minerals, fish oil (salmon oil purified at 99.5%), mannan-oligosaccharides (MOS 1%), spiruline (0.6%), xylo-oligosaccharide (XOS 0.3%), yucca schidigera (0.1%), milk protein powder.",
+    "feeding_instructions": "Recommended daily feeding intakes may be split into 2 daily meals. Individual nutritional requirements may vary due to size, age and living conditions of the animal. Fresh and clean water should be available at all times."
+  },
+  "source": {"kind": "brand-site", "url": "https://www.monge.it/en/product/grain-free-tuna-with-peas-sterilised/"},
+  "evidence_file": "cards/012087.source.txt"
+}

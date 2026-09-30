@@ -5,12 +5,15 @@
 #
 #   scripts/upload-media.sh ./img/rc-mini-adult.jpg
 #   scripts/upload-media.sh 'https://www.royalcanin.com/.../packshot.jpg'
-#   scripts/upload-media.sh ./a.jpg products/trixie/toys/   # into a folder
+#   scripts/upload-media.sh ./a.jpg products/trixie/toys   # into a folder
 #
-# Rule 7: every upload goes in a media-library folder — `products/<brand-slug>/
-# <type>/` or `banners/…`, never the root. The folder is the 2nd argument, else
-# $MEDIA_DIR (for scripts that call this without one); with neither, it still
-# uploads, but says so loudly.
+# Rule 7: every upload goes in a media-library folder, never the root —
+# `products/<brand-slug>/<type>` for product images, `logos` for brand logos,
+# `categories` for category tiles, `banners` for page-top banners. The folder is
+# the 2nd argument, else $MEDIA_DIR (for scripts that call this without one);
+# with neither, it still uploads, but says so loudly. The folder record is
+# created first (scripts/media-folder.py) — a directory with no record is
+# invisible in the admin media library.
 #
 # Pacing, retries and the post-upload check are configured in config.json
 # (media.* section). The check matters: the server can return a media id whose
@@ -20,7 +23,16 @@ source "$(dirname "${BASH_SOURCE[0]}")/lib.sh"
 
 [[ $# -ge 1 ]] || die "usage: $0 <file|url> [directory]"
 src=$1 dir=${2:-${MEDIA_DIR:-}}
-[[ -n $dir ]] || note "⚠ no folder given (arg 2 or MEDIA_DIR) — uploading to the media root; rule 7 wants products/<brand>/<type>/ or banners/"
+dir=${dir#/}; dir=${dir%/}
+case $dir in
+  ''|products/*/*|logos|categories|banners|banners/*) ;;
+  *) die "folder '$dir' is outside the layout: products/<brand-slug>/<type>, logos, categories or banners" ;;
+esac
+if [[ -n $dir ]]; then
+  "$(dirname "${BASH_SOURCE[0]}")/media-folder.py" "$dir" >/dev/null || die "could not create media folder $dir"
+else
+  note "⚠ no folder given (arg 2 or MEDIA_DIR) — uploading to the media root; rule 7 wants products/<brand-slug>/<type>, logos, categories or banners"
+fi
 
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36'
 
@@ -60,6 +72,14 @@ else
   [[ -f $path ]] || die "no such file: $path"
   name=$(basename "$path")
 fi
+
+# The bytes must be an image. A source url that 404s still downloads — as an
+# HTML error page — and the media library stores it under the .png/.jpg name
+# with mime text/html; the url then answers 200, so the readability check
+# below passes and the storefront shows a broken image (29 such files found
+# 2026-09-23, mostly 8in1).
+mime=$(file -b --mime-type "$path")
+[[ $mime == image/* ]] || die "not an image ($mime): $src — the source probably 404'd"
 
 # Flatten transparency onto white. Brand packshots are often transparent PNGs;
 # the storefront gallery composites them on a dark surface, so the pack ends up

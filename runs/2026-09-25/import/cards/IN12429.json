@@ -1,0 +1,52 @@
+{
+ "code": "IN12429",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "supplements",
+ "brand_id": 31,
+ "name": "Excel Glucosamine + MSM",
+ "label": "55 tablets",
+ "existing_id": null,
+ "category_ids": [
+  43
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "product-form": {
+   "value": "Tablet",
+   "quote": "55 таблеток"
+  },
+  "active-ingredient": {
+   "value": "Glucosamine",
+   "quote": "кормовая добавка для поддержания здоровья и подвижности суставов с глюкозамином, МСМ и стабилизированной формой витамина С"
+  },
+  "health-feature": {
+   "value": "Hip & Joint Support",
+   "quote": "кормовая добавка для поддержания здоровья и подвижности суставов"
+  },
+  "packaging": {
+   "value": "Tub",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://aqplus.ru/upload/resize_cache/iblock/372/1200_1200_140cd750bba9870f18aada2478b24840a/a93aaio8g0j7shx3v15q1pi25chmo11j.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Excel Glucosamine + MSM is a feed supplement that supports healthy, mobile joints, with glucosamine, MSM and a stabilised form of vitamin C. Glucosamine is an essential building block of connective tissue, cartilage and synovial fluid. MSM (methylsulfonylmethane) supports the renewal of cells and tissues and improves recovery after exertion, stress and injury, while boosting the effect of glucosamine. Vitamin C stimulates collagen formation and keeps connective tissue, including ligaments, elastic. Daily use helps prevent joint disease and keeps the dog active. Suitable for dogs with any joint condition.\n55 tablets. Shelf life: 27 months.",
+  "ingredient_information": "Dicalcium phosphate dihydrate, yeast, glucosamine hydrochloride 22%, stearic acid, methylsulfonylmethane (MSM) 1%, glycerin, magnesium stearate, silicon dioxide.\nAnalytical constituents: crude protein 20%, crude fat 7%, crude fibre 2%, crude ash 33%, moisture 6%, vitamin C 5000 mg/kg.",
+  "feeding_instructions": "Dogs up to 10 kg body weight: 1 tablet daily. Dogs 11–20 kg: 2 tablets. Dogs 21–30 kg: 3 tablets. Dogs 30 kg and over: 4 tablets. The tablet can be given directly or mixed into the food."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://aqplus.ru/catalog/product/124290/",
+  "also": [
+   "https://www.evinemama.com/8in1-excel-glucosamine-msm-eklem-sagligi-icin-kopek-tableti-55-adet"
+  ],
+  "ean": "4048422124290"
+ },
+ "evidence_file": "cards/IN12429.source.txt"
+}

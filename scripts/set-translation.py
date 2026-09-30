@@ -14,8 +14,10 @@ translation.json:
   {"name": "…",
    "variants": {"<sku>": {"about_this_item": "<html>", "ingredient_information": "…", "feeding_instructions": "…"}}}
 (`meta` is accepted but the products API has no SEO meta field — it is ignored.)
-Missing keys keep the English text (the API returns the locale's own value or
-falls back), so translate what you can and leave the rest out.
+Missing keys keep whatever that locale already holds (read back before the PUT),
+falling back to the English text only where the locale has nothing — so a file
+that translates one new variant does not wipe the other variants' translations
+(it used to: 2026-09-23, product 1150 lost four ru/hy descriptions that way).
 
     scripts/set-translation.py <product-id> <ru|hy> <translation.json> [--dry-run]
 """
@@ -25,7 +27,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
 KEEP = ("slug", "category_ids", "brand_id", "attribute_family_id", "is_best_seller", "is_on_sale", "is_discontinued")
 VKEEP = ("id", "name", "pricing_type", "sku", "price", "price_per_kg", "min_allowed_price", "cost_price",
-         "compare_at_price", "weight", "is_default", "stock", "vendor_stock", "sort_order", "images", "attribute_value_ids")
+         "compare_at_price", "weight", "is_default", "stock", "vendor_stock", "sort_order", "images", "attribute_value_ids",
+         # 2026-09-25: the API now requires sale_mode and stores unit / net_quantity / pack_count per
+         # variant; a PUT without them 422s or blanks them, so they are copied like the rest
+         "sale_mode", "unit", "net_quantity", "pack_count")
 VTEXT = ("about_this_item", "ingredient_information", "feeding_instructions")
 
 
@@ -67,8 +72,16 @@ def main():
         if extra:
             sys.exit(f"variant {sku}: only {VTEXT} are translatable, got {sorted(extra)}")
 
+    cur = api("GET", f"/products/{pid}", lang=lang)["data"]
+    cur_v = {v["sku"]: v for v in cur.get("variants") or []}
+
+    def kept(sku, f, en_val):
+        """The locale's own current text when it differs from en; else en."""
+        c = (cur_v.get(sku) or {}).get(f)
+        return c if c and c != en_val else (en_val or "")
+
     body = {k: en.get(k) for k in KEEP}
-    body["name"] = tr.get("name") or en["name"]
+    body["name"] = tr.get("name") or (cur.get("name") if cur.get("name") and cur.get("name") != en["name"] else en["name"])
     body["meta"] = tr.get("meta") if tr.get("meta") is not None else en.get("meta")
     body["locale"] = lang
     body["variants"] = []
@@ -78,7 +91,7 @@ def main():
         nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
         t = (tr.get("variants") or {}).get(v["sku"], {})
         for f in VTEXT:
-            nv[f] = t.get(f) if t.get(f) is not None else (v.get(f) or "")
+            nv[f] = t.get(f) if t.get(f) is not None else kept(v["sku"], f, v.get(f))
         body["variants"].append(nv)
 
     if dry:

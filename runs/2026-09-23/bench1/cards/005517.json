@@ -1,0 +1,29 @@
+{
+  "code": "005517",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "dry-food",
+  "brand_id": 5,
+  "name": "Monoprotein Adult Cat Salmon",
+  "label": "1.5 kg",
+  "existing_id": null,
+  "category_ids": [10],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "lifestage": {"value": "Adult", "quote": "a complete and balanced pet food for adult cats"},
+    "special-diet": {"value": "Monoprotein", "quote": "A product formulated with a single animal protein source"},
+    "health-feature": {"value": "Skin & Coat Health", "quote": "Formulated with Omega-3 fatty acids for shiny coat."},
+    "flavor": {"value": "Salmon", "quote": "the first ingredient is salmon"},
+    "ingredient": {"value": "Salmon", "quote": "Fish (dried salmon 26%, fresh salmon 10%)"},
+    "product-weight": {"value": "1.5 kg", "quote": "1,5 kg"}
+  },
+  "images": ["https://www.monge.it/wp-content/uploads/2018/10/ADULT-MONO-salmone_15KG_8009470005517.jpg"],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Monge Natural Superpremium Monoprotein Adult Cat Salmon is a complete and balanced pet food for adult cats, formulated with a single animal protein source (salmon) as the first ingredient for digestibility and palatability. Enriched with XOS prebiotics for intestinal wellness, rose hip for antioxidant support, yucca schidigera to limit intestinal odours, and Omega-3 fatty acids for a shiny coat. No added dyes or artificial preservatives.",
+    "ingredient_information": "Fish (dried salmon 26%, fresh salmon 10%), rice, maize, animal fat (chicken oil purified at 99.5%), hydrolysed animal proteins (liver), brewers' yeast inactivated, fish oil (salmon oil), minerals, yeasts products (mannan-oligosaccharides MOS 1%), xylo-oligosaccharide (XOS 0.3%), yucca schidigera (0.1%), products from the processing of herbs (rose hip 0.1%).",
+    "feeding_instructions": "Recommended daily feeding intakes may be split into 2 daily meals. Individual nutritional requirements may vary due to size, age and living conditions of the animal. Fresh and clean water should be available at all times."
+  },
+  "source": {"kind": "brand-site", "url": "https://www.monge.it/en/product/adult-salmon/"},
+  "evidence_file": "cards/005517.source.txt"
+}

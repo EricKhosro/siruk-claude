@@ -1,0 +1,16 @@
+{
+ "042718": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-cat",
+    "CSV says dog only but categories include ['cat'] — the pack must say both"
+   ],
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ }
+}

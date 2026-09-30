@@ -12,6 +12,7 @@ Created 2026-09-23, when the runs up to then were closed and cleared (see
 | File | What it is | Written by | Read by |
 |---|---|---|---|
 | `open-items.csv` | **The worklist.** Everything still to do, one line per item: area, priority (1 = blocks a sale or breaks a rule, 3 = cosmetic), issue, the register row / article / product / variant it is on, and where it came from. Replaces every old `no-hafo-price` / `not-found` / `needs-image` / `needs-packshot` / `held-rows` / `no-pack-weight` CSV. | rebuilt from the register audit + a live check | you |
+| `missing-translations.json` | every product field whose ru/hy text is empty or identical to English (594 on 2026-09-23, 99 products — mostly the 2026-09-15/16 imports' ingredients and feeding guides) | `scripts/verify-translations.py --out` | the translation backlog |
 | `import-sources.json` | per article code: the page its name/images/description came from, and the zoovet/nemo/sibling price source where a fallback priced it | collected from every old run report | `scripts/build-import-ledger.py` |
 | `fixes-report-2026-09-23.md` | what was fixed after that report, and what is still open and why | 2026-09-23 | you |
 | `carried-items.json` | open items no automatic check can re-derive (a picture judged by eye); the worklist rebuild keeps them — delete an entry once fixed | by hand | worklist rebuild |

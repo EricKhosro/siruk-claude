@@ -1,0 +1,37 @@
+{
+  "code": "703823",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "treats",
+  "brand_id": 37,
+  "name": "Cream Treat Purée",
+  "label": "Katsuo Tuna & Scallop, 4 × 15 g",
+  "existing_id": 1137,
+  "category_ids": [90],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "product-weight": {"value": "15 g", "quote": "15գ x4"},
+    "flavor": {"value": "Seafood & Fish", "quote": "с тунцом Кацуо и морским гребешком"},
+    "lifestage": {"value": "Adult", "quote": "для взрослых"},
+    "packaging": {"value": "Bag", "quote": "Вид упаковки\nпакет"}
+  },
+  "images": [
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_1.jpg",
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_11.jpg",
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_2.jpg",
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_7.jpg",
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_6.jpg",
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_12.jpg",
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_13.jpg",
+    "https://cdn.valtabrands.ru/f9b9c35a-51cc-11e8-812d-005056bf23ce_1x1_14.jpg",
+    "https://cdn.valtabrands.ru/b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_15.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Cream treat with Katsuo tuna and scallop, 4 × 15 g sachets. Dark-red meat of the delicacy skipjack (Katsuo) tuna. Mnyams cream treat is a refined snack with a delicate creamy consistency. Serve it as a portion treat, or add it as an appetising sauce to the main diet to enrich the taste of familiar meals. Made using the latest Japanese technology and meets international quality standards. Nutritional value per 100 g: protein 7.0%, fat 0.2%, fibre 0.2%, ash 3.0%, moisture 90.0%; energy 55 kcal per 100 g. Storage: +4 to +25 °C at relative humidity up to 75%; once opened, keep refrigerated for no more than one day.",
+    "ingredient_information": "Katsuo tuna (20%), scallop (5%), tuna extract (1%), fish protein hydrolysate (cod) 0.5%, oligosaccharides, vegetable oil, starch, salt, gelling agent, amino acids, vitamin E, natural colourant, beta-carotene.",
+    "feeding_instructions": "Use as a treat in addition to the main diet, or as a sauce. Kittens from 4 months: 1–2 sachets a day; adult cats: 2–6 sachets a day (depending on the cat's size and activity). Serve at room temperature. Always provide access to fresh drinking water."
+  },
+  "source": {"kind": "brand-site", "url": "https://mnyams.ru/catalog/dlya_koshek/lakomstva_dlya_koshek/krem-lakomstvo-c-morskim-grebeshkom/", "identity": ["https://giperzoo.by/katalog/koshki/lakomstva/1-703829-mnyams-krem-lakomstvo-dlya-koshek-s-tuncom-kacuo-i-morskim-grebeshkom-15-grh4-sht/", "https://valta.ru/catalog/lakomstva/povsednevnye/krem-lakomstvo-mnyams-dlya-koshek-s-tuntsom-katsuo-i-morskim-grebeshkom-15-g-kh-4-sht/"]},
+  "evidence_file": "cards/703823.source.txt"
+}

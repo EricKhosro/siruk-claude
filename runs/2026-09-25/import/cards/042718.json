@@ -1,0 +1,27 @@
+{
+  "code": "042718",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "accessories",
+  "brand_id": 39,
+  "name": "New Comfort Cord Lead",
+  "label": "XS, 3 m, light blue",
+  "existing_id": null,
+  "category_ids": [69, 79],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "size": {"value": "XS", "quote": "New Comfort XS"},
+    "color-family": {"value": "Aqua", "quote": "New Comfort light blue"}
+  },
+  "images": [
+    "https://flexi.de/en/flexi-en/wp-content/uploads/2020/09/flexi_New_Comfort_XS_Cord_3m_light_blue.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "flexi New Comfort XS retractable cord lead with a 3 m cord, for little dogs, cats and other small animals up to max. 8 kg. Pocket-format housing, comfortable braking system and soft grip. Product weight approx. 110 g. Colour: light blue.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {"kind": "brand-site", "url": "http://web.archive.org/web/20220117002134/https://flexi.de/en/products/new-comfort-xs-3m-cord-dog_lead_leash/"},
+  "evidence_file": "cards/042718.source.txt"
+}

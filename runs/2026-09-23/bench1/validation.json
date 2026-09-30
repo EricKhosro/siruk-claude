@@ -1,0 +1,203 @@
+{
+ "005517": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-name",
+    "name carries flavor 'Salmon' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "005527": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-name",
+    "name carries flavor 'Beef' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "011477": {
+  "status": "hold",
+  "fails": [],
+  "warns": []
+ },
+ "011937": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-name",
+    "name carries flavor 'Chicken' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "012067": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-name",
+    "name carries flavor 'Buffalo' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-name",
+    "name carries flavor 'Grain' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "012087": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-name",
+    "name carries flavor 'Tuna' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-name",
+    "name carries flavor 'Peas' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-name",
+    "name carries flavor 'Grain' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "012647": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-name",
+    "name carries flavor 'Grain' — fine only while single-variant (rule 9)"
+   ],
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "013037": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "013127": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "014217": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "014337": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "014507": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "081517": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "one image from a brand site — was that really the whole gallery?"
+   ]
+  ]
+ },
+ "33562Tx": {
+  "status": "pass",
+  "fails": [],
+  "warns": []
+ },
+ "34720Tx": {
+  "status": "pass",
+  "fails": [],
+  "warns": []
+ },
+ "34722Tx": {
+  "status": "pass",
+  "fails": [],
+  "warns": []
+ },
+ "34870Tx": {
+  "status": "pass",
+  "fails": [],
+  "warns": []
+ },
+ "35197Tx": {
+  "status": "pass",
+  "fails": [],
+  "warns": []
+ },
+ "35821Tx": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-img",
+    "hafo placeholder only — goes on needs-image.csv"
+   ]
+  ]
+ },
+ "35991TXN": {
+  "status": "pass",
+  "fails": [],
+  "warns": []
+ }
+}

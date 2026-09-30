@@ -1,0 +1,53 @@
+{
+  "code": "34722Tx",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "toys",
+  "brand_id": 8,
+  "name": "Hippo Plush Toy",
+  "label": "50 cm",
+  "existing_id": null,
+  "category_ids": [
+    17
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "toy-type": {
+      "value": "Plush",
+      "quote": "փափուկ գետաձի ներսում պարան"
+    },
+    "material": {
+      "value": "Plush",
+      "quote": "փափուկ գետաձի ներսում պարան"
+    },
+    "toy-feature": {
+      "value": "With Rope",
+      "quote": "ներսում պարան"
+    },
+    "toy-size": {
+      "value": "50 cm",
+      "quote": "medidas 50 cm"
+    },
+    "color-family": {
+      "value": "Purple",
+      "quote": "Looked at first image: purple plush hippo on white background."
+    }
+  },
+  "images": [
+    "https://www.trixie.es/WebRoot/StoreWeb/Shops/Trixie/6499/8564/6F73/D35F/63BE/0A6E/0E02/C925/PHO_PRO_CLIP_34722-1.jpg",
+    "https://www.trixie.es/WebRoot/StoreWeb/Shops/Trixie/6499/8564/6F73/D35F/63BE/0A6E/0E02/C925/GRA_PRO_34722-1.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "A soft plush hippo dog toy with a rope running through it, 50 cm, for tugging and fetch.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "country-site",
+    "url": "https://www.trixie.es/Hippo-1"
+  },
+  "evidence_file": "cards/34722Tx.source.txt"
+}

@@ -1,0 +1,49 @@
+{
+  "code": "35991TXN",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "toys",
+  "brand_id": 8,
+  "name": "Cow",
+  "label": "17 cm",
+  "existing_id": null,
+  "category_ids": [
+    17
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "toy-type": {
+      "value": "Plush",
+      "quote": "dog / toys / plush-toys / cow"
+    },
+    "material": {
+      "value": "Leather",
+      "quote": "genuine leather"
+    },
+    "toy-size": {
+      "value": "17 cm",
+      "quote": "17 սմ"
+    },
+    "color-family": {
+      "value": "Multi",
+      "quote": "Looked at first image: yellow leather cow with pink ears and muzzle on white background."
+    }
+  },
+  "images": [
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_35991-1_%23SALL_%23AWK_%23V1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_35991-2_%23SALL_%23AWK_%23V1.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "A genuine-leather cow-shaped dog toy, 17 cm.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "brand-site",
+    "url": "https://www.trixie.de/en/productworld/dog/toys/plush-toys/cow-1001435583-1001468205?itemNo=35991"
+  },
+  "evidence_file": "cards/35991TXN.source.txt"
+}

@@ -1,0 +1,59 @@
+{
+  "code": "IN10937",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "supplements",
+  "brand_id": 31,
+  "name": "Excel Multi Vitamin Small Breed",
+  "label": "70 tablets",
+  "existing_id": null,
+  "category_ids": [
+    43
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "product-form": {
+      "value": "Tablet",
+      "quote": "Небольшой размер таблеток удобен для собак мелких пород"
+    },
+    "health-feature": {
+      "value": "Vitamins & Minerals",
+      "quote": "комплексная витаминно-минеральная добавка"
+    },
+    "breed-size": {
+      "value": "Small Breeds",
+      "quote": "специально разработанная с учетом потребностей собак мелких пород"
+    },
+    "lifestage": {
+      "value": "Adult",
+      "quote": "составлен специально для взрослых собак мелких пород"
+    },
+    "packaging": {
+      "value": "Tub",
+      "basis": "photo"
+    }
+  },
+  "images": [
+    "https://icf.listex.info/orig/ef788d26-1ecb-aa2f-0bf5-2fdeacb3696f.png",
+    "https://icf.listex.info/orig/bfd67acc-1ed0-dc0f-7a63-36f545489f32.jpg",
+    "https://icf.listex.info/orig/2560c5de-ff7a-dbb5-1b84-d62d29c4403e.jpg",
+    "https://icf.listex.info/orig/e6a53451-46f7-cabc-5755-8181a3477843.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Excel Multi Vitamin Small Breed is a complete vitamin and mineral supplement developed with the needs of small-breed dogs in mind. Its balanced formula of essential vitamins (especially B2 and B4) and trace elements helps prevent problems caused by an incomplete diet and keeps dogs active.\n- Complete multivitamin supplement\n- Mineral and vitamin balance made specifically for adult small-breed dogs, taking into account their faster metabolism and the higher need for vitamins and trace elements that comes with it\n- Contains everything needed to keep adult small-breed dogs healthy: vitamin B2, choline, antioxidants and trace elements\n- Small tablet size, convenient for small-breed dogs\n- Developed with the participation of veterinarians\n70 tablets.",
+    "ingredient_information": "Brewer's yeast 35%, wheat germ flour 15.4%, fish meal 5.7%, milk and milk derivatives 4.7%, oils and fats (glycerin, stearic acid, safflower oil) 6.2%",
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "barcode",
+    "url": "https://listex.info/uk/product/8in1-vitality-excel-multi-vitamin-sm-br-multivitaminniy-kompl-dsob-drib-por-70-sht-ua-4048422109372",
+    "also": [
+      "https://zooman.ru/catalog/products/8in1_excel_multi_vitamin_small_breed_70tab_d_sobak_melkikh_porod_85gr/"
+    ],
+    "ean": "4048422109372"
+  },
+  "evidence_file": "cards/IN10937.source.txt"
+}

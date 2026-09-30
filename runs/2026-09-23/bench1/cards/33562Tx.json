@@ -1,0 +1,35 @@
+{
+  "code": "33562Tx",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "toys",
+  "brand_id": 8,
+  "name": "Dog Activity Disc",
+  "label": "23 cm",
+  "existing_id": null,
+  "category_ids": [20],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "toy-type": {"value": "Fetch & Retrieve", "quote": "excellent floatability makes it particularly suitable for water games"},
+    "material": {"value": "Thermoplastic Rubber", "quote": "thermoplastic rubber (TPR)"},
+    "toy-feature": {"value": "Floats", "quote": "excellent floatability makes it particularly suitable for water games"},
+    "toy-size": {"value": "23 cm", "quote": "medidas ø 23 cm"},
+    "color-family": {"value": "Color Varies", "quote": "color varios"}
+  },
+  "images": [
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_33562-1_%23SALL_%23AWK_%23V1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_33562-2_%23SALL_%23AWK_%23V1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_33562-3_%23SALL_%23AWK_%23V1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_33562-4_%23SALL_%23AWK_%23V1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_33562-5_%23SALL_%23AWK_%23V1.jpg",
+    "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_33562-6_%23SALL_%23AWK_%23V1.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "A bite-proof rubber flying disc made of thermoplastic rubber (TPR), floats in water and trains a dog's endurance, reactions and speed.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {"kind": "country-site", "url": "https://www.trixie.es/Dog-Disc-2"},
+  "evidence_file": "cards/33562Tx.source.txt"
+}

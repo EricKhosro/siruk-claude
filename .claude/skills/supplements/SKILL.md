@@ -23,7 +23,7 @@ Tabs 763–765, Gelmintal 779–780). A dog-only dewormer is just 46 — do **no
 also add 47, which holds only first-aid and SexControl.
 Family **4 Supplements**: food-form, product-weight,
 lifestage, health-feature, packaging, product-form, active-ingredient,
-special-diet, flavor, breed-size, material.
+special-diet, flavor, breed-size, material, pet-weight-range (added 2026-09-23).
 
 ## Attributes
 All picks from the closed menu `reference/attribute-values.json` (full lists in

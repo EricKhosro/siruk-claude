@@ -1,0 +1,32 @@
+{
+  "code": "DL711836",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "treats",
+  "brand_id": 38,
+  "name": "Rabbit Ears for Puppies",
+  "label": "Chicken, 90 g",
+  "existing_id": null,
+  "category_ids": [82],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "product-weight": {"value": "90 g", "quote": "79711830 · 90 g"},
+    "flavor": {"value": "Chicken", "quote": "Rabbit ears with chicken"},
+    "lifestage": {"value": "Puppy", "quote": "Rabbit ears with chicken for puppies"},
+    "ingredient": {"value": "Chicken", "quote": "chicken, rabbit ear, vegetable by-products, minerals."},
+    "packaging": {"value": "Bag", "basis": "photo"}
+  },
+  "images": [
+    "https://static.tildacdn.com/stor6531-6664-4230-b666-353235613966/34323265.jpg",
+    "https://static.tildacdn.com/stor3264-6462-4162-b231-336235323135/43296898.jpg",
+    "https://static.tildacdn.com/stor6332-6537-4138-b332-333137383438/28593998.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Dog Fest rabbit ears with chicken, a treat for puppies (90 g). A combination of chewy rabbit ears and tender chicken meat creates a unique puppy treat: it lets your dog enjoy the taste of farm-fresh chicken and have a great time chewing on tender, yet chewy ears. Guaranteed analysis: crude protein 35%, crude fat 3%, crude fibre 0.2%, crude ash 4.5%, moisture 18%.",
+    "ingredient_information": "Chicken, rabbit ear, vegetable by-products, minerals.",
+    "feeding_instructions": null
+  },
+  "source": {"kind": "brand-site", "url": "https://dogfest.com/products/tproduct/432555870-410027955611-rabbit-ears-with-chicken", "identity": ["https://www.petarabia.com/shop/6921499711830-dog-fest-farm-fresh-rabbit-ears-with-chicken-for-puppies-90g-51449", "https://www.justdogsstore.com/products/dogfest-rabbit-ears-with-chicken-dog-treats-90g/"]},
+  "evidence_file": "cards/DL711836.source.txt"
+}

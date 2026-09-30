@@ -1,0 +1,29 @@
+{
+  "code": "012067",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "dry-food",
+  "brand_id": 5,
+  "name": "BWild Grain Free Large Breed All Life Stage Buffalo with Potatoes and Lentils",
+  "label": "1.5 kg",
+  "existing_id": null,
+  "category_ids": [10],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "lifestage": {"value": "All Lifestages", "quote": "Suitable for large breed cats of all life stage"},
+    "breed-size": {"value": "Large Breeds", "quote": "Suitable for large breed cats of all life stage"},
+    "special-diet": {"value": "Grain-Free", "quote": "alternative sources of carbohydrates not derivate from cereals (legumes)"},
+    "health-feature": {"value": "Heart Care", "quote": "It contains taurine to sup port the cardiac functions"},
+    "flavor": {"value": "Buffalo", "quote": "Buffalo meat (dried 38%, fresh 15%)"},
+    "product-weight": {"value": "1.5 kg", "quote": "1,5 kg"}
+  },
+  "images": ["https://www.monge.it/wp-content/uploads/2020/02/monge_gatto_secco_bwild_large_breed_bufalo_con_patate_e_lenticchie.jpg"],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Monge BWild Grain Free Formula Large Breed All Life Stage Cat Buffalo with Potatoes and Lentils is a complete, balanced grain-free food using alternative carbohydrate sources (legumes) and high quality ingredients such as buffalo meat. Enriched with XOS and MOS prebiotics, omega-3 fatty acids for coat shine, and taurine for cardiac function. The extra-large cylinder-shaped kibble encourages chewing for oral hygiene. Suitable for large breed cats of all life stages. No added dyes or artificial preservatives.",
+    "ingredient_information": "Buffalo meat (dried 38%, fresh 15%), potatoes (15%), animal fat (13%) (chicken oil purified 99.5%), lentils (8%), potato protein, fish oil (salmon oil purified at 99.5%), hydrolysed animal proteins, dried beet pulp, brewers' yeast, minerals, mannan-oligosaccharides (MOS 1%), xylo-oligosaccharide (XOS 0.3%), yucca schidigera (0.1%), spiruline (0.1%) glucosamine (0.057%), chondroitin sulphate (0.04%).",
+    "feeding_instructions": "Recommended daily feeding intakes may be split into 2 daily meals. Individual nutritional requirements may vary due to size, age and living conditions of the animal. Fresh and clean water should be available at all times."
+  },
+  "source": {"kind": "brand-site", "url": "https://www.monge.it/en/product/grain-free-buffalo-with-potatoes-and-lentils-large-breed-all-life-stage/"},
+  "evidence_file": "cards/012067.source.txt"
+}

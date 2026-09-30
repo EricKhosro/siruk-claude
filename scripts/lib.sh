@@ -278,10 +278,12 @@ media_webp_status() {
   fn=$(api GET "/medias/$id" 2>/dev/null | jq -r '.data.filename // empty') || return 0
   [[ -n $fn ]] || { printf 'n/a'; return 0; }
   sib=$(api GET "/medias/$((id + 2))" 2>/dev/null | jq -r '.data.filename // empty') || sib=""
-  # the webp row is the original's filename plus a hash suffix
+  # the webp row is the original's filename plus a hash suffix. A moved media
+  # (POST /medias-move) drops the extension from its own filename, so the
+  # sibling reads "<fn>.jpg-<hash>" then.
   case $sib in
-    "$fn"-adminThumbnail) printf 'n/a'; return 0 ;;   # thumbnail, not the webp
-    "$fn"-*) ;;                                       # hashed sibling → the webp
+    "$fn"-adminThumbnail|"$fn".*-adminThumbnail) printf 'n/a'; return 0 ;;   # thumbnail, not the webp
+    "$fn"-*|"$fn".*-*) ;;                                                    # hashed sibling → the webp
     *) printf 'n/a'; return 0 ;;
   esac
   url_status "$host/storage/webp/$(urlencode "$sib").webp"

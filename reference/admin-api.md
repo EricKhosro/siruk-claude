@@ -36,7 +36,41 @@ Variant shape:
 
 `DELETE /products/<id>` → 204.
 
-### Pricing type (verified 2026-08-12)
+### ⚠ Backend change seen 2026-09-25: `sale_mode` replaced `pricing_type`
+
+Seen on the demo API on 2026-09-25 (no changelog; the local cs-dev-hub copy is
+from 2026-08-11 and predates it). **The section below this one describes the old
+model; don't trust it until the backend team has confirmed the new one.**
+
+- `POST /products` now **422s without `variants.*.sale_mode`**. Every live
+  variant reads `sale_mode: "pack"`; `pricing_type`, `price_per_kg` and `weight`
+  come back `null` on all of them.
+- New per-variant fields: `unit` (`g` / `ml` / `kg` / null), `net_quantity`,
+  `pack_count`, `size_label`, `unit_price`, `formatted_unit_price`
+  (e.g. `"1,630 ֏/kg"` on a 20 kg bag).
+- **`product-weight` is now derived from `unit` + `net_quantity`**. It shows
+  in `attribute_values` but not in `attribute_value_ids`, and a
+  `product-weight` id sent in the payload is dropped. Send
+  `unit` + `net_quantity` (the pack total: 4 × 15 g → `g`, 60) and leave
+  them null when the pack prints no weight or volume (tablets, leads,
+  a "max 8 kg" dog-weight limit).
+- The old per-kg twins (`…-KG`, "By weight, 1 kg") were migrated to
+  `sale_mode: "pack"`, `unit: kg`, `net_quantity: 1`, with `price` = the old
+  per-kg rate. So `register-audit.py` (which reads `price_per_kg`) now reports
+  every twin as `TWIN-RATE-WRONG (None vs …)`. That's a false alarm until
+  the script reads the new fields.
+- **Scripts:**
+  - `set-translation.py` now copies `sale_mode` / `unit` /
+    `net_quantity` / `pack_count` (without them its PUT would 422 or blank
+    them).
+  - `add-variant.sh` and `set-variant.sh` resend the GET body, so
+    they keep the new fields.
+  - `create-product.sh` still validates on `pricing_type`, so keep sending
+    `"pricing_type": "fixed"` next to `"sale_mode": "pack"` (the server ignores it).
+  - **Per-kg (loose) selling has no known shape yet.** Ask the backend
+    team what other `sale_mode` values exist before the next dry-food import.
+
+### Pricing type (verified 2026-08-12 — superseded, see above)
 
 Exactly `fixed` or `per_kg`; anything else 422s.
 
@@ -162,6 +196,32 @@ property filename on null". `DELETE /medias/<id>` → 200.
 - One upload creates three rows (original, `-adminThumbnail`, `-<hash>` webp);
   `GET /medias/<id>.url` is the thumbnail, the webp is checked separately.
 
+### Folders, listing, moving (found 2026-09-23)
+
+The admin frontend is cs-dev-hub `packages/cs-admin-core` (`store/_mediaStore.js`,
+`config/mediaDefaults.js`); copy its calls, don't guess.
+
+- **Folders are records**: `GET /media-folders` (tree, `{id,name,path,parentId,children}`),
+  `POST /media-folders {name, parentId}` (server derives `path` from the name —
+  "Royal Canin" under `null` → `royal-canin`), `PUT`/`DELETE /media-folders/<id>`
+  (delete refuses a folder with files). An upload's `directory` with no folder
+  record still stores the file, but the media library never shows it — use
+  `scripts/media-folder.py`. Layout: `products/<brand-slug>/<type>/`, `logos/`,
+  `categories/`, `banners/`. `PUT /media-folders/<id> {name, parentId}`
+  re-parents a folder **and moves its files** (url changes with the path).
+- **Listing**: `GET /medias?directory=<path>&acceptTypes=<types>` — direct
+  children only (`''` = root). `acceptTypes` is **one comma-joined, url-encoded
+  string** (`image%2Fjpeg%2Cimage%2Fpng…`, what `Api.serializeParams` sends).
+  `acceptTypes[]=…` makes it an array and the backend 500s (and logs an error
+  the devs see); leaving it out returns an empty `data`. Filters on the stored
+  mime type, so a text/html record (an uploaded 404 page) never lists.
+- **Move**: `POST /medias-move {ids:[…], directory}` → the moved records. Ids
+  are kept, so product galleries follow; the original's url changes to
+  `storage/<directory>/<file>` (old url 404s). The `-adminThumbnail` and webp
+  rows stay in `thumbnails/` and `webp/`. `scripts/organize-media.py`.
+  Also `medias-copy` (same body), `medias-crop`, `medias-replace`,
+  `medias-change-dimensions`, `medias-download`.
+
 ## Brands / categories / attributes
 
 - `POST /brands` `{name, slug, image:<mediaId>, meta:{title,description}}` —
@@ -208,6 +268,12 @@ Kidneys, 58 Test Kits]. The flat **12 Vitamins & Supplements was deleted**
 64 Lightweight, 65 Crystal]; **Cat Supplies** 66 → [67 Litter Boxes &
 Accessories, 79 Collars, Leashes & Harnesses]; **Cat Trees, Condos &
 Scratchers** 80 → [81 Scratchers & Scratching Posts].
+**Bird / Small Animal** (created 2026-09-28 on user approval for the sirook.pdf
+invoice): Bird 95 → [96 Food, 97 Treats & Supplements]; Small Animal 98 →
+[99 Food, 100 Hay, 101 Treats, 102 Supplements & Salt Licks, 103 Bedding].
+Bird/rodent food uses family 1 Dry Food, snacks 3 Treats, mineral/salt stones
+4 Supplements, bedding 9 Litter. `create-category.py` takes `"parent": null`
+for a new top-level pet.
 **Dog Supplies / Cleaning & Potty** (Chewy menu, created 2026-09-11 on user
 approval to unblock 208 rows of the 2026-09-11 run):
 Dog 68 Supplies → [69 Collars, Leashes & Harnesses, 70 Bowls & Feeders,
@@ -229,7 +295,8 @@ Simba, 20 Lechat, 21 Special Dog, 22 Rolf Club, 23 Inspector, 24 Gelmintal,
 25 Insectal, 26 Cliny, 27 Mr. Fresh, 28 Comfy, 29 Iv San Bernard, 30
 Beaphar, 31 8in1, 32 Mooor, 33 KorMell, 34 Justin, 35 Myau, **36 Versele-Laga,
 37 Mnyams, 38 Derevenskie Lakomstva, 39 flexi, 40 Eco-Premium, 41 Kaskad,
-42 Pchelodar** (added 2026-09-17, `reference/brand-sites.md` has the sites).
+42 Pchelodar** (added 2026-09-17, `reference/brand-sites.md` has the sites),
+**43 Dogman, 44 Inteko** (added 2026-09-23; Inteko has no logo — no official site found).
 
 **Attribute families** (after the 2026-09-10 Chewy sync): 1 Dry Food
 `[product-weight, flavor, breed-size, lifestage, special-diet, health-feature,
@@ -238,7 +305,7 @@ texture, special-diet, health-feature, packaging, ingredient]`, 3 Treats
 `[product-weight, flavor, lifestage, special-diet, health-feature, breed-size,
 packaging, ingredient]`, 4 Supplements `[food-form, product-weight, lifestage,
 health-feature, packaging, product-form, active-ingredient, special-diet,
-flavor, breed-size, material]`, 5 Toys `[toy-type, material, toy-feature,
+flavor, breed-size, material, pet-weight-range]` (pet-weight-range added 2026-09-23 — 37 dewormer variants already carried it), 5 Toys `[toy-type, material, toy-feature,
 color-family, lifestage, breed-size, toy-size]`, 7 Grooming `[size,
 color-family, product-weight, material, breed-size, product-form,
 active-ingredient, health-feature]`, 8 Accessories `[size, color-family,

@@ -141,9 +141,19 @@ checked=""   # "mediaId status url" per line
 broken=""    # media ids
 while read -r mid; do
   [[ -n $mid ]] || continue
-  url=$(media_url "$mid") || url=""
+  # one record read gives the url and the stored mime type. A text/html record
+  # is an uploaded error page under an image name: its url answers 200, so the
+  # status check alone passed 29 of them until 2026-09-23. An empty read is
+  # retried once after a pause — a burst of 500s mid-sweep reported 30 healthy
+  # media as no-record that day.
+  rec=$(api GET "/medias/$mid" 2>/dev/null) || rec=""
+  [[ -n $rec ]] || { sleep 10; rec=$(api GET "/medias/$mid" 2>/dev/null) || rec=""; }
+  url=$(jq -r '.data.url // empty' <<<"${rec:-{\}}" 2>/dev/null) || url=""
+  mime=$(jq -r '.data.mime_type // empty' <<<"${rec:-{\}}" 2>/dev/null) || mime=""
   if [[ -z $url ]]; then
     status="no-record"
+  elif [[ -n $mime && $mime != image/* ]]; then
+    status="not-image:$mime"
   else
     status=$(url_status "$url")
   fi

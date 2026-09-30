@@ -1,0 +1,48 @@
+{
+ "code": "12207S",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 31,
+ "name": "Delights Pork Bones",
+ "label": "XS, 7 pcs / 84 g",
+ "existing_id": null,
+ "category_ids": [
+  85
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "product-weight": {
+   "value": "84 g",
+   "quote": "7 հատ/ 84 գ"
+  },
+  "ingredient": {
+   "value": "Pork",
+   "quote": "Պարունակում է խոզի կաշի (70%), հավի կրծքամիս (25%)"
+  },
+  "health-feature": {
+   "value": "Dental & Breath Care",
+   "quote": "Ատամների խնամքի բարելավում"
+  },
+  "special-diet": {
+   "value": "Low Fat",
+   "quote": "Ցածր յուղայնություն"
+  }
+ },
+ "images": [
+  "https://d1b3l6j8a0ngef.cloudfront.net/uploads/165772270815086793.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Delights Pork Bones XS combine tasty porkhide with delicious chicken breast inside, in a classic knotted-bone shape, for long-lasting chewing fun. Chewing helps improve dental care. Low in fat and rich in protein, oven-baked, with no artificial colours or flavour enhancers, and no GMOs, sugar or grains. Pack of 7 bones, 84 g.",
+  "ingredient_information": "Porkhide (70 %), chicken breast (25 %).",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "hafo",
+  "url": "https://hafo.am/products/voskor-xs-havi-ev-xozi-hamerov"
+ },
+ "evidence_file": "cards/12207S.source.txt"
+}

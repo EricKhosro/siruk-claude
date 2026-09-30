@@ -1,0 +1,56 @@
+{
+ "code": "012647",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "wet-food",
+ "brand_id": 5,
+ "name": "BWild Grain Free Adult Dog",
+ "label": "Turkey 400 g",
+ "existing_id": 651,
+ "category_ids": [
+  4
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Turkey",
+   "quote": "tasty cuts of turkey meat in gravy"
+  },
+  "special-diet": {
+   "value": "Grain-Free",
+   "quote": "grain-free formula"
+  },
+  "texture": {
+   "value": "Chunks in Gravy",
+   "quote": "cuts of turkey meat in gravy"
+  },
+  "ingredient": {
+   "value": "Turkey",
+   "quote": "turkey meat"
+  },
+  "product-weight": {
+   "value": "400 g",
+   "quote": "400g"
+  },
+  "lifestage": {
+   "value": "Adult",
+   "quote": "adult dogs of all breeds"
+  }
+ },
+ "images": [
+  "https://monge.shop/659-thickbox_default/monge-bwild-grain-free-turkey-400g.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Bwild Grain Free Turkey with Pumpkin and Zucchini is a grain-free formula, tasty cuts of turkey meat in gravy for adult dogs of all breeds. Formulated with the wellbeing of adult dogs of all breeds in mind, thanks to the selection of alternative, grain-free carbohydrate sources such as pumpkin and courgette. Recipe enriched with Xyloligosaccharides for intestinal health and Chondroitin and Glucosamine for proper joint development.",
+  "ingredient_information": "Composition: Fresh turkey meat (26%), pork liver, chicken meat, salmon oil, yeast products, dried pumpkin 2% (equal to 8.6% of fresh pumpkin), dried zucchini 2% (equal to 8.6% of fresh zucchini), minerals, potatoes, fresh blueberries, fresh cranberries, fresh raspberries, xylo-oligosaccharide (XOS 0.1%), yucca schidigera, spirulina (0.1%), glucosamine (0.019%), chondroitin sulphate (0.01% mg/kg). Analytical constituents: Crude protein 8%, Crude fibre 0.8%, Crude fat 6%, Crude ash 2.5%, Moisture 79%.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://monge.shop/gb/monge-bwild/dog/wet-food/528-monge-bwild-grain-free-turkey-400g-8009470012645.html"
+ },
+ "evidence_file": "cards/012647.source.txt"
+}

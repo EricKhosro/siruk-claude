@@ -1,0 +1,52 @@
+{
+ "code": "013037",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "wet-food",
+ "brand_id": 5,
+ "name": "Fresh Adult Dog Paté",
+ "label": "Chicken with Vegetables 100 g",
+ "existing_id": 713,
+ "category_ids": [
+  4
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken and Vegetables",
+   "quote": "delicious paté with chicken chunkies"
+  },
+  "texture": {
+   "value": "Pate",
+   "quote": "delicious paté with chicken chunkies is a complete food"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "chicken 10%"
+  },
+  "product-weight": {
+   "value": "100 g",
+   "quote": "100g"
+  },
+  "lifestage": {
+   "value": "Adult",
+   "quote": "medium-sized adult dog"
+  }
+ },
+ "images": [
+  "https://www.monge.it/wp-content/uploads/2015/12/FRESH-POLLO-VERDURE_8009470013031.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "The delicious paté with chicken chunkies is a complete food selected to support every day the well-being of your animal. The recipe contains vegetables and has been formulated with a low sugar content and without hydrogenated fats. The soft and tasty paté with chunkies is ideal for small dogs and as a treat for bigger dogs.",
+  "ingredient_information": "Composition: Meat and animal derivatives 76% (chicken 10%), vegetables (4,2%), minerals. Analytical components: Crude protein 9,0%, crude fibres 0,5%, crude fat 7,0%, crude ash 1,2%, Moisture 82,0%. Recommended daily feeding intakes for a medium-sized adult dog (10-12 kg): 600-800g.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.monge.it/en/product/pate-and-chunkies-with-chicken-and-vegetables/"
+ },
+ "evidence_file": "cards/013037.source.txt"
+}

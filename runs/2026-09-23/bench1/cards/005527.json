@@ -1,0 +1,29 @@
+{
+  "code": "005527",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "dry-food",
+  "brand_id": 5,
+  "name": "Monoprotein Sterilised Cat Beef",
+  "label": "1.5 kg",
+  "existing_id": null,
+  "category_ids": [10],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "lifestage": {"value": "Adult", "quote": "a complete and balanced pet food for adult cats"},
+    "special-diet": {"value": "Sterilised", "quote": "Formulated for the well-being of your sterilised cat"},
+    "health-feature": {"value": "Weight Management", "quote": "low fat content** to maintain ideal body weight"},
+    "flavor": {"value": "Beef", "quote": "Beef (dried 26% and fresh meat 10%)"},
+    "ingredient": {"value": "Beef", "quote": "Beef (dried 26% and fresh meat 10%)"},
+    "product-weight": {"value": "1.5 kg", "quote": "1,5 kg"}
+  },
+  "images": ["https://www.monge.it/wp-content/uploads/2020/10/STERILISED-MONO-manzo-15KG_8009470005524.jpg"],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Monge Natural Superpremium Monoprotein Sterilised Cat Beef is a complete and balanced pet food for adult sterilised cats, formulated with a unique animal protein source (beef) and low fat content plus L-carnitine to support ideal body weight and lean mass. Enriched with XOS prebiotics, rose hip and yucca schidigera. No added dyes or artificial preservatives.",
+    "ingredient_information": "Beef (dried 26% and fresh meat 10%), wheat, maize gluten, maize, potato protein, animal fat (chicken oil purified at 99.5%), hydrolysed animal proteins (liver), fish oil (salmon oil), pea fibre, minerals, yeasts products (mannan-oligosaccharides MOS 1%), xylo-oligosaccharide (XOS 0.3%), yucca schidigera (0.1%), products from the processing of herbs (rose hip 0.1%).",
+    "feeding_instructions": "Recommended daily feeding intakes may be split into 2 daily meals. Individual nutritional requirements may vary due to size, age and living conditions of the animal. Fresh and clean water should be available at all times."
+  },
+  "source": {"kind": "brand-site", "url": "https://www.monge.it/en/product/sterilised-monoprotein-beef/"},
+  "evidence_file": "cards/005527.source.txt"
+}

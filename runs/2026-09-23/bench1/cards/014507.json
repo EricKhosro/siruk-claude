@@ -1,0 +1,53 @@
+{
+ "code": "014507",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "wet-food",
+ "brand_id": 5,
+ "name": "VetSolution Dermatosis Dog",
+ "label": "150 g",
+ "existing_id": 715,
+ "category_ids": [
+  4,
+  5
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "special-diet": {
+   "value": "Veterinary Diet",
+   "quote": "complete dietetic feed for dogs"
+  },
+  "health-feature": {
+   "value": "Skin & Coat Health",
+   "quote": "support of skin function in the case of dermatosis"
+  },
+  "texture": {
+   "value": "Pate",
+   "quote": "complete dietetic feed for dogs"
+  },
+  "product-weight": {
+   "value": "150 g",
+   "quote": "150g"
+  },
+  "lifestage": {
+   "value": "Adult",
+   "quote": "ALL BREEDS ADULT"
+  }
+ },
+ "images": [
+  "https://www.monge.it/wp-content/uploads/2019/06/DERMA-PORK-150G_8009470014502.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "MONGE VETSOLUTION DERMATOSIS CANINE is a complete dietetic feed for dogs formulated to support of skin function in the case of dermatosis and excessive loss of hair. Contains Nucleotides to support immune system, Aloe vera to support the skin, Xylo-oligosaccharides (XOS) to secure the intestinal microbiota.",
+  "ingredient_information": "Composition: Pork meat 15%, pork liver, tapioca starch, animal fat (pork fat purified at 99.5%), fish oil (salmon oil purified at 99.5%), minerals, pea fiber, hydrolysed yeasts 1% (of which free nucleotides 44%), xylo-oligosaccharide (0.4%), dried aloe vera (0.01%). Analytical components: Crude protein 7.2%, Crude Fibre 0.3%, Crude fat 6.5%, Crude ash 2.3%, Moisture 76%.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.monge.it/en/product/dermatosis-3/"
+ },
+ "evidence_file": "cards/014507.source.txt"
+}

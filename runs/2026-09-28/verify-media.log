@@ -1,0 +1,40 @@
+checking 26 product(s)
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1203
+HTTP 200  GET /products/1204
+HTTP 200  GET /products/1205
+HTTP 200  GET /products/1206
+HTTP 200  GET /products/1207
+HTTP 200  GET /products/1208
+HTTP 200  GET /products/1209
+HTTP 200  GET /products/1210
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1211
+HTTP 200  GET /products/1212
+HTTP 200  GET /products/1213
+HTTP 200  GET /products/1214
+HTTP 200  GET /products/1215
+HTTP 200  GET /products/1216
+HTTP 200  GET /products/1217
+HTTP 200  GET /products/1218
+HTTP 200  GET /products/1219
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1220
+HTTP 200  GET /products/1221
+HTTP 200  GET /products/1222
+HTTP 200  GET /products/1223
+HTTP 200  GET /products/1224
+HTTP 200  GET /products/1225
+HTTP 200  GET /products/1226
+HTTP 200  GET /products/1227
+HTTP 200  GET /products/1228
+42 image reference(s) to check
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+
+42 references, 40 distinct media, 0 broken, 0 repaired, 0 still broken
+report: /Users/conceptmacmini01/Documents/Projects/Siruk-claude/.siruk-cache/media-check.json

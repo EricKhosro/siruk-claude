@@ -1,85 +1,85 @@
 Product name,Product code,Exists,Register sale price,Our price,Price check,Sold per kg,Per-kg variant,Attribute family,Price source,What is needed
-"Կեր շների BWILD ADULT` ցածր հացահատիկով, վայրի վարազ, 12 կգ",011757,TRUE,42000.0,42000.0,ok,yes,ok,Dry Food,register,
-"Կեր շների BWILD ADULT` ցածր հացահատիկով, եղնիկ, 12 կգ",011797,TRUE,48000.0,48000.0,ok,yes,ok,Dry Food,register,
-"Կեր շների ձագերի BWILD PUPPY` ցածր հացահատիկով, եղնիկ, 12 կգ",011897,TRUE,49000.0,49000.0,ok,yes,ok,Dry Food,register,
-Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ 12 կգ,011137,TRUE,40000.0,40000.0,ok,yes,ok,Dry Food,register,
-Կեր շների համար All breed adult Monoprotein՝ հորթ/բրինձ 12 կգ,011347,TRUE,39500.0,39500.0,ok,yes,ok,Dry Food,register,
-Կեր շների համար All breed Adult գառ/բրինձ/կարտոֆիլ 12 կգ,011327,TRUE,41500.0,41500.0,ok,yes,ok,Dry Food,register,
-Կեր շների համար Bwild GrainFree գառ/գարոխ/կարտոֆիլ 12 կգ,011737,TRUE,54500.0,54500.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA RANCHLANDS (70/30) 11.4 կգ,5431112,TRUE,63800.0,63800.0,ok,yes,ok,Dry Food,register,
+"Կեր շների BWILD ADULT` ցածր հացահատիկով, վայրի վարազ, 12 կգ",011757,TRUE,42000.0,42000.0,ok,yes,TWIN-RATE-WRONG (None vs 3600.0),Dry Food,register,fix per-kg rate -> 3600.0
+"Կեր շների BWILD ADULT` ցածր հացահատիկով, եղնիկ, 12 կգ",011797,TRUE,48000.0,48000.0,ok,yes,TWIN-RATE-WRONG (None vs 4100.0),Dry Food,register,fix per-kg rate -> 4100.0
+"Կեր շների ձագերի BWILD PUPPY` ցածր հացահատիկով, եղնիկ, 12 կգ",011897,TRUE,49000.0,49000.0,ok,yes,TWIN-RATE-WRONG (None vs 4200.0),Dry Food,register,fix per-kg rate -> 4200.0
+Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ 12 կգ,011137,TRUE,40000.0,40000.0,ok,yes,TWIN-RATE-WRONG (None vs 3450.0),Dry Food,register,fix per-kg rate -> 3450.0
+Կեր շների համար All breed adult Monoprotein՝ հորթ/բրինձ 12 կգ,011347,TRUE,39500.0,39500.0,ok,yes,TWIN-RATE-WRONG (None vs 3400.0),Dry Food,register,fix per-kg rate -> 3400.0
+Կեր շների համար All breed Adult գառ/բրինձ/կարտոֆիլ 12 կգ,011327,TRUE,41500.0,41500.0,ok,yes,TWIN-RATE-WRONG (None vs 3550.0),Dry Food,register,fix per-kg rate -> 3550.0
+Կեր շների համար Bwild GrainFree գառ/գարոխ/կարտոֆիլ 12 կգ,011737,TRUE,54500.0,54500.0,ok,yes,TWIN-RATE-WRONG (None vs 4650.0),Dry Food,register,fix per-kg rate -> 4650.0
+Կեր շների ACANA RANCHLANDS (70/30) 11.4 կգ,5431112,TRUE,63800.0,63800.0,ok,yes,TWIN-RATE-WRONG (None vs 5700.0),Dry Food,register,fix per-kg rate -> 5700.0
 Կեր կատուների ACANA HOMESTEAD(հավ/հնդկահավ) 4.5 կգ,7143712,TRUE,26300.0,26300.0,ok,no,not-sold-by-kg,Dry Food,register,
 Կեր կատուների ACANA BOUNTIFUL (ձուկ) 4.5 կգ,7144412,TRUE,26300.0,26300.0,ok,no,not-sold-by-kg,Dry Food,register,
 Կեր կատուների ACANA Wild Prairie(առանց հացահատիկի) 4.5 կգ,7145812,TRUE,29000.0,29000.0,ok,no,not-sold-by-kg,Dry Food,register,
 "Կեր կատուների ACANA Grasslands (առանց հացահատիկի, գառ) 4.5 կգ",7147212,TRUE,30550.0,30550.0,ok,no,not-sold-by-kg,Dry Food,register,
 "Կեր կատուների ACANA Pacifica(առանց հացահատիկի, ձուկ) 4.5 կգ",7146512,TRUE,31950.0,31950.0,ok,no,not-sold-by-kg,Dry Food,register,
 Կեր շների ORIJEN Small breed 4.5 կգ,7147712,TRUE,35000.0,35000.0,ok,no,not-sold-by-kg,Dry Food,register,
-Կեր շների համար All breed Adult սալմոն/բրինձ 12 կգ,011307,TRUE,43000.0,43000.0,ok,yes,ok,Dry Food,register,
-Կեր շների համար All breed Adult ճագար/բրինձ/կարտոֆիլ 12 կգ,011157,TRUE,44000.0,44000.0,ok,yes,ok,Dry Food,register,
-Կեր շների համար All breed PUPPY սալմոն/բրինձ 12 կգ,011217,TRUE,44000.0,44000.0,ok,yes,ok,Dry Food,register,
-Կեր շների համար All breed Adult հնդկահավ/բրինձ 12 կգ,011397,TRUE,42000.0,42000.0,ok,yes,ok,Dry Food,register,
+Կեր շների համար All breed Adult սալմոն/բրինձ 12 կգ,011307,TRUE,43000.0,43000.0,ok,yes,TWIN-RATE-WRONG (None vs 3700.0),Dry Food,register,fix per-kg rate -> 3700.0
+Կեր շների համար All breed Adult ճագար/բրինձ/կարտոֆիլ 12 կգ,011157,TRUE,44000.0,44000.0,ok,yes,TWIN-RATE-WRONG (None vs 3800.0),Dry Food,register,fix per-kg rate -> 3800.0
+Կեր շների համար All breed PUPPY սալմոն/բրինձ 12 կգ,011217,TRUE,44000.0,44000.0,ok,yes,TWIN-RATE-WRONG (None vs 3800.0),Dry Food,register,fix per-kg rate -> 3800.0
+Կեր շների համար All breed Adult հնդկահավ/բրինձ 12 կգ,011397,TRUE,42000.0,42000.0,ok,yes,TWIN-RATE-WRONG (None vs 3600.0),Dry Food,register,fix per-kg rate -> 3600.0
 Կեր կատուների ACANA INDOOR (հավ/հնդկահավ) 4.5 կգ,7145112,TRUE,26300.0,26300.0,ok,no,not-sold-by-kg,Dry Food,register,
-4 ԹԱԹ չոր կեր կատ. համար STERILISED 14 կգ,909665,TRUE,31500.0,31500.0,ok,yes,ok,Dry Food,register,
-"Կեր շների  MONGE MINI  PUPPY/JUN. գառ, 15կգ",005947,TRUE,50000.0,50000.0,ok,yes,ok,Dry Food,register,
-"Կեր կատուների՝ GEMON STERIL., տավար 7 կգ",297277,TRUE,19500.0,19500.0,ok,yes,ok,Dry Food,register,
-"Կեր կատուների՝ GEMON KITTEN, հավ/բրինձ 7 կգ",297257,TRUE,17000.0,17000.0,ok,yes,ok,Dry Food,register,
-"Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",297267,TRUE,16000.0,16000.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA  Wild Coast Classic (ձուկ) 50/50  9.7 կգ,5621212,TRUE,40950.0,40950.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA Prairie Poultry Classic (ճուտ) 9.7 կգ,5601112,TRUE,35000.0,35000.0,ok,yes,ok,Dry Food,register,
-"Կեր շների ACANA Classic RED, գառ/խոզ/տավար (50/50) 9.7 կգ",5611212,TRUE,40000.0,40000.0,ok,yes,ok,Dry Food,register,
-Կեր` շների ACANA Wild Prairie(առանց հացահատիկի) 11.4 կգ,5401112,TRUE,52400.0,52400.0,ok,yes,ok,Dry Food,register,
-Կեր` շների ACANA Light & Fit (65/35) 11.4 կգ,5121112,TRUE,50000.0,50000.0,ok,yes,ok,Dry Food,register,
+4 ԹԱԹ չոր կեր կատ. համար STERILISED 14 կգ,909665,TRUE,31500.0,31500.0,ok,yes,TWIN-RATE-WRONG (None vs 2350.0),Dry Food,register,fix per-kg rate -> 2350.0
+"Կեր շների  MONGE MINI  PUPPY/JUN. գառ, 15կգ",005947,TRUE,50000.0,50000.0,ok,yes,TWIN-RATE-WRONG (None vs 3550.0),Dry Food,register,fix per-kg rate -> 3550.0
+"Կեր կատուների՝ GEMON STERIL., տավար 7 կգ",297277,TRUE,19500.0,19500.0,ok,yes,TWIN-RATE-WRONG (None vs 2900.0),Dry Food,register,fix per-kg rate -> 2900.0
+"Կեր կատուների՝ GEMON KITTEN, հավ/բրինձ 7 կգ",297257,TRUE,17000.0,17000.0,ok,yes,TWIN-RATE-WRONG (None vs 2550.0),Dry Food,register,fix per-kg rate -> 2550.0
+"Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",297267,TRUE,16000.0,16000.0,ok,yes,TWIN-RATE-WRONG (None vs 2400.0),Dry Food,register,fix per-kg rate -> 2400.0
+Կեր շների ACANA  Wild Coast Classic (ձուկ) 50/50  9.7 կգ,5621212,TRUE,40950.0,40950.0,ok,yes,TWIN-RATE-WRONG (None vs 4350.0),Dry Food,register,fix per-kg rate -> 4350.0
+Կեր շների ACANA Prairie Poultry Classic (ճուտ) 9.7 կգ,5601112,TRUE,35000.0,35000.0,ok,yes,TWIN-RATE-WRONG (None vs 3700.0),Dry Food,register,fix per-kg rate -> 3700.0
+"Կեր շների ACANA Classic RED, գառ/խոզ/տավար (50/50) 9.7 կգ",5611212,TRUE,40000.0,40000.0,ok,yes,TWIN-RATE-WRONG (None vs 4250.0),Dry Food,register,fix per-kg rate -> 4250.0
+Կեր` շների ACANA Wild Prairie(առանց հացահատիկի) 11.4 կգ,5401112,TRUE,52400.0,52400.0,ok,yes,TWIN-RATE-WRONG (None vs 6600.0),Dry Food,register,fix per-kg rate -> 6600.0
+Կեր` շների ACANA Light & Fit (65/35) 11.4 կգ,5121112,TRUE,50000.0,50000.0,ok,yes,TWIN-RATE-WRONG (None vs 4500.0),Dry Food,register,fix per-kg rate -> 4500.0
 "4 ԹԱԹ չոր կեր կատ. համար, սաղմոն 14 կգ",,FALSE,33150.0,,not-live,yes,needs-twin (product not live),,register,identify article code
-Կեր շների համար All breed Puppy ՝ հորթ/բրինձ 15 կգ,006487,TRUE,42000.0,42000.0,ok,yes,ok,Dry Food,register,
-"Կեր շների  MONGE MINI  PUPPY/JUN. սաղմոն, 15կգ",005937,TRUE,50000.0,50000.0,ok,yes,ok,Dry Food,register,
+Կեր շների համար All breed Puppy ՝ հորթ/բրինձ 15 կգ,006487,TRUE,42000.0,42000.0,ok,yes,TWIN-RATE-WRONG (None vs 2950.0),Dry Food,register,fix per-kg rate -> 2950.0
+"Կեր շների  MONGE MINI  PUPPY/JUN. սաղմոն, 15կգ",005937,TRUE,50000.0,50000.0,ok,yes,TWIN-RATE-WRONG (None vs 3550.0),Dry Food,register,fix per-kg rate -> 3550.0
 My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,13000.0,,not-live,yes,needs-twin (product not live),,register,identify article code
-"Կեր շների` թունա, SIMBA  20կգ",009977,TRUE,21000.0,21000.0,ok,yes,ok,Dry Food,register,
-"Կեր շների` գառ, SIMBA  20կգ",009957,TRUE,21000.0,21000.0,ok,yes,ok,Dry Food,register,
+"Կեր շների` թունա, SIMBA  20կգ",009977,TRUE,21000.0,21000.0,ok,yes,TWIN-RATE-WRONG (None vs 1150.0),Dry Food,register,fix per-kg rate -> 1150.0
+"Կեր շների` գառ, SIMBA  20կգ",009957,TRUE,21000.0,21000.0,ok,yes,TWIN-RATE-WRONG (None vs 1150.0),Dry Food,register,fix per-kg rate -> 1150.0
 ԳԱՖ չոր կեր  շների համար Adult հորթ/բրինձ 10կգ,,FALSE,9100.0,,not-live,yes,needs-twin (product not live),,register,identify article code
-Կեր շների  MONGE    MAXI  ADULT   12կգ,004417,TRUE,34000.0,34000.0,ok,yes,ok,Dry Food,register,
-Կեր կատուների  Monge  HAIRBALL  10կգ,MG 004797,TRUE,35000.0,35000.0,ok,yes,ok,Dry Food,register,
-Կեր կատուների   Monge  INDOOR  10կգ,MG 004827,TRUE,35000.0,35000.0,ok,yes,ok,Dry Food,register,
-Կեր կատուների   Monge  KITTEN  10կգ,MG 004817,TRUE,34500.0,34500.0,ok,yes,ok,Dry Food,register,only hafo placeholder image
-Կեր կատուների   Monge  SENSITIVE  10կգ,MG 004837,TRUE,35500.0,35500.0,ok,yes,ok,Dry Food,register,
-Կեր կատուների   Monge ADULT 10կգ,MG 004807,TRUE,31500.0,31500.0,ok,yes,ok,Dry Food,register,only hafo placeholder image
+Կեր շների  MONGE    MAXI  ADULT   12կգ,004417,TRUE,34000.0,34000.0,ok,yes,TWIN-RATE-WRONG (None vs 2700.0),Dry Food,register,fix per-kg rate -> 2700.0
+Կեր կատուների  Monge  HAIRBALL  10կգ,MG 004797,TRUE,35000.0,35000.0,ok,yes,TWIN-RATE-WRONG (None vs 3700.0),Dry Food,register,fix per-kg rate -> 3700.0
+Կեր կատուների   Monge  INDOOR  10կգ,MG 004827,TRUE,35000.0,35000.0,ok,yes,TWIN-RATE-WRONG (None vs 3700.0),Dry Food,register,fix per-kg rate -> 3700.0
+Կեր կատուների   Monge  KITTEN  10կգ,MG 004817,TRUE,34500.0,34500.0,ok,yes,TWIN-RATE-WRONG (None vs 3600.0),Dry Food,register,fix per-kg rate -> 3600.0; only hafo placeholder image
+Կեր կատուների   Monge  SENSITIVE  10կգ,MG 004837,TRUE,35500.0,35500.0,ok,yes,TWIN-RATE-WRONG (None vs 3650.0),Dry Food,register,fix per-kg rate -> 3650.0
+Կեր կատուների   Monge ADULT 10կգ,MG 004807,TRUE,31500.0,31500.0,ok,yes,TWIN-RATE-WRONG (None vs 3350.0),Dry Food,register,fix per-kg rate -> 3350.0; only hafo placeholder image
 Կեր շների    MONGE    MEDIUM  ADULT 15կգ,,FALSE,39000.0,,not-live,yes,needs-twin (product not live),,register,identify article code
 Կեր շների MONGE MEDIUM STARTER 15կգ,,FALSE,49500.0,,not-live,yes,needs-twin (product not live),,register,identify article code
-Կեր շների    MONGE  MEDIUM  Puppy & Junior 15կգ,MG006347,TRUE,41000.0,41000.0,ok,yes,ok,Dry Food,register,
-Կեր շների  GEMON AGNELLO/RISO 20կգ,MM005617,TRUE,32500.0,32500.0,ok,yes,ok,Dry Food,register,
-Կեր շների  GEMON    PUPPY / JUNIOR   20կգ,MM005627,TRUE,34000.0,34000.0,ok,yes,ok,Dry Food,register,
-Կեր շների  GEMON TONNO/RISO 20կգ,GM005607,TRUE,32500.0,32500.0,ok,yes,ok,Dry Food,register,
-Կեր շների  GEMON   MINI  հավ   20կգ,MM005677,TRUE,28000.0,28000.0,ok,yes,ok,Dry Food,register,
-Կեր շների  GEMON   REGULAR  20կգ,MM006177,TRUE,28000.0,28000.0,ok,yes,ok,Dry Food,register,
-Կեր շների MONGE MAXI PUPPY/JUN. 15կգ,MG006027,TRUE,41000.0,41000.0,ok,yes,ok,Dry Food,register,
-Կեր շների MONGE MINI STARTER 15կգ,MG006087,TRUE,54000.0,54000.0,ok,yes,ok,Dry Food,register,
-Կեր շների  MONGE    MINI  ADULT   15կգ,MG006117,TRUE,41500.0,41500.0,ok,yes,ok,Dry Food,register,
-Կեր շների  MONGE MINI  PUPPY/JUN. 15կգ,MG006107,TRUE,46500.0,46500.0,ok,yes,ok,Dry Food,register,
-Կեր շների MONGE MINI ADULT AGNELLO գառ 15կգ,MG006067,TRUE,49000.0,49000.0,ok,yes,ok,Dry Food,register,
-Կեր շների  MONGE  MINI ADULT  SALMONE   15կգ,MG006077,TRUE,49000.0,49000.0,ok,yes,ok,Dry Food,register,
+Կեր շների    MONGE  MEDIUM  Puppy & Junior 15կգ,MG006347,TRUE,41000.0,41000.0,ok,yes,TWIN-RATE-WRONG (None vs 2950.0),Dry Food,register,fix per-kg rate -> 2950.0
+Կեր շների  GEMON AGNELLO/RISO 20կգ,MM005617,TRUE,32500.0,32500.0,ok,yes,TWIN-RATE-WRONG (None vs 1750.0),Dry Food,register,fix per-kg rate -> 1750.0
+Կեր շների  GEMON    PUPPY / JUNIOR   20կգ,MM005627,TRUE,34000.0,34000.0,ok,yes,TWIN-RATE-WRONG (None vs 1800.0),Dry Food,register,fix per-kg rate -> 1800.0
+Կեր շների  GEMON TONNO/RISO 20կգ,GM005607,TRUE,32500.0,32500.0,ok,yes,TWIN-RATE-WRONG (None vs 1750.0),Dry Food,register,fix per-kg rate -> 1750.0
+Կեր շների  GEMON   MINI  հավ   20կգ,MM005677,TRUE,28000.0,28000.0,ok,yes,TWIN-RATE-WRONG (None vs 1500.0),Dry Food,register,fix per-kg rate -> 1500.0
+Կեր շների  GEMON   REGULAR  20կգ,MM006177,TRUE,28000.0,28000.0,ok,yes,TWIN-RATE-WRONG (None vs 1500.0),Dry Food,register,fix per-kg rate -> 1500.0
+Կեր շների MONGE MAXI PUPPY/JUN. 15կգ,MG006027,TRUE,41000.0,41000.0,ok,yes,TWIN-RATE-WRONG (None vs 2850.0),Dry Food,register,fix per-kg rate -> 2850.0
+Կեր շների MONGE MINI STARTER 15կգ,MG006087,TRUE,54000.0,54000.0,ok,yes,TWIN-RATE-WRONG (None vs 3800.0),Dry Food,register,fix per-kg rate -> 3800.0
+Կեր շների  MONGE    MINI  ADULT   15կգ,MG006117,TRUE,41500.0,41500.0,ok,yes,TWIN-RATE-WRONG (None vs 2900.0),Dry Food,register,fix per-kg rate -> 2900.0
+Կեր շների  MONGE MINI  PUPPY/JUN. 15կգ,MG006107,TRUE,46500.0,46500.0,ok,yes,TWIN-RATE-WRONG (None vs 3200.0),Dry Food,register,fix per-kg rate -> 3200.0
+Կեր շների MONGE MINI ADULT AGNELLO գառ 15կգ,MG006067,TRUE,49000.0,49000.0,ok,yes,TWIN-RATE-WRONG (None vs 3400.0),Dry Food,register,fix per-kg rate -> 3400.0
+Կեր շների  MONGE  MINI ADULT  SALMONE   15կգ,MG006077,TRUE,49000.0,49000.0,ok,yes,TWIN-RATE-WRONG (None vs 3400.0),Dry Food,register,fix per-kg rate -> 3400.0
 "4 ԹԱԹ չոր կեր կատ. համար, հավ 14կգ",,FALSE,28000.0,,not-live,yes,needs-twin (product not live),,register,identify article code
 "4 ԹԱԹ չոր կեր կատ. համար, հորթ 14 կգ",,FALSE,28000.0,,not-live,yes,needs-twin (product not live),,register,identify article code
 ՄՅԱՈՒ չոր կեր կատ. համար հավ 11կգ,,FALSE,14500.0,,not-live,yes,needs-twin (product not live),,register,identify article code
 ՄՅԱՈՒ չոր կեր կատ. համար ճագար 11կգ,,FALSE,14500.0,,not-live,yes,needs-twin (product not live),,register,identify article code
 ՄՅԱՈՒ չոր կեր կատ. համար միս/բրինձ/բանջարեղեն 11կգ,,FALSE,14500.0,,not-live,yes,needs-twin (product not live),,register,identify article code
 ԳԱՖ չոր կեր  շն. համար Adult ասորտի 10կգ,,FALSE,9100.0,,not-live,yes,needs-twin (product not live),,register,identify article code
-"4 ԹԱԹ չոր կեր Premium ""Active"" հասուն շն.համար 14 կգ",909555,TRUE,22500.0,22500.0,ok,yes,ok,Dry Food,register,
-"4 ԹԱԹ չոր կեր Premium, մեծ ցեղատեսակի հասուն շն.համար 14 կգ",909645,TRUE,21000.0,21000.0,ok,yes,ok,Dry Food,register,
-"4 ԹԱԹ չոր կեր Premium, միջին ցեղատեսակի հասուն շն.համար 14 կգ",909715,TRUE,21000.0,21000.0,ok,yes,ok,Dry Food,register,
-"4 ԹԱԹ չոր կեր Premium, Բոլոր ցեղատեսակի շն. ձագերի համար, հավ 14 կգ",909695,TRUE,22500.0,22500.0,ok,yes,ok,Dry Food,register,
+"4 ԹԱԹ չոր կեր Premium ""Active"" հասուն շն.համար 14 կգ",909555,TRUE,22500.0,22500.0,ok,yes,TWIN-RATE-WRONG (None vs 1700.0),Dry Food,register,fix per-kg rate -> 1700.0
+"4 ԹԱԹ չոր կեր Premium, մեծ ցեղատեսակի հասուն շն.համար 14 կգ",909645,TRUE,21000.0,21000.0,ok,yes,TWIN-RATE-WRONG (None vs 1600.0),Dry Food,register,fix per-kg rate -> 1600.0
+"4 ԹԱԹ չոր կեր Premium, միջին ցեղատեսակի հասուն շն.համար 14 կգ",909715,TRUE,21000.0,21000.0,ok,yes,TWIN-RATE-WRONG (None vs 1600.0),Dry Food,register,fix per-kg rate -> 1600.0
+"4 ԹԱԹ չոր կեր Premium, Բոլոր ցեղատեսակի շն. ձագերի համար, հավ 14 կգ",909695,TRUE,22500.0,22500.0,ok,yes,TWIN-RATE-WRONG (None vs 1700.0),Dry Food,register,fix per-kg rate -> 1700.0
 "4 ԹԱԹ չոր կեր Premium, մեծ ցեղատեսակի շն. ձագերի համար, հավ 14 կգ",,FALSE,22500.0,,not-live,yes,needs-twin (product not live),,register,identify article code
-Կեր կատուների Orijen SIX FISH 5.4 կգ (85/15),2815412,TRUE,42000.0,42000.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA YORKSHIRE PORK խոզի համով 11.4 կգ,5721212,TRUE,52000.0,52000.0,ok,yes,ok,Dry Food,register,
-"4 ԹԱԹ չոր կեր Premium, փոքր ցեղատեսակի հասուն շն.համար 14 կգ",909545,TRUE,22500.0,22500.0,ok,yes,ok,Dry Food,register,
+Կեր կատուների Orijen SIX FISH 5.4 կգ (85/15),2815412,TRUE,42000.0,42000.0,ok,yes,TWIN-RATE-WRONG (None vs 7900.0),Dry Food,register,fix per-kg rate -> 7900.0
+Կեր շների ACANA YORKSHIRE PORK խոզի համով 11.4 կգ,5721212,TRUE,52000.0,52000.0,ok,yes,TWIN-RATE-WRONG (None vs 4600.0),Dry Food,register,fix per-kg rate -> 4600.0
+"4 ԹԱԹ չոր կեր Premium, փոքր ցեղատեսակի հասուն շն.համար 14 կգ",909545,TRUE,22500.0,22500.0,ok,yes,TWIN-RATE-WRONG (None vs 1700.0),Dry Food,register,fix per-kg rate -> 1700.0
 "4 ԹԱԹ չոր կեր կատ. համար, ճագար 14կգ",,FALSE,28000.0,,not-live,yes,needs-twin (product not live),,register,identify article code
-4 ԹԱԹ չոր կեր կատ. համար Hairball control 14 կգ,909335,TRUE,31500.0,31500.0,ok,yes,ok,Dry Food,register,
-Կեր շն. ACANA Sport & Agility (75/25) 11.4 կգ,AC5301112,TRUE,50000.0,50000.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA GRASS-FED LAMB (գառ) Singles 11.4 կգ,AC5701212,TRUE,58000.0,58000.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA Puppy Small Breed Heritage (70/30) 6 կգ,AC5026012,TRUE,26300.0,26300.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA Puppy & Junior Heritage (70/30) 11.4 կգ,AC5001112,TRUE,44500.0,44500.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA Adult Small Breed Heritage (60/40) 6 կգ,AC5236012,TRUE,26300.0,26300.0,ok,yes,ok,Dry Food,register,
-"Կեր շների ACANA Grasslands(առանց հացահատիկի,գառ) 11.4 կգ",AC5421112,TRUE,60000.0,60000.0,ok,yes,ok,Dry Food,register,
-"Կեր շների ACANA Pacifica(առանց հացահատիկի,ձուկ) 11.4 կգ",AC5411112,TRUE,56000.0,56000.0,ok,yes,ok,Dry Food,register,
-Կեր շների ACANA Free-Run Duck (բադ) Singles 11.4 կգ,AC5711212,TRUE,63000.0,63000.0,ok,yes,ok,Dry Food,register,
-ՄՅԱՈՒ չոր կեր կատ. համար/ քիթթեն 11կգ,902135,TRUE,15500.0,15500.0,ok,yes,ok,Dry Food,register,only hafo placeholder image
+4 ԹԱԹ չոր կեր կատ. համար Hairball control 14 կգ,909335,TRUE,31500.0,31500.0,ok,yes,TWIN-RATE-WRONG (None vs 2350.0),Dry Food,register,fix per-kg rate -> 2350.0
+Կեր շն. ACANA Sport & Agility (75/25) 11.4 կգ,AC5301112,TRUE,50000.0,50000.0,ok,yes,TWIN-RATE-WRONG (None vs 4500.0),Dry Food,register,fix per-kg rate -> 4500.0
+Կեր շների ACANA GRASS-FED LAMB (գառ) Singles 11.4 կգ,AC5701212,TRUE,58000.0,58000.0,ok,yes,TWIN-RATE-WRONG (None vs 5200.0),Dry Food,register,fix per-kg rate -> 5200.0
+Կեր շների ACANA Puppy Small Breed Heritage (70/30) 6 կգ,AC5026012,TRUE,26300.0,26300.0,ok,yes,TWIN-RATE-WRONG (None vs 4500.0),Dry Food,register,fix per-kg rate -> 4500.0
+Կեր շների ACANA Puppy & Junior Heritage (70/30) 11.4 կգ,AC5001112,TRUE,44500.0,44500.0,ok,yes,TWIN-RATE-WRONG (None vs 4000.0),Dry Food,register,fix per-kg rate -> 4000.0
+Կեր շների ACANA Adult Small Breed Heritage (60/40) 6 կգ,AC5236012,TRUE,26300.0,26300.0,ok,yes,TWIN-RATE-WRONG (None vs 4500.0),Dry Food,register,fix per-kg rate -> 4500.0
+"Կեր շների ACANA Grasslands(առանց հացահատիկի,գառ) 11.4 կգ",AC5421112,TRUE,60000.0,60000.0,ok,yes,TWIN-RATE-WRONG (None vs 5400.0),Dry Food,register,fix per-kg rate -> 5400.0
+"Կեր շների ACANA Pacifica(առանց հացահատիկի,ձուկ) 11.4 կգ",AC5411112,TRUE,56000.0,56000.0,ok,yes,TWIN-RATE-WRONG (None vs 5050.0),Dry Food,register,fix per-kg rate -> 5050.0
+Կեր շների ACANA Free-Run Duck (բադ) Singles 11.4 կգ,AC5711212,TRUE,63000.0,63000.0,ok,yes,TWIN-RATE-WRONG (None vs 5650.0),Dry Food,register,fix per-kg rate -> 5650.0
+ՄՅԱՈՒ չոր կեր կատ. համար/ քիթթեն 11կգ,902135,TRUE,15500.0,15500.0,ok,yes,TWIN-RATE-WRONG (None vs 1500.0),Dry Food,register,fix per-kg rate -> 1500.0; only hafo placeholder image
 Փոշի կաթ շների համար՝ LACTOL PUPPY 250 գ,15247,TRUE,7950.0,7950.0,ok,no,not-sold-by-kg,Supplements,register,
 "Ճիճվամուղ հաբեր 8-16 կգ շն. և կատ. համար, Inspector/Quadro I403",078002,TRUE,10750.0,10750.0,ok,no,not-sold-by-kg,Supplements,register,
 "Ճիճվամուղ հաբեր 0.5-2 կգ շն. և կատ. համար, Inspector/Quadro I401",077982,TRUE,8350.0,8350.0,ok,no,not-sold-by-kg,Supplements,register,
@@ -113,7 +113,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Գելմենտալ օշարակ 10կգ-ից բարձր շների համար E202,074032,TRUE,3650.0,3650.0,ok,no,not-sold-by-kg,Supplements,register,
 Կաթիլներ կատուների սեքս հսկիչ 3մլ Rolf Club էգ R105,071502,TRUE,2100.0,2100.0,ok,no,not-sold-by-kg,Supplements,register,
 Կաթիլներ կատուների սեքս հսկիչ 3մլ Rolf Club R106,071522,TRUE,2100.0,2100.0,ok,no,not-sold-by-kg,Supplements,register,
-Կատուների սեքս-հսկիչ 3մլ SPOT-ON R109,074322,FALSE,2700.0,,not-live,no,not-sold-by-kg,,register,create product
+Կատուների սեքս-հսկիչ 3մլ SPOT-ON R109,074322,TRUE,2700.0,2700.0,ok,no,not-sold-by-kg,Supplements,register,
 "Վզնոց միջատների դեմ`  կատուների համար, կանաչ 35սմ",,FALSE,2200.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Վզնոց միջատների դեմ`  կատուների համար, նարնջագույն 35սմ",10203,TRUE,2200.0,2200.0,ok,no,not-sold-by-kg,Supplements,register,
 "Վզնոց միջատների դեմ` կատուների համար, կապույտ 35սմ",,FALSE,2200.0,,not-live,no,not-sold-by-kg,,register,identify article code
@@ -185,13 +185,13 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 "Ցողարկիչ՝ կատուներին և շներին վանելու համար, Stop It Indoor, 200 մլ/1000526",21382,TRUE,5500.0,5500.0,ok,no,not-sold-by-kg,Supplements,register,only hafo placeholder image
 "Ցողարկիչ՝ կատուներին  վանելու համար, Stop It Indoor, 100 մլ",12527,TRUE,3850.0,3850.0,ok,no,not-sold-by-kg,Supplements,register,
 "Թաթերի բալզամ շների և կատուների համար,40 մլ",10270,TRUE,4100.0,4100.0,ok,no,not-sold-by-kg,Grooming,register,
-"Բիո-վզնոց միջատներին վախեցնող ՝ միջին ցեղ. շն. և ձագ. համար, կանաչ/65սմ",10665,FALSE,2700.0,,not-live,no,not-sold-by-kg,,register,create product
+"Բիո-վզնոց միջատներին վախեցնող ՝ միջին ցեղ. շն. և ձագ. համար, կանաչ/65սմ",10665,TRUE,2700.0,2700.0,ok,no,not-sold-by-kg,Supplements,register,
 Կերային հավելում շների համար Brewer's 260 հաբ,,FALSE,4000.0,,not-live,no,not-sold-by-kg,,register,identify article code
 Կերային  հավելում շների համար Brewer's Large 80 հաբ,,FALSE,4350.0,,not-live,no,not-sold-by-kg,,register,identify article code
 Կերային հավելում շների համար Կալցիում՝ 155 հաբ,,FALSE,3400.0,,not-live,no,not-sold-by-kg,,register,identify article code
-Կերային հավելում  շների համար մուլտի վիտամին փափի 100 հաբ,IN10863,FALSE,4300.0,,not-live,no,not-sold-by-kg,,register,create product
-Կերային հավելում շների համար մուլտի վիտամին սմոլ բրիդ 70 հաբ,IN10937,FALSE,4650.0,,not-live,no,not-sold-by-kg,,register,create product
-Կերային հավելում շների համար գլյուկոզամին + ՄՍՄ 55 հաբ,IN12429,FALSE,8200.0,,not-live,no,not-sold-by-kg,,register,create product
+Կերային հավելում  շների համար մուլտի վիտամին փափի 100 հաբ,IN10863,TRUE,4300.0,4300.0,ok,no,not-sold-by-kg,Supplements,register,
+Կերային հավելում շների համար մուլտի վիտամին սմոլ բրիդ 70 հաբ,IN10937,TRUE,4650.0,4650.0,ok,no,not-sold-by-kg,Supplements,register,
+Կերային հավելում շների համար գլյուկոզամին + ՄՍՄ 55 հաբ,IN12429,TRUE,8200.0,8200.0,ok,no,not-sold-by-kg,Supplements,register,
 Կերային հավելում հասուն շների համար Սենիոր՝ 70 հաբ,,FALSE,4650.0,,not-live,no,not-sold-by-kg,,register,identify article code
 Ատամի մածուկ մենթոլի համով 100գ,2557Tx,TRUE,1450.0,1450.0,ok,no,not-sold-by-kg,Grooming,register,
 Ատամի մածուկ թեյի ծառի յուղով 100գ,2549Tx,TRUE,1550.0,1550.0,ok,no,not-sold-by-kg,Grooming,register,
@@ -290,7 +290,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Տակդիր  լցանյութի համար ցանցով 37x28x6 սմ/09307034,,FALSE,2150.0,,not-live,no,not-sold-by-kg,,register,identify article code
 Տակդիր կատուների լցանյութի համար 30*22*4.5սմ/ 09307016,,FALSE,1500.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Տակդիր կատուների լցանյութի համար` 42.5*31*8 սմ, DOGMAN/09307018",61001K,FALSE,1950.0,,not-live,no,not-sold-by-kg,,register,create product
-"Տակդիր կատուների լցանյութի համար ցանցով` Интеко, М/09307021",03623K,FALSE,1700.0,,not-live,no,not-sold-by-kg,,register,create product
+"Տակդիր կատուների լցանյութի համար ցանցով` Интеко, М/09307021",03623K,TRUE,1700.0,1700.0,ok,no,not-sold-by-kg,Accessories,register,only hafo placeholder image
 Կեր կատ. համար  MONGE VET DIABETIC 1.5 կգ,081757,TRUE,11170.0,11170.0,ok,no,not-sold-by-kg,Dry Food,register,
 Կեր կատ. համար  MONGE VET HEPATIC 1.5 կգ,081687,TRUE,11170.0,11170.0,ok,no,not-sold-by-kg,Dry Food,register,
 Կեր կատ. համար  MONGE VET RENAL 1.5 կգ,081657,TRUE,11170.0,11170.0,ok,no,not-sold-by-kg,Dry Food,register,
@@ -399,7 +399,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Պահածո Gemon կատուների թյունոս/օվկիանոսային ձուկ 415գ,300747,TRUE,900.0,900.0,ok,no,not-sold-by-kg,Wet Food,register,
 4 ԹԱԹ ժելե կատուների համար Sterilised 80գ,908935,TRUE,400.0,400.0,ok,no,not-sold-by-kg,Wet Food,register,
 Պահածո շն Monge Grain Free Monoproteico բադ 400գ,014437,TRUE,2350.0,2350.0,ok,no,not-sold-by-kg,Wet Food,register,
-"Հյուրասիրություն կատ. և ձագերի համար՝ կատվի անանուխով, 35 գ",12623,FALSE,1300.0,,not-live,no,not-sold-by-kg,,register,create product
+"Հյուրասիրություն կատ. և ձագերի համար՝ կատվի անանուխով, 35 գ",12623,TRUE,1300.0,1300.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն կատուների համար` VIT bits, 35գ",12625,FALSE,2600.0,,not-live,no,not-sold-by-kg,,register,create product
 Հյուրասիրություն շների Bony Mix` գունավոր ոսկորիկներ  կգ,31526Tx,TRUE,6300.0,6300.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն շների համար PREMIO, սիգարներ՝ սաղմոնով, 70գ",31576Tx,TRUE,2500.0,2500.0,ok,no,not-sold-by-kg,Treats,register,
@@ -470,19 +470,19 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Մնյամս կատուների համար պյուրե՝ թյունոսով և ծովախեցգետնով  15գ x4,703823,FALSE,1100.0,,not-live,no,not-sold-by-kg,,register,create product
 "Հյուրասիրություն շների համար՝ հորթի միս և քունջութի սերմեր, 90գ",212836,TRUE,2350.0,2350.0,ok,no,not-sold-by-kg,Treats,register,
 "Ջլե գնդակներ՝ հավի համով, S, 2 հատ/40 գ",10778S,FALSE,3150.0,,not-live,no,not-sold-by-kg,,register,create product
-"Ջլե ձողիկներ՝ հավի համով, M, 3 հատ",10250S,FALSE,3100.0,,not-live,no,not-sold-by-kg,,register,create product
+"Ջլե ձողիկներ՝ հավի համով, M, 3 հատ",10250S,TRUE,3100.0,3100.0,ok,no,not-sold-by-kg,Treats,register,
 "Ոսկոր` հանգույցներով, S, հավի համով, 35 գ",,FALSE,1800.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Ձողիկներ` DENTAL, հավի համով, XS, 55 գ",12253S,TRUE,2900.0,2900.0,ok,no,not-sold-by-kg,Treats,register,
 "Ձողիկներ՝ ջլե, հավի համով, 55 գ",,FALSE,2600.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ ճագարի ականջներ,55գ",,FALSE,1000.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ կալցիում ոսկորներ՝ բադի,55գ",,FALSE,1000.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն փոքր ցեաղտեսակի շների համար՝ կալցիում ոսկորներ՝ հավի, 55գ",,FALSE,1000.0,,not-live,no,not-sold-by-kg,,register,identify article code
-Հյուրասիրություն շն. ձագերի համար՝ գառան ձողիկներ 90գ,DL710306,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,create product
+Հյուրասիրություն շն. ձագերի համար՝ գառան ձողիկներ 90գ,DL710306,TRUE,2350.0,2350.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն շների ձագերի համար՝ բադ, 90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն ձագերի համար՝ հավի, 90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
 Հյուրասիրություն շն. ձագերի համար՝ հավի մսային օղակներ 90 գ,,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
-"Հյուրասիրություն շն. ձագերի համար՝ ճագարի ականջներ, 90 գ",DL711836,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,create product
-Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ ճագարի ականջներ 15գ,DL711396,FALSE,1050.0,,not-live,no,not-sold-by-kg,,register,create product
+"Հյուրասիրություն շն. ձագերի համար՝ ճագարի ականջներ, 90 գ",DL711836,TRUE,2350.0,2350.0,ok,no,not-sold-by-kg,Treats,register,
+Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ ճագարի ականջներ 15գ,DL711396,TRUE,1050.0,1050.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն փոքր ցեղաատեսակի շների համար՝ հավի կրծքամսի կռճիկ,30գ",,FALSE,1550.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ բադ,55գ",,FALSE,1000.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն փոքր ցեղատեսակի շների համար՝ բադի կրծքամիս,55գ",,FALSE,1000.0,,not-live,no,not-sold-by-kg,,register,identify article code
@@ -499,9 +499,9 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Հյուրասիրություն շների համար 85գ հնդկահավ և բրինձ՝ կլորակներ,,FALSE,2700.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն շների համար՝ բադի ձողիկներ,90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն շների համար՝ բադի,90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
-Հյուրասիրություն շների համար՝ բադի խորոված 90գ,DL711796,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,create product
+Հյուրասիրություն շների համար՝ բադի խորոված 90գ,DL711796,TRUE,2350.0,2350.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն շների համար՝ հավի կրծքամիս,90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
-"Հյուրասիրություն շների համար՝ հավի խորոված,90գ",DL711166,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,create product
+"Հյուրասիրություն շների համար՝ հավի խորոված,90գ",DL711166,TRUE,2350.0,2350.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն շների համար՝ պտտված հավի ձողիկներ,90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն շների համար՝ հավի մեդալիոն,90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Հյուրասիրություն շների համար՝ հավի միս,90գ",,FALSE,2350.0,,not-live,no,not-sold-by-kg,,register,identify article code
@@ -549,7 +549,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Հյուրասիրություն շն. համար` հավի ձողիկներ 400 գ PREMIO,31588Tx,TRUE,7850.0,7850.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն շն,` ձողիկներ ոլորած հավ և ձուկ, 80 գ PREMIO",31747Tx,TRUE,1400.0,1400.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն շն,` ձողիկներ ճագարի մսով 100գ",31709Tx,TRUE,1900.0,1900.0,ok,no,not-sold-by-kg,Treats,register,
-"Հյուրասիրություն՝ հավի մսային բեկորներ գազարով, 50 գ",14612S,FALSE,2400.0,,not-live,no,not-sold-by-kg,,register,create product
+"Հյուրասիրություն՝ հավի մսային բեկորներ գազարով, 50 գ",14612S,TRUE,2400.0,2400.0,ok,no,not-sold-by-kg,Treats,register,
 "Թխվածքաբլիթներ շն.` գառան մսով, կգ",31664Tx,TRUE,2000.0,4150.0,HELD (at/below cost),no,not-sold-by-kg,Treats,register,PM to confirm register price 2000.0 (HELD (at/below cost))
 Մսային բեկորներ շների համար ճագար/ձուկ 100 գ,31547Tx,TRUE,1800.0,1800.0,ok,no,not-sold-by-kg,Treats,register,
 "Հյուրասիրություն շների համար PREMIO, սուշի բեկորներ 60գ",31572Tx,TRUE,1400.0,1400.0,ok,no,not-sold-by-kg,Treats,register,
@@ -561,10 +561,10 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Հյուրասիրություն կատուների համար՝ malt biits ձկան համով 35գ,12621,TRUE,1300.0,1300.0,ok,no,not-sold-by-kg,Treats,register,
 Հյուրասիրություն կատուների համար՝ malt biits 35գ,12622,TRUE,1300.0,1300.0,ok,no,not-sold-by-kg,Treats,register,
 Կեր շների համար բադի և ձկան համով 80գ,31804Tx,TRUE,1900.0,1900.0,ok,no,not-sold-by-kg,Treats,register,
-Թխվածքաբլիթ շների համար՝ բադի և խնձորի համով 100գ,504026,FALSE,1050.0,,not-live,no,not-sold-by-kg,,register,create product
-Թխվածքաբլիթ շների համար՝ ճագարի և գազարի համով 100գ,504036,FALSE,1050.0,,not-live,no,not-sold-by-kg,,register,create product
-Թխվածքաբլիթ շների համար՝ հորթի և սպանախի համով 100գ,504046,FALSE,1050.0,,not-live,no,not-sold-by-kg,,register,create product
-Թխվածքաբլիթ շների համար՝ գառի և դդմի համով 100գ,504056,FALSE,1050.0,,not-live,no,not-sold-by-kg,,register,create product
+Թխվածքաբլիթ շների համար՝ բադի և խնձորի համով 100գ,504026,TRUE,1050.0,1050.0,ok,no,not-sold-by-kg,Treats,register,
+Թխվածքաբլիթ շների համար՝ ճագարի և գազարի համով 100գ,504036,TRUE,1050.0,1050.0,ok,no,not-sold-by-kg,Treats,register,
+Թխվածքաբլիթ շների համար՝ հորթի և սպանախի համով 100գ,504046,TRUE,1050.0,1050.0,ok,no,not-sold-by-kg,Treats,register,
+Թխվածքաբլիթ շների համար՝ գառի և դդմի համով 100գ,504056,TRUE,1050.0,1050.0,ok,no,not-sold-by-kg,Treats,register,
 Հյուրասիրություն շն. համար` բադի կրծքամիս 100 գ,31537Tx,TRUE,1950.0,1950.0,ok,no,not-sold-by-kg,Treats,register,
 Հյուրասիրություն շն. Mini Bones` գունավոր ոսկորիկներ 500գ,31523Tx,TRUE,3150.0,3150.0,ok,no,not-sold-by-kg,Treats,register,
 Գունավոր աստղիկներ կատուների համար 140 գ,42733Tx,TRUE,1950.0,1950.0,ok,no,not-sold-by-kg,Treats,register,
@@ -653,7 +653,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 "Շերեփ պլաստիկե, կատուների լցանյութի համար M",4049Tx,TRUE,500.0,500.0,ok,no,not-sold-by-kg,Accessories,register,
 "Շերեփ պլաստիկե, կատուների լցանյութի համար L",40472Tx,TRUE,950.0,950.0,ok,no,not-sold-by-kg,Accessories,register,
 "Շերեփ պլաստիկե, կատուների լցանյութի համար` ցանցով L",40471Tx,TRUE,950.0,950.0,ok,no,not-sold-by-kg,Accessories,register,
-"Խաղալիք թենիսի գնդակ, կտորից կենդանիներ 16սմ",36121Tx,TRUE,2600.0,2600.0,ok,no,not-sold-by-kg,Toys,register,no images
+"Խաղալիք թենիսի գնդակ, կտորից կենդանիներ 16սմ",36121Tx,TRUE,2600.0,2600.0,ok,no,not-sold-by-kg,Toys,register,
 "Խաղալիք փափուկ,կտորից ֆլամինգո 35սմ",35969Tx,TRUE,3600.0,3600.0,ok,no,not-sold-by-kg,Toys,register,
 "Խաղալիք կտորից, պարանից կենդանիներ 32 սմ",35894Tx,TRUE,3350.0,3350.0,ok,no,not-sold-by-kg,Toys,register,
 "Խաղալիք փափուկ, կտորից լամա 30 սմ",35763Tx,TRUE,4450.0,4450.0,ok,no,not-sold-by-kg,Toys,register,
@@ -998,7 +998,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 "Ոսկոր` հանգույցներով, L DENTAL, հավի համով, 85 գ",10268S,TRUE,3200.0,3200.0,ok,no,not-sold-by-kg,Treats,register,
 "Ոսկոր XS, հավի համով, 7 հատ/140 գ",,FALSE,3400.0,,not-live,no,not-sold-by-kg,,register,identify article code
 "Ոսկոր` հանգույցներով, L, տավարի համով, 85 գ",,FALSE,3250.0,,not-live,no,not-sold-by-kg,,register,identify article code
-"Ֆիլե` հավի համով, մարսողությանը նպաստող, 80 գ",11244S,FALSE,1950.0,,not-live,no,not-sold-by-kg,,register,create product
+"Ֆիլե` հավի համով, մարսողությանը նպաստող, 80 գ",11244S,TRUE,1950.0,1950.0,ok,no,not-sold-by-kg,Treats,register,
 "Ֆիլե` հավի համով, մաշկի և մորթու համար, 80 գ",11241S,TRUE,1950.0,1950.0,ok,no,not-sold-by-kg,Treats,register,
 "Ֆիլե` հավի համով, գլյուկոզամինով հարուստ, 80 գ",11238,TRUE,1950.0,1950.0,ok,no,not-sold-by-kg,Treats,register,
 "Ֆիլե` հավի համով, PRO DENTAL, 80 գ",11235S,TRUE,1950.0,1950.0,ok,no,not-sold-by-kg,Treats,register,
@@ -1025,7 +1025,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 "Հյուրասիրություն կատ. ձագերի համար՝ սաղմոն/հավ բեկորներ, 40 գ",42754,TRUE,1200.0,1200.0,ok,no,not-sold-by-kg,Treats,register,
 Շերեփ կատուների լցանյութի համար` աղբի տոպրակով,40477Tx,TRUE,1400.0,1400.0,ok,no,not-sold-by-kg,Accessories,register,
 "Գուլպա շների համար` ռետինապատ, L/սև, 2 հատ",19524Tx,TRUE,5100.0,5100.0,ok,no,not-sold-by-kg,Accessories,register,
-"Սանր ձեռնոց՝ նեյլոն/կաուչուկ, փափուկ ռետինե ատամիկներով, զույգով/16*23 սմ",23394Tx,TRUE,6500.0,6500.0,ok,no,not-sold-by-kg,Grooming,register,no images
+"Սանր ձեռնոց՝ նեյլոն/կաուչուկ, փափուկ ռետինե ատամիկներով, զույգով/16*23 սմ",23394Tx,TRUE,6500.0,6500.0,ok,no,not-sold-by-kg,Grooming,register,
 "Մասաժոր ռետինե` կլոր, մատերին և ձեռքին ամրացվող, 11*14 սմ",24165Tx,TRUE,3150.0,3150.0,ok,no,not-sold-by-kg,Grooming,register,
 "Սանր շների՝ սև/մոխրագույն բռնակով, մետաղյա մանր ատամիկներով, 22սմ",23763Tx,TRUE,3500.0,3500.0,ok,no,not-sold-by-kg,Grooming,register,
 "Սանր շների համար՝ սև/մոխրագույն բռնակով, պտտվող ատամիկներով, 18 սմ",2411Tx,TRUE,1500.0,1500.0,ok,no,not-sold-by-kg,Grooming,register,
@@ -1111,7 +1111,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 "Սանր՝ մասաժոր կատուների համար, 8*13 սմ, պլաստիկե",23131Tx,TRUE,2250.0,2250.0,ok,no,not-sold-by-kg,Grooming,register,
 "Լիպկի ռոլիկ XXL, մազերը հավաքելու համար, սիլիկոնե գլխիկով, 20*30 սմ",23236Tx,TRUE,5100.0,5100.0,ok,no,not-sold-by-kg,Accessories,register,
 "Խոզանակ՝ մազերը հավաքելու համար, պլաստիկե, 7*10 սմ",23237Tx,TRUE,2200.0,2200.0,ok,no,not-sold-by-kg,Accessories,register,
-"Ոսկոր՝ XS, հավի և խոզի համերով, 7 հատ/ 84 գ",12207S,FALSE,2900.0,,not-live,no,not-sold-by-kg,,register,create product
+"Ոսկոր՝ XS, հավի և խոզի համերով, 7 հատ/ 84 գ",12207S,TRUE,2900.0,2900.0,ok,no,not-sold-by-kg,Treats,register,only hafo placeholder image
 "Հյուրասիրություն՝ 100% բադի մսային բեկորներ, 50 գ",14604S,TRUE,2400.0,2400.0,ok,no,not-sold-by-kg,Treats,register,
 "Շլեյկա նեյլոնե, L 60–100 սմ 25 մմ/կապույտ-royal blue/20412",204102Tx,TRUE,7000.0,7000.0,ok,no,not-sold-by-kg,Accessories,register,
 "Խաղալիք շների կտորից ոզնի սև/սպիտակ, 12 սմ",34748Tx,TRUE,1950.0,1950.0,ok,no,not-sold-by-kg,Toys,register,
@@ -1151,10 +1151,10 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 "Կերաման չժանգոտվող պողպատից,ռետինե տակով, սրտիկներով, շն. համար 1լ/17սմ",25272Tx,TRUE,3000.0,3000.0,ok,no,not-sold-by-kg,Accessories,register,
 "Կերաման չժանգոտվող պողպատից,ռետինե տակով, շն. համար, Slow Feed 1լ/21սմ",25249Tx,TRUE,7600.0,7600.0,ok,no,not-sold-by-kg,Accessories,register,
 "Կերաման երկտեղանոց, մելամինապատ, ռետինե տակով, 2*0,2լ/13սմ/27*3*14սմ/ սպիտակ",25187Tx,TRUE,4800.0,4800.0,ok,no,not-sold-by-kg,Accessories,register,
-"Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,2լ/14սմ/ սպիտակ",25060Tx,TRUE,3800.0,3800.0,ok,no,not-sold-by-kg,Accessories,register,no images
+"Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,2լ/14սմ/ սպիտակ",25060Tx,TRUE,3800.0,3800.0,ok,no,not-sold-by-kg,Accessories,register,
 "Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,4լ/17սմ/ սպիտակ",25061Tx,TRUE,5800.0,5800.0,ok,no,not-sold-by-kg,Accessories,register,
-"Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,8լ/22սմ/ սպիտակ",25062Tx,TRUE,8000.0,8000.0,ok,no,not-sold-by-kg,Accessories,register,no images
-"Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,2լ/14սմ/ բեժ",25063Tx,TRUE,3800.0,3800.0,ok,no,not-sold-by-kg,Accessories,register,no images
+"Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,8լ/22սմ/ սպիտակ",25062Tx,TRUE,8000.0,8000.0,ok,no,not-sold-by-kg,Accessories,register,
+"Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,2լ/14սմ/ բեժ",25063Tx,TRUE,3800.0,3800.0,ok,no,not-sold-by-kg,Accessories,register,
 "Կերաման BE NORDIC, մելամինապատ, ռետինե տակով, 0,8լ/22սմ/ բեժ",25065Tx,TRUE,8000.0,8000.0,ok,no,not-sold-by-kg,Accessories,register,
 "Ձգափոկ` կարգավորվող, նեյլոնե, XS-S 2մ/15մմ/indigo/01764",200713Tx,TRUE,5700.0,5700.0,ok,no,not-sold-by-kg,Accessories,register,
 "Ձգափոկ` կարգավորվող, նեյլոնե, XS-S 2մ/15մմ/կանաչ/apple/41881",200717Tx,TRUE,5700.0,5700.0,ok,no,not-sold-by-kg,Accessories,register,no images
@@ -1258,7 +1258,7 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 Ցողարկիչ բերանի խոռոչի համար  100մլ  Ag+ Cliny  K110,074282,TRUE,2350.0,2350.0,ok,no,not-sold-by-kg,Supplements,register,
 "Մածուկ կատուների մազագնդիկների դեմ՝  malt, 75մլ, Ag+ Cliny K108",073512,TRUE,3750.0,3750.0,ok,no,not-sold-by-kg,Supplements,register,
 Ատամի գել ` 75մլ   Ag+ Cliny  K104,073502,TRUE,2550.0,2550.0,ok,no,not-sold-by-kg,Supplements,register,
-Ձգափոկ մեխանիկական` max-12կգ/3մ/XS չափ/լենտա/NEON,FX023508,FALSE,8700.0,,not-live,no,not-sold-by-kg,,register,create product
+Ձգափոկ մեխանիկական` max-12կգ/3մ/XS չափ/լենտա/NEON,FX023508,TRUE,8700.0,8700.0,ok,no,not-sold-by-kg,Accessories,register,
 "Խաղալիք  շների DOG ACTIVITY, հյուրասիրություն և խաղ 23 սմ",32026Tx,TRUE,5200.0,5200.0,ok,no,not-sold-by-kg,Toys,register,
 Ցողարկիչ կատուների ճանկելու դեմ 200մլ Mr.Fresh F406,076482,TRUE,2700.0,2700.0,ok,no,not-sold-by-kg,Accessories,register,
 "Խաղալիք՝ կատուների ձագերի համար, գնդակ ձողի վրա, 18 սմ",46000Tx,TRUE,5450.0,5450.0,ok,no,not-sold-by-kg,Toys,register,
@@ -1270,10 +1270,10 @@ My Love Junior չոր կեր  շների ձագերի համար 11կգ,,FALSE,1
 "Շամպուն շների ձագերի համար՝ BIO, ալոե վեռա/պապայա, 200 մլ",12281,TRUE,5500.0,5500.0,ok,no,not-sold-by-kg,Grooming,register,
 "Շամպուն շների մորթու համար՝ BIO, ալոե վեռա/մակադամիայի յուղ, 200 մլ",12282,TRUE,5500.0,5500.0,ok,no,not-sold-by-kg,Grooming,register,
 "Շամպուն զգայուն մաշկով շների համար՝ BIO, ալոե վեռա/սև հաղարջ, 200 մլ",12287,TRUE,5500.0,5500.0,ok,no,not-sold-by-kg,Grooming,register,
-"Մածուկ շն./կատ. համար՝ ԿԱԼՑԻՈՒՄ +, 75 մլ/ K116",077412,FALSE,3200.0,,not-live,no,not-sold-by-kg,,register,create product
+"Մածուկ շն./կատ. համար՝ ԿԱԼՑԻՈՒՄ +, 75 մլ/ K116",077412,TRUE,3200.0,3200.0,ok,no,not-sold-by-kg,Supplements,register,
 "Ցողարկիչ շների և կատուների թաթիկների համար, 50 մլ",2572Tx,TRUE,1700.0,1700.0,ok,no,not-sold-by-kg,Grooming,register,
 "Ձգափոկ մեխանիկական, M-25 կգ/5մ լենտա, վարդագույն, NEON",032108,TRUE,12800.0,12800.0,ok,no,not-sold-by-kg,Accessories,register,
-"Ձգափոկ  մեխանիկական, XS-8կգ/3մ տռոս, բաց կապույտ COMFORT",042718,FALSE,6450.0,,not-live,no,not-sold-by-kg,,register,create product
+"Ձգափոկ  մեխանիկական, XS-8կգ/3մ տռոս, բաց կապույտ COMFORT",042718,TRUE,6450.0,6450.0,ok,no,not-sold-by-kg,Accessories,register,
 "Ձգափոկ մեխանիկական, S-15 կգ/5մ լենտա, նարնջագույն, NEON",032008,TRUE,10700.0,10700.0,ok,no,not-sold-by-kg,Accessories,register,
 "Ձգափոկ մեխանիկական, S-15 կգ/5մ լենտա, կապույտ, NEON",032038,TRUE,10700.0,10700.0,ok,no,not-sold-by-kg,Accessories,register,
 "Ձգափոկ մեխանիկական, M-25 կգ/5մ լենտա, կանաչ, NEON",031908,TRUE,12800.0,12800.0,ok,no,not-sold-by-kg,Accessories,register,

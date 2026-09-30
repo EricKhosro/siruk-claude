@@ -122,7 +122,15 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
    match: same brand, line, and pack weight as the CSV name. If the exact weight
    isn't on the site, use the closest product page for copy/images and keep the
    CSV pack weight in the admin Name/Label. If the brand site is unreachable or has no
-   product page, use the fallback sites in order — country TLD, then
+   product page, use the fallback sites in order — country TLD, then the
+   **barcode lookup** (`scripts/barcode-lookup.py --code <art> --name "<name>"`,
+   then WebSearch the EAN in quotes): it tells you what the product is and
+   which pages print our barcode. Identity needs two independent EAN pages
+   that agree with hafo's name; name, texts and photos come only from pages
+   that print our exact EAN; log the row in `runs/<date>/barcode-sourced.csv`
+   (`reference/image-sources.md` → "Barcode lookup"). Also run it whenever the
+   identity is in doubt (flavour, recipe, size) — don't park such a row
+   before its barcode has been searched. Then
    **4lapy.ru by EAN** (`scripts/4lapy-lookup.py --search "<brand line words>"
    --ean <ean>`: photos + texts, confirmed by the barcode), then zoovet.am
    (confirmed by hand), then **petshop.ru for texts only** (confirmed by hand,
@@ -187,7 +195,7 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
      brand page; product-wide facts (breed size, food form, diet, health
      feature) are identical on every variant — if they aren't, it's a separate
      product (see `reference/data-tables.md`).
-7. **Images** — `scripts/upload-media.sh <image-url> products/<brand-slug>/<type>/`
+7. **Images** — `scripts/upload-media.sh <image-url> products/<brand-slug>/<type>`
    per image (it downloads with a browser User-Agent and prints the media id).
    The folder is required by rule 7 — never the media root; `<type>` is the
    type skill's name (`dry-food`, `toys`, …). `MEDIA_DIR=…` in the environment
@@ -204,7 +212,9 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
    when the product has no clean image at all — then add the variant to
    `runs/<date>/needs-packshot.csv`.
    Source order for the gallery: brand site **including its country domains**
-   (`scripts/trixie-image.sh` already merges trixie.es) → a **confirmed**
+   (`scripts/trixie-image.sh` already merges trixie.es) → photos from pages
+   the **barcode lookup** found that print our exact EAN (looked at, clean,
+   unwatermarked) → a **confirmed**
    zoovet.am original, which is unwatermarked and therefore a finished image
    (it leads the gallery and the variant does NOT go on `needs-image.csv`) →
    a hafo photo, which is a watermarked placeholder: last in the gallery and

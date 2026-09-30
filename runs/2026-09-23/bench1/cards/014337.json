@@ -1,0 +1,52 @@
+{
+ "code": "014337",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "wet-food",
+ "brand_id": 5,
+ "name": "Fruit Adult Dog Paté",
+ "label": "Turkey with Citrus Fruits 400 g",
+ "existing_id": 626,
+ "category_ids": [
+  4
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Turkey",
+   "quote": "single source of animal protein – turkey"
+  },
+  "texture": {
+   "value": "Pate",
+   "quote": "complete wet food for adult dogs"
+  },
+  "ingredient": {
+   "value": "Turkey",
+   "quote": "Turkey 65% (equivalent to 100% of the meat used)"
+  },
+  "product-weight": {
+   "value": "400 g",
+   "quote": "MONGE DOG FRUIT TURKEY WITH CITRUS FRUITS 400g"
+  },
+  "lifestage": {
+   "value": "Adult",
+   "quote": "complete wet food for adult dogs"
+  }
+ },
+ "images": [
+  "https://monge.shop/3688-thickbox_default/monge-dog-fruit-turkey-with-citrus-fruits-400g.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Monge Monoprotein Dog Fruit Turkey with Citrus Fruits is a complete wet food for adult dogs, combining a high-quality source of animal protein with fruit and tapioca. The recipe is based on a single source of animal protein – turkey, which provides high-quality, easily digestible protein with high biological value. The addition of citrus fruits enriches the recipe with plant-based ingredients and gives it a distinctive character.",
+  "ingredient_information": "Composition: Turkey 65% (equivalent to 100% of the meat used), tapioca 5%, citrus fruits 4%, minerals. Analytical constituents: Crude protein 8%, crude fibre 0.5%, crude fat 6.5%, crude ash 1.5%, moisture 80%.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://monge.shop/gb/monoprotein/348-monge-dog-fruit-turkey-with-citrus-fruits-400g.html"
+ },
+ "evidence_file": "cards/014337.source.txt"
+}

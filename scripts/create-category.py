@@ -8,7 +8,7 @@ duplicated. Slugs follow the live convention `<pet>-<parent>-<leaf>`.
 
     scripts/create-category.py spec.json [--dry-run]
 
-spec.json: [{"parent": 1 | "Dog > Supplies", "name": "...", "slug": "...",
+spec.json: [{"parent": null | 1 | "Dog > Supplies", "name": "...", "slug": "...",
              "meta_title": "..."}, ...]  — parents are created before children
 when listed first, and a later entry may name an earlier one by path.
 
@@ -60,11 +60,13 @@ def main():
 
     for e in spec:
         p = e["parent"]
-        parent_id = p if isinstance(p, int) else paths.get(p)
-        if parent_id is None:
-            sys.exit(f"parent not found: {p!r} (for {e['name']!r})")
-        parent_path = flat[parent_id]["path"]
-        full = f"{parent_path} > {e['name']}"
+        if p is None:  # a new top-level pet (Bird, Small Animal — 2026-09-28)
+            parent_id, full = None, e["name"]
+        else:
+            parent_id = p if isinstance(p, int) else paths.get(p)
+            if parent_id is None:
+                sys.exit(f"parent not found: {p!r} (for {e['name']!r})")
+            full = f"{flat[parent_id]['path']} > {e['name']}"
         if full in paths:
             print(f"  exists  {paths[full]:>3}  {full}")
             continue

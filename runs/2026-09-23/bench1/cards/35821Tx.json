@@ -1,0 +1,52 @@
+{
+  "code": "35821Tx",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "toys",
+  "brand_id": 8,
+  "name": "Puppy Dog Tug Toy",
+  "label": "17 cm",
+  "existing_id": null,
+  "category_ids": [
+    19
+  ],
+  "price": {
+    "source": "prepared"
+  },
+  "attributes": {
+    "toy-type": {
+      "value": "Rope & Tug",
+      "quote": "Պարանից խաղալիք շների համար"
+    },
+    "material": {
+      "value": "Plush",
+      "quote": "Material: plush dog toy joined by a rope section."
+    },
+    "toy-feature": {
+      "value": "With Rope",
+      "quote": "պարանից 17սմ"
+    },
+    "toy-size": {
+      "value": "17 cm",
+      "quote": "17սմ"
+    },
+    "color-family": {
+      "value": "Brown",
+      "quote": "Looked at first image: brown plush dog toy on white background, in two halves joined by a rope."
+    }
+  },
+  "images": [
+    "https://d1b3l6j8a0ngef.cloudfront.net/uploads/1542381961863119288.jpg"
+  ],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "A soft plush dog-shaped tug toy joined by a rope section, 17 cm.",
+    "ingredient_information": null,
+    "feeding_instructions": null
+  },
+  "source": {
+    "kind": "hafo",
+    "url": "https://hafo.am/products/paranic-xaxaliq-shneri-hamar"
+  },
+  "evidence_file": "cards/35821Tx.source.txt"
+}

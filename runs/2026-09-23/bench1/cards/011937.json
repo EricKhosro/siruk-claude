@@ -1,0 +1,29 @@
+{
+  "code": "011937",
+  "status": "ready",
+  "hold_reason": null,
+  "type": "dry-food",
+  "brand_id": 5,
+  "name": "Sterilised Rich in Chicken",
+  "label": "1.5 kg",
+  "existing_id": null,
+  "category_ids": [10],
+  "price": {"source": "prepared"},
+  "attributes": {
+    "lifestage": {"value": "Adult", "quote": "Monge Natural Superpremium Sterilised Rich in Chicken is a complete food for adult cats"},
+    "special-diet": {"value": "Sterilised", "quote": "Sterilised Rich in Chicken"},
+    "health-feature": {"value": "Weight Management", "quote": "low fat* content to help the maintenance of ideal body weight"},
+    "flavor": {"value": "Chicken", "quote": "Formulated with chicken as its main ingredient"},
+    "ingredient": {"value": "Chicken", "quote": "Chicken (26% dehydrated meat, 10% fresh)"},
+    "product-weight": {"value": "1.5 kg", "quote": "400 g - 1,5 kg - 10 kg"}
+  },
+  "images": ["https://www.monge.it/wp-content/uploads/2016/04/STERILISED-CHICKEN_15KG_8009470011938.jpg"],
+  "first_image": "packshot",
+  "texts": {
+    "about_this_item": "Monge Natural Superpremium Sterilised Rich in Chicken is a complete food for adult cats, formulated with chicken as its main ingredient and salmon oil for a soft, shiny coat. Enriched with XOS and MOS prebiotics for intestinal wellness. Low fat and high fibre content help maintain ideal body weight. No added dyes or artificial preservatives.",
+    "ingredient_information": "Chicken (26% dehydrated meat, 10% fresh), wheat, corn gluten, corn, hydrolysed animal protein (liver), animal fat (chicken oil purified at 99.5%), pea fibre (3%), dried egg, fish (dried salmon), fish oil 2% (salmon oil purified at 99.5%), minerals, yeast products (mannan-oligo-saccharides MOS 1%), Xylo-oligosaccharide (XOS 0.3%), products from the processing of herbs (rose hip 0.1%), Yucca schidigera (0.1%).",
+    "feeding_instructions": "Daily feeding intakes may be adapted according to the cat's size, age and living conditions. The recommended daily intakes may be split into two meals. Fresh and clean water should be available at all times."
+  },
+  "source": {"kind": "brand-site", "url": "https://www.monge.it/en/product/sterilized-con-pollo/"},
+  "evidence_file": "cards/011937.source.txt"
+}

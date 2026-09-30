@@ -79,6 +79,14 @@
         "_comment": "trixie.de + its CDN and the country domains (trixie.es, scripts/trixie-es.py), monge.it / monge.shop by EAN, schesir.com, neoterica.ru … (reference/brand-sites.md). Ranked by the file-name prefix where the brand has one."
       },
       {
+        "id": "barcode-lookup",
+        "enabled": true,
+        "kind": "ean-search",
+        "lookup_script": "scripts/barcode-lookup.py",
+        "key": "our EAN, taken from hafo only when hafo confirms the article code and the barcode sits on the variant whose sku is ours",
+        "_note": "Added 2026-09-25 (user). Runs when the brand site and its country domains have no page for the pack, or the identity is in doubt: local EAN caches + UPCitemdb + Open Pet Food Facts, then a WebSearch for the EAN in quotes. Identity from two independent EAN pages agreeing with hafo's name; name/texts/photos only from pages that print our exact EAN; bot-walled / robots-excluded sites are never opened. Rules: reference/image-sources.md -> 'Barcode lookup'."
+      },
+      {
         "id": "trixie-es",
         "enabled": true,
         "brands": [
