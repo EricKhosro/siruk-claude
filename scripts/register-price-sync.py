@@ -17,9 +17,10 @@ price must beat cost):
     today (2026-09-16: a 150 g paté at 9,600 next to 1,000 siblings). Those
     are written as SUSPECT for the PM to confirm, never applied blind.
 
-`fixed` variants get `price`; `per_kg` variants get `price_per_kg` =
-register price ÷ the variant's `weight`, so rate × weight reads back as the
-register price.
+Every live variant is sale_mode "pack" since the 2026-09-29 catalog model and
+`price` is always the pack price, so the register price is written straight to
+`price` (the old per_kg / price_per_kg branch is gone). set-variant.sh rebuilds
+the body through scripts/siruk_payload.py and refuses a failing check.
 
     scripts/register-price-sync.py --run state/register            # dry run, writes price-sync.csv
     scripts/register-price-sync.py --run state/register --apply
@@ -68,7 +69,7 @@ def main():
         cost = num(r["cost"]) or 0
         rec = {"reg_no": "; ".join(x["reg_no"] for x in rs), "code": r["code"], "sku": live_sku.get(vid, r["code"]), "product_id": r["product_id"],
                "product": r["product"], "variant_id": vid, "variant": r["variant"],
-               "pricing_type": r["pricing_type"], "cost": cost, "our_price": r["our_pack_price"],
+               "cost": cost, "our_price": r["our_pack_price"],
                "register_price": r["reg_sale"], "action": "", "note": ""}
         if len(prices) > 1:
             rec["action"] = "SKIP"; rec["note"] = f"register rows disagree: {sorted(prices)}"
@@ -80,15 +81,9 @@ def main():
                                                    f"{num(r['reg_sale'])/num(r['our_pack_price']):.1f}x our price — confirm before applying")
         else:
             reg = num(r["reg_sale"])
-            if r["pricing_type"] == "per_kg":
-                w = num(r.get("weight")) or None
-                rec["action"] = "SKIP"; rec["note"] = "per_kg variant: the audit carries no weight — handle by hand"
-                todo_patch = None
-            else:
-                todo_patch = {"price": int(reg) if reg == int(reg) else reg}
-            if todo_patch:
-                rec["action"] = "WRITE"; rec["patch"] = json.dumps(todo_patch)
-                todo.append((rec, todo_patch))
+            todo_patch = {"price": int(reg) if reg == int(reg) else reg}
+            rec["action"] = "WRITE"; rec["patch"] = json.dumps(todo_patch)
+            todo.append((rec, todo_patch))
         rows.append(rec)
 
     out = os.path.join(a.run, "price-sync.csv")
@@ -107,7 +102,7 @@ def main():
 
     with open(out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["reg_no", "code", "sku", "product_id", "product", "variant_id", "variant",
-                                          "pricing_type", "cost", "our_price", "register_price", "action", "note", "patch"])
+                                          "cost", "our_price", "register_price", "action", "note", "patch"])
         w.writeheader()
         for r in rows:
             w.writerow({k: r.get(k, "") for k in w.fieldnames})

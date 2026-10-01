@@ -19,97 +19,141 @@ carry `id`).
 Any other query name (`q`, `keyword`, `name`, `filter[name]`) is silently
 ignored and returns everything.
 
+## The catalog model (live on demo since 2026-09-29)
+
+Source of truth: siruk-web `docs/catalog-model.md` and `docs/inventory-model.md`
+(`git -C ~/Documents/Projects/siruk-web show origin/main:docs/<file>`). The
+admin form's own body builder is `backend/resources/js/catalog/products/variantPayload.js`;
+ours is `scripts/siruk_payload.py`, which mirrors it — every writer goes through it.
+The 2026-09-25 interim model (`unit` / `net_quantity`, derived `product-weight`)
+and the 2026-08-12 one (`pricing_type` fixed/per_kg, `price_per_kg`, `weight`)
+are both gone; notes that mention them are history.
+
 ## Product create — `POST /products`
 
-Required: `name`, `slug`, `category_ids[]` — an **array, and products often
-need more than one id** (the admin field is a multi-select tree; see
-"Multiple categories per product" in `reference/product-rules.md`). Also send `brand_id`,
-`attribute_family_id` (nullable), `is_best_seller`, `is_on_sale`, `variants`.
-Variant shape:
+Required: `name`, `slug`, `brand_id`, **`attribute_family_id`** (the product
+type — required now), `category_ids[]` (an **array, often more than one id**;
+see "Multiple categories per product" in `reference/product-rules.md`),
+`variants[]` (≥ 1, exactly one `is_default`). Optional: `is_best_seller`,
+`is_on_sale`, `is_discontinued`, `show_unit_price`. Variant:
 
 ```
-{name, about_this_item(HTML), ingredient_information(HTML), feeding_instructions(HTML),
- pricing_type:"fixed"|"per_kg", sku, price(int AMD), price_per_kg, min_allowed_price,
- cost_price(int AMD), compare_at_price, weight(kg), is_default, stock(int),
- vendor_stock:bool, sort_order:0, images:[mediaId…], attribute_value_ids:{<code>:<valueId>}}
+{sku (unique catalogue-wide), name (label, single-language),
+ about_this_item / ingredient_information / feeding_instructions (HTML),
+ price (AMD, > 0, multiple of 10 — the PACK price; for sale_mode weight the price per kg),
+ cost_price, compare_at_price (> price), min_allowed_price,
+ sale_mode: "pack" | "weight",
+ measure_type: "mass" | "volume" | "count" | null,   # pack only; required with content
+ content: number (g / ml / pcs; ≤ 3 decimals, whole for count),  # one item
+ pack_count: int ≥ 1 (12 for "12 × 85 g"),
+ qty_max (per-order cap), qty_min/qty_step (weight only, grams),
+ initial_stock, initial_stock_warehouse_id, initial_stock_unit_cost   # NEW variants only
+ track_inventory, out_of_stock_policy (deny|backorder|dropship), backorder_lead_days,
+ low_stock_threshold, reorder_point, reorder_qty,
+ is_default, sort_order, images: [mediaId…],
+ attribute_values: {"<attribute id>": [valueId, …]} }
 ```
 
-`DELETE /products/<id>` → 204.
+**Refused (422, `prohibited`)**: `unit`, `net_quantity`, `item_content`
+(server-derived from `content`), `stock`, `vendor_stock`, `min_quantity`,
+`quantity_step`, `max_quantity`, `attribute_value_ids`, `options`, and
+`initial_stock*` on an existing variant; `qty_min`/`qty_step` on a pack
+variant. `pricing_type`/`price_per_kg`/`weight` are not accepted fields any more.
 
-### ⚠ Backend change seen 2026-09-25: `sale_mode` replaced `pricing_type`
+Read-only on GET (never send back — `to_variant_payload` strips them):
+`item_content` (mg/µl), `size_label` ("1.25 kg"), `unit_price` +
+`formatted_unit_price` ("1,680 ֏/kg"), `available_quantity`, `stock_levels[]`,
+`stock_status`, `is_purchasable`, `last_cost_*`, `stock_unit_locked`,
+`delete_locked`, `attribute_value_labels`. `suppliers[]` is writable but we
+never send it (an absent key leaves the rows alone; suppliers are out of scope).
 
-Seen on the demo API on 2026-09-25 (no changelog; the local cs-dev-hub copy is
-from 2026-08-11 and predates it). **The section below this one describes the old
-model; don't trust it until the backend team has confirmed the new one.**
+`DELETE /products/<id>` → 204. A variant with stock history or orders can't be
+deleted (`delete_locked`) — keep it, zero its stock, or discontinue the product.
 
-- `POST /products` now **422s without `variants.*.sale_mode`**. Every live
-  variant reads `sale_mode: "pack"`; `pricing_type`, `price_per_kg` and `weight`
-  come back `null` on all of them.
-- New per-variant fields: `unit` (`g` / `ml` / `kg` / null), `net_quantity`,
-  `pack_count`, `size_label`, `unit_price`, `formatted_unit_price`
-  (e.g. `"1,630 ֏/kg"` on a 20 kg bag).
-- **`product-weight` is now derived from `unit` + `net_quantity`**. It shows
-  in `attribute_values` but not in `attribute_value_ids`, and a
-  `product-weight` id sent in the payload is dropped. Send
-  `unit` + `net_quantity` (the pack total: 4 × 15 g → `g`, 60) and leave
-  them null when the pack prints no weight or volume (tablets, leads,
-  a "max 8 kg" dog-weight limit).
-- The old per-kg twins (`…-KG`, "By weight, 1 kg") were migrated to
-  `sale_mode: "pack"`, `unit: kg`, `net_quantity: 1`, with `price` = the old
-  per-kg rate. So `register-audit.py` (which reads `price_per_kg`) now reports
-  every twin as `TWIN-RATE-WRONG (None vs …)`. That's a false alarm until
-  the script reads the new fields.
-- **Scripts:**
-  - `set-translation.py` now copies `sale_mode` / `unit` /
-    `net_quantity` / `pack_count` (without them its PUT would 422 or blank
-    them).
-  - `add-variant.sh` and `set-variant.sh` resend the GET body, so
-    they keep the new fields.
-  - `create-product.sh` still validates on `pricing_type`, so keep sending
-    `"pricing_type": "fixed"` next to `"sale_mode": "pack"` (the server ignores it).
-  - **Per-kg (loose) selling has no known shape yet.** Ask the backend
-    team what other `sale_mode` values exist before the next dry-food import.
+### Size (net content)
 
-### Pricing type (verified 2026-08-12 — superseded, see above)
-
-Exactly `fixed` or `per_kg`; anything else 422s.
-
-- **`fixed`** — sold per unit (pouch, can, multipack, tin, toy): send `price`.
-- **`per_kg`** — sold by weight (dry kibble bags; admin form "priced by
-  weight", Rate per Kg + Pack weight): send `price_per_kg` + `weight` (kg).
-  **`price` is ignored and stored as 0**, so `price_per_kg = sale price ÷
-  weight`; only 2 decimals are stored (4666.666… → 4666.67, pack price within
-  hundredths). The storefront shows the "֏/kg" rate **only** on `per_kg`
-  variants — on a `fixed` variant `price_per_kg` is stored and never displayed.
-- Set `product-weight` on a `per_kg` variant **too** (reversed 2026-09-14 —
-  it used to say the opposite). The numeric `weight` field is a pricing input;
-  the attribute is what the storefront facets and the pack-size dropdown read,
-  and nothing derives one from the other (`data-tables.md` table 4).
-- Volume goods (litter "5 l / 8 l") need a real kg `weight` before `per_kg`;
-  the storefront hard-labels the rate "֏/kg". A weight derived from another
-  pack of the identical product needs the user's explicit approval (done once,
-  2026-09-09, 8 l = 3.6 kg → 5 l = 2.25 kg).
+`measure_type` + `content` + `pack_count` on the variant; the server stores
+`item_content` in mg / µl / pcs and `net_content = item_content × pack_count`,
+builds the label ("12 × 85 g", "0.4 ml", "10 pcs") and the rate
+(`UnitPriceResolver`: per kg / 100 g / L / 100 ml by the type's
+`unit_price_basis`, else the smallest-pack rule; hidden for `count`, when
+`show_unit_price` is off, or when the rate equals the price). The product
+type's `measure_type` pre-fills new variants; a variant may differ (a
+supplement's tablets are `count` while the type is `volume`). The type's
+measure can only change once no variant holds a size in another measure.
+Total content cap: 100 kg / 100 L / 100,000 pcs. `sale_mode: weight` (loose
+food, price per kg, `qty_step`/`qty_min` in grams) has no content; none
+exists yet.
 
 ### Variants and attributes
 
-- Every variant needs a **unique `attribute_value_ids` combination**; the API
-  rejects duplicates ("This attribute combination is already used in variant
-  N"). So a flavour/texture variant must have that attribute set.
-- A product with **2+ variants must give each a distinguishing attribute**
-  (found 2026-09-09, product 199): with empty `attribute_value_ids` everywhere,
-  no selector renders and every `/dp/<id>` URL shows the default variant. The
-  uniqueness guard does not fire on empty combinations (dev question).
-- The selector is built **per attribute**, not from the variant label: the page
-  renders one dropdown per attribute that any variant carries, listing that
-  attribute's values across the variants. A value MISSING on one variant
-  quietly drops it from that dropdown — product 874's second variant had no
-  `flavor` and was unreachable (fixed 2026-09-12). On an informational
-  attribute that is only cosmetic (713 shows "Ingredient: Chicken, Pork" plus
-  "See available options"); on the **axis** it hides stock. So when merging
-  sibling products, fill the axis on every variant
-  (`scripts/plan-product-merge.py` does, and `merge-products.py` refuses to
-  write a product whose variants share a combination).
-- Attributes are optional only on a single-variant product.
+- `attribute_values` is keyed by **attribute id**; each list holds value ids.
+  `siruk_payload.py` also takes attribute codes and converts them.
+- The product type decides everything: an attribute outside the product's
+  type is refused; an `option`-role attribute holds at most one value per
+  variant (exactly one if `is_required`); an `attribute`-role one holds one
+  unless its `input_type` is `multiselect`; required attributes must be set.
+  Switching a product's type is refused while its variants hold values the
+  new type lacks.
+- **Option signature**: sha1 of a variant's option-role value ids plus its
+  size, unique per product. Two variants with the same options and size
+  can't coexist (the second gets no signature and can't be selected on the
+  storefront — product 480, audit 2026-09-30). Spec-role values never tell
+  variants apart.
+- The storefront selector is built by `VariantOptionsBuilder` from the
+  content group plus every option-role attribute of the type that any
+  variant uses; a group is *selectable* only if it really varies, otherwise
+  it's a fixed tile. A variant missing a value for a selectable group makes
+  that tile row vanish when it is selected — so an option used on one
+  variant must be set on all (rule 9a; `siruk_payload.py` refuses a new
+  variant that breaks this). Read what the shop sees:
+  `GET https://demo-api.siruk.am/api/products/<id>` → `optionGroups` and each
+  variant's `options`.
+
+## Product types — `/attribute-families`
+
+The admin calls them **Product types**; the API/DB keep "attribute family".
+`GET /attribute-families[/<id>]` →
+`{id, name, code, defaultSaleMode, measureType, unitPriceBasis,
+lowStockThreshold, lowStockGrams, attributes:[{id, code, name, inputType,
+role, isRequired, isFilterable, showOnProductCard, position}], guards}` —
+`guards` (single GET) says what a change would run into per attribute.
+Write: `POST` / `PUT` `{name, code, default_sale_mode, measure_type,
+unit_price_basis, low_stock_threshold, low_stock_grams, attributes:[{id,
+role: option|attribute, is_required, is_filterable, show_on_product_card}]}`.
+**`attributes` replaces the whole set** (array order = position; a flag left
+out keeps the row's saved value, a newly attached attribute starts from the
+attribute's own default flags) — GET first, re-send every row. The old
+`attribute_ids` key is ignored now. Refused: removing an attribute still in
+use, promoting to `option` while a variant holds two values, requiring an
+attribute some variant lacks, a demotion that makes variants identical, a
+measure change while variants hold other-measure sizes. **Category filters
+come from `is_filterable` on the types of the products in that category**
+(a type belongs to products, not to categories). Live snapshot:
+`reference/product-types.json` (`scripts/product-types.py --dump`); creating
+and extending types before an import: the `attribute-manager` agent.
+
+## Stock — a ledger (`StockService` is its only writer)
+
+Tables: `warehouses` (seed `main`, id 1, type `own`), `stock_levels`
+(on_hand, allocated per variant × warehouse; available = on_hand −
+allocated), append-only `stock_movements`. Placing an order allocates;
+DELIVERED ships (on_hand −); cancel releases.
+
+- New variant: `initial_stock` (+ optional `initial_stock_warehouse_id`,
+  `initial_stock_unit_cost`) on the product create/PUT → a `receipt`
+  movement "Initial stock (product form)". Our placeholder: 10 for CSV Qty 1.
+- Existing variant: never through the product PUT.
+  `PUT /stock/variants/<v>` `{warehouse_id, on_hand, reason, note}` (set a
+  count; reasons: correction, damaged, lost, found, expired, write_off),
+  `POST /stock/variants/<v>/receive` `{warehouse_id, quantity, unit_cost?, note?}`,
+  `POST /stock/variants/<v>/write-off` `{warehouse_id, quantity, reason, note}`,
+  `GET /stock/variants/<v>/movements`. Screens: Inventory → Stock (also
+  warehouses, suppliers, purchase orders, transfers, counts, reports — out
+  of scope for imports).
+- Per-variant policy fields on the product form: `track_inventory` (default
+  true), `out_of_stock_policy` (default deny), `low_stock_threshold`,
+  `reorder_point`, `reorder_qty`. Leave them at the defaults unless asked.
 
 ## Translations — `en` / `ru` / `hy` (verified 2026-09-10)
 
@@ -233,13 +277,16 @@ The admin frontend is cs-dev-hub `packages/cs-admin-core` (`store/_mediaStore.js
   (dedupes on parent+name, resolves `"parent": "Dog > Supplies"` paths, so a
   parent and its leaves go in one file). Add the ru/hy pair to
   `scripts/translate-categories.py` and run it afterwards.
-- `POST /attributes` `{code, name}` (defaults isVariant/isFilterable true);
-  `PUT /attributes/<id>` renames in place (values, family membership survive).
-  `POST /attribute-values` `{attribute_id, value, label}`. Only on explicit
-  user request — `/manage-attributes`.
-- **Attribute-family writes use `attribute_ids`**, not `attributes`
-  (`{name, code, sortOrder, attribute_ids:[…]}`); an `attributes` array is
-  silently ignored and you get an empty family with 201.
+- `POST /attributes` `{code, name, input_type (select|multiselect|boolean|number|text),
+  unit?, is_filterable, show_on_product_card}` — the flags are only defaults
+  for a new product-type row; `PUT /attributes/<id>` renames in place.
+  `POST /attribute-values` `{attribute_id, value, label, sort_order?}` —
+  `value` is the **code**, a slug `^[a-z0-9]+(?:-[a-z0-9]+)*$` unique within
+  the attribute (20 old Toy Type / Material codes aren't, audit 2026-09-30).
+  A value used by a variant can't be deleted. Only on explicit user request
+  — `/manage-attributes` — except what a batch's product types need (8b).
+- Product-type writes: see "Product types" above (`attributes:[{id, role, …}]`;
+  `attribute_ids` is ignored).
 - Refresh the pickable menu after the user edits values:
   `scripts/refresh-attributes.sh` → `reference/attribute-values.json`.
 

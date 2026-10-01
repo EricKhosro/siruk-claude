@@ -1,0 +1,742 @@
+[
+ {
+  "id": 1,
+  "name": "Dry Food",
+  "code": "dry-food",
+  "defaultSaleMode": "pack",
+  "measureType": "mass",
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 5,
+    "code": "flavor",
+    "name": "Flavor",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 1
+   },
+   {
+    "id": 4,
+    "code": "breed-size",
+    "name": "Breed Size",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 3,
+    "code": "lifestage",
+    "name": "Lifestage",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 3
+   },
+   {
+    "id": 6,
+    "code": "special-diet",
+    "name": "Special Diet",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 4
+   },
+   {
+    "id": 7,
+    "code": "health-feature",
+    "name": "Health Feature",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 9,
+    "code": "packaging",
+    "name": "Packaging Type",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 6
+   },
+   {
+    "id": 17,
+    "code": "ingredient",
+    "name": "Ingredient",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": false,
+    "showOnProductCard": false,
+    "position": 7
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Wet Food",
+  "code": "wet-food",
+  "defaultSaleMode": "pack",
+  "measureType": "mass",
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 5,
+    "code": "flavor",
+    "name": "Flavor",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 0
+   },
+   {
+    "id": 3,
+    "code": "lifestage",
+    "name": "Lifestage",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 1
+   },
+   {
+    "id": 8,
+    "code": "texture",
+    "name": "Food Texture",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 6,
+    "code": "special-diet",
+    "name": "Special Diet",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 3
+   },
+   {
+    "id": 7,
+    "code": "health-feature",
+    "name": "Health Feature",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 4
+   },
+   {
+    "id": 9,
+    "code": "packaging",
+    "name": "Packaging Type",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 17,
+    "code": "ingredient",
+    "name": "Ingredient",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": false,
+    "showOnProductCard": false,
+    "position": 6
+   },
+   {
+    "id": 4,
+    "code": "breed-size",
+    "name": "Breed Size",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 7
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Treats",
+  "code": "treats",
+  "defaultSaleMode": "pack",
+  "measureType": "mass",
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 5,
+    "code": "flavor",
+    "name": "Flavor",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 0
+   },
+   {
+    "id": 3,
+    "code": "lifestage",
+    "name": "Lifestage",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 1
+   },
+   {
+    "id": 6,
+    "code": "special-diet",
+    "name": "Special Diet",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 7,
+    "code": "health-feature",
+    "name": "Health Feature",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 3
+   },
+   {
+    "id": 4,
+    "code": "breed-size",
+    "name": "Breed Size",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 4
+   },
+   {
+    "id": 9,
+    "code": "packaging",
+    "name": "Packaging Type",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 17,
+    "code": "ingredient",
+    "name": "Ingredient",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": false,
+    "showOnProductCard": false,
+    "position": 6
+   },
+   {
+    "id": 28,
+    "code": "size",
+    "name": "Size",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 7
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Supplements",
+  "code": "supplements",
+  "defaultSaleMode": "pack",
+  "measureType": "volume",
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 2,
+    "code": "food-form",
+    "name": "Food Form",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 0
+   },
+   {
+    "id": 3,
+    "code": "lifestage",
+    "name": "Lifestage",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 7,
+    "code": "health-feature",
+    "name": "Health Feature",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 3
+   },
+   {
+    "id": 9,
+    "code": "packaging",
+    "name": "Packaging Type",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 4
+   },
+   {
+    "id": 18,
+    "code": "product-form",
+    "name": "Product Form",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 19,
+    "code": "active-ingredient",
+    "name": "Active Ingredient",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 6
+   },
+   {
+    "id": 6,
+    "code": "special-diet",
+    "name": "Special Diet",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 7
+   },
+   {
+    "id": 5,
+    "code": "flavor",
+    "name": "Flavor",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 8
+   },
+   {
+    "id": 4,
+    "code": "breed-size",
+    "name": "Breed Size",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 9
+   },
+   {
+    "id": 12,
+    "code": "material",
+    "name": "Material",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 10
+   },
+   {
+    "id": 27,
+    "code": "pet-weight-range",
+    "name": "Pet Weight Range",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 11
+   },
+   {
+    "id": 28,
+    "code": "size",
+    "name": "Size",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 12
+   },
+   {
+    "id": 15,
+    "code": "color-family",
+    "name": "Color Family",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 13
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Toys",
+  "code": "toys",
+  "defaultSaleMode": "pack",
+  "measureType": null,
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 11,
+    "code": "toy-type",
+    "name": "Toy Type",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 0
+   },
+   {
+    "id": 12,
+    "code": "material",
+    "name": "Material",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 1
+   },
+   {
+    "id": 13,
+    "code": "toy-feature",
+    "name": "Toy Feature",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 15,
+    "code": "color-family",
+    "name": "Color Family",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 3
+   },
+   {
+    "id": 3,
+    "code": "lifestage",
+    "name": "Lifestage",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 4
+   },
+   {
+    "id": 4,
+    "code": "breed-size",
+    "name": "Breed Size",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 16,
+    "code": "toy-size",
+    "name": "Toy Size",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": false,
+    "showOnProductCard": false,
+    "position": 6
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "Grooming",
+  "code": "grooming",
+  "defaultSaleMode": "pack",
+  "measureType": null,
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 28,
+    "code": "size",
+    "name": "Size",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 0
+   },
+   {
+    "id": 15,
+    "code": "color-family",
+    "name": "Color Family",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 1
+   },
+   {
+    "id": 12,
+    "code": "material",
+    "name": "Material",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 4,
+    "code": "breed-size",
+    "name": "Breed Size",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 3
+   },
+   {
+    "id": 18,
+    "code": "product-form",
+    "name": "Product Form",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 4
+   },
+   {
+    "id": 19,
+    "code": "active-ingredient",
+    "name": "Active Ingredient",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 7,
+    "code": "health-feature",
+    "name": "Health Feature",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 6
+   },
+   {
+    "id": 5,
+    "code": "flavor",
+    "name": "Flavor",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 7
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "name": "Accessories",
+  "code": "accessories",
+  "defaultSaleMode": "pack",
+  "measureType": null,
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 28,
+    "code": "size",
+    "name": "Size",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": true,
+    "position": 0
+   },
+   {
+    "id": 15,
+    "code": "color-family",
+    "name": "Color Family",
+    "inputType": "select",
+    "role": "option",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 1
+   },
+   {
+    "id": 12,
+    "code": "material",
+    "name": "Material",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 4,
+    "code": "breed-size",
+    "name": "Breed Size",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 4
+   },
+   {
+    "id": 27,
+    "code": "pet-weight-range",
+    "name": "Pet Weight Range",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 18,
+    "code": "product-form",
+    "name": "Product Form",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 6
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "Litter",
+  "code": "litter",
+  "defaultSaleMode": "pack",
+  "measureType": "volume",
+  "unitPriceBasis": null,
+  "attributes": [
+   {
+    "id": 12,
+    "code": "material",
+    "name": "Material",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 1
+   },
+   {
+    "id": 18,
+    "code": "product-form",
+    "name": "Product Form",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 2
+   },
+   {
+    "id": 7,
+    "code": "health-feature",
+    "name": "Health Feature",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 3
+   }
+  ]
+ }
+]

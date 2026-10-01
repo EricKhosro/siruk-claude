@@ -78,10 +78,9 @@ def main():
         tr = T.get("families", {}).get(f["code"])
         if not tr:
             bad.append(("family", f["code"], "no translation")); continue
-        ids = [a["id"] for a in sorted(f.get("attributes") or [], key=lambda a: a.get("position", 0))]
         for i, lang in enumerate(("ru", "hy")):
             if not dry:
-                api("PUT", f"/attribute-families/{f['id']}", {"locale": lang, "name": tr[i], "code": f["code"], "sortOrder": f.get("sortOrder", f["id"]), "attribute_ids": ids})
+                api("PUT", f"/attribute-families/{f['id']}", {"locale": lang, "name": tr[i], "code": f["code"]})  # no `attributes` key: the type's rows stay as they are
         print(f"family {f['code']}: {'(dry)' if dry else 'written'}")
     print("problems:", bad if bad else "none")
     if not dry:

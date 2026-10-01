@@ -1,0 +1,144 @@
+product 1230  Maxi Adult 5+  [categories [3]  brand 7]
+  type Dry Food
+  variant 1791  15 kg  sku=3182550402316  pack 15 kg  45500 AMD  available=10  default=true  attrs={"3":[27],"4":[33],"9":[146]}
+  variant 1792  By weight  sku=3182550402316-KG  weight By weight  3200 AMD  available=10000  default=false  attrs={"3":[27],"4":[33],"9":[146]}
+ HTTP 200  GET /products?search=Maxi%20Adult%205%2B
+HTTP 200  POST /products
+created product 1230
+HTTP 200  GET /products/1230
+
+maxi-adult-5: product 1230 {'ru': "product 1230 [ru]: name='Maxi Adult 5+'  variants=2  OK", 'hy': "product 1230 [hy]: name='Maxi Adult 5+'  variants=2  OK"}
+maxi-puppy: same name under other brands, creating anyway: ['1156 Maxi Puppy & Junior (Monge)']
+product 1231  Maxi Puppy  [categories [3]  brand 7]
+  type Dry Food
+  variant 1793  15 kg  sku=3182550402163  pack 15 kg  47500 AMD  available=10  default=true  attrs={"3":[25],"4":[33],"9":[146]}
+  variant 1794  By weight  sku=3182550402163-KG  weight By weight  3300 AMD  available=10000  default=false  attrs={"3":[25],"4":[33],"9":[146]}
+ HTTP 200  GET /products?search=Maxi%20Puppy
+⚠ the catalog already has a similar product:
+1156	Maxi Puppy & Junior
+→ if it is the same product, stop and use scripts/add-variant.sh instead.
+  set FORCE=1 to create a separate product anyway.
+HTTP 200  POST /products
+created product 1231
+HTTP 200  GET /products/1231
+
+maxi-puppy: product 1231 {'ru': "product 1231 [ru]: name='Maxi Puppy'  variants=2  OK", 'hy': "product 1231 [hy]: name='Maxi Puppy'  variants=2  OK"}
+product 1232  Maxi Starter Mother & Babydog  [categories [3]  brand 7]
+  type Dry Food
+  variant 1795  15 kg  sku=3182550778787  pack 15 kg  57000 AMD  available=10  default=true  attrs={"3":[25],"4":[33],"7":[127],"9":[146]}
+  variant 1796  By weight  sku=3182550778787-KG  weight By weight  3950 AMD  available=10000  default=false  attrs={"3":[25],"4":[33],"7":[127],"9":[146]}
+ HTTP 200  GET /products?search=Maxi%20Starter%20Mother%20%26%20Babydog
+HTTP 200  POST /products
+created product 1232
+HTTP 200  GET /products/1232
+
+maxi-starter: product 1232 {'ru': "product 1232 [ru]: name='Maxi Starter Mother & Babydog'  variants=2  OK", 'hy': "product 1232 [hy]: name='Maxi Starter Mother & Babydog'  variants=2  OK"}
+medium-adult: same name under other brands, creating anyway: ['1182 Medium Adult Dog (Gemon)', '1175 Premium Medium Breeds Adult Dry Dog Food (Club 4 Paws)', '683 Medium Adult Dog Paté (Gemon)', '679 Medium Adult Dog Chunks Veal & Liver 415 g (Gemon)', '665 Excellence Medium Adult Lamb 1275 g (Special Dog)']
+product 1233  Medium Adult  [categories [3]  brand 7]
+  type Dry Food
+  variant 1797  15 kg  sku=3182551055849  pack 15 kg  45500 AMD  available=10  default=true  attrs={"3":[27],"4":[32],"9":[146]}
+  variant 1798  By weight  sku=3182551055849-KG  weight By weight  3200 AMD  available=10000  default=false  attrs={"3":[27],"4":[32],"9":[146]}
+ HTTP 200  GET /products?search=Medium%20Adult
+⚠ the catalog already has a similar product:
+1182	Medium Adult Dog
+1175	Premium Medium Breeds Adult Dry Dog Food
+683	Medium Adult Dog Paté
+679	Medium Adult Dog Chunks Veal & Liver 415 g
+665	Excellence Medium Adult Lamb 1275 g
+→ if it is the same product, stop and use scripts/add-variant.sh instead.
+  set FORCE=1 to create a separate product anyway.
+HTTP 200  POST /products
+created product 1233
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1233
+
+medium-adult: product 1233 {'ru': "product 1233 [ru]: name='Medium Adult'  variants=2  OK", 'hy': "product 1233 [hy]: name='Medium Adult'  variants=2  OK"}
+medium-puppy: same name under other brands, creating anyway: ['1155 Medium Puppy & Junior (Monge)']
+product 1234  Medium Puppy  [categories [3]  brand 7]
+  type Dry Food
+  variant 1799  15 kg  sku=3182550402132  pack 15 kg  47500 AMD  available=10  default=true  attrs={"3":[25],"4":[32],"9":[146]}
+  variant 1800  By weight  sku=3182550402132-KG  weight By weight  3300 AMD  available=10000  default=false  attrs={"3":[25],"4":[32],"9":[146]}
+ HTTP 200  GET /products?search=Medium%20Puppy
+⚠ the catalog already has a similar product:
+1155	Medium Puppy & Junior
+→ if it is the same product, stop and use scripts/add-variant.sh instead.
+  set FORCE=1 to create a separate product anyway.
+HTTP 200  POST /products
+created product 1234
+HTTP 200  GET /products/1234
+
+medium-puppy: product 1234 {'ru': "product 1234 [ru]: name='Medium Puppy'  variants=2  OK", 'hy': "product 1234 [hy]: name='Medium Puppy'  variants=2  OK"}
+mini-adult: same name under other brands, creating anyway: ['1168 Mini Adult Dog (Gemon)', '707 Gift Meat Minis Adult Cat Pork with Pineapple & Cheese 50 g (Monge)', '681 Mini Adult Dog Chunks Chicken & Rice 415 g (Gemon)', '652 BWild Grain Free Mini Adult Dog Duck 400 g (Monge)', '636 Mini Adult (Monge)']
+product 1235  Mini Adult  [categories [3]  brand 7]
+  type Dry Food
+  variant 1801  8 kg  sku=3182551055740  pack 8 kg  26500 AMD  available=10  default=true  attrs={"3":[27],"4":[31],"9":[146]}
+  variant 1802  By weight  sku=3182551055740-KG  weight By weight  3450 AMD  available=10000  default=false  attrs={"3":[27],"4":[31],"9":[146]}
+ HTTP 200  GET /products?search=Mini%20Adult
+⚠ the catalog already has a similar product:
+1168	Mini Adult Dog
+707	Gift Meat Minis Adult Cat Pork with Pineapple & Cheese 50 g
+681	Mini Adult Dog Chunks Chicken & Rice 415 g
+652	BWild Grain Free Mini Adult Dog Duck 400 g
+636	Mini Adult
+→ if it is the same product, stop and use scripts/add-variant.sh instead.
+  set FORCE=1 to create a separate product anyway.
+HTTP 200  POST /products
+created product 1235
+HTTP 200  GET /products/1235
+
+mini-adult: product 1235 {'ru': "product 1235 [ru]: name='Mini Adult'  variants=2  OK", 'hy': "product 1235 [hy]: name='Mini Adult'  variants=2  OK"}
+mini-puppy: same name under other brands, creating anyway: ['1153 Mini Puppy & Junior (Monge)']
+product 1236  Mini Puppy  [categories [3]  brand 7]
+  type Dry Food
+  variant 1803  8 kg  sku=3182550793049  pack 8 kg  29000 AMD  available=10  default=true  attrs={"3":[25],"4":[31],"9":[146]}
+  variant 1804  By weight  sku=3182550793049-KG  weight By weight  3750 AMD  available=10000  default=false  attrs={"3":[25],"4":[31],"9":[146]}
+ HTTP 200  GET /products?search=Mini%20Puppy
+⚠ the catalog already has a similar product:
+1153	Mini Puppy & Junior
+→ if it is the same product, stop and use scripts/add-variant.sh instead.
+  set FORCE=1 to create a separate product anyway.
+HTTP 200  POST /products
+created product 1236
+HTTP 200  GET /products/1236
+
+mini-puppy: product 1236 {'ru': "product 1236 [ru]: name='Mini Puppy'  variants=2  OK", 'hy': "product 1236 [hy]: name='Mini Puppy'  variants=2  OK"}
+product 1237  Mini Adult 8+  [categories [3]  brand 7]
+  type Dry Food
+  variant 1805  8 kg  sku=3182550831406  pack 8 kg  26500 AMD  available=10  default=true  attrs={"3":[28],"4":[31],"9":[146]}
+  variant 1806  By weight  sku=3182550831406-KG  weight By weight  3450 AMD  available=10000  default=false  attrs={"3":[28],"4":[31],"9":[146]}
+ HTTP 200  GET /products?search=Mini%20Adult%208%2B
+HTTP 200  POST /products
+created product 1237
+HTTP 200  GET /products/1237
+
+mini-adult-8: product 1237 {'ru': "product 1237 [ru]: name='Mini Adult 8+'  variants=2  OK", 'hy': "product 1237 [hy]: name='Mini Adult 8+'  variants=2  OK"}
+Traceback (most recent call last):
+  File "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-09-30-rc/import.py", line 59, in <module>
+    r = sh("scripts/upload-media.sh", url, f"products/royal-canin/{TYPE_DIR[body['attribute_family_id']]}")
+  File "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-09-30-rc/import.py", line 28, in sh
+    return subprocess.run(args, capture_output=True, text=True, cwd=ROOT, env=ENV)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 555, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1920, in _execute_child
+    self.pid = _fork_exec(
+               ~~~~~~~~~~^
+            args, executable_list,
+            ^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+            process_group, gid, gids, uid, umask,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            preexec_fn)
+            ^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not NoneType

@@ -11,8 +11,9 @@ Order in the list is the gallery order, so images[0] is the feature image and
 must already be a clean product shot — look at the contact sheet first
 (`scripts/contact-sheet.py`), that is rule 7, not a formality. Each url goes through
 `scripts/upload-media.sh` (which verifies the file is readable and caches
-url -> media id), then ONE PUT per product rebuilt from a fresh GET, so the
-other variants are untouched. Any hafo placeholder on the variant is dropped:
+url -> media id), then ONE PUT per product rebuilt from a fresh GET through
+`scripts/siruk_payload.py` (checked against the product type), so the other
+variants are untouched. Any hafo placeholder on the variant is dropped:
 a real photo has replaced it.
 
     scripts/apply-gap-images.py runs/<date>/found/found.json [more.json ...]
@@ -23,12 +24,9 @@ import json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
-VKEYS = ("id", "name", "about_this_item", "ingredient_information", "feeding_instructions",
-         "pricing_type", "sku", "price", "price_per_kg", "min_allowed_price", "cost_price",
-         "compare_at_price", "weight", "is_default", "stock", "vendor_stock", "sort_order",
-         "images", "attribute_value_ids")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id",
-        "is_best_seller", "is_on_sale", "is_discontinued")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# The PUT body is rebuilt by the one payload builder (catalog model 2026-09-29).
+from siruk_payload import PayloadError, put_body  # noqa: E402
 
 
 def sh(a, t=900):
@@ -92,22 +90,22 @@ def main():
         if not ids:
             continue
         p = api("GET", f"/products/{pid}").get("data") or {}
-        variants, changed = [], False
-        for v in p.get("variants", []):
-            nv = {k: v.get(k) for k in VKEYS if k in v}
-            nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
-            if str(v.get("sku")) == sku:
+        try:
+            body = put_body(p)
+        except (PayloadError, KeyError) as e:
+            print(f'{r["article"]:>8} p{pid}: REFUSED before writing: {e}')
+            continue
+        changed = False
+        for nv in body["variants"]:
+            if str(nv.get("sku")) == sku:
                 keep = [i for i in (nv.get("images") or []) if i not in bad and i not in ids]
                 new = ids + keep
                 if new != (nv.get("images") or []):
                     nv["images"] = new
                     changed = True
-            variants.append(nv)
         if not changed:
             print(f'{r["article"]:>8} p{pid}: unchanged')
             continue
-        body = {k: p.get(k) for k in KEEP if p.get(k) is not None}
-        body["variants"] = variants
         api("PUT", f"/products/{pid}", body)
         back = api("GET", f"/products/{pid}").get("data") or {}
         got = [x.get("images") for x in back.get("variants", []) if str(x.get("sku")) == sku]

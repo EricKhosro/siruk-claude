@@ -43,14 +43,6 @@ def squash(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def grams(label):
-    p = prep.pack_of(label)
-    if not p:
-        return None
-    return (round(p["kg"] * 1000, 3), "w") if p["kg"] is not None else \
-        (round(p["value"] * (1000 if p["unit"] == "l" else 1), 3), "v")
-
-
 def check(card, row, ctx):
     fails, warns = [], []
     F = lambda rule, msg: fails.append((rule, msg))
@@ -135,10 +127,6 @@ def check(card, row, ctx):
         F("R-price", "price.source must be prepared | zoovet | nemo | sibling")
     if amount is not None and cost is not None and float(amount) <= cost:
         F("R-price", f"price {amount} <= cost {cost:g} (rule 5) — wrong row, hold it")
-    rp = row.get("price") or {}
-    if t["pricing"] == "per_kg" and src == "prepared" and rp.get("pricing_type") != "fixed" \
-            and not rp.get("weight"):
-        F("R-perkg", "dry food needs a pack weight in kg for per_kg pricing — none was parsed")
 
     # --- name / label (rule 12, rule 9)
     name = (card.get("name") or "").strip()
@@ -213,13 +201,22 @@ def check(card, row, ctx):
             F("R-evidence", f"'{code}' has no quote" + (" (packaging/colour may use basis: photo)" if code in VISUAL else ""))
         elif q not in evidence:
             F("R-evidence", f"'{code}' quote not found in the evidence: \"{pick.get('quote')[:60]}\"")
+    # --- size = the variant's net content (rule 8a), never an attribute
+    if "product-weight" in attrs:
+        F("R-size", "product-weight is retired — the pack size is the variant's measure_type/content")
     pack = row.get("pack")
-    if pack and "product-weight" in fam["attrs"]:
-        pw = (attrs.get("product-weight") or {}).get("value")
-        if pack["kg"] is not None and not pw:
-            F("R-weight", f"pack prints {pack['label']} — product-weight is required (rule 8a)")
-        if pw and grams(pw) and grams(pack["label"]) and grams(pw) != grams(pack["label"]):
-            F("R-weight", f"product-weight '{pw}' != the CSV pack {pack['label']} (CSV wins)")
+    size = card.get("size")
+    if size:
+        if size.get("measure_type") not in ("mass", "volume", "count"):
+            F("R-size", f"size.measure_type must be mass | volume | count, got {size.get('measure_type')!r}")
+        if not (isinstance(size.get("content"), (int, float)) and size["content"] > 0):
+            F("R-size", "size.content must be a positive number (g / ml / pcs)")
+        if pack and size.get("measure_type") == pack["measure_type"] and \
+                (round(float(size.get("content") or 0), 3), size.get("pack_count") or 1) != (pack["content"], pack["pack_count"]):
+            F("R-size", f"size {size} != the CSV pack {pack['label']} (CSV wins)")
+    elif not pack and t.get("measure"):
+        W("R-size", f"{card['type']} is a sized type but the row has no net content — give `size`, "
+                    "or it is written with ALLOW_NO_SIZE=1 (chew in cm, collar)")
 
     # --- images (rule 7)
     imgs = card.get("images") or []

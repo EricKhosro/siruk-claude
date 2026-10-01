@@ -11,7 +11,9 @@ Per group, in this order — the order matters:
      runs/<date>/merge-backup/, so a half-finished group can be rebuilt.
   2. Build the target's new body and check it in full BEFORE anything is
      deleted: every sku present, every variant priced above cost, exactly one
-     default, and a unique attribute combination per variant.
+     default, and scripts/siruk_payload.py's check_variants against the
+     target's product type (options valid for the type, one value per option,
+     no two variants with the same options + size).
   3. DELETE the absorbed products.  This must happen before the PUT: SKUs are
      unique catalogue-wide, so the target cannot claim a sku that another
      product still holds (422 "SKU already in use").
@@ -22,6 +24,14 @@ The target keeps its own id and its own variants keep their variant ids, so
 its /dp/<id> links survive; the absorbed products' variants are re-created and
 get new ids, which is what runs/<date>/variant-id-map.csv is for.
 
+Catalog model 2026-09-29: every variant goes through siruk_payload's
+to_variant_payload (the target's product type decides which attributes are
+kept); axis attributes are written as attribute_values keyed by attribute id.
+`price` is the pack price for every variant (no per_kg branch). A plan axis on
+`product-weight` is skipped — pack size is measure_type/content on the variant,
+carried over as it is. Stock is a ledger: an absorbed variant is re-created
+with `initial_stock` = the available quantity it had before the DELETE.
+
 Resumable: --state remembers the groups that finished.
 """
 import argparse, csv, datetime, json, os, pathlib, re, subprocess, sys, time
@@ -29,10 +39,9 @@ import argparse, csv, datetime, json, os, pathlib, re, subprocess, sys, time
 ROOT = pathlib.Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CACHE = ROOT / ".siruk-cache"
 
-KEEP_V = ("id", "name", "pricing_type", "sku", "price", "price_per_kg",
-          "min_allowed_price", "cost_price", "compare_at_price", "weight",
-          "is_default", "stock", "vendor_stock", "sort_order", "images",
-          "about_this_item", "ingredient_information", "feeding_instructions")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from siruk_payload import (VTEXT, attributes, check_variants, product_body,  # noqa: E402
+                           product_type, to_variant_payload)
 
 
 class NotFound(Exception):
@@ -70,37 +79,44 @@ def build(p, attrs, live):
             raise SystemExit(f"attribute value missing: {code} = {label!r} — "
                              f"run scripts/sync-attributes.py first")
 
-    variants, order = [], 0
+    ptype = product_type(p["attribute_family_id"])
+    allowed = {a["id"] for a in ptype.get("attributes") or []}
+    amap = attributes()
+    variants, order, new_skus = [], 0, set()
     for pv in p["variants"]:
         src = live[pv["from_product"]]
         v = next(x for x in src["variants"] if x["sku"] == pv["sku"])
-        out = {k: v.get(k) for k in KEEP_V if k in v}
+        out = to_variant_payload(v, allowed)
         out["name"] = pv["label"]
         out["sort_order"] = order
         out["is_default"] = (order == 0)
-        out["pricing_type"] = v.get("pricing_type") or "fixed"
-        out["stock"] = v.get("stock") or 0
-        out["images"] = v.get("images") or []
-        av = dict(v.get("attribute_value_ids") or {})
+        av = dict(out.get("attribute_values") or {})
         for code, label in pv["axes"].items():
-            av[code] = vid(code, label)
-        out["attribute_value_ids"] = av
+            if code == "product-weight":
+                continue          # retired: the size is measure_type/content, carried over above
+            if code not in amap:
+                raise SystemExit(f"attribute '{code}' does not exist any more — re-plan the merge")
+            av[str(amap[code]["id"])] = [vid(code, label)]
+        out["attribute_values"] = av
         # the target's own variants keep their ids; the absorbed ones are new
         if pv["from_product"] != p["target"]:
             out.pop("id", None)
+            out["initial_stock"] = int(v.get("available_quantity") or 0)
+            new_skus.add(out["sku"])
         order += 1
         variants.append(out)
 
-    body = {"name": p["name"], "slug": p["slug"], "category_ids": p["category_ids"],
-            "brand_id": p["brand_id"], "attribute_family_id": p["attribute_family_id"],
-            "is_best_seller": False, "is_on_sale": False,
-            "is_discontinued": bool(live[p["target"]].get("is_discontinued")),
-            "variants": variants}
-    check(p, body)
+    body = product_body(live[p["target"]])
+    body.update({"name": p["name"], "slug": p["slug"], "category_ids": p["category_ids"],
+                 "brand_id": p["brand_id"], "attribute_family_id": p["attribute_family_id"],
+                 "is_best_seller": False, "is_on_sale": False,
+                 "is_discontinued": bool(live[p["target"]].get("is_discontinued")),
+                 "variants": variants})
+    check(p, body, ptype, new_skus)
     return body
 
 
-def check(p, body):
+def check(p, body, ptype, new_skus=()):
     v = body["variants"]
     want = [x["sku"] for x in p["variants"]]
     got = [x["sku"] for x in v]
@@ -108,34 +124,26 @@ def check(p, body):
     assert len(set(got)) == len(got), f"{p['name']}: duplicate sku"
     assert sum(1 for x in v if x["is_default"]) == 1, f"{p['name']}: not exactly one default"
     for x in v:
-        if x["pricing_type"] == "fixed":
-            assert (x.get("price") or 0) > 0, f"{p['name']} {x['sku']}: no price"
-            if x.get("cost_price"):
-                assert x["price"] > x["cost_price"], \
-                    f"{p['name']} {x['sku']}: price {x['price']} does not beat cost {x['cost_price']}"
-        else:
-            assert (x.get("price_per_kg") or 0) > 0 and (x.get("weight") or 0) > 0, \
-                f"{p['name']} {x['sku']}: per_kg variant needs price_per_kg + weight"
-    combos = [tuple(sorted((x.get("attribute_value_ids") or {}).items())) for x in v]
-    if len(v) > 1:
-        assert len(set(combos)) == len(combos), \
-            f"{p['name']}: two variants share an attribute combination — no selector would render"
-        assert all(combos), f"{p['name']}: a variant has no attributes at all"
+        # price is the pack price for every variant (catalog model 2026-09-29)
+        assert (x.get("price") or 0) > 0, f"{p['name']} {x['sku']}: no price"
+        if x.get("cost_price"):
+            assert x["price"] > x["cost_price"], \
+                f"{p['name']} {x['sku']}: price {x['price']} does not beat cost {x['cost_price']}"
+    errs, warns = check_variants(v, ptype, set(new_skus))
+    for w in warns:
+        print(f"  ⚠ {p['name']}: {w}", file=sys.stderr)
+    assert not errs, f"{p['name']}: " + "; ".join(errs)
 
 
 def translate(pid, lang, name, texts, en):
     """PUT the product in `lang`. Single-language fields come from the en body."""
-    body = {"locale": lang, "name": name, "slug": en["slug"],
-            "category_ids": en["category_ids"], "brand_id": en["brand_id"],
-            "attribute_family_id": en["attribute_family_id"],
-            "is_best_seller": en.get("is_best_seller", False),
-            "is_on_sale": en.get("is_on_sale", False),
-            "is_discontinued": en.get("is_discontinued", False),
-            "variants": []}
+    body = product_body(en)
+    body.update({"locale": lang, "name": name, "variants": []})
+    allowed = {a["id"] for a in product_type(en["attribute_family_id"]).get("attributes") or []}
     for v in en["variants"]:
-        out = {k: v.get(k) for k in KEEP_V if k in v and k not in
-               ("about_this_item", "ingredient_information", "feeding_instructions")}
-        out["attribute_value_ids"] = v.get("attribute_value_ids") or {}
+        out = to_variant_payload(v, allowed)
+        for k in VTEXT:
+            out.pop(k, None)
         out.update(texts.get(v["sku"], {}))
         body["variants"].append(out)
     api("PUT", f"/products/{pid}", body, lang=lang)

@@ -9,7 +9,13 @@ Two rules sit behind every script here: **the sale price comes from hafo.am**
 (`hafo-lookup.py`) — or, when hafo has none, from a confirmed zoovet.am match
 or the sibling fallback, never from arithmetic — and **`PUT /products` replaces
 the whole variants array**, so product writes go only through the scripts that
-rebuild the body from a fresh GET. `scripts/README.md` has the token setup, `config.json` knobs
+rebuild the body from a fresh GET. Since the catalog model (2026-09-29) every
+one of them builds that body with **`scripts/siruk_payload.py`**, which checks
+it against the live product type (CLAUDE.md rules 8a–8c, 9a, 10); a script
+still sending the old fields (`pricing_type`, `price_per_kg`, `weight`,
+`product-weight`, `attribute_value_ids`, `stock`) is refused — conversion is in
+progress as of 2026-09-30, so read a script's docstring before trusting a row
+below that mentions one. `scripts/README.md` has the token setup, `config.json` knobs
 and the debugging notes; this guide is the "which one, and when".
 
 ## 1. Start of every session
@@ -17,8 +23,9 @@ and the debugging notes; this guide is the "which one, and when".
 | When | Command | What you get |
 |---|---|---|
 | First thing | `scripts/api.sh GET /account` | `HTTP 200` means the token works. 401 → re-capture the token (`scripts/README.md`) |
-| Before using any id | `scripts/ids.sh` | live brands, category tree, families, attributes. Trust it over any id in a note |
+| Before using any id | `scripts/ids.sh` | live brands, category tree, product types (families), attributes. Trust it over any id in a note |
 | Before filling attributes | `scripts/refresh-attributes.sh` | rewrites `reference/attribute-values.json`, the closed menu. Run it whenever someone edited attributes in the admin |
+| Before picking attributes for a type | `scripts/product-types.py --dump` | rewrites `reference/product-types.json` — per type its measure, sale mode, and per attribute role (`option`/`attribute`), required, filterable, on-card. Run it after the PM or the `attribute-manager` agent changed a type |
 | Curious about pacing | `scripts/pace.sh show` | the effective delay / retry settings from `config.json` |
 
 ## 1b. Batch import, token-lean (in trial since 2026-09-23)
@@ -30,7 +37,9 @@ reading a page. Card format: `reference/card-schema.md`.
 |---|---|---|
 | 1 Plan the rows | `scripts/prepare-run.py <csv> --run runs/<date>` | `rows.jsonl` — per row: price + source (register > hafo variant, guards applied), route (`live` / `ready` / `needs-price` / `hold` / `not-found` / `needs-identity`), pack size, brand id, existing-product hints; `batches.json` (per brand + type); `not-found.csv`, `holds.csv`. `--sale-column` only when the user named one; `--reuse-hafo` seeds lookups from an older file |
 | 2 Workers | one card per `ready` / `needs-price` row → `runs/<date>/cards/<code>.json` | brand page, attributes with quotes, gallery, English texts. No admin writes |
-| 3 Check | `scripts/validate-card.py --run runs/<date> [codes…]` | `PASS` / `FAIL <rule>` / `WARN` per card, `validation.json`; exit 1 on any fail |
+| 3 Check | `scripts/validate-card.py --run runs/<date> [codes…]` | `PASS` / `FAIL <rule>` / `WARN` per card, `validation.json`; exit 1 on any fail; size = the row's `pack` or the card's `size` (rule 8a), a `product-weight` pick fails |
+| 4 Types | the `attribute-manager` agent, fed the batch's gathered data → save its map as `runs/<date>/product-types-map.json` → `scripts/card-import.py --run runs/<date> <code> --payload` per card → `scripts/product-types.py --check <payloads…>` | CLAUDE.md 8b: create/extend the product types the batch needs, then every payload must pass before the first write |
+| 5 Write | `scripts/card-import.py --run runs/<date> <code> --write`, one card at a time | uploads the gallery, then create-product.sh / add-variant.sh (loose `-KG` twin included); then translate and verify per `/add-products` |
 | — | `scripts/live-ids.py` | refreshes `.siruk-cache/live-ids.json` (brands, category tree, families); the two scripts above reload it when older than 12 h |
 
 ## 2. Importing one CSV row (the pipeline)
@@ -42,9 +51,10 @@ Run these in order, one row at a time, and verify before the next row.
 | 1 Identity + price | `scripts/hafo-lookup.py --code <article> --name "<csv name>"` | **Always first.** Need `confirmed: true` and `price_source: "variant"`. Confirmed but unpriced → try `scripts/zoovet-lookup.py` (rule 2b) and the sibling fallback, else `runs/<date>/no-hafo-price.csv`; not confirmed → `not-found.csv` |
 | 2 Brand site | see section 8 | title, gallery, description from the official site (`reference/brand-sites.md`) |
 | 3 Exists already? | `scripts/find-product.sh "<name words>"` | **Before creating anything.** A hit means the row becomes a variant of that product |
+| 3b Product type | once per batch, before the first write: the `attribute-manager` agent, then `scripts/product-types.py --check <payload.json…>` | CLAUDE.md 8b/8c — every product has a type; attributes outside it, a missing required one, two values on an option or two indistinguishable variants all fail here |
 | 4 Images | `scripts/upload-media.sh <url-or-file> products/<brand-slug>/<type>` per gallery image | prints a verified-readable media id; URL→id is cached, so re-running a row never re-uploads. Always pass the directory — `logos`, `categories` or `banners` (page-top banners) for non-product images. It creates the folder record itself and refuses a non-image download |
-| 5a New product | `scripts/create-product.sh payload.json` | validates, refuses a variant priced at or below cost, warns on a similar product (`FORCE=1` to override), POSTs, reads back |
-| 5b Extra variant | `scripts/add-variant.sh <product-id> variant.json` | GET → append → safety check → PUT → read back. Never hand-write the PUT |
+| 5a New product | `scripts/create-product.sh payload.json` | validates, refuses a variant priced at or below cost, warns on a similar product (`FORCE=1` to override), builds the body with `siruk_payload.py`, POSTs, reads back. Variant shape: the `siruk_payload.py` docstring — `price` = hafo pack price, `measure_type`/`content`/`pack_count`, `initial_stock`, `attribute_values` |
+| 5b Extra variant | `scripts/add-variant.sh <product-id> variant.json` | GET → append via `siruk_payload.py` → safety check → PUT → read back. Never hand-write the PUT |
 | 6 Translate | `scripts/set-translation.py <id> ru .siruk-cache/tr-<id>-ru.json` then the same with `hy` | name + per-SKU texts per locale; copies every single-language field from `en` and verifies `en` is untouched |
 | 7 Check | `scripts/show-product.sh <id>` | variant summary; `--json` gives the full body |
 | 8 Breathe | `scripts/pace.sh product` | the between-rows pause; keeps the WAF happy |
@@ -84,12 +94,12 @@ are decided by hand, with the evidence written down:
 
 | Step | Command | Notes |
 |---|---|---|
-| 1 Decide | `runs/<date>/variant-groups.json` | one entry per group: ids, the line name, ru/hy names, `why`, and per SKU the new label + the attribute labels to set (`flavor`, `product-weight`, `pet-weight-range`, `size`, `color-family`) |
-| 2 Plan | `scripts/plan-variant-merge.py --run runs/<date>` | resolves the groups against `.siruk-cache/catalogue-snapshot.json`, refuses two variants that would share an attribute combination, lists the labels the menu lacks, writes `merge-plan.json` + `merge-plan.md` in the same shape `merge-products.py` reads |
+| 1 Decide | `runs/<date>/variant-groups.json` | one entry per group: ids, the line name, ru/hy names, `why`, and per SKU the new label + the option labels to set (`flavor`, `pet-weight-range`, `size`, `color-family`…); the pack size is the variant's net content, not a label to set (`product-weight` is retired, 2026-09-29) |
+| 2 Plan | `scripts/plan-variant-merge.py --run runs/<date>` | resolves the groups against `.siruk-cache/catalogue-snapshot.json`, refuses two variants that would share an attribute combination, lists the labels the menu lacks, writes `merge-plan.json` + `merge-plan.md` in the same shape `merge-products.py` reads.; variants are told apart by options + net content |
 | 3 Vocabulary | add ru/hy to `reference/translations-attributes.json` → `scripts/add-attribute-values.py <code> --apply` → `scripts/translate-attribute-values.py <new ids>` | the targeted translator writes only the new values (the full `translate-attributes.py` is ~1,700 PUTs) |
 | 4 Merge | `scripts/merge-products.py --dry-run --run runs/<date>`, then for real | as above |
 | 5 Snapshot | `scripts/catalogue-snapshot.py --ids <all group ids>` | re-reads the survivors and drops the deleted ones — minutes, not the hour a `--refresh` takes |
-| 6 Axes | `scripts/backfill-variant-axes.py [--apply]` | rule 9a: every variant of a multi-variant product gets the axis its siblings carry, read off its label; lists what still collides |
+| 6 Axes | `scripts/backfill-variant-axes.py [--apply]` | rule 9a: every variant of a multi-variant product gets the axis its siblings carry — the type's option values and the net content — read off its label; lists what still collides |
 
 ## 2c. Importing a toys CSV
 
@@ -106,7 +116,8 @@ is a new toys CSV.
 | I want to… | Command | Notes |
 |---|---|---|
 | see it | `scripts/show-product.sh <id> [--json]` | |
-| change one variant field | `scripts/set-variant.sh <id> <sku> '{"price": 4200}'` | deep-merges, so `attribute_value_ids` merges key by key |
+| change one variant field | `scripts/set-variant.sh <id> <sku> '{"price": 4200}'` | `attribute_values` merge attribute by attribute (`REPLACE_ATTRS=1` replaces the map); size: `'{"measure_type":"mass","content":15000}'` |
+| change its stock | `scripts/api.sh PUT /stock/variants/<variant-id> -` (set a count, with `reason` + `note`), `POST …/receive`, `POST …/write-off` | CLAUDE.md 10a — never through the product PUT; bodies in `reference/admin-api.md` → "Stock" |
 | add a variant | `scripts/add-variant.sh <id> variant.json` | |
 | rename | `scripts/rename-product.sh <id> "<new name>" [slug]` | variants untouched; the name never contains the brand |
 | anything else | `scripts/api.sh GET/PUT/DELETE /path [payload.json\|-]` | the escape hatch. Never a hand-written `PUT /products` body |
@@ -137,11 +148,12 @@ Read a locale: `SIRUK_LANG=ru scripts/api.sh GET /products/<id>`.
 | I want to… | Command | Notes |
 |---|---|---|
 | refresh the closed menu | `scripts/refresh-attributes.sh` | after any attribute edit in the admin |
-| add / rename attributes to match Chewy | `scripts/sync-attributes.py [--dry-run]` | driven by `reference/chewy-attributes.json`; creates, renames, sets families and filter flags, never deletes |
+| add / rename attributes to match Chewy | `scripts/sync-attributes.py [--dry-run]` | driven by `reference/chewy-attributes.json`; creates, renames, sets families and filter flags, never deletes.; its product-type step re-sends every row and appends the new ones (`attributes`, 2026-09-30) |
+| create / extend a product type (roles, flags, measure) | the `attribute-manager` agent (or `/manage-attributes`), then `scripts/product-types.py --dump` | CLAUDE.md 8b/8c; the only vocabulary change allowed without an explicit ask. `PUT /attribute-families/<id>` with `attributes:[{id, role, …}]` replaces the whole set — GET first |
 | translate them | `scripts/translate-attributes.py` | section 4 |
 | put `toy-size` back on toys | `scripts/restore-toy-size.py [--dry-run] [--only id,…]` | one-off from 2026-09-10; safe to re-run, only touches variants missing the value |
-| put the pack weight on every variant that prints one | `scripts/backfill-product-weight.py [--create-values] [--apply] [--families all]` | CLAUDE.md rule 8a. Reads the weight (numeric field → variant label → product name), refuses a dose band / length / bare count, and fills a product **all-or-none** so no variant drops out of the pack-size dropdown. Audit first, then `--create-values` (writes ru/hy into `reference/translations-attributes.json` — run `translate-attributes.py` after), then `--apply` |
-| give a product its attribute family | `scripts/set-attribute-family.py --dry-run` then `--apply [--only id,…]` | a product with `attribute_family_id: null` serves no attribute facets at all on the storefront; sets the family from the leaf category (Grooming/Accessories/Litter — the families that didn't exist until 2026-09-15). Rebuilds from a fresh GET, refuses to write if a variant would be lost |
+| ~~put the pack weight on every variant~~ | `scripts/backfill-product-weight.py` — **retired 2026-09-29, moving to `scripts/archive/`** | the `product-weight` attribute it filled is gone; pack size is net content (CLAUDE.md 8a). Same for `make-perkg-twin.py` (the `per_kg` twin variant) |
+| give a product its product type | `scripts/set-attribute-family.py --dry-run` then `--apply [--only id,…]` | every product needs one (rule 8b); sets the type from the leaf category (Grooming/Accessories/Litter — the types that didn't exist until 2026-09-15). Rebuilds from a fresh GET through `siruk_payload.py`, checks the variants against the new type (values it doesn't carry are dropped from the body), refuses to write if a variant would be lost |
 
 Creating attributes and values by hand goes through `/manage-attributes` (or the `attribute-manager` agent), which uses `api.sh`.
 
@@ -259,7 +271,8 @@ the media verifies fine.
 
 `csv/Product.numbers` is the shop's own goods-on-hand list: Armenian name,
 quantity, cost, **sale price** (`Վաճառքի գին`, the price of record — rule 2c)
-and a `Kg` rate for bags also sold loose. It has no article codes, so the
+and a `Kg` rate for bags also sold loose (carried by a `<sku>-KG` twin, a 1 kg pack variant priced at that rate —
+`reference/pricing.md` → loose sale). It has no article codes, so the
 codes are recovered first. Run in this order; every script takes `--run`.
 
 | Step | Command | What you get |
@@ -268,7 +281,7 @@ codes are recovered first. Run in this order; every script takes `--run`.
 | 2 Codes from the invoice CSV | `scripts/match-register.py --reg … --out state/register/register-match.json` | exact name, then fuzzy name + equal cost |
 | 3 Codes from hafo | `scripts/hafo-by-name-cost.py --in … --out state/register/hafo-recovered.json` | hafo row name + wholesale == cost → sku (`--verify` confirms by code) |
 | 4 Live or not | `scripts/register-status.py` | against the snapshot; `state/register/match-overrides.json` fixes a fuzzy hit that landed on a same-cost flavour sibling (4 on 2026-09-16 — diff the flavour words) |
-| 5 Audit | `scripts/register-audit.py` | per row: exists, price verdict, per-kg twin, family → `register-audit.csv/json`, `register-ledger.csv` |
+| 5 Audit | `scripts/register-audit.py` | per row: exists, price verdict, per-kg twin (retired — see above), family → `register-audit.csv/json`, `register-ledger.csv` |
 | 6 Re-price | `scripts/register-price-sync.py --run state/register [--apply]` | see §9 |
 | 6b Rename | `scripts/fix-outgrown-names.py --plan … --ids … [--apply]` | a live single-variant product that took the row as a sibling loses the axis from its Name |
 | 7 Import the rest | `state/register/register-todo-rows.json` (CSV-shaped rows built from the status file) + `TODO_ROWS=… REGISTER_STATUS=… scripts/plan-trixie.py` / `plan-monge.py` | the planners price from the register first and group Trixie accessories by page with `size` + `color-family`, attaching to the live product on the same page (`existing_id`) |
@@ -305,3 +318,5 @@ All of these except `plan-schesir.py` and `restore-toy-size.py` now live in
 | `SIRUK_CONFIG=…`, `SIRUK_DELAY`, `SIRUK_CHUNK_SIZE`, `SIRUK_MEDIA_DELAY`, `SIRUK_RETRIES`, `MAX_PX` | pacing / retry / image-size overrides for one run |
 | `TRIXIE_ES=0` / `TRIXIE_ES=always` | skip the trixie.es fallback in `trixie-image.sh`, or ask it for every article |
 | `FORCE=1`, `ALLOW_BELOW_COST=1`, `NO_LOGO=1`, `KEEP_ALPHA=1` | per-script guards; only on the user's say-so |
+| `ALLOW_NO_SIZE=1` | `siruk_payload.py`: lets a new variant of a sized product type go out with no net content (a chew measured in cm, a collar — CLAUDE.md 8a); a warning instead of a refusal |
+| `ALLOW_NO_IMAGE=1` | the rare hand override for a product with an empty gallery (CLAUDE.md 7) |

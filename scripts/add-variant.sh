@@ -3,10 +3,14 @@
 #
 #   scripts/add-variant.sh 14 variant.json
 #
-# variant.json is ONE variant object (no "id"):
-# { "name": "Puppy 8 kg", "pricing_type": "fixed", "sku": "1002080",
-#   "price": 24000, "cost_price": 18000, "stock": 5, "images": [],
-#   "attribute_value_ids": {"product-weight": 12, "lifestage": 25} }
+# variant.json is ONE variant object (no "id") in the catalog-model shape — see
+# scripts/siruk_payload.py for every field:
+# { "name": "Puppy 8 kg", "sku": "1002080", "price": 24000, "cost_price": 18000,
+#   "measure_type": "mass", "content": 8000, "pack_count": 1, "initial_stock": 10,
+#   "images": [], "attribute_values": {"lifestage": [25]} }
+# The size is measure_type + content (g/ml/pcs), never an attribute; stock is
+# initial_stock (new variants only). The body is checked against the live
+# product type before the PUT (siruk_payload.py).
 #
 # Why this script exists: PUT /products/<id> REPLACES the whole variants array.
 # A variant left out of the payload is deleted — silently (200) for a non-default
@@ -19,12 +23,8 @@ source "$(dirname "${BASH_SOURCE[0]}")/lib.sh"
 id=$1 vfile=$2
 [[ -f $vfile ]] || die "no such file: $vfile"
 jq -e 'type == "object"' "$vfile" >/dev/null || die "$vfile must be a single variant object"
-jq -e '.sku and (
-        ((.pricing_type // "fixed") == "fixed"  and (.price // 0) > 0) or
-        (.pricing_type == "per_kg" and (.price_per_kg // 0) > 0 and (.weight // 0) > 0))' "$vfile" >/dev/null \
-  || die "variant needs sku plus either pricing_type:\"fixed\" + price, or pricing_type:\"per_kg\" + price_per_kg + weight"
+jq -e '.sku and (.price // 0) > 0' "$vfile" >/dev/null || die "variant needs sku and price (the pack price)"
 price_guard "$(jq -c '[.]' "$vfile")"
-jq -e 'has("id") | not' "$vfile" >/dev/null || die "variant must not carry an \"id\" — that would edit an existing one"
 
 before=$(api GET "/products/$id")
 printf '%s\n' "$before" > "$CACHE/product-$id-before.json"
@@ -36,33 +36,11 @@ if [[ $(jq '(.images // []) | length' "$vfile") == 0 ]] \
   [[ ${ALLOW_NO_IMAGE:-} == 1 ]] || die "new variant has no images, and product $id has none on any variant either — every product needs at least one (set ALLOW_NO_IMAGE=1 to override)"
 fi
 
-# Rule 8b: the PUT below re-sends the product's family; don't re-write a
-# product that has none — give it one first (scripts/set-attribute-family.py).
-jq -e '(.data.attribute_family_id // 0) > 0' <<<"$before" >/dev/null \
-  || die "product $id has no attribute family — set it first (scripts/set-attribute-family.py --apply --only $id), CLAUDE.md rule 8b"
-
-sku=$(jq -r .sku "$vfile")
-if jq -e --arg s "$sku" '.data.variants[] | select(.sku == $s)' <<<"$before" >/dev/null; then
-  die "product $id already has a variant with sku $sku — nothing to add"
-fi
-
-# Build the PUT body from the fresh GET: keep every existing variant (with its
-# id) and append the new one.
-payload=$(jq --slurpfile new "$vfile" '
-  .data as $p
-  | ($p.variants | length) as $n
-  | { name: $p.name, slug: $p.slug, category_ids: $p.category_ids,
-      brand_id: $p.brand_id, attribute_family_id: $p.attribute_family_id,
-      is_best_seller: $p.is_best_seller, is_on_sale: $p.is_on_sale,
-      is_discontinued: $p.is_discontinued,
-      variants: ($p.variants + [ $new[0]
-        | .pricing_type = (.pricing_type // "fixed")
-        | .sort_order   = (.sort_order   // $n)
-        | .stock        = (.stock        // 0)
-        | .images       = (.images       // [])
-        # the product keeps its existing default; only a product with none gets one
-        | .is_default   = (if ($p.variants | any(.is_default)) then false else true end) ]) }
-  ' <<<"$before")
+# Build the PUT body from the fresh GET: every existing variant re-sent in the
+# shape the API accepts, plus the new one; checked against the product type.
+printf '%s\n' "$before" | sed -n '/^{/,$p' > "$CACHE/product-$id-get.json"
+payload=$(python3 "$ROOT/scripts/siruk_payload.py" put-body "$CACHE/product-$id-get.json" "$vfile") \
+  || die "payload refused before writing (see above)"
 
 # Guard rails before writing: exactly one more variant, and no existing id lost.
 jq -e --argjson n "$(jq '.data.variants | length' <<<"$before")" \

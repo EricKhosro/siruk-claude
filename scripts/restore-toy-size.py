@@ -4,21 +4,21 @@
 The attribute was deleted 2026-09-10 and recreated (hidden from filters) the
 same day. Every toy variant's label carries its size ("22 cm", "Red 15 cm"),
 so the value is recoverable without guessing. One PUT per product, body rebuilt
-from a fresh GET (PUT replaces the whole variants array); variants that already
+from a fresh GET through scripts/siruk_payload.py (PUT replaces the whole
+variants array; catalog model 2026-09-29: attribute_values keyed by attribute
+id, checked against the product type before the write); variants that already
 carry toy-size or whose label has no "<n> cm" are left alone and reported.
+toy-size is a dimension of the toy, an attribute — not the pack size
+(measure_type/content), which this script does not touch.
 
     scripts/restore-toy-size.py [--dry-run] [--only id,id]
 """
-import argparse, json, os, re, subprocess
+import argparse, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id",
-        "is_best_seller", "is_on_sale", "is_discontinued")
-VKEYS = ("id", "name", "about_this_item", "ingredient_information", "feeding_instructions",
-         "pricing_type", "sku", "price", "price_per_kg", "min_allowed_price", "cost_price",
-         "compare_at_price", "weight", "is_default", "stock", "vendor_stock", "sort_order",
-         "images", "attribute_value_ids")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from siruk_payload import attributes, check_variants, product_body, product_type, to_variant_payload  # noqa: E402
 
 
 def api(method, path, payload=None):
@@ -40,6 +40,11 @@ def main():
     menu = json.load(open(os.path.join(ROOT, "reference/attribute-values.json")))
     sizes = menu["toy-size"]["values"]                      # label -> id
     bynum = {re.sub(r"\s*cm$", "", k): v for k, v in sizes.items()}
+    live = attributes().get("toy-size")
+    if not live:
+        raise SystemExit("attribute toy-size does not exist on the live site")
+    tsid = str(live["id"])
+    bynum = {k: v for k, v in bynum.items() if v in live["values"]}   # stale menu ids never written
 
     ids = []
     page = 1
@@ -57,33 +62,37 @@ def main():
         p = api("GET", f"/products/{pid}").get("data") or {}
         if p.get("attribute_family_id") != 5:
             continue
+        ptype = product_type(5)
+        if not any(str(x["id"]) == tsid for x in ptype.get("attributes") or []):
+            raise SystemExit("toy-size is not part of the Toys product type — add it there first")
+        # built without put_body's up-front check: a missing toy-size is exactly what
+        # makes two sizes indistinguishable, so the check runs after the fill
+        allowed = {x["id"] for x in ptype.get("attributes") or []}
+        body = product_body(p)
+        body["variants"] = variants = [to_variant_payload(v, allowed) for v in p["variants"]]
         changed = False
-        variants = []
-        for v in p.get("variants", []):
-            nv = {k: v.get(k) for k in VKEYS if k in v}
-            avi = dict(nv.get("attribute_value_ids") or {})
-            if "toy-size" not in avi:
-                m = re.search(r"(\d+(?:[.,]\d+)?)\s*cm\b", v.get("name") or "")
+        for nv in variants:
+            avi = nv["attribute_values"]
+            if not avi.get(tsid):
+                m = re.search(r"(\d+(?:[.,]\d+)?)\s*cm\b", nv.get("name") or "")
                 num = m.group(1).replace(",", ".") if m else None
                 if num and num in bynum:
-                    avi["toy-size"] = bynum[num]; changed = True
+                    avi[tsid] = [bynum[num]]; changed = True
                 else:
-                    nosize.append((pid, v.get("id"), v.get("name")))
-            nv["attribute_value_ids"] = avi
-            nv["images"] = nv.get("images") or []
-            variants.append(nv)
+                    nosize.append((pid, nv.get("id"), nv.get("name")))
         if not changed:
             continue
-        body = {k: p.get(k) for k in KEEP}
-        body["variants"] = variants
+        errs, _ = check_variants(variants, ptype)
+        if errs:
+            skipped.append((pid, "refused before writing: " + "; ".join(errs))); continue
         if len(variants) != len(p["variants"]) or {x["id"] for x in variants} != {x["id"] for x in p["variants"]}:
             skipped.append((pid, "variant set mismatch — refusing to PUT")); continue
         if a.dry_run:
-            print(f"would PUT {pid} {p['name']}: {[ (x['name'], x['attribute_value_ids'].get('toy-size')) for x in variants]}")
+            print(f"would PUT {pid} {p['name']}: {[ (x['name'], x['attribute_values'].get(tsid)) for x in variants]}")
             done += 1; continue
         r = api("PUT", f"/products/{pid}", body)
         back = api("GET", f"/products/{pid}").get("data") or {}
-        ok = all("toy-size" in (x.get("attribute_value_ids") or {}) for x in back.get("variants", [])
+        ok = all((x.get("attribute_values") or {}).get(tsid) for x in back.get("variants", [])
                  if re.search(r"\d\s*cm\b", x.get("name") or ""))
         print(f"{'ok ' if ok else '!! '} {pid} {p['name']} ({len(variants)} variants)")
         if not ok:

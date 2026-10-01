@@ -4,7 +4,10 @@ description: Import products from a CSV into the Siruk admin panel, sourcing dat
 argument-hint: [path to CSV file]
 ---
 
-Import the products listed in the CSV into the Siruk admin panel, one at a time.
+Import the products listed in the CSV into the Siruk admin panel in three
+phases: **A** gather every row's data (no admin writes), **B** make sure every
+row has a product type that allows what it will carry, **C** write the rows
+one at a time.
 CSV path (or inline product names):
 
 $ARGUMENTS
@@ -34,15 +37,19 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
   value at or below cost stops the row. Only when the user said it for *this*
   run; a filled sale-price column the user did not name is not that
   (`reference/pricing.md`).
-- **No product without an image, none without an attribute family.** Both
+- **No product without an image, none without a product type.** Both
   write scripts refuse an image-less product (`ALLOW_NO_IMAGE=1` only on the
-  user's say-so) and a missing `attribute_family_id`; if the type's family
-  doesn't exist yet, create it first (CLAUDE.md rule 8b).
+  user's say-so) and a missing `attribute_family_id` (the API's name for the
+  product type). Types are created/extended in phase B, never mid-write
+  (CLAUDE.md rule 8b).
+- **Size is the variant's net content, stock is a ledger** (CLAUDE.md 8a,
+  10a): `measure_type` + `content` + `pack_count`, `price` = the pack price,
+  `initial_stock` on new variants only. Suppliers are out of scope.
 
 - Source data from the **brand's official website** (per the brand map in
   CLAUDE.md), NOT Chewy. Sites are **read-only** (no cart, no account, no forms).
 - Never `take_snapshot` on source product pages — extract with `evaluate_script`.
-- One product fully finished (written + verified) before starting the next.
+- In phase C, one product fully finished (written + verified) before starting the next.
 - **Never create a product that already exists** — search first; if it's there,
   the row goes on as a new variant (step 8/9).
 - **`category_ids` is a list — give a product every leaf it belongs to.** A
@@ -63,6 +70,37 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
   and for reading the token once.
 
 ## Steps per run
+
+**Phase A — gather (steps 1–6, every row, no admin writes).** Do 1–2 once,
+then 3a–6 for every row and keep the result per row (a card,
+`reference/card-schema.md`, when the run was prepared with
+`scripts/prepare-run.py`; otherwise a JSON per row in `runs/<date>/rows/`):
+identity, price, name/label, size (`measure_type`/`content`/`pack_count`),
+categories, the product type you'd give it, attribute picks with quotes,
+**wanted-but-missing** values/attributes, image URLs, texts, `existing_id`.
+
+**Phase B — product types (once per run, before any write).**
+1. `python3 scripts/product-types.py --dump` (live roles and flags).
+2. Spawn the `attribute-manager` agent in pre-import mode and feed it the
+   batch: per row the code, name, intended type, category leaves, size
+   (measure + content), attribute picks and the wanted-but-missing list. It
+   maps every row to a product type, creates or extends types (and the values
+   the rows need) with logical roles/flags, and returns a row → type id map.
+   The user delegated these decisions to us; the PM edits later. Put the
+   agent's created/flagged lists in the report.
+3. Save the agent's map as `runs/<date>/product-types-map.json`
+   (`{code: type id}`), refresh the menu (`scripts/refresh-attributes.sh`,
+   `scripts/live-ids.py`), build every payload — for a prepared run
+   `scripts/card-import.py --run runs/<date> <code> --payload` per card — and
+   run `python3 scripts/product-types.py --check <payloads…>`. Every payload
+   must pass before phase C; a failing row is fixed or held, never written.
+
+For a prepared run, phase C per card is
+`scripts/card-import.py --run runs/<date> <code> --write` (uploads the gallery,
+then create-product.sh / add-variant.sh, register loose twin included), then
+steps 9b–11.
+
+**Phase C — write (steps 7–11, one row at a time).**
 
 1. **Auth** — check `scripts/api.sh GET /account` first; if it returns 200 the
    token in `.siruk-token` is still good (they last ~1 year — do NOT re-capture
@@ -152,11 +190,12 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
    a lot in structure — target the specific DOM of that page rather than
    assuming a fixed layout.
 6. **Fill attributes** — first decide the row's **product type** (dry food,
-   wet food, treats, toys, supplements, grooming, accessories) and read that
-   type's skill (`.claude/skills/<type>/SKILL.md`): it names the family, the
-   leaf category, the attributes this type carries, its variant axes and any
-   type-specific sourcing. Then, for each attribute the type skill lists, pick
-   a value under these hard rules:
+   wet food, treats, toys, supplements, grooming, accessories, litter — or a
+   new kind the phase-B agent will create) and read that type's skill
+   (`.claude/skills/<type>/SKILL.md`): leaf categories, how to pick values,
+   how to encode its size. Which attributes the type carries and their roles
+   are the live product type's (`reference/product-types.json`). Then, for
+   each attribute, pick a value under these hard rules:
    - **Closed menu:** only labels present in `reference/attribute-values.json`,
      or `null`. Never invent a value, never submit a label not in the menu.
    - **Evidence required:** every non-null pick needs a supporting quote from
@@ -164,14 +203,16 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
    - **CSV wins** over the brand site on any conflict (e.g. pack weight).
    - **Weights are metric, kilogram-based — never lbs/oz.** Convert a US source
      (`lb x 0.4536 = kg`), preferring the brand's own metric pack size.
-   - **Always set `product-weight` when the pack prints one** — `per_kg`
-     variants included (rule reversed 2026-09-14; it used to say the opposite).
-     The numeric `weight` field prices the bag, the attribute is what the
-     storefront filter and the pack-size dropdown read, and nothing derives one
-     from the other (table 4 of `reference/data-tables.md`). What is *not* a
-     pack weight: a dose band (`1–4 kg` → `pet-weight-range` 27), a length or a
-     bowl capacity (`75 cm`, `0.4 l/ø 17 cm` → `size` 28), a bare count
-     (`10 tablets`). Leave those blank.
+   - **The pack size is the variant's net content, not an attribute**
+     (CLAUDE.md 8a): `measure_type` `mass` + `content` in g (2 kg → 2000),
+     `volume` in ml (0.4 ml pipette → 0.4), `count` in pieces (10 tablets →
+     10); a multipack is `pack_count` × one item (12 × 85 g → 12, 85; a
+     2-pipette pack of 0.5 ml → 2, 0.5). Supplements choose per variant:
+     tablets/pipettes/collars `count`, liquids/pastes ml/g. What is *not* net
+     content: a dose band (`1–4 kg` → `pet-weight-range` 27), a length or a
+     bowl capacity (`75 cm`, `0.4 l/ø 17 cm` → the `size` option 28). A pack
+     with no printed content (a chew in cm, a toy) has none —
+     `ALLOW_NO_SIZE=1` for a sized type.
    - **Our definitions win** over the brand's: `reference/data-tables.md` defines
      how Siruk understands attribute concepts (Lifestage age bands, etc.) and
      how to translate brand wording into them. Read it before picking any
@@ -190,7 +231,7 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
      `{attribute, wanted_label, evidence, row}` for the report. Same if a whole
      attribute is missing for a new product domain.
    - Resolve picked labels → ids via the menu; double-check every id exists
-     before building the payload. Per-variant facts (**lifestage**, `product-weight`,
+     before building the payload. Per-variant facts (**lifestage**, size,
      flavor, packaging) are set per variant and sourced from that variant's own
      brand page; product-wide facts (breed size, food form, diet, health
      feature) are identical on every variant — if they aren't, it's a separate
@@ -241,24 +282,24 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
    - **New product** → `scripts/create-product.sh <payload.json>`. Payload shape
      in CLAUDE.md / the script header: name, slug, `category_ids` (**every**
      leaf that fits — the category map and the multi-category table in
-     `reference/product-rules.md`), `brand_id`, `attribute_family_id`, variants with
-     sku/cost_price(CSV)/stock/images, the right **pricing shape** (table 4 of
-     `reference/data-tables.md`: dry kibble → `pricing_type:"per_kg"` with
-     `price_per_kg` = hafo sale price ÷ pack weight and `weight`; units →
-     `"fixed"` with `price` = hafo sale price) and `attribute_value_ids` from
-     step 6. Both write scripts refuse a variant priced at or below cost. It
-     validates the required fields, refuses if a similar product already exists
+     `reference/product-rules.md`), `brand_id`, `attribute_family_id` (the
+     phase-B product type), variants with sku / `price` (the sale **pack**
+     price) / `cost_price` (CSV) / `measure_type` + `content` + `pack_count` /
+     `initial_stock` (Qty 1 → 10) / images, and `attribute_values` from step 6
+     (attribute code or id → [value ids]). Shape: `scripts/siruk_payload.py`.
+     Both write scripts refuse a variant priced at or below cost and anything
+     the product type refuses. It refuses if a similar product already exists
      (`FORCE=1` overrides), then POSTs and reads back.
    - **Existing product** → `scripts/add-variant.sh <id> <variant.json>` with
-     ONE variant object (no `id`; it sets `is_default: false`, `sort_order`, and
-     `pricing_type` for you). It rebuilds the PUT body from a fresh GET and
-     refuses to write if any existing variant would be lost.
+     ONE variant object (no `id`; it sets `is_default`, `sort_order` and the
+     sale mode for you). It rebuilds the PUT body from a fresh GET and
+     refuses to write if any existing variant would be lost, or if the new
+     variant lacks an option the others have or duplicates one's options + size.
      ⚠️ Never hand-write a `PUT /products/<id>` body: PUT replaces the entire
      variants array, so an omitted variant is deleted (silently, 200; 422 if it
      was the default). If the product Name still carries a pack weight from when
-     it was single-variant (e.g. "… 8kg"), fix Name/slug in a separate
-     `scripts/api.sh PUT` built from `show-product.sh <id> --json`, and move the
-     weight into the variant labels.
+     it was single-variant (e.g. "… 8kg"), fix Name/slug with
+     `scripts/rename-product.sh`, and move the weight into the variant labels.
 
    Group rows into products using "Product vs variant" in
    `reference/data-tables.md` — **the shelf test**: variants are the same pack
@@ -266,9 +307,9 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
    flavor or texture** merge into one product (one variant each). Rows differing
    by **lifestage, breed size, food form, diet or health claim → separate
    products** (a redesigned pack = a different product, as Chewy lists them).
-   Each variant must carry a **unique attribute combination** — set
-   `flavor`/`texture` on flavor/texture variants or the API rejects the second
-   one. Unclear → separate products + flag.
+   Each variant must differ in its **options + size** — set the type's option
+   attributes (flavor, texture, colour…) on every variant, or the second one is
+   unreachable on the storefront. Unclear → separate products + flag.
 9b. **Translate** — every product gets Russian and Armenian (user rule
    2026-09-10). Write `.siruk-cache/tr-<id>-ru.json` and `-hy.json` in the
    shape `scripts/set-translation.py` documents: `name` (brand-less, like the
@@ -283,8 +324,11 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
 10. **Verify** — `scripts/show-product.sh <id>` (both write scripts already
    print this): confirm name, categories (**all** of them — a dual-species item
    must show both trees' leaves), that **every** variant (pre-existing +
-   new) is present with the right price/stock/images, and that
-   `attribute_value_ids` are set as intended.
+   new) is present with the right price, size label, available stock and
+   images, and that `attribute_values` are set as intended. For a
+   multi-variant product also read what the shop builds:
+   `curl -s https://demo-api.siruk.am/api/products/<id> | jq '.data.optionGroups'`
+   — every variant reachable, no two "Size" rows.
    Record status, and say in the report whether the row was created as a new
    product or added as a variant to an existing one.
 11. **Breathe, then next row** — `scripts/pace.sh product` between rows (the

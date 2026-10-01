@@ -13,7 +13,7 @@ answers four questions:
   4. **Does the product carry an attribute family?**  a product with none
      serves no filter facets at all (`reference/product-rules.md`).
   5. **Is the live variant complete?**  images (none / only hafo's watermarked
-     placeholder, rule 7), our cost vs the register's, `product-weight` on a
+     placeholder, rule 7), our cost vs the register's, net content (measure_type) on a
      food pack (rule 8a), the variant-axis attributes its siblings carry
      (rule 9a), and whether a register price would be held (rule 2c: at or
      below cost, or a typo-level jump).
@@ -111,14 +111,10 @@ def main():
         hafo = r.get("hafo") or {}
 
         # --- what we charge today, normalised to a pack price -------------
+        # (catalog model 2026-09-29: every variant is priced per pack)
         our_pack = our_rate = None
         if v:
-            if v.get("pricing_type") == "per_kg":
-                our_rate = price(v.get("price_per_kg"))
-                if our_rate and num(v.get("weight")):
-                    our_pack = our_rate * num(v["weight"])
-            else:
-                our_pack = price(v.get("price"))
+            our_pack = price(v.get("price"))
 
         # --- price verdict -------------------------------------------------
         if not v:
@@ -142,23 +138,19 @@ def main():
         # --- per-kg twin ---------------------------------------------------
         twin = None
         if p:
-            # the twin is `<sku>-KG` (make-perkg-twin.py / archive/plan-register-food.py); a
+            # the twin is `<sku>-KG` — a 1 kg pack variant priced at the register's Kg rate
+            # (prepare-run.py; archive/make-perkg-twin.py made the old ones); a
             # multi-flavour product carries one twin per flavour
             twin = next((vv for vv in p["variants"] if str(vv.get("sku")) == f"{(v or {}).get('sku')}-KG"), None)
-            if twin is None:
-                for vv in p["variants"]:
-                    if vv.get("pricing_type") == "per_kg" and vv["id"] != (v or {}).get("id"):
-                        twin = vv
-                        break
         if reg_kg is None:
             twin_verdict = "not-sold-by-kg"
-            # a row with NO Kg must not be per_kg at all
-            if v and v.get("pricing_type") == "per_kg":
-                twin_verdict = "WRONG-per_kg (register has no Kg)"
+            # a row with NO Kg must not have a loose twin
+            if twin:
+                twin_verdict = "WRONG-twin (register has no Kg)"
         elif not v:
             twin_verdict = "needs-twin (product not live)"
         elif twin:
-            tr = price(twin.get("price_per_kg"))
+            tr = our_rate = price(twin.get("price"))
             twin_verdict = ("ok" if tr and abs(tr - reg_kg) <= a.tolerance
                             else f"TWIN-RATE-WRONG ({tr} vs {reg_kg})")
         else:
@@ -196,16 +188,16 @@ def main():
             if cost and live_cost is not None and abs(live_cost - cost) > a.tolerance:
                 issues.append(f"cost {live_cost:g} vs register {cost:g}")
             if (weight and p.get("attribute_family_id") in FOOD_FAMILIES
-                    and not (v.get("attrs") or {}).get("product-weight")):
-                issues.append("no product-weight (rule 8a)")
+                    and not v.get("measure_type")):
+                issues.append("no net content (rule 8a)")
             if len(p["variants"]) > 1:
                 have = set((v.get("attrs") or {}))
                 sib = set()
                 for vv in p["variants"]:
-                    if vv["id"] != v["id"] and vv.get("pricing_type") == v.get("pricing_type"):
+                    if vv["id"] != v["id"] and not str(vv.get("sku")).endswith("-KG"):
                         sib |= {k for k, val in (vv.get("attrs") or {}).items()
                                 if val and val != (v.get("attrs") or {}).get(k)}
-                axes = {"product-weight", "flavor", "texture", "size", "color-family",
+                axes = {"flavor", "texture", "size", "color-family",
                         "pet-weight-range", "toy-size"}
                 missing = sorted((sib & axes) - have)
                 if missing:
@@ -224,7 +216,7 @@ def main():
             "product": p["name"] if p else "",
             "variant_id": v["id"] if v else "",
             "variant": v["label"] if v else "",
-            "pricing_type": (v or {}).get("pricing_type", ""),
+            "size": (v or {}).get("size_label") or "",
             "cost": r.get("cost") or "",
             "reg_sale": reg_sale if reg_sale is not None else "",
             "our_pack_price": round(our_pack, 2) if our_pack is not None else "",
@@ -293,13 +285,13 @@ def main():
             if v["id"] not in matched_variants:
                 extras.append({"product_id": p["id"], "product": p["name"], "brand": p.get("brand") or "",
                                "variant_id": v["id"], "variant": v["label"], "sku": v.get("sku"),
-                               "pricing_type": v.get("pricing_type"),
-                               "price": v.get("price") if v.get("pricing_type") != "per_kg" else v.get("price_per_kg"),
+                               "size": v.get("size_label"),
+                               "price": v.get("price"),
                                "stock": v.get("stock")})
     ext = os.path.join(a.run, "register-extras.csv")
     with open(ext, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["product_id", "product", "brand", "variant_id", "variant",
-                                          "sku", "pricing_type", "price", "stock"])
+                                          "sku", "size", "price", "stock"])
         w.writeheader()
         w.writerows(extras)
     print(f"  live variants in no register row: {len(extras)} -> {ext}", file=sys.stderr)

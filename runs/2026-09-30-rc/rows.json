@@ -1,0 +1,731 @@
+[
+ {
+  "row": 24,
+  "name_file": "Maxi adult 5+ (years ans) 15kg",
+  "cost": 39500.0,
+  "price": 45500.0,
+  "price_per_kg": 3200.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 25,
+  "name_file": "Maxi adult 15kg",
+  "cost": 39500.0,
+  "price": 45500.0,
+  "price_per_kg": 3200.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 26,
+  "name_file": "Maxi puppy 15kg",
+  "cost": 41500.0,
+  "price": 47500.0,
+  "price_per_kg": 3300.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 27,
+  "name_file": "MaxiStarter Mother & Babydog 15kg",
+  "cost": 49500.0,
+  "price": 57000.0,
+  "price_per_kg": 3950.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 28,
+  "name_file": "Medium adult 15kg",
+  "cost": 39500.0,
+  "price": 45500.0,
+  "price_per_kg": 3200.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 29,
+  "name_file": "Medium puppy 15kg",
+  "cost": 41500.0,
+  "price": 47500.0,
+  "price_per_kg": 3300.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 30,
+  "name_file": "Mini adult 8kg",
+  "cost": 23000.0,
+  "price": 26500.0,
+  "price_per_kg": 3450.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 8000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 31,
+  "name_file": "Mini puppy 8kg",
+  "cost": 25000.0,
+  "price": 29000.0,
+  "price_per_kg": 3750.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 8000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 36,
+  "name_file": "Mini adult 8+ (years ans) 8kg",
+  "cost": 23000.0,
+  "price": 26500.0,
+  "price_per_kg": 3450.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 8000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 45,
+  "name_file": "Maxi Joint care 10 kg",
+  "cost": 31500.0,
+  "price": 36000.0,
+  "price_per_kg": 3800.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 10000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 52,
+  "name_file": "Mini start 8 kg",
+  "cost": 30500.0,
+  "price": 35000.0,
+  "price_per_kg": 4600.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 8000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 54,
+  "name_file": "Medium starter 15 kg",
+  "cost": 49500.0,
+  "price": 57000.0,
+  "price_per_kg": 3950.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 58,
+  "name_file": "Fit 32 Regular 15kg",
+  "cost": 46500.0,
+  "price": 53500.0,
+  "price_per_kg": 3700.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 60,
+  "name_file": "Kitten second age 10kg",
+  "cost": 34500.0,
+  "price": 39500.0,
+  "price_per_kg": 4150.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 10000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 61,
+  "name_file": "Sterilised Regular 15kg",
+  "cost": 52000.0,
+  "price": 60000.0,
+  "price_per_kg": 4150.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 65,
+  "name_file": "Hairball Care 10kg",
+  "cost": 34500.0,
+  "price": 39500.0,
+  "price_per_kg": 4150.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 10000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 66,
+  "name_file": "Indoor 27 Home Life 10kg",
+  "cost": 34500.0,
+  "price": 39500.0,
+  "price_per_kg": 4150.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 10000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 70,
+  "name_file": "Hipoallergenic S/O index cat 4,5kg",
+  "cost": 19000.0,
+  "price": 22000.0,
+  "price_per_kg": 5000.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 4500.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 72,
+  "name_file": "Urinary S/O index cat 7 kg",
+  "cost": 25000.0,
+  "price": 29000.0,
+  "price_per_kg": 4300.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 7000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 82,
+  "name_file": "Indoor 27 Home Life 10+2kg",
+  "cost": null,
+  "price": null,
+  "price_per_kg": null,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 12000.0,
+   "pack_count": 1
+  },
+  "stock": 10,
+  "hold": "no cost / sale price in the file"
+ },
+ {
+  "row": 141,
+  "name_file": "Hypoallergenic S/O index dog 14kg",
+  "cost": 52500.0,
+  "price": 60500.0,
+  "price_per_kg": 4500.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 14000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 143,
+  "name_file": "Gastrointestinal dog 15kg",
+  "cost": 56500.0,
+  "price": 65000.0,
+  "price_per_kg": 4500.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 144,
+  "name_file": "Cardiac dog 14kg",
+  "cost": 52500.0,
+  "price": 60500.0,
+  "price_per_kg": 4500.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 14000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 145,
+  "name_file": "Urinary S/O dog 13kg",
+  "cost": 49000.0,
+  "price": 56500.0,
+  "price_per_kg": 4500.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 13000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 148,
+  "name_file": "Renal dog 14kg",
+  "cost": 52500.0,
+  "price": 60500.0,
+  "price_per_kg": 4500.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 14000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 149,
+  "name_file": "Hepatic dog 12 kg",
+  "cost": 45000.0,
+  "price": 52000.0,
+  "price_per_kg": 4500.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 12000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 155,
+  "name_file": "Mobility C2P+ 12KG",
+  "cost": 45000.0,
+  "price": 52000.0,
+  "price_per_kg": 4500.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 12000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 157,
+  "name_file": "Gastro Dog Puppy 10kg",
+  "cost": 39000.0,
+  "price": 45000.0,
+  "price_per_kg": 4700.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 10000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 158,
+  "name_file": "SKIN CARE 11KG",
+  "cost": 45000.0,
+  "price": 51500.0,
+  "price_per_kg": 4900.0,
+  "col_E": 1,
+  "pack": {
+   "measure_type": "mass",
+   "content": 11000.0,
+   "pack_count": 1
+  },
+  "stock": 10
+ },
+ {
+  "row": 180,
+  "name_file": "Intense Beauty gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 181,
+  "name_file": "SENSIT CTRL CK 12X85G INT",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 182,
+  "name_file": "Digest Sensitive gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 183,
+  "name_file": "Instinctive gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 184,
+  "name_file": "Kitten gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 185,
+  "name_file": "Instinctive 7+ gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 187,
+  "name_file": "Care Light Weight gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 188,
+  "name_file": "Mother & Babycat can 195g",
+  "cost": 2000.0,
+  "price": 2300.0,
+  "price_per_kg": null,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 195.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 189,
+  "name_file": "Intense Beauty jelly 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 191,
+  "name_file": "Instinctive jelly 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 192,
+  "name_file": "kitten jelly 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 194,
+  "name_file": "Instinctive 12+ jelly 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 195,
+  "name_file": "Care Light Weight jelly 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 196,
+  "name_file": "Sterilised jelly 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 197,
+  "name_file": "Urinary S/O index gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 200,
+  "name_file": "Renal with chicken pouch 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 201,
+  "name_file": "Urinary Care gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 206,
+  "name_file": "Kitten Loaf 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 208,
+  "name_file": "Sterilised loaf 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 213,
+  "name_file": "Renal with Fish gravy 12*85g",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 221,
+  "name_file": "SENSORY SMELL 12X85գ",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 222,
+  "name_file": "SENSORY TASTE 12X85գ",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ },
+ {
+  "row": 223,
+  "name_file": "SENSORY FEEL 12X85գ",
+  "cost": 7500.0,
+  "price": 8600.0,
+  "price_per_kg": 750.0,
+  "col_E": 12,
+  "pack": {
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12
+  },
+  "stock": 10
+ }
+]

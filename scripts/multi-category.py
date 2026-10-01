@@ -35,8 +35,9 @@ import json, os, re, subprocess, sys, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache", "multicat")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id",
-        "is_best_seller", "is_on_sale", "variants")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# The PUT body is rebuilt by the one payload builder (catalog model 2026-09-29).
+from siruk_payload import PayloadError, put_body  # noqa: E402
 
 # Leaf <-> leaf across the two species trees. Only real mirrors; a leaf with no
 # counterpart maps to None and is reported instead of guessed.
@@ -219,7 +220,10 @@ def main():
         want = sorted(set(cur["category_ids"]) | set(r["add"]))
         if not set(want) >= set(cur["category_ids"]):
             print(f"  REFUSING {r['id']}: would shrink"); fail += 1; continue
-        body = {k: cur[k] for k in KEEP if k in cur}
+        try:
+            body = put_body(cur)
+        except PayloadError as e:
+            print(f"  REFUSING {r['id']}: {e}"); fail += 1; continue
         body["category_ids"] = want
         res = api("PUT", f"/products/{r['id']}", body).get("data", {})
         good = (sorted(res.get("category_ids") or []) == want

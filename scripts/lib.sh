@@ -320,7 +320,8 @@ media_ok() {
 price_guard() {
   local bad
   bad=$(jq -r '
-    def sale: if .pricing_type == "per_kg" then ((.price_per_kg // 0) * (.weight // 0)) else (.price // 0) end;
+    # price is the pack price (sale_mode pack) or the per-kg price (weight, with a per-kg cost)
+    def sale: (.price // 0);
     .[] | select((.cost_price // 0) > 0 and (sale) <= (.cost_price // 0))
         | "  sku=\(.sku)  sale=\(sale)  cost=\(.cost_price)"' <<<"$1")
   [[ -z $bad ]] && return 0
@@ -333,7 +334,8 @@ price_guard() {
 variant_table() {
   jq -r '.data // .
          | "product \(.id)  \(.name)  [categories \(.category_ids|tostring)  brand \(.brand_id)]",
-           (.variants[] | "  variant \(.id // "NEW")  \(.name // "-")  sku=\(.sku)  \(.price) AMD  stock=\(.stock)  default=\(.is_default)  attrs=\((.attribute_value_ids // {})|tostring)")'
+           "  type \(.attribute_family_name // .attribute_family_id)",
+           (.variants[] | "  variant \(.id // "NEW")  \(.name // "-")  sku=\(.sku)  \(.sale_mode // "-") \(.size_label // "no size")  \(.price) AMD  available=\(.available_quantity // .initial_stock // "-")  default=\(.is_default)  attrs=\((.attribute_values // {})|tostring)")'
 }
 
 mkdir -p "$CACHE"

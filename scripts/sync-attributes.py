@@ -8,7 +8,8 @@ an interruption. Per attribute in the spec:
   * create the spec values that do not exist (match is case/punctuation-insensitive)
   * set isFilterable from the spec ("filterable": false hides it from the storefront sidebar)
   * report live values that are NOT in the spec (never deleted — the user decides)
-Then extends each family's attribute_ids (keeps existing order, appends the "add" list).
+Then extends each product type (API: attribute family) — keeps every existing row with its role
+and flags, appends the "add" list as role `attribute` (spec "add_options" → role `option`).
 
     scripts/sync-attributes.py [--spec file] [--dry-run] [--only code,code]
 """
@@ -120,11 +121,17 @@ def main():
     for fid, f in (spec.get("families") or {}).items():
         cur = api("GET", f"/attribute-families/{fid}").get("data") or {}
         ids = [x["id"] for x in cur.get("attributes", [])]
-        add = [live[c]["id"] for c in f["add"] if c in live and live[c]["id"] not in ids]
+        opts = set(f.get("add_options") or [])
+        add = [c for c in list(f.get("add") or []) + sorted(opts) if c in live and live[c]["id"] not in ids]
         if add:
-            print(f"family {fid} {f['name']}: + {[c for c in f['add'] if c in live and live[c]['id'] in add]}")
+            print(f"product type {fid} {f['name']}: + {add}")
             if not dry:
-                api("PUT", f"/attribute-families/{fid}", {"name": f["name"], "code": f["code"], "sortOrder": cur.get("sortOrder", int(fid)), "attribute_ids": ids + add})
+                # `attributes` replaces the whole set (catalog model 2026-09-29): re-send every row
+                rows = [{"id": x["id"], "role": x["role"], "is_required": x["isRequired"],
+                         "is_filterable": x["isFilterable"], "show_on_product_card": x["showOnProductCard"]}
+                        for x in sorted(cur.get("attributes", []), key=lambda x: x.get("position") or 0)]
+                rows += [{"id": live[c]["id"], "role": "option" if c in opts else "attribute"} for c in dict.fromkeys(add)]
+                api("PUT", f"/attribute-families/{fid}", {"name": cur["name"], "code": cur["code"], "attributes": rows})
     json.dump(report, open(os.path.join(CACHE, "sync-attributes-report.json"), "w"), indent=1, ensure_ascii=False)
     print("\n== extras (live values not in the Chewy spec — kept, your call) ==")
     for code, ex in report["extras"].items():

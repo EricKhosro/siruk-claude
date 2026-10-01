@@ -8,7 +8,9 @@ verifies the file is readable and caches URL→id, so an image already on the
 server is not uploaded twice), then set `images` to the full ordered id list in
 gallery order — packshot first (feature image rule, CLAUDE.md 7). Run
 `scripts/feature-image.py` afterwards to confirm every first image is clean.
-One PUT per product, body rebuilt from a fresh GET. Resumable via a state file.
+One PUT per product, body rebuilt from a fresh GET through
+`scripts/siruk_payload.py` (checked against the product type). Resumable via a
+state file.
 
     scripts/add-all-images.py [--only id,id] [--dry-run] [--limit N]
 """
@@ -19,10 +21,9 @@ CACHE = os.path.join(ROOT, ".siruk-cache")
 URLS = os.path.join(CACHE, "trixie-gallery-urls.json")
 STATE = os.path.join(CACHE, "add-all-images-state.json")
 TRIXIE = 8
-VKEYS = ("id", "name", "about_this_item", "ingredient_information", "feeding_instructions", "pricing_type", "sku",
-         "price", "price_per_kg", "min_allowed_price", "cost_price", "compare_at_price", "weight", "is_default",
-         "stock", "vendor_stock", "sort_order", "images", "attribute_value_ids")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id", "is_best_seller", "is_on_sale", "is_discontinued")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# The PUT body is rebuilt by the one payload builder (catalog model 2026-09-29).
+from siruk_payload import PayloadError, put_body  # noqa: E402
 
 
 def sh(args, timeout=300):
@@ -75,10 +76,15 @@ def main():
         if not dry and pid in state["done"]: continue
         p = api("GET", f"/products/{pid}").get("data") or {}
         if p.get("brand_id") != TRIXIE: continue
+        try:
+            body = put_body(p)
+        except PayloadError as e:
+            state["problems"].append((pid, "payload", str(e)))
+            print(f"{pid:>4} {p.get('name','')[:36]:<36} REFUSED before writing: {e}", flush=True)
+            continue
         variants, changed, report = [], False, []
-        for v in p.get("variants", []):
-            nv = {k: v.get(k) for k in VKEYS if k in v}
-            nv["images"] = list(nv.get("images") or []); nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
+        for v, nv in zip(p.get("variants", []), body["variants"]):
+            nv["images"] = list(nv.get("images") or [])
             art = re.sub(r"tx$", "", v["sku"], flags=re.I)
             urls = gallery(art, urlcache)
             if not urls:
@@ -103,7 +109,7 @@ def main():
             report.append(f"{v['sku']}: {len(existing)} → {len(ordered)} imgs")
             variants.append(nv)
         if changed and not dry:
-            body = {k: p.get(k) for k in KEEP}; body["variants"] = variants
+            body["variants"] = variants
             api("PUT", f"/products/{pid}", body)
             back = api("GET", f"/products/{pid}").get("data") or {}
             ok = [len(x.get("images") or []) for x in back.get("variants", [])] == [len(x["images"]) for x in variants]

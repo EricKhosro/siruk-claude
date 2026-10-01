@@ -41,10 +41,10 @@ STATE = os.path.join(CACHE, "enrich-images.state.json")
 HAFO_PAGES = os.path.join(CACHE, "hafo-page-images.json")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
-VKEYS = ("id", "name", "about_this_item", "ingredient_information", "feeding_instructions", "pricing_type", "sku",
-         "price", "price_per_kg", "min_allowed_price", "cost_price", "compare_at_price", "weight", "is_default",
-         "stock", "vendor_stock", "sort_order", "images", "attribute_value_ids")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id", "is_best_seller", "is_on_sale", "is_discontinued")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Every PUT body is rebuilt by the one payload builder (catalog model 2026-09-29),
+# which also checks the variants against the product type before anything is written.
+from siruk_payload import PayloadError, put_body  # noqa: E402
 TRIXIE_RANK = {"PHO_PRO_CLIP": 1, "PHO_PAC_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SET_CLIP": 4, "PHO_PRO": 3,
                "PHO_PRO_USE_CLIP": 5, "PHO_PRO_USE": 5, "PHO_PRO_DOG_CLIP": 6, "PHO_PRO_CAT_CLIP": 6,
                "PHO_PRO_DOG": 6, "PHO_PRO_CAT": 6, "PHO_PRO_GROUP_CLIP": 7, "PHO_PRO_GROUP": 7,
@@ -317,11 +317,15 @@ def apply_():
         p = api("GET", f"/products/{pid}").get("data") or {}
         if not p:
             state["problems"].append((pid, "GET failed")); continue
+        try:
+            body = put_body(p)
+        except PayloadError as e:
+            state["problems"].append((pid, "payload", str(e)))
+            print(f"{pid:>4} {p.get('name','')[:38]:<38} REFUSED before writing: {e}", flush=True)
+            continue
         variants, changed, rep = [], False, []
-        for v in p.get("variants", []):
-            nv = {k: v.get(k) for k in VKEYS if k in v}
+        for v, nv in zip(p.get("variants", []), body["variants"]):
             nv["images"] = list(nv.get("images") or [])
-            nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
             want = by_product.get(pid, {}).get(str(v["sku"]), [])
             # A hafo picture is a placeholder (rule 7a): it is only ever attached
             # when nothing else has one. So if this variant already carries a real
@@ -367,7 +371,6 @@ def apply_():
             rep.append(f"{v['sku']}: {len(v.get('images') or [])}→{len(ordered)}")
             variants.append(nv)
         if changed and not dry:
-            body = {k: p.get(k) for k in KEEP if p.get(k) is not None}
             body["variants"] = variants
             r = api("PUT", f"/products/{pid}", body)
             back = api("GET", f"/products/{pid}").get("data") or {}
@@ -421,10 +424,13 @@ def purge_hafo(whole_catalogue=False):
         p = api("GET", f"/products/{pid}").get("data") or {}
         if not p:
             continue
+        try:
+            body = put_body(p)
+        except PayloadError as e:
+            print(f"{pid:>4} {p.get('name','')[:38]:<38} REFUSED before writing: {e}", flush=True)
+            continue
         variants, changed = [], False
-        for v in p.get("variants", []):
-            nv = {k: v.get(k) for k in VKEYS if k in v}
-            nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
+        for v, nv in zip(p.get("variants", []), body["variants"]):
             keep = [i for i in (nv.get("images") or []) if i not in bad]
             if keep != (nv.get("images") or []):
                 changed = True
@@ -433,7 +439,6 @@ def purge_hafo(whole_catalogue=False):
             nv["images"] = keep
             variants.append(nv)
         if changed:
-            body = {k: p.get(k) for k in KEEP if p.get(k) is not None}
             body["variants"] = variants
             api("PUT", f"/products/{pid}", body)
             back = api("GET", f"/products/{pid}").get("data") or {}

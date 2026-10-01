@@ -1,6 +1,6 @@
 ---
 name: toys
-description: Product-type spec for TOYS — which categories, attribute family, attributes and values a toy gets, its variant axes, and how to source them. Read by /add-products for every toy row and by /manage-attributes when building or extending the toy vocabulary. Use when importing, re-attributing or reviewing dog/cat toys.
+description: Product-type spec for TOYS — which categories, product type and values a toy gets, its variant axes, and how to source them. Read by /add-products for every toy row and by /manage-attributes when building or extending the toy vocabulary. Use when importing, re-attributing or reviewing dog/cat toys.
 ---
 
 # Toys — product-type spec
@@ -8,8 +8,8 @@ description: Product-type spec for TOYS — which categories, attribute family, 
 Replicates Chewy's toy filters (user decision 2026-09-10): **Breed Size,
 Color Family, Toy Feature, Material**, plus a hidden **Toy Size** as the
 variant axis. Skipped on purpose: Collection, Made In. One value per attribute
-per variant — the API rejects arrays (verified 2026-09-10), so pick the single
-most prominent feature / material / colour.
+per variant (every toy attribute is `select`), so pick the single most
+prominent feature / material / colour.
 
 The full value lists live in `reference/chewy-attributes.json` (the file
 `scripts/sync-attributes.py` applies to the admin) and, once synced, in the
@@ -17,8 +17,17 @@ closed menu `reference/attribute-values.json`. Pick only from the menu.
 
 ## Where a toy is filed
 
-Family **5 Toys**. Category = the **leaf** under Toys, chosen from the
-`toy-type` value (never the parent 15/16):
+Product type **5 Toys** (`measure_type: null` — a toy has no net content, so
+no `measure_type`/`content`; `default_sale_mode: pack`). **The live product
+type decides which attributes exist, their role (`option` / `attribute`) and
+flags** — `reference/product-types.json` (`scripts/product-types.py --dump`);
+it wins over this file. Read 2026-09-30: `toy-type`, `material` and
+`toy-size` are `option`; `toy-feature`, `color-family`, `lifestage`,
+`breed-size` are `attribute`. An attribute the batch needs that the type
+lacks → the `attribute-manager` agent before the import (CLAUDE.md 8b).
+
+Category = the **leaf** under Toys, chosen from the `toy-type` value (never
+the parent 15/16) — so every variant of one toy carries the same `toy-type`:
 
 | toy-type | Dog leaf | Cat leaf |
 |---|---|---|
@@ -42,7 +51,7 @@ though Chewy shows it as a category, not a filter.
 | `color-family` | 15 | Chewy's 24 (Multi … Navy, Color Varies, Glow In The Dark) | from the page text or the packshot you looked at; 2+ colours → **Multi**; Trixie "assorted colours" (random shipment) → **Color Varies**. A colour that differs per article code is a variant axis |
 | `toy-feature` | 13 | Chewy's 30 (Squeaky, Tough Chewer, Exercise, Training, Dental, Teething, Outdoor, Water Toy, Crinkle, Bouncy, Stuffing-Free, Variety Pack, Durable, Electronic, Glowing & Light-Up, Puzzle Toy, Battery Operated, Replacement, Herding, Catnip, Floats, Nylon, TPR, Natural, Spring, Waterproof, Animal & Figure, App-Controlled, Scented, Scratcher) + our 5 extras (Massages Gums, Mint Flavour, Shock Absorber, With Bell, With Rope) | the feature the page leads with, with a quote. Trixie wording → Chewy value: "squeaker" → Squeaky; "floats" → Floats; "glow" → Glowing & Light-Up; "for teeth cleaning / dental care" → Dental; "with catnip" → Catnip; "robust / strong chewers" → Tough Chewer; "intelligence / strategy game" → Puzzle Toy; "water" → Water Toy |
 | `material` | 12 | Chewy's 46 + our 3 extras (Plush, Cotton/Polyester, Paper Cord) | the material the page prints (Trixie prints one on almost every toy). **You may create a value** for a material not in the menu — see below |
-| `toy-size` | 16 (hidden from filters) | "<n> cm", 42 values | from the label/page dimension ("22 cm", "ø 6 cm"). Create a missing size with `/manage-attributes` in the same "<n> cm" form. **Not shown in the storefront sidebar** (`isFilterable: false`) — it exists only so size variants stay distinct |
+| `toy-size` | 16 (option, not filterable on this type) | "<n> cm", 42 values | from the label/page dimension ("22 cm", "ø 6 cm"). Create a missing size with `/manage-attributes` in the same "<n> cm" form. **Not shown in the storefront sidebar** (`is_filterable` off on the Toys type) — it is the size selector, never net content (CLAUDE.md 8a) |
 | `lifestage` | 3 | Nursing, Puppy, Kitten, Adult, Senior, All Lifestages | only on an explicit claim ("puppy toy", "for kittens") |
 
 Every non-empty pick needs a quote from the page. Empty beats a guess.
@@ -77,12 +86,15 @@ created" in the run report. Never two values a shopper would read as the same.
 **Size (cm) and colour.** Same toy in 22 / 28 / 40 cm = one product, three
 variants, each with its own `toy-size`; same toy in blue / red = one product
 with `color-family` per variant. The label carries every varying axis
-("28 cm", "Red 15 cm"). Each variant must end up with a distinct attribute
-combination or the API rejects it.
+("28 cm", "Red 15 cm"). Only **option**-role values tell variants apart (no
+two variants may share them — `siruk_payload.py` refuses), and an option set
+on one variant must be set on all (rule 9a). `color-family` is `attribute` on
+the live type (2026-09-30), so a toy line that varies by colour needs the
+`attribute-manager` agent to make it an `option` first (CLAUDE.md 8b).
 
 ## Pricing, sourcing, naming
 
-- `pricing_type: "fixed"`, `price` = hafo's row for **that** article code,
+- `price` = hafo's row for **that** article code (the pack price),
   `cost_price` = CSV price (`reference/pricing.md`). One lookup per variant.
 - Trixie: **all** gallery images via `scripts/trixie-image.sh <art no>` (one
   URL per line, packshot first — upload every line into `variant.images`;

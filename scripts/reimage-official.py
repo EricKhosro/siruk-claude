@@ -9,6 +9,9 @@ in the run's follow-up CSV rather than shipping someone else's photo.
 import json, subprocess, sys, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# The PUT body is rebuilt by the one payload builder (catalog model 2026-09-29).
+from siruk_payload import PayloadError, put_body  # noqa: E402
 
 # Loaded from .siruk-cache/official-map.json (monge.shop, matched by EAN) and
 # merged over the static table below.
@@ -90,11 +93,13 @@ def main():
                 v["about_this_item"] = about; touched = True
         if not touched:
             continue
-        body = {k: d[k] for k in ("name","slug","brand_id","attribute_family_id",
-                                  "is_best_seller","is_on_sale") if k in d}
+        try:
+            body = put_body(d)          # carries the edited images / about_this_item
+        except PayloadError as e:
+            print(f"{pid:<4} {d['name'][:44]:<44} REFUSED before writing: {e}")
+            continue
         body["category_ids"] = [c["id"] if isinstance(c, dict) else c
                                 for c in (d.get("categories") or d.get("category_ids") or [])]
-        body["variants"] = d["variants"]
         if d.get("meta"): body["meta"] = d["meta"]
         r = sh([f"{ROOT}/scripts/api.sh", "PUT", f"/products/{pid}", "-"], input=json.dumps(body))
         ok = "HTTP 200" in (r.stdout.splitlines()[0] if r.stdout else "")

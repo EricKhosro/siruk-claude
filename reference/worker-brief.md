@@ -22,7 +22,7 @@ the row goes on needs-image.csv) — do not hold a hafo-confirmed row just for w
 2. `reference/card-schema.md` — the exact card format.
 3. The type entry in `reference/types.json`, and in `.claude/skills/<type>/SKILL.md`
    the sections on filing, attributes and variant axes.
-4. The allowed values — only your family's attributes:
+4. The allowed values — only your product type's attributes (API: attribute family):
    `python3 -c "import json;m=json.load(open('reference/attribute-values.json'));f=json.load(open('.siruk-cache/live-ids.json'))['families']['<family id>']['attrs'];[print(c,'→',list(m[c]['values'])) for c in f if c in m]"`
 5. The brand's line in `reference/brand-sites.md` (`grep -i <brand>`).
 6. Lifestage/breed-size/texture words: the matching table in `reference/data-tables.md` (grep, don't read it all).
@@ -52,12 +52,14 @@ the row goes on needs-image.csv) — do not hold a hafo-confirmed row just for w
 5. **Card**: English `name` (no brand, no pack size, no flavour/colour), `label` = the axis
    (`Turkey in Gravy`, `M`, `42.5 × 31 × 8 cm`), `category_ids` = every leaf that fits from
    types.json (both species' mirror leaves only if the pack says both), attributes only with a
-   verbatim quote — no quote, leave it out. `product-weight` whenever the row has a `pack` in kg/g.
+   verbatim quote — no quote, leave it out. The pack size is NOT an attribute: it comes from the
+   row's `pack` (net content); add `size: {measure_type, content, pack_count}` only when `pack` is
+   missing or the wrong kind (tablets → `count`, 10), per `reference/card-schema.md`.
    `texts.about_this_item` in English, faithful to the source (translate from Russian/Ukrainian if
    that is all there is), no claims the source doesn't make; ingredients/feeding for food.
    `price: {"source": "prepared"}` unless the row's route is `needs-price`.
    - **Packaging and colour are seen, not read**: when the page text doesn't say it, set them
-     from the photo as `{"value": "Bag", "basis": "photo"}` (no quote). Every family that has
+     from the photo as `{"value": "Bag", "basis": "photo"}` (no quote). Every product type that has
      `packaging` should get it — dry food is nearly always `Bag`; a 400 g tin is `Can`.
    - **The whole gallery**: every product image the page has (all angles, back of pack, detail
      shots), not just the first. One image from a brand site is almost always incomplete.

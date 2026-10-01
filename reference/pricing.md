@@ -8,7 +8,7 @@ real data the moment it is saved. These rules are absolute.
 | Field | Source | Never |
 |---|---|---|
 | `cost_price` | **the CSV**. Any price column the CSV has is what *we pay*: `Buy Price (AMD)`, `Unit H/S Cost`, `R/Price`, a bare `Price`. | a brand-site price, a hafo price |
-| `price` (or `price_per_kg` × `weight`) | **hafo.am**, the row in `product_additional_information[]` whose SKU is our article code. Only when hafo has none: a **confirmed** zoovet.am price, then the sibling fallback (both below). | anything computed, guessed, copied from a similar product, or read off a brand site |
+| `price` — always the **pack** price (catalog model, 2026-09-29) | **hafo.am**, the row in `product_additional_information[]` whose SKU is our article code. Only when hafo has none: a **confirmed** zoovet.am price, then the sibling fallback (both below). | anything computed, guessed, copied from a similar product, or read off a brand site |
 
 If the CSV has both a cost and a *filled* sale-price column (a re-import of
 `no-hafo-price.csv` the user completed by hand), the user's figure is the sale
@@ -18,7 +18,7 @@ sale-price column means "fetch from hafo", never "fill it in yourself".
 **Exception: the user names the sale-price column up front for the run.**
 When the user's own instructions state that a specific column *is* the
 selling price (e.g. "column X is our sale price"), write that column straight
-to `price`/`price_per_kg` for every row that has it and skip the whole
+to `price` for every row that has it and skip the whole
 hafo → zoovet → sibling lookup chain for pricing on those rows entirely. This
 only applies when stated up front for that column in that run — absent that
 statement the CSV price is cost as usual and the full hafo-first chain runs.
@@ -38,7 +38,10 @@ guards stay: a register price at or below the row's cost is not written (rule
 ≥ 2.5× cost **and** ≥ 2× the current price is held as SUSPECT (a 150 g paté
 at 9,600; a 85 g pouch at 8,300). `scripts/register-price-sync.py` applies the
 rest and logs everything in `runs/<date>/price-sync.csv`. Where a `Kg` rate is
-given the bag is also sold loose — the per-kilo twin of `make-perkg-twin.py`.
+given the bag is also sold loose; the per-kilo twin variant that used to carry
+it (`make-perkg-twin.py`) is retired with the `per_kg` pricing type
+(2026-09-29).
+Loose sale (user rule 2026-09-30): a per-kg sale price (the register's `Kg` column, a price list's `Վաճառքի Գին կիլոգրամով`) adds a **by-weight variant** next to the bag: `sale_mode: "weight"`, `price` = the per-kg price, **`qty_min` 1 kg and `qty_step` 1 kg** (`1000` g each — user rule 2026-10-01: customers buy loose food in whole kilograms), no measure/content/pack_count, `cost_price` = bag cost ÷ bag kg, `initial_stock` in **grams** (placeholder 10 kg = 10000), SKU `<bag sku>-KG`, same attributes, texts and photos as the bag. The backend gives every weight variant the same size key, so a product gets one by-weight variant per option combination (per flavour/texture), not one per bag size. The 61 older `-KG` twins are 1 kg pack variants from before this rule — leave them unless asked. For wet food a small per-unit price (750 next to a 12 × 85 g pack) is not per kg (it is below cost per kg) but the price of one pouch → a 1 × 85 g pack variant.
 
 **The register has no article codes** — recover them with this chain:
 `scripts/read-register.py` → `scripts/match-register.py` →
@@ -180,8 +183,8 @@ imported at 480 as a second flavour variant of product 326.
 
 ## Sanity checks before any write
 
-- `price > cost_price` (or `price_per_kg × weight > cost_price`). At or below
-  cost → do not write, report it. The scripts enforce this
+- `price > cost_price` — both per pack. At or below cost → do not write,
+  report it. The scripts enforce this
   (`ALLOW_BELOW_COST=1` overrides only on the user's explicit say-so). This is
   the only price check that blocks a write — `wholesale_price` is a tie-break
   signal during identification (above), never a reason to stop on its own.
@@ -200,14 +203,16 @@ price≤cost block the auto-fix; wholesale≠cost stopped being a flag on
 2026-09-23 — the `hafo wholesale` column still shows it). First run 2026-09-10:
 133/135 matched, 1 fixed (litter 8 l 6000→9250), 1 tie broken by cost.
 
-## `per_kg` products
+## Pack price and the per-kg rate (catalog model, 2026-09-29)
 
-Dry kibble sold by the kilo uses `pricing_type: "per_kg"` with
-`price_per_kg = hafo price ÷ pack weight (kg)` and `weight`. The API ignores
-`price` on such variants and recomputes the pack price as rate × weight (2
-decimals stored). Details in `reference/admin-api.md` and table 4 of
-`reference/data-tables.md`. The vendor sheets' `PRICE/KG` column is only a
-marker that the row is per-kg; it is the vendor's rounded figure, not our rate.
+`price` is always what one pack costs the shopper — hafo's figure for that
+article, unchanged, for a 15 kg bag as for an 85 g pouch. The size lives in
+`measure_type` / `content` / `pack_count` (CLAUDE.md 8a), and the server
+derives the "֏/kg" or "֏/100 ml" rate from price ÷ net content — never send a
+rate. `pricing_type`, `price_per_kg` and `weight` are gone, and with them the
+old "rate = hafo price ÷ pack kg" arithmetic. The vendor sheets' `PRICE/KG`
+column is the vendor's rounded figure: never a price of ours (at most a hint
+that the row is a dry-food bag).
 
 ## The two CSVs every run writes
 
@@ -249,5 +254,6 @@ researched by hand.
 - 2026-09-09: 31 toy variants priced from hafo's top-level listing price, 5 of
   them below our cost (60 cm rope at 400 against 1715 cost). Fixed by
   `scripts/archive/fix-toy-prices.py`; the per-row rule above is the result.
-- 2026-08-12: the storefront shows a "֏/kg" rate only on `per_kg` variants, so
-  the rate must reproduce the pack price exactly.
+- 2026-08-12 → 2026-09-29 (history): dry kibble was `per_kg`, priced by a
+  2-decimal rate × weight that had to reproduce hafo's pack price exactly. The
+  catalog model stores the pack price and computes the rate instead.

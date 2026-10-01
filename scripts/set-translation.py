@@ -25,12 +25,10 @@ import json, os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
-KEEP = ("slug", "category_ids", "brand_id", "attribute_family_id", "is_best_seller", "is_on_sale", "is_discontinued")
-VKEEP = ("id", "name", "pricing_type", "sku", "price", "price_per_kg", "min_allowed_price", "cost_price",
-         "compare_at_price", "weight", "is_default", "stock", "vendor_stock", "sort_order", "images", "attribute_value_ids",
-         # 2026-09-25: the API now requires sale_mode and stores unit / net_quantity / pack_count per
-         # variant; a PUT without them 422s or blanks them, so they are copied like the rest
-         "sale_mode", "unit", "net_quantity", "pack_count")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Variants are re-sent through the one payload builder (catalog model 2026-09-29):
+# the API refuses the old fields and anything server-only such as item_content.
+from siruk_payload import product_body, product_type, to_variant_payload  # noqa: E402
 VTEXT = ("about_this_item", "ingredient_information", "feeding_instructions")
 
 
@@ -80,15 +78,14 @@ def main():
         c = (cur_v.get(sku) or {}).get(f)
         return c if c and c != en_val else (en_val or "")
 
-    body = {k: en.get(k) for k in KEEP}
+    body = product_body(en)
     body["name"] = tr.get("name") or (cur.get("name") if cur.get("name") and cur.get("name") != en["name"] else en["name"])
     body["meta"] = tr.get("meta") if tr.get("meta") is not None else en.get("meta")
     body["locale"] = lang
     body["variants"] = []
+    allowed = {a["id"] for a in product_type(en["attribute_family_id"]).get("attributes") or []}
     for v in en["variants"]:
-        nv = {k: v.get(k) for k in VKEEP if k in v}
-        nv["images"] = nv.get("images") or []
-        nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
+        nv = to_variant_payload(v, allowed)
         t = (tr.get("variants") or {}).get(v["sku"], {})
         for f in VTEXT:
             nv[f] = t.get(f) if t.get(f) is not None else kept(v["sku"], f, v.get(f))

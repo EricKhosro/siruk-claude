@@ -16,17 +16,21 @@
 ## Product vs variant — the shelf test
 
 Variants are the same pack with a different option printed on it. **Variant
-axes: pack weight, flavour, texture** (gravy/jelly/loaf/mousse). Everything
+axes: pack size (the net content, CLAUDE.md 8a), flavour, texture**
+(gravy/jelly/loaf/mousse) — flavour and texture being the product type's
+`option`-role attributes (`reference/product-types.json`). Everything
 that redesigns the pack splits products: **lifestage, breed size, food form,
 special diet, health feature**, colour. RC Mini Puppy 8 kg and Mini Adult 8 kg
 are two products; Sterilised in gravy + in jelly is one product with two
 variants. Unclear → separate products + flag. Full reasoning in
 `reference/data-tables.md` §2.
 
-**Those axes are the FOOD axes.** A product type's own skill overrides them:
-`accessories` adds **size, colour and volume**, so one collar in six sizes and
-five colours is one product with 30 options, not 30 products. Same for
-`grooming` (size, scent). Colour only splits a *food* pack.
+**Those axes are the FOOD axes.** A product type's own skill overrides them,
+within the options its live type defines: `accessories` adds **size, colour
+and volume**, so one collar in six sizes and five colours is one product with
+30 options, not 30 products. Same for `grooming` (size, scent). Colour only
+splits a *food* pack. Only option-role values plus the net content tell
+variants apart — a spec-role value never does.
 
 Grouping lessons (2026-08-13, the Schesir regroup):
 - Never let a variant axis into a grouping key (pack weight/texture in the key
@@ -106,19 +110,22 @@ list. `SPLIT_OFF` in the script holds the hand-checked exceptions with their
 evidence.
 
 **A merged product needs a variant axis.** The storefront builds the selector
-from **attributes**, not from the variant label — verified on product 874,
-whose second variant carried no `flavor` and was simply unreachable. So before
-merging, every variant needs a value on an attribute that varies across the
-group. `scripts/plan-product-merge.py` works that out and names the vocabulary
-it still needs; `scripts/merge-products.py` refuses to write a product where
-two variants share an attribute combination.
+from the net content plus the type's **option** attributes, not from the
+variant label — verified on product 874, whose second variant carried no
+`flavor` and was simply unreachable. So before merging, every variant needs a
+different size or a value on an option that varies across the group (and that
+option on every variant — rule 9a). `scripts/plan-product-merge.py` works that
+out and names the vocabulary it still needs; `scripts/merge-products.py`
+refuses to write a product where two variants share an attribute combination
+(it builds its bodies through `siruk_payload.py`, which also refuses two
+variants with the same options + size).
 
 Accessory axes (created 2026-09-12): **`size` 28** — letter sizes (XXS–XS …
 XL) for collars, harnesses, leads and apparel, measurement strings
-("0.45 l/ø 19 cm", "9 × 15 cm") for bowls, brushes and packs; not filterable,
-same call as `toy-size`. **`pet-weight-range` 27** — the dose band on
-antiparasitic drops and tablets (1–4 kg …); filterable. Colour rides on
-`color-family`. The full measurement stays in the variant label, so
+("0.45 l/ø 19 cm", "9 × 15 cm") for bowls, brushes and packs. **`pet-weight-range`
+27** — the dose band on antiparasitic drops and tablets (1–4 kg …). Colour
+rides on `color-family`. Whether each is an option and filterable is set per
+product type now (`reference/product-types.json`), not on the attribute. The full measurement stays in the variant label, so
 "XS–S, 22–35 cm/10 mm, black" still reads in full on the product page.
 
 **The second sweep (2026-09-16) was about food, treats and pharmacy**, which
@@ -183,25 +190,25 @@ Missing category → flag, never invent.
 
 - `/product/<slug>/dp/<id>` — `dp` is the **variant** id. Category listing
   shows one card per variant; `/api/search` one per product.
-- Variant selector is built from variant attributes — see the multi-variant
-  rule in `reference/admin-api.md`.
-- Rate "֏/kg" shows only on `per_kg` variants.
-- **The filter sidebar of a category = the product's attribute FAMILY's
-  attributes ∩ `isFilterable` ∩ the values products in that category actually
-  use** (verified 2026-09-14 against the JSON the page ships as
-  `availableAttributes`). Three consequences: an attribute the family does not
-  list never facets, however many variants carry it (`toys` has no
-  `product-weight`); a product with `attribute_family_id: null` — every
-  accessory, grooming, cleaning and litter row today — serves **no attribute
-  facets at all**, even for attributes its variants do carry; and an attribute
-  with one value in use still renders as a one-option facet.
-- **The sidebar sorts a facet by the leading NUMBER of the label and ignores
-  both the unit and `sort_order`** (verified 2026-09-14 on `/hy/dog/treat/`:
-  `1.25 կգ, 1.3 կգ, 45 գ, 50 գ … 500 գ, 1800 գ`, and `300 գ` / `300 մլ`
-  adjacent). So a mixed-unit value list reads out of order on the shop no
-  matter how `sort_order` is set — `sort_order` only tidies the admin's own
-  list. The only real fix is one unit per attribute; `product-weight` is
-  deliberately left as each pack prints it, pending the PM's call.
+- Variant selector is built from the net content plus the product type's
+  option-role attributes — see "Variants and attributes" in
+  `reference/admin-api.md`.
+- The unit price ("֏/kg", "֏/100 ml") is computed by the server from price ÷
+  net content; hidden for `count`, when `show_unit_price` is off, or when it
+  equals the price (catalog model, 2026-09-29).
+- **The filter sidebar of a category comes from `is_filterable` on the product
+  types of the products in that category**, ∩ the values those products
+  actually use (catalog model, 2026-09-29; before that it was the family's
+  attributes ∩ the attribute's own `isFilterable`, verified 2026-09-14 against
+  the page's `availableAttributes`). So an attribute the type does not carry
+  never facets, however many variants hold it, and an attribute with one value
+  in use still renders as a one-option facet. Every product has a type now
+  (rule 8b) — the old "no family, no facets" gap is closed.
+- History (2026-09-14): the sidebar sorted a facet by the leading NUMBER of
+  the label, ignoring unit and `sort_order` (`1.25 կգ, 1.3 կգ, 45 գ …`), which
+  scrambled the mixed-unit `product-weight` list. Pack size is net content
+  now; re-check the order if a mixed-unit option list (e.g. `size` 28)
+  facets.
 
 ## Admin form field map (UI fallback only — `/admin/catalog/products/create`)
 
@@ -210,17 +217,18 @@ Missing category → flag, never invent.
 | Name / Slug | yes | rules above |
 | Categories | yes | map above |
 | Brand | yes | must exist (else `/create-brand`) |
-| Attribute Family | yes | the product-type skill's family — never left empty; create the family first if it doesn't exist yet (rule 8b) |
+| Product type | yes | the row's product type — never left empty; the `attribute-manager` agent creates/extends it before the import (rule 8b) |
 | Variant SKU | yes | article code |
 | Variant Label | no | varying axes |
-| Pricing type | yes | "priced by weight" for dry kibble by the kilo; fixed otherwise |
-| Price / Rate per Kg + Pack weight | yes | **hafo sale price** (rate = price ÷ kg) |
+| Sale mode | yes | `pack` (the type's default); `weight` (loose, price per kg) is not used yet |
+| Net content | per type | `measure_type` + content + pack count (rule 8a; the type skill says which measure) |
+| Price | yes | **hafo sale price** for the pack |
 | Cost price | no | CSV price |
 | Min price | no | 0 |
-| Stock | yes | CSV qty (default 10) |
+| Initial stock | new variants | CSV qty (Qty 1 or empty → placeholder 10); an existing variant's stock changes only in Inventory → Stock (rule 10a) |
 | Default variant | – | first variant ON |
 | Variant images | yes | brand-site gallery, verified |
-| Variant attributes | no | closed menu, evidence, our definitions |
+| Variant attributes | per type | only the product type's attributes (required ones must be set); closed menu, evidence, our definitions |
 | About / Ingredients / Feeding (rich text) | no | brand description / composition / feeding guide |
 | Flags | no | Rx Required for veterinary diets; rest off |
 | SEO meta | no | truncate name (≤60) / first sentence (≤160) |

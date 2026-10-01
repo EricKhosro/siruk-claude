@@ -83,37 +83,62 @@ linked doc before you rely on a number from memory.
 8. **Never fabricate specs.** Empty field beats a guess. Attribute values
    only from the closed menu `reference/attribute-values.json`, evidence
    quote per pick. Don't create attributes, values or categories without an
-   explicit ask — except the attribute **family** (8b). One value per
-   attribute per variant. The product-type skill says which attributes a row
+   explicit ask — except product types and which attributes they carry (8b).
+   One value per option per variant. The product-type skill says which attributes a row
    gets.
-8a. **A pack's printed weight always goes on `product-weight`** (2026-09-14)
-   — it's a pricing input (`weight`) *and* a separate storefront-facing
-   attribute; nothing derives one from the other, and skipping it hid the
-   pack-size filter/dropdown on every dry-food product. What is NOT a pack
-   weight (a dose band, a length, a bare count) and the full history:
-   `reference/data-tables.md` → "`weight` prices the bag; `product-weight`
-   is what the shop can see".
-8b. **A product is never written with an empty attribute family**
-   (2026-09-23) — if the type's own family doesn't exist yet, create it
-   first (`scripts/create-*` or the `attribute-manager` agent), then attach
-   it. Individual attribute *values* still need the evidence-quote rule
-   above. Live family list: `reference/admin-api.md`.
+8a. **Pack size is the variant's net content, never an attribute**
+   (catalog model, 2026-09-29) — `measure_type` (`mass`/`volume`/`count`) +
+   `content` (g / ml / pcs, up to 3 decimals: a 0.4 ml pipette) +
+   `pack_count` (12 for "12 × 85 g"). `price` is always the **pack** price;
+   the server makes the size label and the per-kg / per-100 ml rate. The
+   `product-weight` attribute and `pricing_type`/`price_per_kg`/`weight` are
+   gone. A sized product type refuses a variant with no content unless
+   `ALLOW_NO_SIZE=1` (a chew measured in cm, a collar). A physical size (toy
+   S/M/L, collar length, bowl 0.2 L) is an option attribute, not content.
+   Supplements: tablets/pipettes/collars `count`, liquids/pastes ml/g (user,
+   2026-09-30). Spec: siruk-web `docs/catalog-model.md` §2, §4.
+   **Sold loose** (a per-kg sale price on the row, 2026-09-30): the bag also
+   gets a `sale_mode: "weight"` variant — `price` per kg, **minimum 1 kg, step
+   1 kg** (`qty_min` = `qty_step` = 1000 g, user 2026-10-01), stock in grams
+   (10 kg placeholder), cost = bag cost ÷ bag kg, SKU `<bag sku>-KG`. Detail:
+   `reference/pricing.md` → loose sale.
+8b. **Every product has a product type** (the admin's name for the API's
+   attribute family; 2026-09-23, reworked 2026-09-30). Before an import,
+   once the batch's product data is gathered, the `attribute-manager` agent
+   is fed that data and creates or extends whatever product types the batch
+   needs — we decide roles and flags logically, the PM edits later — then
+   `scripts/product-types.py --check` must pass on every payload before the
+   first write. Suppliers are out of scope for now.
+8c. **The product type decides the attributes** (2026-09-29). Per attribute
+   it sets `role` — `option` (what the customer picks: a selector axis, one
+   value per variant) or `attribute` (specs and filters) — plus
+   `is_required`, `is_filterable` (category filters come from this, not the
+   attribute) and `show_on_product_card`. The API refuses a value outside the
+   type or a second value on an option. Live: `reference/product-types.json`
+   (`scripts/product-types.py --dump`).
 9. **Search before create.** `scripts/find-product.sh` first; an existing
-   product gets the row as a variant, never a second product. Variant axes:
-   pack weight, flavour, texture — plus size/colour for accessories and
-   grooming (the type skill's axes win). **A flavour, dose band or colour
+   product gets the row as a variant, never a second product. Variant axes
+   are the net content plus the product type's `option`-role attributes
+   (flavour, texture, colour, toy size…) — nothing else tells variants apart. **A flavour, dose band or colour
    inside a product Name is the symptom of a mis-split product.** Full
    evidence rules and the merge procedure (131 duplicates folded on
    2026-09-12, 55 more on 2026-09-16): `reference/product-rules.md` →
    "Sibling products".
-9a. **A product with two or more variants needs the axis ATTRIBUTE set on
-   every variant**, not just the label — a missing value makes that variant
-   unreachable on the storefront (product 874 hid half its stock this way).
-   `scripts/backfill-variant-axes.py` after any import or merge. Full detail:
+9a. **A product with two or more variants needs every option attribute it
+   uses set on every variant**, and no two variants may share the same
+   options + size — a missing value makes that tile row vanish, a duplicate
+   makes a variant unreachable (product 874 hid half its stock this way; 480
+   still has one). `scripts/siruk_payload.py` refuses both before writing;
+   `scripts/backfill-variant-axes.py` after any merge. Full detail:
    `reference/admin-api.md` → "Variants and attributes".
-10. **Write only through `scripts/`.** Never hand-write a `PUT /products`
-   body (it replaces the whole variants array). Never trust an unverified
-   media id.
+10. **Write only through `scripts/`** — every product/variant body is built
+   by `scripts/siruk_payload.py` (it mirrors the admin form's
+   `toVariantPayload`). Never hand-write a `PUT /products` body (it replaces
+   the whole variants array). Never trust an unverified media id.
+10a. **Stock is a ledger** (2026-09-29). A new variant sends `initial_stock`
+   (CSV Qty 1 → placeholder 10); an existing variant's stock changes only
+   through `/stock/variants/<id>` (set / receive / write-off, with a note),
+   never the product PUT. `reference/admin-api.md` → "Stock".
 11. **Brand sites are read-only.** No cart, no accounts, no forms. Extract
    with `evaluate_script`, don't `take_snapshot` product pages.
 12. **Weights are metric (kg/g), never lbs.** Name never contains the brand;
@@ -165,17 +190,21 @@ linked doc before you rely on a number from memory.
    (`scripts/4lapy-lookup.py`), then zoovet / petshop.ru confirmed by hand
    (`reference/image-sources.md` → "Fallback sites"). New
    brand → research the official site, add it to the table, `/create-brand`.
-5. **Attributes** — closed menu, evidence quote per pick, our definitions
-   (`reference/data-tables.md`) beat the brand's wording.
+5. **Product type + attributes** — once the whole batch is gathered, feed
+   it to the `attribute-manager` agent to create/extend product types (rule
+   8b); then per row: closed menu, evidence quote per pick, only attributes
+   of the row's product type, our definitions (`reference/data-tables.md`)
+   beat the brand's wording. `scripts/product-types.py --check` on all
+   payloads before step 7.
 6. **Group / exists?** — `reference/product-rules.md` for product-vs-variant,
    Name/slug/label, categories. `scripts/find-product.sh` before writing.
 7. **Write** — `scripts/upload-media.sh <file> products/<brand-slug>/<type>`
    per image (all gallery images; Trixie: `scripts/trixie-image.sh <art>`
    lists them all, .de plus the .es shop), then
-   `scripts/create-product.sh` or `scripts/add-variant.sh`. Payload shapes and
-   pricing type in `reference/admin-api.md` (`fixed` = per unit with `price`;
-   `per_kg` = dry kibble by weight with `price_per_kg` + `weight`, rate =
-   hafo price ÷ pack weight).
+   `scripts/create-product.sh` or `scripts/add-variant.sh`. Payload shape:
+   the docstring of `scripts/siruk_payload.py` (`price` = hafo pack price,
+   size in `measure_type`/`content`/`pack_count`, `initial_stock`,
+   `attribute_values` by attribute id or code).
 8. **Translate** — write `.siruk-cache/tr-<id>-ru.json` and `-hy.json`
    (name + per-SKU texts; the hafo Armenian `title` is a good source for
    the `hy` name) and run `scripts/set-translation.py` for each.
@@ -190,7 +219,7 @@ linked doc before you rely on a number from memory.
 
 | Doc | When |
 |---|---|
-| `reference/pricing.md` | anything touching `price`, `cost_price`, `price_per_kg` — the full policy, cross-checks and the two output CSVs |
+| `reference/pricing.md` | anything touching `price` or `cost_price` — the full policy, cross-checks and the two output CSVs |
 | `reference/hafo.md` | the hafo API, SKU formats per brand, what the lookup script returns |
 | `reference/image-sources.md` | every place a product photo can come from, in rule-7 order — the brand sites, the distributors, the EAN-keyed shops and the web-search last resort |
 | `reference/zoovet.md` | zoovet.am — unwatermarked photos, a second price, the `ME-…` code trap and how to confirm a candidate |
@@ -199,7 +228,7 @@ linked doc before you rely on a number from memory.
 | `reference/product-rules.md` | Name / slug / label rules, product vs variant, category map, admin form field map, storefront behaviour |
 | `reference/csv-formats.md` | the input CSV shapes (starter list, vendor sheets, invoice extract) and how to decode vendor strings |
 | `reference/data-tables.md` | our attribute definitions (lifestage etc.), brand wording → our values, pricing-type table |
-| `reference/attribute-redesign.md` | the attribute/family spec |
+| `reference/attribute-redesign.md` | the attribute spec (pre-2026-09-29; product types now: siruk-web `docs/catalog-model.md` §3) |
 | `reference/script-guide.md` | **which script, when** — by job: session start, per-row pipeline, end-of-run checks, translations, media, brands, prices, one-offs |
 | `scripts/README.md` | every script, `config.json`, debugging |
 | `state/README.md` | the files that outlive a run, and how to re-run the register audit |
@@ -212,8 +241,9 @@ verified official logo; `/manage-attributes` edits the vocabulary (never deletes
 without an explicit ask). Big attribute batches → the `attribute-manager` agent.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,
 `supplements`, `grooming`, `accessories` (`.claude/skills/<type>/SKILL.md`) —
-says which categories, family, attributes, values and variant axes that type
-gets. `/add-products` reads the row's type skill before filling attributes;
+says which categories that type gets and how to pick its values and size;
+which attributes exist, their roles and flags come from the live product
+type (`reference/product-types.json`), which wins on any disagreement. `/add-products` reads the row's type skill before filling attributes;
 `/manage-attributes` builds vocabulary from it. `toys` is complete (Chewy
 layout); the others are templates for the user to fill.
 
@@ -230,7 +260,8 @@ Hay 100, Treats 101, Supplements & Salt Licks 102, Bedding 103} (2026-09-28).
 **Accessories 13 is not a product category** — never file a row there.
 Products go in a **leaf**, never a parent. Which treat leaf a row gets is
 decided by the table in the `treats` skill (`scripts/classify-treats.py`
-re-files the whole catalogue). Families: 1 Dry Food, 2 Wet Food, 3 Treats,
-4 Supplements, 5 Toys, 7 Grooming, 8 Accessories, 9 Litter — type skills say
-which attributes each gets.
+re-files the whole catalogue). Product types (API: attribute families): 1 Dry Food, 2 Wet Food, 3 Treats,
+4 Supplements, 5 Toys, 7 Grooming, 8 Accessories, 9 Litter — their live
+attributes, roles and flags are in `reference/product-types.json`; type
+skills say how to pick values.
 Any id in a note written before 2026-08-12 predates the rebuild and is wrong.

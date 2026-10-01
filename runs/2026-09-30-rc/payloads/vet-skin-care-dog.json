@@ -1,0 +1,73 @@
+{
+ "name": "Skin Care Dog",
+ "slug": "royal-canin-skin-care-dog",
+ "brand_id": 7,
+ "attribute_family_id": 1,
+ "category_ids": [
+  3,
+  5
+ ],
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "3182550940450",
+   "name": "11 kg",
+   "price": 51500.0,
+   "cost_price": 45000.0,
+   "sale_mode": "pack",
+   "measure_type": "mass",
+   "content": 11000.0,
+   "pack_count": 1,
+   "initial_stock": 10,
+   "attribute_values": {
+    "lifestage": [
+     27
+    ],
+    "special-diet": [
+     97
+    ],
+    "health-feature": [
+     133
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs. </p><p>ROYAL CANIN® Skin Care is specially formulated to support skin and coat health in adult dogs. ROYAL CANIN® Skin Care Dog Food is expertly formulated in partnership with nutrition specialists. </p><p> ROYAL CANIN® Skin Care is a dry dog food for sensitive skin, suitable for: •\tDogs with atopic dermatitis •\tSkin and coat support for other cases of dermatitis, such as flea allergic dermatitis or pyodermatitis. </p><p>Key Benefits: •\tDermal care  o\tThanks to the inclusion of a combination of essential fatty acids, this diet helps to nutritionally support dogs with sensitive skin.  •\tSkin barrier  o\tThis formula contains nutrients that help to support the natural protective barrier role of your dog&#x27;s skin.  •\tDigestive tolerance  o\tContains nutrients which support a balanced intestinal flora and digestive transit. </p><p>As part of the ROYAL CANIN® Veterinary Range, it is important that this product is only fed to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7-10-day period. Please ensure you follow the correct rationing amount.</p><p>Please note: Royal Canin Skin Care is not suitable for growth, pregnancy or lactation. </p><ul><li><strong>Dermal Care</strong>: Helps in the nutritional management of dogs with sensitive skin.</li><li><strong>Skin Barrier</strong>: Formulated to support the skin’s natural protective barrier for optimal skin health.</li><li><strong>Digestive Tolerance</strong>: Contains nutrients which support a balanced intestinal flora and digestive transit.</li></ul>",
+   "ingredient_information": "<p>COMPOSITION : Maize, wheat gluten*, rice, manioc (tapioca), animal fats, maize gluten, hydrolysed animal proteins, minerals, beet pulp, soya oil, fish oil, vegetable fibres, linseed, mono - and diglycerides of palmitic and stearic acids esterified with citric acid, fructo-oligo-saccharides, borage oil, marigold meal.</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 29000 IU, Vitamin D3: 800 IU, Iron (3b103): 45 mg, Iodine (3b201, 3b202): 4.5 mg, Copper (3b405, 3b406): 14 mg, Manganese (3b502, 3b504): 59 mg, Zinc (3b603, 3b605, 3b606): 151 mg, Selenium (3b801, 3b811, 3b812): 0.1 mg - Technological additives: Clinoptilolite of sedimentary origin: 5 g - Preservatives - Antioxidants.</p><p>ANALYTICAL CONSTITUANTS: Protein: 23.0%, Fat content: 16.0%, Crude ash: 5.6%, Crude fibres: 2.0%, Omega-3 fatty acids: 1%, Omega-6 fatty acids: 3.26%, EPA/DHA: 0.40%, Essential fatty acid (Linoleic acid): 3.08%.</p>",
+   "feeding_instructions": "",
+   "is_default": true
+  },
+  {
+   "sku": "3182550940450-KG",
+   "name": "By weight",
+   "price": 4900.0,
+   "cost_price": 4091,
+   "sale_mode": "weight",
+   "initial_stock": 10000,
+   "attribute_values": {
+    "lifestage": [
+     27
+    ],
+    "special-diet": [
+     97
+    ],
+    "health-feature": [
+     133
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs. </p><p>ROYAL CANIN® Skin Care is specially formulated to support skin and coat health in adult dogs. ROYAL CANIN® Skin Care Dog Food is expertly formulated in partnership with nutrition specialists. </p><p> ROYAL CANIN® Skin Care is a dry dog food for sensitive skin, suitable for: •\tDogs with atopic dermatitis •\tSkin and coat support for other cases of dermatitis, such as flea allergic dermatitis or pyodermatitis. </p><p>Key Benefits: •\tDermal care  o\tThanks to the inclusion of a combination of essential fatty acids, this diet helps to nutritionally support dogs with sensitive skin.  •\tSkin barrier  o\tThis formula contains nutrients that help to support the natural protective barrier role of your dog&#x27;s skin.  •\tDigestive tolerance  o\tContains nutrients which support a balanced intestinal flora and digestive transit. </p><p>As part of the ROYAL CANIN® Veterinary Range, it is important that this product is only fed to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7-10-day period. Please ensure you follow the correct rationing amount.</p><p>Please note: Royal Canin Skin Care is not suitable for growth, pregnancy or lactation. </p><ul><li><strong>Dermal Care</strong>: Helps in the nutritional management of dogs with sensitive skin.</li><li><strong>Skin Barrier</strong>: Formulated to support the skin’s natural protective barrier for optimal skin health.</li><li><strong>Digestive Tolerance</strong>: Contains nutrients which support a balanced intestinal flora and digestive transit.</li></ul>",
+   "ingredient_information": "<p>COMPOSITION : Maize, wheat gluten*, rice, manioc (tapioca), animal fats, maize gluten, hydrolysed animal proteins, minerals, beet pulp, soya oil, fish oil, vegetable fibres, linseed, mono - and diglycerides of palmitic and stearic acids esterified with citric acid, fructo-oligo-saccharides, borage oil, marigold meal.</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 29000 IU, Vitamin D3: 800 IU, Iron (3b103): 45 mg, Iodine (3b201, 3b202): 4.5 mg, Copper (3b405, 3b406): 14 mg, Manganese (3b502, 3b504): 59 mg, Zinc (3b603, 3b605, 3b606): 151 mg, Selenium (3b801, 3b811, 3b812): 0.1 mg - Technological additives: Clinoptilolite of sedimentary origin: 5 g - Preservatives - Antioxidants.</p><p>ANALYTICAL CONSTITUANTS: Protein: 23.0%, Fat content: 16.0%, Crude ash: 5.6%, Crude fibres: 2.0%, Omega-3 fatty acids: 1%, Omega-6 fatty acids: 3.26%, EPA/DHA: 0.40%, Essential fatty acid (Linoleic acid): 3.08%.</p>",
+   "feeding_instructions": "",
+   "is_default": false,
+   "qty_step": 1000,
+   "qty_min": 1000
+  }
+ ]
+}

@@ -19,8 +19,11 @@ How hafo prices work (learned in the browser, 2026-09-10):
     guessing.
 
 Siruk SKUs for Trixie are the article number without the `Tx` suffix, so both
-`<sku>` and `<sku>Tx` are tried. Sale price on Siruk = `price` (fixed) or
-`price_per_kg × weight` (per_kg).
+`<sku>` and `<sku>Tx` are tried. Sale price on Siruk = the variant's `price`:
+since the 2026-09-29 catalog model every live variant is sale_mode "pack" and
+`price` is always the pack price (the per_kg / price_per_kg × weight branch is
+gone). Fixes are written through scripts/siruk_payload.py and checked against
+the product type before the PUT.
 
     scripts/check-hafo-prices.py            # report only → runs/<date>/price-check.csv
     scripts/check-hafo-prices.py --apply    # also PUT the corrected sale prices
@@ -36,10 +39,8 @@ hafo = importlib.util.module_from_spec(spec); spec.loader.exec_module(hafo)
 UA = hafo.UA
 TRIXIE_BRAND_ID = 8
 MAKER_ALIASES = {"simba": {"monge"}, "gemon": {"monge"}}  # sub-brand → hafo product_maker
-VKEYS = ("id", "name", "about_this_item", "ingredient_information", "feeding_instructions", "pricing_type", "sku",
-         "price", "price_per_kg", "min_allowed_price", "cost_price", "compare_at_price", "weight", "is_default",
-         "stock", "vendor_stock", "sort_order", "images", "attribute_value_ids")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id", "is_best_seller", "is_on_sale", "is_discontinued")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from siruk_payload import PayloadError, check_variants, product_body, product_type, to_variant_payload  # noqa: E402
 
 
 def api(method, path, payload=None):
@@ -142,8 +143,7 @@ class Hafo:
 
 
 def siruk_sale(v):
-    if v.get("pricing_type") == "per_kg":
-        return round((v.get("price_per_kg") or 0) * (v.get("weight") or 0))
+    """The variant's sale price — `price` is the pack price for every sale_mode "pack" variant."""
     return int(v.get("price") or 0)
 
 
@@ -172,7 +172,7 @@ def main():
             cost = int(v.get("cost_price") or 0)
             listing, row, note = H.find(v["sku"], p.get("brand_id"), cost)
             rec = {"product_id": pid, "product": p.get("name"), "variant": v.get("name"), "sku": v["sku"],
-                   "siruk_price": sale, "siruk_cost": cost, "pricing_type": v.get("pricing_type"),
+                   "siruk_price": sale, "siruk_cost": cost, "sale_mode": v.get("sale_mode"),
                    "hafo_listing": "", "hafo_sku": "", "hafo_price": "", "hafo_wholesale": "", "hafo_change_price": "",
                    "hafo_stock": "", "flags": "", "status": ""}
             if not row:
@@ -232,20 +232,30 @@ def main():
         return
     for pid, skus in fixes.items():
         p = api("GET", f"/products/{pid}")["data"]
-        body = {k: p.get(k) for k in KEEP}
-        body["variants"] = []
-        for v in p["variants"]:
-            nv = {k: v.get(k) for k in VKEYS if k in v}
-            nv["images"] = nv.get("images") or []; nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
-            if v["sku"] in skus:
-                hp = skus[v["sku"]]
-                if (nv.get("cost_price") or 0) >= hp:
-                    print(f"  !! {pid}/{v['sku']}: refusing {hp} <= cost {nv.get('cost_price')}"); continue
-                if nv.get("pricing_type") == "per_kg" and nv.get("weight"):
-                    nv["price_per_kg"] = round(hp / nv["weight"], 2)
-                else:
-                    nv["price"] = hp
-            body["variants"].append(nv)
+        try:
+            ptype = product_type(p.get("attribute_family_id") or 0)
+        except PayloadError as e:
+            print(f"  !! {pid}: refused before writing: {e}"); continue
+        allowed = {a["id"] for a in ptype.get("attributes") or []}
+        body = product_body(p)
+        body["variants"] = [to_variant_payload(v, allowed) for v in p["variants"]]
+        for nv in body["variants"]:
+            if nv["sku"] not in skus:
+                continue
+            hp = skus[nv["sku"]]
+            if nv.get("sale_mode") != "pack":
+                print(f"  !! {pid}/{nv['sku']}: sale_mode {nv.get('sale_mode')} — price is not a pack price, left alone")
+                skus.pop(nv["sku"]); continue
+            if (nv.get("cost_price") or 0) >= hp:
+                # keep the variant in the body unchanged — dropping it would delete it
+                print(f"  !! {pid}/{nv['sku']}: refusing {hp} <= cost {nv.get('cost_price')}")
+                skus.pop(nv["sku"]); continue
+            nv["price"] = hp
+        if not skus:
+            continue
+        errs, _ = check_variants(body["variants"], ptype)   # after the fix: a bad old price must not block it
+        if errs:
+            print(f"  !! {pid}: refused before writing: " + "; ".join(errs)); continue
         api("PUT", f"/products/{pid}", body)
         back = api("GET", f"/products/{pid}")["data"]
         got = {v["sku"]: siruk_sale(v) for v in back["variants"]}

@@ -1,13 +1,13 @@
 ---
 name: grooming
-description: Product-type spec for Grooming — categories, attribute family, the attributes and values this type carries, its variant axes and pricing type. Read by /add-products for every Grooming row and by /manage-attributes when building the vocabulary. Use when importing, re-attributing or reviewing Grooming products.
+description: Product-type spec for Grooming — categories, product type, how to pick the values this type carries, its net content, variant axes and pack pricing. Read by /add-products for every Grooming row and by /manage-attributes when building the vocabulary. Use when importing, re-attributing or reviewing Grooming products.
 ---
 
 # Grooming — product-type spec
 
 **Status: template pre-filled from the live admin (2026-09-10). The user will
 edit this to say which attributes and values Grooming should show (Chewy-style).
-Until it is edited, the live family below is the spec.**
+Until it is edited, the live product type is the spec.**
 
 ## Where it is filed
 
@@ -24,33 +24,52 @@ species the brand does not claim. See `reference/product-rules.md`.
 
 ## Attributes
 
-Family **7 `grooming`** (created 2026-09-15, from attributes that already
-existed — no new ones invented) carries: `size` 28 · `color-family` 15 ·
-`product-weight` 1 · `material` 12 · `breed-size` 4 · `product-form` 18 ·
-`active-ingredient` 19 · `health-feature` 7. An attribute no product carries a
-value for simply does not render, so the list is deliberately generous; the
-user has still to say which Chewy-style filters grooming should really show.
-All picks from the closed menu `reference/attribute-values.json`, one value
-per attribute per variant, with an evidence quote; empty beats a guess. Our
+Product type **7 `grooming`** (created 2026-09-15 as a family, from
+attributes that already existed; `measure_type: null`, `default_sale_mode:
+pack`). **The live product type decides which attributes exist, their role
+(`option` / `attribute`) and flags** — `reference/product-types.json`
+(`scripts/product-types.py --dump`); it wins over this file. Read 2026-09-30:
+`size` 28, `color-family` 15 and `flavor` 5 are `option`; `material` 12,
+`breed-size` 4, `product-form` 18, `active-ingredient` 19, `health-feature` 7
+are `attribute`. An attribute no product carries a value for simply does not
+render, so the list is deliberately generous; the user has still to say which
+Chewy-style filters grooming should really show (category filters now come
+from each attribute's `is_filterable` on this type). An attribute the batch
+needs that the type lacks → the `attribute-manager` agent before the import
+(CLAUDE.md 8b). All picks from the closed menu
+`reference/attribute-values.json`, one value per attribute per variant, with
+an evidence quote; empty beats a guess. Our
 definitions in `reference/data-tables.md` beat the brand's wording.
 Do not create values for this type without an explicit ask.
 
 ### Wanted (fill in — one line per attribute)
 
-| Attribute | Values (or "from page, dedup synonyms") | Filter or variant axis? | Evidence rule |
+| Attribute | Values (or "from page, dedup synonyms") | Option or attribute? filterable? | Evidence rule |
 |---|---|---|---|
 | | | | |
 
+## Net content (CLAUDE.md 8a)
+
+A shampoo, spray or lotion has net content — `measure_type: "volume"`,
+`content` in ml (`250 ml` → `250`; `1 L` → `1000`), `pack_count 1`; a wipes
+pack is `count` (`40 wipes` → `40`). A brush, comb or clipper has none. The
+`product-weight` attribute that used to carry "250 ml" is retired
+(2026-09-29). A physical size (brush S/L, a `9 × 15 cm` pad) is `size` 28,
+never content.
+A variant may carry `measure_type`/`content` although the type's own `measure_type` is `null` — `ProductRequest` has no type-level size rule (checked in siruk-web source 2026-09-30); send `measure_type` explicitly, since nothing pre-fills it.
+
 ## Variant axes
 
-Size and colour (a brush in two sizes; a comb in two colours) — `size` 28 and
-`color-family` 15, set per variant (`scripts/backfill-variant-axes.py` derives
-them from the label for products that gained a sibling).
+Net content and the type's options: size and colour (a brush in two sizes; a
+comb in two colours) — `size` 28 and `color-family` 15, and a scent on
+`flavor`, set per variant. Once one variant carries an option, every variant
+needs it (rule 9a); `scripts/backfill-variant-axes.py` derives them from the
+label for products that gained a sibling.
 
 ## Pricing
 
-`pricing_type: "fixed"`; `price` = hafo's row for **that** article code, `cost_price` = CSV
-price (`reference/pricing.md`). One hafo lookup per variant.
+`price` = hafo's row for **that** article code (the pack price), `cost_price`
+= CSV price (`reference/pricing.md`). One hafo lookup per variant.
 
 ## Notes
 

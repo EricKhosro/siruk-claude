@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 # Patch one existing variant of a product, in place, leaving the others alone.
 #
-#   scripts/set-variant.sh 23 RC-STERILISED-37-10PLUS2KG '{"attribute_value_ids":{"product-weight":14}}'
 #   scripts/set-variant.sh 23 RC-STERILISED-37-15KG '{"name":"15 kg","price":60000}'
+#   scripts/set-variant.sh 23 RC-STERILISED-37-15KG '{"measure_type":"mass","content":15000}'
+#   scripts/set-variant.sh 23 RC-STERILISED-37-15KG '{"attribute_values":{"lifestage":[25]}}'
 #
-# The patch is a JSON object deep-merged into the variant (so
-# attribute_value_ids merges key-by-key rather than being replaced wholesale).
-# Set REPLACE_ATTRS=1 to replace attribute_value_ids outright instead of merging —
-# needed to REMOVE an attribute from a variant, e.g. dropping product-weight from
-# a per_kg variant where the weight is auto-generated from the pack weight.
-# PUT /products/<id> replaces the whole variants array, so this rebuilds the body
-# from a fresh GET and refuses to write if a variant would be lost or if the
-# default flag count changes — same guards as add-variant.sh.
+# The patch is merged into the variant; attribute_values (keyed by attribute
+# id or code) merge attribute-by-attribute. REPLACE_ATTRS=1 replaces the whole
+# attribute_values map instead — needed to REMOVE an attribute ({"x": []} also
+# clears one). Stock is not patchable here: it is a ledger now, changed only
+# through /stock/variants/<id> (reference/admin-api.md → Stock).
+# PUT /products/<id> replaces the whole variants array, so the body is rebuilt
+# from a fresh GET (scripts/siruk_payload.py, checked against the product type)
+# and refused if a variant would be lost or the default count changes.
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/lib.sh"
 
@@ -25,19 +26,10 @@ printf '%s\n' "$before" > "$CACHE/product-$id-before.json"
 jq -e --arg s "$sku" '.data.variants[] | select(.sku == $s)' <<<"$before" >/dev/null \
   || die "product $id has no variant with sku $sku"
 
-payload=$(jq --arg s "$sku" --argjson patch "$patch" \
-              --argjson replace "$([[ ${REPLACE_ATTRS:-} == 1 ]] && echo true || echo false)" '
-  .data as $p
-  | { name: $p.name, slug: $p.slug, category_ids: $p.category_ids,
-      brand_id: $p.brand_id, attribute_family_id: $p.attribute_family_id,
-      is_best_seller: $p.is_best_seller, is_on_sale: $p.is_on_sale,
-      is_discontinued: $p.is_discontinued,
-      variants: [ $p.variants[]
-                  | if .sku == $s
-                    then (if $replace and ($patch | has("attribute_value_ids"))
-                          then (. * $patch | .attribute_value_ids = $patch.attribute_value_ids)
-                          else . * $patch end)
-                    else . end ] }' <<<"$before")
+printf '%s\n' "$before" | sed -n '/^{/,$p' > "$CACHE/product-$id-get.json"
+payload=$(python3 "$ROOT/scripts/siruk_payload.py" put-body "$CACHE/product-$id-get.json" \
+            --patch-sku "$sku" --patch "$patch" $([[ ${REPLACE_ATTRS:-} == 1 ]] && echo --replace-attrs)) \
+  || die "patch refused before writing (see above)"
 
 jq -e --argjson old "$(jq -c '[.data.variants[].id]' <<<"$before")" \
       '([.variants[].id // empty]) as $now | ($old - $now) | length == 0' <<<"$payload" >/dev/null \

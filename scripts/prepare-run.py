@@ -97,8 +97,12 @@ def pack_of(*texts):
                 v, u = v * 1000, "g"
             fmt = lambda f: ("%g" % round(f, 3))
             kg = v if u == "kg" else v / 1000 if u == "g" else None
+            # the variant's net content (CLAUDE.md 8a): one item in g / ml, times pack_count
+            base = round(v * 1000 if u in ("kg", "l") else v, 3)
             return {"value": v, "unit": u, "label": f"{fmt(v)} {u}", "kg": kg,
-                    "count": int(count) if count else None, "raw": m.group(0)}
+                    "count": int(count) if count else None, "raw": m.group(0),
+                    "measure_type": "mass" if u in ("g", "kg") else "volume",
+                    "content": base, "pack_count": int(count) if count else 1}
     return None
 
 
@@ -309,12 +313,12 @@ def main():
         t = types.get(rec["type"] or "")
         reg_kg = num(reg_r.get("kg")) if reg_r else None
         if price and reg_kg:
-            # The register sells this bag BOTH ways (make-perkg-twin.py): the pack at its
-            # fixed register price, plus a 1 kg loose twin at the register's own Kg rate —
-            # never price ÷ weight (the Kg rate carries a deliberate 2-3% premium).
-            rec["price"]["pricing_type"] = "fixed"
-            twin = {"sku": f"{code}-KG", "pricing_type": "per_kg", "price_per_kg": reg_kg, "weight": 1,
-                    "product-weight": "1 kg"}
+            # The register sells this bag BOTH ways: the pack at its register price, plus a
+            # 1 kg loose twin at the register's own Kg rate — never price ÷ weight (the Kg
+            # rate carries a deliberate 2-3% premium). The twin is a `sale_mode: weight` variant
+            # (user rule 2026-09-30): price per kg, grams in 100 g steps, stock in grams.
+            twin = {"sku": f"{code}-KG", "name": "By weight", "price": reg_kg, "sale_mode": "weight",
+                    "qty_step": 1000, "qty_min": 1000}  # whole kg (user, 2026-10-01)
             if rec["pack"] and rec["pack"]["kg"] and cost:
                 twin["cost_price"] = round(cost / rec["pack"]["kg"])
                 if reg_kg <= twin["cost_price"]:
@@ -323,16 +327,14 @@ def main():
             else:
                 twin = None
                 rec["notes"].append("register has a Kg rate but no kg pack weight was parsed — no loose twin")
+            if twin and reg_kg % 10:
+                twin = None
+                rec["notes"].append(f"register Kg rate {reg_kg:g} is not a multiple of 10 — no loose twin")
             rec["price"]["twin"] = twin
-        elif price and t and t["pricing"] == "per_kg":
-            if rec["pack"] and rec["pack"]["kg"]:
-                rec["price"]["pricing_type"] = "per_kg"
-                rec["price"]["weight"] = rec["pack"]["kg"]
-                rec["price"]["price_per_kg"] = round(price / rec["pack"]["kg"], 2)
-            else:
-                rec["notes"].append("dry food without a printed kg pack weight — per_kg needs one")
-        elif price:
-            rec["price"]["pricing_type"] = "fixed"
+        # price.amount is the pack price whatever the type; the server derives the per-kg rate
+        if price and t and t.get("measure") and not rec["pack"]:
+            rec["notes"].append(f"{rec['type']} is a sized type but no pack size was parsed — "
+                                "the worker must give measure_type/content, or it's a no-size item")
 
         if "route" not in rec:
             if price is not None and cost is not None and price <= cost:

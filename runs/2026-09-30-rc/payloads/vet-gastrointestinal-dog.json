@@ -1,0 +1,67 @@
+{
+ "name": "Gastrointestinal Dog",
+ "slug": "royal-canin-gastrointestinal-dog",
+ "brand_id": 7,
+ "attribute_family_id": 1,
+ "category_ids": [
+  3,
+  5
+ ],
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "3182550905695",
+   "name": "15 kg",
+   "price": 65000.0,
+   "cost_price": 56500.0,
+   "sale_mode": "pack",
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1,
+   "initial_stock": 10,
+   "attribute_values": {
+    "special-diet": [
+     97
+    ],
+    "health-feature": [
+     111
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs.</p><p>If your dog is susceptible to digestive sensitivities, a complete and balanced diet that contains specific nutrients may help to support healthy digestion. </p><p>ROYAL CANIN® Gastrointestinal dry dog food  is specially formulated to support the nutritional needs of dogs with digestive sensitivities. This diet is suitable for dogs with: -\tAcute and chronic diarrhoea (including weaning diarrhoea)  -\tGastritis -\tMaldigestion/Malabsorption  -\tDysorexia, re-feeding after surgery  -\tInflammatory Bowel Disease (IBD) -\tColitis -\tExocrine Pancreatic Insufficiency (EPI)  -\tAcute hepatopathy</p><p>Key Benefits: -\tMicrobiome Support o\tPrebiotics help to stimulate the growth and balance of beneficial bacteria in your dog&#x27;s digestive tract, contributing to a healthy digestive environment.  -\tHigh Energy o\tThe high energy content in ROYAL CANIN® Gastrointestinal to reduce the volume of your dog’s meal and decrease their intestinal load, which makes digestion much easier for your dog whilst also meeting their general nutritional needs.  -\tDigestive Support o\tThis highly digestible formula is enriched with a balance of fibres and prebiotics to help support healthy digestion and transit.</p><p>As part of the ROYAL CANIN® Veterinary Health Nutrition range, it is important that this product is only given to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7–10-day period. Please ensure you follow the correct rationing amount, especially when mixed feeding. To cater to each dog’s individual preferences, ROYAL CANIN® Gastrointestinal Low Fat is also available as dry food with crunchy kibble.</p><p>Please note: ROYAL CANIN® Gastrointestinal dry dog food is not suitable for pancreatitis or history of pancreatitis, hyperlipidaemia, lymphangiectasia, exudative enteropathy. </p><ul><li><strong>Digestive Support</strong>: This highly digestible formula is enriched with a balance of fibres and prebiotics to help support healthy digestion and transit.</li><li><strong>High Energy</strong>: The high energy content in ROYAL CANIN® Gastrointestinal to reduce the volume of your dog’s meal and decrease their intestinal load, which makes digestion much easier for your dog whilst also meeting their general nutritional needs. </li><li><strong>Microbiome Support</strong>: Formula with selected prebiotics to support a healthy gut and intestinal microbiome.</li></ul>",
+   "ingredient_information": "<p>Composition: Rice**, dehydrated poultry proteins**, maize**, animal fats***,hydrolysed animal proteins**, egg powder**, yeasts products, beet pulp, soya oil***, vegetable fibres, minerals, fish oil***, psyllium husks and seeds, fructo-oligosaccharides, algal oil Schizochytrium sp. source of DHA)***, yeasts (source of manno-oligosaccharides), marigold meal. **Highly digestible protein sources: 67.4%, ***Highly digestible fat sources: 12.3%.</p><p>Additives (per kg): Nutritional additives: Vitamin A: 15800 IU, Vitamin D3: 1000 IU,Vitamin E: 500 mg, Vitamin C: 300 mg, Taurine: 1.5 g, Iron (3b103):37 mg, Iodine (3b201, 3b202): 3.8 mg, Copper (3b405, 3b406): 12 mg, Manganese (3b502, 3b504): 49 mg, Zinc (3b603,\n3b605, 3b606): 131 mg, Selenium (3b801, 3b811, 3b812): 0.06 mg - Technological additives: Clinoptilolite of sedimentary origin: 5g - Preservatives - Antioxidants</p><p>Analytical constituents: Protein: 25% - Fat content: 20% - Crude ash: 6.4% - Crude fibres: 1.9% - EPA/DHA: 0.41% - Omega-3 fatty acids: 0.88% - Omega-6 fatty acids: 4.24% - Sodium - 0.4% - Potassium: 0.7%.</p>",
+   "feeding_instructions": "",
+   "is_default": true
+  },
+  {
+   "sku": "3182550905695-KG",
+   "name": "By weight",
+   "price": 4500.0,
+   "cost_price": 3767,
+   "sale_mode": "weight",
+   "initial_stock": 10000,
+   "attribute_values": {
+    "special-diet": [
+     97
+    ],
+    "health-feature": [
+     111
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs.</p><p>If your dog is susceptible to digestive sensitivities, a complete and balanced diet that contains specific nutrients may help to support healthy digestion. </p><p>ROYAL CANIN® Gastrointestinal dry dog food  is specially formulated to support the nutritional needs of dogs with digestive sensitivities. This diet is suitable for dogs with: -\tAcute and chronic diarrhoea (including weaning diarrhoea)  -\tGastritis -\tMaldigestion/Malabsorption  -\tDysorexia, re-feeding after surgery  -\tInflammatory Bowel Disease (IBD) -\tColitis -\tExocrine Pancreatic Insufficiency (EPI)  -\tAcute hepatopathy</p><p>Key Benefits: -\tMicrobiome Support o\tPrebiotics help to stimulate the growth and balance of beneficial bacteria in your dog&#x27;s digestive tract, contributing to a healthy digestive environment.  -\tHigh Energy o\tThe high energy content in ROYAL CANIN® Gastrointestinal to reduce the volume of your dog’s meal and decrease their intestinal load, which makes digestion much easier for your dog whilst also meeting their general nutritional needs.  -\tDigestive Support o\tThis highly digestible formula is enriched with a balance of fibres and prebiotics to help support healthy digestion and transit.</p><p>As part of the ROYAL CANIN® Veterinary Health Nutrition range, it is important that this product is only given to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7–10-day period. Please ensure you follow the correct rationing amount, especially when mixed feeding. To cater to each dog’s individual preferences, ROYAL CANIN® Gastrointestinal Low Fat is also available as dry food with crunchy kibble.</p><p>Please note: ROYAL CANIN® Gastrointestinal dry dog food is not suitable for pancreatitis or history of pancreatitis, hyperlipidaemia, lymphangiectasia, exudative enteropathy. </p><ul><li><strong>Digestive Support</strong>: This highly digestible formula is enriched with a balance of fibres and prebiotics to help support healthy digestion and transit.</li><li><strong>High Energy</strong>: The high energy content in ROYAL CANIN® Gastrointestinal to reduce the volume of your dog’s meal and decrease their intestinal load, which makes digestion much easier for your dog whilst also meeting their general nutritional needs. </li><li><strong>Microbiome Support</strong>: Formula with selected prebiotics to support a healthy gut and intestinal microbiome.</li></ul>",
+   "ingredient_information": "<p>Composition: Rice**, dehydrated poultry proteins**, maize**, animal fats***,hydrolysed animal proteins**, egg powder**, yeasts products, beet pulp, soya oil***, vegetable fibres, minerals, fish oil***, psyllium husks and seeds, fructo-oligosaccharides, algal oil Schizochytrium sp. source of DHA)***, yeasts (source of manno-oligosaccharides), marigold meal. **Highly digestible protein sources: 67.4%, ***Highly digestible fat sources: 12.3%.</p><p>Additives (per kg): Nutritional additives: Vitamin A: 15800 IU, Vitamin D3: 1000 IU,Vitamin E: 500 mg, Vitamin C: 300 mg, Taurine: 1.5 g, Iron (3b103):37 mg, Iodine (3b201, 3b202): 3.8 mg, Copper (3b405, 3b406): 12 mg, Manganese (3b502, 3b504): 49 mg, Zinc (3b603,\n3b605, 3b606): 131 mg, Selenium (3b801, 3b811, 3b812): 0.06 mg - Technological additives: Clinoptilolite of sedimentary origin: 5g - Preservatives - Antioxidants</p><p>Analytical constituents: Protein: 25% - Fat content: 20% - Crude ash: 6.4% - Crude fibres: 1.9% - EPA/DHA: 0.41% - Omega-3 fatty acids: 0.88% - Omega-6 fatty acids: 4.24% - Sodium - 0.4% - Potassium: 0.7%.</p>",
+   "feeding_instructions": "",
+   "is_default": false,
+   "qty_step": 1000,
+   "qty_min": 1000
+  }
+ ]
+}

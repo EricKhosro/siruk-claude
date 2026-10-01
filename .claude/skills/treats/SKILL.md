@@ -1,6 +1,6 @@
 ---
 name: treats
-description: Product-type spec for TREATS (snacks, chews, dental sticks, training treats) — categories, attribute family, the Chewy-style attributes and values a treat carries, its variant axes and fixed pricing. Read by /add-products for every treat row and by /manage-attributes when building the vocabulary.
+description: Product-type spec for TREATS (snacks, chews, dental sticks, training treats) — categories, product type, how to pick the Chewy-style values a treat carries, its net content (mass) and pack pricing. Read by /add-products for every treat row and by /manage-attributes when building the vocabulary.
 ---
 
 # Treats — product-type spec
@@ -43,8 +43,14 @@ Notes that matter:
   catalogue (`--apply`); its plan lands in `.siruk-cache/treats/plan.json` with
   an evidence quote per row.
 
-Family **3 Treats**: product-weight, flavor, lifestage, special-diet,
-health-feature, breed-size, packaging, ingredient.
+Product type **3 Treats** (`measure_type: mass`, `default_sale_mode: pack`).
+**The live product type decides which attributes exist, their role (`option` /
+`attribute`) and flags** — `reference/product-types.json`
+(`scripts/product-types.py --dump`); it wins over this file. Read 2026-09-30:
+`flavor`, `health-feature` and `size` are `option`; lifestage, special-diet,
+breed-size, packaging, ingredient are `attribute`. An attribute the batch
+needs that the type lacks → the `attribute-manager` agent before the import
+(CLAUDE.md 8b); a new value still needs an explicit ask (rule 8).
 
 **Dual species → both trees.** `category_ids` is a list. When the pack or brand
 page says the product is for dogs *and* cats, file it in the **mirror leaf of
@@ -57,8 +63,8 @@ species the brand does not claim. See `reference/product-rules.md`.
 
 ## Attributes
 All picks from the closed menu `reference/attribute-values.json` (full lists in
-`reference/chewy-attributes.json`), **one value per attribute per variant** —
-the API rejects arrays (verified 2026-09-10) — with an evidence quote from the
+`reference/chewy-attributes.json`), **one value per attribute per variant**
+(every attribute here is `select`) — with an evidence quote from the
 brand page or the CSV row. Empty beats a guess. Our definitions in
 `reference/data-tables.md` (lifestage bands, texture words) beat the brand's
 wording. Do not create values for this type without an explicit ask.
@@ -73,7 +79,6 @@ Skipped on purpose from Chewy: Made In, Deals & Savings.
 | `health-feature` | Chewy's 52 | "dental" → Dental & Breath Care; "digestion" → Digestive Health; "calming" → Calming |
 | `lifestage` | Puppy, Kitten, Adult, Senior, All Lifestages | explicit claim only ("puppy treats") |
 | `packaging` | Bag, Pouch, Box, Tub, Tube, Can, Tray, Roll, Cup, Bottle, Shaker | from the format |
-| `product-weight` | pack weight menu | **always, when the pack prints one.** The **net pack** weight, not the piece: `12 pcs./120 g` is 120 g, `2 × 60 g` is 120 g (evidence: product 527's sibling variants are 140 g and 200 g, so the axis is the pack). A **length** — `23 cm` Matatabi lolly — is not a weight; leave it blank |
 
 ### Single-value consequence
 Chewy's Special Diet, Health Feature and Ingredient are multi-tag; ours hold
@@ -82,9 +87,24 @@ sub-line name > body text) and put the rest in `about_this_item` so it is at
 least searchable. `ingredient` = the **first named ingredient** of the
 composition (the headline protein), nothing else.
 
+## Pack size — net content, not an attribute (CLAUDE.md 8a)
+`measure_type: "mass"`, `content` in grams, **when the pack prints a weight**.
+The net pack weight, not the piece: `12 pcs./120 g` → `content 120,
+pack_count 1`; `2 × 60 g` (two sealed packs sold as one) → `content 60,
+pack_count 2` (evidence for the pack being the axis: product 527's sibling
+variants are 140 g and 200 g). A **length** — `23 cm` Matatabi lolly — is not
+content: leave it out and write with `ALLOW_NO_SIZE=1` (the rule-8a escape for
+a chew measured in cm). No `product-weight` attribute any more (retired
+2026-09-29).
+
 ## Variant axes
-Pack weight and flavour (a dental stick in S / M / L is a **breed-size split**,
-not a variant — separate products, per the shelf test).
+Net content and flavour (a dental stick in S / M / L is a **breed-size split**,
+not a variant — separate products, per the shelf test). Once one variant of a
+product carries an option, every variant needs it (rule 9a).
+OPEN: the live type also makes `health-feature` and `size` options. That
+contradicts "health function splits" below and the S/M/L split above; until
+the user decides, keep splitting and give every variant of a product the same
+`health-feature` value (or none).
 
 **The flavour never goes in the product Name** — it is the variant label and
 the `flavor` value. "Barbecue Ribs with Duck" and "Barbecue Ribs with Chicken"
@@ -100,5 +120,5 @@ A line whose members differ by lifestage or health function (Monge Gift
 Sticks Adult vs Puppy; Filled & Crunchy Hairball vs Sterilised) stays split.
 
 ## Pricing
-`pricing_type: "fixed"`, `price` = hafo's row for that article code,
-`cost_price` = CSV price. One hafo lookup per variant.
+`price` = hafo's row for that article code (the pack price), `cost_price` =
+CSV price; the server computes the rate. One hafo lookup per variant.

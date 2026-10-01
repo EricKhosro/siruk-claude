@@ -34,17 +34,17 @@ Outputs (in --out, default runs/<today>/):
     feature-sheet.html    (--sheet) thumbnails of every leader, flagged ones red
 Media filenames are cached in .siruk-cache/media-filenames.json (id → filename).
 Writes go through the same GET → rebuild → PUT shape as add-all-images.py; PUT
-replaces the whole variants array, so every variant key is carried over verbatim.
+replaces the whole variants array, so the body is rebuilt by scripts/siruk_payload.py
+(catalog model 2026-09-29, checked against the product type) and only the image
+order is changed on it.
 """
 import csv, datetime, html, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
 NAMES = os.path.join(CACHE, "media-filenames.json")
-VKEYS = ("id", "name", "about_this_item", "ingredient_information", "feeding_instructions", "pricing_type", "sku",
-         "price", "price_per_kg", "min_allowed_price", "cost_price", "compare_at_price", "weight", "is_default",
-         "stock", "vendor_stock", "sort_order", "images", "attribute_value_ids")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id", "is_best_seller", "is_on_sale", "is_discontinued")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from siruk_payload import PayloadError, put_body  # noqa: E402
 CLEAN = {"packshot", "pack"}
 
 
@@ -110,8 +110,7 @@ def main():
         if not p: continue
         variants, changed = [], False
         for v in p.get("variants", []):
-            nv = {k: v.get(k) for k in VKEYS if k in v}
-            nv["attribute_value_ids"] = nv.get("attribute_value_ids") or {}
+            nv = {"id": v.get("id"), "images": list(v.get("images") or [])}
             before = list(nv.get("images") or [])
             info = [(mid, media(mid)) for mid in before]
             ranked = sorted(info, key=lambda t: classify(t[1]["filename"])[1])  # stable: ties keep source order
@@ -134,12 +133,20 @@ def main():
         if changed:
             changed_products += 1
             if apply:
-                body = {k: p.get(k) for k in KEEP}; body["variants"] = variants
-                r = api("PUT", f"/products/{pid}", body)
-                back = api("GET", f"/products/{pid}").get("data") or {}
-                got = {x.get("id"): list(x.get("images") or []) for x in back.get("variants", [])}
-                want = {x.get("id"): list(x.get("images") or []) for x in variants}
-                mark = "applied ✓" if got == want else f"applied ✗ readback differs {r.get('_err','')}"
+                try:
+                    body = put_body(p)
+                except PayloadError as e:
+                    body, mark = None, "REFUSED"
+                    print(f"     p{pid} refused before writing: {e}", flush=True)
+                if body is not None:
+                    order = {x["id"]: x["images"] for x in variants}
+                    for bv in body["variants"]:
+                        bv["images"] = order.get(bv.get("id"), bv["images"])
+                    r = api("PUT", f"/products/{pid}", body)
+                    back = api("GET", f"/products/{pid}").get("data") or {}
+                    got = {x.get("id"): list(x.get("images") or []) for x in back.get("variants", [])}
+                    want = {x.get("id"): list(x.get("images") or []) for x in variants}
+                    mark = "applied ✓" if got == want else f"applied ✗ readback differs {r.get('_err','')}"
             else:
                 mark = "would reorder"
         else:

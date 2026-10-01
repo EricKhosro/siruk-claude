@@ -1,0 +1,66 @@
+{
+ "name": "Maxi Adult 5+",
+ "slug": "royal-canin-maxi-adult-5",
+ "brand_id": 7,
+ "attribute_family_id": 1,
+ "category_ids": [
+  3
+ ],
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "3182550402316",
+   "name": "15 kg",
+   "price": 45500.0,
+   "cost_price": 39500.0,
+   "sale_mode": "pack",
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1,
+   "initial_stock": 10,
+   "attribute_values": {
+    "lifestage": [
+     27
+    ],
+    "breed-size": [
+     33
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>For dogs over 5 years old, ROYAL CANIN® Maxi Adult 5+ is a nutritionally complete and balanced formula specially designed to meet your large dog’s particular needs and support them throughout their later adult years.  </p><p>Larger dogs, with their extended digestive transit time, are more susceptible to digestive sensitivities compared to smaller breeds. This kibble contains highly digestible proteins and a balanced blend of fibres to help support good digestive health. </p><p>Weighing between 26 and 44kg, large dogs place the majority of their body weight on their joints. This formula is specially crafted with a combination of minerals and nutrients to help support healthy bones and joints. </p><p>Your adult dog requires specific nutrients to help maintain their overall health. Enriched with a complex of essential vitamins, this formula is designed to help maintain your adult dog’s vitality. </p><p>Our kibble’s unique size and shape mean it is adapted to fit your adult dog’s distinct jaw structure and helps encourage them to chew their food properly. </p><p>ROYAL CANIN® Maxi Adult 5+ is also available in Chunks In Gravy. Mixing wet and dry food brings variety to your adult dog’s diet, making their mealtimes more interesting and engaging.</p><ul><li><strong>Digestive Health</strong>: Helps promote digestive health with highly digestible proteins and a balanced supply of fibres.</li><li><strong>Bone &amp; Joint Health</strong>: Helps support large dogs’ healthy bones and joints through a combination of minerals and nutrients.</li><li><strong>Optimal Vitality Support</strong>: Helps maintain vitality thanks to a complex of vitamins.</li></ul>",
+   "ingredient_information": "<p>COMPOSITION: Dehydrated poultry proteins, animal fats, maize, wheat, wheat flour, maize flour, barley, maize gluten, wheat gluten, hydrolysed animal proteins, beet pulp, minerals, fish oil, soya oil, yeasts products, psyllium husks and seeds, fructo-oligosaccharides, algal oil Schizochytrium sp., glucosamine from fermentation, hydrolysed cartilage (source of chondroitin).</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 21800 IU, Vitamin D3: 1000 IU, Iron (3b103): 36 mg, Iodine (3b201, 3b202): 3.6 mg, Copper (3b405, 3b406): 11 mg, Manganese (3b502, 3b504): 47 mg, Zinc (3b603, 3b605, 3b606): 131 mg, Selenium (3b801, 3b811, 3b812): 0.06 mg - Technological additives: Clinoptilolite of sedimentary origin: 10 g - Preservatives - Antioxidants.</p><p>ANALYTICAL CONSTITUENTS: Protein: 26.0% - Crude fibre: 1.6% - Fat content: 17.0% - Crude ash: 6.4%.</p>",
+   "feeding_instructions": "",
+   "is_default": true
+  },
+  {
+   "sku": "3182550402316-KG",
+   "name": "By weight",
+   "price": 3200.0,
+   "cost_price": 2633,
+   "sale_mode": "weight",
+   "initial_stock": 10000,
+   "attribute_values": {
+    "lifestage": [
+     27
+    ],
+    "breed-size": [
+     33
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>For dogs over 5 years old, ROYAL CANIN® Maxi Adult 5+ is a nutritionally complete and balanced formula specially designed to meet your large dog’s particular needs and support them throughout their later adult years.  </p><p>Larger dogs, with their extended digestive transit time, are more susceptible to digestive sensitivities compared to smaller breeds. This kibble contains highly digestible proteins and a balanced blend of fibres to help support good digestive health. </p><p>Weighing between 26 and 44kg, large dogs place the majority of their body weight on their joints. This formula is specially crafted with a combination of minerals and nutrients to help support healthy bones and joints. </p><p>Your adult dog requires specific nutrients to help maintain their overall health. Enriched with a complex of essential vitamins, this formula is designed to help maintain your adult dog’s vitality. </p><p>Our kibble’s unique size and shape mean it is adapted to fit your adult dog’s distinct jaw structure and helps encourage them to chew their food properly. </p><p>ROYAL CANIN® Maxi Adult 5+ is also available in Chunks In Gravy. Mixing wet and dry food brings variety to your adult dog’s diet, making their mealtimes more interesting and engaging.</p><ul><li><strong>Digestive Health</strong>: Helps promote digestive health with highly digestible proteins and a balanced supply of fibres.</li><li><strong>Bone &amp; Joint Health</strong>: Helps support large dogs’ healthy bones and joints through a combination of minerals and nutrients.</li><li><strong>Optimal Vitality Support</strong>: Helps maintain vitality thanks to a complex of vitamins.</li></ul>",
+   "ingredient_information": "<p>COMPOSITION: Dehydrated poultry proteins, animal fats, maize, wheat, wheat flour, maize flour, barley, maize gluten, wheat gluten, hydrolysed animal proteins, beet pulp, minerals, fish oil, soya oil, yeasts products, psyllium husks and seeds, fructo-oligosaccharides, algal oil Schizochytrium sp., glucosamine from fermentation, hydrolysed cartilage (source of chondroitin).</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 21800 IU, Vitamin D3: 1000 IU, Iron (3b103): 36 mg, Iodine (3b201, 3b202): 3.6 mg, Copper (3b405, 3b406): 11 mg, Manganese (3b502, 3b504): 47 mg, Zinc (3b603, 3b605, 3b606): 131 mg, Selenium (3b801, 3b811, 3b812): 0.06 mg - Technological additives: Clinoptilolite of sedimentary origin: 10 g - Preservatives - Antioxidants.</p><p>ANALYTICAL CONSTITUENTS: Protein: 26.0% - Crude fibre: 1.6% - Fat content: 17.0% - Crude ash: 6.4%.</p>",
+   "feeding_instructions": "",
+   "is_default": false,
+   "qty_step": 1000,
+   "qty_min": 1000
+  }
+ ]
+}

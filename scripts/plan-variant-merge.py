@@ -17,7 +17,7 @@ runs/<date>/variant-groups.json:
                  "why": "<evidence>",
                  "variants": {"31466": {"label": "Duck, 2 pcs./110 g",
                                         "axes": {"flavor": "Duck",
-                                                 "product-weight": "110 g"}}, …}}]}
+                                                 "flavor": "Chicken"}}, …}}]}
 
 Per group this script picks the surviving product (most variants, then the
 lowest id), unions the categories, keeps every variant's own sku / prices /
@@ -96,20 +96,23 @@ def main():
                 vs.append({"from_product": i, "old_variant_id": v["id"], "sku": v["sku"],
                            "old_label": v.get("label"), "label": spec["label"],
                            "axes": dict(spec.get("axes", {})), "_attrs": attrs,
-                           "pricing_type": v.get("pricing_type"), "price": v.get("price"),
+                           "sale_mode": v.get("sale_mode"), "price": v.get("price"),
+                           "size": (v.get("measure_type"), v.get("content"), v.get("pack_count")),
                            "cost_price": v.get("cost_price")})
         if want:
             problems.append(f"{g['name']}: skus {sorted(want)} in the groups file are not on products {ids}")
-        combos = collections.Counter(tuple(sorted(v["_attrs"].items())) for v in vs)
+        # options + net content tell variants apart (option signature, catalog model 2026-09-29)
+        key = lambda v: (tuple(sorted(v["_attrs"].items())), v["size"])
+        combos = collections.Counter(key(v) for v in vs)
         for combo, n in combos.items():
             if n > 1:
-                dup = [v["sku"] for v in vs if tuple(sorted(v["_attrs"].items())) == combo]
+                dup = [v["sku"] for v in vs if key(v) == combo]
                 problems.append(f"{g['name']}: variants {dup} share attribute combination {dict(combo)}")
         for v in vs:
-            if not v["_attrs"]:
+            if not v["_attrs"] and not v["size"][0]:
                 problems.append(f"{g['name']}: {v['sku']} would carry no attribute at all")
         axes = sorted({c for v in vs for c in v["axes"]} |
-                      {c for c in ("flavor", "product-weight", "pet-weight-range", "size", "color-family")
+                      {c for c in ("flavor", "pet-weight-range", "size", "color-family")
                        if len({v["_attrs"].get(c) for v in vs}) > 1})
 
         slug = g.get("slug") or slugify(f"{BRAND_SLUG.get(snap[target]['brand_id'], 'b' + str(snap[target]['brand_id']))} {g['name']}")

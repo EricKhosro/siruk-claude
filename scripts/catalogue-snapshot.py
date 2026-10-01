@@ -22,6 +22,18 @@ def api(path):
     return json.loads(r.stdout[i:]) if i >= 0 else {}
 
 
+def _codes():
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from siruk_payload import attributes
+        return {a["id"]: code for code, a in attributes().items()}
+    except Exception:
+        return {}
+
+
+CODE_BY_ID = _codes()
+
+
 def shape(pid, p):
     return {
         "id": pid, "name": p.get("name"), "slug": p.get("slug"),
@@ -32,12 +44,15 @@ def shape(pid, p):
         "attribute_family_name": p.get("attribute_family_name"),
         "category_ids": p.get("category_ids") or [c.get("id") for c in (p.get("categories") or []) if isinstance(c, dict)],
         "variants": [{"id": v.get("id"), "sku": v.get("sku"), "label": v.get("label") or v.get("name"),
-                      "pricing_type": v.get("pricing_type"),
-                      "price": v.get("price"), "price_per_kg": v.get("price_per_kg"),
-                      "cost_price": v.get("cost_price"), "weight": v.get("weight"),
-                      "stock": v.get("stock"),
-                      "attrs": {av.get("attribute_code"): av.get("label")
-                                for av in (v.get("attribute_values") or [])},
+                      # catalog model 2026-09-29: size is the variant's net content, stock a ledger
+                      "sale_mode": v.get("sale_mode"), "measure_type": v.get("measure_type"),
+                      "content": v.get("content"), "pack_count": v.get("pack_count"),
+                      "size_label": v.get("size_label"),
+                      "price": v.get("price"), "cost_price": v.get("cost_price"),
+                      "stock": v.get("available_quantity"),
+                      "attrs": {CODE_BY_ID.get(av.get("attributeId"), str(av.get("attributeId"))): av.get("label")
+                                for av in (v.get("attribute_value_labels") or [])},
+                      "attribute_values": v.get("attribute_values") or {},
                       "images": len(v.get("images") or []),
                       "image_ids": [i if isinstance(i, int) else (i or {}).get("id")
                                     for i in (v.get("images") or [])]}

@@ -33,15 +33,16 @@ checks every card against the hard rules; only a passing card is imported.
 |---|---|
 | `code` | the row's code from `rows.jsonl`; the file is `cards/<code>.json` |
 | `status` | `ready`, or `hold` + `hold_reason` (a hold card needs nothing else) |
-| `type` | a key of `reference/types.json`; decides family, allowed leaves, pricing |
+| `type` | a key of `reference/types.json`; decides the product type, allowed leaves. A kind no type fits: the nearest key + `type_reason`, and list it for the phase-B agent |
 | `brand_id` | a live brand; `prepare-run.py`'s pick unless the pack proves otherwise |
 | `name` | brand-less; no pack weight/volume; flavour/colour/dose only while single-variant (WARN) |
 | `label` | the variant axis in English (`8 kg`, `Chicken 85 g`, `M`) |
+| `size` | optional `{measure_type, content, pack_count}` (g / ml / pcs, CLAUDE.md 8a) — only when `rows.jsonl`'s `pack` is missing or wrong-kind (tablets → `count`); the CSV pack wins otherwise. None for a no-size item |
 | `existing_id` | the live product this row joins as a variant (rule 9), else `null` |
 | `category_ids` | leaves only, every leaf that fits, all inside the type's leaves |
 | `price.source` | `prepared` (use the row's price as is) · `zoovet` / `nemo` (+ `amount`, `url`, `how_confirmed`; row must be `needs-price`) · `sibling` (+ `existing_id`; checked against the live product) |
 | `type_reason` | required when `type` differs from the row's (CSV category proved wrong) |
-| `attributes` | `code → {value, quote}` (packaging / color-family may use `{value, basis: "photo"}` instead of a quote); the value a label of `reference/attribute-values.json`, the code in the type's family, the quote found verbatim in the evidence |
+| `attributes` | `code → {value, quote}` (packaging / color-family may use `{value, basis: "photo"}` instead of a quote); the value a label of `reference/attribute-values.json`, the code in the row's product type, the quote found verbatim in the evidence |
 | `images` | full gallery, in order, at least one; first a clean packshot |
 | `first_image` | `packshot` or `not-packshot` (the latter lists the row on `needs-packshot.csv`) |
 | `texts` | English; `about_this_item` required. Or `texts_file` pointing at a JSON with the same keys |

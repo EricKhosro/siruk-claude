@@ -9,10 +9,12 @@
 #   "name": "Royal Canin Mini", "slug": "royal-canin-mini",
 #   "category_ids": [3], "brand_id": 7, "attribute_family_id": 1,
 #   "is_best_seller": false, "is_on_sale": false,
-#   "variants": [{ "name": "Adult 8 kg", "pricing_type": "fixed",
-#                  "sku": "1024080", "price": 26500, "cost_price": 20000,
-#                  "stock": 10, "is_default": true, "sort_order": 0,
-#                  "images": [], "attribute_value_ids": {"product-weight": 12, "lifestage": 27} }]
+#   "variants": [{ "name": "Adult 8 kg", "sku": "1024080",
+#                  "price": 26500, "cost_price": 20000,          # pack price
+#                  "measure_type": "mass", "content": 8000,      # g / ml / pcs
+#                  "pack_count": 1, "initial_stock": 10,
+#                  "is_default": true, "images": [],
+#                  "attribute_values": {"lifestage": [27], "flavor": [38]} }]
 # }
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/lib.sh"
@@ -25,11 +27,8 @@ jq -e . "$payload" >/dev/null || die "$payload is not valid JSON"
 # Pre-flight: the three hard requirements, plus the exists-check.
 jq -e '.name and .slug and (.category_ids | type == "array" and length > 0)' "$payload" >/dev/null \
   || die "payload needs name, slug and a non-empty category_ids array"
-jq -e '(.variants // []) | all(
-        .sku and (
-          (.pricing_type == "fixed"  and (.price // 0) > 0) or
-          (.pricing_type == "per_kg" and (.price_per_kg // 0) > 0 and (.weight // 0) > 0)))' "$payload" >/dev/null \
-  || die "every variant needs sku plus either pricing_type:\"fixed\" + price, or pricing_type:\"per_kg\" + price_per_kg + weight"
+jq -e '(.variants // []) | length > 0 and all(.sku and (.price // 0) > 0)' "$payload" >/dev/null \
+  || die "every variant needs sku and price (the pack price) — shape: scripts/siruk_payload.py"
 
 price_guard "$(jq -c '.variants // []' "$payload")"
 
@@ -53,6 +52,10 @@ if [[ -n $existing ]]; then
   [[ ${FORCE:-} == 1 ]] || exit 1
 fi
 
-id=$(api POST /products "$payload" | jq -r '.data.id')
+body="$CACHE/create-$(basename "$payload")"
+python3 "$ROOT/scripts/siruk_payload.py" post-body "$payload" > "$body" \
+  || die "payload refused before writing (see above)"
+
+id=$(api POST /products "$body" | jq -r '.data.id')
 note "created product $id"
 api GET "/products/$id" | variant_table

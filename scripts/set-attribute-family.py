@@ -7,8 +7,12 @@ all** on the storefront, even for attributes its own variants carry
 none because those three families did not exist until 2026-09-15.
 
 `PUT /products/<id>` replaces the whole record, so this rebuilds the body from a
-fresh `GET` and changes exactly one key — the same shape and guards as
-`set-variant.sh`. It refuses to write if a variant would be lost.
+fresh `GET` through `scripts/siruk_payload.py` (catalog model 2026-09-29) and
+changes exactly one key — the same shape and guards as `set-variant.sh`. The
+variants are checked against the NEW product type; attribute values that type
+does not carry are dropped from the body (the API would refuse them), and any
+other check failure refuses the write. It refuses to write if a variant would
+be lost.
 
     scripts/set-attribute-family.py --dry-run
     scripts/set-attribute-family.py --apply [--only 199,329]
@@ -17,6 +21,8 @@ import argparse, collections, json, os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from siruk_payload import PayloadError, put_body  # noqa: E402
 
 # leaf category -> family. Ranges follow the tree in reference/admin-api.md.
 RULES = [
@@ -82,15 +88,12 @@ def main():
     done = 0
     for pid, fid, fname, name, _cats in todo:
         cur = api("GET", f"/products/{pid}")["data"]
-        body = {
-            "name": cur["name"], "slug": cur["slug"],
-            "category_ids": cur["category_ids"], "brand_id": cur.get("brand_id"),
-            "attribute_family_id": fid,
-            "is_best_seller": cur.get("is_best_seller", False),
-            "is_on_sale": cur.get("is_on_sale", False),
-            "is_discontinued": cur.get("is_discontinued", False),
-            "variants": cur["variants"],
-        }
+        try:
+            # built against the family being set, so its attributes are the allowed ones
+            body = put_body(dict(cur, attribute_family_id=fid))
+        except PayloadError as e:
+            print(f"  p{pid:>5} REFUSED before writing: {e}", file=sys.stderr)
+            continue
         before_ids = sorted(v["id"] for v in cur["variants"])
         out = api("PUT", f"/products/{pid}", body)["data"]
         after_ids = sorted(v["id"] for v in out["variants"])

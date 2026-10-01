@@ -13,7 +13,7 @@ Tables in this file:
 1. [Lifestage](#1-lifestage)
 2. [Product vs variant](#2-product-vs-variant)
 3. [Our attribute names vs brand wording](#3-our-attribute-names-vs-brand-wording)
-4. [Pricing type — sold by weight vs sold by count](#4-pricing-type--sold-by-weight-vs-sold-by-count)
+4. [Pack size and price — history note](#4-pack-size-and-price--history-note)
 
 ---
 
@@ -87,14 +87,21 @@ Canin Size Health Nutrition Small Puppy" and "… Small Adult" are two products,
 not two variants of one.
 
 So in practice the variant axes are **pack size, flavor and texture** — the
-options printed on a band of an otherwise identical pack. Everything that
+options printed on a band of an otherwise identical pack. Since the catalog
+model (2026-09-29) the pack size is the variant's net content (`measure_type`
+/ `content` / `pack_count`, CLAUDE.md 8a) and flavour / texture are the
+product type's `option`-role attributes; which attributes are options for a
+type is in `reference/product-types.json`. Everything that
 redesigns the pack (lifestage, breed size, food form, diet, health claim) splits
 products.
 
-⚠️ **Every variant needs a *different* attribute combination.** The API rejects
-two variants whose `attribute_value_ids` are identical ("This attribute
-combination is already used in variant N"), so a flavor or texture variant only
-works if `flavor`/`texture` is actually set on it. If the distinguishing value is
+⚠️ **Every variant needs a *different* option combination.** Two variants of a
+product may not share the same option-role values **and** the same size (the
+option signature — `reference/admin-api.md` → "Variants and attributes";
+`scripts/siruk_payload.py` refuses it before writing), and spec-role values
+never tell variants apart. So a flavor or texture variant of the same size only
+works if `flavor`/`texture` is actually set on it — and then on every variant
+of the product (rule 9a). If the distinguishing value is
 missing from the menu, either map the brand's wording onto an existing value
 (our definitions win — e.g. Royal Canin "thin slices in gravy" → **Chunks in
 Gravy**) or keep them as separate products and report the missing value.
@@ -116,10 +123,10 @@ May differ per variant — this is what variants are *for*:
 
 | Free to differ | Notes |
 |---|---|
-| `product-weight` (pack weight) | **variant axis**: same recipe, same art, different bag — 4 kg / 10 kg / 15 kg |
+| Net content (pack size) | **variant axis**: same recipe, same art, different bag — 4 kg / 10 kg / 15 kg; `measure_type` + `content`, not an attribute (CLAUDE.md 8a) |
 | `flavor` | **variant axis** (user rule, 2026-08-12): Tuna / Chicken / Beef of one line is one product, one variant each |
 | `texture` | **variant axis** (user rule, 2026-08-12): gravy / jelly / loaf / mousse of the same recipe — same bag design, option named on a band |
-| Pack count of the same unit | 1 × 85 g vs 12 × 85 g of the same recipe |
+| Pack count of the same unit | 1 × 85 g vs 12 × 85 g of the same recipe — `pack_count` 1 vs 12, same `content` 85 |
 | Price, cost price, SKU, stock | per variant by design |
 | Images | variant carries its own gallery |
 | `about_this_item`, `ingredient_information`, `feeding_instructions` | per-variant fields in the API |
@@ -232,12 +239,13 @@ report. Two products can be merged later; splitting one that already has a live
 url is worse.
 
 > **Open dev question (much less urgent since 2026-08-12):** does storefront
-> filtering/faceting read *all* variants or only the default variant? Now that
-> only pack size varies, every variant of a product shares its lifestage, breed
-> size, diet and health claims — so a facet reading only the default variant
-> still returns the right products. It would only mis-answer a
-> **Product Weight** filter. Still worth confirming, together with the
-> multi-value question on `special-diet` / `health-feature` in `reference/admin-api.md`.
+> filtering/faceting read *all* variants or only the default variant? Every
+> variant of a product shares its lifestage, breed size, diet and health
+> claims, so a facet reading only the default variant still returns the right
+> products. The pack-size (weight) filter is built from the variants' net
+> content since 2026-09-29, not from an attribute. `special-diet` /
+> `health-feature` could hold several values only as `multiselect`
+> attribute-role attributes; both are `select` today.
 
 ---
 
@@ -254,15 +262,16 @@ produces exactly the wrong facet — this table exists because that happened onc
 |---|---|---|
 | Royal Canin "Size", "Size Health Nutrition", Mini / Medium / Maxi / Giant; Brit "Large Breed"; Farmina "Mini/Medium/Maxi" | the **dog's** body size | `breed-size` — Extra Small / Small / Medium / Large / Giant Breeds |
 | Royal Canin "Breed", "Breed Health Nutrition" (German Shepherd, Labrador, Persian) | a specific breed | **no attribute** — it goes in the product Name and makes its own product |
-| Bag / pack weight: "8 kg", "400 g", "Format", "Pack size", "Available sizes", a brand's own "Weight" | how much food is in the pack | `product-weight` — label **Product Weight**, code `product-weight` (renamed from `size` on 2026-08-12; the word "Size" is banned here because RC uses it for breed size) |
-| Chewy "Product Weight" filter bands ("5–10 lbs") | computed weight ranges | **no attribute** — storefront computes them from the variant `weight` field |
+| Bag / pack weight: "8 kg", "400 g", "Format", "Pack size", "Available sizes", a brand's own "Weight" | how much food is in the pack | **no attribute** — the variant's net content (`measure_type` / `content` / `pack_count`, CLAUDE.md 8a). The `product-weight` attribute that held it (2026-08-12 → 2026-09-29) is retired |
+| Chewy "Product Weight" filter bands ("5–10 lbs") | computed weight ranges | **no attribute** — the server builds the weight filter from the variants' net content |
+| A physical size: bowl "0.45 l/ø 19 cm", collar 30–45 cm, toy S/M/L | a dimension of the item, not what is inside it | an **option** attribute — `size` 28 (accessories, grooming) or `toy-size` 16 (toys); never net content |
 | "Adult", "Junior", "Senior 7+" | age band | `lifestage` — via table 1 (our bands win) |
 | "Croquettes", "Pouch", "Chunks in jelly" | three different things | `food-form` (Dry) / `packaging` (Pouch) / `texture` (Chunks in Jelly) — don't collapse them |
 
 **Weights are always metric, kilogram-based — never lbs/oz** (user rule,
 2026-08-12). A source in pounds gets converted before it reaches any field:
-`product-weight` label, the product Name, the variant label, and the numeric
-variant `weight` (which is in kg). Conversion: `lb x 0.4536 = kg`,
+the product Name, the variant label, and the variant `content` (which is in
+grams). Conversion: `lb x 0.4536 = kg`,
 `oz x 28.35 = g`. Prefer the brand's own metric pack size over an arithmetic
 conversion when both exist (US "5 lb" = the same bag the EU page sells as
 "2 kg"). Flag any row where only a US pack size exists, so nobody mistakes a
@@ -274,61 +283,30 @@ vocabulary is curated by hand — see `reference/admin-api.md`).
 
 ---
 
-## 4. Pricing type — sold by weight vs sold by count
+## 4. Pack size and price — history note
 
-Two kinds of product, two pricing shapes (user rule, 2026-08-12). Decide from
-**how the shop sells it**, which in practice follows `food-form`:
+**Since the catalog model (2026-09-29) there is one shape for everything:**
+`price` is the pack price (hafo's figure for that article), the size is the
+variant's net content — `measure_type` (`mass` / `volume` / `count`) +
+`content` (g / ml / pcs) + `pack_count` — and the server derives the label and
+the ֏/kg or ֏/100 ml rate. Full rule: CLAUDE.md **8a**; per type, which
+measure its products get: the type skills; price policy: `reference/pricing.md`.
 
-| Kind | Admin form | API | Our products |
-|---|---|---|---|
-| **Sold by weight** — loose food in a bag, price per kilo is the meaningful number | Pricing type = **priced by weight**, then **Rate per Kg** + **Pack weight** | `pricing_type: "per_kg"`, `price_per_kg`, `weight` (kg) | dry kibble (`food-form: Dry`) |
-| **Sold by count** — you buy the unit, not the weight | Pricing type = fixed, **Price** | `pricing_type: "fixed"`, `price` (int AMD) | wet pouches/cans/trays and multipacks (`Wet`), supplements, tablets, powders/tins |
+What this replaced, for reading older notes and run reports:
 
-### Filling the weight-priced shape
-
-- **Rate per Kg = pack price ÷ pack weight**, from the CSV price. A 1.5 kg bag at
-  7,000 AMD → `price_per_kg = 4666.67`, `weight = 1.5`.
-- **`price` is ignored by the API on a `per_kg` variant** (it stores 0), so the
-  rate *is* the price — get it right or the shopper sees the wrong number.
-- Only **2 decimals** are kept, so the recomputed pack price can differ by a few
-  hundredths of an AMD (15 kg × 3033.33 = 44,999.95). That rounds back to the CSV
-  price; anything worse means the weight or price is wrong.
-- **Cost price stays per pack** (the CSV's buy price), not per kilo.
-- **Set `product-weight` as well** — the `weight` field and the attribute do two
-  different jobs and both are required. See the box below.
-
-### ⚠️ `weight` prices the bag; `product-weight` is what the shop can see
-
-**Reversed 2026-09-14 (user rule).** From 2026-08-12 to 2026-09-14 this file
-said the opposite — *"do not set the `product-weight` attribute, the admin
-generates the weight from Pack weight, so tagging it duplicates the same
-fact."* That was a bad generalisation of a true statement about the **pricing
-form**, and it cost the storefront its pack-size facet:
-
-- the numeric `weight` field is a **pricing input** — rate × weight = the price;
-- the `product-weight` attribute is what the **storefront reads**, both for the
-  filter sidebar and for the pack-size dropdown on a multi-variant product.
-
-Nothing derives the second from the first. With the attribute skipped, all 37
-dry-food products (every one of them `per_kg`) went to production carrying no
-pack size at all: `/dog/food/dry-food/` offered a single "800 g" — a hand-fix
-leak on product 636 — and `/cat/food/dry-food/` offered no weight filter
-whatsoever. Backfilled on 2026-09-14 by `scripts/backfill-product-weight.py`
-(163 variants, 39 new menu values). **`product-weight` is deliberately
-filterable for now** — the PM wants the pack sizes visible in the sidebar;
-hiding it (`isFilterable: false`, the `toy-size` treatment) is a later call,
-not a default.
-
-The old rule also had to carve out an exception, which disappears with it: the
-API requires every variant to have a **unique attribute combination**, so a
-product whose variants differ *only* by pack size (Sterilised 37, 15 kg + 2 kg)
-broke when `product-weight` was dropped — the second variant was refused with
-*"This attribute combination is already used in variant N."* Keeping the
-attribute is what makes those products legal.
-
-**What is NOT a pack weight** (empty beats a guess, rule 8): a **dose band**
-(`1–4 kg`, `over 16 kg`) is the *pet's* weight → `pet-weight-range` 27; a
-**length or bowl capacity** (`75 cm`, `0.4 l/ø 17 cm`) → `size` 28; a **bare
-count** (`10 tablets`) is no weight at all. A product gets `product-weight` on
-**every** variant or on none — a variant missing it drops out of the
-pack-size dropdown.
+- **2026-08-12 → 2026-09-29**: dry kibble was `pricing_type: "per_kg"` with
+  `price_per_kg` (hafo price ÷ pack kg, 2 decimals) and `weight` in kg, and the
+  API ignored `price`; everything else was `fixed` with `price`. Retired —
+  `pricing_type`, `price_per_kg` and `weight` are refused fields now.
+- **`weight` prices the bag; `product-weight` is what the shop can see**
+  (user rule 2026-09-14, reversing an 08-12 note): the pack size also had to
+  be tagged on the `product-weight` attribute, or the storefront lost its
+  pack-size filter and dropdown (all 37 dry-food products did, backfilled by
+  `backfill-product-weight.py`, 163 variants). The attribute is retired; the
+  filter and the size selector now read the net content, so nothing has to be
+  set twice.
+- **What is NOT a pack size** still holds (empty beats a guess, rule 8): a
+  **dose band** (`1–4 kg`, `over 16 kg`) is the *pet's* weight →
+  `pet-weight-range` 27; a **length or bowl capacity** (`75 cm`,
+  `0.4 l/ø 17 cm`) → `size` 28. A **bare count** (`10 tablets`) *is* content
+  now — `measure_type: "count"` (supplements; the `supplements` skill).

@@ -39,8 +39,9 @@ import json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache", "treats")
-KEEP = ("name", "slug", "category_ids", "brand_id", "attribute_family_id",
-        "is_best_seller", "is_on_sale", "variants")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# The PUT body is rebuilt by the one payload builder (catalog model 2026-09-29).
+from siruk_payload import PayloadError, put_body  # noqa: E402
 
 LEAF = {                       # (dog id, cat id)
     "naturals": (7,  None), "chew":    (85, None), "jerky":   (86, None),
@@ -214,7 +215,10 @@ def main():
         cur = api("GET", f"/products/{p['id']}").get("data")
         if not cur:
             print(f"  GET failed {p['id']}"); fail += 1; continue
-        body = {k: cur[k] for k in KEEP if k in cur}
+        try:
+            body = put_body(cur)
+        except PayloadError as e:
+            print(f"  {p['id']:<4} REFUSED before writing: {e}"); fail += 1; continue
         body["category_ids"] = [p["to"]]
         res = api("PUT", f"/products/{p['id']}", body).get("data", {})
         if res.get("category_ids") == [p["to"]] and len(res.get("variants", [])) == len(cur["variants"]):

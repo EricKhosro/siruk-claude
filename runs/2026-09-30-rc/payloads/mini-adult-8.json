@@ -1,0 +1,66 @@
+{
+ "name": "Mini Adult 8+",
+ "slug": "royal-canin-mini-adult-8",
+ "brand_id": 7,
+ "attribute_family_id": 1,
+ "category_ids": [
+  3
+ ],
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "3182550831406",
+   "name": "8 kg",
+   "price": 26500.0,
+   "cost_price": 23000.0,
+   "sale_mode": "pack",
+   "measure_type": "mass",
+   "content": 8000.0,
+   "pack_count": 1,
+   "initial_stock": 10,
+   "attribute_values": {
+    "lifestage": [
+     28
+    ],
+    "breed-size": [
+     31
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>For adult dogs over 8 years old, ROYAL CANIN® Mini Adult 8+ is a nutritionally complete and balanced formula specially designed to meet your small dog’s particular needs and support them as they enter their later adult years. This diet is suitable for dogs that weigh up to 10 kg. </p><p>With its carefully adapted calorie content, this kibble meets your adult dog’s high-energy needs while helping them maintain a healthy weight. It also contains a balance of nutrients that help maintain strong and healthy bones. </p><p>This formula features an enriching blend of vitamins and highly digestible nutrients, to help support maximal absorption and maintain their vitality. </p><p>Smaller dogs can be quite particular about their food. Not only does this food contain a selection of exclusive flavourings to stimulate their appetite, but it’s also adapted to fit their miniature jaws. This helps even the fussiest eaters get the essential nutrients they need.</p><ul><li><strong>Weight Maintenance</strong>: Helps maintain dogs&#x27; ideal weight by perfectly meeting their specific energy needs through an adapted calorie content.</li><li><strong>Strong &amp; Healthy Bones</strong>: Small dogs could be active and vigorous. This formula helps maintain healthy bones with a right balance of nutrients.</li><li><strong>Optimal Vitality Support</strong>: Helps maintain vitality thanks to a complex of vitamins.</li></ul>",
+   "ingredient_information": "<p>COMPOSITION: Dehydrated poultry proteins, maize, rice, wheat flour, animal fats, wheat gluten, maize gluten, maize flour, wheat, hydrolysed animal proteins, beet pulp, minerals, soya oil, yeasts products, fish oil, fructo-oligosaccharides, algal oil Schizochytrium sp.</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 21800 IU, Vitamin D3: 1000 IU, Iron (3b103): 38 mg, Iodine (3b201, 3b202): 3.8 mg, Copper (3b405, 3b406): 12 mg, Manganese (3b502, 3b504): 50 mg, Zinc (3b603, 3b605, 3b606): 134 mg, Selenium (3b801, 3b811, 3b812): 0.1 mg - Preservatives - Antioxidants.</p><p>ANALYTICAL CONSTITUENTS: Protein: 27.0% - Crude fibre: 1.5% - Fat content: 16.0% - Crude ash: 6.3% - Metabolisable energy: 3923 kcal/kg.</p>",
+   "feeding_instructions": "",
+   "is_default": true
+  },
+  {
+   "sku": "3182550831406-KG",
+   "name": "By weight",
+   "price": 3450.0,
+   "cost_price": 2875,
+   "sale_mode": "weight",
+   "initial_stock": 10000,
+   "attribute_values": {
+    "lifestage": [
+     28
+    ],
+    "breed-size": [
+     31
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>For adult dogs over 8 years old, ROYAL CANIN® Mini Adult 8+ is a nutritionally complete and balanced formula specially designed to meet your small dog’s particular needs and support them as they enter their later adult years. This diet is suitable for dogs that weigh up to 10 kg. </p><p>With its carefully adapted calorie content, this kibble meets your adult dog’s high-energy needs while helping them maintain a healthy weight. It also contains a balance of nutrients that help maintain strong and healthy bones. </p><p>This formula features an enriching blend of vitamins and highly digestible nutrients, to help support maximal absorption and maintain their vitality. </p><p>Smaller dogs can be quite particular about their food. Not only does this food contain a selection of exclusive flavourings to stimulate their appetite, but it’s also adapted to fit their miniature jaws. This helps even the fussiest eaters get the essential nutrients they need.</p><ul><li><strong>Weight Maintenance</strong>: Helps maintain dogs&#x27; ideal weight by perfectly meeting their specific energy needs through an adapted calorie content.</li><li><strong>Strong &amp; Healthy Bones</strong>: Small dogs could be active and vigorous. This formula helps maintain healthy bones with a right balance of nutrients.</li><li><strong>Optimal Vitality Support</strong>: Helps maintain vitality thanks to a complex of vitamins.</li></ul>",
+   "ingredient_information": "<p>COMPOSITION: Dehydrated poultry proteins, maize, rice, wheat flour, animal fats, wheat gluten, maize gluten, maize flour, wheat, hydrolysed animal proteins, beet pulp, minerals, soya oil, yeasts products, fish oil, fructo-oligosaccharides, algal oil Schizochytrium sp.</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin A: 21800 IU, Vitamin D3: 1000 IU, Iron (3b103): 38 mg, Iodine (3b201, 3b202): 3.8 mg, Copper (3b405, 3b406): 12 mg, Manganese (3b502, 3b504): 50 mg, Zinc (3b603, 3b605, 3b606): 134 mg, Selenium (3b801, 3b811, 3b812): 0.1 mg - Preservatives - Antioxidants.</p><p>ANALYTICAL CONSTITUENTS: Protein: 27.0% - Crude fibre: 1.5% - Fat content: 16.0% - Crude ash: 6.3% - Metabolisable energy: 3923 kcal/kg.</p>",
+   "feeding_instructions": "",
+   "is_default": false,
+   "qty_step": 1000,
+   "qty_min": 1000
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "name": "Urinary Care in Gravy",
+ "slug": "royal-canin-urinary-care-in-gravy",
+ "brand_id": 7,
+ "attribute_family_id": 2,
+ "category_ids": [
+  11
+ ],
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "9003579000366",
+   "name": "12 × 85 g",
+   "price": 8600.0,
+   "cost_price": 7500.0,
+   "sale_mode": "pack",
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 12,
+   "initial_stock": 10,
+   "attribute_values": {
+    "health-feature": [
+     135
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>ROYAL CANIN® Urinary Care in Gravy is a nutritionally complete and balanced formula specially designed to help support a healthy urinary environment for optimal urinary tract health. </p><p>ROYAL CANIN® Urinary Care has proven results. Our study* showed that this diet supported a healthy urinary tract in participating healthy cats in just 10 days of being fed with the Urinary Care nutritional programme (combining both the dry kibble and wet food formulas). </p><p>ROYAL CANIN® Urinary Care is also available in jelly, or as a dry kibble diet. A mixture of both wet food and dry food provides the variety cats love. *Royal Canin internal study. </p><ul><li><strong>Proven Results Front</strong>: PROVEN RESULTS\nSUPPORTS A HEALTHY URINARY TRACT IN 10 DAYS*</li></ul>",
+   "ingredient_information": "<p>COMPOSITION: meat and animal derivatives, cereals, minerals, derivatives of vegetable origin, yeasts.</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin D3: 250 IU, Iron (3b103): 2 mg, Iodine (3b202): 0.24 mg, Copper (3b405, 3b406): 1.9 mg, Manganese (3b502, 3b503, 3b504): 0.5 mg, Zinc (3b603, 3b605, 3b606): 5 mg.</p><p>ANALYTICAL CONSTITUENTS: Protein: 9.2%, Fat content: 3.0%, Crude ash: 1.6%, Crude fibres: 0.7%, Moisture: 81.7%.</p>",
+   "feeding_instructions": "",
+   "is_default": true
+  },
+  {
+   "sku": "9003579000366-1",
+   "name": "85 g",
+   "price": 750.0,
+   "cost_price": 625,
+   "sale_mode": "pack",
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 1,
+   "initial_stock": 10,
+   "attribute_values": {
+    "health-feature": [
+     135
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "images": [],
+   "about_this_item": "<p>ROYAL CANIN® Urinary Care in Gravy is a nutritionally complete and balanced formula specially designed to help support a healthy urinary environment for optimal urinary tract health. </p><p>ROYAL CANIN® Urinary Care has proven results. Our study* showed that this diet supported a healthy urinary tract in participating healthy cats in just 10 days of being fed with the Urinary Care nutritional programme (combining both the dry kibble and wet food formulas). </p><p>ROYAL CANIN® Urinary Care is also available in jelly, or as a dry kibble diet. A mixture of both wet food and dry food provides the variety cats love. *Royal Canin internal study. </p><ul><li><strong>Proven Results Front</strong>: PROVEN RESULTS\nSUPPORTS A HEALTHY URINARY TRACT IN 10 DAYS*</li></ul>",
+   "ingredient_information": "<p>COMPOSITION: meat and animal derivatives, cereals, minerals, derivatives of vegetable origin, yeasts.</p><p>ADDITIVES (per kg): Nutritional additives: Vitamin D3: 250 IU, Iron (3b103): 2 mg, Iodine (3b202): 0.24 mg, Copper (3b405, 3b406): 1.9 mg, Manganese (3b502, 3b503, 3b504): 0.5 mg, Zinc (3b603, 3b605, 3b606): 5 mg.</p><p>ANALYTICAL CONSTITUENTS: Protein: 9.2%, Fat content: 3.0%, Crude ash: 1.6%, Crude fibres: 0.7%, Moisture: 81.7%.</p>",
+   "feeding_instructions": "",
+   "is_default": false
+  }
+ ]
+}

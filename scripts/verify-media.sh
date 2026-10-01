@@ -199,15 +199,15 @@ if (( FIX == 1 )) && (( nbroken > 0 )); then
     while read -r pid; do
       [[ -n $pid ]] || continue
       before=$(api GET "/products/$pid")
+      # the body is rebuilt by scripts/siruk_payload.py (catalog model 2026-09-29,
+      # checked against the product type); only the image ids are swapped on it
+      printf '%s\n' "$before" | sed -n '/^{/,$p' > "$CACHE/product-$pid-get.json"
+      body=$(python3 "$ROOT/scripts/siruk_payload.py" put-body "$CACHE/product-$pid-get.json") || {
+        note "product $pid: refused before writing (see above) — relink media $mid → $new by hand"
+        unfixable+="$mid"$'\n'; continue; }
       payload=$(jq --argjson old "$mid" --argjson new "$new" '
-        .data as $p
-        | { name: $p.name, slug: $p.slug, category_ids: $p.category_ids,
-            brand_id: $p.brand_id, attribute_family_id: $p.attribute_family_id,
-            is_best_seller: $p.is_best_seller, is_on_sale: $p.is_on_sale,
-            is_discontinued: $p.is_discontinued,
-            variants: [ $p.variants[]
-                        | .images = ((.images // []) | map(if . == $old then $new else . end)) ] }
-        ' <<<"$before")
+        .variants |= map(.images = ((.images // []) | map(if . == $old then $new else . end)))
+        ' <<<"$body")
       # same guard as add-variant.sh: never let a PUT drop a variant
       jq -e --argjson old "$(jq -c '[.data.variants[].id]' <<<"$before")" \
             '([.variants[].id // empty]) as $now | ($old - $now) | length == 0' <<<"$payload" >/dev/null \

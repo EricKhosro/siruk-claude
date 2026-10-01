@@ -15,7 +15,9 @@ Columns: `Article Code`, `Brand`, `Product Name (as printed)`, `Species`,
   is reliable — see `reference/hafo.md`
 - `Buy Price (AMD)` → `cost_price`
 - `Sale Price (AMD)` → empty = fetch from hafo; filled = the user's figure
-- `Qty Received` → `stock`
+- `Qty Received` → `initial_stock` of a **new** variant (Qty 1 → placeholder
+  10, until provider stock is sorted); an existing variant's stock changes
+  only through the stock endpoints (CLAUDE.md 10a)
 - `csv/productsneedsreview.csv` holds rows without a resolvable brand
 
 ## Shape A — starter product list
@@ -28,7 +30,8 @@ Columns: `#`, `Product Name`, `Brand / Vendor`, `Category`, `Buy Price (AMD)`,
 - `Brand / Vendor` → brand + which official site
 - `Category` → admin categories (map in `reference/product-rules.md`)
 - `Buy Price (AMD)` → `cost_price`; `Sale Price (AMD)` as in Shape C
-- `Qty` → stock (default 10 if empty); `Priority` → import order;
+- `Qty` → `initial_stock` as in Shape C (default 10 if empty or 1);
+  `Priority` → import order;
   `Notes` → hints (which pack/flavour); `Margin %`, totals → ignore
 
 ## Shape B — vendor price sheets (`Vendors_Siruk - *.csv`)
@@ -47,15 +50,23 @@ Schesir + 65 Stuzzy rows and no Royal Canin. Derive the brand from the row.
   **never a sale price**: hafo first, always. If a sheet carries `R/Price` for
   rows hafo cannot price, ask the user before using it (2026-09-10)
 - `R/Price` blank → not stocked; skip the row
-- `PRICE/KG` present → dry-food bag, `pricing_type: per_kg`; it is the vendor's
-  rounded rate, not ours
-- no `Qty` → stock 10; no Brand → `SCH`/`SCHESIR` = Schesir, `STUZZY`/`STZ` =
+- `PRICE/KG` present → a dry-food bag; it is the vendor's rounded rate, never
+  a price of ours (the pack price comes from hafo, the server computes the
+  rate — `per_kg` pricing is gone since 2026-09-29)
+- no `Qty` → `initial_stock` 10; no Brand → `SCH`/`SCHESIR` = Schesir, `STUZZY`/`STZ` =
   Stuzzy; no Category → species from the brand site (Schesir `BAG DRY
   MAINTENANCE` 10 kg is cat, 12 kg is dog)
 
-**Prices are per retail unit, not per case.** Strip the leading multiplier:
-`12X70G` = a 70 g can, `6X1,5KG` = a 1.5 kg bag, `12X6X15G` = a 6×15 g pouch
-pack, `1X12X80G` = a 12×80 g variety box.
+**Prices are per retail unit, not per case.** Strip the leading multiplier
+(the case), then encode what is left as the variant's net content (CLAUDE.md
+8a — `measure_type` + `content` + `pack_count`):
+
+| Vendor string | Retail unit | `content` | `pack_count` |
+|---|---|---|---|
+| `12X70G` | a 70 g can | 70 (g) | 1 |
+| `6X1,5KG` | a 1.5 kg bag | 1500 (g) | 1 |
+| `12X6X15G` | a 6 × 15 g pouch pack | 15 (g) | 6 |
+| `1X12X80G` | a 12 × 80 g variety box | 80 (g) | 12 |
 
 ### Decoding vendor strings (Schesir, verified 2026-08-13)
 
