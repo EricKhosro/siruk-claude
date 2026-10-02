@@ -27,6 +27,7 @@ Created 2026-09-23, when the runs up to then were closed and cleared (see
 | `register/twin-plan.json` | per-kg twins to create | 2026-09-16 | `scripts/make-perkg-twin.py` |
 | `register/register-status.json` | per register row: code, where it came from, live or not | `register-status.py` | `register-audit.py`, the planners (`REGISTER_STATUS=`) |
 | `register/register-audit.{csv,json}`, `register-ledger.csv`, `register-extras.csv` | the audit: per row exists / price / per-kg / family / completeness; the PM-facing ledger; live variants no register row points at | `register-audit.py` | you, `register-price-sync.py` |
+| `scale-codes.json` | ArmSoft good code → the random 5-digit scale code of each per-kg good; keep it so a re-export never renumbers the scale | `scripts/scale-export.py` | `scripts/scale-export.py` |
 
 ## Re-running the register audit
 

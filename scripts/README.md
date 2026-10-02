@@ -108,6 +108,7 @@ before running it.
 | `set-brand-logo.sh <brand-id> <file\|url\|mediaId>` | replaces an existing brand's logo, keeping name/slug/meta. Refuses an image another brand already uses (`FORCE=1` overrides) and verifies the new url resolves |
 | `rasterize-svg.sh <file.svg> [width] [out.png]` | renders an SVG logo to a tight PNG with headless Chrome. The media library can't serve SVG, and Bewital (Belcando/Leonardo/Bewi) and Agras (Schesir/Stuzzy) publish only SVG. `qlmanage` is not a substitute — it pads or clips |
 | `pace.sh [product\|api\|media\|show]` | `show` prints the effective pacing/retry settings; `product` is the breather to call between two CSV rows |
+| `scale-export.py --catalogue <dir> --media <json>` | fills the ArmSoft goods export `Scale/all-xml.xml` for the shop scale → `Scale/all-xml-scale.xml` + `scale-export-report.csv`: EAN (XML → PM register → run data, check digit verified, one good per EAN), first gallery image URL, and per-kg goods (bag with a `-KG` twin) laid out like good 0002 with a random 5-digit scale code from `state/scale-codes.json`. Read-only: needs a `/products/<id>` dump and a media listing |
 
 ## Pacing, retries and the image check — `config.json`
 
