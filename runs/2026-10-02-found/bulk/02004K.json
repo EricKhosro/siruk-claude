@@ -1,0 +1,64 @@
+{
+ "name": "Funny Mouse Vinyl Toy",
+ "slug": "kaskad-funny-mouse-vinyl-toy",
+ "category_ids": [
+  18
+ ],
+ "brand_id": 41,
+ "attribute_family_id": 5,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "02004K",
+   "name": "11 cm",
+   "price": 1700.0,
+   "cost_price": 1030.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "toy-type": [
+     193
+    ],
+    "material": [
+     209
+    ],
+    "toy-size": [
+     361
+    ],
+    "toy-feature": [
+     298
+    ],
+    "color-family": [
+     339
+    ]
+   },
+   "about_this_item": "<p>\"Funny Mouse\" vinyl toy for dogs. Playing with it helps young pets develop physically and helps adult dogs keep their muscle tone. Height 11 cm. Material: vinyl. Colours assorted.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14140
+   ],
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Виниловая игрушка «Забавная мышь»",
+   "variants": {
+    "02004K": {
+     "about_this_item": "Виниловая игрушка «Забавная мышь» для собак. Играя с ней, молодые питомцы развиваются физически, а взрослые собаки поддерживают мышечный тонус. Высота 11 см. Материал: винил. Цвета в ассортименте."
+    }
+   }
+  },
+  "hy": {
+   "name": "Վինիլային խաղալիք «Զվարճալի մուկ»",
+   "variants": {
+    "02004K": {
+     "about_this_item": "«Զվարճալի մուկ» վինիլային խաղալիք շների համար։ Դրա հետ խաղալը օգնում է երիտասարդ կենդանիներին զարգանալ ֆիզիկապես, իսկ չափահաս շներին՝ պահպանել մկանային տոնուսը։ Բարձրությունը՝ 11 սմ։ Նյութը՝ վինիլ։ Գույները՝ տարբեր։"
+    }
+   }
+  }
+ },
+ "_allow_no_size": true
+}

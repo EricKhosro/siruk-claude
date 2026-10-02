@@ -1,0 +1,44 @@
+{
+ "code": "01082K",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "accessories",
+ "brand_id": 41,
+ "name": "Classic Leather Puppy Collar",
+ "label": "15 mm, 24–30 cm",
+ "existing_id": null,
+ "category_ids": [
+  69
+ ],
+ "attributes": {
+  "material": {
+   "value": "Leather",
+   "quote": "Основной материал Кожа"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "Мелкие породы Да"
+  },
+  "size": {
+   "value": "15 mm × 24–30 cm",
+   "quote": "ширина 15 мм, обхват шеи от 24 до 30см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/267/eckh6b4kziadl0mgy49u717jsmughnct.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Kaskad Classic puppy collar made of genuine high-quality leather with strong metal fittings. Width 15 mm, fits a neck girth of 24–30 cm. Features a steel D-ring, 7 adjustment holes and a metal buckle. Colour: black or brown. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_shchenyachiy_shirina_15_mm_obkhvat_shei_ot_24_do_30sm/"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/01082K.source.txt"
+}

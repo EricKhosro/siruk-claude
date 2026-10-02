@@ -1,0 +1,90 @@
+checking 65 product(s)
+HTTP 200  GET /products/1268
+HTTP 200  GET /products/1269
+HTTP 200  GET /products/1270
+HTTP 200  GET /products/1271
+HTTP 200  GET /products/1272
+HTTP 200  GET /products/1273
+HTTP 200  GET /products/1274
+HTTP 200  GET /products/1275
+HTTP 200  GET /products/1276
+HTTP 200  GET /products/1277
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1278
+HTTP 200  GET /products/1279
+HTTP 200  GET /products/1280
+HTTP 200  GET /products/1281
+HTTP 200  GET /products/1282
+HTTP 200  GET /products/1283
+HTTP 200  GET /products/1284
+HTTP 200  GET /products/1285
+HTTP 200  GET /products/1286
+HTTP 200  GET /products/1287
+HTTP 200  GET /products/1288
+HTTP 200  GET /products/1289
+HTTP 200  GET /products/1290
+HTTP 200  GET /products/1291
+HTTP 200  GET /products/1292
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1293
+HTTP 200  GET /products/1294
+HTTP 200  GET /products/1295
+HTTP 200  GET /products/1296
+HTTP 200  GET /products/1297
+HTTP 200  GET /products/1298
+HTTP 200  GET /products/1299
+HTTP 200  GET /products/1300
+HTTP 200  GET /products/1301
+HTTP 200  GET /products/1302
+HTTP 200  GET /products/1303
+HTTP 200  GET /products/1304
+HTTP 200  GET /products/1305
+HTTP 200  GET /products/1306
+HTTP 200  GET /products/1307
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1308
+HTTP 200  GET /products/1309
+HTTP 200  GET /products/1310
+HTTP 200  GET /products/1311
+HTTP 200  GET /products/1312
+HTTP 200  GET /products/1313
+HTTP 200  GET /products/1314
+HTTP 200  GET /products/1315
+HTTP 200  GET /products/1316
+HTTP 200  GET /products/1317
+HTTP 200  GET /products/1318
+HTTP 200  GET /products/1319
+HTTP 200  GET /products/1320
+HTTP 200  GET /products/1321
+HTTP 200  GET /products/1200
+… chunk of 15 api requests done — pausing 5s
+HTTP 200  GET /products/1190
+HTTP 200  GET /products/795
+HTTP 200  GET /products/1149
+HTTP 200  GET /products/1148
+HTTP 200  GET /products/1163
+HTTP 200  GET /products/1165
+HTTP 200  GET /products/1178
+HTTP 200  GET /products/1194
+HTTP 200  GET /products/1052
+HTTP 200  GET /products/804
+290 image reference(s) to check
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+… chunk of 15 api requests done — pausing 5s
+
+290 references, 240 distinct media, 0 broken, 0 repaired, 0 still broken
+report: /Users/conceptmacmini01/Documents/Projects/Siruk-claude/.siruk-cache/media-check.json

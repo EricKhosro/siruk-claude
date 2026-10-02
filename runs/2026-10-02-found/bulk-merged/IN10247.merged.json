@@ -1,0 +1,111 @@
+{
+ "name": "Delights Bones L",
+ "slug": "8in1-delights-bones-l",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 31,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "IN10247",
+   "name": "Chicken, 85 g",
+   "price": 2900.0,
+   "cost_price": 1805.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "health-feature": [
+     109
+    ],
+    "special-diet": [
+     81
+    ],
+    "breed-size": [
+     33
+    ]
+   },
+   "about_this_item": "<p>8in1 Delights Chicken Bone L is a knotted chew bone made of tasty beefhide with delicious chicken breast inside, giving intensive, long-lasting chewing fun for large and giant dogs over 25 kg. While keeping your dog busy, the natural abrasive action of chewing helps remove tartar and supports dental health. Low in fat, rich in protein, oven baked, free from artificial colours and flavour enhancers, with no added sugar, GMOs or gluten. One bone, 85 g.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "<p>Feed 1 treat over a course of two days. Do not exceed 1 treat in a two day period. Treats should not exceed 10% of your dog's daily caloric intake. Select a chew slightly larger than your pet's mouth. Always provide fresh water. Supervise your dog while chewing.</p>",
+   "images": [
+    14623,
+    14626,
+    14629,
+    14632
+   ],
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 1,
+   "is_default": true
+  },
+  {
+   "sku": "IN10882",
+   "name": "Beef, 85 g",
+   "price": 3250.0,
+   "cost_price": 2030.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     37
+    ],
+    "health-feature": [
+     109
+    ],
+    "special-diet": [
+     81
+    ],
+    "breed-size": [
+     33
+    ]
+   },
+   "about_this_item": "<p>8in1 Delights Beef Bone L is a knotted chew bone made of tasty beefhide with delicious beef meat inside, giving intensive, long-lasting chewing fun for large and giant dogs over 25 kg. While keeping your dog busy, the natural abrasive action of chewing helps remove tartar and supports dental health. Low in fat, rich in protein, oven baked, free from artificial colours and flavour enhancers, with no added GMOs or gluten. One bone, 85 g.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "<p>Feed 1 treat over a course of two days. Do not exceed 1 treat in a two day period. Treats should not exceed 10% of your dog's daily caloric intake. Select a chew slightly larger than your pet's mouth. Always provide fresh water. Supervise your dog while chewing.</p>",
+   "images": [
+    14644,
+    14647,
+    14650,
+    14653
+   ],
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 1,
+   "is_default": false
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Delights косточки L",
+   "variants": {
+    "IN10247": {
+     "about_this_item": "8in1 Delights Chicken Bone L — узловая жевательная косточка из вкусной говяжьей кожи с аппетитной куриной грудкой внутри, обеспечивающая интенсивное и долгое удовольствие от жевания для крупных и гигантских собак весом более 25 кг. Пока собака занята, естественное абразивное действие жевания помогает удалять зубной камень и поддерживает здоровье зубов. С низким содержанием жира, богаты белком, запечены в печи, без искусственных красителей и усилителей вкуса, без добавленных сахара, ГМО и глютена. Одна косточка, 85 г.",
+     "feeding_instructions": "Давайте 1 лакомство в течение двух дней. Не превышайте 1 лакомство за двухдневный период. Лакомства не должны превышать 10% суточной калорийности рациона собаки. Выбирайте лакомство чуть больше пасти питомца. Всегда обеспечивайте доступ к свежей воде. Присматривайте за собакой, пока она грызёт."
+    },
+    "IN10882": {
+     "about_this_item": "8in1 Delights Beef Bone L — узловая жевательная косточка из вкусной говяжьей кожи с аппетитным говяжьим мясом внутри, обеспечивающая интенсивное и долгое удовольствие от жевания для крупных и гигантских собак весом более 25 кг. Пока собака занята, естественное абразивное действие жевания помогает удалять зубной камень и поддерживает здоровье зубов. С низким содержанием жира, богаты белком, запечены в печи, без искусственных красителей и усилителей вкуса, без добавленных ГМО и глютена. Одна косточка, 85 г.",
+     "feeding_instructions": "Давайте 1 лакомство в течение двух дней. Не превышайте 1 лакомство за двухдневный период. Лакомства не должны превышать 10% суточной калорийности рациона собаки. Выбирайте лакомство чуть больше пасти питомца. Всегда обеспечивайте доступ к свежей воде. Присматривайте за собакой, пока она грызёт."
+    }
+   }
+  },
+  "hy": {
+   "name": "Delights ոսկորներ L",
+   "variants": {
+    "IN10247": {
+     "about_this_item": "8in1 Delights Chicken Bone L-ը հանգույցներով ծամելու ոսկոր է՝ պատրաստված համեղ տավարի կաշվից, ներսում՝ հավի համեղ կրծքամիս, որն ապահովում է ինտենսիվ և երկարատև ծամելու հաճույք 25 կգ-ից ավելի քաշով խոշոր և հսկա շների համար։ Մինչ շունը զբաղված է, ծամելու բնական հղկող ազդեցությունն օգնում է հեռացնել ատամնաքարը և աջակցում է ատամների առողջությանը։ Ցածր ճարպայնությամբ, հարուստ սպիտակուցով, թխված վառարանում, առանց արհեստական ներկանյութերի և համի ուժեղացուցիչների, առանց ավելացված շաքարի, ԳՁՕ-ի և սնձանի։ Մեկ ոսկոր, 85 գ։",
+     "feeding_instructions": "Տվեք 1 հյուրասիրություն երկու օրվա ընթացքում։ Մի գերազանցեք 1 հյուրասիրությունը երկու օրվա ժամանակահատվածում։ Հյուրասիրությունները չպետք է գերազանցեն ձեր շան օրական կալորիաների 10%-ը։ Ընտրեք ձեր կենդանու բերանից մի փոքր ավելի մեծ ծամելիք։ Միշտ ապահովեք թարմ ջուր։ Հսկեք ձեր շանը ծամելու ընթացքում։"
+    },
+    "IN10882": {
+     "about_this_item": "8in1 Delights Beef Bone L-ը հանգույցներով ծամելու ոսկոր է՝ պատրաստված համեղ տավարի կաշվից, ներսում՝ տավարի համեղ միս, որն ապահովում է ինտենսիվ և երկարատև ծամելու հաճույք 25 կգ-ից ավելի քաշով խոշոր և հսկա շների համար։ Մինչ շունը զբաղված է, ծամելու բնական հղկող ազդեցությունն օգնում է հեռացնել ատամնաքարը և աջակցում է ատամների առողջությանը։ Ցածր ճարպայնությամբ, հարուստ սպիտակուցով, թխված վառարանում, առանց արհեստական ներկանյութերի և համի ուժեղացուցիչների, առանց ավելացված ԳՁՕ-ի և սնձանի։ Մեկ ոսկոր, 85 գ։",
+     "feeding_instructions": "Տվեք 1 հյուրասիրություն երկու օրվա ընթացքում։ Մի գերազանցեք 1 հյուրասիրությունը երկու օրվա ժամանակահատվածում։ Հյուրասիրությունները չպետք է գերազանցեն ձեր շան օրական կալորիաների 10%-ը։ Ընտրեք ձեր կենդանու բերանից մի փոքր ավելի մեծ ծամելիք։ Միշտ ապահովեք թարմ ջուր։ Հսկեք ձեր շանը ծամելու ընթացքում։"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "name": "Litter Tray",
+ "slug": "dogman-litter-tray",
+ "category_ids": [
+  67
+ ],
+ "brand_id": 43,
+ "attribute_family_id": 8,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "61001K",
+   "name": "42.5 × 31 × 8 cm",
+   "price": 1950.0,
+   "cost_price": 1215.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "material": [
+     208
+    ],
+    "color-family": [
+     339
+    ],
+    "size": [
+     883
+    ]
+   },
+   "about_this_item": "<p>DOGMAN cat litter tray, 42.5 × 31 × 8 cm. Made of high-quality plastic; suits kittens and small and medium-sized cats. Easy to wash and does not absorb odours. Colour varies. Made in Russia.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14839
+   ],
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Туалет для кошек",
+   "variants": {
+    "61001K": {
+     "about_this_item": "Туалет для кошек DOGMAN, 42,5 × 31 × 8 см. Изготовлен из высококачественного пластика, подойдёт для котят, мелких и средних кошек. Легко моется и не впитывает запахи. Цвет — в ассортименте. Сделано в России."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կատվի զուգարան",
+   "variants": {
+    "61001K": {
+     "about_this_item": "DOGMAN կատվի զուգարան, 42.5 × 31 × 8 սմ։ Պատրաստված է բարձրորակ պլաստիկից, հարմար է ձագերի, փոքր և միջին չափի կատուների համար։ Հեշտ լվացվում է և չի կլանում հոտերը։ Գույնը՝ տարբեր։ Արտադրված է Ռուսաստանում։"
+    }
+   }
+  }
+ },
+ "_allow_no_size": true
+}

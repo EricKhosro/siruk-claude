@@ -1,0 +1,65 @@
+{
+ "name": "Delights Twisted Sticks",
+ "slug": "8in1-delights-twisted-sticks",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 31,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "IN12247",
+   "name": "Chicken, 10 pcs / 55 g",
+   "price": 2600.0,
+   "cost_price": 1610.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "health-feature": [
+     109
+    ],
+    "special-diet": [
+     81
+    ]
+   },
+   "about_this_item": "<p>8in1 Delights Chicken Twisted Sticks are made of tasty beefhide and delicious chicken breast for intensive, long-lasting chewing fun. While keeping your dog busy, the natural abrasive action of chewing helps remove tartar and supports dental health. Low in fat, rich in protein, oven baked, free from artificial colours and flavour enhancers, with no added sugar, GMOs, gluten or grains. Pack of 10 sticks, 55 g.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "<p>XS dogs (1–5 kg): feed 1 treat over a course of two days; do not exceed 1 treat in a two day period. S–L dogs (5+ kg): feed 1–2 treats per day; do not exceed two treats in a single day. Treats should not exceed 10% of your dog's daily caloric intake. Always provide fresh water and supervise your dog while chewing.</p>",
+   "images": [
+    14671,
+    14674,
+    14677,
+    14680
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Delights кручёные палочки",
+   "variants": {
+    "IN12247": {
+     "about_this_item": "8in1 Delights Chicken Twisted Sticks изготовлены из вкусной говяжьей кожи и аппетитной куриной грудки для интенсивного и долгого удовольствия от жевания. Пока собака занята, естественное абразивное действие жевания помогает удалять зубной камень и поддерживает здоровье зубов. С низким содержанием жира, богаты белком, запечены в печи, без искусственных красителей и усилителей вкуса, без добавленного сахара, ГМО, глютена и злаков. Упаковка из 10 палочек, 55 г.",
+     "feeding_instructions": "Собаки XS (1–5 кг): давайте 1 лакомство в течение двух дней; не превышайте 1 лакомство за двухдневный период. Собаки S–L (от 5 кг): давайте 1–2 лакомства в день; не превышайте двух лакомств в день. Лакомства не должны превышать 10% суточной калорийности рациона собаки. Всегда обеспечивайте доступ к свежей воде и присматривайте за собакой, пока она грызёт."
+    }
+   }
+  },
+  "hy": {
+   "name": "Delights ոլորված ձողիկներ",
+   "variants": {
+    "IN12247": {
+     "about_this_item": "8in1 Delights Chicken Twisted Sticks-ը պատրաստված են համեղ տավարի կաշվից և հավի համեղ կրծքամսից՝ ինտենսիվ և երկարատև ծամելու հաճույքի համար։ Մինչ շունը զբաղված է, ծամելու բնական հղկող ազդեցությունն օգնում է հեռացնել ատամնաքարը և աջակցում է ատամների առողջությանը։ Ցածր ճարպայնությամբ, հարուստ սպիտակուցով, թխված վառարանում, առանց արհեստական ներկանյութերի և համի ուժեղացուցիչների, առանց ավելացված շաքարի, ԳՁՕ-ի, սնձանի և հացահատիկների։ 10 ձողիկի տուփ, 55 գ։",
+     "feeding_instructions": "XS շներ (1–5 կգ)՝ տվեք 1 հյուրասիրություն երկու օրվա ընթացքում. մի գերազանցեք 1 հյուրասիրությունը երկու օրվա ժամանակահատվածում։ S–L շներ (5 կգ-ից ավելի)՝ տվեք 1–2 հյուրասիրություն օրական. մի գերազանցեք օրական երկու հյուրասիրությունը։ Հյուրասիրությունները չպետք է գերազանցեն ձեր շան օրական կալորիաների 10%-ը։ Միշտ ապահովեք թարմ ջուր և հսկեք ձեր շանը ծամելու ընթացքում։"
+    }
+   }
+  }
+ }
+}

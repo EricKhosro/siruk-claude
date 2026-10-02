@@ -1,0 +1,62 @@
+{
+ "name": "Cleaning Paw Spray",
+ "slug": "pchelodar-cleaning-paw-spray",
+ "category_ids": [
+  31,
+  38
+ ],
+ "brand_id": 42,
+ "attribute_family_id": 7,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "63245PCHL",
+   "name": "125 ml",
+   "price": 1800.0,
+   "cost_price": 1100.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     537
+    ],
+    "health-feature": [
+     418
+    ]
+   },
+   "about_this_item": "<p>Pchelodar ZooArena cleaning paw spray for dogs and cats: a gentle, leave-in hygiene product that quickly removes dirt from paws, skin and coat without rinsing. Its active components penetrate and soften dirt and remove unpleasant odour. Moisturises, nourishes and restores the coat, adds shine, reduces static and makes brushing easier. Hypoallergenic formula, suitable for sensitive skin and frequent use — handy at shows, at the vet and when travelling.</p>",
+   "ingredient_information": "<p>EDTA, sodium laureth sulfate, cocamidopropyl betaine, cetrimonium chloride, fragrance, auxiliary components.</p>",
+   "feeding_instructions": "<p>Shake the bottle, spray generously onto the dirty areas and wipe off with a cloth. No rinsing needed.</p>",
+   "images": [
+    14857
+   ],
+   "measure_type": "volume",
+   "content": 125.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Очищающий спрей для лап",
+   "variants": {
+    "63245PCHL": {
+     "about_this_item": "Очищающий спрей для лап Пчелодар ЗооАрена для собак и кошек — гигиеническое несмываемое средство с мягкой формулой для быстрого удаления загрязнений с лап, кожи и шерсти. Активные компоненты проникают внутрь загрязнения, размягчают его и устраняют неприятный запах. Увлажняет, питает и восстанавливает шерсть, усиливает блеск, снимает статику и облегчает расчёсывание. Гипоаллергенная формула для чувствительной кожи и частого применения — незаменим на выставках, у ветеринара и в поездках.",
+     "ingredient_information": "ЭДТА, содиум лаурет сульфат, кокамидопропил бетаин, цетримониум хлорид, парфюмерная композиция, вспомогательные компоненты.",
+     "feeding_instructions": "Встряхните флакон, обильно распылите на загрязнённые места и сотрите салфеткой. Смывать не нужно."
+    }
+   }
+  },
+  "hy": {
+   "name": "Թաթերի մաքրող սփրեյ",
+   "variants": {
+    "63245PCHL": {
+     "about_this_item": "Պչելոդար ԶոոԱրենա թաթերի մաքրող սփրեյ շների և կատուների համար՝ մեղմ բանաձևով չլվացվող հիգիենիկ միջոց, որն արագ հեռացնում է կեղտը թաթերից, մաշկից և բրդից։ Ակտիվ բաղադրիչները թափանցում են կեղտի մեջ, փափկեցնում այն և վերացնում տհաճ հոտը։ Խոնավեցնում, սնուցում և վերականգնում է բուրդը, տալիս փայլ, հանում ստատիկ լիցքը և հեշտացնում սանրելը։ Հիպոալերգենիկ բանաձև՝ զգայուն մաշկի և հաճախակի օգտագործման համար, անփոխարինելի է ցուցահանդեսներում, անասնաբույժի մոտ և ճանապարհորդելիս։",
+     "ingredient_information": "ԷԴՏԱ, նատրիումի լաուրեթ սուլֆատ, կոկամիդոպրոպիլ բետաին, ցետրիմոնիումի քլորիդ, բուրավետ կոմպոզիցիա, օժանդակ բաղադրիչներ։",
+     "feeding_instructions": "Թափահարեք շիշը, առատորեն ցողեք կեղտոտ հատվածներին և սրբեք անձեռոցիկով։ Լվանալ պետք չէ։"
+    }
+   }
+  }
+ }
+}

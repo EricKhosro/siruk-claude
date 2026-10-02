@@ -1,0 +1,12 @@
+{
+ "01664K": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-brand",
+    "prepare found no admin brand for '' — check Kaskad is right"
+   ]
+  ]
+ }
+}

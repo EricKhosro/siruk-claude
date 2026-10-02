@@ -1,0 +1,44 @@
+{
+ "code": "PM902075",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 35,
+ "name": "Adult Dry Cat Food",
+ "label": "Rabbit 11 kg",
+ "existing_id": null,
+ "category_ids": [
+  10
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "lifestage": {
+   "value": "Adult",
+   "quote": "для дорослих кішок"
+  },
+  "flavor": {
+   "value": "Rabbit",
+   "quote": "із кроликом"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://vetzoo.com.ua/static-files/img/goods/f5/dd/sbalansirovanniy-suhoy-korm-myau-dlya-vzroslyh-koshek-s-krolikom-11-kg-9525824.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Myau! balanced complete dry food for adult cats, with rabbit. Everyday nutrition enriched with all the necessary nutrients: proteins, fats, carbohydrates, vitamins and minerals, with an optimal balance of calories and nutrients. Economy class, made in Ukraine by Kormotech.",
+  "ingredient_information": "Ingredients: cereals and cereal products, meat and animal by-products at least 26% (rabbit at least 4%), oils and fats, minerals, yeast. Analytical constituents: crude protein 25%, crude fat 12%, crude fibre 2%, crude ash 7%, calcium 1.3%, phosphorus 1%. Additives per kg include vitamins A, D3, E, K3, B1, B2, B6, B12, niacin, folic acid, biotin, taurine, copper, zinc, iron and manganese.",
+  "feeding_instructions": "Daily amount by adult cat weight: 2 kg 28-34 g, 3 kg 42-51 g, 4 kg 56-68 g, 5 kg 71-85 g, 6 kg 85-102 g, 7 kg 99-119 g. Always provide fresh drinking water."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://vetzoo.com.ua/goods/sbalansirovanniy-suhoy-korm-myau-dlya-vzroslyh-koshek-s-krolikom-11-kg/"
+ },
+ "evidence_file": "cards/PM902075.source.txt"
+}

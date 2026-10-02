@@ -1,0 +1,57 @@
+{
+ "code": "IN10952",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "supplements",
+ "brand_id": 31,
+ "name": "Excel Brewer's Yeast Large Breed",
+ "label": "80 tablets",
+ "size": {
+  "measure_type": "count",
+  "content": 80,
+  "pack_count": 1
+ },
+ "existing_id": null,
+ "category_ids": [
+  43
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "product-form": {
+   "value": "Tablet",
+   "quote": "80 հաբ"
+  },
+  "active-ingredient": {
+   "value": "Brewer's Yeast",
+   "quote": "contains brewer's yeast rich in B vitamins"
+  },
+  "health-feature": {
+   "value": "Skin & Coat Health",
+   "quote": "improves the condition of the skin and coat"
+  },
+  "breed-size": {
+   "value": "Large Breeds",
+   "quote": "for Dogs of Large Breeds"
+  },
+  "packaging": {
+   "value": "Tub",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://img2.zakaz.ua/src.1664830067.ad72436478c_2022-10-07_Tatiana/src.1664830067.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Excel Brewer's Yeast for large breeds is a feed supplement formulated to support the skin and coat of large dogs. It contains brewer's yeast rich in B vitamins, garlic, vitamins such as biotin and trace elements including copper and zinc, combined with fish oil as a source of omega-3 fatty acids. Brewer's yeast also supports normal metabolism and the immune system. Developed by veterinarians. 80 tablets.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://masterzoo.zakaz.ua/en/products/vitamini--04048422109525/"
+ },
+ "evidence_file": "cards/IN10952.source.txt"
+}

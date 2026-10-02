@@ -1,0 +1,44 @@
+{
+ "type": "accessories",
+ "brand_id": 41,
+ "existing_id": null,
+ "name": "Classic Double Leather Collar with Rhinestones",
+ "label": "12 mm, 20–24 cm",
+ "category_ids": [
+  69
+ ],
+ "attributes": {
+  "material": {
+   "value": "Leather",
+   "quote": "Основной материал Кожа"
+  },
+  "size": {
+   "value": "12 mm × 20–24 cm",
+   "quote": "ширина 12мм обхв.шеи 20-24см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/41d/3di1oj8qym8aqct09a6z0iimqo0vz56k.JPG",
+  "https://www.kaskad-pet.ru/upload/iblock/952/tng46k3076xp6kvbbuyt262tg45fb5ip.JPG",
+  "https://www.kaskad-pet.ru/upload/iblock/564/999koktw1oyc7rgthck3ualser35vlyw.JPG"
+ ],
+ "texts": {
+  "about_this_item": "Kaskad Classic double-layer dog collar decorated with rhinestones, made of genuine high-quality leather with strong metal fittings. Width 12 mm, fits a neck girth of 20–24 cm. Metal buckle and D-ring. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_dvoynoy_so_strazami_shirina_12mm_obkhv_shei_20_24sm/",
+  "article": "00012105",
+  "ean": "4605350016686"
+ },
+ "code": "00012105",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/00012105.source.txt"
+}

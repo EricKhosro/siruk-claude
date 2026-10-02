@@ -1,0 +1,157 @@
+{
+  "_doc": "How a brand or product word is written in each script, for codeless-row search (scripts/identify-by-name.py). hafo indexes some products only by their Russian/Latin title, zoovet.am is Russian-language, nemo.am Armenian with Latin/Russian brand names in «». Every form is tried on every shop. Add a brand the first time a register spells it in Armenian; keep `hy` exactly as the register writes it.",
+  "brands": [
+    {
+      "brand": "Club 4 Paws",
+      "hy": [
+        "4 ԹԱԹ",
+        "4ԹԱԹ"
+      ],
+      "forms": [
+        "Club 4 Paws",
+        "Club4Paws",
+        "4 лапы",
+        "Клуб 4 лапы",
+        "Клуб 4 лапи"
+      ]
+    },
+    {
+      "brand": "Мяу!",
+      "hy": [
+        "ՄՅԱՈՒ",
+        "Մյաու"
+      ],
+      "forms": [
+        "Мяу",
+        "Myau"
+      ]
+    },
+    {
+      "brand": "Гав!",
+      "hy": [
+        "ԳԱՖ",
+        "ԳԱՎ"
+      ],
+      "forms": [
+        "Гав",
+        "Gav"
+      ]
+    },
+    {
+      "brand": "Мнямс",
+      "hy": [
+        "Մնյամս",
+        "ՄՆՅԱՄՍ"
+      ],
+      "forms": [
+        "Мнямс",
+        "Mnyams"
+      ]
+    },
+    {
+      "brand": "Деревенские лакомства",
+      "hy": [
+        "Դերևենսկիե"
+      ],
+      "forms": [
+        "Деревенские лакомства",
+        "Derevenskie Lakomstva"
+      ]
+    },
+    {
+      "brand": "My Love",
+      "hy": [],
+      "forms": [
+        "My Love",
+        "Май Лав"
+      ]
+    },
+    {
+      "brand": "Kittys",
+      "hy": [],
+      "forms": [
+        "Kittys",
+        "Kitty's",
+        "Киттис"
+      ]
+    },
+    {
+      "brand": "8in1",
+      "hy": [],
+      "forms": [
+        "8in1",
+        "8 in 1",
+        "Brewer's"
+      ]
+    },
+    {
+      "brand": "Collar",
+      "hy": [],
+      "forms": [
+        "Collar",
+        "Коллар",
+        "Waudog"
+      ]
+    },
+    {
+      "brand": "Herm Sprenger",
+      "hy": [],
+      "forms": [
+        "Sprenger",
+        "Herm Sprenger",
+        "Шпренгер"
+      ]
+    },
+    {
+      "brand": "Kaskad",
+      "hy": [],
+      "forms": [
+        "Каскад",
+        "Kaskad"
+      ],
+      "_note": "Russian collar/lead maker. The register's trailing '/00030302', '/26455351' (8 digits) on collars, prong collars and leads is the Kaskad article code — a Russian web search for the bare number finds it (21vek.by, shop.by), 2026-10-01."
+    }
+  ],
+  "_terms_doc": "Armenian register word (as a prefix) → Russian query word, for brandless rows on zoovet.am. Matching is by prefix, so a stem covers its case endings.",
+  "terms": {
+    "Վզնոց միջատների դեմ": "ошейник от блох",
+    "Վզնոց միջ. վախեցնող": "ошейник от блох",
+    "Խիստ վզնոց": "строгий ошейник",
+    "Վզնոց": "ошейник",
+    "Ձգափոկ": "рулетка",
+    "Լցանյութ": "наполнитель",
+    "Տակդիր": "коврик под лоток",
+    "Ցողարկիչ": "спрей",
+    "Հեղուկ": "капли",
+    "Ոսկոր": "косточка",
+    "Ձողիկներ": "палочки",
+    "Հյուրասիրություն": "лакомство",
+    "բարձիկներ": "подушечки",
+    "Մազագնդիկները հեռացնող մածուկ": "паста для вывода шерсти",
+    "Կերաման": "миска",
+    "Խաղալիք": "игрушка",
+    "Վիտամին": "витамины",
+    "Կերային հավելում": "витамины",
+    "կատուների": "для кошек",
+    "կատ.": "для кошек",
+    "շների ձագերի": "для щенков",
+    "փոքր ցեղատեսակի": "мелких пород",
+    "շների": "для собак",
+    "հավ": "курица",
+    "բադ": "утка",
+    "հնդկահավ": "индейка",
+    "ճագար": "кролик",
+    "գառ": "ягненок",
+    "հորթ": "телятина",
+    "տավար": "говядина",
+    "սաղմոն": "лосось",
+    "ձուկ": "рыба",
+    "կաշի": "кожаный",
+    "կգ": "кг",
+    "գ": "г",
+    "մլ": "мл",
+    "սմ": "см",
+    "հաբ": "таб",
+    "հատ": "шт"
+  }
+}

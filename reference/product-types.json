@@ -16,7 +16,7 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": true,
-    "position": 1
+    "position": 0
    },
    {
     "id": 4,
@@ -27,7 +27,7 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": false,
-    "position": 2
+    "position": 1
    },
    {
     "id": 3,
@@ -38,7 +38,7 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": false,
-    "position": 3
+    "position": 2
    },
    {
     "id": 6,
@@ -49,7 +49,7 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": false,
-    "position": 4
+    "position": 3
    },
    {
     "id": 7,
@@ -60,7 +60,7 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": false,
-    "position": 5
+    "position": 4
    },
    {
     "id": 9,
@@ -71,7 +71,7 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": false,
-    "position": 6
+    "position": 5
    },
    {
     "id": 17,
@@ -82,7 +82,7 @@
     "isRequired": false,
     "isFilterable": false,
     "showOnProductCard": false,
-    "position": 7
+    "position": 6
    }
   ]
  },

@@ -1,0 +1,62 @@
+{
+ "name": "Avocado Dental Chews for Small Breeds",
+ "slug": "derevenskie-lakomstva-avocado-dental-chews-for-small-breeds",
+ "category_ids": [
+  83
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL304036",
+   "name": "35 g",
+   "price": 950.0,
+   "cost_price": 580.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "breed-size": [
+     31
+    ],
+    "health-feature": [
+     133
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "about_this_item": "<p>Zubochistiki avocado dental chews for small-breed dogs (5 pieces) — a multifunctional treat with health benefits. Thanks to their porous structure these chews clean teeth very well. Fish oil is added, so they contain the omega-3 and omega-6 needed for healthy skin and coat. Rich in vitamins A, B and E and minerals.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14503,
+    14506,
+    14509
+   ],
+   "measure_type": "mass",
+   "content": 35.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Жевательные лакомства для зубов с авокадо для мелких пород",
+   "variants": {
+    "DL304036": {
+     "about_this_item": "Жевательные лакомства для зубов Zubochistiki с авокадо для собак мелких пород (5 шт.) — многофункциональное лакомство с пользой для здоровья. Благодаря пористой структуре отлично чистят зубы. Добавлен рыбий жир, поэтому они содержат омега-3 и омега-6, необходимые для здоровья кожи и шерсти. Богаты витаминами A, B и E и минералами."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ատամնամաքրող ծամելու հյուրասիրություն ավոկադոյով փոքր ցեղերի համար",
+   "variants": {
+    "DL304036": {
+     "about_this_item": "Zubochistiki ատամնամաքրող ծամելու հյուրասիրություն ավոկադոյով փոքր ցեղերի շների համար (5 հատ)՝ բազմաֆունկցիոնալ հյուրասիրություն՝ առողջության համար օգտակար։ Ծակոտկեն կառուցվածքի շնորհիվ շատ լավ մաքրում են ատամները։ Ավելացված է ձկան յուղ, ուստի պարունակում են մաշկի և բրդի առողջության համար անհրաժեշտ օմեգա-3 և օմեգա-6։ Հարուստ են A, B և E վիտամիններով և հանքանյութերով։"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "code": "IN10869",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "supplements",
+ "brand_id": 31,
+ "name": "Excel Multi Vitamin Senior",
+ "label": "70 tablets",
+ "size": {
+  "measure_type": "count",
+  "content": 70,
+  "pack_count": 1
+ },
+ "existing_id": null,
+ "category_ids": [
+  43
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "product-form": {
+   "value": "Tablet",
+   "quote": "Multivitamin tablets for senior dogs"
+  },
+  "lifestage": {
+   "value": "Senior",
+   "quote": "Daily multivitamins for senior dogs"
+  },
+  "health-feature": {
+   "value": "Vitamins & Minerals",
+   "quote": "Provides essential vitamins and minerals required by senior dogs"
+  },
+  "packaging": {
+   "value": "Tub",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://img2.zakaz.ua/e4fe0d723c1745738c2855217b04a6d3/1715336521-s1350x1350.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Excel Multi Vitamin Senior is a daily multivitamin supplement formulated for the nutritional needs of older dogs, helping to prevent problems associated with diet-related deficiencies. It provides 12 vitamins, including A, C and E as natural antioxidants, vitamin D and essential minerals such as magnesium, calcium and zinc, with higher levels than adult formulas because senior dogs often absorb nutrients less well. Contains stabilised vitamin C. Developed with veterinarians, free from artificial colours and preservatives. Made in Germany. 70 tablets.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://masterzoo.zakaz.ua/en/products/vitamini--04048422108696/"
+ },
+ "evidence_file": "cards/IN10869.source.txt"
+}

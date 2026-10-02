@@ -1,0 +1,67 @@
+{
+ "name": "Dried Chicken Medallions",
+ "slug": "derevenskie-lakomstva-dried-chicken-medallions",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711156",
+   "name": "90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "lifestage": [
+     27
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>A reward during training, a prize for new achievements or simply a way to show your love — medallions of select chicken meat are indispensable in any situation. Ideal for adult dogs of medium and large breeds.</p>",
+   "ingredient_information": "<p>Chicken meat. Guaranteed analysis per 100 g: protein 45 g, fat 4.2 g, moisture 16.78 g, fibre 0.19 g, ash 4.5 g; energy 217.8 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14521,
+    14524,
+    14527
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Куриные медальоны сушёные",
+   "variants": {
+    "DL711156": {
+     "about_this_item": "Поощрение во время дрессировки, приз за новые достижения или просто способ выразить свою любовь — медальоны из отборного куриного мяса незаменимы в любой ситуации. Идеальны для взрослых собак средних и крупных пород.",
+     "ingredient_information": "Куриное мясо. Гарантированные показатели на 100 г: белок 45 г, жир 4,2 г, влага 16,78 г, клетчатка 0,19 г, зола 4,5 г; энергетическая ценность 217,8 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Չորացված հավի մեդալիոններ",
+   "variants": {
+    "DL711156": {
+     "about_this_item": "Խրախուսանք վարժեցման ժամանակ, մրցանակ նոր նվաճումների համար կամ պարզապես ձեր սերն արտահայտելու միջոց՝ ընտիր հավի մսից մեդալիոններն անփոխարինելի են ցանկացած իրավիճակում։ Իդեալական են միջին և խոշոր ցեղերի չափահաս շների համար։",
+     "ingredient_information": "Հավի միս։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 45 գ, ճարպ 4,2 գ, խոնավություն 16,78 գ, թաղանթանյութ 0,19 գ, մոխիր 4,5 գ. էներգետիկ արժեք 217,8 կկալ։"
+    }
+   }
+  }
+ }
+}

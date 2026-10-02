@@ -1,0 +1,58 @@
+{
+ "code": "BP12155",
+ "status": "ready",
+ "hold_reason": null,
+ "brand_id": 30,
+ "price": {
+  "source": "prepared"
+ },
+ "existing_id": null,
+ "first_image": "packshot",
+ "evidence_file": "cards/BP12155.source.txt",
+ "type": "supplements",
+ "name": "Flea & Tick Collar for Large Dogs",
+ "label": "85 cm, black",
+ "size": {
+  "measure_type": "count",
+  "content": 1,
+  "pack_count": 1
+ },
+ "category_ids": [
+  42
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Collar",
+   "quote": "ошейник"
+  },
+  "health-feature": {
+   "value": "Anti-Parasitic",
+   "quote": "от блох и клещей"
+  },
+  "color-family": {
+   "value": "Black",
+   "quote": "черный"
+  },
+  "breed-size": {
+   "value": "Large Breeds",
+   "quote": "для собак крупных пород"
+  },
+  "size": {
+   "value": "85 cm",
+   "quote": "для собак крупных пород от блох (5 мес.) и клещей (2 мес.) с 6 месяцев - 85 см"
+  }
+ },
+ "images": [
+  "https://cdn.kotmatros.ru/wa-data/public/shop/products/39/92/79239/images/147159/147159.970.jpg",
+  "https://vetapteka1.ru/upload/iblock/e99/osheynik_dlya_sobak_krupnykh_porod.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Beaphar flea and tick collar for large-breed dogs from 6 months of age, 85 cm, black. Kills parasites and protects against re-infestation by fleas and ticks for 6 months. Part of step 2 of Beaphar's four-step parasite protection programme. The active ingredient diazinon is released from the strap onto the skin and coat and acts on contact against fleas, lice, biting lice and ticks.",
+  "ingredient_information": "Diazinon.",
+  "feeding_instructions": "Fit the collar loosely around the dog's neck and cut off the excess strap, allowing for growth. The collar works only when worn continuously; it is water-resistant, so the dog can be bathed without removing it."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://kotmatros.ru/osheynik-beaphar-ungezieferband-dlya-sobak-krupnykh-porod-ot-blokh-5-mes-i-kleshchey-2-mes-s-6-mesyatsev-85-sm/"
+ }
+}

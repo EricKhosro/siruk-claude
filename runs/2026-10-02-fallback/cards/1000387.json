@@ -1,0 +1,55 @@
+{
+ "type": "supplements",
+ "brand_id": 30,
+ "existing_id": 1268,
+ "name": "Soft Flea Collar for Cats",
+ "label": "Velvet, black",
+ "category_ids": [
+  51
+ ],
+ "size": {
+  "measure_type": "count",
+  "content": 1,
+  "pack_count": 1
+ },
+ "attributes": {
+  "product-form": {
+   "value": "Collar",
+   "quote": "Soft Cat Flea Collar"
+  },
+  "health-feature": {
+   "value": "Anti-Parasitic",
+   "quote": "repel fleas for up to 8 weeks"
+  },
+  "color-family": {
+   "value": "Black",
+   "quote": "սև (register)"
+  }
+ },
+ "images": [
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000387_Ecommerce_Soft_Flea_Collar_Velvet_CAT_EN_2026_1.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000387_Ecommerce_Soft_Flea_Collar_Velvet_CAT_EN_2026_3.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000387_Ecommerce_Soft_Flea_Collar_Velvet_CAT_EN_2026_5.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000387_Ecommerce_Soft_Flea_Collar_Velvet_CAT_EN_2026_4.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000387_Ecommerce_Soft_Flea_Collar_Velvet_CAT_EN_2026_2.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Beaphar soft flea collar for cats with a velvet finish, 30 cm. A pesticide-free formula with the natural plant extracts Margosa and Lavandin oil repels fleas for up to 8 weeks; it needs 5–7 days to reach full effect. Comfortable fabric collar, adjustable to fit, with a quick-release safety buckle that breaks apart if the cat gets caught, and an optional silver bell. Suitable for cats and kittens from 12 weeks of age.",
+  "ingredient_information": "Margosa extract, Lavandin oil.",
+  "feeding_instructions": "Adjust the collar to fit the cat's neck; the quick-release buckle opens if the cat gets caught. Full effect after 5–7 days; repels fleas for up to 8 weeks."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.beaphar.co.uk/product/1000387-beaphar-soft-velvet-flea-collar-for-cats/",
+  "article": "1000387",
+  "note": "official photos show the red velvet collar; ours is black — needs-image 'other colour'"
+ },
+ "code": "1000387",
+ "status": "hold",
+ "hold_reason": "no photo of the BLACK velvet collar: every Beaphar/retailer photo found shows the red one (rule 7: one gallery per colour)",
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/1000387.source.txt"
+}

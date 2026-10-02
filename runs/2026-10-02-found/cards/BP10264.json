@@ -1,0 +1,42 @@
+{
+ "code": "BP10264",
+ "status": "ready",
+ "hold_reason": null,
+ "brand_id": 30,
+ "price": {
+  "source": "prepared"
+ },
+ "existing_id": null,
+ "first_image": "packshot",
+ "evidence_file": "cards/BP10264.source.txt",
+ "type": "grooming",
+ "type_reason": "CSV has no category; eye-area tear-stain lotion filed like Cliny Eye Cleansing Lotion (793, Skin Care)",
+ "name": "Sensitiv Tear Stain Remover",
+ "label": "50 ml",
+ "category_ids": [
+  33,
+  40
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Liquid",
+   "quote": "Հեղուկ"
+  },
+  "health-feature": {
+   "value": "Tear Stain Removal",
+   "quote": "засіб для видалення слізних плям"
+  }
+ },
+ "images": [
+  "https://beaphar.ua/sites/default/files/product_images/10264_0.png"
+ ],
+ "texts": {
+  "about_this_item": "Sensitiv removes tear stains in dogs and cats. The dark stains under the eyes, especially visible in light-coated breeds, are caused by tears; this product helps remove them easily and effectively. Beaphar Sensitiv is gentle and does not irritate the eyes or skin because it contains no alcohol, so it suits even very sensitive pets. Contains MSM (methylsulfonylmethane), an organic sulphur compound with a hypoallergenic effect that supports healthy skin and coat and helps maintain the natural balance of sensitive skin.",
+  "ingredient_information": "Disodium tetraborate 2%, dimethyl sulfone (MSM) 0.01%.",
+  "feeding_instructions": "Soak a cotton pad with Sensitiv and gently wipe the affected area, then dry each eye with a clean cotton pad. Apply a small amount once a day; in severe cases up to three times a day for at least one week."
+ },
+ "source": {
+  "kind": "country-site",
+  "url": "https://beaphar.ua/catalog/sobaky/zasoby-z-dohlyadu-hihiyeny-ta-korektsiyi-povedinky/hihiyenichni-zasoby/sensitiv"
+ }
+}

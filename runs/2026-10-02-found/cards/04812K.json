@@ -1,0 +1,48 @@
+{
+ "code": "04812K",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "accessories",
+ "brand_id": 41,
+ "name": "Padded Leather Collar with Bells",
+ "label": "10 mm, 28 cm, pink",
+ "existing_id": null,
+ "category_ids": [
+  69
+ ],
+ "attributes": {
+  "material": {
+   "value": "Leather",
+   "quote": "Основной материал Кожа"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "Мелкие породы Да"
+  },
+  "color-family": {
+   "value": "Pink",
+   "quote": "розовый"
+  },
+  "size": {
+   "value": "10 mm × 28 cm",
+   "quote": "на синтепоне с бубенчиками 10мм*28см розовый"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/afa/3pi9dqtadjuuz6026ipv2fpmzo02s4tj.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Decorated dog collar with bells, made of soft genuine high-quality leather on a synthetic-padding lining, with strong metal fittings. Width 10 mm, for a neck girth up to 28 cm. The cushioning padding protects your pet's coat and skin from tangling and damage. Features a metal D-ring for the lead clip and a metal buckle.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_s_ukrashen_na_sintepone_s_bubenchikami_10mm_28sm_rozovyy/"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/04812K.source.txt"
+}

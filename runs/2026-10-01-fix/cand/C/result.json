@@ -1,0 +1,360 @@
+[
+ {
+  "variant": 458,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/458-1.jpg"
+  ],
+  "source_urls": [
+   "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PAC_CLIP_31801-2_%23SALL_%23AWK_%23V1.jpg"
+  ],
+  "page_url": "https://www.trixie.de (article 31801)",
+  "evidence": "Trixie CDN file named for article 31801; pack prints '#31801'",
+  "size_seen": "Premio Filets Hühnerbrust 'XXL PACK' bag (31801 is the 300 g XXL pack); weight not printed on the front",
+  "notes": "Replaces the loose-filet photo. All other 31801 files (trixie.es PRO_CLIP, carrefour, tiierisch) show loose filets only, so they were rejected."
+ },
+ {
+  "variant": 460,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/460-1.jpg"
+  ],
+  "source_urls": [
+   "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PAC_CLIP_31802-1_%23SALL_%23AWK_%23V1.jpg"
+  ],
+  "page_url": "https://www.trixie.de (article 31802)",
+  "evidence": "Trixie CDN file named for article 31802; pack prints '#31802'",
+  "size_seen": "Snack Dumbbells mit Huhn, XXL PACK",
+  "notes": "The 'Chicken Bites 300 g' bag is the OLD packaging of the same article 31802 (trixie PRO_CLIP_31802-1 prints 'Art.-Nr. 31802, 300 g'), so it is not a wrong product. Still, use the current Dumbbells pack as the only image."
+ },
+ {
+  "variant": 506,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/506-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/506-2.jpg"
+  ],
+  "source_urls": [
+   "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PAC_CLIP_31804-2_%23SALL_%23AWK_%23V1.jpg",
+   "https://www.trixie.es/WebRoot/StoreWeb/Shops/Trixie/5CFB/84C9/ABB4/DEC5/FBB1/0A6E/0E02/5E39/PHO_PRO_CLIP_31804-1.jpg"
+  ],
+  "page_url": "https://www.trixie.de (article 31804)",
+  "evidence": "Both files are named for article 31804; the current pack prints '#31804'; the older pack prints 'Art.-Nr. 31804' and '80 g'",
+  "size_seen": "Carpaccio with duck & cod. The older pack prints '80 g' AND 'XXL PACK' together",
+  "notes": "WRONG_SIZE was a false alarm: Trixie sells the 80 g Carpaccio bag (31804) under the 'XXL PACK' badge. Image 2 is the older design, but it proves the 80 g size."
+ },
+ {
+  "variant": 613,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/613-1.jpg"
+  ],
+  "source_urls": [
+   "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_SET_CLIP_25620-1_%23SALL_%23AWK_%23V1.jpg"
+  ],
+  "page_url": "https://www.trixie.de (article 25620)",
+  "evidence": "Trixie CDN file PHO_PRO_SET_CLIP_25620-1",
+  "size_seen": "Full set: 2 toothbrushes + Dental-Care toothpaste tube (cheese flavour, cat)",
+  "notes": "The current single-brush image is one component (PHO_PRO_CLIP_25620-1/-2, 206 px wide). Use the SET image first. There is no PAC (retail pack) file (404)."
+ },
+ {
+  "variant": 1721,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "No image keyed to 200720 or EAN 4053032024847. The Trixie CDN probes all return 404; tiierisch, trixie.shop, trixie.es, hornung and carrefour have nothing. Colour check needed: one search snippet says the trixie.de listing gives 200720 as 'orchidee' (orchid), and 'light lilac' may be another article. Confirm the colour before anyone sources a photo."
+ },
+ {
+  "variant": 1346,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "KorMell chicken paté 75 g (EAN …830414). No EAN-keyed page anywhere. garfield.by (which carries Mooor/Justin under EAN-tail article numbers) does not stock KorMell. kostochka38 is JS-only and krasnoeibeloe returns 403."
+ },
+ {
+  "variant": 1347,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "KorMell beef & liver paté 75 g (EAN …830421). Same result as 1346."
+ },
+ {
+  "variant": 1348,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "KorMell duck paté 75 g (EAN …830476). Same result as 1346."
+ },
+ {
+  "variant": 1349,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1349-1.png"
+  ],
+  "source_urls": [
+   "https://garfield.by/upload/iblock/d1c/pebuay5lalt845unykt8bjvz7xg2mhjg/7630783104-Photoroom_11zon.webp"
+  ],
+  "page_url": "https://garfield.by/catalog/cats/konservyi-dlya-koshek/mooor-rossiya/mooor-konservy-dlya-koshek-kuritsa-v-zhele.html",
+  "evidence": "Page prints 'Арт. 830100', which is EAN 4620213830100 minus the GS1 prefix. Flavour 'Сочная курочка' (juicy chicken) in jelly matches the hafo title for 83010J",
+  "size_seen": "MOOOR ЖЕЛЕ 'Сочная курочка' pouch; page sells '75 г х 28 шт'",
+  "notes": "Converted from webp. The pouch front prints no weight. Clean, no watermark."
+ },
+ {
+  "variant": 1350,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1350-1.png"
+  ],
+  "source_urls": [
+   "https://garfield.by/upload/iblock/fc6/fd71v5ve9udq352vnlg46jkk3xw41096/7630783210-Photoroom_11zon.webp"
+  ],
+  "page_url": "https://garfield.by/catalog/cats/konservyi-dlya-koshek/mooor-rossiya/mooor-konservy-dlya-koshek-govyadina-v-zhele.html",
+  "evidence": "Page prints 'Арт. 830148' = EAN 4620213830148 tail. Flavour 'Аппетитная говядина' (appetising beef) matches the hafo title for 83014J",
+  "size_seen": "MOOOR ЖЕЛЕ 'Аппетитная говядина' pouch, 75 g",
+  "notes": "Converted from webp."
+ },
+ {
+  "variant": 1351,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1351-1.png"
+  ],
+  "source_urls": [
+   "https://garfield.by/upload/iblock/5a7/1d46x2mv8r3vrkn9l3qd8w5dvstnfd9u/%D0%B3%D0%BE%D1%8F%D0%B4%D0%B8%D0%BD%D0%B0.webp"
+  ],
+  "page_url": "https://garfield.by/catalog/dogs/konservyi-dlya-sobak/justin-rossiya/justin-konservy-dlya-sobak-govyadina-v-souse.html",
+  "evidence": "Page prints 'Арт. 830773' = EAN 4620213830773 tail; '75 г х 28 шт'. hafo title for 83077J: Justin dog, beef in sauce",
+  "size_seen": "Justin 'Говядина в соусе' (beef in sauce) pouch for adult dogs",
+  "notes": "Converted from webp."
+ },
+ {
+  "variant": 1354,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1354-1.png"
+  ],
+  "source_urls": [
+   "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/2/1000526.png"
+  ],
+  "page_url": "https://www.beaphar.cz/product/1000526-interierovy-odpuzovaci-sprej-beaphar-stop-it-200ml/",
+  "evidence": "The official beaphar.cz page prints EAN 8711231213825, and its og:image is this file",
+  "size_seen": "Beaphar STOP IT Indoor spray bottle (200 ml page). Czech-language label",
+  "notes": "2400 px PNG with a transparent background. On beaphar.cz the article id is 1000526, not 21382, but the EAN matches exactly."
+ },
+ {
+  "variant": 1355,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1355-1.png"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2021/09/IMG_20210826_135251.png"
+  ],
+  "page_url": "https://ivsanbernard.com/professionals/profumo-narciso/",
+  "evidence": "Official Iv San Bernard page 'Narciso Perfume', 125 ml (DO IT YOURSELF line). EAN confirmed separately on valta.ru",
+  "size_seen": "DO IT YOURSELF Narciso Perfume spray bottle",
+  "notes": "3000x4000, transparent background. Note that ivsanbernard.com IS reachable with curl; only the .it site is behind a CAPTCHA. reference/brand-sites.md says the DIY line has no reachable page, so it needs updating."
+ },
+ {
+  "variant": 1356,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1356-1.png"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2021/09/IMG_20210826_135230.png"
+  ],
+  "page_url": "https://ivsanbernard.com/professionals/profumo-ocean/",
+  "evidence": "Official Iv San Bernard page 'Ocean Perfume', 125 ml. EAN 8022767055668 confirmed on groom-attitude.com",
+  "size_seen": "DO IT YOURSELF Ocean Perfume spray bottle",
+  "notes": "3000x4000, transparent background."
+ },
+ {
+  "variant": 1751,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1751-1.jpg"
+  ],
+  "source_urls": [
+   "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/original/4000498023501_1.jpg"
+  ],
+  "page_url": "carrefour-es picture bucket (addressed by EAN)",
+  "evidence": "File named for EAN 4000498023501",
+  "size_seen": "flexi New Neon tape lead, black body with neon-yellow tape; small (XS) housing",
+  "notes": "flexi.de no longer lists an XS 3 m Neon (only S/M/M-L 5 m), so the EAN-keyed image is the only source. Size is judged from the housing proportions only."
+ },
+ {
+  "variant": 1752,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "Inteko litter tray with mesh M (EAN 4605350036233). No page prints the EAN. poryadok.ru/sct.ru list an Inteko 'с сеткой, мелкий, в ассортименте' tray, but without our EAN, size or colour. Note: GS1 prefix 4605350 is Kaskad's according to reference/brand-sites.md, so the maker should also be checked."
+ },
+ {
+  "variant": 1758,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1758-1.jpg"
+  ],
+  "source_urls": [
+   "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/original/4048422122074_1.jpg"
+  ],
+  "page_url": "carrefour-es picture bucket (addressed by EAN)",
+  "evidence": "hafo confirms EAN 4048422122074 for our sku 12207S (barcode-lookup.py). Search hits plein.be '8in1 Delights Pork XS 7 stuks' and mynetfair 'Delights Pork Kauknochen XS' print the same EAN",
+  "size_seen": "8in1 DELIGHTS pork XS blister card with 7 bones (7 × XS = 84 g)",
+  "notes": "700 px. 8in1.eu has no Pork Delights page, and its Chicken Bones XS packshot is a 14x bag, so it was rejected."
+ },
+ {
+  "variant": 1773,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1773-1.jpg"
+  ],
+  "source_urls": [
+   "https://e-zooo.com/media/3d/36/d9/1790539474/825819-product.jpg"
+  ],
+  "page_url": "https://e-zooo.com/Crispy-Muesli-Guinea-Pigs-400-g/Versele-461698",
+  "evidence": "Page title 'Crispy Muesli Guinea Pigs 400 g', prints EAN 5410340616987 and Versele article 461698 (= our sku 461698V)",
+  "size_seen": "Crispy Muesli Guinea Pigs bag (current 'fruity!' design); weight not printed on the front",
+  "notes": "Keyed to the 400 g EAN, but the artwork is identical across sizes, so it cannot look different from a 1 kg photo. 988x1200, clean."
+ },
+ {
+  "variant": 1774,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "No clean photo keyed to 1 kg EAN 5410340617113. Carrefour's EAN file is 381x492 on a grey background and was rejected as low quality. amijardin/mascotasol show multi-size group shots or 404. The bag artwork is the same as the 400 g bag, so a 1 kg-specific look is not available anywhere we checked."
+ },
+ {
+  "variant": 1775,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1775-1.png"
+  ],
+  "source_urls": [
+   "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/original/5410340616994_1.jpg"
+  ],
+  "page_url": "carrefour-es picture bucket (addressed by EAN); also https://e-zooo.com/Crispy-Muesli-Hamsters-Co-400-g/Versele-461699",
+  "evidence": "File named for EAN 5410340616994. e-zooo's 400 g page (art. 461699, same EAN) shows the identical bag",
+  "size_seen": "Crispy Muesli Hamsters & Co bag; weight not printed on the front",
+  "notes": "800x800 PNG with transparency (the file is PNG even though the source URL ends .jpg)."
+ },
+ {
+  "variant": 1879,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1879-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/1879-2.jpg"
+  ],
+  "source_urls": [
+   "https://cdn.multitronic.fi/images/prod/0/6/9003579311660-1.jpg",
+   "https://zooutlet.hu/UserFiles/Product/sol-motherbbcat-loaf-wet-packshot-b1-1698310584.jpg"
+  ],
+  "page_url": "https://zooutlet.hu/product/royal-canin-mother-babycat-ultra-soft-mousse-12x195g/9003579311660",
+  "evidence": "Image 1 file named for EAN 9003579311660 (multitronic.fi page prints it). Image 2 is Royal Canin's own packshot filename on zooutlet.hu's '12x195g' page, which prints the EAN",
+  "size_seen": "Single 195 g can, CURRENT 'Mother & Babycat 1-4 months' label",
+  "notes": "No 12-pack/tray photo found: 9003579311660 is the single-can EAN, and every source shows one can. Image 1 is 600 px and tightly cropped; image 2 is 1600 px with a lot of white margin."
+ },
+ {
+  "variant": 886,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/886-1.png"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2020/11/SHLimone300-1.png"
+  ],
+  "page_url": "https://ivsanbernard.com/professionals/lemon-shampoo-sls-free/",
+  "evidence": "Official ISB page; the file name carries '300'. EAN 8022767031686 = 'Lemon Shampoo SLS Free 300 ml' (huellacanina, groomer.com.pl)",
+  "size_seen": "Single 300 ml bottle: Shampoo SLS FREE Limone/Lemon, pelo corto/short coat",
+  "notes": "Only 450x450 (all ISB 300 ml files are this size). Our EAN is the SLS-free version, which matches this bottle."
+ },
+ {
+  "variant": 887,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/887-1.png"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2020/11/SHMela300-1.png"
+  ],
+  "page_url": "https://ivsanbernard.com/professionals/green-apple-shampoo-sls-free/",
+  "evidence": "Official ISB page; file name has '300'. EAN 8022767031747 = Green Apple Shampoo SLS Free 300 ml (huellacanina, groomer.com.pl)",
+  "size_seen": "Single 300 ml bottle: Shampoo SLS FREE Mela Verde/Green Apple, pelo lungo/long coat",
+  "notes": "450x450."
+ },
+ {
+  "variant": 888,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/888-1.png"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2020/11/BALLimone300-1.png"
+  ],
+  "page_url": "https://ivsanbernard.com/professionals/lemon-conditioner/",
+  "evidence": "Official ISB page; file name has '300'. Carrefour's file for EAN 8022767031778 shows the same bottle in a size group",
+  "size_seen": "Single 300 ml bottle: Conditioner Balsamo Limone/Lemon, pelo corto/short coat",
+  "notes": "450x450."
+ },
+ {
+  "variant": 889,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/889-1.png"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2020/11/BALMela300-1.png"
+  ],
+  "page_url": "https://ivsanbernard.com/professionals/green-apple-conditioner/",
+  "evidence": "Official ISB page; file name has '300'. Carrefour's file for EAN 8022767031839 shows this exact single bottle",
+  "size_seen": "Single 300 ml bottle: Conditioner Balsamo Mela Verde/Green Apple, pelo lungo/long coat",
+  "notes": "450x450."
+ },
+ {
+  "variant": 890,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/890-1.jpg"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2016/05/product_p_r_proshield300-scaled.jpg"
+  ],
+  "page_url": "https://ivsanbernard.com/shop/shampoo-protective-shield-300ml/",
+  "evidence": "Official ISB shop page 'Shampoo Protective Shield 300 ml'; file name 'proshield300'",
+  "size_seen": "Single 300 ml bottle: Shampoo SLS FREE Protective Shield (eucalyptus)",
+  "notes": "913x2560, tall. EAN not printed on the page; the identity rests on the official name + 300 ml."
+ },
+ {
+  "variant": 891,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/C/891-1.jpg"
+  ],
+  "source_urls": [
+   "https://ivsanbernard.com/wp-content/uploads/2016/05/product_p_r_procond300-scaled.jpg"
+  ],
+  "page_url": "https://ivsanbernard.com/shop/protective-conditioner-300-ml/",
+  "evidence": "Official ISB shop page 'Protective Conditioner 300 ml'; file name 'procond300'",
+  "size_seen": "Single 300 ml bottle: Conditioner Balsamo Protective (eucalyptus)",
+  "notes": "913x2560. The alternative TRADPLUS_protective_cond_300 file is CMYK, so it was dropped."
+ }
+]

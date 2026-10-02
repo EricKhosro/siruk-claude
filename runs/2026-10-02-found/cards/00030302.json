@@ -1,0 +1,40 @@
+{
+ "code": "00030302",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "accessories",
+ "brand_id": 41,
+ "name": "Classic Leather Collar with Braid",
+ "label": "30 mm, 49–58 cm",
+ "existing_id": 1149,
+ "category_ids": [
+  69
+ ],
+ "attributes": {
+  "material": {
+   "value": "Leather",
+   "quote": "Основной материал Кожа"
+  },
+  "size": {
+   "value": "30 mm × 49–58 cm",
+   "quote": "ширина 30 мм, обхват шеи от 49 до 58 см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/64b/kmqc3455v75murpjwqp0cz1hogymvurj.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Kaskad Classic dog collar with a decorative woven braid, made of genuine high-quality leather with strong metal fittings. Width 30 mm, fits a neck girth of 49–58 cm. Features a steel D-ring, 4 adjustment holes and a metal buckle. Leather black or brown; braid pattern varies. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_s_tesmoy_shirina_30_mm_obkhvat_shei_ot_49_do_58_sm/"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/00030302.source.txt"
+}

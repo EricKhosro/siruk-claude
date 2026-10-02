@@ -1,0 +1,58 @@
+{
+ "name": "Small Deep Litter Tray with Grid",
+ "slug": "kaskad-small-deep-litter-tray-with-grid",
+ "category_ids": [
+  67
+ ],
+ "brand_id": 41,
+ "attribute_family_id": 8,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "09307016",
+   "name": "30 × 22 × 4.5 cm",
+   "price": 1500.0,
+   "cost_price": 935.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "material": [
+     208
+    ],
+    "color-family": [
+     339
+    ],
+    "size": [
+     885
+    ]
+   },
+   "about_this_item": "<p>Kaskad small deep litter tray for cats with a grid, 30 × 22 × 4.5 cm. Made of high-quality plastic; suits kittens and small and medium-sized cats. Easy to wash and does not absorb odours. Colour varies. Made in Russia.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14845
+   ],
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Туалет глубокий малый с решёткой",
+   "variants": {
+    "09307016": {
+     "about_this_item": "Туалет Каскад глубокий малый для кошек с решёткой, 30 × 22 × 4,5 см. Изготовлен из высококачественного пластика, подойдёт для котят, мелких и средних кошек. Легко моется и не впитывает запахи. Цвет — в ассортименте. Сделано в России."
+    }
+   }
+  },
+  "hy": {
+   "name": "Փոքր խորը զուգարան՝ վանդակաճաղով",
+   "variants": {
+    "09307016": {
+     "about_this_item": "Kaskad փոքր խորը կատվի զուգարան՝ վանդակաճաղով, 30 × 22 × 4.5 սմ։ Պատրաստված է բարձրորակ պլաստիկից, հարմար է ձագերի, փոքր և միջին չափի կատուների համար։ Հեշտ լվացվում է և չի կլանում հոտերը։ Գույնը՝ տարբեր։ Արտադրված է Ռուսաստանում։"
+    }
+   }
+  }
+ },
+ "_allow_no_size": true
+}

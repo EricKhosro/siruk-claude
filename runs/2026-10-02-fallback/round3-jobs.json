@@ -1,0 +1,45 @@
+[
+ {
+  "id": "mylove#site",
+  "kind": "search",
+  "q": "site:mylovepetfood.com junior"
+ },
+ {
+  "id": "bea-blue#2",
+  "kind": "search",
+  "q": "Beaphar ошейник от блох для кошек синий 35 см артикул"
+ },
+ {
+  "id": "bea-velvet#uk",
+  "kind": "page",
+  "q": "https://www.beaphar.co.uk/product/1000387-beaphar-soft-velvet-flea-collar-for-cats/",
+  "keys": [
+   "1000387"
+  ]
+ },
+ {
+  "id": "bea-green#biostyle",
+  "kind": "page",
+  "q": "https://biostyle.biz/catalog/beaphar_10201_osheynik_d_kosh_zelenyy_35sm_12sht_bl_96_kor/",
+  "keys": [
+   "10201",
+   "8711231102013"
+  ]
+ },
+ {
+  "id": "pch1004#agro",
+  "kind": "page",
+  "q": "https://agrobioprom.ru/catalog/dlya-zhivotnykh/antiskolzin-sprey-protiv-skolzheniya-lap/",
+  "keys": [
+   "1004"
+  ]
+ },
+ {
+  "id": "pch1004#biostyle",
+  "kind": "page",
+  "q": "https://biostyle.biz/catalog/pchelodar_antiskolzin_sprey_protiv_skolzheniya_lap_125ml_439_36_kor/",
+  "keys": [
+   "1004"
+  ]
+ }
+]

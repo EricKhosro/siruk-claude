@@ -3,10 +3,15 @@
 hafo.am is the Armenian distributor behind most of our invoices. Its catalogue
 is keyed by **the same article codes our supplier sheets use**, so a code
 lookup turns a bare code into a brand, a real product identity and a retail
-price. Use it **first**, before any brand site. Use it for **identity and price
-only** — never for images, names or descriptions (it has no English; its ENG
-switch is a Google Translate widget, and `meta_keywords` is the most English it
-offers).
+price. Use it **first**, before any brand site. Use it for **identity and price**
+— not for images or English names (it has no English; its ENG switch is a
+Google Translate widget, and `meta_keywords` is the most English it offers).
+**Its description is the last text fallback** (user rule 2026-10-02): only when
+the brand site, the fallback sites and a Google search in the headed browser
+found nothing, the listing's Armenian `content_html` — price table and maker
+line stripped — becomes the `hy` text, translated to `en`/`ru`, and the row
+goes on `needs-text.csv` (`reference/image-sources.md` → "Texts when the brand
+has no page").
 
 Its images are watermarked placeholders (CLAUDE.md rule 7a). The second
 Armenian shop, **zoovet.am**, is not: `reference/zoovet.md` covers it — clean
@@ -139,12 +144,24 @@ from the code" rule — a codeless row still needs identifying, below.)
 140 rows had no recoverable code on 2026-09-16) identify the row by name, in
 this order, stopping at the first source that confirms it:
 
-1. **hafo** — search the Armenian name; a hit whose
+0. **hafo, the whole catalogue** (2026-10-01) — `scripts/hafo-catalogue.py`
+   caches every hafo row; `identify-by-name.py` matches the row against it
+   locally before any search. hafo's search box finds some products only in
+   one script (the Мяу bags answer "Мяу", not "ՄՅԱՈՒ"), and 82 register rows
+   whose hafo row carries **the register's exact name at our exact cost** had
+   never been returned by it. Same normalised name + same cost + one such
+   row = tier `exact`, logged by `--accept-exact` (the evidence every earlier
+   accept rested on). Same cost with a near name (hafo writes `շն.` for
+   `շների`) stays a candidate for a person.
+1. **hafo** — search the Armenian name **and every other spelling of the
+   brand** (`reference/name-aliases.json`: Latin, Russian, Ukrainian); a hit whose
    `product_additional_information[]` row has our exact brand + line + flavour
    + pack — and, when it lists one, a `wholesale_price` matching our cost as a
    tie-break among candidates — is the article, and its `sku` becomes the
    row's code.
-2. **zoovet.am or nemo.am** — Russian/Armenian name search, either order;
+2. **zoovet.am or nemo.am** — Russian/Armenian name search, either order
+   (zoovet is Russian-language: the script sends the brand's Russian form and
+   a Russian rendering of the name from the glossary in `name-aliases.json`);
    neither carries a manufacturer article code, so a hit is a candidate until
    confirmed the same way: brand + line + flavour + pack all matching, or the
    article read off the pack in a full-size photo where one is printed.
@@ -152,7 +169,12 @@ this order, stopping at the first source that confirms it:
    its `ME-…` code-collision trap); nemo.am has no documented quirks yet —
    confirm it on the same brand/line/flavour/pack basis until one turns up.
 3. **web search** — Google/Bing; the brand's own page or an EAN-keyed shop for
-   the same brand + line + flavour + pack.
+   the same brand + line + flavour + pack. **Search in the brand's own
+   language**: a Russian/Ukrainian/Belarusian brand (Club 4 Paws, Мяу!,
+   Мнямс, Деревенские лакомства, Kaskad) is in Russian/Ukrainian shops under
+   its Cyrillic name, and a trailing vendor number in the register name
+   (`/26455351`) searched bare, in Russian ("ошейник 26455351"), finds the
+   maker's article. Add every new spelling to `name-aliases.json`.
 
 **"Same product" means every axis matches** — brand, line, lifestage/function,
 flavour, pack size, and for accessories size and colour. A hit that matches

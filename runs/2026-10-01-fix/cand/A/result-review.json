@@ -1,0 +1,490 @@
+[
+ {
+  "variant": 417,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/417-1.png"
+  ],
+  "source_urls": [
+   "https://blogsrl.it/11358-large_default/simba-bocconi-cani-1230gr-vitello.jpg"
+  ],
+  "page_url": "https://blogsrl.it/it/cibo-per-cani/4937-simba-bocconi-cani-1230gr-vitello-8009470009126.html",
+  "evidence": "page prints EAN 8009470009126 (Simba Bocconi cani 1230 gr)",
+  "size_seen": "tall 1230 g can shape (cf. storefront 1230 g manzo e ortaggi can); 'Bocconi con Carne / Chunks with meat'",
+  "notes": "OLDER label artwork (German-shepherd design, 'con Carne'); current pack is the Border-collie 'Bocconi Adult con Manzo' label, but every current-art image found (filgistore, yagos, lomartire, cocorico) is the short 415 g can. Retailer image, not brand site. PNG with transparent/white background."
+ },
+ {
+  "variant": 419,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/419-1.png"
+  ],
+  "source_urls": [
+   "https://blogsrl.it/11353-large_default/simba-bocconi-cani-1230gr-pollo-e-tacchino.jpg"
+  ],
+  "page_url": "https://blogsrl.it/it/cibo-per-cani/4936-simba-bocconi-cani-1230gr-pollo-e-tacchino-8009470009133.html",
+  "evidence": "page prints EAN 8009470009133 (Simba Bocconi cani 1230 gr pollo e tacchino)",
+  "size_seen": "tall 1230 g can shape; 'Bocconi con Pollo e Tacchino'",
+  "notes": "OLDER label artwork (German shepherd); current-art images found (yagos 9593, zooservice) show the short 415 g can or old short can. Retailer image."
+ },
+ {
+  "variant": 421,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/421-1.jpg"
+  ],
+  "source_urls": [
+   "https://blogsrl.it/11366-large_default/simba-bocconi-cani-1230gr-agnello.jpg"
+  ],
+  "page_url": "https://blogsrl.it/it/cibo-per-cani/4938-simba-bocconi-cani-1230gr-agnello-8009470009140.html",
+  "evidence": "page prints EAN 8009470009140 (Simba Bocconi cani 1230 gr agnello)",
+  "size_seen": "tall 1230 g can shape; 'Bocconi con Agnello'",
+  "notes": "OLDER label artwork (German shepherd). decariashop.ro image rejected (shop watermark + short can). Retailer image."
+ },
+ {
+  "variant": 423,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "Searched \"8009470009157\" (amazon.de/it - bot wall, theanimalshop, bricosi.it, k2shop), 'Simba bocconi selvaggina 1230' (ferramentailtriangolo, rossettimarket, amicipappagalli), monge.it Simba pages (one shared packshot per flavour = 415 g can). Only short 415 g-style cans found (bricosi 224698_1/3 also carry an icon panel); blogsrl has no 1230 g selvaggina page."
+ },
+ {
+  "variant": 1575,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1575-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1575-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Mini-starter-rijk-aan-kip-e1731359989849.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/miniadultrijkkip.jpg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-superpremiummini-adult-rijk-aan-kip15-kg/",
+  "evidence": "official mongebestforbreeders.com product page, SKU 800947000611 (= our EAN 8009470006118 without check digit), 'Mini Adult Rijk aan Kip 15 kg'; also espacemonge.fr page with EAN in URL shows the same bag",
+  "size_seen": "Best for Breeders MINI bag printed '15kg'",
+  "notes": "Front is the generic Best for Breeders MINI artwork (no recipe/lifestage printed on front; same image used by Monge for Mini Puppy and Mini Starter). Image 2 is the official BfB spec sheet (Adult Rich in Chicken, pack size 15 kg)."
+ },
+ {
+  "variant": 1576,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1576-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1576-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/SpecialtyLineMongeBenelux.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/mongemonolamrijstminiadult.jpg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premiummini-adult-monoproteinelam-met-rijst-en-aardappelen-15-kg/",
+  "evidence": "official mongebestforbreeders.com page, SKU 800947000606 (= EAN 8009470006064), 'Mini Adult Monoproteine Lam met Rijst en Aardappelen 15 kg'",
+  "size_seen": "Best for Breeders SPECIALITY LINE bag printed '15kg'; spec sheet 'Adult - Lamb with rice and potatoes', pack size 15 kg",
+  "notes": "Monoprotein recipes ship in the brown SPECIALITY LINE breeders bag (espacemonge.fr shows the MINI bag for this EAN - rejected as inconsistent with the official BfB site). Front has no recipe text; the spec sheet (image 2) names lamb."
+ },
+ {
+  "variant": 1577,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1577-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1577-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/SpecialtyLineMongeBenelux.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/monomongeminiadultzalm.jpg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premiummini-adult-monoproteine-zalm-met-rijst-15-kg/",
+  "evidence": "official mongebestforbreeders.com page, SKU 800947000607 (= EAN 8009470006071), 'Mini Adult Monoproteine Zalm met Rijst 15 kg'",
+  "size_seen": "SPECIALITY LINE breeders bag printed '15kg'; sheet 'Adult - Salmon with rice', pack 15 kg",
+  "notes": "mongebenelux.com page for this EAN shows a 7.5 kg retail bag - rejected. Same generic Speciality Line front as 1576/1661/1663/1574."
+ },
+ {
+  "variant": 761,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/761-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/761-2.jpg"
+  ],
+  "source_urls": [
+   "https://www.agribrianza.it/cdn/shop/files/02048566_01.jpg?v=1741613765&width=2048",
+   "https://www.cocoricoshop.it/6586-large_default/monge-all-breeds-puppy-agnello-e-riso-gr800.jpg"
+  ],
+  "page_url": "https://www.agribrianza.it/products/alimento-cane-monge-superpremium-all-breeds-puppy-e-junior-agnello-e-riso-800g",
+  "evidence": "agribrianza.it and cocoricoshop.it pages both print EAN 8009470011259 (All Breeds Puppy agnello e riso 800 g)",
+  "size_seen": "img1: current-art All Breeds Puppy & Junior Lamb with Rice bag, NO weight printed on front (small recyclable-pouch format, like 763); img2: older-art bag printed '800g' but product is small in an 800x800 frame",
+  "notes": "LOW confidence on size for img1 (size from page only; the 2.5 kg current-art bag prints '2,5kg', this one prints nothing). img2 proves 800 g but is small/older artwork. amicipeteco image rejected (2.5 kg). Retailer images; monge.shop page for this product is 404."
+ },
+ {
+  "variant": 1573,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1573-1.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/1432-thickbox_default/puppy-salmon-with-rice-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monoprotein/251-puppy-salmon-with-rice-12kg.html",
+  "evidence": "monge.shop (Monge's own store) search: reference = EAN 8009470011211, 'PUPPY SALMON WITH RICE 12KG'",
+  "size_seen": "bag printed '12kg', All Breeds Puppy and Junior Salmon with Rice",
+  "notes": "monge.shop image 2 is a Polish info sheet showing a 2.5 kg bag - rejected."
+ },
+ {
+  "variant": 1574,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1574-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1574-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/SpecialtyLineMongeBenelux.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/12/Schede-prodotti-Breeder-MONGE-PUPPY-BEEF_ENG.jpg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premium-medium-puppy-junior-monoproteine-rund-met-rijst-15-kg/",
+  "evidence": "official mongebestforbreeders.com page, SKU 800947000648 (= EAN 8009470006484), 'Puppy & Junior Monoproteine Rundvlees met Rijst 15 kg'",
+  "size_seen": "SPECIALITY LINE breeders bag printed '15kg'; sheet 'All Breeds Puppy and Junior - Beef with rice', pack size 15 kg",
+  "notes": "Site title says 'Medium', spec sheet says 'All Breeds' - our name (All Breeds) matches the sheet."
+ },
+ {
+  "variant": 763,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/763-1.jpg"
+  ],
+  "source_urls": [
+   "https://www.espacemonge.fr/img/p/1/2/8/5/1285.jpg"
+  ],
+  "page_url": "https://www.espacemonge.fr/fr/extra-small-de-2-kg/598-extra-small-adulte-800-grs-agneau-8009470011471.html",
+  "evidence": "espacemonge.fr (Monge France store) page with EAN 8009470011471 in URL and reference, 'Extra Small Croquettes Chien Adulte Agneau 800 g'",
+  "size_seen": "Extra Small <2 kg Adult Lamb with Rice and Potatoes bag; NO weight printed on front",
+  "notes": "LOW confidence on size: front shows no weight (same small recyclable-bag format as 761 img1); image only 384x710. Second espacemonge image is a feeding table - dropped. monge.shop/monge.it have no Extra Small Adult lamb page."
+ },
+ {
+  "variant": 1303,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "EAN 8009470041881 is not indexed anywhere (WebSearch '\"8009470041881\"', '\"800947004188\"'); not on monge.it (crawl index), monge.shop or espacemonge.fr. Our record names it 'Gran Bonta Chef Adult Dog Beef 1230 g', but the only Gran Bonta Chef 1230 g found online is 'Uovo/Formaggio' (emmezootecnici.com) - identity/recipe unconfirmed, so no image accepted."
+ },
+ {
+  "variant": 1642,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1642-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1642-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/1440-thickbox_default/dog-adult-duck-with-potatoes-and-rice-12kg.jpg",
+   "https://monge.shop/1788-thickbox_default/dog-adult-duck-with-potatoes-and-rice-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monoprotein/233-dog-adult-duck-with-potatoes-and-rice-12kg.html",
+  "evidence": "monge.shop (Monge's own store) search: reference = our EAN 8009470011136, 'DOG ADULT DUCK WITH POTATOES AND RICE 12KG'",
+  "size_seen": "bag printed '12kg', All Breeds Adult Monoprotein Duck with Rice and Potatoes",
+  "notes": "Image 2 (if any) is the official kibble close-up on white. monge.shop's info-sheet image (Polish, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1644,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1644-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1644-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/1434-thickbox_default/dog-adult-beef-and-rice-12kg.jpg",
+   "https://monge.shop/1802-thickbox_default/dog-adult-beef-and-rice-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monoprotein/370-dog-adult-beef-and-rice-12kg.html",
+  "evidence": "monge.shop (Monge's own store) search: reference = our EAN 8009470011341, 'DOG ADULT BEEF AND RICE 12KG'",
+  "size_seen": "bag printed '12kg', All Breeds Adult Monoprotein Beef with Rice",
+  "notes": "Image 2 (if any) is the official kibble close-up on white. monge.shop's info-sheet image (Polish, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1646,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1646-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1646-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/1442-thickbox_default/dog-adult-lamb-with-rice-and-potatoes-12kg.jpg",
+   "https://monge.shop/1814-thickbox_default/dog-adult-lamb-with-rice-and-potatoes-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monoprotein/194-dog-adult-lamb-with-rice-and-potatoes-12kg.html",
+  "evidence": "monge.shop (Monge's own store) search: reference = our EAN 8009470011327, 'DOG ADULT LAMB WITH RICE AND POTATOES 12KG'",
+  "size_seen": "bag printed '12kg', All Breeds Adult Monoprotein Lamb with Rice and Potatoes",
+  "notes": "Image 2 (if any) is the official kibble close-up on white. monge.shop's info-sheet image (Polish, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1648,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1648-1.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/1426-thickbox_default/dog-adult-salmon-with-rice-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monoprotein/212-dog-adult-salmon-with-rice-12kg.html",
+  "evidence": "monge.shop (Monge's own store) search: reference = our EAN 8009470011303, 'DOG ADULT SALMON WITH RICE 12KG'",
+  "size_seen": "bag printed '12kg', All Breeds Adult Monoprotein Salmon with Rice",
+  "notes": "Image 2 (if any) is the official kibble close-up on white. monge.shop's info-sheet image (Polish, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1650,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1650-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1650-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/1424-thickbox_default/dog-adult-rabbit-with-rice-and-potatoes-12kg.jpg",
+   "https://monge.shop/2044-thickbox_default/dog-adult-rabbit-with-rice-and-potatoes-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monoprotein/232-dog-adult-rabbit-with-rice-and-potatoes-12kg.html",
+  "evidence": "monge.shop (Monge's own store) search: reference = our EAN 8009470011150, 'DOG ADULT RABBIT WITH RICE AND POTATOES 12KG'",
+  "size_seen": "bag printed '12kg', All Breeds Adult Monoprotein Rabbit with Rice and Potatoes",
+  "notes": "Image 2 (if any) is the official kibble close-up on white. monge.shop's info-sheet image (Polish, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1652,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1652-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1652-2.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1652-3.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2025/02/hondenbrokken-monoproteine-adult-kalkoen-met-rijst-1.jpg",
+   "https://monge.shop/973-thickbox_default/dog-adult-turkey-12kg.jpg",
+   "https://monge.shop/2041-thickbox_default/dog-adult-turkey-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monoprotein/694-dog-adult-turkey-12kg-8009470011396.html",
+  "evidence": "monge.shop reference = EAN 8009470011396 'DOG ADULT TURKEY 12KG'; mongebestforbreeders.com page SKU 800947001139 'Adult Monoproteine Kalkoen 12 kg'",
+  "size_seen": "bag printed '12kg', All Breeds Adult Monoprotein Turkey with Rice and Potatoes",
+  "notes": "img1 from mongebestforbreeders.com (2048 px); img2 monge.shop (product small in frame); img3 kibble close-up. Info sheet (2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1659,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1659-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1659-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Mini-puppy-en-junior-rijk-aan-kip.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Mini-puppy-en-junior-rijk-aan-kip.jpeg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-superpremium-mini-puppy-junior-rijk-aan-kip15-kg/",
+  "evidence": "mongebestforbreeders.com SKU 800947000610 (= EAN 8009470006101) 'Mini Puppy & Junior Rijk aan Kip 15 kg'; espacemonge.fr page with EAN shows the same bag",
+  "size_seen": "Best for Breeders MINI bag printed '15kg'; sheet 'Puppy and Junior - Rich in Chicken', pack 15 kg",
+  "notes": "Generic MINI breeders front (same as 1575/1665); the sheet names the recipe."
+ },
+ {
+  "variant": 1661,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1661-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1661-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/SpecialtyLineMongeBenelux.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/minipuppyjuniorlamenrijst.jpeg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premium-mini-puppy-juniormonoproteine-lam-met-rijst-15-kg/",
+  "evidence": "mongebestforbreeders.com SKU 800947000594 (= EAN 8009470005944) 'Mini Puppy & Junior Monoproteine Lam met Rijst 15 kg'",
+  "size_seen": "SPECIALITY LINE breeders bag printed '15kg'; sheet 'Mini Puppy and Junior - Lamb with rice', pack 15 kg",
+  "notes": ""
+ },
+ {
+  "variant": 1663,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1663-1.png"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/SpecialtyLineMongeBenelux.png"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premium-mini-puppy-junior-monoproteine-zalm-met-rijst15-kg/",
+  "evidence": "mongebestforbreeders.com SKU 800947000593 (= EAN 8009470005937) 'Mini Puppy & Junior Monoproteine Zalm met Rijst 15 kg'; mongebenelux.com lists the EAN as Mini Puppy & Junior Salmon 15 kg",
+  "size_seen": "SPECIALITY LINE breeders bag printed '15kg'",
+  "notes": "Spec sheet left out: it is titled 'All Breeds Puppy and Junior - Salmon' (conflicts with Mini)."
+ },
+ {
+  "variant": 1665,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1665-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1665-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Mini-starter-rijk-aan-kip-e1731359989849.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Mini-starter-rijk-aan-kip.jpeg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premium-mini-moeder-puppy-rijk-aan-kip-starter-15-kg/",
+  "evidence": "mongebestforbreeders.com SKU 800947000608 (= EAN 8009470006088) 'Mini Moeder & Puppy Rijk aan Kip Starter 15 kg'; espacemonge.fr pages with EAN show the same bag",
+  "size_seen": "Best for Breeders MINI bag printed '15kg'; sheet (Italian) 'Starter - Ricco in pollo', 15 kg",
+  "notes": "Front is the generic MINI breeders bag shared with Mini Adult/Puppy; 'Starter' appears only on the sheet. Sheet text is Italian."
+ },
+ {
+  "variant": 1667,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1667-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1667-2.jpg"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Medium-starter-rijk-aan-kip.png",
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Mediumpuppyjuniorrijkaankip.jpeg"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premiummedium-puppy-junior-rijk-aan-kip-15-kg/",
+  "evidence": "mongebestforbreeders.com SKU 800947000634 (= EAN 8009470006347) 'Medium Puppy & Junior Rijk aan Kip 15 kg'",
+  "size_seen": "Best for Breeders MEDIUM bag printed '15kg'; sheet 'Medium Puppy and Junior - Rich in Chicken', 15 kg",
+  "notes": ""
+ },
+ {
+  "variant": 1669,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1669-1.png"
+  ],
+  "source_urls": [
+   "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Bestforbreedersmaxi.png"
+  ],
+  "page_url": "https://mongebestforbreeders.com/product/monge-natural-super-premium-maxi-puppy-junior-rijk-aan-kip-12-kg/",
+  "evidence": "mongebestforbreeders.com SKU 800947000602 (= EAN 8009470006026) 'Maxi Puppy & Junior Rijk aan Kip 15 kg'; espacemonge.fr page with EAN ('12 + 3 kg') shows the same MAXI bag",
+  "size_seen": "Best for Breeders MAXI bag printed '15kg'",
+  "notes": "BfB sheet for this one shows the 3 kg retail Daily Line bag - rejected."
+ },
+ {
+  "variant": 1671,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1671-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1671-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/1456-thickbox_default/dog-adult-maxi-chicken-12kg.jpg",
+   "https://www.espacemonge.fr/img/p/3/4/9/349.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/foods/dog/dry-feed/monge-nsp-daily-line/118-dog-adult-maxi-chicken-12kg.html",
+  "evidence": "monge.shop reference = EAN 8009470004411 'DOG ADULT MAXI CHICKEN 12KG'; espacemonge.fr page with EAN titled 'Maxi Adult ... 12 kg'",
+  "size_seen": "bag printed '12kg', Daily Line Maxi 32-80 kg Adult Rich in Chicken",
+  "notes": "img2 is a 2026x3780 hi-res of the same 12 kg bag. Info sheet (3 kg) and feeding table rejected."
+ },
+ {
+  "variant": 1673,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1673-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1673-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/602-thickbox_default/bwild-dog-adult-boar-12kg.jpg",
+   "https://monge.shop/1977-thickbox_default/bwild-dog-adult-boar-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monge-bwild/dog/dry-food/510-bwild-dog-adult-boar-12kg-8009470011754.html",
+  "evidence": "monge.shop reference = our EAN 8009470011754, 'BWILD DOG ADULT BOAR 12kg'",
+  "size_seen": "bag printed '12kg' (verified on crop), BWild Low Grain Adult All Breeds Wild Boar",
+  "notes": "Bag is small within a 1100x1422 white canvas (~300 px wide) - consider trimming. Image 2 (if any) = kibble close-up. Info sheet (2.5-12 kg, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1675,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1675-1.png"
+  ],
+  "source_urls": [
+   "https://monge.shop/601-thickbox_default/bwild-dog-adult-deer-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monge-bwild/dog/dry-food/509-bwild-dog-adult-deer-12kg-8009470011792.html",
+  "evidence": "monge.shop reference = our EAN 8009470011792, 'BWILD DOG ADULT DEER 12kg'",
+  "size_seen": "bag printed '12kg' (verified on crop), BWild Low Grain Adult All Breeds Deer",
+  "notes": "Bag is small within a 1100x1422 white canvas (~300 px wide) - consider trimming. Image 2 (if any) = kibble close-up. Info sheet (2.5-12 kg, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1677,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1677-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1677-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/606-thickbox_default/bwild-puppy-deer-12kg.jpg",
+   "https://monge.shop/1809-thickbox_default/bwild-puppy-deer-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monge-bwild/dog/dry-food/512-bwild-puppy-deer-12kg-8009470011891.html",
+  "evidence": "monge.shop reference = our EAN 8009470011891, 'BWILD PUPPY DEER 12kg'",
+  "size_seen": "bag printed '12kg' (verified on crop), BWild Low Grain Puppy & Junior All Breeds Deer",
+  "notes": "Bag is small within a 1100x1422 white canvas (~300 px wide) - consider trimming. Image 2 (if any) = kibble close-up. Info sheet (2.5-12 kg, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1679,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1679-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1679-2.jpg"
+  ],
+  "source_urls": [
+   "https://monge.shop/608-thickbox_default/bwild-grain-free-lamb-with-peas-and-potato-12kg.jpg",
+   "https://monge.shop/2301-thickbox_default/bwild-grain-free-lamb-with-peas-and-potato-12kg.jpg"
+  ],
+  "page_url": "https://monge.shop/gb/monge-bwild/dog/dry-food/514-bwild-grain-free-lamb-with-peas-and-potato-12kg-8009470011730.html",
+  "evidence": "monge.shop reference = our EAN 8009470011730, 'BWILD GRAIN FREE LAMB WITH PEAS AND POTATO 12KG'",
+  "size_seen": "bag printed '12kg' (verified on crop), BWild Grain Free Adult All Breeds Lamb with potatoes and peas",
+  "notes": "Bag is small within a 1100x1422 white canvas (~300 px wide) - consider trimming. Image 2 (if any) = kibble close-up. Info sheet (2.5-12 kg, shows 2.5 kg bag) rejected."
+ },
+ {
+  "variant": 1685,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1685-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1685-2.jpg"
+  ],
+  "source_urls": [
+   "https://www.espacemonge.fr/img/p/2/4/2/0/2420.jpg",
+   "https://www.espacemonge.fr/img/p/2/4/2/4/2424.jpg"
+  ],
+  "page_url": "https://www.espacemonge.fr/fr/croquettes-chat/190-kitten-poulet-croquette-chaton-10-kg-8009470004817.html",
+  "evidence": "espacemonge.fr page with EAN 8009470004817 in URL/reference, 'Kitten Croquettes Chaton Poulet 10 kg'; listex/pets24/lohmatik agree (Kitten 10 kg)",
+  "size_seen": "bag printed '10kg', Kitten 1-12 months Rich in Chicken",
+  "notes": "img2 = front/back/side of the same 10 kg bag. Current retail Natural Superpremium artwork, not the Best for Breeders bag the hafo photo showed."
+ },
+ {
+  "variant": 1689,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1689-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/A/1689-2.jpg"
+  ],
+  "source_urls": [
+   "https://www.espacemonge.fr/img/p/2/4/2/1/2421.jpg",
+   "https://www.espacemonge.fr/img/p/2/4/2/5/2425.jpg"
+  ],
+  "page_url": "https://www.espacemonge.fr/fr/croquettes-chat/139-croquette-chat-adulte-10-kg-poulet-8009470004800.html",
+  "evidence": "espacemonge.fr page with EAN 8009470004800 in URL/reference, 'Classic Adult Croquettes Chat Adulte Poulet 10 kg'",
+  "size_seen": "bag printed '10kg', Adult >12 months Rich in Chicken",
+  "notes": "img2 = front/back/side of the 10 kg bag."
+ },
+ {
+  "variant": 1699,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "Searched \"8009470009973\" (+simba tonno 20 kg): only giordanoferramenta.it listing (no product image page), monge.it Simba tuna page (4 kg bag only, SIMBA-DOG-TONNO_4kg_8009470009966.jpg), monge.shop and espacemonge (no Simba), blogsrl (20 kg only manzo/pollo). No 20 kg tuna image."
+ },
+ {
+  "variant": 1701,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "",
+  "evidence": "",
+  "size_seen": "",
+  "notes": "Searched \"8009470009959\": vipostore.it page prints the EAN ('SIMBA CANE SECCO AGNELLO 20kg') but its image is the standard retail bag art with no legible 20 kg print (same as the 4 kg bag) - rejected. monge.it has only SIMBA-DOG-AGNELLO_4kg_8009470009805; monge.shop/espacemonge have no Simba."
+ }
+]

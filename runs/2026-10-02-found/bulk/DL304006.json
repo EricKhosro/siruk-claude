@@ -1,0 +1,64 @@
+{
+ "name": "Calcium Dental Bones for Medium Breeds",
+ "slug": "derevenskie-lakomstva-calcium-dental-bones-for-medium-breeds",
+ "category_ids": [
+  83
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL304006",
+   "name": "90 g",
+   "price": 1900.0,
+   "cost_price": 1160.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "breed-size": [
+     32
+    ],
+    "health-feature": [
+     117
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "about_this_item": "<p>Zubochistiki calcium dental bones for medium-breed dogs of 10–25 kg (4 pieces). Excellent at removing plaque, preventing tartar and fighting gum disease; the patented structure makes cleaning as effective as mechanical brushing. 100% natural product, enriched with calcium to strengthen bones and joints.</p>",
+   "ingredient_information": "<p>Wheat protein, whey protein, emulsified fats, lactose, calcium carbonate, sodium caseinate, essential oils, glycerin, natural flavourings (milk). Guaranteed analysis: protein 51.31%, moisture 13%, ash 6.77%, fat 6.53%, calcium 2.4%, fibre 0.49%.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14494,
+    14497,
+    14500
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кальциевые косточки для зубов для средних пород",
+   "variants": {
+    "DL304006": {
+     "about_this_item": "Кальциевые косточки для зубов Zubochistiki для собак средних пород 10–25 кг (4 шт.). Отлично снимают зубной налёт, предотвращают появление зубного камня и борются с болезнями дёсен; запатентованная структура делает чистку такой же эффективной, как механическая. 100% натуральный продукт, обогащён кальцием для укрепления костей и суставов.",
+     "ingredient_information": "Пшеничный белок, сывороточный белок, эмульгированные жиры, лактоза, карбонат кальция, казеинат натрия, эфирные масла, глицерин, натуральные ароматизаторы (молоко). Гарантированный анализ: белок 51,31%, влага 13%, зола 6,77%, жир 6,53%, кальций 2,4%, клетчатка 0,49%."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ատամնամաքրող ոսկորներ կալցիումով միջին ցեղերի համար",
+   "variants": {
+    "DL304006": {
+     "about_this_item": "Zubochistiki կալցիումով ատամնամաքրող ոսկորներ 10–25 կգ քաշով միջին ցեղերի շների համար (4 հատ)։ Լավ հեռացնում են ատամնափառը, կանխում են ատամնաքարի առաջացումը և պայքարում լնդերի հիվանդությունների դեմ. արտոնագրված կառուցվածքը մաքրումը դարձնում է նույնքան արդյունավետ, որքան մեխանիկական խոզանակումը։ 100% բնական արտադրանք՝ հարստացված կալցիումով՝ ոսկորներն ու հոդերն ամրացնելու համար։",
+     "ingredient_information": "Ցորենի սպիտակուց, շիճուկի սպիտակուց, էմուլգացված ճարպեր, լակտոզա, կալցիումի կարբոնատ, նատրիումի կազեինատ, եթերային յուղեր, գլիցերին, բնական բուրավետիչներ (կաթ)։ Երաշխավորված վերլուծություն՝ սպիտակուց 51,31%, խոնավություն 13%, մոխիր 6,77%, ճարպ 6,53%, կալցիում 2,4%, թաղանթանյութ 0,49%։"
+    }
+   }
+  }
+ }
+}

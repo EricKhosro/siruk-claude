@@ -1,0 +1,54 @@
+{
+ "code": "DL050056",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Medallions with Rice for Mini Breeds",
+ "label": "Turkey 55 g",
+ "existing_id": null,
+ "category_ids": [
+  86
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Turkey",
+   "quote": "Сочные кусочки индейки"
+  },
+  "ingredient": {
+   "value": "Turkey",
+   "quote": "мясо индейки, рис"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "փոքր ցեղատեսակի շների համար"
+  },
+  "special-diet": {
+   "value": "Hypoallergenic",
+   "quote": "гипоаллергенны"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/395/9f56z43o5rswc7kdmcvqsp8my302y3kb.png",
+  "https://derlak.ru/upload/iblock/f0e/cwv7466q52nsgfqhtairx7gmj27hyv0l.png",
+  "https://derlak.ru/upload/iblock/830/zcu40xw8s0i5t4o4obkihcbzdgqs392s.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "A tender treat made for small dogs: juicy pieces of turkey combined with puffed rice. Hypoallergenic and tasty.",
+  "ingredient_information": "Turkey meat, rice, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 35 g, fat 10 g, moisture 18 g, fibre 0.5 g, ash 3 g; energy 288.2 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-dlya-mini-porod-medalony-iz-indeyki-s-risom-55g-art-76050052/"
+ },
+ "evidence_file": "cards/DL050056.source.txt"
+}

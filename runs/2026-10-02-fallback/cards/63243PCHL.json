@@ -1,0 +1,43 @@
+{
+ "type": "grooming",
+ "brand_id": 42,
+ "existing_id": null,
+ "name": "Antiskolzin Anti-Slip Paw Spray",
+ "label": "125 ml",
+ "category_ids": [
+  31
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Spray",
+   "quote": "Спрей"
+  },
+  "health-feature": {
+   "value": "Paw Care",
+   "quote": "против скольжения лап"
+  }
+ },
+ "images": [
+  "https://agrobioprom.ru/upload/iblock/3ec/3ec746d0acaa82eab7f20ca112c7437f.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Pchelodar ZooArena Antiskolzin anti-slip paw spray, developed for dogs at shows, in rings and in homes with slippery floors. Natural pine rosin gives the paws grip and cushioning, helping to prevent injuries. Neutral pH, suitable for sensitive and allergy-prone skin. For regular use; no rinsing needed.",
+  "ingredient_information": "Natural pine rosin, fir essential oil, auxiliary components.",
+  "feeding_instructions": "Spray onto the paw pads before walking on slippery surfaces. Store at 0–25 °C, away from light; shelf life 24 months."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://agrobioprom.ru/catalog/dlya-zhivotnykh/antiskolzin-sprey-protiv-skolzheniya-lap/",
+  "text_from": "https://biostyle.biz/catalog/pchelodar_antiskolzin_sprey_protiv_skolzheniya_lap_125ml_439_36_kor/ (Артикул 1004, EAN 4607145632439)",
+  "article": "1004",
+  "ean": "4607145632439"
+ },
+ "code": "63243PCHL",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/63243PCHL.source.txt"
+}

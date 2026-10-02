@@ -51,8 +51,10 @@ linked doc before you rely on a number from memory.
    say-so).
 6. **Identity from the article code when the row has one; by name only when
    it has none** (2026-09-17). A codeless row (the PM's register) is
-   identified in order — hafo by name → zoovet.am or nemo.am by name → web
-   search — stopping at the first source where **every axis matches** (brand,
+   identified in order — the whole hafo catalogue matched locally (exact
+   name + cost; hafo's search misses rows) → hafo by name → zoovet.am or
+   nemo.am by name → web search, **every query also in the brand's
+   Latin/Russian/Ukrainian spelling** (`reference/name-aliases.json`) — stopping at the first source where **every axis matches** (brand,
    line, lifestage, flavour, pack, +size/colour for accessories). Full order,
    logging files and the CSV `Brand`-column caveat: `reference/hafo.md` →
    "Identifying a row with no article code".
@@ -69,12 +71,29 @@ linked doc before you rely on a number from memory.
    confirmed EAN → `scripts/barcode-lookup.py` + a web search for the EAN;
    identity from two EAN pages, content only from pages printing our EAN) →
    trixie.shop/trixiecz → EAN-keyed shops incl.
-   4lapy.ru → zoovet → hafo placeholder → web search → reverse-image search;
+   4lapy.ru → zoovet → web search → reverse-image search → **Google search +
+   Google Lens in a headed browser** (2026-10-01; the `/google-lens` skill →
+   `scripts/google-lens.py` since 2026-10-02: Scrapling drives a visible real
+   Chrome with a persistent profile; a CAPTCHA goes to the user, never solved
+   by us) → hafo placeholder, only when all of that misses;
    petshop.ru for texts only) and every
-   rung's confirmation rule: `reference/image-sources.md`. hafo's own photo is
-   a **watermarked placeholder only** — last in the gallery, logged to
+   rung's confirmation rule: `reference/image-sources.md`.
+   **Texts with no official page** (2026-10-02): after the fallback sites,
+   Google search + the result pages opened in the same headed browser
+   (`google-lens.py` `page` jobs) — keyed by our EAN/article, or by name with
+   every axis matching on two pages — and **hafo's Armenian text last**
+   (cleaned → `hy`, translated to `en`/`ru`, row on `needs-text.csv`).
+   `reference/image-sources.md` → "Texts when the brand has no page".
+   hafo's own photo is a **watermarked placeholder only** — last in the gallery, logged to
    `needs-image.csv` (rule 7a there); zoovet's is unwatermarked and finished
    once confirmed (rule 7b).
+   **Each pack size has its own gallery** (2026-10-01): a variant's first
+   image must show **that** size (a 14 kg bag never shows the 2 kg bag —
+   product 1176 did), sourced from that size's own article/EAN; no
+   size-specific photo → the closest same-line photo goes on
+   `needs-image.csv` with the reason "other size". A by-weight variant
+   reuses its bag's gallery. `reference/image-sources.md` → "One gallery per
+   size".
    **A product belongs to every category that fits** — `category_ids` is an
    array, leaves only (parents roll up on their own), never drop a category
    an existing product already has. Dual-species and vet-diet second-leaf
@@ -97,10 +116,14 @@ linked doc before you rely on a number from memory.
    S/M/L, collar length, bowl 0.2 L) is an option attribute, not content.
    Supplements: tablets/pipettes/collars `count`, liquids/pastes ml/g (user,
    2026-09-30). Spec: siruk-web `docs/catalog-model.md` §2, §4.
-   **Sold loose** (a per-kg sale price on the row, 2026-09-30): the bag also
-   gets a `sale_mode: "weight"` variant — `price` per kg, **minimum 1 kg, step
-   1 kg** (`qty_min` = `qty_step` = 1000 g, user 2026-10-01), stock in grams
-   (10 kg placeholder), cost = bag cost ÷ bag kg, SKU `<bag sku>-KG`. Detail:
+   **Sold loose** (a per-kg sale price on the row): **every bag gets a "1 kg"
+   PACK variant** — `sale_mode: "pack"`, `measure_type: mass`, `content`
+   1000, `price` = the per-kg price, cost = bag cost ÷ bag kg, stock 10, SKU
+   `<bag sku>-KG`, label "1 kg", same attributes, texts (en/ru/hy) and gallery
+   as its bag, placed right after it. **Never `sale_mode: "weight"`** — the
+   PM paused by-weight sale on 2026-10-01 until its UI is tested; the 84
+   by-weight variants were deleted by the developers that day. A bag with no
+   per-kg price gets no 1 kg variant — never derive one. Detail:
    `reference/pricing.md` → loose sale.
 8b. **Every product has a product type** (the admin's name for the API's
    attribute family; 2026-09-23, reworked 2026-09-30). Before an import,
@@ -136,13 +159,17 @@ linked doc before you rely on a number from memory.
    `toVariantPayload`). Never hand-write a `PUT /products` body (it replaces
    the whole variants array). Never trust an unverified media id.
 10a. **Stock is a ledger** (2026-09-29). A new variant sends `initial_stock`
-   (CSV Qty 1 → placeholder 10); an existing variant's stock changes only
+   **10 on every variant, whatever the CSV Qty says** (user 2026-10-01); an existing variant's stock changes only
    through `/stock/variants/<id>` (set / receive / write-off, with a note),
    never the product PUT. `reference/admin-api.md` → "Stock".
 11. **Brand sites are read-only.** No cart, no accounts, no forms. Extract
    with `evaluate_script`, don't `take_snapshot` product pages.
 12. **Weights are metric (kg/g), never lbs.** Name never contains the brand;
-   slug does. Don't turn a volume (litres) into a weight.
+   slug does. **Name never contains the pack size either** (user 2026-10-01)
+   — the storefront prints "Brand Name, <size label>", so "Wild Coast, 9.7 kg"
+   shows the size twice; the size lives only in the variant (content + label).
+   An accessory's physical dimensions are not pack size. `validate-card.py`
+   fails a name ending in kg/g/ml. Don't turn a volume (litres) into a weight.
 13. **Everything translatable ships in `en`, `ru` and `hy`** — create in
    `en`, then PUT each other locale (`scripts/set-translation.py` and the
    `translate-*.py` scripts). Variant labels stay single-language English.
@@ -188,7 +215,10 @@ linked doc before you rely on a number from memory.
    `reference/image-sources.md` → "Barcode lookup" — also whenever the
    identity is in doubt), then 4lapy.ru by EAN
    (`scripts/4lapy-lookup.py`), then zoovet / petshop.ru confirmed by hand
-   (`reference/image-sources.md` → "Fallback sites"). New
+   (`reference/image-sources.md` → "Fallback sites"), then **Google search
+   with the result pages read in the headed browser** (`google-lens.py`
+   `search` + `page` jobs), then **hafo's own text** as the last resort
+   (→ `needs-text.csv`; "Texts when the brand has no page"). New
    brand → research the official site, add it to the table, `/create-brand`.
 5. **Product type + attributes** — once the whole batch is gathered, feed
    it to the `attribute-manager` agent to create/extend product types (rule
@@ -201,7 +231,10 @@ linked doc before you rely on a number from memory.
 7. **Write** — `scripts/upload-media.sh <file> products/<brand-slug>/<type>`
    per image (all gallery images; Trixie: `scripts/trixie-image.sh <art>`
    lists them all, .de plus the .es shop), then
-   `scripts/create-product.sh` or `scripts/add-variant.sh`. Payload shape:
+   `scripts/create-product.sh` or `scripts/add-variant.sh` — or, for a
+   batch of **new** products, `scripts/bulk-create.py <payloads…>`
+   (`POST /products/bulk`, en/ru/hy in the same call, so step 8 is already
+   done; `reference/admin-api.md` → "Bulk create"). Payload shape:
    the docstring of `scripts/siruk_payload.py` (`price` = hafo pack price,
    size in `measure_type`/`content`/`pack_count`, `initial_stock`,
    `attribute_values` by attribute id or code).
@@ -238,7 +271,8 @@ linked doc before you rely on a number from memory.
 
 `/add-products <csv>` imports; `/create-brand <name>` adds a brand with a
 verified official logo; `/manage-attributes` edits the vocabulary (never deletes
-without an explicit ask). Big attribute batches → the `attribute-manager` agent.
+without an explicit ask); `/google-lens` runs Google search + Lens for a photo
+(image rung 9c, mandatory before a hafo placeholder). Big attribute batches → the `attribute-manager` agent.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,
 `supplements`, `grooming`, `accessories` (`.claude/skills/<type>/SKILL.md`) —
 says which categories that type gets and how to pick its values and size;

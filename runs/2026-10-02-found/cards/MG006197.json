@@ -1,0 +1,59 @@
+{
+ "code": "MG006197",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 5,
+ "name": "Medium Starter",
+ "label": "Chicken 15 kg",
+ "existing_id": null,
+ "category_ids": [
+  3
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "lifestage": {
+   "value": "Puppy",
+   "quote": "complete pet food for medium-size puppy dogs and adult pregnant and lactating bitches"
+  },
+  "breed-size": {
+   "value": "Medium Breeds",
+   "quote": "medium-size puppy dogs"
+  },
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Medium Starter Rich in Chicken"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "The first ingredient is chicken"
+  },
+  "health-feature": {
+   "value": "Digestive Health",
+   "quote": "prebiotics to support intestinal wellness"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://www.espacemonge.fr/997-large_default/starter-medium-15-kg-croquettes-mother-baby-dog.jpg",
+  "https://www.espacemonge.fr/287-large_default/starter-medium-15-kg-croquettes-mother-baby-dog.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Monge Natural Superpremium Medium Starter for mother and baby dogs, Rich in Chicken (Best for Breeders 15 kg bag): a complete pet food for medium-size puppies and adult pregnant and lactating bitches (10-32 kg). The first ingredient is chicken, and fresh meat makes the formula digestible and palatable. Next-generation XOS (xylo-oligosaccharide) prebiotics support intestinal wellness; glucosamine and chondroitin sulphate support joint development, and a balanced calcium/phosphorus ratio supports regular growth of the puppy's bones and joints. No added dyes or artificial preservatives. Made in Italy.",
+  "ingredient_information": "Composition: chicken (dried 30%, fresh meat 10%), rice, animal fat (chicken oil purified at 99.5%), dried beet pulp, hydrolysed animal proteins (liver), maize, brewers' yeast inactivated, oats, dried eggs, fish (dried salmon), fish oil (salmon oil), minerals, yeast products (MOS 1%), XOS 0.3%, yucca schidigera 0.3%, spirulina 0.3%, glucosamine 0.057%, chondroitin sulphate 0.04%. Analytical components: crude protein 31%, crude fibre 1.5%, crude fat 22%, crude ash 7%, calcium 1.5%, phosphorus 1.1%, n-3 fatty acids 0.5%, n-6 fatty acids 5.5%. Metabolisable energy 4,500 kcal/kg.",
+  "feeding_instructions": "Recommended daily feeding intakes (see the table on the pack) may be split into 3 or more daily meals. Individual requirements vary with size, age and activity. Always have clean, fresh water available. Introduce gradually over at least one week when replacing another food."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.monge.it/en/product/medium-starter-con-pollo/",
+  "images_from": "https://www.espacemonge.fr/fr/breeders-chien/162-croquette-naturelle-starter-medium-monge-15-kg-8009470006194.html",
+  "images_ean": "8009470006194"
+ },
+ "evidence_file": "cards/MG006197.source.txt"
+}

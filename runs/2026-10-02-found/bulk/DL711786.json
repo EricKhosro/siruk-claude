@@ -1,0 +1,70 @@
+{
+ "name": "Calcium Bones for Puppies",
+ "slug": "derevenskie-lakomstva-calcium-bones-for-puppies",
+ "category_ids": [
+  82
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711786",
+   "name": "Duck 90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     42
+    ],
+    "ingredient": [
+     469
+    ],
+    "lifestage": [
+     25
+    ],
+    "special-diet": [
+     393
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>A treat for puppies: a milk bone enriched with calcium, which growing puppies need for strong bones and teeth, wrapped in duck meat for flavour.</p>",
+   "ingredient_information": "<p>Duck fillet, calcium bone (rice, corn starch, potato starch, vegetable protein, calcium phosphate, flour). Guaranteed analysis per 100 g: protein 26.2 g, fat 2.5 g, moisture 18 g, fibre 0.2 g, ash 3.5 g; energy 220 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14602,
+    14605,
+    14608
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кальциевые косточки для щенков",
+   "variants": {
+    "DL711786": {
+     "about_this_item": "Лакомство для щенков: молочная косточка, обогащённая кальцием, который нужен растущим щенкам для крепких костей и зубов, обёрнутая утиным мясом для вкуса.",
+     "ingredient_information": "Утиное филе, кальциевая косточка (рис, кукурузный крахмал, картофельный крахмал, растительный белок, фосфат кальция, мука). Гарантированные показатели на 100 г: белок 26,2 г, жир 2,5 г, влага 18 г, клетчатка 0,2 г, зола 3,5 г; энергетическая ценность 220 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կալցիումով ոսկորներ ձագերի համար",
+   "variants": {
+    "DL711786": {
+     "about_this_item": "Հյուրասիրություն ձագերի համար՝ կալցիումով հարստացված կաթնային ոսկոր (կալցիումն անհրաժեշտ է աճող ձագերին ամուր ոսկորների և ատամների համար), համի համար փաթաթված բադի մսով։",
+     "ingredient_information": "Բադի ֆիլե, կալցիումային ոսկոր (բրինձ, եգիպտացորենի օսլա, կարտոֆիլի օսլա, բուսական սպիտակուց, կալցիումի ֆոսֆատ, ալյուր)։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 26,2 գ, ճարպ 2,5 գ, խոնավություն 18 գ, թաղանթանյութ 0,2 գ, մոխիր 3,5 գ. էներգետիկ արժեք 220 կկալ։"
+    }
+   }
+  }
+ }
+}

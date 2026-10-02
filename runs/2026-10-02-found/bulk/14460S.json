@@ -1,0 +1,71 @@
+{
+ "name": "Triple Flavour Twisted Sticks",
+ "slug": "8in1-triple-flavour-twisted-sticks",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 31,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "14460S",
+   "name": "10 pcs / 70 g",
+   "price": 2600.0,
+   "cost_price": 1610.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     422
+    ],
+    "health-feature": [
+     109
+    ],
+    "special-diet": [
+     81
+    ],
+    "breed-size": [
+     35
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>8in1 Flavours Triple Flavour Twisted Sticks combine three flavours: chewy pork hide and beef hide wrapped in succulent chicken breast. These long-lasting twisted sticks help control tartar and plaque build-up through their natural abrasive action while chewing. Rich in protein, low in fat, oven baked, with no added sugar, flavour enhancers, GMOs, gluten or artificial preservatives. Ideal for dogs of all sizes. Pack of 10 sticks, 70 g.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "<p>Treats should not exceed 10% of your dog's daily calorie intake. XS dogs (1–5 kg): one treat over two days. S dogs (5–10 kg): one treat per day. M dogs (10–25 kg): up to two treats per day. L dogs (25+ kg): up to three treats per day. Select a chew slightly larger than your pet's mouth, always provide fresh water and supervise your dog while chewing.</p>",
+   "images": [
+    14203,
+    14206,
+    14209,
+    14212
+   ],
+   "measure_type": "mass",
+   "content": 70.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кручёные палочки «Три вкуса»",
+   "variants": {
+    "14460S": {
+     "about_this_item": "Кручёные палочки 8in1 Flavours Triple Flavour сочетают три вкуса: жевательная свиная и говяжья кожа, обёрнутые сочной куриной грудкой. Эти долгоиграющие палочки благодаря естественному очищающему действию при жевании помогают контролировать образование зубного камня и налёта. Богаты белком, с низким содержанием жира, запечены в печи, без добавления сахара, усилителей вкуса, ГМО, глютена и искусственных консервантов. Подходят собакам всех размеров. В упаковке 10 палочек, 70 г.",
+     "feeding_instructions": "Лакомства не должны превышать 10% суточной калорийности рациона собаки. Собаки XS (1–5 кг): одно лакомство на два дня. Собаки S (5–10 кг): одно лакомство в день. Собаки M (10–25 кг): до двух лакомств в день. Собаки L (от 25 кг): до трёх лакомств в день. Выбирайте лакомство немного больше пасти питомца, всегда обеспечивайте доступ к свежей воде и присматривайте за собакой, пока она грызёт."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ոլորված ձողիկներ «Երեք համ»",
+   "variants": {
+    "14460S": {
+     "about_this_item": "8in1 Flavours Triple Flavour ոլորված ձողիկները համադրում են երեք համ՝ խոզի և տավարի ծամելու կաշի՝ փաթաթված հավի հյութալի կրծքամսով։ Այս երկարատև ձողիկները ծամելիս բնական մաքրող ազդեցության շնորհիվ օգնում են վերահսկել ատամնաքարի և փառի առաջացումը։ Հարուստ են սպիտակուցով, քիչ ճարպով, թխված են վառարանում, առանց ավելացված շաքարի, համի ուժեղացուցիչների, ԳՁՕ-ների, գլյուտենի և արհեստական կոնսերվանտների։ Հարմար են բոլոր չափերի շների համար։ Տուփում՝ 10 ձողիկ, 70 գ։",
+     "feeding_instructions": "Հյուրասիրությունները չպետք է գերազանցեն շան օրական կալորիաների 10%-ը։ XS շներ (1–5 կգ)՝ մեկ հյուրասիրություն երկու օրում։ S շներ (5–10 կգ)՝ օրական մեկ հյուրասիրություն։ M շներ (10–25 կգ)՝ օրական մինչև երկու հյուրասիրություն։ L շներ (25 կգ-ից ավելի)՝ օրական մինչև երեք հյուրասիրություն։ Ընտրեք կենդանու բերանից մի փոքր մեծ ծամելիք, միշտ ապահովեք թարմ ջուր և հսկեք շանը, երբ այն ծամում է։"
+    }
+   }
+  }
+ }
+}

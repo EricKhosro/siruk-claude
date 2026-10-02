@@ -1,0 +1,52 @@
+{
+ "code": "02004K",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "toys",
+ "brand_id": 41,
+ "name": "Funny Mouse Vinyl Toy",
+ "label": "11 cm",
+ "existing_id": null,
+ "category_ids": [
+  18
+ ],
+ "attributes": {
+  "toy-type": {
+   "value": "Latex & Rubber",
+   "quote": "ռեզինից"
+  },
+  "material": {
+   "value": "Vinyl / PVC",
+   "quote": "Основной материал винил"
+  },
+  "toy-size": {
+   "value": "11 cm",
+   "quote": "Высота: 11 см"
+  },
+  "toy-feature": {
+   "value": "Animal & Figure",
+   "quote": "\"Мышь забавная\" виниловая 11см"
+  },
+  "color-family": {
+   "value": "Color Varies",
+   "quote": "Цвет - в ассортименте"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/1c4/i121e0uis6egme7piczwkci2xecig2fz.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "\"Funny Mouse\" vinyl toy for dogs. Playing with it helps young pets develop physically and helps adult dogs keep their muscle tone. Height 11 cm. Material: vinyl. Colours assorted.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/igrushki/igrushki_dlya_sobak/mysh_zabavnaya_vinilovaya_11sm/"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/02004K.source.txt"
+}

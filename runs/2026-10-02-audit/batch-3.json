@@ -1,0 +1,1758 @@
+[
+ {
+  "product_id": "353",
+  "product": "Filets",
+  "variant_id": "457",
+  "sku": "31532",
+  "label": "Chicken Breast 100 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2984",
+    "file": "PHO_PRO_CLIP_31528-31532-31801-3_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2984.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "2987",
+    "file": "PHO_PAC_CLIP_31532-4_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2987.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "353",
+  "product": "Filets",
+  "variant_id": "458",
+  "sku": "31801",
+  "label": "Chicken Breast 300 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13942",
+    "file": "458-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13942.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "2984",
+    "file": "PHO_PRO_CLIP_31528-31532-31801-3_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2984.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "2990",
+    "file": "PHO_PAC_CLIP_31801-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2990.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "353",
+  "product": "Filets",
+  "variant_id": "1384",
+  "sku": "31859",
+  "label": "Beef 80 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 450,
+    "label": "Beef"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "4085",
+    "file": "PHO_PRO_CLIP_31859-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4085.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "4088",
+    "file": "PHO_PRO_CLIP_31859-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4088.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "6961",
+    "file": "PHO_PRO_CLIP_31859-3_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/6961.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "4091",
+    "file": "PHO_PAC_CLIP_31859-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4091.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "4094",
+    "file": "PHO_PRO_DOG_31859-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4094.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "4097",
+    "file": "PHO_PRO_DOG_31859-3_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4097.jpg"
+   },
+   {
+    "pos": 6,
+    "media": "6964",
+    "file": "PHO_PRO_DOG_31859-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/6964.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "353",
+  "product": "Filets",
+  "variant_id": "1385",
+  "sku": "31858",
+  "label": "Lamb 80 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 40,
+    "label": "Lamb"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 476,
+    "label": "Lamb"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "4070",
+    "file": "PHO_PRO_CLIP_31858-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4070.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "4073",
+    "file": "PHO_PRO_CLIP_31858-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4073.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "4076",
+    "file": "PHO_PAC_CLIP_31858-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4076.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "4079",
+    "file": "PHO_PRO_DOG_31858-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4079.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "4082",
+    "file": "PHO_PRO_DOG_31858-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/4082.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1200",
+  "product": "Delights Bones",
+  "variant_id": "1758",
+  "sku": "12207S",
+  "label": "XS, Pork, 7 pcs / 84 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 47,
+    "label": "Pork"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 81,
+    "label": "Low Fat"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 109,
+    "label": "Dental & Breath Care"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 482,
+    "label": "Pork"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13987",
+    "file": "1758-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13987.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1200",
+  "product": "Delights Bones",
+  "variant_id": "2042",
+  "sku": "IN10240",
+  "label": "S, Chicken, 35 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 81,
+    "label": "Low Fat"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 109,
+    "label": "Dental & Breath Care"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14611",
+    "file": "csm_TH32817_9649_52def021d8.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14611.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14614",
+    "file": "csm_TH32817_9652_fee3539a0d.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14614.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14617",
+    "file": "csm_TH32817_14255_c9e759bb01.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14617.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14620",
+    "file": "csm_TR30266_9632_15165be84c.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14620.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1200",
+  "product": "Delights Bones",
+  "variant_id": "2043",
+  "sku": "IN10247",
+  "label": "L, Chicken, 85 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 33,
+    "label": "Large Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 81,
+    "label": "Low Fat"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 109,
+    "label": "Dental & Breath Care"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14623",
+    "file": "csm_TH32815_9649_7ecdacb89e.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14623.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14626",
+    "file": "csm_TH32815_9652_875ab44d72.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14626.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14629",
+    "file": "csm_TH32815_14255_f1519ab750.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14629.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14632",
+    "file": "csm_TR30268_9632_969f3d3ece.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14632.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1200",
+  "product": "Delights Bones",
+  "variant_id": "2044",
+  "sku": "IN10882",
+  "label": "L, Beef, 85 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 33,
+    "label": "Large Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 81,
+    "label": "Low Fat"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 109,
+    "label": "Dental & Breath Care"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14644",
+    "file": "csm_TH32663_9649_f368c064c2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14644.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14647",
+    "file": "csm_TH32663_9652_5ab327e94e.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14647.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14650",
+    "file": "csm_TH32663_14255_S0232_RS_2_fb50fb58e5.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14650.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14653",
+    "file": "csm_TR30281_9632_58798cecd5.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14653.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "354",
+  "product": "Dumbbells",
+  "variant_id": "459",
+  "sku": "31533",
+  "label": "Chicken 100 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2993",
+    "file": "PHO_PRO_CLIP_31533-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2993.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "5855",
+    "file": "PHO_PRO_CLIP_31533-4_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/5855.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "2996",
+    "file": "PHO_PAC_CLIP_31533-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2996.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "354",
+  "product": "Dumbbells",
+  "variant_id": "460",
+  "sku": "31802",
+  "label": "Chicken 300 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13966",
+    "file": "460-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13966.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "5858",
+    "file": "PHO_PAC_CLIP_31802-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/5858.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "354",
+  "product": "Dumbbells",
+  "variant_id": "1373",
+  "sku": "31592",
+  "label": "Duck Breast 80 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 42,
+    "label": "Duck"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 469,
+    "label": "Duck"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "3146",
+    "file": "PHO_PRO_CLIP_31592-997723112-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/3146.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "3149",
+    "file": "PHO_PAC_CLIP_31592-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/3149.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "3152",
+    "file": "PHO_PRO_31592-1_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/3152.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1270",
+  "product": "Premium Large Breeds Puppies Dry Dog Food",
+  "variant_id": "1970",
+  "sku": "909685",
+  "label": "Chicken 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 33,
+    "label": "Large Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 117,
+    "label": "Hip & Joint Support"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 464,
+    "label": "Chicken Meal"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14344",
+    "file": "14.webp",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14344.webp"
+   },
+   {
+    "pos": 1,
+    "media": "14347",
+    "file": "2-10.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14347.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14350",
+    "file": "3-9.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14350.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14353",
+    "file": "4-9.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14353.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14356",
+    "file": "5-9.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14356.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "14359",
+    "file": "6-9.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14359.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1315",
+  "product": "Clumping Cat Litter",
+  "variant_id": "2029",
+  "sku": "KF5200111",
+  "label": "2.7 kg (4.8 l)",
+  "attrs": {},
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14683",
+    "file": "e236ff3eb87bd736c0ef523f88cd90f8.png",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14683.png"
+   },
+   {
+    "pos": 1,
+    "media": "14686",
+    "file": "947e84062c79403a22c5bd16b23808ca.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14686.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14689",
+    "file": "deee63068d428238d08aab912549563d.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14689.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14692",
+    "file": "b2ae6a5b33c3ed66b1e04d0eb0680e24.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14692.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14695",
+    "file": "komkuyushijsya.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14695.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "639",
+  "product": "All Breeds Puppy & Junior",
+  "variant_id": "761",
+  "sku": "011257",
+  "label": "Lamb & Rice 800 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 40,
+    "label": "Lamb"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "1755",
+    "file": "monge_cane_secco_all_breeds_puppy_e_junior_agnello_con_riso",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/1755.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "639",
+  "product": "All Breeds Puppy & Junior",
+  "variant_id": "1573",
+  "sku": "011217",
+  "label": "Salmon & Rice 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 38,
+    "label": "Salmon"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14008",
+    "file": "1573-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14008.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "639",
+  "product": "All Breeds Puppy & Junior",
+  "variant_id": "1574",
+  "sku": "006487",
+  "label": "Beef & Rice 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14035",
+    "file": "1574-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14035.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14038",
+    "file": "1574-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14038.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1313",
+  "product": "Delights Bones Strong XS",
+  "variant_id": "2027",
+  "sku": "IN11066",
+  "label": "Chicken, 7 pcs / 140 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 30,
+    "label": "Extra Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 81,
+    "label": "Low Fat"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 109,
+    "label": "Dental & Breath Care"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14659",
+    "file": "csm_TH32667_9649_f3c82d98b7.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14659.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14662",
+    "file": "csm_TH32667_9652_3493710cc8.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14662.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14665",
+    "file": "csm_TH32667_14255_0dce2d5065.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14665.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14668",
+    "file": "csm_TR30285_9632_7f9bce5680.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14668.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1215",
+  "product": "Crispy Muesli Guinea Pigs",
+  "variant_id": "1773",
+  "sku": "461698V",
+  "label": "400 g",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 111,
+    "label": "Digestive Health"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13993",
+    "file": "1773-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13993.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "12413",
+    "file": "ge-catalog-product-upload-ME000003701.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/12413.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1215",
+  "product": "Crispy Muesli Guinea Pigs",
+  "variant_id": "1774",
+  "sku": "461711V",
+  "label": "1 kg",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 111,
+    "label": "Digestive Health"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "12413",
+    "file": "ge-catalog-product-upload-ME000003701.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/12413.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1289",
+  "product": "Calcium Bones for Medium & Large Breeds",
+  "variant_id": "1996",
+  "sku": "214946",
+  "label": "Rabbit 90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 52,
+    "label": "Rabbit"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 80,
+    "label": "Low Calorie"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 485,
+    "label": "Rabbit"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14302",
+    "file": "inu0si2vsd961p5otp5yv19a6j89c5up.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14302.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14305",
+    "file": "ws7m39k3n3q1trzg03saabdybjel4ogm.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14305.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14308",
+    "file": "kji3bk02vq8n21zbuqei74sx6z4d8fi5.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14308.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1295",
+  "product": "Chlorophyll Dental Bones for Medium Breeds",
+  "variant_id": "2009",
+  "sku": "DL303986",
+  "label": "Mint, 70 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 32,
+    "label": "Medium Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 438,
+    "label": "Mint"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 111,
+    "label": "Digestive Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14476",
+    "file": "hd3swtdsp8w62ig20osjjxtexf4ivcgl.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14476.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14479",
+    "file": "1yx3mkh717xp5v2wed72dro0y3zf0jyn.webp",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14479.webp"
+   },
+   {
+    "pos": 2,
+    "media": "14482",
+    "file": "glhy0x2soxpesomzj72vwd8jj9sec0gt.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14482.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1299",
+  "product": "Dried Chicken Breasts",
+  "variant_id": "2013",
+  "sku": "DL711136",
+  "label": "90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14512",
+    "file": "4b8tk9gs9jdw863kz5dkyw8ml6xzwsdf.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14512.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14515",
+    "file": "v5uzc4kn9x27u8my6txt2g08yds8l49o.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14515.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14518",
+    "file": "qwrr9pe5mjcd2n02aflxpg4g5wyfeq5s.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14518.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1303",
+  "product": "Tender Chicken Slices",
+  "variant_id": "2017",
+  "sku": "DL711206",
+  "label": "90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14548",
+    "file": "7qcpafc61f1s1vh4l05yjgs42298sg9p.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14548.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14551",
+    "file": "ucszknmodu123i11lkk8wao1fkgjesd4.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14551.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14554",
+    "file": "hylyefbumhj645zddn52ft4jb8cbxnqt.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14554.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1307",
+  "product": "Dried Rings for Puppies",
+  "variant_id": "2021",
+  "sku": "DL711276",
+  "label": "Chicken 90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14584",
+    "file": "lhmk2j4xcpzdl93f6jnc5wq21atr35r2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14584.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14587",
+    "file": "vqvzlp3bu7195dq2evreuian091n86lj.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14587.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14590",
+    "file": "uh3u4nae4kqj2vd0fdk030ox2gemi761.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14590.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "731",
+  "product": "Traditional Line Green Apple Shampoo for Long Coats",
+  "variant_id": "887",
+  "sku": "03174IVS",
+  "label": "300 ml",
+  "attrs": {},
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13951",
+    "file": "887-1-white.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13951.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "5417",
+    "file": "greenappleshampoogroup-copy",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/5417.png"
+   }
+  ]
+ },
+ {
+  "product_id": "735",
+  "product": "Protective Shield Conditioner",
+  "variant_id": "891",
+  "sku": "03684IVS",
+  "label": "300 ml",
+  "attrs": {},
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13963",
+    "file": "891-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13963.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "5429",
+    "file": "protectiveconditionergroup-copy",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/5429.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1155",
+  "product": "Medium Puppy & Junior",
+  "variant_id": "1667",
+  "sku": "MG006347",
+  "label": "Chicken 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 32,
+    "label": "Medium Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14059",
+    "file": "1667-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14059.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14062",
+    "file": "1667-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14062.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1163",
+  "product": "Kitten Cat",
+  "variant_id": "1685",
+  "sku": "MG 004817",
+  "label": "Chicken 10 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 26,
+    "label": "Kitten"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14176",
+    "file": "004817-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14176.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14179",
+    "file": "004817-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14179.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1277",
+  "product": "Flea & Tick Collar for Puppies",
+  "variant_id": "1980",
+  "sku": "BP13207",
+  "label": "65 cm, black",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 407,
+    "label": "Anti-Parasitic"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 273,
+    "label": "Black"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 547,
+    "label": "Collar"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 840,
+    "label": "65 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14392",
+    "file": "towu3whbi0c5l71ol4b3mxpip1dl1014.jpeg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14392.jpeg"
+   },
+   {
+    "pos": 1,
+    "media": "14395",
+    "file": "158kha9ghrrqwc6rsc6zks123b0o3x2p.jpeg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14395.jpeg"
+   }
+  ]
+ },
+ {
+  "product_id": "1310",
+  "product": "Excel Brewer's Yeast",
+  "variant_id": "2024",
+  "sku": "IN10860",
+  "label": "260 tablets",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 150,
+    "label": "Tub"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 533,
+    "label": "Tablet"
+   },
+   {
+    "attributeId": 19,
+    "attributeName": "Active Ingredient",
+    "role": "attribute",
+    "valueId": 600,
+    "label": "Brewer's Yeast"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14635",
+    "file": "1719542482-s1350x1350.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14635.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14638",
+    "file": "146u9hcpyiisy3f8zdeacxobo4rpu5mv.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14638.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1059",
+  "product": "DO IT YOURSELF Ocean Perfume",
+  "variant_id": "1356",
+  "sku": "05566IVS",
+  "label": "125 ml",
+  "attrs": {},
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13984",
+    "file": "1356-1-white.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13984.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1175",
+  "product": "Premium Medium Breeds Adult Dry Dog Food",
+  "variant_id": "1711",
+  "sku": "909715",
+  "label": "Chicken 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 32,
+    "label": "Medium Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13933",
+    "file": "1711-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13933.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1194",
+  "product": "Litter Tray with Mesh",
+  "variant_id": "1752",
+  "sku": "03623K",
+  "label": "M",
+  "attrs": [
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 709,
+    "label": "M, with mesh"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14194",
+    "file": "03623K-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14194.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1276",
+  "product": "Macadamia Spray",
+  "variant_id": "1979",
+  "sku": "BP12558",
+  "label": "150 ml",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 537,
+    "label": "Spray"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14389",
+    "file": "12558_0.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14389.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1284",
+  "product": "Padded Leather Collar with Bells",
+  "variant_id": "1991",
+  "sku": "04812K",
+  "label": "10 mm, 28 cm, pink",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 12,
+    "attributeName": "Material",
+    "role": "attribute",
+    "valueId": 310,
+    "label": "Leather"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 271,
+    "label": "Pink"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 877,
+    "label": "10 mm × 28 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14143",
+    "file": "3pi9dqtadjuuz6026ipv2fpmzo02s4tj.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14143.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1319",
+  "product": "Medium Adult",
+  "variant_id": "2033",
+  "sku": "MG006147",
+  "label": "Chicken 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 32,
+    "label": "Medium Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14734",
+    "file": "210720261471-1200x800.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14734.jpg"
+   }
+  ]
+ }
+]

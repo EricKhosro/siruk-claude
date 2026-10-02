@@ -1,0 +1,66 @@
+{
+ "name": "Calcium Dental Bones for Large Breeds",
+ "slug": "derevenskie-lakomstva-calcium-dental-bones-for-large-breeds",
+ "category_ids": [
+  83
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "304016",
+   "name": "105 g",
+   "price": 2350.0,
+   "cost_price": 1420.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "breed-size": [
+     33
+    ],
+    "health-feature": [
+     117
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "about_this_item": "<p>Zubochistiki calcium dental bones for large-breed dogs weighing over 25 kg (2 pieces). They stop the development of caries and gum inflammation, whiten teeth and freshen breath. Thanks to the calcium, they strengthen bones and teeth and support cardiovascular health, and are a great treat for puppies of all breeds during active growth. Dogs love the taste, too.</p>",
+   "ingredient_information": "<p>Wheat protein, whey protein, emulsified fats, lactose, calcium carbonate, sodium caseinate, essential oils, glycerin, natural flavourings (milk). Guaranteed analysis: protein 51.31%, moisture 13%, ash 6.77%, fat 6.53%, calcium 2.4%, fibre 0.49%.</p>",
+   "feeding_instructions": "<p>1 treat per day. Make sure your dog always has water in its bowl.</p>",
+   "images": [
+    14314,
+    14317,
+    14320
+   ],
+   "measure_type": "mass",
+   "content": 105.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кальциевые зубочистики для крупных пород",
+   "variants": {
+    "304016": {
+     "about_this_item": "Кальциевые Зубочистики для собак крупных пород весом от 25 кг (2 шт.). Останавливают развитие кариеса и воспаления дёсен, отбеливают зубы и освежают дыхание. Благодаря кальцию укрепляют кости и зубы, поддерживают здоровье сердечно-сосудистой системы и являются отличным угощением для щенков всех пород в период активного роста. К тому же собакам нравится их вкус.",
+     "ingredient_information": "Пшеничный протеин, белок молочной сыворотки, эмульгированные жиры, лактоза, карбонат кальция, казеинат натрия, эфирные масла, глицерин, натуральные вкусовые добавки (молоко). Гарантированные показатели: белок 51,31%, влага 13%, зола 6,77%, жиры 6,53%, кальций 2,4%, клетчатка 0,49%.",
+     "feeding_instructions": "1 лакомство в день. Следите, чтобы в миске собаки всегда была вода."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կալցիումային ատամնամաքրող ոսկորներ խոշոր ցեղատեսակների համար",
+   "variants": {
+    "304016": {
+     "about_this_item": "Zubochistiki կալցիումային ատամնամաքրող ոսկորներ 25 կգ-ից ավելի քաշ ունեցող խոշոր ցեղատեսակի շների համար (2 հատ)։ Կանխում են կարիեսի և լնդերի բորբոքման զարգացումը, սպիտակեցնում են ատամները և թարմացնում շնչառությունը։ Կալցիումի շնորհիվ ամրացնում են ոսկորներն ու ատամները, աջակցում սիրտ-անոթային համակարգի առողջությանը և հիանալի հյուրասիրություն են բոլոր ցեղատեսակների ձագերի համար ակտիվ աճի շրջանում։ Բացի այդ, շներին դուր է գալիս դրանց համը։",
+     "ingredient_information": "Ցորենի պրոտեին, կաթնային շիճուկի սպիտակուց, էմուլգացված ճարպեր, լակտոզա, կալցիումի կարբոնատ, նատրիումի կազեինատ, եթերային յուղեր, գլիցերին, բնական համային հավելումներ (կաթ)։ Երաշխավորված ցուցանիշներ՝ սպիտակուց 51.31%, խոնավություն 13%, մոխիր 6.77%, ճարպեր 6.53%, կալցիում 2.4%, թաղանթանյութ 0.49%։",
+     "feeding_instructions": "Օրական 1 հյուրասիրություն։ Հետևեք, որ շան ամանում միշտ ջուր լինի։"
+    }
+   }
+  }
+ }
+}

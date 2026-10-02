@@ -1,0 +1,462 @@
+{
+ "id": 1262,
+ "name": "Renal Thin Slices in Gravy",
+ "slug": "royal-canin-renal-thin-slices-in-gravy",
+ "category_ids": [
+  11
+ ],
+ "brand_id": 7,
+ "attribute_family_id": 2,
+ "attribute_family_name": "Wet Food",
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "is_discontinued": false,
+ "show_unit_price": true,
+ "delete_locked": true,
+ "used_attribute_ids": [
+  3,
+  5,
+  6,
+  7,
+  9
+ ],
+ "min_entry_price": 750,
+ "variants": [
+  {
+   "id": 1867,
+   "name": "Chicken 12 × 85 g",
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs.</p><p>Certain nutrients can help to support cats with Chronic Renal Insufficiency, which is why the diet you choose for your cat is key to supporting their kidney health. ROYAL CANIN® Renal with Chicken pouches are specifically tailored to support adult cats with Chronic Renal Insufficiency. </p><p>ROYAL CANIN® Renal cat food chicken in gravy is suitable for: •\tCats with azotaemic Chronic Kidney Disease with proteinuria (IRIS stage 1 to 4). •\tCats with chronic Kidney Disease (IRIS stage 2 to 4). •\tManagement of calcium oxalate urolith recurrence in cats with impaired renal function. •\tPrevention of recurrence of urolithiasis requiring urine alkalinisation: urate &amp; cystine uroliths.</p><p>Key benefits: •\tRenal support o\tWhen cats&#x27; kidneys are not functioning efficiently, that often means that phosphorus cannot effectively be filtered from the bloodstream. ROYAL CANIN® Renal with Chicken provides a low phosphorus content and a number of high-quality proteins to help support kidney health and function.  •\tAdapted Energy o\tSome cats may have a reduced appetite when they experience impaired renal function. To help support your cat if their appetite has recently reduced, ROYAL CANIN® Renal with Chicken has an adapted energy content to reduce the volume of each meal.  •\tAromatic choice o\tTo help stimulate your cat&#x27;s appetite in cases of food aversion or reduced appetite, ROYAL CANIN® Renal with Chicken has a specific aromatic profile and loaf-like texture to encourage your cat to eat. </p><p>Royal Canin are proud to partner with leading veterinary scientists to produce a wet cat food for kidney disease . As part of the ROYAL CANIN® Veterinary Range, it is important that this product is only fed to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7-10-day period. Please ensure you follow the correct rationing amount.</p><p>Some cats with renal disorders may have a reduced appetite or food aversion, but texture variety can help to support your cat&#x27;s appetite. To cater to each cat&#x27;s individual preferences, ROYAL CANIN® Renal wet pouches are also available in alternative flavours and scents and as a dry food to cater for your cat’s evolving preferences. If you feed your cat a mixed diet of wet and dry food, make sure you follow the on-pack feeding guides to ensure a healthy daily food intake for your cat. </p><p>Please note: Royal Canin Renal with Chicken is not suitable for growth, gestation or lactation.  </p><ul><li><strong>Renal Support</strong>: Formulated with low phosphorus and moderate protein of high quality to support renal function.</li><li><strong>Adapted Energy</strong>: Adapted energy content to reduce meal volume and help support a reduced appetite.</li><li><strong>Aromatic Choice</strong>: A specific aromatic profile to help stimulate the cat’s appetite, particularly in cases of food aversion.</li></ul>",
+   "ingredient_information": "<p>Composition: Poultry by-products (chicken 4%), pork by-products, wheat flour, pork blood products, sunflower oil refined, corn starch mixture, maize flour, minerals, fish oil, powder cellulose, fructo-oligosaccharides, marigold meal. Protein sources: poultry by-products (29%), pork by-products (8.1%).</p><p>Additives (per kg)**: Nutritional additives: Vitamin D3: 390 IU, Iron (3b103): 6 mg, Iodine (3b202): 0.56 mg, Copper (3b405, 3b406): 4.5 mg, Manganese (3b502, 3b503, 3b504): 1.9 mg, Zinc (3b603, 3b605, 3b606): 19 mg - Technological additives: Clinoptilolite of sedimentary origin: 0.2 g. \n**Values reflect only levels added to the formula, not those naturally occurring in components of the diet.</p><p>Analytical constituents: Protein: 7.8% - Fat content: 8.0% - Crude ash: 1.3% - Crude fibres: 0.5% - Moisture: 77.0% - Calcium: 0.15% - Phosphorus: 0.09% - Potassium: 0.22% - Sodium: 0.11% - Magnesium: 0.017% - Chlorides: 0.18% - Sulphur: 0.15% - Vitamin D (total): 430.0 IU/kg - Hydroxyproline: 0.05% - Essential fatty acids (Linoleic acid, Arachidonic acid): 2.25% - Urine alkalising substances: potassium citrate: 0.35%, calcium carbonate: 0.32%.</p>",
+   "feeding_instructions": "",
+   "sku": "9003579000458",
+   "is_default": true,
+   "sort_order": 0,
+   "sale_mode": "pack",
+   "stock_unit_locked": true,
+   "delete_locked": true,
+   "measure_type": "mass",
+   "item_content": 85000,
+   "content": 85,
+   "pack_count": 12,
+   "price": 8600,
+   "compare_at_price": null,
+   "min_allowed_price": null,
+   "cost_price": 7500,
+   "last_cost_price": null,
+   "last_cost_at": null,
+   "qty_max": null,
+   "track_inventory": true,
+   "out_of_stock_policy": "deny",
+   "backorder_lead_days": null,
+   "low_stock_threshold": null,
+   "reorder_point": null,
+   "reorder_qty": null,
+   "is_purchasable": true,
+   "stock_status": "in_stock",
+   "available_quantity": 10,
+   "stock_levels": [
+    {
+     "warehouse_id": 1,
+     "warehouse_name": "Main warehouse",
+     "warehouse_type": "own",
+     "on_hand": 10,
+     "allocated": 0,
+     "available": 10
+    }
+   ],
+   "suppliers": [],
+   "images": [
+    13711,
+    13705,
+    13708,
+    13714,
+    13195
+   ],
+   "size_label": "12 × 85 g",
+   "unit_price": 840,
+   "formatted_unit_price": "840 ֏/100 g",
+   "attribute_values": {
+    "3": [
+     27
+    ],
+    "5": [
+     36
+    ],
+    "6": [
+     97
+    ],
+    "7": [
+     121
+    ],
+    "9": [
+     148
+    ]
+   },
+   "attribute_value_labels": [
+    {
+     "attributeId": 3,
+     "attributeName": "Lifestage",
+     "role": "attribute",
+     "valueId": 27,
+     "label": "Adult"
+    },
+    {
+     "attributeId": 5,
+     "attributeName": "Flavor",
+     "role": "option",
+     "valueId": 36,
+     "label": "Chicken"
+    },
+    {
+     "attributeId": 6,
+     "attributeName": "Special Diet",
+     "role": "attribute",
+     "valueId": 97,
+     "label": "Veterinary Diet"
+    },
+    {
+     "attributeId": 7,
+     "attributeName": "Health Feature",
+     "role": "attribute",
+     "valueId": 121,
+     "label": "Kidney Care"
+    },
+    {
+     "attributeId": 9,
+     "attributeName": "Packaging Type",
+     "role": "option",
+     "valueId": 148,
+     "label": "Pouch"
+    }
+   ]
+  },
+  {
+   "id": 1868,
+   "name": "Chicken 85 g",
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs.</p><p>Certain nutrients can help to support cats with Chronic Renal Insufficiency, which is why the diet you choose for your cat is key to supporting their kidney health. ROYAL CANIN® Renal with Chicken pouches are specifically tailored to support adult cats with Chronic Renal Insufficiency. </p><p>ROYAL CANIN® Renal cat food chicken in gravy is suitable for: •\tCats with azotaemic Chronic Kidney Disease with proteinuria (IRIS stage 1 to 4). •\tCats with chronic Kidney Disease (IRIS stage 2 to 4). •\tManagement of calcium oxalate urolith recurrence in cats with impaired renal function. •\tPrevention of recurrence of urolithiasis requiring urine alkalinisation: urate &amp; cystine uroliths.</p><p>Key benefits: •\tRenal support o\tWhen cats&#x27; kidneys are not functioning efficiently, that often means that phosphorus cannot effectively be filtered from the bloodstream. ROYAL CANIN® Renal with Chicken provides a low phosphorus content and a number of high-quality proteins to help support kidney health and function.  •\tAdapted Energy o\tSome cats may have a reduced appetite when they experience impaired renal function. To help support your cat if their appetite has recently reduced, ROYAL CANIN® Renal with Chicken has an adapted energy content to reduce the volume of each meal.  •\tAromatic choice o\tTo help stimulate your cat&#x27;s appetite in cases of food aversion or reduced appetite, ROYAL CANIN® Renal with Chicken has a specific aromatic profile and loaf-like texture to encourage your cat to eat. </p><p>Royal Canin are proud to partner with leading veterinary scientists to produce a wet cat food for kidney disease . As part of the ROYAL CANIN® Veterinary Range, it is important that this product is only fed to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7-10-day period. Please ensure you follow the correct rationing amount.</p><p>Some cats with renal disorders may have a reduced appetite or food aversion, but texture variety can help to support your cat&#x27;s appetite. To cater to each cat&#x27;s individual preferences, ROYAL CANIN® Renal wet pouches are also available in alternative flavours and scents and as a dry food to cater for your cat’s evolving preferences. If you feed your cat a mixed diet of wet and dry food, make sure you follow the on-pack feeding guides to ensure a healthy daily food intake for your cat. </p><p>Please note: Royal Canin Renal with Chicken is not suitable for growth, gestation or lactation.  </p><ul><li><strong>Renal Support</strong>: Formulated with low phosphorus and moderate protein of high quality to support renal function.</li><li><strong>Adapted Energy</strong>: Adapted energy content to reduce meal volume and help support a reduced appetite.</li><li><strong>Aromatic Choice</strong>: A specific aromatic profile to help stimulate the cat’s appetite, particularly in cases of food aversion.</li></ul>",
+   "ingredient_information": "<p>Composition: Poultry by-products (chicken 4%), pork by-products, wheat flour, pork blood products, sunflower oil refined, corn starch mixture, maize flour, minerals, fish oil, powder cellulose, fructo-oligosaccharides, marigold meal. Protein sources: poultry by-products (29%), pork by-products (8.1%).</p><p>Additives (per kg)**: Nutritional additives: Vitamin D3: 390 IU, Iron (3b103): 6 mg, Iodine (3b202): 0.56 mg, Copper (3b405, 3b406): 4.5 mg, Manganese (3b502, 3b503, 3b504): 1.9 mg, Zinc (3b603, 3b605, 3b606): 19 mg - Technological additives: Clinoptilolite of sedimentary origin: 0.2 g. \n**Values reflect only levels added to the formula, not those naturally occurring in components of the diet.</p><p>Analytical constituents: Protein: 7.8% - Fat content: 8.0% - Crude ash: 1.3% - Crude fibres: 0.5% - Moisture: 77.0% - Calcium: 0.15% - Phosphorus: 0.09% - Potassium: 0.22% - Sodium: 0.11% - Magnesium: 0.017% - Chlorides: 0.18% - Sulphur: 0.15% - Vitamin D (total): 430.0 IU/kg - Hydroxyproline: 0.05% - Essential fatty acids (Linoleic acid, Arachidonic acid): 2.25% - Urine alkalising substances: potassium citrate: 0.35%, calcium carbonate: 0.32%.</p>",
+   "feeding_instructions": "",
+   "sku": "9003579000465",
+   "is_default": false,
+   "sort_order": 1,
+   "sale_mode": "pack",
+   "stock_unit_locked": true,
+   "delete_locked": true,
+   "measure_type": "mass",
+   "item_content": 85000,
+   "content": 85,
+   "pack_count": 1,
+   "price": 750,
+   "compare_at_price": null,
+   "min_allowed_price": null,
+   "cost_price": 625,
+   "last_cost_price": null,
+   "last_cost_at": null,
+   "qty_max": null,
+   "track_inventory": true,
+   "out_of_stock_policy": "deny",
+   "backorder_lead_days": null,
+   "low_stock_threshold": null,
+   "reorder_point": null,
+   "reorder_qty": null,
+   "is_purchasable": true,
+   "stock_status": "in_stock",
+   "available_quantity": 10,
+   "stock_levels": [
+    {
+     "warehouse_id": 1,
+     "warehouse_name": "Main warehouse",
+     "warehouse_type": "own",
+     "on_hand": 10,
+     "allocated": 0,
+     "available": 10
+    }
+   ],
+   "suppliers": [],
+   "images": [
+    13705,
+    13708,
+    13711,
+    13714,
+    13195
+   ],
+   "size_label": "85 g",
+   "unit_price": 880,
+   "formatted_unit_price": "880 ֏/100 g",
+   "attribute_values": {
+    "3": [
+     27
+    ],
+    "5": [
+     36
+    ],
+    "6": [
+     97
+    ],
+    "7": [
+     121
+    ],
+    "9": [
+     148
+    ]
+   },
+   "attribute_value_labels": [
+    {
+     "attributeId": 3,
+     "attributeName": "Lifestage",
+     "role": "attribute",
+     "valueId": 27,
+     "label": "Adult"
+    },
+    {
+     "attributeId": 5,
+     "attributeName": "Flavor",
+     "role": "option",
+     "valueId": 36,
+     "label": "Chicken"
+    },
+    {
+     "attributeId": 6,
+     "attributeName": "Special Diet",
+     "role": "attribute",
+     "valueId": 97,
+     "label": "Veterinary Diet"
+    },
+    {
+     "attributeId": 7,
+     "attributeName": "Health Feature",
+     "role": "attribute",
+     "valueId": 121,
+     "label": "Kidney Care"
+    },
+    {
+     "attributeId": 9,
+     "attributeName": "Packaging Type",
+     "role": "option",
+     "valueId": 148,
+     "label": "Pouch"
+    }
+   ]
+  },
+  {
+   "id": 1869,
+   "name": "Fish 12 × 85 g",
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs.</p><p>Certain nutrients can help to support cats with Chronic Renal Insufficiency, which is why the diet you choose for your cat is key to supporting their kidney health. ROYAL CANIN® Renal with Fish pouches are specifically tailored to support adult cats with Chronic Renal Insufficiency. </p><p>ROYAL CANIN® Renal with Fish is suitable for: •\tCats with azotaemic Chronic Kidney Disease with proteinuria (IRIS stage 1 to 4). •\tCats with chronic Kidney Disease (IRIS stage 2 to 4). •\tManagement of calcium oxalate urolith recurrence in cats with impaired renal function. •\tPrevention of recurrence of urolithiasis requiring urine alkalinisation: urate &amp; cystine uroliths.</p><p>Key benefits: •\tRenal support o\tWhen cats&#x27; kidneys are not functioning efficiently, that often means that phosphorus cannot effectively be filtered from the bloodstream. ROYAL CANIN® Renal with Fish provides a low phosphorus content and a number of high-quality proteins to help support kidney health and function.  •\tAdapted Energy o\tSome cats may have a reduced appetite when they experience impaired renal function. To help support your cat if their appetite has recently reduced, ROYAL CANIN® Renal with Fish has an adapted energy content to reduce the volume of each meal.  •\tAromatic choice o\tTo help stimulate your cat&#x27;s appetite in cases of food aversion or reduced appetite, ROYAL CANIN® Renal with Fish has a specific aromatic profile and loaf-like texture to encourage your cat to eat. </p><p>Royal Canin are proud to partner with leading veterinary scientists to produce renal wet food for cats. As part of the ROYAL CANIN® Veterinary Range, it is important that this product is only fed to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7-10-day period. Please ensure you follow the correct rationing amount when feeding your kidney support cat food.</p><p>Some cats with renal disorders may have a reduced appetite or food aversion, but texture variety can help to support your cat&#x27;s appetite. To cater to each cat&#x27;s individual preferences, ROYAL CANIN® Renal wet pouches are also available in alternative flavours and scents and as a dry food to cater for your cat’s evolving preferences. If you feed your cat a mixed diet of wet and dry food, make sure you follow the on-pack feeding guides to ensure a healthy daily food intake for your cat. </p><p>Please note: Royal Canin Renal with Fish is not suitable for growth, gestation or lactation. </p><ul><li><strong>Renal Support</strong>: Formulated with low phosphorus and moderate protein of high quality to support renal function.</li><li><strong>Adapted Energy</strong>: Adapted energy content to reduce meal volume and help support a reduced appetite.</li><li><strong>Aromatic Choice</strong>: A specific aromatic profile to help stimulate the cat’s appetite, particularly in cases of food aversion.</li></ul>",
+   "ingredient_information": "<p>Composition: Poultry by-products, pork by-products, wheat flour, salmon (4%), powdercellulose, corn starch mixture, pork blood products, sunflower oil refined, minerals, fish oil, fructo-oligo-saccharides, marigold meal. Protein sources: poultry by-products (15.3%), pork by-products (13.7%), salmon (4%).</p><p>Additives (per kg)**: Nutritional additives: Vitamin D3: 190 IU, Iron (3b103): 4 mg, Iodine (3b202): 0.36 mg, Copper (3b405, 3b406): 2.9 mg, Manganese (3b502, 3b503, 3b504): 1.4 mg, Zinc (3b603, 3b605, 3b606): 14 mg - Technological additives: Clinoptilolite of sedimentary origin: 0.2 g.                                     \n**Values reflect only levels added to the formula, not those naturally occurring in components of the diet.</p><p>Analytical constituents: Protein: 6.6%, Fat content: 6.0%, Crude ash: 1.1%, Crude fibres: 1.0%, Moisture: 80.0%, Calcium: 0.14%, Phosphorus: 0.09%, Potassium: 0.18%, Sodium: 0.08%, Magnesium: 0.016%, Chlorides: 0.13%, Sulphur: 0.13%, Vitamin D (total): 330.0 IU/kg, Hydroxyproline: 0.05%, Essential fatty acids (Linoleic acid, Arachidonic acid): 1.54% - Urine alkalising substances: potassium citrate: 0.28%, calcium carbonate: 0.24%.</p>",
+   "feeding_instructions": "",
+   "sku": "9003579000519",
+   "is_default": false,
+   "sort_order": 2,
+   "sale_mode": "pack",
+   "stock_unit_locked": true,
+   "delete_locked": true,
+   "measure_type": "mass",
+   "item_content": 85000,
+   "content": 85,
+   "pack_count": 12,
+   "price": 8600,
+   "compare_at_price": null,
+   "min_allowed_price": null,
+   "cost_price": 7500,
+   "last_cost_price": null,
+   "last_cost_at": null,
+   "qty_max": null,
+   "track_inventory": true,
+   "out_of_stock_policy": "deny",
+   "backorder_lead_days": null,
+   "low_stock_threshold": null,
+   "reorder_point": null,
+   "reorder_qty": null,
+   "is_purchasable": true,
+   "stock_status": "in_stock",
+   "available_quantity": 10,
+   "stock_levels": [
+    {
+     "warehouse_id": 1,
+     "warehouse_name": "Main warehouse",
+     "warehouse_type": "own",
+     "on_hand": 10,
+     "allocated": 0,
+     "available": 10
+    }
+   ],
+   "suppliers": [],
+   "images": [
+    13723,
+    13717,
+    13720,
+    13726,
+    13729,
+    13195
+   ],
+   "size_label": "12 × 85 g",
+   "unit_price": 840,
+   "formatted_unit_price": "840 ֏/100 g",
+   "attribute_values": {
+    "3": [
+     27
+    ],
+    "5": [
+     162
+    ],
+    "6": [
+     97
+    ],
+    "7": [
+     121
+    ],
+    "9": [
+     148
+    ]
+   },
+   "attribute_value_labels": [
+    {
+     "attributeId": 3,
+     "attributeName": "Lifestage",
+     "role": "attribute",
+     "valueId": 27,
+     "label": "Adult"
+    },
+    {
+     "attributeId": 5,
+     "attributeName": "Flavor",
+     "role": "option",
+     "valueId": 162,
+     "label": "Fish"
+    },
+    {
+     "attributeId": 6,
+     "attributeName": "Special Diet",
+     "role": "attribute",
+     "valueId": 97,
+     "label": "Veterinary Diet"
+    },
+    {
+     "attributeId": 7,
+     "attributeName": "Health Feature",
+     "role": "attribute",
+     "valueId": 121,
+     "label": "Kidney Care"
+    },
+    {
+     "attributeId": 9,
+     "attributeName": "Packaging Type",
+     "role": "option",
+     "valueId": 148,
+     "label": "Pouch"
+    }
+   ]
+  },
+  {
+   "id": 1870,
+   "name": "Fish 85 g",
+   "about_this_item": "<p>ROYAL CANIN® Veterinary Health Nutrition Since 1968, Royal Canin has been following the belief that nutrition plays a key role in supporting the health and wellbeing of cats and dogs. This is why we have designed ROYAL CANIN® veterinary diets around proven nutritional science in partnership with pet professionals and experts, delivering nutrition for pets with specific health needs.</p><p>Certain nutrients can help to support cats with Chronic Renal Insufficiency, which is why the diet you choose for your cat is key to supporting their kidney health. ROYAL CANIN® Renal with Fish pouches are specifically tailored to support adult cats with Chronic Renal Insufficiency. </p><p>ROYAL CANIN® Renal with Fish is suitable for: •\tCats with azotaemic Chronic Kidney Disease with proteinuria (IRIS stage 1 to 4). •\tCats with chronic Kidney Disease (IRIS stage 2 to 4). •\tManagement of calcium oxalate urolith recurrence in cats with impaired renal function. •\tPrevention of recurrence of urolithiasis requiring urine alkalinisation: urate &amp; cystine uroliths.</p><p>Key benefits: •\tRenal support o\tWhen cats&#x27; kidneys are not functioning efficiently, that often means that phosphorus cannot effectively be filtered from the bloodstream. ROYAL CANIN® Renal with Fish provides a low phosphorus content and a number of high-quality proteins to help support kidney health and function.  •\tAdapted Energy o\tSome cats may have a reduced appetite when they experience impaired renal function. To help support your cat if their appetite has recently reduced, ROYAL CANIN® Renal with Fish has an adapted energy content to reduce the volume of each meal.  •\tAromatic choice o\tTo help stimulate your cat&#x27;s appetite in cases of food aversion or reduced appetite, ROYAL CANIN® Renal with Fish has a specific aromatic profile and loaf-like texture to encourage your cat to eat. </p><p>Royal Canin are proud to partner with leading veterinary scientists to produce renal wet food for cats. As part of the ROYAL CANIN® Veterinary Range, it is important that this product is only fed to your pet when recommended by a veterinary professional. Transitioning your pet from one diet to another should be a smooth and gradual process over a 7-10-day period. Please ensure you follow the correct rationing amount when feeding your kidney support cat food.</p><p>Some cats with renal disorders may have a reduced appetite or food aversion, but texture variety can help to support your cat&#x27;s appetite. To cater to each cat&#x27;s individual preferences, ROYAL CANIN® Renal wet pouches are also available in alternative flavours and scents and as a dry food to cater for your cat’s evolving preferences. If you feed your cat a mixed diet of wet and dry food, make sure you follow the on-pack feeding guides to ensure a healthy daily food intake for your cat. </p><p>Please note: Royal Canin Renal with Fish is not suitable for growth, gestation or lactation. </p><ul><li><strong>Renal Support</strong>: Formulated with low phosphorus and moderate protein of high quality to support renal function.</li><li><strong>Adapted Energy</strong>: Adapted energy content to reduce meal volume and help support a reduced appetite.</li><li><strong>Aromatic Choice</strong>: A specific aromatic profile to help stimulate the cat’s appetite, particularly in cases of food aversion.</li></ul>",
+   "ingredient_information": "<p>Composition: Poultry by-products, pork by-products, wheat flour, salmon (4%), powdercellulose, corn starch mixture, pork blood products, sunflower oil refined, minerals, fish oil, fructo-oligo-saccharides, marigold meal. Protein sources: poultry by-products (15.3%), pork by-products (13.7%), salmon (4%).</p><p>Additives (per kg)**: Nutritional additives: Vitamin D3: 190 IU, Iron (3b103): 4 mg, Iodine (3b202): 0.36 mg, Copper (3b405, 3b406): 2.9 mg, Manganese (3b502, 3b503, 3b504): 1.4 mg, Zinc (3b603, 3b605, 3b606): 14 mg - Technological additives: Clinoptilolite of sedimentary origin: 0.2 g.                                     \n**Values reflect only levels added to the formula, not those naturally occurring in components of the diet.</p><p>Analytical constituents: Protein: 6.6%, Fat content: 6.0%, Crude ash: 1.1%, Crude fibres: 1.0%, Moisture: 80.0%, Calcium: 0.14%, Phosphorus: 0.09%, Potassium: 0.18%, Sodium: 0.08%, Magnesium: 0.016%, Chlorides: 0.13%, Sulphur: 0.13%, Vitamin D (total): 330.0 IU/kg, Hydroxyproline: 0.05%, Essential fatty acids (Linoleic acid, Arachidonic acid): 1.54% - Urine alkalising substances: potassium citrate: 0.28%, calcium carbonate: 0.24%.</p>",
+   "feeding_instructions": "",
+   "sku": "9003579000526",
+   "is_default": false,
+   "sort_order": 3,
+   "sale_mode": "pack",
+   "stock_unit_locked": true,
+   "delete_locked": true,
+   "measure_type": "mass",
+   "item_content": 85000,
+   "content": 85,
+   "pack_count": 1,
+   "price": 750,
+   "compare_at_price": null,
+   "min_allowed_price": null,
+   "cost_price": 625,
+   "last_cost_price": null,
+   "last_cost_at": null,
+   "qty_max": null,
+   "track_inventory": true,
+   "out_of_stock_policy": "deny",
+   "backorder_lead_days": null,
+   "low_stock_threshold": null,
+   "reorder_point": null,
+   "reorder_qty": null,
+   "is_purchasable": true,
+   "stock_status": "in_stock",
+   "available_quantity": 10,
+   "stock_levels": [
+    {
+     "warehouse_id": 1,
+     "warehouse_name": "Main warehouse",
+     "warehouse_type": "own",
+     "on_hand": 10,
+     "allocated": 0,
+     "available": 10
+    }
+   ],
+   "suppliers": [],
+   "images": [
+    13717,
+    13720,
+    13723,
+    13726,
+    13729,
+    13195
+   ],
+   "size_label": "85 g",
+   "unit_price": 880,
+   "formatted_unit_price": "880 ֏/100 g",
+   "attribute_values": {
+    "3": [
+     27
+    ],
+    "5": [
+     162
+    ],
+    "6": [
+     97
+    ],
+    "7": [
+     121
+    ],
+    "9": [
+     148
+    ]
+   },
+   "attribute_value_labels": [
+    {
+     "attributeId": 3,
+     "attributeName": "Lifestage",
+     "role": "attribute",
+     "valueId": 27,
+     "label": "Adult"
+    },
+    {
+     "attributeId": 5,
+     "attributeName": "Flavor",
+     "role": "option",
+     "valueId": 162,
+     "label": "Fish"
+    },
+    {
+     "attributeId": 6,
+     "attributeName": "Special Diet",
+     "role": "attribute",
+     "valueId": 97,
+     "label": "Veterinary Diet"
+    },
+    {
+     "attributeId": 7,
+     "attributeName": "Health Feature",
+     "role": "attribute",
+     "valueId": 121,
+     "label": "Kidney Care"
+    },
+    {
+     "attributeId": 9,
+     "attributeName": "Packaging Type",
+     "role": "option",
+     "valueId": 148,
+     "label": "Pouch"
+    }
+   ]
+  }
+ ],
+ "createdAt": "2026-10-01T07:42:53.000000Z",
+ "updatedAt": "2026-10-01T11:27:46.000000Z"
+}

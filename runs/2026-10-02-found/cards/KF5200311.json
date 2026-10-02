@@ -1,0 +1,52 @@
+{
+ "code": "KF5200311",
+ "status": "ready",
+ "hold_reason": null,
+ "name": "Dark Wood Cat Litter",
+ "label": "2 kg (6 l)",
+ "category_ids": [
+  63
+ ],
+ "attributes": {
+  "material": {
+   "value": "Wood",
+   "quote": "из сосновой и еловой древесины"
+  },
+  "product-form": {
+   "value": "Granules",
+   "quote": "древесными гранулами"
+  }
+ },
+ "images": [
+  "https://cdn.poryadok.ru/upload/iblock/94c/94c90a7ad112c03f63db118b4a04b9d4.png",
+  "https://cdn.poryadok.ru/upload/iblock/f45/f45a7a8ee6e057c55e98cfb8d61d656e.png",
+  "https://cdn.poryadok.ru/upload/iblock/64d/64d795647b1de0889e5ceeb6d0d884f2.png",
+  "https://cdn.poryadok.ru/upload/iblock/7fa/7faf5910f4c886c09065981587def7e3.jpg",
+  "https://kotoffey.ru/content/drevesnyj.png"
+ ],
+ "texts": {
+  "about_this_item": "Kotoffey natural wood cat litter made from pine and spruce wood, with no chemical or artificial additives. The wood granules absorb moisture quickly, swelling to three times their weight, and the natural wood scent helps remove unpleasant odours and makes litter training easier. Dust-free and does not stick to paws. Heat-treated.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://kotoffey.ru/drevesnyi-napolnitel",
+  "images_from": "https://poryadok.ru/catalog/napolniteli_dlya_lotka/25760/",
+  "images_ean": "4627106520032",
+  "images_note": "poryadok.ru page carries EAN 4627106520032; front packshot prints ДРЕВЕСНЫЙ 2,0 кг / 3,75 л / 6,0 л, back photo shows barcode 4627106520032. Order: front packshot, back (EAN), side, lifestyle, brand group shot. hafo placeholder dropped."
+ },
+ "type": "litter",
+ "brand_id": 46,
+ "existing_id": null,
+ "first_image": "packshot",
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/KF5200311.source.txt",
+ "size": {
+  "measure_type": "volume",
+  "content": 6000,
+  "pack_count": 1
+ }
+}

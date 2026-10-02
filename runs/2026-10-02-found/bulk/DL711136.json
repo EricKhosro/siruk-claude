@@ -1,0 +1,67 @@
+{
+ "name": "Dried Chicken Breasts",
+ "slug": "derevenskie-lakomstva-dried-chicken-breasts",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711136",
+   "name": "90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "lifestage": [
+     27
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Chicken breast fillet, slowly baked in the oven, lets your dog enjoy the true taste of chicken. An excellent treat for adult dogs of medium and large breeds.</p>",
+   "ingredient_information": "<p>Chicken fillet. Guaranteed analysis per 100 g: protein 62.8 g, fat 2.5 g, moisture 15.42 g, fibre 0.54 g, ash 3.78 g; energy 233.7 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14512,
+    14515,
+    14518
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Куриные грудки сушёные",
+   "variants": {
+    "DL711136": {
+     "about_this_item": "Медленно запечённое в печи куриное филе грудки позволит вашей собаке насладиться истинным вкусом курицы. Превосходное лакомство для взрослых собак средних и крупных пород.",
+     "ingredient_information": "Куриное филе. Гарантированные показатели на 100 г: белок 62,8 г, жир 2,5 г, влага 15,42 г, клетчатка 0,54 г, зола 3,78 г; энергетическая ценность 233,7 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Հավի չորացված կրծքամիս",
+   "variants": {
+    "DL711136": {
+     "about_this_item": "Վառարանում դանդաղ թխված հավի կրծքամսի ֆիլեն թույլ կտա ձեր շանը վայելել հավի իսկական համը։ Գերազանց հյուրասիրություն միջին և խոշոր ցեղերի չափահաս շների համար։",
+     "ingredient_information": "Հավի ֆիլե։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 62,8 գ, ճարպ 2,5 գ, խոնավություն 15,42 գ, թաղանթանյութ 0,54 գ, մոխիր 3,78 գ. էներգետիկ արժեք 233,7 կկալ։"
+    }
+   }
+  }
+ }
+}

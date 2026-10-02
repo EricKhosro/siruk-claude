@@ -1,0 +1,50 @@
+{
+ "code": "DL303976",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Chlorophyll Dental Bones for Small Breeds",
+ "label": "Mint, 60 g",
+ "existing_id": null,
+ "category_ids": [
+  83
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Mint",
+   "quote": "натуральные вкусовые добавки (мята)"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "для собак мелких пород"
+  },
+  "health-feature": {
+   "value": "Digestive Health",
+   "quote": "поддерживают здоровую кишечную флору"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://simbio.kz/upload/iblock/e42/g4460o9j7cd8zg0oghuzh75z0hmru50s.jpg",
+  "https://simbio.kz/upload/iblock/045/5z9e9pc793t05ho6hz8omgwbmffijtpm.jpg",
+  "https://simbio.kz/upload/iblock/a54/3hytxtykqir1f2ycd9irwxdzk8wcss3v.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Zubochistiki mint dental bones with chlorophyll for small-breed dogs (7 pieces) — a multifunctional treat with health benefits. The chlorophyll improves feed digestibility, supports a healthy intestinal flora, helps eliminate toxins and strengthens the immune system.",
+  "ingredient_information": "Wheat protein, protein peptides, fibre, glycerin, sodium caseinate, monostearin, chlorophyll, brewer's yeast, magnesium stearate, essential oils, natural flavourings (mint).",
+  "feeding_instructions": "For dogs up to 10 kg — 1 treat per day."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://simbio.kz/catalog/products/zubochistiki_myatnye_7sht_d_sobak_melkikh_porod_60g_73303976/"
+ },
+ "evidence_file": "cards/DL303976.source.txt"
+}

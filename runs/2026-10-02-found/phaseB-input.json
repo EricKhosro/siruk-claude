@@ -1,0 +1,1682 @@
+[
+{
+"code": "00030302",
+"name": "Classic Leather Collar with Braid",
+"label": "30 mm, 49–58 cm",
+"type": "accessories",
+"type_reason": null,
+"brand_id": 41,
+"category_ids": [
+69
+],
+"existing_id": 1149,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"material": "Leather"
+},
+"wanted_missing": null
+},
+{
+"code": "01082K",
+"name": "Classic Leather Puppy Collar",
+"label": "15 mm, 24–30 cm",
+"type": "accessories",
+"type_reason": null,
+"brand_id": 41,
+"category_ids": [
+69
+],
+"existing_id": null,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"material": "Leather",
+"breed-size": "Small Breeds"
+},
+"wanted_missing": null
+},
+{
+"code": "01662K",
+"name": "Classic Leather Collar",
+"label": "12 mm, 20–24 cm, brown",
+"type": "accessories",
+"type_reason": null,
+"brand_id": 41,
+"category_ids": [
+69
+],
+"existing_id": null,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"material": "Leather",
+"breed-size": "Small Breeds",
+"color-family": "Brown"
+},
+"wanted_missing": null
+},
+{
+"code": "01664K",
+"name": "Classic Leather Collar, padded",
+"label": "12 mm, 20–24 cm, pink",
+"type": "accessories",
+"type_reason": null,
+"brand_id": 41,
+"category_ids": [
+69
+],
+"existing_id": 1148,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"material": "Leather",
+"breed-size": "Small Breeds",
+"color-family": "Pink"
+},
+"wanted_missing": null
+},
+{
+"code": "02004K",
+"name": "Funny Mouse Vinyl Toy",
+"label": "11 cm",
+"type": "toys",
+"type_reason": null,
+"brand_id": 41,
+"category_ids": [
+18
+],
+"existing_id": null,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"toy-type": "Latex & Rubber",
+"material": "Vinyl / PVC",
+"toy-size": "11 cm",
+"toy-feature": "Animal & Figure",
+"color-family": "Color Varies"
+},
+"wanted_missing": null
+},
+{
+"code": "04812K",
+"name": "Padded Leather Collar with Bells",
+"label": "10 mm, 28 cm, pink",
+"type": "accessories",
+"type_reason": null,
+"brand_id": 41,
+"category_ids": [
+69
+],
+"existing_id": null,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"material": "Leather",
+"breed-size": "Small Breeds",
+"color-family": "Pink"
+},
+"wanted_missing": null
+},
+{
+"code": "050026",
+"name": "Meatballs with Rice",
+"label": "Turkey 85 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+82
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 85.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Turkey",
+"ingredient": "Turkey",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "076912",
+"name": "Hairball Malt Paste",
+"label": "Chicken 30 ml",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 26,
+"category_ids": [
+53
+],
+"existing_id": 795,
+"size": {
+"measure_type": "volume",
+"content": 30,
+"pack_count": 1
+},
+"attributes": {
+"health-feature": "Hairball Control",
+"product-form": "Paste",
+"flavor": "Chicken",
+"packaging": "Box"
+},
+"wanted_missing": null
+},
+{
+"code": "10885S",
+"name": "Delights Sticks",
+"label": "Beef, 3 pcs / 75 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+85
+],
+"existing_id": 1190,
+"size": {
+"measure_type": "mass",
+"content": 75.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Beef",
+"special-diet": "Low Fat"
+},
+"wanted_missing": null
+},
+{
+"code": "10940",
+"name": "Excel Calcium",
+"label": "155 tablets",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+43
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 155,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Tablet",
+"active-ingredient": "Calcium",
+"health-feature": "Vitamins & Minerals",
+"packaging": "Tub"
+},
+"wanted_missing": null
+},
+{
+"code": "14460S",
+"name": "Triple Flavour Twisted Sticks",
+"label": "10 pcs / 70 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 70.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Flavor Variety",
+"health-feature": "Dental & Breath Care",
+"special-diet": "Low Fat",
+"breed-size": "All Breeds",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "15253S",
+"name": "Flavours Skewer Bites",
+"label": "100 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+82
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 100.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Flavor Variety",
+"special-diet": "Low Fat",
+"breed-size": "All Breeds",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "20629",
+"name": "Soft Flea Collar for Cats",
+"label": "Sparkle, assorted colours",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+51
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Color Varies"
+},
+"wanted_missing": null
+},
+{
+"code": "20630",
+"name": "Soft Flea Collar for Cats",
+"label": "Reflective, yellow",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+51
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Yellow"
+},
+"wanted_missing": null
+},
+{
+"code": "20632",
+"name": "Soft Flea Collar for Cats",
+"label": "Glitter, grey",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+51
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Grey"
+},
+"wanted_missing": null
+},
+{
+"code": "214946",
+"name": "Calcium Bones for Medium & Large Breeds",
+"label": "Rabbit 90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+82
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Rabbit",
+"ingredient": "Rabbit",
+"lifestage": "Adult",
+"special-diet": "Low Calorie",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "26455351",
+"name": "Prong Collar",
+"label": "3.5 mm, 55 cm",
+"type": "accessories",
+"type_reason": null,
+"brand_id": 41,
+"category_ids": [
+74
+],
+"existing_id": null,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"material": "Metal",
+"color-family": "Silver"
+},
+"wanted_missing": null
+},
+{
+"code": "304016",
+"name": "Calcium Dental Bones for Large Breeds",
+"label": "105 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+83
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 105.0,
+"pack_count": 1
+},
+"attributes": {
+"breed-size": "Large Breeds",
+"health-feature": "Hip & Joint Support",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "909155",
+"name": "Premium Adult Dry Cat Food",
+"label": "Rabbit 14 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 17,
+"category_ids": [
+10
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 14000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Rabbit",
+"health-feature": "Skin & Coat Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "909685",
+"name": "Premium Large Breeds Puppies Dry Dog Food",
+"label": "Chicken 14 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 17,
+"category_ids": [
+3
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 14000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Puppy",
+"breed-size": "Large Breeds",
+"flavor": "Chicken",
+"ingredient": "Chicken Meal",
+"health-feature": "Hip & Joint Support",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "BP10196",
+"name": "Flea & Tick Collar for Dogs",
+"label": "65 cm, green",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+42
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Green",
+"size": "65 cm"
+},
+"wanted_missing": null
+},
+{
+"code": "BP10199",
+"name": "Flea & Tick Collar for Dogs",
+"label": "65 cm, orange",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+42
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Orange",
+"size": "65 cm"
+},
+"wanted_missing": null
+},
+{
+"code": "BP10264",
+"name": "Sensitiv Tear Stain Remover",
+"label": "50 ml",
+"type": "grooming",
+"type_reason": "CSV has no category; eye-area tear-stain lotion filed like Cliny Eye Cleansing Lotion (793, Skin Care)",
+"brand_id": 30,
+"category_ids": [
+33,
+40
+],
+"existing_id": null,
+"size": {
+"measure_type": "volume",
+"content": 50.0,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Liquid",
+"health-feature": "Tear Stain Removal"
+},
+"wanted_missing": null
+},
+{
+"code": "BP12155",
+"name": "Flea & Tick Collar for Large Dogs",
+"label": "85 cm, black",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+42
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Black",
+"breed-size": "Large Breeds"
+},
+"wanted_missing": null
+},
+{
+"code": "BP12509",
+"name": "Kitty's + Taurine + Biotin",
+"label": "75 tablets",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+52
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 75,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Tablet",
+"health-feature": "Vitamins & Minerals",
+"active-ingredient": "Taurine",
+"packaging": "Box"
+},
+"wanted_missing": null
+},
+{
+"code": "BP12511",
+"name": "Kitty's + Cheese",
+"label": "75 tablets",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+52
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 75,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Tablet",
+"health-feature": "Vitamins & Minerals",
+"flavor": "Cheese",
+"packaging": "Box"
+},
+"wanted_missing": null
+},
+{
+"code": "BP12512",
+"name": "Flea & Tick Collar for Dogs",
+"label": "65 cm, black",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+42
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Black",
+"size": "65 cm"
+},
+"wanted_missing": null
+},
+{
+"code": "BP12558",
+"name": "Macadamia Spray",
+"label": "150 ml",
+"type": "grooming",
+"type_reason": "CSV has no category; leave-in coat spray",
+"brand_id": 30,
+"category_ids": [
+29,
+36
+],
+"existing_id": null,
+"size": {
+"measure_type": "volume",
+"content": 150.0,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Spray",
+"health-feature": "Skin & Coat Health"
+},
+"wanted_missing": null
+},
+{
+"code": "BP13207",
+"name": "Flea & Tick Collar for Puppies",
+"label": "65 cm, black",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 30,
+"category_ids": [
+42
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 1,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Collar",
+"health-feature": "Anti-Parasitic",
+"color-family": "Black",
+"size": "65 cm",
+"lifestage": "Puppy"
+},
+"wanted_missing": null
+},
+{
+"code": "CP909145",
+"name": "Premium Adult Dry Cat Food",
+"label": "Chicken 14 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 17,
+"category_ids": [
+10
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 14000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Chicken",
+"health-feature": "Skin & Coat Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "CP909205",
+"name": "Premium Adult Dry Cat Food",
+"label": "Veal 14 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 17,
+"category_ids": [
+10
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 14000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Veal",
+"health-feature": "Skin & Coat Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "DL050046",
+"name": "Sausages with Rice",
+"label": "Turkey 85 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+82
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 85.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Turkey",
+"ingredient": "Turkey",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL050056",
+"name": "Medallions with Rice for Mini Breeds",
+"label": "Turkey 55 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+86
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 55.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Turkey",
+"ingredient": "Turkey",
+"breed-size": "Small Breeds",
+"special-diet": "Hypoallergenic",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL050066",
+"name": "Bones for Mini Breeds",
+"label": "Turkey 55 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 55.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Turkey",
+"ingredient": "Turkey",
+"breed-size": "Small Breeds",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL303976",
+"name": "Chlorophyll Dental Bones for Small Breeds",
+"label": "Mint, 60 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+83
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 60.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Mint",
+"breed-size": "Small Breeds",
+"health-feature": "Digestive Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "DL303986",
+"name": "Chlorophyll Dental Bones for Medium Breeds",
+"label": "Mint, 70 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+83
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 70.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Mint",
+"breed-size": "Medium Breeds",
+"health-feature": "Digestive Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "DL303996",
+"name": "Calcium Dental Bones for Small Breeds",
+"label": "60 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+83
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 60.0,
+"pack_count": 1
+},
+"attributes": {
+"breed-size": "Small Breeds",
+"health-feature": "Hip & Joint Support",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "DL304006",
+"name": "Calcium Dental Bones for Medium Breeds",
+"label": "90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+83
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"breed-size": "Medium Breeds",
+"health-feature": "Hip & Joint Support",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "DL304036",
+"name": "Avocado Dental Chews for Small Breeds",
+"label": "35 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+83
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 35.0,
+"pack_count": 1
+},
+"attributes": {
+"breed-size": "Small Breeds",
+"health-feature": "Skin & Coat Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711136",
+"name": "Dried Chicken Breasts",
+"label": "90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+86
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711156",
+"name": "Dried Chicken Medallions",
+"label": "90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+86
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711176",
+"name": "Chewy Bones",
+"label": "Chicken 90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711196",
+"name": "Twisted Chicken Sticks",
+"label": "90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711206",
+"name": "Tender Chicken Slices",
+"label": "90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+86
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711216",
+"name": "Dried Slices",
+"label": "Duck 90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+86
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Duck",
+"ingredient": "Duck",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711226",
+"name": "Tender Strips",
+"label": "Duck 90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+86
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Duck",
+"ingredient": "Duck",
+"lifestage": "Adult",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711266",
+"name": "Wrapped Chew Sticks for Puppies",
+"label": "Chicken 90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"lifestage": "Puppy",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711276",
+"name": "Dried Rings for Puppies",
+"label": "Chicken 90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+82
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"lifestage": "Puppy",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711406",
+"name": "Breast Cartilage for Mini Breeds",
+"label": "Chicken 30 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+82
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 30.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"breed-size": "Small Breeds",
+"health-feature": "Hip & Joint Support",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "DL711786",
+"name": "Calcium Bones for Puppies",
+"label": "Duck 90 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 38,
+"category_ids": [
+82
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 90.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Duck",
+"ingredient": "Duck",
+"lifestage": "Puppy",
+"special-diet": "High Calcium",
+"packaging": "Pouch"
+},
+"wanted_missing": null
+},
+{
+"code": "IN10240",
+"name": "Delights Bones S",
+"label": "Chicken, 35 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 35.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"health-feature": "Dental & Breath Care",
+"special-diet": "Low Fat",
+"breed-size": "Small Breeds"
+},
+"wanted_missing": null
+},
+{
+"code": "IN10247",
+"name": "Delights Bones L",
+"label": "Chicken, 85 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 85.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"health-feature": "Dental & Breath Care",
+"special-diet": "Low Fat",
+"breed-size": "Large Breeds"
+},
+"wanted_missing": null
+},
+{
+"code": "IN10860",
+"name": "Excel Brewer's Yeast",
+"label": "260 tablets",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+43,
+52
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 260,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Tablet",
+"active-ingredient": "Brewer's Yeast",
+"health-feature": "Skin & Coat Health",
+"packaging": "Tub"
+},
+"wanted_missing": null
+},
+{
+"code": "IN10869",
+"name": "Excel Multi Vitamin Senior",
+"label": "70 tablets",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+43
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 70,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Tablet",
+"lifestage": "Senior",
+"health-feature": "Vitamins & Minerals",
+"packaging": "Tub"
+},
+"wanted_missing": null
+},
+{
+"code": "IN10882",
+"name": "Delights Bones L",
+"label": "Beef, 85 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 85.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Beef",
+"health-feature": "Dental & Breath Care",
+"special-diet": "Low Fat",
+"breed-size": "Large Breeds"
+},
+"wanted_missing": null
+},
+{
+"code": "IN10952",
+"name": "Excel Brewer's Yeast Large Breed",
+"label": "80 tablets",
+"type": "supplements",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+43
+],
+"existing_id": null,
+"size": {
+"measure_type": "count",
+"content": 80,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Tablet",
+"active-ingredient": "Brewer's Yeast",
+"health-feature": "Skin & Coat Health",
+"breed-size": "Large Breeds",
+"packaging": "Tub"
+},
+"wanted_missing": null
+},
+{
+"code": "IN11066",
+"name": "Delights Bones Strong XS",
+"label": "Chicken, 7 pcs / 140 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 140.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"health-feature": "Dental & Breath Care",
+"special-diet": "Low Fat",
+"breed-size": "Extra Small Breeds"
+},
+"wanted_missing": null
+},
+{
+"code": "IN12247",
+"name": "Delights Twisted Sticks",
+"label": "Chicken, 10 pcs / 55 g",
+"type": "treats",
+"type_reason": null,
+"brand_id": 31,
+"category_ids": [
+85
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 55.0,
+"pack_count": 1
+},
+"attributes": {
+"flavor": "Chicken",
+"health-feature": "Dental & Breath Care",
+"special-diet": "Low Fat"
+},
+"wanted_missing": null
+},
+{
+"code": "KF5200111",
+"name": "Clumping Cat Litter",
+"label": "2.7 kg (4.8 l)",
+"type": "litter",
+"type_reason": null,
+"brand_id": 46,
+"category_ids": [
+60
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 2700.0,
+"pack_count": 1
+},
+"attributes": {},
+"wanted_missing": null
+},
+{
+"code": "KF5200211",
+"name": "Hygienic Cat Litter",
+"label": "2.7 kg (4.8 l)",
+"type": "litter",
+"type_reason": null,
+"brand_id": 46,
+"category_ids": [
+63
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 2700.0,
+"pack_count": 1
+},
+"attributes": {
+"product-form": "Granules"
+},
+"wanted_missing": null
+},
+{
+"code": "KF5200311",
+"name": "Dark Wood Cat Litter",
+"label": "2 kg (6 l)",
+"type": "litter",
+"type_reason": null,
+"brand_id": 46,
+"category_ids": [
+63
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 2000.0,
+"pack_count": 1
+},
+"attributes": {
+"material": "Wood",
+"product-form": "Granules"
+},
+"wanted_missing": null
+},
+{
+"code": "KF5200411",
+"name": "Light Wood Cat Litter",
+"label": "2 kg (6 l)",
+"type": "litter",
+"type_reason": null,
+"brand_id": 46,
+"category_ids": [
+63
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 2000.0,
+"pack_count": 1
+},
+"attributes": {
+"material": "Wood",
+"product-form": "Granules"
+},
+"wanted_missing": null
+},
+{
+"code": "MG006147",
+"name": "Medium Adult",
+"label": "Chicken 15 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 5,
+"category_ids": [
+3
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 15000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"breed-size": "Medium Breeds",
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "MG006197",
+"name": "Medium Starter",
+"label": "Chicken 15 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 5,
+"category_ids": [
+3
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 15000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Puppy",
+"breed-size": "Medium Breeds",
+"flavor": "Chicken",
+"ingredient": "Chicken",
+"health-feature": "Digestive Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "PG900025",
+"name": "Adult Dry Dog Food",
+"label": "Meat Assortment 10 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 45,
+"category_ids": [
+3
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 10000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Meat",
+"health-feature": "Skin & Coat Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "PG901425",
+"name": "Adult Dry Dog Food",
+"label": "Veal & Rice 10 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 45,
+"category_ids": [
+3
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 10000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Veal",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "PM902075",
+"name": "Adult Dry Cat Food",
+"label": "Rabbit 11 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 35,
+"category_ids": [
+10
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 11000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Rabbit",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "PM902085",
+"name": "Adult Dry Cat Food",
+"label": "Chicken 11 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 35,
+"category_ids": [
+10
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 11000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Chicken",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "PM902105",
+"name": "Adult Dry Cat Food",
+"label": "Meat, Rice & Vegetables 11 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 35,
+"category_ids": [
+10
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 11000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Meat",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "REG00030",
+"name": "Premium Adult Dry Cat Food",
+"label": "Salmon 14 kg",
+"type": "dry-food",
+"type_reason": null,
+"brand_id": 17,
+"category_ids": [
+10
+],
+"existing_id": null,
+"size": {
+"measure_type": "mass",
+"content": 14000.0,
+"pack_count": 1
+},
+"attributes": {
+"lifestage": "Adult",
+"flavor": "Salmon",
+"health-feature": "Skin & Coat Health",
+"packaging": "Bag"
+},
+"wanted_missing": null
+},
+{
+"code": "TX000751",
+"name": "Soft Ball",
+"label": "4.5 cm",
+"type": "toys",
+"type_reason": null,
+"brand_id": 8,
+"category_ids": [
+24
+],
+"existing_id": null,
+"size": {
+"measure_type": null,
+"content": null,
+"pack_count": null
+},
+"attributes": {
+"toy-type": "Ball",
+"material": "Foam",
+"toy-size": "4.5 cm",
+"color-family": "Color Varies"
+},
+"wanted_missing": null
+}
+]

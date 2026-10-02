@@ -1,0 +1,48 @@
+{
+ "code": "PG900025",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 45,
+ "name": "Adult Dry Dog Food",
+ "label": "Meat Assortment 10 kg",
+ "existing_id": null,
+ "category_ids": [
+  3
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "lifestage": {
+   "value": "Adult",
+   "quote": "для взрослых собак мясное ассорти"
+  },
+  "flavor": {
+   "value": "Meat",
+   "quote": "мясное ассорти"
+  },
+  "health-feature": {
+   "value": "Skin & Coat Health",
+   "quote": "Содержит жирные кислоты Омега 3 и Омега 6, которые обеспечивают шелковистую и блестящую шерсть"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://zootovary.ua/images/products/gav/6271/69a82129ceb9f.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Gav! balanced complete dry food for adult dogs, meat assortment. Contains all the nutrients a dog needs for a full life. Omega 3 and Omega 6 fatty acids for a silky, shiny coat; supports strong immunity and efficient metabolism; calorie content matched to a dog's energy needs; vitamin and mineral complex. Made in Ukraine by Kormotech.",
+  "ingredient_information": "Composition: cereals, plant-derived products, meat and animal-derived products (5% chicken, 4% beef), oils and fats, minerals, yeast. Technological additives: antioxidants, preservatives. Sensory additives: colourants. Guaranteed analysis: protein 16.5%, fat 9.0%, ash 6.0%, fibre 3.0%, Omega 6 5.8%, calcium 1.0%, phosphorus 0.8%; 343 kcal/100 g.",
+  "feeding_instructions": "Daily amount by dog weight: 5 kg 104-107 g, 10 kg 176-180 g, 15 kg 238-244 g, 20 kg 296-303 g, 25 kg 349-359 g, 30 kg 401-411 g, 35 kg 450-461 g, 40 kg 497-510 g, 45 kg 543-557 g, 50 kg 588-603 g, 60 kg 674-691 g, 70 kg 756-776 g. Always provide fresh drinking water."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://zootovary.ua/gav/suhoi-korm-dlya-sobak-myasnoe-assorti-p-6271.html"
+ },
+ "evidence_file": "cards/PG900025.source.txt"
+}

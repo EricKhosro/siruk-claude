@@ -1,0 +1,48 @@
+{
+ "code": "01662K",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "accessories",
+ "brand_id": 41,
+ "name": "Classic Leather Collar",
+ "label": "12 mm, 20–24 cm, brown",
+ "existing_id": null,
+ "category_ids": [
+  69
+ ],
+ "attributes": {
+  "material": {
+   "value": "Leather",
+   "quote": "Основной материал Кожа"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "Мелкие породы Да"
+  },
+  "color-family": {
+   "value": "Brown",
+   "quote": "շագանակագույն"
+  },
+  "size": {
+   "value": "12 mm × 20–24 cm",
+   "quote": "ширина 12 мм, обхват шеи от 20 до 24 см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/299/lx1lmk3e8tzgmamu8511cb8w5rt8frnx.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Kaskad Classic dog collar made of genuine high-quality leather with strong metal fittings. Width 12 mm, fits a neck girth of 20–24 cm. Features a steel D-ring, 5 adjustment holes and a metal buckle. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_shirina_12_mm_obkhvat_shei_ot_20_do_24_sm/"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/01662K.source.txt"
+}

@@ -1,0 +1,58 @@
+{
+ "name": "Hygienic Cat Litter",
+ "slug": "kotoffey-hygienic-cat-litter",
+ "category_ids": [
+  63
+ ],
+ "brand_id": 46,
+ "attribute_family_id": 9,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "KF5200211",
+   "name": "2.7 kg (4.8 l)",
+   "price": 1750.0,
+   "cost_price": 1090.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     553
+    ]
+   },
+   "about_this_item": "<p>Kotoffey hygienic cat litter with large granules, especially recommended for long-haired cats as the granules do not get caught in the coat. It neutralises unpleasant odours throughout use, is dust-free and does not stick to paws. The antibacterial properties of natural clay help prevent the growth of harmful microorganisms. Heat-treated and safe if accidentally swallowed.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14698,
+    14701,
+    14704,
+    14707,
+    14710
+   ],
+   "measure_type": "volume",
+   "content": 4800,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Гигиенический наполнитель для кошачьего туалета",
+   "variants": {
+    "KF5200211": {
+     "about_this_item": "Гигиенический наполнитель Kotoffey для кошачьего туалета с крупными гранулами, особенно рекомендуется для длинношёрстных кошек, так как гранулы не застревают в шерсти. Нейтрализует неприятные запахи в течение всего срока использования, не пылит и не прилипает к лапам. Антибактериальные свойства природной глины помогают предотвратить размножение вредных микроорганизмов. Прошёл термическую обработку и безопасен при случайном проглатывании."
+    }
+   }
+  },
+  "hy": {
+   "name": "Հիգիենիկ լցանյութ կատուների զուգարանի համար",
+   "variants": {
+    "KF5200211": {
+     "about_this_item": "Kotoffey հիգիենիկ լցանյութ կատուների զուգարանի համար՝ խոշոր հատիկներով, հատկապես խորհուրդ է տրվում երկարամազ կատուների համար, քանի որ հատիկները չեն խրվում բրդի մեջ։ Չեզոքացնում է տհաճ հոտերը օգտագործման ողջ ընթացքում, փոշի չի առաջացնում և չի կպչում թաթերին։ Բնական կավի հակաբակտերիալ հատկությունները օգնում են կանխել վնասակար միկրոօրգանիզմների բազմացումը։ Անցել է ջերմային մշակում և անվտանգ է պատահաբար կուլ տալու դեպքում։"
+    }
+   }
+  }
+ }
+}

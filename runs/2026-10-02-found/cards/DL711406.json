@@ -1,0 +1,54 @@
+{
+ "code": "DL711406",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Breast Cartilage for Mini Breeds",
+ "label": "Chicken 30 g",
+ "existing_id": null,
+ "category_ids": [
+  82
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Хрящики куриной грудки"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "хрящ куриный"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "собак миниатюрных пород"
+  },
+  "health-feature": {
+   "value": "Hip & Joint Support",
+   "quote": "необходимы для крепких суставов"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/645/c2mljtev1m3fw4d7nzo8hegmeappwz0a.png",
+  "https://derlak.ru/upload/iblock/9e3/imim06k3y84zoejzfsgu17jofeqo1omu.png",
+  "https://derlak.ru/upload/iblock/03d/1p6iq7k0hyx1qu6a6dinfxsify76iiow.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Chicken breast cartilage treats for miniature-breed dogs. Rich in the vitamins and minerals needed for strong joints in small dogs.",
+  "ingredient_information": "Chicken cartilage, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 45 g, fat 1.5 g, moisture 20 g, fibre 0.2 g, ash 3.5 g; energy 345 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-dlya-mini-porod-khryashchiki-kurinoy-grudki-30g-art-79711403/"
+ },
+ "evidence_file": "cards/DL711406.source.txt"
+}

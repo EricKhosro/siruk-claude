@@ -1,0 +1,70 @@
+{
+ "name": "Calcium Bones for Medium & Large Breeds",
+ "slug": "derevenskie-lakomstva-calcium-bones-for-medium-large-breeds",
+ "category_ids": [
+  82
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "214946",
+   "name": "Rabbit 90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     52
+    ],
+    "ingredient": [
+     485
+    ],
+    "lifestage": [
+     27
+    ],
+    "special-diet": [
+     80
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>A calcium bone with lean rabbit meat. A low-calorie treat for dogs that love to crunch without harming their figure. Made for adult dogs of medium and large breeds.</p>",
+   "ingredient_information": "<p>Rabbit meat, chicken meat, calcium bone, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 23%, fat 4%, moisture 18%, fibre 3%, ash 7%; energy 284 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14302,
+    14305,
+    14308
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кальциевые косточки для средних и крупных пород",
+   "variants": {
+    "214946": {
+     "about_this_item": "Кальциевая косточка с диетическим мясом кролика. Низкокалорийное лакомство для собак, которые любят похрустеть без вреда для фигуры. Разработано для взрослых собак средних и крупных пород.",
+     "ingredient_information": "Мясо кролика, мясо курицы, кальциевая косточка, субпродукты растительного происхождения, минералы. Гарантированные показатели на 100 г: белок 23%, жир 4%, влага 18%, клетчатка 3%, зола 7%; энергетическая ценность 284 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կալցիումային ոսկորիկներ միջին և խոշոր ցեղատեսակների համար",
+   "variants": {
+    "214946": {
+     "about_this_item": "Կալցիումային ոսկորիկ՝ նապաստակի դիետիկ մսով։ Ցածր կալորիականությամբ հյուրասիրություն այն շների համար, որոնք սիրում են կրծել՝ առանց կազմվածքին վնասելու։ Նախատեսված է միջին և խոշոր ցեղատեսակների չափահաս շների համար։",
+     "ingredient_information": "Նապաստակի միս, հավի միս, կալցիումային ոսկոր, բուսական ծագման ենթամթերքներ, հանքանյութեր։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 23%, ճարպ 4%, խոնավություն 18%, թաղանթանյութ 3%, մոխիր 7%. էներգետիկ արժեքը՝ 284 կկալ։"
+    }
+   }
+  }
+ }
+}

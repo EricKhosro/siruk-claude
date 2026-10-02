@@ -3,7 +3,7 @@
     "Pacing / retry knobs for everything in scripts/. All times are SECONDS",
     "(decimals allowed). Edit this file — the scripts read it on every call, no",
     "restart needed. Env vars win over the file: SIRUK_DELAY, SIRUK_CHUNK_SIZE,",
-    "SIRUK_CHUNK_PAUSE, SIRUK_MEDIA_DELAY, SIRUK_RETRIES, MAX_PX.",
+    "SIRUK_CHUNK_PAUSE, SIRUK_MEDIA_DELAY, SIRUK_RETRIES, SIRUK_TIMEOUT, MAX_PX.",
     "SIRUK_NO_PACE=1 disables all waiting for one command (single ad-hoc calls).",
     "SIRUK_CONFIG=/path/other.json points at a different config file.",
     "Turn any knob off with 0."
@@ -55,6 +55,11 @@
   "product": {
     "_comment": "pause_seconds is the breather between two CSV rows in an import run — call scripts/pace.sh product between products.",
     "pause_seconds": 3
+  },
+  "bulk": {
+    "_comment": "scripts/bulk-create.py → POST /products/bulk (siruk-web 2026-10-01). The server caps one request at 100 products (catalog.bulk_create_max); each item is a full product write, so keep requests smaller and give them a long timeout. The POST is never auto-retried.",
+    "max_per_request": 25,
+    "timeout_seconds": 300
   },
   "images": {
     "_comment": [
@@ -207,12 +212,22 @@
         "rank_other_images": 8
       },
       {
+        "id": "google-lens",
+        "enabled": true,
+        "kind": "browser",
+        "lookup_script": ".venv-scrapling/bin/python scripts/google-lens.py",
+        "requires_hand_confirmation": true,
+        "_note": "User rule 2026-10-01: before any hafo photo is used, search Google for the EAN / article (web + Images) and run Google Lens on hafo's photo of our article, in a headed real Chrome driven by Scrapling (scripts/google-lens.py, the /google-lens skill; persistent profile .siruk-cache/google-profile). A CAPTCHA is handed to the user — the script waits for them, never solves it. Every try is logged on needs-image.csv. reference/image-sources.md -> 'Google and Google Lens before hafo'. Since 2026-10-02 the same script's 'page' jobs also read result pages for texts when the brand has no product page; hafo's Armenian content_html is the last text fallback (needs-text.csv). reference/image-sources.md -> 'Texts when the brand has no page'.",
+        "rank_first_image": 8,
+        "rank_other_images": 8
+      },
+      {
         "id": "hafo",
         "enabled": true,
         "watermarked": true,
         "rank": 9,
         "gallery_position": "last",
-        "use_when": "the earlier sources gave the variant fewer than two pictures",
+        "use_when": "google-lens (and every rung above) gave the variant fewer than two pictures",
         "log_to": "runs/<date>/needs-image.csv"
       }
     ]

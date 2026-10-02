@@ -1,0 +1,58 @@
+{
+ "code": "BP13207",
+ "status": "ready",
+ "hold_reason": null,
+ "brand_id": 30,
+ "price": {
+  "source": "prepared"
+ },
+ "existing_id": null,
+ "first_image": "packshot",
+ "evidence_file": "cards/BP13207.source.txt",
+ "type": "supplements",
+ "name": "Flea & Tick Collar for Puppies",
+ "label": "65 cm, black",
+ "size": {
+  "measure_type": "count",
+  "content": 1,
+  "pack_count": 1
+ },
+ "category_ids": [
+  42
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Collar",
+   "quote": "ошейник"
+  },
+  "health-feature": {
+   "value": "Anti-Parasitic",
+   "quote": "от блох и клещей"
+  },
+  "color-family": {
+   "value": "Black",
+   "quote": "черный"
+  },
+  "size": {
+   "value": "65 cm",
+   "quote": "65 см"
+  },
+  "lifestage": {
+   "value": "Puppy",
+   "quote": "для щенков"
+  }
+ },
+ "images": [
+  "https://zooman.ru/upload/iblock/985/towu3whbi0c5l71ol4b3mxpip1dl1014.jpeg",
+  "https://zooman.ru/upload/iblock/62f/158kha9ghrrqwc6rsc6zks123b0o3x2p.jpeg"
+ ],
+ "texts": {
+  "about_this_item": "Beaphar flea and tick collar for puppies, black, 65 cm. Kills parasites and protects against re-infestation by fleas and ticks for 6 months. Water-resistant.",
+  "ingredient_information": "Diazinon.",
+  "feeding_instructions": "Fit the collar loosely around the dog's neck and cut off the excess strap, allowing for growth. The collar works only when worn continuously; it is water-resistant, so the dog can be bathed without removing it."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://zooman.ru/catalog/products/beaphar_osheynik_ot_blokh_i_kleshchey_6mes_65sm_d_shchenkov_chernyy/"
+ }
+}

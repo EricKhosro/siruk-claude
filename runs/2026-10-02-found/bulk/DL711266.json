@@ -1,0 +1,67 @@
+{
+ "name": "Wrapped Chew Sticks for Puppies",
+ "slug": "derevenskie-lakomstva-wrapped-chew-sticks-for-puppies",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711266",
+   "name": "Chicken 90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "lifestage": [
+     25
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>A chew stick tightly wrapped in chicken meat, letting your puppy enjoy the taste of chicken while having something to chew on for its teeth.</p>",
+   "ingredient_information": "<p>Chicken meat, beef rawhide. Guaranteed analysis per 100 g: protein 51.9 g, fat 3.08 g, moisture 16.08 g, fibre 0.1 g, ash 2.97 g; energy 235.32 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14575,
+    14578,
+    14581
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Рулетики для щенков",
+   "variants": {
+    "DL711266": {
+     "about_this_item": "Жевательная палочка, плотно обёрнутая куриным мясом, позволит вашему щенку наслаждаться вкусом курицы и при этом иметь что погрызть для своих зубов.",
+     "ingredient_information": "Куриное мясо, сыромятная кожа говяжья. Гарантированные показатели на 100 г: белок 51,9 г, жир 3,08 г, влага 16,08 г, клетчатка 0,1 г, зола 2,97 г; энергетическая ценность 235,32 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Փաթաթված ծամելու ձողիկներ ձագերի համար",
+   "variants": {
+    "DL711266": {
+     "about_this_item": "Հավի մսով ամուր փաթաթված ծամելու ձողիկ, որը թույլ կտա ձեր ձագին վայելել հավի համը և միաժամանակ ատամների համար ծամելու բան ունենալ։",
+     "ingredient_information": "Հավի միս, տավարի չմշակված կաշի։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 51,9 գ, ճարպ 3,08 գ, խոնավություն 16,08 գ, թաղանթանյութ 0,1 գ, մոխիր 2,97 գ. էներգետիկ արժեք 235,32 կկալ։"
+    }
+   }
+  }
+ }
+}

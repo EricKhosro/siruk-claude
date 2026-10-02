@@ -1,0 +1,44 @@
+{
+ "type": "grooming",
+ "brand_id": 42,
+ "existing_id": null,
+ "name": "Cleaning Paw Spray",
+ "label": "125 ml",
+ "category_ids": [
+  31,
+  38
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Spray",
+   "quote": "Спрей"
+  },
+  "health-feature": {
+   "value": "Paw Care",
+   "quote": "очищающий для лап"
+  }
+ },
+ "images": [
+  "https://cdn.eapteka.ru/upload/offer_photo/317/764/1.jpeg"
+ ],
+ "texts": {
+  "about_this_item": "Pchelodar ZooArena cleaning paw spray for dogs and cats: a gentle, leave-in hygiene product that quickly removes dirt from paws, skin and coat without rinsing. Its active components penetrate and soften dirt and remove unpleasant odour. Moisturises, nourishes and restores the coat, adds shine, reduces static and makes brushing easier. Hypoallergenic formula, suitable for sensitive skin and frequent use — handy at shows, at the vet and when travelling.",
+  "ingredient_information": "EDTA, sodium laureth sulfate, cocamidopropyl betaine, cetrimonium chloride, fragrance, auxiliary components.",
+  "feeding_instructions": "Shake the bottle, spray generously onto the dirty areas and wipe off with a cloth. No rinsing needed."
+ },
+ "source": {
+  "kind": "web",
+  "url": "https://biostyle.biz/catalog/pchelodar_sprey_ochishchayushchiy_dlya_lap_zhivotnykh_125ml_453_36_kor/",
+  "images_from": "https://www.eapteka.ru/goods/id317764/ (prints EAN 4607145632453)",
+  "article": "1041",
+  "ean": "4607145632453"
+ },
+ "code": "63245PCHL",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/63245PCHL.source.txt"
+}

@@ -1,0 +1,607 @@
+{
+ "done": {
+  "988": {
+   "renamed": {
+    "5621212-KG": "5621212-1KG"
+   },
+   "added": [
+    "5621212-KG"
+   ],
+   "tr": {
+    "ru": "product 988 [ru]: name='Classics Wild Coast, сухой корм для собак, 9,7 кг'  variants=3  OK",
+    "hy": "product 988 [hy]: name='Classics Wild Coast, չոր կեր շների համար, 9,7 կգ'  variants=3  OK"
+   }
+  },
+  "636": {
+   "renamed": {
+    "MG006117-KG": "MG006117-1KG",
+    "MG006067-KG": "MG006067-1KG",
+    "MG006077-KG": "MG006077-1KG"
+   },
+   "added": [
+    "MG006117-KG",
+    "MG006067-KG",
+    "MG006077-KG"
+   ],
+   "tr": {
+    "ru": "product 636 [ru]: name='Mini Adult'  variants=10  OK",
+    "hy": "product 636 [hy]: name='Mini Adult'  variants=10  OK"
+   }
+  },
+  "639": {
+   "renamed": {
+    "011217-KG": "011217-1KG",
+    "006487-KG": "006487-1KG"
+   },
+   "added": [
+    "011217-KG",
+    "006487-KG"
+   ],
+   "tr": {
+    "ru": "product 639 [ru]: name='Для всех пород Puppy & Junior'  variants=7  OK",
+    "hy": "product 639 [hy]: name='Բոլոր ցեղատեսակների Puppy & Junior'  variants=7  OK"
+   }
+  },
+  "964": {
+   "renamed": {
+    "5431112-KG": "5431112-1KG"
+   },
+   "added": [
+    "5431112-KG"
+   ],
+   "tr": {
+    "ru": "product 964 [ru]: name='Highest Protein Ranchlands, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 964 [hy]: name='Highest Protein Ranchlands, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "993": {
+   "renamed": {
+    "5601112-KG": "5601112-1KG"
+   },
+   "added": [
+    "5601112-KG"
+   ],
+   "tr": {
+    "ru": "product 993 [ru]: name='Classics Prairie Poultry, сухой корм для собак, 9,7 кг'  variants=3  OK",
+    "hy": "product 993 [hy]: name='Classics Prairie Poultry, չոր կեր շների համար, 9,7 կգ'  variants=3  OK"
+   }
+  },
+  "1000": {
+   "renamed": {
+    "5611212-KG": "5611212-1KG"
+   },
+   "added": [
+    "5611212-KG"
+   ],
+   "tr": {
+    "ru": "product 1000 [ru]: name='Classics Red Meat, сухой корм для собак, 9,7 кг'  variants=3  OK",
+    "hy": "product 1000 [hy]: name='Classics Red Meat, չոր կեր շների համար, 9,7 կգ'  variants=3  OK"
+   }
+  },
+  "1006": {
+   "renamed": {
+    "5401112-KG": "5401112-1KG"
+   },
+   "added": [
+    "5401112-KG"
+   ],
+   "tr": {
+    "ru": "product 1006 [ru]: name='Highest Protein Wild Prairie, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1006 [hy]: name='Highest Protein Wild Prairie, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1009": {
+   "renamed": {
+    "5121112-KG": "5121112-1KG"
+   },
+   "added": [
+    "5121112-KG"
+   ],
+   "tr": {
+    "ru": "product 1009 [ru]: name='Light & Fit, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1009 [hy]: name='Light & Fit, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1015": {
+   "renamed": {
+    "2815412-KG": "2815412-1KG"
+   },
+   "added": [
+    "2815412-KG"
+   ],
+   "tr": {
+    "ru": "product 1015 [ru]: name='Six Fish, сухой корм для кошек, 5,4 кг'  variants=3  OK",
+    "hy": "product 1015 [hy]: name='Six Fish, չոր կեր կատուների համար, 5,4 կգ'  variants=3  OK"
+   }
+  },
+  "1018": {
+   "renamed": {
+    "5721212-KG": "5721212-1KG"
+   },
+   "added": [
+    "5721212-KG"
+   ],
+   "tr": {
+    "ru": "product 1018 [ru]: name='Singles Yorkshire Pork, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1018 [hy]: name='Singles Yorkshire Pork, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1021": {
+   "renamed": {
+    "AC5301112-KG": "AC5301112-1KG"
+   },
+   "added": [
+    "AC5301112-KG"
+   ],
+   "tr": {
+    "ru": "product 1021 [ru]: name='Sport & Agility, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1021 [hy]: name='Sport & Agility, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1024": {
+   "renamed": {
+    "AC5701212-KG": "AC5701212-1KG"
+   },
+   "added": [
+    "AC5701212-KG"
+   ],
+   "tr": {
+    "ru": "product 1024 [ru]: name='Singles Grass-Fed Lamb, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1024 [hy]: name='Singles Grass-Fed Lamb, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1026": {
+   "renamed": {
+    "AC5026012-KG": "AC5026012-1KG"
+   },
+   "added": [
+    "AC5026012-KG"
+   ],
+   "tr": {
+    "ru": "product 1026 [ru]: name='Puppy Small Breed, сухой корм для щенков, 6 кг'  variants=3  OK",
+    "hy": "product 1026 [hy]: name='Puppy Small Breed, չոր կեր շան ձագերի համար, 6 կգ'  variants=3  OK"
+   }
+  },
+  "1029": {
+   "renamed": {
+    "AC5001112-KG": "AC5001112-1KG"
+   },
+   "added": [
+    "AC5001112-KG"
+   ],
+   "tr": {
+    "ru": "product 1029 [ru]: name='Puppy, сухой корм для щенков, 11,4 кг'  variants=3  OK",
+    "hy": "product 1029 [hy]: name='Puppy, չոր կեր շան ձագերի համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1031": {
+   "renamed": {
+    "AC5236012-KG": "AC5236012-1KG"
+   },
+   "added": [
+    "AC5236012-KG"
+   ],
+   "tr": {
+    "ru": "product 1031 [ru]: name='Adult Small Breed, сухой корм для собак, 6 кг'  variants=3  OK",
+    "hy": "product 1031 [hy]: name='Adult Small Breed, չոր կեր շների համար, 6 կգ'  variants=3  OK"
+   }
+  },
+  "1033": {
+   "renamed": {
+    "AC5421112-KG": "AC5421112-1KG"
+   },
+   "added": [
+    "AC5421112-KG"
+   ],
+   "tr": {
+    "ru": "product 1033 [ru]: name='Highest Protein Grasslands, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1033 [hy]: name='Highest Protein Grasslands, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1035": {
+   "renamed": {
+    "AC5411112-KG": "AC5411112-1KG"
+   },
+   "added": [
+    "AC5411112-KG"
+   ],
+   "tr": {
+    "ru": "product 1035 [ru]: name='Highest Protein Pacifica, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1035 [hy]: name='Highest Protein Pacifica, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1036": {
+   "renamed": {
+    "AC5711212-KG": "AC5711212-1KG"
+   },
+   "added": [
+    "AC5711212-KG"
+   ],
+   "tr": {
+    "ru": "product 1036 [ru]: name='Singles Free-Run Duck, сухой корм для собак, 11,4 кг'  variants=3  OK",
+    "hy": "product 1036 [hy]: name='Singles Free-Run Duck, չոր կեր շների համար, 11,4 կգ'  variants=3  OK"
+   }
+  },
+  "1152": {
+   "renamed": {
+    "011137-KG": "011137-1KG",
+    "011347-KG": "011347-1KG",
+    "011327-KG": "011327-1KG",
+    "011307-KG": "011307-1KG",
+    "011157-KG": "011157-1KG",
+    "011397-KG": "011397-1KG"
+   },
+   "added": [
+    "011137-KG",
+    "011347-KG",
+    "011327-KG",
+    "011307-KG",
+    "011157-KG",
+    "011397-KG"
+   ],
+   "tr": {
+    "ru": "product 1152 [ru]: name='Для всех пород Adult'  variants=18  OK",
+    "hy": "product 1152 [hy]: name='Բոլոր ցեղատեսակների Adult'  variants=18  OK"
+   }
+  },
+  "1153": {
+   "renamed": {
+    "MG006107-KG": "MG006107-1KG",
+    "005947-KG": "005947-1KG",
+    "005937-KG": "005937-1KG"
+   },
+   "added": [
+    "MG006107-KG",
+    "005947-KG",
+    "005937-KG"
+   ],
+   "tr": {
+    "ru": "product 1153 [ru]: name='Mini Puppy & Junior'  variants=9  OK",
+    "hy": "product 1153 [hy]: name='Mini Puppy & Junior'  variants=9  OK"
+   }
+  },
+  "1154": {
+   "renamed": {
+    "MG006087-KG": "MG006087-1KG"
+   },
+   "added": [
+    "MG006087-KG"
+   ],
+   "tr": {
+    "ru": "product 1154 [ru]: name='Mini Starter'  variants=3  OK",
+    "hy": "product 1154 [hy]: name='Mini Starter'  variants=3  OK"
+   }
+  },
+  "1155": {
+   "renamed": {
+    "MG006347-KG": "MG006347-1KG"
+   },
+   "added": [
+    "MG006347-KG"
+   ],
+   "tr": {
+    "ru": "product 1155 [ru]: name='Medium Puppy & Junior'  variants=3  OK",
+    "hy": "product 1155 [hy]: name='Medium Puppy & Junior'  variants=3  OK"
+   }
+  },
+  "1156": {
+   "renamed": {
+    "MG006027-KG": "MG006027-1KG"
+   },
+   "added": [
+    "MG006027-KG"
+   ],
+   "tr": {
+    "ru": "product 1156 [ru]: name='Maxi Puppy & Junior'  variants=3  OK",
+    "hy": "product 1156 [hy]: name='Maxi Puppy & Junior'  variants=3  OK"
+   }
+  },
+  "1157": {
+   "renamed": {
+    "004417-KG": "004417-1KG"
+   },
+   "added": [
+    "004417-KG"
+   ],
+   "tr": {
+    "ru": "product 1157 [ru]: name='Maxi Adult'  variants=3  OK",
+    "hy": "product 1157 [hy]: name='Maxi Adult'  variants=3  OK"
+   }
+  },
+  "1158": {
+   "renamed": {
+    "011757-KG": "011757-1KG",
+    "011797-KG": "011797-1KG"
+   },
+   "added": [
+    "011757-KG",
+    "011797-KG"
+   ],
+   "tr": {
+    "ru": "product 1158 [ru]: name='BWild Low Grain для всех пород Adult'  variants=6  OK",
+    "hy": "product 1158 [hy]: name='BWild Low Grain բոլոր ցեղատեսակների Adult'  variants=6  OK"
+   }
+  },
+  "1159": {
+   "renamed": {
+    "011897-KG": "011897-1KG"
+   },
+   "added": [
+    "011897-KG"
+   ],
+   "tr": {
+    "ru": "product 1159 [ru]: name='BWild Low Grain для всех пород Puppy & Junior'  variants=3  OK",
+    "hy": "product 1159 [hy]: name='BWild Low Grain բոլոր ցեղատեսակների Puppy & Junior'  variants=3  OK"
+   }
+  },
+  "1160": {
+   "renamed": {
+    "011737-KG": "011737-1KG"
+   },
+   "added": [
+    "011737-KG"
+   ],
+   "tr": {
+    "ru": "product 1160 [ru]: name='BWild Grain Free для всех пород Adult'  variants=3  OK",
+    "hy": "product 1160 [hy]: name='BWild Grain Free բոլոր ցեղատեսակների Adult'  variants=3  OK"
+   }
+  },
+  "1161": {
+   "renamed": {
+    "MG 004797-KG": "MG 004797-1KG"
+   },
+   "added": [
+    "MG 004797-KG"
+   ],
+   "tr": {
+    "ru": "product 1161 [ru]: name='Hairball Cat'  variants=3  OK",
+    "hy": "product 1161 [hy]: name='Hairball Cat'  variants=3  OK"
+   }
+  },
+  "1162": {
+   "renamed": {
+    "MG 004827-KG": "MG 004827-1KG"
+   },
+   "added": [
+    "MG 004827-KG"
+   ],
+   "tr": {
+    "ru": "product 1162 [ru]: name='Indoor Cat'  variants=3  OK",
+    "hy": "product 1162 [hy]: name='Indoor Cat'  variants=3  OK"
+   }
+  },
+  "1163": {
+   "renamed": {
+    "MG 004817-KG": "MG 004817-1KG"
+   },
+   "added": [
+    "MG 004817-KG"
+   ],
+   "tr": {
+    "ru": "product 1163 [ru]: name='Kitten Cat'  variants=3  OK",
+    "hy": "product 1163 [hy]: name='Kitten Cat'  variants=3  OK"
+   }
+  },
+  "1164": {
+   "renamed": {
+    "MG 004837-KG": "MG 004837-1KG"
+   },
+   "added": [
+    "MG 004837-KG"
+   ],
+   "tr": {
+    "ru": "product 1164 [ru]: name='Sensitive Cat'  variants=3  OK",
+    "hy": "product 1164 [hy]: name='Sensitive Cat'  variants=3  OK"
+   }
+  },
+  "1165": {
+   "renamed": {
+    "MG 004807-KG": "MG 004807-1KG"
+   },
+   "added": [
+    "MG 004807-KG"
+   ],
+   "tr": {
+    "ru": "product 1165 [ru]: name='Adult Cat'  variants=3  OK",
+    "hy": "product 1165 [hy]: name='Adult Cat'  variants=3  OK"
+   }
+  },
+  "1166": {
+   "renamed": {
+    "297257-KG": "297257-1KG"
+   },
+   "added": [
+    "297257-KG"
+   ],
+   "tr": {
+    "ru": "product 1166 [ru]: name='Kitten Cat'  variants=3  OK",
+    "hy": "product 1166 [hy]: name='Kitten Cat'  variants=3  OK"
+   }
+  },
+  "1167": {
+   "renamed": {
+    "297267-KG": "297267-1KG"
+   },
+   "added": [
+    "297267-KG"
+   ],
+   "tr": {
+    "ru": "product 1167 [ru]: name='Adult Cat'  variants=3  OK",
+    "hy": "product 1167 [hy]: name='Adult Cat'  variants=3  OK"
+   }
+  },
+  "1168": {
+   "renamed": {
+    "MM005677-KG": "MM005677-1KG"
+   },
+   "added": [
+    "MM005677-KG"
+   ],
+   "tr": {
+    "ru": "product 1168 [ru]: name='Mini Adult Dog'  variants=3  OK",
+    "hy": "product 1168 [hy]: name='Mini Adult Dog'  variants=3  OK"
+   }
+  },
+  "1169": {
+   "renamed": {
+    "MM006177-KG": "MM006177-1KG"
+   },
+   "added": [
+    "MM006177-KG"
+   ],
+   "tr": {
+    "ru": "product 1169 [ru]: name='Regular Adult Dog для всех пород'  variants=3  OK",
+    "hy": "product 1169 [hy]: name='Regular Adult Dog բոլոր ցեղատեսակների'  variants=3  OK"
+   }
+  },
+  "1170": {
+   "renamed": {
+    "009977-KG": "009977-1KG",
+    "009957-KG": "009957-1KG"
+   },
+   "added": [
+    "009977-KG",
+    "009957-KG"
+   ],
+   "tr": {
+    "ru": "product 1170 [ru]: name='Сухой корм Adult Dog'  variants=6  OK",
+    "hy": "product 1170 [hy]: name='Adult Dog չոր կեր'  variants=6  OK"
+   }
+  },
+  "1171": {
+   "renamed": {
+    "909665-KG": "909665-1KG"
+   },
+   "added": [
+    "909665-KG"
+   ],
+   "tr": {
+    "ru": "product 1171 [ru]: name='Premium Sterilised сухой корм для кошек'  variants=3  OK",
+    "hy": "product 1171 [hy]: name='Premium Sterilised չոր կեր կատուների համար'  variants=3  OK"
+   }
+  },
+  "1172": {
+   "renamed": {
+    "909335-KG": "909335-1KG"
+   },
+   "added": [
+    "909335-KG"
+   ],
+   "tr": {
+    "ru": "product 1172 [ru]: name='Premium Hairball Control сухой корм для кошек'  variants=3  OK",
+    "hy": "product 1172 [hy]: name='Premium Hairball Control չոր կեր կատուների համար'  variants=3  OK"
+   }
+  },
+  "1173": {
+   "renamed": {
+    "909555-KG": "909555-1KG"
+   },
+   "added": [
+    "909555-KG"
+   ],
+   "tr": {
+    "ru": "product 1173 [ru]: name='Premium Active сухой корм для собак'  variants=3  OK",
+    "hy": "product 1173 [hy]: name='Premium Active չոր կեր շների համար'  variants=3  OK"
+   }
+  },
+  "1174": {
+   "renamed": {
+    "909645-KG": "909645-1KG"
+   },
+   "added": [
+    "909645-KG"
+   ],
+   "tr": {
+    "ru": "product 1174 [ru]: name='Premium для крупных пород Adult, сухой корм'  variants=3  OK",
+    "hy": "product 1174 [hy]: name='Premium խոշոր ցեղատեսակների Adult, չոր կեր'  variants=3  OK"
+   }
+  },
+  "1175": {
+   "renamed": {
+    "909715-KG": "909715-1KG"
+   },
+   "added": [
+    "909715-KG"
+   ],
+   "tr": {
+    "ru": "product 1175 [ru]: name='Premium для средних пород Adult, сухой корм'  variants=3  OK",
+    "hy": "product 1175 [hy]: name='Premium միջին ցեղատեսակների Adult, չոր կեր'  variants=3  OK"
+   }
+  },
+  "1176": {
+   "renamed": {
+    "909545-KG": "909545-1KG"
+   },
+   "added": [
+    "909545-KG"
+   ],
+   "tr": {
+    "ru": "product 1176 [ru]: name='Premium для мелких пород Adult, сухой корм'  variants=3  OK",
+    "hy": "product 1176 [hy]: name='Premium փոքր ցեղատեսակների Adult, չոր կեր'  variants=3  OK"
+   }
+  },
+  "1177": {
+   "renamed": {
+    "909695-KG": "909695-1KG"
+   },
+   "added": [
+    "909695-KG"
+   ],
+   "tr": {
+    "ru": "product 1177 [ru]: name='Premium для щенков, сухой корм'  variants=3  OK",
+    "hy": "product 1177 [hy]: name='Premium ձագերի համար, չոր կեր'  variants=3  OK"
+   }
+  },
+  "1178": {
+   "renamed": {
+    "902135-KG": "902135-1KG"
+   },
+   "added": [
+    "902135-KG"
+   ],
+   "tr": {
+    "ru": "product 1178 [ru]: name='Сухой корм для котят'  variants=3  OK",
+    "hy": "product 1178 [hy]: name='Չոր կեր կատվի ձագերի համար'  variants=3  OK"
+   }
+  },
+  "1181": {
+   "renamed": {
+    "297277-KG": "297277-1KG"
+   },
+   "added": [
+    "297277-KG"
+   ],
+   "tr": {
+    "ru": "product 1181 [ru]: name='Для стерилизованных кошек'  variants=3  OK",
+    "hy": "product 1181 [hy]: name='Ստերջացված կատուների համար'  variants=3  OK"
+   }
+  },
+  "1182": {
+   "renamed": {
+    "MM005617-KG": "MM005617-1KG",
+    "GM005607-KG": "GM005607-1KG"
+   },
+   "added": [
+    "MM005617-KG",
+    "GM005607-KG"
+   ],
+   "tr": {
+    "ru": "product 1182 [ru]: name='Для взрослых собак средних пород'  variants=6  OK",
+    "hy": "product 1182 [hy]: name='Միջին ցեղատեսակի չափահաս շների համար'  variants=6  OK"
+   }
+  },
+  "1183": {
+   "renamed": {
+    "MM005627-KG": "MM005627-1KG"
+   },
+   "added": [
+    "MM005627-KG"
+   ],
+   "tr": {
+    "ru": "product 1183 [ru]: name='Для щенков и юниоров'  variants=3  OK",
+    "hy": "product 1183 [hy]: name='Ձագերի և երիտասարդ շների համար'  variants=3  OK"
+   }
+  }
+ },
+ "skipped": []
+}

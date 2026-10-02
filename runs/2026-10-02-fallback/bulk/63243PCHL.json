@@ -1,0 +1,61 @@
+{
+ "name": "Antiskolzin Anti-Slip Paw Spray",
+ "slug": "pchelodar-antiskolzin-anti-slip-paw-spray",
+ "category_ids": [
+  31
+ ],
+ "brand_id": 42,
+ "attribute_family_id": 7,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "63243PCHL",
+   "name": "125 ml",
+   "price": 2100.0,
+   "cost_price": 1290.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     537
+    ],
+    "health-feature": [
+     418
+    ]
+   },
+   "about_this_item": "<p>Pchelodar ZooArena Antiskolzin anti-slip paw spray, developed for dogs at shows, in rings and in homes with slippery floors. Natural pine rosin gives the paws grip and cushioning, helping to prevent injuries. Neutral pH, suitable for sensitive and allergy-prone skin. For regular use; no rinsing needed.</p>",
+   "ingredient_information": "<p>Natural pine rosin, fir essential oil, auxiliary components.</p>",
+   "feeding_instructions": "<p>Spray onto the paw pads before walking on slippery surfaces. Store at 0–25 °C, away from light; shelf life 24 months.</p>",
+   "images": [
+    14860
+   ],
+   "measure_type": "volume",
+   "content": 125.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Антискользин спрей против скольжения лап",
+   "variants": {
+    "63243PCHL": {
+     "about_this_item": "Спрей Пчелодар ЗооАрена Антискользин против скольжения лап разработан для собак на выставках, рингах и в квартирах со скользкими полами. Натуральная сосновая канифоль обеспечивает сцепление и амортизацию лап при движении и помогает предотвратить травмы. Нейтральный pH, подходит для чувствительной и склонной к аллергии кожи. Для постоянного применения, не требует смывания.",
+     "ingredient_information": "Натуральная сосновая канифоль, эфирное масло пихты, вспомогательные компоненты.",
+     "feeding_instructions": "Нанесите на подушечки лап перед прогулкой по скользкой поверхности. Хранить при 0–25 °C в защищённом от света месте; срок годности 24 месяца."
+    }
+   }
+  },
+  "hy": {
+   "name": "Անտիսկոլզին սփրեյ թաթերի սահելու դեմ",
+   "variants": {
+    "63243PCHL": {
+     "about_this_item": "Պչելոդար ԶոոԱրենա Անտիսկոլզին սփրեյը թաթերի սահելու դեմ նախատեսված է շների համար՝ ցուցահանդեսներում, ռինգերում և սահուն հատակով բնակարաններում։ Բնական սոճու խեժը ապահովում է թաթերի կառչումը և ամորտիզացիան շարժվելիս և օգնում կանխել վնասվածքները։ Չեզոք pH, հարմար է զգայուն և ալերգիայի հակված մաշկի համար։ Մշտական օգտագործման համար, լվանալ պետք չէ։",
+     "ingredient_information": "Բնական սոճու խեժ, եղևնու եթերային յուղ, օժանդակ բաղադրիչներ։",
+     "feeding_instructions": "Ցողեք թաթերի բարձիկներին սահուն մակերեսով զբոսանքից առաջ։ Պահել 0–25 °C ջերմաստիճանում, լույսից պաշտպանված տեղում. պիտանելիության ժամկետը՝ 24 ամիս։"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "name": "Tender Chicken Slices",
+ "slug": "derevenskie-lakomstva-tender-chicken-slices",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711206",
+   "name": "90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "lifestage": [
+     27
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Tender, juicy slices of premium-grade chicken meat that will become your dog's favourite treat. Ideal for adult dogs of medium and large breeds, to pamper and reward a loyal companion.</p>",
+   "ingredient_information": "<p>Chicken fillet. Guaranteed analysis per 100 g: protein 49 g, fat 4 g, moisture 20 g, fibre 0.5 g, ash 4.5 g; energy 232 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14548,
+    14551,
+    14554
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Куриные дольки нежные",
+   "variants": {
+    "DL711206": {
+     "about_this_item": "Нежные, сочные дольки куриного мяса высшего сорта, которые станут любимым лакомством вашей собаки. Идеальны для взрослых собак средних и крупных пород — чтобы побаловать и наградить верного друга.",
+     "ingredient_information": "Куриное филе. Гарантированные показатели на 100 г: белок 49 г, жир 4 г, влага 20 г, клетчатка 0,5 г, зола 4,5 г; энергетическая ценность 232 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Հավի մսով նուրբ շերտեր",
+   "variants": {
+    "DL711206": {
+     "about_this_item": "Բարձրորակ հավի մսի նուրբ, հյութալի շերտեր, որոնք կդառնան ձեր շան սիրելի հյուրասիրությունը։ Իդեալական են միջին և խոշոր ցեղերի չափահաս շների համար՝ հավատարիմ ընկերոջը փայփայելու և պարգևատրելու համար։",
+     "ingredient_information": "Հավի ֆիլե։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 49 գ, ճարպ 4 գ, խոնավություն 20 գ, թաղանթանյութ 0,5 գ, մոխիր 4,5 գ. էներգետիկ արժեք 232 կկալ։"
+    }
+   }
+  }
+ }
+}

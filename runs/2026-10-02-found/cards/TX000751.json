@@ -1,0 +1,52 @@
+{
+ "code": "TX000751",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "toys",
+ "brand_id": 8,
+ "name": "Soft Ball",
+ "label": "4.5 cm",
+ "existing_id": null,
+ "category_ids": [
+  24
+ ],
+ "attributes": {
+  "toy-type": {
+   "value": "Ball",
+   "quote": "Soft Ball in display"
+  },
+  "material": {
+   "value": "Foam",
+   "quote": "foam rubber in a plastic drum"
+  },
+  "toy-size": {
+   "value": "4.5 cm",
+   "quote": "ø 4.5 cm"
+  },
+  "color-family": {
+   "value": "Color Varies",
+   "quote": "Colour various"
+  }
+ },
+ "images": [
+  "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_41100-41101-5_%23SALL_%23AWK_%23V1.jpg",
+  "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_41100-41101-6_%23SALL_%23AWK_%23V1.jpg",
+  "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_41100-41101-7_%23SALL_%23AWK_%23V1.jpg",
+  "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_41100-41101-8_%23SALL_%23AWK_%23V1.jpg",
+  "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_41100-41101-9_%23SALL_%23AWK_%23V1.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Trixie soft ball for cats made of foam rubber, ø 4.5 cm. Sold singly from a display drum; colours vary.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.trixie.de/en/productworld/cat/toys-for-cats/play-mice-animals-balls/soft-ball-in-display-1001435841-1001447000?itemNo=41101"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/TX000751.source.txt"
+}

@@ -1,0 +1,35 @@
+== IN10240
+  type Treats
+  variant 1758  XS, Pork, 7 pcs / 84 g  sku=12207S  pack 84 g  2900 AMD  available=10  default=true  attrs={"5":[47],"6":[81],"7":[109],"17":[482]}
+  variant 2042  S, Chicken, 35 g  sku=IN10240  pack 35 g  1800 AMD  available=10  default=false  attrs={"4":[31],"5":[36],"6":[81],"7":[109]}
+
+== IN10247
+  variant 1758  XS, Pork, 7 pcs / 84 g  sku=12207S  pack 84 g  2900 AMD  available=10  default=true  attrs={"5":[47],"6":[81],"7":[109],"17":[482]}
+  variant 2042  S, Chicken, 35 g  sku=IN10240  pack 35 g  1800 AMD  available=10  default=false  attrs={"4":[31],"5":[36],"6":[81],"7":[109]}
+  variant 2043  L, Chicken, 85 g  sku=IN10247  pack 85 g  2900 AMD  available=10  default=false  attrs={"4":[33],"5":[36],"6":[81],"7":[109]}
+
+== IN10882
+  variant 2042  S, Chicken, 35 g  sku=IN10240  pack 35 g  1800 AMD  available=10  default=false  attrs={"4":[31],"5":[36],"6":[81],"7":[109]}
+  variant 2043  L, Chicken, 85 g  sku=IN10247  pack 85 g  2900 AMD  available=10  default=false  attrs={"4":[33],"5":[36],"6":[81],"7":[109]}
+  variant 2044  L, Beef, 85 g  sku=IN10882  pack 85 g  3250 AMD  available=10  default=false  attrs={"4":[33],"5":[37],"6":[81],"7":[109]}
+
+== 10885S
+  type Treats
+  variant 1747  M, 3 pcs / 75 g  sku=10250S  pack 75 g  3100 AMD  available=10  default=true  attrs={"5":[36]}
+  variant 2045  Beef, 3 pcs / 75 g  sku=10885S  pack 75 g  3050 AMD  available=10  default=false  attrs={"5":[37],"6":[81]}
+
+== 076912
+  type Supplements
+  variant 951  75 ml  sku=073512  pack 75 ml  3750 AMD  available=10  default=true  attrs={"5":[864],"7":[114],"18":[541]}
+  variant 2046  Chicken 30 ml  sku=076912  pack 30 ml  2400 AMD  available=10  default=false  attrs={"5":[36],"7":[114],"9":[151],"18":[541]}
+
+== 00030302
+  type Accessories
+  variant 1636  35 mm, 50–59 cm  sku=00247K  pack no size  3700 AMD  available=10  default=true  attrs={"28":[873]}
+  variant 2047  30 mm, 49–58 cm  sku=00030302  pack no size  2900 AMD  available=10  default=false  attrs={"12":[310],"28":[874]}
+
+== 01664K
+  type Accessories
+  variant 1635  35 mm, 50–59 cm  sku=00244K  pack no size  3600 AMD  available=10  default=true  attrs={"15":[339],"28":[873]}
+  variant 2048  12 mm, 20–24 cm, pink  sku=01664K  pack no size  950 AMD  available=10  default=false  attrs={"4":[31],"12":[310],"15":[271],"28":[875]}
+

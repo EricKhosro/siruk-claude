@@ -1,0 +1,67 @@
+{
+ "name": "Sausages with Rice",
+ "slug": "derevenskie-lakomstva-sausages-with-rice",
+ "category_ids": [
+  82
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL050046",
+   "name": "Turkey 85 g",
+   "price": 2700.0,
+   "cost_price": 1675.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     39
+    ],
+    "ingredient": [
+     495
+    ],
+    "lifestage": [
+     27
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Tender turkey sausages with added rice, a great reward for good behaviour. Suitable for adult dogs of medium and large breeds.</p>",
+   "ingredient_information": "<p>Turkey meat, rice. Guaranteed analysis per 100 g: protein 35 g, fat 10 g, moisture 18 g, fibre 0.5 g, ash 3 g; energy 288.2 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14440,
+    14443,
+    14446
+   ],
+   "measure_type": "mass",
+   "content": 85.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Колбаски с рисом",
+   "variants": {
+    "DL050046": {
+     "about_this_item": "Нежные колбаски из мяса индейки с добавлением риса — отличная награда за хорошее поведение. Подходят для взрослых собак средних и крупных пород.",
+     "ingredient_information": "Мясо индейки, рис. Гарантированные показатели на 100 г: белок 35 г, жир 10 г, влага 18 г, клетчатка 0,5 г, зола 3 г; энергетическая ценность 288,2 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Մսային երշիկներ բրնձով",
+   "variants": {
+    "DL050046": {
+     "about_this_item": "Փափուկ երշիկներ հնդկահավի մսից՝ բրնձի հավելումով, հիանալի պարգև լավ վարքի համար։ Հարմար են միջին և խոշոր ցեղատեսակների չափահաս շների համար։",
+     "ingredient_information": "Հնդկահավի միս, բրինձ։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 35 գ, ճարպ 10 գ, խոնավություն 18 գ, թաղանթանյութ 0.5 գ, մոխիր 3 գ. էներգետիկ արժեքը՝ 288.2 կկալ։"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,190 @@
+[
+ {
+  "variant": 1339,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1339-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1339-2.jpg"
+  ],
+  "source_urls": [
+   "https://hotline.ua/img/tx/583/5831589355.jpg",
+   "https://dolyna.in.ua/image/cache/import_files/002736184_1-600x600.jpg"
+  ],
+  "page_url": "https://hotline.ua/ua/zootovary-korm-dlya-koshek/myau-zhele-z-yalovichinoyu-ta-ovochami-povnoraconnij-dlya-doroslih-kotv-85-g-482026914259/",
+  "evidence": "hotline.ua page title/offers print EAN 4820269142596; image 2 (dolyna.in.ua page for 4820269142596) is the pack back with barcode 4 820269 142596 legible",
+  "size_seen": "85 g pouch (back printed 85 g)",
+  "notes": "Front: beef & vegetables in jelly (з яловичиною та овочами, желе), adult, 1000px, clean. Image 2 = back of pack, 600px."
+ },
+ {
+  "variant": 1340,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1340-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1340-2.jpg"
+  ],
+  "source_urls": [
+   "https://zootovary.ua/images/products/6250/67e2660dc65ba.jpg",
+   "https://zootovary.ua/images/products/mju/6250/69aed9a98f01c.jpg"
+  ],
+  "page_url": "https://zootovary.ua/myau/pauch-konservirovannyi-korm-dlya-koshek-indeikoi-nejnom-souse-p-6250.html",
+  "evidence": "page prints gtin 4820269142602 (itemprop gtin + barcode row '85 гр 4820269142602'); back image shows barcode ...142602",
+  "size_seen": "85 g pouch",
+  "notes": "Adult turkey in gravy (з індичкою в ніжному соусі) — fixes the wrong kitten-chicken photo. 1000px, clean. Rejected same-page 24-pack box shot and infographics."
+ },
+ {
+  "variant": 1342,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1342-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1342-2.jpg"
+  ],
+  "source_urls": [
+   "https://zootovary.ua/images/products/mju/6249/69aee2e597748.jpg",
+   "https://zootovary.ua/images/products/mju/6249/69aee2e605060.jpg"
+  ],
+  "page_url": "https://zootovary.ua/myau/x-p-6249.html",
+  "evidence": "page barcode row prints 4820269142626 (title: Мяу! пауч з кроликом в ніжному соусі); back image shows barcode ...142626",
+  "size_seen": "85 g pouch",
+  "notes": "Rabbit in gravy, adult, 1000px clean. URL is zootovary product id 6249 (slug redirects)."
+ },
+ {
+  "variant": 1343,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1343-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1343-2.jpg"
+  ],
+  "source_urls": [
+   "https://zootovary.ua/images/products/6247/67bf18af436f5.jpg",
+   "https://zootovary.ua/images/products/mju/6247/69afe58141b93.jpg"
+  ],
+  "page_url": "https://zootovary.ua/myau/x-p-6247.html",
+  "evidence": "page barcode row prints 4820269142633 (title: Мяу! пауч с курицей в нежном соусе); back image shows barcode ...142633",
+  "size_seen": "85 g pouch",
+  "notes": "Chicken in gravy, adult, 1000px clean."
+ },
+ {
+  "variant": 1344,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1344-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1344-2.jpg"
+  ],
+  "source_urls": [
+   "https://zootovary.ua/images/products/6246/67bf1dbf95428.jpg",
+   "https://zootovary.ua/images/products/mju/6246/69afed9f65eb9.jpg"
+  ],
+  "page_url": "https://zootovary.ua/myau/x-p-6246.html",
+  "evidence": "page barcode row prints 4820269142657 (title: Мяу! пауч с рыбой в нежном соусе); back image shows barcode ...142657",
+  "size_seen": "85 g pouch",
+  "notes": "Fish in gravy, adult, 1000px clean. (skladchistoti.com.ua also prints the EAN, 500px — not needed.)"
+ },
+ {
+  "variant": 1345,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1345-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1345-2.jpg"
+  ],
+  "source_urls": [
+   "https://zootovary.ua/images/products/mju/6242/69aecb1958e90.jpg",
+   "https://zootovary.ua/images/products/mju/6242/69aecaa19db40.jpg"
+  ],
+  "page_url": "https://zootovary.ua/uk/myau/pauch-konservovanii-korm-dlya-koshenyat-p-6242.html",
+  "evidence": "page barcode row prints 4820269143005; back image shows barcode ...143005",
+  "size_seen": "85 g pouch",
+  "notes": "Kitten chicken (з куркою, для кошенят). CAUTION: this page's gallery also contains an ADULT chicken pouch (mju/6242/69aecaa18c13a.jpg) — shop mix-up, not used."
+ },
+ {
+  "variant": 1703,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1703-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1703-2.png"
+  ],
+  "source_urls": [
+   "https://club4labute.ro/wp-content/uploads/2021/06/paws15.jpg",
+   "https://gomagcdn.ro/domains2/epetshop.ro/files/product/large/hrana-uscata-pisici-club-4-paws-sterilizate-14kg-26-4541.png"
+  ],
+  "page_url": "https://club4labute.ro/magazin/club-4-paws-premiumpisici-sterilizate-hrana-uscata-completa-pentru-pisicile-adulte/",
+  "evidence": "club4labute.ro product SKU 4820083909665; epetshop.ro/produse-pisici/hrana-uscata-pisici-club-4-paws-sterilizate-14kg.html sku 4820083909665",
+  "size_seen": "bag printed 14 kg",
+  "notes": "Adult Cats Sterilised, orange bag, 1000px / 466x700. Pack design is the older orange style (the 14 kg still ships in it; no new-design 14 kg image with our EAN found). Cat on pack only."
+ },
+ {
+  "variant": 1705,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1705-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1705-2.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1705-3.png"
+  ],
+  "source_urls": [
+   "https://hotline.ua/img/tx/581/5815293675.jpg",
+   "https://club4labute.ro/wp-content/uploads/2021/06/paws16.jpg",
+   "https://gomagcdn.ro/domains2/fourpaws.ro/files/product/large/club-4-paws-premium-hairball-control-hrana-uscata-pisici-adulte-14kg-275035.png"
+  ],
+  "page_url": "https://hotline.ua/ua/zootovary-korm-dlya-koshek/klub-4-lapy-c4p-premium-hairball-control-s-effektom-vyvedeniya-shersti-dlya-koshek-14-kg/",
+  "evidence": "hotline.ua page prints 4820083909337 in offers; club4labute.ro SKU 4820083909337; fourpaws.ro page sku 4820083909337",
+  "size_seen": "bag printed 14 kg",
+  "notes": "1705-1 = current design ('Hairball Control with chicken'), 440x856 (tall, under 500 wide). 1705-2/3 = older orange design, 1000px / 700px."
+ },
+ {
+  "variant": 1711,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1711-1.jpg",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1711-2.jpg"
+  ],
+  "source_urls": [
+   "https://club4labute.ro/wp-content/uploads/2021/06/1_14kg-6.jpg",
+   "https://hotline.ua/img/tx/584/5844703485.jpg"
+  ],
+  "page_url": "https://club4labute.ro/magazin/caini-talie-medie-cu-pui-14kg-club-4-paws/",
+  "evidence": "club4labute.ro SKU 4820083909719; hotline.ua/ua/zootovary-korm-dlya-sobak/klub-4-lapy-korm-dlya-sobak-srednih-porod-14-kg/ offers print 4820083909719",
+  "size_seen": "bag printed 14 kg",
+  "notes": "Adult Medium Breeds, blue bag; 1000px and 535x922 flat front."
+ },
+ {
+  "variant": 1713,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1713-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1713-2.png"
+  ],
+  "source_urls": [
+   "https://cdn.myshoptet.com/usr/www.abovzoo.sk/user/shop/big/250777_c4p-dog-small-breeds-chicken-14kg-5.png",
+   "https://gomagcdn.ro/domains2/fourpaws.ro/files/product/large/club-4-paws-hrana-uscata-caini-de-talie-mica-pui-14kg-736505.png"
+  ],
+  "page_url": "https://www.abovzoo.sk/club-4-paws-premium-pre-dospelych-psov-malych-plemien-14-kg--9542/",
+  "evidence": "abovzoo.sk page prints 4820083909542 (content_ids); fourpaws.ro/produse-caini/hrana-uscata-caini-club-4-paws-talie-mica-14kg.html sku 4820083909542",
+  "size_seen": "bag printed 14 kg",
+  "notes": "Adult Small Breeds, 1024x768 transparent PNG and 700px. Clean — preferred over the kiwizoo image (CENEO mark)."
+ },
+ {
+  "variant": 1715,
+  "status": "found",
+  "files": [
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1715-1.png",
+   "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-01-fix/cand/B/1715-2.jpg"
+  ],
+  "source_urls": [
+   "https://cdn.myshoptet.com/usr/www.abovzoo.sk/user/shop/big/250963_c4p-dog-puppies-all-breeds-14kg.png",
+   "https://mbuy24.com/products_pic/thumb/1064/9996/4145600-49186916.jpg"
+  ],
+  "page_url": "https://www.abovzoo.sk/club-4-paws-premium-pre-stenata-vsetkych-plemien-14-kg--9696/",
+  "evidence": "abovzoo.sk page prints 4820083909696; mbuy24.com page (…48200…html) prints 4820083909696",
+  "size_seen": "bag printed 14 kg",
+  "notes": "Puppies All Breeds, 1024x768. 1715-2 is only 400px — optional."
+ },
+ {
+  "variant": 1717,
+  "status": "not_found",
+  "files": [],
+  "source_urls": [],
+  "page_url": "https://www.epetshop.ro/hrana-uscata-pentru-pisici/miau-hrana-uscata-pentru-pisoi-11kg.html",
+  "evidence": "epetshop.ro prints sku 4820083902130, but its only image is a small doypack with no weight printed — not an 11 kg bag, rejected",
+  "size_seen": "none showing 11 kg",
+  "notes": "Мяу! kitten 11 kg looks rare/discontinued: not on hotline, catfeatdog (lists adult 11 kg only), zooapteka (no EAN), biopet.az (no EAN). Rozetka/prom/epicentrk/maudau are bot-walled. Leave the hafo placeholder."
+ }
+]

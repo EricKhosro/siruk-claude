@@ -1,0 +1,1993 @@
+[
+ {
+  "product_id": "1291",
+  "product": "Premium Adult Dry Cat Food",
+  "variant_id": "1998",
+  "sku": "CP909145",
+  "label": "Chicken 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14398",
+    "file": "25.webp",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14398.webp"
+   },
+   {
+    "pos": 1,
+    "media": "14401",
+    "file": "6-13.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14401.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14404",
+    "file": "1-10.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14404.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14407",
+    "file": "2-14.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14407.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14410",
+    "file": "3-13.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14410.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "14413",
+    "file": "4-13.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14413.jpg"
+   },
+   {
+    "pos": 6,
+    "media": "14416",
+    "file": "5-13.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14416.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1291",
+  "product": "Premium Adult Dry Cat Food",
+  "variant_id": "2000",
+  "sku": "CP909205",
+  "label": "Veal 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 689,
+    "label": "Veal"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14419",
+    "file": "paws21.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14419.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14422",
+    "file": "slide-2-advantages.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14422.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14425",
+    "file": "slide-3-composition.jpg-1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14425.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14428",
+    "file": "slide-4-change.jpg-1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14428.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14431",
+    "file": "slide-5-norm.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14431.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "14434",
+    "file": "slide-6-additional.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14434.jpg"
+   },
+   {
+    "pos": 6,
+    "media": "14437",
+    "file": "slide-9-bowlgranula.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14437.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1291",
+  "product": "Premium Adult Dry Cat Food",
+  "variant_id": "2002",
+  "sku": "909155",
+  "label": "Rabbit 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 52,
+    "label": "Rabbit"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14323",
+    "file": "paws23.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14323.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14326",
+    "file": "slide-2-advantages-1-scaled.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14326.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14329",
+    "file": "slide-3-composition.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14329.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14332",
+    "file": "slide-4-change.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14332.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14335",
+    "file": "slide-5-norm-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14335.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "14338",
+    "file": "slide-6-additional-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14338.jpg"
+   },
+   {
+    "pos": 6,
+    "media": "14341",
+    "file": "slide-9-bowlgranula-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14341.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1291",
+  "product": "Premium Adult Dry Cat Food",
+  "variant_id": "2004",
+  "sku": "REG00030",
+  "label": "Salmon 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 38,
+    "label": "Salmon"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14761",
+    "file": "paws22.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14761.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14764",
+    "file": "1-11.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14764.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14767",
+    "file": "2-18.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14767.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14770",
+    "file": "3-17.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14770.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14773",
+    "file": "4-17.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14773.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "14776",
+    "file": "5-17.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14776.jpg"
+   },
+   {
+    "pos": 6,
+    "media": "14779",
+    "file": "6-16.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14779.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1150",
+  "product": "New Neon Tape Lead",
+  "variant_id": "1637",
+  "sku": "032008",
+  "label": "S, 5 m, orange",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 270,
+    "label": "Orange"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 706,
+    "label": "S"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "11796",
+    "file": "flexi_Neon_S_Tape_5m_orange",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11796.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "11799",
+    "file": "New_Neon_Gurtauslauf-S_540x360",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11799.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1150",
+  "product": "New Neon Tape Lead",
+  "variant_id": "1638",
+  "sku": "032038",
+  "label": "S, 5 m, blue",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 266,
+    "label": "Blue"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 706,
+    "label": "S"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "11802",
+    "file": "flexi_Neon_S_Tape_5m_blue",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11802.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "11799",
+    "file": "New_Neon_Gurtauslauf-S_540x360",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11799.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1150",
+  "product": "New Neon Tape Lead",
+  "variant_id": "1639",
+  "sku": "032108",
+  "label": "M, 5 m, pink",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 271,
+    "label": "Pink"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 708,
+    "label": "M"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "11805",
+    "file": "flexi_Neon_M_Tape_5m_pink",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11805.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "11808",
+    "file": "New_Neon_Gurtauslauf-M_540x360",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11808.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1150",
+  "product": "New Neon Tape Lead",
+  "variant_id": "1640",
+  "sku": "031908",
+  "label": "M, 5 m, green",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 267,
+    "label": "Green"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 708,
+    "label": "M"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "11811",
+    "file": "flexi_Neon_M_Tape_5m_green",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11811.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "11808",
+    "file": "New_Neon_Gurtauslauf-M_540x360",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11808.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1150",
+  "product": "New Neon Tape Lead",
+  "variant_id": "1751",
+  "sku": "FX023508",
+  "label": "XS, 3 m, black/neon",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 273,
+    "label": "Black"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 703,
+    "label": "XS"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13990",
+    "file": "1751-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13990.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "12068",
+    "file": "New_Neon_Gurtauslauf-XS_540x360",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/12068.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "804",
+  "product": "Premium Adjustable Lead, double-layered",
+  "variant_id": "960",
+  "sku": "200728",
+  "label": "XS–S, 2.00 m/15 mm, aqua",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 843,
+    "label": "Aqua"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 705,
+    "label": "XS–S"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "7984",
+    "file": "PHO_PRO_CLIP_200728-200828-200928-201028-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/7984.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "804",
+  "product": "Premium Adjustable Lead, double-layered",
+  "variant_id": "1544",
+  "sku": "200717",
+  "label": "XS–S, 2.00 m/15 mm, apple",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 267,
+    "label": "Green"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 705,
+    "label": "XS–S"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "7984",
+    "file": "PHO_PRO_CLIP_200728-200828-200928-201028-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/7984.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "804",
+  "product": "Premium Adjustable Lead, double-layered",
+  "variant_id": "1545",
+  "sku": "200722",
+  "label": "XS–S, 2.00 m/15 mm, coral",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 268,
+    "label": "Red"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 705,
+    "label": "XS–S"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "7984",
+    "file": "PHO_PRO_CLIP_200728-200828-200928-201028-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/7984.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "804",
+  "product": "Premium Adjustable Lead, double-layered",
+  "variant_id": "1546",
+  "sku": "200713",
+  "label": "XS–S, 2.00 m/15 mm, indigo",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 266,
+    "label": "Blue"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 705,
+    "label": "XS–S"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "10857",
+    "file": "trixie-premium-verlaengerungsleine-3-fach-vestellbar-1675768454",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/10857.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "804",
+  "product": "Premium Adjustable Lead, double-layered",
+  "variant_id": "1547",
+  "sku": "200725",
+  "label": "XS–S, 2.00 m/15 mm, purple",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 275,
+    "label": "Purple"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 705,
+    "label": "XS–S"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "7984",
+    "file": "PHO_PRO_CLIP_200728-200828-200928-201028-2_-SALL_-AWK_-V1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/7984.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "804",
+  "product": "Premium Adjustable Lead, double-layered",
+  "variant_id": "1721",
+  "sku": "200720",
+  "label": "XS–S, 2.00 m/15 mm, light lilac",
+  "attrs": [
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 862,
+    "label": "Lilac"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 705,
+    "label": "XS–S"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14152",
+    "file": "200720-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14152.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1153",
+  "product": "Mini Puppy & Junior",
+  "variant_id": "1659",
+  "sku": "MG006107",
+  "label": "Chicken 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14041",
+    "file": "1659-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14041.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14044",
+    "file": "1659-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14044.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1153",
+  "product": "Mini Puppy & Junior",
+  "variant_id": "1661",
+  "sku": "005947",
+  "label": "Lamb & Rice 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 40,
+    "label": "Lamb"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14047",
+    "file": "1661-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14047.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14050",
+    "file": "1661-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14050.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1153",
+  "product": "Mini Puppy & Junior",
+  "variant_id": "1663",
+  "sku": "005937",
+  "label": "Salmon & Rice 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 38,
+    "label": "Salmon"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14011",
+    "file": "1663-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14011.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1321",
+  "product": "Soft Ball",
+  "variant_id": "2041",
+  "sku": "TX000751",
+  "label": "4.5 cm",
+  "attrs": [
+   {
+    "attributeId": 11,
+    "attributeName": "Toy Type",
+    "role": "option",
+    "valueId": 195,
+    "label": "Ball"
+   },
+   {
+    "attributeId": 12,
+    "attributeName": "Material",
+    "role": "option",
+    "valueId": 212,
+    "label": "Foam"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "attribute",
+    "valueId": 339,
+    "label": "Color Varies"
+   },
+   {
+    "attributeId": 16,
+    "attributeName": "Toy Size",
+    "role": "option",
+    "valueId": 352,
+    "label": "4.5 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14782",
+    "file": "PHO_PRO_CLIP_41100-41101-5_-SALL_-AWK_-V1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14782.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14785",
+    "file": "PHO_PRO_CLIP_41100-41101-6_-SALL_-AWK_-V1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14785.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14788",
+    "file": "PHO_PRO_CLIP_41100-41101-7_-SALL_-AWK_-V1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14788.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14791",
+    "file": "PHO_PRO_CLIP_41100-41101-8_-SALL_-AWK_-V1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14791.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14794",
+    "file": "PHO_PRO_CLIP_41100-41101-9_-SALL_-AWK_-V1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14794.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1320",
+  "product": "Adult Dry Cat Food",
+  "variant_id": "2035",
+  "sku": "PM902085",
+  "label": "Chicken 11 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14752",
+    "file": "dry-feed-for-meow-cats-with-chicken-11kg-4820083902086.png",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14752.png"
+   },
+   {
+    "pos": 1,
+    "media": "14755",
+    "file": "sbalansirovanniy-suhoy-korm-myau-dlya-vzroslyh-koshek-s-kuritsey-11-kg-9525475.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14755.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1320",
+  "product": "Adult Dry Cat Food",
+  "variant_id": "2037",
+  "sku": "PM902075",
+  "label": "Rabbit 11 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 52,
+    "label": "Rabbit"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14749",
+    "file": "sbalansirovanniy-suhoy-korm-myau-dlya-vzroslyh-koshek-s-krolikom-11-kg-9525824.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14749.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1320",
+  "product": "Adult Dry Cat Food",
+  "variant_id": "2039",
+  "sku": "PM902105",
+  "label": "Meat, Rice & Vegetables 11 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 425,
+    "label": "Meat"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14758",
+    "file": "dry-mew-cat-feed-with-meat-rice-vegetables-11kg-4820083902109.png",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14758.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1278",
+  "product": "Chlorophyll Dental Bones for Small Breeds",
+  "variant_id": "1981",
+  "sku": "DL303976",
+  "label": "Mint, 60 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 438,
+    "label": "Mint"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 111,
+    "label": "Digestive Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14467",
+    "file": "g4460o9j7cd8zg0oghuzh75z0hmru50s.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14467.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14470",
+    "file": "5z9e9pc793t05ho6hz8omgwbmffijtpm.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14470.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14473",
+    "file": "3hytxtykqir1f2ycd9irwxdzk8wcss3v.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14473.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1293",
+  "product": "Medallions with Rice for Mini Breeds",
+  "variant_id": "2007",
+  "sku": "DL050056",
+  "label": "Turkey 55 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 39,
+    "label": "Turkey"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 100,
+    "label": "Hypoallergenic"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 495,
+    "label": "Turkey"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14449",
+    "file": "9f56z43o5rswc7kdmcvqsp8my302y3kb.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14449.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14452",
+    "file": "cwv7466q52nsgfqhtairx7gmj27hyv0l.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14452.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14455",
+    "file": "zcu40xw8s0i5t4o4obkihcbzdgqs392s.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14455.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1297",
+  "product": "Calcium Dental Bones for Medium Breeds",
+  "variant_id": "2011",
+  "sku": "DL304006",
+  "label": "90 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 32,
+    "label": "Medium Breeds"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 117,
+    "label": "Hip & Joint Support"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14494",
+    "file": "qjggtw20c7i1gfq69l17kwlykgcx0iz6.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14494.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14497",
+    "file": "7oo9nhhltcecqe18hovufi0813vqsrbs.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14497.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14500",
+    "file": "97esy1yvrqp6tgpgo7oag334joobw7bj.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14500.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1301",
+  "product": "Chewy Bones",
+  "variant_id": "2015",
+  "sku": "DL711176",
+  "label": "Chicken 90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14530",
+    "file": "tc93hkb3y9g3o2afs1akmcr0wn64simf.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14530.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14533",
+    "file": "pml36zsoidsacj3fp73p3jiujr0jaapm.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14533.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14536",
+    "file": "7kch0at3w3ixiu0xmdjbwwf69nyu9w9j.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14536.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1305",
+  "product": "Tender Strips",
+  "variant_id": "2019",
+  "sku": "DL711226",
+  "label": "Duck 90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 42,
+    "label": "Duck"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 469,
+    "label": "Duck"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14566",
+    "file": "m11vawwd731r7ggzp8kg3dv8cqde1zfg.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14566.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14569",
+    "file": "x1nm9kg8uu04e8sxqvacte5ze9sz4wjx.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14569.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14572",
+    "file": "bi5ndl04gxm95fzl400vfpwmg8n6y6jq.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14572.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1309",
+  "product": "Calcium Bones for Puppies",
+  "variant_id": "2023",
+  "sku": "DL711786",
+  "label": "Duck 90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 42,
+    "label": "Duck"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 393,
+    "label": "High Calcium"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 469,
+    "label": "Duck"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14602",
+    "file": "zaztvpd2a5ws8yga823ngin44axh9e2t.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14602.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14605",
+    "file": "3pf0ka3xuz2f6dkw3w3si086ne4h6rdd.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14605.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14608",
+    "file": "cjkbt06eb2vyvia4sy2c5lzyc2t8av4k.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14608.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "733",
+  "product": "Traditional Line Green Apple Conditioner for Long Coats",
+  "variant_id": "889",
+  "sku": "03183IVS",
+  "label": "300 ml",
+  "attrs": {},
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13957",
+    "file": "889-1-white.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13957.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "5423",
+    "file": "greenappleconditionergroup-copy",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/5423.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1053",
+  "product": "Cat Pouch in Jelly",
+  "variant_id": "1349",
+  "sku": "83010J",
+  "label": "Juicy Chicken",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 140,
+    "label": "Chunks in Jelly"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13969",
+    "file": "1349-1.png",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13969.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1053",
+  "product": "Cat Pouch in Jelly",
+  "variant_id": "1350",
+  "sku": "83014J",
+  "label": "Appetising Beef",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 140,
+    "label": "Chunks in Jelly"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13972",
+    "file": "1350-1.png",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13972.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1159",
+  "product": "BWild Low Grain All Breeds Puppy & Junior",
+  "variant_id": "1677",
+  "sku": "011897",
+  "label": "Deer 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 51,
+    "label": "Venison"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14113",
+    "file": "1677-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14113.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14116",
+    "file": "1677-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14116.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1216",
+  "product": "Crispy Muesli Hamsters & Co",
+  "variant_id": "1775",
+  "sku": "461699V",
+  "label": "400 g",
+  "attrs": {},
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13996",
+    "file": "1775-1-white.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13996.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "12419",
+    "file": "ge-catalog-product-upload-ME000003691.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/12419.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1280",
+  "product": "Adult Dry Dog Food",
+  "variant_id": "1984",
+  "sku": "PG901425",
+  "label": "Veal & Rice 10 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 689,
+    "label": "Veal"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14746",
+    "file": "41_4000.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14746.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1280",
+  "product": "Adult Dry Dog Food",
+  "variant_id": "1986",
+  "sku": "PG900025",
+  "label": "Meat Assortment 10 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 425,
+    "label": "Meat"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 133,
+    "label": "Skin & Coat Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14743",
+    "file": "69a82129ceb9f.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14743.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1054",
+  "product": "Adult Dog Pouch",
+  "variant_id": "1351",
+  "sku": "83077J",
+  "label": "Beef in Gravy",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13975",
+    "file": "1351-1.png",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13975.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1057",
+  "product": "Stop It Indoor Repellent Spray",
+  "variant_id": "1354",
+  "sku": "21382",
+  "label": "200 ml",
+  "attrs": [
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 537,
+    "label": "Spray"
+   }
+  ],
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13978",
+    "file": "1354-1-white.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13978.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1165",
+  "product": "Adult Cat",
+  "variant_id": "1689",
+  "sku": "MG 004807",
+  "label": "Chicken 10 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "lens-run",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14182",
+    "file": "004807-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14182.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1177",
+  "product": "Premium Puppies Dry Dog Food",
+  "variant_id": "1715",
+  "sku": "909695",
+  "label": "Chicken 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13939",
+    "file": "1715-1-white.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13939.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1273",
+  "product": "Kitty's + Taurine + Biotin",
+  "variant_id": "1974",
+  "sku": "BP12509",
+  "label": "75 tablets",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 136,
+    "label": "Vitamins & Minerals"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 151,
+    "label": "Box"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 533,
+    "label": "Tablet"
+   },
+   {
+    "attributeId": 19,
+    "attributeName": "Active Ingredient",
+    "role": "attribute",
+    "valueId": 590,
+    "label": "Taurine"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14380",
+    "file": "12509_2017_5.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14380.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1282",
+  "product": "Classic Leather Collar",
+  "variant_id": "1989",
+  "sku": "01662K",
+  "label": "12 mm, 20–24 cm, brown",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 12,
+    "attributeName": "Material",
+    "role": "attribute",
+    "valueId": 310,
+    "label": "Leather"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 265,
+    "label": "Brown"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 875,
+    "label": "12 mm × 20–24 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14137",
+    "file": "lx1lmk3e8tzgmamu8511cb8w5rt8frnx.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14137.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1311",
+  "product": "Excel Multi Vitamin Senior",
+  "variant_id": "2025",
+  "sku": "IN10869",
+  "label": "70 tablets",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 28,
+    "label": "Senior"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 136,
+    "label": "Vitamins & Minerals"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 150,
+    "label": "Tub"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 533,
+    "label": "Tablet"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14641",
+    "file": "1715336521-s1350x1350.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14641.jpg"
+   }
+  ]
+ }
+]

@@ -1,0 +1,53 @@
+{
+ "code": "BP12509",
+ "status": "ready",
+ "hold_reason": null,
+ "brand_id": 30,
+ "price": {
+  "source": "prepared"
+ },
+ "existing_id": null,
+ "first_image": "packshot",
+ "evidence_file": "cards/BP12509.source.txt",
+ "type": "supplements",
+ "name": "Kitty's + Taurine + Biotin",
+ "label": "75 tablets",
+ "size": {
+  "measure_type": "count",
+  "content": 75,
+  "pack_count": 1
+ },
+ "category_ids": [
+  52
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Tablet",
+   "quote": "давати від 1 до 4 таблеток щодня"
+  },
+  "health-feature": {
+   "value": "Vitamins & Minerals",
+   "quote": "Вітамінізовані ласощі для котів"
+  },
+  "active-ingredient": {
+   "value": "Taurine",
+   "quote": "таурин 880мг/кг"
+  },
+  "packaging": {
+   "value": "Box",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://beaphar.ua/sites/default/files/product_images/12509_2017_5.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Kitty's vitaminised treats for cats with taurine and biotin, to support the health of the heart, gall bladder, brain and vision, skin and coat. Can be given to adult, pregnant and nursing cats, and to kittens from 6 weeks of age. No limit on duration of use; no contraindications.",
+  "ingredient_information": "Milk and milk products, sugar, minerals, molluscs and crustaceans (min. 2.6% shrimp), meat and animal derivatives, vegetable derivatives, oils and fats, inactivated yeast, cereals. Analysis: protein 9.7%, fibre 7%, fat 2.2%, ash 14%, moisture 2.6%, calcium 3.3%, phosphorus 1.7%, sodium 0.7%, potassium 1.3%, magnesium 0.089%, sulphur 0.023%. Additives: vit. B1 54 mg/kg, vit. B2 46 mg/kg, vit. B6 42 mg/kg, vit. B12 2400 mcg/kg, calcium D-pantothenate 58 mg/kg, nicotinamide 700 mg/kg, biotin 1500 mcg/kg, taurine 880 mg/kg. Antioxidants.",
+  "feeding_instructions": "Give 1 to 4 tablets per kg of body weight daily."
+ },
+ "source": {
+  "kind": "country-site",
+  "url": "https://beaphar.ua/catalog/koty/vitaminy/kittisy-kittys/kittys-taurine-biotine-vitaminizovani-lasoshchi-z-taurynom-i"
+ }
+}

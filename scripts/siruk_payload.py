@@ -28,7 +28,7 @@ stock → initial_stock, pricing_type "fixed" dropped) and refused where it is n
 (pricing_type "per_kg", weight, unit, net_quantity, product-weight — give the pack price
 and measure_type/content instead).
 """
-import json, os, subprocess, sys
+import json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -153,6 +153,9 @@ def normalize_new(v, ptype):
         av[str(aid)] += [int(i) for i in ids if int(i) not in av[str(aid)]]
     v["attribute_values"] = av
     v.setdefault("sale_mode", ptype.get("defaultSaleMode") or "pack")
+    if v["sale_mode"] == "weight" and os.environ.get("ALLOW_WEIGHT_SALE") != "1":
+        # PM 2026-10-01: by-weight sale is paused until its UI is tested — sell a 1 kg pack instead
+        errs.append("sale_mode 'weight' is paused (CLAUDE.md 8a) — add a 1 kg pack variant instead")
     if v["sale_mode"] == "pack":
         if v.get("content") is not None and not v.get("measure_type"):
             v["measure_type"] = ptype.get("measureType")
@@ -269,8 +272,16 @@ def put_body(get_data, new_variant=None, patch_sku=None, patch=None, replace_att
     return body
 
 
+SIZE_IN_NAME = re.compile(r"(?<![–\-\d.,])\b\d+(?:[.,]\d+)?\s*(?:kg|g|ml|кг|г|мл|կգ|գ|մլ)\.?\s*$", re.I)
+
+
 def post_body(payload):
     body = {k: payload[k] for k in payload if k != "variants"}
+    names = body.get("name")      # a string, or {en, ru, hy} for POST /products/bulk
+    for n in (names.values() if isinstance(names, dict) else [names]):
+        if SIZE_IN_NAME.search(n or ""):
+            # CLAUDE.md 12 (user 2026-10-01): the storefront appends the size label to the name
+            raise PayloadError(f"name '{n}' ends in a pack size — the size belongs in the variant only")
     if not (body.get("attribute_family_id") or 0) > 0:
         raise PayloadError("payload has no attribute_family_id — every product needs a product type")
     ptype = product_type(body["attribute_family_id"])

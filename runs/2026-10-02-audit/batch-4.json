@@ -1,0 +1,2416 @@
+[
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "variant_id": "1339",
+  "sku": "142595",
+  "label": "Veal & Vegetables in Jelly",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 689,
+    "label": "Veal"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 140,
+    "label": "Chunks in Jelly"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13888",
+    "file": "1339-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13888.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "13891",
+    "file": "1339-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13891.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "variant_id": "1340",
+  "sku": "142605",
+  "label": "Turkey in Gravy",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 39,
+    "label": "Turkey"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13894",
+    "file": "1340-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13894.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "13897",
+    "file": "1340-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13897.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "variant_id": "1341",
+  "sku": "142615",
+  "label": "Rabbit & Turkey Ragout",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 52,
+    "label": "Rabbit"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 145,
+    "label": "Stew"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "11966",
+    "file": "ge-catalog-product-upload-ME000001881",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11966.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "variant_id": "1342",
+  "sku": "142625",
+  "label": "Rabbit in Gravy",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 52,
+    "label": "Rabbit"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13900",
+    "file": "1342-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13900.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "13903",
+    "file": "1342-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13903.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "variant_id": "1343",
+  "sku": "142635",
+  "label": "Chicken in Gravy",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13906",
+    "file": "1343-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13906.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "13909",
+    "file": "1343-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13909.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "variant_id": "1344",
+  "sku": "142655",
+  "label": "Fish in Gravy",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 162,
+    "label": "Fish"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13912",
+    "file": "1344-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13912.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "13915",
+    "file": "1344-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13915.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "variant_id": "1586",
+  "sku": "142645",
+  "label": "Liver in Gravy",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 46,
+    "label": "Liver"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "11346",
+    "file": "dd702f42d7586ec8b98696cdd56a1918",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11346.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "11349",
+    "file": "80e678ad47becd47c9446e27dfcccd50",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11349.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "11352",
+    "file": "328c7a347faab08c2dcacd782a22db00",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11352.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "11355",
+    "file": "e4fba2112c4f50d9b4dd7d5a4741e49e",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11355.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "11358",
+    "file": "d9da1653b09523207fc9ed26a8f1dc08",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11358.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "11361",
+    "file": "b70b5454d1b0644ed929041e613410fa",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/11361.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1152",
+  "product": "All Breeds Adult",
+  "variant_id": "1642",
+  "sku": "011137",
+  "label": "Duck & Rice 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 42,
+    "label": "Duck"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14065",
+    "file": "1642-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14065.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14068",
+    "file": "1642-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14068.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1152",
+  "product": "All Breeds Adult",
+  "variant_id": "1644",
+  "sku": "011347",
+  "label": "Beef & Rice 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14071",
+    "file": "1644-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14071.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14074",
+    "file": "1644-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14074.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1152",
+  "product": "All Breeds Adult",
+  "variant_id": "1646",
+  "sku": "011327",
+  "label": "Lamb & Rice 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 40,
+    "label": "Lamb"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14077",
+    "file": "1646-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14077.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14080",
+    "file": "1646-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14080.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1152",
+  "product": "All Breeds Adult",
+  "variant_id": "1648",
+  "sku": "011307",
+  "label": "Salmon & Rice 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 38,
+    "label": "Salmon"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14083",
+    "file": "1648-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14083.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1152",
+  "product": "All Breeds Adult",
+  "variant_id": "1650",
+  "sku": "011157",
+  "label": "Rabbit & Rice 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 52,
+    "label": "Rabbit"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14086",
+    "file": "1650-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14086.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14089",
+    "file": "1650-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14089.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1152",
+  "product": "All Breeds Adult",
+  "variant_id": "1652",
+  "sku": "011397",
+  "label": "Turkey & Rice 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 35,
+    "label": "All Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 39,
+    "label": "Turkey"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 101,
+    "label": "Monoprotein"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14092",
+    "file": "1652-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14092.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14095",
+    "file": "1652-3-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14095.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "416",
+  "sku": "009017",
+  "label": "Beef 415 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 450,
+    "label": "Beef"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2739",
+    "file": "simba_cane_umido_bocconi_con_manzo",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2739.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "417",
+  "sku": "009127",
+  "label": "Beef 1230 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 37,
+    "label": "Beef"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 450,
+    "label": "Beef"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13999",
+    "file": "417-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13999.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "418",
+  "sku": "009027",
+  "label": "Chicken & Turkey 415 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 680,
+    "label": "Chicken & Turkey"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2742",
+    "file": "simba_cane_umido_bocconi_con_pollo_e_tacchino",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2742.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "419",
+  "sku": "009137",
+  "label": "Chicken & Turkey 1230 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 680,
+    "label": "Chicken & Turkey"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14002",
+    "file": "419-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14002.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "420",
+  "sku": "009167",
+  "label": "Lamb 415 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 40,
+    "label": "Lamb"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 476,
+    "label": "Lamb"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2745",
+    "file": "simba_cane_umido_bocconi_con_agnello",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2745.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "421",
+  "sku": "009147",
+  "label": "Lamb 1230 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 40,
+    "label": "Lamb"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 476,
+    "label": "Lamb"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14005",
+    "file": "421-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14005.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "422",
+  "sku": "009177",
+  "label": "Wild Game 415 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 681,
+    "label": "Wild Game"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2748",
+    "file": "simba_cane_umido_bocconi_con_selvaggina",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2748.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "423",
+  "sku": "009157",
+  "label": "Wild Game 1230 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 681,
+    "label": "Wild Game"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2748",
+    "file": "simba_cane_umido_bocconi_con_selvaggina",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2748.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "variant_id": "424",
+  "sku": "009187",
+  "label": "Beef & Vegetables 1230 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 682,
+    "label": "Beef & Vegetables"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 86,
+    "label": "No Artificial Colorants"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 139,
+    "label": "Chunks in Gravy"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 147,
+    "label": "Can"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 450,
+    "label": "Beef"
+   }
+  ],
+  "source": "sibling",
+  "images": [
+   {
+    "pos": 0,
+    "media": "2751",
+    "file": "simba_cane_umido_bocconi_con_manzo_e_ortaggi",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/2751.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1286",
+  "product": "Excel Calcium",
+  "variant_id": "1993",
+  "sku": "10940",
+  "label": "155 tablets",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 136,
+    "label": "Vitamins & Minerals"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 150,
+    "label": "Tub"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 533,
+    "label": "Tablet"
+   },
+   {
+    "attributeId": 19,
+    "attributeName": "Active Ingredient",
+    "role": "attribute",
+    "valueId": 564,
+    "label": "Calcium"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14161",
+    "file": "1756131161-s1350x1350.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14161.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14167",
+    "file": "1756131161-s1350x1350.jpg-1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14167.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14173",
+    "file": "1756131161-s1350x1350.jpg-2",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14173.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14185",
+    "file": "1756131161-s1350x1350.jpg-3",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14185.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14191",
+    "file": "1756131161-s1350x1350.jpg-4",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14191.jpg"
+   },
+   {
+    "pos": 5,
+    "media": "14197",
+    "file": "1756131161-s1350x1350.jpg-5",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14197.jpg"
+   },
+   {
+    "pos": 6,
+    "media": "14200",
+    "file": "1756131161-s1350x1350.jpg-6",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14200.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1316",
+  "product": "Hygienic Cat Litter",
+  "variant_id": "2030",
+  "sku": "KF5200211",
+  "label": "2.7 kg (4.8 l)",
+  "attrs": [
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 553,
+    "label": "Granules"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14698",
+    "file": "90154a06a3b4f60d240fdc6cde83ee90.png",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14698.png"
+   },
+   {
+    "pos": 1,
+    "media": "14701",
+    "file": "b0d86e0970ecdac10182f9ef11a71637.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14701.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14704",
+    "file": "7dbc8383a80802dcb300f4801a5ca2fd.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14704.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14707",
+    "file": "614da20089b626bdbbba541cdea38903.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14707.jpg"
+   },
+   {
+    "pos": 4,
+    "media": "14710",
+    "file": "Gigienicheskij.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14710.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1275",
+  "product": "Flea & Tick Collar for Dogs",
+  "variant_id": "1976",
+  "sku": "BP12512",
+  "label": "65 cm, black",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 407,
+    "label": "Anti-Parasitic"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 273,
+    "label": "Black"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 547,
+    "label": "Collar"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 840,
+    "label": "65 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14386",
+    "file": "147275.970.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14386.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1275",
+  "product": "Flea & Tick Collar for Dogs",
+  "variant_id": "1977",
+  "sku": "BP10196",
+  "label": "65 cm, green",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 407,
+    "label": "Anti-Parasitic"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 267,
+    "label": "Green"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 547,
+    "label": "Collar"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 840,
+    "label": "65 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14362",
+    "file": "8711231101962_1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14362.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14365",
+    "file": "osheynik_zelenyy_dlya_sobak.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14365.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1275",
+  "product": "Flea & Tick Collar for Dogs",
+  "variant_id": "1978",
+  "sku": "BP10199",
+  "label": "65 cm, orange",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 407,
+    "label": "Anti-Parasitic"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 270,
+    "label": "Orange"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 547,
+    "label": "Collar"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 840,
+    "label": "65 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14368",
+    "file": "f5ea604b7b5dba4412842589a61879fc.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14368.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1314",
+  "product": "Delights Twisted Sticks",
+  "variant_id": "2028",
+  "sku": "IN12247",
+  "label": "Chicken, 10 pcs / 55 g",
+  "attrs": [
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 6,
+    "attributeName": "Special Diet",
+    "role": "attribute",
+    "valueId": 81,
+    "label": "Low Fat"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 109,
+    "label": "Dental & Breath Care"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14671",
+    "file": "csm_TH21045_9649_4f5d0658f0.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14671.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14674",
+    "file": "csm_TH21045_9652_13f185afc4.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14674.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14677",
+    "file": "csm_TH21045_14255_14b2d660fc.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14677.jpg"
+   },
+   {
+    "pos": 3,
+    "media": "14680",
+    "file": "csm_TR30301_9632_a5eb123c4e.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14680.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1269",
+  "product": "Calcium Dental Bones for Large Breeds",
+  "variant_id": "1969",
+  "sku": "304016",
+  "label": "105 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 33,
+    "label": "Large Breeds"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 117,
+    "label": "Hip & Joint Support"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14314",
+    "file": "9aqmp9wgf7rhgmgpnfxj91cxvayw63np.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14314.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14317",
+    "file": "sas6rkvme3puta7v854tuvcjoehhu5u3.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14317.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14320",
+    "file": "g3e3cm7v0pw1br10kzivonzqvt9cuyu1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14320.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1292",
+  "product": "Sausages with Rice",
+  "variant_id": "2006",
+  "sku": "DL050046",
+  "label": "Turkey 85 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 39,
+    "label": "Turkey"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 495,
+    "label": "Turkey"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14440",
+    "file": "lkr1r8kiq388qey9m7p5xu1koc6dobh4.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14440.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14443",
+    "file": "crvdbm0ffup2xyn0xav6h0pgaiwql09b.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14443.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14446",
+    "file": "it1afqxs3s6f5zo70z4lmzbtlo2sncuh.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14446.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1296",
+  "product": "Calcium Dental Bones for Small Breeds",
+  "variant_id": "2010",
+  "sku": "DL303996",
+  "label": "60 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 117,
+    "label": "Hip & Joint Support"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14485",
+    "file": "fshl16jqwqj51e5wo2bmgbk90vex2dn9.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14485.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14488",
+    "file": "8f3g4a34hjbo1cbfbgxe5htmbaoke0iq.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14488.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14491",
+    "file": "gxtdygc99ix61b53cu6npdyo13us5l15.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14491.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1300",
+  "product": "Dried Chicken Medallions",
+  "variant_id": "2014",
+  "sku": "DL711156",
+  "label": "90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14521",
+    "file": "dzul0s8ocijayaacnrylkqu3sjpb8ls2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14521.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14524",
+    "file": "6iio0az4p2pe8m9d2mxlcznginnssl6d.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14524.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14527",
+    "file": "5w7nbr28oah8j6rh51lnr5avtkfjmcmf.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14527.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1304",
+  "product": "Dried Slices",
+  "variant_id": "2018",
+  "sku": "DL711216",
+  "label": "Duck 90 g",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 42,
+    "label": "Duck"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 469,
+    "label": "Duck"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14557",
+    "file": "ke2cnp205h07g7uhxo75jpeskolpunil.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14557.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14560",
+    "file": "z5xxemkhqa7zz2l1evipiz39fnooeaq7.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14560.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14563",
+    "file": "vvvbdcqxwjo8lunyq6bmv729mc52ebri.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14563.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1308",
+  "product": "Breast Cartilage for Mini Breeds",
+  "variant_id": "2022",
+  "sku": "DL711406",
+  "label": "Chicken 30 g",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "option",
+    "valueId": 117,
+    "label": "Hip & Joint Support"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 148,
+    "label": "Pouch"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14593",
+    "file": "c2mljtev1m3fw4d7nzo8hegmeappwz0a.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14593.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14596",
+    "file": "imim06k3y84zoejzfsgu17jofeqo1omu.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14596.jpg"
+   },
+   {
+    "pos": 2,
+    "media": "14599",
+    "file": "1p6iq7k0hyx1qu6a6dinfxsify76iiow.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14599.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "732",
+  "product": "Traditional Line Lemon Conditioner for Short Coats",
+  "variant_id": "888",
+  "sku": "03177IVS",
+  "label": "300 ml",
+  "attrs": {},
+  "source": "fix-C",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13954",
+    "file": "888-1-white.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13954.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "5420",
+    "file": "Lemonconditionergroup-copy",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/5420.png"
+   }
+  ]
+ },
+ {
+  "product_id": "1051",
+  "product": "Kitten Pouch",
+  "variant_id": "1345",
+  "sku": "143005",
+  "label": "Chicken in Jelly",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 26,
+    "label": "Kitten"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 8,
+    "attributeName": "Food Texture",
+    "role": "option",
+    "valueId": 140,
+    "label": "Chunks in Jelly"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "option",
+    "valueId": 148,
+    "label": "Pouch"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13918",
+    "file": "1345-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13918.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "13921",
+    "file": "1345-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13921.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1157",
+  "product": "Maxi Adult",
+  "variant_id": "1671",
+  "sku": "004417",
+  "label": "Chicken 12 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 33,
+    "label": "Large Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14098",
+    "file": "1671-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14098.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14101",
+    "file": "1671-2-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14101.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1172",
+  "product": "Premium Hairball Control Dry Cat Food",
+  "variant_id": "1705",
+  "sku": "909335",
+  "label": "Chicken 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 114,
+    "label": "Hairball Control"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13927",
+    "file": "1705-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13927.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "13930",
+    "file": "1705-1.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13930.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1279",
+  "product": "Medium Starter",
+  "variant_id": "1982",
+  "sku": "MG006197",
+  "label": "Chicken 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 32,
+    "label": "Medium Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 111,
+    "label": "Digestive Health"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   },
+   {
+    "attributeId": 17,
+    "attributeName": "Ingredient",
+    "role": "attribute",
+    "valueId": 461,
+    "label": "Chicken"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14737",
+    "file": "starter-medium-15-kg-croquettes-mother-baby-dog.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14737.jpg"
+   },
+   {
+    "pos": 1,
+    "media": "14740",
+    "file": "starter-medium-15-kg-croquettes-mother-baby-dog.jpg-1",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14740.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1318",
+  "product": "Light Wood Cat Litter",
+  "variant_id": "2032",
+  "sku": "KF5200411",
+  "label": "2 kg (6 l)",
+  "attrs": [
+   {
+    "attributeId": 12,
+    "attributeName": "Material",
+    "role": "attribute",
+    "valueId": 210,
+    "label": "Wood"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 553,
+    "label": "Granules"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14728",
+    "file": "0000426_-kotoffej-2-.jpeg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14728.jpeg"
+   },
+   {
+    "pos": 1,
+    "media": "14731",
+    "file": "dlyakoshechek.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14731.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1156",
+  "product": "Maxi Puppy & Junior",
+  "variant_id": "1669",
+  "sku": "MG006027",
+  "label": "Chicken 15 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 25,
+    "label": "Puppy"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 33,
+    "label": "Large Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-A",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14014",
+    "file": "1669-1-final.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14014.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1176",
+  "product": "Premium Small Breeds Adult Dry Dog Food",
+  "variant_id": "1713",
+  "sku": "909545",
+  "label": "Chicken 14 kg",
+  "attrs": [
+   {
+    "attributeId": 3,
+    "attributeName": "Lifestage",
+    "role": "attribute",
+    "valueId": 27,
+    "label": "Adult"
+   },
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 5,
+    "attributeName": "Flavor",
+    "role": "option",
+    "valueId": 36,
+    "label": "Chicken"
+   },
+   {
+    "attributeId": 9,
+    "attributeName": "Packaging Type",
+    "role": "attribute",
+    "valueId": 146,
+    "label": "Bag"
+   }
+  ],
+  "source": "fix-B",
+  "images": [
+   {
+    "pos": 0,
+    "media": "13936",
+    "file": "1713-2.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/13936.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1271",
+  "product": "Sensitiv Tear Stain Remover",
+  "variant_id": "1972",
+  "sku": "BP10264",
+  "label": "50 ml",
+  "attrs": [
+   {
+    "attributeId": 7,
+    "attributeName": "Health Feature",
+    "role": "attribute",
+    "valueId": 421,
+    "label": "Tear Stain Removal"
+   },
+   {
+    "attributeId": 18,
+    "attributeName": "Product Form",
+    "role": "attribute",
+    "valueId": 529,
+    "label": "Liquid"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14371",
+    "file": "10264_0.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14371.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1281",
+  "product": "Classic Leather Puppy Collar",
+  "variant_id": "1988",
+  "sku": "01082K",
+  "label": "15 mm, 24–30 cm",
+  "attrs": [
+   {
+    "attributeId": 4,
+    "attributeName": "Breed Size",
+    "role": "attribute",
+    "valueId": 31,
+    "label": "Small Breeds"
+   },
+   {
+    "attributeId": 12,
+    "attributeName": "Material",
+    "role": "attribute",
+    "valueId": 310,
+    "label": "Leather"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 876,
+    "label": "15 mm × 24–30 cm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14134",
+    "file": "eckh6b4kziadl0mgy49u717jsmughnct.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14134.jpg"
+   }
+  ]
+ },
+ {
+  "product_id": "1290",
+  "product": "Prong Collar",
+  "variant_id": "1997",
+  "sku": "26455351",
+  "label": "3.5 mm, 55 cm",
+  "attrs": [
+   {
+    "attributeId": 12,
+    "attributeName": "Material",
+    "role": "attribute",
+    "valueId": 304,
+    "label": "Metal"
+   },
+   {
+    "attributeId": 15,
+    "attributeName": "Color Family",
+    "role": "option",
+    "valueId": 345,
+    "label": "Silver"
+   },
+   {
+    "attributeId": 28,
+    "attributeName": "Size",
+    "role": "option",
+    "valueId": 879,
+    "label": "55 cm/3.5 mm"
+   }
+  ],
+  "source": "found-import",
+  "images": [
+   {
+    "pos": 0,
+    "media": "14311",
+    "file": "9cot3dj6nske1zd8z2t1gsyx4cmst95s.jpg",
+    "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-02-audit/img/14311.jpg"
+   }
+  ]
+ }
+]

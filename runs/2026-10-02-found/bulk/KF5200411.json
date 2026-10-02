@@ -1,0 +1,58 @@
+{
+ "name": "Light Wood Cat Litter",
+ "slug": "kotoffey-light-wood-cat-litter",
+ "category_ids": [
+  63
+ ],
+ "brand_id": 46,
+ "attribute_family_id": 9,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "KF5200411",
+   "name": "2 kg (6 l)",
+   "price": 1700.0,
+   "cost_price": 1060.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "material": [
+     210
+    ],
+    "product-form": [
+     553
+    ]
+   },
+   "about_this_item": "<p>Kotoffey wood cat litter with a natural wood scent that cats like, so they get used to the tray quickly. The wood granules absorb moisture quickly, keeping paws clean and removing unpleasant odours. Dust-free, so it is safe for your cat's airways and does not cause allergies; does not stick to paws. Heat-treated.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14728,
+    14731
+   ],
+   "measure_type": "volume",
+   "content": 6000,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Светлый древесный наполнитель для кошачьего туалета",
+   "variants": {
+    "KF5200411": {
+     "about_this_item": "Древесный наполнитель Kotoffey для кошачьего туалета с природным древесным ароматом, который нравится кошкам, поэтому они быстро привыкают к лотку. Древесные гранулы быстро впитывают влагу, сохраняя лапы чистыми и устраняя неприятные запахи. Не пылит, поэтому безопасен для дыхательных путей кошки и не вызывает аллергии; не прилипает к лапам. Прошёл термическую обработку."
+    }
+   }
+  },
+  "hy": {
+   "name": "Բաց փայտե հիմքով լցանյութ կատուների զուգարանի համար",
+   "variants": {
+    "KF5200411": {
+     "about_this_item": "Kotoffey փայտե լցանյութ կատուների զուգարանի համար՝ փայտի բնական բույրով, որը դուր է գալիս կատուներին, ուստի նրանք արագ են վարժվում սկուտեղին։ Փայտե հատիկներն արագ կլանում են խոնավությունը՝ պահելով թաթերը մաքուր և վերացնելով տհաճ հոտերը։ Փոշի չի առաջացնում, ուստի անվտանգ է կատվի շնչուղիների համար և ալերգիա չի առաջացնում. չի կպչում թաթերին։ Անցել է ջերմային մշակում։"
+    }
+   }
+  }
+ }
+}

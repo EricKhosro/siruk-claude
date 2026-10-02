@@ -1,0 +1,107 @@
+{
+ "name": "Medium Adult",
+ "slug": "monge-medium-adult",
+ "category_ids": [
+  3
+ ],
+ "brand_id": 5,
+ "attribute_family_id": 1,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "MG006147",
+   "name": "Chicken 15 kg",
+   "price": 39000.0,
+   "cost_price": 29500.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "lifestage": [
+     27
+    ],
+    "breed-size": [
+     32
+    ],
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "about_this_item": "<p>Monge Natural Superpremium Medium Adult Rich in Chicken (Best for Breeders 15 kg bag): a complete, balanced diet for adult dogs of medium breeds with normal physical activity. Omega-3 and omega-6 fatty acids for healthy skin and a beautiful coat; XOS help keep the natural balance of the intestinal flora, support nutrient absorption and immunity; L-carnitine supports muscle energy metabolism and fat metabolism; glucosamine, chondroitin, calcium and phosphorus for healthy joints. Made in Italy.</p>",
+   "ingredient_information": "<p>Ingredients: chicken (30% dehydrated and 10% fresh meat), rice, maize, animal fat (chicken fat 99.5%, preserved with natural antioxidants), dried beet pulp, brewer's yeast (source of MOS and vitamin B12), maize gluten meal, hydrolysed animal protein, fish (dehydrated salmon), fish oil (salmon oil), hydrolysed cartilage (source of chondroitin sulphate), hydrolysed crustaceans (source of glucosamine), methylsulfonylmethane, XOS (xylo-oligosaccharides 3 g/kg), hydrolysed yeast (source of MOS), Yucca schidigera, spirulina.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14734
+   ],
+   "measure_type": "mass",
+   "content": 15000.0,
+   "pack_count": 1,
+   "is_default": true
+  },
+  {
+   "sku": "MG006147-KG",
+   "name": "1 kg",
+   "price": 2800.0,
+   "sale_mode": "pack",
+   "measure_type": "mass",
+   "content": 1000,
+   "pack_count": 1,
+   "cost_price": 1967,
+   "initial_stock": 10,
+   "attribute_values": {
+    "lifestage": [
+     27
+    ],
+    "breed-size": [
+     32
+    ],
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "images": [
+    14734
+   ]
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Medium Adult",
+   "variants": {
+    "MG006147": {
+     "about_this_item": "Monge Natural Superpremium Medium Adult Rich in Chicken (мешок 15 кг Best for Breeders): полнорационный сбалансированный корм для взрослых собак средних пород с нормальной физической активностью. Жирные кислоты омега-3 и омега-6 для здоровой кожи и красивой шерсти; XOS помогают поддерживать естественный баланс кишечной микрофлоры, усвоение питательных веществ и иммунитет; L-карнитин поддерживает энергетический обмен в мышцах и жировой обмен; глюкозамин, хондроитин, кальций и фосфор для здоровья суставов. Сделано в Италии.",
+     "ingredient_information": "Состав: курица (30% дегидратированное и 10% свежее мясо), рис, кукуруза, животный жир (куриный жир 99,5%, консервированный натуральными антиоксидантами), сушёный свекловичный жом, пивные дрожжи (источник MOS и витамина B12), кукурузный глютен, гидролизованный животный белок, рыба (дегидратированный лосось), рыбий жир (лососевый жир), гидролизованный хрящ (источник хондроитинсульфата), гидролизованные ракообразные (источник глюкозамина), метилсульфонилметан, XOS (ксилоолигосахариды 3 г/кг), гидролизованные дрожжи (источник MOS), Yucca schidigera, спирулина."
+    },
+    "MG006147-KG": {
+     "about_this_item": "Monge Natural Superpremium Medium Adult Rich in Chicken (мешок 15 кг Best for Breeders): полнорационный сбалансированный корм для взрослых собак средних пород с нормальной физической активностью. Жирные кислоты омега-3 и омега-6 для здоровой кожи и красивой шерсти; XOS помогают поддерживать естественный баланс кишечной микрофлоры, усвоение питательных веществ и иммунитет; L-карнитин поддерживает энергетический обмен в мышцах и жировой обмен; глюкозамин, хондроитин, кальций и фосфор для здоровья суставов. Сделано в Италии.",
+     "ingredient_information": "Состав: курица (30% дегидратированное и 10% свежее мясо), рис, кукуруза, животный жир (куриный жир 99,5%, консервированный натуральными антиоксидантами), сушёный свекловичный жом, пивные дрожжи (источник MOS и витамина B12), кукурузный глютен, гидролизованный животный белок, рыба (дегидратированный лосось), рыбий жир (лососевый жир), гидролизованный хрящ (источник хондроитинсульфата), гидролизованные ракообразные (источник глюкозамина), метилсульфонилметан, XOS (ксилоолигосахариды 3 г/кг), гидролизованные дрожжи (источник MOS), Yucca schidigera, спирулина."
+    }
+   }
+  },
+  "hy": {
+   "name": "Medium Adult",
+   "variants": {
+    "MG006147": {
+     "about_this_item": "Monge Natural Superpremium Medium Adult Rich in Chicken (15 կգ Best for Breeders պարկ)՝ ամբողջական, հավասարակշռված սննդակարգ նորմալ ֆիզիկական ակտիվությամբ միջին ցեղերի չափահաս շների համար։ Օմեգա-3 և օմեգա-6 ճարպաթթուներ՝ առողջ մաշկի և գեղեցիկ բրդի համար. XOS-ն օգնում է պահպանել աղիքային միկրոֆլորայի բնական հավասարակշռությունը, աջակցում է սննդանյութերի յուրացմանը և իմունիտետին. L-կարնիտինն աջակցում է մկանների էներգետիկ փոխանակությանը և ճարպային փոխանակությանը. գլյուկոզամին, խոնդրոիտին, կալցիում և ֆոսֆոր՝ առողջ հոդերի համար։ Արտադրված է Իտալիայում։",
+     "ingredient_information": "Բաղադրություն՝ հավ (30% չորացված և 10% թարմ միս), բրինձ, եգիպտացորեն, կենդանական ճարպ (հավի ճարպ 99,5%, պահպանված բնական հակաօքսիդանտներով), չորացված ճակնդեղի մզուք, գարեջրային խմորիչ (MOS-ի և B12 վիտամինի աղբյուր), եգիպտացորենի սնձան, հիդրոլիզացված կենդանական սպիտակուց, ձուկ (չորացված սաղմոն), ձկան յուղ (սաղմոնի յուղ), հիդրոլիզացված կռճիկ (խոնդրոիտին սուլֆատի աղբյուր), հիդրոլիզացված խեցգետնանմաններ (գլյուկոզամինի աղբյուր), մեթիլսուլֆոնիլմեթան, XOS (քսիլոօլիգոսախարիդներ 3 գ/կգ), հիդրոլիզացված խմորիչ (MOS-ի աղբյուր), Yucca schidigera, սպիրուլինա։"
+    },
+    "MG006147-KG": {
+     "about_this_item": "Monge Natural Superpremium Medium Adult Rich in Chicken (15 կգ Best for Breeders պարկ)՝ ամբողջական, հավասարակշռված սննդակարգ նորմալ ֆիզիկական ակտիվությամբ միջին ցեղերի չափահաս շների համար։ Օմեգա-3 և օմեգա-6 ճարպաթթուներ՝ առողջ մաշկի և գեղեցիկ բրդի համար. XOS-ն օգնում է պահպանել աղիքային միկրոֆլորայի բնական հավասարակշռությունը, աջակցում է սննդանյութերի յուրացմանը և իմունիտետին. L-կարնիտինն աջակցում է մկանների էներգետիկ փոխանակությանը և ճարպային փոխանակությանը. գլյուկոզամին, խոնդրոիտին, կալցիում և ֆոսֆոր՝ առողջ հոդերի համար։ Արտադրված է Իտալիայում։",
+     "ingredient_information": "Բաղադրություն՝ հավ (30% չորացված և 10% թարմ միս), բրինձ, եգիպտացորեն, կենդանական ճարպ (հավի ճարպ 99,5%, պահպանված բնական հակաօքսիդանտներով), չորացված ճակնդեղի մզուք, գարեջրային խմորիչ (MOS-ի և B12 վիտամինի աղբյուր), եգիպտացորենի սնձան, հիդրոլիզացված կենդանական սպիտակուց, ձուկ (չորացված սաղմոն), ձկան յուղ (սաղմոնի յուղ), հիդրոլիզացված կռճիկ (խոնդրոիտին սուլֆատի աղբյուր), հիդրոլիզացված խեցգետնանմաններ (գլյուկոզամինի աղբյուր), մեթիլսուլֆոնիլմեթան, XOS (քսիլոօլիգոսախարիդներ 3 գ/կգ), հիդրոլիզացված խմորիչ (MOS-ի աղբյուր), Yucca schidigera, սպիրուլինա։"
+    }
+   }
+  }
+ }
+}

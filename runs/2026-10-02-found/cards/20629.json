@@ -1,0 +1,57 @@
+{
+ "code": "20629",
+ "status": "ready",
+ "hold_reason": null,
+ "brand_id": 30,
+ "price": {
+  "source": "prepared"
+ },
+ "existing_id": null,
+ "first_image": "packshot",
+ "evidence_file": "cards/20629.source.txt",
+ "type": "supplements",
+ "name": "Soft Flea Collar for Cats",
+ "label": "Sparkle, assorted colours",
+ "size": {
+  "measure_type": "count",
+  "content": 1,
+  "pack_count": 1
+ },
+ "category_ids": [
+  51
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Collar",
+   "quote": "Collars"
+  },
+  "health-feature": {
+   "value": "Anti-Parasitic",
+   "quote": "repel fleas for up to 8 weeks"
+  },
+  "color-family": {
+   "value": "Color Varies",
+   "quote": "available in assorted colours"
+  }
+ },
+ "images": [
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_1.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_2.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_3.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_4.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_5.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_6.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_7.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_8.jpg",
+  "https://d7rh5s3nxmpy4.cloudfront.net/CMP9365/1000385_Ecommerce_Soft_Flea_Collar_Sparkle_CAT_EN_2026_9.jpg"
+ ],
+ "texts": {
+  "about_this_item": "The Beaphar Soft Cat Flea Collar contains the natural plant extracts Margosa and Lavandin Oil to repel fleas for up to 8 weeks; it takes 5-7 days to reach optimal effect. This comfortable, adjustable 30 cm fabric collar has a quick-release safety buckle designed to break apart if the cat gets caught, and comes with an optional silver bell. It has a stylish sparkly finish (colours assorted). Suitable for cats and kittens from 12 weeks of age. For best results also treat the home, where most of a flea problem lives as eggs and developing stages.",
+  "ingredient_information": "Margosa extract 2.5% w/w, Lavandin oil 0.5% w/w.",
+  "feeding_instructions": "Fasten the collar around the cat's neck (coloured side outwards), leaving room for two fingers between collar and neck. Cut off any collar beyond the buckle and dispose of it wrapped in a bag. Check and loosen periodically on a growing cat. Fit a new collar every eight weeks for continuous protection."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.beaphar.co.uk/product/1000385-beaphar-soft-sparkle-flea-collar-for-cats/"
+ }
+}

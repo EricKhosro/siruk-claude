@@ -1,0 +1,46 @@
+{
+ "type": "accessories",
+ "brand_id": 41,
+ "existing_id": null,
+ "name": "Litter Tray with Mesh",
+ "label": "37 × 28 × 6 cm",
+ "category_ids": [
+  67
+ ],
+ "attributes": {
+  "material": {
+   "value": "Plastic",
+   "quote": "Основной материал пластик"
+  },
+  "color-family": {
+   "value": "Color Varies",
+   "quote": "Цвет - в ассортименте"
+  },
+  "size": {
+   "value": "37 × 28 × 6 cm",
+   "quote": "Туалет c сеткой 37 * 28 * 6см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/f49/9e0i5vayyvmdpb90rxm695ea0odasww7.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Kaskad litter tray with a mesh insert, 37 × 28 × 6 cm. Made of high-quality plastic; suits kittens and small and medium-sized cats. Easy to wash and does not absorb odours. Colour varies. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/dlya_ukhoda/lotki_tualety/tualet_c_setkoy_37_28_6sm/",
+  "article": "09307034",
+  "ean": "4605350054619"
+ },
+ "code": "09307034",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/09307034.source.txt"
+}

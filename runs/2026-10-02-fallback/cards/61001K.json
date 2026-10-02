@@ -1,0 +1,46 @@
+{
+ "type": "accessories",
+ "brand_id": 43,
+ "existing_id": null,
+ "name": "Litter Tray",
+ "label": "42.5 × 31 × 8 cm",
+ "category_ids": [
+  67
+ ],
+ "attributes": {
+  "material": {
+   "value": "Plastic",
+   "quote": "Основной материал пластик"
+  },
+  "color-family": {
+   "value": "Color Varies",
+   "quote": "Цвет - в ассортименте"
+  },
+  "size": {
+   "value": "42.5 × 31 × 8 cm",
+   "quote": "Туалет \"DOGMAN\" 42,5*31*8см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/7b5/u9kob5nimjnvvogn3gloyvdxcp541fmf.jpg"
+ ],
+ "texts": {
+  "about_this_item": "DOGMAN cat litter tray, 42.5 × 31 × 8 cm. Made of high-quality plastic; suits kittens and small and medium-sized cats. Easy to wash and does not absorb odours. Colour varies. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/dlya_ukhoda/lotki_tualety/tualet_dogman_42_5_31_8sm/",
+  "article": "09307018",
+  "ean": "4650001610010"
+ },
+ "code": "61001K",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/61001K.source.txt"
+}

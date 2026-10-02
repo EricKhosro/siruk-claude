@@ -1,0 +1,51 @@
+{
+ "type": "supplements",
+ "brand_id": 30,
+ "existing_id": 1110,
+ "name": "Flea & Tick Collar for Cats",
+ "label": "35 cm, green",
+ "category_ids": [
+  51
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Collar",
+   "quote": "ошейник"
+  },
+  "health-feature": {
+   "value": "Anti-Parasitic",
+   "quote": "от блох и клещей"
+  },
+  "color-family": {
+   "value": "Green",
+   "quote": "зеленый"
+  },
+  "size": {
+   "value": "35 cm",
+   "quote": "35 см"
+  }
+ },
+ "images": [
+  "https://e-zoo.by/upload/iblock/d96/z96eypv3d67f6s1xhg317y128vw1j608/8711231102013_1.png"
+ ],
+ "texts": {
+  "about_this_item": "Beaphar flea and tick collar for cats and kittens from 6 months of age. Protects against ticks, fleas, lice and biting lice for up to 6 months. Water-resistant: the cat can be bathed without removing it. Safety System: notches in the strap let the collar release instantly if caught. Active ingredient: diazinon 15%. Length 35 cm.",
+  "ingredient_information": "Diazinon 15%.",
+  "feeding_instructions": "Unpack the collar, put it on the cat and adjust it so that two fingers fit between the neck and the collar (1–1.5 cm), fasten it and cut off the excess strap. Works only when worn continuously."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://biostyle.biz/catalog/beaphar_10201_osheynik_d_kosh_zelenyy_35sm_12sht_bl_96_kor/",
+  "images_from": "https://e-zoo.by/products/beaphar-flea-amp-tick-collar-for-cat-583100/ (file name = EAN 8711231102013)",
+  "article": "10201",
+  "ean": "8711231102013"
+ },
+ "code": "10201",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/10201.source.txt"
+}

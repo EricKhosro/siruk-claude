@@ -1,0 +1,70 @@
+{
+ "name": "Medallions with Rice for Mini Breeds",
+ "slug": "derevenskie-lakomstva-medallions-with-rice-for-mini-breeds",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL050056",
+   "name": "Turkey 55 g",
+   "price": 1950.0,
+   "cost_price": 1195.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     39
+    ],
+    "ingredient": [
+     495
+    ],
+    "breed-size": [
+     31
+    ],
+    "special-diet": [
+     100
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>A tender treat made for small dogs: juicy pieces of turkey combined with puffed rice. Hypoallergenic and tasty.</p>",
+   "ingredient_information": "<p>Turkey meat, rice, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 35 g, fat 10 g, moisture 18 g, fibre 0.5 g, ash 3 g; energy 288.2 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14449,
+    14452,
+    14455
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Медальоны с рисом для мини-пород",
+   "variants": {
+    "DL050056": {
+     "about_this_item": "Нежное лакомство, созданное для маленьких собак: сочные кусочки индейки в сочетании с воздушным рисом. Гипоаллергенное и вкусное.",
+     "ingredient_information": "Мясо индейки, рис, субпродукты растительного происхождения, минералы. Гарантированные показатели на 100 г: белок 35 г, жир 10 г, влага 18 г, клетчатка 0,5 г, зола 3 г; энергетическая ценность 288,2 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Մեդալիոններ բրնձով մինի ցեղատեսակների համար",
+   "variants": {
+    "DL050056": {
+     "about_this_item": "Նուրբ հյուրասիրություն՝ ստեղծված փոքր շների համար. հնդկահավի հյութալի կտորներ՝ փքված բրնձի հետ։ Հիպոալերգենային և համեղ։",
+     "ingredient_information": "Հնդկահավի միս, բրինձ, բուսական ծագման ենթամթերքներ, հանքանյութեր։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 35 գ, ճարպ 10 գ, խոնավություն 18 գ, թաղանթանյութ 0.5 գ, մոխիր 3 գ. էներգետիկ արժեքը՝ 288.2 կկալ։"
+    }
+   }
+  }
+ }
+}

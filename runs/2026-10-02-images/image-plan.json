@@ -1,0 +1,189 @@
+{
+ "1303": {
+  "sku": "041887",
+  "images": [],
+  "verdict": "none",
+  "note": "No acceptable 1230 g Chef Manzo photo. The image now on our server (1623677872679652939-1.jpg, 762x984, unwatermarked) is NOT hafo's photo: Lens shows it is raofarmaceutici.it's 'GranBonta Chef Manzo 400g' (EAN 8009470041867), the short 400 g can, so it is the wrong size for this variant and should come off. hafo's own photo (cloudfront 1623677872679652939.jpg) is the tall 1230 g 'Delizie dello Chef' Manzo can with a 'Sconto 20%' band, watermarked. The only EAN-keyed page (ilprimo.sk, 8009470041881) shows a broken composite of the new 'Bocconi cotti nel forno con CARNE' can (rejected, runs/2026-10-02-images/rejected/041887-ilprimo.jpg). monge.it's 1230 g Manzo has a different EAN (8009470041560, new range). Lens on hafo's original found no copy outside hafo.am. Product appears discontinued in this design."
+ },
+ "1721": {
+  "sku": "200720",
+  "images": [
+   {
+    "url": "https://zoocomplex.com.ua/image/catalog/0_product/offers_22/product-42541900.jpg",
+    "file": "runs/2026-10-02-images/picked/200720-1.jpg",
+    "page": "https://zoocomplex.com.ua/trixie-eg-tx-200720/",
+    "evidence": "page prints article eg-tx-200720 and Штрихкод 4053032024847 (hafo's EAN for 200720Tx), 'XS-S 2 м x 15 мм, лиловый'; shop.tieroase.ch with the same EAN names the colour 'orchidee'. Picture: Trixie Premium adjustable double-layer lead, orchid/magenta, Trixie tag",
+    "w": 1000,
+    "h": 1000
+   }
+  ],
+  "verdict": "replace",
+  "note": "Colour shown is Trixie 'orchid' (magenta-violet), which is what 200720 is. hafo's current photo is the FOREST (green, 200719) sibling, so the colour is wrong. trixie.de catalogue has no 200720 page (scripts/trixie-image.sh: miss); trixie.kiev.ua's TX-200720 page mislabels it 'M-L black' and its photo is 'one of the colours', so it was not used. The image is mostly white space with the lead across the middle (a lead is a thin horizontal object)."
+ },
+ "1346": {
+  "sku": "83041J",
+  "images": [
+   {
+    "url": "https://zooline.az/image/catalog/Kormell/KorMell%20adult%20cat%20pate%20with%20chicken%2075%20g.webp",
+    "file": "runs/2026-10-02-images/picked/83041J-1.webp",
+    "page": "https://zooline.az/ru/kormell-adult-cat-pate-with-chicken-75-g-pastet-s-kuritei-dly-vzroslyk-kosek-4620213830414",
+    "evidence": "page prints EAN 4620213830414, 'KorMell паштет с курицей 75 г'; single pouch, 'нежный паштет с КУРИЦЕЙ', same artwork as hafo's photo",
+    "w": 807,
+    "h": 1200
+   }
+  ],
+  "verdict": "replace",
+  "note": "Clean flat render, tight crop (pouch touches the edges). Ozon's 1181x1575 images are 28-pack listings, so they were not used."
+ },
+ "1347": {
+  "sku": "83042J",
+  "images": [
+   {
+    "url": "https://zooline.az/image/catalog/Kormell/KorMell%20adult%20cat%20pate%20with%20beef%20and%20liver%2075%20g.png",
+    "file": "runs/2026-10-02-images/picked/83042J-1.png",
+    "page": "https://zooline.az/ru/kormell-adult-cat-pate-with-beef-and-liver-75-g-pastet-s-govydinoi-i-pecenuy-dly-vzroslyk-kosek-4620213830421",
+    "evidence": "page prints EAN 4620213830421; single pouch 'с ГОВЯДИНОЙ И ПЕЧЕНЬЮ'",
+    "w": 1024,
+    "h": 1536
+   }
+  ],
+  "verdict": "replace",
+  "note": "Real photo of the pouch on white."
+ },
+ "1348": {
+  "sku": "83047J",
+  "images": [
+   {
+    "url": "https://zooline.az/image/catalog/Kormell/KorMell%20adult%20cat%20pate%20with%20duck%2075%20g.webp",
+    "file": "runs/2026-10-02-images/picked/83047J-1.webp",
+    "page": "https://zooline.az/ru/kormell-adult-cat-pate-with-duck-75-g-pastet-s-utkoi-dly-vzroslyk-kosek-4620213830476",
+    "evidence": "page prints EAN 4620213830476; single pouch 'с УТКОЙ'",
+    "w": 1099,
+    "h": 1500
+   }
+  ],
+  "verdict": "replace",
+  "note": "Clean render on white."
+ },
+ "1685": {
+  "sku": "004817",
+  "images": [
+   {
+    "url": "https://zoocomplex.com.ua/image/catalog/0_product/offers_20/product-42524600-01.jpg",
+    "file": "runs/2026-10-02-images/picked/004817-1.jpg",
+    "page": "https://zoocomplex.com.ua/monge-ka-70004817/",
+    "evidence": "page prints Штрихкод 8009470004817, 'MONGE CAT Kitten, 10 кг'; picture is the Best for Breeders GATTI-CATS bag with the blue KITTEN label, the same bag as hafo's photo",
+    "w": 1000,
+    "h": 1000
+   },
+   {
+    "url": "https://icf.listex.info/orig/ceb6766e-7405-3d8f-fd82-bf945e25a6f7.jpg",
+    "file": "runs/2026-10-02-images/picked/004817-2.jpg",
+    "page": "https://listex.info/uk/product/monge-cat-kitten-ua-8009470004817",
+    "evidence": "listex product record for EAN 8009470004817 (Kitten 10 kg); Best for Breeders cats bag front, '10kg' printed",
+    "w": 2304,
+    "h": 2304
+   }
+  ],
+  "verdict": "replace",
+  "note": "hafo's photo shows the Best for Breeders (breeder) bag with a Kitten sticker, 10 kg. Both found photos are also the Best for Breeders bag; no retail-bag photo was used. Image 1 is a render with the weight panel blank. Image 2 shows '10kg' but no variety sticker, so it stays second. The page was fetched with Scrapling (Cloudflare)."
+ },
+ "1689": {
+  "sku": "004807",
+  "images": [
+   {
+    "url": "https://zoocomplex.com.ua/image/catalog/0_product/offers_20/product-42524605-01.jpg",
+    "file": "runs/2026-10-02-images/picked/004807-1.jpg",
+    "page": "https://zoocomplex.com.ua/monge-ka-70004800/",
+    "evidence": "page prints Штрихкод 8009470004800, 'MONGE CAT Adult, 10 кг'; picture is the Best for Breeders GATTI-CATS bag with the ADULT (>12 months) label, the same bag type as hafo's",
+    "w": 1000,
+    "h": 1000
+   }
+  ],
+  "verdict": "replace",
+  "note": "LOOK: hafo's barcode 8009470004807 fails the EAN check digit. The valid code with that stem is 8009470004800 (espacemonge.fr and zoocomplex: Monge Cat Adult 10 kg), and this image is keyed to that code. That match is an inference, not hafo's literal barcode. The render has the weight panel blank. hafo's own adult photo is the same render as yanvet.am/product/124, which prints 15kg on the bag (rejected/004807-yanvet-15kg-render.png), so hafo's current photo actually shows a 15 kg bag. espacemonge.fr's photo for 8009470004800 is the RETAIL bag (rejected/004807-espacemonge-retail-bag.jpg); it was not used so the gallery keeps matching the breeder bag."
+ },
+ "1717": {
+  "sku": "902135",
+  "images": [
+   {
+    "url": "https://gomagcdn.ro/domains2/fourpaws.ro/files/product/original/miau-hrana-uscata-pentru-pisoi-11kg-501644.png",
+    "file": "runs/2026-10-02-images/picked/902135-1.png",
+    "page": "https://www.fourpaws.ro/hrana-uscata-pentru-pisici/miau-hrana-uscata-pentru-pisoi-11kg.html",
+    "evidence": "fourpaws.ro (Kormotech's Romanian distributor) 'Miau hrana uscata pentru pisoi 11kg', Cod Produs 4820083902130; picture is the same 'Мяу для кошенят' bag artwork and kitten pose as hafo's photo",
+    "w": 1200,
+    "h": 1200
+   }
+  ],
+  "verdict": "replace",
+  "note": "LOOK: hafo's barcode 4820083902135 fails the check digit. The valid code is 4820083902130 (fourpaws.ro and gufi.by both list it as '11 kg для котят'). The render shows no weight on the front, so the size rests on the page title (11 kg). There is a lot of white margin around the bag. gufi.by's photo is an old 3 kg design and was rejected."
+ },
+ "1752": {
+  "sku": "03623K",
+  "images": [
+   {
+    "url": "https://www.kaskad-pet.ru/upload/iblock/0d8/gozntezoeo04w3lca456n4i8gcw2o1o2.jpg",
+    "file": "runs/2026-10-02-images/picked/03623K-1.jpg",
+    "page": "https://www.kaskad-pet.ru/catalog/dlya_ukhoda/lotki_tualety/tualet_d_koshek_m_inteko_1_20_perlamutr/",
+    "evidence": "manufacturer's own page 'Туалет д/кошек (М) Интеко /1*20/ перламутр', ШтрихКод 4605350036233, Бренд Каскад, 37 cm; same tray with mesh grid",
+    "w": 800,
+    "h": 800
+   }
+  ],
+  "verdict": "replace",
+  "note": "LOOK: the photo shows a BLUE tray, while hafo's is pearl gold. Kaskad and lucky-dog74.ru both say 'цвет в ассортименте / выбор цвета не возможен', so colour is not a product axis here. Brand: every page (kaskad-pet.ru, lucky-dog74.ru 'Производитель: Каскад', ptk44.ru '/09307021/Каскад') names KASKAD as the brand and manufacturer; 'Интеко' is the model name. The live brand Inteko should become Kaskad (brand 41)."
+ },
+ "1920": {
+  "sku": "004817",
+  "images": [
+   {
+    "url": "https://zoocomplex.com.ua/image/catalog/0_product/offers_20/product-42524600-01.jpg",
+    "file": "runs/2026-10-02-images/picked/004817-1.jpg",
+    "page": "https://zoocomplex.com.ua/monge-ka-70004817/",
+    "evidence": "page prints Штрихкод 8009470004817, 'MONGE CAT Kitten, 10 кг'; picture is the Best for Breeders GATTI-CATS bag with the blue KITTEN label, the same bag as hafo's photo",
+    "w": 1000,
+    "h": 1000
+   },
+   {
+    "url": "https://icf.listex.info/orig/ceb6766e-7405-3d8f-fd82-bf945e25a6f7.jpg",
+    "file": "runs/2026-10-02-images/picked/004817-2.jpg",
+    "page": "https://listex.info/uk/product/monge-cat-kitten-ua-8009470004817",
+    "evidence": "listex product record for EAN 8009470004817 (Kitten 10 kg); Best for Breeders cats bag front, '10kg' printed",
+    "w": 2304,
+    "h": 2304
+   }
+  ],
+  "verdict": "replace",
+  "note": "1 kg twin, reuses the bag's gallery (variant 1685). hafo's photo shows the Best for Breeders (breeder) bag with a Kitten sticker, 10 kg. Both found photos are also the Best for Breeders bag; no retail-bag photo was used. Image 1 is a render with the weight panel blank. Image 2 shows '10kg' but no variety sticker, so it stays second. The page was fetched with Scrapling (Cloudflare)."
+ },
+ "1922": {
+  "sku": "004807",
+  "images": [
+   {
+    "url": "https://zoocomplex.com.ua/image/catalog/0_product/offers_20/product-42524605-01.jpg",
+    "file": "runs/2026-10-02-images/picked/004807-1.jpg",
+    "page": "https://zoocomplex.com.ua/monge-ka-70004800/",
+    "evidence": "page prints Штрихкод 8009470004800, 'MONGE CAT Adult, 10 кг'; picture is the Best for Breeders GATTI-CATS bag with the ADULT (>12 months) label, the same bag type as hafo's",
+    "w": 1000,
+    "h": 1000
+   }
+  ],
+  "verdict": "replace",
+  "note": "1 kg twin, reuses the bag's gallery (variant 1689). LOOK: hafo's barcode 8009470004807 fails the EAN check digit. The valid code with that stem is 8009470004800 (espacemonge.fr and zoocomplex: Monge Cat Adult 10 kg), and this image is keyed to that code. That match is an inference, not hafo's literal barcode. The render has the weight panel blank. hafo's own adult photo is the same render as yanvet.am/product/124, which prints 15kg on the bag (rejected/004807-yanvet-15kg-render.png), so hafo's current photo actually shows a 15 kg bag. espacemonge.fr's photo for 8009470004800 is the RETAIL bag (rejected/004807-espacemonge-retail-bag.jpg); it was not used so the gallery keeps matching the breeder bag."
+ },
+ "1936": {
+  "sku": "902135",
+  "images": [
+   {
+    "url": "https://gomagcdn.ro/domains2/fourpaws.ro/files/product/original/miau-hrana-uscata-pentru-pisoi-11kg-501644.png",
+    "file": "runs/2026-10-02-images/picked/902135-1.png",
+    "page": "https://www.fourpaws.ro/hrana-uscata-pentru-pisici/miau-hrana-uscata-pentru-pisoi-11kg.html",
+    "evidence": "fourpaws.ro (Kormotech's Romanian distributor) 'Miau hrana uscata pentru pisoi 11kg', Cod Produs 4820083902130; picture is the same 'Мяу для кошенят' bag artwork and kitten pose as hafo's photo",
+    "w": 1200,
+    "h": 1200
+   }
+  ],
+  "verdict": "replace",
+  "note": "1 kg twin, reuses the bag's gallery (variant 1717). LOOK: hafo's barcode 4820083902135 fails the check digit. The valid code is 4820083902130 (fourpaws.ro and gufi.by both list it as '11 kg для котят'). The render shows no weight on the front, so the size rests on the page title (11 kg). There is a lot of white margin around the bag. gufi.by's photo is an old 3 kg design and was rejected."
+ }
+}

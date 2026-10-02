@@ -20,7 +20,8 @@ the product alone (rule 7).
 | 8 | hornung-baushop.de | the EAN, in the file name | `ean-image-lookup.py` | `napf-nahrungsaufnahme-4047974251416-hornung-baushop.jpg` |
 | 9 | a general web / image search | the article or EAN in the file name or page url | `image-search.py`, `web-image-lookup.py` | rule 7d, last resort |
 | 9b | **reverse image search on the hafo photo** | hafo is keyed to the article, so its own picture is | Yandex, in the browser | rule 7e — see below |
-| 10 | hafo.am | the article in the file name | `enrich-images.py` | **watermarked placeholder**: last in the gallery, and the variant goes on `needs-image.csv` (rule 7a) |
+| 9c | **Google search + Google Lens, headed browser** (user rule 2026-10-01) | the article / EAN in the query; Lens fed hafo's photo of our article | `scripts/google-lens.py` (Scrapling, headed real Chrome) — the `/google-lens` skill | **mandatory before hafo is used**: see "Google and Google Lens before hafo" below |
+| 10 | hafo.am | the article in the file name | `enrich-images.py` | **watermarked placeholder**: last in the gallery, and the variant goes on `needs-image.csv` (rule 7a) — only after 9c has been tried and logged |
 
 `config.json` → `images.sources` is the machine-readable copy of this list.
 
@@ -42,7 +43,8 @@ Texts from these sites are **Russian**. They serve as evidence for attribute
 picks, as the source of the `ru` translation, and — translated — as the
 English copy only when no English source exists; say which site the copy came
 from in the run report. Their prices are RUB retail and are never a sale
-price (rule 2).
+price (rule 2). When none of them has the product either: Google search in the
+headed browser, then hafo's own text — "Texts when the brand has no page" below.
 
 ## Barcode lookup (user rule 2026-09-25)
 
@@ -167,6 +169,124 @@ on it was the **Manzo** (beef) can. The number got us to the right page; only
 looking at the picture caught that the picture was wrong. Every hit is looked at
 on a contact sheet (`scripts/contact-sheet.py` + headless Chrome) before it is written.
 
+**Shops reuse one stock photo for every flavour, colour and size** (user report
+2026-10-02, product 1320 Myau Adult Dry Cat Food): vetzoo.com.ua and
+catfeatdog.com print our exact EAN for the Chicken and the Rabbit 11 kg bag, yet
+both show the same red "meat" bag — so all three flavours looked like beef. The
+audit that followed (`runs/2026-10-02-audit/`, 371 photos on 97 products) found
+the same pattern on Trixie leads (four colours led by the aqua lead), and
+secondary promo shots of the 900 g bag on 14 kg variants. So, for every photo:
+
+- **Read the flavour / colour / size off the pack in the picture** and match it
+  to the variant's label. A pack front that prints no flavour (Myau 11 kg, Monge
+  Best for Breeders 15 kg) is `unclear`, not a match — prefer the brand's own
+  flavour-specific packshot; if that only exists for another size, it may lead
+  as a logged "other size" (`needs-image.csv`).
+- **Sibling variants that differ by flavour or colour must not end up with the
+  same picture** — not the same file, and not a look-alike from another shop.
+  `scripts/variant-image-audit.py <product ids>` lists identical files across
+  differently-labelled variants; then look at each variant's first image.
+- Secondary images (pos ≥ 1) obey the same rule: a back-of-pack or infographic of
+  the same line is fine; another size's promo shot or another colour's close-up is not.
+
+## Google and Google Lens before hafo (user rule 2026-10-01)
+
+No variant gets hafo's watermarked photo until this has been tried, in a
+**headed** browser. **How: the `/google-lens` skill → `scripts/google-lens.py`**
+(2026-10-02): Scrapling's StealthySession drives the installed Chrome, visible,
+with a persistent profile (`.siruk-cache/google-profile`). The chrome-devtools
+MCP's fresh profile got a reCAPTCHA on the first query; this setup got none.
+The claude-in-chrome extension is not needed (it was not connected on
+2026-10-01, which is why that run's Google/Lens step never happened).
+
+1. `google.com/search?q="<EAN>"` and `"<article>" <brand>`, then the Images tab
+   for the same queries — the EAN or article must be in the file name or on
+   the page (rule 7d), and the picture must show **this** pack size.
+2. **Google Lens** on hafo's photo of our article — the script uploads the file
+   through the camera icon (`lens.google.com/uploadbyurl` now ends in a 403) and
+   reads the **Exact matches** tab: it finds the same photograph
+   unwatermarked. Accept only the same photograph (contact sheet beside hafo's)
+   or a page that names our exact line, flavour and pack.
+3. **A CAPTCHA is the user's to solve** — the script waits with the window
+   open and prints `CAPTCHA: waiting for the user…`; tell the user in chat,
+   continue after; never solve or bypass one (`solve_cloudflare` stays off).
+   Scrapling's `StealthyFetcher` may also fetch a candidate page or image that
+   refuses a plain request; it is not a way past a CAPTCHA.
+4. Log every try (query, result, accepted url or "nothing") to the run's
+   `needs-image.csv` row, so a later run does not repeat it. Only then may
+   hafo's photo go last in the gallery.
+
+## Texts when the brand has no page — Google in the headed browser, then hafo (user rule 2026-10-02)
+
+The text ladder (English name, description, composition, feeding guide, spec
+text) for a row whose brand site and country domains have **no page** for the
+product: brand site → country domains → barcode lookup (EAN pages) → 4lapy.ru
+by EAN → zoovet.am / nemo.am / petshop.ru (confirmed by hand) → **Google search
+in the headed browser** (below) → **hafo's own text**, last. Stop at the first
+rung that gives a confirmed description; composition / feeding may still be
+filled from a lower rung if the higher one lacks them (name the source per field).
+
+**Google search for texts.** Same browser as the `/google-lens` skill
+(`scripts/google-lens.py`, Scrapling, headed real Chrome, persistent profile;
+a CAPTCHA goes to the user). Batch every row still without a text into one jobs
+file, usually in the same run as its photo search:
+
+1. `search` jobs: `"<EAN>"`, `"<article>" <brand>`, then
+   `<brand> <line> <flavour/recipe> <pack>` in Latin **and** in the brand's
+   Cyrillic spelling (`reference/name-aliases.json`) — the name query is the
+   one that finds the descriptions on shops that do not print codes.
+2. Pick candidates from the results' `page` urls: the brand's distributors and
+   other-country importers first, then specialised pet shops, then marketplaces.
+   Skip hafo.am, siruk.am, aggregators that copy hafo, and every site in
+   "Sites already tested and turned down".
+3. `page` jobs for the picks — `{"id": "<art>", "kind": "page", "q": "<url>",
+   "keys": ["<ean>", "<article>"]}` — open each page in the same window and
+   return its title, h1, meta description, JSON-LD `Product`, the main text and
+   `keys_found`. A page that answers with a bot wall comes back `error:
+   "blocked"` and stays closed (rule 5 of "Barcode lookup").
+4. **Accept** a page as the text source when
+   - `keys_found` has our EAN or article → keyed, accepted as-is; or
+   - no key, but the page names our **brand + line + flavour/recipe +
+     lifestage + pack** (every axis, rule 6) **and** a second independent page
+     agrees on them → confirmed by name. One page alone, or any axis that
+     differs (another flavour, another size's recipe), is a reject.
+   A page is never a photo source on a name match alone — photos stay under
+   rule 7d / "Google and Google Lens before hafo".
+5. Take the text from JSON-LD `description` or the page's description block,
+   not from nav / reviews / "related products". Strip prices, shipping and
+   shop-specific promo lines. Russian / other-language texts are translated as
+   in "Fallback sites"; the original Russian feeds `ru`.
+
+**hafo's text — the last fallback.** Only when Google found nothing acceptable
+(and that try is logged): the row's hafo listing (`content_html`,
+`meta_description`, `title_hy` in `.siruk-cache/hafo-all.json` / the run's
+`hafo.json`) is the description. It is Armenian, so it **is** the `hy` text
+(cleaned) and is translated into `en` and `ru`. Clean it first: drop the
+**price table** (hand-typed, stale — `reference/hafo.md`), `Արտադրող`/maker
+lines, stock and delivery notes; keep only lines about this variant (a listing
+spans sizes). Nothing is invented to fill it out: a hafo text that is just a
+title stays a short description. Mark the row `text_source: hafo` — it is a
+placeholder text like hafo's photo, and goes on `runs/<date>/needs-text.csv`
+for the PM to replace.
+
+**Log** every row that reached this section in `runs/<date>/text-sources.csv`:
+`Article Code, EAN, Queries, Pages opened, Accepted url (or "hafo" / "nothing"),
+Keyed by (ean / article / name+2 pages), Fields taken, Notes` — so a later run
+does not repeat the queries. Rows ending on hafo also go on `needs-text.csv`;
+fold both into `state/open-items.csv` at the end of the run.
+
+## One gallery per size (user rule 2026-10-01)
+
+Every pack variant's images show **that** pack: a 14 kg variant whose only
+photo is the 2 kg bag (product 1176, variant 1713 on production) is a wrong
+product shot, not a placeholder. Source each size from its own article / EAN
+(brand sites usually keep one packshot per size; the barcode lookup finds the
+rest). When a line has no photo of a size at all, the closest same-line photo
+may stand in only as a logged `needs-image.csv` row ("other size"). A
+**by-weight** variant reuses its bag's gallery — that is the one allowed share.
+A single-pouch variant gets a single-pouch shot, not the 12-pack box.
+`runs/2026-10-01-fix/` has the contact-sheet audit of all sized variants.
+
 ## Reverse-image search — the strongest of the last resorts
 
 hafo's photo is watermarked but it is a photo *of our article* (hafo is keyed to
@@ -177,8 +297,8 @@ method and it is **rule 7e**.
 
     https://yandex.com/images/search?rpt=imageview&url=<the hafo image url>
 
-Drive it in the browser (Google Lens answers automation with a CAPTCHA, which we
-never solve). Read two blocks:
+Drive it in the browser. Google Lens is now its own step (9c, above): in the
+user's headed Chrome it works, and a CAPTCHA goes to the user. Read two blocks:
 
 - **"In other sizes"** — Yandex's own claim that these are the *same* image.
   Careful: it will also fold in a sibling size whose photo looks alike

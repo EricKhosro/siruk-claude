@@ -1,0 +1,63 @@
+{
+ "name": "Excel Multi Vitamin Senior",
+ "slug": "8in1-excel-multi-vitamin-senior",
+ "category_ids": [
+  43
+ ],
+ "brand_id": 31,
+ "attribute_family_id": 4,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "IN10869",
+   "name": "70 tablets",
+   "price": 4650.0,
+   "cost_price": 2900.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     533
+    ],
+    "lifestage": [
+     28
+    ],
+    "health-feature": [
+     136
+    ],
+    "packaging": [
+     150
+    ]
+   },
+   "about_this_item": "<p>8in1 Excel Multi Vitamin Senior is a daily multivitamin supplement formulated for the nutritional needs of older dogs, helping to prevent problems associated with diet-related deficiencies. It provides 12 vitamins, including A, C and E as natural antioxidants, vitamin D and essential minerals such as magnesium, calcium and zinc, with higher levels than adult formulas because senior dogs often absorb nutrients less well. Contains stabilised vitamin C. Developed with veterinarians, free from artificial colours and preservatives. Made in Germany. 70 tablets.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14641
+   ],
+   "measure_type": "count",
+   "content": 70,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Excel мультивитамины для пожилых собак",
+   "variants": {
+    "IN10869": {
+     "about_this_item": "8in1 Excel Multi Vitamin Senior — ежедневная мультивитаминная добавка, разработанная с учётом потребностей в питании пожилых собак; помогает предотвращать проблемы, связанные с дефицитом в рационе. Содержит 12 витаминов, включая A, C и E как натуральные антиоксиданты, витамин D и важные минералы, такие как магний, кальций и цинк, в более высоких количествах, чем формулы для взрослых собак, поскольку пожилые собаки часто хуже усваивают питательные вещества. Содержит стабилизированный витамин C. Разработана совместно с ветеринарами, без искусственных красителей и консервантов. Сделано в Германии. 70 таблеток."
+    }
+   }
+  },
+  "hy": {
+   "name": "Excel մուլտիվիտամիններ տարեց շների համար",
+   "variants": {
+    "IN10869": {
+     "about_this_item": "8in1 Excel Multi Vitamin Senior-ը ամենօրյա մուլտիվիտամինային հավելում է՝ մշակված տարեց շների սննդային կարիքների համար, որն օգնում է կանխել սննդակարգի պակասորդների հետ կապված խնդիրները։ Պարունակում է 12 վիտամին, այդ թվում՝ A, C և E՝ որպես բնական հակաօքսիդանտներ, D վիտամին և կարևոր հանքանյութեր, ինչպիսիք են մագնեզիումը, կալցիումը և ցինկը, ավելի բարձր քանակներով, քան չափահաս շների բանաձևերում, քանի որ տարեց շները հաճախ ավելի վատ են յուրացնում սննդանյութերը։ Պարունակում է կայունացված C վիտամին։ Մշակված է անասնաբույժների հետ համատեղ, առանց արհեստական ներկանյութերի և կոնսերվանտների։ Արտադրված է Գերմանիայում։ 70 հաբ։"
+    }
+   }
+  }
+ }
+}

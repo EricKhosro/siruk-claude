@@ -1,0 +1,54 @@
+{
+ "name": "Clumping Cat Litter",
+ "slug": "kotoffey-clumping-cat-litter",
+ "category_ids": [
+  60
+ ],
+ "brand_id": 46,
+ "attribute_family_id": 9,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "KF5200111",
+   "name": "2.7 kg (4.8 l)",
+   "price": 1750.0,
+   "cost_price": 1090.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {},
+   "about_this_item": "<p>Kotoffey clumping cat litter made from special natural clay. On contact with moisture it forms firm clumps that are easy to remove from the tray. It neutralises unpleasant odours throughout use, is dust-free and does not stick to paws. The antibacterial properties of natural clay help prevent the growth of harmful microorganisms. Heat-treated and safe if accidentally swallowed.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14683,
+    14686,
+    14689,
+    14692,
+    14695
+   ],
+   "measure_type": "volume",
+   "content": 4800,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Комкующийся наполнитель для кошачьего туалета",
+   "variants": {
+    "KF5200111": {
+     "about_this_item": "Комкующийся наполнитель Kotoffey для кошачьего туалета из специальной природной глины. При контакте с влагой образует плотные комки, которые легко убирать из лотка. Нейтрализует неприятные запахи в течение всего срока использования, не пылит и не прилипает к лапам. Антибактериальные свойства природной глины помогают предотвратить размножение вредных микроорганизмов. Прошёл термическую обработку и безопасен при случайном проглатывании."
+    }
+   }
+  },
+  "hy": {
+   "name": "Քարացող լցանյութ կատուների զուգարանի համար",
+   "variants": {
+    "KF5200111": {
+     "about_this_item": "Kotoffey քարացող լցանյութ կատուների զուգարանի համար՝ պատրաստված հատուկ բնական կավից։ Խոնավության հետ շփվելիս առաջացնում է պինդ գնդեր, որոնք հեշտ է հեռացնել սկուտեղից։ Չեզոքացնում է տհաճ հոտերը օգտագործման ողջ ընթացքում, փոշի չի առաջացնում և չի կպչում թաթերին։ Բնական կավի հակաբակտերիալ հատկությունները օգնում են կանխել վնասակար միկրոօրգանիզմների բազմացումը։ Անցել է ջերմային մշակում և անվտանգ է պատահաբար կուլ տալու դեպքում։"
+    }
+   }
+  }
+ }
+}

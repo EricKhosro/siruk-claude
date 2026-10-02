@@ -1,0 +1,46 @@
+{
+ "code": "304016",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Calcium Dental Bones for Large Breeds",
+ "label": "105 g",
+ "existing_id": null,
+ "category_ids": [
+  83
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "breed-size": {
+   "value": "Large Breeds",
+   "quote": "для собак крупных пород"
+  },
+  "health-feature": {
+   "value": "Hip & Joint Support",
+   "quote": "Благодаря наличию кальция Зубочистики укрепляют кости и зубы"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://simbio.kz/upload/iblock/dd8/9aqmp9wgf7rhgmgpnfxj91cxvayw63np.jpg",
+  "https://simbio.kz/upload/iblock/190/sas6rkvme3puta7v854tuvcjoehhu5u3.jpg",
+  "https://simbio.kz/upload/iblock/49b/g3e3cm7v0pw1br10kzivonzqvt9cuyu1.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Zubochistiki calcium dental bones for large-breed dogs weighing over 25 kg (2 pieces). They stop the development of caries and gum inflammation, whiten teeth and freshen breath. Thanks to the calcium, they strengthen bones and teeth and support cardiovascular health, and are a great treat for puppies of all breeds during active growth. Dogs love the taste, too.",
+  "ingredient_information": "Wheat protein, whey protein, emulsified fats, lactose, calcium carbonate, sodium caseinate, essential oils, glycerin, natural flavourings (milk). Guaranteed analysis: protein 51.31%, moisture 13%, ash 6.77%, fat 6.53%, calcium 2.4%, fibre 0.49%.",
+  "feeding_instructions": "1 treat per day. Make sure your dog always has water in its bowl."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://simbio.kz/catalog/products/zubochistiki_kaltsievye_2sht_d_sobak_krupnykh_porod_105g_73304010/"
+ },
+ "evidence_file": "cards/304016.source.txt"
+}

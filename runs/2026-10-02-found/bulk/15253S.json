@@ -1,0 +1,66 @@
+{
+ "name": "Flavours Skewer Bites",
+ "slug": "8in1-flavours-skewer-bites",
+ "category_ids": [
+  82
+ ],
+ "brand_id": 31,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "15253S",
+   "name": "100 g",
+   "price": 1950.0,
+   "cost_price": 1190.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     422
+    ],
+    "special-diet": [
+     81
+    ],
+    "breed-size": [
+     35
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>8in1 Flavours Skewer Bites are a tasty rewarding snack in bite form, in three flavours: chicken breast, duck breast and chicken liver. The best part of a skewer in a perfect bite size, ideal as an instant reward for dogs. Rich in protein and low in fat, oven baked, with no added sugar and no flavour enhancers, GMOs or artificial preservatives. Suitable for dogs of all sizes. Resealable 100 g pouch.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "<p>Treats should not exceed 10% of your dog's daily calorie intake. XS dogs (1–5 kg): 1 treat per day. S dogs (5–10 kg): up to 3 treats per day. M dogs (10–25 kg): up to 5 treats per day. L dogs (over 25 kg): up to 12 treats per day.</p>",
+   "images": [
+    14215,
+    14218
+   ],
+   "measure_type": "mass",
+   "content": 100.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Мясные кусочки Flavours Skewer Bites",
+   "variants": {
+    "15253S": {
+     "about_this_item": "8in1 Flavours Skewer Bites — вкусное лакомство-поощрение в виде кусочков с тремя вкусами: куриная грудка, утиная грудка и куриная печень. Лучшая часть шашлычка в идеальном размере кусочка — отличная мгновенная награда для собаки. Богаты белком, с низким содержанием жира, запечены в печи, без добавления сахара, усилителей вкуса, ГМО и искусственных консервантов. Подходят собакам всех размеров. Пакет с застёжкой 100 г.",
+     "feeding_instructions": "Лакомства не должны превышать 10% суточной калорийности рациона собаки. Собаки XS (1–5 кг): 1 лакомство в день. Собаки S (5–10 кг): до 3 лакомств в день. Собаки M (10–25 кг): до 5 лакомств в день. Собаки L (более 25 кг): до 12 лакомств в день."
+    }
+   }
+  },
+  "hy": {
+   "name": "Flavours Skewer Bites մսային կտորներ",
+   "variants": {
+    "15253S": {
+     "about_this_item": "8in1 Flavours Skewer Bites-ը համեղ պարգևատրող հյուրասիրություն է կտորների տեսքով՝ երեք համով՝ հավի կրծքամիս, բադի կրծքամիս և հավի լյարդ։ Շամփուրի լավագույն մասը՝ իդեալական չափի կտորով, հիանալի ակնթարթային պարգև շների համար։ Հարուստ են սպիտակուցով, քիչ ճարպով, թխված են վառարանում, առանց ավելացված շաքարի, համի ուժեղացուցիչների, ԳՁՕ-ների և արհեստական կոնսերվանտների։ Հարմար են բոլոր չափերի շների համար։ Վերափակվող տոպրակ՝ 100 գ։",
+     "feeding_instructions": "Հյուրասիրությունները չպետք է գերազանցեն շան օրական կալորիաների 10%-ը։ XS շներ (1–5 կգ)՝ օրական 1 հյուրասիրություն։ S շներ (5–10 կգ)՝ օրական մինչև 3 հյուրասիրություն։ M շներ (10–25 կգ)՝ օրական մինչև 5 հյուրասիրություն։ L շներ (25 կգ-ից ավելի)՝ օրական մինչև 12 հյուրասիրություն։"
+    }
+   }
+  }
+ }
+}

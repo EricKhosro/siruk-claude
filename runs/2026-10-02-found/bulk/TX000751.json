@@ -1,0 +1,65 @@
+{
+ "name": "Soft Ball",
+ "slug": "trixie-soft-ball",
+ "category_ids": [
+  24
+ ],
+ "brand_id": 8,
+ "attribute_family_id": 5,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "TX000751",
+   "name": "4.5 cm",
+   "price": 500.0,
+   "cost_price": 310.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "toy-type": [
+     195
+    ],
+    "material": [
+     212
+    ],
+    "toy-size": [
+     352
+    ],
+    "color-family": [
+     339
+    ]
+   },
+   "about_this_item": "<p>Trixie soft ball for cats made of foam rubber, ø 4.5 cm. Sold singly from a display drum; colours vary.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14782,
+    14785,
+    14788,
+    14791,
+    14794
+   ],
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Мягкий мяч",
+   "variants": {
+    "TX000751": {
+     "about_this_item": "Мягкий мяч Trixie для кошек из пенорезины, ø 4,5 см. Продаётся поштучно из дисплея-барабана; цвета в ассортименте."
+    }
+   }
+  },
+  "hy": {
+   "name": "Փափուկ գնդակ",
+   "variants": {
+    "TX000751": {
+     "about_this_item": "Trixie փափուկ գնդակ կատուների համար՝ պատրաստված փրփուր ռետինից, ø 4,5 սմ։ Վաճառվում է հատով՝ ցուցադրական թմբուկից. գույները տարբեր են։"
+    }
+   }
+  }
+ },
+ "_allow_no_size": true
+}

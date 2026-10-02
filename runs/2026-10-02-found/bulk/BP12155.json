@@ -1,0 +1,71 @@
+{
+ "name": "Flea & Tick Collar for Large Dogs",
+ "slug": "beaphar-flea-tick-collar-for-large-dogs",
+ "category_ids": [
+  42
+ ],
+ "brand_id": 30,
+ "attribute_family_id": 4,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "BP12155",
+   "name": "85 cm, black",
+   "price": 2800.0,
+   "cost_price": 1735.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     547
+    ],
+    "health-feature": [
+     407
+    ],
+    "color-family": [
+     273
+    ],
+    "breed-size": [
+     33
+    ],
+    "size": [
+     878
+    ]
+   },
+   "about_this_item": "<p>Beaphar flea and tick collar for large-breed dogs from 6 months of age, 85 cm, black. Kills parasites and protects against re-infestation by fleas and ticks for 6 months. Part of step 2 of Beaphar's four-step parasite protection programme. The active ingredient diazinon is released from the strap onto the skin and coat and acts on contact against fleas, lice, biting lice and ticks.</p>",
+   "ingredient_information": "<p>Diazinon.</p>",
+   "feeding_instructions": "<p>Fit the collar loosely around the dog's neck and cut off the excess strap, allowing for growth. The collar works only when worn continuously; it is water-resistant, so the dog can be bathed without removing it.</p>",
+   "images": [
+    14374,
+    14377
+   ],
+   "measure_type": "count",
+   "content": 1,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Ошейник от блох и клещей для собак крупных пород",
+   "variants": {
+    "BP12155": {
+     "about_this_item": "Ошейник Beaphar от блох и клещей для собак крупных пород с 6-месячного возраста, 85 см, чёрный. Уничтожает паразитов и защищает от повторного заражения блохами и клещами в течение 6 месяцев. Средство 2-й ступени четырёхступенчатой программы Beaphar по защите от паразитов. Действующее вещество диазинон выделяется с поверхности ленты на кожу и шерсть и действует контактно против блох, вшей, власоедов и клещей.",
+     "ingredient_information": "Диазинон.",
+     "feeding_instructions": "Наденьте ошейник свободно на шею собаки и отрежьте излишек ленты с учётом возможного роста. Ошейник работает только при непрерывной носке; он водостойкий, поэтому собаку можно мыть, не снимая его."
+    }
+   }
+  },
+  "hy": {
+   "name": "Վզնոց տզերի և լվերի դեմ՝ խոշոր շների համար",
+   "variants": {
+    "BP12155": {
+     "about_this_item": "Beaphar վզնոց լվերի և տզերի դեմ՝ 6 ամսականից բարձր խոշոր ցեղատեսակի շների համար, 85 սմ, սև։ Ոչնչացնում է մակաբույծներին և 6 ամիս պաշտպանում լվերով ու տզերով կրկնակի վարակումից։ Beaphar-ի մակաբույծներից պաշտպանության չորսփուլանի ծրագրի 2-րդ փուլի միջոց։ Ազդող նյութը՝ դիազինոնը, ժապավենից անցնում է մաշկին և բրդին և կոնտակտային ազդեցություն ունի լվերի, ոջիլների, մազակերների և տզերի դեմ։",
+     "ingredient_information": "Դիազինոն։",
+     "feeding_instructions": "Վզնոցը ազատ դրեք շան պարանոցին և կտրեք ժապավենի ավելորդ մասը՝ հաշվի առնելով հնարավոր աճը։ Վզնոցն ազդում է միայն անընդհատ կրելու դեպքում. այն ջրակայուն է, ուստի շանը կարելի է լողացնել առանց վզնոցը հանելու։"
+    }
+   }
+  }
+ }
+}

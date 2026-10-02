@@ -1,0 +1,65 @@
+{
+ "name": "Chlorophyll Dental Bones for Medium Breeds",
+ "slug": "derevenskie-lakomstva-chlorophyll-dental-bones-for-medium-breeds",
+ "category_ids": [
+  83
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL303986",
+   "name": "Mint, 70 g",
+   "price": 1400.0,
+   "cost_price": 870.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     438
+    ],
+    "breed-size": [
+     32
+    ],
+    "health-feature": [
+     111
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "about_this_item": "<p>Zubochistiki mint dental bones for medium-breed dogs from 10 kg (4 pieces). Among the best tooth-cleaning treats: they remove plaque well, prevent tartar and fight gum disease; the patented structure makes cleaning as effective as mechanical brushing. 100% natural product; a substantial calcium content strengthens bones and teeth. Enriched with chlorophyll to support digestion.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14476,
+    14479,
+    14482
+   ],
+   "measure_type": "mass",
+   "content": 70.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Косточки для зубов с хлорофиллом для средних пород",
+   "variants": {
+    "DL303986": {
+     "about_this_item": "Мятные косточки для зубов Zubochistiki для собак средних пород от 10 кг (4 шт.). Одни из лучших лакомств для чистки зубов: отлично снимают зубной налёт, предотвращают появление зубного камня и борются с болезнями дёсен; запатентованная структура делает чистку такой же эффективной, как механическая. 100% натуральный продукт; существенное содержание кальция укрепляет кости и зубы. Обогащены хлорофиллом для поддержания пищеварения."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ատամնամաքրող ոսկորներ քլորոֆիլով միջին ցեղերի համար",
+   "variants": {
+    "DL303986": {
+     "about_this_item": "Zubochistiki անանուխով ատամնամաքրող ոսկորներ 10 կգ-ից ավելի քաշով միջին ցեղերի շների համար (4 հատ)։ Ատամները մաքրելու լավագույն հյուրասիրություններից են՝ լավ հեռացնում են ատամնափառը, կանխում են ատամնաքարի առաջացումը և պայքարում լնդերի հիվանդությունների դեմ. արտոնագրված կառուցվածքը մաքրումը դարձնում է նույնքան արդյունավետ, որքան մեխանիկական խոզանակումը։ 100% բնական արտադրանք. կալցիումի զգալի պարունակությունն ամրացնում է ոսկորներն ու ատամները։ Հարստացված է քլորոֆիլով՝ մարսողությանն աջակցելու համար։"
+    }
+   }
+  }
+ }
+}

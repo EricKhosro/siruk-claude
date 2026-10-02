@@ -1,0 +1,53 @@
+{
+ "code": "BP10199",
+ "status": "ready",
+ "hold_reason": null,
+ "brand_id": 30,
+ "price": {
+  "source": "prepared"
+ },
+ "existing_id": null,
+ "first_image": "packshot",
+ "evidence_file": "cards/BP10199.source.txt",
+ "type": "supplements",
+ "name": "Flea & Tick Collar for Dogs",
+ "label": "65 cm, orange",
+ "size": {
+  "measure_type": "count",
+  "content": 1,
+  "pack_count": 1
+ },
+ "category_ids": [
+  42
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Collar",
+   "quote": "ошейник"
+  },
+  "health-feature": {
+   "value": "Anti-Parasitic",
+   "quote": "от блох и клещей"
+  },
+  "color-family": {
+   "value": "Orange",
+   "quote": "оранжевый"
+  },
+  "size": {
+   "value": "65 cm",
+   "quote": "65 см"
+  }
+ },
+ "images": [
+  "https://api.zapovednik96.ru/upload/iblock/f5e/f5ea604b7b5dba4412842589a61879fc.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Beaphar flea and tick collar for dogs from 6 months of age. Kills parasites and protects against re-infestation by fleas and ticks for 6 months. Water-resistant: the dog can be bathed without removing it. Active ingredient: diazinon. Fit the collar loosely around the neck and cut off the excess, allowing for growth; it works only when worn continuously.",
+  "ingredient_information": "Diazinon.",
+  "feeding_instructions": "Fit the collar loosely around the dog's neck and cut off the excess strap, allowing for growth. The collar works only when worn continuously; it is water-resistant, so the dog can be bathed without removing it."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://zapovednik96.ru/product/beafar_osheynik_d_sobak_65sm_ot_blokh_oranzh/"
+ }
+}

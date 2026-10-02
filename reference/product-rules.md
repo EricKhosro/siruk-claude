@@ -4,14 +4,22 @@
 
 - **Name never contains the brand** — the storefront prints the brand before
   it ("Royal Canin Mini" would render twice). Strip `RC `/brand prefixes. Name
-  = line + breed size + lifestage (+ pack weight/flavour/texture only while the
-  product has a single variant).
+  = line + breed size + lifestage (+ flavour/texture only while the product
+  has a single variant).
+- **Name never contains the pack size** (user rule 2026-10-01, CLAUDE.md 12) —
+  not even on a single-variant product. The backend's `displayName` is
+  "Brand Name, <size label>[, <option labels>]" on cards and search, so
+  "Classics Wild Coast, 9.7 kg" rendered "Acana Classics Wild Coast, 9.7 kg,
+  9.7 kg". The size is the variant's net content and label only. 125 names
+  (en/ru/hy) were cleaned on production 2026-10-01; stripping the size exposed
+  the 4.5 kg / 11.4 kg Acana pairs as mis-split products (merged). Accessory
+  dimensions ("10 × 17 cm", "0.65 l/ø 22 cm") are not pack size and may stay.
 - **Slug** = kebab-case of brand + Name (`royal-canin-mini`); slugs are global.
 - **Variant label** = only the axes that vary, and every axis that varies:
   "8 kg", "Gravy 12 x 85 g", "Tuna 85 g". Metric only.
 - **SKU** = the article code (`Կոդ` minus `W-`), else `BRAND-SLUG-LIFESTAGE-WEIGHT`.
-- Rename a product that outgrew a single variant with
-  `scripts/rename-product.sh` and move the weight into the labels.
+- Rename a product that still carries a size in its name with
+  `scripts/rename-product.sh` (the label already carries the size).
 
 ## Product vs variant — the shelf test
 

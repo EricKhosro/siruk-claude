@@ -1,0 +1,55 @@
+{
+ "code": "IN10860",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "supplements",
+ "brand_id": 31,
+ "name": "Excel Brewer's Yeast",
+ "label": "260 tablets",
+ "size": {
+  "measure_type": "count",
+  "content": 260,
+  "pack_count": 1
+ },
+ "existing_id": null,
+ "category_ids": [
+  43,
+  52
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "product-form": {
+   "value": "Tablet",
+   "quote": "Brewer's Yeast tablets for all dogs"
+  },
+  "active-ingredient": {
+   "value": "Brewer's Yeast",
+   "quote": "8in1 Brewer's Yeast tablets are perfect as a daily supplement"
+  },
+  "health-feature": {
+   "value": "Skin & Coat Health",
+   "quote": "For a healthy and shiny coat"
+  },
+  "packaging": {
+   "value": "Tub",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://img3.zakaz.ua/fb2e50ab3bce47b892e6340848856838/1719542482-s1350x1350.jpg",
+  "https://aqplus.ru/upload/resize_cache/iblock/4b7/1200_1200_140cd750bba9870f18aada2478b24840a/146u9hcpyiisy3f8zdeacxobo4rpu5mv.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Excel Brewer's Yeast is a daily feed supplement for dogs and cats that helps promote healthy skin and a shiny coat. Developed with veterinarians, it combines brewer's yeast rich in B-complex vitamins (including B1, B2, B6 and biotin) with garlic, fish oil as a source of omega-3 fatty acids, and balanced minerals such as zinc and iron. Free from artificial colours and preservatives. Made in Germany. 260 tablets.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://masterzoo.zakaz.ua/en/products/drizhdzhi-8v1--04048422108603/"
+ },
+ "evidence_file": "cards/IN10860.source.txt"
+}

@@ -1,0 +1,53 @@
+{
+ "code": "076912",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "supplements",
+ "brand_id": 26,
+ "name": "Hairball Malt Paste",
+ "label": "Chicken 30 ml",
+ "existing_id": 795,
+ "category_ids": [
+  53
+ ],
+ "size": {
+  "measure_type": "volume",
+  "content": 30,
+  "pack_count": 1
+ },
+ "attributes": {
+  "health-feature": {
+   "value": "Hairball Control",
+   "quote": "Паста для вывода шерсти"
+  },
+  "product-form": {
+   "value": "Paste",
+   "quote": "Паста для вывода шерсти вкус курицы"
+  },
+  "flavor": {
+   "value": "Chicken",
+   "quote": "вкусом курицы"
+  },
+  "packaging": {
+   "value": "Box",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://neoterica.ru/sitefiles/Items/af4f788e763d9c11212e5c110dfd18fb1ee81aa4.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Cliny hairball paste helps the natural removal of hairballs (bezoars) from the stomach, relieving cats of vomiting, loss of appetite, intestinal blockage and constipation. Chicken flavour cats love. Malt extract softens hairballs and eases their passage through the digestive tract; vitamin B5 improves digestion; silver ions have a broad disinfecting action. For cats, kittens and ferrets, to remove hairballs and prevent them forming.",
+  "ingredient_information": "Malt extract, vitamin B5, silver ions.",
+  "feeding_instructions": "Cats and kittens up to 2 kg: 2 cm (1 g) of paste daily; over 2 kg: 5 cm (2.5 g) daily. Ferrets during moulting: 2 cm (1 g) twice a week. The portion may be doubled if needed. Give straight from the tube or mixed with food, preferably before a meal. Store closed, away from direct sunlight, at 2–25 °C. Shelf life 2 years."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://neoterica.ru/products/past-dlyvioherku30m"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/076912.source.txt"
+}

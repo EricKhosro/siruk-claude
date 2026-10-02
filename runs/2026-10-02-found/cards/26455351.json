@@ -1,0 +1,47 @@
+{
+ "code": "26455351",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "accessories",
+ "brand_id": 41,
+ "name": "Prong Collar",
+ "label": "3.5 mm, 55 cm",
+ "existing_id": null,
+ "category_ids": [
+  74
+ ],
+ "attributes": {
+  "material": {
+   "value": "Metal",
+   "quote": "Материал | металл"
+  },
+  "color-family": {
+   "value": "Silver",
+   "quote": "серебристый"
+  },
+  "size": {
+   "value": "55 cm/3.5 mm",
+   "quote": "Ширина шлейки амуниции | 0.35 см | Размер ошейника/воротника | 55 см"
+  }
+ },
+ "images": [
+  "https://evro-prod.ru/upload/iblock/d4a/9cot3dj6nske1zd8z2t1gsyx4cmst95s.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Kaskad Classic metal prong collar for behaviour correction and training of dogs. Link thickness 3.5 mm, collar length 55 cm. The links can be removed and put back without effort or special tools. The collar tightens on the slip principle when the lead is pulled; the tightening chain has a quick-release snap hook and a swivel. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "web",
+  "url": "https://www.21vek.by/collars_leashes/26455351_kaskad_.html",
+  "images_from": "https://evro-prod.ru/catalog/dlya_sobak/amunitsiya_1/ruletki_povodki_shleyki_karabiny/14701/",
+  "images_article": "26455351",
+  "images_note": "evro-prod.ru \"Ошейник строгий проволочный с вертлюгом хром3,5мм*55см\", Артикул 26455351 (our article); EAN 4605350015832 not printed. Same photograph as the 21vek.by one (also keyed 26455351), without the 21vek watermark; 21vek image dropped. zapovednik96 (art. 26455351, EAN 4605350011919, 512x384) not used."
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/26455351.source.txt"
+}

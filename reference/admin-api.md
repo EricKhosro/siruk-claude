@@ -110,6 +110,34 @@ exists yet.
   `GET https://demo-api.siruk.am/api/products/<id>` → `optionGroups` and each
   variant's `options`.
 
+## Bulk create — `POST /products/bulk` (siruk-web 6af3eeb9, 2026-10-01)
+
+`ProductController::bulkStore` → `ProductBulkCreateService`. **Not on demo yet**
+(2026-10-01: `Cannot POST /api/admin/products/bulk`). Body `{"products": [<a POST
+/products body>, …]}`, 1 to `catalog.bulk_create_max` (100) items. Over the cap or empty
+→ 422 for the whole batch. Otherwise always **200**, one result per item, in order:
+
+```
+{"data": [{"index": 0, "status": "created", "id": 1234, "slug": "…"},
+          {"index": 1, "status": "failed", "errors": {"variants.0.price": ["…"]}}],
+ "summary": {"created": 1, "failed": 1}}
+```
+
+- Each item is validated by `ProductRequest` and saved on its own. A failed item
+  leaves nothing behind and never blocks the others; an unexpected server error fails
+  only that item (`{"product": ["The product could not be saved."]}`).
+- A slug or SKU repeated **inside the batch** fails the later item ("duplicates item #n").
+- **Translations inline**: product `name` and the variant texts (`about_this_item`,
+  `ingredient_information`, `feeding_instructions`) may be `{"en","hy","ru"}` objects.
+  `en` is required for the name, other keys are refused, and the name is ≤ 255 per
+  locale. A plain string is stored in the request's `Content-Language` locale. So a
+  bulk create needs no `set-translation.py` afterwards.
+- Variant `images` attach to their variant, as in `POST /products`.
+- Creates only. Adding a variant to a live product is still `add-variant.sh`.
+
+Our writer: `scripts/bulk-create.py` (create-product.sh's pre-flight per item, chunked by
+`config.json → bulk`, never auto-retried, read-back + `verify-translations.py`).
+
 ## Product types — `/attribute-families`
 
 The admin calls them **Product types**; the API/DB keep "attribute family".
@@ -142,7 +170,16 @@ DELIVERED ships (on_hand −); cancel releases.
 
 - New variant: `initial_stock` (+ optional `initial_stock_warehouse_id`,
   `initial_stock_unit_cost`) on the product create/PUT → a `receipt`
-  movement "Initial stock (product form)". Our placeholder: 10 for CSV Qty 1.
+  movement "Initial stock (product form)". Our placeholder (user 2026-10-01):
+  **10 on every pack variant, 10000 g on a weight variant**, whatever the CSV
+  Qty — production was levelled to that on 2026-10-01
+  (`runs/2026-10-01-fix/stock.py`).
+- **A variant with any stock history can't be deleted or switched pack ↔
+  weight** (`delete_locked` / `stock_unit_locked`, computed: stock ≠ 0, any
+  movement, order, cart …; `ProductRequest.php`). Setting stock to 0 never
+  unlocks it. To retire one: stock → its allocation via `/stock/variants`,
+  then ask the developers, or discontinue the product. Lowering `on_hand`
+  under `allocated` is refused.
 - Existing variant: never through the product PUT.
   `PUT /stock/variants/<v>` `{warehouse_id, on_hand, reason, note}` (set a
   count; reasons: correction, damaged, lost, found, expired, write_off),
@@ -242,8 +279,10 @@ property filename on null". `DELETE /medias/<id>` → 200.
 
 ### Folders, listing, moving (found 2026-09-23)
 
-The admin frontend is cs-dev-hub `packages/cs-admin-core` (`store/_mediaStore.js`,
-`config/mediaDefaults.js`); copy its calls, don't guess.
+The admin panel and its API are `/Users/conceptmacmini01/Documents/Projects/siruk-web`
+(read `origin/main`): routes in `backend/routes/admin.php`, media in
+`backend/app/Http/Controllers/Admin/Common/MediaController.php` +
+`MediaFolderController`, screens in `backend/resources/js/`. Copy its calls, don't guess.
 
 - **Folders are records**: `GET /media-folders` (tree, `{id,name,path,parentId,children}`),
   `POST /media-folders {name, parentId}` (server derives `path` from the name —

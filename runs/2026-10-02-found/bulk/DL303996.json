@@ -1,0 +1,62 @@
+{
+ "name": "Calcium Dental Bones for Small Breeds",
+ "slug": "derevenskie-lakomstva-calcium-dental-bones-for-small-breeds",
+ "category_ids": [
+  83
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL303996",
+   "name": "60 g",
+   "price": 1550.0,
+   "cost_price": 965.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "breed-size": [
+     31
+    ],
+    "health-feature": [
+     117
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "about_this_item": "<p>Zubochistiki calcium dental bones for small-breed dogs up to 10 kg (7 pieces). Among the best tooth-cleaning treats: they remove plaque well, prevent tartar and fight gum disease; the patented structure makes cleaning as effective as mechanical brushing. 100% natural product, enriched with calcium to strengthen bones and joints.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14485,
+    14488,
+    14491
+   ],
+   "measure_type": "mass",
+   "content": 60.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кальциевые косточки для зубов для мелких пород",
+   "variants": {
+    "DL303996": {
+     "about_this_item": "Кальциевые косточки для зубов Zubochistiki для собак мелких пород до 10 кг (7 шт.). Одни из лучших лакомств для чистки зубов: отлично снимают зубной налёт, предотвращают появление зубного камня и борются с болезнями дёсен; запатентованная структура делает чистку такой же эффективной, как механическая. 100% натуральный продукт, обогащён кальцием для укрепления костей и суставов."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ատամնամաքրող ոսկորներ կալցիումով փոքր ցեղերի համար",
+   "variants": {
+    "DL303996": {
+     "about_this_item": "Zubochistiki կալցիումով ատամնամաքրող ոսկորներ մինչև 10 կգ քաշով փոքր ցեղերի շների համար (7 հատ)։ Ատամները մաքրելու լավագույն հյուրասիրություններից են՝ լավ հեռացնում են ատամնափառը, կանխում են ատամնաքարի առաջացումը և պայքարում լնդերի հիվանդությունների դեմ. արտոնագրված կառուցվածքը մաքրումը դարձնում է նույնքան արդյունավետ, որքան մեխանիկական խոզանակումը։ 100% բնական արտադրանք՝ հարստացված կալցիումով՝ ոսկորներն ու հոդերն ամրացնելու համար։"
+    }
+   }
+  }
+ }
+}

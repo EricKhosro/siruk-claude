@@ -1,0 +1,53 @@
+{
+ "code": "BP12511",
+ "status": "ready",
+ "hold_reason": null,
+ "brand_id": 30,
+ "price": {
+  "source": "prepared"
+ },
+ "existing_id": null,
+ "first_image": "packshot",
+ "evidence_file": "cards/BP12511.source.txt",
+ "type": "supplements",
+ "name": "Kitty's + Cheese",
+ "label": "75 tablets",
+ "size": {
+  "measure_type": "count",
+  "content": 75,
+  "pack_count": 1
+ },
+ "category_ids": [
+  52
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Tablet",
+   "quote": "давати від 1 до 4 таблеток щодня"
+  },
+  "health-feature": {
+   "value": "Vitamins & Minerals",
+   "quote": "необхідні вітаміни і мінерали"
+  },
+  "flavor": {
+   "value": "Cheese",
+   "quote": "ласощі з сиром"
+  },
+  "packaging": {
+   "value": "Box",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://beaphar.ua/sites/default/files/product_images/12511_2017_6.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Kitty's vitaminised treats for cats with cheese - a tasty addition to the everyday diet. They contain the vitamins and minerals needed daily, which help strengthen the animal's health and support its immune system. Can be given to adult, pregnant and nursing cats, and to kittens from 6 weeks of age. No limit on duration of use; no contraindications.",
+  "ingredient_information": "Milk and milk products (cheese min. 4.3%), sugars, minerals, molluscs and crustaceans (min. 4% shrimp), meat and animal derivatives, yeast, oils and fats, vegetable derivatives. Analysis: ash 12.1%, protein 9.5%, fat 6.5%, fibre 6.1%, moisture 4.3%, calcium 1.5%, phosphorus 1.2%, sodium 0.4%, potassium 0.1%, magnesium 0.01%.",
+  "feeding_instructions": "Give 1 to 4 tablets per kg of body weight daily."
+ },
+ "source": {
+  "kind": "country-site",
+  "url": "https://beaphar.ua/catalog/koty/vitaminy/kittisy-kittys/kittys-cheese-vitaminizovani-lasoshchi-z-syrom-dlya-0"
+ }
+}

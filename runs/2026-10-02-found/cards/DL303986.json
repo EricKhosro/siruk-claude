@@ -1,0 +1,50 @@
+{
+ "code": "DL303986",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Chlorophyll Dental Bones for Medium Breeds",
+ "label": "Mint, 70 g",
+ "existing_id": null,
+ "category_ids": [
+  83
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Mint",
+   "quote": "Мятные"
+  },
+  "breed-size": {
+   "value": "Medium Breeds",
+   "quote": "для собак средних пород"
+  },
+  "health-feature": {
+   "value": "Digestive Health",
+   "quote": "Для поддержания пищеварения."
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://simbio.kz/upload/iblock/93f/hd3swtdsp8w62ig20osjjxtexf4ivcgl.jpg",
+  "https://simbio.kz/upload/iblock/19b/1yx3mkh717xp5v2wed72dro0y3zf0jyn.webp",
+  "https://simbio.kz/upload/iblock/288/glhy0x2soxpesomzj72vwd8jj9sec0gt.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Zubochistiki mint dental bones for medium-breed dogs from 10 kg (4 pieces). Among the best tooth-cleaning treats: they remove plaque well, prevent tartar and fight gum disease; the patented structure makes cleaning as effective as mechanical brushing. 100% natural product; a substantial calcium content strengthens bones and teeth. Enriched with chlorophyll to support digestion.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://simbio.kz/catalog/products/zubochistiki_myatnye_4sht_d_sobak_srednikh_porod_70g_73303983/"
+ },
+ "evidence_file": "cards/DL303986.source.txt"
+}

@@ -1,0 +1,67 @@
+{
+ "name": "Dried Rings for Puppies",
+ "slug": "derevenskie-lakomstva-dried-rings-for-puppies",
+ "category_ids": [
+  82
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711276",
+   "name": "Chicken 90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "lifestage": [
+     25
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Dried rings of selected chicken meat, firm enough for long chewing yet tender enough not to harm your puppy's bite.</p>",
+   "ingredient_information": "<p>Chicken meat. Guaranteed analysis per 100 g: protein 54.9 g, fat 2.5 g, moisture 16.73 g, fibre 0.19 g, ash 3.76 g; energy 242.1 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14584,
+    14587,
+    14590
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Колечки сушёные для щенков",
+   "variants": {
+    "DL711276": {
+     "about_this_item": "Сушёные колечки из отборного куриного мяса: достаточно твёрдые для долгого жевания и в то же время достаточно нежные, чтобы не навредить прикусу вашего щенка.",
+     "ingredient_information": "Куриное мясо. Гарантированные показатели на 100 г: белок 54,9 г, жир 2,5 г, влага 16,73 г, клетчатка 0,19 г, зола 3,76 г; энергетическая ценность 242,1 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Չորացված օղակներ ձագերի համար",
+   "variants": {
+    "DL711276": {
+     "about_this_item": "Ընտիր հավի մսից չորացված օղակներ՝ բավականաչափ պինդ երկար ծամելու համար և միևնույն ժամանակ բավականաչափ նուրբ, որպեսզի չվնասեն ձեր ձագի կծվածքը։",
+     "ingredient_information": "Հավի միս։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 54,9 գ, ճարպ 2,5 գ, խոնավություն 16,73 գ, թաղանթանյութ 0,19 գ, մոխիր 3,76 գ. էներգետիկ արժեք 242,1 կկալ։"
+    }
+   }
+  }
+ }
+}

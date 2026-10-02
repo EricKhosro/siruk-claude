@@ -44,7 +44,12 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
   (CLAUDE.md rule 8b).
 - **Size is the variant's net content, stock is a ledger** (CLAUDE.md 8a,
   10a): `measure_type` + `content` + `pack_count`, `price` = the pack price,
-  `initial_stock` on new variants only. Suppliers are out of scope.
+  `initial_stock` on new variants only — **10 on every variant, whatever the
+  CSV Qty** (user 2026-10-01). A per-kg price on the row → **every bag gets a
+  "1 kg" pack variant** (`<bag sku>-KG`, price = per-kg price, CLAUDE.md 8a);
+  never `sale_mode: "weight"` (paused by the PM 2026-10-01). **No pack
+  size in the product Name** (CLAUDE.md 12). Each pack size shows its own
+  photo (rule 7). Suppliers are out of scope.
 
 - Source data from the **brand's official website** (per the brand map in
   CLAUDE.md), NOT Chewy. Sites are **read-only** (no cart, no account, no forms).
@@ -95,10 +100,20 @@ categories, the product type you'd give it, attribute picks with quotes,
    run `python3 scripts/product-types.py --check <payloads…>`. Every payload
    must pass before phase C; a failing row is fixed or held, never written.
 
-For a prepared run, phase C per card is
-`scripts/card-import.py --run runs/<date> <code> --write` (uploads the gallery,
-then create-product.sh / add-variant.sh, register loose twin included), then
-steps 9b–11.
+For a prepared run, phase C goes one of two ways:
+
+- **New products: bulk** (`POST /products/bulk`, 2026-10-01). Write each card's
+  ru/hy first (step 9b's content) as `runs/<date>/tr/<code>-ru.json` and
+  `-hy.json`, in set-translation.py's shape and keyed by sku, the `-KG` twin included.
+  Then run `scripts/card-import.py --run runs/<date> <code> --queue` per card, which
+  uploads the gallery and writes `runs/<date>/bulk/<code>.json`. Finish with
+  `scripts/bulk-create.py runs/<date>/bulk/*.json --out runs/<date>/bulk-results.json`.
+  That one call creates en/ru/hy together, refuses an item without ru/hy, fails a bad
+  item alone, reads every product back and runs verify-translations.py. Then fix any
+  failed items and re-run with just those files, and do step 10 per id from the results.
+- **Existing products** (`existing_id`): one at a time with
+  `scripts/card-import.py --run runs/<date> <code> --write` (uploads the gallery, then
+  add-variant.sh, register loose twin included), then steps 9b–11.
 
 **Phase C — write (steps 7–11, one row at a time).**
 
@@ -172,8 +187,24 @@ steps 9b–11.
    **4lapy.ru by EAN** (`scripts/4lapy-lookup.py --search "<brand line words>"
    --ean <ean>`: photos + texts, confirmed by the barcode), then zoovet.am
    (confirmed by hand), then **petshop.ru for texts only** (confirmed by hand,
-   never its photos), then a hafo placeholder, then a general web search —
-   and mark the row's source as "fallback", naming which one. Their texts are
+   never its photos), then a general web search, then **Google search +
+   Google Lens in a headed Chrome — the `/google-lens` skill**
+   (`scripts/google-lens.py`, Scrapling; batch every row still without a photo
+   into one jobs file and run it in the background; a CAPTCHA goes to the user),
+   and only then a hafo placeholder —
+   and mark the row's source as "fallback", naming which one.
+   **Texts** (name, description, composition, feeding) follow the same
+   ladder, and when every site above has nothing: **Google search in the same
+   headed browser** — `search` jobs for the EAN, `"<article>" <brand>` and the
+   brand + line + flavour + pack in Latin and Cyrillic, then `page` jobs on the
+   best result pages (`scripts/google-lens.py`, `"kind": "page"`, with the EAN
+   and article as `keys`). A page is accepted when it prints our EAN/article,
+   or when two independent pages match every axis by name. Nothing acceptable
+   → **hafo's own text** last: its Armenian `content_html` (price table and
+   maker line stripped) becomes `hy` and is translated to `en`/`ru`; the row
+   goes on `runs/<date>/needs-text.csv`. Log every try in
+   `runs/<date>/text-sources.csv` (`reference/image-sources.md` → "Texts when
+   the brand has no page"). Their texts are
    Russian: evidence and the `ru` translation; translated into English only
    when no English source exists. petfood.ru and zoozavr.ru are not usable
    (`reference/image-sources.md` → "Fallback sites").
@@ -258,6 +289,8 @@ steps 9b–11.
    unwatermarked) → a **confirmed**
    zoovet.am original, which is unwatermarked and therefore a finished image
    (it leads the gallery and the variant does NOT go on `needs-image.csv`) →
+   the **`/google-lens` skill** (Google search + Images + Lens on hafo's photo,
+   `scripts/google-lens.py`, headed Chrome via Scrapling — never skipped) →
    a hafo photo, which is a watermarked placeholder: last in the gallery and
    on `runs/<date>/needs-image.csv` (CLAUDE.md rules 7, 7a, 7b).
 8. **Does it already exist?** — before writing anything:
@@ -285,7 +318,7 @@ steps 9b–11.
      `reference/product-rules.md`), `brand_id`, `attribute_family_id` (the
      phase-B product type), variants with sku / `price` (the sale **pack**
      price) / `cost_price` (CSV) / `measure_type` + `content` + `pack_count` /
-     `initial_stock` (Qty 1 → 10) / images, and `attribute_values` from step 6
+     `initial_stock` (10) / images, and `attribute_values` from step 6
      (attribute code or id → [value ids]). Shape: `scripts/siruk_payload.py`.
      Both write scripts refuse a variant priced at or below cost and anything
      the product type refuses. It refuses if a similar product already exists

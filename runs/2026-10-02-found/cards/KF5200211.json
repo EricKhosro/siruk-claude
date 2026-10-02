@@ -1,0 +1,48 @@
+{
+ "code": "KF5200211",
+ "status": "ready",
+ "hold_reason": null,
+ "name": "Hygienic Cat Litter",
+ "label": "2.7 kg (4.8 l)",
+ "category_ids": [
+  63
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Granules",
+   "quote": "крупного размера гранул"
+  }
+ },
+ "images": [
+  "https://cdn.poryadok.ru/upload/iblock/901/90154a06a3b4f60d240fdc6cde83ee90.png",
+  "https://cdn.poryadok.ru/upload/iblock/b0d/b0d86e0970ecdac10182f9ef11a71637.jpg",
+  "https://cdn.poryadok.ru/upload/iblock/7db/7dbc8383a80802dcb300f4801a5ca2fd.jpg",
+  "https://cdn.poryadok.ru/upload/iblock/614/614da20089b626bdbbba541cdea38903.jpg",
+  "https://kotoffey.ru/content/Gigienicheskij.png"
+ ],
+ "texts": {
+  "about_this_item": "Kotoffey hygienic cat litter with large granules, especially recommended for long-haired cats as the granules do not get caught in the coat. It neutralises unpleasant odours throughout use, is dust-free and does not stick to paws. The antibacterial properties of natural clay help prevent the growth of harmful microorganisms. Heat-treated and safe if accidentally swallowed.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://kotoffey.ru/gigienicheskii-napolnitel",
+  "images_from": "https://poryadok.ru/catalog/napolniteli_dlya_lotka/25758/",
+  "images_ean": "4627106520025",
+  "images_note": "poryadok.ru page carries EAN 4627106520025; front packshot prints ГИГИЕНИЧЕСКИЙ 2,7 кг / 3,0 л / 4,8 л, back photo shows barcode 4627106520025. Order: front packshot, back (EAN), side, lifestyle, brand group shot. hafo placeholder dropped."
+ },
+ "type": "litter",
+ "brand_id": 46,
+ "existing_id": null,
+ "first_image": "packshot",
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/KF5200211.source.txt",
+ "size": {
+  "measure_type": "volume",
+  "content": 4800,
+  "pack_count": 1
+ }
+}

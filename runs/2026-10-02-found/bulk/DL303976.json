@@ -1,0 +1,69 @@
+{
+ "name": "Chlorophyll Dental Bones for Small Breeds",
+ "slug": "derevenskie-lakomstva-chlorophyll-dental-bones-for-small-breeds",
+ "category_ids": [
+  83
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL303976",
+   "name": "Mint, 60 g",
+   "price": 1400.0,
+   "cost_price": 870.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     438
+    ],
+    "breed-size": [
+     31
+    ],
+    "health-feature": [
+     111
+    ],
+    "packaging": [
+     146
+    ]
+   },
+   "about_this_item": "<p>Zubochistiki mint dental bones with chlorophyll for small-breed dogs (7 pieces) — a multifunctional treat with health benefits. The chlorophyll improves feed digestibility, supports a healthy intestinal flora, helps eliminate toxins and strengthens the immune system.</p>",
+   "ingredient_information": "<p>Wheat protein, protein peptides, fibre, glycerin, sodium caseinate, monostearin, chlorophyll, brewer's yeast, magnesium stearate, essential oils, natural flavourings (mint).</p>",
+   "feeding_instructions": "<p>For dogs up to 10 kg — 1 treat per day.</p>",
+   "images": [
+    14467,
+    14470,
+    14473
+   ],
+   "measure_type": "mass",
+   "content": 60.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Зубочистики с хлорофиллом для мелких пород",
+   "variants": {
+    "DL303976": {
+     "about_this_item": "Мятные Зубочистики с хлорофиллом для собак мелких пород (7 шт.) — мультифункциональное лакомство с полезными для здоровья свойствами. Хлорофилл улучшает усвояемость кормов, поддерживает здоровую кишечную флору, помогает выводить токсины и укрепляет иммунную систему.",
+     "ingredient_information": "Пшеничный протеин, пептиды протеина, клетчатка, глицерин, казеинат натрия, моностеарин, хлорофилл, пивные дрожжи, стеарат магния, эфирные масла, натуральные вкусовые добавки (мята).",
+     "feeding_instructions": "Для собак до 10 кг — 1 лакомство в день."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ատամնամաքրող ոսկորներ քլորոֆիլով փոքր ցեղատեսակների համար",
+   "variants": {
+    "DL303976": {
+     "about_this_item": "Zubochistiki անանուխով ատամնամաքրող ոսկորներ՝ քլորոֆիլով, փոքր ցեղատեսակի շների համար (7 հատ)՝ բազմաֆունկցիոնալ հյուրասիրություն՝ առողջարար հատկություններով։ Քլորոֆիլը բարելավում է կերի յուրացումը, աջակցում աղիքային առողջ միկրոֆլորային, օգնում է հեռացնել տոքսինները և ամրացնում իմունային համակարգը։",
+     "ingredient_information": "Ցորենի պրոտեին, պրոտեինային պեպտիդներ, թաղանթանյութ, գլիցերին, նատրիումի կազեինատ, մոնոստեարին, քլորոֆիլ, գարեջրի խմորիչ, մագնեզիումի ստեարատ, եթերային յուղեր, բնական համային հավելումներ (անանուխ)։",
+     "feeding_instructions": "Մինչև 10 կգ քաշով շներին՝ օրական 1 հյուրասիրություն։"
+    }
+   }
+  }
+ }
+}

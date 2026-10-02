@@ -30,9 +30,9 @@ L = ["# Royal Canin import — production (2026-09-30)\n",
      "`Վաճառքի Գին`, cost = column B, column D `Վաճառքի Գին կիլոգրամով` = the loose price (see below). Stock 10 each "
      "(by-weight variants: 10 kg = 10,000 g). Content, photos and barcodes: royalcanin.com (UK; Malta for Sterilised "
      "Loaf and the Sterilised 37 15 kg barcode).\n",
-     f"**{len(P) - len(skipped)} products to import · {sum(len(p['variants']) for p in P if p['key'] not in skipped)} variants · "
+     f"**{len(P) - len(skipped)} products · {sum(len(p['variants']) for p in P if p['key'] not in skipped)} variants · "
      f"{len(skipped) + 1} rows not imported.** "
-     + (f"Imported: {len(state['done'])}/{len(P) - len(skipped)}." if state["done"] else "Nothing written yet.") + "\n",
+     + (f"Imported: {len(state['done'])}/{len(P) - len(skipped)} (product ids 1229–1267)." if state["done"] else "Nothing written yet.") + "\n",
      "## Column D — the loose variant",
      "- **Dry food**: every bag also gets a **by-weight** variant (`sale_mode: weight`): price = column D per kg, "
      "the customer buys whole kilograms (minimum 1 kg, step 1 kg — user, 2026-10-01); cost = column B ÷ bag kg; stock 10 kg. SKU = bag barcode + `-KG`.",
@@ -73,8 +73,18 @@ L += ["", "## Decisions and notes",
       "Royal Canin wrote it.",
       "- Product 1229 (Maxi Adult): its first upload attempt stopped at the duplicate-name guard (a **Monge** product is also "
       "named \"Maxi Adult\"); the 10 photos uploaded then were reused, not uploaded twice. Same-name products of other brands are fine.",
+      "- By-weight variants sell in whole kilograms: minimum 1 kg, step 1 kg (user, 2026-10-01). The first 7 "
+      "(products 1229–1235) were created with 500 g / 100 g before that rule and were corrected to 1 kg / 1 kg the same day.",
+      "- Maxi Joint Care (Royal Canin page): 2 of its 6 gallery entries had no image URL — imported with the 4 real photos.",
       "- Translations (ru / hy): worth a native speaker's look at vet terms (metabolisable energy, zootechnical "
       "additives, green-lipped mussel, IBD/EPI abbreviations in Armenian)."]
+L += ["", "## Verification on production (2026-10-01)",
+      "- All 39 products / 91 variants match the plan: prices, costs, categories, product type, stock (10; by-weight 10,000 g), "
+      "by-weight rules 1 kg / 1 kg, photos on every variant; the storefront API returns every variant.",
+      "- Photos: 370 distinct images, 0 broken (`scripts/verify-media.sh`).",
+      "- Translations: every description is in ru and hy (`scripts/verify-translations.py`). 16 product names are flagged "
+      "as identical to English — intended: Royal Canin line names (\"Maxi Adult\", \"Fit 32\", \"Sterilised 37\") stay in "
+      "Latin on Russian and Armenian packs too."]
 if state["problems"]:
     L += ["", "## Problems during the import"] + [f"- {k}: {m}" for k, m in state["problems"]]
 open(f"{R}/report.md", "w").write("\n".join(L) + "\n")

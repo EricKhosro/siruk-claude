@@ -1,0 +1,144 @@
+{
+ "done": {
+  "1252": {
+   "plan": [
+    "retire 9003579308929 'In Gravy 12 × 85 g' 8600 → single 9003579308929-1 'In Gravy 85 g' 750",
+    "retire 9003579311721 'In Jelly 12 × 85 g' 8600 → single 9003579311721-1 'In Jelly 85 g' 750"
+   ],
+   "retired_ids": [
+    1835,
+    1837
+   ]
+  },
+  "1253": {
+   "plan": [
+    "retire 9003579011423 'Chicken 12 × 85 g' 8600 → single 9003579011430 'Chicken 85 g' 750"
+   ],
+   "retired_ids": [
+    1839
+   ]
+  },
+  "1254": {
+   "plan": [
+    "retire 9003579309537 '12 × 85 g' 8600 → single 9003579309537-1 '85 g' 750"
+   ],
+   "retired_ids": [
+    1841
+   ]
+  },
+  "1255": {
+   "plan": [
+    "retire 9003579308936 'In Gravy 12 × 85 g' 8600 → single 9003579308936-1 'In Gravy 85 g' 750",
+    "retire 9003579309513 'In Jelly 12 × 85 g' 8600 → single 9003579309513-1 'In Jelly 85 g' 750"
+   ],
+   "retired_ids": [
+    1843,
+    1845
+   ]
+  },
+  "1256": {
+   "plan": [
+    "retire 10030111604351 'In Gravy 12 × 85 g' 8600 → single 10030111604351-1 'In Gravy 85 g' 750",
+    "retire 9003579311714 'In Jelly 12 × 85 g' 8600 → single 9003579311714-1 'In Jelly 85 g' 750",
+    "retire 9003579003848 'Loaf 12 × 85 g' 8600 → single 9003579003848-1 'Loaf 85 g' 750"
+   ],
+   "retired_ids": [
+    1847,
+    1849,
+    1851
+   ]
+  },
+  "1257": {
+   "plan": [
+    "retire 9003579310168 '12 × 85 g' 8600 → single 9003579310168-1 '85 g' 750"
+   ],
+   "retired_ids": [
+    1853
+   ]
+  },
+  "1258": {
+   "plan": [
+    "retire 9003579308769 'In Gravy 12 × 85 g' 8600 → single 9003579308769-1 'In Gravy 85 g' 750",
+    "retire 9003579311738 'In Jelly 12 × 85 g' 8600 → single 9003579311738-1 'In Jelly 85 g' 750"
+   ],
+   "retired_ids": [
+    1855,
+    1857
+   ]
+  },
+  "1259": {
+   "plan": [
+    "retire 9003579050057 '12 × 85 g' 8600 → single 9003579050057-1 '85 g' 750"
+   ],
+   "retired_ids": [
+    1859
+   ]
+  },
+  "1260": {
+   "plan": [
+    "retire 9003579311776 'In Jelly 12 × 85 g' 8600 → single 9003579311776-1 'In Jelly 85 g' 750",
+    "retire 9003579003916 'Loaf 12 × 85 g' 8600 → single 9003579003923 'Loaf 85 g' 750"
+   ],
+   "retired_ids": [
+    1861,
+    1863
+   ]
+  },
+  "1261": {
+   "plan": [
+    "retire 9003579010044 '12 × 85 g' 8600 → single 9003579010051 '85 g' 750"
+   ],
+   "retired_ids": [
+    1865
+   ]
+  },
+  "1262": {
+   "plan": [
+    "retire 9003579000458 'Chicken 12 × 85 g' 8600 → single 9003579000465 'Chicken 85 g' 750",
+    "retire 9003579000519 'Fish 12 × 85 g' 8600 → single 9003579000526 'Fish 85 g' 750"
+   ],
+   "retired_ids": [
+    1867,
+    1869
+   ]
+  },
+  "1263": {
+   "plan": [
+    "retire 9003579000366 '12 × 85 g' 8600 → single 9003579000366-1 '85 g' 750"
+   ],
+   "retired_ids": [
+    1871
+   ]
+  },
+  "1264": {
+   "plan": [
+    "retire 9003579018514 '12 × 85 g' 8600 → single 9003579018514-1 '85 g' 750"
+   ],
+   "retired_ids": [
+    1873
+   ]
+  },
+  "1265": {
+   "plan": [
+    "retire 9003579018866 '12 × 85 g' 8600 → single 9003579018866-1 '85 g' 750"
+   ],
+   "retired_ids": [
+    1875
+   ]
+  },
+  "1266": {
+   "plan": [
+    "retire 9003579018941 '12 × 85 g' 8600 → single 9003579018941-1 '85 g' 750"
+   ],
+   "retired_ids": [
+    1877
+   ]
+  },
+  "1267": {
+   "plan": [
+    "9003579311660 'Mousse 12 × 195 g' → 'Mousse 195 g', pack_count 12 → 1, price 2300 cost 2000"
+   ],
+   "retired_ids": []
+  }
+ }
+}

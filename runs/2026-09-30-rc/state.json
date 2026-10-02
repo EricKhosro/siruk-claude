@@ -188,6 +188,102 @@
     "ru": "product 1255 [ru]: name='Instinctive, тонкие ломтики'  variants=4  OK",
     "hy": "product 1255 [hy]: name='Instinctive, բարակ շերտեր'  variants=4  OK"
    }
+  },
+  "kitten-wet": {
+   "product_id": 1256,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "instinctive-7-wet": {
+   "product_id": 1257,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "light-weight-wet": {
+   "product_id": 1258,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "ageing-12-wet": {
+   "product_id": 1259,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "sterilised-wet": {
+   "product_id": 1260,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "vet-urinary-so-cat-wet": {
+   "product_id": 1261,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "vet-renal-cat-wet": {
+   "product_id": 1262,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "urinary-care-wet": {
+   "product_id": 1263,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "sensory-smell": {
+   "product_id": 1264,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "sensory-taste": {
+   "product_id": 1265,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "sensory-feel": {
+   "product_id": 1266,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
+  },
+  "mother-babycat-wet": {
+   "product_id": 1267,
+   "translations": {
+    "ru": "OK (import log lost; see verify-translations)",
+    "hy": "OK (import log lost; see verify-translations)"
+   },
+   "rebuilt_from_production": true
   }
  },
  "problems": [],

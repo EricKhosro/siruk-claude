@@ -1,0 +1,72 @@
+{
+ "name": "Soft Flea Collar for Cats",
+ "slug": "beaphar-soft-flea-collar-for-cats",
+ "category_ids": [
+  51
+ ],
+ "brand_id": 30,
+ "attribute_family_id": 4,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "20630",
+   "name": "Reflective, yellow",
+   "price": 2700.0,
+   "cost_price": 1675.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     547
+    ],
+    "health-feature": [
+     407
+    ],
+    "color-family": [
+     269
+    ]
+   },
+   "about_this_item": "<p>The Beaphar Soft Cat Flea Collar contains the natural plant extracts Margosa and Lavandin Oil to repel fleas for up to 8 weeks; it takes 5-7 days to reach optimal effect. This comfortable, adjustable 30 cm fabric collar has a quick-release safety buckle designed to break apart if the cat gets caught, and comes with an optional silver bell. Its reflective yellow finish helps the cat be seen more easily at night. Suitable for cats and kittens from 12 weeks of age. For best results also treat the home, where most of a flea problem lives as eggs and developing stages.</p>",
+   "ingredient_information": "<p>Margosa extract 2.5% w/w, Lavandin oil 0.5% w/w.</p>",
+   "feeding_instructions": "<p>Fasten the collar around the cat's neck (coloured side outwards), leaving room for two fingers between collar and neck. Cut off any collar beyond the buckle and dispose of it wrapped in a bag. Check and loosen periodically on a growing cat. Fit a new collar every eight weeks for continuous protection.</p>",
+   "images": [
+    14248,
+    14251,
+    14254,
+    14257,
+    14260,
+    14263,
+    14266,
+    14269,
+    14272
+   ],
+   "measure_type": "count",
+   "content": 1,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Мягкий ошейник от блох для кошек",
+   "variants": {
+    "20630": {
+     "about_this_item": "Мягкий ошейник Beaphar для кошек содержит натуральные растительные экстракты — маргозу и масло лавандина, отпугивающие блох до 8 недель; оптимальный эффект достигается через 5–7 дней. Удобный регулируемый тканевый ошейник длиной 30 см имеет быстрорасстёгивающуюся безопасную пряжку, которая раскрывается, если кошка за что-то зацепится, и съёмный серебристый колокольчик. Светоотражающая жёлтая отделка помогает лучше видеть кошку в темноте. Подходит для кошек и котят с 12-недельного возраста. Для лучшего результата обработайте также жилище, где находится большая часть блох в виде яиц и развивающихся стадий.",
+     "ingredient_information": "Экстракт маргозы 2,5% w/w, масло лавандина 0,5% w/w.",
+     "feeding_instructions": "Застегните ошейник на шее кошки (цветной стороной наружу), оставив между ошейником и шеей место для двух пальцев. Отрежьте выступающий за пряжку конец ошейника и утилизируйте его, завернув в пакет. У растущей кошки периодически проверяйте и ослабляйте ошейник. Для непрерывной защиты надевайте новый ошейник каждые восемь недель."
+    }
+   }
+  },
+  "hy": {
+   "name": "Փափուկ վզնոց լվերի դեմ՝ կատուների և ձագերի համար",
+   "variants": {
+    "20630": {
+     "about_this_item": "Beaphar փափուկ վզնոցը կատուների համար պարունակում է բնական բուսական էքստրակտներ՝ մարգոզա և լավանդինի յուղ, որոնք վանում են լվերին մինչև 8 շաբաթ. օպտիմալ ազդեցությունը ձեռք է բերվում 5–7 օրում։ Հարմարավետ, կարգավորվող 30 սմ գործվածքե վզնոցն ունի արագ բացվող անվտանգ ճարմանդ, որը բացվում է, եթե կատուն ինչ-որ բանի կառչի, և ըստ ցանկության ամրացվող արծաթագույն զանգակ։ Լույսը անդրադարձնող դեղին ձևավորումն օգնում է կատվին ավելի լավ տեսնել մթության մեջ։ Հարմար է 12 շաբաթականից բարձր կատուների և ձագերի համար։ Լավագույն արդյունքի համար մշակեք նաև բնակարանը, որտեղ լվերի մեծ մասը գտնվում է ձվերի և զարգացող փուլերի տեսքով։",
+     "ingredient_information": "Մարգոզայի էքստրակտ 2.5% w/w, լավանդինի յուղ 0.5% w/w։",
+     "feeding_instructions": "Ամրացրեք վզնոցը կատվի պարանոցին (գունավոր կողմը դեպի դուրս)՝ վզնոցի և պարանոցի միջև թողնելով երկու մատի տեղ։ Կտրեք ճարմանդից դուրս մնացած մասը և դեն նետեք՝ փաթաթելով տոպրակի մեջ։ Աճող կատվի մոտ պարբերաբար ստուգեք և թուլացրեք վզնոցը։ Անընդհատ պաշտպանության համար յուրաքանչյուր ութ շաբաթը մեկ նոր վզնոց դրեք։"
+    }
+   }
+  }
+ }
+}

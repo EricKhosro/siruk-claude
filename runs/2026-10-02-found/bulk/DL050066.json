@@ -1,0 +1,67 @@
+{
+ "name": "Bones for Mini Breeds",
+ "slug": "derevenskie-lakomstva-bones-for-mini-breeds",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL050066",
+   "name": "Turkey 55 g",
+   "price": 1950.0,
+   "cost_price": 1195.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     39
+    ],
+    "ingredient": [
+     495
+    ],
+    "breed-size": [
+     31
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Small chew bones with appetising turkey meat, an ideal treat for small four-legged friends.</p>",
+   "ingredient_information": "<p>Turkey meat, beef rawhide, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 50 g, fat 10 g, moisture 18 g, fibre 1 g, ash 3 g; energy 281.5 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14458,
+    14461,
+    14464
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Косточки для мини-пород",
+   "variants": {
+    "DL050066": {
+     "about_this_item": "Маленькие косточки для жевания с аппетитным мясом индейки — идеальное лакомство для маленьких четвероногих друзей.",
+     "ingredient_information": "Мясо индейки, сыромятная говяжья кожа, субпродукты растительного происхождения, минералы. Гарантированные показатели на 100 г: белок 50 г, жир 10 г, влага 18 г, клетчатка 1 г, зола 3 г; энергетическая ценность 281,5 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ոսկորիկներ մինի ցեղատեսակների համար",
+   "variants": {
+    "DL050066": {
+     "about_this_item": "Փոքր կրծելու ոսկորիկներ՝ հնդկահավի ախորժելի մսով, իդեալական հյուրասիրություն փոքրիկ չորքոտանի ընկերների համար։",
+     "ingredient_information": "Հնդկահավի միս, տավարի չմշակված կաշի, բուսական ծագման ենթամթերքներ, հանքանյութեր։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 50 գ, ճարպ 10 գ, խոնավություն 18 գ, թաղանթանյութ 1 գ, մոխիր 3 գ. էներգետիկ արժեքը՝ 281.5 կկալ։"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "REG00118": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-size",
+    "supplements is a sized type but the row has no net content — give `size`, or it is written with ALLOW_NO_SIZE=1 (chew in cm, collar)"
+   ]
+  ]
+ }
+}

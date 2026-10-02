@@ -1,0 +1,65 @@
+{
+ "name": "Excel Brewer's Yeast",
+ "slug": "8in1-excel-brewer-s-yeast",
+ "category_ids": [
+  43,
+  52
+ ],
+ "brand_id": 31,
+ "attribute_family_id": 4,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "IN10860",
+   "name": "260 tablets",
+   "price": 4000.0,
+   "cost_price": 2480.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     533
+    ],
+    "active-ingredient": [
+     600
+    ],
+    "health-feature": [
+     133
+    ],
+    "packaging": [
+     150
+    ]
+   },
+   "about_this_item": "<p>8in1 Excel Brewer's Yeast is a daily feed supplement for dogs and cats that helps promote healthy skin and a shiny coat. Developed with veterinarians, it combines brewer's yeast rich in B-complex vitamins (including B1, B2, B6 and biotin) with garlic, fish oil as a source of omega-3 fatty acids, and balanced minerals such as zinc and iron. Free from artificial colours and preservatives. Made in Germany. 260 tablets.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14635,
+    14638
+   ],
+   "measure_type": "count",
+   "content": 260,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Excel пивные дрожжи",
+   "variants": {
+    "IN10860": {
+     "about_this_item": "8in1 Excel Brewer's Yeast — ежедневная кормовая добавка для собак и кошек, которая помогает поддерживать здоровье кожи и блеск шерсти. Разработана совместно с ветеринарами; сочетает пивные дрожжи, богатые витаминами группы B (включая B1, B2, B6 и биотин), с чесноком, рыбьим жиром как источником жирных кислот омега-3 и сбалансированными минералами, такими как цинк и железо. Без искусственных красителей и консервантов. Сделано в Германии. 260 таблеток."
+    }
+   }
+  },
+  "hy": {
+   "name": "Excel գարեջրային խմորիչ",
+   "variants": {
+    "IN10860": {
+     "about_this_item": "8in1 Excel Brewer's Yeast-ը ամենօրյա կերային հավելում է շների և կատուների համար, որն օգնում է պահպանել մաշկի առողջությունը և բրդի փայլը։ Մշակված է անասնաբույժների հետ համատեղ. համատեղում է B խմբի վիտամիններով (այդ թվում՝ B1, B2, B6 և բիոտին) հարուստ գարեջրային խմորիչը սխտորի, ձկան յուղի՝ որպես օմեգա-3 ճարպաթթուների աղբյուրի, և հավասարակշռված հանքանյութերի, օրինակ՝ ցինկի և երկաթի հետ։ Առանց արհեստական ներկանյութերի և կոնսերվանտների։ Արտադրված է Գերմանիայում։ 260 հաբ։"
+    }
+   }
+  }
+ }
+}

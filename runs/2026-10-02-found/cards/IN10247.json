@@ -1,0 +1,51 @@
+{
+ "code": "IN10247",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 31,
+ "name": "Delights Bones",
+ "label": "L, Chicken, 85 g",
+ "existing_id": 1200,
+ "category_ids": [
+  85
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Delicious chicken breast inside"
+  },
+  "health-feature": {
+   "value": "Dental & Breath Care",
+   "quote": "Enhancing dental care due to the natural abrasive action of chewing"
+  },
+  "special-diet": {
+   "value": "Low Fat",
+   "quote": "Low in fat"
+  },
+  "breed-size": {
+   "value": "Large Breeds",
+   "quote": "large and giant dogs with a weight exceeding 25kg"
+  }
+ },
+ "images": [
+  "https://www.8in1.eu/fileadmin/_processed_/9/8/csm_TH32815_9649_7ecdacb89e.png",
+  "https://www.8in1.eu/fileadmin/_processed_/1/c/csm_TH32815_9652_875ab44d72.png",
+  "https://www.8in1.eu/fileadmin/_processed_/2/a/csm_TH32815_14255_f1519ab750.png",
+  "https://www.8in1.eu/fileadmin/_processed_/1/3/csm_TR30268_9632_969f3d3ece.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Delights Chicken Bone L is a knotted chew bone made of tasty beefhide with delicious chicken breast inside, giving intensive, long-lasting chewing fun for large and giant dogs over 25 kg. While keeping your dog busy, the natural abrasive action of chewing helps remove tartar and supports dental health. Low in fat, rich in protein, oven baked, free from artificial colours and flavour enhancers, with no added sugar, GMOs or gluten. One bone, 85 g.",
+  "ingredient_information": null,
+  "feeding_instructions": "Feed 1 treat over a course of two days. Do not exceed 1 treat in a two day period. Treats should not exceed 10% of your dog's daily caloric intake. Select a chew slightly larger than your pet's mouth. Always provide fresh water. Supervise your dog while chewing."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.8in1.eu/en/products/8in1-delights-chicken-bones/L"
+ },
+ "evidence_file": "cards/IN10247.source.txt"
+}

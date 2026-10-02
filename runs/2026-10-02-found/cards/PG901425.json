@@ -1,0 +1,44 @@
+{
+ "code": "PG901425",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 45,
+ "name": "Adult Dry Dog Food",
+ "label": "Veal & Rice 10 kg",
+ "existing_id": null,
+ "category_ids": [
+  3
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "lifestage": {
+   "value": "Adult",
+   "quote": "Для взрослых"
+  },
+  "flavor": {
+   "value": "Veal",
+   "quote": "в том числе из телятины"
+  },
+  "packaging": {
+   "value": "Bag",
+   "quote": "Мешок"
+  }
+ },
+ "images": [
+  "https://i.moyo.ua/img/products/6287/41_4000.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Gav! balanced complete dry food for adult dogs with veal and rice, for everyday feeding. Provides the nutrients a dog needs: proteins, fats, carbohydrates, vitamins and minerals. The vitamin and mineral complex helps strengthen the dog's immunity. Economy class, made in Ukraine by Kormotech.",
+  "ingredient_information": "Composition: cereals, wheat bran, protein-mineral concentrate (meat, by-products, including from veal), palatability enhancer, animal fat, rice, beet fibre, mineral premix, sunflower oil, brewer's yeast, vitamin premix, antioxidant, preservative (potassium sorbate). Additives: vitamin A 5000 IU/kg, vitamin D3 500 IU/kg, vitamin E 50 mg/kg, zinc 130 mg/kg, copper 15 mg/kg, calcium 1%, phosphorus 0.8%. Analytical constituents: protein 16.5%, fat 9%.",
+  "feeding_instructions": "Follow the recommended amount printed on the pack. Always keep fresh water available."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://www.moyo.ua/sukhoy_korm_dlya_sobak_gav_s_telyatinoy_i_risom_10kg/628741.html"
+ },
+ "evidence_file": "cards/PG901425.source.txt"
+}

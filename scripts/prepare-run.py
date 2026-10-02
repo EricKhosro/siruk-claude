@@ -315,10 +315,10 @@ def main():
         if price and reg_kg:
             # The register sells this bag BOTH ways: the pack at its register price, plus a
             # 1 kg loose twin at the register's own Kg rate — never price ÷ weight (the Kg
-            # rate carries a deliberate 2-3% premium). The twin is a `sale_mode: weight` variant
-            # (user rule 2026-09-30): price per kg, grams in 100 g steps, stock in grams.
-            twin = {"sku": f"{code}-KG", "name": "By weight", "price": reg_kg, "sale_mode": "weight",
-                    "qty_step": 1000, "qty_min": 1000}  # whole kg (user, 2026-10-01)
+            # rate carries a deliberate 2-3% premium). The twin is a 1 kg PACK variant — by-weight
+            # sale (`sale_mode: weight`) is paused by the PM (2026-10-01) until its UI is tested.
+            twin = {"sku": f"{code}-KG", "name": "1 kg", "price": reg_kg, "sale_mode": "pack",
+                    "measure_type": "mass", "content": 1000, "pack_count": 1}
             if rec["pack"] and rec["pack"]["kg"] and cost:
                 twin["cost_price"] = round(cost / rec["pack"]["kg"])
                 if reg_kg <= twin["cost_price"]:

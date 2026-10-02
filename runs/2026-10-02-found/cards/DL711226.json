@@ -1,0 +1,50 @@
+{
+ "code": "DL711226",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Tender Strips",
+ "label": "Duck 90 g",
+ "existing_id": null,
+ "category_ids": [
+  86
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Duck",
+   "quote": "соломка из утиного мяса"
+  },
+  "ingredient": {
+   "value": "Duck",
+   "quote": "Состав: филе утки"
+  },
+  "lifestage": {
+   "value": "Adult",
+   "quote": "Рекомендуется для взрослых собак средних и крупных пород"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/99a/m11vawwd731r7ggzp8kg3dv8cqde1zfg.png",
+  "https://derlak.ru/upload/iblock/c2c/x1nm9kg8uu04e8sxqvacte5ze9sz4wjx.png",
+  "https://derlak.ru/upload/iblock/2da/bi5ndl04gxm95fzl400vfpwmg8n6y6jq.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Tender thin strips of duck meat that will tempt even a picky eater. Recommended for adult dogs of medium and large breeds.",
+  "ingredient_information": "Duck fillet. Guaranteed analysis per 100 g: protein 44.9 g, fat 2.77 g, moisture 20.43 g, fibre 0.39 g, ash 3.02 g; energy 204.5 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-utinaya-solomka-nezhnaya-90g-art-79711229/"
+ },
+ "evidence_file": "cards/DL711226.source.txt"
+}

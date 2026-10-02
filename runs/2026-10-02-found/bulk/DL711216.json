@@ -1,0 +1,67 @@
+{
+ "name": "Dried Slices",
+ "slug": "derevenskie-lakomstva-dried-slices",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711216",
+   "name": "Duck 90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     42
+    ],
+    "ingredient": [
+     469
+    ],
+    "lifestage": [
+     27
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Juicy dried slices of duck meat, great for training: just break off a small piece. A treat for adult dogs of medium and large breeds.</p>",
+   "ingredient_information": "<p>Duck fillet. Guaranteed analysis per 100 g: protein 44.9 g, fat 2.77 g, moisture 20.43 g, fibre 0.39 g, ash 3.02 g; energy 204.5 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14557,
+    14560,
+    14563
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Нарезка сушёная",
+   "variants": {
+    "DL711216": {
+     "about_this_item": "Сочная сушёная нарезка из утиного мяса, отлично подходит для дрессировки: достаточно отломить небольшой кусочек. Лакомство для взрослых собак средних и крупных пород.",
+     "ingredient_information": "Утиное филе. Гарантированные показатели на 100 г: белок 44,9 г, жир 2,77 г, влага 20,43 г, клетчатка 0,39 г, зола 3,02 г; энергетическая ценность 204,5 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Չորացված կտորներ",
+   "variants": {
+    "DL711216": {
+     "about_this_item": "Բադի մսից հյութալի չորացված կտորներ, հիանալի են վարժեցման համար՝ պարզապես կոտրեք մի փոքր կտոր։ Հյուրասիրություն միջին և խոշոր ցեղերի չափահաս շների համար։",
+     "ingredient_information": "Բադի ֆիլե։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 44,9 գ, ճարպ 2,77 գ, խոնավություն 20,43 գ, թաղանթանյութ 0,39 գ, մոխիր 3,02 գ. էներգետիկ արժեք 204,5 կկալ։"
+    }
+   }
+  }
+ }
+}

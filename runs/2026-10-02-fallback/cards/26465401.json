@@ -1,0 +1,46 @@
+{
+ "type": "accessories",
+ "brand_id": 41,
+ "existing_id": 1290,
+ "name": "Prong Collar",
+ "label": "4 mm, 65 cm",
+ "category_ids": [
+  74
+ ],
+ "attributes": {
+  "material": {
+   "value": "Metal",
+   "quote": "Основной материал Сталь"
+  },
+  "color-family": {
+   "value": "Silver",
+   "quote": "хром"
+  },
+  "size": {
+   "value": "65 cm/4 mm",
+   "quote": "Ø 4,0 мм длина 65 см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/f38/5vgmkti6d6k0vms4q31ts0kocmj6vjl4.JPG"
+ ],
+ "texts": {
+  "about_this_item": "Kaskad Classic metal prong collar for behaviour correction and training of dogs, with a swivel. Link thickness 4 mm, collar length 65 cm. The links can be removed and put back without effort or special tools. The collar tightens on the slip principle when the lead is pulled. Chrome-plated steel. The tightening chain has a quick-release snap hook.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_strogiy_bystrosemnyy_s_vertlyugom_khrom_4_0_mm_dlina_65_sm_10_shg4065_1/",
+  "article": "26465401",
+  "ean": "4605350007875"
+ },
+ "code": "26465401",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/26465401.source.txt"
+}

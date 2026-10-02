@@ -1,0 +1,51 @@
+{
+ "code": "IN11066",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 31,
+ "name": "Delights Bones Strong XS",
+ "label": "Chicken, 7 pcs / 140 g",
+ "existing_id": null,
+ "category_ids": [
+  85
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Delicious chicken breast inside"
+  },
+  "health-feature": {
+   "value": "Dental & Breath Care",
+   "quote": "Enhancing dental care due to the natural abrasive action of chewing"
+  },
+  "special-diet": {
+   "value": "Low Fat",
+   "quote": "Low in fat"
+  },
+  "breed-size": {
+   "value": "Extra Small Breeds",
+   "quote": "toy dogs with a weight below 5kg"
+  }
+ },
+ "images": [
+  "https://www.8in1.eu/fileadmin/_processed_/5/6/csm_TH32667_9649_f3c82d98b7.png",
+  "https://www.8in1.eu/fileadmin/_processed_/0/1/csm_TH32667_9652_3493710cc8.png",
+  "https://www.8in1.eu/fileadmin/_processed_/d/e/csm_TH32667_14255_0dce2d5065.png",
+  "https://www.8in1.eu/fileadmin/_processed_/b/c/csm_TR30285_9632_7f9bce5680.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Delights Chicken Bones Strong XS are made of tasty beefhide and delicious chicken breast and give strong, long-lasting chewing fun for toy dogs under 5 kg. Their firm consistency makes them an extra tough chew, ideal for dogs with a particularly strong instinct to chew. The natural abrasive action of chewing helps remove tartar and supports dental health. Low in fat, rich in protein, oven baked, free from artificial colours and flavour enhancers, with no added GMOs or gluten. Pack of 7 bones, 140 g.",
+  "ingredient_information": null,
+  "feeding_instructions": "Feed 1 treat over a course of five days. Do not exceed 1 treat in a five day period. Treats should not exceed 10% of your dog's daily caloric intake. Select a chew slightly larger than your pet's mouth. Always provide fresh water. Supervise your dog while chewing."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.8in1.eu/en/products/8in1-delights-chicken-bones-strong/XS"
+ },
+ "evidence_file": "cards/IN11066.source.txt"
+}

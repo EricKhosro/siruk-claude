@@ -4,6 +4,8 @@
     scripts/card-import.py --run runs/<date> <code>             # dry run: build + check the payload, print it
     scripts/card-import.py --run runs/<date> <code> --payload   # only write .siruk-cache/payload-<code>.json (phase B --check)
     scripts/card-import.py --run runs/<date> <code> --write     # upload the gallery, then create-product.sh / add-variant.sh
+    scripts/card-import.py --run runs/<date> <code> --queue     # upload the gallery, then queue runs/<date>/bulk/<code>.json
+                                                                # for scripts/bulk-create.py (new products only)
 
 Price, cost, stock, sku and the pack size come from rows.jsonl (prepare-run.py decided
 them); name, label, categories, attributes, images and texts from cards/<code>.json.
@@ -12,6 +14,9 @@ The product type is the phase-B agent's pick from runs/<date>/product-types-map.
 card's `size`, else the row's parsed `pack` (CLAUDE.md 8a). A register loose twin
 (price.twin) goes on as a second variant. Every write goes through scripts/ (rule 10),
 and every body through scripts/siruk_payload.py.
+--queue folds runs/<date>/tr/<code>-ru.json and -hy.json (set-translation.py's shape, keyed
+by sku) into the payload's "translations" block, so the bulk create ships en/ru/hy at once.
+A card with existing_id cannot be queued — the bulk endpoint only creates; use --write.
 Promoted from runs/2026-09-25/import/card-import.py and ported to the 2026-09-29 model.
 """
 import json, os, re, subprocess, sys
@@ -25,9 +30,12 @@ if "--run" not in args or len(args) < 3:
     sys.exit(__doc__)
 RUN = os.path.abspath(args[args.index("--run") + 1])
 code = [a for a in args if not a.startswith("--") and os.path.abspath(a) != RUN][0]
-write, only_payload = "--write" in args, "--payload" in args
+queue = "--queue" in args
+write, only_payload = "--write" in args or queue, "--payload" in args
 
 card = json.load(open(f"{RUN}/cards/{code}.json"))
+if queue and card.get("existing_id"):
+    sys.exit(f"{code}: existing product {card['existing_id']} — the bulk endpoint only creates; use --write")
 row = next(json.loads(l) for l in open(f"{RUN}/rows.jsonl") if json.loads(l)["code"] == code)
 assert card.get("status") == "ready", f"{code}: card is {card.get('status')}"
 v = subprocess.run([sys.executable, f"{ROOT}/scripts/validate-card.py", "--run", RUN, code],
@@ -76,7 +84,7 @@ def html(s):
 price = row["price"]["amount"]
 assert price and price > row["cost"], f"{code}: price {price} vs cost {row['cost']}"
 variant = {"sku": code, "name": card["label"], "price": price, "cost_price": row["cost"],
-           "sale_mode": "pack", "initial_stock": row["stock"], "attribute_values": attrs,
+           "sale_mode": "pack", "initial_stock": 10, "attribute_values": attrs,   # every variant stocks 10 (user 2026-10-01)
            "about_this_item": html(texts.get("about_this_item")),
            "ingredient_information": html(texts.get("ingredient_information")),
            "feeding_instructions": html(texts.get("feeding_instructions")),
@@ -91,7 +99,7 @@ if size:
                    pack_count=size.get("pack_count") or 1)
 twin = (row.get("price") or {}).get("twin")
 twin_v = dict(twin, cost_price=twin.get("cost_price"),
-              initial_stock=row["stock"] * 1000 if twin.get("sale_mode") == "weight" else row["stock"],  # grams
+              initial_stock=10,  # every variant stocks 10 (user 2026-10-01); the twin is a 1 kg pack
               attribute_values=attrs, images=[]) if twin else None
 
 if write:
@@ -137,7 +145,18 @@ else:
     cmds = [[f"{ROOT}/scripts/create-product.sh", path]]
     print(path if only_payload or write else json.dumps(payload, ensure_ascii=False, indent=1))
 
-if write:
+if queue:
+    for lang in ("ru", "hy"):
+        tp = os.path.join(RUN, "tr", f"{code}-{lang}.json")
+        if os.path.exists(tp):
+            payload.setdefault("translations", {})[lang] = json.load(open(tp))
+    if not size:
+        payload["_allow_no_size"] = True     # bulk-create.py applies ALLOW_NO_SIZE to this item only
+    os.makedirs(os.path.join(RUN, "bulk"), exist_ok=True)
+    qp = os.path.join(RUN, "bulk", f"{code}.json")
+    json.dump(payload, open(qp, "w"), ensure_ascii=False, indent=1)
+    print(f"queued {qp}" + ("" if payload.get("translations") else "  (no ru/hy yet: runs/<date>/tr/<code>-ru.json, -hy.json)"))
+elif write:
     for cmd in cmds:
         r = subprocess.run(cmd, text=True, cwd=ROOT, capture_output=True, env=env)
         print(r.stdout); print(r.stderr, file=sys.stderr)

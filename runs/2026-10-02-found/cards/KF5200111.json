@@ -1,0 +1,43 @@
+{
+ "code": "KF5200111",
+ "status": "ready",
+ "hold_reason": null,
+ "name": "Clumping Cat Litter",
+ "label": "2.7 kg (4.8 l)",
+ "category_ids": [
+  60
+ ],
+ "attributes": {},
+ "images": [
+  "https://cdn.poryadok.ru/upload/iblock/e23/e236ff3eb87bd736c0ef523f88cd90f8.png",
+  "https://cdn.poryadok.ru/upload/iblock/947/947e84062c79403a22c5bd16b23808ca.jpg",
+  "https://cdn.poryadok.ru/upload/iblock/dee/deee63068d428238d08aab912549563d.jpg",
+  "https://cdn.poryadok.ru/upload/iblock/b2a/b2ae6a5b33c3ed66b1e04d0eb0680e24.jpg",
+  "https://kotoffey.ru/content/komkuyushijsya.png"
+ ],
+ "texts": {
+  "about_this_item": "Kotoffey clumping cat litter made from special natural clay. On contact with moisture it forms firm clumps that are easy to remove from the tray. It neutralises unpleasant odours throughout use, is dust-free and does not stick to paws. The antibacterial properties of natural clay help prevent the growth of harmful microorganisms. Heat-treated and safe if accidentally swallowed.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://kotoffey.ru/komkuyushchiisya-napolnitel",
+  "images_from": "https://poryadok.ru/catalog/napolniteli_dlya_lotka/25759/",
+  "images_ean": "4627106520018",
+  "images_note": "poryadok.ru page carries EAN 4627106520018; front packshot prints 2,7 кг / 3,0 л / 4,8 л, back photo shows barcode 4627106520018. Order: front packshot, back (EAN), side, lifestyle, brand group shot. hafo placeholder dropped. Google lead lapus.ru rejected (\"Порядок\" watermark)."
+ },
+ "type": "litter",
+ "brand_id": 46,
+ "existing_id": null,
+ "first_image": "packshot",
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/KF5200111.source.txt",
+ "size": {
+  "measure_type": "volume",
+  "content": 4800,
+  "pack_count": 1
+ }
+}

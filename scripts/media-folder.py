@@ -24,9 +24,9 @@ A folder is re-parented with `PUT /media-folders/<id> {name, parentId}` (the
 admin's Edit Folder dialog) and its files move with it — that is how the brand
 folders went under Products/ on 2026-09-23 in 32 calls instead of 3,000 moves.
 
-Mirrors cs-dev-hub packages/cs-admin-core/src/store/_mediaStore.js (createFolder,
-getFolders). Note for the listing endpoint: `acceptTypes` is ONE comma-joined
-string (cs-admin-core Api.serializeParams encodes the array that way);
+Mirrors the siruk-web admin backend (routes/admin.php `media-folders`,
+MediaFolderController). Note for the listing endpoint: `acceptTypes` is ONE comma-joined
+string (MediaController::index does explode(',', acceptTypes));
 `acceptTypes[]=…` hands the backend an array and it answers 500. The listing
 filters by the stored mime type, so a file stored as text/html (an uploaded 404
 page) never shows in it — look such a file up by id.

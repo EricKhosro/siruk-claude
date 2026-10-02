@@ -1,0 +1,1302 @@
+[
+ {
+  "product": 324,
+  "name": "Chunks Adult",
+  "brand_id": 19,
+  "variant": 417,
+  "sku": "009127",
+  "label": "1.23 kg",
+  "issues": [
+   "SAME_AS_SIBLING: unclear, same photo as V416 (415 g): short 415 g-style can; the 1230 g can is visibly taller (cf. V424)"
+  ],
+  "ean": "8009470009126",
+  "images": [
+   2739
+  ],
+  "link": "https://siruk.am/product/simba-chunks-adult/dp/417/"
+ },
+ {
+  "product": 324,
+  "name": "Chunks Adult",
+  "brand_id": 19,
+  "variant": 419,
+  "sku": "009137",
+  "label": "1.23 kg",
+  "issues": [
+   "SAME_AS_SIBLING: unclear, same photo as V418 (415 g): short 415 g-style can; the 1230 g can is visibly taller (cf. V424)"
+  ],
+  "ean": "8009470009133",
+  "images": [
+   2742
+  ],
+  "link": "https://siruk.am/product/simba-chunks-adult/dp/419/"
+ },
+ {
+  "product": 324,
+  "name": "Chunks Adult",
+  "brand_id": 19,
+  "variant": 421,
+  "sku": "009147",
+  "label": "1.23 kg",
+  "issues": [
+   "SAME_AS_SIBLING: unclear, same photo as V420 (415 g): short 415 g-style can; the 1230 g can is visibly taller (cf. V424)"
+  ],
+  "ean": "8009470009140",
+  "images": [
+   2745
+  ],
+  "link": "https://siruk.am/product/simba-chunks-adult/dp/421/"
+ },
+ {
+  "product": 324,
+  "name": "Chunks Adult",
+  "brand_id": 19,
+  "variant": 423,
+  "sku": "009157",
+  "label": "1.23 kg",
+  "issues": [
+   "SAME_AS_SIBLING: unclear, same photo as V422 (415 g): short 415 g-style can; the 1230 g can is visibly taller (cf. V424)"
+  ],
+  "ean": "8009470009157",
+  "images": [
+   2748
+  ],
+  "link": "https://siruk.am/product/simba-chunks-adult/dp/423/"
+ },
+ {
+  "product": 353,
+  "name": "Filets",
+  "brand_id": 8,
+  "variant": 458,
+  "sku": "31801",
+  "label": "300 g",
+  "issues": [
+   "SAME_AS_SIBLING: unclear, same photo as V457 (100 g): loose chicken filets only, no pack"
+  ],
+  "ean": "4011905318011",
+  "images": [
+   2984,
+   2990
+  ],
+  "link": "https://siruk.am/product/trixie-filets/dp/458/"
+ },
+ {
+  "product": 354,
+  "name": "Dumbbells",
+  "brand_id": 8,
+  "variant": 460,
+  "sku": "31802",
+  "label": "300 g",
+  "issues": [
+   "WRONG_PRODUCT: Trixie Premio XXL pack printed 'Chicken Bites' 300 g, not Dumbbells (2nd image is the Snack Dumbbells XXL bag) - may be older packaging of the same article, check"
+  ],
+  "ean": "4011905318028",
+  "images": [
+   2999,
+   5858
+  ],
+  "link": "https://siruk.am/product/trixie-dumbbells/dp/460/"
+ },
+ {
+  "product": 399,
+  "name": "Carpaccio with duck & cod",
+  "brand_id": 8,
+  "variant": 506,
+  "sku": "31804",
+  "label": "80 g",
+  "issues": [
+   "WRONG_SIZE: Premio Carpaccio pouch with red 'XXL PACK' badge (large pack, not the 80 g bag)"
+  ],
+  "ean": "4011905318042",
+  "images": [
+   3335
+  ],
+  "link": "https://siruk.am/product/trixie-carpaccio-with-duck-cod/dp/506/"
+ },
+ {
+  "product": 506,
+  "name": "Dental Hygiene Set for Cats",
+  "brand_id": 8,
+  "variant": 613,
+  "sku": "25620",
+  "label": "50 g",
+  "issues": [
+   "WRONG_PRODUCT: a single toothbrush only, no toothpaste/set packaging (low confidence: may just be a set component)"
+  ],
+  "ean": "4011905256207",
+  "images": [
+   3767,
+   3770,
+   3773,
+   6711,
+   6714,
+   3776,
+   6717
+  ],
+  "link": "https://siruk.am/product/trixie-dental-hygiene-set-50-g/dp/613/"
+ },
+ {
+  "product": 636,
+  "name": "Mini Adult",
+  "brand_id": 5,
+  "variant": 1575,
+  "sku": "MG006117",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Mini Adult Chicken bag printed '3kg'"
+  ],
+  "ean": "8009470006118",
+  "images": [
+   11160,
+   11163,
+   11166
+  ],
+  "link": "https://siruk.am/product/monge-mini-adult-chicken-rice-800-g/dp/1575/"
+ },
+ {
+  "product": 636,
+  "name": "Mini Adult",
+  "brand_id": 5,
+  "variant": 1576,
+  "sku": "MG006067",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Mini Adult Lamb bag printed '2,5kg'"
+  ],
+  "ean": "8009470006064",
+  "images": [
+   11169,
+   11151,
+   11172
+  ],
+  "link": "https://siruk.am/product/monge-mini-adult-chicken-rice-800-g/dp/1576/"
+ },
+ {
+  "product": 636,
+  "name": "Mini Adult",
+  "brand_id": 5,
+  "variant": 1577,
+  "sku": "MG006077",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Mini Adult Salmon bag printed '2,5kg'"
+  ],
+  "ean": "8009470006071",
+  "images": [
+   11175,
+   11151,
+   11178
+  ],
+  "link": "https://siruk.am/product/monge-mini-adult-chicken-rice-800-g/dp/1577/"
+ },
+ {
+  "product": 639,
+  "name": "All Breeds Puppy & Junior",
+  "brand_id": 5,
+  "variant": 761,
+  "sku": "011257",
+  "label": "800 g",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Puppy & Junior Lamb bag printed '2,5kg'"
+  ],
+  "ean": "8009470011259",
+  "images": [
+   1755
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-puppy-junior-lamb-rice-800-g/dp/761/"
+ },
+ {
+  "product": 639,
+  "name": "All Breeds Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1573,
+  "sku": "011217",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Puppy & Junior Salmon bag printed '2,5kg'"
+  ],
+  "ean": "8009470011211",
+  "images": [
+   11139,
+   11142,
+   11145
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-puppy-junior-lamb-rice-800-g/dp/1573/"
+ },
+ {
+  "product": 639,
+  "name": "All Breeds Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1574,
+  "sku": "006487",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Puppy & Junior Beef bag printed '2,5kg'"
+  ],
+  "ean": "8009470006484",
+  "images": [
+   11148,
+   11151,
+   11154,
+   11157
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-puppy-junior-lamb-rice-800-g/dp/1574/"
+ },
+ {
+  "product": 641,
+  "name": "Extra Small Adult Lamb & Rice",
+  "brand_id": 5,
+  "variant": 763,
+  "sku": "011477",
+  "label": "800 g",
+  "issues": [
+   "WRONG_SIZE: Monge Extra Small Adult Lamb & Rice bag printed '2,5kg'"
+  ],
+  "ean": "8009470011471",
+  "images": [
+   1761
+  ],
+  "link": "https://siruk.am/product/monge-extra-small-adult-lamb-rice-800-g/dp/763/"
+ },
+ {
+  "product": 663,
+  "name": "Gran Bonta Chef Adult Dog",
+  "brand_id": 5,
+  "variant": 1303,
+  "sku": "041887",
+  "label": "1.23 kg",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "8009470041881",
+  "images": [
+   7540
+  ],
+  "link": "https://siruk.am/product/monge-gran-bonta-chef-adult-dog/dp/1303/"
+ },
+ {
+  "product": 679,
+  "name": "Medium Adult Dog Chunks Veal & Liver",
+  "brand_id": 18,
+  "variant": 821,
+  "sku": "387857",
+  "label": "415 g",
+  "issues": [
+   "WRONG_PRODUCT: Gemon Adult Medium can 'Bocconi con Manzo e Fegato' (beef & liver), caption says Veal"
+  ],
+  "ean": "8009470387859",
+  "images": [
+   5087
+  ],
+  "link": "https://siruk.am/product/gemon-medium-adult-dog-chunks-veal-liver-415-g/dp/821/"
+ },
+ {
+  "product": 681,
+  "name": "Mini Adult Dog Chunks Chicken & Rice",
+  "brand_id": 18,
+  "variant": 823,
+  "sku": "387877",
+  "label": "415 g",
+  "issues": [
+   "WRONG_PRODUCT: Gemon Adult MEDIUM Pollo e Riso can, caption says Mini Adult"
+  ],
+  "ean": "8009470387873",
+  "images": [
+   7336
+  ],
+  "link": "https://siruk.am/product/gemon-mini-adult-dog-chunks-chicken-rice-415-g/dp/823/"
+ },
+ {
+  "product": 683,
+  "name": "Medium Adult Dog Paté",
+  "brand_id": 18,
+  "variant": 825,
+  "sku": "387917",
+  "label": "1.25 kg",
+  "issues": [
+   "WRONG_PRODUCT: Gemon Adult Medium 'Bocconi' (chunks) Agnello e Riso can, caption says Paté (or the name is wrong)"
+  ],
+  "ean": "8009470387910",
+  "images": [
+   7342
+  ],
+  "link": "https://siruk.am/product/gemon-medium-adult-dog-pat/dp/825/"
+ },
+ {
+  "product": 683,
+  "name": "Medium Adult Dog Paté",
+  "brand_id": 18,
+  "variant": 826,
+  "sku": "387927",
+  "label": "1.25 kg",
+  "issues": [
+   "WRONG_PRODUCT: Gemon Adult Medium 'Bocconi' (chunks) Pollo e Tacchino can, caption says Paté (or the name is wrong)"
+  ],
+  "ean": "8009470387927",
+  "images": [
+   5093
+  ],
+  "link": "https://siruk.am/product/gemon-medium-adult-dog-pat/dp/826/"
+ },
+ {
+  "product": 730,
+  "name": "Traditional Line Lemon Shampoo for Short Coats",
+  "brand_id": 29,
+  "variant": 886,
+  "sku": "03168IVS",
+  "label": "300 ml",
+  "issues": [
+   "NOT_PACKSHOT: group shot of three bottle sizes incl. large jug (multi-size range image)"
+  ],
+  "ean": "8022767031686",
+  "images": [
+   5414
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-traditional-line-lemon-shampoo-for-short-coats-300-ml/dp/886/"
+ },
+ {
+  "product": 731,
+  "name": "Traditional Line Green Apple Shampoo for Long Coats",
+  "brand_id": 29,
+  "variant": 887,
+  "sku": "03174IVS",
+  "label": "300 ml",
+  "issues": [
+   "NOT_PACKSHOT: group shot of three bottle sizes incl. large jug"
+  ],
+  "ean": "8022767031747",
+  "images": [
+   5417
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-traditional-line-green-apple-shampoo-for-long-coats-300-ml/dp/887/"
+ },
+ {
+  "product": 732,
+  "name": "Traditional Line Lemon Conditioner for Short Coats",
+  "brand_id": 29,
+  "variant": 888,
+  "sku": "03177IVS",
+  "label": "300 ml",
+  "issues": [
+   "NOT_PACKSHOT: group shot of three bottle sizes incl. large jug"
+  ],
+  "ean": "8022767031778",
+  "images": [
+   5420
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-traditional-line-lemon-conditioner-for-short-coats-300-ml/dp/888/"
+ },
+ {
+  "product": 733,
+  "name": "Traditional Line Green Apple Conditioner for Long Coats",
+  "brand_id": 29,
+  "variant": 889,
+  "sku": "03183IVS",
+  "label": "300 ml",
+  "issues": [
+   "NOT_PACKSHOT: group shot of three bottle sizes incl. large jug"
+  ],
+  "ean": "8022767031839",
+  "images": [
+   5423
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-traditional-line-green-apple-conditioner-for-long-coats-300-ml/dp/889/"
+ },
+ {
+  "product": 734,
+  "name": "Protective Shield Shampoo",
+  "brand_id": 29,
+  "variant": 890,
+  "sku": "03681IVS",
+  "label": "300 ml",
+  "issues": [
+   "NOT_PACKSHOT: group shot of bottles plus 5 L canister"
+  ],
+  "ean": "8022767036810",
+  "images": [
+   5426
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-protective-shield-shampoo-300-ml/dp/890/"
+ },
+ {
+  "product": 735,
+  "name": "Protective Shield Conditioner",
+  "brand_id": 29,
+  "variant": 891,
+  "sku": "03684IVS",
+  "label": "300 ml",
+  "issues": [
+   "NOT_PACKSHOT: group shot of bottles plus 5 L canister"
+  ],
+  "ean": "8022767036841",
+  "images": [
+   5429
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-protective-shield-conditioner-300-ml/dp/891/"
+ },
+ {
+  "product": 804,
+  "name": "Premium Adjustable Lead, double-layered",
+  "brand_id": 8,
+  "variant": 1721,
+  "sku": "200720",
+  "label": "XS–S, 2.00 m/15 mm, light lilac",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4053032024847",
+  "images": [
+   8771
+  ],
+  "link": "https://siruk.am/product/trixie-premium-adjustable-lead-double-layered/dp/1721/"
+ },
+ {
+  "product": 1050,
+  "name": "Adult Cat Pouch",
+  "brand_id": 35,
+  "variant": 1339,
+  "sku": "142595",
+  "label": "85 g",
+  "issues": [
+   "WATERMARK: Мяу beef & veg jelly pouch, HafoMall watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4820269142596",
+  "images": [
+   10305
+  ],
+  "link": "https://siruk.am/product/myau-adult-cat-pouch/dp/1339/"
+ },
+ {
+  "product": 1050,
+  "name": "Adult Cat Pouch",
+  "brand_id": 35,
+  "variant": 1340,
+  "sku": "142605",
+  "label": "85 g",
+  "issues": [
+   "WRONG_PRODUCT; WATERMARK: Мяу KITTEN chicken (з куркою, для кошенят) pouch on 'Turkey in Gravy' adult variant; HafoMall watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4820269142602",
+  "images": [
+   10308
+  ],
+  "link": "https://siruk.am/product/myau-adult-cat-pouch/dp/1340/"
+ },
+ {
+  "product": 1050,
+  "name": "Adult Cat Pouch",
+  "brand_id": 35,
+  "variant": 1342,
+  "sku": "142625",
+  "label": "85 g",
+  "issues": [
+   "WATERMARK: Мяу rabbit pouch, HafoMall watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4820269142626",
+  "images": [
+   10314
+  ],
+  "link": "https://siruk.am/product/myau-adult-cat-pouch/dp/1342/"
+ },
+ {
+  "product": 1050,
+  "name": "Adult Cat Pouch",
+  "brand_id": 35,
+  "variant": 1343,
+  "sku": "142635",
+  "label": "85 g",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4820269142633",
+  "images": [
+   10317
+  ],
+  "link": "https://siruk.am/product/myau-adult-cat-pouch/dp/1343/"
+ },
+ {
+  "product": 1050,
+  "name": "Adult Cat Pouch",
+  "brand_id": 35,
+  "variant": 1344,
+  "sku": "142655",
+  "label": "85 g",
+  "issues": [
+   "WATERMARK: Мяу fish pouch, HafoMall watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4820269142657",
+  "images": [
+   10320
+  ],
+  "link": "https://siruk.am/product/myau-adult-cat-pouch/dp/1344/"
+ },
+ {
+  "product": 1051,
+  "name": "Kitten Pouch",
+  "brand_id": 35,
+  "variant": 1345,
+  "sku": "143005",
+  "label": "85 g",
+  "issues": [
+   "WATERMARK: Мяу kitten chicken pouch, HafoMall watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4820269143005",
+  "images": [
+   10323
+  ],
+  "link": "https://siruk.am/product/myau-kitten-pouch/dp/1345/"
+ },
+ {
+  "product": 1052,
+  "name": "Cat Paté",
+  "brand_id": 33,
+  "variant": 1346,
+  "sku": "83041J",
+  "label": "75 g",
+  "issues": [
+   "WATERMARK: KorMell chicken paté pouch, HafoMall watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4620213830414",
+  "images": [
+   10326
+  ],
+  "link": "https://siruk.am/product/kormell-cat-pate/dp/1346/"
+ },
+ {
+  "product": 1052,
+  "name": "Cat Paté",
+  "brand_id": 33,
+  "variant": 1347,
+  "sku": "83042J",
+  "label": "75 g",
+  "issues": [
+   "WATERMARK: KorMell beef & liver pouch, faint HafoMall watermark on right edge",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4620213830421",
+  "images": [
+   10329
+  ],
+  "link": "https://siruk.am/product/kormell-cat-pate/dp/1347/"
+ },
+ {
+  "product": 1052,
+  "name": "Cat Paté",
+  "brand_id": 33,
+  "variant": 1348,
+  "sku": "83047J",
+  "label": "75 g",
+  "issues": [
+   "WATERMARK: KorMell duck paté pouch, HafoMall watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4620213830476",
+  "images": [
+   10332
+  ],
+  "link": "https://siruk.am/product/kormell-cat-pate/dp/1348/"
+ },
+ {
+  "product": 1053,
+  "name": "Cat Pouch in Jelly",
+  "brand_id": 32,
+  "variant": 1349,
+  "sku": "83010J",
+  "label": "75 g",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4620213830100",
+  "images": [
+   10335
+  ],
+  "link": "https://siruk.am/product/mooor-cat-pouch-jelly/dp/1349/"
+ },
+ {
+  "product": 1053,
+  "name": "Cat Pouch in Jelly",
+  "brand_id": 32,
+  "variant": 1350,
+  "sku": "83014J",
+  "label": "75 g",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4620213830148",
+  "images": [
+   10338
+  ],
+  "link": "https://siruk.am/product/mooor-cat-pouch-jelly/dp/1350/"
+ },
+ {
+  "product": 1054,
+  "name": "Adult Dog Pouch",
+  "brand_id": 34,
+  "variant": 1351,
+  "sku": "83077J",
+  "label": "75 g",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4620213830773",
+  "images": [
+   10341
+  ],
+  "link": "https://siruk.am/product/justin-adult-dog-pouch/dp/1351/"
+ },
+ {
+  "product": 1057,
+  "name": "Stop It Indoor Repellent Spray",
+  "brand_id": 30,
+  "variant": 1354,
+  "sku": "21382",
+  "label": "200 ml",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "8711231213825",
+  "images": [
+   10359
+  ],
+  "link": "https://siruk.am/product/beaphar-stop-it-indoor-spray/dp/1354/"
+ },
+ {
+  "product": 1058,
+  "name": "DO IT YOURSELF Narciso Perfume",
+  "brand_id": 29,
+  "variant": 1355,
+  "sku": "05565IVS",
+  "label": "125 ml",
+  "issues": [
+   "WATERMARK: Iv San Bernard DIY Narciso spray on tiled 'Hafo' logo background",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "8022767055651",
+  "images": [
+   10362
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-do-it-yourself-narciso-perfume/dp/1355/"
+ },
+ {
+  "product": 1059,
+  "name": "DO IT YOURSELF Ocean Perfume",
+  "brand_id": 29,
+  "variant": 1356,
+  "sku": "05566IVS",
+  "label": "125 ml",
+  "issues": [
+   "WATERMARK: Iv San Bernard DIY Ocean spray on tiled 'Hafo' logo background",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "8022767055668",
+  "images": [
+   10368
+  ],
+  "link": "https://siruk.am/product/iv-san-bernard-do-it-yourself-ocean-perfume/dp/1356/"
+ },
+ {
+  "product": 1150,
+  "name": "New Neon Tape Lead",
+  "brand_id": 39,
+  "variant": 1751,
+  "sku": "FX023508",
+  "label": "XS, 3 m, black/neon",
+  "issues": [
+   "HAFO: hafo photo at position 2 of 2"
+  ],
+  "ean": "4000498023501",
+  "images": [
+   12068,
+   12071
+  ],
+  "link": "https://siruk.am/product/flexi-new-neon-tape-lead-5-m/dp/1751/"
+ },
+ {
+  "product": 1152,
+  "name": "All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1642,
+  "sku": "011137",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Adult Duck bag printed 2.5 kg"
+  ],
+  "ean": "8009470011136",
+  "images": [
+   11076,
+   11079,
+   11082,
+   11085
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-adult/dp/1642/"
+ },
+ {
+  "product": 1152,
+  "name": "All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1644,
+  "sku": "011347",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Adult Beef bag printed 2.5 kg"
+  ],
+  "ean": "8009470011341",
+  "images": [
+   11088,
+   11091,
+   11094,
+   11097
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-adult/dp/1644/"
+ },
+ {
+  "product": 1152,
+  "name": "All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1646,
+  "sku": "011327",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Adult Lamb bag printed 2.5 kg"
+  ],
+  "ean": "8009470011327",
+  "images": [
+   11100,
+   11103,
+   11106,
+   11109
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-adult/dp/1646/"
+ },
+ {
+  "product": 1152,
+  "name": "All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1648,
+  "sku": "011307",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Adult Salmon bag printed 2.5 kg"
+  ],
+  "ean": "8009470011303",
+  "images": [
+   11112,
+   11115,
+   11118
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-adult/dp/1648/"
+ },
+ {
+  "product": 1152,
+  "name": "All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1650,
+  "sku": "011157",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Adult Rabbit bag printed 2.5 kg"
+  ],
+  "ean": "8009470011150",
+  "images": [
+   11121,
+   11124,
+   11127,
+   11133
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-adult/dp/1650/"
+ },
+ {
+  "product": 1152,
+  "name": "All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1652,
+  "sku": "011397",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge All Breeds Adult Turkey bag printed 2.5 kg"
+  ],
+  "ean": "8009470011396",
+  "images": [
+   11136
+  ],
+  "link": "https://siruk.am/product/monge-all-breeds-adult/dp/1652/"
+ },
+ {
+  "product": 1153,
+  "name": "Mini Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1659,
+  "sku": "MG006107",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Mini Puppy & Junior chicken bag printed 3 kg"
+  ],
+  "ean": "8009470006101",
+  "images": [
+   11181,
+   11184,
+   11187
+  ],
+  "link": "https://siruk.am/product/monge-mini-puppy-junior/dp/1659/"
+ },
+ {
+  "product": 1153,
+  "name": "Mini Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1661,
+  "sku": "005947",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Mini Puppy & Junior lamb bag printed 2.5 kg"
+  ],
+  "ean": "8009470005944",
+  "images": [
+   11190,
+   11151,
+   11193
+  ],
+  "link": "https://siruk.am/product/monge-mini-puppy-junior/dp/1661/"
+ },
+ {
+  "product": 1153,
+  "name": "Mini Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1663,
+  "sku": "005937",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Mini Puppy & Junior salmon bag printed 2.5 kg"
+  ],
+  "ean": "8009470005937",
+  "images": [
+   11196,
+   11151,
+   11199
+  ],
+  "link": "https://siruk.am/product/monge-mini-puppy-junior/dp/1663/"
+ },
+ {
+  "product": 1154,
+  "name": "Mini Starter",
+  "brand_id": 5,
+  "variant": 1665,
+  "sku": "MG006087",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Mini Starter bag printed 1.5 kg"
+  ],
+  "ean": "8009470006088",
+  "images": [
+   11202,
+   11163,
+   11205
+  ],
+  "link": "https://siruk.am/product/monge-mini-starter/dp/1665/"
+ },
+ {
+  "product": 1155,
+  "name": "Medium Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1667,
+  "sku": "MG006347",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Medium Puppy & Junior bag printed 3 kg"
+  ],
+  "ean": "8009470006347",
+  "images": [
+   11208,
+   11211,
+   11214
+  ],
+  "link": "https://siruk.am/product/monge-medium-puppy-junior/dp/1667/"
+ },
+ {
+  "product": 1156,
+  "name": "Maxi Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1669,
+  "sku": "MG006027",
+  "label": "15 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Maxi Puppy & Junior bag printed 3 kg"
+  ],
+  "ean": "8009470006026",
+  "images": [
+   11217,
+   11220,
+   11223,
+   11226
+  ],
+  "link": "https://siruk.am/product/monge-maxi-puppy-junior/dp/1669/"
+ },
+ {
+  "product": 1157,
+  "name": "Maxi Adult",
+  "brand_id": 5,
+  "variant": 1671,
+  "sku": "004417",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge Maxi Adult bag, small print ~3 kg"
+  ],
+  "ean": "8009470004411",
+  "images": [
+   11229,
+   11232,
+   11235
+  ],
+  "link": "https://siruk.am/product/monge-maxi-adult/dp/1671/"
+ },
+ {
+  "product": 1158,
+  "name": "BWild Low Grain All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1673,
+  "sku": "011757",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge BWild Low Grain wild boar bag printed 2.5 kg"
+  ],
+  "ean": "8009470011754",
+  "images": [
+   11238,
+   11241,
+   11244,
+   11247
+  ],
+  "link": "https://siruk.am/product/monge-bwild-low-grain-all-breeds-adult/dp/1673/"
+ },
+ {
+  "product": 1158,
+  "name": "BWild Low Grain All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1675,
+  "sku": "011797",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge BWild Low Grain deer bag, print ~2.5 kg"
+  ],
+  "ean": "8009470011792",
+  "images": [
+   11250,
+   11253,
+   11256
+  ],
+  "link": "https://siruk.am/product/monge-bwild-low-grain-all-breeds-adult/dp/1675/"
+ },
+ {
+  "product": 1159,
+  "name": "BWild Low Grain All Breeds Puppy & Junior",
+  "brand_id": 5,
+  "variant": 1677,
+  "sku": "011897",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge BWild Low Grain Puppy bag, print ~2.5 kg"
+  ],
+  "ean": "8009470011891",
+  "images": [
+   11259
+  ],
+  "link": "https://siruk.am/product/monge-bwild-low-grain-all-breeds-puppy-junior/dp/1677/"
+ },
+ {
+  "product": 1160,
+  "name": "BWild Grain Free All Breeds Adult",
+  "brand_id": 5,
+  "variant": 1679,
+  "sku": "011737",
+  "label": "12 kg",
+  "issues": [
+   "WRONG_SIZE: Monge BWild Grain Free lamb bag printed 2.5 kg"
+  ],
+  "ean": "8009470011730",
+  "images": [
+   11262,
+   11265,
+   11268,
+   11271
+  ],
+  "link": "https://siruk.am/product/monge-bwild-grain-free-all-breeds-adult/dp/1679/"
+ },
+ {
+  "product": 1163,
+  "name": "Kitten Cat",
+  "brand_id": 5,
+  "variant": 1685,
+  "sku": "MG 004817",
+  "label": "10 kg",
+  "issues": [
+   "WATERMARK: Monge Best for Breeders Kitten 10 kg bag, tiled 'Hafo' watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "8009470004817",
+  "images": [
+   11954
+  ],
+  "link": "https://siruk.am/product/monge-kitten-cat/dp/1685/"
+ },
+ {
+  "product": 1165,
+  "name": "Adult Cat",
+  "brand_id": 5,
+  "variant": 1689,
+  "sku": "MG 004807",
+  "label": "10 kg",
+  "issues": [
+   "WATERMARK: Monge Best for Breeders cat bag, 'Hafo' watermark",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "8009470004800",
+  "images": [
+   11951
+  ],
+  "link": "https://siruk.am/product/monge-adult-cat/dp/1689/"
+ },
+ {
+  "product": 1170,
+  "name": "Adult Dog Kibbles",
+  "brand_id": 19,
+  "variant": 1699,
+  "sku": "009977",
+  "label": "20 kg",
+  "issues": [
+   "WRONG_SIZE: Simba Adult tuna bag printed 4 kg"
+  ],
+  "ean": "8009470009973",
+  "images": [
+   11313
+  ],
+  "link": "https://siruk.am/product/simba-adult-dog-kibbles/dp/1699/"
+ },
+ {
+  "product": 1170,
+  "name": "Adult Dog Kibbles",
+  "brand_id": 19,
+  "variant": 1701,
+  "sku": "009957",
+  "label": "20 kg",
+  "issues": [
+   "WRONG_SIZE: Simba Adult lamb bag, print ~4 kg"
+  ],
+  "ean": "8009470009959",
+  "images": [
+   11316
+  ],
+  "link": "https://siruk.am/product/simba-adult-dog-kibbles/dp/1701/"
+ },
+ {
+  "product": 1171,
+  "name": "Premium Sterilised Dry Cat Food",
+  "brand_id": 17,
+  "variant": 1703,
+  "sku": "909665",
+  "label": "14 kg",
+  "issues": [
+   "WRONG_SIZE: Club 4 Paws Sterilised cat bag printed 2 kg"
+  ],
+  "ean": "4820083909665",
+  "images": [
+   11319
+  ],
+  "link": "https://siruk.am/product/club-4-paws-premium-sterilised-dry-cat-food/dp/1703/"
+ },
+ {
+  "product": 1172,
+  "name": "Premium Hairball Control Dry Cat Food",
+  "brand_id": 17,
+  "variant": 1705,
+  "sku": "909335",
+  "label": "14 kg",
+  "issues": [
+   "WRONG_SIZE: Club 4 Paws Hairball Control bag printed 2 kg"
+  ],
+  "ean": "4820083909337",
+  "images": [
+   11322
+  ],
+  "link": "https://siruk.am/product/club-4-paws-premium-hairball-control-dry-cat-food/dp/1705/"
+ },
+ {
+  "product": 1175,
+  "name": "Premium Medium Breeds Adult Dry Dog Food",
+  "brand_id": 17,
+  "variant": 1711,
+  "sku": "909715",
+  "label": "14 kg",
+  "issues": [
+   "WRONG_SIZE: Club 4 Paws Medium Breeds bag printed 2 kg"
+  ],
+  "ean": "4820083909719",
+  "images": [
+   11328
+  ],
+  "link": "https://siruk.am/product/club-4-paws-premium-medium-breeds-adult-dry-dog-food/dp/1711/"
+ },
+ {
+  "product": 1176,
+  "name": "Premium Small Breeds Adult Dry Dog Food",
+  "brand_id": 17,
+  "variant": 1713,
+  "sku": "909545",
+  "label": "14 kg",
+  "issues": [
+   "WRONG_SIZE: Club 4 Paws Small Breeds bag printed 2 kg"
+  ],
+  "ean": "4820083909542",
+  "images": [
+   11331
+  ],
+  "link": "https://siruk.am/product/club-4-paws-premium-small-breeds-adult-dry-dog-food/dp/1713/"
+ },
+ {
+  "product": 1177,
+  "name": "Premium Puppies Dry Dog Food",
+  "brand_id": 17,
+  "variant": 1715,
+  "sku": "909695",
+  "label": "14 kg",
+  "issues": [
+   "WRONG_SIZE: Club 4 Paws Puppies bag printed 2 kg"
+  ],
+  "ean": "4820083909696",
+  "images": [
+   11334
+  ],
+  "link": "https://siruk.am/product/club-4-paws-premium-puppies-dry-dog-food/dp/1715/"
+ },
+ {
+  "product": 1178,
+  "name": "Kitten Dry Food",
+  "brand_id": 35,
+  "variant": 1717,
+  "sku": "902135",
+  "label": "11 kg",
+  "issues": [
+   "WATERMARK: Мяу kitten dry bag, HafoMall watermark (size not legible)",
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4820083902130",
+  "images": [
+   11957
+  ],
+  "link": "https://siruk.am/product/myau-kitten-dry-food/dp/1717/"
+ },
+ {
+  "product": 1194,
+  "name": "Litter Tray with Mesh",
+  "brand_id": 44,
+  "variant": 1752,
+  "sku": "03623K",
+  "label": "M",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "4605350036233",
+  "images": [
+   12077
+  ],
+  "link": "https://siruk.am/product/inteko-litter-tray-with-mesh/dp/1752/"
+ },
+ {
+  "product": 1200,
+  "name": "Delights Pork Bones",
+  "brand_id": 31,
+  "variant": 1758,
+  "sku": "12207S",
+  "label": "84 g",
+  "issues": [
+   "HAFO: hafo photo at position 1 of 1"
+  ],
+  "ean": "",
+  "images": [
+   12362
+  ],
+  "link": "https://siruk.am/product/8in1-delights-pork-bones/dp/1758/"
+ },
+ {
+  "product": 1215,
+  "name": "Crispy Muesli Guinea Pigs",
+  "brand_id": 36,
+  "variant": 1773,
+  "sku": "461698V",
+  "label": "400 g",
+  "issues": [
+   "SAME_AS_SIBLING: unclear, same photo as V1774 (1 kg): Crispy Muesli bag, size not legible",
+   "HAFO: hafo photo at position 2 of 2"
+  ],
+  "ean": "5410340616987",
+  "images": [
+   12413,
+   12416
+  ],
+  "link": "https://siruk.am/product/versele-laga-crispy-muesli-guinea-pigs/dp/1773/"
+ },
+ {
+  "product": 1215,
+  "name": "Crispy Muesli Guinea Pigs",
+  "brand_id": 36,
+  "variant": 1774,
+  "sku": "461711V",
+  "label": "1 kg",
+  "issues": [
+   "SAME_AS_SIBLING: unclear, same photo as V1773 (400 g): Crispy Muesli bag, size not legible",
+   "HAFO: hafo photo at position 2 of 2"
+  ],
+  "ean": "5410340617113",
+  "images": [
+   12413,
+   12416
+  ],
+  "link": "https://siruk.am/product/versele-laga-crispy-muesli-guinea-pigs/dp/1774/"
+ },
+ {
+  "product": 1216,
+  "name": "Crispy Muesli Hamsters & Co",
+  "brand_id": 36,
+  "variant": 1775,
+  "sku": "461699V",
+  "label": "400 g",
+  "issues": [
+   "HAFO: hafo photo at position 2 of 2"
+  ],
+  "ean": "5410340616994",
+  "images": [
+   12419,
+   12422
+  ],
+  "link": "https://siruk.am/product/versele-laga-crispy-muesli-hamsters-co/dp/1775/"
+ },
+ {
+  "product": 1267,
+  "name": "Mother & Babycat Ultra Soft Mousse",
+  "brand_id": 7,
+  "variant": 1879,
+  "sku": "9003579311660",
+  "label": "12 × 195 g",
+  "issues": [
+   "WRONG_SIZE: single Royal Canin Mother & Babycat can, not a 12-pack"
+  ],
+  "ean": "",
+  "images": [
+   13846,
+   13849,
+   13852,
+   13855,
+   13858,
+   13861,
+   13864,
+   13867,
+   13870,
+   13873
+  ],
+  "link": "https://siruk.am/product/royal-canin-mother-babycat-ultra-soft-mousse/dp/1879/"
+ }
+]

@@ -1,0 +1,57 @@
+{
+ "code": "REG00030",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 17,
+ "name": "Premium Adult Dry Cat Food",
+ "existing_id": null,
+ "category_ids": [
+  10
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "label": "Salmon 14 kg",
+ "attributes": {
+  "lifestage": {
+   "value": "Adult",
+   "quote": "For adult cats aged from 1 year"
+  },
+  "flavor": {
+   "value": "Salmon",
+   "quote": "With Salmon"
+  },
+  "health-feature": {
+   "value": "Skin & Coat Health",
+   "quote": "Omega 3 + Omega 6 for healthy skin and shiny coat"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://club4labute.ro/wp-content/uploads/2021/06/paws22.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/1-11.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/2-18.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/3-17.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/4-17.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/5-17.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/6-16.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Club 4 Paws Premium \"With Salmon\" complete dry food for adult cats aged from 1 year. 32/15 balanced formula (32% protein, 15% fat) for daily feeding, made with 100% quality animal protein. Omega 3 + Omega 6 support healthy skin and a shiny coat; vitamins D3, E, B1, B5, microelements and amino acids; a mixture of tocopherols as a natural antioxidant. INTEGRAMIX formula of dried tomatoes, ginger, hawthorn and bananas for overall pet health. No artificial flavours or colours.",
+  "ingredient_information": "Composition: dehydrated chicken protein 23 %, maize, maize gluten, barley, rice, salmon meal 4 %, poultry fat (preserved with tocopherols), hydrolyzed animal protein, salmon oil 1 %, minerals, linseed 0,53 %, sugar beet pulp, brewery yeast, banana* 0,23 %, tomatoes* 0,2 %, hawthorn* 0,065 %, ginger* 0,01 %. Analytical constituents: crude protein 32 %, crude fat 15 %, crude ash 6,5 %, crude fibre 2,1 %, calcium 1,1 %, phosphorus 0,9 %, omega-3 fatty acids 0,6 %, omega-6 fatty acids 3,1 %. Metabolizable energy per 100 g: 1611 kJ (385 kcal).",
+  "feeding_instructions": "Recommended daily feeding guide by adult cat weight is printed on the pack (kibble only, or mixed with Club 4 Paws pouches). Always provide fresh drinking water."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://club4paws.com/product/cats/club-4-paws-premium-with-salmon-somplete-dry-pet-food-for-adult-cats",
+  "images_from": "https://club4labute.ro/magazin/club-4-paws-premium-cu-somon-hrana-uscata-completa-pentru-pisicile-adulte/",
+  "images_ean": "4820083909238",
+  "identity": "no hafo code; identity settled by hand 2026-10-01 (club4paws.ua adult salmon cat 14 kg); club4labute.ro 14 kg page SKU 4820083909238"
+ },
+ "evidence_file": "cards/REG00030.source.txt"
+}

@@ -1,0 +1,49 @@
+{
+ "type": "supplements",
+ "brand_id": 30,
+ "existing_id": 1110,
+ "name": "Flea & Tick Collar for Cats",
+ "label": "35 cm, blue",
+ "category_ids": [
+  51
+ ],
+ "attributes": {
+  "product-form": {
+   "value": "Collar",
+   "quote": "ошейник"
+  },
+  "health-feature": {
+   "value": "Anti-Parasitic",
+   "quote": "от блох и клещей"
+  },
+  "color-family": {
+   "value": "Blue",
+   "quote": "синий"
+  },
+  "size": {
+   "value": "35 cm",
+   "quote": "35 см"
+  }
+ },
+ "images": [
+  "https://zoovet.am/image/catalog/product/0/ge-catalog-product-upload-ME000007121.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Beaphar flea and tick collar for cats and kittens from 6 months of age. Protects against ticks, fleas, lice and biting lice for up to 6 months. Water-resistant: the cat can be bathed without removing it. Safety System: notches in the strap let the collar release instantly if caught. Active ingredient: diazinon 15%. Length 35 cm.",
+  "ingredient_information": "Diazinon 15%.",
+  "feeding_instructions": "Unpack the collar, put it on the cat and adjust it so that two fingers fit between the neck and the collar (1–1.5 cm), fasten it and cut off the excess strap. Works only when worn continuously."
+ },
+ "source": {
+  "kind": "zoovet",
+  "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/beaphar-oshejnik-ot-bloh-i-kleschej-sinij-dlya-koshek-35-sm",
+  "note": "pack photo reads 'синий 35 см'"
+ },
+ "code": "REG00118",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/REG00118.source.txt"
+}

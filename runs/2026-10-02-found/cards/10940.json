@@ -1,0 +1,59 @@
+{
+ "code": "10940",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "supplements",
+ "brand_id": 31,
+ "name": "Excel Calcium",
+ "label": "155 tablets",
+ "size": {
+  "measure_type": "count",
+  "content": 155,
+  "pack_count": 1
+ },
+ "existing_id": null,
+ "category_ids": [
+  43
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "product-form": {
+   "value": "Tablet",
+   "quote": "Calcium tablets for all dogs"
+  },
+  "active-ingredient": {
+   "value": "Calcium",
+   "quote": "Calcium & phosphorus for strong bones and healthy teeth"
+  },
+  "health-feature": {
+   "value": "Vitamins & Minerals",
+   "quote": "Daily calcium supplement for dogs, especially puppies"
+  },
+  "packaging": {
+   "value": "Tub",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://img2.zakaz.ua/5c80c75820aa46618c285dc9c653c2fa/1756131161-s1350x1350.jpg",
+  "https://img2.zakaz.ua/295d1d04f8284f3eae296326123dd40e/1756131161-s1350x1350.jpg",
+  "https://img3.zakaz.ua/1af2a058506140e0902637503bef336f/1756131161-s1350x1350.jpg",
+  "https://img2.zakaz.ua/e823bbcf580f4e049beb1f096b10d8e6/1756131161-s1350x1350.jpg",
+  "https://img3.zakaz.ua/11052c8a9a98410ca34f56f9faa5b4d5/1756131161-s1350x1350.jpg",
+  "https://img3.zakaz.ua/50f83242654a405da58987330ec7fdf9/1756131161-s1350x1350.jpg",
+  "https://img2.zakaz.ua/81312cdc2d8a4682886a9159d922583a/1756131161-s1350x1350.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Excel Calcium is a daily supplement for puppies and adult dogs that helps promote strong bones and healthy teeth. It provides calcium and phosphorus, essential to develop and maintain a healthy bone structure, plus vitamin D3 for optimal calcium absorption. Especially recommended for puppies during active growth and for pregnant and nursing dogs. Developed with veterinarians, free from artificial colours and preservatives. Made in Germany. 155 tablets.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://masterzoo.zakaz.ua/en/products/vitamini--04048422109402/"
+ },
+ "evidence_file": "cards/10940.source.txt"
+}

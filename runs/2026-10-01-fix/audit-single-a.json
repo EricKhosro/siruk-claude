@@ -1,0 +1,15 @@
+[
+ {"product":399,"variant":506,"label":"80 g","issue":"WRONG_SIZE","what_it_shows":"Premio Carpaccio pouch with red 'XXL PACK' badge (large pack, not the 80 g bag)","sheet":"single-03"},
+ {"product":506,"variant":613,"label":"50 g","issue":"WRONG_PRODUCT","what_it_shows":"a single toothbrush only, no toothpaste/set packaging (low confidence: may just be a set component)","sheet":"single-03"},
+ {"product":641,"variant":763,"label":"800 g","issue":"WRONG_SIZE","what_it_shows":"Monge Extra Small Adult Lamb & Rice bag printed '2,5kg'","sheet":"single-07"},
+ {"product":679,"variant":821,"label":"415 g","issue":"WRONG_PRODUCT","what_it_shows":"Gemon Adult Medium can 'Bocconi con Manzo e Fegato' (beef & liver), caption says Veal","sheet":"single-09"},
+ {"product":681,"variant":823,"label":"415 g","issue":"WRONG_PRODUCT","what_it_shows":"Gemon Adult MEDIUM Pollo e Riso can, caption says Mini Adult","sheet":"single-09"},
+ {"product":683,"variant":825,"label":"1.25 kg","issue":"WRONG_PRODUCT","what_it_shows":"Gemon Adult Medium 'Bocconi' (chunks) Agnello e Riso can, caption says Paté (or the name is wrong)","sheet":"single-09"},
+ {"product":683,"variant":826,"label":"1.25 kg","issue":"WRONG_PRODUCT","what_it_shows":"Gemon Adult Medium 'Bocconi' (chunks) Pollo e Tacchino can, caption says Paté (or the name is wrong)","sheet":"single-09"},
+ {"product":730,"variant":886,"label":"300 ml","issue":"NOT_PACKSHOT","what_it_shows":"group shot of three bottle sizes incl. large jug (multi-size range image)","sheet":"single-12"},
+ {"product":731,"variant":887,"label":"300 ml","issue":"NOT_PACKSHOT","what_it_shows":"group shot of three bottle sizes incl. large jug","sheet":"single-12"},
+ {"product":732,"variant":888,"label":"300 ml","issue":"NOT_PACKSHOT","what_it_shows":"group shot of three bottle sizes incl. large jug","sheet":"single-12"},
+ {"product":733,"variant":889,"label":"300 ml","issue":"NOT_PACKSHOT","what_it_shows":"group shot of three bottle sizes incl. large jug","sheet":"single-12"},
+ {"product":734,"variant":890,"label":"300 ml","issue":"NOT_PACKSHOT","what_it_shows":"group shot of bottles plus 5 L canister","sheet":"single-12"},
+ {"product":735,"variant":891,"label":"300 ml","issue":"NOT_PACKSHOT","what_it_shows":"group shot of bottles plus 5 L canister","sheet":"single-12"}
+]

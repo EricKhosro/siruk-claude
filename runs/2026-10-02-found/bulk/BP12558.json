@@ -1,0 +1,62 @@
+{
+ "name": "Macadamia Spray",
+ "slug": "beaphar-macadamia-spray",
+ "category_ids": [
+  29,
+  36
+ ],
+ "brand_id": 30,
+ "attribute_family_id": 7,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "BP12558",
+   "name": "150 ml",
+   "price": 4700.0,
+   "cost_price": 2900.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     537
+    ],
+    "health-feature": [
+     133
+    ]
+   },
+   "about_this_item": "<p>Spray with Australian macadamia nut oil for dogs and cats. Designed to care for dry skin and brittle, dull coats. Ideal for long-haired, short-haired and wire-haired breeds. Improves the condition of the coat, makes it shiny and eases combing. Especially recommended for show dogs. For external use only.</p>",
+   "ingredient_information": "<p>Water, macadamia nut oil, hydrogenated ethoxylated castor oil, 3-behenoyloxy-2-hydroxy trimethylammonium chloride, 1,2-propanediol, perfume, 5-bromo-5-nitro-1,3-dioxane.</p>",
+   "feeding_instructions": "<p>Shake before use. Spray the whole coat from a distance of 30 cm, wait 10 minutes, then comb the coat thoroughly. Take care around the head so the spray does not get into the eyes, mouth, nose or ears. Amount depends on the size of the animal and the length of its coat.</p>",
+   "images": [
+    14389
+   ],
+   "measure_type": "volume",
+   "content": 150.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Спрей с маслом макадамии",
+   "variants": {
+    "BP12558": {
+     "about_this_item": "Спрей с маслом австралийского ореха макадамия для собак и кошек. Предназначен для ухода за сухой кожей и ломкой, тусклой шерстью. Идеален для длинношёрстных, короткошёрстных и жесткошёрстных пород. Улучшает состояние шерсти, придаёт ей блеск и облегчает расчёсывание. Особенно рекомендуется для выставочных собак. Только для наружного применения.",
+     "ingredient_information": "Вода, масло ореха макадамия, гидрогенизированное этоксилированное касторовое масло, 3-бегеноилокси-2-гидрокситриметиламмония хлорид, 1,2-пропандиол, отдушка, 5-бром-5-нитро-1,3-диоксан.",
+     "feeding_instructions": "Перед применением взболтать. Нанесите спрей на всю шерсть с расстояния 30 см, подождите 10 минут, затем тщательно расчешите шерсть. Осторожно обрабатывайте область головы, чтобы спрей не попал в глаза, пасть, нос или уши. Количество зависит от размера животного и длины его шерсти."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ցողացիր մակադամիայի յուղով",
+   "variants": {
+    "BP12558": {
+     "about_this_item": "Ցողացիր ավստրալիական մակադամիա ընկույզի յուղով՝ շների և կատուների համար։ Նախատեսված է չոր մաշկի և փխրուն, անփայլ բրդի խնամքի համար։ Իդեալական է երկարամազ, կարճամազ և կոշտամազ ցեղատեսակների համար։ Բարելավում է բրդի վիճակը, դարձնում այն փայլուն և հեշտացնում սանրելը։ Հատկապես խորհուրդ է տրվում ցուցահանդեսային շների համար։ Միայն արտաքին օգտագործման համար։",
+     "ingredient_information": "Ջուր, մակադամիա ընկույզի յուղ, հիդրոգենացված էթօքսիլացված գերչակի յուղ, 3-բեհենոիլօքսի-2-հիդրօքսի տրիմեթիլամոնիումի քլորիդ, 1,2-պրոպանդիոլ, բուրավետիչ, 5-բրոմ-5-նիտրո-1,3-դիօքսան։",
+     "feeding_instructions": "Օգտագործելուց առաջ թափահարել։ Ցողեք ամբողջ բուրդը 30 սմ հեռավորությունից, սպասեք 10 րոպե, ապա մանրակրկիտ սանրեք բուրդը։ Զգույշ մշակեք գլխի հատվածը, որպեսզի ցողացիրը չընկնի աչքերի, բերանի, քթի կամ ականջների մեջ։ Քանակը կախված է կենդանու չափից և բրդի երկարությունից։"
+    }
+   }
+  }
+ }
+}

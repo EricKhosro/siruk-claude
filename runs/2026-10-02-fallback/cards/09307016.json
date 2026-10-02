@@ -1,0 +1,46 @@
+{
+ "type": "accessories",
+ "brand_id": 41,
+ "existing_id": null,
+ "name": "Small Deep Litter Tray with Grid",
+ "label": "30 × 22 × 4.5 cm",
+ "category_ids": [
+  67
+ ],
+ "attributes": {
+  "material": {
+   "value": "Plastic",
+   "quote": "Основной материал пластик"
+  },
+  "color-family": {
+   "value": "Color Varies",
+   "quote": "Цвет - в ассортименте"
+  },
+  "size": {
+   "value": "30 × 22 × 4.5 cm",
+   "quote": "Туалет глубокий малый д/кошек с решеткой (30/22/4,5см)"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/7fe/rk6da99032k4h9hjz0w4cv005afhzw7c.jpeg"
+ ],
+ "texts": {
+  "about_this_item": "Kaskad small deep litter tray for cats with a grid, 30 × 22 × 4.5 cm. Made of high-quality plastic; suits kittens and small and medium-sized cats. Easy to wash and does not absorb odours. Colour varies. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/dlya_ukhoda/lotki_tualety/tualet_glubokiy_malyy_d_koshek_s_reshetkoy_30_22_4_5sm_turtsiya_malaya/",
+  "article": "09307016",
+  "ean": "4605350036240"
+ },
+ "code": "09307016",
+ "status": "ready",
+ "hold_reason": null,
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "evidence_file": "cards/09307016.source.txt"
+}

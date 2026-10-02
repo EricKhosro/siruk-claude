@@ -1,0 +1,63 @@
+{
+ "code": "909685",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 17,
+ "name": "Premium Large Breeds Puppies Dry Dog Food",
+ "label": "Chicken 14 kg",
+ "existing_id": null,
+ "category_ids": [
+  3
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "lifestage": {
+   "value": "Puppy",
+   "quote": "For puppies of large breeds"
+  },
+  "breed-size": {
+   "value": "Large Breeds",
+   "quote": "For puppies of large breeds (with a weight from 25 to 90 kg)"
+  },
+  "flavor": {
+   "value": "Chicken",
+   "quote": "chicken meal 29 %"
+  },
+  "ingredient": {
+   "value": "Chicken Meal",
+   "quote": "chicken meal 29 %"
+  },
+  "health-feature": {
+   "value": "Hip & Joint Support",
+   "quote": "Chondroitin and glucosamine for bones and joints health"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://club4labute.ro/wp-content/uploads/2021/06/14.webp",
+  "https://club4labute.ro/wp-content/uploads/2021/06/2-10.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/3-9.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/4-9.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/5-9.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/6-9.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Club 4 Paws Premium complete dry food for puppies of large breeds (adult weight 25 to 90 kg) up to 1 year of age, with chicken. 28/15 well-balanced growth and development formula for everyday feeding, made with 100% quality animal protein. Chondroitin and glucosamine for bone and joint health; Omega 3 + Omega 6 for healthy skin and a shiny coat; vitamins D3, E, B1, B5, microelements and amino acids; a mixture of tocopherols as a natural antioxidant. INTEGRAMIX formula of dried tomatoes, ginger, hawthorn and bananas for general health and strong immunity. No artificial flavours or colours.",
+  "ingredient_information": "Composition: chicken meal 29 %, maize, rice, wheat, poultry fat (preserved with tocopherols), maize gluten, hydrolyzed animal protein, sugar beet pulp, minerals, salmon oil 0,5 %, brewery yeast, linseed 0,4 %, banana* 0,23 %, tomatoes* 0,2 %, hawthorn* 0,065 %, ginger* 0,01 %. Analytical constituents: crude protein 28 %, сrude fat 15 %, crude ash 6,2 %, crude fibre 2,3 %, calcium 1,3 %, phosphorus 1 %, omega-3 fatty acids 0,37 %, omega-6 fatty acids 3,36 %. Metabolizable energy per 100 g: 1 607,79 kJ (384,27 kcal).",
+  "feeding_instructions": "Recommended daily feeding guide by puppy age and expected adult weight is printed on the pack. Always provide fresh drinking water."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://club4paws.com/product/dogs/club-4-paws-premium-for-puppies-of-large-breeds-shicken-somplete-dry-pet-food",
+  "images_from": "https://club4labute.ro/magazin/club-4-paws-premium-pentru-catei-juniori-de-talie-mare-pui-hrana-uscata-completa/",
+  "images_ean": "4820083909689"
+ },
+ "evidence_file": "cards/909685.source.txt"
+}

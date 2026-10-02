@@ -1,0 +1,58 @@
+{
+ "name": "Litter Tray with Mesh",
+ "slug": "kaskad-litter-tray-with-mesh",
+ "category_ids": [
+  67
+ ],
+ "brand_id": 41,
+ "attribute_family_id": 8,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "09307034",
+   "name": "37 × 28 × 6 cm",
+   "price": 2150.0,
+   "cost_price": 1340.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "material": [
+     208
+    ],
+    "color-family": [
+     339
+    ],
+    "size": [
+     884
+    ]
+   },
+   "about_this_item": "<p>Kaskad litter tray with a mesh insert, 37 × 28 × 6 cm. Made of high-quality plastic; suits kittens and small and medium-sized cats. Easy to wash and does not absorb odours. Colour varies. Made in Russia.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14842
+   ],
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Туалет для кошек с сеткой",
+   "variants": {
+    "09307034": {
+     "about_this_item": "Туалет Каскад с сеткой, 37 × 28 × 6 см. Изготовлен из высококачественного пластика, подойдёт для котят, мелких и средних кошек. Легко моется и не впитывает запахи. Цвет — в ассортименте. Сделано в России."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կատվի զուգարան՝ ցանցով",
+   "variants": {
+    "09307034": {
+     "about_this_item": "Kaskad կատվի զուգարան՝ ցանցով, 37 × 28 × 6 սմ։ Պատրաստված է բարձրորակ պլաստիկից, հարմար է ձագերի, փոքր և միջին չափի կատուների համար։ Հեշտ լվացվում է և չի կլանում հոտերը։ Գույնը՝ տարբեր։ Արտադրված է Ռուսաստանում։"
+    }
+   }
+  }
+ },
+ "_allow_no_size": true
+}

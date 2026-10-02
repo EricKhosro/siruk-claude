@@ -1,0 +1,50 @@
+{
+ "code": "DL711266",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Wrapped Chew Sticks for Puppies",
+ "label": "Chicken 90 g",
+ "existing_id": null,
+ "category_ids": [
+  85
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "замечательным вкусом курицы"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "Состав: куриное мясо"
+  },
+  "lifestage": {
+   "value": "Puppy",
+   "quote": "позволит вашему щенку"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/a89/g561lh119dfc632epgs9lfp29ksjeu2w.png",
+  "https://derlak.ru/upload/iblock/38d/nh3dd353jmbtci70zsapav6e0d5x2paa.png",
+  "https://derlak.ru/upload/iblock/94f/7jjajnzoxhtw4uaunqnrzv62cdfco2x3.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "A chew stick tightly wrapped in chicken meat, letting your puppy enjoy the taste of chicken while having something to chew on for its teeth.",
+  "ingredient_information": "Chicken meat, beef rawhide. Guaranteed analysis per 100 g: protein 51.9 g, fat 3.08 g, moisture 16.08 g, fibre 0.1 g, ash 2.97 g; energy 235.32 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-kurinye-ruletiki-dlya-shchenkov-90g-art-79711267/"
+ },
+ "evidence_file": "cards/DL711266.source.txt"
+}

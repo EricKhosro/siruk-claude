@@ -1,0 +1,67 @@
+{
+ "name": "Chewy Bones",
+ "slug": "derevenskie-lakomstva-chewy-bones",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711176",
+   "name": "Chicken 90 g",
+   "price": 2350.0,
+   "cost_price": 1450.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "lifestage": [
+     27
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Dried chicken meat on a juicy chew stick. A treat for adult dogs of medium and large breeds.</p>",
+   "ingredient_information": "<p>Chicken meat, beef rawhide. Guaranteed analysis per 100 g: protein 45.2 g, fat 4.3 g, moisture 16.41 g, fibre 0.22 g, ash 4.21 g; energy 219.5 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14530,
+    14533,
+    14536
+   ],
+   "measure_type": "mass",
+   "content": 90.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Жевательные косточки",
+   "variants": {
+    "DL711176": {
+     "about_this_item": "Сушёное куриное мясо на сочной жевательной палочке. Лакомство для взрослых собак средних и крупных пород.",
+     "ingredient_information": "Куриное мясо, сыромятная кожа говяжья. Гарантированные показатели на 100 г: белок 45,2 г, жир 4,3 г, влага 16,41 г, клетчатка 0,22 г, зола 4,21 г; энергетическая ценность 219,5 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ծամելու ոսկորիկներ",
+   "variants": {
+    "DL711176": {
+     "about_this_item": "Չորացված հավի միս՝ հյութալի ծամելու ձողիկի վրա։ Հյուրասիրություն միջին և խոշոր ցեղերի չափահաս շների համար։",
+     "ingredient_information": "Հավի միս, տավարի չմշակված կաշի։ Երաշխավորված ցուցանիշներ 100 գ-ում՝ սպիտակուց 45,2 գ, ճարպ 4,3 գ, խոնավություն 16,41 գ, թաղանթանյութ 0,22 գ, մոխիր 4,21 գ. էներգետիկ արժեք 219,5 կկալ։"
+    }
+   }
+  }
+ }
+}

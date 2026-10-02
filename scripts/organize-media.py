@@ -14,7 +14,7 @@ product's attribute family code (dry-food, wet-food, treats, supplements, toys,
 grooming, accessories, litter).
 
 Moves go through `POST /medias-move {ids, directory}` — the admin's own bulk
-move (cs-dev-hub cs-admin-core _mediaStore.moveAssets). The media id stays the
+move (siruk-web backend MediaController::move, route `medias-move`). The media id stays the
 same, so products keep their images; only the original's storage url changes
 (the webp and admin thumbnail live in webp/ and thumbnails/ and do not move).
 Idempotent: each target folder is listed first and what is already there is

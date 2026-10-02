@@ -1,0 +1,48 @@
+{
+ "code": "KF5200411",
+ "status": "ready",
+ "hold_reason": null,
+ "name": "Light Wood Cat Litter",
+ "label": "2 kg (6 l)",
+ "category_ids": [
+  63
+ ],
+ "attributes": {
+  "material": {
+   "value": "Wood",
+   "quote": "запах древесины"
+  },
+  "product-form": {
+   "value": "Granules",
+   "quote": "древесными гранулами"
+  }
+ },
+ "images": [
+  "https://nemo.am/images/thumbs/0000426_-kotoffej-2-.jpeg",
+  "https://kotoffey.ru/content/dlyakoshechek.png"
+ ],
+ "texts": {
+  "about_this_item": "Kotoffey wood cat litter with a natural wood scent that cats like, so they get used to the tray quickly. The wood granules absorb moisture quickly, keeping paws clean and removing unpleasant odours. Dust-free, so it is safe for your cat's airways and does not cause allergies; does not stick to paws. Heat-treated.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://kotoffey.ru/napolnitel-dlya-koshechek",
+  "images_from": "https://nemo.am/%D5%AC%D6%81%D5%A1%D5%B6%D5%B5%D5%B8%D6%82%D5%A9-%D0%BA%D0%BE%D1%82%D0%BEff%D0%B5%D0%B9-%D5%AF%D5%A1%D5%BF%D5%B8%D6%82%D5%B6%D5%A5%D6%80%D5%AB-%D5%B0%D5%A1%D5%B4%D5%A1%D6%80",
+  "images_note": "nemo.am \"Բաց փայտե հիմքով լցանյութ «Котоffей» կատուների համար (2 կգ)\" (light-wood litter, 2 kg - 6 l): brand+type+weight match; pack in the photo reads ДЛЯ КОШЕЧЕК, 2 кг / 3,75 л / 6,0 л. No shop page found printing EAN 4627106520049 with a photo (poryadok.ru has no such item; averia lists 032+049 together). Same pack also on zoovet ME-00000254 (290x499, smaller, not used). hafo placeholder dropped."
+ },
+ "type": "litter",
+ "brand_id": 46,
+ "existing_id": null,
+ "first_image": "packshot",
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/KF5200411.source.txt",
+ "size": {
+  "measure_type": "volume",
+  "content": 6000,
+  "pack_count": 1
+ }
+}

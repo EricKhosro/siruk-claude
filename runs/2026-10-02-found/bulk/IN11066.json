@@ -1,0 +1,68 @@
+{
+ "name": "Delights Bones Strong XS",
+ "slug": "8in1-delights-bones-strong-xs",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 31,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "IN11066",
+   "name": "Chicken, 7 pcs / 140 g",
+   "price": 3400.0,
+   "cost_price": 2125.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "health-feature": [
+     109
+    ],
+    "special-diet": [
+     81
+    ],
+    "breed-size": [
+     30
+    ]
+   },
+   "about_this_item": "<p>8in1 Delights Chicken Bones Strong XS are made of tasty beefhide and delicious chicken breast and give strong, long-lasting chewing fun for toy dogs under 5 kg. Their firm consistency makes them an extra tough chew, ideal for dogs with a particularly strong instinct to chew. The natural abrasive action of chewing helps remove tartar and supports dental health. Low in fat, rich in protein, oven baked, free from artificial colours and flavour enhancers, with no added GMOs or gluten. Pack of 7 bones, 140 g.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "<p>Feed 1 treat over a course of five days. Do not exceed 1 treat in a five day period. Treats should not exceed 10% of your dog's daily caloric intake. Select a chew slightly larger than your pet's mouth. Always provide fresh water. Supervise your dog while chewing.</p>",
+   "images": [
+    14659,
+    14662,
+    14665,
+    14668
+   ],
+   "measure_type": "mass",
+   "content": 140.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Delights косточки Strong XS",
+   "variants": {
+    "IN11066": {
+     "about_this_item": "8in1 Delights Chicken Bones Strong XS изготовлены из вкусной говяжьей кожи и аппетитной куриной грудки и дарят крепкое и долгое удовольствие от жевания карликовым собакам весом до 5 кг. Благодаря плотной консистенции это особенно прочное лакомство, идеальное для собак с особенно сильным инстинктом жевания. Естественное абразивное действие жевания помогает удалять зубной камень и поддерживает здоровье зубов. С низким содержанием жира, богаты белком, запечены в печи, без искусственных красителей и усилителей вкуса, без добавленных ГМО и глютена. Упаковка из 7 косточек, 140 г.",
+     "feeding_instructions": "Давайте 1 лакомство в течение пяти дней. Не превышайте 1 лакомство за пятидневный период. Лакомства не должны превышать 10% суточной калорийности рациона собаки. Выбирайте лакомство чуть больше пасти питомца. Всегда обеспечивайте доступ к свежей воде. Присматривайте за собакой, пока она грызёт."
+    }
+   }
+  },
+  "hy": {
+   "name": "Delights Strong ոսկորներ XS",
+   "variants": {
+    "IN11066": {
+     "about_this_item": "8in1 Delights Chicken Bones Strong XS-ը պատրաստված են համեղ տավարի կաշվից և հավի համեղ կրծքամսից և ապահովում են ամուր ու երկարատև ծամելու հաճույք մինչև 5 կգ քաշով մանրանասակ շների համար։ Պինդ կառուցվածքի շնորհիվ սա հատկապես ամուր ծամելիք է՝ իդեալական ծամելու հատկապես ուժեղ բնազդ ունեցող շների համար։ Ծամելու բնական հղկող ազդեցությունն օգնում է հեռացնել ատամնաքարը և աջակցում է ատամների առողջությանը։ Ցածր ճարպայնությամբ, հարուստ սպիտակուցով, թխված վառարանում, առանց արհեստական ներկանյութերի և համի ուժեղացուցիչների, առանց ավելացված ԳՁՕ-ի և սնձանի։ 7 ոսկորի տուփ, 140 գ։",
+     "feeding_instructions": "Տվեք 1 հյուրասիրություն հինգ օրվա ընթացքում։ Մի գերազանցեք 1 հյուրասիրությունը հինգ օրվա ժամանակահատվածում։ Հյուրասիրությունները չպետք է գերազանցեն ձեր շան օրական կալորիաների 10%-ը։ Ընտրեք ձեր կենդանու բերանից մի փոքր ավելի մեծ ծամելիք։ Միշտ ապահովեք թարմ ջուր։ Հսկեք ձեր շանը ծամելու ընթացքում։"
+    }
+   }
+  }
+ }
+}

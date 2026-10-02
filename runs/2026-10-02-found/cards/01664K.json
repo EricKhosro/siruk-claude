@@ -1,0 +1,50 @@
+{
+ "code": "01664K",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "accessories",
+ "brand_id": 41,
+ "name": "Classic Leather Collar, padded",
+ "label": "12 mm, 20–24 cm, pink",
+ "existing_id": 1148,
+ "category_ids": [
+  69
+ ],
+ "attributes": {
+  "material": {
+   "value": "Leather",
+   "quote": "Основной материал Кожа"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "Мелкие породы Да"
+  },
+  "color-family": {
+   "value": "Pink",
+   "quote": "վարդագույն"
+  },
+  "size": {
+   "value": "12 mm × 20–24 cm",
+   "quote": "с синтепоном ширина 12 мм, обхват шеи от 20 до 24 см"
+  }
+ },
+ "images": [
+  "https://www.kaskad-pet.ru/upload/iblock/db3/v3pl99c3ykzqpiwz009prqd1i5ezg1no.jpg",
+  "https://www.kaskad-pet.ru/upload/iblock/44c/4l7m8qpgvmuahc3wkhksc9mkx2s01887.JPG",
+  "https://www.kaskad-pet.ru/upload/iblock/206/cwrwwl71qnpktz2spr0bjq4qp7jesliu.JPG"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Kaskad Classic double-layer dog collar made of genuine high-quality leather with a soft synthetic-padding lining and strong metal fittings. Width 12 mm, fits a neck girth of 20–24 cm. Features a steel D-ring, 5 adjustment holes and a metal buckle. Made in Russia.",
+  "ingredient_information": null,
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_s_sinteponom_shirina_12_mm_obkhvat_shei_ot_20_do_24_sm/"
+ },
+ "price": {
+  "source": "prepared"
+ },
+ "evidence_file": "cards/01664K.source.txt"
+}

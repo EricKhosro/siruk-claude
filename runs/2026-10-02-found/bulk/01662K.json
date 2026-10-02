@@ -1,0 +1,61 @@
+{
+ "name": "Classic Leather Collar",
+ "slug": "kaskad-classic-leather-collar",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 41,
+ "attribute_family_id": 8,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "01662K",
+   "name": "12 mm, 20–24 cm, brown",
+   "price": 850.0,
+   "cost_price": 530.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "material": [
+     310
+    ],
+    "breed-size": [
+     31
+    ],
+    "color-family": [
+     265
+    ],
+    "size": [
+     875
+    ]
+   },
+   "about_this_item": "<p>Kaskad Classic dog collar made of genuine high-quality leather with strong metal fittings. Width 12 mm, fits a neck girth of 20–24 cm. Features a steel D-ring, 5 adjustment holes and a metal buckle. Made in Russia.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14137
+   ],
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кожаный ошейник Classic",
+   "variants": {
+    "01662K": {
+     "about_this_item": "Ошейник Каскад Classic для собак из натуральной высококачественной кожи с крепкой металлической фурнитурой. Ширина 12 мм, обхват шеи 20–24 см. Ошейник имеет стальное полукольцо, 5 отверстий для регулировки длины и металлическую застёжку. Сделано в России."
+    }
+   }
+  },
+  "hy": {
+   "name": "Classic կաշվե վզնոց շների համար",
+   "variants": {
+    "01662K": {
+     "about_this_item": "Kaskad Classic վզնոց շների համար՝ պատրաստված բնական բարձրորակ կաշվից՝ ամուր մետաղական ֆուրնիտուրայով։ Լայնությունը՝ 12 մմ, պարանոցի շրջագիծը՝ 20–24 սմ։ Ունի պողպատե կիսաօղակ, երկարությունը կարգավորելու 5 անցք և մետաղական ճարմանդ։ Արտադրված է Ռուսաստանում։"
+    }
+   }
+  }
+ },
+ "_allow_no_size": true
+}

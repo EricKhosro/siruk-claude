@@ -1,0 +1,462 @@
+{
+ "runs/2026-10-02-found/bulk/01082K.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/01662K.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/02004K.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/04812K.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/050026.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/10940.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/14460S.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/15253S.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/20632.json": {
+  "status": "created",
+  "id": 1268,
+  "slug": "beaphar-soft-flea-collar-for-cats",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/214946.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/26455351.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/304016.json": {
+  "status": "created",
+  "id": 1269,
+  "slug": "derevenskie-lakomstva-calcium-dental-bones-for-large-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/909685.json": {
+  "status": "created",
+  "id": 1270,
+  "slug": "club-4-paws-premium-large-breeds-puppies-dry-dog-food",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/BP10264.json": {
+  "status": "created",
+  "id": 1271,
+  "slug": "beaphar-sensitiv-tear-stain-remover",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/BP12155.json": {
+  "status": "created",
+  "id": 1272,
+  "slug": "beaphar-flea-tick-collar-for-large-dogs",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/BP12509.json": {
+  "status": "created",
+  "id": 1273,
+  "slug": "beaphar-kitty-s-taurine-biotin",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/BP12511.json": {
+  "status": "created",
+  "id": 1274,
+  "slug": "beaphar-kitty-s-cheese",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/BP12512.json": {
+  "status": "created",
+  "id": 1275,
+  "slug": "beaphar-flea-tick-collar-for-dogs",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/BP12558.json": {
+  "status": "created",
+  "id": 1276,
+  "slug": "beaphar-macadamia-spray",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/BP13207.json": {
+  "status": "created",
+  "id": 1277,
+  "slug": "beaphar-flea-tick-collar-for-puppies",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/CP909145.json": {
+  "status": "failed",
+  "errors": {
+   "variants.2.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.4.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL050046.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL050056.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL050066.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL303976.json": {
+  "status": "created",
+  "id": 1278,
+  "slug": "derevenskie-lakomstva-chlorophyll-dental-bones-for-small-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/DL303986.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL303996.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL304006.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL304036.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711136.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711156.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711176.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711196.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711206.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711216.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711226.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711266.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711276.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711406.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/DL711786.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/IN10860.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/IN10869.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/IN10952.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/IN11066.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/IN12247.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/KF5200111.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/KF5200211.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/KF5200311.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/KF5200411.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/MG006147.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/MG006197.json": {
+  "status": "created",
+  "id": 1279,
+  "slug": "monge-medium-starter",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/PG901425.json": {
+  "status": "created",
+  "id": 1280,
+  "slug": "gav-adult-dry-dog-food",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-found/bulk/PM902085.json": {
+  "status": "failed",
+  "errors": {
+   "variants.4.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ },
+ "runs/2026-10-02-found/bulk/TX000751.json": {
+  "status": "failed",
+  "errors": {
+   "variants.0.ingredient_information": [
+    "Translations must be an object keyed by en, hy, ru."
+   ],
+   "variants.0.feeding_instructions": [
+    "Translations must be an object keyed by en, hy, ru."
+   ]
+  }
+ }
+}

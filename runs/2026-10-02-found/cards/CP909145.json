@@ -1,0 +1,56 @@
+{
+ "code": "CP909145",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 17,
+ "name": "Premium Adult Dry Cat Food",
+ "existing_id": null,
+ "category_ids": [
+  10
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "first_image": "packshot",
+ "label": "Chicken 14 kg",
+ "attributes": {
+  "lifestage": {
+   "value": "Adult",
+   "quote": "For adult cats aged from 1 year"
+  },
+  "flavor": {
+   "value": "Chicken",
+   "quote": "CLUB 4 PAWS PREMIUM \"CHICKEN\""
+  },
+  "health-feature": {
+   "value": "Skin & Coat Health",
+   "quote": "Omega 3 + Omega 6 for healthy skin and shiny coat"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://club4labute.ro/wp-content/uploads/2021/06/25.webp",
+  "https://club4labute.ro/wp-content/uploads/2021/06/6-13.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/1-10.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/2-14.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/3-13.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/4-13.jpg",
+  "https://club4labute.ro/wp-content/uploads/2021/06/5-13.jpg"
+ ],
+ "texts": {
+  "about_this_item": "Club 4 Paws Premium \"Chicken\" complete dry food for adult cats aged from 1 year. 32/15 balanced formula (32% protein, 15% fat) for daily feeding, made with 100% quality animal protein. Omega 3 + Omega 6 support healthy skin and a shiny coat; vitamins D3, E, B1, B5, microelements and amino acids; a mixture of tocopherols as a natural antioxidant. INTEGRAMIX formula of dried tomatoes, ginger, hawthorn and bananas for overall pet health. No artificial flavours or colours.",
+  "ingredient_information": "Composition: dehydrated chicken protein 26 %, maize, rice, maize gluten, poultry fat (preserved with tocopherols), hydrolyzed animal protein, sugar beet pulp, minerals, salmon oil 0,5 %, brewery yeast, linseed 0,27 %, banana* 0,23 %, tomatoes* 0,2 %, hawthorn* 0,065 %, ginger* 0,01 %. Analytical constituents: crude protein 32 %, crude fat 15 %, crude ash 7 %, crude fibre 2 %, calcium 1 %, phosphorus 0,8 %, omega-3 fatty acids 0,36 %, omega-6 fatty acids 3,33 %. Metabolizable energy per 100 g: 1607 kJ (384 kcal).",
+  "feeding_instructions": "Recommended daily feeding guide by adult cat weight is printed on the pack (kibble only, or mixed with Club 4 Paws pouches). Always provide fresh drinking water."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://club4paws.com/product/cats/club-4-paws-premium-with-rabbit-somplete-dry-pet-food-for-adult-cats",
+  "images_from": "https://club4labute.ro/magazin/hrana-uscata-pisici-adulte-club-4-paws-cu-pui-14-kg/",
+  "images_ean": "4820083909146"
+ },
+ "evidence_file": "cards/CP909145.source.txt"
+}

@@ -1,0 +1,62 @@
+{
+ "name": "Sensitiv Tear Stain Remover",
+ "slug": "beaphar-sensitiv-tear-stain-remover",
+ "category_ids": [
+  33,
+  40
+ ],
+ "brand_id": 30,
+ "attribute_family_id": 7,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "BP10264",
+   "name": "50 ml",
+   "price": 4200.0,
+   "cost_price": 2610.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "product-form": [
+     529
+    ],
+    "health-feature": [
+     421
+    ]
+   },
+   "about_this_item": "<p>Sensitiv removes tear stains in dogs and cats. The dark stains under the eyes, especially visible in light-coated breeds, are caused by tears; this product helps remove them easily and effectively. Beaphar Sensitiv is gentle and does not irritate the eyes or skin because it contains no alcohol, so it suits even very sensitive pets. Contains MSM (methylsulfonylmethane), an organic sulphur compound with a hypoallergenic effect that supports healthy skin and coat and helps maintain the natural balance of sensitive skin.</p>",
+   "ingredient_information": "<p>Disodium tetraborate 2%, dimethyl sulfone (MSM) 0.01%.</p>",
+   "feeding_instructions": "<p>Soak a cotton pad with Sensitiv and gently wipe the affected area, then dry each eye with a clean cotton pad. Apply a small amount once a day; in severe cases up to three times a day for at least one week.</p>",
+   "images": [
+    14371
+   ],
+   "measure_type": "volume",
+   "content": 50.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Sensitiv — средство для удаления слёзных пятен",
+   "variants": {
+    "BP10264": {
+     "about_this_item": "Sensitiv удаляет слёзные пятна у собак и кошек. Тёмные пятна под глазами, особенно заметные у пород со светлой шерстью, вызваны слезами; средство помогает легко и эффективно их удалить. Beaphar Sensitiv — деликатное средство, не раздражает глаза и кожу, так как не содержит спирта, поэтому подходит даже очень чувствительным питомцам. Содержит MSM (метилсульфонилметан) — органическое соединение серы с гипоаллергенным эффектом, которое поддерживает здоровье кожи и шерсти и помогает сохранять естественный баланс чувствительной кожи.",
+     "ingredient_information": "Динатрия тетраборат 2%, диметилсульфон (MSM) 0,01%.",
+     "feeding_instructions": "Смочите ватный диск средством Sensitiv и аккуратно протрите поражённый участок, затем просушите каждый глаз чистым ватным диском. Наносите небольшое количество раз в день; в тяжёлых случаях — до трёх раз в день в течение минимум одной недели."
+    }
+   }
+  },
+  "hy": {
+   "name": "Sensitiv՝ արցունքի բծերը հեռացնող միջոց",
+   "variants": {
+    "BP10264": {
+     "about_this_item": "Sensitiv-ը հեռացնում է արցունքի բծերը շների և կատուների մոտ։ Աչքերի տակ մուգ բծերը, որոնք հատկապես նկատելի են բաց գույնի բուրդ ունեցող ցեղատեսակների մոտ, առաջանում են արցունքներից. այս միջոցն օգնում է հեշտ և արդյունավետ հեռացնել դրանք։ Beaphar Sensitiv-ը նուրբ միջոց է և չի գրգռում աչքերն ու մաշկը, քանի որ չի պարունակում սպիրտ, ուստի հարմար է նույնիսկ շատ զգայուն կենդանիների համար։ Պարունակում է MSM (մեթիլսուլֆոնիլմեթան)՝ ծծմբի օրգանական միացություն հիպոալերգենային ազդեցությամբ, որն աջակցում է մաշկի և բրդի առողջությանը և օգնում պահպանել զգայուն մաշկի բնական հավասարակշռությունը։",
+     "ingredient_information": "Դինատրիումի տետրաբորատ 2%, դիմեթիլսուլֆոն (MSM) 0.01%։",
+     "feeding_instructions": "Թրջեք բամբակե սկավառակը Sensitiv-ով և զգուշորեն սրբեք վնասված հատվածը, ապա յուրաքանչյուր աչքը չորացրեք մաքուր բամբակե սկավառակով։ Կիրառեք փոքր քանակով օրը մեկ անգամ. ծանր դեպքերում՝ օրը մինչև երեք անգամ՝ առնվազն մեկ շաբաթ։"
+    }
+   }
+  }
+ }
+}

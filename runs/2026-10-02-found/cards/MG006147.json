@@ -1,0 +1,52 @@
+{
+ "code": "MG006147",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 5,
+ "name": "Medium Adult",
+ "label": "Chicken 15 kg",
+ "existing_id": null,
+ "category_ids": [
+  3
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "lifestage": {
+   "value": "Adult",
+   "quote": "для взрослых собак средних пород"
+  },
+  "breed-size": {
+   "value": "Medium Breeds",
+   "quote": "для взрослых собак средних пород"
+  },
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Rich in Chicken"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "курица (30% дегидрированного и 10% свежего мяса)"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://lohmatik.com.ua/image/cache/catalog/210720261471-1200x800.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Monge Natural Superpremium Medium Adult Rich in Chicken (Best for Breeders 15 kg bag): a complete, balanced diet for adult dogs of medium breeds with normal physical activity. Omega-3 and omega-6 fatty acids for healthy skin and a beautiful coat; XOS help keep the natural balance of the intestinal flora, support nutrient absorption and immunity; L-carnitine supports muscle energy metabolism and fat metabolism; glucosamine, chondroitin, calcium and phosphorus for healthy joints. Made in Italy.",
+  "ingredient_information": "Ingredients: chicken (30% dehydrated and 10% fresh meat), rice, maize, animal fat (chicken fat 99.5%, preserved with natural antioxidants), dried beet pulp, brewer's yeast (source of MOS and vitamin B12), maize gluten meal, hydrolysed animal protein, fish (dehydrated salmon), fish oil (salmon oil), hydrolysed cartilage (source of chondroitin sulphate), hydrolysed crustaceans (source of glucosamine), methylsulfonylmethane, XOS (xylo-oligosaccharides 3 g/kg), hydrolysed yeast (source of MOS), Yucca schidigera, spirulina.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://lohmatik.com.ua/ru/suhoy-korm-monge-medium-adult-rich-in-chicken-dlya-vzroslyh-sobak-srednih-porod-s-kuricey-i-risom-15-kg-8009470006149"
+ },
+ "evidence_file": "cards/MG006147.source.txt"
+}

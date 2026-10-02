@@ -1,0 +1,61 @@
+{
+ "name": "Dark Wood Cat Litter",
+ "slug": "kotoffey-dark-wood-cat-litter",
+ "category_ids": [
+  63
+ ],
+ "brand_id": 46,
+ "attribute_family_id": 9,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "KF5200311",
+   "name": "2 kg (6 l)",
+   "price": 1700.0,
+   "cost_price": 1060.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "material": [
+     210
+    ],
+    "product-form": [
+     553
+    ]
+   },
+   "about_this_item": "<p>Kotoffey natural wood cat litter made from pine and spruce wood, with no chemical or artificial additives. The wood granules absorb moisture quickly, swelling to three times their weight, and the natural wood scent helps remove unpleasant odours and makes litter training easier. Dust-free and does not stick to paws. Heat-treated.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14713,
+    14716,
+    14719,
+    14722,
+    14725
+   ],
+   "measure_type": "volume",
+   "content": 6000,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Тёмный древесный наполнитель для кошачьего туалета",
+   "variants": {
+    "KF5200311": {
+     "about_this_item": "Натуральный древесный наполнитель Kotoffey для кошачьего туалета из древесины сосны и ели, без химических и искусственных добавок. Древесные гранулы быстро впитывают влагу, набухая до трёхкратного собственного веса, а природный древесный аромат помогает устранять неприятные запахи и облегчает приучение к лотку. Не пылит и не прилипает к лапам. Прошёл термическую обработку."
+    }
+   }
+  },
+  "hy": {
+   "name": "Մուգ փայտե հիմքով լցանյութ կատուների զուգարանի համար",
+   "variants": {
+    "KF5200311": {
+     "about_this_item": "Kotoffey բնական փայտե լցանյութ կատուների զուգարանի համար՝ պատրաստված սոճու և եղևնու փայտից, առանց քիմիական և արհեստական հավելումների։ Փայտե հատիկներն արագ կլանում են խոնավությունը՝ ուռչելով մինչև իրենց քաշի եռապատիկը, իսկ փայտի բնական բույրն օգնում է վերացնել տհաճ հոտերը և հեշտացնում է սկուտեղին վարժեցնելը։ Փոշի չի առաջացնում և չի կպչում թաթերին։ Անցել է ջերմային մշակում։"
+    }
+   }
+  }
+ }
+}

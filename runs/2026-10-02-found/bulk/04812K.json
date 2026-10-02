@@ -1,0 +1,61 @@
+{
+ "name": "Padded Leather Collar with Bells",
+ "slug": "kaskad-padded-leather-collar-with-bells",
+ "category_ids": [
+  69
+ ],
+ "brand_id": 41,
+ "attribute_family_id": 8,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "04812K",
+   "name": "10 mm, 28 cm, pink",
+   "price": 2100.0,
+   "cost_price": 1300.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "material": [
+     310
+    ],
+    "breed-size": [
+     31
+    ],
+    "color-family": [
+     271
+    ],
+    "size": [
+     877
+    ]
+   },
+   "about_this_item": "<p>Decorated dog collar with bells, made of soft genuine high-quality leather on a synthetic-padding lining, with strong metal fittings. Width 10 mm, for a neck girth up to 28 cm. The cushioning padding protects your pet's coat and skin from tangling and damage. Features a metal D-ring for the lead clip and a metal buckle.</p>",
+   "ingredient_information": "",
+   "feeding_instructions": "",
+   "images": [
+    14143
+   ],
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кожаный ошейник на синтепоне с бубенчиками",
+   "variants": {
+    "04812K": {
+     "about_this_item": "Декорированный ошейник для собак с бубенчиками из мягкой натуральной высококачественной кожи на подкладке из синтепона, с крепкой металлической фурнитурой. Ширина 10 мм, рассчитан на обхват шеи до 28 см. Амортизирующая подкладка из синтепона бережно защищает шерсть и кожу питомца от спутывания и повреждений. Ошейник имеет металлическое полукольцо для пристёгивания карабина поводка и металлическую застёжку."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կաշվե վզնոց զանգակներով՝ սինթեպոնե միջադիրով",
+   "variants": {
+    "04812K": {
+     "about_this_item": "Զարդարված վզնոց շների համար՝ զանգակներով, պատրաստված փափուկ բնական բարձրորակ կաշվից՝ սինթեպոնե միջադիրով և ամուր մետաղական ֆուրնիտուրայով։ Լայնությունը՝ 10 մմ, նախատեսված է մինչև 28 սմ պարանոցի շրջագծի համար։ Մեղմացնող սինթեպոնե միջադիրը պաշտպանում է կենդանու բուրդն ու մաշկը խճճվելուց և վնասվելուց։ Ունի մետաղական կիսաօղակ՝ կապիչի կարաբինն ամրացնելու համար, և մետաղական ճարմանդ։"
+    }
+   }
+  }
+ },
+ "_allow_no_size": true
+}

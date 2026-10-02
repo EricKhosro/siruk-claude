@@ -1,0 +1,13 @@
+[2026-10-02 15:19:39] INFO: Fetched (200) <GET https://www.google.com/search?hl=en&q=site%3Amylovepetfood.com%20junior> (referer: https://www.google.com/)
+mylove#site/search: 1 results
+[2026-10-02 15:19:56] INFO: Fetched (200) <GET https://www.google.com/search?hl=en&q=Beaphar%20%D0%BE%D1%88%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%20%D0%BE%D1%82%20%D0%B1%D0%BB%D0%BE%D1%85%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BA%20%D1%81%D0%B8%D0%BD%D0%B8%D0%B9%2035%20%D1%81%D0%BC%20%D0%B0%D1%80%D1%82%D0%B8%D0%BA%D1%83%D0%BB> (referer: https://www.google.com/)
+bea-blue#2/search: 8 results
+[2026-10-02 15:21:06] INFO: Fetched (200) <GET https://www.beaphar.co.uk/product/1000387-beaphar-soft-velvet-flea-collar-for-cats/> (referer: https://www.google.com/)
+bea-velvet#uk/page: 1 results
+[2026-10-02 15:22:13] INFO: Fetched (200) <GET https://biostyle.biz/catalog/beaphar_10201_osheynik_d_kosh_zelenyy_35sm_12sht_bl_96_kor/> (referer: https://www.google.com/)
+bea-green#biostyle/page: 1 results
+[2026-10-02 15:22:21] INFO: Fetched (200) <GET https://agrobioprom.ru/catalog/dlya-zhivotnykh/antiskolzin-sprey-protiv-skolzheniya-lap/> (referer: https://www.google.com/)
+pch1004#agro/page: 1 results
+[2026-10-02 15:23:29] INFO: Fetched (200) <GET https://biostyle.biz/catalog/pchelodar_antiskolzin_sprey_protiv_skolzheniya_lap_125ml_439_36_kor/> (referer: https://www.google.com/)
+pch1004#biostyle/page: 1 results
+wrote runs/2026-10-02-fallback/round3-results.json
