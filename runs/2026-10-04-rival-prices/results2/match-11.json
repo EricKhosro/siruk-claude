@@ -1,0 +1,248 @@
+{
+ "results": [
+  {
+   "variant_id": 937,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տզերի դեմ կաթիլներ շների և կատուների համար (2-4 կգ)",
+    "url": "https://www.nemo.am/տզերի-դեմ-կաթիլներ-շների-և-կատուների-համար-2-4-կգ",
+    "price": 1080,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal drops against external parasites for dogs and cats 2-4 kg; box photo 'Инсектал капли от блох и клещей для кошек и собак от 2 до 4 кг'; single pack, 1080 AMD, in stock, no strike-through. Not the '(6 հատ)' listing (box of 6 pipettes, 5180), a different count."
+   },
+   "notes": "nemo single-pipette listing matches; nemo also sells a 6-pipette box (5180), not our count."
+  },
+  {
+   "variant_id": 1413,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տզերի դեմ կաթիլներ շների և կատուների համար (4-10 կգ)",
+    "url": "https://www.nemo.am/տզերի-դեմ-կաթիլներ-շների-համար-4-10-կգ",
+    "price": 1140,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page (slug 'for dogs 4-10 kg', page name 'for dogs and cats (4-10 kg)'): Insectal drops for dogs and cats; photo 'Инсектал капли ... для кошек и собак от 4 до 10 кг'; single pack, 1140 AMD, in stock. The '(6 հատ)' 4-10 kg box (5460) is a different count."
+   },
+   "notes": "Matches our product 781 'for Cats and Dogs' 4-10 kg (hafo row says dogs only; the box is cats+dogs)."
+  },
+  {
+   "variant_id": 939,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տզերի դեմ կաթիլներ շների համար (10-20 կգ)",
+    "url": "https://www.nemo.am/տզերի-դեմ-կաթիլներ-շների-համար-10-20-կգ",
+    "price": 1670,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal drops against external parasites for dogs 10-20 kg; photo 'Инсектал капли ... для собак от 10 до 20 кг'; single pack, 1670 AMD, in stock. The '(6 հատ)' box (8010) is a different count; the Rolf Club 10-20 kg hint is another brand."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1412,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տզերի դեմ կաթիլներ շների համար (40-60 կգ)",
+    "url": "https://www.nemo.am/տզերի-դեմ-կաթիլներ-շների-համար-40-60-կգ",
+    "price": 2880,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal drops for dogs 40-60 kg; photo 'Инсектал капли ... для собак от 40 до 60 кг'; single pack, 2880 AMD, in stock. The '(6 հատ)' 40-60 kg box (13820) is a different count."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 941,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate). No Insectal Combo either (live 'комбо' returns only Frontline Combo)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Инсектал комбо К 1-4 կգ կատուների համար",
+    "url": "https://www.nemo.am/инсектал-комбо-к-1-4-կգ-կատուների-համար",
+    "price": 1410,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal Combo K, for cats 1-4 kg, against worms and ticks, 'box contains 1 pipette'; same name as hafo's title; 1410 AMD, in stock, no strike-through."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1308,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate). No Insectal Combo either (live 'комбо' returns only Frontline Combo)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Инсектал комбо К 4-8 կգ կատուների համար",
+    "url": "https://www.nemo.am/инсектал-комбо-к-4-8-կգ-կատուների-համար",
+    "price": 1480,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal Combo K, for cats 4-8 kg, against worms and ticks, 'box contains 1 pipette'; same name as hafo's title; 1480 AMD, in stock, no strike-through."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 943,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate). No Insectal Combo either (live 'комбо' returns only Frontline Combo)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Инсектал комбо С 1-4 կգ շների համար",
+    "url": "https://www.nemo.am/инсектал-комбо-с-1-4-կգ-շների-համար",
+    "price": 1460,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal Combo C, for dogs 1-4 kg, against worms and ticks, 'box contains 1 pipette'; same name as hafo's title; 1460 AMD, in stock, no strike-through."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1266,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate). No Insectal Combo either (live 'комбо' returns only Frontline Combo)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Инсектал комбо С 4-10 կգ շների համար",
+    "url": "https://www.nemo.am/инсектал-комбо-с-4-10-կգ-շների-համար",
+    "price": 1540,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal Combo C, for dogs 4-10 kg, against worms and insects, 'box contains 1 pipette'; same name as hafo's title; 1540 AMD, in stock, no strike-through."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1267,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry Insectal: no Insectal in today's zoovet brand lists; live searches 'insectal', 'инсектал', 'Инсектал', 'insektal', 'Инсектал Комбо', the EAN, and 'капли 2-4 кг' return no Insectal item (only Frontline/Inspector/Rolf/Advantix/Advocate). No Insectal Combo either (live 'комбо' returns only Frontline Combo)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Инсектал комбо С 10-25 կգ շների համար",
+    "url": "https://www.nemo.am/инсектал-комбо-с-10-25-կգ-շների-համար",
+    "price": 2170,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Insectal Combo C, for dogs 10-25 kg, against worms and insects, 'box contains 1 pipette'; same name as hafo's title; 2170 AMD, in stock, no strike-through."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1423,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Inspector Ошейник от глистов, блох и клещей для кошек и собак мелких пород, 40 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-gelmintov-glistov/inspector-oshejnik-ot-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-melkih-porod-40-sm",
+    "price": 4200,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page (art. ME-00001481): Inspector collar against worms, fleas and ticks for cats and small-breed dogs, 40 cm; 4200 AMD, no options, no strike-through, 'Нет в наличии'. Other Inspector collars are 65 cm (medium) and 75 cm (large), not ours."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզնոց շների և կատուների համար 40 սմ",
+    "url": "https://www.nemo.am/վզնոց-շների-և-կատուների-համար-40-սմ",
+    "price": 4820,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Inspector protective collar for cats and small dogs ... collar length 40 cm'; 4820 AMD, in stock, no strike-through. (Green Fort NEO 40 cm at 2600 is another brand.)"
+   },
+   "notes": "zoovet listing out of stock."
+  },
+  {
+   "variant_id": 911,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Inspector Mini Капли против глистов, блох и клещей для кошек и собак (0.5-2 кг), 1 пипетка",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/inspector-mini-kapli-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-0-5-2-kg-1-pipetka",
+    "price": 4250,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page (art. ME-00002655): Inspector Mini drops for cats and dogs 0.5-2 kg, 1 pipette; 4250 AMD, no options, 'Нет в наличии'. Our EAN 4607092075112 = Inspector Mini 0.5-2 kg, 1 pipette. Not the 'Quadro С 0.5-2 кг (упаковка 3 пип)' listing, a different line."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Հակատզային և հակաճիճվային կաթիլներ մինչև 2 կգ կատուների և շների համար",
+    "url": "https://www.nemo.am/հակաոջիլային-կաթիլներ-մինչև-2-կգ-կատուների-և-շների-համար",
+    "price": 4210,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: drops against ticks and worms for dogs and cats 0.5-2 kg; photo is the 'Inspector MINI 0,5-2 kg' box; same title as hafo's; 4210 AMD, in stock. (The 'Inspector/Quadro 0.5-2 կգ' 3-pipette listing at 10100 is another line and count.)"
+   },
+   "notes": "zoovet listing out of stock."
+  },
+  {
+   "variant_id": 912,
+   "confidence": "medium",
+   "zoovet": {
+    "found": false,
+    "evidence": "Nearest: 'Inspector Quadro Капли от глистов, блох и клещей для кошек (1-4 кг), (упаковка 3 пип), поштучно' (ME-00000770, 3500 AMD, in stock 3 pcs, page says 'Количество: 3 пипетки') - a loose pipette sold out of a 3-pipette box, not our 1-pipette box (EAN 4607092077567 = Inspector Quadro K 1-4 kg, 1 pipette). zoovet lists 1-pipette boxes separately at higher prices ('... 1 пипетка', dogs only) and has no '1 пипетка' listing for cats 1-4 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների դեմ կաթիլներ 1-4 կգ կատուների համար",
+    "url": "https://www.nemo.am/ճիճուների-դեմ-կաթիլներ-1-4-կգ-կատուների-համար",
+    "price": 4630,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: drops against ticks and worms for cats 1-4 kg; photo is the 'Inspector Quadro K 1-4 кг' (Инспектор Квадро К) box; 4630 AMD (= hafo), in stock, no strike-through."
+   },
+   "notes": "If a loose pipette from a 3-pack counts as the same item, zoovet = 3500 (in stock); lower than nemo/hafo either way."
+  },
+  {
+   "variant_id": 1306,
+   "confidence": "medium",
+   "zoovet": {
+    "found": false,
+    "evidence": "Nearest: 'Inspector Quadro К Капли от глистов, блох и клещей для кошек (4-8 кг), (упаковка 3 пип), поштучно' (ME-00000701, 3900 AMD, in stock 2 pcs) - a loose pipette sold out of a 3-pipette box, not our 1-pipette box (EAN 4607092077574). zoovet has no '1 пипетка' listing for cats 4-8 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների և տզերի դեմ կաթիլներ 4-8 կգ կատուների համար",
+    "url": "https://www.nemo.am/ճիճուների-և-տզերի-դեմ-կաթիլներ-4-8-կգ-կատուների-համար",
+    "price": 5190,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: drops against ticks and worms for cats 4-8 kg; photo is the 'Inspector Quadro K 4-8 кг' box; same title as hafo's; 5190 AMD, in stock, no strike-through."
+   },
+   "notes": "If a loose pipette from a 3-pack counts as the same item, zoovet = 3900 (in stock); lower than nemo/hafo either way."
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "results": [
+  {
+   "variant_id": 1194,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-free-run-duck-suhoj-korm-s-utkoj-grushej-i-lavandoj-dlya-sobak-upakovka-11-4-kg-5521",
+    "price": 63000,
+    "old_price": null,
+    "name": "ACANA Free-Run Duck Сухой корм с уткой, грушей и лавандой для собак, упаковка 11.4 кг",
+    "in_stock": true,
+    "evidence": "Page: Acana Free-Run Duck (Singles duck recipe), dog, 11.4 kg; option 'Упак (11,4 кг)' = 63000; in stock 1 pc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-free-run-duck-չոր-կեր-114-կգ",
+    "price": 63000,
+    "old_price": null,
+    "name": "ACANA FREE-RUN DUCK չոր կեր (11,4 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Acana, Free-Run Duck, all ages/breeds dog, size 11.4 kg; also returned by nemo search for article 5711212."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: zoovet 'Упак (11,4 кг)'=63000 in stock; nemo Acana Free-Run Duck 11.4 kg=63000, manufacturer Acana."
+  },
+  {
+   "variant_id": 1368,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-free-run-duck-suhoj-korm-s-utkoj-grushej-i-lavandoj-dlya-sobak-upakovka-11-4-kg",
+    "price": 5650,
+    "old_price": null,
+    "name": "ACANA Free-Run Duck Сухой корм с уткой, грушей и лавандой для собак, упаковка 11.4 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Loose listing of the same 11.4 kg Free-Run Duck bag; option 'На развес, 1 кг' = 5650; in stock 14."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-free-run-duck-չոր-կեր-1-կգ",
+    "price": 5650,
+    "old_price": null,
+    "name": "ACANA FREE-RUN DUCK չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Per-kg listing (կիլոգրամով) of Acana Free-Run Duck, manufacturer Acana; found by article 5711212 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet option 'На развес, 1 кг'=5650; nemo '(կիլոգրամով)' Acana Free-Run Duck=5650."
+  },
+  {
+   "variant_id": 893,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/beaphar-lactol-1st-age-milk-zamenitel-moloka-dlya-schenkov-ot-0-do-2-mes-250-g",
+    "price": 7950,
+    "old_price": null,
+    "name": "Beaphar Lactol (1st age milk) Заменитель молока для щенков от 0 до 2 мес, 250 г",
+    "in_stock": true,
+    "evidence": "Beaphar Lactol puppy milk 250 g (puppy version, not the kitten one at 8050); page price 7950, in stock 2."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փոշի-կաթ-շների-համար-lactol-puppy-250-գ",
+    "price": 7950,
+    "old_price": null,
+    "name": "Փոշի կաթ շների համար՝ LACTOL PUPPY, 250 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Beaphar, Lactol Puppy 250 g (500 g listing excluded); found by article 15247 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet Lactol puppy 250 g=7950 (kitten 8050 is another item); nemo LACTOL PUPPY 250 g=7950, manufacturer Beaphar (500 g at 12850 excluded)."
+  },
+  {
+   "variant_id": 1587,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/dlya-kozhi-i-shersti-1/beaphar-vitamine-b-complex-vitaminnaya-dobavka-dlya-givotnyh-50-ml",
+    "price": 3100,
+    "old_price": null,
+    "name": "Beaphar Vitamine B Complex витаминная добавка для животных, 50 мл.",
+    "in_stock": true,
+    "evidence": "Beaphar Vitamine B Complex 50 ml; page price 3100, in stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կերային-հավելում-կենդանիների-համար-վիտամին-b-կոմպլեքս",
+    "price": 3100,
+    "old_price": null,
+    "name": "Կերային հավելում կենդանիների համար՝ վիտամին B կոմպլեքս",
+    "in_stock": true,
+    "evidence": "Name equals hafo's title; description: B complex for dogs/cats/birds/rodents, 50 ml; found by article 12523 search (manufacturer field empty)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet Beaphar Vitamine B Complex 50 ml=3100; nemo B-complex 50 ml=3100 (same text as hafo)."
+  },
+  {
+   "variant_id": 1589,
+   "zoovet": {
+    "found": false,
+    "evidence": "Not on zoovet: the full Beaphar brand list (44 items) has no Play Spray; searched 'Play Spray', 'спрей', 'мята/catnip', EAN 8711231125265, 12526. Nearest: Trixie dried catnip 20 g (different product)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/play-spray-ցողարկիչ-կատուների-համար",
+    "price": 4250,
+    "old_price": null,
+    "name": "«Play Spray» ցողարկիչ կատուների համար",
+    "in_stock": true,
+    "evidence": "Found by article 12526 search; name equals hafo's title for BP 12526; catnip play spray for cats, 150 ml. Caveat: nemo's manufacturer field says Trixie, but the name, content, size and price match the Beaphar item."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet: the Beaphar brand list (44 items) and searches for play spray/спрей/мята/EAN found no Play Spray (only Trixie matatabi spray 50 ml). nemo: page 150 ml catnip play spray=4250; nemo's live search maps article 12526 to it; manufacturer field says Trixie, so medium."
+  },
+  {
+   "variant_id": 1590,
+   "zoovet": {
+    "found": false,
+    "evidence": "Not on zoovet: the Beaphar list has no Puppy Trainer; searched 'Puppy Trainer', 'trainer', 'приучения', EAN 8711231125623. Nearest: Tamachi POTTY TRAINING Dogs spray 200 ml (another brand)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ցողարկիչ-շներին-տեղին-սովորեցնող-puppy-trainer-50մլ",
+    "price": 4050,
+    "old_price": null,
+    "name": "Ցողարկիչ շներին տեղին սովորեցնող՝ PUPPY Trainer, 50մլ",
+    "in_stock": true,
+    "evidence": "Manufacturer Beaphar, Puppy Trainer toilet-training spray 50 ml; found by article 12562 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: no Puppy Trainer in the Beaphar list or by 'trainer'/'приучения'/EAN (only Gamma 250 ml). nemo: Beaphar Puppy Trainer 50 ml=4050 re-confirmed."
+  },
+  {
+   "variant_id": 1728,
+   "zoovet": {
+    "found": false,
+    "evidence": "Not on zoovet: the Beaphar list has no Duo Active; searched 'Duo Active', 'Duo', 'дуо', 'паста собак 100', EAN 8711231129607."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "No dog version on nemo: searches 'Duo-Active', 'duo', 'մածուկ' and article 12960 found nothing for dogs. Nearest: 'Duo-Active մածուկ կատուների համար' 100 g, 3200 (the cat version, hafo sku 12959, EAN 8711231129591): different species, not a match."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: no Duo Active (searched duo, дуо, паста собак, EAN). nemo: 'duo' search shows only the cat Duo-Active 100 g (3200, page says 'for cats') and Duo Malt; no dog version."
+  },
+  {
+   "variant_id": 2063,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/drugie-2/beaphar-lakomstvo-hrustyaschie-podushechki-multi-vitaminnaya-pasta-dlya-koshek-i-kotyat-35-g",
+    "price": 1250,
+    "old_price": null,
+    "name": "Beaphar Лакомство хрустящие подушечки мульти-витаминная паста для кошек и котят, 35 г",
+    "in_stock": true,
+    "evidence": "Beaphar crunchy pillows filled with multivitamin paste (taurine + B vitamins), cats/kittens, 35 g = Vit Bits; the other 35 g Beaphar bits (malt, catnip, chlorophyll, No Stress) are other flavours. The name lacks 'Vit Bits' wording, so identity comes from the description."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-vit-bits",
+    "price": 1250,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար` VIT bits",
+    "in_stock": true,
+    "evidence": "Manufacturer Beaphar, VIT bits, multivitamin paste pillows, 35 g; found by article 12625 search."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet Beaphar crunchy pillows multivitamin paste 35 g=1250 (other 35 g pillows are malt/catnip/chlorophyll/No Stress/salmon); nemo VIT bits 35 g=1250, manufacturer Beaphar."
+  },
+  {
+   "variant_id": 951,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/dlya-vyvoda-shersti/cliny-pasta-dlya-vyvoda-shersti-dlya-koshek-75-ml",
+    "price": 3750,
+    "old_price": null,
+    "name": "CLINY Паста для вывода шерсти для кошек, 75 мл",
+    "in_stock": true,
+    "evidence": "Cliny hairball paste for cats with silver ions, 75 ml (the 30 ml chicken/salmon variants excluded); price 3750, in stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մածուկ-մազագնդերը-հանելու-համար-75-մլ-2",
+    "price": 3750,
+    "old_price": null,
+    "name": "Մածուկ մազագնդերը հանելու համար (75 մլ)",
+    "in_stock": true,
+    "evidence": "Found by article 073512 search; description: Cliny hairball paste for cats, malt taste, 75 ml (the 30 g Cliny malt pastes excluded)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet CLINY hairball paste 75 ml=3750 (other Cliny pastes are 30 ml); nemo Cliny malt hairball paste 75 ml=3750."
+  },
+  {
+   "variant_id": 1703,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws Sterilised dry food on zoovet: the brand list has Hairball, Medium Adult, Active all breeds, large-breed puppies and cat chicken/rabbit/veal/salmon only; searched 'стерил', 'Sterilised', 4820083909665."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-կատուների-համար-sterilised",
+    "price": 31500,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր կատուների համար՝ STERILISED",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, Sterilised cat dry food, chicken 24%, description states 14 կգ; found by article 909665 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Club4Paws list has no Sterilised dry cat food; its 'курицей для кошек 14 кг' (28000) is the 26%-chicken Adult food, not Sterilised (24%). nemo STERILISED 14 kg=31500 re-confirmed."
+  },
+  {
+   "variant_id": 1704,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws Sterilised on zoovet (pack or loose)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo sells Club 4 Paws Sterilised only as 14 kg (31500); no կիլոգրամով listing found (searched STERILISED, Sterilised, 909665, the brand list)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Neither shop sells Club4Paws Sterilised loose: zoovet has no Sterilised at all; nemo per-kg cat listings (searched կիլոգրամով, ԹԱԹ, both EANs) have no Club4Paws."
+  },
+  {
+   "variant_id": 1705,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/club4paws-hairball-control-suhoj-korm-s-kuritsej-dlya-vyvedeniya-shersti-u-koshek-upakovka-14-kg-5658",
+    "price": 31500,
+    "old_price": null,
+    "name": "Club4Paws Hairball control Сухой корм с курицей для выведения шерсти у кошек, упаковка 14 кг",
+    "in_stock": true,
+    "evidence": "Club 4 Paws Adult Cats Hairball Control, chicken, option 'Упак (14 кг)' = 31500, in stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չոր-կեր-կատուների-համար-hairball-control",
+    "price": 31500,
+    "old_price": null,
+    "name": "Չոր կեր կատուների համար Hairball control",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, Hairball control, chicken 24%, 14 կգ; found by article 909335 search. The separate '4 ԹԱԹ ... Hairball control' listing at 26000 is an 11+3 kg promo pack, not ours."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet option 'Упак (14 кг)'=31500; nemo Hairball control 14 kg=31500 (the 26000 listing is 11+3 kg, excluded)."
+  },
+  {
+   "variant_id": 1706,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/club4paws-hairball-control-suhoj-korm-s-kuritsej-dlya-vyvedeniya-shersti-u-koshek-upakovka-14-kg",
+    "price": 2350,
+    "old_price": null,
+    "name": "Club4Paws Hairball control Сухой корм с курицей для выведения шерсти у кошек, упаковка 14 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Loose listing of the 14 kg Hairball Control bag; option 'На развес, 1 кг' = 2350, in stock >20."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no per-kg Hairball control listing; only 14 kg (31500) and an 11+3 kg promo (26000). Searched Hairball, 909335, the brand list."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'На развес, 1 кг'=2350 re-confirmed. nemo has no per-kg Club4Paws Hairball listing; only the 14 kg (31500) and the 11+3 kg promo (26000)."
+  },
+  {
+   "variant_id": 1707,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-14-kg-5556",
+    "price": 22500,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с курицей для собак, упаковка 14 кг",
+    "in_stock": true,
+    "evidence": "The name lacks 'Active', but the packshot shows 'Adult ACTIVE All Breeds 14 kg'; description: adult dogs over 12 months, all breeds, chicken; option 'Упак (14 кг)' = 22500, in stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-active-հասուն-շների-համար-2",
+    "price": 22500,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium \"Active\" հասուն շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, Premium Active all-breeds adult, 14 կգ; found by article 909555 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet name lacks 'Active', but the packshot reads 'Adult ACTIVE All Breeds 14 kg'; option 14 kg=22500. nemo Premium Active 14 kg=22500."
+  },
+  {
+   "variant_id": 1708,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-14-kg",
+    "price": 1700,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с курицей для собак, упаковка 14 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Loose listing of the same Active All Breeds 14 kg bag (same product, Active packshot); option 'На развес, 1 кг' = 1700, in stock 15."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-active-հասուն-շների-համար-կիլոգրամով",
+    "price": 1700,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium \"Active\" հասուն շների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Per-kg listing of Club4 Paws Premium Active, 1 կգ; found by article 909555 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'На развес, 1 кг'=1700 on the same Active listing; nemo Active (կիլոգրամով)=1700."
+  },
+  {
+   "variant_id": 1709,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws adult large-breed dry food on zoovet; searched 'крупн', 'Large', 4820083909641. Nearest: Club4Paws large-breed PUPPY 14 kg (22500): different lifestage."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-մեծ-ցեղատեսակի-հասուն-շների-համար-կիլոգրամով-copy",
+    "price": 21000,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium, մեծ ցեղատեսակի հասուն շների համար 14 կգ",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, Premium large-breed adult, 14 կգ (the slug says կիլոգրամով, but the page name and weight are 14 kg); found by article 909645 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet has no adult large-breed Club4Paws (only the large-breed puppy). nemo chicken large-breed adult 14 kg=21000 is the listing nemo returns for article 909645. The other nemo listing (sku 143055, 21000) is the duck recipe, excluded."
+  },
+  {
+   "variant_id": 1710,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws adult large-breed food on zoovet (pack or loose). Nearest: large-breed puppy loose 1 kg (1700): different lifestage."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-մեծ-ցեղատեսակի-հասուն-շների-համար-14-կգ-3",
+    "price": 1600,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium, մեծ ցեղատեսակի հասուն շների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Per-kg listing (Քաշը 1կգ) of Club4 Paws Premium large-breed adult; found by article 909645 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: none. nemo per-kg listing for article 909645=1600; the separate '4 Paws Premium ... (կիլոգրամով)' 1600 listing is the duck recipe (Բադի համով), excluded."
+  },
+  {
+   "variant_id": 1711,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-medium-adult-suhoj-korm-s-kuritsej-dlya-sobak-srednih-porod-upakovka-14-kg-5598",
+    "price": 21000,
+    "old_price": null,
+    "name": "Club4Paws Medium Adult Сухой корм с курицей для собак средних пород, упаковка 14 кг",
+    "in_stock": true,
+    "evidence": "Club4Paws Medium Adult chicken, medium breeds 11-25 kg, option 'Упак (14 кг)' = 21000, in stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-միջին-ցեղատեսակի-հասուն-շների-համար-կիլոգրամով-copy",
+    "price": 21000,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium միջին ցեղատեսակի հասուն շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, Premium medium-breed adult, 14 կգ; found by article 909715 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet Medium Adult 'Упак (14 кг)'=21000; nemo medium-breed adult 14 kg=21000."
+  },
+  {
+   "variant_id": 1712,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-medium-adult-suhoj-korm-s-kuritsej-dlya-sobak-srednih-porod-upakovka-14-kg",
+    "price": 1600,
+    "old_price": null,
+    "name": "Club4Paws Medium Adult Сухой корм с курицей для собак средних пород, упаковка 14 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Loose listing of the Medium Adult 14 kg bag; option 'На развес, 1 кг' = 1600, in stock >20."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-միջին-ցեղատեսակի-հասուն-շների-համարկիլոգրամով-copy",
+    "price": 1600,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium միջին ցեղատեսակի հասուն շների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Per-kg listing (Քաշը 1կգ) of Club4 Paws Premium medium-breed adult; found by article 909715 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet Medium Adult 'На развес, 1 кг'=1600; nemo medium-breed (կիլոգրամով)=1600."
+  },
+  {
+   "variant_id": 1713,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws small-breed dry food on zoovet; searched 'мелк', 'Small', 4820083909542 (only a small-breed wet 100 g exists)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-փոքր-ցեղատեսակի-հասուն-շների-համար-2",
+    "price": 22500,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium փոքր ցեղատեսակի հասուն շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, Premium small-breed adult, 14 կգ; found by article 909545 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Club4Paws list has no small-breed dry food. nemo small-breed adult 14 kg=22500 re-confirmed."
+  },
+  {
+   "variant_id": 1714,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws small-breed dry food on zoovet (pack or loose)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-premium-փոքր-ցեղատեսակի-հասուն-շների-համար-copy",
+    "price": 1700,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր Premium փոքր ցեղատեսակի հասուն շների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Per-kg listing (Քաշը 1կգ) of Club4 Paws Premium small-breed adult; found by article 909545 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: none. nemo small-breed adult (կիլոգրամով)=1700 re-confirmed."
+  },
+  {
+   "variant_id": 1715,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws all-breeds puppy food on zoovet; searched 'щенк', 'Puppy', 4820083909696. Nearest: Club4Paws large-breed puppy 14 kg (22500): different breed size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-բոլոր-ցեղատեսակի-շների-ձագերի-համար-2",
+    "price": 22500,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր բոլոր ցեղատեսակի շների ձագերի համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, all-breeds puppies 2-12 months, 14 կգ; found by article 909695 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: only the large-breed puppy, no all-breeds puppy. nemo all-breeds puppy 14 kg=22500 re-confirmed."
+  },
+  {
+   "variant_id": 1716,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Club4Paws all-breeds puppy food on zoovet (pack or loose). Nearest: large-breed puppy loose 1 kg (1700): different breed size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/4-թաթ-չոր-կեր-բոլոր-ցեղատեսակի-շների-ձագերի-համար-copy",
+    "price": 1700,
+    "old_price": null,
+    "name": "4 ԹԱԹ չոր կեր բոլոր ցեղատեսակի շների ձագերի համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Per-kg listing (Քաշը 1կգ) of Club4 Paws all-breeds puppy; found by article 909695 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: none. nemo all-breeds puppy (կիլոգրամով)=1700 re-confirmed."
+  },
+  {
+   "variant_id": 1970,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-suhoj-korm-s-kuricej-dlya-shchenkov-krupnyh-porod-upakovka-14-kg",
+    "price": 22500,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с курицей для щенков крупных пород, упаковка 14 кг",
+    "in_stock": false,
+    "evidence": "Club4Paws large-breed puppy 2-12 months, chicken, 14 kg; option 'Упак (14 кг)' = 22500; listing shows out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չոր-կեր-մեծ-ցեղատեսակի-շների-ձագերի-համար-14կգ-2",
+    "price": 22500,
+    "old_price": null,
+    "name": "4 ԹԱԹ։ Չոր կեր մեծ ցեղատեսակի շների ձագերի համար (14կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Club4 Paws, large-breed puppies 2-12 months, 14 կգ; found by article 909685 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet large-breed puppy 'Упак (14 кг)'=22500 (out of stock in the list); nemo large-breed puppy 14 kg=22500."
+  },
+  {
+   "variant_id": 1971,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-suhoj-korm-s-kuritsej-dlya-schenkov-krupnyh-porod-na-razves-1-kg",
+    "price": 1700,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с курицей для щенков крупных пород, на развес 1 кг",
+    "in_stock": false,
+    "evidence": "Loose listing of the large-breed puppy 14 kg bag; option 'На развес, 1 кг' = 1700; listing shows out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չոր-կեր-մեծ-ցեղատեսակի-շների-ձագերի-համար-14կգ-copy",
+    "price": 1700,
+    "old_price": null,
+    "name": "4 ԹԱԹ Չոր կեր մեծ ցեղատեսակի շների ձագերի համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Per-kg listing (Քաշը 1կգ) of Club4 Paws large-breed puppy; found by article 909685 search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet large-breed puppy 'На развес, 1 кг'=1700 (out of stock in the list); nemo large-breed puppy (կիլոգրամով)=1700."
+  }
+ ]
+}

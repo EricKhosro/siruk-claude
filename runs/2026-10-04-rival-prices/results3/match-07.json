@@ -1,0 +1,485 @@
+{
+ "results": [
+  {
+   "variant_id": 2035,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched 'мяу|myau|մյաու', 'кролик|кроликом сухой', 'курица|курицей сухой', '11 кг', EAN and PM code: zoovet carries only Myau dry 'с мясом, рисом и овощами' 11 kg (+ loose) and 85 g wet pouches; no chicken or rabbit dry. Nearest: Мяу с мясом, рисом и овощами 11 кг (14500) - different flavour."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/мяу-հավի-համով-չոր-կեր-կատուների-համար-11-կգ",
+    "price": 14500,
+    "old_price": null,
+    "name": "«Мяу» հավի համով չոր կեր կատուների համար (11 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мяу, chicken flavour, adult cats 12+ months, weight 11 kg; matches hafo 'ՄՅԱՈՒ ... հավ 11կգ'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 2036,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched 'мяу|myau|մյաու', 'кролик|кроликом сухой', 'курица|курицей сухой', '11 кг', EAN and PM code: zoovet carries only Myau dry 'с мясом, рисом и овощами' 11 kg (+ loose) and 85 g wet pouches; no chicken or rabbit dry. No loose chicken either; nearest loose is мясо/рис/овощи 'На развес, 1 кг' 1400 - different flavour."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Myau loose listings: ճագար (rabbit), տավար (beef, x2 incl. 'մսային (կիլոգրամով)' whose description says beef), մսով/բրնձով/բանջարեղենով, կարաս ձուկ, քիթթեն. No chicken (հավ) կիլոգրամով listing; nearest chicken is the 11 kg bag 14500."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 2037,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched 'мяу|myau|մյաու', 'кролик|кроликом сухой', 'курица|курицей сухой', '11 кг', EAN and PM code: zoovet carries only Myau dry 'с мясом, рисом и овощами' 11 kg (+ loose) and 85 g wet pouches; no chicken or rabbit dry. Nearest: Мяу мясо/рис/овощи 11 кг - different flavour."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/мяу-ճագարի-համով-չոր-կեր-կատուների-համար-11-կգ",
+    "price": 14500,
+    "old_price": null,
+    "name": "«Мяу» ճագարի համով չոր կեր կատուների համար (11 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мяу, rabbit, adult cats, 11 kg; matches hafo 'ՄՅԱՈՒ ... ճագար 11կգ'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 2038,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched 'мяу|myau|մյաու', 'кролик|кроликом сухой', 'курица|курицей сухой', '11 кг', EAN and PM code: zoovet carries only Myau dry 'с мясом, рисом и овощами' 11 kg (+ loose) and 85 g wet pouches; no chicken or rabbit dry. No loose rabbit."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/мяу-ճագարի-համով-չոր-կեր-կատուների-համար-կիլոգրամով-",
+    "price": 1400,
+    "old_price": null,
+    "name": "«Мяу» ճագարի համով չոր կեր կատուների համար (կիլոգրամով )",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мяу, same rabbit adult dry food as the 11 kg bag, sold per kg (կիլոգրամով)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 2039,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/myau-suhoj-korm-s-myasom-risom-i-ovoschami-dlya-vzroslyh-koshek-upakovka-11-kg-5439",
+    "price": 14500,
+    "old_price": null,
+    "name": "Мяу Сухой корм с мясом, рисом и овощами для взрослых кошек, упаковка 11 кг",
+    "in_stock": true,
+    "evidence": "Page options: 'Упак (11 кг)' 14500, 'На развес, 1 кг' 1400; stock 'В наличии · 1 шт'. Brand Мяу, adult cat dry, meat/rice/vegetables, 11 kg - every axis matches. (Same options on the loose listing, 15 in stock.)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/мяу-մսով-բրնձով-և-բանջարեղենով-չոր-կեր-կատուների-համար-11-կգ",
+    "price": 14500,
+    "old_price": null,
+    "name": "«Мяу» մսով, բրնձով և բանջարեղենով չոր կեր կատուների համար (11 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мяу, meat/rice/vegetables, adult cats, 11 kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 2040,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/myau-suhoj-korm-s-myasom-risom-i-ovoschami-dlya-vzroslyh-koshek-upakovka-11-kg",
+    "price": 1400,
+    "old_price": null,
+    "name": "Мяу Сухой корм с мясом, рисом и овощами для взрослых кошек, упаковка 11 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 1400 (bag 'Упак (11 кг)' 14500); stock 'В наличии · 15 шт'. Same Myau meat/rice/veg adult food as our 11 kg bag, sold loose."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/мяу-մսով-բրնձով-և-բանջարեղենով-չոր-կեր-կատուների-համար-կիլոգրամով",
+    "price": 1400,
+    "old_price": null,
+    "name": "«Мяу» մսով, բրնձով և բանջարեղենով չոր կեր կատուների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мяу, meat/rice/veg adult dry food sold per kg (կիլոգրամով)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 952,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched 'ok-lock|oklock|ок-лок|ok lock', 'smart наполнитель', 'растительный комкующийся', EANs 4640144110140/4640144110126: no Ok-Lock; zoovet plant litters are Trixie Tofu, CAT STEP Tofu/Wood/Olive, КОМФИКОТ tofu. Nearest: CAT STEP Olive Original 5 л (different brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searched 'ok-lock|ок-лок', 'smart|սմարթ', EAN, and the full 'լցանյութ|наполнитель|litter' list (Simple'n'Clean, Lechat, Simba Bentonite, Juanit, Gamma, Eco-Premium, silicagel): no Ok-Lock. Nearest: Eco-Premium wood clumping 5 л (different brand)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1309,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched 'ok-lock|oklock|ок-лок|ok lock', 'smart наполнитель', 'растительный комкующийся', EANs 4640144110140/4640144110126: no Ok-Lock; zoovet plant litters are Trixie Tofu, CAT STEP Tofu/Wood/Olive, КОМФИКОТ tofu."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searched 'ok-lock|ок-лок', 'smart|սմարթ', EAN, and the full 'լցանյութ|наполнитель|litter' list (Simple'n'Clean, Lechat, Simba Bentonite, Juanit, Gamma, Eco-Premium, silicagel): no Ok-Lock."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1140,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Orijen list (searched 'orijen|ориджен', 'small|мелких', EAN 0064992714772): Original, Fit&Trim, Puppy, Large Puppy, Senior, Regional Red, Six Fish, Tundra (cat), Guardian 8, Cat&Kitten - no Small Breed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/orijen-small-breed-45-kg",
+    "price": 35000,
+    "old_price": null,
+    "name": "Orijen small breed, 4.5 kg",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Orijen, 'Orijen Small Breed Adult', 85% meat/15% fruit-veg, content 4.5 kg; matches hafo 'ORIJEN Small breed 4.5 կգ' (description also loosely says 'ձագերի' but product named Small Breed Adult)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1173,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/orijen-six-fish-suhoj-korm-s-sardinoj-hekom-skumbriej-i-drugoj-ryboj-dlya-koshek-upakovka-5-4-kg-5463",
+    "price": 42000,
+    "old_price": null,
+    "name": "Orijen Six Fish Сухой корм с сардиной, хеком, скумбрией и другой рыбой для кошек, упаковка 5.4 кг",
+    "in_stock": true,
+    "evidence": "Page option 'Упак (5,4 кг)' 42000; in stock 1. Orijen Six Fish CAT dry 5.4 kg - all axes match (dog Six Fish 6/11.4 kg excluded)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-orijen-six-fish-54-կգ-8515",
+    "price": 42000,
+    "old_price": null,
+    "name": "Կեր կատուների Orijen SIX FISH 5.4 կգ (85/15)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Orijen, cat food, 6 fish, 5.4 kg; name identical to hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1363,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/orijen-six-fish-suhoj-korm-s-sardinoj-hekom-skumbriej-i-drugoj-ryboj-dlya-koshek-upakovka-5-4-kg",
+    "price": 8800,
+    "old_price": null,
+    "name": "Orijen Six Fish Сухой корм с сардиной, хеком, скумбрией и другой рыбой для кошек, упаковка 5.4 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 8800 (bag 5.4 кг 42000); in stock 9. Same Orijen Six Fish cat food sold loose (dog Six Fish loose 6050 excluded)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-orijen-six-fish-կիլոգրամով",
+    "price": 7900,
+    "old_price": null,
+    "name": "Կեր կատուների Orijen SIX FISH (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Orijen, cat Six Fish, sold per kg (կիլոգրամով); dog Six Fish loose (6050) excluded."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1609,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched 'отидез|otidez|օտիդեզ', 'пчелодар|pchelodar' (Ветспокоин, Гепатолюкс, Фенпраз, Фунгивет, Нефро..., shampoo - no Отидез), 'ушн|ушей|ушные' (only Cliny/Gamma ear lotions)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/օտիդեզ-ֆորտե-ականջի-կաթիլներ-կենդանիների-համար",
+    "price": 3200,
+    "old_price": null,
+    "name": "ОТИДЕЗ ФОРТЕ, ականջի բուժական կաթիլներ կենդանիների համար, 15 մլ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Pchelodar, Отидез Форте ear drops for dogs/cats, 15 ml."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1409,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Rolf Club cat drops: only 'до 4 кг' (2250) and '4-8 кг' (2500) '(упаковка 3 пип), поштучно'; searched '8-15', EAN 4607092075303, 075302, R426 - no 8-15 kg cat item."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կաթիլներ-8-15-կգ-կատուների-համար-միջատների-դեմ",
+    "price": 3500,
+    "old_price": null,
+    "name": "Կաթիլներ 8-15 կգ կատուների համար, միջատների դեմ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Rolf Club, 'Rolf Club 3D' drops for cats 8-15 kg; single pipette listing (name identical to hafo title); same price as hafo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1699,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Simba dry dog: only 'с говядиной ... упаковка 20 кг' (20000) + loose; searched 'simba|симба', 'тунц' (only cat wet 415 g). No tuna dry 20 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-simba-ձկան-համով-20-կգ",
+    "price": 21000,
+    "old_price": null,
+    "name": "Monge Simba թունա ձուկ (20կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Simba, adult dogs all sizes, tuna, 20 kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1701,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Simba dry dog: only beef 20 kg (20000) + loose; 'ягн|баран' only wet 415 g / 1.23 kg. No lamb dry 20 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-simba-գառան-համով-20-կգ",
+    "price": 21000,
+    "old_price": null,
+    "name": "Monge Simba գառան մսով (20կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Simba, adult dogs all sizes, lamb, 20 kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 276,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/trixie-silikagelevyj-napolnitel-dlya-koshek-8-l",
+    "price": 9250,
+    "old_price": null,
+    "name": "Trixie Силикагелевый наполнитель для кошек, 3.5 кг (8 л)",
+    "in_stock": true,
+    "evidence": "Trixie silicagel cat litter 8 l (Trixie silicate line = Simple'n'Clean, art 4020); page lists 3.5 kg vs hafo 3.6 kg (weight rounding), 8 l matches; in stock 1; price equals hafo."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/simplenclean-սիլիկոնե-գելային-լցանյութ-կատուների-համար-38-լ-copy",
+    "price": 9250,
+    "old_price": null,
+    "name": "«Simple‘n‘Clean» սիլիկոնե-գելային լցանյութ (8 լ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, Simple'n'Clean silicagel, 8 l; nemo search by art 4020 returns it."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 277,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/trixie-napolnitel-silikagelevyj-dlya-koshachego-tualeta-5-l",
+    "price": 5850,
+    "old_price": null,
+    "name": "Trixie Наполнитель силикагелевый для кошачьего туалета, 2.2 кг (5 л)",
+    "in_stock": true,
+    "evidence": "Trixie silicagel litter 5 l (Simple'n'Clean, art 4026); in stock 1; price equals hafo."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/simplenclean-սիլիկոնե-գելային-լցանյութ-5-լ",
+    "price": 5850,
+    "old_price": null,
+    "name": "«Simple‘n‘Clean» սիլիկոնե-գելային լցանյութ (5 լ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, Simple'n'Clean, 5 l; nemo search by art 4026 returns it."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 281,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - no sausages-on-rope toy."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-նրբերշիկի-տեսքով",
+    "price": 900,
+    "old_price": null,
+    "name": "Խաղալիք շների համար նրբերշիկի տեսքով",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, vinyl sausage on rope, size 11 cm; nemo search by art 3242 returns it; title identical to hafo's."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 282,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nearest веревочный мяч с петлей 7 см/20 см (different length)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգուցավոր-պարան-խաղալիք-2",
+    "price": 2250,
+    "old_price": null,
+    "name": "Հանգուցավոր պարան-խաղալիք",
+    "in_stock": true,
+    "evidence": "Page: rope with woven-in ball, cotton mix, size 7 cm-44 cm; manufacturer field empty but nemo search by art 32650 returns it and title equals hafo's title for 32650."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 283,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nearest веревка с узлом 32 см."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգույցային-պարան-խաղալիք",
+    "price": 750,
+    "old_price": null,
+    "name": "Հանգույցային պարան-խաղալիք",
+    "in_stock": true,
+    "evidence": "Page: knotted rope, cotton mix, 22 cm; nemo search by art 32651 returns it; title equals hafo's."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 284,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nearest веревка с узлом 32 см."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգույցային-պարան-խաղալիք-2",
+    "price": 1200,
+    "old_price": null,
+    "name": "Հանգույցային պարան-խաղալիք",
+    "in_stock": true,
+    "evidence": "Page: knotted rope, cotton mix, 28 cm; nemo search by art 32652 returns it; title equals hafo's."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 285,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nearest веревка с узлом 32 см."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգուցավոր-պարան-40-սմ",
+    "price": 2200,
+    "old_price": null,
+    "name": "Հանգուցավոր պարան (40 սմ)",
+    "in_stock": true,
+    "evidence": "Page: dog rope, cotton mix, 40 cm, various colours; nemo search by art 32653 returns it; title equals hafo's. (Other Trixie 40 cm knotted rope -8 at 2900 is art 3275, 60 cm per hafo - excluded.)"
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 286,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - no rope ring."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searched art 32655, EAN 4011905326559, hafo title 'Շների խաղալիք՝ օղակ', 'օղակ', '14սմ': no Trixie rope ring (only treat rings, bird rings, Gigwi)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 287,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nearest веревочный мяч с петлей 7 см/20 см (different size/model)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գրեյֆեր-թենիսի-գնդակով-խաղալիք-շների-համար",
+    "price": 1600,
+    "old_price": null,
+    "name": "Գրեյֆեր թենիսի գնդակով խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "Page: rope toy with tennis ball, cotton mix, size 6/18 cm; nemo search by art 3266 returns it; title equals hafo's."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 288,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nearest веревочный мяч с петлей 8 x 30 см (8 cm ball vs our 5.5 cm)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգուցավոր-պարան-2",
+    "price": 1000,
+    "old_price": null,
+    "name": "Հանգուցավոր Պարան",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, knotted rope with handle, 5.5 cm - 30 cm; nemo search by art 3268 returns it."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 289,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nothing 7/50 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգուցավոր-պարան-3",
+    "price": 1200,
+    "old_price": null,
+    "name": "Հանգուցավոր Պարան",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, knotted rope with handle, 7 cm - 50 cm; nemo search by art 3269 returns it."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 290,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - nearest веревка с узлом 32 см."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searched art 3274, EAN 4011905032740, '54|54 սմ', 'Հանգուցավոր պարան': Trixie knotted ropes there are 20 cm (550), 26 cm (900), 37 cm (1950, art 3273), 40 cm (2900, art 3275), 5.5/30 and 7/50 - no 54 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 292,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie toy list (searched 'trixie', 'веревка|канат|сосиск|гантел|кольцо', article codes): only веревка с узлом 32 см, веревочный мяч с петлей 7/20 см and 8x30 см, цветной веревочный мяч 9 см, мячик с верёвкой - only гантель светящаяся 18 см (different model)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգուցավոր-մարզագունդ",
+    "price": 1400,
+    "old_price": null,
+    "name": "Հանգուցավոր մարզագունդ",
+    "in_stock": true,
+    "evidence": "Page: knotted rope dumbbell, cotton mix, size 15 cm; nemo search by art 32811 returns it; title equals hafo's. (22 cm rope dumbbell 1950 = art 32815, excluded.)"
+   },
+   "confidence": "medium"
+  }
+ ]
+}

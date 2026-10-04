@@ -1,0 +1,89 @@
+{
+ "results": [
+  {
+   "variant_id": 1565,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no row with article 46021 / EAN 4011905460215 (code 46021 only hits unrelated 346021 neon ball and Oropharma 460215V). Nearest: TX 4567Tx 'Էլեկտրոնային կարթ ... հեռակառավարվող, 15*21 սմ' 9950 AMD (different model/size: remote-controlled 15x21 cm vs our Catch It 10x14 cm)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "not on zoovet: searched 'trixie' brand list (all toys/scratchers/sprays reviewed), plus 'удочка', 'электронн', 'Catch', '46021' - no Trixie Catch It"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "not on nemo: searched 'Catch', 'կարթ', 'էլեկտրոնային', '46021' - only Fix & Catch / Catch the Balls / other teasers, no Catch It 10x14 cm"
+   },
+   "confidence": "medium",
+   "notes": "Trixie Catch It 10x14 cm white electronic teaser; no rival sells it."
+  },
+  {
+   "variant_id": 1566,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 45664 / EAN 4011905456645. Nearest same-family Trixie cat plush: 45535Tx 'կտորից արջուկ, 10 սմ' 1750 AMD (different article and size 10 cm vs our 8 cm), 45666Tx fox 13 cm, 45667Tx seagull 13 cm."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "not on zoovet: searched 'trixie' brand list (all toys/scratchers/sprays reviewed), plus 'мишк|медвед', 'мишка', 'игрушка 8 см' - only Gigwi/Triol bears"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "not on nemo: searched 'արջուկ', 'Bear', '8 սմ' - nearest 'Խաղալիք կատուների համար՝ կտորից արջուկ' 1750 = hafo 45535 10 cm bear, not ours"
+   },
+   "confidence": "medium",
+   "notes": "Trixie plush bear 8 cm (45664); no rival sells this size/article."
+  },
+  {
+   "variant_id": 1567,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 45554 / EAN 4011905455549. Nearest: 45553Tx sea animals 5-8 cm, 45552Tx ice-creams 7 cm, 45555Tx rubber balls - different products."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "not on zoovet: searched 'trixie' brand list (all toys/scratchers/sprays reviewed), plus 'trixie животн', '11 см кошек' - nothing"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "not on nemo: searched 'կենդանիներ', '11 սմ', 'գունավոր', 'փափուկ' - nearest 'Trixie, խաղալիք փափուկ աղվեսիկ, 11 սմ' (fox, different product)"
+   },
+   "confidence": "medium",
+   "notes": "Trixie plush animals assortment in display 11 cm (45554); not sold by rivals."
+  },
+  {
+   "variant_id": 1568,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 25764 / EAN 4011905257648 and no 'DeoDog'. Nearest odour sprays are other brands (Mr.Fresh 500 ml, Perfect, Nature's Miracle) and Trixie Simple'n'Clean 4237Tx 175 ml cat spray - not ours."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "not on zoovet: searched 'trixie' brand list (all toys/scratchers/sprays reviewed), plus 'deodog|deo dog', 'нейтрализатор', 'запаха', 'спрей 500 мл' - nothing"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "not on nemo: searched 'deodog|DeoDog', 'հոտի', 'ցողարկիչ' - only Mr.Fresh / Nature's Miracle / Animal Play"
+   },
+   "confidence": "medium",
+   "notes": "Trixie DeoDog 500 ml odour neutraliser; no rival sells it."
+  },
+  {
+   "variant_id": 1572,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 43431 / EAN 4011905043432 (code hit 043438 is a Flexi leash, barcode 4000498043431). Nearest: Trixie corner scratching board 2-piece TX 431931 8250 AMD / TX 431911 6500 AMD - 23x49 cm, not our 32x60 cm."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "not on zoovet: searched 'trixie' brand list (all toys/scratchers/sprays reviewed), plus 'когтеточка 32|60', 'угловая', '32 x 60' - nothing Trixie corner"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "not on nemo: searched 'ճանկելու', 'անկյունային', '32*60' - nearest 'Կատուների ճանկելու տախտակ (անկյունային)' 8250 / 6500 AMD, page says 23 x 49 սմ (different size)"
+   },
+   "confidence": "medium",
+   "notes": "Trixie corner scratching board 32x60 cm beige; rivals only carry the 23x49 cm corner board."
+  }
+ ]
+}

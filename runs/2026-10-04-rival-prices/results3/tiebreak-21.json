@@ -1,0 +1,234 @@
+{
+ "results": [
+  {
+   "variant_id": 702,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Only saved row: 'Trixie Пищевая добавка кошачья трава с семенами ячменя, 100 г' (1200, out of stock). That is barley cat grass, Trixie 4235 (hafo 4235Tx 1200), not Soft Grass 4232 for cats and kittens."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խոտի-սերմեր-կատուների-ձագերի-համար",
+    "price": 1500,
+    "old_price": null,
+    "name": "Խոտի սերմեր՝ կատուների ձագերի համար",
+    "in_stock": true,
+    "evidence": "Opened today. Manufacturer Trixie; grass seeds for cats/kittens, rich in vitamins, 'Պլաստմասսե տարրայով', 'Պարունակություն՝ 100գր'. 1500, in stock. nemo search '4232' returns this page. The 4235 barley grass is a separate nemo listing ('խոտի-սերմեր-կատուների-համար-2', 1200), so the two are not confused."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: the article search 4232 hits it, and it is Trixie, 100 g, kittens."
+  },
+  {
+   "variant_id": 706,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Only saved row: 'Trixie Спрей с мататаби для кошек, 50 мл' (1650, out of stock). That is 50 ml, not our 175 ml."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-մաթտաբիի-էքստրակտով-սփրեյ-175-մլ",
+    "price": 2350,
+    "old_price": null,
+    "name": "Trixie, մաթտաբիի էքստրակտով սփրեյ, 175 մլ",
+    "in_stock": true,
+    "evidence": "Opened today. Trixie matatabi-extract spray for cats, 175 ml in the name and text. 2350, in stock. nemo search '42424' returns it. A separate 50 ml listing exists, which is another pack."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: Trixie matatabi spray 175 ml at 2350."
+  },
+  {
+   "variant_id": 711,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet rows: Trixie matatabi items are a 4 cm ball and a 50 ml spray. The rest are Triol matatabi toys. No Matatabi Lolly XXL."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մատատաբի-փայտիկ-կատվախոտի-գնդիկով-կատուների-համար",
+    "price": 2100,
+    "old_price": null,
+    "name": "Մատատաբի փայտիկ՝ կատվախոտի գնդիկով՝ կատուների համար",
+    "in_stock": true,
+    "evidence": "Opened today: 2100, in stock. Manufacturer field 'Triol', and the tags are a Triol 'ball with feathers' toy. Decided on the product itself. nemo search by our article '42444' returns this page. Its photo is identical to Trixie's official CDN packshot for 42444 (matatabi stick, catnip ball, green plush collar) and to hafo's 42444 photo. The text says 'Հատկապես հարմար է խոշոր կատուների համար' (especially suitable for large cats), which is the XXL. Triol's own matatabi toys on nemo and zoovet are other designs. The name equals hafo's 42444Tx title. Size is not stated on the page, so nothing conflicts with 13.5 cm."
+   },
+   "confidence": "medium",
+   "reason": "The 'Triol' label is a nemo data error. Article search, photo and text identify Trixie Matatabi Lolly XXL 42444."
+  },
+  {
+   "variant_id": 1392,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet rows: no Trixie Premio bacon pâté. The only bacon row is a Schesir training snack, and the only Premio pâté is the cat poultry 75 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-երշիկի-կտորներ-75-գ-2",
+    "price": 1950,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար PREMIO` բեկոնի պաշտետ",
+    "in_stock": true,
+    "evidence": "Opened today. Manufacturer Trixie; dog Premio pâté, 'Ունի բեկոնի համ' (bacon), 'Պարունակություն՝ 110գ'. 1950, in stock. nemo search '31842' returns it. The slug is a recycled sausage slug, but the page name and text are the bacon pâté."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: Premio bacon pâté 110 g at 1950."
+  },
+  {
+   "variant_id": 729,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-pashtet-premio-s-ptitsej-dlya-koshek-75-g",
+    "price": 1750,
+    "old_price": null,
+    "name": "Trixie Паштет Premio с птицей для кошек, 75 г",
+    "in_stock": true,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved row: Trixie Premio pâté for cats, poultry, 75 g, 1750, in stock. Brand, line, species, flavour and size all match 42728. Matcher and verifier agree."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-premio-թռչնամսով",
+    "price": 1750,
+    "old_price": null,
+    "name": "Պաշտետ կատուների համար՝ PREMIO, թռչնամսով",
+    "in_stock": true,
+    "evidence": "Opened today. Manufacturer Trixie; Premio pâté for cats, poultry, 'Պարունակություն՝ 75 գ'. 1750, in stock. nemo search '42728' returns it."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: Premio cat poultry pâté 75 g at 1750. zoovet unchanged."
+  },
+  {
+   "variant_id": 955,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/oshejniki-shlejki/shlejki-1/trixie-y-obraznaya-shlejka-dlya-koshek-39-60-sm-10-mm",
+    "price": 8250,
+    "old_price": null,
+    "name": "Trixie Y-образная шлейка для кошек, 39–60 см, 10 мм",
+    "in_stock": true,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved row: Trixie Y-harness for cats, 39–60 cm, 10 mm, 8250, in stock. Matches 41890 on size and width. Matcher and verifier agree; the earlier page check found mesh with a ~1 m lead."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շլեյկա-ձգափոկով-կատուների-համար-y-աձև",
+    "price": 8250,
+    "old_price": null,
+    "name": "Շլեյկա ձգափոկով, կատուների համար՝ Y-աձև",
+    "in_stock": true,
+    "evidence": "Opened today. Cat Y-harness with lead, breathable material, soft padding, '39-60սմ/ 10մմ/ 1մ'. 8250, in stock. nemo search '41890' returns it. The manufacturer field is empty, but the article hit plus the exact size, width and lead length identify it."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: Y-harness 39-60 cm/10 mm/1 m at 8250."
+  },
+  {
+   "variant_id": 956,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. No bandana rows in the saved zoovet list."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-բանդանա-be-nordic-մուգ-կապույտ-3",
+    "price": 2450,
+    "old_price": null,
+    "name": "Վզնոց-բանդանա՝ BE NORDIC, մուգ կապույտ",
+    "in_stock": true,
+    "evidence": "Opened today. BE NORDIC bandana collar, cotton, studs, dark blue, 'Չափս S, 30սմ'. 2450, in stock. nemo search '17321' returns it. Dark-blue siblings: -2 is M 40 cm (2700), the plain slug is L 50 cm (2900)."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: BE NORDIC bandana S 30 cm dark blue at 2450."
+  },
+  {
+   "variant_id": 1268,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. No bandana rows in the saved zoovet list."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-բանդանա-be-nordic-մուգ-մոխրագույն",
+    "price": 2700,
+    "old_price": null,
+    "name": "Վզնոց-բանդանա՝ BE NORDIC, մուգ մոխրագույն",
+    "in_stock": true,
+    "evidence": "Opened today. BE NORDIC bandana collar, cotton, studs, dark grey, 'Չափս`m 40սմ' (M 40 cm). 2700, in stock. Dark-grey siblings: -3 is L 50 cm (2900), -4 is S 30 cm (2450), -2 is 404. Only this listing is M 40 cm dark grey."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: BE NORDIC bandana M 40 cm dark grey at 2700."
+  },
+  {
+   "variant_id": 1269,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. No bandana rows in the saved zoovet list."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-բանդանա-be-nordic-մուգ-մոխրագույն-3",
+    "price": 2900,
+    "old_price": null,
+    "name": "Վզնոց-բանդանա՝ BE NORDIC, մուգ մոխրագույն",
+    "in_stock": true,
+    "evidence": "Opened today. BE NORDIC bandana collar, cotton, studs, dark grey, 'Չափս`L, 50սմ'. 2900, in stock. nemo search '17335' returns it."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: BE NORDIC bandana L 50 cm dark grey at 2900."
+  },
+  {
+   "variant_id": 960,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved rows: 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' (4450). That is violet single-layer Premium, not our double-layered lead in aqua. The other is a Fusion L-XL lead."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-երկշերտ-նեյլոնե-կարգավորվող-ձգափոկեր-xs-s",
+    "price": 5700,
+    "old_price": null,
+    "name": "Trixie, երկշերտ նեյլոնե կարգավորվող ձգափոկեր, XS-S",
+    "in_stock": true,
+    "evidence": "Opened today. Trixie double-layered nylon adjustable lead, 'XS-S (2մ / 15 մմ)'. The colour is picked at order and the list includes 'կապույտ՝ Aqua'. 5700, in stock. nemo search by our article '200728' returns it."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo: double-layered adjustable lead XS-S 2 m/15 mm, Aqua offered, at 5700."
+  }
+ ]
+}

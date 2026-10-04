@@ -1,0 +1,415 @@
+{
+ "results": [
+  {
+   "variant_id": 700,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'латекс|latex|skein|моток', 'игрушка для щенков', 'trixie игрушка 15 см' - only Triol latex toys and Trixie Junior pacifier toy 9 cm; no Trixie latex puppy skein."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-ձագերի-համար-լատեկսից-թելի-տեսքով",
+    "price": 2200,
+    "old_price": null,
+    "name": "Խաղալիք ձագերի համար՝ լատեկսից թելի տեսքով",
+    "in_stock": true,
+    "evidence": "Name matches hafo row (puppy toy, latex, skein shape); page: 'for puppies, skein, latex, with sound, 15 cm' - 15 cm matches. Manufacturer field empty, but naming identical to hafo 35513Tx; sibling listing -2 is the 30 cm version at 3800 (not ours)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 701,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мята|catnip' - only 'Trixie Кошачья мята сушеная, 20 г' (800 AMD) = 20 g pack, not our 30 g tub. Nearest candidate is that 20 g item."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կատուների-անանուխ-չորացված",
+    "price": 1600,
+    "old_price": null,
+    "name": "Կատուների անանուխ՝ չորացված",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: dried catnip leaves, plastic tub, 'Պարունակություն՝ 30գր' = 30 g plastic tub = hafo row 42241Tx. Separate 20 g listing (800) is a different pack."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 702,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'Trixie Пищевая добавка кошачья трава с семенами ячменя, 100 г' (1200, out of stock) is barley cat grass = Trixie 4235 (hafo 4235Tx also 1200, 'for cats'), not Soft Grass 4232 (cats & kittens, 1500). Searched 'трава|grass'. Different line, no match."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches 'խոտ', 'սերմ', 'կատվախոտ', Trixie list - only catnip toys, rodent hay, Versele-Laga hay; no Trixie Soft Grass."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 703,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'simple', 'запах', 'устран|нейтрал|дезодор', 'trixie спрей', 'trixie 175' - only Simple'n'Clean silica litter and matatabi spray 50 ml; no Simple'n'Clean deodorising spray."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ցողարկիչ-կատուների-համար-հոտի-դեմ-175մլ-simplenclean",
+    "price": 1950,
+    "old_price": null,
+    "name": "Ցողարկիչ կատուների համար՝ հոտի դեմ, 175մլ, Simple’n’Clean",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo row: Simple'n'Clean odour spray for cats, 175 ml. Every axis matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1300,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'simple', 'запах', 'trixie 750' - no Simple'n'Clean spray (750 hits are bottles/bowls/750 g litter deodorant powder)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/simplenclean-ցողարկիչ-կատուների-համար-հոտի-դեմ",
+    "price": 4650,
+    "old_price": null,
+    "name": "Simple’n’Clean ցողարկիչ կատուների համար՝ հոտի դեմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; Simple'n'Clean odour spray for cats, 'Պարունակություն՝ 750մլ' = 750 ml. Matches hafo 42407Tx."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 706,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби|matatabi', 'trixie спрей' - only 'Trixie Спрей с мататаби для кошек, 50 мл' (1650, out of stock): 50 ml is not 175 ml. Nearest candidate."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches 'մաթատաբի|մատատաբի|matatabi', 'մաթատաբիով', 'սփրեյ|spray', 'ցողարկիչ կատուների', '175 մլ' - no matatabi spray."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 707,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби|matatabi', 'lolly|леденец|чупа' - only matatabi ball 4 cm, spray 50 ml and Premio Lolly dog treat. No Matatabi Lolly."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չուպաչուպս-կատուների-համար-մենթոլով-և-մաթատաբիով",
+    "price": 1850,
+    "old_price": null,
+    "name": "Չուպաչուպս կատուների համար՝ մենթոլով և մաթատաբիով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; product tag '42430tx' = our article 42430; 'Չափ՝ 11սմ' = 11 cm; name matches hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 708,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби', 'перо|перь|feather' - no matatabi feather toy."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'մաթատաբիով', 'փետուր', 'բերանի' - nearest 'Trixie, մաթատաբիով խաղալիք' (1450) is a wooden 4x5 cm toy with menthol ball, not the 20 cm feather game; GiGwi feather teasers are other brands."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 709,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби', 'lolly|леденец' - none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-սրտիկ-խաղալիք-կատուների-համար-մաթատաբիով-և-անանուխով",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, սրտիկ-խաղալիք կատուների համար՝ մաթատաբիով և անանուխով",
+    "in_stock": true,
+    "evidence": "Trixie heart-shaped cat toy with matatabi and mint/menthol, oral hygiene, 23 cm = Matatabi Lolly Heart 23 cm (42441); price equals hafo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 710,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби', 'мышь|мыш' - only catnip mice; no Matatabi Lolly Mouse."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-մկնիկ-խաղալիք-կատուների-համար-մաթատաբիով-և-անանուխով",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, մկնիկ-խաղալիք կատուների համար՝ մաթատաբիով և անանուխով",
+    "in_stock": true,
+    "evidence": "Trixie mouse-shaped cat toy with matatabi and mint, oral hygiene, 20 cm = Matatabi Lolly Mouse 20 cm (42442); price equals hafo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 711,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби|matatabi', 'lolly' - none."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'մատատաբի' - nearest 'Մատատաբի փայտիկ՝ կատվախոտի գնդիկով՝ կատուների համար' (2100) but page manufacturer is Triol and its tags are 'Triol Natural matatabi toy'; no size given - not Trixie Lolly XXL 13.5 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 712,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/igrushki/myshki/trixie-igrushka-dlya-koshek-mysh-s-koshachej-myatoj-2-sht",
+    "price": 1150,
+    "old_price": null,
+    "name": "Trixie Игрушка для кошек Мышь с кошачьей мятой (2 шт)",
+    "in_stock": true,
+    "evidence": "Trixie set of two mice made of pressed catnip (description), 2 pcs = Set of Catnip Mice 2 pcs (45749); price equals hafo 1150. Size (5 cm) not stated on page; the other Trixie catnip mouse (7 cm, single) is a different item."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կատվախոտից-պատրաստված-մկնիկներ-կատուների-համար",
+    "price": 1150,
+    "old_price": null,
+    "name": "Կատվախոտից պատրաստված մկնիկներ՝ կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; mice made entirely of catnip, 'Պարունակությունը՝ 2 հատ' = 2 pcs; matches hafo row name; size not stated."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 715,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'полотенце|towel', 'trixie халат|полотенце|махров' - none."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'սրբիչ', 'խոնավ|ներծծող', 'մանրաթել' - no Trixie towel."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 716,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'халат|bathrobe' - none."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'խալաթ', 'լոգանք', 'վերմակ', 'բամբակյա' - only Lorient/Vimy raincoats (other products); no Trixie bathrobe XS."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1301,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'халат|bathrobe' - none."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'խալաթ', 'լոգանք', 'վերմակ' - only Lorient/Vimy raincoats; no Trixie bathrobe S."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 721,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'лап|paw': nearest 'Trixie Чистящее средство для лап с силиконовой щеткой, S-M' (3400, out of stock) - size S-M, not our M-L."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'թաթ', 'մաքրող', 'սիլիկոն', 'մերս' - no paw cleaner (only creams/balms)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 725,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'premio паштет|pate', 'паштет', 'trixie 110' - only cat Premio poultry pâté 75 g; no dog liver pâté 110 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-premio-պաշտետ",
+    "price": 1950,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների PREMIO` պաշտետ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: dog treat, liver (լյարդի), 'Քաշը՝ 110գ' = Premio Pâté liver 110 g. (Liver XXL 300 g at 3750 and puppy 75 g are other items.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1392,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'бекон|bacon|печен', 'паштет' - none."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'բեկոն|bacon|бекон', 'premio', 'պաշտետ' - Premio dog pâtés listed: liver, beef, chicken, lamb, salmon, puppy; no bacon. Nearest: liver 110 g (1950)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1393,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'паштет', 'premio' - no dog lamb pâté."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-premio-գառան-պաշտետ",
+    "price": 2350,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար PREMIO` գառան պաշտետ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; dog Premio pâté, lamb flavour, 'Պարունակություն՝ 110 գ' = 110 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 728,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/dlya-vyvedeniya-shersti-1/trixie-malt-paste-malt-pasta-dlya-vyvedeniya-shersti-iz-geludka-dlya-koshek-100-g",
+    "price": 2400,
+    "old_price": null,
+    "name": "Trixie Malt Paste Мальт паста для выведения шерсти из желудка для кошек, 100 г",
+    "in_stock": false,
+    "evidence": "Trixie Malt Paste for cats, 100 g = Cat Malt 100 g (4220). Page: 2400, 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մածուկ-ածիկ-կատուների-համար",
+    "price": 2400,
+    "old_price": null,
+    "name": "Մածուկ (ածիկ) կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; malt paste for cats, 'Քաշը՝ 100գ', hairball prevention = Cat Malt 100 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 729,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-pashtet-premio-s-ptitsej-dlya-koshek-75-g",
+    "price": 1750,
+    "old_price": null,
+    "name": "Trixie Паштет Premio с птицей для кошек, 75 г",
+    "in_stock": true,
+    "evidence": "Trixie Premio pâté for cats, poultry, 75 g - every axis matches (42728). In stock."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'պաշտետ կատուների', 'թռչնամս', 'premio' - Premio cat items are sticks/bites only; no Premio cat poultry pâté 75 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 954,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'миска 0.2|15 см', 'trixie миска металл|нержав', 'trixie миска 0.2' - Trixie steel bowls only 0.3 l/12 cm, 0.4 l/17 cm, 1.4-2 l; no 0.2 l/15 cm."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie list 'չժանգոտվող', 'պողպատյա կերաման' - nearest 'Պողպատյա կերաման ռետինե տակդիրով' (1350) is 0.2 l but 16 cm with black rubber base; others 0.2 l/12 cm green (1550), 0.2 l/13 cm (700), 0.5 l/14 cm. No 0.2 l/15 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 955,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/oshejniki-shlejki/shlejki-1/trixie-y-obraznaya-shlejka-dlya-koshek-39-60-sm-10-mm",
+    "price": 8250,
+    "old_price": null,
+    "name": "Trixie Y-образная шлейка для кошек, 39–60 см, 10 мм",
+    "in_stock": true,
+    "evidence": "Trixie Y-harness for cats, breathable mesh, with elastic ~1 m lead, chest 39-60 cm, 10 mm = Mesh Y-Harness with Lead 39-60 cm/10 mm (41890); price equals hafo 8250. Colour on page: light blue (our row names none)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'շլեյկա', 'լանջափոկ', '39-60', 'Y-աձև', 'ցանցավոր' - Trixie cat harness+lead sets are 21-33 cm/8 mm and 22-36 cm/10 mm nylon; no mesh Y-harness 39-60 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 956,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'бандана|nordic', 'trixie bandana|платок' - BE NORDIC items are collars/bowls/treats; no bandana collar."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Վզնոց-բանդանա', 'nordic' - Trixie bandana collars there are plain nylon in size ranges (XS 19-24, XS-S 25-31, S-M 30-38 cm...) in blue/pink/green/grey, not BE NORDIC; nearest S-M blue nylon (2550). No BE NORDIC bandana S 30 cm dark blue."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1268,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'бандана|nordic' - no BE NORDIC bandana collar."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Վզնոց-բանդանա', 'nordic' - no BE NORDIC bandana; nearest Trixie nylon bandana collar (grey) S-M 30-38 cm (3100) - different line/size."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1269,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'бандана|nordic' - no BE NORDIC bandana collar."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Վզնոց-բանդանա', 'nordic' - no BE NORDIC bandana; nearest Trixie nylon bandana collar (grey) M-L 43-55 cm (4000) - different line/size."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 960,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'перестежка|premium', 'поводок xs' - only 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м/15 мм' (4450): violet, plain nylon (no double layer); not aqua."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'ձգափոկ xs-s', 'կարգավորվող', 'aqua' - nearest 'Ձգափոկ նեյլոնե երկնագույն XS-S' (Trixie, 2 m/15 mm, sky-blue, 4150): plain nylon lead, not stated adjustable/double-layered and colour 'sky blue' not aqua; no match."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1721,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet nearest 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м/15 мм' (4450): colour violet, not light lilac, and page describes a plain nylon lead (no double layer); price far below hafo 5700 - treated as a different item."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'ձգափոկ xs-s', 'մանուշակագույն', 'կարգավորվող' - no light-lilac XS-S adjustable lead; only sky-blue nylon XS-S and black leads."
+   },
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,470 @@
+{
+ "results": [
+  {
+   "variant_id": 323,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (игрушка Denta Fun, кость, каучук; nearest only Denta Fun treats (Chips, Rolls, косточка 5 см) - different product type); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-ոսկոր",
+    "price": 4100,
+    "old_price": null,
+    "name": "Denta Fun -ոսկոր",
+    "in_stock": true,
+    "evidence": "nemo live search for article 34847 returns it; page: 'Չափսը՝ 14սմ', natural rubber (կաուչուկ) bone, mint flavour, dental - same Denta Fun 14 cm rubber bone as hafo row"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 324,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (мяч лапки (only Triol Мяч-лапки 70/80 мм), Trixie мяч list - no 6 cm paw ball); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/թաթիկներով-գնդակ",
+    "price": 2300,
+    "old_price": null,
+    "name": "Թաթիկներով գնդակ 6 սմ",
+    "in_stock": true,
+    "evidence": "nemo search for article 34861 returns it; name 'ball with paws 6 cm', natural rubber, squeaks; matches hafo row 'ռետինե գնդակ 6սմ թաթիկներով' (same slug tatiknerov-gndak)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 325,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (гантель/dumbbell/snack; nearest Trixie гантель светящаяся 18 см (different model)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մարզագունդ-կերերի-համար-2",
+    "price": 1250,
+    "old_price": null,
+    "name": "Մարզագունդ կերերի համար",
+    "in_stock": true,
+    "evidence": "nemo search for article 34930 returns it; page: rubber dumbbell to fill with dry food, 'Չափս՝ 12 սմ' - same as hafo SnackHantel 12 cm (hafo slug marzagund-kereri-hamar)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 326,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (змея/snake/Snack-Snake - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: article 34950 and EAN return nothing; searched 'օձ', 'Snack-Snake', 'հյուրասիրության', 'թերմոպլաստիկ'. Nearest: 'Խաղալիք օձ՝ Snack-Snake, հյուրասիրության համար' 4500 AMD (page says 42 cm = hafo 34949, other size) and a 59 cm snake - neither is 18 cm"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 327,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (курица/петух игрушка, латекс; nearest Nunbell курица (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շան-խաղալիք-ռետինե-հավիկի-տեսքով",
+    "price": 1250,
+    "old_price": null,
+    "name": "Շան խաղալիք ռետինե հավիկի տեսքով",
+    "in_stock": true,
+    "evidence": "nemo search for article 35091 returns it; page: latex, squeaks, 'Չափս՝ 15 սմ' (sibling pages -3 = 47 cm, -4 = 23 cm)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 328,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (курица латекс 47 см - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շան-խաղալիք-ռետինե-հավիկի-տեսքով-3",
+    "price": 4450,
+    "old_price": null,
+    "name": "Շան խաղալիք ռետինե հավիկի տեսքով",
+    "in_stock": true,
+    "evidence": "nemo search for article 3539 returns it; page: 'Չափս՝ 47 սմ', latex, squeaks"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 329,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (свинья/поросенок/хрюшка - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շան-խաղալիք-ռետինե-խոզուկի-տեսքով",
+    "price": 1200,
+    "old_price": null,
+    "name": "Շան խաղալիք ռետինե խոզուկի տեսքով",
+    "in_stock": true,
+    "evidence": "nemo search for article 35092 returns it; manufacturer Trixie, latex, squeaks, 'Չափս՝ 13 սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 330,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (утка латекс; nearest Triol Утка 245 мм (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շան-խաղալիք-ռետինե-բադի-տեսքով",
+    "price": 1250,
+    "old_price": null,
+    "name": "Շան խաղալիք ռետինե բադի տեսքով",
+    "in_stock": true,
+    "evidence": "nemo search for article 35093 returns it; latex, squeaks, 'Չափս՝ 14 սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 331,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (морская звезда; nearest Trixie коврик лизательный звезда 23.5 см (lick mat, not a toy)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ծովային-աստղ-խաղալիք-շների-համար",
+    "price": 3300,
+    "old_price": null,
+    "name": "«Ծովային աստղ» խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "nemo search for article 3516 returns it; starfish toy for dogs, latex, squeaks, polyester filling, 'Չափս՝ 23սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 334,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (свинья латекс 20 см - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խոճկոր",
+    "price": 5200,
+    "old_price": null,
+    "name": "Խոճկոր",
+    "in_stock": true,
+    "evidence": "nemo search for article 35185 returns it; manufacturer Trixie, latex piglet with polyester filling, 'Չափս՝ 20 սմ' (hafo slug xochkor)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 335,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (свинья с щетиной - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մազիկներովձայն-հանող-խոզուկ",
+    "price": 1750,
+    "old_price": null,
+    "name": "Մազիկներով`Ձայն հանող խոզուկ",
+    "in_stock": true,
+    "evidence": "nemo search for article 35190 returns it; latex pig with bristles, oinks, 'Չափսը՝ 10սմ' (hafo slug maziknerov-dzayn-hanox-xozuk)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 336,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (лиса латекс; nearest Triol Лисица латекс 245 мм (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-աղվես-17-սմ-լատեքս",
+    "price": 3500,
+    "old_price": null,
+    "name": "Խաղալիք շների՝ աղվես 17 սմ /լատեքս",
+    "in_stock": true,
+    "evidence": "nemo search for article 35197 returns it; manufacturer Trixie, latex fox, 'Չափսը՝ 17 սմ' - name identical to hafo row"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 337,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (динозавр; nearest Triol Динозаврик латекс 180 мм (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-դինոզավր-14-սմ-լատեքս",
+    "price": 3500,
+    "old_price": null,
+    "name": "Խաղալիք շների՝ դինոզավր, 14 սմ /լատեքս",
+    "in_stock": true,
+    "evidence": "nemo search for article 35199 returns it; 'TRIXIE' latex dinosaur, 'Չափսը՝ 14 սմ' - name identical to hafo row"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 338,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (цыплята/chick - none (only treats, Triol Спящий цыпленок)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ճուտիկներ-խաղալիք-շների-համար",
+    "price": 2100,
+    "old_price": null,
+    "name": "Ճուտիկներ - խաղալիք շների համար 14 սմ",
+    "in_stock": true,
+    "evidence": "nemo search for article 35267 returns it; latex chicks, squeak, 14 cm in name - same title as hafo TX 352671 (17 cm sibling is a separate hafo row)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 339,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (гусеница - only Rosewood rodent toy); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/թրթուր-խաղալիք-շների-համար",
+    "price": 5950,
+    "old_price": null,
+    "name": "Թրթուր - խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "found by Armenian name 'թրթուր' (same title as hafo TX 353301); manufacturer Trixie, latex, squeaks, polyester filling, 'Չափս՝ 26 սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 340,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (кабан; nearest Triol Кабан хрюкающий 170 мм (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վարազ-խաղալիք-շների-համար-2",
+    "price": 4450,
+    "old_price": null,
+    "name": "Վարազ - խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "nemo search for article 35497 returns it; latex, polyester filling, '18 սմ' (sibling -3 is 25 cm at 7150)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 341,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (обезьяна; nearest Triol PUPPY Обезьянка 150 мм (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-լատեկսից-կապիկ",
+    "price": 4200,
+    "old_price": null,
+    "name": "Խաղալիք՝ լատեկսից կապիկ",
+    "in_stock": true,
+    "evidence": "nemo search for article 35511 returns it; latex monkey, squeaks, 'Չափսը՝ 25սմ' - same title as hafo"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 342,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (капуста/свинья - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-կաղամբ-խոզուկ-խաղալիք-շների-համար",
+    "price": 4500,
+    "old_price": null,
+    "name": "Trixie, կաղամբ-խոզուկ խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "nemo search for article 35522 returns it; manufacturer Trixie, cabbage-pig, natural rubber; title identical to hafo 35522 title. Page text says 'Չափս՝ 22 սմ' vs hafo row 23 cm - same article, size rounding differs"
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 343,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (обезьяна 12 см - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-լատեքսից-կապիկներ-շների-համար",
+    "price": 3450,
+    "old_price": null,
+    "name": "Trixie, լատեքսից կապիկներ շների համար",
+    "in_stock": true,
+    "evidence": "nemo search for article 35523 returns it; manufacturer Trixie, latex monkey, squeaks, 'Չափս՝ 12 սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 345,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (ленивец/sloth - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-խաղալիք-համրուկ-շների-համար-56-սմ",
+    "price": 5850,
+    "old_price": null,
+    "name": "Trixie, խաղալիք համրուկ շների համար, 56 սմ",
+    "in_stock": true,
+    "evidence": "nemo search for article 35671 returns it; Trixie plush sloth (համրուկ), polyester, 56 cm"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 346,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (сурикат/мангуст - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փափուկ-խաղալիք-շների-համար-մանգուստ",
+    "price": 6500,
+    "old_price": null,
+    "name": "Փափուկ խաղալիք շների համար՝ մանգուստ",
+    "in_stock": true,
+    "evidence": "nemo search for article 35672 returns it; manufacturer Trixie, plush, squeaks, 40 cm"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 347,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (коала; nearest Triol Коала 155/290 мм (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-փափուկ-կտորից-կոալա",
+    "price": 5450,
+    "old_price": null,
+    "name": "Խաղալիք՝ փափուկ, կտորից կոալա",
+    "in_stock": true,
+    "evidence": "nemo search for article 35673 returns it; manufacturer Trixie, plush koala, 'Չափսը՝ 33 սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 348,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (альпака/лама; nearest Triol Крошка-Лама 85 мм (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-լամա",
+    "price": 4450,
+    "old_price": null,
+    "name": "Խաղալիք շների համար՝ լամա",
+    "in_stock": true,
+    "evidence": "nemo search for article 35677 returns it; manufacturer Trixie, plush llama, 'Չափս՝ 22 սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 349,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (канат/веревка с мячом; Trixie rope toys listed are веревка с узлом 32 см, веревочный мяч 7/20 и 8x30 см - none is the 8/38 cm woven-in ball); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: article 35697 and EAN return nothing; searched 'պարան', 'գնդակով', 'հյուսված', 'բռնակով'. Nearest: 'Գնդակով պարան' 3550 (7 x 36 cm = hafo 3267, other model), 'Հյուսված պարան' 1850 (6/23 cm), 'Denta Fun գնդակով պարան' 2950 (7/24 cm) - none is the 8/38 cm woven-in ball rope"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 350,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (овечка/ягненок; nearest Triol Барашек/Овечка (other brand)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գառնուկ-փափուկ-խաղալիք-շների-համար",
+    "price": 3100,
+    "old_price": null,
+    "name": "Գառնուկ- փափուկ խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "nemo search for article 35796 returns it; manufacturer Trixie, plush lamb, squeaks, 'Չափս՝ 14 սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 351,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (гриф/стервятник - none); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-անգղ",
+    "price": 4950,
+    "old_price": null,
+    "name": "Խաղալիք շների՝ անգղ",
+    "in_stock": true,
+    "evidence": "nemo search for article 35806 returns it; plush/fabric vulture for dogs, 'Չափս՝ 32սմ'"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 352,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (утка плюш/веревка - none (Triol only)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-պարանից-բադիկ",
+    "price": 2650,
+    "old_price": null,
+    "name": "Խաղալիք շների համար՝ պարանից բադիկ",
+    "in_stock": true,
+    "evidence": "nemo search for article 35812 returns it; manufacturer Trixie, plush/fabric with rope, squeaks, 15 cm"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 353,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched article code, EAN, the full Trixie brand list (~350 rows) and Russian/English terms (кролик/заяц; nearest Trixie Игрушка мягкая кролик с пищалкой 28 см (other size/model, out of stock)); no matching Trixie item listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-փափուկ-bunny",
+    "price": 5050,
+    "old_price": null,
+    "name": "Խաղալիք փափուկ՝ Bunny",
+    "in_stock": true,
+    "evidence": "nemo search for article 35886 returns it; plush (polyester) bunny, squeaks, 38 cm"
+   },
+   "confidence": "high"
+  }
+ ]
+}

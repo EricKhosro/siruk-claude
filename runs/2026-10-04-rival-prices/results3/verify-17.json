@@ -1,0 +1,413 @@
+{
+ "results": [
+  {
+   "variant_id": 571,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none (zoovet has no Trixie rubber brush 8x13; Gamma/Triol/Nunbell brushes only)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No Trixie 8x13 rubber care brush. Nearest nemo item: 'Խոզանակ' (5x10 natural rubber, 1500, no image), a different size."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 572,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). Nearest nemo item: 'Trixie, մերսող խոզանակ կենդանիների համար' (3150). It is 11x14 cm, blue and single-sided. Ours (2334) is 12x14 cm, black and double-sided, so the model, size and colour differ."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 573,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: Trixie massage glove 18x24 (different size/model)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No 14x25 silicone-nub glove on nemo. nemo's gloves are 18x24 (Trixie 23392 at 3700, an untagged 23391-type at 2100), a 16x24 five-finger glove (2550), Nunbell and VET-0008."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 574,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No Trixie 8x13 massage brush. Nearest nemo item: 'Խոզանակ' 5x10 rubber (1500), a different size."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 575,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. Checked the 18x24 zoovet glove photo myself: mesh glove with turquoise rubber nubs = Trixie 23391 (massage & shine), not 23392 (wire pins). zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: zoovet 'Trixie Перчатка для массажа и придания лоска 18 x 24 см' (ME-00001539, 2100, out of stock) — its description is mesh + 'очень мягкие резиновые пупырышки' (the massage & shine glove); our 23392 / EAN 4011905233925 is the wire-bristle fur care glove — different model"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մազահեռացնող-ձեռնոց-2",
+    "price": 3700,
+    "old_price": null,
+    "name": "Մազահեռացնող ձեռնոց",
+    "in_stock": true,
+    "evidence": "Manufacturer is Trixie. The description reads 'mesh material, metal pins, coat types 4/6, size 18 x 24 cm', which is Trixie 23392, the wire-pin fur care glove, and the photo shows the Trixie wire-pin glove. 3700 equals the hafo/siruk 23392 price. The matcher missed it (it claimed nemo sells no Trixie gloves). The untagged 2100 'Մազահեռացնող ձեռնոց' (soft rubber nubs, 18x24) is the 23391 massage & shine glove, not ours."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "nemo: Trixie 23392 glove found at 3700"
+  },
+  {
+   "variant_id": 576,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: zoovet massage glove 18 x 24 cm (different size and model)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մազահեռացնող-և-մերսող-ձեռնոց-2",
+    "price": 2550,
+    "old_price": null,
+    "name": "Մազահեռացնող և մերսող ձեռնոց",
+    "in_stock": true,
+    "evidence": "No manufacturer tag, but the photo matches Trixie PHO_PRO_CLIP_23393-1 (five-finger mesh glove with soft blue rubber nubs, dark grey/blue). Description: for dogs, mesh, fastens at the wrist, coat types 4/5, 'Չափս 16 × 24 սմ'. 2550 equals the hafo 23393 price. The matcher missed it."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "nemo: Trixie 23393 glove found at 2550"
+  },
+  {
+   "variant_id": 577,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No wooden-handle soft brush with cleaner at 6x13 on nemo. Nearest: Trixie 'Խոզանակ սանր' wooden nylon 5x18 (1250), a different item."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 1297,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No wooden-handle soft brush with cleaner at 9x13 on nemo. Nearest: Trixie 'Խոզանակ սանր' wooden nylon 5x18 (1250), a different item."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 579,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No nickel-plated soft brush + comb set at 11x14. Nearest: the untagged 'Սանր ռետինե բռնակով, մետաղական ատամիկներով' in S/M/L (7x16/9x16/12x16), a different model and size."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 580,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/kosmetika/kogterezy-1/trixie-nognitsy-kogterez-dlya-koshek-i-melkih-givotnyh",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie Ножницы-когтерез для кошек и мелких животных",
+    "in_stock": false,
+    "evidence": "ME-00008998, 1800, 'Под заказ'. Despite the 'когтерез' name, the photo matches Trixie's packshot PHO_PRO_CLIP_2360-1 (Face and Paw Scissors: straight blades with rounded tips, grey/turquoise handles). The description is the 2360 text ('с закругленными кончиками во избежание травм, металл, пластиковая ручка с нескользящей резиновой'), and the price equals hafo's 2360 row (1800). zoovet prints no size; 2360 is Trixie's only scissors of this design. The matcher missed it (it assigned this listing to 2373)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մկրատ-դեմքի-և-թաթերի-համար",
+    "price": 1850,
+    "old_price": null,
+    "name": "Մկրատ դեմքի և թաթերի համար",
+    "in_stock": true,
+    "evidence": "No manufacturer tag, but the photo shows the Trixie 2360 face & paw scissors (grey/turquoise handles, straight blades, rounded tips), the same model as trixie.es PHO_PRO_CLIP_2360-1. Description: 9 cm, for dogs/cats/small animals, for face and paw hair, rounded edges, stainless. This fits hafo's row 'Մկրատ 9 սմ կլորացված եզրերով'. nemo's 'Մկրատ թաթերի համար Nunbell' (1950) has the same text but a different Nunbell photo. Medium confidence: nemo prints 9 cm (as hafo does); Trixie lists 8 cm."
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "zoovet: found ME-00008998 (1800, out of stock), Trixie 2360 by its packshot; nemo: Trixie 2360 found at 1850"
+  },
+  {
+   "variant_id": 581,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: zoovet 'Расчёска-триммер зеленая 6 x 15 см' (different model)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No Trixie 19 cm trimming knife on nemo. Trixie 'Սանր-Տրիմեր' 7x15/8x14/11x15 are trimmer combs with replaceable heads, a different item."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 582,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kogterezy/trixie-kogterezy-kusachki-dlya-koshek-i-sobak-i-melkih-givotnyh-12-5-sm",
+    "price": 4050,
+    "old_price": null,
+    "name": "Trixie Когтерезы-кусачки для кошек и собак и мелких животных, 12.5 см",
+    "in_stock": true,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. Confirmed: page price 4050, 'В наличии · 1 шт', no options. The photo matches Trixie PHO_PRO_CLIP_2367-1 (claw clippers with stopper), and 4050 equals the hafo 2367 price. Page (ME-00001489, 'В наличии · 1 шт', 4050): claw clippers with safety lock + adjustable stopper, stainless steel, plastic handles with non-slip rubber — the exact feature list of Trixie 2367 (EAN 4011905023670, 12 cm, for small dogs/cats/small animals/birds); photo shows the dark grey/blue Trixie stopper clipper. zoovet labels it 12.5 cm vs Trixie's 12 cm (rounding; no 12.5 cm Trixie model exists); price equals hafo's 4050. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No Trixie 12 cm claw clippers with stopper. nemo's 12 cm 'Մկրատ-կենդանիների համար' (2450) and 'Մկրատ-խարտոց ... փոքր' (1800) show 'Pet Grooming Tools' packs in green/orange/pink, so they are other brands."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right (the zoovet 4050 Trixie 2367 claw clippers are confirmed on the page). The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 583,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մկրատ-կլոր-ծայրերով-չժանգոտվող-պողպատից",
+    "price": 6550,
+    "old_price": null,
+    "name": "Մկրատ՝ կլոր ծայրերով, չժանգոտվող պողպատից",
+    "in_stock": true,
+    "evidence": "The name is word-for-word hafo's 23692 row. Description: rounded tips, adjustment screw, stainless steel, 13 cm. The photo matches Trixie PHO_PRO_CLIP_23692-1 (all-steel scissors), and 6550 equals the hafo price. The manufacturer tag is empty. The matcher missed it."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "nemo: Trixie 23692 found at 6550"
+  },
+  {
+   "variant_id": 584,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet's 'Когтерез-гильотина ... 14 см' (3400) photo shows a black/turquoise plastic guillotine, a different model and size from the 11 cm chrome 2370. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: zoovet 'Когтерез-гильотина ... 14 см' (14 cm, not 11 cm)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/եղունգկտրիչ-մկրատ-կենդանիների-համար-2",
+    "price": 2450,
+    "old_price": null,
+    "name": "Եղունգկտրիչ-մկրատ կենդանիների համար",
+    "in_stock": true,
+    "evidence": "No manufacturer tag. The description is the Trixie 2370 text in Armenian (guillotine claw clippers for dogs, cats and small animals, especially for small dog breeds, metal cutting part that can be disinfected, sharp edges) with 'Չափս՝ 11 սմ'. The photo shows the same chrome guillotine with curved black handles as Trixie PHO_PRO_CLIP_2370, from another angle. 2450 equals the hafo 2370 price. Medium-high confidence. The matcher missed it."
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "nemo: Trixie 2370 guillotine found at 2450"
+  },
+  {
+   "variant_id": 585,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: zoovet 'Когтерезы-кусачки 12.5 см' (= art. 2367, not the 13 cm 2371)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No Trixie 13 cm claw scissors. nemo's 14 cm and 15 cm 'Մկրատ-խարտոց' clippers are other brands (Pet Grooming Tools / Nail cutter packs)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 586,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. REFUTED the matcher's ME-00008998 'Trixie Ножницы-когтерез для кошек и мелких животных' (1800). Its photo matches Trixie's own packshot PHO_PRO_CLIP_2360-1 (Face and Paw Scissors: straight blades, ball/rounded tips, grey/turquoise), not 2373 (claw scissors with a semicircular claw notch). Its description 'С закругленными кончиками' is the 2360 text, and its price of 1800 equals hafo's 2360 price (2373 is 1950). zoovet has no other Trixie claw scissors."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մկրատ-փոքր-կենդանիների-համար-3",
+    "price": 1950,
+    "old_price": null,
+    "name": "Մկրատ փոքր կենդանիների համար",
+    "in_stock": true,
+    "evidence": "No manufacturer tag, but the photo shows the current Trixie 2373 claw scissors (black/turquoise handles, semicircular claw notch), matching the Trixie PHO_PRO_CLIP_2373 images. Description: claw-cutting scissors for small dogs, cats and birds, stainless steel, plastic handles, 8 cm. 1950 equals the hafo 2373 price. The matcher missed it."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "zoovet: the matcher's item is Trixie 2360 face & paw scissors, not 2373 claw scissors; nemo: Trixie 2373 found at 1950"
+  },
+  {
+   "variant_id": 587,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: zoovet колтунорезы 7x18 см (different product)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). Nearest: Trixie 'Կարճ ատամներով սանր' 22 cm (3100). Its photo shows an older black comb with an orange ring, not the grey/blue 23764 fine-teeth comb, so the model differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 588,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). Nearest: Trixie 'Կարճ ատամներով սանր' 22 cm (3100, the same price as ours). Its photo shows an older black comb with an orange ring and even short teeth, not the grey/blue 23767 combi-comb with alternating teeth, so the model differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 589,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest: zoovet колтунорезы 7x18 см (different product)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No grey/blue 22 cm coat untangler. Nearest: Trixie 'Կարճ ատամներով սանր' 22 cm (black/orange comb), a different item."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 590,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No grey/blue 22 cm coat untangler combi-comb. Nearest: Trixie 'Կարճ ատամներով սանր' 22 cm, a different item."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 591,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). Nearest: nemo 'Երկշարք սանր խիտ ատամներով' (6150, Trixie 'Metall-Striegel' pack, double row, 11x15 cm). It is an older Trixie metal rake at 11x15 rather than 10x15, a different model."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 592,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). Nearest: nemo 'Երկշարք սանր խիտ ատամներով' (6150, Trixie Metall-Striegel, 11x15 cm, black handle), a different model and size."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 593,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No 7x14 long-hair coat untangler. Trixie 'Ունիվերսալ սանր «Колтунорез»' in 5x18/7x18 are mat splitters, a different item and size."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 594,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No 10x15 short-hair coat untangler. Nearest: the Trixie metal rake 11x15 (6150) and the Колтунорез 7x18, both different items."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 596,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Verifier nemo searches: live search սանր/մկրատ/ձեռնոց/խոզանակ/եղունգ/կտրիչ/ֆուրմ/մերս + full crawl of nemo grooming categories (սանրֆուրմինատոր, սանրֆուրմինատոր-2, թաթերի-խնամքի-պարագաներ-մկրատներ(-2), խնամքի-պարագաներ; 212 items, every page opened for manufacturer + description; nemo lists 43 Trixie-tagged grooming items there plus several untagged Trixie items, so the matcher's 'nemo sells no Trixie combs/brushes/gloves/scissors' is wrong). No double-row metal comb with a 17 cm wooden handle. nemo's 'Երկկողմանի սանր' 5x17 wooden (1850) is a double-sided pin/bristle BRUSH, not the 2396 comb."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: no exact match on either shop, so the matcher is right. The matcher's general claim that nemo carries no Trixie grooming tools is wrong, but none of nemo's items matches this variant."
+  },
+  {
+   "variant_id": 597,
+   "zoovet": {
+    "found": false,
+    "evidence": "Verifier zoovet: today's Trixie brand list re-checked (grooming items: Ножницы-когтерез ME-00008998, Когтерезы-кусачки 12.5 см, Когтерез-гильотина 14 см, Колтунорезы 7x18 (2), Расчёска-триммер 6x15, Перчатка для массажа и придания лоска 18x24, фен); zoovet live search timed out today. No zoovet item matches every axis. zoovet searches: Trixie brand list (all grooming/kosmetika URLs reviewed), щетка|щётка|расческа, ножницы|когтерез, перчатка, гребень|колтун|пуходерка, массаж, блох, trixie brush|comb, article codes; zoovet carries only these Trixie grooming tools: ножницы-когтерез (2373), когтерезы-кусачки 12.5 см (2367), когтерез-гильотина 14 см, колтунорезы 7x18 см, расчёска-триммер 6x15 см, перчатка массажная 18x24 (soft rubber nubs), фен 380 W. nearest none"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-նախատեսված-ոջիլների-և-կեղտի-մաքրման-համար",
+    "price": 4800,
+    "old_price": null,
+    "name": "Սանր՝ նախատեսված ոջիլների և կեղտի մաքրման համար",
+    "in_stock": true,
+    "evidence": "Manufacturer is Trixie, and the name is hafo's 2401 row word for word. Description: metal, 6 cm. The photo matches Trixie PHO_PRO_CLIP_2401-1 (all-metal flea comb), and 4800 equals the hafo price. The other nemo item, 'Սանր՝ նախատեսված ոջիլների մաքրման համար' (2200), is 7 cm with a plastic/rubber handle, so it is not ours. The matcher missed it."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "nemo: Trixie 2401 found at 4800"
+  }
+ ]
+}

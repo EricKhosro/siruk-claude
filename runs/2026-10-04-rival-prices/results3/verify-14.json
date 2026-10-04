@@ -1,0 +1,551 @@
+{
+ "results": [
+  {
+   "variant_id": 482,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie list, 'freeze|сублим|высушен', 'грудк', 31606/EAN: zoovet only has Trixie Freeze Dried CAT treats 25 g (liver/salmon, chicken/cheese, shrimp, hearts); no freeze-dried chicken breast 50 g for dogs. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-չորացված-հավի-կրծքամիս-ալերգիկ-շների-համար-50-գ",
+    "price": 2600,
+    "old_price": null,
+    "name": "Trixie, չորացված հավի կրծքամիս ալերգիկ շների համար, 50 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'freeze-dried chicken breast 99%, for allergic dogs, 50 g' = hafo row 31606 (allergic dogs, dried chicken breast, 50 g). [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 1391,
+   "zoovet": {
+    "found": false,
+    "evidence": "Same searches as 31606: zoovet has only Trixie Freeze Dried cat treats 25 g; no freeze-dried duck breast 50 g for dogs. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-չորացված-բադի-կրծքամիս-ալերգիկ-շների-համար-50-գ",
+    "price": 2600,
+    "old_price": null,
+    "name": "Trixie, չորացված բադի կրծքամիս ալերգիկ շների համար, 50 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'freeze-dried duck breast 99%, allergic dogs, 50 g' = hafo 31607. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 485,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-krendelki-kurinye-dlya-sobak-100-g",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio Крендельки куриные для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Description: 'Trixie Mini Pretzels кренделя с куриным мясом', chicken 69%, 100 g, dog = 31656 Premio Mini Pretzels chicken 100 g. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հավի-մսով-թխվածքաբլիթներ-100-գ",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie, հավի մսով թխվածքաբլիթներ, 100 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; same name as hafo's title for 31656; chicken 70%, glycerin, soy protein, tapioca (same recipe as zoovet's Mini Pretzels), 100 g. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 489,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-zvezdochki-kurinye-dlya-sobak-100-g",
+    "price": 2150,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio Звёздочки куриные для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Description: 'Trixie Premio Stars Chicken & Rice', chicken + rice, 100 g, dogs = 31667. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-premio-հավով-և-բրնձով-հյուրասիրություն-100-գ",
+    "price": 2150,
+    "old_price": null,
+    "name": "Trixie Premio, հավով և բրնձով հյուրասիրություն, 100 գ",
+    "in_stock": true,
+    "evidence": "Same name as hafo title for 31667; star-shaped, chicken 75% + rice 13%, 100 g. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 490,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-veganskie-kolechki-dlya-sobak-upakovka-1-3-kg",
+    "price": 4900,
+    "old_price": null,
+    "name": "Trixie Лакомство веганские колечки для собак, упаковка 1.3 кг",
+    "in_stock": false,
+    "evidence": "Vegan loops cookies for dogs; page option 'Упак (1,3 кг)' = 4900 (the 'На развес, 1 кг' option is 6000, not our pack). Pack listing out of stock. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/vegan-loops-բանջարեղենային-թխվախքաբլիթներ-1300-գ",
+    "price": 5980,
+    "old_price": null,
+    "name": "Vegan Loops, բանջարեղենային թխվախքաբլիթներ, 1.300 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; same name as hafo title for 31671 (Vegan Loops, 1.300 g). Nemo's 250 g loose listing (1150) not used. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 491,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-shariki-s-kuritsej-i-risom-dlya-sobak-80-g",
+    "price": 1350,
+    "old_price": null,
+    "name": "Trixie Лакомство шарики с курицей и рисом для собак, 80 г",
+    "in_stock": true,
+    "evidence": "Balls with chicken (77%) and rice (15%), 80 g, dogs = 31701 Balls with Rice, chicken 80 g. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սնեյք-շների-հավ-և-բրինձ",
+    "price": 1300,
+    "old_price": null,
+    "name": "Սնեյք շների հավ և բրինձ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; same name as hafo title for 31701; 'balls with chicken and rice, 77% chicken, 80 g'. (Nemo 'հավի մսով գնդիկներ' 75 g is a different item.) [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 1370,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-rice-duck-balls-s-utkoj-dlya-sobak-80-g",
+    "price": 1350,
+    "old_price": null,
+    "name": "Trixie Лакомство Rice Duck Balls с уткой для собак, 80 г",
+    "in_stock": true,
+    "evidence": "Premio Rice Duck Balls: duck (>=81%) + rice balls, 80 g = 31704. (Rice Duck Bones 1450 is the other item.) [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-բադի-միս-և-բրինձ",
+    "price": 1350,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար` բադի միս և բրինձ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; duck + rice, 81% meat (= Rice Duck Balls; the Bones are 84%), 80 g; name matches hafo row 31704. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 492,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-pasta-iz-kuritsy-dlya-sobak-100-g",
+    "price": 1850,
+    "old_price": null,
+    "name": "Trixie Лакомство Pasta из курицы для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Trixie Premio Pasta with chicken, 100 g, dogs = 31703. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-pasta-համեղ-պատառ-շների-համար",
+    "price": 1850,
+    "old_price": null,
+    "name": "«PREMIO Chicken Pasta» համեղ պատառ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; exactly hafo's title for 31703 (PREMIO Chicken Pasta), 100 g. Nemo's short text mentions a fish %, likely a copy error. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 494,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-hrustyaschee-s-utkoj-dlya-sobak-100-g",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio хрустящее с уткой для собак, 100 г",
+    "in_stock": false,
+    "evidence": "Premio crispy with duck (hafo title for 31705 is 'Crispy Duck'), duck 86%, 100 g, dogs. Out of stock. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/crispy-duck-համեղ-պատառ",
+    "price": 2000,
+    "old_price": null,
+    "name": "«Crispy Duck» համեղ պատառ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; same name as hafo title for 31705 ('Crispy Duck'), duck, 100 g. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 495,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie list, 'bagel|бублик|колечки', 'ягненк'. Only 'Premio колечки из ягненка и курицы, 1 шт' (350, a single ring = hafo 317071), not the 100 g bag. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-lamb-chicken-bagels-համեղ-պատառ-շների-համար",
+    "price": 2150,
+    "old_price": null,
+    "name": "«PREMIO Lamb Chicken Bagels» համեղ պատառ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; same as hafo title for 31707; lamb & chicken rings, 100 g. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 496,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/kolbaski-1/trixie-lakomstvo-rabbit-sticks-c-krolikom-dlya-sobak-100-g",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie Лакомство Rabbit Sticks c кроликом для собак, 100 г",
+    "in_stock": false,
+    "evidence": "Trixie Premio Rabbit Sticks, 95% rabbit, 100 g = 31709. Out of stock. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-rabbit-sticks-ձողիկներ-շների-համար",
+    "price": 1900,
+    "old_price": null,
+    "name": "«PREMIO Rabbit Sticks» ձողիկներ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; rabbit sticks, 95% meat, 100 g. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 1377,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-fish-chicken-sticks-dlya-sobak-80-g",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie Лакомство Fish Chicken Sticks для собак, 80 г",
+    "in_stock": true,
+    "evidence": "Trixie Premio Fish Chicken Sticks, 80 g = 31747 (twisted chicken & fish sticks 80 g). [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-fish-chicken-ոլորած-ձողիկներ",
+    "price": 1400,
+    "old_price": null,
+    "name": "«PREMIO Fish Chicken» ոլորած ձողիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; exactly hafo title for 31747; 80 g. (Nemo's '«Premio Fish Chicken» ստիկս' is 75 g - different.) [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 500,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-rice-duck-bones-s-utkoj-dlya-sobak-80-g",
+    "price": 1450,
+    "old_price": null,
+    "name": "Trixie Лакомство Rice Duck Bones с уткой для собак, 80 г",
+    "in_stock": false,
+    "evidence": "Premio Rice Duck Bones, duck + rice, 84% meat, 80 g = 31742. Out of stock. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-rice-duck-բադի-ոսկորներ",
+    "price": 1450,
+    "old_price": null,
+    "name": "«PREMIO Rice Duck» բադի ոսկորներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; exactly hafo title for 31742; bones, duck + rice, 84% meat, 80 g. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 503,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-corn-dogs-s-utkoj-dlya-sobak-100-g",
+    "price": 2250,
+    "old_price": null,
+    "name": "Trixie Лакомство Corn Dogs с уткой для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Trixie PREMIO Corn Dogs, duck, 100 g = 31749. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-բադեգիպտացորեն",
+    "price": 1900,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար՝ բադ/եգիպտացորեն",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; same as hafo row/title for 31749 (duck/corn, PREMIO); rawhide with duck, 56% meat, 100 g. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 505,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/lakomstvo-dlya-sobak-trixie-premio-carpaccio-chicken-stripes-300-g",
+    "price": 4000,
+    "old_price": null,
+    "name": "Trixie Лакомство Carpaccio Chicken Stripes с курицей и рыбой для собак, 300 г",
+    "in_stock": true,
+    "evidence": "Trixie 31803 / EAN 4011905318035 is 'PREMIO Fish Chicken Stripes, XXL Pack, 300 g' (chicken 65%, pollock 18%; geizhals/targapetshop/chevaleo). Trixie makes no 'Carpaccio' 300 g item - Carpaccio is only duck & fish 80 g (31804) / cat 20 g (42707) - so zoovet's 'Carpaccio Chicken Stripes с курицей и рыбой, 300 г' is its label for the chicken + fish stripes XXL 300 g: brand, chicken+fish recipe, stripes form and 300 g all match, and its 4000 equals hafo's 4000. Price/stock from today's saved zoovet list (zoovet.am unreachable at verify time, page not re-opened)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ձողիկներ-հավ-և-ձուկ",
+    "price": 4000,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար` ձողիկներ հավ և ձուկ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Premio Fish Chicken' sticks, 65% meat + 18% fish, 300 g; name = hafo title for 31803. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "Matcher rejected zoovet's 300 g 'Carpaccio Chicken Stripes с курицей и рыбой' as another line, but no Trixie Carpaccio 300 g exists; 31803 is Premio Fish Chicken Stripes XXL 300 g (chicken + pollock), which is what zoovet lists at 4000 (= hafo). Zoovet found 4000."
+  },
+  {
+   "variant_id": 506,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/lakomstvo-dlya-sobak-trixie-premio-carpaccio-with-duck-and-fish-80-g",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie Лакомство Carpaccio из утки и рыбы для собак , 80 г",
+    "in_stock": true,
+    "evidence": "Premio Carpaccio, thin strips of duck (65%) and fish (20%), 80 g, dogs = 31804. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'Carpaccio|կարպաչո', 'Premio', 'Սնեյք'. Nearest: 'PREMIO Carpaccio՝ սնեյք շների' 1100 - duck & fish but 40 g (different pack); also an XXL listing. No 80 g. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 508,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-be-nordic-balls-lakomstvo-shariki-iz-lososya-dlya-sobak-500-g",
+    "price": 5600,
+    "old_price": null,
+    "name": "Trixie Be Nordic Balls Лакомство шарики из лосося для собак, 500 г",
+    "in_stock": true,
+    "evidence": "Be Nordic salmon balls (salmon 67%), 500 g, dogs = 31865. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'Nordic', 'BE NORDIC', 'կլորակ', 'Balls', 'սաղմոն', '500 գ'. Nearest: 'Հյուրասիրություն շների Balls` հավի մսային գնդիկներ' 5600, 500 g - CHICKEN balls (81% chicken), not salmon / Be Nordic. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 510,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/igrushki-1/myachiki/trixie-igrushka-pletenyj-myach-iz-kauchuka-dlya-sobak-10-sm",
+    "price": 5150,
+    "old_price": null,
+    "name": "Trixie Игрушка плетеный мяч из каучука для собак, 10 см",
+    "in_stock": true,
+    "evidence": "Trixie woven (knotted) natural-rubber ball, 10 cm, colours yellow/red/green/blue (multi) = 32622 (hafo title 'Հյուսված ռետինե գնդակ (10 սմ)'). No article number on page. [verify: zoovet.am refused connections throughout this verify (TCP timeout, ~40 min of retries; WebFetch also refused), so zoovet was re-checked against today's saved zoovet lists in shops.json (Trixie list, 354 rows): list price and stock agree.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'գնդակ', 'Հյուսված', 'կաուչուկ', 'խաղալիք շների'. No Trixie knotted rubber ball; nearest 'Բնական կաուչուկից Գնդակ' 6 cm (different item/size). [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 511,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'веревк|верёвк|канат', '20 см'. Only Trixie 'веревка с узлом, 32 см' (1150, OOS) - different length/item. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'պարան', 'Հանգուցավոր|հանգույց', 'խաղալիք շների'. No Trixie playing rope for dogs (only bird ropes). [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 1250,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'веревк|верёвк|канат', '26 см'. Only Trixie 'веревка с узлом, 32 см' - different length. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'պարան', 'Հանգուցավոր', 'խաղալիք շների'. No Trixie playing rope 26 cm. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 1251,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'веревк|верёвк|канат', '37 см'. Only Trixie 'веревка с узлом, 32 см' - different length. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'պարան', 'Հանգուցավոր', 'խաղալիք շների'. No Trixie playing rope 37 cm. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 513,
+   "zoovet": {
+    "found": false,
+    "evidence": "Refuted: the matcher's own page read gave colour 'Розовый' (one pink colour) for zoovet's 'Trixie Игрушка цветной веревочный мяч для собак, 9 см' (1950, OOS) and no article number. Trixie also sells a pastel Junior rope ball 9 cm (pink/blue, separate article), whereas 32814 is the plain multi-coloured Rope Ball ø 9 cm; a single pink colour plus a price 70% above hafo (1950 vs 1150) points to the Junior ball. Colour/model not confirmed -> not a match. Nearest candidate: that URL https://zoovet.am/sobaki/igrushki-1/myachiki/trixie-igrushka-tsvetnoj-verevochnyj-myach-dlya-sobak-9-sm. Other zoovet rope balls: 'веревочный мяч с петлей' 7 cm/20 cm (1600) and 8 x 30 cm (2350) - different items. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'պարանե գնդակ', 'գնդակ', 'պարան'. No Trixie rope ball for dogs; only 'Գնդակներ պարանի վրա' (4.5 cm sisal balls for birds). [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "low",
+   "verdict": "disagree",
+   "reason": "Matcher's zoovet hit (9 cm rope ball, 1950) carries a single colour 'Розовый' and no article; that fits Trixie's Junior pastel rope ball, not 32814's multi-colour rope ball. Colour/model axis unconfirmed -> zoovet not found."
+  },
+  {
+   "variant_id": 514,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'denta игрушк|denta мяч', 'мяч 7'. Nearest: 'Trixie Игрушка мяч из каучука, в ассортименте, для собак, 7 см' (3000, OOS) - plain natural-rubber ball, not stated as Denta Fun; identity not confirmed. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'Denta Fun' (only treats + a Denta Fun ring), 'գնդակ', 'կաուչուկ'. Nearest 'Բնական կաուչուկից Գնդակ' 6 cm, no manufacturer - different size. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 515,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'гантель'. Only Trixie glow-in-the-dark squeaky dumbbell 18 cm (2200) - different model/size; others Triol/Gigwi. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'գանտել', 'խաղալիք շների'. Only Triol STRONG / Mighty Rex dumbbells; no Trixie TPR dumbbell 17 cm. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 517,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'веревк', 'мяч'. Nearest: 'Trixie Игрушка мячик c верёвкой для собак' (1150, OOS) - rubber ball on rope but no size/length on page, cannot confirm 5 cm/100 cm. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'Պարանով|պարանով', 'գնդակ'. Only Triol 'Գնդակ պարանով' (5450) - different brand. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 518,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'гантель'. No Trixie dumbbell with soft ends 17 cm; only the glow dumbbell 18 cm. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'գանտել', 'խաղալիք շների'. No Trixie dumbbell with soft ends. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 519,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'кубик|куб', 'игрушка для лакомств'. Nearest Trixie 'груша для лакомств из каучука, 8 см' - different item. [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-հյուրասիրության-համար-խորանարդիկ-թերմոպլաստիկ-կաուչուկից",
+    "price": 2700,
+    "old_price": null,
+    "name": "Խաղալիք հյուրասիրության համար՝ խորանարդիկ թերմոպլաստիկ կաուչուկից",
+    "in_stock": true,
+    "evidence": "Exactly hafo's title for 33411 (treat cube, thermoplastic rubber); page: TPR, assorted colours, 6 cm. Manufacturer field empty. [verify: nemo page re-opened today: name, manufacturer, size and price confirmed.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  },
+  {
+   "variant_id": 520,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'кольцо|ринг'. No Trixie TPR ring; only Gamma/Triol rings (different brand). [verify: zoovet.am unreachable at verify time (TCP timeout); re-searched today's saved zoovet Trixie list (354 rows) in shops.json - no exact item.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'օղակ', 'Խաղալիք շների՝ օղակ'. Only Denta Fun treat rings, Gamma/Comfy rings; no Trixie TPR ring 11 cm. [verify: nemo re-searched (Carpaccio, Nordic, salmon, balls, ball, rope, dumbbell, ring, Denta, rubber, TPR, knotted, 9/10/11/17 cm, 500 g, Trixie toys); nearest candidates opened: Denta Fun ball on rope 8x28 cm, Denta Fun rope with ball 7x24 cm, natural-rubber ball 6 cm, Trixie rawhide chew balls 8 / 4.5 cm, Denta Fun ring 12 cm (natural rubber), coloured rope/knot toys 28 / 24 cm (bird toys), PREMIO Carpaccio 40 g, chicken balls 100 g, salmon-skin rolls 70 g - none match.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: nemo pages re-opened (same items, same prices); zoovet checked against the saved list (site down) - same prices/stock; no missed exact item found."
+  }
+ ]
+}

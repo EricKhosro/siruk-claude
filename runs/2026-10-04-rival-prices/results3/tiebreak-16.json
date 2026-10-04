@@ -1,0 +1,50 @@
+{
+ "results": [
+  {
+   "variant_id": 555,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet Trixie rows: no soft brush. The only щетка rows are a toothbrush and a paw cleaner. Other brands have Gamma/Triol slickers."
+   },
+   "nemo": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Opened today: https://www.nemo.am/մազահեռացնող-խոզանակ (1750, in stock, manufacturer Nunbell). Its photo is the Trixie 2300 single-sided wooden slicker, but the text states 'Չափսը 10 x 15 սմ'. Ours is 10 × 18 cm, and the page nowhere shows 10 × 18, so the size is a mismatch. https://www.nemo.am/մազահեռացնող-խոզանակ-2 (1950, was 2250, Nunbell) does state 10 x 18, but its photo has bristles on the back face. That is the double-sided model, and 1950 is hafo 2305Tx's price ('երկկողմանի 10*18'), not our single-sided 2300. The other same-title listings (-3, -4, -5, -6, -8, կարմիր, սանրի-հետ-միասին) state 6x13, 11x16, 12x20, 10x17 or 7x13/10x13, or are plastic. Nearest: https://www.nemo.am/մազահեռացնող-խոզանակ (10 x 15, 1750)."
+   },
+   "confidence": "medium",
+   "reason": "nemo's 1750 listing states 10 x 15 cm and ours is 10 × 18. The only 10 x 18 listing is the double-sided 2305. No confirmed match on either shop."
+  },
+  {
+   "variant_id": 567,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet Trixie rows: no wooden double-sided brush. 'двусторонн' only hits a Triol toothbrush."
+   },
+   "nemo": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Opened today: https://www.nemo.am/երկկողմանի-սանր (1850, no manufacturer). The photo shows a wooden oval double-sided brush, nylon plus pins, but the text states 'Չափսեր 5 x 17 սմ'. Ours is 6 × 21 cm. Trixie sells this design at 5 × 17 as 2322, which hafo prices at the same 1850. The stated size differs and the page doesn't show our size, so it is not a match. https://www.nemo.am/երկկողմանի-սանր-2 is 404. https://www.nemo.am/երկկողմանի-սանր-շների-համար (1650) is a Nunbell slicker on a card, a different product. nemo search '2315' returns nothing relevant. Nearest: https://www.nemo.am/երկկողմանի-սանր (5 x 17, 1850)."
+   },
+   "confidence": "high",
+   "reason": "nemo's listing states 5 x 17 cm (Trixie 2322), not our 6 × 21 cm (2315). No match on either shop."
+  }
+ ]
+}

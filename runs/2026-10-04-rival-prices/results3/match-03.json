@@ -1,0 +1,493 @@
+{
+ "results": [
+  {
+   "variant_id": 1691,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5660",
+    "price": 17000,
+    "old_price": null,
+    "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг",
+    "in_stock": true,
+    "evidence": "Page option 'Упак (7 кг)' = 17000; brand Gemon, Kitten line, chicken & rice, 7 kg bag. Page stock 'В наличии · 1 шт' (brand list said out of stock; page wins)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-7-կգ",
+    "price": 17000,
+    "old_price": null,
+    "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ, 7 կգ",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; kitten, chicken/rice, 7 kg; in stock."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1692,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+    "price": 2550,
+    "old_price": null,
+    "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 2550 on the Gemon Kitten chicken & rice page (same food as the 7 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-կիլոգրամով",
+    "price": 2550,
+    "old_price": null,
+    "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose (կիլոգրամով) listing of GEMON KITTEN chicken/rice; manufacturer Gemon. (Other nemo 'Gemon Kitten ... (կիլոգրամով)' 2500 belongs to the 20 kg-bag Kitten listing, different SKU.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1693,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'gemon', 'gemon adult', 'gemon индейк|turkey', '7 кг|7кг', EAN 8009470297264: zoovet lists only Gemon Kitten 7 kg and Sterilised beef 7 kg dry cat food; no Gemon Adult chicken & turkey dry. Nearest: Gemon Adult Mousse wet 85 g (different product)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-gemon-adult-հավհնդկահավ-7-կգ",
+    "price": 16000,
+    "old_price": null,
+    "name": "Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; adult cat dry, chicken & turkey, 7 kg; name identical to hafo row. (20 kg version 38000 and other 'GEMON Adult' listings 22000/4300 are other sizes.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1695,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'gemon', 'gemon mini', 'gemon мелких|малых', EAN 8009470005678: no Gemon Mini dry dog food on zoovet. Nearest: Gemon Regular 20 kg (different line)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-mini-chicken",
+    "price": 28000,
+    "old_price": null,
+    "name": "Gemon Mini Chicken - Հավ (20կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; Mini (small-breed adult) chicken, 20 kg. (Gemon Mini Salmon & Rice 20 kg 29000 is a different flavour.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1696,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Gemon Mini on zoovet at all (searched 'gemon mini', 'gemon мелких|малых', EAN 8009470005678)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-mini-chicken-2",
+    "price": 1500,
+    "old_price": null,
+    "name": "Gemon Mini Chicken - Հավ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose per-kg listing of Gemon Mini Chicken; page says price is per 1 kg; manufacturer Gemon."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1697,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg-5441",
+    "price": 28000,
+    "old_price": null,
+    "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг",
+    "in_stock": true,
+    "evidence": "Gemon Regular line (single recipe; hafo row 'GEMON REGULAR 20կգ'), option 'Упак (20 кг)' = 28000. zoovet says 'с мясом', nemo's description says fresh chicken - same Regular adult recipe."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-regular",
+    "price": 28000,
+    "old_price": null,
+    "name": "Gemon Regular (20կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; Regular, 20 kg; description: chicken, all breeds medium adult."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1698,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+    "price": 1500,
+    "old_price": null,
+    "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 1500 on the Gemon Regular page."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-regular-2",
+    "price": 1500,
+    "old_price": null,
+    "name": "Gemon Regular (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose per-kg Gemon Regular; manufacturer Gemon."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1730,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5687",
+    "price": 19500,
+    "old_price": null,
+    "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, упаковка 7 кг",
+    "in_stock": true,
+    "evidence": "Page name is Gemon Sterilised beef 7 kg (URL slug recycled from Kitten - trusted the page name). Option 'Упак (7 кг)' = 19500."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-տավար-7-կգ",
+    "price": 19500,
+    "old_price": null,
+    "name": "Կեր կատուների համար՝ GEMON STERIL, տավար, 7 կգ",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; sterilised cat, beef/rice, 7 kg. (Steril salmon/tuna and turkey 7 kg are other flavours.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1731,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-sterilised-suhoj-korm-s-govyadinoj-dlya-sterilizovannyh-koshek-upakovka-7-kg",
+    "price": 2900,
+    "old_price": null,
+    "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, на равес 7 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 2900 on the Gemon Sterilised beef page."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-տավար-կիլոգրամով",
+    "price": 2900,
+    "old_price": null,
+    "name": "Կեր կատուների համար՝ GEMON STERIL, տավար, (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose per-kg listing of GEMON STERIL beef; manufacturer Gemon."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1732,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-upakovka-20-kg",
+    "price": 32500,
+    "old_price": null,
+    "name": "Gemon Сухой корм с ягненком и рисом для собак, упаковка 20 кг",
+    "in_stock": true,
+    "evidence": "Gemon lamb & rice dog dry (hafo 'AGNELLO/RISO 20կգ'), option 'Упак (20 кг)' = 32500."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+    "price": 32500,
+    "old_price": null,
+    "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; description: medium adult dogs 12-30 kg, lamb & rice, 20 kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1733,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-na-razves-1-kg",
+    "price": 1750,
+    "old_price": null,
+    "name": "Gemon Сухой корм с ягненком и рисом для собак, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 1750 (same page has 'Упак (20 кг)' 32500)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ-կիլոգրամով",
+    "price": 1750,
+    "old_price": null,
+    "name": "Gemon Lamb & Rice Չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose per-kg Gemon Lamb & Rice, medium adult 12-30 kg; manufacturer Gemon."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1734,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg",
+    "price": 32500,
+    "old_price": null,
+    "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг",
+    "in_stock": true,
+    "evidence": "Gemon tuna & rice dog dry (hafo 'TONNO/RISO 20կգ'), option 'Упак (20 кг)' = 32500."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-20կգ",
+    "price": 32500,
+    "old_price": null,
+    "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) 20կգ",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; Tonno/Riso (tuna & rice), adult, 20 kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1735,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+    "price": 1750,
+    "old_price": null,
+    "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 1750 on the Gemon tuna & rice page."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-կիլոգրամով",
+    "price": 1750,
+    "old_price": null,
+    "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) կիլոգրամով",
+    "in_stock": true,
+    "evidence": "Loose per-kg Gemon Tonno/Riso; manufacturer Gemon. (Duplicate listing 'Gemon Medium - ձուկ և բրինձ (կիլոգրամով)' also 1750.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1736,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched 'gemon', 'gemon puppy|junior|щенк', EAN 8009470005623: zoovet has no Gemon Puppy & Junior dry; nearest is Gemon wet puppy 415 g (different product)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-puppyjunior",
+    "price": 34000,
+    "old_price": null,
+    "name": "Gemon Puppy& Junior - Հավ և բրինձ (20կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Gemon; Puppy & Junior chicken & rice, 20 kg. (Gemon Maxi Puppy & Junior 15 kg 30000 and All Breed Puppy & Junior 15 kg are other lines/sizes.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1737,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Gemon Puppy & Junior dry on zoovet (searched 'gemon puppy|junior|щенк', EAN 8009470005623)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gemon-puppyjunior-2",
+    "price": 1800,
+    "old_price": null,
+    "name": "Gemon Puppy& Junior - Հավ և բրինձ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose per-kg Gemon Puppy & Junior chicken & rice; manufacturer Gemon. (Maxi Puppy & Junior per kg 2100 is a different line.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 909,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-oshejnik-ot-glistov-bloh-i-kleschej-dlya-sobak-srednih-porod-65-sm",
+    "price": 5500,
+    "old_price": null,
+    "name": "Inspector Ошейник от глистов, блох и клещей для собак средних пород, 65 см",
+    "in_stock": true,
+    "evidence": "Inspector collar, medium dogs, 65 cm; page stock 1 pc. (40 cm and 75 cm versions are other sizes.)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'inspector', 'վզնոց', 'վզկապ տզ|ճիճ|միջատ', 'ошейник', '65', EAN 4607092073248: no Inspector collar on nemo. Nearest: Rolf Club medium dog flea collar 4170 (different brand)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1307,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-gelmintov-glistov/inspector-quadro-kapli-protiv-glistov-bloh-i-kleschej-dlya-sobak-4-10-kg-1-pipetka",
+    "price": 5350,
+    "old_price": null,
+    "name": "Inspector Quadro Капли против глистов, блох и клещей для собак (4-10 кг), 1 пипетка",
+    "in_stock": false,
+    "evidence": "Inspector Quadro drops, dogs 4-10 kg, single pipette (hafo single-pipette I305, same 5350). Page: 'Нет в наличии'. Alternative listing 'Inspector Quadro С ... (4-10 кг), (упаковка 3 пип), поштучно' 4300 in stock is a pipette sold loose from a 3-pack box - different SKU, not used."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ճիճուների-դեմ-կաթիլներ-4-10-կգ-շների-համար",
+    "price": 5350,
+    "old_price": null,
+    "name": "Ճիճուների դեմ կաթիլներ 4-10 կգ շների համար",
+    "in_stock": true,
+    "evidence": "No manufacturer shown; name/description (drops against ticks & worms, dogs 4-10 kg, apply on the neck) match hafo's title 'Ճիճուների և տզերի դեմ կաթիլներ 4-10 կգ' at the same price 5350; single pipette. Brand inferred, not printed. (Inspector Quadro C I315 3-pipette pack 12840 is a different pack.)"
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1411,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-gelmintov-glistov/inspector-quadro-kapli-protiv-glistov-bloh-i-kleschej-dlya-sobak-40-60-kg-1-pipetka",
+    "price": 9700,
+    "old_price": null,
+    "name": "Inspector Quadro Капли против глистов, блох и клещей для собак (40-60 кг), 1 пипетка",
+    "in_stock": false,
+    "evidence": "Inspector Quadro, dogs 40-60 kg, 1 pipette; page 'Нет в наличии'. Alternative '... (40-60 кг), упаковка 3 пип, поштучно' 6900 in stock is a loose pipette from a 3-pack - different SKU, not used."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հակաոջիլային-կաթիլներ-40-60-կգ-շների-համար-inspectorquadro-c",
+    "price": 9700,
+    "old_price": null,
+    "name": "Հակաոջիլային կաթիլներ 40-60 կգ շների համար, Inspector/Quadro C",
+    "in_stock": true,
+    "evidence": "Name states Inspector/Quadro C, 40-60 kg dogs; single pipette (3-pipette I318 packs listed separately at 12450/23270)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 886,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no Traditional Line Lemon shampoo. Nearest: ISB Traditional Line PLUS Banana conditioner 300 ml 7550 (different product)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'կիտրոն', 'կիտրոնի հոտով', 'lemon', 'Lemon 300', 'TRADITIONAL PLUS', 'Traditional Line', 'Շամպուն կարճամազ շն', EAN: nearest 'Շամպուն կարճ մազերի համար՝ Traditional Line, Lemon, 500մլ' 6000 - 500 ml, not our 300 ml."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 887,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no Green Apple shampoo. Nearest: ISB Groomer Maracuja long-coat shampoo 500 ml (different product)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'խնձոր', 'խնձորի հոտով', 'Green Apple', 'apple', 'Շամպուն երկարամազ շն', EAN: nearest 'Շամպուն երկար մազերի համար՝ Traditional Line, Green Apple, 500մլ' 5900 - 500 ml, not 300 ml."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 888,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no Lemon conditioner. Nearest: ISB Traditional Line PLUS Banana conditioner 300 ml 7550 (other fragrance)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'կիտրոն', 'lemon', 'Բալզամ կարճամազ', 'Բալզամ կարճամազ շն', 'TRADITIONAL PLUS': no lemon conditioner. Nearest: Traditional Line Lemon shampoo 500 ml (different product/size)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 889,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no Green Apple conditioner. Nearest: ISB Traditional Line PLUS Banana conditioner 300 ml 7550 (other fragrance)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'խնձոր', 'Green Apple', 'Բալզամ երկարամազ', 'TRADITIONAL PLUS': no green apple conditioner. Nearest: Traditional Line Green Apple shampoo 500 ml (different product/size)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 890,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no Protective Shield shampoo."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'Էվկալիպտի և մենթոլի', 'Էվկալիպտ', 'Protective Shield', 'TRADITIONAL PLUS', 'Շամպուն': only the Protective Shield CONDITIONER (Բալզամ ... 300 մլ, 9300) is listed; no shampoo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 891,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no Protective Shield conditioner."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բալզամ-շների-և-կատուների-համար-traditional-plus-էվկալիպտի-և-մենթոլի-հոտով-300-մլ",
+    "price": 9300,
+    "old_price": null,
+    "name": "Բալզամ շների և կատուների համար, TRADITIONAL PLUS, Էվկալիպտի և մենթոլի հոտով, 300 մլ",
+    "in_stock": true,
+    "evidence": "Name identical to hafo row; page description: 'Iv San Bernard ISB Protective Shield' conditioner, menthol & eucalyptus; 300 ml."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 892,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no Atami line products at all."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'ATAMI', 'ATAMI Line', 'H270', 'Ցողարկիչ', 'խճճվելու', EAN: nemo has ATAMI White Musk / Ginkgo shampoos, conditioners and Ginkgo oil 300 ml but no H270 two-phase detangling spray. Nearest: ATAMI Ginkgo conditioner 300 ml 15050 (different product)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1355,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no DO IT YOURSELF perfumes; only ISB Lupin Perfume 150 ml 10700 (different product)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/օծանելիք-do-it-yourself-narciso-perfume-125-մլ",
+    "price": 4900,
+    "old_price": null,
+    "name": "Օծանելիք՝ DO IT YOURSELF, NARCISO PERFUME, 125 մլ",
+    "in_stock": true,
+    "evidence": "Name identical to hafo row (ISB DO IT YOURSELF line, Narciso, 125 ml); manufacturer field empty but DO IT YOURSELF is an ISB line."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1356,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Iv San Bernard brand list checked (searched 'san bernard|bernard|бернард', 'traditional|atami|perfume|narciso|ocean|shield', 'лимон|lemon', 'яблок|apple', 'ментол|эвкалипт', 'духи|парфюм', 'колтун|распутыв|h270', EAN): no DO IT YOURSELF perfumes; only ISB Lupin Perfume 150 ml (different product)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/օծանելիք-do-it-yourself-ocean-perfume-125-մլ",
+    "price": 4900,
+    "old_price": null,
+    "name": "Օծանելիք՝ DO IT YOURSELF, OCEAN PERFUME, 125 մլ",
+    "in_stock": true,
+    "evidence": "Name identical to hafo row (ISB DO IT YOURSELF line, Ocean, 125 ml); manufacturer field empty but DO IT YOURSELF is an ISB line."
+   },
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,742 @@
+[
+ {
+  "variant_id": 1513,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo dump + hafo-sku on EAN/article/register code: no hit; hafo local+live 'CityStyle': the CityStyle PVC elastic collar exists only in BLACK (XS-S 1971901Tx 3650, S-M 1971401Tx 3950, M 1971501Tx 4150, M-L 1971601Tx 4350); sage/light grey CityStyle exists only as the 1.20 m PVC leash (1971019Tx/1971016Tx 5400). Nearest: black M-L 40-47 cm/25 mm 1971601Tx 4350 (different colour and size)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie list + live 'citystyle', 'city style', 'pvc', 'пвх', 'эластич', 'ошейник trixie': no CityStyle collar."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo Trixie list + live 'CityStyle' (only treat bag, cotton leash 7350, cat toys, carrier), 'Վզկապ CityStyle', 'PVC', 'էլաստիկ': no CityStyle collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "No rival sells the CityStyle collar L 45-52 cm/25 mm in sage; same as matcher.",
+  "notes": "hafo stocks only the black CityStyle collar."
+ },
+ {
+  "variant_id": 1514,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo dump + hafo-sku on EAN/article/register code: no hit; hafo local+live 'CityStyle': the CityStyle PVC elastic collar exists only in BLACK (XS-S 1971901Tx 3650, S-M 1971401Tx 3950, M 1971501Tx 4150, M-L 1971601Tx 4350); sage/light grey CityStyle exists only as the 1.20 m PVC leash (1971019Tx/1971016Tx 5400). No L-XL size in any colour."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie list + live 'citystyle', 'city style', 'pvc', 'пвх', 'эластич', 'ошейник trixie': no CityStyle collar."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo Trixie list + live 'CityStyle' (only treat bag, cotton leash 7350, cat toys, carrier), 'Վզկապ CityStyle', 'PVC', 'էլաստիկ': no CityStyle collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "No rival sells CityStyle collar L-XL light grey; same as matcher.",
+  "notes": ""
+ },
+ {
+  "variant_id": 1515,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo dump + hafo-sku on EAN/article/register code: no hit; hafo local+live 'CityStyle': the CityStyle PVC elastic collar exists only in BLACK (XS-S 1971901Tx 3650, S-M 1971401Tx 3950, M 1971501Tx 4150, M-L 1971601Tx 4350); sage/light grey CityStyle exists only as the 1.20 m PVC leash (1971019Tx/1971016Tx 5400). Nearest: black M 35-42 cm/20 mm 1971501Tx 4150 (EAN 4053032659292; different colour) https://hafo.am/products/vzkap-city-style-pvc-elastik-sev-m"
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie list + live 'citystyle', 'city style', 'pvc', 'пвх', 'эластич', 'ошейник trixie': no CityStyle collar."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo Trixie list + live 'CityStyle' (only treat bag, cotton leash 7350, cat toys, carrier), 'Վզկապ CityStyle', 'PVC', 'էլաստիկ': no CityStyle collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Light grey M not sold by any rival; same as matcher.",
+  "notes": "Black same size on hafo is 4150 = our price."
+ },
+ {
+  "variant_id": 1516,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo dump + hafo-sku on EAN/article/register code: no hit; hafo local+live 'CityStyle': the CityStyle PVC elastic collar exists only in BLACK (XS-S 1971901Tx 3650, S-M 1971401Tx 3950, M 1971501Tx 4150, M-L 1971601Tx 4350); sage/light grey CityStyle exists only as the 1.20 m PVC leash (1971019Tx/1971016Tx 5400). Nearest: black S-M 30-37 cm/20 mm 1971401Tx 3950 (EAN 4053032659186; different colour)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie list + live 'citystyle', 'city style', 'pvc', 'пвх', 'эластич', 'ошейник trixie': no CityStyle collar."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo Trixie list + live 'CityStyle' (only treat bag, cotton leash 7350, cat toys, carrier), 'Վզկապ CityStyle', 'PVC', 'էլաստիկ': no CityStyle collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Light grey S-M not sold by any rival; same as matcher.",
+  "notes": "Black same size on hafo is 3950 vs our 4000."
+ },
+ {
+  "variant_id": 1504,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4011905207254 / 20725 / 2072: no Trixie hit; local 'easy life|easylife', 'նեոն', 'ձգափոկ 5 մ': Easy Life only as the 1 m/17 mm elastic leash (TX 20710Trx neon yellow 4650, TX 19940Trx neon orange 4650) and elastic collars. Nearest 5 m/13 mm lead: 19950Tx 'M-L flat belt elastic 5 m/13 mm ocean' 6250 (EAN 4057589199508; different colour and size label)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet only 'Trixie Поводок тросовый Easy Life, M-XL, 5 м 17 мм' 10400 (page checked, no options) https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/trixie-povodok-trosovyj-easy-life-m-xl-5-m-17-mm - 17 mm M-XL, not our S-M 13 mm."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo list + live 'easy life', 'easy', 'հարթ գոտիով', 'ձգափոկ 5 մ', 'էլաստիկ': no Easy Life tracking lead; nearest 'Trixie, հարթ գոտիով, բամբակյա ձգափոկ, M-L 5մ/13 մմ' 7050 (different line/colour)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Easy Life tracking lead S-M 5 m/13 mm neon yellow (Trixie 20725) not sold by any rival; same as matcher.",
+  "notes": ""
+ },
+ {
+  "variant_id": 1432,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671164 / 201735 / 67116: no hit; every hafo Premium adjustable collar row L-XL 40-65 cm/25 mm checked (bordeaux, electric blue, apple, forest, indigo, ocean, caramel, red, mocha, purple, graphite, papaya, flamingo, fuchsia, petrol, sage, aqua...) - no blush; hafo-live 'blush' only hits a Premium Trekking harness. Nearest: same size other colours 2450 (e.g. sage 201734Tx)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo Trixie list (all «Premium» վզկապ / Վզնոց նեյլոնե listings) + live 'blush', 'ավազագույն', 'sand': no blush Premium collar; L-XL only in other colours at 2450."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Blush L-XL not sold by any rival; same as matcher.",
+  "notes": "Other colours of this size are 2450 = our price."
+ },
+ {
+  "variant_id": 1437,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671225 / 201736 / 67122: no collar hit; hafo has no sand Premium collar in any size (hafo-live 'ավազագույն' returns only harnesses, leashes, bags and the wide 50 mm collar). Nearest: same size other colours 2450."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo Trixie list + live 'ավազագույն', 'sand': no sand Premium collar in any size (only a sand harness S and leashes)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Sand L-XL not sold by any rival; same as matcher.",
+  "notes": ""
+ },
+ {
+  "variant_id": 1444,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671218 / 201636 / 67121: no hit; no sand Premium collar on hafo. Nearest: M-L 35-55 cm/20 mm other colours 1800 (sage 201634Tx, aqua 201628Tx, petrol 201632Tx)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo: no sand Premium collar; M-L other colours 1800."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Sand M-L not sold by any rival; same as matcher.",
+  "notes": "Other colours of the same size sell at 1800 on hafo/nemo vs our 1950."
+ },
+ {
+  "variant_id": 1447,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671133 / 202235 / 67113: no collar hit; no blush Premium collar on hafo. Nearest: S 25-40 cm/15 mm other colours 1350 (sage 202234Tx, aqua 202228Tx, flamingo TX 202210Tx)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo has no blush Premium collar. Nearest: '«Premium» վզկապ վարդագույն' S 25-40 cm/15 mm 1350 https://www.nemo.am/premium-վզկապ-դեղնավուն-կարմիր-2 - slug 'դեղնավուն-կարմիր' is the flamingo colour (hafo's name for flamingo), photo is salmon pink, page shows 'not available'; not blush."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Blush S not confirmed at any rival; nemo's pink S is flamingo. Same as matcher.",
+  "notes": "Other colours of this size are 1350 vs our 1450."
+ },
+ {
+  "variant_id": 1450,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671195 / 202236 / 67119: no hit; no sand Premium collar on hafo. Nearest: S other colours 1350."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo: no sand Premium collar in any size."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Sand S not sold by any rival; same as matcher.",
+  "notes": "Other colours 1350 vs our 1450."
+ },
+ {
+  "variant_id": 1452,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671140 / 201535 / 67114: only red TX 201503Tx (EAN 4011905201535); no blush Premium collar on hafo. Nearest: S-M 30-45 cm/15 mm other colours 1450."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo: no blush Premium collar in any size (S-M listings: red, mocha, black, fuchsia, apple, graphite, flamingo, indigo, caramel, rust, sage, curry, sangria, petrol)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Blush S-M not sold by any rival; same as matcher.",
+  "notes": "Other colours 1450 vs our 1550."
+ },
+ {
+  "variant_id": 1459,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671126 / 201435 / 67112: no hit; no blush Premium collar on hafo. Nearest: XS-S 22-35 cm/10 mm other colours 1200 (sage 201434Tx, fuchsia 201411Tx)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo: no blush Premium collar in any size."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Blush XS-S not sold by any rival; same as matcher.",
+  "notes": "Other colours 1200 vs our 1300."
+ },
+ {
+  "variant_id": 1463,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671188 / 201436 / 67118: only red TX 201403Tx (EAN 4011905201436); no sand Premium collar on hafo. Nearest: XS-S other colours 1200."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo: no sand Premium collar in any size."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Sand XS-S not sold by any rival; same as matcher.",
+  "notes": "Other colours 1200 vs our 1300."
+ },
+ {
+  "variant_id": 1465,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671119 / 202135 / 67111: only red TX 202103Tx; hafo XXS-XS colours: electric blue, bordeaux, apple, indigo, red, orchid, violet, graphite, papaya, black, petrol, rust, olive, sage, aqua, curry, sangria, mint - no blush. Nearest: XXS-XS other colours 1100."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo: no blush Premium collar. 'Վզնոց նեյլոնե, կարգավորվող XXS–XS' 1100 is a multicolour assortment listing (photo: mint, papaya, orchid, forest, apple, indigo; page shows 'not available'), no blush; 'Վզկապ (Օշեյնիկ) - վարդագույն' is a different patterned collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Blush XXS-XS not sold by any rival; same as matcher.",
+  "notes": "Other colours 1100 vs our 1200."
+ },
+ {
+  "variant_id": 1467,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032020931 / 202111: no fuchsia hit (202111 only matches black TX 202101Tx, EAN 4047974202111); hafo fuchsia Premium collar exists only XS-S 201411Tx 1200, S TX 202211Tx 1350, S-M TX 201511Tx 1450, M-L 201611Tx 1800, L-XL TX 201711Tx 2450 - no XXS-XS fuchsia. XXS-XS other colours 1100."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo '«Premium» վզկապ վարդագույն(ֆուքսիա)' only S 1350, S-M 1450, L-XL 2450 (pages checked: https://www.nemo.am/premium-վզկապ-ֆուքսիա, -2, -3). 'Վզնոց նեյլոնե, կարգավորվող XXS–XS' 1100 https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-xxsxs is an unspecified multicolour listing (photo: mint, papaya, orchid/berry, forest, apple, indigo; page shows 'not available') - not identifiable as fuchsia; its 1100 equals ours anyway."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Fuchsia XXS-XS not sold as such by any rival; same as matcher.",
+  "notes": "Our 1100 equals the XXS-XS price of every other colour, so no difference either way."
+ },
+ {
+  "variant_id": 1472,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032671171 / 202136 / 67117: only choker 202713Tx; no sand Premium collar on hafo. Nearest: XXS-XS other colours 1100."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie brand list (all Trixie collars/harnesses/leads: Be Nordic, neoprene, USB, cat collars) + live 'premium', 'ошейник trixie': zoovet sells no Trixie Premium nylon collar in any colour."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo: no sand Premium collar; the XXS-XS multicolour listing (1100) shows no sand collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Sand XXS-XS not sold by any rival; same as matcher.",
+  "notes": "Other colours 1100 vs our 1200."
+ },
+ {
+  "variant_id": 1490,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032677128 / 204032: no hit; all hafo Premium harness rows (2036xx-2040xx) checked: petrol only XS-S 203632Tx 4250 and S 203732Tx 4950; M-L 50-80 cm/25 mm in flamingo, black, electric blue, red, fuchsia, indigo, caramel, mocha, graphite, papaya, forest, purple (all 6950) - no petrol M-L."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet Trixie list + live 'premium', 'шлейка trixie': only 'Trixie Шлейка Premium желтая M-L 52–75 см / 20 мм' 4600 (different colour/size)."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo list + live 'բենզին', 'բենզինագույն', 'petrol', 'լանջափոկ', 'շլեյկա': petrol harnesses only XS-S 4250, S 4950, L 60-87 cm 6100, Comfort Soft XXS-XS and Premium Trekking; no Premium petrol M-L."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Petrol M-L Premium harness not sold by any rival; same as matcher.",
+  "notes": "Every other colour of this size on hafo is 6950 = our price."
+ },
+ {
+  "variant_id": 1491,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4053032677005 / 203834: no hit; hafo sage Premium harness only M 45-80 cm/25 mm 203934Tx 6650 (EAN 4053032677012); S-M 40-60 cm/20 mm in flamingo, black, electric blue, bordeaux, red, fuchsia, ocean, indigo, caramel, mocha, graphite, apple, papaya, forest, purple, coral, mint, light lilac (5300; bordeaux 6200) - no sage S-M."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet: only 'Trixie Шлейка Premium желтая M-L 52–75 см / 20 мм' 4600 (different colour/size)."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo has 'Trixie, լանջափոկ (շլեյկա) շների համար, մենթոլ / sage, M' 6650 (M 45-80 cm/25 mm, different size); live 'sage', 'մենթոլ', 'մենթոլ / sage': no sage S-M."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Sage S-M Premium harness not sold by any rival; same as matcher.",
+  "notes": "Other colours S-M on hafo 5300 = our price."
+ },
+ {
+  "variant_id": 1428,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "hafo-sku EAN 4011905405704 / 40570: only Y-harness 1998519Tx (EAN digits), unrelated; local/live 'davio|դավիո|давио': nothing. hafo hooded trays: Vico 40x40x56 (green/white 40279Tx 15000 etc.), Berto Top 39x42x59 19400, Primo XXL, Cleany, Delio - no Davio Top."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet 'Davio', 'Давио': nothing. 'Trixie Туалет Vico закрытый зелёно-белый с крышкой, 40 x 40 x 56 см' 15000 is the Vico (photo: white hood with moulded handle, door, green base; same price as hafo Vico green/white 40279Tx 15000), not the Davio Top (separate sage handle)."
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo 'davio', 'տուալետ', 'փակվող', 'Berto': no Davio; only Berto Top 19400, Vico listings and 'Կատուների տուալետ՝ փակվող բեժ/սպիտակ' 12000 (40x40x56, Vico-type)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Davio Top 56x39x39 sage/white (Trixie 40570) not sold by any rival; same as matcher.",
+  "notes": ""
+ },
+ {
+  "variant_id": 1429,
+  "hafo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "Our item is Trixie 40211 Be Eco Carlo 31x14x43 cm anthracite/grey-green (EAN 4011905402116). hafo-sku 40211 / EAN: no hit. hafo has the standard Carlo 31x14x43 light grey TX 401111 3700 (EAN 4011905401119, different item) https://hafo.am/products/carlo-katuneri-zugaran-mug-mokhraguyn and the Be Eco grey-green only in 38x17x58 (40212Tx 5900, out of stock)."
+  },
+  "zoovet": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "zoovet 'Trixie Туалет Carlo с бортом серый для кошек, 31 x 14 x 43 см' 3700 (page: colour 'Серый'; photo dark-grey tray with light-grey rim = standard Carlo, not the Be Eco anthracite with grey-green rim; on order) https://zoovet.am/koshki/gigiena-napolniteli/lotki-sovki-i-tualety/trixie-tualet-carlo-s-bortom-seryj-dlya-koshek-31-x-14-x-43-sm"
+  },
+  "nemo": {
+   "found": false,
+   "url": "",
+   "price": null,
+   "old_price": null,
+   "in_stock": null,
+   "name": "",
+   "sku": "",
+   "evidence": "nemo 'Carlo կատուների զուգարան ( բաց մոխրագույն)' 3700 = standard light-grey Carlo; 'Կատուների տուալետ` Vico Be Eco' 5900 is 38x17x58 (page checked) - different size."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Be Eco Carlo 31x14x43 not sold by any rival; the standard grey Carlo (3700 at all three) is a different item. Same as matcher.",
+  "notes": "PM may still choose to align with the standard Carlo price 3700."
+ }
+]

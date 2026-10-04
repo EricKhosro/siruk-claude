@@ -27,7 +27,10 @@ A vendor sheet's `R/Price` (suggested retail) is **not** a sale price: always
 check hafo first, and if a sheet carries `R/Price` for rows hafo cannot price,
 **ask the user** before using it (user rule 2026-09-10).
 
-## The register — the price of record since 2026-09-16
+## The register — WITHDRAWN 2026-10-04
+
+**The user withdrew `csv/Product.numbers` as a price source on 2026-10-04:
+never read a sale price from it.** The text below is kept for history only.
 
 The PM's register `csv/Product.numbers` ("Ապրանքների մնացորդներ") now carries
 `Վաճառքի գին` on every row, and the user's rule is that **our price must match

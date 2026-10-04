@@ -1,0 +1,245 @@
+{
+ "results": [
+  {
+   "variant_id": 1167,
+   "zoovet": {
+    "found": true,
+    "name": "ACANA Adult All Breeds Light & Fit Сухой корм с курицей и индейкой для собак, 11.4 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-all-breeds-light-fit-suhoj-korm-s-kuritsej-i-indejkoj-dlya-sobak-11-4-kg",
+    "price": 45000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'ACANA Adult All Breeds Light & Fit ... для собак, 11.4 кг', option 'Упак (11,4 кг)' = 45000 AMD (other option 'На развес, 1 кг' 4050), no struck-through price; stock 'В наличии · 1 шт'. Brand Acana, line Light & Fit (only one Light & Fit recipe), adult dog, 11.4 kg bag all match."
+   },
+   "nemo": {
+    "found": true,
+    "name": "ACANA Light & Fit - Չոր կեր (11,4 կգ)",
+    "url": "https://www.nemo.am/acana-light-fit-չոր-կեր-114-կգ",
+    "price": 45000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'ACANA Light & Fit - Չոր կեր (11,4 կգ)' = 45000 AMD, no old price, manufacturer Acana, availability in stock; description 'Քաշը՝ 11.4կգ', for overweight adult dogs of all breeds. Brand, line, lifestage and 11.4 kg pack match."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 45000 (equals hafo 45000). Nemo also sells it loose at 4100/kg (not our variant)."
+  },
+  {
+   "variant_id": 1179,
+   "zoovet": {
+    "found": true,
+    "name": "ACANA Sport & Agility Сухой корм с цыпленком и камбалой для активных собак, упаковка 11.4 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-sport-agility-suhoj-korm-s-tsyplenkom-i-kambaloj-dlya-aktivnyh-sobak-upakovka-11-4-kg-5453",
+    "price": 49000,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'ACANA Sport & Agility ... для активных собак, упаковка 11.4 кг', option 'Упак (11,4 кг)' = 49000 AMD (other option 'На развес, 1 кг' 4050), no struck-through price; stock 'В наличии: Под заказ (Срок доставки: от 2 дней)' = on order. Brand, line, active adult dog, 11.4 kg bag match."
+   },
+   "nemo": {
+    "found": true,
+    "name": "ACANA Sport & Agility - Չոր կեր (11,4 կգ)",
+    "url": "https://www.nemo.am/acana-sport-agility-չոր-կեր-114-կգ",
+    "price": 45000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'ACANA Sport & Agility - Չոր կեր (11,4 կգ)' = 45000 AMD, no old price, manufacturer Acana, availability in stock; description 'Չափսը`11,4 կգ', 75% meat for sporting dogs. Brand, line and 11.4 kg pack match (nemo's 17 kg bag at 66000 is a different size)."
+   },
+   "confidence": "high",
+   "notes": "zoovet 49000 (on order) > nemo 45000 = hafo 45000."
+  },
+  {
+   "variant_id": 1724,
+   "zoovet": {
+    "found": true,
+    "name": "ACANA Sport & Agility Сухой корм с цыпленком и камбалой для активных собак, упаковка 11.4 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-sport-agility-suhoj-korm-s-tsyplenkom-i-kambaloj-dlya-aktivnyh-sobak-upakovka-11-4-kg",
+    "price": 4050,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'ACANA Sport & Agility ... упаковка 11.4 кг, на развес 1 кг', option 'На развес, 1 кг' = 4050 AMD, no struck-through price; stock 'В наличии: Под заказ (от 2 дней)' = on order. Same food (Sport & Agility, 11.4 kg bag) sold loose per 1 kg - matches our 1 kg variant."
+   },
+   "nemo": {
+    "found": true,
+    "name": "ACANA Sport & Agility - Չոր կեր (կիլոգրամով)",
+    "url": "https://www.nemo.am/acana-sport-agility-չոր-կեր-1-կգ",
+    "price": 4050,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'ACANA Sport & Agility - Չոր կեր (կիլոգրամով)' = 4050 AMD, no old price, manufacturer Acana, availability in stock; same Sport & Agility description. Loose per-kg sale of the exact line - matches our 1 kg variant."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 4050 per kg (equals hafo 4050)."
+  },
+  {
+   "variant_id": 894,
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Lactol (1st age milk) Заменитель молока для котят от 0 до 2 мес, 250 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/beaphar-lactol-1st-age-milk-zamenitel-moloka-dlya-kotyat-ot-0-do-2-mes-250-g",
+    "price": 8050,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Beaphar Lactol (1st age milk) Заменитель молока для котят от 0 до 2 мес, 250 г' = 8050 AMD, no options, no struck-through price; stock 'В наличии · 1 шт'. Description: 'Проверенная формула Lactol Kitty Milk...'; spec weight 0.25 kg. Brand, Lactol Kitty (kitten) milk, 250 g match (the 7950 listing is the puppy version). Page's brand field wrongly says Royal Canin; name/description are Beaphar."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Փոշի կաթ կատուների համար՝ LACTOL KITTY, 250 գ",
+    "url": "https://www.nemo.am/փոշի-կաթ-կատուների-համար-lactol-kitty-250-գ",
+    "price": 8050,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Փոշի կաթ կատուների համար՝ LACTOL KITTY, 250 գ' = 8050 AMD, no old price, manufacturer Beaphar, availability in stock; 'Քաշ՝ 250 գ'. Title identical to hafo's title for SKU 15248. Matches (nemo's Lactol Puppy 250 g / 500 g are other items)."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 8050 (equals hafo 8050)."
+  },
+  {
+   "variant_id": 1352,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched (brand list 'beaphar', 'No Stress', 'антистрессовый ошейник', 'успокаивающий ошейник', 'ошейник для кошек 35 см', 'beaphar ошейник'): only Beaphar flea & tick collars and the 'Beaphar Лакомство No Stress хрустящие подушечки для кошек, 35 г' treat (1550) - a different product. zoovet does not carry the No Stress cat collar."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Հակասթրեսային վզնոց կատուների համար, 35 սմ/ NO STRESS",
+    "url": "https://www.nemo.am/հակասթրեսային-վզնոց-կատուների-համար-35-սմ-no-stress",
+    "price": 3300,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Հակասթրեսային վզնոց կատուների համար, 35 սմ/ NO STRESS' = 3300 AMD, no old price, manufacturer Beaphar, in stock; description: calming collar for cats with valerian/lavender oils, 'Օձիքի երկարությունը՝ 35 սմ'. Same title as hafo SKU 13228. Cat version 35 cm matches (the dog 65 cm one is 3350)."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it: 3300 (equals hafo 3300)."
+  },
+  {
+   "variant_id": 1353,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched ('Stop It', 'beaphar спрей', 'отпугивающий', 'спрей кош', full Beaphar brand list): no Beaphar Stop It product of any size; only unrelated sprays (Nature's Miracle No More Spraying etc.). zoovet does not carry it."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Beaphar Stop It Cat՝ կատուներին անցանկալի վայրերից հեռու պահող միջոց, 100 մլ",
+    "url": "https://www.nemo.am/beaphar-stop-it-cat-կատուներին-անցանկալի-վայրերից-հեռու-պահող-միջոց-100-մլ",
+    "price": 3700,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Beaphar Stop It Cat՝ ... 100 մլ' = 3700 AMD, no old price, in stock; description: keeps cats away from unwanted places, 'Ծավալը՝ 100 մլ'. Title is identical to hafo's title for SKU 12527 (EAN 8711231125272). Brand, product (cat repellent) and 100 ml match; nemo's Stop It Indoor 200 ml is a different item."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it: 3700 (equals hafo 3700)."
+  },
+  {
+   "variant_id": 1354,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched ('Stop It', 'beaphar спрей', 'отпугивающий', full Beaphar brand list): no Beaphar Stop It Indoor or any Stop It size. zoovet does not carry it."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ցողարկիչ՝ կատուներին և շներին վանելու համար, Stop It Indoor, 200 մլ",
+    "url": "https://www.nemo.am/ցողարկիչ-կատուներին-և-շներին-վանելու-համար-stop-it-indoor-200-մլ",
+    "price": 5450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Ցողարկիչ՝ կատուներին և շներին վանելու համար, Stop It Indoor, 200 մլ' = 5450 AMD, no old price, in stock; description: repellent for dogs and cats, essential oils, 'Ծավալը՝ 200 մլ'. Product image shows Beaphar STOP IT (Home & Car) spray. Title identical to hafo SKU 21382 title. Matches."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it: 5450 (equals hafo 5450)."
+  },
+  {
+   "variant_id": 1588,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched ('kitty's|kittys|китти', 'Kitty's Protein', 'protein|протеин', Beaphar brand list): only 'Beaphar Витамины Kitty's Cheese ... 75 шт' (2050) and 'Kitty's с таурином и биотином ... 75 шт' (1950) - other flavours/formulas. No Kitty's Protein."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Kitty's + Protein» պրոտեինով կերային հավելում կատուների համար",
+    "url": "https://www.nemo.am/kittys-protein-պրոտեինով-կերային-հավելում-կատուների-համար",
+    "price": 1800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: '«Kitty's + Protein» պրոտեինով կերային հավելում կատուների համար' = 1800 AMD, no old price, in stock; description 'Քանակը՝ 75հաբ'; product image shows Beaphar Kitty's Protein 75 Tablets. Title identical to hafo SKU BP 12510. Brand, formula and 75 tablets match."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it: 1800 (equals hafo 1800)."
+  },
+  {
+   "variant_id": 1591,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Beaphar flea & tick cat collars 35 cm exist only in red, blue, violet and black (2100 each); orange exists only as the dog 65 cm collar ('Beaphar Ошейник от блох и клещей оранжевый для собак, 65 см', 2250). No orange cat 35 cm collar - colour/size axis fails."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզնոց միջատների դեմ` կատուների համար, նարնջագույն, 35սմ",
+    "url": "https://www.nemo.am/վզնոց-միջատների-դեմ-կատուների-համար-նարնջագույն-35սմ",
+    "price": 2100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Վզնոց միջատների դեմ` կատուների համար, նարնջագույն, 35սմ' = 2100 AMD, no old price, in stock; description ends 'Նարնջագույն 35սմ', diazinon, 6 months protection; product image is the Beaphar 'Flea & Tick collar for Cat' box marked 'ОРАНЖЕВЫЙ 35 СМ'. Title identical to hafo SKU 10203. Brand, cat, orange, 35 cm match."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries orange: 2100 (equals hafo 2100)."
+  },
+  {
+   "variant_id": 1592,
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Ошейник от блох и клещей фиолетовый для кошек, 35 см",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/beaphar-oshejnik-ot-bloh-i-kleschej-fioletovyj-dlya-koshek-35-sm",
+    "price": 2100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Beaphar Ошейник от блох и клещей фиолетовый для кошек, 35 см' = 2100 AMD, no options, no struck-through price; stock 'В наличии · 1 шт'; description 'Цвет: фиолетовый Размер: 35 см', Beaphar cat flea & tick collar, 6 months. Brand, cat, purple/violet, 35 cm match."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզնոց միջատների դեմ կատուների համար, մանուշակագույն, 35սմ",
+    "url": "https://www.nemo.am/վզնոց-միջատների-դեմ-կատուների-համար-մանուշակագույն-35սմ",
+    "price": 2100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Վզնոց միջատների դեմ կատուների համար, մանուշակագույն, 35սմ' = 2100 AMD, no old price, in stock; description ends 'Մանուշակագույն 35սմ'; image is the Beaphar 'Flea & Tick collar for Cat' box marked 'ФИОЛЕТОВЫЙ 35 СМ'. Title identical to hafo SKU 10202. Matches."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 2100 (equals hafo 2100)."
+  },
+  {
+   "variant_id": 1593,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched ('Catty Home', 'Catty', 'catty|приучен', 'приучения кошек', Beaphar brand list): no Beaphar Catty Home; only Gamma 'Хорошие манеры' 250 ml (different brand). zoovet does not carry it."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Հեղուկ կատուների համար՝ Catty Home, տեղին սովորեցնող, 10մլ",
+    "url": "https://www.nemo.am/հեղուկ-կատուների-համար-catty-home-տեղին-սովորեցնող-10մլ",
+    "price": 2800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Հեղուկ կատուների համար՝ Catty Home, տեղին սովորեցնող, 10մլ' = 2800 AMD, no old price, in stock; image shows the Beaphar Catty Home box. Title identical to hafo SKU 12566 (10 ml). Caveat: the description text ends '50 մլ', contradicting the 10 ml title; Catty Home is the small dropper bottle, so the title is taken as correct."
+   },
+   "confidence": "medium",
+   "notes": "Only nemo carries it: 2800 (equals hafo 2800). Medium only because nemo's description says 50 ml while its title says 10 ml."
+  },
+  {
+   "variant_id": 1594,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched ('malt|мальт', 'Malt Paste', 'Мальт-паста', 'паста для кошек', Beaphar brand list): only 'Beaphar Malt Bits ... 35 г' (1250, a treat) and 'Beaphar ... подушечки с мальт-пастой и лососем, 35 г'; the 100 g malt paste there is Trixie (2400), another brand. No Beaphar Malt Paste 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Beaphar,կեր կատուների համար՝ malt paste 100գ",
+    "url": "https://www.nemo.am/beaphar-malt-paste-մալթ-մածուկ-կատուների-համար-25-գ",
+    "price": 3200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Beaphar,կեր կատուների համար՝ malt paste 100գ' = 3200 AMD, no old price, manufacturer Beaphar, in stock; description 'Beaphar Malt Paste-ը նպաստում է ... կատուների ...'. Title identical to hafo SKU 13689. URL slug says '25-գ' but title says 100 g (trust title). Not the separate 'duo malt paste 100գ' listing (also 3200)."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it: 3200 (equals hafo 3200)."
+  }
+ ]
+}

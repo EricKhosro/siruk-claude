@@ -1,0 +1,222 @@
+[
+ {
+  "variant_id": 950,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Cliny Лосьон очищающий для ушей для кошек и собак, 50 мл",
+   "url": "https://zoovet.am/koshki/gigiena-napolniteli/uhod-za-ushami-i-glazami-1/cliny-loson-ochischayuschij-dlya-ushej-dlya-koshek-i-sobak-50-ml",
+   "price": 2700,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "I opened the page today (ME-00000290): 'Cliny Лосьон очищающий для ушей для кошек и собак, 50 мл', 2700 AMD, no struck-through price, 'В наличии · 2 шт'. The photo is the Cliny Ag+ ear-cleansing lotion box ('2в1 ионы серебра пантенол', for dogs and cats), which is hafo K106. Cliny makes only one ear lotion (hafo lists only K106)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«Cliny» ականջները մաքրող լոսիոն կենդանիների համար",
+   "url": "https://www.nemo.am/cliny-ականջները-մաքրող-լոսիոն-կենդանիների-համար",
+   "price": 2660,
+   "old_price": 2750,
+   "in_stock": true,
+   "evidence": "I opened the page today. The text says 'Տարողությունը՝ 50մլ', Cliny ear-cleaning lotion for dogs and cats, the same title as hafo's K106 listing. The photo is the Cliny 'ear cleaner lotion, 2in1 silver ions + panthenol' box. Price 2660 AMD, with a struck-through 'հին գինը: 2750֏' (rival.py misses it because the first span is only the label). In stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices: zoovet 2700, nemo 2660. One correction: nemo's old_price is 2750, not null. The highest price is still zoovet's 2700.",
+  "notes": "hafo 2660, zoovet 2700, nemo 2660 (old 2750); the highest is 2700."
+ },
+ {
+  "variant_id": 2046,
+  "confidence": "medium",
+  "zoovet": {
+   "found": true,
+   "name": "CLINY Паста для вывода шерсти со вкусом курицы для кошек, 30 мл",
+   "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/dlya-vyvedeniya-shersti-1/cliny-pasta-dlya-vyvoda-shersti-so-vkusom-kuritsy-dlya-koshek-30-ml",
+   "price": 2450,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "The page (ME-00000691) names the chicken flavour and its specs say 'Вкус Курица' and 'Объем: 30 мл'. 2450 AMD, no discount, 'В наличии · 2 шт'. Caveat: the page's only photo shows the 'ВКУС ЛОСОСЯ' (salmon) box. zoovet also has a separate salmon listing (ME-00002650, 2400, out of stock) with its own correct salmon photo, so the chicken listing is a distinct item with a reused photo. I accept it because the name and the specs agree."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Cliny, հավի համով մալթ մածուկ, 30 գ",
+   "url": "https://www.nemo.am/cliny-հավի-համով-մալթ-մածուկ-30-գ",
+   "price": 2380,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "I opened the page today: 'Cliny Մալթ մածուկ, կատուների համար, Հավի համով, Պարունակություն՝ 30 գ'. The photo is the Cliny 'паста для вывода шерсти, ВКУС КУРИЦЫ' box, the same chicken box as hafo K113 (whose title is also '..., 30 գ'). 2380 AMD, no old-price block, in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2450, nemo 2380). Lowered confidence to medium because zoovet's photo shows the salmon box, while its name and its 'Вкус Курица' spec say chicken.",
+  "notes": "hafo 2380, zoovet 2450, nemo 2380; the highest is 2450 (zoovet)."
+ },
+ {
+  "variant_id": 1750,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "CLINY Зубная паста с кальцием для кошек и собак, 75 мл",
+   "url": "https://zoovet.am/koshki/gigiena-napolniteli/uhod-za-zubami-1/cliny-zubnaya-pasta-s-kaltsiem-dlya-koshek-i-sobak-75-ml",
+   "price": 3000,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "I opened the page today (ME-00002647): 3000 AMD, no discount, 'В наличии · 2 шт'. The photo is the Cliny 'паста зубная кальций +' box (2в1 ионы серебра + пантенол, for dogs and cats), which is hafo K116."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo has no Cliny Calcium+ toothpaste. I searched cliny, Cliny, ատամի, ատամի մածուկ, կալցիում, մածուկ, 75 մլ, neoterica and Неотерика; nemo's Cliny list has 6 items. The only Cliny dental 75 ml item is 'Ատամի գել շների և կատուների համար (75 մլ)' 2530 (https://www.nemo.am/ատամի-մածուկ-շների-և-կատուների-համար-75-մլ). Its photo is the Cliny 'gel dental' box (silver ions + vitamin B5) and its title matches hafo's K104 dental gel, a different product."
+  },
+  "verdict": "agree",
+  "reason": "Same result: zoovet 3000; nemo carries only K104 dental gel, not K116 Calcium+.",
+  "notes": "hafo 3160, zoovet 3000; the highest is 3160 (hafo)."
+ },
+ {
+  "variant_id": 879,
+  "confidence": "medium",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Club4Paws cat pouches are 6 listings, all titled 100 г. The nearest is 'Club4Paws Влажный корм с говядиной в желе для кошек, 100 г' 310 (ME-00000684, https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/club4paws-vlagnyj-korm-s-govyadinoj-v-gele-dlya-koshek-100-g). Its description says 'Вес: 100 г' and its photo is the old 'with beef in jelly 100 g' pouch, a different pack from our 85 g."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "The nearest is 'Club 4 Paws, հորթի համով ժելե կատուների համար, 100 գ' 270, in stock (https://www.nemo.am/club-4-paws-հորթի-համով-ժելե-կատուների-համար-100-գ). Its text says veal-flavour jelly, 100 գ. Its photo is the new 'with beef in jelly 85 g' pouch, which is our item (hafo also calls our beef pouch 'հորթի մսով'). The page text says 100 g, so this is not confirmed."
+  },
+  "verdict": "agree",
+  "reason": "Same result: neither shop is confirmed. If the nemo listing were accepted on its photo, its 270 equals hafo's 270, so the highest price would not change.",
+  "notes": "hafo 270 remains the highest."
+ },
+ {
+  "variant_id": 880,
+  "confidence": "medium",
+  "zoovet": {
+   "found": false,
+   "evidence": "'Club4Paws Влажный корм с курицей в соусе для кошек, 100 г' 310, 'В наличии · > 20 шт' (ME-00001526, https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/club4paws-vlagnyj-korm-s-kuritsej-v-souse-dlya-koshek-100-g). The name and description say 'Вес: 100 г', but the only photo is the new 'with chicken in gravy, 85 g' pouch. The page text does not support 85 g, so this is not confirmed."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo has no adult Club 4 Paws chicken in gravy. Its Club4 Paws brand list (all cat pouches opened) has fish/mackerel gravy 100 g, veal gravy 100 g, Kitten chicken gravy 80 g, Sensitive chicken jelly 80 g, Sterilised chicken jelly 80 g, duck 100 g, 'veal' jelly 100 g and turkey jelly 80 g. The nearest is the Kitten chicken gravy 80 g (a different lifestage and pack)."
+  },
+  "verdict": "agree",
+  "reason": "Same result: not confirmed on either shop.",
+  "notes": "Flag for the user: if zoovet's 85 g photo is accepted over its '100 г' text, zoovet's 310 would beat hafo's 270."
+ },
+ {
+  "variant_id": 881,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet only has 'Club4Paws Влажный корм с уткой в соусе для кошек, 100 г' 310 (ME-00000670). Its description says 'Вес: 100 г' and its photo is the 'with duck in gravy 100 g' pouch, a different pack from our 85 g."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo only has 'Club 4 Paws, բադի ժելե կատուների համար, 100 գ' 270 (https://www.nemo.am/club-4-paws-բադի-ժելե-կատուների-համար-100-գ). Its text says 100 գ and its photo is the 'with duck in gravy 100 g' pouch, a different pack from our 85 g."
+  },
+  "verdict": "agree",
+  "reason": "Same result: only 100 g duck pouches exist on either shop.",
+  "notes": ""
+ },
+ {
+  "variant_id": 882,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet only has 'Club4Paws Влажный корм с кроликом для кошек, 100 г' 310 (ME-00000342). Its text says 'Вес: 100 г' and its photo is the 'with rabbit in jelly 100 g' pouch, a different pack from our 85 g."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo carries no Club 4 Paws rabbit wet food. Its Club4 Paws brand list has rabbit only as dry food, and searches for ճագար ժելե and ճագարի found no rabbit pouch."
+  },
+  "verdict": "agree",
+  "reason": "Same result.",
+  "notes": ""
+ },
+ {
+  "variant_id": 883,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet only has 'Club4Paws Влажный корм с индейкой в желе для кошек, 100 г' 310 (ME-00000680). Its text says 'Вес: 100 г' and its photo is the 100 g pouch, a different pack from our 85 g."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo only has 'Club4Paws, ժելե՝ հնդկահավի համով, 80 գ' 270 (https://www.nemo.am/club4paws-ժելե-հնդկահավի-համով-80-գ). Its text says 80 գ and its photo is the old 'with turkey in jelly 100 g' pouch; neither is our 85 g."
+  },
+  "verdict": "agree",
+  "reason": "Same result.",
+  "notes": "Even if accepted, nemo's 270 equals hafo's 270."
+ },
+ {
+  "variant_id": 1305,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Club4Paws veal wet food. Its 6 Club4Paws cat pouches are beef jelly, turkey jelly, rabbit, chicken gravy, duck gravy and lamb jelly, all 100 г. Searches for телятин and телятиной found no Club4Paws item."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "'4 ԹԱԹ ժելե կատուների համար հորթ սոուսով' 270, in stock (https://www.nemo.am/4-թաթ-ժելե-կատուների-համար-հորթ-սոուսով) is Club 4 Paws adult veal in gravy. But the page says 'Պարունակություն՝ 100 գ' and the photo is the 'with veal in gravy 100 g' pouch, a different pack from our 85 g."
+  },
+  "verdict": "agree",
+  "reason": "Same result.",
+  "notes": ""
+ },
+ {
+  "variant_id": 885,
+  "confidence": "medium",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Club4Paws Sterilised wet food. All 6 of its Club4Paws cat pouches are adult 100 г."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Club 4 Paws Sterilised, հավի ժելե կատուների համար, 80 գ",
+   "url": "https://www.nemo.am/club-4-paws-sterilised-հավի-ժելե-կատուների-համար-80-գ",
+   "price": 270,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "I opened the page today; the manufacturer is Club4 Paws. The text says 'Թաց կեր, ստերիլիզացված կատուների համար, Հավի ժելե 80 գ', the same title as hafo 908935, whose photo is 'Sterilised with chicken in jelly 80 g'. 270 AMD, no old price, in stock. Caveat: nemo's photo shows the Sterilised 'with beef in jelly 80 g' pouch. hafo has only one Sterilised pouch (908935, chicken), and nemo's price and title mirror hafo's, so I trust the text."
+  },
+  "verdict": "agree",
+  "reason": "Same result: nemo 270, zoovet none.",
+  "notes": "nemo's 270 equals hafo's 270."
+ },
+ {
+  "variant_id": 877,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet does not carry Comfy: its comfy brand list has 0 items. Searches for Comfy, comfy, dental bone, dental, кость, 16.5 and мят|ментол found no Comfy toy; the nearest are Triol DENTAL chew bones, a different brand."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo only has Comfy 'Խաղալիք շների համար՝ Dental Bone 12.5 սմ' 2000 and 'Dental Bone 8,5 սմ' 1300 (Dental Bone Pastel, matching hafo's 12.5 cm and 8.5 cm prices). It has no 16.5 cm size; searches for Dental Bone, comfy, 16.5, մենթոլ and ոսկոր կանաչ found none."
+  },
+  "verdict": "agree",
+  "reason": "Same result.",
+  "notes": "hafo 4000 remains the highest."
+ },
+ {
+  "variant_id": 1625,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство мясная нарезка с олениной для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-myasnaya-narezka-s-oleninoj-dlya-sobak-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "I opened the page today (ME-00001207). The composition lists duck meat, venison, plant by-products and minerals; 'Вес: 90 г'. The photo is the Деревенские лакомства 'Мясная нарезка с олениной' 90 g pack. 2250 AMD, no discount, 'Нет в наличии'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն շների համար՝ եղնիկի մսային ձողիկներ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-եղնիկի-մսային-ձողիկներ",
+   "price": 2250,
+   "old_price": 2800,
+   "in_stock": true,
+   "evidence": "I opened the page today; the manufacturer is Деревенские лакомства. It lists venison, duck meat, plant by-products and minerals, 90գ, and the photo is the 'Мясная нарезка с олениной' pack. Price 2250 AMD, with a struck-through 'հին գինը: 2800֏' (rival.py misses it because the first span is only the label). In stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same price (2250 each). One correction: nemo's old_price is 2800, not null.",
+  "notes": "hafo 2250, zoovet 2250 (out of stock), nemo 2250 (old 2800); the highest is 2250."
+ }
+]

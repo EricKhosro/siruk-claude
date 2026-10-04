@@ -1,0 +1,419 @@
+{
+ "results": [
+  {
+   "variant_id": 745,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Grill Kitten Влажный корм из лосося для котят, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-grill-kitten-vlagnyj-korm-iz-lososya-dlya-kotyat-85-g",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Grill Kitten salmon pouch 85 g, 550 AMD, no old price, page stock 'В наличии · > 20 шт' (brand list had flagged it out of stock; page wins)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no Monge Grill Kitten pouch: its Grill cat range is Adult rabbit/lamb, Steril chicken/veal/trout, Senior mackerel. Searched 'monge kitten', 'kitten salmon|սաղմոն', 'պաուչ ձագ', EAN 8009470013604 - none. Nearest: 'Պաուչ կատվի ձագերի համար Monge Monoprotein իշխան 85 գ' (different line + flavour, 550)."
+   }
+  },
+  {
+   "variant_id": 746,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Grill Влажный корм из мяса кролика для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-grill-vlagnyj-korm-iz-myasa-krolika-dlya-koshek-85-g",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Grill adult cat rabbit pouch 85 g, 550 AMD, 'В наличии · > 20 шт', no discount."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Monge Grill կատուների համար (ճագար)",
+    "url": "https://www.nemo.am/mongo-grill-adult-cat-coniglio",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; text 'Քաշը՝ 85գ', complete food for adult cats, rabbit chunks, grain free; 550 AMD, in stock, no old price."
+   }
+  },
+  {
+   "variant_id": 747,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Grill Влажный корм с ягненком для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-grill-vlageyj-korm-s-yagnenkom-dlya-koshek-85-g",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Grill cat lamb pouch 85 g, 550 AMD, 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Monge Grill կատուների համար (գառ)",
+    "url": "https://www.nemo.am/mongo-grill-adult-cat-agnello",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; 85 g, adult cats, lamb chunks; 550 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 748,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Grill Влажный корм с курицей для стерилизованных кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-grill-vlagnyj-korm-s-kuritsej-dlya-sterilizovannyh-koshek-85-g",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Grill Sterilised chicken pouch 85 g, 550 AMD, 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Monge Grill STERIL կատուների համար (հավ)",
+    "url": "https://www.nemo.am/mongo-grill-sterilised-cat-galletto",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; 85 g, sterilised cats, chicken chunks; 550 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 1260,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Grill Влажный корм с телятиной для стерилизованных кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-grill-vlagnyj-korm-s-telyatinoj-dlya-sterilizovannyh-koshek-85-g",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Grill Sterilised veal pouch 85 g, 550 AMD, 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Monge Grill STERIL կատուների համար (հորթ)",
+    "url": "https://www.nemo.am/mongo-grill-sterilised-cat-vitello",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; 85 g, sterilised cats, veal chunks; 550 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 1261,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Grill Влажный корм с форелью для стерилизованных кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-grill-vlagnyj-korm-s-forelyu-dlya-sterilizovannyh-koshek-85-g",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Grill Sterilised trout pouch 85 g, 550 AMD, 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Monge, իշխանի համով պաուչ ստերիլիզացված կատուների համար, 85 գ",
+    "url": "https://www.nemo.am/monge-իշխանի-համով-պաուչ-ստերիլիզացված-կատուների-համար-85-գ-2",
+    "price": 550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; trout pouch for sterilised cats, 85 g, grain free, 28 per box; page photo is the 'Monge Grill Sterilised Cat - Rich in Trout - 85g' packshot; 550 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 751,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has VetSolution Urinary Struvite for cats only as dry food (400 g 3400, 1.5 kg 8900); its wet VetSolution cat range is Dermatosis / Gastrointestinal / Recovery / Renal&Oxalate 100 g. Searched 'струвит|struvite', 'urinary 100', EAN 8009470014625 - no wet struvite."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Vetsolution Urinary Struvite» պաշտետ կատուների համար (100 գ)",
+    "url": "https://www.nemo.am/vetsolution-urinary-struvite-պաշտետ-կատուների-համար-100-գ",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; pâté for cats, dissolves struvite stones (Fit-aroma, cranberry), 'Պարունակություն՝ 100 գ'; 600 AMD, in stock, no old price."
+   }
+  },
+  {
+   "variant_id": 756,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Fresh Sterilised Влажный корм с атлантической сельдью для стерилизованных кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-fresh-sterilised-vlagnyj-korm-s-atlanticheskoj-seldyu-dlya-sterilizovannyh-koshek-85-g",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Fresh Sterilised Atlantic herring 85 g, 450 AMD, 'В наличии · 13 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաուչ կատուների համար Monge FRESH Steril տառեխ 85գ",
+    "url": "https://www.nemo.am/պաուչ-կատուների-համար-monge-fresh-steril-տառեխ-85գ",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; Fresh Steril pouch, 25% Atlantic herring, 85 g; 450 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 757,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Fresh Sterilised Влажный корм с говядиной для стерилизованных кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-fresh-sterilised-vlagnyj-korm-s-govyadinoj-dlya-sterilizovannyh-koshek-85-g",
+    "price": 450,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page: Monge Fresh Sterilised beef 85 g, 450 AMD; stock 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաուչ կատուների համար Monge FRESH Steril տավար 85գ",
+    "url": "https://www.nemo.am/պաուչ-կատուների-համար-monge-fresh-steril-տավար-85գ",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; Fresh pouch for sterilised cats, beef chunks (20% beef), 85 g; 450 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 758,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has Monge Mini Adult chicken & rice only as 3 kg bag (12800, out of stock), 15 kg bag (41500) and loose 1 kg (3000); no 800 g bag in brand list or 'monge 800' search."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Կեր շների համար՝ MONGE Mini Adult, հավ/բրինձ 800գ",
+    "url": "https://www.nemo.am/կեր-շների-համար-monge-mini-adult-հավբրինձ-800գ",
+    "price": 3850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; Mini Adult chicken/rice for small adult dogs (2-12 kg), 800 g; 3850 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 759,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Monoprotein Сухой корм с лососем для кошек, 1.5 кг",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-monoprotein-suhoj-korm-s-lososem-dlya-koshek-1-5-kg",
+    "price": 7500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Cat Speciality Line Monoprotein salmon for adult cats, 1.5 kg, 7500 AMD, 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Կեր կատուների համար՝ MONGE Monoprotein սաղմոն, 1.5 կգ",
+    "url": "https://www.nemo.am/կեր-կատուների-համար-monge-monoprotein-սաղմոն-15-կգ",
+    "price": 7500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; photo = Speciality Line Monoprotein Adult >12 months Salmon 1.5 kg bag (short text is copy-pasted sterilised wording); 7500 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 760,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Sterilized Сухой корм с говядиной для кошек, 1.5 кг",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-sterilized-suhoj-korm-s-govyadinoj-dlya-koshek-1-5-kg",
+    "price": 8800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: description 'Cat Speciality Line Monoprotein ... из мяса говядины для стерилизованных кошек ... 1,5 кг'; 8800 AMD, 'В наличии · 2 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Կեր կատուների համար՝ MONGE STERILISED Monoprotein, հորթի մսով",
+    "url": "https://www.nemo.am/կեր-կատուների-համար-monge-sterilised-monoprotein-հորթի-մսով",
+    "price": 8800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; Sterilised Monoprotein, single protein source beef (տավարի միս), 'Քաշ՝ 1.5կգ'; 8800 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 761,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has Monge Puppy and Junior lamb & rice only as 12 kg bag (44000) / loose 1 kg (3900), Mini Puppy & Junior lamb loose/15 kg; no 800 g lamb puppy bag (800 g puppy items are only Monoprotein Puppy salmon and Extra Small Puppy chicken). EAN/sku search empty."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no Monge All Breeds Puppy & Junior lamb 800 g; nearest: MINI PUPPY/JUNIOR lamb (15 kg 50000 / per kg 3550), MINI PUPPY Monoprotein lamb bag (30500), All Breed Puppy/Junior veal 15 kg/per kg. No 800 g lamb puppy listing; EAN search empty."
+   }
+  },
+  {
+   "variant_id": 762,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Extra Small Puppy & Junior со вкусом курицы, 800 г",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-extra-small-puppy-junior-so-vkusom-kuritsy-800-g",
+    "price": 4250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Extra Small Puppy & Junior chicken 800 g, 4250 AMD, 'В наличии · 2 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Monge Extra Small Puppy & Junior Հավի համով (800 գ)",
+    "url": "https://www.nemo.am/monge-extra-small-puppy-junior-հավի-համով-800-գ",
+    "price": 4250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; Extra Small puppy & junior, chicken, 800 g; 4250 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 763,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Extra Small Adult с ягненком, рисом и картофелем, 800 г",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-extra-small-adult-s-yagnenkom-risom-i-kartofelem-800-g",
+    "price": 4900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Monge Extra Small Adult, lamb (30% dehydrated + 10% fresh), rice, potato protein, 800 g, 4900 AMD, 'В наличии · 1 шт' - the line's only lamb recipe."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Կեր շների համար՝ MONGE EXTRA SMALL ADULT, գառ/բրինձ, 800 գ",
+    "url": "https://www.nemo.am/կեր-շների-համար-monge-extra-small-adult-գառբրինձ-800-գ",
+    "price": 4900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; Extra Small Adult lamb/rice for adult dogs up to 2 kg, 800 g; 4900 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 764,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Sterilised Сухой корм с курицей для кошек, 1.5 кг",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-sterilised-suhoj-korm-s-kuritsej-dlya-koshek-1-5-kg",
+    "price": 8500,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page: Monge Cat Daily Line Sterilised chicken 1.5 kg, 8500 AMD; stock 'Под заказ (от 2 дней)' = on order, not in stock."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Monge Sterilised չոր կեր կատուների համար (1,5 կգ)",
+    "url": "https://www.nemo.am/monge-sterilised-չոր-կեր-կատուների-համար-15-կգ",
+    "price": 8500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; 'Քաշը՝ 1,5կգ', complete food with chicken for adult sterilised cats; 8500 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 765,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Bwild Сухой корм с кроликом для взрослых кошек, 1.5 кг",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-bwild-suhoj-korm-s-krolikom-dlya-vzroslyh-koshek-1-5-kg",
+    "price": 9000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: name says rabbit but description 'Cat BWild LOW GRAIN ... из мяса зайца (hare) для взрослых кошек 1,5 кг'; 9000 AMD, 'В наличии · 2 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Bwild, չոր կեր հասուն կատուների համար, ճագար (1,5 կգ)",
+    "url": "https://www.nemo.am/bwild-չոր-կեր-հասուն-կատուների-համար-ճագար-15-կգ",
+    "price": 9000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer BWild; low grain, adult cats, 1.5 kg; photo = BWild Low Grain Adult HARE/LEPRE 1.5 kg bag; 9000 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 766,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Bwild Сухой корм с мясом буйвола для взрослых кошек, 1.5 кг",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-bwild-suhoj-korm-s-myasom-bujvola-dlya-vzroslyh-koshek-1-5-kg",
+    "price": 10000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: BWild Cat Buffalo dry food for large-breed cats (Maine Coon etc.), 1.5 kg, 10000 AMD, 'В наличии · 1 шт' (only BWild buffalo cat dry)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Կեր կատուների համար BWILD CAT՝ գոմեշ",
+    "url": "https://www.nemo.am/կեր-կատուների-համար-bwild-cat-գոմեշ",
+    "price": 10000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer BWild; 'Քաշը՝ 1.5կգ', buffalo food for large-breed cats; photo = BWild GRAIN FREE Large Breed All Life Stage buffalo with potatoes & lentils 1.5 kg; 10000 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 767,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge Bwild Сухой корм с тунцом и горохом для стерилизованных кошек, 1.5 кг",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-bwild-suhoj-korm-s-tuntsom-i-gorohom-dlya-sterilizovannyh-koshek-1-5-kg",
+    "price": 10000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Cat BWild GRAIN FREE tuna and peas for sterilised cats, 1.5 kg, 10000 AMD, 'В наличии · 4 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Կեր ստերիլիզացված կատուների համար BWILD CAT STERIL` թյունոս",
+    "url": "https://www.nemo.am/կեր-ստերիլիզացված-կատուների-համար-bwild-cat-steril-թյունոս",
+    "price": 10000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer BWild; 'Քաշը՝ 1.5կգ', tuna food for sterilised cats; 10000 AMD, in stock."
+   }
+  },
+  {
+   "variant_id": 768,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Monge VetSolution Gastrointestinal Сухой корм для кошек с расстройством пищеварения, 1.5 кг",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-vetsolution-gastrointestinal-suhoj-korm-dlya-koshek-s-rastrojstvom-pischevareniya-1-5-kg",
+    "price": 8900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: VetSolution Gastrointestinal cat dry food 1.5 kg, 8900 AMD, 'В наличии · 4 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "VetSolution Gastrointestinal (ստամքս-աղիքային) բժշկական չոր կեր կատուների համար",
+    "url": "https://www.nemo.am/monge-grain-free-vet-gastrointestinal-կեր-կատուների-համար-2",
+    "price": 8900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Monge; 'Քաշը՝ 1.5կգ', VetSolution Gastrointestinal veterinary dry food for cats; 8900 AMD, in stock."
+   }
+  }
+ ]
+}

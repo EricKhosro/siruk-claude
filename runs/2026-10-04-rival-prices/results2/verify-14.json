@@ -1,0 +1,404 @@
+{
+ "results": [
+  {
+   "variant_id": 1619,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/mnyams-hrustyaschie-podushechki-sterilised-profilaktika-mkb-s-tsyplenkom-dlya-koshek-60-g",
+    "name": "Мнямс Хрустящие подушечки Sterilised \"Профилактика МКБ\" с цыпленком для кошек, 60 г",
+    "price": 850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 850 AMD, no discount, in stock (1 pc). Description: chicken and cranberry crunchy pillows for sterilised cats, with L-carnitine, 60 g. This is a different item from Mnyams' hairball, kitten, plain chicken and Health & Activity 60 g pillows."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մնյամս-բարձիկներ-ստերջացված-կատուների-համար-լ-կարնիտին",
+    "name": "Մնյամս բարձիկներ ստերջացված կատուների համար՝ Լ-ԿԱՐՆԻՏԻՆ",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: manufacturer Мнямс; the short description gives 60 g, chicken and cranberry pillows, L-carnitine, for sterilised cats. 800 AMD, no old price, in stock. Same title as hafo's row 548843."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 730,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-bwild-vlagnyj-korm-s-treksoj-i-ovoschami-dlya-koshek-85-g",
+    "name": "Monge Bwild Влажный корм с треской и овощами для кошек, 85 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (14). Description: BWild Grain Free pouch, cod with prawns and vegetables, adult cats, 85 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պաուչ-կատուների-համար-monge-bwild-adult-ձկան-մեռլուզո",
+    "name": "Պաուչ կատուների համար Monge Bwild adult ձկան (մեռլուզո)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: BWild, 85 g, complete food for adult cats with cod meat (ձողաձկան). 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 731,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-bwild-vlagnyj-korm-s-myasom-bujvola-dlya-koshek-85-g",
+    "name": "Monge Bwild Влажный корм с мясом буйвола для кошек, 85 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (>20). Description: BWild Grain Free pouch, buffalo 26% with green beans and carrot, 85 g, labelled for large-breed cats. BWild makes only one buffalo pouch, the item hafo calls 'adult բիզոն 85 գ'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պաուչ-կատուների-համար-monge-bwild-adult-բիզոնի-մսով",
+    "name": "Պաուչ կատուների համար Monge Bwild adult բիզոնի մսով",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: BWild adult pouch with buffalo, 85 g (description: large-breed cats, green beans and carrot). 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 732,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-bwild-vlagnyj-korm-s-anchousom-dlya-koshek-85-g",
+    "name": "Monge Bwild Влажный корм с анчоусом для кошек, 85 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (10). Description: BWild Grain Free pouch, anchovies 26% with vegetables, adult cats, 85 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պաուչ-կատուների-համար-monge-bwild-adult-ձկան-անչոուս",
+    "name": "Պաուչ կատուների համար Monge Bwild adult ձկան (անչոուս)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: BWild adult pouch, anchovy, 85 g. The short description copies 'salmon' from another listing, but the name says anchovy and the sterilised salmon pouch is its own listing. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 733,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-bwild-vlagnyj-korm-s-lososem-dlya-koshek-85-g",
+    "name": "Monge Bwild Влажный корм с лососем для кошек, 85 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (>20). Description: BWild Grain Free pouch, salmon 26% with prawns 4% and vegetables, for sterilised cats, 85 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/առկա-է-պաուչ-ստերիլիզացված-կատուների-համար-monge-bwild-ձկան-սալմոն",
+    "name": "Պաուչ ստերիլիզացված կատուների համար Monge Bwild ձկան (սաղմոն)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: BWild pouch for sterilised cats, salmon, 85 g. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 734,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-bwild-vlagnyj-korm-s-tuntsom-dlya-koshek-85-g",
+    "name": "Monge Bwild Влажный корм с тунцом для кошек, 85 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (>20). Description: BWild Grain Free pouch, tuna 26% with prawns and vegetables, for sterilised cats, 85 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պաուչ-ստերիլիզացված-կատուների-համար-bwild-ձկան-թյունոս",
+    "name": "Պաուչ ստերիլիզացված կատուների համար Bwild ձկան (թյունոս)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: BWild pouch for sterilised cats, tuna, 85 g. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 735,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-bwild-vlagnyj-korm-s-myasom-dikogo-kabana-dlya-sterilizovannyh-koshek-85-g",
+    "name": "Monge Bwild Влажный корм с мясом дикого кабана для стерилизованных кошек, 85 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (>20). Description: BWild Grain Free pouch, wild boar with vegetables, for sterilised cats, 85 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պաուչ-ստերիլիզացված-կատուների-համար-monge-bwild-վայրի-վարազի-մսով",
+    "name": "Պաուչ ստերիլիզացված կատուների համար Monge Bwild վայրի վարազի մսով",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: BWild pouch for sterilised cats, wild boar, 85 g. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 736,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-grill-vlagnyj-korm-s-kuritsej-i-indejkoj-dlya-vzroslyh-sobak-100-g",
+    "name": "Monge Grill Влажный корм с курицей и индейкой для взрослых собак, 100 г",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 500 AMD, in stock (10). Description: Monge Dog Grill pouch, chicken 14% and turkey 14%, adult dogs, 100 g. The puppy version is a separate listing."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-grill-շների-համար-հավ-և-հնդկահավ",
+    "name": "Monge Grill շների համար (հավ և հնդկահավ)",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge, wet food with chicken and turkey chunks for dogs, 100 g. 500 AMD, in stock. nemo lists the puppy version separately."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 737,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-grill-vlagnyj-korm-s-lososem-dlya-sobak-100-g",
+    "name": "Monge Grill Влажный корм с лососем для собак, 100 г",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 500 AMD, in stock (>20). Description: Monge Dog Grill grain-free, salmon, adult dogs of all breeds, 100 g. The cod Grill is a separate listing."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-grill-սաղմոն",
+    "name": "Monge Grill շների համար (սաղմոն)",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge Grill for dogs, salmon chunks, 100 g, grain free. 500 AMD, in stock. The 'ձուկ' (fish) Grill is a separate listing."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 738,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-grill-vlagnyj-korm-s-yagnenkom-i-ovoschai-dlya-sobak-100-g",
+    "name": "Monge Grill Влажный корм с ягненком и овощами для собак, 100 г",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 500 AMD, in stock (7). Composition: lamb min 4.2%, peas; adult dogs, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-grill-գառ-և-բանջարեղեն",
+    "name": "Monge Grill շների համար (Գառ և բանջարեղեն)",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge Grill for dogs, lamb chunks and vegetables, 100 g, grain free. 500 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 739,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-grill-vlagnyj-korm-s-kuritsej-i-indejkoj-dlya-schenkov-ot-2-mes-100-g",
+    "name": "Monge Grill Влажный корм с курицей и индейкой для щенков от 2 мес., 100 г",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 500 AMD, in stock (>20). Monge Grill chicken and turkey for puppies from 2 months, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-ձագերի-monge-gril-հավ-և-հնդկահավ",
+    "name": "Կեր շների ձագերի՝ MONGE GRIL հավ և հնդկահավ",
+    "price": 500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge, chicken and turkey wet food for puppies, from 2 months, 100 g. 500 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 740,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fruit-vlagnyj-korm-so-svininoj-i-ananasom-dlya-sobak-100-g",
+    "name": "Monge Fruit Влажный корм со свининой и ананасом для собак, 100 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (>20). Description: Monge Dog Fruit, pork chunks in pâté with pineapple, adult dogs of all breeds, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-fruit-խոզի-մսով-և-արքայախնձորով-պաշտետ",
+    "name": "Monge Fruit խոզի մսով և արքայախնձորով պաշտետ (100 գ)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge, Fruit pâté with pork and pineapple, 100 g, dogs. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 741,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-indejkoj-i-apelsinom-dlya-sobak-400-g",
+    "name": "Monge Monoprotein Влажный корм с индейкой и апельсином для собак, 400 г",
+    "price": 2000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 2000 AMD, in stock (2). Description: Monge Dog Monoprotein Fruits grain-free pâté, turkey with citrus pulp, adult dogs, 400 g. The plain Monoprotein turkey 400 g (also 2000 AMD) is a different item."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-monoprotein-պաշտետ-հնդկահավ-և-ցիտրուս-400-գ",
+    "name": "Monge Monoprotein պաշտետ՝ հնդկահավ և ցիտրուս, 400 գ",
+    "price": 2100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge, fruit pâté for dogs, turkey and citrus, 400 g. 2100 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": "Siruk files this under 'Monge Fruit Adult Dog Paté', but the hafo row (014337) and the EAN (8009470014335) are the Monoprotein Fruits turkey + citrus 400 g can. Both rivals sell that can. The highest rival price is nemo's 2100."
+  },
+  {
+   "variant_id": 742,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fruit-vlagnyj-korm-s-kuritsej-i-malinoj-dlya-sobak-100-g",
+    "name": "Monge Fruit Влажный корм с курицей и малиной для собак, 100 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (>20). Monge Dog Fruit, chicken chunks in pâté with raspberry, adult dogs, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-fruit-հավի-մսով-և-ազնվամորիով-պաշտետ",
+    "name": "Monge Fruit հավի մսով և ազնվամորիով պաշտետ (100 գ)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge, Fruit pâté with chicken and raspberry, 100 g, dogs. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 743,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fruit-vlagnyj-korm-s-utkoj-i-apelsinom-dlya-sobak-100-g",
+    "name": "Monge Fruit Влажный корм с уткой и апельсином для собак, 100 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (6). Monge Dog Fruit, duck chunks in pâté with orange, adult dogs, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-fruit-բադի-մսով-և-նարինջով-պաշտետ",
+    "name": "Monge Fruit բադի մսով և նարինջով պաշտետ (100 գ)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge, Fruit pâté with duck and orange, 100 g, dogs. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  },
+  {
+   "variant_id": 744,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fruit-vlagnyj-korm-s-lososem-i-grushej-dlya-sobak-100-g",
+    "name": "Monge Fruit Влажный корм с лососем и грушей для собак, 100 г",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet-page: 600 AMD, in stock (3). Monge Dog Fruit, salmon chunks in pâté with pear, adult dogs, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-fruit-սաղմոնի-մսով-և-տանձով-պաշտետ",
+    "name": "Monge Fruit սաղմոնի մսով և տանձով պաշտետ (100 գ)",
+    "price": 600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo-page: Monge, Fruit pâté with salmon and pear, 100 g, dogs. 600 AMD, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: every axis matches and today's price is the same as the matcher's.",
+   "notes": ""
+  }
+ ]
+}

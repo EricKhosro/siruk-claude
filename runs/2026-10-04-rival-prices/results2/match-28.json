@@ -1,0 +1,450 @@
+{
+ "results": [
+  {
+   "variant_id": 1205,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no olive-green Trixie Premium collar: its Trixie collar list (curry, rust, sage, sangria, petrol, mint/light green, graphite, indigo, red, mocca, black, caramel, fuchsia) has no olive green; searched \"olive\", \"olive green\", \"ձիթապտղ\", \"վզնոց կանաչ\", article 67103/EAN. Nearest: \"Վզնոց՝ նեյլոնե, կարգավորվող, բաց կանաչ\" M–L 1800 (photo is mint, not olive) https://www.nemo.am/premium-վզկապ-դեղնավուն-կարմիր and an olive-green harness (լանջափոկ) 6100."
+   },
+   "confidence": "high",
+   "notes": "M–L olive green: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1438,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no aqua Trixie Premium collar: searched \"aqua\", \"կապույտ-aqua\", \"վզնոց կապույտ\", article 67073/EAN; only aqua items are Trixie harnesses (Premium Trekking լանջափոկ կապույտ-aqua, Trixie կարգավորվող լանջափոկ կապույտ-aqua 6400). Collar colours listed on nemo do not include aqua."
+   },
+   "confidence": "high",
+   "notes": "M–L aqua: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1439,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կարիի-գույն-5",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կարիի գույն",
+    "price": 1800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կարիի գույն\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ Կարիի գույն-curry M–L 35–55 սմ/20 մմ\"; price 1800 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, M–L (M–L 35–55 սմ/20 մմ), colour curry; nemo prices this size at 1800 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1441,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-բենզինի-գույն-6",
+    "name": "Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն",
+    "price": 1800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ բենզինի գույն (name + photo) M–L 35–55 սմ/20 մմ\"; price 1800 AMD, no old price, in stock. Page short description repeats the colour as \"մանուշակագույն-sangria\" (copy error), but the product name and the product photo both show petrol."
+   },
+   "confidence": "medium",
+   "notes": "Same Trixie Premium nylon collar, M–L (M–L 35–55 սմ/20 մմ), colour petrol; nemo prices this size at 1800 for every colour. zoovet does not carry the line. Petrol page description has a copy-pasted sangria colour; name and photo say petrol (price identical for all colours of this size)."
+  },
+  {
+   "variant_id": 1442,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-դարչնագույն-rust-5",
+    "name": "Վզնոց նեյլոնե, կարգավորվող դարչնագույն-rust",
+    "price": 1800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող դարչնագույն-rust\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ դարչնագույն-rust M–L 35–55 սմ/20 մմ\"; price 1800 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, M–L (M–L 35–55 սմ/20 մմ), colour rust; nemo prices this size at 1800 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1443,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կանաչ-մենթոլ-sage-5",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage",
+    "price": 1800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ կանաչ-մենթոլ M–L 35–55 սմ/20 մմ\"; price 1800 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, M–L (M–L 35–55 սմ/20 մմ), colour sage; nemo prices this size at 1800 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1445,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-մանուշակագույն-sangria-5",
+    "name": "Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria",
+    "price": 1800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ մանուշակագույն-sangria M–L 35–55 սմ/20 մմ\"; price 1800 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, M–L (M–L 35–55 սմ/20 մմ), colour sangria; nemo prices this size at 1800 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1446,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no aqua Trixie Premium collar: searched \"aqua\", \"կապույտ-aqua\", \"վզնոց կապույտ\", article 67073/EAN; only aqua items are Trixie harnesses (Premium Trekking լանջափոկ կապույտ-aqua, Trixie կարգավորվող լանջափոկ կապույտ-aqua 6400). Collar colours listed on nemo do not include aqua."
+   },
+   "confidence": "high",
+   "notes": "S aqua: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1448,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no olive-green Trixie Premium collar: its Trixie collar list (curry, rust, sage, sangria, petrol, mint/light green, graphite, indigo, red, mocca, black, caramel, fuchsia) has no olive green; searched \"olive\", \"olive green\", \"ձիթապտղ\", \"վզնոց կանաչ\", article 67103/EAN. Nearest: \"Վզնոց՝ նեյլոնե, կարգավորվող, բաց կանաչ\" M–L 1800 (photo is mint, not olive) https://www.nemo.am/premium-վզկապ-դեղնավուն-կարմիր and an olive-green harness (լանջափոկ) 6100."
+   },
+   "confidence": "high",
+   "notes": "S olive green: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1449,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կանաչ-մենթոլ-sage-3",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage",
+    "price": 1350,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ կանաչ-մենթոլ S 25–40 սմ/15 մմ\"; price 1350 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, S (S 25–40 սմ/15 մմ), colour sage; nemo prices this size at 1350 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1451,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-մանուշակագույն-sangria-3",
+    "name": "Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria",
+    "price": 1350,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ մանուշակագույն-sangria S 25–40 սմ/15 մմ\"; price 1350 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, S (S 25–40 սմ/15 մմ), colour sangria; nemo prices this size at 1350 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1453,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կարիի-գույն-4",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կարիի գույն",
+    "price": 1450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կարիի գույն\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ Կարիի գույն-curry S–M 30–45 սմ/15 մմ\"; price 1450 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, S–M (S–M 30–45 սմ/15 մմ), colour curry; nemo prices this size at 1450 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1454,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no olive-green Trixie Premium collar: its Trixie collar list (curry, rust, sage, sangria, petrol, mint/light green, graphite, indigo, red, mocca, black, caramel, fuchsia) has no olive green; searched \"olive\", \"olive green\", \"ձիթապտղ\", \"վզնոց կանաչ\", article 67103/EAN. Nearest: \"Վզնոց՝ նեյլոնե, կարգավորվող, բաց կանաչ\" M–L 1800 (photo is mint, not olive) https://www.nemo.am/premium-վզկապ-դեղնավուն-կարմիր and an olive-green harness (լանջափոկ) 6100."
+   },
+   "confidence": "high",
+   "notes": "S–M olive green: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1455,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-բենզինի-գույն-5",
+    "name": "Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն",
+    "price": 1450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ բենզինի գույն (name + photo) S–M 30–45 սմ/15 մմ\"; price 1450 AMD, no old price, in stock. Page short description repeats the colour as \"մանուշակագույն-sangria\" (copy error), but the product name and the product photo both show petrol."
+   },
+   "confidence": "medium",
+   "notes": "Same Trixie Premium nylon collar, S–M (S–M 30–45 սմ/15 մմ), colour petrol; nemo prices this size at 1450 for every colour. zoovet does not carry the line. Petrol page description has a copy-pasted sangria colour; name and photo say petrol (price identical for all colours of this size)."
+  },
+  {
+   "variant_id": 1456,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կանաչ-մենթոլ-sage-4",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage",
+    "price": 1450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ կանաչ-մենթոլ S–M 30–45 սմ/15 մմ\"; price 1450 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, S–M (S–M 30–45 սմ/15 մմ), colour sage; nemo prices this size at 1450 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1457,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-մանուշակագույն-sangria-4",
+    "name": "Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria",
+    "price": 1450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ մանուշակագույն-sangria S–M 30–45 սմ/15 մմ\"; price 1450 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, S–M (S–M 30–45 սմ/15 մմ), colour sangria; nemo prices this size at 1450 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1458,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no aqua Trixie Premium collar: searched \"aqua\", \"կապույտ-aqua\", \"վզնոց կապույտ\", article 67073/EAN; only aqua items are Trixie harnesses (Premium Trekking լանջափոկ կապույտ-aqua, Trixie կարգավորվող լանջափոկ կապույտ-aqua 6400). Collar colours listed on nemo do not include aqua."
+   },
+   "confidence": "high",
+   "notes": "XS–S aqua: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1460,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no olive-green Trixie Premium collar: its Trixie collar list (curry, rust, sage, sangria, petrol, mint/light green, graphite, indigo, red, mocca, black, caramel, fuchsia) has no olive green; searched \"olive\", \"olive green\", \"ձիթապտղ\", \"վզնոց կանաչ\", article 67103/EAN. Nearest: \"Վզնոց՝ նեյլոնե, կարգավորվող, բաց կանաչ\" M–L 1800 (photo is mint, not olive) https://www.nemo.am/premium-վզկապ-դեղնավուն-կարմիր and an olive-green harness (լանջափոկ) 6100."
+   },
+   "confidence": "high",
+   "notes": "XS–S olive green: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1461,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-բենզինի-գույն-3",
+    "name": "Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն",
+    "price": 1200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ բենզինի գույն (name + photo) XS–S 22–35 սմ/10 մմ\"; price 1200 AMD, no old price, in stock. Page short description repeats the colour as \"մանուշակագույն-sangria\" (copy error), but the product name and the product photo both show petrol."
+   },
+   "confidence": "medium",
+   "notes": "Same Trixie Premium nylon collar, XS–S (XS–S 22–35 սմ/10 մմ), colour petrol; nemo prices this size at 1200 for every colour. zoovet does not carry the line. Petrol page description has a copy-pasted sangria colour; name and photo say petrol (price identical for all colours of this size)."
+  },
+  {
+   "variant_id": 1462,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կանաչ-մենթոլ-sage-2",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage",
+    "price": 1200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ կանաչ-մենթոլ XS–S 22–35 սմ/10 մմ\"; price 1200 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, XS–S (XS–S 22–35 սմ/10 մմ), colour sage; nemo prices this size at 1200 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1464,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-մանուշակագույն-sangria-2",
+    "name": "Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria",
+    "price": 1200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ մանուշակագույն-sangria XS–S 22–35 սմ/10 մմ\"; price 1200 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, XS–S (XS–S 22–35 սմ/10 մմ), colour sangria; nemo prices this size at 1200 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1466,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կարիի-գույն",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կարիի գույն",
+    "price": 1100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կարիի գույն\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ Կարիի գույն-curry XXS–XS 15–25 սմ/10 մմ\"; price 1100 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, XXS–XS (XXS–XS 15–25 սմ/10 մմ), colour curry; nemo prices this size at 1100 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1468,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no olive-green Trixie Premium collar: its Trixie collar list (curry, rust, sage, sangria, petrol, mint/light green, graphite, indigo, red, mocca, black, caramel, fuchsia) has no olive green; searched \"olive\", \"olive green\", \"ձիթապտղ\", \"վզնոց կանաչ\", article 67103/EAN. Nearest: \"Վզնոց՝ նեյլոնե, կարգավորվող, բաց կանաչ\" M–L 1800 (photo is mint, not olive) https://www.nemo.am/premium-վզկապ-դեղնավուն-կարմիր and an olive-green harness (լանջափոկ) 6100."
+   },
+   "confidence": "high",
+   "notes": "XXS–XS olive green: neither rival carries this colour of the Trixie Premium collar."
+  },
+  {
+   "variant_id": 1469,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-բենզինի-գույն",
+    "name": "Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն",
+    "price": 1100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ բենզինի գույն (name + photo) XXS–XS 15–25 սմ/10 մմ\"; price 1100 AMD, no old price, in stock. Page short description repeats the colour as \"մանուշակագույն-sangria\" (copy error), but the product name and the product photo both show petrol."
+   },
+   "confidence": "medium",
+   "notes": "Same Trixie Premium nylon collar, XXS–XS (XXS–XS 15–25 սմ/10 մմ), colour petrol; nemo prices this size at 1100 for every colour. zoovet does not carry the line. Petrol page description has a copy-pasted sangria colour; name and photo say petrol (price identical for all colours of this size)."
+  },
+  {
+   "variant_id": 1470,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-դարչնագույն-rust",
+    "name": "Վզնոց նեյլոնե, կարգավորվող դարչնագույն-rust",
+    "price": 1100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող դարչնագույն-rust\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ դարչնագույն-rust XXS–XS 15–25 սմ/10 մմ\"; price 1100 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, XXS–XS (XXS–XS 15–25 սմ/10 մմ), colour rust; nemo prices this size at 1100 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1471,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կանաչ-մենթոլ-sage",
+    "name": "Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage",
+    "price": 1100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ կանաչ-մենթոլ XXS–XS 15–25 սմ/10 մմ\"; price 1100 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, XXS–XS (XXS–XS 15–25 սմ/10 մմ), colour sage; nemo prices this size at 1100 for every colour. zoovet does not carry the line."
+  },
+  {
+   "variant_id": 1473,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet.am carries no Trixie Premium nylon collar in any size/colour: searched \"ошейник\", \"trixie ошейник\", \"trixie premium\", \"нейлон\", colour words (оливк/шалфей/карри/петрол/сангри/аква/ржав), article and EAN; its Trixie collar list has only BE NORDIC, neoprene-lined, USB-light and cat collars. Nearest Premium items are a leash (Поводок-перестежка Premium) and a harness (Шлейка Premium), not collars."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-մանուշակագույն-sangria",
+    "name": "Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria",
+    "price": 1100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: name \"Վզնոց նեյլոնե, կարգավորվող մանուշակագույն-sangria\", manufacturer Trixie, short desc \"Trixie վզնոցներ ... Նեյլոնե Կարգավորվող Գույն՝ մանուշակագույն-sangria XXS–XS 15–25 սմ/10 մմ\"; price 1100 AMD, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "Same Trixie Premium nylon collar, XXS–XS (XXS–XS 15–25 սմ/10 մմ), colour sangria; nemo prices this size at 1100 for every colour. zoovet does not carry the line."
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "results": [
+  {
+   "variant_id": 1346,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry KorMell: brand list + live search for 'kormell|кормел|кормелл', 'kor mell', EAN 4620213830414 and 'кошек 75 г' return no KorMell item."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ կատուների համար՝ Kormell, հավ 75 գ",
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-kormell-հավ-75-գ",
+    "price": 150,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer Kormell, cat pâté with chicken (հավի մսով), weight 75 g; 150 AMD, in stock. Same name as hafo row 83041J."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 150 (zoovet does not stock KorMell)."
+  },
+  {
+   "variant_id": 1347,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry KorMell: brand list + live search for 'kormell|кормел|кормелл', 'kor mell', EAN 4620213830414 and 'кошек 75 г' return no KorMell item."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ կատուների համար՝ Kormell, տավար,լյարդ 75 գ",
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-kormell-տավարլյարդ-75-գ",
+    "price": 150,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer Kormell, adult cat pâté with beef and chicken liver, 75 g; 150 AMD, in stock. Same name as hafo row 83042J."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 150."
+  },
+  {
+   "variant_id": 1348,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet does not carry KorMell: brand list + live search for 'kormell|кормел|кормелл', 'kor mell', EAN 4620213830414 and 'кошек 75 г' return no KorMell item."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ կատուների համար՝ Kormell, բադ 75 գ",
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-kormell-բադ-75-գ",
+    "price": 150,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer Kormell, cat pâté with duck (բադի մսով), weight 75 g; 150 AMD, in stock. Same name as hafo row 83047J."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 150."
+  },
+  {
+   "variant_id": 804,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries Lechat only as litter (6 kg clumping, lavender); searches 'lechat', 'le chat', 'лешат|лечат', 'lechat fresh', 'excellence', the EAN, 'кошек 100 г говядин/утк/лосос' found no Lechat wet food."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաուչ կատուների համար՝ Lechat Excellence, տավար, 100գ",
+    "url": "https://www.nemo.am/պաուչ-կատուների-համար-lechat-excellence-տավար-100գ",
+    "price": 570,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Found via nemo live search. Product image shows LECHAT EXCELLENCE ADULT Manzo/Beef chunkies pouch 100 g; name identical to hafo title for 061787; 570 AMD in stock. (Page short text wrongly mentions rabbit/sterilised - copy-paste; image and name confirm adult beef.) Not the classic 'LECHAT տավարով և բանջարեղենով պաուչ' (430, hafo ML 001357 - a different line)."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 570."
+  },
+  {
+   "variant_id": 852,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries Lechat only as litter (6 kg clumping, lavender); searches 'lechat', 'le chat', 'лешат|лечат', 'lechat fresh', 'excellence', the EAN, 'кошек 100 г говядин/утк/лосос' found no Lechat wet food."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ կատուների համար՝ Lechat Fresh, տավար, 100գ",
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-lechat-fresh-տավար-100գ",
+    "price": 620,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Found via nemo live search. Image: LECHAT FRESH Pate & Bocconcini con Manzo (beef) tray; page says beef, 100 g; 620 AMD in stock. Not Monge Fresh (different line)."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 620."
+  },
+  {
+   "variant_id": 853,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries Lechat only as litter (6 kg clumping, lavender); searches 'lechat', 'le chat', 'лешат|лечат', 'lechat fresh', 'excellence', the EAN, 'кошек 100 г говядин/утк/лосос' found no Lechat wet food."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ կատուների համար՝ Lechat Fresh, հավ/բանջարեղեն, 100գ",
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-lechat-fresh-բադ-100գ",
+    "price": 620,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "URL slug says բադ (duck) but page name, description (chicken + vegetables) and image (LECHAT FRESH Pollo e Verdure) confirm chicken & vegetables 100 g; 620 AMD in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 620. Nemo reused the duck slug for this item."
+  },
+  {
+   "variant_id": 854,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries Lechat only as litter (6 kg clumping, lavender); searches 'lechat', 'le chat', 'лешат|лечат', 'lechat fresh', 'excellence', the EAN, 'кошек 100 г говядин/утк/лосос' found no Lechat wet food."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ կատուների համար՝ Lechat Fresh, բադ, 100գ",
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-lechat-fresh-բադ-100գ-2",
+    "price": 620,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page name + description (duck meat) + image (LECHAT FRESH Anatra/duck), 100 g; 620 AMD in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 620."
+  },
+  {
+   "variant_id": 855,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries Lechat only as litter (6 kg clumping, lavender); searches 'lechat', 'le chat', 'лешат|лечат', 'lechat fresh', 'excellence', the EAN, 'кошек 100 г говядин/утк/лосос' found no Lechat wet food."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ կատուների համար՝ Lechat Fresh, սաղմոն, 100գ",
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-lechat-fresh-սաղմոն-100գ",
+    "price": 620,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page name + description (salmon) + image (LECHAT FRESH Salmone), 100 g; 620 AMD in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 620."
+  },
+  {
+   "variant_id": 1615,
+   "zoovet": {
+    "found": true,
+    "name": "Мнямс Хрустящие подушечки с цыпленком для котят, 60 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/mnyams-hrustyaschie-podushechki-s-tsyplenkom-dlya-kotyat-60-g",
+    "price": 850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page (ME-00003396): Mnyams crunchy pillows for kittens with chicken 'Здоровый котенок' (taurine, milk), 60 g; image is the same Healthy Kitten pack as hafo's 548833 photo; 850 AMD, in stock (2 pcs)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Մնյամս բարձիկներ կատվի ձագերի համար",
+    "url": "https://www.nemo.am/մնյամս-բարձիկներ-կատվի-ձագերի-համար",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мнямс, kitten crunchy pillows with milk and taurine; image = same Healthy Kitten 'с цыпленком' 60 g pack as hafo; 800 AMD in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = zoovet 850. Pack says chicken + taurine + milk (siruk's 'Chicken & Egg' label is this same single kitten pillow)."
+  },
+  {
+   "variant_id": 1616,
+   "zoovet": {
+    "found": true,
+    "name": "Мнямс Хрустящие подушечки с цыплёнком для кошек, 60 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/lakomstva-dlya-chistki-zubov/mnyams-hrustyaschie-podushechki-s-tsyplenkom-dlya-koshek-60-g",
+    "price": 850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page (ME-00004157), dental category: Mnyams crunchy teeth-cleaning pillows with chicken, 60 g; image = 'Dental Health, с цыпленком, Здоровые зубы, витамины' pack identical to hafo 548803; 850 AMD, in stock (2 pcs)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Մնյամս բարձիկներ կատուների համար՝ ԱՌՈՂՋ ԱՏԱՄՆԵՐ",
+    "url": "https://www.nemo.am/մնյամս-բարձիկներ-կատուների-համար-առողջ-ատամներ",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мнямс, 'healthy teeth' pillows 60 g with chicken; image = same Dental Health chicken pack; 800 AMD in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = zoovet 850."
+  },
+  {
+   "variant_id": 1617,
+   "zoovet": {
+    "found": true,
+    "name": "Мнямс Хрустящие подушечки \"Выведение шерсти\" с цыпленком для кошек, 60 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/mnyams-hrustyaschie-podushechki-vyvedenie-shersti-s-govyadinoj-dlya-koshek-60-g",
+    "price": 850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page (ME-00004180): Mnyams 'Выведение шерсти' crunchy pillows 60 g (description: with beef, plant fibres); image = Anti-Hairball 'с говядиной' pack identical to hafo 548773 photo; 850 AMD, in stock (2 pcs)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Մնյամս բարձիկներ կատուների համար՝ ՄԱԶԱԳՆԴԻԿՆԵՐԻ ՀԵՌԱՑՈՒՄ",
+    "url": "https://www.nemo.am/մնյամս-բարձիկներ-կատուների-համար-մազագնդիկների-հեռացում",
+    "price": 850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мнямс, hairball-removal pillows 60 g, beef filling; image = same Anti-Hairball pack; 850 AMD in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = 850 (both). Real pack is 'с говядиной' (beef; hafo says veal) - siruk's 'Chicken with Vitamin Complex' label is a mislabel of this single Mnyams hairball pillow."
+  },
+  {
+   "variant_id": 1618,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Mnyams list has kitten, dental, hairball, Sterilised МКБ and Health & Activity (chicken & cheese) pillows but no Skin & Coat; searches 'подушечки кож', 'кожа и шерсть', 'skin coat', 'мнямс цинк|птиц' found nothing. Nearest: Мнямс Health & Activity с курицей и сыром 60 г (800) - different variant."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Մնյամս բարձիկներ կատուների համար՝ ԱՌՈՂՋ ՄՈՐԹԻ և ՄԱՇԿ",
+    "url": "https://www.nemo.am/մնյամս-բարձիկներ-կատուների-համար-առողջ-մորթի-և-մաշկ",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мнямс, skin & coat pillows with poultry and beef, zinc; image = new 'Skin & Coat, с птицей и говядиной, цинк, масло лосося' 60 g pack identical to hafo 548783 photo; 800 AMD in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest rival = nemo 800. nemo also lists an OLD-design pack '«Здоровая кожа и шерсть» Խրթխրթան բարձիկներ' (previous Austrian-made packaging, hemp oil) at 850 - a previous-generation SKU, not counted."
+  }
+ ]
+}

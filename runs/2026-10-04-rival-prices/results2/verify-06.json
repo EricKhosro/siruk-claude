@@ -1,0 +1,480 @@
+[
+ {
+  "variant_id": 1626,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'Деревенские лакомства Нежные медальоны с мясом страуса для собак, 90 г', состав мясо утки + мясо страуса, 'Вес: 90 г'; 2250 AMD, 'В наличии · 1 шт'.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Деревенские лакомства Нежные медальоны с мясом страуса для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-negnye-medalony-s-myasom-strausa-dlya-sobak-90-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, ostrich + duck meat, 90գ; 2250 AMD, in stock.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հյուրասիրություն շների համար՝ ջայլամի մսային մեդալիոններ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ջայլամի-մսային-մեդալիոններ"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 2250."
+ },
+ {
+  "variant_id": 1627,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet (DL brand list, live: 'медальон', 'чипс', 'курицы и утки', 'курица утка', EAN 6921959214925): no DL chicken+duck medallions/chips 90 g. Nearest DL 90 g: 'куриные шашлычки нежные', 'утиная нарезка' - other products.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name 'Հյուրասիրություն շների համար՝ հավի և բադի չիպսեր,90գ' = hafo row, manufacturer Деревенские лакомства, chicken + duck meat; 2250 AMD, in stock.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հյուրասիրություն շների համար՝ հավի և բադի չիպսեր,90գ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-հավի-և-բադի-չիպսեր90գ"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Only nemo."
+ },
+ {
+  "variant_id": 1628,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet (DL list, live: 'косички|плетенки', 'треской', 'курицы и утки'): no DL chicken/duck/cod braids. Nearest 'куриные палочки крученые, 90 г' (chicken only).",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo row, manufacturer Деревенские лакомства, chicken + duck + cod fillet, braid shape, 90գ; 2250 AMD, in stock.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հյուրասիրություն շների համար՝ մսային հյուսքեր (հավ,բադ,ձուկ), 90գ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-մսային-հյուսքեր-հավբադձուկ-90գ"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Only nemo."
+ },
+ {
+  "variant_id": 1629,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet ('суперфуд|кунжут', 'телятиной', 'дрессур', DL list): no DL veal & sesame item (only a Triol parrot treat with sesame).",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: 'СУПЕРФУД, հորթ և քունջութի սերմեր', manufacturer Деревенские лакомства, veal + sesame seeds + green tea, 'Պարունակություն՝ 90գ'; 2800 AMD, in stock. Web search of EAN 6921959212839 = DL 'Для дрессуры. Суперфуд' телятина и семена кунжута 90 г, so the same item. Only veal+sesame listing on nemo.",
+   "price": 2800,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հյուրասիրություն շների համար՝ СУПЕРФУД, հորթ և քունջութի սերմեր",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-суперфуд-հորթ-և-քունջութի-սերմեր"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Nemo 2800 (hafo 2250)."
+ },
+ {
+  "variant_id": 1738,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'куриные шашлычки нежные для собак, 90 г', chicken breast fillet on a chew skewer, weight 0.09 kg; 2250 AMD, 'В наличии · 2 шт'.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Деревенские лакомства Лакомство куриные шашлычки нежные для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kurinye-shashlychki-negnye-dlya-sobak-90-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 90գ', chicken on rawhide stick; 2250 AMD, in stock.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հավի խորոված ձողիկների վրա",
+   "url": "https://www.nemo.am/հավի-խորոված-ձողիկների-վրա"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 2250."
+ },
+ {
+  "variant_id": 1739,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'утиные шашлычки для собак, 90 г', duck fillet on chew skewer, 'Вес: 90 г'; 2250 AMD, 'В наличии · 1 шт'.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Деревенские лакомства Лакомство утиные шашлычки для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-utinye-shashlychki-dlya-sobak-90-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 90գ', duck breast on rawhide stick; 2250 AMD, in stock.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Բադի խորոված ձողիկների վրա",
+   "url": "https://www.nemo.am/բադի-խորոված-ձողիկների-վրա"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 2250."
+ },
+ {
+  "variant_id": 1740,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'уши кроличьи для собак мелких пород, 15 г', for mini breeds, weight 0.015 kg; 1000 AMD, 'В наличии · 2 шт'.",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Деревенские лакомства Лакомство уши кроличьи для собак мелких пород, 15 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-ushi-krolichi-dlya-sobak-melkih-porod-15-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 15գ'; 1000 AMD, in stock. (nemo 'Հյուրասիրություն շների համար ճագարի ականջներ' 1950 is Trixie 80 g - not ours.)",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Ճագարի ականջներ փոքր շների համար",
+   "url": "https://www.nemo.am/ճագարի-ականջներ-փոքր-շների-համար"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 1000."
+ },
+ {
+  "variant_id": 1741,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'нарезка из ягненка для щенков, 90 г', lamb strips for puppy training, 'Вес: 90 г'; 2250 AMD, 'Нет в наличии'.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": false,
+   "name": "Деревенские лакомства Лакомство нарезка из ягненка для щенков, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-narezka-iz-yagnenka-dlya-schenkov-90-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 90գ', lamb strips for puppies; 2250 AMD, in stock.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Գառան մսով ձողիկներ ձագերի համար",
+   "url": "https://www.nemo.am/գառան-մսով-ձողիկներ-ձագերի-համար"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 2250; zoovet out of stock."
+ },
+ {
+  "variant_id": 1742,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet ('печенье', 'печенье с', 'яблоком', DL list): only DL cookie is 'Печенье с говядиной и шпинатом' 100 g - other flavour.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշ՝ 100գ', wheat + duck + apple; 1000 AMD, in stock.",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Թխվածքաբլիթներ շների համար՝ բադի և խնձորի համով",
+   "url": "https://www.nemo.am/թխվածքաբլիթներ-շների-համար-բադի-և-խնձորի-համով"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Only nemo."
+ },
+ {
+  "variant_id": 1743,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet ('печенье', 'морковью', 'с кроликом', DL list): no DL rabbit & carrot cookie; only beef & spinach 100 g.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: page name 'Թխվածքաբլիթներ շների համար՝ ճագարի և գազարի համով' (slug recycled from veal/spinach - name and text rule), manufacturer Деревенские лакомства, 'Քաշ՝ 100գ', wheat + rabbit + carrot; 1000 AMD, in stock.",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Թխվածքաբլիթներ շների համար՝ ճագարի և գազարի համով",
+   "url": "https://www.nemo.am/թխվածքաբլիթներ-շների-համար-հորթի-և-սպանախի-համով"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Only nemo."
+ },
+ {
+  "variant_id": 1744,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'Печенье с говядиной и шпинатом для собак, 100 г', состав пшеница, говядина, шпинат, weight 0.1 kg; 1000 AMD, stock 'Под заказ' (to order). Only spinach cookie in the DL line, the same item hafo calls veal & spinach.",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": false,
+   "name": "Деревенские лакомства Лакомство Печенье с говядиной и шпинатом для собак, 100 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-pechene-s-govyadinoj-i-shpinatom-dlya-sobak-100-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշ՝ 100գ', wheat + veal + spinach; 1000 AMD, in stock.",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Թխվածքաբլիթներ շների համար՝ հորթի և սպանախի համով",
+   "url": "https://www.nemo.am/թխվածքաբլիթներ-շների-համար-հորթի-և-սպանախի-համով-2"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 1000; zoovet to order only."
+ },
+ {
+  "variant_id": 1745,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet ('печенье', 'тыквой', 'ягн', DL list): no DL lamb & pumpkin cookie.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշ՝ 100գ'; 1000 AMD, in stock.",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Թխվածքաբլիթներ շների համար՝ գառի և դդմի համով",
+   "url": "https://www.nemo.am/թխվածքաբլիթներ-շների-համար-գառի-և-դդմի-համով"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Only nemo."
+ },
+ {
+  "variant_id": 1759,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'уши кроличьи с мясом цыпленка для щенков, 90 г', rabbit ears + chicken, for puppies, 'Вес: 90 г'; 2250 AMD, 'Нет в наличии'.",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": false,
+   "name": "Деревенские лакомства Лакомство уши кроличьи с мясом цыпленка для щенков, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-ushi-krolichi-s-myasom-tsyplenka-dlya-schenkov-90-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 90գ', rabbit ears + chicken, 'Ձագերի համար'; 2250 AMD, in stock. (The 80 g 1400 listing is another product.)",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Ճագարի ականջներ հավի մսով",
+   "url": "https://www.nemo.am/ճագարի-ականջներ-հավի-մսով"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 2250; zoovet out of stock."
+ },
+ {
+  "variant_id": 1969,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'Зубочистики Лакомство косточка с кальцием для собак свыше 25 кг, 2 шт, 105 г', 'Количество: 2 шт Вес: 105 г'; 2200 AMD, 'В наличии · 1 шт'.",
+   "price": 2200,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Зубочистики Лакомство косточка с кальцием для собак свыше 25 кг, 2 шт, 105 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/zubochistiki-lakomstvo-kostochka-s-kaltsiem-dlya-sobak-svyshe-25-kg-2-sht-105-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 105գ: Քանակը՝ 2 հատ', for dogs over 25 kg; 2200 AMD, in stock.",
+   "price": 2200,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Ոսկոր կալցի շների ատամների համար",
+   "url": "https://www.nemo.am/ոսկոր-կալցի-շների-ատամների-համար"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Both 2200."
+ },
+ {
+  "variant_id": 1981,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-checked all 4 zoovet Зубочистики items. The only up-to-10-kg 60 g one (ME-00000321, 1500, out of stock) is the CALCIUM pack 'для здоровья костей и суставов, обогащены кальцием' (verified on its photo and text) - not our chlorophyll/mint pack. The chlorophyll item on zoovet is the 10-25 kg 70 g pack (1350) - other weight band and size.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, chlorophyll dental bones; its photo = Зубочистики 'для поддержки пищеварения, обогащены хлорофиллом', 7 шт, для собак до 10 кг; 1350 AMD, in stock. A second live nemo listing of the identical pack (no manufacturer, 'Քաշը՝ 60գ: Քանակը՝ 7 հատ', same photo) is 1250: https://www.nemo.am/անանուխով-ոսկոր-ատամների-խնամքի-համար",
+   "price": 1350,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Անանուխով ոսկոր ատամների խնամքի համար",
+   "url": "https://www.nemo.am/անանուխով-ոսկոր-ատամների-խնամքի-համար-2"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Nemo has two listings (1350 and 1250) of the same pack; 1350 reported as the higher."
+ },
+ {
+  "variant_id": 1992,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet ('тефтел|фрикадел', 'индейки с рисом', EAN). EAN 6948526050021 = DL 'тефтельки из индейки с рисом' 85 g (web: zapovednik96.ru, kotmatros.ru). Zoovet only has puppy 'колечки из индейки с рисом' 85 g (2250) and puppy 'Косточки из индейки с рисом' 85 g (2500) - other shape/lifestage.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, for medium & large dogs, rounds, turkey + rice, 'Պարունակություն՝ 85գ'; 2600 AMD, in stock.",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հյուրասիրություն շների համար՝ հնդկահավ և բրինձ, կլորակներ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-հնդկահավ-և-բրինձ-կլորակներ"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Only nemo."
+ },
+ {
+  "variant_id": 1996,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet ('кальциев', 'кальциевая косточка', 'с кроликом', 'кролик|крольч', DL list): no DL rabbit calcium bone 90 g. Nearest 'кальциевые косточки с уткой для щенков, 90 г' 2250 - duck, puppies.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Re-searched nemo (DL brand list 94 items, live 'նապաստակ', 'կալցիում', 'բդիկ', 'ճագարի մսով', EAN): no rabbit calcium bone. Nearest DL 'Կալցիումով ոսկորներ ձագերի համար' 2250 (90 g, duck fillet, puppies) - other flavour/lifestage.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Neither rival carries it."
+ },
+ {
+  "variant_id": 2006,
+  "zoovet": {
+   "found": false,
+   "evidence": "Re-searched zoovet ('колбаск', 'индейки с рисом', DL list): no DL 'Колбаски из индейки с рисом' 85 g; only puppy turkey items (нарезка 85 г, колечки, косточки).",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 85գ', tender sticks, turkey + rice; 2600 AMD, in stock. Not the puppy 'Հնդկահավով ձողիկներ ձագերի համար' (2550).",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հնդկահավով և բրնձով մսային ձողիկներ",
+   "url": "https://www.nemo.am/հնդկահավով-և-բրնձով-մսային-ձողիկներ"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Only nemo."
+ },
+ {
+  "variant_id": 2007,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'медальоны из индейки с рисом для собак мелких пород, 55 г', turkey + rice, small breeds, weight 0.055 kg; 1500 AMD, 'В наличии · 1 шт'. EAN 6948526050052 = DL медальоны из индейки с рисом для мини-пород 55 г (simbio.kz).",
+   "price": 1500,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Деревенские лакомства Лакомство медальоны из индейки с рисом для собак мелких пород, 55 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-medalony-iz-indejki-s-risom-dlya-sobak-melkih-porod-55-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 55գ', turkey + rice, small breeds; 1850 AMD, in stock.",
+   "price": 1850,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հնդկահավով և բրինձով ձողիկներ փոքր շների համար",
+   "url": "https://www.nemo.am/հնդկահավով-և-բրինձով-ձողիկներ-փոքր-շների-համար"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Zoovet 1500, nemo 1850."
+ },
+ {
+  "variant_id": 2008,
+  "zoovet": {
+   "found": true,
+   "evidence": "Re-opened: 'косточки из индейки для собак мелких пород, 55 г', 'Вес: 55 г.'; 1800 AMD, 'В наличии · 2 шт'.",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Деревенские лакомства Лакомство косточки из индейки для собак мелких пород, 55 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kostochki-iz-indejki-dlya-sobak-melkih-porod-55-g"
+  },
+  "nemo": {
+   "found": true,
+   "evidence": "Re-opened: name = hafo title, manufacturer Деревенские лакомства, 'Քաշը՝ 55գ', turkey + rawhide; 1850 AMD, in stock.",
+   "price": 1850,
+   "old_price": null,
+   "in_stock": true,
+   "name": "Հնդկահավով ոսկորիկներ փոքր շների համար",
+   "url": "https://www.nemo.am/հնդկահավով-ոսկորիկներ-փոքր-շների-համար"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher after re-opening every page and re-searching the misses.",
+  "notes": "Zoovet 1800, nemo 1850."
+ }
+]

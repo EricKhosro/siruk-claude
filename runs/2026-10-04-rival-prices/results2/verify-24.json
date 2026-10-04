@@ -1,0 +1,397 @@
+[
+ {
+  "variant_id": 405,
+  "confidence": "medium",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: only 'Мышь с кошачьей мятой (2 шт)' 1150 (pressed-catnip mice, 2 pcs) and 'мышка с кошачьей мятой, 7 см' 1000 - different count/model; live 'мыши', 'мышки', 'плюшев', 'Trixie мыш' only Triol/Gigwi/ZooZooZoo mice."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Մուկ - փափուկ խաղալիք",
+   "url": "https://www.nemo.am/մուկ-փափուկ-խաղալիք",
+   "price": 2850,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: manufacturer Trixie, 'Քանակ՝ 6 հատ, կատվի անանուխով', photo = grey + white plush mice (Trixie 4503 set), 2850 in stock; title identical to hafo's title for TX 045031 (5 cm, 6 pcs). 5 cm not printed on nemo page; other nemo mice are wind-up / single."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 407,
+  "confidence": "medium",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: no sleeping-face plush; live 'спящ' only Triol dog toys (sleeping chick/lamb/fox)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Խաղալիք կատուների՝ փափուկ, քնած դեմք",
+   "url": "https://www.nemo.am/խաղալիք-կատուների-փափուկ-քնած-դեմք",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: manufacturer Trixie, plush cat toy with catnip, photo shows the Trixie sleeping-face plush (assorted colours), 1650 in stock; title identical to hafo 45558Tx (only the 17 cm size exists on hafo). Size not printed on nemo."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 409,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: no Turbinio / motorised ball; live 'Turbinio', 'мяч мотор' return nothing."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Խաղալիք կատուների համար՝ շարժիչով գնդակ և թելով մուկ",
+   "url": "https://www.nemo.am/խաղալիք-կատուների-համար-շարժիչով-գնդակ-և-թելով-մուկ",
+   "price": 5950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, motorised ball with mouse on elastic string, 1x AA, 'Չափսը՝ 9 սմ', 5950 in stock."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 433,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: trays are only Carlo / Vico; live 'Delio' returns nothing."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Կատուների տուալետ` Delio, պլաստիկե, բարձր եզրերով",
+   "url": "https://www.nemo.am/կատուների-տուալետ-delio-պլաստիկե-բարձր-եզրերով",
+   "price": 7850,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, plastic, high rim, grey-white with kittens, 35*20*48 cm, 7850 in stock - same title/spec as hafo 40397Tx (EAN 4011905403977, our article). The other nemo Delio (8400) is green-white = hafo 40398Tx. Caveat: siruk label says 'purple/white 38x20x50' but the article's hafo row is grey-white 35x20x48."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 438,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: rabbit items are 'Rabbit Ears 80 г', 'Rabbit Sticks 100 г', 'косточка с кроликом 100 г', 'кубики с кроликом 100 г' - none is rabbit paws with chicken 120 g; live 'лапки', 'кролика курицей' nothing Trixie."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն շների համար՝ ճագարի թաթիկներ, հավի մսով, 120 գ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ճագարի-թաթիկներ-հավի-մսով-120-գ",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, rabbit paws with chicken, 120 g, 1650 in stock; title identical to hafo 27152Tx row."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 453,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Лакомство Mini Hearts с курицей, бараниной и лососем для собак, 200 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-mini-hearts-s-kuritsej-baraninoj-i-lososem-dlya-sobak-200-g",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Re-opened: Mini Hearts chicken/lamb/salmon 200 g, 1650, no options, 'Нет в наличии'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«Mini Hearts» ստիկս գունավոր սրտիկներ",
+   "url": "https://www.nemo.am/mini-hearts-ստիկս-գունավոր-սրտիկներ",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, 200 g, chicken/lamb/salmon hearts, resealable tub, 1650 in stock."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1383,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: only 'Beef Coins 100 г'; duck items are Duckinos / Rice Duck Balls / Bones / медальоны - different lines; live 'Coins', 'утиная грудка' no Duck Coins."
+  },
+  "nemo": {
+   "found": true,
+   "name": "« PREMIO Duck Coins » քաղցր պատառ շների համար",
+   "url": "https://www.nemo.am/-premio-duck-coins-քաղցր-պատառ-շների-համար",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, PREMIO Duck Coins, duck breast, meat >= 86%, 80 g, 1650 in stock (other nemo Coins: Chicken 1700, Beef 2000 - different flavours)."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1390,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: Stripes only duck / chicken / lamb / Omega / chicken-fish; live 'конина', 'лошад' only Triol toys."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն շների համար` ձիու մսով ձողիկներ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ձիու-մսով-ձողիկներ",
+   "price": 3450,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, horse-meat sticks, meat 86%, 100 g, 3450 in stock."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 484,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Лакомство шоколадные зерна для собак, 75 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-lakomstvo-shokoladnye-zerna-dlya-sobak-75-g",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie chocolate drops 75 g, 1050, no options, 'В наличии · 1 шт' (200 g listing 1850 is another size)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Շոկոլադե հատիկներ",
+   "url": "https://www.nemo.am/շոկոլադե-հատիկներ",
+   "price": 950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, 'Քաշը՝ 75գ', chocolate drops for dogs, 950 in stock (-2 is 200 g 1700, -3 is 350 g 2600)."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 486,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Лакомство косточки для собак, упаковка 1.3 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-lakomstvo-kostochki-dlya-sobak-upakovka-1-3-kg",
+   "price": 4900,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: options 'Упак (1,3 кг)' 4900 / 'На развес, 1 кг' 5000; main photo (ME000037611) is the tub labelled 'Cookie Snack Bones 1.300 g Art.-Nr. 31662' = our article; 'В наличии · 1 шт'. The 'мини косточки' listing photo is Art. 31661 Mini Bones (different)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Cookie Snack only loose: '«Cookie Snack» մեծ ոսկորիկներ (կիլոգրամով)' 1950, page says the price shown is per 500 g - no 1.3 kg tub (searched 'cookie', 'ոսկորիկ', '1.3|1,3|1300')."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 487,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Лакомство мини животные для собак, упаковка 1.3 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-lakomstvo-mini-givotnye-dlya-sobak-upakovka-1-3-kg-5538",
+   "price": 4900,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Re-opened: options 'Упак (1,3 кг)' 4900 / 'На развес, 1 кг' 5000; main photo (ME000029721) is the tub 'Cookie Snack Farmies Art.-Nr. 31663' = our article; 'Нет в наличии'."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells it only loose: '«Cookie Snack» մանր կենդանիներ (կիլոգրամով)' 1950, price shown per 500 g - no 1.3 kg tub (searched 'cookie', 'farmies|կենդանիներ')."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 502,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: nearest 'Fish Chicken Sticks для собак, 80 г' 1400 (sticks, 80 g - different shape/size); live 'Wheels', 'колесики' nothing."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«PREMIO Fish Chicken» անիվներ",
+   "url": "https://www.nemo.am/premio-fish-chicken-անիվներ",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, wheels, 80% chicken + 15% fish, 'Քաշը՝ 75գ', 1650 in stock."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 509,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Лакомство Kitty Stars c лососем и бараниной для кошек, 140 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-kitty-stars-c-lososem-i-baraninoj-dlya-koshek-140-g",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Kitty Stars salmon & lamb 140 g, 1800, no options, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«Kitty Stars» փափուկ պատառ կատուների համար",
+   "url": "https://www.nemo.am/kitty-stars-փափուկ-պատառ-կատուների-համար",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, 140 g, salmon and lamb, resealable tub, 1800 in stock."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 516,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: no Denta Fun rubber bone toy (only knotted rawhide bones / Denta Fun treats); live 'кость каучук' nothing."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Խաղալիք շների Denta Fun` բնական կաուչուկից ոսկոր",
+   "url": "https://www.nemo.am/խաղալիք-շների-denta-fun-բնական-կաուչուկից-ոսկոր",
+   "price": 4450,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Denta Fun natural-rubber bone, mint flavour, 'Չափս՝ 15 սմ', 4450 in stock; title identical to hafo 32944Tx (11 cm / 14 cm are other hafo rows). Manufacturer field blank."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 564,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: no wooden cat brush; live 'щетка дерев', 'щетка натурал', 'Trixie щетка' nothing (only a toothbrush)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Սանր-խոզանակ՝ կատուների համար",
+   "url": "https://www.nemo.am/սանր-խոզանակ-կատուների-համար",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, 5x18 cm, for cats, natural bristle, wood, 1650 in stock; title identical to hafo 23129Tx. 'Սանր-խոզանակ՝ փայտից' 1450 (cats or rodents) matches hafo 2326Tx instead - different article."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 595,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: no wooden-handle comb (only trimmer comb, mat splitters); live 'расческа' only FURminator / Zoolife / Trixie trimmer."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Paginated nemo search 'սանր', 'ատամիկներով', 'բռնակով', 'նոսր', 'սանր փայտե': no Trixie wooden-handle comb 18 cm (hafo 2391Tx 'Սանր նոսր ատամիկներով'). Nearest: Trixie 'Սանր շների համար՝ պտտվող ատամիկներով' 18 cm 1550 (rotating teeth - different model); Nunbell 'Երկկողմանի սանր' wooden handle 1650 (other brand)."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 612,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: toothpaste 100 g and 3-head toothbrush sold separately, no set; live 'набор для', 'набор зуб', 'Trixie зубн' nothing."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ատամների խնամքի հավաքածու",
+   "url": "https://www.nemo.am/ատամների-խնամքի-հավաքածու",
+   "price": 2700,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: dog dental-care set (mint toothpaste 100 g, finger toothbrush, finger massage brush, double-ended brush), 2700 in stock; title identical to hafo 2561Tx. Manufacturer field blank."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 616,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: only dog poop-bag rolls; live 'пакеты для лотка', 'пакеты кош' nothing."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Աղբի տոպրակ կատուների համար՝ 3 հատանոց փաթեթ",
+   "url": "https://www.nemo.am/աղբի-տոպրակ-կատուների-համար-3-հատանոց-փաթեթ",
+   "price": 1850,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: cat-litter waste bags with corn starch, fit scoop code 40477, pack of 3 x box of 10, brown, 1850 in stock - same as hafo 40478Tx row. Manufacturer field blank."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1379,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Denta Fun Rolls с уткой для собак, 120 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-denta-fun-rolls-s-utkoj-dlya-sobak-120-g",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Denta Fun Rolls duck 120 g, 2600, no options, 'В наличии · 1 шт' (the '3 шт, 140 г' duck listing is another pack)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«Denta Fun» ձողիկներ բադի մսով",
+   "url": "https://www.nemo.am/denta-fun-ձողիկներ-բադի-մսով",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, 120 g, 6 cm, dried rawhide with duck, 2600 in stock (other nemo duck rolls are 3 pcs 140 g 2750 and 3 pcs 250 g 4300)."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1380,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie brand list (354 rows) re-scanned: Denta Fun 70 g items are chicken bones and marbled-beef rolls - no rabbit; live 'кролик' no Trixie rabbit rolls."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձողիկներ շների ոլորած՝ ճագարի",
+   "url": "https://www.nemo.am/ձողիկներ-շների-ոլորած-ճագարի",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened: Trixie, rabbit, 70 g, 6 pcs, 12 cm, 1650 in stock; title identical to hafo 31338Tx."
+  },
+  "reason": "Re-opened every found page and searched every not-found shop again; same shops found at the same prices."
+ }
+]

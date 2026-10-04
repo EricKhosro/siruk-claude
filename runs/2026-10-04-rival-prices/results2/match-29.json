@@ -1,0 +1,52 @@
+{
+ "results": [
+  {
+   "variant_id": 1293,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Trixie list (354 items) and live searches (шлейка, Trixie шлейка, Premium шлейка, Premium Touring, 60-100 см, 25 мм, harness, 20412, EAN 4011905204123) show no Premium Touring harness. Nearest: 'Trixie Шлейка Premium желтая, размер M-L для собак, 52–75 см / 20 мм' (4600, out of stock) - different line, size and colour."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Շլեյկա նեյլոնե՝ L, կապույտ",
+    "url": "https://www.nemo.am/շլեյկա-նեյլոնե-l-կապույտ",
+    "price": 7250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo's live search for our article '204102' returns exactly this listing (name identical to hafo's title for 204102Tx royal blue). Page: manufacturer Trixie, fleece-padded touring harness, adjustable belly strap, 'L՝ 60–100 սմ/25մմ'; photo is the Trixie Premium Touring harness in bright royal blue (nemo's text calls it 'Մուգ կապույտ'). The other L 60-100 cm listings on nemo are mint-green (Monge-tagged, 204124) and violet. Page price 7250 AMD, no old price, in stock."
+   },
+   "notes": "Indigo (204113, hafo title 'մուգ կապույտ') is a separate hafo row; nemo matched our 204102 SKU and the photo is royal blue, not indigo."
+  },
+  {
+   "variant_id": 1610,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Versele-Laga list (27 items) is all small-animal food and treats; live searches (Extreme Compact, Extreme, Versele наполнитель, наполнитель + Versele, 7,5 л, 7.5 л, 23079, EAN 5410340230794) found no Versele-Laga cat litter. The only Versele-Laga hygiene item is 'Опилки для грызунов, 1 кг'."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo carries only 'Ավազ կատուների համար՝ Սենեգալյան կավից, EXTREME COMPACT 30լ-18կգ' (14300; page says manufacturer JUANIT), which is the 30 L / 18 kg bag, not our 7.5 L. All-pages searches for EXTREME, Սենեգալյան, compact, 7.5 լ/կգ, 23079 and the EAN show no 7.5 L bag; nemo's versele-laga brand list (59 items) has no litter."
+   }
+  },
+  {
+   "variant_id": 1760,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Flexi list has 3 items; none is the New Comfort XS cord in light blue. Nearest: 'Flexi Поводок-рулетка розовая с тросом для кошек (до 8 кг), 3 м' (5700, in stock) - XS 3 m cord but pink. Others: Comfort S 5 m red cord, New Comfort M 5 m blue tape. Live searches (New Comfort, рулетка, Flexi XS, до 8 кг, 042718, EAN) found nothing else."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ձգափոկ մեխանիկական` NEW COMFORT XS",
+    "url": "https://www.nemo.am/ձգափոկ-մեխանիկական-new-comfort-xs",
+    "price": 7250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Name identical to hafo's title for the 0427x8 New Comfort XS cord group (our 042718). Page: cord retractable lead up to 8 kg, 3 m, 110 g; colours listed 'բաց կապույտ մանուշակագույն կարմիր սև' (light blue, violet, red, black = hafo 042718/042708/042728/042748). The photo is the current-design New Comfort XS cord in light blue/grey, which is our item. There is no colour selector; one price of 7250 AMD, no old price, in stock. Not a match: '«New COMFORT» Ռուլետկա (պարան) - Կապույտ XS' (7300), the older black/blue design that is hafo FX 028708, EAN 4000498028704."
+   },
+   "notes": "The nemo listing covers four colours at one price, and our light blue is the one in the photo. hafo prices light blue at 6650, but nemo's single price for the listing is 7250."
+  }
+ ]
+}

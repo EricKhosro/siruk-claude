@@ -1,0 +1,511 @@
+{
+ "results": [
+  {
+   "variant_id": 1137,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև-3",
+    "price": 1200,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև) XS–S",
+    "in_stock": true,
+    "evidence": "Page «Premium» վզկապ (սև) XS–S: 'Նեյլոն Սահուն կարգավորվող գոտի XS–S 22–35 սմ / 10 մմ', photo a black Trixie Premium nylon collar; same line, size XS–S 22–35 cm/10 mm, black. 1200, in stock. No manufacturer field on the page (Trixie logo on photo). Found in nemo's /վզկապ category crawl (321 items); the matcher missed it."
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "The matcher marked nemo not found and wrote that black came only in XXS–XS and S–M. Nemo does list this black Premium collar at 1200 (https://www.nemo.am/premium-վզկապ-սև-3)."
+  },
+  {
+   "variant_id": 1195,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-էլեկտրիկ-կապույտ-2",
+    "price": 1200,
+    "old_price": null,
+    "name": "«Premium» վզկապ (Էլեկտրիկ կապույտ)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (Էլեկտրիկ կապույտ), description 'XS–S 22–35 սմ / 10 մմ Նեյլոն' — same Premium line, size XS–S 22–35/10 mm, colour electric/royal blue (hafo's 'էլեկտրիկ կապույտ'). 1200 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1200 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1196,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-կարմիր-xss",
+    "price": 1200,
+    "old_price": null,
+    "name": "«Premium» վզկապ (կարմիր) XS–S",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (կարմիր) XS–S, manufacturer Trixie, '22-35 սմ / 10 մմ', nylon, red. 1200 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1200 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1197,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'premium', 'վզնոց', 'վզկապ', 'վզնոց նեյլոնե', 'կարգավորվող', colour words (սև, ֆուքսիա/վարդագույն, aqua, olive, մյատա/mint, կանաչ, կապույտ), size ranges and article numbers; opened all 85 Premium/nylon-collar pages. Fuchsia Premium only in S (1350), S–M (1450), L–XL (2450); no XS–S fuchsia. Other XS–S listings are red/royal blue/caramel/mocca/forest/apple/flamingo."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked: crawled nemo /վզկապ (321 items) and opened every Premium/nylon page. Fuchsia Premium exists only in S (1350), S–M (1450), L–XL (2450). Nearest XS–S: 'Վզնոց նեյլոնե, կարգավորվող XS–S' 1200 is violet (photo/description մանուշակագույն), and 'Վզկապ (Օշեյնիկ) - վարդագույն' 1200 is a hearts-and-bones print, 22–35 cm/15 mm. Neither matches. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1198,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև-sm",
+    "price": 1450,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև) S–M",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (սև) S–M, manufacturer Trixie, 'S–M 30–45սմ / 15մմ', nylon, black. 1450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1199,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-էլեկտրիկ-կապույտ-4",
+    "price": 1450,
+    "old_price": null,
+    "name": "«Premium» վզկապ (Էլեկտրիկ կապույտ)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (Էլեկտրիկ կապույտ), description 'S–M 30–45 սմ / 15 մմ' — Premium line, S–M, electric/royal blue. 1450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1200,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-կարմիր-sm",
+    "price": 1450,
+    "old_price": null,
+    "name": "«Premium» վզկապ (կարմիր) S–M",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (կարմիր) S–M, manufacturer Trixie, '30–45 սմ / 15 մմ', nylon, red. 1450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1201,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-ֆուքսիա-2",
+    "price": 1450,
+    "old_price": null,
+    "name": "«Premium» վզկապ վարդագույն(ֆուքսիա)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ վարդագույն(ֆուքսիա), manufacturer Trixie, 'S–M: 30–45սմ / 15մմ', nylon, fuchsia. 1450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1202,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև-5",
+    "price": 1800,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև)",
+    "in_stock": true,
+    "evidence": "Page «Premium» վզկապ (սև): 'Նեյլոն Սահուն կարգավորվող գոտի M–L 35-55 սմ / 20 մմ', Trixie-branded black Premium photo; size M–L 35–55 cm/20 mm, black. 1800, in stock. Found in nemo's /վզկապ category crawl; the matcher missed it."
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "The matcher marked nemo not found and wrote that black came only in XXS–XS and S–M. Nemo does list this black Premium collar at 1800 (https://www.nemo.am/premium-վզկապ-սև-5)."
+  },
+  {
+   "variant_id": 1203,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-էլեկտրիկ-կապույտ-5",
+    "price": 1800,
+    "old_price": null,
+    "name": "«Premium» վզկապ (Էլեկտրիկ կապույտ)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (Էլեկտրիկ կապույտ), description 'M–L 35-55 սմ / 20 մմ' — Premium line, M–L, electric/royal blue. 1800 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1800 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1204,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-կարմիր",
+    "price": 1800,
+    "old_price": null,
+    "name": "«Premium» վզկապ (կարմիր)M–L",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (կարմիր)M–L, manufacturer Trixie, '35-55 սմ / 20 մմ', nylon, red. 1800 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1800 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1206,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև-6",
+    "price": 2450,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև)",
+    "in_stock": true,
+    "evidence": "Page «Premium» վզկապ (սև): 'Նեյլոն Սահուն կարգավորվող գոտի L–XL 40-65 սմ / 25 մմ', Trixie-branded black Premium photo; size L–XL 40–65 cm/25 mm, black. 2450, in stock. Found in nemo's /վզկապ category crawl; the matcher missed it."
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "The matcher marked nemo not found and wrote that black came only in XXS–XS and S–M. Nemo does list this black Premium collar at 2450 (https://www.nemo.am/premium-վզկապ-սև-6)."
+  },
+  {
+   "variant_id": 1207,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-էլեկտրիկ-կապույտ-6",
+    "price": 2450,
+    "old_price": null,
+    "name": "«Premium» վզկապ (Էլեկտրիկ կապույտ)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (Էլեկտրիկ կապույտ), description 'L–XL 40-65 սմ / 25 մմ' — Premium line, L–XL, electric/royal blue. 2450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 2450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1208,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-կարմիր-lxl",
+    "price": 2450,
+    "old_price": null,
+    "name": "«Premium» վզկապ (կարմիր) L–XL",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (կարմիր) L–XL, manufacturer Trixie, '40-65 սմ / 25 մմ', nylon, red. 2450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 2450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1209,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-ֆուքսիա-3",
+    "price": 2450,
+    "old_price": null,
+    "name": "«Premium» վզկապ վարդագույն(ֆուքսիա)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ վարդագույն(ֆուքսիա), manufacturer Trixie, 'L–XL: 40-65սմ / 25մմ', nylon, fuchsia. 2450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 2450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1210,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև",
+    "price": 1100,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև) XXS–XS",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (սև) XXS–XS, manufacturer Trixie, 'XXS–XS 15–25սմ/10մմ', nylon, black. 1100 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1100 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1211,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-էլեկտրիկ-կապույտ-3",
+    "price": 1100,
+    "old_price": null,
+    "name": "«Premium» վզկապ (Էլեկտրիկ կապույտ) XXS–XS",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (Էլեկտրիկ կապույտ) XXS–XS, '15–25 սմ / 10 մմ Նեյլոն' — Premium line, XXS–XS, electric/royal blue. 1100 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1100 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1212,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-կարմիր-xxsxs",
+    "price": 1100,
+    "old_price": null,
+    "name": "«Premium» վզկապ (կարմիր) XXS–XS",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (կարմիր) XXS–XS, manufacturer Trixie, '15–25 սմ / 10 մմ', nylon, red. 1100 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1100 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1213,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-էլեկտրիկ-կապույտ",
+    "price": 1350,
+    "old_price": null,
+    "name": "«Premium» վզկապ (Էլեկտրիկ կապույտ)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (Էլեկտրիկ կապույտ), description 'S 25–40 սմ / 15 մմ Նեյլոն' — Premium line, size S, electric/royal blue. 1350 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1350 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1214,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-կարմիր-s",
+    "price": 1350,
+    "old_price": null,
+    "name": "«Premium» վզկապ (կարմիր) S",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ (կարմիր) S, manufacturer Trixie, '25–40 սմ / 15 մմ', nylon, red. 1350 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1350 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1215,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-ֆուքսիա",
+    "price": 1350,
+    "old_price": null,
+    "name": "«Premium» վզկապ վարդագույն(ֆուքսիա)",
+    "in_stock": true,
+    "evidence": "Page: «Premium» վզկապ վարդագույն(ֆուքսիա), manufacturer Trixie, 'S: 25–40սմ / 15մմ', nylon, fuchsia. 1350 in stock. (A second pink S listing '«Premium» վզկապ վարդագույն' /premium-վզկապ-դեղնավուն-կարմիր-2 is also 1350.)"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 1350 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1431,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'premium', 'վզնոց', 'վզկապ', 'վզնոց նեյլոնե', 'կարգավորվող', colour words (սև, ֆուքսիա/վարդագույն, aqua, olive, մյատա/mint, կանաչ, կապույտ), size ranges and article numbers; opened all 85 Premium/nylon-collar pages. No aqua listing in any size. Nearest L–XL Premium colours on nemo: Էլեկտրիկ կապույտ, ինդիգո (2450) — different colours."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked via full /վզկապ crawl and searches 'aqua', 'կապույտ-aqua', '201728': nemo has only aqua harnesses (Premium Trekking, Trixie adjustable harness), no aqua collar. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1433,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կարիի-գույն-6",
+    "price": 2450,
+    "old_price": null,
+    "name": "Վզնոց նեյլոնե, կարգավորվող կարիի գույն",
+    "in_stock": true,
+    "evidence": "Page: Վզնոց նեյլոնե, կարգավորվող կարիի գույն, manufacturer Trixie, 'Գույն՝ Կարիի գույն-curry L–XL 40–65 սմ/25 մմ' — same name/colour as hafo row 201729 (curry), L–XL 40–65/25 mm. 2450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 2450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1434,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'premium', 'վզնոց', 'վզկապ', 'վզնոց նեյլոնե', 'կարգավորվող', colour words (սև, ֆուքսիա/վարդագույն, aqua, olive, մյատա/mint, կանաչ, կապույտ), size ranges and article numbers; opened all 85 Premium/nylon-collar pages. No olive green listing. Nearest: «Premium» վզկապ (բաց կանաչ) L–XL 2450 /premium-վզկապ-բաց-կանաչ-5 — that is hafo's apple-green row (կանաչ՝ apple), not olive; sage L–XL 2450 is also a different colour."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked via full /վզկապ crawl and searches 'olive', 'կանաչ-olive', 'ձիթապտղի', '201733': only an olive-green harness (6100); collars nearby are light green Premium and sage, both different colours. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1435,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-բենզինի-գույն-7",
+    "price": 2450,
+    "old_price": null,
+    "name": "Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն",
+    "in_stock": true,
+    "evidence": "Page name 'Վզնոց նեյլոնե, կարգավորվող, բենզինի գույն' (petrol, same as hafo row 201732), manufacturer Trixie, 'L–XL 40–65 սմ/25 մմ'. 2450 in stock. Caveat: the description says 'Գույն՝ մանուշակագույն-sangria' (copied from the sangria series, which has its own separate pages), so the colour rests on the page name."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened page: the name is 'բենզինի գույն' (petrol), L–XL 40–65 cm/25 mm, 2450, Trixie. The description text says sangria (copy-paste), but the product photo is a petrol/teal-green Trixie collar, while the separate sangria-6 page shows a burgundy collar. So petrol is confirmed."
+  },
+  {
+   "variant_id": 1436,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-նեյլոնե-կարգավորվող-կանաչ-մենթոլ-sage-6",
+    "price": 2450,
+    "old_price": null,
+    "name": "Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage",
+    "in_stock": true,
+    "evidence": "Page: Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage, manufacturer Trixie, 'Գույն՝ կանաչ-մենթոլ L–XL 40–65 սմ/25 մմ' — sage, L–XL. 2450 in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened the nemo page: name, size and cm/mm band, colour and price 2450 all confirmed today, in stock. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1440,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'premium', 'վզնոց', 'վզկապ', 'վզնոց նեյլոնե', 'կարգավորվող', colour words (սև, ֆուքսիա/վարդագույն, aqua, olive, մյատա/mint, կանաչ, կապույտ), size ranges and article numbers; opened all 85 Premium/nylon-collar pages. Fuchsia Premium only in S, S–M, L–XL; no M–L fuchsia. Nearest: M–L red/royal blue/flamingo 1800."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked via full /վզկապ crawl: no M–L fuchsia Premium; M–L Premium colours are red, royal blue, black, light green, graphite, indigo, caramel, mocca, papaya, flamingo (դեղնավուն կարմիր) at 1800. The pink-print 'Վզկապ (Օշեյնիկ) - վարդագույն' M–L is 2250 and is another line. zoovet carries no Trixie Premium collar."
+  },
+  {
+   "variant_id": 1157,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: today's zoovet Trixie list (354 rows) has no Trixie Premium nylon collar (only Be Nordic, neoprene-padded, USB-light, cat collars, a Premium lead and a Premium harness); local searches 'trixie ошейник', 'ошейник регулируемый', 'premium нейлон' confirm. zoovet live search/category timed out during verification (connection error), so this rests on today's list plus the matcher's live searches."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'premium', 'վզնոց', 'վզկապ', 'վզնոց նեյլոնե', 'կարգավորվող', colour words (սև, ֆուքսիա/վարդագույն, aqua, olive, մյատա/mint, կանաչ, կապույտ), size ranges and article numbers; opened all 85 Premium/nylon-collar pages. No mint (կանաչ-մյատա, hafo 201724/43116) listing. Nearest: Վզնոց նեյլոնե, կարգավորվող կանաչ-մենթոլ-sage L–XL 2450 — sage is a different Trixie colour (hafo 201734/67110), so not a match."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-checked via full /վզկապ crawl and searches 'մյատա', 'անանուխ', 'mint', '201724': no mint collar. Sage (կանաչ-մենթոլ) L–XL 2450 is a different Trixie colour (hafo 201734). zoovet carries no Trixie Premium collar."
+  }
+ ]
+}

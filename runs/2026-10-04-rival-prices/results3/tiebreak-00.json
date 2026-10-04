@@ -1,0 +1,50 @@
+{
+ "results": [
+  {
+   "variant_id": 1189,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-small-breed-suhoj-korm-tsyplenok-indejka-i-kambala-dlya-sobak-upakovka-6-kg",
+    "price": 26300,
+    "old_price": null,
+    "name": "Acana ADULT SMALL BREED Сухой корм цыпленок, индейка и камбала для собак, упаковка 6 кг",
+    "in_stock": true,
+    "evidence": "Saved row: Acana Adult Small Breed (chicken/turkey/flounder = Heritage Adult Small Breed), 6 kg pack, 26300, in stock. Both earlier answers agree (page option 'Упак (6 кг)' = 26300). Puppy Small Breed 6 kg and Adult Small Breed 340 g are separate rows, not ours. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/adult-small-breed-չոր-կեր-6-կգ",
+    "price": 26300,
+    "old_price": 31000,
+    "name": "«ADULT SMALL BREED» չոր կեր (6 կգ)",
+    "in_stock": true,
+    "evidence": "Opened today: manufacturer Acana; 'Քաշը՝ 6կգ: Փոքր ցեղատեսակի չափահաս շների համար, 1+', chicken/flounder/egg, grain-free = Acana Adult Small Breed 6 kg. Price 26300; raw page also shows 'հին գինը: 31000֏' (rival.py's parser misses it). In stock. Matcher missed it because the name omits the brand."
+   },
+   "confidence": "high",
+   "reason": "zoovet agreed by both. nemo: verifier right - brandless page, manufacturer Acana, adult small breed 6 kg, 26300 (old 31000)."
+  },
+  {
+   "variant_id": 1367,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-small-breed-suhoj-korm-tsyplenok-indejka-i-kambala-dlya-sobak-11-4-kg",
+    "price": 4500,
+    "old_price": null,
+    "name": "Acana ADULT SMALL BREED Сухой корм цыпленок, индейка и камбала для собак, упаковка 6 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Saved row: Acana Adult Small Breed 'на развес 1 кг', 4500, in stock (slug says 11-4-kg; name is authoritative). Both earlier answers agree (option 'На развес, 1 кг' = 4500). zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/adult-small-breed-չոր-կեր-կիլոգրամով",
+    "price": 4500,
+    "old_price": null,
+    "name": "«ADULT SMALL BREED» չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Opened today: manufacturer Acana; same adult small-breed 1+ chicken/flounder/egg grain-free description as the 6 kg page; sold per kg (կիլոգրամով). 4500, no old price, in stock."
+   },
+   "confidence": "high",
+   "reason": "nemo per-kg listing of Acana Adult Small Breed exists (manufacturer Acana); verifier right."
+  }
+ ]
+}

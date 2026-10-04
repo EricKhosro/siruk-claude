@@ -1,0 +1,425 @@
+{
+ "results": [
+  {
+   "variant_id": 995,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet: 'trixie миска', 'нержав', 'покрыти', 'trixie стальн|металл', Trixie brand list (all bowls). Line found (Trixie plastic-coated steel bowl, paw & bone print, rubber base: 21 cm and 23 cm listings) but no 0.8 l/17 cm listing."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo: 'կերաման', 'թաթիկ', 'պողպատ', 'ռետինե տակով', '17սմ', '21սմ', Trixie brand list (all bowls). Nearest: 'Կերաման՝ թաթիկներով' (Trixie, plastic-coated steel, rubber base, 0.25 l/13 cm, 2450) - different size; no 0.8 l/17 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1272,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/miski-kormushki-i-poilki/miski-1/trixie-miska-iz-nergaveyuschej-stali-s-plastikovym-pokrytiem-i-rezinovym-dnom-1-5-l-21-sm",
+    "price": 6100,
+    "old_price": null,
+    "name": "Trixie Миска из нержавеющей стали с пластиковым покрытием и резиновым дном, 1.4 л, 21 см",
+    "in_stock": true,
+    "evidence": "Trixie stainless bowl, plastic coating, rubber-ring base, assorted colours; photo = Trixie 2524x paw+bone print bowl; ø21 cm matches; slug says 1-5-l-21-sm (our 1.5 l) while title says 1.4 l (retailers list 25244 under both). In stock, 6100."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo: 'կերաման', 'թաթիկ', 'պողպատ', 'ռետինե տակով', '17սմ', '21սմ', Trixie brand list (all bowls). No 1.5 l/21 cm paw-print plastic-coated bowl; nearest 'Կերաման չժանգոտվող պողպատից՝ շների համար' 0.7 l/21 cm grey (3300) - different line/size."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1273,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/miski-kormushki-i-poilki/miski-1/trixie-miska-iz-nergaveyuschej-stali-s-plastikovym-pokrytiem-i-rezinovym-dnom-2-2-l-23-sm",
+    "price": 8000,
+    "old_price": null,
+    "name": "Trixie Миска из нержавеющей стали с пластиковым покрытием и резиновым дном, 2 л, 23 см",
+    "in_stock": true,
+    "evidence": "Same Trixie plastic-coated paw/bone bowl line, rubber-rim base, assorted colours; ø23 cm matches; slug 2-2-l-23-sm = our 2.2 l/23 cm, title says 2 l. In stock, 8000."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo: 'կերաման', 'թաթիկ', 'պողպատ', 'ռետինե տակով', '17սմ', '21սմ', Trixie brand list (all bowls). Nearest 'Կերաման շների համար, չժանգոտվող պողպատից, ռետինե տակով' grey coated 0.9 l/23 cm (3750) - different volume/line."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 998,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'спаниел|длинными ушами|ушей', 'trixie миска', Trixie brand list: no long-ear bowl."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'երկարականջ', 'ականջ', 'կերաման'. Nearest 'Կերաման երկարականջ շների համար' (2800, 0.9 l) is a plain stainless bowl with black rubber base (photo) - not the plastic-coated paw-print stainless/plastic 25247; diameter not stated."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 999,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'slow', 'медленного кормления|поедания', 'trixie миска'. Only silicone Slow Feed bowls/mats (24/28/30 cm) - not the stainless 1 l/21 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կերաման-շների-համար-slow-feed",
+    "price": 7600,
+    "old_price": null,
+    "name": "Կերաման շների համար՝ Slow Feed",
+    "in_stock": true,
+    "evidence": "Page: stainless steel, plastic coating, slow-feeding shape, 1 l, 21 cm; photo = Trixie slow-feeding steel bowl with paw/bone print. Matches 25249 1 l/ø21 cm. In stock 7600."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1000,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/miski-kormushki-i-poilki-1/miski/trixie-miska-stalnaya-dlya-sobak-750-ml",
+    "price": 4700,
+    "old_price": null,
+    "name": "Trixie Миска стальная для собак, 750 мл",
+    "in_stock": true,
+    "evidence": "Description: Trixie stainless steel with plastic coating, non-slip silicone/rubber base, grey-blue wave pattern with paw silhouette; photo white/grey/blue wave bowl = Trixie 25256 (0.75 l/ø17 cm, white/grey/blue per retailers). 750 ml matches. In stock 4700."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo: 'կերաման', 'թաթիկ', 'պողպատ', 'ռետինե տակով', '17սմ', '21սմ', Trixie brand list (all bowls). No 0.75 l white/grey/blue wave bowl; 'ռետինապատ' search returns only socks."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1001,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie сердц', 'нержав', 'trixie миска', brand list: no heart-print steel bowl."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo: 'կերաման', 'թաթիկ', 'պողպատ', 'ռետինե տակով', '17սմ', '21սմ', Trixie brand list (all bowls). 'սրտիկներով' search. Only heart bowl on nemo is 2 l/20 cm ('Կերաման շների համար՝ ռետինե տակով', 4000) - not 0.5 l/13 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1274,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie сердц', 'нержав', 'trixie миска', brand list: no heart-print steel bowl."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo: 'կերաման', 'թաթիկ', 'պողպատ', 'ռետինե տակով', '17սմ', '21սմ', Trixie brand list (all bowls). Only heart bowl on nemo is 2 l/20 cm (4000) - not 1 l."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1275,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie сердц', 'нержав', 'trixie миска', brand list: no heart-print steel bowl; nearest plain steel+rubber 1.7 l/21 cm (3800, out of stock)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կերաման-շների-համար-ռետինե-տակով",
+    "price": 4000,
+    "old_price": null,
+    "name": "Կերաման շների համար՝ ռետինե տակով",
+    "in_stock": true,
+    "evidence": "Page (Trixie list): for dogs, steel, rubber base, with hearts (Սրտիկներով), 2 l, 20 cm; photo steel bowl with hearts and paw print = 25273 2.0 l/ø20 cm. In stock 4000."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1004,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie медальон|адресник|адрес|tag|жетон', 'trixie жетон|брелок|адрес', brand list. Only 'Медальон-адресник в форме кости 3.5x2 см' (1950, out of stock) - bone-shaped tag, not this I.D. tag/colour. (ours: gold)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'մեդալիոն', 'Մեդալիոն հասցեի', 'հասցեի', 'մեդալ|адрес|жетон|բրելոկ'. Only a polyester reflective tag pouch 'Պայուսակ-մեդալիոն՝ հասցեի համար' (900) - different product."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1313,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie медальон|адресник|адрес|tag|жетон', 'trixie жетон|брелок|адрес', brand list. Only 'Медальон-адресник в форме кости 3.5x2 см' (1950, out of stock) - bone-shaped tag, not this I.D. tag/colour. (ours: chrome)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'մեդալիոն', 'Մեդալիոն հասցեի', 'հասցեի', 'մեդալ|адрес|жетон|բրելոկ'. Only a polyester reflective tag pouch 'Պայուսակ-մեդալիոն՝ հասցեի համար' (900) - different product."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1492,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie медальон|адресник|адрес|tag|жетон', 'trixie жетон|брелок|адрес', brand list. Only 'Медальон-адресник в форме кости 3.5x2 см' (1950, out of stock) - bone-shaped tag, not this I.D. tag/colour. (ours: purple)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'մեդալիոն', 'Մեդալիոն հասցեի', 'հասցեի', 'մեդալ|адрес|жетон|բրելոկ'. Only a polyester reflective tag pouch 'Պայուսակ-մեդալիոն՝ հասցեի համար' (900) - different product."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1006,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/miski-kormushki-i-poilki-1/dorozhnye/trixie-butylka-dorognaya-s-miskoj-750-ml",
+    "price": 7600,
+    "old_price": null,
+    "name": "Trixie Бутылка дорожная с миской 750 мл",
+    "in_stock": true,
+    "evidence": "Stainless steel/plastic water bottle, lid serves as bowl, 750 ml; photo = Trixie 24606 steel bottle with blue lid-bowl and carabiner (24606 sold in assorted colours; ours listed blue/green). In stock 7600."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պողպատից-շիշ-ջրամանով-ճանապարհային-075-լ",
+    "price": 8100,
+    "old_price": null,
+    "name": "Պողպատից շիշ՝ ջրամանով, ճանապարհային 0.75 լ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Trixie Bottle with Bowl', stainless steel/plastic, lid used as bowl, metal carabiner, 0.75 l = 24606. In stock 8100."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1007,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie бутылк|поилк|bottle', 'trixie дорожн|travel', 'trixie 500 мл', brand list: only 750 ml steel bottle and a rodent drinker."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ջրաման-ճանապարհային-խմելու-հարմարանքով-055-լ",
+    "price": 4300,
+    "old_price": null,
+    "name": "Ջրաման ճանապարհային խմելու հարմարանքով ՝0.55 լ,",
+    "in_stock": true,
+    "evidence": "Name = hafo row 'Ջրաման ճանապարհային՝ խմելու հարմարանքով, 0.55 լ'; photo is TRIXIE-logo bottle with fold-down silicone bowl cover and carabiner = Trixie 24607 0.55 l (nemo lists manufacturer Nunbell, but the photo carries the Trixie logo). Not the other nemo 0.55 l bottle (bowl-on-top press-stud = Trixie 24609, 2700). In stock 4300."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1008,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie бутылк|поилк|bottle', 'trixie 500 мл', 'trixie 0.5 л', brand list: no 0.5 l Dog-on-Tour folding bottle-bowl."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'ճանապարհային', 'ջրաման ճանապարհ|շիշ|bottle', 'Ջրաման ճանապարհային 500', '500մլ'. Nearest are 0.55 l Trixie bottles (24607 4300, 24609 2700) - not 2461 500 ml."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1009,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie дорожн|travel', 'trixie 0.5 л'. Nearest 'Trixie Миска дорожная силиконовая, 0.5 л, 14 см' (2100) is a grey all-silicone collapsible bowl, no solid rim/carabiner - Trixie 25017 is the solid-rim blue version with hook."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'ճանապարհային', '14սմ'. Listing 'Ջրաման ճանապարհային ռետինե ՝ ՝մետաղական բռնակով 0.5լ /14սմ,կապույտ - copy' (7350) has the 25017 name/photo but is a recycled copy: manufacturer Nunbell, description is a lick mat, price = the Lick'n'Snack mat price - not a reliable 25017 price. Sibling 1 l/18 cm grey is 3500 (different size)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1010,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie поводок бег|jogging|пояс|ремень', 'trixie поводок для бега', 'поводок trixie', brand list: no jogging lead."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձգափոկ-կարգավորվող-վազքի-համար",
+    "price": 7300,
+    "old_price": null,
+    "name": "Ձգափոկ` կարգավորվող, վազքի համար",
+    "in_stock": true,
+    "evidence": "Page: adjustable jogging lead for dogs, polyester, wrist/waist, grey/papaya, 1.33-1.80 m/20 mm = hafo row of 12763 exactly. In stock 7300."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1011,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie поводок бег|jogging|пояс|ремень', 'trixie поводок для бега', brand list: no jogging belt."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գոտի-պայուսակ-վազքի-համար",
+    "price": 12450,
+    "old_price": null,
+    "name": "Գոտի պայուսակ վազքի համար",
+    "in_stock": true,
+    "evidence": "Page: jogging belt with lead, grey/black, belt 70*130/23 cm, lead 1.15-1.50 m/20 mm = 12769 (same as hafo row). In stock 12450."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1022,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/tualety/trixie-pakety-dlya-uborki-v-rulone-20-sht-4-rulona",
+    "price": 1200,
+    "old_price": null,
+    "name": "Trixie Пакеты для уборки, в рулоне 20 шт, 4 рулона",
+    "in_stock": true,
+    "evidence": "4 rolls x 20 bags; photo = Trixie 'Kotbeutel 80 (4x20)' pack in assorted striped colours (pink/teal/blue/grey) = sorted 22840. Black-only and scented 4x20 packs are separate listings. In stock 1200."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/աղբի-տոպրակ-20-հատանոց-փաթեթ",
+    "price": 1100,
+    "old_price": null,
+    "name": "Աղբի տոպրակ` 20 հատանոց փաթեթ",
+    "in_stock": true,
+    "evidence": "Page: roll bags for all dispensers, quantity 4, coloured = hafo row 'Աղբի տոպրակ` 20 հատանոց փաթեթ/4 հատանոց տուփ/գունավոր'; photo 4 striped coloured rolls. Black 4x20 is a separate listing (950). In stock 1100."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1029,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie пакет|poop|мешк', 'trixie диспенсер|контейнер|футляр'. Only nylon belt, neoprene carabiner and nylon 2x15 containers - no bone-shaped plastic dispenser with 15 bags (22846)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'Տուփ աղբի', 'դիսպենսեր', 'տոպրակ'. Nearest 'Աղբի տոպրակների դիսպենսեր, 8 × 5 սմ, 1 × 15 տոպրակ, շագանակագույն' (2350) - brown 8x5 cm, not the Trixie plastic bone dispenser; others are 20-bag nylon/neoprene/adhesive."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1033,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie диспенсер|контейнер|футляр', 'trixie пакет'. No adhesive-strip dispenser; nearest neoprene with carabiner, 20 bags (2100, out of stock)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/տուփ-աղբի-տոպրակի-համար-ինքնակպչունով",
+    "price": 3250,
+    "old_price": null,
+    "name": "Տուփ աղբի տոպրակի համար՝ ինքնակպչունով",
+    "in_stock": true,
+    "evidence": "Name = hafo row of 22849 ('Տուփ աղբի տոպրակի համար՝ ինքնակպչունով, 20 հատ/1 փաթեթ'); page: hard case, polyester cover, 20 bags/1 roll. In stock 3250."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1036,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/tualety/trixie-kontejner-dlya-uborochnyh-paketov-s-remnem-v-komplekte-rulon-iz-20-pak",
+    "price": 2150,
+    "old_price": null,
+    "name": "Trixie Контейнер для уборочных пакетов с ремнем, в комплекте рулон из 20 пак.",
+    "in_stock": true,
+    "evidence": "Nylon bag dispenser with belt loop, assorted colours, incl. 1 roll of 20 bags; photo nylon pouch on a strap = Trixie 22854. In stock 2150."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/տուփ-աղբի-տոպրակի-համար-փոքր-գոտիով",
+    "price": 2150,
+    "old_price": null,
+    "name": "Տուփ աղբի տոպրակի համար՝ փոքր գոտիով",
+    "in_stock": true,
+    "evidence": "Name = hafo row of 22854; page: small belt loop, nylon, 20 bags/1 roll. In stock 2150."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1037,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/rascheski-shchetki-i-puhoderki/trixie-dopolnitelnye-nasadki-dlya-rolika-dlya-uborki-volos-i-shersti-2-sht-x-60-polosok",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie Дополнительные насадки для ролика для уборки волос и шерсти, 2 шт x 60 полосок",
+    "in_stock": true,
+    "evidence": "Trixie replacement rolls for lint roller, 2 pcs x 60 sheets = 23230. In stock 2000."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'ռոլիկ', 'Լիպկի', 'կպչուններ', 'Լիպկի ռոլիկի'. 'Հավաքածու նախատեսված ռոլիկների համար' (2000) photo is 3 non-Trixie 'Extra sticky refill' rolls - not Trixie 2x60."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1038,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie ролик|roller|липк', 'trixie ролик|валик', brand list: only the 2x60 refill, no roller with handle."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'ռոլիկ', 'Լիպկի', 'մազերը'. Nearest 'Լիպկի ռոլիկ` մազերը հավաքելու համար' (Trixie, 2400) is a reusable silicone roller (no sheets); 'Ռոլիկ հավաքածու' (2400) is a pink non-Trixie roller set; others Nunbell."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1040,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie щетк|brush', 'щетк шерст|волос|мебел', 'trixie для одежды|мебели', brand list: no upholstery brush."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խոզանակ-մազերը-հավաքելու-համար",
+    "price": 2200,
+    "old_price": null,
+    "name": "Խոզանակ՝ մազերը հավաքելու համար",
+    "in_stock": true,
+    "evidence": "Page: ergonomic brush removes hair/lint from furniture, plastic, 7*10 cm = hafo row of 23237; photo turquoise/black Trixie upholstery brush (23237 is black/turquoise per retailers). In stock 2200."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1041,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie трус|pants|штаниш', 'гигиенич|трусы|течк', brand list: no protective pants."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'կիսավարտիք', 'Հիգիենիկ', 'կիսավարտիք ցանց'. Trixie mesh pants only in M 40-50 cm (3900) and L 50-59 cm (4400); polyester/elastane S 28-38 cm (2600) is a different (non-mesh) line. No mesh S 30-37 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1316,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie трус|pants|штаниш', 'гигиенич|трусы|течк', brand list: no protective pants."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'կիսավարտիք', 'Հիգիենիկ'. Trixie mesh pants only M 40-50 cm (3900) and L (4400); no mesh S-M 35-43 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1043,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched zoovet 'trixie щетк|brush', 'щетк шерст|волос|мебел', 'trixie для одежды|мебели', brand list: no lint brush."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo 'խոզանակ', 'Խոզանակ՝', 'երկկողմանի', 'մորթին', '26 սմ', 'մազերը'. Only grooming slicker brushes (Nunbell) and the 7x10 upholstery brush - no 26 cm double-sided lint brush."
+   },
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "results": [
+  {
+   "variant_id": 575,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Trixie zoovet rows in today's saved list (shops.json) for grooming tools: Ножницы-когтерез для кошек и мелких животных (ME-00008998, 1800, out of stock), Когтерезы-кусачки 12.5 см (4050), Когтерез-гильотина 14 см (3400), Колтунорез x2 7x18 см, Расчёска-триммер 6x15 см, Перчатка для массажа и придания лоска 18x24 см (2100, out of stock). Non-Trixie gloves/scissors: Nunbell massage glove, Triol когтерез-ножницы 70x140 мм. Nearest is the 18x24 'Перчатка для массажа и придания лоска' (2100). That is the massage & shine glove (Trixie 23391, rubber nubs), not our 23392 fur care glove with wire pins. Different model."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մազահեռացնող-ձեռնոց-2",
+    "price": 3700,
+    "old_price": null,
+    "name": "Մազահեռացնող ձեռնոց",
+    "in_stock": true,
+    "evidence": "Opened today. Manufacturer: Trixie. Text says mesh material, metal pins, coat types 4/6, 'Չափս 18 x 24 սմ'. The main photo shows a grey mesh glove with yellow-tipped wire pins, which is Trixie 23392. 3700, in stock; this equals hafo's 23392Tx price. Brand, model and size all match."
+   },
+   "confidence": "high",
+   "reason": "nemo page confirmed (Trixie, wire pins, 18x24); the matcher missed it. zoovet only has the 23391 massage glove."
+  },
+  {
+   "variant_id": 576,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Trixie zoovet rows in today's saved list (shops.json) for grooming tools: Ножницы-когтерез для кошек и мелких животных (ME-00008998, 1800, out of stock), Когтерезы-кусачки 12.5 см (4050), Когтерез-гильотина 14 см (3400), Колтунорез x2 7x18 см, Расчёска-триммер 6x15 см, Перчатка для массажа и придания лоска 18x24 см (2100, out of stock). Non-Trixie gloves/scissors: Nunbell massage glove, Triol когтерез-ножницы 70x140 мм. Nearest is the 18x24 massage & shine glove (23391, 2100). It differs in size (18x24 vs 16x24) and model."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մազահեռացնող-և-մերսող-ձեռնոց-2",
+    "price": 2550,
+    "old_price": null,
+    "name": "Մազահեռացնող և մերսող ձեռնոց",
+    "in_stock": true,
+    "evidence": "Opened today. No manufacturer tag. The photo shows a five-finger black mesh glove with blue rubber nubs, which is Trixie 23393 in dark grey/blue. Text says for dogs, mesh, fastens at the wrist, sensitive skin, coat types 4/5, 'Չափս՝ 16 ×24 սմ'. 2550, in stock; this equals hafo's 23393Tx price. Model, size and colour all match."
+   },
+   "confidence": "high",
+   "reason": "nemo page confirmed on photo, size and description; the matcher missed it."
+  },
+  {
+   "variant_id": 580,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/kosmetika/kogterezy-1/trixie-nognitsy-kogterez-dlya-koshek-i-melkih-givotnyh",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie Ножницы-когтерез для кошек и мелких животных",
+    "in_stock": false,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved row: ME-00008998, 1800, out of stock. zoovet's name says 'когтерез', but the row's image (...ME000089981.png; I compared a copy saved earlier today) is exactly Trixie's 2360 packshot. Straight blades, round ball tips, black handles with turquoise inserts, and no claw notch. It is not 2373, which has a semicircular claw notch. 2360 is a single article/size. 1800 also equals hafo's 2360Tx price (2373 is 1950). zoovet prints no size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մկրատ-դեմքի-և-թաթերի-համար",
+    "price": 1850,
+    "old_price": null,
+    "name": "Մկրատ դեմքի և թաթերի համար",
+    "in_stock": true,
+    "evidence": "Opened today. No manufacturer tag. The photo shows black/turquoise scissors with straight blades and rounded tips, the same design as Trixie 2360 face & paw scissors. Text: 'Չափս` 9 սմ', for dogs, cats and small animals, for face and paw hair, rounded edges, stainless. hafo's row for our 2360 also says 9 cm ('Մկրատ 9 սմ կլորացված եզրերով'); Trixie lists it as 8 cm. 1850, in stock."
+   },
+   "confidence": "medium",
+   "reason": "Both shops carry Trixie 2360, confirmed by photo. zoovet's name is misleading ('когтерез'), and its page could not be re-opened today, so the image and price decide it. nemo prints 9 cm, as hafo does."
+  },
+  {
+   "variant_id": 583,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Trixie zoovet rows in today's saved list (shops.json) for grooming tools: Ножницы-когтерез для кошек и мелких животных (ME-00008998, 1800, out of stock), Когтерезы-кусачки 12.5 см (4050), Когтерез-гильотина 14 см (3400), Колтунорез x2 7x18 см, Расчёска-триммер 6x15 см, Перчатка для массажа и придания лоска 18x24 см (2100, out of stock). Non-Trixie gloves/scissors: Nunbell massage glove, Triol когтерез-ножницы 70x140 мм. No Trixie hair scissors besides the ME-00008998 listing, which is the 2360 face & paw scissors (plastic handles), not the 13 cm all-steel 23692."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մկրատ-կլոր-ծայրերով-չժանգոտվող-պողպատից",
+    "price": 6550,
+    "old_price": null,
+    "name": "Մկրատ՝ կլոր ծայրերով, չժանգոտվող պողպատից",
+    "in_stock": true,
+    "evidence": "Opened today. No manufacturer tag. The name is word for word hafo's 23692Tx row. Text: rounded tips, adjustment screw, stainless steel, 13 cm. The photo shows all-steel scissors with rounded tips and a finger rest, which is Trixie 23692. 6550, in stock; this equals the hafo price."
+   },
+   "confidence": "high",
+   "reason": "nemo page confirmed (name, 13 cm, all-steel photo); the matcher missed it."
+  },
+  {
+   "variant_id": 584,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Trixie zoovet rows in today's saved list (shops.json) for grooming tools: Ножницы-когтерез для кошек и мелких животных (ME-00008998, 1800, out of stock), Когтерезы-кусачки 12.5 см (4050), Когтерез-гильотина 14 см (3400), Колтунорез x2 7x18 см, Расчёска-триммер 6x15 см, Перчатка для массажа и придания лоска 18x24 см (2100, out of stock). Non-Trixie gloves/scissors: Nunbell massage glove, Triol когтерез-ножницы 70x140 мм. Nearest is 'Когтерез-гильотина для собак средних и крупных размеров, 14 см' (3400). 14 cm is not 11 cm, and it is for medium/large dogs."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/եղունգկտրիչ-մկրատ-կենդանիների-համար-2",
+    "price": 2450,
+    "old_price": null,
+    "name": "Եղունգկտրիչ-մկրատ կենդանիների համար",
+    "in_stock": true,
+    "evidence": "Opened today. No manufacturer tag. The photo shows a chrome guillotine claw clipper with black handles. Text: for dogs, cats and small animals, especially small breeds, metal cutting part, sharp edges, 'Չափս՝ 11 սմ'. That is the Trixie 2370 guillotine, 11 cm. 2450, in stock; this equals hafo's 2370Tx price."
+   },
+   "confidence": "medium",
+   "reason": "nemo matches on photo, text and size, but has no brand tag. zoovet only has the 14 cm guillotine."
+  },
+  {
+   "variant_id": 586,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. The matcher's ME-00008998 'Trixie Ножницы-когтерез для кошек и мелких животных' (1800, out of stock) is NOT our 2373. Its image (...ME000089981.png; I compared a saved copy) is Trixie's 2360 face & paw packshot: straight blades, ball tips, no claw notch. 1800 is hafo's 2360 price, not 2373's 1950. Trixie zoovet rows in today's saved list (shops.json) for grooming tools: Ножницы-когтерез для кошек и мелких животных (ME-00008998, 1800, out of stock), Когтерезы-кусачки 12.5 см (4050), Когтерез-гильотина 14 см (3400), Колтунорез x2 7x18 см, Расчёска-триммер 6x15 см, Перчатка для массажа и придания лоска 18x24 см (2100, out of stock). Non-Trixie gloves/scissors: Nunbell massage glove, Triol когтерез-ножницы 70x140 мм. No other Trixie claw scissors."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մկրատ-փոքր-կենդանիների-համար-3",
+    "price": 1950,
+    "old_price": null,
+    "name": "Մկրատ փոքր կենդանիների համար",
+    "in_stock": true,
+    "evidence": "Opened today. No manufacturer tag. The photo shows the Trixie 2373 claw scissors: short blades with a semicircular claw notch, black/turquoise handles with the Trixie finger hook. Text: claw scissors for small dogs, cats and birds, stainless steel, plastic handles, 8 cm. 1950, in stock; this equals hafo's 2373Tx price."
+   },
+   "confidence": "high",
+   "reason": "The zoovet listing is 2360, not 2373 (checked by image and price). nemo is confirmed as 2373 at 8 cm."
+  },
+  {
+   "variant_id": 597,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Trixie zoovet rows in today's saved list (shops.json) for grooming tools: Ножницы-когтерез для кошек и мелких животных (ME-00008998, 1800, out of stock), Когтерезы-кусачки 12.5 см (4050), Когтерез-гильотина 14 см (3400), Колтунорез x2 7x18 см, Расчёска-триммер 6x15 см, Перчатка для массажа и придания лоска 18x24 см (2100, out of stock). Non-Trixie gloves/scissors: Nunbell massage glove, Triol когтерез-ножницы 70x140 мм. No Trixie flea/dust comb in the saved list."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-նախատեսված-ոջիլների-և-կեղտի-մաքրման-համար",
+    "price": 4800,
+    "old_price": null,
+    "name": "Սանր՝ նախատեսված ոջիլների և կեղտի մաքրման համար",
+    "in_stock": true,
+    "evidence": "Opened today. Manufacturer: Trixie. The name is word for word hafo's 2401Tx row. Text: for detecting insects, metal, 'Չափս՝ 6 սմ'. The photo shows an all-metal flea comb, which is Trixie 2401. 4800, in stock. nemo's other flea comb ('...ոջիլների մաքրման համար', 2200) is 7 cm with a plastic handle, so it is not ours."
+   },
+   "confidence": "high",
+   "reason": "nemo page confirmed (Trixie, 6 cm, metal); the matcher missed it."
+  }
+ ]
+}

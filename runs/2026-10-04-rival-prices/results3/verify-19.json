@@ -1,0 +1,606 @@
+{
+ "results": [
+  {
+   "variant_id": 629,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-rolly-s-kuritsej-dlya-sobak-17-sm-140-g",
+    "price": 2700,
+    "old_price": null,
+    "name": "Trixie Лакомство Denta Fun рулетики куриные для собак, в упаковке (3 шт), 17 см, 140 г",
+    "in_stock": true,
+    "evidence": "Page: Denta Fun rawhide wrapped in chicken, 3 pcs, 17 cm, 140 g = 31327 Chicken Rolls 3 pcs/140 g. Duck 3 pcs/140 g listing (2750) is a different flavour."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձողիկներ-շների-denta-fun-հավի-համով",
+    "price": 2700,
+    "old_price": null,
+    "name": "Ձողիկներ շների Denta Fun` հավի համով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31327Tx; page: 140 g, twisted rawhide wrapped in chicken, 17 cm/3 pcs. Others: 250 g/28 cm (4500), 170 g/40 cm (2900), duck 140 g (2750)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Both pages re-opened: zoovet 3 pcs/17 cm/140 g chicken Denta Fun rolls 2700; nemo Trixie, 140 g, 17 cm/3 pcs, chicken 2700."
+  },
+  {
+   "variant_id": 1298,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-denta-fun-rolls-s-kuritsej-dlya-sobak-120-g",
+    "price": 2650,
+    "old_price": null,
+    "name": "Trixie Denta Fun Rolls с курицей для собак, 120 г",
+    "in_stock": true,
+    "evidence": "Page: Denta Fun Mini Chewing Rolls, 6 cm each, rawhide wrapped in chicken, 120 g = 31346. Duck 120 g version (2600) differs."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-ձողիկներ-հավի-մսով",
+    "price": 2650,
+    "old_price": null,
+    "name": "«Denta Fun» ձողիկներ հավի մսով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 313461; page: 120 g, 6 cm, rawhide + chicken fillet."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Denta Fun Mini Chewing Rolls 6 cm chicken 120 g 2650; nemo Trixie 120 g 6 cm chicken 2650. Duck 120 g (2600) excluded."
+  },
+  {
+   "variant_id": 1378,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-denta-fun-ruletiki-s-utkoj-dlya-sobak-10-sht-12-sm-80-g",
+    "price": 1850,
+    "old_price": null,
+    "name": "Trixie Лакомство Denta Fun рулетики с уткой для собак, 10 шт, 12 см, 80 г",
+    "in_stock": true,
+    "evidence": "Duck Denta Fun rolls, 10 pcs, 12 cm, 80 g = 31371. 1 pc 28 cm/80 g (1350) differs."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-ոլորած-ձողիկներ-շների-համար-2",
+    "price": 1850,
+    "old_price": null,
+    "name": "«Denta Fun» ոլորած ձողիկներ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31371Tx; page: 80 g, 10 pcs, 12 cm, rawhide + duck breast. 'Twisted Chewing Rolls' duck 70 g/3 pcs (1500) differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet duck rolls 10 pcs/12 cm/80 g 1850; nemo Trixie 80 g/10 pcs/12 cm duck 1850."
+  },
+  {
+   "variant_id": 1381,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'буйвол|buffalo|бизон', 'denta fun'; no buffalo rolls. Nearest: Denta Fun рулетики с мраморной говядиной 70 г (1550) - marbled beef + whitefish, different flavour."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-ռուլետ-շների-համար-գոմեշ",
+    "price": 1850,
+    "old_price": null,
+    "name": "Denta Fun ռուլետ շների համար (գոմեշ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 313881; page: 70 g, 5 pcs, 12 cm, buffalo, rawhide. Marbled beef 70 g (1550) is a different flavour."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo buffalo 70 g/5 pcs/12 cm 1850 confirmed. zoovet Trixie treat list rescanned (буйвол/бизон/buffalo, Denta Fun): only marbled-beef rolls 70 g - no buffalo."
+  },
+  {
+   "variant_id": 631,
+   "zoovet": {
+    "found": false,
+    "evidence": "Refuted: zoovet 'Trixie Лакомство кольцо с курицей для собак, 110 г' (2250, ME-00008520) is a single ring ('кольцо', one 'Кость-кольцо' in the description, for medium/large breeds) at exactly the price of hafo 31328Tx 'Chewing Ring Denta Fun ... հավի մսով, 110 գ' (single ring, 2250; nemo also lists that item separately at 2250). Our 31332 is 2 rings x 6 cm/110 g. Nothing on the zoovet page shows 2 pcs/6 cm, and the single-ring SKU of the same weight exists, so identity is not established. Nearest: that 110 g single ring (2250)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հավի-մսային-օղակներ",
+    "price": 2350,
+    "old_price": null,
+    "name": "Trixie, հավի մսային օղակներ",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 31332Tx; page: chicken (32%), 2 rings in the box, 2350, in stock. Manufacturer field empty. nemo's separate 'Chewing Ring Denta Fun ջլե օղակներ, հավի մսով, 110 գ' (2250) = hafo 31328Tx single 110 g ring, a different item; 'Chewing Ring, օղակներ' 11 cm/65 g liver-filled (1800) differs."
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "zoovet refuted (single 110 g ring = 31328, not our 2 x 6 cm/110 g 31332). nemo 2350 'Trixie, հավի մսային օղակներ' (2 rings in box, chicken 32%) confirmed; nemo's 2250 'Chewing Ring ... 110 գ' listing is the 31328 single ring, not a duplicate."
+  },
+  {
+   "variant_id": 633,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-denta-fun-kostochka-kurinaya-dlya-sobak-5-sm-8-sht-120-g",
+    "price": 2550,
+    "old_price": null,
+    "name": "Trixie Лакомство Denta Fun косточка куриная для собак, 5 см, 8 шт, 120 г",
+    "in_stock": true,
+    "evidence": "Denta Fun chicken bones 5 cm, 8 pcs, 120 g = 31340. 5 pcs/70 g (1550) differs."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-dentinos-mini-գունավոր-ստիկս",
+    "price": 2550,
+    "old_price": null,
+    "name": "«Denta Fun» ոսկորներ հավի մսով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31340Tx; page: 120 g, 8 pcs, 5 cm, rawhide + chicken fillet (slug is recycled)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Denta Fun chicken bone 5 cm/8 pcs/120 g 2550; nemo Trixie 120 g/8 pcs/5 cm 2550 (recycled slug, page content matches)."
+  },
+  {
+   "variant_id": 634,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-denta-fun-s-kuritsej-i-risom-dlya-sobak-100-g",
+    "price": 1700,
+    "old_price": null,
+    "name": "Trixie Лакомство Denta Fun с курицей и рисом для собак, 100 г",
+    "in_stock": false,
+    "evidence": "Only Trixie Denta Fun chicken + rice 100 g item (chicken breast 38%, rice 4.5%); page does not say dumbbells / 6 pcs. Out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-ոսկորիկներ",
+    "price": 1600,
+    "old_price": null,
+    "name": "«Denta Fun» ոսկորիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31342Tx; page: 100 g, 6 pcs, chicken and rice."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet: the only Trixie Denta Fun chicken+rice 100 g (hafo has no other 100 g chicken+rice Trixie item; 31701 is 80 g), 1700 OOS; nemo 100 g/6 pcs chicken+rice 1600."
+  },
+  {
+   "variant_id": 635,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-kostochka-s-kuritsej-dlya-sobak-17-sm-140-g",
+    "price": 2450,
+    "old_price": null,
+    "name": "Trixie Лакомство косточка с курицей для собак, 17 см, 140 г",
+    "in_stock": true,
+    "evidence": "Rawhide bone wrapped in chicken, dental, 17 cm, 140 g = 31344 Bone with Chicken 17 cm/140 g."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: Trixie list + searches 'Ոսկորներ շների հավի համով', 'ոսկոր', '17 սմ', '140'. Nearest: 'Ոսկորներ շների հավի համով' (2150) = 2 pcs/11 cm/120 g (31343); 'Ոսկոր շների համար՝ հավի' 18 cm/120 g knotted (1950). No 17 cm/140 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet rawhide bone with chicken 17 cm/140 g 2450 confirmed. nemo rescanned: chicken bones only 2 pcs/11 cm/120 g (2150), knotted 18 cm/120 g (1950), knotted 2 pcs/11 cm/70 g (1550) - no 17 cm/140 g."
+  },
+  {
+   "variant_id": 1258,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'кост', '2 шт', '60 г'. Nearest: Denta Fun косточка с уткой 2 шт, 12 см, 120 г (2750, OOS) - duck, not chicken; chicken bones 17 cm/140 g and 15 cm/70 g differ."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոսկորներ-շների-հավի-համով",
+    "price": 2150,
+    "old_price": null,
+    "name": "Ոսկորներ շների հավի համով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Denta Fun bone, chicken, 120 g, 2 pcs, 11 cm = 31343 (11 cm/2 x 60 g). 'Ոսկոր շների համար՝ հավի մսով' 2 pcs/11 cm/70 g knotted (1550) differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo Trixie Denta Fun chicken bone 120 g/2 pcs/11 cm 2150 confirmed. zoovet list: only duck bone 2 pcs/12 cm/120 g and chicken 15 cm/70 g, 17 cm/140 g - no 2x60 g chicken."
+  },
+  {
+   "variant_id": 1259,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches '200 г', '20 см', 'кост'; no 20 cm/200 g chicken bone. Nearest: косточка с курицей 17 см 140 г (2450)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: Trixie list + searches by hafo row/title '20 սմ/200 գ', '200 գ', 'ոսկոր'. Nearest: 'Ոսկոր շների համար՝ հավի' 18 cm/120 g knotted (1950)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Neither shop lists a 20 cm/200 g chicken bone (zoovet + nemo Trixie lists rescanned)."
+  },
+  {
+   "variant_id": 640,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'mix|микс|ассорти', '250 г'. Nearest: Denta Fun рулетики куриные 3 шт 27 см 250 г (4500, chicken only); Denta Fun косточка утиная 250 г (4300)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոլորած-ձողիկներ-շների-համար-denta-fun-mix",
+    "price": 5600,
+    "old_price": null,
+    "name": "Ոլորած ձողիկներ շների համար՝ Denta Fun MIX",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31372Tx; page: chicken, lamb and beef, 12 cm, 250 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo Denta Fun MIX chicken/lamb/beef 12 cm 250 g 5600 confirmed. zoovet list has no mix (chicken-only 250 g 4500, duck 250 g 4300)."
+  },
+  {
+   "variant_id": 641,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-rolly-s-kurinoj-grudkoj-dlya-sobak-105-g",
+    "price": 2400,
+    "old_price": null,
+    "name": "Trixie Лакомство роллы с куриной грудкой для собак, 105 г",
+    "in_stock": false,
+    "evidence": "Rawhide wrapped in chicken breast with barbecue aroma, 105 g = 31377 Barbecue Rolls 3 pcs/105 g. Out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձողիկներ-շների-ոլորածհավի-denta-fun",
+    "price": 2400,
+    "old_price": null,
+    "name": "Ձողիկներ շների ոլորած,հավի Denta Fun",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31377Tx; page: 12 cm, 3 pcs, 105 g, chicken."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet rawhide+chicken breast barbecue aroma 105 g 2400 (stock block absent; OOS per matcher); nemo 12 cm/3 pcs/105 g chicken 2400."
+  },
+  {
+   "variant_id": 643,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'утк', 'ребр|ribs|barbecue', '110 г'. Nearest: Denta Fun косточка с уткой 2 шт, 12 см, 120 г (2750, OOS) - 12 cm/120 g vs our 17 cm/110 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խորտիկներ-շների-համար-բադի",
+    "price": 2450,
+    "old_price": null,
+    "name": "Խորտիկներ շների համար` բադի",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31466Tx; page: 110 g, 17 cm, 2 pcs, duck."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo duck 110 g/17 cm/2 pcs 2450 confirmed. zoovet duck bone is 2 pcs/12 cm/120 g rawhide filled with duck - different item."
+  },
+  {
+   "variant_id": 1369,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'barbecue|барбекю|ребр|ribs', '90 г'. No chicken barbecue ribs 3 pcs/90 g; only a Barbecue cat treat 50 g and a plain chew bone 17 cm/90 g (different products)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոսկոր-շների-հավի-խորտիկներ-denta-fun",
+    "price": 2200,
+    "old_price": null,
+    "name": "Ոսկոր շների հավի խորտիկներ Denta Fun",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31467Tx; page: chicken, 12 cm, 3 pcs, 90 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo chicken 12 cm/3 pcs/90 g 2200 confirmed. zoovet: no chicken barbecue ribs 90 g (Denta Fun rolls chicken 12 cm 80 g 2150 is 10 pcs twisted rolls)."
+  },
+  {
+   "variant_id": 646,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kostochki-s-kurinoj-grudkoj-dlya-sobak-100-g",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie Лакомство косточки с куриной грудкой для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Bones wrapped in chicken breast, 61% meat, 100 g = PREMIO Chickies (nemo page also 61%). 'косточка с курицей 100 г' (rawhide, 58%) is a different item."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ծամելու-օղակներ",
+    "price": 1800,
+    "old_price": null,
+    "name": "«PREMIO Chickies» համեղ պատառներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31591Tx; page: 100 g, calcium bones with chicken breast, 61% meat (slug recycled)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet bones wrapped in chicken breast 61%, 100 g, 1900; nemo PREMIO Chickies 61% 100 g 1800. zoovet 'косточка с курицей 100 г' (58%, = Chicken Bites) excluded."
+  },
+  {
+   "variant_id": 647,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-s-beloj-ryboj-dlya-sobak-100-g",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie Лакомство с белой рыбой для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Bones wrapped in whitefish, fish 45%, 100 g = PREMIO Fishies (nemo page: calcium bones, fish >= 45%)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-fishies-պատառներ-շների-համար-2",
+    "price": 1900,
+    "old_price": null,
+    "name": "PREMIO Fishies պատառներ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 315991; page: 100 g, calcium bones, fish >= 45%."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet whitefish-wrapped bones, fish 45%, 100 g 1900; nemo PREMIO Fishies 100 g 1900."
+  },
+  {
+   "variant_id": 653,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kubiki-s-utkoj-dlya-sobak-100-g",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie Лакомство кубики с уткой для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Duck cubes, 64% meat, 100 g; Trixie 31869 PREMIO Duck Softies = 64% duck, 100 g (web check). Lamb Softies 100 g (1700) differs."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-բադի-մսային-բեկորներ",
+    "price": 1900,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների՝ բադի մսային բեկորներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 31869Tx; page: duck, 64% meat, 100 g."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet duck cubes 64% meat 100 g 1900 (zoovet's Softies line also sold as 'кубики', lamb 100 g); nemo duck pieces 64% 100 g 1900."
+  },
+  {
+   "variant_id": 654,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'крем|creamy|пюре'. zoovet sells the Trixie creamy cat snack only singly: 'Крем-лакомство с курицей для кошек, 1 шт, 14 г' (200, OOS) - 1 x 14 g, not 5 x 14 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-հավի-պյուրե",
+    "price": 1000,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ հավի պյուրե",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 42681Tx; page: liquid snack, chicken 36%, 5*14 g. Single 14 g listing (250) differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo chicken purée 5*14 g 1000 confirmed. zoovet sells only 1 x 14 g single (200), no options for 5-pack."
+  },
+  {
+   "variant_id": 1398,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'крем|creamy|пюре', 'тунц'. Only single 'Крем-лакомство с тунцом и креветкой для кошек, 1 шт, 14 г' (200) - 1 x 14 g, not 5 x 14 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-թունա-ձկան-և-ծովախեցգետնի-պյուրե",
+    "price": 1000,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ թունա ձկան և ծովախեցգետնի պյուրե",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 42682Tx; page: shrimp, fish 29%, chicken 6%, 5*14 g. Single (1 հատ) 250 differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo tuna+shrimp 5*14 g 1000 confirmed. zoovet only 1 x 14 g single (200)."
+  },
+  {
+   "variant_id": 1399,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'крем|creamy|пюре', 'тунц'. Only single 'Крем-лакомство с тунцом и белой рыбой для кошек, 1 шт, 14 г' (200) - 1 x 14 g, not 5 x 14 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-թունա-և-սպիտակ-ձկան-պյուրե",
+    "price": 1000,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ թունա և սպիտակ ձկան պյուրե",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 42683Tx; page: fish 29%, chicken 6%, 5*14 g. Single (1 հատ) 250 differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo tuna+whitefish 5*14 g 1000 confirmed. zoovet only 1 x 14 g single (200)."
+  },
+  {
+   "variant_id": 657,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'сердеч|hearts', 'утк'. No Ducky Hearts; nearest 'филе из утки для кошек 50 г' (1100) - duck breast 79% only, no pollock, different product."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-ducky-hearts-կատուների-համար-բադ",
+    "price": 1100,
+    "old_price": null,
+    "name": "«PREMIO Ducky Hearts» կատուների համար (բադ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 427051; page: 50 g, duck breast 65% + pollock 18%. 'բադ և ձուկ' 50 g (1300, 68%/23%) is a different product."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo Ducky Hearts 50 g duck 65% + pollock 18% 1100 confirmed. zoovet: no hearts; duck fillet 50 g (79% duck only) differs."
+  },
+  {
+   "variant_id": 659,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-mini-sticks-lakomstvo-premio-s-kuritsej-dlya-koshek-50-g",
+    "price": 1100,
+    "old_price": null,
+    "name": "Trixie Mini Sticks Лакомство PREMIO с Курицей для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "PREMIO Mini Sticks with chicken and rice, 67% meat, 50 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-mini-sticks-կատուների-համար",
+    "price": 1000,
+    "old_price": null,
+    "name": "«PREMIO Chicken Mini Sticks» կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 427081; page: 50 g, chicken + rice, 67%."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet PREMIO Mini Sticks chicken+rice 67% 50 g 1100; nemo same 50 g 1000."
+  },
+  {
+   "variant_id": 661,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-tuna-sandwiches-lakomstvo-premio-s-tuntsom-dlya-koshek-50-g",
+    "price": 1450,
+    "old_price": null,
+    "name": "Trixie Tuna Sandwiches Лакомство PREMIO с тунцом для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "PREMIO Tuna Sandwiches, tuna + chicken, 50 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-tuna-sandwiches-կատուների-համար",
+    "price": 1350,
+    "old_price": null,
+    "name": "«PREMIO Tuna Sandwiches» կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 427311; page: 50 g, tuna + poultry, two-layer."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet PREMIO Tuna Sandwiches 50 g 1450; nemo Tuna Sandwiches 50 g 1350."
+  },
+  {
+   "variant_id": 662,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-premio-rolls-s-tuntsom-dlya-koshek-50-g",
+    "price": 1350,
+    "old_price": null,
+    "name": "Trixie Лакомство PREMIO Rolls с тунцом для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie Premio Tuna Rolls, 53% fish + 30% chicken, 50 g. 'PREMIO Rolls с курицей' (chicken + saithe, 1300) and 'Chicken & Tuna Rolls' (1500) are other products."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-tuna-rolls-կատուների-համար",
+    "price": 1350,
+    "old_price": null,
+    "name": "«PREMIO Tuna Rolls» կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 427321; page: 50 g, tuna 53% + poultry 30%. 'Fish Chicken Rolls' (1250) differs."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet PREMIO Tuna Rolls 50 g (tuna 35%, chicken 30%, saithe 18%) 1350; nemo Tuna Rolls 50 g 1350."
+  },
+  {
+   "variant_id": 1401,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-chicken-tuna-rolls-dlya-koshek-50-g",
+    "price": 1500,
+    "old_price": null,
+    "name": "Trixie Лакомство Chicken & Tuna Rolls для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "Chicken 72% + tuna 20%, 50 g, taurine = 42763."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-հավի-և-թունայի-մսով-ռոլլեր-50-գ",
+    "price": 1500,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ հավի և թունայի մսով ռոլլեր, 50 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo row/title for 42763Tx; page: 72% meat, 20% fish."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Chicken & Tuna Rolls 72%/20% 50 g 1500; nemo 72%/20% 50 g 1500."
+  },
+  {
+   "variant_id": 1402,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-chicken-cheese-rolls-dlya-koshek-50-g",
+    "price": 1500,
+    "old_price": null,
+    "name": "Trixie Лакомство Chicken & Cheese Rolls для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "PREMIO Chicken & Cheese Rolls, 79% meat, 50 g = 42764."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-հավի-մսով-և-պանրով-ռոլլեր-50-գ",
+    "price": 1500,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ հավի մսով և պանրով ռոլլեր, 50 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo row/title for 42764Tx; page: PREMIO Chicken & Cheese Rolls, 79% chicken breast, 50 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Chicken & Cheese Rolls 79% 50 g 1500; nemo same 1500."
+  },
+  {
+   "variant_id": 663,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-premio-bites-s-tuntsom-dlya-koshek-50-g",
+    "price": 1350,
+    "old_price": null,
+    "name": "Trixie Лакомство PREMIO Bites с тунцом для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "Trixie Premio Tuna Bites, 55% fish + 20% chicken, 50 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-tuna-bites-կատուների-համար",
+    "price": 1350,
+    "old_price": null,
+    "name": "«PREMIO Tuna Bites» կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for TX 427341; page: 50 g, fish 55% + poultry 20%."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet PREMIO Tuna Bites 55% fish/20% meat 50 g 1350; nemo same 1350."
+  },
+  {
+   "variant_id": 664,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list scanned (treats) + searches 'tenders|тендер|грудк', 'филе'. No Chicken Tenders for cats; nearest 'филе из утки для кошек 50 г' (duck) / 'Chicken Filet Bites 50 г' (OOS) - different products."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-chicken-tenders-հավի-կրծքամիս-70գ",
+    "price": 1400,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ Chicken Tenders, հավի կրծքամիս, 70գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title for 42735Tx; page: 100% chicken fillet, 70 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo Chicken Tenders 100% chicken fillet 70 g 1400 confirmed. zoovet: no Chicken Tenders; Chicken Filet Bites 50 g / duck fillet 50 g differ."
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+⚠ option Health Feature is set on some variants but not on ['31533', '31802']
+⚠ option Packaging Type is set on some variants but not on ['300607', '300617']
+354: written + verified  31533 1700->1750
+606: written + verified  19455 12850->12450
+633: written + verified  300607 550->450, 300627 550->450
+753: written + verified  075772 4850->4820
+755: written + verified  075112 4200->4250
+756: written + verified  077562 4650->4630, 077572 5200->5190
+763: written + verified  077982 8350->8340, 077992 9550->9530, 078002 10750->10720, 078012 11900->11910
+785: written + verified  791832 1400->1410, 791842 1500->1480
+787: written + verified  791852 1500->1460, 791862 1550->1540, 791872 2200->2170
+877: written + verified  073252 6150->5750
+1055: written + verified  13228 3400->3300
+1110: written + verified  10203 2200->2100, 10202 2200->2100, REG00118 2200->2100
+1191: written + verified  10665 2700->2600
+written: 13 products; skipped: 0; variants planned: 543

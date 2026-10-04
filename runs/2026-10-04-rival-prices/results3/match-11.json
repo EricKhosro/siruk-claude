@@ -1,0 +1,465 @@
+{
+ "results": [
+  {
+   "variant_id": 385,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no latex zebra (searched зебра/zebra/զեբր/латекс/EAN). Only Triol plush zebra. Trixie toys on zoovet are only: Be Eco balls, rope balls/knots, glow dumbbell, rubber pear, catnip mice, hedgehog, catapult, needle ball, bird 20 cm, etc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-զեբր-15-սմ-լատեքս",
+    "price": 3500,
+    "old_price": null,
+    "name": "Խաղալիք շների՝ զեբր, 15 սմ /լատեքս",
+    "in_stock": true,
+    "evidence": "Page: 'Trixie Խաղալիք Զեբր, Չափսը՝ 15 սմ, լատեքսից' - brand, model, 15 cm, latex all match; name identical to hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 386,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no Trixie crocodile; only Triol crocodiles (latex 240 mm, plush). Trixie toys on zoovet are only: Be Eco balls, rope balls/knots, glow dumbbell, rubber pear, catnip mice, hedgehog, catapult, needle ball, bird 20 cm, etc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շան-համար-ռետինե-կոկորդիլոս",
+    "price": 5000,
+    "old_price": null,
+    "name": "Խաղալիք շան համար ռետինե կոկորդիլոս",
+    "in_stock": true,
+    "evidence": "Name identical to hafo listing title for 3529; page: 'Չափս՝ 33սմ, Լատեքս, Ձայնով' (33 cm latex squeaky). Manufacturer field empty but title/size/material match Trixie 3529."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 387,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no latex duck (утка/duck/բադ). Trixie toys on zoovet are only: Be Eco balls, rope balls/knots, glow dumbbell, rubber pear, catnip mice, hedgehog, catapult, needle ball, bird 20 cm, etc."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched բադ/բադիկ/լատեքսից/լատեկսից, hafo title slug (404), nemo Trixie manufacturer list (1735 items). Nearest: 'Խաղալիք շան համար բադիկի տեսքով' 3100 (latex, no size, no brand) and 'Խաղալիք շների համար(լատեքսից)' 3550 (Trixie latex 30-32 cm, animal not stated); Trixie polyester ducks 38/50 cm. None confirmed as Trixie latex duck 30 cm 35492."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 388,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no bristle pig (свинья/pig/խոզ). Trixie toys on zoovet are only: Be Eco balls, rope balls/knots, glow dumbbell, rubber pear, catnip mice, hedgehog, catapult, needle ball, bird 20 cm, etc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մազիկներով-խոզուկ",
+    "price": 3850,
+    "old_price": null,
+    "name": "Մազիկներով խոզուկ",
+    "in_stock": true,
+    "evidence": "Same title as hafo slug 'maziknerov-xozuk'; page: 'Չափսը՝ 21 սմ, լատեքսից' - latex pig with bristles 21 cm = Trixie Bristle Pig 35499. Manufacturer field empty."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 389,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no rope with woven-in TPR (канат/верев/rope). Nearest: 'Игрушка веревка с узлом для собак, 32 см'. Trixie toys on zoovet are only: Be Eco balls, rope balls/knots, glow dumbbell, rubber pear, catnip mice, hedgehog, catapult, needle ball, bird 20 cm, etc."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched պարան/ռետինե ձող/միահյուսված/50 սմ/rope, hafo title slug (404), nemo Trixie list. Nearest: 'Խաղալիք շների համար՝ պարան, լատեկսից գնդակներով' 2550 (different item). Not found."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 390,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no rope giraffe/animal with tennis ball (жираф/giraffe). Trixie toys on zoovet are only: Be Eco balls, rope balls/knots, glow dumbbell, rubber pear, catnip mice, hedgehog, catapult, needle ball, bird 20 cm, etc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-գնդակին-միացված-պարանից-կենդանիներ",
+    "price": 4450,
+    "old_price": null,
+    "name": "Խաղալիք՝ գնդակին միացված պարանից կենդանիներ",
+    "in_stock": true,
+    "evidence": "Same title as hafo listing for 3578; page: rope animals attached to tennis ball, plush, 28 cm. Article 3578 is sold as assorted animals; animal not stated on page."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 391,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no leather fish on rope (рыба на верёвке/fish). Trixie toys on zoovet are only: Be Eco balls, rope balls/knots, glow dumbbell, rubber pear, catnip mice, hedgehog, catapult, needle ball, bird 20 cm, etc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բնական-կաշվից-խաղալիք-շների-համար-ձուկ-պարանի-վրա-28սմ",
+    "price": 5350,
+    "old_price": null,
+    "name": "Բնական կաշվից խաղալիք շների համար, ձուկ պարանի վրա, 28սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Շան խաղալիք պարանով ձուկ, բնական կաշվից, 28 սմ' - brand, model, material, 28 cm match; slug mirrors hafo slug."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 393,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no Dog Activity / Flip Board (searched Activity, Flip Board, flip)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/dog-activity-flip-fun-հյուրասիրություն-և-խաղ-շների-համար",
+    "price": 5250,
+    "old_price": null,
+    "name": "DOG ACTIVITY-Flip & Fun հյուրասիրություն և խաղ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Level 2, cones + adjustable parts, rubber base, 23 cm; photo is the round Dog Activity Flip Board (32026, ø23 cm). Note: nemo's listing with hafo's exact title 'Խաղալիք շների DOG ACTIVITY հյուրասիրություն և խաղ' (5200) shows a bone-shaped board, 32x18 cm - a different item, rejected."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 394,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no Flip Board XXL."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched Flip/Board/XXL/DOG ACTIVITY/32053 + nemo Trixie list. Nemo has Flip & Fun 23 cm (5250), Rod Board 35x19.5, Poker Box 2, Push Away, Ball & Treat, tower - no Flip Board XXL 28 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 395,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no MOT-Fun (searched MOT, Fun, каучук). Only Denta Fun treats."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/mot-fun-խաղալիք-շների-համար",
+    "price": 3200,
+    "old_price": null,
+    "name": "MOT - Fun խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "Page: natural rubber, motivation toy with round handle, 'Չափս՝ 9 սմ' - Trixie MOT-Fun 9 cm (3236). Colour not stated (hafo: yellow). Manufacturer field empty."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 396,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no rainbow balls 3.5 cm set (мяч/радуж/rainbow)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գունավոր-գնդակներ-կատուների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Գունավոր գնդակներ կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 'Չափսը՝ 3,5սմ, Քանակը՝ 4հատ, Ռետին' - 3.5 cm, 4 pcs, rubber, colourful = Trixie 4097. Same title as hafo slug 'gunavor-gndakner-katuneri-hamar'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 397,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no plush mice 9 cm; zoovet only has catnip mouse 7 cm and a 2-pack catnip mouse (no size)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-մորթիով-մկնիկներ",
+    "price": 1600,
+    "old_price": null,
+    "name": "Trixie, մորթիով մկնիկներ",
+    "in_stock": true,
+    "evidence": "Page: Trixie cat toy, plush/fur mice with catnip, 'Չափս՝ 9 սմ' - matches 41115 9 cm; slug mirrors hafo 'trixie-mortiov-mknikner'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 398,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no fabric mice 4.5 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-կտորե-փափուկ-մկներ-կատուների-համար-45-սմ",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie, կտորե փափուկ մկներ կատուների համար 4.5 սմ",
+    "in_stock": true,
+    "evidence": "Page: Trixie fabric soft mice, catnip, colourful, 4.5 cm - matches 41116; slug mirrors hafo slug."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 399,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no straw balls."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-ծղոտե-գնդակներ-կատուների-համար",
+    "price": 1300,
+    "old_price": null,
+    "name": "Trixie, ծղոտե գնդակներ կատուների համար",
+    "in_stock": true,
+    "evidence": "Page: Trixie straw balls for cats, 'Չափս՝ 4*11 սմ' - matches hafo row 41121 (4x11 cm); slug mirrors hafo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 400,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no CityStyle pyramid (CityStyle/пирамид)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixieխաղալիք-կատուների-փափուկ-պիռամիդա-փիրուզագույն-citystyle",
+    "price": 1150,
+    "old_price": null,
+    "name": "Trixie,խաղալիք կատուների՝ փափուկ, պիռամիդա, փիրուզագույն, CityStyle",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; soft pyramid, colour turquoise, 7 cm, CityStyle - all axes match 41130. (Second listing 'CityStyle ... պիրամիդա, 7 սմ' also 1150, no colour.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 401,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no CityStyle dumbbell on a string (гантел/CityStyle). Only glow dumbbell 18 cm for dogs."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixieխաղալիք-կատուների-գանտել-լարի-վրա-citystyle",
+    "price": 1000,
+    "old_price": null,
+    "name": "Trixie,խաղալիք կատուների՝ Գանտել լարի վրա, CityStyle",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; dumbbell on a string, CityStyle, 13 cm - matches 41132."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 402,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no CityStyle dumbbell."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixieխաղալիք-կատուների-գանտելիկ-օղակներով-citystyle-10-սմ",
+    "price": 1150,
+    "old_price": null,
+    "name": "Trixie,խաղալիք կատուների՝ գանտելիկ օղակներով, CityStyle 10 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; dumbbell with rings, felt/wood, CityStyle, 10 cm - matches 41133."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 403,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no CityStyle discs on a string."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/citystyle-խաղալիք-փայտե-օղակներ-պարանի-վրա",
+    "price": 1800,
+    "old_price": null,
+    "name": "CityStyle, խաղալիք՝ փայտե օղակներ պարանի վրա",
+    "in_stock": true,
+    "evidence": "Page: CityStyle cat toy, wooden rings/discs on a rope, 'Չափս՝ 4 x 14 սմ' - matches hafo row 41136 (4*14 cm). (The other CityStyle 4 x 17 cm toy is a different item.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 404,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no rainbow balls on elastic band (мяч/перо/rainbow)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched գնդակ/զանգակ/փետուր/էլաստիկ/80 սմ, hafo title slug (404), nemo Trixie list. Nearest: 'Գնդակներ պարանի վրա' 850 (Trixie, 2 sisal balls 4.5 cm on string with bells) and 'Փետուրներով գնդակ կատուների համար' 3400 (15 cm plush) - different items."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 406,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no set of tubes (трубк/тоннель)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-խաղալիք-կատուների-համար-4-հատ",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, խաղալիք կատուների համար (4 հատ)",
+    "in_stock": true,
+    "evidence": "Same title as hafo listing for 45490 ('Trixie, խաղալիք կատուների համար (4 հատ)'); page: set of 4 tube toys for cats with rattle and catnip. Size (15 cm) not stated on page."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 408,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no chicken on elastic (цыпл/chicken)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հավ-խաղալիք-կատուների-համար",
+    "price": 2450,
+    "old_price": null,
+    "name": "Հավ-խաղալիք կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: chicken-shaped plush hanging on rubber/elastic, with bell, 20 cm - matches 45561; slug mirrors hafo 'hav-xaxaliq-katuneri-hamar'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 410,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no plush gull/bird 13 cm; only 'Игрушка птица для собак, 20 см'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-փափուկ-կտորե-ճայ-կատուների-համար",
+    "price": 1850,
+    "old_price": null,
+    "name": "Trixie, փափուկ կտորե ճայ կատուների համար",
+    "in_stock": true,
+    "evidence": "Page: Trixie soft fabric gull with catnip, 13 cm - matches 45667; slug mirrors hafo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 411,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no dragon (дракон)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-կատուների-վիշապ-20-սմ",
+    "price": 2100,
+    "old_price": null,
+    "name": "Խաղալիք կատուների՝ վիշապ, 20 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; plush dragon with catnip for cats, 20 cm - matches 45755; title identical to hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 412,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no squirrel (белк)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սկյուռ-խաղալիք-կատուների-համար",
+    "price": 2000,
+    "old_price": null,
+    "name": "Սկյուռ խաղալիք կատուների համար",
+    "in_stock": true,
+    "evidence": "Slug mirrors hafo 'skyur-xaxaliq-katuneri-hamar-9sm'; page: cat toy, plush squirrel, 9 cm. Manufacturer field empty (Trixie Be Eco/ball squirrels for dogs are different items)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 413,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no Snack Roll (snack). Only Lick'n'Snack bowl, Snack Cookies etc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-պլաստիկե-snack-roll",
+    "price": 2350,
+    "old_price": null,
+    "name": "Խաղալիք ՝ պլաստիկե, Snack Roll",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; cat activity snack roll, plastic with rubber coating, 6/5*14 cm, grey - matches 4592."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 431,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/lotki-sovki-i-tualety/trixie-tualet-carlo-s-bortom-seryj-dlya-koshek-37-x-15-x-47-sm",
+    "price": 5000,
+    "old_price": null,
+    "name": "Trixie Туалет Carlo с бортом серый для кошек, 37 x 15 x 47 см",
+    "in_stock": true,
+    "evidence": "Photo is Trixie Carlo with rim, dark grey/light grey. Trixie makes Carlo in only two sizes (40111 31x14x43, 40121 39x17x58 per trixie.de); zoovet lists the small one separately (31x14x43, 3700), so this larger Carlo must be 40121 despite the stated 37x15x47 (no 37x15x47 Carlo exists). Stock 1 pc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/carlo-կատուների-զուգարան-մոխրագույն",
+    "price": 4950,
+    "old_price": null,
+    "name": "Carlo կատուների զուգարան (մոխրագույն)",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; title identical to hafo listing for TX 401211 (40121, EAN 4011905401218). Page text says 37 x 15 x 47 but Carlo exists only as 31x14x43 (nemo lists that separately at 3700, 'բաց մոխրագույն') and 38/39x17x58, so this is size 2. Dimension text on both rival pages conflicts with ours."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 432,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list (~350 items) + live searches (Russian/English/Armenian names, size, EAN) show no Classic litter tray; zoovet has only Carlo and Vico trays."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/զուգարան-կատուների-համար-classic-կանաչ",
+    "price": 4650,
+    "old_price": null,
+    "name": "Զուգարան կատուների համար՝ Classic, կանաչ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; Classic litter tray, plastic, green and white, 37*15*47 cm - matches 40181 (mint green/white); title mirrors hafo listing 'Զուգարան կատուների համար՝ Classic, կանաչ'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 434,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'Trixie Дезадорант для кошачьего туалета, 750 г' (3850, out of stock): description says unscented and the photo shows Simple'n'Clean Babypuderduft art. 42406 (baby powder) - not the active-carbon 42404. No other Trixie deodorizer on zoovet."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/simplenclean-հոտազերծիչ-փոշի-լցանյութի-համար-750-գ",
+    "price": 3750,
+    "old_price": null,
+    "name": "Simple’n’Clean, հոտազերծիչ փոշի լցանյութի համար, 750 գ",
+    "in_stock": true,
+    "evidence": "Page: Trixie deodorizing powder for cat litter, 'Պարունակում է ակտիվացրած ածուխ', 750 g - Simple'n'Clean active carbon 42404."
+   },
+   "confidence": "high"
+  }
+ ]
+}

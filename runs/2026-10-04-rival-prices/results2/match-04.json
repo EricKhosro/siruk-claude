@@ -1,0 +1,253 @@
+{
+ "results": [
+  {
+   "variant_id": 1973,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Beaphar list has dog collars only in 65 cm (black/green/orange/violet/red/blue, 2250) and cat 35 cm; no 85 cm large-dog collar. Searched 'beaphar ошейник', 'ошейник 85', 'ошейник крупных', 'Beaphar ошейник 85'. Nearest: Beaphar black dog collar 65 cm (2250)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզկապ տզերի և լվերի դեմ -մեծ չափսերով շների համար (սև)",
+    "url": "https://www.nemo.am/վզկապ-տզերի-և-լվերի-դեմ-մեծ-չափսերով-շների-համար-սև",
+    "price": 2600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Չափսը՝ 85 սմ', for large dogs, black; pack photo 'Beaphar Flea & Tick collar for Dog ... для собак крупных пород, черный 85 см'. 2600 AMD, no out-of-stock label, no old price."
+   }
+  },
+  {
+   "variant_id": 1974,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Витамины Kitty's с таурином и биотином для котят и кошек, 75 шт",
+    "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/dlya-kozhi-i-shersti-1/beaphar-vitaminy-kittys-s-taurinom-i-biotinom-dlya-kotyat-i-koshek-75-sht",
+    "price": 1950,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page: Beaphar Kitty's taurine + biotin, 75 pcs, 1950 AMD, 'Нет в наличии', no options/discount."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Kitty's + Taurine-Biotine» կերային հավելում կատուների համար",
+    "url": "https://www.nemo.am/kittys-taurine-biotine-կերային-հավելում-կատուների-համար-2",
+    "price": 1950,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page: 'Տարողությունը՝ 75հաբ', taurine + biotin; photo = Beaphar Kitty's Taurine Biotin 75 Tablets. 1950 AMD, availability 'Առկա չէ' (out of stock). The -3 listing (9700) is the 750-tablet tub, not ours."
+   }
+  },
+  {
+   "variant_id": 1975,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Витамины Kitty's Cheese для укрепления организма для кошек, 75 шт",
+    "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/dlya-immuniteta-1/beaphar-vitaminy-kittys-cheese-dlya-ukrepleniya-organizma-dlya-koshek-75-sht",
+    "price": 2050,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Beaphar Kitty's Cheese, '75 таблеток', 2050 AMD, 'В наличии · 2 шт', no discount."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Kitty's + Cheese» կերային հավելում կատուների համար",
+    "url": "https://www.nemo.am/kittys-cheese-կերային-հավելում-կատուների-համար-2",
+    "price": 2050,
+    "old_price": 2350,
+    "in_stock": false,
+    "evidence": "nemo page: 'Քանակը 75 հաբ', cheese; photo = Beaphar Kitty's Cheese 75 Tablets. Price 2050 with struck-through old price 2350; availability 'Առկա չէ' (out of stock)."
+   }
+  },
+  {
+   "variant_id": 1976,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Ошейник от блох и клещей черный для собак, 65 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/beaphar-oshejnik-ot-bloh-i-kleschej-chernyj-dlya-sobak-65-sm",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: 'Цвет: Черный, Размер: 65 см', for dogs over 6 months (adult, not the puppy pack); photo 'Flea & Tick collar for Dog, черный 65 см'. 2250 AMD, 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզկապ տզերի և լվերի դեմ (սև)",
+    "url": "https://www.nemo.am/վզկապ-տզերի-և-լվերի-դեմ-սև",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Չափսը՝ 65 սմ', black, dogs over 6 months; photo 'Beaphar Flea & Tick collar for Dog, черный 65 см'. 2250 AMD, no out-of-stock label."
+   }
+  },
+  {
+   "variant_id": 1977,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Ошейник от блох и клещей зеленый для собак, 65 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/beaphar-oshejnik-ot-bloh-i-kleschej-zelenyj-dlya-sobak-65-sm",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page: Beaphar green dog collar 65 cm; photo 'Flea & Tick collar for Dog, зеленый 65 см'. 2250 AMD, 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզկապ տզերի և լվերի դեմ (կանաչ)",
+    "url": "https://www.nemo.am/վզկապ-տզերի-և-լվերի-դեմ-կանաչ",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page: green, 'Չափսը՝ 65սմ', 'Արտադրող՝ Beaphar Հոլանդիա', dogs over 6 months; photo green 65 cm. 2250 AMD, 'Առկա չէ' (out of stock)."
+   }
+  },
+  {
+   "variant_id": 1978,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Ошейник от блох и клещей оранжевый для собак, 65 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/beaphar-oshejnik-ot-bloh-i-kleschej-orangevyj-dlya-sobak-65-sm",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: 'Цвет: Оранжевый, Размер: 65 см', for dogs; photo Beaphar Ungezieferband orange 65 cm (UA-market box, same collar). 2250 AMD, 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզկապ տզերի և լվերի դեմ (նարնջագույն)",
+    "url": "https://www.nemo.am/վզկապ-տզերի-և-լվերի-դեմ-նարնջագույն",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page: orange, 'Չափսը՝ 65 սմ', manufacturer Beaphar, dogs over 6 months; photo orange 65 cm. 2250 AMD, 'Առկա չէ' (out of stock)."
+   }
+  },
+  {
+   "variant_id": 1979,
+   "confidence": "medium",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Beaphar Macadamia Spray (searched 'macadamia', 'макадам', 'Macadamia Spray', 'beaphar спрей', EAN 8711231125586). Nearest: 'Beaphar Шампунь с маслом макадамия и алое для собак, 250 мл' (2950) - a shampoo, not the spray."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Macadamia Spray - Երկարամազ շների մազերի խնամքի համար",
+    "url": "https://www.nemo.am/macadamia-spray-երկարամազ-շների-մազերի-խնամքի-համար",
+    "price": 4500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Beaphar Macadamia Spray for long-haired dogs (photo = Beaphar Macadamia Spray bottle; tag 'beaphar'), same title as hafo's BP 12558 row. Volume is not printed on the page (Beaphar makes this spray only in 150 ml). 4500 AMD, no out-of-stock label."
+   }
+  },
+  {
+   "variant_id": 1980,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Beaphar Ошейник от блох и клещей черный для щенков старше 6 месяцев, 65 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/beaphar-oshejnik-ot-bloh-i-kleschej-chernyj-dlya-schenkov-starshe-6-mesyatsev-65-sm",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: puppy collar, black, 'Размер: 65 см'; photo 'Flea & Tick collar for Puppy, для щенков, черный 65 см'. 2250 AMD, 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Վզկապ տզերի և լվերի դեմ (սև) - ձագերի համար",
+    "url": "https://www.nemo.am/վզկապ-տզերի-և-լվերի-դեմ-սև-ձագերի-համար",
+    "price": 2250,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Չափսը՝ 65 սմ', black, for puppies; photo 'Beaphar Flea & Tick collar for Puppy, черный 65 см'. 2250 AMD, no out-of-stock label."
+   }
+  },
+  {
+   "variant_id": 946,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Cliny list has no dental gel. Nearest: 'CLINY Зубная паста с кальцием для кошек и собак, 75 мл' (3000) - photo reads 'паста зубная кальций+', a different product from the gel (EAN 4607092073507 = 'Cliny зубной гель 75 мл'). Searched 'cliny', 'зубной гель', 'зубной гель cliny'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ատամի գել շների և կատուների համար (75 մլ)",
+    "url": "https://www.nemo.am/ատամի-մածուկ-շների-և-կատուների-համար-75-մլ",
+    "price": 2530,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page: Cliny, 'Պարունակություն՝ 75 մլ'; photo = Cliny 'gel dental, 2in1 silver ions + vitamin B5'. 2530 AMD, 'Առկա չէ' (out of stock)."
+   }
+  },
+  {
+   "variant_id": 947,
+   "confidence": "medium",
+   "zoovet": {
+    "found": true,
+    "name": "Cliny Жидкость для полости рта для кошек и собак, 300 мл",
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/uhod-za-zubami-1/cliny-gidkost-dlya-polosti-rta-dlya-koshek-i-sobak-300-ml",
+    "price": 3450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page title: Cliny oral-care liquid, 300 мл (Артикул ME-00008441); photo = Cliny 'жидкость для полости рта, ионы серебра'. 3450 AMD, 'В наличии · 1 шт'. Caveat: the page description is copy-pasted ('Спрей ... Объем: 100 мл'); the separate 100 ml listing costs 2550, so 3450 fits the 300 ml."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Բերանի խոռոչի հեղուկ շների և կատուների համար (300 մլ)",
+    "url": "https://www.nemo.am/բերանի-խոռոչի-հեղուկ-շների-և-կատուների-համար-300-մլ",
+    "price": 3420,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: oral-care liquid added to drinking water, '300 մլ'; photo = Cliny 'жидкость для полости рта' Ag+. 3420 AMD, no out-of-stock label."
+   }
+  },
+  {
+   "variant_id": 948,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "CLINY Спрей для полости рта для кошек и собак, 100 мл",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/dlya-polosti-rta-1/cliny-sprej-dlya-polosti-rta-dlya-koshek-i-sobak-100-ml",
+    "price": 2350,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Cliny oral spray 'объемом 100 мл'; photo = Cliny 'спрей для полости рта, ионы серебра'. 2350 AMD, 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Բերանի խոռոչի սփրեյ շների և կատուների համար (100 մլ)",
+    "url": "https://www.nemo.am/բերանի-խոռոչի-սփրեյ-շների-և-կատուների-համար-100-մլ",
+    "price": 2330,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Cliny սփրեյ ... 100 մլ'; photo = Cliny oral spray Ag+. 2330 AMD, no out-of-stock label. (The 50 ml listing at 1850 is another size.)"
+   }
+  },
+  {
+   "variant_id": 949,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Cliny Лосьон очищающий для глаз для кошек и собак, 50 мл",
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/uhod-za-ushami-i-glazami-1/cliny-loson-ochischayuschij-dlya-glaz-dlya-koshek-i-sobak-50-ml",
+    "price": 2550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Cliny eye-cleansing lotion, 'Объем (мл) 50', brand Cliny; photo shows the Ag+ silver-ion box. 2550 AMD, 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Cliny» աչքերը մաքրող լոսիոն շների և կատուների համար",
+    "url": "https://www.nemo.am/cliny-աչքերը-մաքրող-լոսիոն-շների-և-կատուների-համար",
+    "price": 2540,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page: Cliny eye lotion, '50 մլ', 'Արտադրող՝ Cliny'; photo = Cliny eye lotion Ag+. 2540 AMD, 'Առկա չէ' (out of stock)."
+   }
+  }
+ ]
+}

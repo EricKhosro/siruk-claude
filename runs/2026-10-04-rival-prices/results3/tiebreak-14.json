@@ -1,0 +1,45 @@
+{
+ "results": [
+  {
+   "variant_id": 505,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/lakomstvo-dlya-sobak-trixie-premio-carpaccio-chicken-stripes-300-g",
+    "price": 4000,
+    "old_price": null,
+    "name": "Trixie Лакомство Carpaccio Chicken Stripes с курицей и рыбой для собак, 300 г",
+    "in_stock": true,
+    "evidence": "zoovet checked against today's saved list; page not reachable. The saved row's image ME000043751.png (fetched via an image proxy because zoovet.am times out) is the Trixie PREMIO 'FISH CHICKEN STRIPES' XXL PACK 300 g packshot ('Mit Hühnchen und Seelachs / with chicken and pollock'), i.e. Trixie 31803 / EAN 4011905318035 (geizhals, trixie.es list 31803 as PREMIO Fish Chicken Stripes XXL 300 g). The word 'Carpaccio' in zoovet's name is a labelling error: Trixie's Carpaccio line is only duck and fish (80 g dog, 20 g cat), and zoovet's real Carpaccio duck and fish 80 g is the neighbouring ME000043741 row. Brand, line (Premio Fish Chicken Stripes), chicken + pollock recipe, 300 g XXL and the packshot all match. Price 4000 = hafo 4000."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ձողիկներ-հավ-և-ձուկ",
+    "price": 4000,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար` ձողիկներ հավ և ձուկ",
+    "in_stock": true,
+    "evidence": "Page opened today. Manufacturer Trixie; 'Premio Fish Chicken', 65% meat + 18% fish, 300 g; the name is hafo's title for 31803Tx, and a nemo search for the article '31803' returns this page. 4000, in stock."
+   },
+   "confidence": "high",
+   "reason": "The matcher rejected zoovet because of the 'Carpaccio' name. The zoovet listing's own image is the 31803 Fish Chicken Stripes XXL 300 g packshot, so it is our item and the verifier is right. Both shops sell it at 4000."
+  },
+  {
+   "variant_id": 513,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet checked against today's saved list; page not reachable. The candidate 'Trixie Игрушка цветной веревочный мяч для собак, 9 см' (1950, out of stock, https://zoovet.am/sobaki/igrushki-1/myachiki/trixie-igrushka-tsvetnoj-verevochnyj-myach-dlya-sobak-9-sm) uses image ME000006201, a bright pink rope knot ball with green/white flecks. That is the style of Trixie 35696 'Rope ball ø 9 cm' (bright flecked rope; trixie.es Rope-Ball-1). Our 32814 is the pastel lilac/mint/grey rope knot ball (hafo's 32814 photo; nemo's photo). Colour/model differ -> not our item. Other zoovet rope balls (with loop 7 cm/20 cm 1600; 8 x 30 cm 2350) are different items. NOTE: our own variant 513 gallery holds this zoovet image as media 7951 (products/trixie/toys/ge-catalog-product-upload-ME000006201.jpg), which shows the wrong ball."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-պարանե-գնդակ",
+    "price": 1150,
+    "old_price": null,
+    "name": "Խաղալիք շների համար՝ պարանե գնդակ",
+    "in_stock": true,
+    "evidence": "A nemo search for our article '32814' returns this page. Its name is exactly hafo's title for 32814Tx, with 'Բամբակ/պոլիեսթեր 9 սմ' (cotton/polyester, 9 cm). Its image (0007657_-_550.jpeg) shows the same pastel lilac/mint/grey rope knot ball as hafo's 32814 photo. The page lists no manufacturer. 1150, in stock. Earlier passes missed it because they searched only by words."
+   },
+   "confidence": "medium",
+   "reason": "Zoovet's 9 cm ball is a different model and colour (pink flecked, 35696-style), so the verifier's zoovet=false stands, though 32814 is the pastel ball and not a plain multicoloured one. Nemo has the exact item at 1150, found by article search and the photo."
+  }
+ ]
+}

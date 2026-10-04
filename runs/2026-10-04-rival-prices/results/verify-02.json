@@ -1,0 +1,496 @@
+[
+ {
+  "variant_id": 1829,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'renal|ренал|ռենալ' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-renal-suhoj-korm-dlya-sobak-s-problemami-pochek-14-kg-5566",
+   "name": "Royal Canin Renal Сухой корм для собак с проблемами почек, 14 кг",
+   "price": 60500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page (re-opened today): option 'Упак (14 кг)' -> 60500 (loose 'На развес, 1 кг' -> 4500); dog dry Renal 14 kg = our bag; stock 'В наличии · 1 шт'"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/renal-14կգ",
+   "name": "Royal Canin Renal 14կգ",
+   "price": 60500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page (re-opened): 'Royal Canin Renal 14կգ' 60500, in stock, manufacturer ROYAL CANIN; short text: dry food for dogs with chronic renal insufficiency"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "Both rivals 60500 = siruk 60500."
+ },
+ {
+  "variant_id": 1963,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'renal|ренал|ռենալ' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-renal-suhoj-korm-dlya-sobak-s-problemami-pochek-14-kg",
+   "name": "Royal Canin Renal Сухой корм для собак с проблемами почек, 14 кг, на развес 1 кг",
+   "price": 4500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet loose listing of the 14 kg Renal dog bag: option 'На развес, 1 кг' -> 4500; stock 'В наличии · 15 шт'"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/renal-1կգ",
+   "name": "Royal Canin Renal (կիլոգրամով)",
+   "price": 4500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page: 'Royal Canin Renal (կիլոգրամով)' 4500, in stock; text: dry food for dogs with chronic renal insufficiency, 'price is for 1 kg'"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "Both rivals 4500/kg = siruk 4500."
+ },
+ {
+  "variant_id": 1831,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'hepatic|гепатик|հեպատիկ' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells RC Hepatic dog dry only as 7 kg: https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-hepatic-suhoj-korm-dlya-sobak-dlya-podderganiya-funktsii-pecheni-12-kg-5567 (slug says 12-kg but page name '... 7 кг', options 'Упак (7 кг)' -> 31000, 'На развес, 1 кг' -> 4500). Searched 'hepatic|гепатик', 'Royal Canin Hepatic': other hits are cat 2 kg, dog loaf 420 g, Monge. 7 kg != 12 kg."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo has RC Hepatic dog dry only as 7 kg (https://www.nemo.am/hepatic-12կգ, slug 12 but page name 'Royal Canin Hepatic 7կգ', 31000) plus loose per kg 4500, cat 2 kg and can 420 g; full RC brand list (216 items) and live search 'Hepatic' show no 12 kg bag."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same (no rival sells the 12 kg bag).",
+  "notes": "Nearest: 7 kg bag at 31000 on both zoovet and nemo."
+ },
+ {
+  "variant_id": 1964,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'hepatic|гепатик|հեպատիկ' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-hepatic-suhoj-korm-dlya-sobak-dlya-podderganiya-funktsii-pecheni-12-kg",
+   "name": "Royal Canin Hepatic Сухой корм для собак для поддержания функции печени, 7 кг, на развес 1 кг",
+   "price": 4500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet sells RC Hepatic dog dry loose: option 'На развес, 1 кг' -> 4500 (poured from their 7 kg bag; ours from the 12 kg bag - same recipe, per-kg comparable; the PM's RC list also prices both bags at 4500/kg); stock 'В наличии · 8 шт'"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/royal-canin-hepatic-կիլոգրամով",
+   "name": "Royal Canin Hepatic (կիլոգրամով)",
+   "price": 4500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page: 'Royal Canin Hepatic (կիլոգրամով)' 4500, in stock; text: special food for dogs with liver disease, 'price is for 1 kg'"
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "Loose 1 kg of RC Hepatic dog: both 4500 = siruk 4500. Rival loose kg comes from a 7 kg bag (ours 12 kg), same food, hence medium."
+ },
+ {
+  "variant_id": 1833,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'gastro|гастро|գաստրո' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-gastro-dog-puppy-suhoj-korm-dlya-schenkov-s-rastrojstvami-pischevareniya-10-kg-5569",
+   "name": "Royal Canin Gastro Dog Puppy Сухой корм для щенков с растройствами пищеварения, 10 кг",
+   "price": 45000,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page: option 'Упак (10 кг)' -> 45000; Gastrointestinal Puppy dog dry 10 kg = our bag; stock 'В наличии · 1 шт'"
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "not found: nemo RC brand list (216 items) has only Gastro Intestinal adult 15 kg (65000) / loose 1 kg (4500), dog can 400 g and cat Gastro; live searches 'Gastro Puppy' (0 hits), 'Gastrointestinal Puppy' (Monge only), 'Gastro Dog' (Josera only)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "zoovet 45000 = siruk 45000."
+ },
+ {
+  "variant_id": 1965,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'gastro|гастро|գաստրո' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-gastro-dog-puppy-suhoj-korm-dlya-schenkov-s-rastrojstvami-pischevareniya-10-kg",
+   "name": "Royal Canin Gastro Dog Puppy Сухой корм для щенков с растройствами пищеварения, 10 кг, на развес 1 кг",
+   "price": 4700,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet loose listing of the 10 kg Gastro Dog Puppy bag: option 'На развес, 1 кг' -> 4700; stock 'В наличии · 10 шт'"
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "not found: no RC Gastrointestinal Puppy (bag or loose) on nemo - brand list and live searches 'Gastro Puppy', 'Gastrointestinal Puppy', 'Gastro Dog' show only RC adult Gastro Intestinal loose 4500 and Monge/Josera."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "zoovet 4700/kg = siruk 4700."
+ },
+ {
+  "variant_id": 1836,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'intense beauty / hair skin' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-intense-beauty-gravy-vlagnyj-korm-dlya-vzroslyh-koshek-dlya-podderganiya-krasoty-kogi-i-shersti-85-g",
+   "name": "Royal Canin Hair & Skin Gravy Влажный корм для взрослых кошек для поддержания красоты кожи и шерсти, 85 г",
+   "price": 750,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet single pouch (Intense Beauty = Hair & Skin; description 'кусочки в соусе', adult 12 m+): option '1 шт' -> 750; stock 'Нет в наличии'",
+   "sku": "ME-00001017"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/intense-beauty-gravy-1-հատ-85գ",
+   "name": "Royal Canin Intense Beauty gravy 1 հատ 85գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo single pouch, adult cats: 750, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "Both 750 = siruk 750."
+ },
+ {
+  "variant_id": 1838,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'intense beauty / hair skin' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-intense-beauty-jelly-vlagnyj-korm-dlya-vzroslyh-koshek-dlya-podderganiya-krasoty-kogi-i-shersti-85-g",
+   "name": "Royal Canin Intense Beauty Jelly Влажный корм для взрослых кошек для поддержания красоты кожи и шерсти, 85 г",
+   "price": 750,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet single jelly pouch: option '1 шт' -> 750; to order only (not on shelf); stock 'В наличии: Под заказ (Срок доставки: от 3 дней(я))'",
+   "sku": "ME-00003029"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/intense-beauty-jelly-1-հատ-85գ",
+   "name": "Royal Canin Intense Beauty jelly 1 հատ 85գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo single jelly pouch: 750, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "Both 750 = siruk 750; zoovet is 'под заказ'."
+ },
+ {
+  "variant_id": 1835,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'intense beauty / hair skin' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-intense-beauty-gravy-vlazhnyj-korm-dlya-vzroslyh-koshek-dlya-podderzhaniya-krasoty-kozhi-i-shersti-85-g-upakovka-12-sht",
+   "name": "Royal Canin Intense Beauty Gravy Влажный корм для взрослых кошек для поддержания красоты кожи и шерсти, 85 г (упаковка 12 шт)",
+   "price": 8650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet 12-pack gravy: option 'Упак (12 шт)' -> 8650; stock 'Нет в наличии'",
+   "sku": "ME-00001017AD"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/intense-beauty-gravy-12-հատ-85գ",
+   "name": "Royal Canin Intense Beauty gravy 12 հատ 85գ",
+   "price": 8600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo 12 x 85 g gravy: 8600, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher (zoovet article is ME-00001017AD, not ME-00001017).",
+  "notes": "nemo 8600 = siruk; zoovet 8650 (+50, out of stock)."
+ },
+ {
+  "variant_id": 1837,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'intense beauty / hair skin' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-intense-beauty-jelly-vlazhnyj-korm-dlya-vzroslyh-koshek-dlya-podderzhaniya-krasoty-kozhi-i-shersti-85-g-upakovka-12-sht",
+   "name": "Royal Canin Intense Beauty Jelly Влажный корм для взрослых кошек для поддержания красоты кожи и шерсти, 85 г (упаковка 12 шт)",
+   "price": 8650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet 12-pack jelly: option 'Упак (12 шт)' -> 8650; to order only; stock 'В наличии: Под заказ (Срок доставки: от 3 дней(я))'",
+   "sku": "ME-00003029AD"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/intense-beauty-jelly-12-հատ-85գ",
+   "name": "Royal Canin Intense Beauty jelly 12 հատ 85գ",
+   "price": 8600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo 12 x 85 g jelly: 8600, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher (zoovet article ME-00003029AD).",
+  "notes": "nemo 8600 = siruk; zoovet 8650 (+50, to order)."
+ },
+ {
+  "variant_id": 1840,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'sensitivity|сенситивити' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensitivity-control-vlagnyj-korm-dlya-vzroslyh-koshek-pri-pischevoj-neperenosimosti-85-g",
+   "name": "Royal Canin Sensitivity Control Влажный корм для взрослых кошек при пищевой непереносимости, 85 г",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet single pouch; photo = RC Veterinary Sensitivity Control Chicken with Rice thin slices in gravy, composition 'курица (38 %)', 'рис (4 %)'; option '1 шт' -> 750; stock 'В наличии · 9 шт'",
+   "sku": "ME-00007520"
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "not found: nemo RC brand list (216 items) has no Sensitivity Control; raw nemo search 'Sensitivity' and 'Sensitivity Control' return 0 products; nearest are Sensory Feel/Smell/Taste and Digest Sensitive pouches (different lines)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "zoovet 750 = siruk 750."
+ },
+ {
+  "variant_id": 1839,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'sensitivity|сенситивити' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensitivity-control-vlazhnyj-korm-dlya-vzroslyh-koshek-pri-pishchevoj-neperenosimosti-85-g-upakovka-12-sht",
+   "name": "Royal Canin Sensitivity Control Влажный корм для взрослых кошек при пищевой непереносимости, 85 г (упаковка 12 шт)",
+   "price": 8650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet 12-pack of the same chicken-with-rice pouch: option 'Упак (12 шт)' -> 8650; stock 'Нет в наличии'",
+   "sku": "ME-00007520AD"
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "not found: no Sensitivity Control on nemo (brand list; searches 'Sensitivity', 'Sensitivity Control' return 0)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher (zoovet article ME-00007520AD).",
+  "notes": "zoovet 8650 vs siruk 8600 (+50, out of stock)."
+ },
+ {
+  "variant_id": 1842,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'digest|диджест' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-digest-sensitive-gravy-vlagnyj-korm-dlya-vzroslyh-koshek-s-chuvstvitelnym-pischevareniem-85-g",
+   "name": "Royal Canin Digestive Влажный диетический корм с курицей и рисом для взрослых кошек, 85 г",
+   "price": 750,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet single pouch: slug 'digest-sensitive-gravy', photo = RC Care Digestive 'Thin slices in gravy' 85 g, article in the FCN gravy series (ME-00001017 Intense Beauty gravy, ME-00001019 Instinctive gravy); option '1 шт' -> 750. Caveat: description text copied from Sensitivity Control (zoovet lists that separately as ME-00007520); stock 'Нет в наличии'",
+   "sku": "ME-00001018"
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nearest candidate 'Royal Canin Digest Sensitive pouch 1 հատ 85գ' (https://www.nemo.am/digest-sensitive-pouch-1-հատ-85գ, 750, in stock): name has no texture and its only photo shows the RC Care Digestive LOAF/mousse pouch + box, not thin slices in gravy (the PM's RC list has a separate 'Digestive Care all sizes 12*85g' row) - texture unconfirmed, not counted. Price would equal siruk anyway."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "zoovet 750 = siruk 750; zoovet title/description muddled, hence medium."
+ },
+ {
+  "variant_id": 1841,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'digest|диджест' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-digestive-vlazhnyj-dieticheskij-korm-s-kuricej-i-risom-dlya-vzroslyh-koshek-85-g-upakovka-12-sht",
+   "name": "Royal Canin Digestive Влажный диетический корм с курицей и рисом для взрослых кошек, 85 г (упаковка 12 шт)",
+   "price": 8650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet 12-pack of the same Digestive gravy listing (same gravy photo): option 'Упак (12 шт)' -> 8650; same description caveat; stock 'Нет в наличии'",
+   "sku": "ME-00001018AD"
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nearest candidate 'Royal Canin Digest Sensitive pouch 12 հատ 85գ' (https://www.nemo.am/digest-sensitive-pouch-12-հատ-85գ, 8600, in stock): no texture in name, only photo shows the Digestive LOAF pouch/box - texture unconfirmed, not counted (8600 = siruk anyway)."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "zoovet 8650 vs siruk 8600 (+50, out of stock)."
+ },
+ {
+  "variant_id": 1844,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'instinctive|инстинктив' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-gravy-vlagnyj-korm-dlya-vzroslyh-koshek-85-g",
+   "name": "Royal Canin Instinctive Gravy Влажный корм для взрослых кошек, 85 г",
+   "price": 750,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet single adult (1-7 y) Instinctive gravy pouch: option '1 шт' -> 750; stock 'Нет в наличии'",
+   "sku": "ME-00001019"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/instinctive-gravy-1-հատ-85գ",
+   "name": "Royal Canin Instinctive gravy 1 հատ 85գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo single adult Instinctive gravy (cats over 1 year): 750, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "Both 750 = siruk 750."
+ },
+ {
+  "variant_id": 1846,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'instinctive|инстинктив' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-jelly-vlagnyj-korm-gele-dlya-koshek-85-g",
+   "name": "Royal Canin Instinctive Jelly Влажный корм (желе) для кошек, 85 г",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet single adult (1 y+) Instinctive jelly pouch: option '1 шт' -> 750; stock 'В наличии · > 20 шт'",
+   "sku": "ME-00002876"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/insinctive-jelly-1-հատ-85գ",
+   "name": "Royal Canin Instinctive jelly 1 հատ 85գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo single adult Instinctive jelly: 750, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher.",
+  "notes": "Both 750 = siruk 750."
+ },
+ {
+  "variant_id": 1843,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'instinctive|инстинктив' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-gravy-vlazhnyj-korm-dlya-vzroslyh-koshek-85-g-upakovka-12-sht",
+   "name": "Royal Canin Instinctive Gravy Влажный корм для взрослых кошек, 85 г (упаковка 12 шт)",
+   "price": 8650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "zoovet 12-pack adult Instinctive gravy: option 'Упак (12 шт)' -> 8650; stock 'Нет в наличии'",
+   "sku": "ME-00001019AD"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/instinctive-gravy-12-հատ-85գ",
+   "name": "Royal Canin Instinctive gravy 12 հատ 85գ",
+   "price": 8600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo 12 x 85 g adult Instinctive gravy: 8600, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher (zoovet article ME-00001019AD).",
+  "notes": "nemo 8600 = siruk; zoovet 8650 (+50, out of stock)."
+ },
+ {
+  "variant_id": 1845,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo.am carries no Royal Canin: local dump search 'royal|canin|ռոյալ|роял|կանին|канин' hits only Trixie 'royal blue' leads and Zoocard; hafo-live 'royal canin' / 'Ռոյալ Կանին' empty; hafo-sku on this EAN and RC prefixes 318255 / 900357 empty; 'instinctive|инстинктив' only hits Monge VetSolution or unrelated rows."
+  },
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-jelly-vlazhnyj-korm-zhele-dlya-koshek-85-g-upakovka-12-sht",
+   "name": "Royal Canin Instinctive Jelly Влажный корм (желе) для кошек, 85 г (упаковка 12 шт)",
+   "price": 8650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet 12-pack adult Instinctive jelly: option 'Упак (12 шт)' -> 8650; stock 'В наличии · 2 шт'",
+   "sku": "ME-00002876AD"
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/insinctive-jelly-12-հատ-85գ",
+   "name": "Royal Canin Instinctive jelly 12 հատ 85գ",
+   "price": 8600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo 12 x 85 g adult Instinctive jelly: 8600, in stock"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops and prices as matcher (zoovet article ME-00002876AD).",
+  "notes": "nemo 8600 = siruk; zoovet 8650 (+50, in stock)."
+ }
+]

@@ -1,0 +1,536 @@
+{
+ "results": [
+  {
+   "variant_id": 1563,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys; nearest Trixie cat ball is 'мяч мататаби 4 см' (different item)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակների-և-թմբուկների-տեսականի-կատուների-համար",
+    "price": 300,
+    "old_price": null,
+    "name": "Գնդակների և թմբուկների տեսականի կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Չափսը՝ 4,5սմ, պլաստիկից, զանգակով, տարբեր գույների' = Ball and Roll assortment ø4.5 cm with bell; same name/slug as hafo's listing; price 300 confirmed on page."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-read: Trixie, 4.5 cm plastic ball/roll assortment with bell, 300, in stock. zoovet Trixie list has no such cat ball (nearest: matatabi ball 4 cm, 1200). [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1569,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys; no rattling-ball set found."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-կատուների-համար-2",
+    "price": 1050,
+    "old_price": null,
+    "name": "Գնդակ կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Չափսը՝ 4,5սմ, զնգզնգան, պլաստիկ'; product photo shows the 4 translucent rattling balls (Trixie 4166 set). Text does not state '4 pcs'; a second listing (գնդակ-կատուների-համար-3, also 1050, single-ball photo) exists at the same price."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo -2 page: Trixie, 4.5 cm rattling plastic ball, 1050, in stock; its photo shows the 4-ball 4166 set (viewed). Sibling -3 (single-ball photo) also 1050, so the price holds either way. Not 'Գնդակներ կատուների համար' (4 cm x4 with bells, 1100) or the 3.5 cm rubber x4 (1550). zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1570,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys; zoovet Trixie mice: 'Мышь с кошачьей мятой (2 шт)', 'мышка с кошачьей мятой 7 см' - different items."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-մուկ-կատուների-համար",
+    "price": 1150,
+    "old_price": null,
+    "name": "Խաղալիք-մուկ կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Չափսը՝ 10սմ: Սիզալային մուկ խաղալիք կատուների համար' = sisal mouse 10 cm; price 1150 on page. Not the hint 'մկնիկ կտորից, XXL' (30 cm, 4550)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo page: Trixie sisal mouse 10 cm with bells, 1150, in stock. zoovet Trixie mice are catnip mice (2 pcs 1150; 7 cm 1000), not sisal 10 cm. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1571,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys; 'catch', 'трек|дорожка|башня' no hits."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/catch-the-balls-խաղալիք-կատուների-համար",
+    "price": 5950,
+    "old_price": 6500,
+    "name": "«Catch the Balls» խաղալիք կատուների համար",
+    "in_stock": true,
+    "evidence": "'Catch the Balls', size 25/13 cm, plastic, balls on levels = Trixie 41345; page shows 'հին գինը 6500֏ Գինը 5950֏'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: 'Catch the Balls' 25/13 cm; raw HTML shows 'հին գինը 6500֏ Գինը 5950֏' (helper misses old price) - price 5950, old 6500 confirmed. zoovet: no Catch the Balls. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1783,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-կերային-հավելում-թութակների-համար-40-գ",
+    "price": 1100,
+    "old_price": null,
+    "name": "Trixie, կերային հավելում թութակների համար, 40 գ",
+    "in_stock": true,
+    "evidence": "Trixie pecking stone (կտցաքար) for parrots, contains calcium, with cage hanger, 40 g - same wording as hafo row; manufacturer field wrongly says Happy Jungle but name/description say Trixie."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: 'Trixie ... կտցաքար, calcium, cage hanger, 40 գ', 1100, in stock (manufacturer field says Happy Jungle; name says Trixie). zoovet: no Trixie bird supplements. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1784,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched յոդ, յոդով, կտցաքար, 'կերային հավելում թութակների', 90գ, թռչունների համար, iodine. Only 'Միներալային քար կրծողների համար՝ յոդով, 40գ' (350, rodents, 40 g - different item) and the Trixie 40 g calcium stone."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-searched nemo: յոդ, կտցաքար, 'Trixie, կերային', 'կերային հավելում թռչուն', '90 գ', միներալային քար, 51051 - only a 40 g rodent iodine stone (350, БОСПА ЭКО), Happy Jungle bird supplements (140 g/100 g) and Trixie 40 g/30 g/200 g stones. Not carried. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1785,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-կերային-հավելում-թռչունների-համար-ծովախեցգետնով-30-գ",
+    "price": 600,
+    "old_price": null,
+    "name": "Trixie, կերային հավելում թռչունների համար՝ ծովախեցգետնով, 30 գ",
+    "in_stock": true,
+    "evidence": "Trixie bird pecking stone with seashells and minerals, 30 g. Not the 200 g sibling (1150)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Trixie bird stone with seashells and minerals, 30 g, 600, in stock; 200 g sibling is 1150 (out of stock). zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1786,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-քարե-աղ-կրծողների-համար",
+    "price": 750,
+    "old_price": null,
+    "name": "Քարե աղ կրծողների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Քաշը՝ 54 գր / 2 հատ, ամրակով, մկների և համստերների համար' = salt lick 2 × 54 g. Not the 84 g sibling (600)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Trixie, '54 գր / 2 հատ', with holder, 750, in stock. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1787,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կերային-հավելում-կրծողների-համար-բրեկետ-գազարով-2",
+    "price": 1850,
+    "old_price": null,
+    "name": "Կերային հավելում կրծողների համար` բրեկետ, գազարով",
+    "in_stock": true,
+    "evidence": "Natural clay stone with carrot, 100 g; photo is Trixie's clay stone with carrot pieces and raffia hanger. Manufacturer field empty. An older duplicate listing (...-բրեկետ-գազարով, 1950) shows 'Առկա չէ / no longer available'."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo -2 page: clay brick with carrot, 100 g, 1850, in stock; photo (viewed) is Trixie's clay stone with carrot pieces and raffia loop. Older listing (1950) is 'Առկա չէ'. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1788,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գլանակ-ճակնդեղով-և-մաղադանոսով",
+    "price": 3350,
+    "old_price": null,
+    "name": "Գլանակ, ճակնդեղով և մաղադանոսով",
+    "in_stock": true,
+    "evidence": "Rodent hay roll with beetroot and parsley/parsnip, hemp-tied, grain-free, 200 g, 10×18 cm - matches hafo row exactly; manufacturer field empty."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: hay roll with beetroot and parsley, hemp-tied, grain-free, 200 g, 10*18 cm, 3350, in stock. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 2041,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searched: 'trixie мяч|шарик', 'trixie мышь', 'trixie сизаль', 'trixie погремушк|колокольч', 'trixie грызун|птиц|попуга', 'минерал', 'сепия', 'соль|лизунец', 'ракушк', 'сено', article/EAN; zoovet carries no Trixie bird/rodent supplements or these cat toys; zoovet has no Trixie soft cat ball 4.3 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փափուկ-գնդակներ",
+    "price": 500,
+    "old_price": null,
+    "name": "Փափուկ գնդակներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; 'Չափսը՝ 4,3սմ, ռետին, տարբեր գույներ, վաճառվում է հատով' = soft rubber ball 4.3 cm sold singly, matches hafo row."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Trixie soft rubber ball 4.3 cm sold singly, 500, in stock. Not 'ռետինե գնդակ' (4.3 cm x4, 1950). zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1611,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: 'versele', 'senegal|сенегал', 'наполнитель', 'бентонит', EAN - zoovet carries no Versele-Laga litter."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'սենեգալյան', 'EXTREME COMPACT', 'Ավազ կատուների', '12լ', '23074'. Only the 30 L / 18 kg bag (14300) - different size."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo: only the EXTREME COMPACT 30 L / 18 kg (14300, JUANIT) - other size; '12լ', 23074 nothing. zoovet VL list has no litter. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1612,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: 'silica', 'силикагел' - only Trixie and CAT STEP silica litters, no Versele-Laga."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'silica', 'սիլիկոնե', 'SILICA 5', '23080', 'լցանյութ' - only Simple-n-Clean and CAT STEP silica litters."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo: silica searches only CAT STEP / Simple'n'Clean / generic silica gel; no VL SILICA 5 L. zoovet VL list has no litter. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1761,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: only 'Versele Laga Prestige Корм для канареек, 1 кг' (3000) - standard Prestige, not Prestige Premium 800 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-prestige-premium-դեղձանիկների-համար",
+    "price": 4050,
+    "old_price": null,
+    "name": "Վիտամինացված կեր՝ Prestige Premium, դեղձանիկների համար",
+    "in_stock": true,
+    "evidence": "Prestige Premium canaries; description ends '800 գ'; same name as hafo row."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Prestige Premium canaries, 4050, in stock; text has no weight but name matches hafo row (800 g). zoovet only standard Prestige canaries 1 kg (3000) - other line/size. nemo 'Կեր երգող դեղձանիկների համար՝ PRESTIGE' (3000) is standard Prestige, not Premium. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1762,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-volnistyh-popugaev-1-kg",
+    "price": 2100,
+    "old_price": null,
+    "name": "Versele Laga Prestige Корм для волнистых попугаев, 1 кг",
+    "in_stock": true,
+    "evidence": "Prestige (standard) budgies 1 kg, no options; 'В наличии · 2 шт'. [verify: live page unreachable today; price/stock confirmed from today's zoovet brand-list snapshot]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-ալիքավոր-թութակների-համար-prestige-1-կգ",
+    "price": 2100,
+    "old_price": null,
+    "name": "Կեր ալիքավոր թութակների համար՝ PRESTIGE, 1 կգ",
+    "in_stock": false,
+    "evidence": "Prestige budgies 1 kg, same name as hafo row; page shows 'Առկա չէ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Prestige budgies 1 kg, 2100, 'Առկա չէ' confirmed. zoovet snapshot row: 'Versele Laga Prestige Корм для волнистых попугаев, 1 кг' 2100, in stock. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1763,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: only standard 'Prestige Корм для волнистых попугаев, 1 кг' - not Prestige Premium 800 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-prestige-premium-ալիքավոր-թութակների-համար",
+    "price": 3450,
+    "old_price": null,
+    "name": "Վիտամինացված կեր՝ Prestige Premium, ալիքավոր թութակների համար",
+    "in_stock": false,
+    "evidence": "Prestige Premium budgies; description ends '800 գ'; page shows 'Առկա չէ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Prestige Premium budgies, 3450, 'Առկա չէ' confirmed. zoovet: standard Prestige 1 kg only. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1764,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Prestige Premium Exotic Nuts; only standard Prestige 1 kg lines."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-prestige-premium-խոշոր-թութակների-համար-էկզոտիկ-ընդեղենով",
+    "price": 5250,
+    "old_price": null,
+    "name": "Վիտամինացված կեր՝ Prestige Premium, խոշոր թութակների համար, էկզոտիկ ընդեղենով",
+    "in_stock": false,
+    "evidence": "Prestige Premium Exotic Nuts (20% nuts, Loro Parque), description states '750 գ'; 'Առկա չէ'. Not the 15 kg listing (58750)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Prestige Premium Exotic Nuts, '750 գ', 5250, 'Առկա չէ' confirmed. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1765,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-krupnyh-popugaev-1-kg",
+    "price": 3300,
+    "old_price": null,
+    "name": "Versele Laga Prestige Корм для крупных попугаев, 1 кг",
+    "in_stock": true,
+    "evidence": "Description: 'VERSELE-LAGA корм для крупных попугаев Parrots... большое количество зерен' = Prestige Parrots 1 kg; 'В наличии · 1 шт'. [verify: live page unreachable today; price/stock confirmed from today's zoovet brand-list snapshot]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-խոշոր-թութակների-համար-prestige-parrots-1կգ",
+    "price": 3300,
+    "old_price": null,
+    "name": "Կեր խոշոր թութակների համար՝ PRESTIGE PARROTS 1կգ",
+    "in_stock": true,
+    "evidence": "Prestige Parrots, 'Քաշը՝ 1կգ, դասական խառնուրդ՝ շատ հացահատիկներով' - matches hafo row."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: PRESTIGE PARROTS 1 kg, 3300, in stock. zoovet snapshot row: 'Prestige Корм для крупных попугаев, 1 кг' 3300, in stock. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1766,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: 'loro|african|африкан' no hits; no Prestige Premium Loro Parque."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-prestige-african-parrot-mix-խոշոր-թութակների-համար",
+    "price": 4900,
+    "old_price": null,
+    "name": "Վիտամինացված կեր՝ Prestige African Parrot Mix, խոշոր թութակների համար",
+    "in_stock": true,
+    "evidence": "Loro Parque African Parrot Mix, description '1կգ'; not the bulk 'AFRICAN MIX, PRESTIGE PREMIUM' (42150)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Prestige African Parrot Mix (Loro Parque), 4900, in stock. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1767,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: 'loro|african|африкан' no hits."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-prestige-african-mix-անբաժան-թութակների-համար-սերմերով",
+    "price": 4300,
+    "old_price": null,
+    "name": "Վիտամինացված կեր՝ Prestige African Mix, անբաժան թութակների համար, սերմերով",
+    "in_stock": true,
+    "evidence": "Loro Parque African Parakeet (lovebird) Mix, description '1 կգ'; not the bulk listing (40900)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Prestige African Mix for lovebirds, '1 կգ', 4300, in stock. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1768,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: 'nature', 'кроликов' - only Complete Cuni / Crispy rabbit lines, no Nature Cuni Junior."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-ճագարի-համար-nature-cuni-junior-բանջարեղենային",
+    "price": 3200,
+    "old_price": null,
+    "name": "Վիտամինացված կեր ճագարի համար՝ Nature CUNI JUNIOR, բանջարեղենային",
+    "in_stock": false,
+    "evidence": "Nature Cuni Junior, 'Քաշը՝ 700գ', grain-free; 'Առկա չէ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Nature Cuni Junior, 700 g, 3200, 'Առկա չէ' confirmed. zoovet has only COMPLETE Cuni Junior 500 g (other line). [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1769,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: 'nature', 'морских' - only Complete Cavia 500 g and Crispy guinea pig 400 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-ծովախոզուկի-համար-nature-բանջարեղենային",
+    "price": 3000,
+    "old_price": null,
+    "name": "Վիտամինացված կեր ծովախոզուկի համար՝ Nature, բանջարեղենային",
+    "in_stock": true,
+    "evidence": "Nature Cavia, grain-free with vitamin C, 'Քաշը՝ 700գ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Nature guinea pig, 700 g, 3000, in stock. zoovet: Complete Cavia / Crispy only. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1770,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Versele-Laga Nature rabbit food."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'Nature, ճագարների', 'Վիտամինացված կեր ճագար', 'cuni'. Only Nature Cuni Junior 700 g (3200) and Nature Original Cuni 750 g (3000) - different lines; adult Nature Cuni not listed."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-searched nemo (Nature, ճագարի, ճագարների, cuni, 'Վիտամինացված կեր ճագար', 61448): only Nature Cuni Junior 700 g, Nature Original Cuni 750 g, Nature Original junior rabbit (3200), Complete Cuni Adult, and 'Nature, կրծողների համար' 500 g (a snack mix, 2550). Adult Nature Cuni 700 g not carried. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1771,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Nature Original rabbit food."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-ճագարի-համար-nature-original-բանջարեղեն-և-մրգեր",
+    "price": 3000,
+    "old_price": null,
+    "name": "Վիտամինացված կեր ճագարի համար՝ Nature Original, բանջարեղեն և մրգեր",
+    "in_stock": true,
+    "evidence": "Nature Original Cuni (adult rabbit), description '750գ'. Not the junior sibling (3200)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Nature Original rabbit (adult - 'հասուն ճագարների'), 3000, in stock; separate junior listing is 3200. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1772,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Nature Original guinea pig food."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վիտամինացված-կեր-ծովախոզուկի-համար-nature-original-բանջարեղեն-և-մրգեր",
+    "price": 3000,
+    "old_price": null,
+    "name": "Վիտամինացված կեր ծովախոզուկի համար՝ Nature Original, բանջարեղեն և մրգեր",
+    "in_stock": false,
+    "evidence": "Nature Original Cavia, description '750գ'; 'Առկա չէ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Nature Original guinea pig (adult), 3000, 'Առկա չէ' confirmed. zoovet: none. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1773,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-crispy-korm-dlya-morskih-svinok-400-g",
+    "price": 1050,
+    "old_price": null,
+    "name": "Versele Laga CRISPY Корм для морских свинок, 400 г",
+    "in_stock": false,
+    "evidence": "Description 'CRISPY MUESLI GUINEA PIGS', 400 g; stock 'Под заказ (Срок доставки: от 2 дней)'. [verify: live page unreachable today; price/stock confirmed from today's zoovet brand-list snapshot]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-ծովախոզուկների-համար-crispy",
+    "price": 1050,
+    "old_price": null,
+    "name": "Կեր ծովախոզուկների համար CRISPY",
+    "in_stock": true,
+    "evidence": "Crispy guinea pigs, 'Քաշը՝ 400գ', with vitamin C. Not the 1 kg (1900) or bulk (29850) listings."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Crispy guinea pigs 400 g, 1050, in stock. zoovet snapshot row: CRISPY guinea pigs 400 g 1050, in_stock false. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1774,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Crispy only as guinea pig 400 g (1050) and rabbit 1 kg (1900) - no guinea-pig 1 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-ծովախոզուկների-համար-crispy-2",
+    "price": 1900,
+    "old_price": null,
+    "name": "Կեր ծովախոզուկների համար CRISPY",
+    "in_stock": true,
+    "evidence": "Crispy guinea pigs, 'Քաշը՝ 1կգ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo -2 page: Crispy guinea pigs 1 kg, 1900, in stock. zoovet Crispy 1 kg is the rabbit food only. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  },
+  {
+   "variant_id": 1775,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-crispy-korm-dlya-homyakov-krys-myshej-400-g",
+    "price": 1150,
+    "old_price": null,
+    "name": "Versele Laga CRISPY Корм для хомяков, крыс, мышей, 400 г",
+    "in_stock": true,
+    "evidence": "Crispy Muesli Hamsters & Co 400 g; 'В наличии · 2 шт'. [verify: live page unreachable today; price/stock confirmed from today's zoovet brand-list snapshot]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-համսթերների-համար-crispy",
+    "price": 1150,
+    "old_price": null,
+    "name": "Կեր համսթերների համար CRISPY",
+    "in_stock": true,
+    "evidence": "Crispy hamsters/rats/gerbils/mice, 'Քաշը՝ 400գ'. Not the 1 kg (2400) listing."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Crispy hamsters/rats/gerbils/mice 400 g, 1150, in stock. zoovet snapshot row: CRISPY hamsters 400 g 1150, in stock. [verify: zoovet.am refused/timed out all connections during verification (curl, urllib, WebFetch); checked against today's zoovet brand-list snapshot in shops.json (Trixie 354 rows, Versele-Laga 27 rows) - no other brand row names Trixie/Versele.]"
+  }
+ ]
+}

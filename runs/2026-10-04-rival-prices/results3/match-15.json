@@ -1,0 +1,402 @@
+{
+ "results": [
+  {
+   "variant_id": 521,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie football ball; only Triol 'Мяч футбольный' d65 мм (other brand)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ֆուտբոլի-գնդակ-շների-համար-2",
+    "price": 900,
+    "old_price": null,
+    "name": "Ֆուտբոլի գնդակ շների համար",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, vinyl football with squeaker, 6 cm; title = hafo 3435Tx title. Other listing of same name (2250) is latex 11 cm, not ours."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 522,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie hippo; only Triol/Gigwi hippos."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-խաղալիք-գետաձի-շների-համար-50-սմ",
+    "price": 7400,
+    "old_price": null,
+    "name": "Trixie, խաղալիք գետաձի շների համար, 50 սմ",
+    "in_stock": true,
+    "evidence": "Page: Trixie hippo, rope inside, polyester/cotton, 50 cm - matches 34722 Hippo with inner rope 50 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 523,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie leopard plush ball."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-փափուկ-գնդակներ-շների-համար",
+    "price": 4500,
+    "old_price": null,
+    "name": "Trixie, փափուկ գնդակներ շների համար",
+    "in_stock": true,
+    "evidence": "Page: Trixie, ball in animal look, polyester plush, 13 cm; title = hafo 34741Tx title. (nemo 'Գնդակներ լեոպարդի նախշերով' is a 4 cm 4-pack cat ball, not ours.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 524,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie natural-rubber 9 cm ball."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: paginated site-search crawl for լատեքս/լատեկս/նապաստակ/ճագար/շերեփ/սավոկ/Eco/կենդանիներ/խաղալիք/Trixie/գնդակ/ֆուտբոլ (1398 listings) + hafo-title searches; nearest: 'Բնական կաուչուկից Գնդակ' 1650 AMD (https://www.nemo.am/բնական-կաուչուկից-գնդակ) - page says 6 cm (= hafo TX 348411, the 6 cm sibling), not our 9 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 525,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/igrushki-1/myachiki/trixie-igrushka-be-eco-plastikovyj-myach-na-verevke-6-x-13-sm",
+    "price": 6100,
+    "old_price": null,
+    "name": "Trixie Игрушка Be Eco, пластиковый мяч на веревке, 6 x 13 см",
+    "in_stock": true,
+    "evidence": "Page name: Trixie Be Eco plastic ball on rope 6 x 13 cm; no options; 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-be-eco-պլաստիկե-գնդակ-պարանով",
+    "price": 5300,
+    "old_price": null,
+    "name": "Խաղալիք՝ Be Eco, պլաստիկե գնդակ պարանով",
+    "in_stock": true,
+    "evidence": "Page: Be Eco recycled-TPE ball on rope, 6*13 cm, made in Germany; title = hafo 34870Tx title."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 526,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/igrushki-1/myachiki/trixie-igrushka-be-eco-plastikovyj-poprygunchik-9-x-16-sm",
+    "price": 5700,
+    "old_price": null,
+    "name": "Trixie Игрушка Be Eco, пластиковый попрыгунчик, 9 x 16 см",
+    "in_stock": true,
+    "evidence": "Page name: Trixie Be Eco plastic jumper 9 x 16 cm; no options; 'В наличии · 2 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-be-eco-պլաստիկե-թռչկոտող-գնդակ",
+    "price": 5300,
+    "old_price": null,
+    "name": "Խաղալիք՝ Be Eco, պլաստիկե թռչկոտող գնդակ",
+    "in_stock": true,
+    "evidence": "Page: Be Eco recycled-TPE jumper ball 9*16 cm; title = hafo 34871Tx title."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 527,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie latex/fleece animal 18 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-բադիկ-2",
+    "price": 2100,
+    "old_price": null,
+    "name": "Խաղալիք շների համար (բադիկ)",
+    "in_stock": true,
+    "evidence": "Page: latex duck-shaped toy with sound, polyester core; title and price identical to hafo TX 350311 'Խաղալիք շների համար (բադիկ)' (row: latex animals 18 cm). Page gives no size. Other '(բադիկ)' listing (1500) is 11 cm - not ours."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1294,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie latex animal 30-32 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համարլատեքսից-2",
+    "price": 3550,
+    "old_price": null,
+    "name": "Խաղալիք շների համար(լատեքսից)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, latex with sound, polyester core, 30-32 cm; title = hafo TX 350611 title. A second nemo listing 'Խաղալիք շների համար (լատեքսից)' 30-32 cm at 3750 (no manufacturer) also exists - likely a duplicate listing."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 528,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie animal balls 6 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-կենդանիների-տեսքով",
+    "price": 1350,
+    "old_price": null,
+    "name": "Կենդանանման գնդակներ",
+    "in_stock": true,
+    "evidence": "Page: 6 cm, latex, with sound; title = hafo 35041Tx title 'Կենդանանման գնդակներ' (rubber animal balls 6 cm), same price. 'Կենդանանման խաղալիքներ' 2200 is a different 6 cm item."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 529,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; only Trixie cat catnip mice; no latex dog mouse 22 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շան-համար-խաղալիք-մկան-տեսքով",
+    "price": 2650,
+    "old_price": null,
+    "name": "Շան համար խաղալիք մկան տեսքով",
+    "in_stock": true,
+    "evidence": "Page: latex mouse with sound, tyre-track print, 22 cm; title = hafo 35232Tx title."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 530,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie latex animals 13 cm."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: paginated site-search crawl for լատեքս/լատեկս/նապաստակ/ճագար/շերեփ/սավոկ/Eco/կենդանիներ/խաղալիք/Trixie/գնդակ/ֆուտբոլ (1398 listings) + hafo-title searches; no 'Խաղալիք՝ լատեկսից կենդանիներ' 13 cm listing. Nearest Trixie latex siblings: 'Խաղալիք՝ լատեկսից հրեշիկներ' 10-12 cm 2800, 'Խաղալիք՝ լատեկսից կապիկ' 4200 - different models."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 531,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie latex hippo; only Triol 'Бегемот хрюкающий' 230 мм."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-լատեկսից-գետաձի",
+    "price": 3100,
+    "old_price": null,
+    "name": "Խաղալիք՝ լատեկսից գետաձի",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Trixie, latex hippo with sound, 15 cm; title = hafo 35510Tx title."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 532,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie latex dino."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-dino-լատեքսից-դինոզավր",
+    "price": 2700,
+    "old_price": null,
+    "name": "Խաղալիք Dino՝ լատեքսից դինոզավր",
+    "in_stock": true,
+    "evidence": "Title and price identical to hafo 35516Tx 'Խաղալիք Dino՝ լատեքսից դինոզավր' (row: latex Dino 14 cm, 2700), BUT the page's short text says 'thermoplastic rubber, various colours, 6 cm', contradicting its own 'latex' title - likely a copy error, size unconfirmed. Separate listing 'Խաղալիք շների՝ դինոզավր, 14 սմ /լատեքս' 3500 is hafo 35199Tx (another model)."
+   },
+   "confidence": "low"
+  },
+  {
+   "variant_id": 533,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; Trixie rope toys on zoovet are a knot rope 32 cm / rope balls - not a plush rope toy 17 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պարանից-խաղալիք-շների-համար",
+    "price": 2650,
+    "old_price": null,
+    "name": "Պարանից խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "Page: 17 cm, plush/fabric, with sound; title/slug = hafo TX 358211 title, same price. A duplicate listing with identical title/text at 2850 AMD exists (https://www.nemo.am/շան-խաղալիք-ռետինե-հավիկի-տեսքով-2, manufacturer Trixie)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 534,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie unicorn (only Triol sweater 'Единорог')."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-փափուկ-միաեղջյուր",
+    "price": 3550,
+    "old_price": null,
+    "name": "Խաղալիք փափուկ՝ միաեղջյուր",
+    "in_stock": true,
+    "evidence": "Page: Trixie, plush unicorn, 28 cm; title = hafo 35856Tx title. The other unicorn (4000) is 25 cm - not ours."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 535,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie long-neck plush animals."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փափուկ-կտորից-կենդանիներ-երկարավիզ",
+    "price": 2350,
+    "old_price": null,
+    "name": "Փափուկ, կտորից կենդանիներ՝ երկարավիզ",
+    "in_stock": true,
+    "evidence": "Page: plush, with sound, 7*35 cm; title = hafo 35872Tx title."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 536,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; nearest: 'Trixie Игрушка мягкая кролик с пищалкой для собак, 28 см' 4350 (out of stock) - 28 cm, not 24 cm."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: paginated site-search crawl for լատեքս/լատեկս/նապաստակ/ճագար/շերեփ/սավոկ/Eco/կենդանիներ/խաղալիք/Trixie/գնդակ/ֆուտբոլ (1398 listings) + hafo-title searches; no 24 cm plush rabbit. Nearest Trixie rabbits: 'Փափուկ խաղալիք-նապաստակ' 15 cm 2950, 'Խաղալիք փափուկ, գործվածքից ճագար' 29 cm 4050, 'կտորից ճագար' 35 cm 4650, 47 cm 8400 - all other sizes."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 537,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie scoop (only Gamma/Triol/Nunbell scoops)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սավոկ-կատվի-լցանյութի-համար-s-2",
+    "price": 650,
+    "old_price": null,
+    "name": "Սավոկ կատվի լցանյութի համար (S)",
+    "in_stock": true,
+    "evidence": "Page: plastic, can be used as feed scoop, S - matches hafo TX 040451 (same title, 'also usable as feed scoop', 650). Other '(S)' listings are mesh type (400 = hafo TX 040481; 690)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1295,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie scoop."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սավոկ-կատվի-լցանյութի-համար-l",
+    "price": 1050,
+    "old_price": null,
+    "name": "Սավոկ կատվի լցանյութի համար (L)",
+    "in_stock": true,
+    "evidence": "Page: plastic, size L, can also be used as feed scoop; title = hafo TX 040461 title, same price."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 539,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie scoop."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շերեփ-կատուների-լցանյութի-համար-l",
+    "price": 1050,
+    "old_price": null,
+    "name": "Շերեփ կատուների լցանյութի համար L",
+    "in_stock": true,
+    "evidence": "Page: plastic, with mesh, for cats; title = hafo 40473Tx title 'Շերեփ  կատուների լցանյութի համար L', same price; distinct from the 'Սավոկ ... (L)' listing (= TX 040461). No manufacturer shown."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1252,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie scoop."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ultra-սավոկ-կատվի-լցանյութի-համար-m-2",
+    "price": 700,
+    "old_price": null,
+    "name": "«Ultra» Սավոկ կատվի լցանյութի համար (M)",
+    "in_stock": true,
+    "evidence": "Page: plastic, mesh, M; title = hafo TX 040501 '«Ultra» Սավոկ կատվի լցանյութի համար (M)', same price."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1253,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie Eco scoop."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: paginated site-search crawl for լատեքս/լատեկս/նապաստակ/ճագար/շերեփ/սավոկ/Eco/կենդանիներ/խաղալիք/Trixie/գնդակ/ֆուտբոլ (1398 listings) + hafo-title searches; no 'Trixie, Eco շերեփ ... ցանցով' listing. Nearest: 'Ցանցավոր սավոկ լցանյութերի համար M' 500 (= hafo TX 40491Trx, a different scoop), '«Ultra» Սավոկ (M)' 700."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 540,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie scoop with stand (only Nunbell scoop with stand)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շերեփ-տարրայով-կատուների-տուալետի-համար-l",
+    "price": 3100,
+    "old_price": null,
+    "name": "Շերեփ՝ տարրայով, կատուների տուալետի համար, L",
+    "in_stock": true,
+    "evidence": "Page: plastic scoop with holder, size L, replaceable scoop; title = hafo 40475Tx title."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 541,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched brand list (354 Trixie rows) + live search: trixie мяч/футбол/латекс/плюш/мягкая/бегемот/единорог/кролик/динозавр/мышь/совок/лопатка, plus brandless совок/лопатка/футбольный/бегемот/единорог/латекс, article/EAN; no Trixie scoop with dirt bags."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շերեփ-կատուների-լցանյութի-համար-աղբի-տոպրակով",
+    "price": 1400,
+    "old_price": null,
+    "name": "Շերեփ կատուների լցանյութի համար` աղբի տոպրակով",
+    "in_stock": true,
+    "evidence": "Page: scoop with waste bag on top (20 bags), plastic, 38 cm; title = hafo 40477Tx title."
+   },
+   "confidence": "high"
+  }
+ ]
+}

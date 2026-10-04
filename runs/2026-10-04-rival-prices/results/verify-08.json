@@ -1,0 +1,363 @@
+[
+ {
+  "variant_id": 1430,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 12767 / 4011905127675 / 127675: no row (only Monge 012767). Name search 'վազել': 1275Tx 'Հավաքածու շան հետ վազելու համար սև/մոխրագույն, ձգափոկ- 1-1.35մ/25 մմ' 10800 (EAN 4011905012759) is the older model with a 1.00-1.35 m lead; TX 127651 red S-M 9200; 12769Tx belt bag 12450; 12766Tx Basic 14800 - none is 12767 (lead 1.20-1.50 m/25 mm)."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'пояс', 'бег', 'trixie поводок', 'waist': no Trixie waist belt with lead."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'Գոտի շան Ձգափոկ (Պովոդոկ)-ի հետ միասին' 10800 - page specs: belt 60-120 cm/40 mm, lead 1.00-1.35 m/25 mm (= Trixie 1275, not ours). 'Գոտի շան Ձգափոկ (Պովոդոկ)-ի հետ' 9200 = small/medium dogs (127651). 'Գոտի պայուսակ վազքի համար' 12450 and 'Ձգափոկ` կարգավորվող, վազքի համար' 7300 are other models."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Nearest rival model (Trixie 1275, 10800 on hafo and nemo) has a shorter 1.00-1.35 m lead and different EAN."
+ },
+ {
+  "variant_id": 1474,
+  "hafo": {
+   "found": false,
+   "evidence": "Listed every hafo row with Trixie article prefixes 2032-2035/2048-2049 and searched EAN 4053032672710, article 203428, register code /67271 and colour words (aqua/sangria/curry/olive/blush/petrol/էլեկտրիկ) in the dump and hafo-live: no row. M-L 52-75/20 exists only as light violet 203425Tx and mint 203424Tx (4600); aqua only as L-XL 203528Tx (6400)."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: the only Trixie dog harness is 'Шлейка Premium желтая, M-L 52–75 см/20 мм' (page name confirms yellow, 4600, out of stock) - different colour."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Crawled nemo /լանջափոկ category (168 items) + live search: 'Trixie, կարգավորվող լանջափոկ շների համար, կապույտ-aqua' 6400 page = L-XL 75-120 cm/25 mm - different size; no M-L aqua."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Line/size sold in other colours only."
+ },
+ {
+  "variant_id": 1475,
+  "hafo": {
+   "found": false,
+   "evidence": "Listed every hafo row with Trixie article prefixes 2032-2035/2048-2049 and searched EAN 4053032672895, article 203431, register code /67289 and colour words (aqua/sangria/curry/olive/blush/petrol/էլեկտրիկ) in the dump and hafo-live: no row. M-L only light violet/mint (4600); sangria only as L-XL 203531Tx (6400)."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: the only Trixie dog harness is 'Шлейка Premium желтая, M-L 52–75 см/20 мм' (page name confirms yellow, 4600, out of stock) - different colour."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'Trixie, կարգավորվող լանջափոկ շների համար, մանուշակագույն-sangria' 6400 - page: L-XL 75-120 cm/25 mm - different size."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Nearest is L-XL sangria at 6400 on hafo and nemo."
+ },
+ {
+  "variant_id": 1476,
+  "hafo": {
+   "found": false,
+   "evidence": "Listed every hafo row with Trixie article prefixes 2032-2035/2048-2049 and searched EAN 4011905203324, article 203302, register code (none) and colour words (aqua/sangria/curry/olive/blush/petrol/էլեկտրիկ) in the dump and hafo-live: no row. S-M 42-60/15 only fuchsia 203311Tx, curry 203329Tx, light lilac 203325Tx, mint 203324Tx (3150). 'էլեկտրիկ կապույտ' harnesses on hafo are other lines (Premium Y-harness 2036-2040xx, Y-harness 1998xx)."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: the only Trixie dog harness is 'Шлейка Premium желтая, M-L 52–75 см/20 мм' (page name confirms yellow, 4600, out of stock) - different colour."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'Trixie, լանջափոկ (շլեյկա) շների համար, քրքումագույն' 3150 - page: S-M 42-60 cm/15 mm curry - different colour; nemo harness category crawl shows no royal blue S-M H-harness."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Same line/size sold in other colours at 3150."
+ },
+ {
+  "variant_id": 1477,
+  "hafo": {
+   "found": false,
+   "evidence": "Listed every hafo row with Trixie article prefixes 2032-2035/2048-2049 and searched EAN 4053032672871, article 203231, register code /67287 and colour words (aqua/sangria/curry/olive/blush/petrol/էլեկտրիկ) in the dump and hafo-live: no row. XS-S 30-44/10 only forest 203219Tx, grey 203216Tx, mint 203224Tx, light violet 203225Tx (2550)."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: the only Trixie dog harness is 'Шлейка Premium желтая, M-L 52–75 см/20 мм' (page name confirms yellow, 4600, out of stock) - different colour."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo harness category crawl: sangria harness only L-XL (6400); 'Լանջափոկ շների համար՝ կարգավորվող' 4250 = XS-S 30-40/15 violet/red Premium Y-harness (page) - different model."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Same line/size sold in other colours at 2550."
+ },
+ {
+  "variant_id": 1478,
+  "hafo": {
+   "found": false,
+   "evidence": "Listed every hafo row with Trixie article prefixes 2032-2035/2048-2049 and searched EAN 4053032672741, article 204829, register code /67274 and colour words (aqua/sangria/curry/olive/blush/petrol/էլեկտրիկ) in the dump and hafo-live: no row. XXS-XS 20-32/10 only red 204803Tx, violet 204825Tx, mint 204824Tx, graphite 204816Tx (2200); curry only L 204929Tx (6100) and S-M 203329Tx (3150)."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: the only Trixie dog harness is 'Шлейка Premium желтая, M-L 52–75 см/20 мм' (page name confirms yellow, 4600, out of stock) - different colour."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo curry harnesses: 'curry-կարիի գույն' 6100 = L 60-87/25 (page), 'քրքումագույն' 3150 = S-M 42-60/15 (page). nemo XXS-XS 2200 listings are violet, red and light green (pages) - none curry."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Same line/size sold in other colours at 2200."
+ },
+ {
+  "variant_id": 1479,
+  "hafo": {
+   "found": false,
+   "evidence": "Listed every hafo row with Trixie article prefixes 2032-2035/2048-2049 and searched EAN 4053032672987, article 204833, register code /67298 and colour words (aqua/sangria/curry/olive/blush/petrol/էլեկտրիկ) in the dump and hafo-live: no row. hafo-sku '204833' only hits 204803Tx because its barcode 4011905204833 contains those digits - that row is the RED XXS-XS (2200), not olive green. Olive only as L 204933Tx (6100)."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: the only Trixie dog harness is 'Шлейка Premium желтая, M-L 52–75 см/20 мм' (page name confirms yellow, 4600, out of stock) - different colour."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'կանաչ-olive green' 6100 = L 60-87/25 (page). nemo 'Lանջափոկ շների համար, կարգավորվող, XXS-XS' 2200 page colour = բաց կանաչ (light green), not olive."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Article/barcode digit collision with hafo's red XXS-XS; colour differs, so not the same product."
+ },
+ {
+  "variant_id": 1481,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo One Touch rows (TX 2043xx-2046xx Trx) listed in full, plus hafo-sku EAN 4053032677319 / article 204535 / code 67731 and hafo-live 'One Touch': M 50-65/20 only black, indigo, forest, apple, graphite, caramel, fuchsia, flamingo, red (4250); no blush. 'blush' on hafo appears only on Premium Trekking / Comfort Soft harnesses."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'One Touch', 'шлейка', 'trixie шлейк': no Trixie One Touch harness listed."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo One Touch listings: '«One Touch» Լանջափոկ (Շլեյկա) M' 5600 = Modern Art brown paw-print model (page); Art green model; no blush One Touch M."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Line/size sold in other colours at 4250 on hafo."
+ },
+ {
+  "variant_id": 1484,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo One Touch rows (TX 2043xx-2046xx Trx) listed in full, plus hafo-sku EAN 4053032677432 / article 204532 / code 67743 and hafo-live 'One Touch': M 50-65/20 in nine other colours (4250); no petrol One Touch."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'One Touch', 'шлейка', 'trixie шлейк': no Trixie One Touch harness listed."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo petrol harnesses: 'բենզինագույն, XS–S' 4250 and 'բենզինագույն, S' 4950 = Premium Y-harness line; 'կարգավորվող ... բենզինագույն' 6100 = L 60-87 H-harness (page); Premium Trekking petrol 9200+ - none is One Touch M petrol."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Line/size sold in other colours at 4250 on hafo."
+ },
+ {
+  "variant_id": 1485,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo One Touch rows (TX 2043xx-2046xx Trx) listed in full, plus hafo-sku EAN 4011905204420 / article 204402 / code 20442 and hafo-live 'One Touch': S 40-50/15 only black (20441), forest, apple, graphite, caramel, fuchsia, flamingo, red (3000); no royal blue."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'One Touch', 'шлейка', 'trixie шлейк': no Trixie One Touch harness listed."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo One Touch S listings are Art green (5250) and Modern Art brown (4800, page) - no royal blue S."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Line/size sold in other colours at 3000 on hafo."
+ },
+ {
+  "variant_id": 1486,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo One Touch rows (TX 2043xx-2046xx Trx) listed in full, plus hafo-sku EAN 4053032677296 / article 204335 / code 67729 and hafo-live 'One Touch': XS-S 30-40/10 only forest, apple, graphite, caramel, fuchsia, flamingo, red (2700); no blush."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'One Touch', 'шлейка', 'trixie шлейк': no Trixie One Touch harness listed."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo One Touch XS-S listings: Art green 4900, Modern Art brown 3900 (page) - no blush."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Line/size sold in other colours at 2700 on hafo."
+ },
+ {
+  "variant_id": 1501,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 23650 / 4011905236506: no row. Name searches 'հավաքելու', 'աղբը', 'փոցխ', 'թիակ', 'գոգաթիակ', 'Dustpan', register name (dump + live): only 2345Tx cardboard poop scoop 10 pcs (1500) and hair-removal tools - different products."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'совок', 'грабл', 'уборки', 'фекал': Nunbell 14 cm poop scoop (2200), litter scoops, poop bags - no Trixie dustpan with rake."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'հավաքածու', 'աղբ հավաքելու', 'թիակ', 'գոգաթիակ', 'փոցխ': only litter scoops (Y046/Y161, VET-0622/0623) - no dustpan with rake."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "No rival sells it."
+ },
+ {
+  "variant_id": 1502,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 22856 / 4047974228562: no row. hafo BE NORDIC rows (dump + live) contain no poop-bag dispenser; Trixie dispensers on hafo: 22852Tx carabiner 1800, 22854Tx belt 2150, 22853Tx bag 2450, 22849Tx self-adhesive 3250, 22859Tx brown 2350, 22846Tx, 2331Tx - none is BE NORDIC sand."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'nordic', 'контейнер пакет', 'диспенсер': Trixie containers with belt 2150, with carabiner 2100, nylon 1600 (page: grey, 2x15 bags) - not BE NORDIC."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'nordic' (BE NORDIC collars, leads, bowl, treat bag 6500 - no dispenser); 'Տուփ աղբի', 'դիսպենսեր': carabiner 1800, small belt 2150, self-adhesive 3250, brown 2350 - none BE NORDIC."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "No rival sells it."
+ },
+ {
+  "variant_id": 1505,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 2073501 / 4053032680746 / 68074: no row. All hafo CityStyle rows: PVC collars 1971401/1971501/1971601/1971901Tx, PVC lead 1.20 m 1971001/1971016/1971019Tx (5400), cotton lead 1970001Tx (7350), cat toys, bags. 5 m leads on hafo are cotton 19901Tx/19905Tx (3600) and Flexi retractables - none is the CityStyle PVC tracking lead 5 m/20 mm."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'citystyle', 'следовой', 'поводок 5 м', 'PVC': no CityStyle; the 5 m Trixie item is the Easy Life cable lead 10400 - different product."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Crawled nemo /ձգափոկ category (122 items): CityStyle only the cotton adjustable lead 7350; 5 m leads are Trixie cotton flat 5 m/17 mm (10550), 5 m/13 mm (7050), S-M 5 m/5 mm (1750, page) - none ours."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "No rival sells it."
+ },
+ {
+  "variant_id": 1507,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 3295 / 4011905032955: no row. 'կտորից ձող' family on hafo: 3297Tx 9*29 cm/43 cm (2750, EAN 4011905032979), 32860Tx 6*14/25 cm (2900), 32861Tx 6*24/36 cm (3400) - different sizes/articles."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'дрессировки', 'апорт', 'валик', 'кусалка', 'dummy', Trixie dog toys: no Trixie biting roll."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'կտորից ձող', 'ձող', 'dummy', 'կծելու', 'կտորից': only cat teaser wands - nothing matching."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "Nearest hafo 3297Tx is a larger roll (9x29 cm)."
+ },
+ {
+  "variant_id": 1510,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 1970601 / 4053032681811 / 68181: no row. hafo CityStyle collars are only the PVC elastic line (1971501Tx M 35-42/20 mm 4150) - different material/width; no cotton extra-wide collar."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: no CityStyle items; listed Trixie collars are BE NORDIC, neoprene-padded, USB - none ours."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo CityStyle listings: lead, toys, bags only; collar category crawl (321 items) has no CityStyle collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "No rival sells it."
+ },
+ {
+  "variant_id": 1511,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 1970519 / 4053032681798 / 68179: no row. Only CityStyle PVC elastic S-M 30-37/20 mm black 1971401Tx (3950) - different material/width/colour."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: no CityStyle collar."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo collar category crawl: no CityStyle collar."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "No rival sells it."
+ },
+ {
+  "variant_id": 1512,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 1970401 / 4053032681750 / 68175: no row. Only CityStyle PVC elastic XS-S 25-32/20 mm black 1971901Tx (3650); 1995501Tx wide collar XS-S 27-35/25 mm (5900) is a different (padded nylon) model."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: no CityStyle collar; Trixie wide neoprene-padded XS-S 27-35 cm collars (3750/4400) are a different model."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'Trixie, լայն վզնոց շների համար, XS-S' 5900 - page: nylon with soft padding, 27-35 cm/25 mm - different model (not CityStyle cotton 25-32 cm)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "No rival sells it."
+ },
+ {
+  "variant_id": 1517,
+  "hafo": {
+   "found": false,
+   "evidence": "hafo-sku 36124 / 4011905689500: no row. 'Pegasus' on hafo = The Best grooming only; horse toys: TX 348301 plush horse 32 cm (4100, EAN 4047974348307), 45534Tx cat horse 10 cm - different toys."
+  },
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'пегас', 'лошад', 'единорог', 'pegasus': only Triol horse toys and sweaters - nothing."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo 'Pegasus', 'ձիուկ', 'միաեղջյուր': Trixie unicorn plush 28 cm (3550) and 25 cm (4000) - images compared: pink/blue and blue rainbow unicorns, not the beige winged Pegasus; Triol horses; Trixie seahorse - no match."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as matcher: no rival sells the exact item (all three shops re-searched).",
+  "notes": "No rival sells it."
+ }
+]

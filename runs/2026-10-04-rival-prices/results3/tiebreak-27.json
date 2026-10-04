@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "variant_id": 1137,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list has no Trixie Premium nylon collar in any size/colour (Trixie collars there: Be Nordic, neoprene-padded, USB-light, cat collars; Premium only as a lead and a harness); regex on 22-35/35-55/40-65 and 'нейлон' finds only Triol collars. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև-3",
+    "price": 1200,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև) XS–S",
+    "in_stock": true,
+    "evidence": "nemo search on our article '201401' returns this page; 'Նեյլոն Սահուն կարգավորվող գոտի XS–S 22–35 սմ / 10 մմ', black (սև), Premium line. Manufacturer field empty (Trixie Premium per article search). 1200, in stock."
+   },
+   "confidence": "high",
+   "reason": "Article-code search returns the exact black XS–S 22–35 cm/10 mm Premium collar; matcher missed it."
+  },
+  {
+   "variant_id": 1202,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list has no Trixie Premium nylon collar in any size/colour (Trixie collars there: Be Nordic, neoprene-padded, USB-light, cat collars; Premium only as a lead and a harness); regex on 22-35/35-55/40-65 and 'нейлон' finds only Triol collars. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև-5",
+    "price": 1800,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև)",
+    "in_stock": true,
+    "evidence": "nemo search on our article '201601' returns this page; 'Նեյլոն Սահուն կարգավորվող գոտի M–L 35-55 սմ / 20 մմ', black, Premium line. 1800, in stock."
+   },
+   "confidence": "high",
+   "reason": "Article-code search returns the exact black M–L 35–55 cm/20 mm Premium collar; matcher missed it."
+  },
+  {
+   "variant_id": 1206,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list has no Trixie Premium nylon collar in any size/colour (Trixie collars there: Be Nordic, neoprene-padded, USB-light, cat collars; Premium only as a lead and a harness); regex on 22-35/35-55/40-65 and 'нейлон' finds only Triol collars. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premium-վզկապ-սև-6",
+    "price": 2450,
+    "old_price": null,
+    "name": "«Premium» վզկապ (սև)",
+    "in_stock": true,
+    "evidence": "nemo search on our article '201701' returns this page; 'Նեյլոն Սահուն կարգավորվող գոտի L–XL 40-65 սմ / 25 մմ', black, Premium line. 2450, in stock."
+   },
+   "confidence": "high",
+   "reason": "Article-code search returns the exact black L–XL 40–65 cm/25 mm Premium collar; matcher missed it."
+  }
+ ]
+}

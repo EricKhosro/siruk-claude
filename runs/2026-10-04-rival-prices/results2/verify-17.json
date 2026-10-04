@@ -1,0 +1,442 @@
+[
+ {
+  "variant_id": 789,
+  "zoovet": {
+   "found": true,
+   "name": "Monge Fresh Влажный корм со свининой для собак, 400 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fresh-vlagnyj-korm-so-svininoj-dlya-sobak-400-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Monge Fresh Влажный корм со свининой для собак, 400 г', 1250 AMD, no old price, in stock (4 pcs), ME-00000584; description 'Dog Fresh ... с мясом свинины (pork) для взрослых собак всех пород ... мясные кусочки в паштете' = Fresh Adult chunks in loaf 400 g."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պահածո շների համար Monge FRESH խոզ",
+   "url": "https://www.nemo.am/monge-fresh-adullt-maiale-խոզի-մսով",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Պահածո շների համար Monge FRESH խոզ', 1250 AMD, no old price, in stock, manufacturer Monge; short desc 'Քաշը՝ 400գ: Monge FRESH պահածո հասուն շների համար: Խոզի միս' (400 g, adult, pork)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Both rival pages re-opened: brand, line (Fresh chunks in loaf), lifestage (adult), recipe and 400 g match; prices 1250/1250 as the matcher said."
+ },
+ {
+  "variant_id": 790,
+  "zoovet": {
+   "found": true,
+   "name": "Monge Fresh Влажный корм с курицей для собак, 400 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fresh-vlagnyj-korm-s-kuritsej-dlya-sobak-400-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Monge Fresh Влажный корм с курицей для собак, 400 г', 1250 AMD, no old price, in stock (4 pcs), ME-00000583; description 'Dog Fresh ... с мясом курицы (chicken) для взрослых собак всех пород ... мясные кусочки в паштете' = Fresh Adult chunks in loaf 400 g."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պահածո շների համար Monge FRESH հավ",
+   "url": "https://www.nemo.am/monge-fresh-adullt-pollo-հավի-մսով",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Պահածո շների համար Monge FRESH հավ', 1250 AMD, no old price, in stock, manufacturer Monge; short desc 'Քաշը՝ 400գ: Monge FRESH պահածո հասուն շների համար: Հավի մսով' (400 g, adult, chicken)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Both rival pages re-opened: brand, line (Fresh chunks in loaf), lifestage (adult), recipe and 400 g match; prices 1250/1250 as the matcher said."
+ },
+ {
+  "variant_id": 791,
+  "zoovet": {
+   "found": true,
+   "name": "Monge Fresh Влажный корм с уткой для собак, 400 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fresh-vlagnyj-korm-s-utkoj-dlya-sobak-400-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Monge Fresh Влажный корм с уткой для собак, 400 г', 1250 AMD, no old price, in stock (5 pcs), ME-00000582; description 'Dog Fresh ... с мясом утки (duck) для взрослых собак всех пород ... мясные кусочки в паштете' = Fresh Adult chunks in loaf 400 g."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պահածո շների համար Monge FRESH բադ",
+   "url": "https://www.nemo.am/monge-fresh-adullt-anatra-բադի-մսով",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Պահածո շների համար Monge FRESH բադ', 1250 AMD, no old price, in stock, manufacturer Monge; short desc 'Քաշը՝ 400գ: Monge FRESH պահածո հասուն շների համար բադ' (400 g, adult, duck)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Both rival pages re-opened: brand, line (Fresh chunks in loaf), lifestage (adult), recipe and 400 g match; prices 1250/1250 as the matcher said."
+ },
+ {
+  "variant_id": 792,
+  "zoovet": {
+   "found": true,
+   "name": "Monge Fresh Влажный корм с ягненком для собак, 400 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fresh-vlagnyj-korm-s-yagnenkom-dlya-sobak-400-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Monge Fresh Влажный корм с ягненком для собак, 400 г', 1250 AMD, no old price, in stock (4 pcs), ME-00000581; description 'Dog Fresh ... с мясом ягнёнка (lamb) для взрослых собак всех пород ... мясные кусочки в паштете' = Fresh Adult chunks in loaf 400 g."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պահածո շների համար Monge FRESH գառ",
+   "url": "https://www.nemo.am/monge-fresh-adullt-agnello-գառան-մսով",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Պահածո շների համար Monge FRESH գառ', 1250 AMD, no old price, in stock, manufacturer Monge; short desc 'Քաշը՝ 400գ: Monge FRESH պահածո հասուն շների համար: Գառի մսով' (400 g, adult, lamb)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Both rival pages re-opened: brand, line (Fresh chunks in loaf), lifestage (adult), recipe and 400 g match; prices 1250/1250 as the matcher said."
+ },
+ {
+  "variant_id": 1262,
+  "zoovet": {
+   "found": true,
+   "name": "Monge Fresh Влажный корм с телятиной для собак, 400 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fresh-vlagnyj-korm-s-telyatinoj-dlya-sobak-400-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Monge Fresh Влажный корм с телятиной для собак, 400 г', 1250 AMD, no old price, in stock (4 pcs), ME-00000585; description 'Dog Fresh ... с мясом телятины (veal) [the puppy veal+veg can is a separate zoovet listing] для взрослых собак всех пород ... мясные кусочки в паштете' = Fresh Adult chunks in loaf 400 g."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պահածո շների համար Monge FRESH հորթ",
+   "url": "https://www.nemo.am/monge-fresh-puppy-vitello-բանջարեղենով-շիլա",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Պահածո շների համար Monge FRESH հորթ', 1250 AMD, no old price, in stock, manufacturer Monge; short desc 'Քաշը՝ 400գ: Monge FRESH պահածո հասուն շների համար: Հորթի մսով' (400 g, adult, veal); slug says puppy but the page image is the 'Fresh ADULT VITELLO / Veal' can (the puppy veal+veg can is the separate 'Պահածո շների ձագերի համար Monge FRESH' listing)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Both rival pages re-opened: brand, line (Fresh chunks in loaf), lifestage (adult), recipe and 400 g match; prices 1250/1250 as the matcher said."
+ },
+ {
+  "variant_id": 1263,
+  "zoovet": {
+   "found": true,
+   "name": "Monge Fresh Влажный корм с форелью для собак, 400 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fresh-vlagnyj-korm-s-forelyu-dlya-sobak-400-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Monge Fresh Влажный корм с форелью для собак, 400 г', 1250 AMD, no old price, in stock (4 pcs), ME-00008942; description 'корм для взрослых собак ... форель 16%' = Fresh adult trout 400 g."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Monge Fresh Bocconi in Paté con Trota",
+   "url": "https://www.nemo.am/monge-fresh-bocconi-in-paté-con-trota",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Monge Fresh Bocconi in Paté con Trota', 1250 AMD, no old price, in stock, manufacturer Monge; short desc 'Քաշը՝ 400գ ... մեծահասակ շների համար ... իշխանը' = 400 g, adult, trout chunks in paté."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Both pages re-opened; Fresh adult trout 400 g on both at 1250."
+ },
+ {
+  "variant_id": 795,
+  "zoovet": {
+   "found": true,
+   "name": "Monge Fresh Влажный корм с индейкой и овощами для собак, 400 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-fresh-vlagnyj-korm-s-indejkoj-i-ovoschami-dlya-sobak-400-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 1250 AMD, no old price, in stock (4 pcs), ME-00000655; description 'Dog Fresh Senior Chunks in Loaf TACCINO con ORTAGGI ... с мясом индейки и овощами для взрослых и пожилых собак' = Fresh Senior turkey & vegetables 400 g."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պահածո շների համար Monge FRESH Senior, հնդկահավ",
+   "url": "https://www.nemo.am/պահածո-շների-համար-monge-fresh-senior-հնդկահավ",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 1250 AMD, no old price, in stock, manufacturer Monge; short desc 'Monge FRESH Senior ... Հնդկահավի մսով Պարունակություն՝ 400 գ'; page image is the 'Fresh SENIOR TACCHINO con ORTAGGI / Turkey with Vegetables' can."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Both pages re-opened; Fresh Senior turkey with vegetables 400 g (nemo can image confirms the vegetables recipe); 1250/1250."
+ },
+ {
+  "variant_id": 796,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet.am's only Gran Bonta listing is 'Gran Bonta All Breeds Adult Влажный корм с говядиной для собак всех пород, 1.23 кг' (1500 AMD, ME-00008957), whose can image reads 'Gran Bonta Bocconi con Manzo / Chunks with Beef' and whose composition 'Мясо и субпродукты 42% (говядина 8%), злаки, яйца' equals monge.it 'Gran Bonta All Breeds Adult Chunks with Beef', EAN 8009470041560 (1230 g) = our variant 1224. Searched 'Bonta', 'Gran Bonta', 'Бонта', 'Gran Bonta 400', 'Monge 415' and the Monge/Gemon/Simba brand lists. No Gran Bonta chicken & turkey and no 400 g Gran Bonta can.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries no Monge Gran Bonta in any size: live search 'bonta', 'Gran Bonta', 'GRAN' (only Tetra/Grandorf), and the whole Monge brand list (339 rows; dog cans are only Fresh 400 g, Fresh 85 g pouches, Grill, Monoprotein, Solo, Vet) - no Gran Bonta listing.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Neither rival sells Gran Bonta Chicken & Turkey 400 g."
+ },
+ {
+  "variant_id": 1223,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet.am's only Gran Bonta listing is 'Gran Bonta All Breeds Adult Влажный корм с говядиной для собак всех пород, 1.23 кг' (1500 AMD, ME-00008957), whose can image reads 'Gran Bonta Bocconi con Manzo / Chunks with Beef' and whose composition 'Мясо и субпродукты 42% (говядина 8%), злаки, яйца' equals monge.it 'Gran Bonta All Breeds Adult Chunks with Beef', EAN 8009470041560 (1230 g) = our variant 1224. Searched 'Bonta', 'Gran Bonta', 'Бонта', 'Gran Bonta 400', 'Monge 415' and the Monge/Gemon/Simba brand lists. Same recipe (chunks with beef/meat) but 1.23 kg, not our 400 g (other size).",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries no Monge Gran Bonta in any size: live search 'bonta', 'Gran Bonta', 'GRAN' (only Tetra/Grandorf), and the whole Monge brand list (339 rows; dog cans are only Fresh 400 g, Fresh 85 g pouches, Grill, Monoprotein, Solo, Vet) - no Gran Bonta listing.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Nearest is zoovet's 1.23 kg can of the same recipe (other size); no 400 g on either rival."
+ },
+ {
+  "variant_id": 1224,
+  "zoovet": {
+   "found": true,
+   "name": "Gran Bonta All Breeds Adult Влажный корм с говядиной для собак всех пород, 1.23 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gran-bonta-all-breeds-adult-vlagnyj-korm-s-govyadinoj-dlya-sobak-vseh-porod-1-23-kg",
+   "price": 1500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 1500 AMD, no old price, in stock (1 pc), ME-00008957. Description 'Gran BontÀ Dog Chunchks With Beef — полнорационный корм для взрослых собак всех размеров', composition 'Мясо и субпродукты животного происхождения 42% (говядина 8%), злаки, яйца и яичные продукты, минералы' = monge.it 'Gran Bonta All Breeds Adult Chunks with Beef' which lists EAN 8009470041560 (1230 g) = our EAN; can image 'Gran Bonta Bocconi con Manzo / Chunks with Beef' (red regular line, the successor of hafo's red 'Bocconi ... con CARNE' can, not the green 'Delizie dello Chef'); 1.23 kg matches."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries no Monge Gran Bonta in any size: live search 'bonta', 'Gran Bonta', 'GRAN' (only Tetra/Grandorf), and the whole Monge brand list (339 rows; dog cans are only Fresh 400 g, Fresh 85 g pouches, Grill, Monoprotein, Solo, Vet) - no Gran Bonta listing.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "zoovet item EAN-confirmed via monge.it (8009470041560, same composition); 1500 AMD. zoovet files it under brand Gemon. nemo has no Gran Bonta."
+ },
+ {
+  "variant_id": 1225,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet.am's only Gran Bonta listing is 'Gran Bonta All Breeds Adult Влажный корм с говядиной для собак всех пород, 1.23 кг' (1500 AMD, ME-00008957), whose can image reads 'Gran Bonta Bocconi con Manzo / Chunks with Beef' and whose composition 'Мясо и субпродукты 42% (говядина 8%), злаки, яйца' equals monge.it 'Gran Bonta All Breeds Adult Chunks with Beef', EAN 8009470041560 (1230 g) = our variant 1224. Searched 'Bonta', 'Gran Bonta', 'Бонта', 'Gran Bonta 400', 'Monge 415' and the Monge/Gemon/Simba brand lists. That is the beef recipe, not chicken & turkey (other flavour); the only chicken & turkey 1.23 kg dog can on zoovet is Simba (other brand).",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries no Monge Gran Bonta in any size: live search 'bonta', 'Gran Bonta', 'GRAN' (only Tetra/Grandorf), and the whole Monge brand list (339 rows; dog cans are only Fresh 400 g, Fresh 85 g pouches, Grill, Monoprotein, Solo, Vet) - no Gran Bonta listing. Nearest: 'Simba հավի և հնդկահավի մսով պահածո (1230 գ)' - other brand.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Neither rival sells Gran Bonta Chicken & Turkey 1230 g."
+ },
+ {
+  "variant_id": 800,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet.am's only Gran Bonta listing is 'Gran Bonta All Breeds Adult Влажный корм с говядиной для собак всех пород, 1.23 кг' (1500 AMD, ME-00008957), whose can image reads 'Gran Bonta Bocconi con Manzo / Chunks with Beef' and whose composition 'Мясо и субпродукты 42% (говядина 8%), злаки, яйца' equals monge.it 'Gran Bonta All Breeds Adult Chunks with Beef', EAN 8009470041560 (1230 g) = our variant 1224. Searched 'Bonta', 'Gran Bonta', 'Бонта', 'Gran Bonta 400', 'Monge 415' and the Monge/Gemon/Simba brand lists. No Gran Bonta Chef (meat/egg/cheese) listing; 415 g dog cans on zoovet are Gemon / Simba only.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries no Monge Gran Bonta in any size: live search 'bonta', 'Gran Bonta', 'GRAN' (only Tetra/Grandorf), and the whole Monge brand list (339 rows; dog cans are only Fresh 400 g, Fresh 85 g pouches, Grill, Monoprotein, Solo, Vet) - no Gran Bonta listing. 415 g cans on nemo are Simba / Mustache only.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Gran Bonta Chef Meat, Egg & Cheese 415 g not sold by either rival."
+ },
+ {
+  "variant_id": 1303,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet.am's only Gran Bonta listing is 'Gran Bonta All Breeds Adult Влажный корм с говядиной для собак всех пород, 1.23 кг' (1500 AMD, ME-00008957), whose can image reads 'Gran Bonta Bocconi con Manzo / Chunks with Beef' and whose composition 'Мясо и субпродукты 42% (говядина 8%), злаки, яйца' equals monge.it 'Gran Bonta All Breeds Adult Chunks with Beef', EAN 8009470041560 (1230 g) = our variant 1224. Searched 'Bonta', 'Gran Bonta', 'Бонта', 'Gran Bonta 400', 'Monge 415' and the Monge/Gemon/Simba brand lists. Nearest candidate, but it is the regular Gran Bonta Chunks with Beef (EAN 8009470041560 per monge.it = our 1224), not the Gran Bonta CHEF ('Le Delizie dello Chef') beef, EAN 8009470041881; no Chef listing on zoovet.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries no Monge Gran Bonta in any size: live search 'bonta', 'Gran Bonta', 'GRAN' (only Tetra/Grandorf), and the whole Monge brand list (339 rows; dog cans are only Fresh 400 g, Fresh 85 g pouches, Grill, Monoprotein, Solo, Vet) - no Gran Bonta listing.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "The only 1.23 kg beef Gran Bonta on zoovet is EAN-tied to variant 1224 (regular line); the Chef beef can is not carried by either rival."
+ },
+ {
+  "variant_id": 827,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet.am does not carry Monge Leo's: live search \"Leo's\" (nothing), 'Лео' (only a ZooZooZoo toy and Gemon), 'Monge 415' (nothing), and its Monge brand list (297 rows) has no Leo's; the 415 g dog cans on zoovet are Gemon / Simba only.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries only the two CAT Leo's cans ('Պահածո կատուների համար՝ MONGE LEO'S Adult, սաղմոն' and 'Պահածո ստերիլիզացված կատուների համար՝ MONGE LEO'S, հնդկահավ', 690) - no dog Leo's; searched 'LEO', \"LEO'S\", 'LEOS', '415 գ' (Simba / Mustache only) and the whole Monge brand list of dog cans. Nearest: the cat Leo's cans (other species).",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Leo's Puppy Chicken & Turkey 415 g not sold by either rival."
+ },
+ {
+  "variant_id": 828,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet.am does not carry Monge Leo's: live search \"Leo's\" (nothing), 'Лео' (only a ZooZooZoo toy and Gemon), 'Monge 415' (nothing), and its Monge brand list (297 rows) has no Leo's; the 415 g dog cans on zoovet are Gemon / Simba only.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo.am carries only the two CAT Leo's cans ('Պահածո կատուների համար՝ MONGE LEO'S Adult, սաղմոն' and 'Պահածո ստերիլիզացված կատուների համար՝ MONGE LEO'S, հնդկահավ', 690) - no dog Leo's; searched 'LEO', \"LEO'S\", 'LEOS', '415 գ' (Simba / Mustache only) and the whole Monge brand list of dog cans. Nearest: the cat Leo's cans (other species).",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Leo's Adult Poultry 415 g not sold by either rival."
+ },
+ {
+  "variant_id": 829,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells this recipe only as a single stick: 'Monge Gift Лакомство палочки с кроликом и шалфеем для кошек, 1 шт, 5 г' (250 AMD, in stock 16 pcs, https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-palochki-s-krolikom-i-shalfeem-dlya-koshek-1-sht-5-g); its description ends 'Вес: 1 шт, 5 г' - 1 stick / 5 g, not our 3 sticks / 15 g pack (pack count differs), no pack option on the page. No 3-stick / 15 g cat Gift listing in the Monge brand list or live search.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Dental, ճագար/եղեսպակ, 3 ստիկս/15 գ",
+   "url": "https://www.nemo.am/ձողիկներ-կատուների-համար-monge-gift-grain-free-dental-ճագարեղեսպակ-3-ստիկս15-գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Dental, ճագար/եղեսպակ, 3 ստիկս/15 գ', 750 AMD, no old price, in stock, manufacturer Monge; Dental, rabbit/sage, adult cats; '3 ստիկս/15 գ' = 3 sticks / 15 g, same as the hafo row."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "nemo page re-opened: exact line, recipe, lifestage and 3 x 5 g pack at 750; zoovet only sells the single 5 g stick (other pack count)."
+ },
+ {
+  "variant_id": 830,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells this recipe only as a single stick: 'Monge Gift Лакомство палочки с форелью и ромашкой для кошек, 1 шт, 5 г' (250 AMD, in stock 6 pcs, https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-palochki-s-forelyu-i-romashkoj-dlya-koshek-1-sht-5-g); its description ends 'Вес: 1 шт, 5 г' - 1 stick / 5 g, not our 3 sticks / 15 g pack (pack count differs), no pack option on the page. No 3-stick / 15 g cat Gift listing in the Monge brand list or live search.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Kitten, իշխան/երիցուկ, 3 ստիկս/15 գ",
+   "url": "https://www.nemo.am/ձողիկներ-կատուների-համար-monge-gift-grain-free-kitten-իշխաներիցուկ-3-ստիկս15-գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Kitten, իշխան/երիցուկ, 3 ստիկս/15 գ', 750 AMD, no old price, in stock, manufacturer Monge; Kitten, trout/chamomile; '3 ստիկս/15 գ' = 3 sticks / 15 g, same as the hafo row."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "nemo page re-opened: exact line, recipe, lifestage and 3 x 5 g pack at 750; zoovet only sells the single 5 g stick (other pack count)."
+ },
+ {
+  "variant_id": 831,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells this recipe only as a single stick: 'Monge Gift Лакомство палочки со свининой и шиповником для кошек, 1 шт, 5 г' (250 AMD, in stock 11 pcs, https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-palochki-so-svininoj-i-shipovnikom-dlya-koshek-1-sht-5-g); its description ends 'Вес: 1 шт, 5 г' - 1 stick / 5 g, not our 3 sticks / 15 g pack (pack count differs), no pack option on the page. No 3-stick / 15 g cat Gift listing in the Monge brand list or live search.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Training, խոզ/մասուր, 3 ստիկս/15 գ",
+   "url": "https://www.nemo.am/ձողիկներ-կատուների-համար-monge-gift-grain-free-training-խոզմասուր-3-ստիկս15-գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Training, խոզ/մասուր, 3 ստիկս/15 գ', 750 AMD, no old price, in stock, manufacturer Monge; Training, pork/rosehip, adult cats; '3 ստիկս/15 գ' = 3 sticks / 15 g, same as the hafo row."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "nemo page re-opened: exact line, recipe, lifestage and 3 x 5 g pack at 750; zoovet only sells the single 5 g stick (other pack count)."
+ },
+ {
+  "variant_id": 832,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells this recipe only as a single stick: 'Monge Gift Лакомство палочки с лососем и артишоком для кошек, 1 шт, 5 г' (250 AMD, in stock 13 pcs, https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-palochki-s-lososem-i-artishokom-dlya-koshek-1-sht-5-g); its description ends 'Вес: 1 шт, 5 г' - 1 stick / 5 g, not our 3 sticks / 15 g pack (pack count differs), no pack option on the page. No 3-stick / 15 g cat Gift listing in the Monge brand list or live search.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Hairball, սաղմոն/արտիճուկ, 3 ստիկս/15 գ",
+   "url": "https://www.nemo.am/ձողիկներ-կատուների-համար-monge-gift-grain-free-hairball-սաղմոնարտիճուկ-3-ստիկս15-գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Hairball, սաղմոն/արտիճուկ, 3 ստիկս/15 գ', 750 AMD, no old price, in stock, manufacturer Monge; Hairball, salmon/artichoke, adult cats; '3 ստիկս/15 գ' = 3 sticks / 15 g, same as the hafo row."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "nemo page re-opened: exact line, recipe, lifestage and 3 x 5 g pack at 750; zoovet only sells the single 5 g stick (other pack count)."
+ },
+ {
+  "variant_id": 833,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells this recipe only as a single stick: 'Monge Gift Лакомство палочки с треской и красным клевером для кошек, 1 шт, 5 г' (250 AMD, in stock 9 pcs, https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-palochki-s-treskoj-i-krasnym-kleverom-dlya-koshek-1-sht-5-g); its description ends 'Вес: 1 шт, 5 г' - 1 stick / 5 g, not our 3 sticks / 15 g pack (pack count differs), no pack option on the page. No 3-stick / 15 g cat Gift listing in the Monge brand list or live search.",
+   "price": null,
+   "old_price": null,
+   "in_stock": null
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Skin Support, Գոդ ֆիշ/կարմիր երեքնուկ, 3 ստիկս/15 գ",
+   "url": "https://www.nemo.am/ձողիկներ-կատուների-համար-monge-gift-grain-free-skin-support-գոդ-ֆիշկարմիր-երեքնուկ-3-ստիկս15-գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 'Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Skin Support, Գոդ ֆիշ/կարմիր երեքնուկ, 3 ստիկս/15 գ', 750 AMD, no old price, in stock, manufacturer Monge; Skin Support, cod/red clover, adult cats; '3 ստիկս/15 գ' = 3 sticks / 15 g, same as the hafo row."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "nemo page re-opened: exact line, recipe, lifestage and 3 x 5 g pack at 750; zoovet only sells the single 5 g stick (other pack count)."
+ }
+]

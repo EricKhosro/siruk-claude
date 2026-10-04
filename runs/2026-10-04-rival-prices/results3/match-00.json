@@ -1,0 +1,575 @@
+{
+ "results": [
+  {
+   "variant_id": 2074,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched 'delights|делайтс', '8in1', '8in1 bone|кост|strong', '11072|4048422110729', 'кость|косточк'. zoovet's 8in1 range is only Excel vitamins and Perfect Coat deshedders; no Delights bones."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'delights' (only DELIGHTS spiral 6 pcs/60 g treats and Dashi Delights cat treats), '8in1', 'ոսկոր', 'delights ոսկոր|bone|strong', 'ոսկոր 55'. Nearest unbranded chicken bones ('Ոսկոր շների համար՝ հավի' 1950, 120 g/18 cm; 'Ոսկոր շների համար հանգույցներով՝ հավի' 1350, 70 g/15 cm) are Trixie per the manufacturer field, not 8in1 Delights Strong S 55 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1122,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-ranchlands-suhoj-korm-s-5-vidami-myasa-dlya-sobak-upakovka-11-4-kg",
+    "price": 63800,
+    "old_price": null,
+    "name": "Acana RANCHLANDS Сухой корм с 5 видами мяса для собак, упаковка 11.4 кг",
+    "in_stock": false,
+    "evidence": "Acana Ranchlands dog dry, 11.4 kg bag; brand/line/size match hafo 'ACANA RANCHLANDS (70/30) 11.4 կգ'. Option 'Упак (11,4 кг)' = 63800. Page stock: 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-acana-ranchlands",
+    "price": 63800,
+    "old_price": null,
+    "name": "Կեր շների` ACANA RANCHLANDS 11.4 կգ",
+    "in_stock": true,
+    "evidence": "Name 'ACANA RANCHLANDS 11.4 կգ', description lists pork/lamb/angus/bison/pike, 11.4 kg - same item. Manufacturer on page: Acana. Page price 63800, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1125,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/acana-homestead-harvest-suhoj-korm-s-indejkoj-i-utkoj-dlya-koshek-upakovka-4-5-kg-5464",
+    "price": 26300,
+    "old_price": null,
+    "name": "ACANA Homestead Harvest Сухой корм с индейкой и уткой для кошек, упаковка 4.5 кг",
+    "in_stock": true,
+    "evidence": "Acana Homestead Harvest cat dry (turkey/duck), 4.5 kg pack. Option 'Упак (4,5 кг)' = 26300. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-acana-homestead-հավհնդկահավ",
+    "price": 26300,
+    "old_price": null,
+    "name": "Կեր կատուների ACANA HOMESTEAD (հավ/հնդկահավ) 4.5 կգ",
+    "in_stock": true,
+    "evidence": "Name 'Կեր կատուների ACANA HOMESTEAD (հավ/հնդկահավ) 4.5 կգ' (identical to hafo row), description says Homestead Harvest. Manufacturer on page: Acana. Page price 26300, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1127,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/acana-bountiful-suhoj-korm-s-seldyu-i-lososem-dlya-koshek-upakovka-4-5-kg-5609",
+    "price": 26300,
+    "old_price": null,
+    "name": "ACANA BOUNTIFUL Сухой корм с сельдью и лососем для кошек, упаковка 4.5 кг",
+    "in_stock": true,
+    "evidence": "Acana Bountiful Catch cat dry (herring/salmon), 4.5 kg pack. Option 'Упак (4,5 кг)' = 26300. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-acana-bountiful-ձուկ",
+    "price": 26300,
+    "old_price": null,
+    "name": "Կեր կատուների ACANA BOUNTIFUL (ձուկ) 4.5 կգ",
+    "in_stock": true,
+    "evidence": "Name 'Կեր կատուների ACANA BOUNTIFUL (ձուկ) 4.5 կգ' identical to hafo row; salmon/herring. Manufacturer on page: Acana. Page price 26300, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1129,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched 'acana', 'acana prairie', 'acana cat|acana кошек', 'prairie|прери'. zoovet lists only Acana Wild Prairie for DOGS (11.4 kg 52400 / loose 4700); no Wild Prairie cat."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-wild-prairie-կատվի-չոր-կեր-54-կգ",
+    "price": 29000,
+    "old_price": null,
+    "name": "ACANA Wild Prairie, չոր կեր կատուների համար, 4.5 կգ",
+    "in_stock": true,
+    "evidence": "Name 'ACANA Wild Prairie, չոր կեր կատուների համար, 4.5 կգ' (slug says 54 but the name is 4.5 kg); cat formula, chicken/turkey/egg/fish. Matches hafo 'ACANA Wild Prairie (grain-free) 4.5 կգ' for cats. Manufacturer on page: Acana. Page price 29000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1132,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/acana-grasslands-suhoj-korm-s-yagnenkom-dlya-koshek-upakovka-4-5-kg-5663",
+    "price": 30550,
+    "old_price": null,
+    "name": "ACANA Grasslands Сухой корм с ягненком для кошек, упаковка 4.5 кг",
+    "in_stock": true,
+    "evidence": "Acana Grasslands cat dry (lamb), 4.5 kg pack. Option 'Упак (4,5 кг)' = 30550. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-acana-grasslands-առանց-հացահատիկի-գառ",
+    "price": 30550,
+    "old_price": null,
+    "name": "Կեր կատուների ACANA Grasslands (առանց հացահատիկի, գառ) 4.5 կգ",
+    "in_stock": true,
+    "evidence": "Name 'Կեր կատուների ACANA Grasslands (առանց հացահատիկի, գառ) 4.5 կգ' identical to hafo row. Manufacturer on page: Acana. Page price 30550, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1136,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/acana-pacifica-suhoj-korm-s-ryboj-dlya-koshek-upakovka-4-5-kg-5662",
+    "price": 31950,
+    "old_price": null,
+    "name": "ACANA Pacifica Сухой корм с рыбой для кошек, упаковка 4.5 кг",
+    "in_stock": true,
+    "evidence": "Acana Pacifica cat dry (fish), 4.5 kg pack. Option 'Упак (4,5 кг)' = 31950. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-acana-pacificaառանց-հացահատիկի-ձուկ-54-կգ",
+    "price": 31950,
+    "old_price": null,
+    "name": "Կեր կատուների ACANA Pacifica(առանց հացահատիկի, ձուկ) 4.5 կգ",
+    "in_stock": true,
+    "evidence": "Name 'Կեր կատուների ACANA Pacifica(առանց հացահատիկի, ձուկ) 4.5 կգ' identical to hafo row; description 'Քաշը 4.5 կգ'. Manufacturer on page: Acana. Page price 31950, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1143,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/acana-grasslands-suhoj-korm-s-yagnenkom-dlya-koshek-upakovka-4-5-kg-1",
+    "price": 26300,
+    "old_price": null,
+    "name": "ACANA Indoor Entree Сухой корм с курицей и сельдью для кошек, упаковка 4.5 кг",
+    "in_stock": true,
+    "evidence": "Slug is recycled from Grasslands, but the page name is 'ACANA Indoor Entree ... для кошек, упаковка 4.5 кг' (chicken/herring) - Indoor Entree 4.5 kg. Option 'Упак (4,5 кг)' = 26300. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-կատուների-acana-indoor-հավհնդկահավ-45-կգ",
+    "price": 26300,
+    "old_price": null,
+    "name": "Կեր կատուների ACANA INDOOR (հավ/հնդկահավ) 4.5 կգ",
+    "in_stock": true,
+    "evidence": "Name 'Կեր կատուների ACANA INDOOR (հավ/հնդկահավ) 4.5 կգ' identical to hafo row; description 'Acana Indoor Entree'. Manufacturer on page: Acana. Page price 26300, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1146,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched 'acana', 'wild coast|вайлд коуст', 'acana coast|рыб|сельд', 'classic|классик', 'acana 9.7|9,7'. zoovet has no Acana Wild Coast; nearest Classics item is Classic RED 9.7 kg (different recipe)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-wild-coast-classic-չոր-կեր-շների-համար-97-կգ",
+    "price": 40950,
+    "old_price": null,
+    "name": "Acana Wild Coast Classic, չոր կեր շների համար, 9.7 կգ",
+    "in_stock": true,
+    "evidence": "Name 'Acana Wild Coast Classic, չոր կեր շների համար, 9.7 կգ' (fish, oats). A separate 14.5 kg listing exists (60000) - not ours. Manufacturer on page: Acana. Page price 40950, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1360,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Acana Wild Coast at all (searched 'wild coast', 'acana coast', 'classic'); no loose listing."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-wild-coast-classic-չոր-կեր-շների-համար-կիլոգրամով",
+    "price": 4350,
+    "old_price": null,
+    "name": "Acana Wild Coast Classic, չոր կեր շների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'Acana Wild Coast Classic, չոր կեր շների համար (կիլոգրամով)' - same Wild Coast Classic food sold per kg; same description as the 9.7 kg page. Manufacturer on page: Acana. Page price 4350, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1151,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-all-breeds-prairie-poultry-suhoj-korm-s-kuritsej-i-indejkoj-dlya-sobak-9-7-kg",
+    "price": 35000,
+    "old_price": null,
+    "name": "ACANA Adult All Breeds Prairie Poultry Сухой корм с курицей и индейкой для собак, 9.7 кг",
+    "in_stock": true,
+    "evidence": "Acana (Classics) Prairie Poultry dog dry, 9.7 kg pack (the 14.5 kg is a separate listing). Option 'Упак (9,7 кг)' = 35000. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-prairie-poultry-չոր-կեր-114-կգ",
+    "price": 35000,
+    "old_price": null,
+    "name": "ACANA PRAIRIE POULTRY - Չոր կեր (9.7 կգ)",
+    "in_stock": true,
+    "evidence": "Slug says 11.4 but the name is 'ACANA PRAIRIE POULTRY - Չոր կեր (9.7 կգ)', description 'Չափսը 9.7 կգ'. Manufacturer on page: Acana. Page price 35000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1361,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-all-breed-prairie-poultry-suhoj-korm-s-kuritsej-i-indejkoj-dlya-sobak-11-4-kg",
+    "price": 3700,
+    "old_price": null,
+    "name": "ACANA Adult All Breeds Prairie Poultry Сухой корм с курицей и индейкой для собак, 1 кг",
+    "in_stock": true,
+    "evidence": "Page name 'ACANA Adult All Breeds Prairie Poultry ... 1 кг' with option 'На развес, 1 кг' (pack option 'Упак (9,7 кг)') - Prairie Poultry loose per kg. Option 'На развес, 1 кг' = 3700. Page stock: 'В наличии · 14 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-prairie-poultry-չոր-կեր-կիլոգրամով-2",
+    "price": 3750,
+    "old_price": null,
+    "name": "ACANA PRAIRIE POULTRY - Չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA PRAIRIE POULTRY - Չոր կեր (կիլոգրամով)' - same food per kg. Manufacturer on page: Acana. Page price 3750, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1158,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-classic-red-suhoj-korm-s-govyadinoj-svininoj-i-yagnenkom-dlya-sobak-upakovka-9-7-kg",
+    "price": 40000,
+    "old_price": null,
+    "name": "Acana Classic RED Сухой корм с говядиной, свининой и ягненком для собак, упаковка 9,7 кг",
+    "in_stock": false,
+    "evidence": "Acana Classic RED dog dry (beef/pork/lamb), 9.7 kg pack; page has no options, single price. Page price 40000. Page stock block reads 'Под заказ' (on order) - treated as out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-acana-classic-red",
+    "price": 40000,
+    "old_price": null,
+    "name": "Կեր շների` ACANA Classic Red 9.7կգ",
+    "in_stock": true,
+    "evidence": "Name 'Կեր շների` ACANA Classic Red 9.7կգ', lamb/pork/angus - same item. Manufacturer on page: Acana. Page price 40000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1362,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-classic-red-suhoj-korm-s-govyadinoj-svininoj-i-yagnenkom-dlya-sobak-na-razves-1-kg",
+    "price": 4250,
+    "old_price": null,
+    "name": "Acana Classic RED Сухой корм с говядиной, свининой и ягненком для собак, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Listing 'Acana Classic RED ... на развес 1 кг' - same Classic Red food sold loose (zoovet's pack option on that page is its 14.5 kg bag; recipe identical). Option 'На развес, 1 кг' = 4250. Page stock: 'В наличии · 13 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-acana-classic-red-կիլոգրամով",
+    "price": 4250,
+    "old_price": null,
+    "name": "Կեր շների` ACANA Classic RED (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'Կեր շների` ACANA Classic RED (կիլոգրամով)' - same food per kg. Manufacturer on page: Acana. Page price 4250, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1164,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-wild-prairie-suhoj-korm-indejka-tsyplenok-forel-i-sudak-dlya-sobak-upakovka-11-4-kg",
+    "price": 52400,
+    "old_price": null,
+    "name": "Acana Wild Prairie Сухой корм индейка. цыпленок, форель и судак для собак, упаковка 11.4 кг",
+    "in_stock": false,
+    "evidence": "Acana Wild Prairie DOG dry (turkey/chicken/trout/pike-perch), 11.4 kg pack. Option 'Упак (11,4 кг)' = 52400. Page stock: 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-wild-prairie-չոր-կեր-114-կգ",
+    "price": 52400,
+    "old_price": null,
+    "name": "Acana Wild Prairie, չոր կեր շների համար, 11.4 կգ",
+    "in_stock": true,
+    "evidence": "Name 'Acana Wild Prairie, չոր կեր շների համար, 11.4 կգ' - dog, 11.4 kg. Manufacturer on page: Acana. Page price 52400, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1176,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-yorkshire-pork-suhoj-korm-iz-svininy-dlya-sobak-upakovka-11-4-kg",
+    "price": 52000,
+    "old_price": null,
+    "name": "Acana Yorkshire Pork Сухой корм из свинины для собак, упаковка 11.4 кг",
+    "in_stock": false,
+    "evidence": "Acana (Singles) Yorkshire Pork dog dry, 11.4 kg pack. Option 'Упак (11,4 кг)' = 52000. Page stock: 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-yorkshire-pork-խոզի-մսով-չոր-կեր-շների-համար-114-կգ",
+    "price": 52000,
+    "old_price": null,
+    "name": "«ACANA Yorkshire Pork» խոզի մսով չոր կեր շների համար (11,4 կգ)",
+    "in_stock": true,
+    "evidence": "Name '«ACANA Yorkshire Pork» ... (11,4 կգ)', 50% pork singles - same item. Manufacturer on page: Acana. Page price 52000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1182,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-grass-fed-lamb-suhoj-korm-s-novozelandskim-yagnenkom-dlya-sobak-upakovka-11-4-kg",
+    "price": 58000,
+    "old_price": null,
+    "name": "ACANA Grass-Fed Lamb Сухой корм с новозеландским ягненком для собак, упаковка 11.4 кг",
+    "in_stock": true,
+    "evidence": "Acana (Singles) Grass-Fed Lamb dog dry, 11.4 kg pack; page has no options (17 kg is a separate listing at 85000). Page price 58000. Page stock: 'В наличии · 2 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-grass-fed-lamb-չոր-կեր-114-կգ",
+    "price": 58000,
+    "old_price": null,
+    "name": "ACANA Grass-Fed Lamb - Չոր կեր (11,4 կգ)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA Grass-Fed Lamb - Չոր կեր (11,4 կգ)' - same item. Manufacturer on page: Acana. Page price 58000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1365,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-grass-fed-lamb-suhoj-korm-s-novozelandskim-yagnenkom-dlya-sobak-upakovka-17-kg",
+    "price": 5200,
+    "old_price": null,
+    "name": "ACANA Grass-Fed Lamb Сухой корм с новозеландским ягненком для собак, упаковка 17 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Listing 'ACANA Grass-Fed Lamb ... упаковка 17 кг, на развес 1 кг' - same Grass-Fed Lamb food sold loose (zoovet pours from the 17 kg bag; recipe identical to our 11.4 kg bag). The 11.4 kg page has no loose option. Option 'На развес, 1 кг' = 5200. Page stock: 'В наличии · 15 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-grass-fed-lamb-չոր-կեր-կիլոգրամով",
+    "price": 5200,
+    "old_price": null,
+    "name": "ACANA Grass-Fed Lamb - Չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA Grass-Fed Lamb - Չոր կեր (կիլոգրամով)' - same food per kg. Manufacturer on page: Acana. Page price 5200, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1184,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-puppy-small-breed-suhoj-korm-tsyplenok-indejka-i-kambala-dlya-sobak-upakovka-6-kg",
+    "price": 26300,
+    "old_price": null,
+    "name": "Acana PUPPY SMALL BREED Сухой корм цыпленок, индейка и камбала для собак, упаковка 6 кг",
+    "in_stock": false,
+    "evidence": "Acana Puppy Small Breed (Heritage) dog dry, 6 kg pack. Option 'Упак (6 кг)' = 26300. Page stock: 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-puppy-small-breed-չոր-կեր-6-կգ",
+    "price": 26300,
+    "old_price": null,
+    "name": "ACANA PUPPY SMALL BREED չոր կեր (6 կգ)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA PUPPY SMALL BREED չոր կեր (6 կգ)', description 'Քաշը՝ 6 կգ'. Manufacturer on page: Acana. Page price 26300, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1366,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-puppy-small-breed-suhoj-korm-tsyplenok-indejka-i-kambala-dlya-sobak-11-4-kg",
+    "price": 4500,
+    "old_price": null,
+    "name": "Acana PUPPY SMALL BREED Сухой корм цыпленок, индейка и камбала для собак, упаковка 6 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Listing 'Acana PUPPY SMALL BREED ... упаковка 6 кг, на развес 1 кг' - Puppy Small Breed loose per kg. Option 'На развес, 1 кг' = 4500. Page stock: 'В наличии · 4 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-puppy-small-breed-չոր-կեր-կիլոգրամով",
+    "price": 4500,
+    "old_price": null,
+    "name": "ACANA PUPPY SMALL BREED չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA PUPPY SMALL BREED չոր կեր (կիլոգրամով)' - same food per kg. (nemo also has a '2 կգ' listing at 4500 - not used.) Manufacturer on page: Acana. Page price 4500, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1187,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched 'acana', 'acana junior|acana puppy', 'junior', 'щенков', 'acana heritage'. zoovet's only Acana puppy food is Puppy Small Breed (6 kg 26300) - a different line (small breed). No Puppy & Junior."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-heritage-puppy-junior-չոր-կեր-ձագերի-համար-114-կգ",
+    "price": 44500,
+    "old_price": null,
+    "name": "ACANA HERITAGE Puppy & Junior չոր կեր ձագերի համար ( 11,4 կգ)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA HERITAGE Puppy & Junior չոր կեր ձագերի համար ( 11,4 կգ)' = hafo 'ACANA Puppy & Junior Heritage 11.4 կգ'. 17 kg is a separate listing (64000). Manufacturer on page: Acana. Page price 44500, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1725,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Acana Puppy & Junior at all (pack or loose); nearest is Puppy Small Breed loose 4500 - a different line."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-heritage-puppy-junior-չոր-կեր-ձագերի-համար-կիլոգրամով",
+    "price": 4000,
+    "old_price": null,
+    "name": "ACANA HERITAGE Puppy & Junior չոր կեր ձագերի համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA HERITAGE Puppy & Junior չոր կեր ձագերի համար (կիլոգրամով)' - same food per kg. Manufacturer on page: Acana. Page price 4000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1189,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-small-breed-suhoj-korm-tsyplenok-indejka-i-kambala-dlya-sobak-upakovka-6-kg",
+    "price": 26300,
+    "old_price": null,
+    "name": "Acana ADULT SMALL BREED Сухой корм цыпленок, индейка и камбала для собак, упаковка 6 кг",
+    "in_stock": true,
+    "evidence": "Acana Adult Small Breed (Heritage) dog dry, 6 kg pack. (A separate 340 g listing exists - not ours.) Option 'Упак (6 кг)' = 26300. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'acana', 'acana adult', 'acana heritage', 'small breed|smallbreed', 'small|փոքր', 'acana 6 կգ'. nemo has no Acana Adult Small Breed; nearest is ACANA PUPPY SMALL BREED 6 կգ (26300) - different lifestage."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1367,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-small-breed-suhoj-korm-tsyplenok-indejka-i-kambala-dlya-sobak-11-4-kg",
+    "price": 4500,
+    "old_price": null,
+    "name": "Acana ADULT SMALL BREED Сухой корм цыпленок, индейка и камбала для собак, упаковка 6 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Listing 'Acana ADULT SMALL BREED ... упаковка 6 кг, на развес 1 кг' (slug says 11-4-kg, the name is authoritative) - Adult Small Breed loose per kg. Option 'На развес, 1 кг' = 4500. Page stock: 'В наличии · 7 шт'."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no Acana Adult Small Breed at all (pack or per kg); nearest is ACANA PUPPY SMALL BREED (կիլոգրամով) 4500 - different lifestage."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1191,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-grasslands-suhoj-korm-s-yagnenkom-dlya-sobak-11-4-kg-5604",
+    "price": 60000,
+    "old_price": null,
+    "name": "Acana Grasslands сухой корм с ягненком для собак, 11.4 кг",
+    "in_stock": true,
+    "evidence": "Acana Grasslands DOG dry (lamb), 11.4 kg pack. Option 'Упак (11,4 кг)' = 60000. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-grasslands-չոր-կեր-114-կգ",
+    "price": 60000,
+    "old_price": null,
+    "name": "ACANA GRASSLANDS չոր կեր (11.4 կգ)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA GRASSLANDS չոր կեր (11.4 կգ)', dogs, lamb - same item. Manufacturer on page: Acana. Page price 60000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1726,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-grasslands-suhoj-korm-s-yagnenkom-dlya-sobak-11-4-kg",
+    "price": 5400,
+    "old_price": null,
+    "name": "Acana Grasslands сухой корм с ягненком для собак, 11.4 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Listing 'Acana Grasslands сухой корм с ягненком для собак, 11.4 кг, на развес 1 кг' - same food loose. Option 'На развес, 1 кг' = 5400. Page stock: 'В наличии · 18 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-grasslands-չոր-կեր-կիլոգրամով",
+    "price": 5400,
+    "old_price": null,
+    "name": "ACANA GRASSLANDS չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA GRASSLANDS չոր կեր (կիլոգրամով)', dogs - same food per kg. Manufacturer on page: Acana. Page price 5400, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1193,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-pacifica-suhoj-korm-s-ryboj-dlya-sobak-11-4-kg-5605",
+    "price": 56000,
+    "old_price": null,
+    "name": "Acana Pacifica Сухой корм с рыбой для собак, 11.4 кг",
+    "in_stock": true,
+    "evidence": "Acana Pacifica DOG dry (fish), 11.4 kg pack. Option 'Упак (11,4 кг)' = 56000. Page stock: 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-pacifica-չոր-կեր-114-կգ",
+    "price": 56000,
+    "old_price": null,
+    "name": "ACANA PACIFICA չոր կեր (11,4 կգ)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA PACIFICA չոր կեր (11,4 կգ)', dogs - same item. (Pacific Pilchard is a different singles line.) Manufacturer on page: Acana. Page price 56000, availability 'in stock'."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1727,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-pacifica-suhoj-korm-s-ryboj-dlya-sobak-11-4-kg",
+    "price": 5050,
+    "old_price": null,
+    "name": "Acana Pacifica Сухой корм с рыбой для собак, 11.4 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Listing 'Acana Pacifica Сухой корм с рыбой для собак, 11.4 кг, на развес 1 кг' - same food loose. Option 'На развес, 1 кг' = 5050. Page stock: 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/acana-pacifica-չոր-կեր-114-կգ-2",
+    "price": 5050,
+    "old_price": null,
+    "name": "ACANA PACIFICA չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Name 'ACANA PACIFICA չոր կեր (կիլոգրամով)' (slug says 114) - dog Pacifica per kg. Manufacturer on page: Acana. Page price 5050, availability 'in stock'."
+   },
+   "confidence": "high"
+  }
+ ]
+}

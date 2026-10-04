@@ -1,0 +1,227 @@
+[
+ {
+  "variant_id": 914,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Inspector Quadro Капли против глистов, блох и клещей для собак (1-4 кг), 1 пипетка",
+   "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-kapli-protiv-glistov-bloh-i-kleschej-dlya-sobak-1-4-kg-1-pipetka",
+   "price": 4900,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Re-opened today: Inspector Quadro drops for DOGS 1-4 kg, 1 pipette, 4900 AMD, no old price, 'Нет в наличии'. Single pipette is right: hafo sells the 3-pipette 1-4 kg dog pack under a separate SKU (790662, 11680), so our 077592 at 4870 is the single carton. The zoovet '(упаковка 3 пип), поштучно' listing (3650) is a per-piece pipette from a 3-pack - not this."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo SKU search '077592' and EAN '4607092077598' return nothing (nemo's SKU search does find the other hafo SKUs in this batch, e.g. 077612, 077982, 073252). Name searches 'inspector' (17 results, 3 pages), 'quadro', '1-4 կգ', '1-4 կգ շների', 'Կաթիլներ տզերի', 'ճիճուների' show only the 1-4 kg dog 3-pipette pack (11680, count differs) and the 1-4 kg CAT single drops ('Ճիճուների դեմ կաթիլներ 1-4 կգ կատուների համար', 4630 = hafo's cat SKU 077562)."
+  },
+  "reason": "Same shops found at the same prices; confidence raised to high (hafo's separate 3-pack SKU confirms our item is the single pipette)."
+ },
+ {
+  "variant_id": 1410,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Inspector Quadro Капли против глистов, блох и клещей для собак (10-25 кг), 1 пипетка",
+   "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-gelmintov-glistov/inspector-quadro-kapli-protiv-glistov-bloh-i-kleschej-dlya-sobak-10-25-kg-1-pipetka",
+   "price": 6350,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Re-opened today: Inspector Quadro drops for dogs 10-25 kg, 1 pipette, 6350 AMD, no old price, 'Нет в наличии'. The 3-pack per-piece listing (5100) is a different pack."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ճիճուների դեմ կաթիլներ 10-25 կգ շների համար",
+   "url": "https://www.nemo.am/ճիճուների-դեմ-կաթիլներ-10-25-կգ-շների-համար",
+   "price": 6330,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo SKU search '077612' returns exactly this page (same article as hafo/ours); photo = Inspector Quadro C 10-25 kg carton; 6330 AMD, no out-of-stock label. The page also prints 'հին գինը: 5700' - an old price LOWER than today's 6330 (a price rise, not a discount), so old_price left null. nemo's 3-pipette listing (15190) is a different count."
+  },
+  "notes": "rival.py nemo-page cannot read nemo old prices: its regex captures the label span 'հին գինը:' instead of the value span, so old_price always comes back null.",
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 918,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Inspector brand list (22 items: Quadro drops/tabs, collars, spray, Mini) has no ear drops; searches 'Inspector ушн', 'Инспектор', 'ушные капли', 'капли уш', 'для ушей' and EAN 4607092077925 find only Анандин, Декта Форте, lotions."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo SKU '077922' / EAN '4607092077925' return nothing; 'inspector' (all 17 results) has no ear drops; 'հակամիջատային' gives only the Inspector spray, Rolf shampoo, БлохНэт; 'ականջի', 'ականջի կաթիլներ' give only Trixie/Otidez/Otoxolan/Bioline ear products."
+  },
+  "reason": "Neither shop carries it - same as matcher."
+ },
+ {
+  "variant_id": 919,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells Inspector Quadro Tabs 0.5-2 kg only per tablet: page '(упаковка 4 шт), поштучно', 2800 AMD for one tablet, no options (https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-0-5-2-kg-upakovka-4-sht-poshtuchno). Our item is the whole 4-tablet box - count differs. No whole-box listing in the Inspector brand list."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ճիճվամուղ հաբեր շների և կատուների համար՝ 0.5-2 կգ",
+   "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-շների-և-կատուների-համար-05-2-կգ",
+   "price": 8340,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo SKU search '077982' returns this box listing (and the separate '(1հաբ)' single-tablet listing, 2400); page says 0.5-2 kg, 'Տուփի մեջ առկա է 4հաբ' (4 tablets per box); photo = Inspector Quadro Tabs 0.5-2 kg carton; 8340 AMD, no old price, no out-of-stock label."
+  },
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 1264,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells Inspector Quadro Tabs 2-8 kg only per tablet: page '(упаковка 4 шт), поштучно', 2400 AMD for one tablet, no options (https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-2-8-kg-upakovka-4-sht). Our item is the whole 4-tablet box - count differs."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ճիճվամուղ հաբեր շների և կատուների համար՝ 2-8 կգ Inspector/Quadro",
+   "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-շների-և-կատուների-համար-2-8-կգ-inspectorquadro",
+   "price": 9530,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo SKU search '077992' returns this box listing (plus the '(1հատ)' single-tablet listing, 2700); page: 2-8 kg, 'Տուփի մեջ առկա է 4հաբ' (4 tablets); 9530 AMD, no old price, no out-of-stock label."
+  },
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 1265,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells Inspector Quadro Tabs 8-16 kg only per tablet: page '(упаковка 4 таб), поштучно', 3600 AMD for one tablet, no options (https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-8-16-kg-upakovka-4-tab-poshtuchno). Our item is the whole 4-tablet box - count differs."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ճիճվամուղ հաբեր շների և կատուների համար՝ 8-16 կգ Inspector/Quadro",
+   "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-շների-և-կատուների-համար-8-16-կգ-inspectorquadro",
+   "price": 10720,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo SKU search '078002' returns this box listing (plus the '(1 հաբ)' single-tablet listing, 3000); page: 8-16 kg, 'Տուփի մեջ առկա է 4հաբ' (4 tablets); 10720 AMD, no old price, no out-of-stock label."
+  },
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 1414,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells Inspector Quadro Tabs for dogs over 16 kg only per tablet: page '(упаковка 4 таб), поштучно', 3000 AMD for one tablet, no options (https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-sobak-bolee-16-kg-upakovka-4-tab-poshtuchno). Our item is the whole 4-tablet box - count differs."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ճիճվամուղ հաբեր շների համար՝ 16 կգ-ից բարձր Inspector/Quadro",
+   "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-շների-համար-16-կգ-ից-բարձր-inspectorquadro",
+   "price": 11910,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo SKU search '078012' returns this box listing (plus the '(1հատ)' single-tablet listing, 3300); page: dogs over 16 kg, 'Տուփի մեջ առկա է 4հաբ' (4 tablets); 11910 AMD, no old price, no out-of-stock label."
+  },
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 1034,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Inspector Ошейник против глистов, блох и клешей для собак крупных пород, 75 см",
+   "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-oshejnik-protiv-glistov-bloh-i-kleshej-dlya-sobak-krupnyh-porod",
+   "price": 5750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Re-opened today: Inspector collar against worms, fleas and ticks for large-breed dogs, 75 cm, 5750 AMD, no old price, 'В наличии · 1 шт'. The 65 cm medium-breed collar (5500) and 40 cm collar (4200) are other lengths."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ճիճուներ և տզերի դեմ վզկապ մեծ շների համար (75 սմ)",
+   "url": "https://www.nemo.am/ճիճուներ-և-տզերի-դեմ-վզկապ-մեծ-շների-համար-75-սմ",
+   "price": 5500,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "nemo SKU search '073252' returns this page; photo = Inspector collar carton 'длина 75 см, для крупных собак'; 5500 AMD, no old price; page body shows 'Առկայությունը: Առկա չէ' (out of stock), even though its og:availability meta says 'in stock'."
+  },
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 1752,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Inteko/Интеко brand; searches 'Интеко', 'inteko', 'лоток сетк', 'сеткой', EAN 4605350036233 find only Gamma ('Туалет для кошек с сеткой' Стандарт/Колор/Барсик/Леопольд) and Triol/Nunbell trays - other brands."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Տակդիր կատուների լցանյութի համար՝ Интеко",
+   "url": "https://www.nemo.am/տակդիր-կատուների-լցանյութի-համար-интеко",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "nemo SKU search '03623K' (our article) returns this page; text 'Интеко Ցանցով Չափս՝ M' (with mesh, size M) - hafo has only this one Inteko tray; 1650 AMD, no old price; page body shows 'Առկայությունը: Առկա չէ' (out of stock)."
+  },
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 1351,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Justin brand; searches 'Justin', 'Джастин' and EAN 4620213830773 return nothing."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo SKU '83077J' / EAN return nothing (its SKU search does find the cat pouch 83007J). 'Justin' = 6 CAT pouches 75 g at 130 (beef, lamb, chicken, chicken-liver, rabbit, turkey); nearest is 'Պաուչ կատուների համար՝Justin,տավար 75 գ' = hafo cat SKU 83007J - cat, not dog. 'Պաուչ շների' (Monge Fresh only) and 'սոուսում' (18 results) show no Justin dog pouch."
+  },
+  "reason": "Neither shop carries it - same as matcher."
+ },
+ {
+  "variant_id": 1990,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Kaskad brand list is empty; searches 'Каскад', 'Kaskad', 'мышка', 'мышь', 'Мышь винил', EAN 4605350020041 show only Trixie/Triol/Gamma/Gigwi/ZooZooZoo cat mice and a ZooZooZoo dog mouse with ring - none is this 11 cm vinyl dog mouse."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Խաղալիք շների համար՝ «Զվարճալի մուկ»",
+   "url": "https://www.nemo.am/խաղալիք-շների-համար-զվարճալի-մուկ",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo SKU search '02004K' (our article) returns exactly this page; dog toy 'Funny mouse', '11 սմ'; photo = the grey rubber mouse with red nose (hafo-watermarked image); 1650 AMD, no old price, no out-of-stock label."
+  },
+  "notes": "nemo page doesn't print the brand; identity from the matching SKU 02004K, 11 cm size and photo.",
+  "reason": "Same shops found at the same prices."
+ },
+ {
+  "variant_id": 1991,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Kaskad brand list is empty; 'Каскад', 'ошейник колокольчик', 'колокольчиком', 'ошейник кожаный', EAN 4605350048120 find only Trixie/Triol cat collars and Gamma leather dog collars - none is a 10 mm x 28 cm pink padded leather collar with bells."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo SKU '04812K' / EAN return nothing. 'Каскад' gives only 'Վզնոց շների համար՝ Каскад Classic, կաշի փափուկ պաստառով' (30 mm, 44-53 cm, no bells, 2950); 'Կաշվե վզնոց' gives Be Nordic and 'Կաշվե վզնոց՝ շների համար, վարդագույն' (12 mm x 20-24 cm, no bells, 950); 'վարդագույն' gives nylon 'Վզկապ (Օշեյնիկ)' 10-25 mm and Premium collars; 'զանգակով' gives Triol/My Home nylon cat collars. None matches size, material and bells."
+  },
+  "reason": "Neither shop carries it - same as matcher."
+ }
+]

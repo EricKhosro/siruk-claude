@@ -1,0 +1,50 @@
+{
+ "results": [
+  {
+   "variant_id": 952,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list has no Ok-Lock row (searched ok-lock/ок-лок, SMART + наполнитель, EAN 4640144110140); plant litters there are Trixie Tofu etc. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/smart-լցանյութ-ok-lock-5-լ",
+    "price": 3850,
+    "old_price": 4200,
+    "name": "SMART լցանյութ՝ OK-LOCK, 5 լ",
+    "in_stock": true,
+    "evidence": "nemo search 'OK-LOCK' returns it; page manufacturer Ok-Lock, clumping plant-based (բուսական լցոնիչ) cat litter, 5 լ; name = hafo row 'SMART Լցանյութ՝ OK-LOCK, 5 լ'. Raw page: 'հին գինը: 4200֏', price 3850, in stock. 11 l and 8.5 kg listings are other packs."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo; verifier's page confirmed on every axis today."
+  },
+  {
+   "variant_id": 1309,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list has no Ok-Lock row (searched ok-lock/ок-лок, SMART + наполнитель, EAN 4640144110126). zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/smart-լցանյութ-ok-lock-11-լ",
+    "price": 7700,
+    "old_price": 8400,
+    "name": "SMART լցանյութ՝ OK-LOCK, 11 լ",
+    "in_stock": true,
+    "evidence": "nemo search 'OK-LOCK' returns it; manufacturer Ok-Lock, clumping plant-based cat litter, 11 լ; name = hafo row. Raw page: 'հին գինը: 8400֏', price 7700, in stock."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed nemo; verifier's page confirmed on every axis today."
+  }
+ ]
+}

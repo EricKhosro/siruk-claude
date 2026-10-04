@@ -1,0 +1,27 @@
+{
+ "results": [
+  {
+   "variant_id": 447,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-baffos-lakomstvo-s-govyadinoj-dlya-sobak-140-g",
+    "price": 1500,
+    "old_price": null,
+    "name": "Trixie Baffos Лакомство с говядиной для собак, 140 г",
+    "in_stock": true,
+    "evidence": "Saved row: Trixie Baffos with beef, 140 g, 1500, in stock - the only Baffos row on zoovet. Both earlier answers agree (page: beef and tripe, 140 g). zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փափուկ-baffos",
+    "price": 1500,
+    "old_price": null,
+    "name": "«Baffos» գունավոր ստիկս",
+    "in_stock": true,
+    "evidence": "nemo search on our article '31508' returns this page; manufacturer Trixie, 'Քաշը՝ 140գ', soft snack of beef and tripe for small dogs/puppies. 1500, in stock. The other Baffos page (baffos-փափուկ-պատառ, 850) is 75 g - different pack."
+   },
+   "confidence": "high",
+   "reason": "Matcher saw only the 75 g page; article search and the page confirm the 140 g Baffos at 1500."
+  }
+ ]
+}

@@ -1,0 +1,538 @@
+[
+ {
+  "variant_id": 1613,
+  "product_id": 1130,
+  "brand": "Eco-Premium",
+  "product": "Eco-Premium Clumping Wood Litter, Peach",
+  "variant_label": "5 l",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "5 L",
+  "sku": "48905E",
+  "ean": "4631155489059",
+  "register_name_hy": "Լցանյութ՝ կատուների համար, Eco-Premium, գնդվող, փայտե հիմքով, Դեղձի հոտով, 5 լ",
+  "xlsx_name_en": "Clumping Wood Litter, Peach — 5 l",
+  "siruk_price": 4000,
+  "siruk_url": "https://siruk.am/product/eco-premium-clumping-wood-litter-peach/dp/1613/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/eco-premium-lcanyut-gndvox-payte-himqov-deghdzi-hotov-5-l",
+   "row_name": "Լցանյութ՝ կատուների համար, Eco-Premium, գնդվող, փայտե հիմքով, Դեղձի հոտով, 5 լ",
+   "sku": "48905E",
+   "price": 3950
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Eco-Premium Алое вера Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-aloe-vera-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium Голубой Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-goluboj-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3750
+    },
+    {
+     "name": "Eco-Premium Зеленый Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-zelenyj-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3750
+    },
+    {
+     "name": "Eco-Premium Зеленый чай Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-zelenyj-chaj-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium Лаванда Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-lavanda-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium Персик Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-persik-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, դեղձի հոտով, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-դեղձի-հոտով-5-լ",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, երիցուկի հոտով, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-երիցուկի-հոտով-5-լ",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, լավանդայի հոտով, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-լավանդայի-հոտով-5-լ",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, կանաչ թեյի հոտով, 5լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-կանաչ-թեյի-հոտով-20լ-copy",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, BLUE, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-blue-5-լ",
+     "list_price": 3750
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, GREEN, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-green-5-լ",
+     "list_price": 3750
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1614,
+  "product_id": 1131,
+  "brand": "Eco-Premium",
+  "product": "Eco-Premium Clumping Wood Litter, Green Tea",
+  "variant_label": "5 l",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "5 L",
+  "sku": "48893E",
+  "ean": "4631155488939",
+  "register_name_hy": "Լցանյութ՝ կատուների համար, Eco-Premium, գնդվող, փայտե հիմքով, Կանաչ թեյի հոտով, 5 լ",
+  "xlsx_name_en": "Clumping Wood Litter, Green Tea — 5 l",
+  "siruk_price": 4000,
+  "siruk_url": "https://siruk.am/product/eco-premium-clumping-wood-litter-green-tea/dp/1614/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/eco-premium-lcanyut-gndvox-payte-himqov-kanach-teyi-hotov-5-l",
+   "row_name": "Լցանյութ՝ կատուների համար, Eco-Premium, գնդվող, փայտե հիմքով, Կանաչ թեյի հոտով, 5 լ",
+   "sku": "48893E",
+   "price": 3950
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Eco-Premium Алое вера Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-aloe-vera-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium Голубой Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-goluboj-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3750
+    },
+    {
+     "name": "Eco-Premium Зеленый Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-zelenyj-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3750
+    },
+    {
+     "name": "Eco-Premium Зеленый чай Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-zelenyj-chaj-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium Лаванда Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-lavanda-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium Персик Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-persik-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+     "list_price": 3950
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, կանաչ թեյի հոտով, 5լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-կանաչ-թեյի-հոտով-20լ-copy",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, GREEN, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-green-5-լ",
+     "list_price": 3750
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, դեղձի հոտով, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-դեղձի-հոտով-5-լ",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, երիցուկի հոտով, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-երիցուկի-հոտով-5-լ",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, լավանդայի հոտով, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-լավանդայի-հոտով-5-լ",
+     "list_price": 3950
+    },
+    {
+     "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, BLUE, 5 լ",
+     "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-blue-5-լ",
+     "list_price": 3750
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 923,
+  "product_id": 767,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Spot-on for Cats",
+  "variant_label": "up to 4 kg, 0.4 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "0.4 ml",
+  "sku": "073452",
+  "ean": "4607092073453",
+  "register_name_hy": "Կաթիլներ մինչև 4կգ կատուների համար, Spot-on/E101",
+  "xlsx_name_en": "Spot-on for Cats — up to 4 kg, 0.4 ml",
+  "siruk_price": 2900,
+  "siruk_url": "https://siruk.am/product/gelmintal-spot-on-for-cats/dp/923/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-dem-katilner-miinchev-4kg-katuneri-hamar",
+   "row_name": "Կաթիլներ մինչև 4կգ կատուների համար, Spot-on/E101",
+   "sku": "073452",
+   "price": 2910
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": [
+    {
+     "name": "«Spot On» հանգստացնող կաթիլներ շների և կատուների համար",
+     "url": "https://www.nemo.am/spot-on-հանգստացնող-կաթիլներ-շների-և-կատուների-համար",
+     "list_price": 2720
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1418,
+  "product_id": 767,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Spot-on for Cats",
+  "variant_label": "4–10 kg, 1 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "1 ml",
+  "sku": "073722",
+  "ean": "4607092073729",
+  "register_name_hy": "Կաթիլներ 4-10կգ կատուների համար Spot-on/E106",
+  "xlsx_name_en": "Spot-on for Cats — 4–10 kg, 1 ml",
+  "siruk_price": 3700,
+  "siruk_url": "https://siruk.am/product/gelmintal-spot-on-for-cats/dp/1418/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-dem-katilner-minchev-10kg-katuneri-hamar",
+   "row_name": "Կաթիլներ 4-10կգ կատուների համար Spot-on/E106",
+   "sku": "073722",
+   "price": 3670
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": [
+    {
+     "name": "«Spot On» հանգստացնող կաթիլներ շների և կատուների համար",
+     "url": "https://www.nemo.am/spot-on-հանգստացնող-կաթիլներ-շների-և-կատուների-համար",
+     "list_price": 2720
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 925,
+  "product_id": 769,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Spot-on for Dogs",
+  "variant_label": "puppies and dogs up to 10 kg, 2 × 0.5 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "1 ml",
+  "sku": "074302",
+  "ean": "4607092074306",
+  "register_name_hy": "Գելմենտալ մինչև 10կգ  շների  SPOT-ON/E107",
+  "xlsx_name_en": "Spot-on for Dogs — puppies and dogs up to 10 kg, 2 × 0.5 ml",
+  "siruk_price": 3700,
+  "siruk_url": "https://siruk.am/product/gelmintal-spot-on-for-dogs/dp/925/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-dem-katilner-minchev-10kg-shneri-hamar",
+   "row_name": "Գելմենտալ մինչև 10կգ  շների  SPOT-ON/E107",
+   "sku": "074302",
+   "price": 3670
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1415,
+  "product_id": 769,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Spot-on for Dogs",
+  "variant_label": "over 10 kg, 2 × 2.5 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "5 ml",
+  "sku": "074312",
+  "ean": "4607092074313",
+  "register_name_hy": "Գելմենտալ  10 կգ-ից բարձր շների SPOT-ON/E108",
+  "xlsx_name_en": "Spot-on for Dogs — over 10 kg, 2 × 2.5 ml",
+  "siruk_price": 5050,
+  "siruk_url": "https://siruk.am/product/gelmintal-spot-on-for-dogs/dp/1415/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-dem-katilner-shneri-hamar",
+   "row_name": "Գելմենտալ  10 կգ-ից բարձր շների SPOT-ON/E108",
+   "sku": "074312",
+   "price": 5020
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 927,
+  "product_id": 771,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Syrup for Cats",
+  "variant_label": "kittens and cats up to 4 kg, 5 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "5 ml",
+  "sku": "074022",
+  "ean": "4607092074023",
+  "register_name_hy": "ճիճվամուղ մինչև 4կգ կատուների համար 5մլ E203",
+  "xlsx_name_en": "Syrup for Cats — kittens and cats up to 4 kg, 5 ml",
+  "siruk_price": 2200,
+  "siruk_url": "https://siruk.am/product/gelmintal-syrup-for-cats/dp/927/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-dem-osharak-katuneri-hamar",
+   "row_name": "ճիճվամուղ մինչև 4կգ կատուների համար 5մլ E203 ",
+   "sku": "EG 074022",
+   "price": 2210
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": [
+    {
+     "name": "Գել կենդանիների աչքերի համար, վիտամին A-ով, 5մլ",
+     "url": "https://www.nemo.am/գել-կենդանիների-աչքերի-համար-վիտամին-a-ով-5մլ",
+     "list_price": 3300
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար` բադի և ճագարի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-բադի-և-ճագարի-համով-105-գ-2",
+     "list_price": 1750
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար` ճուտիկի և լյարդի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-ճուտիկի-և-լյարդի-համով-105-գ",
+     "list_price": 1450
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար` սալմոնի և իշխանի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-սալմոնի-և-իշխանի-համով-105-գ",
+     "list_price": 1750
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար՝ հնդկահավի և գառի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-հնդկահավի-և-գառի-համով-105-գ",
+     "list_price": 1450
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար՝ հորթի և լյարդի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-հորթի-և-լյարդի-համով-105-գ",
+     "list_price": 1450
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1419,
+  "product_id": 771,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Syrup for Cats",
+  "variant_label": "over 4 kg, 5 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "5 ml",
+  "sku": "074052",
+  "ean": "4607092074054",
+  "register_name_hy": "ճիճվամուղ օշարակ 4կգ բարձր կատուների համար 5մլ  E201",
+  "xlsx_name_en": "Syrup for Cats — over 4 kg, 5 ml",
+  "siruk_price": 2850,
+  "siruk_url": "https://siruk.am/product/gelmintal-syrup-for-cats/dp/1419/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-dem-osharak-katuneri-hamar-4kg-avel",
+   "row_name": "ճիճվամուղ օշարակ 4կգ բարձր կատուների համար 5մլ  E201",
+   "sku": "EG 074052",
+   "price": 2820
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": [
+    {
+     "name": "Գել կենդանիների աչքերի համար, վիտամին A-ով, 5մլ",
+     "url": "https://www.nemo.am/գել-կենդանիների-աչքերի-համար-վիտամին-a-ով-5մլ",
+     "list_price": 3300
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար` բադի և ճագարի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-բադի-և-ճագարի-համով-105-գ-2",
+     "list_price": 1750
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար` ճուտիկի և լյարդի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-ճուտիկի-և-լյարդի-համով-105-գ",
+     "list_price": 1450
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար` սալմոնի և իշխանի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-սալմոնի-և-իշխանի-համով-105-գ",
+     "list_price": 1750
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար՝ հնդկահավի և գառի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-հնդկահավի-և-գառի-համով-105-գ",
+     "list_price": 1450
+    },
+    {
+     "name": "Մնյամս ձողիկներ կատուների համար՝ հորթի և լյարդի համով, 10*5 գ",
+     "url": "https://www.nemo.am/մնյամս-ձողիկներ-կատուների-համար-հորթի-և-լյարդի-համով-105-գ",
+     "list_price": 1450
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 929,
+  "product_id": 773,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Syrup for Dogs",
+  "variant_label": "puppies and dogs up to 10 kg, 10 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "10 ml",
+  "sku": "074042",
+  "ean": "4607092074047",
+  "register_name_hy": "Գելմենտալ օշարակ  10կգ-ից ցածր շների և ձագերի համար E204",
+  "xlsx_name_en": "Syrup for Dogs — puppies and dogs up to 10 kg, 10 ml",
+  "siruk_price": 2850,
+  "siruk_url": "https://siruk.am/product/gelmintal-syrup-for-dogs/dp/929/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-dem-osharak-dzageri-hamar",
+   "row_name": "Գելմենտալ օշարակ  10կգ-ից ցածր շների և ձագերի համար E204",
+   "sku": "EG 074042",
+   "price": 2840
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 931,
+  "product_id": 775,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Tablets for Cats",
+  "variant_label": "kittens and cats up to 4 kg, 2 tablets",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "2 pcs",
+  "sku": "074072",
+  "ean": "4607092074078",
+  "register_name_hy": "Ճիճվամուղ հաբեր մինչև 4 կգ կատուների համար, Գելմենտալ E301",
+  "xlsx_name_en": "Tablets for Cats — kittens and cats up to 4 kg, 2 tablets",
+  "siruk_price": 2700,
+  "siruk_url": "https://siruk.am/product/gelmintal-tablets-for-cats/dp/931/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichvamux-haber-katuneri-hamar-minchev-4kg",
+   "row_name": "Ճիճվամուղ հաբեր մինչև 4 կգ կատուների համար, Գելմենտալ E301",
+   "sku": "074072",
+   "price": 2650
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1420,
+  "product_id": 775,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Tablets for Cats",
+  "variant_label": "over 4 kg, 2 tablets",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "2 pcs",
+  "sku": "074082",
+  "ean": "4607092074085",
+  "register_name_hy": "Ճիճվամուղ հաբեր 4 կգ-ից ավել կատուների համար, Գելմենտալ E302",
+  "xlsx_name_en": "Tablets for Cats — over 4 kg, 2 tablets",
+  "siruk_price": 4200,
+  "siruk_url": "https://siruk.am/product/gelmintal-tablets-for-cats/dp/1420/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichvamux-haber-katuneri-hamar-4kg-ic-barcr",
+   "row_name": "Ճիճվամուղ հաբեր 4 կգ-ից ավել կատուների համար, Գելմենտալ E302",
+   "sku": "074082",
+   "price": 4190
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 933,
+  "product_id": 777,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Tablets for Dogs",
+  "variant_label": "puppies and dogs up to 10 kg, 2 tablets",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "2 pcs",
+  "sku": "074092",
+  "ean": "4607092074092",
+  "register_name_hy": "Ճիճվամուղ հաբեր մինչև 10կգ շների համար, Գելմենտալ E303",
+  "xlsx_name_en": "Tablets for Dogs — puppies and dogs up to 10 kg, 2 tablets",
+  "siruk_price": 3100,
+  "siruk_url": "https://siruk.am/product/gelmintal-tablets-for-dogs/dp/933/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichvamux-haber-shneri-hamar-minchev-10kg",
+   "row_name": "Ճիճվամուղ հաբեր մինչև 10կգ շների համար, Գելմենտալ E303",
+   "sku": "074092",
+   "price": 3090
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1417,
+  "product_id": 777,
+  "brand": "Gelmintal",
+  "product": "Gelmintal Tablets for Dogs",
+  "variant_label": "over 10 kg, 2 tablets",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "2 pcs",
+  "sku": "074102",
+  "ean": "4607092074108",
+  "register_name_hy": "Ճիճվամուղ հաբեր 10 կգ-ից ավել շների համար, Գելմենտալ E304",
+  "xlsx_name_en": "Tablets for Dogs — over 10 kg, 2 tablets",
+  "siruk_price": 4400,
+  "siruk_url": "https://siruk.am/product/gelmintal-tablets-for-dogs/dp/1417/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichvamux-haber-shneri-hamar-10kg-ic-barcr",
+   "row_name": "Ճիճվամուղ հաբեր 10 կգ-ից ավել շների համար, Գելմենտալ E304",
+   "sku": "074102",
+   "price": 4410
+  },
+  "candidate_hints": {
+   "zoovet": [],
+   "nemo": []
+  }
+ }
+]

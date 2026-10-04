@@ -1,0 +1,27 @@
+{
+ "results": [
+  {
+   "variant_id": 2009,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Зубочистики Лакомство для чистки зубов для поддержки пищеварения для собак от 10 - 25 кг, 70 г",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/zubochistiki-lakomstvo-dlya-chistki-zubov-dlya-poddergki-pischevareniya-dlya-sobak-ot-10-25-kg-70-g",
+    "price": 1350,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Both agents agree and were right. Opened today: Зубочистики chlorophyll line, for dogs 10-25 kg, 70 g, matching hafo DL 303986 (70 g, 4 pcs, mint). 1350 AMD, no struck-through price, no options, В наличии · 2 шт."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Համեղ պատառ ատամների խնամքի համար(անանուխով)",
+    "url": "https://www.nemo.am/համեղ-պատառ-ատամների-խնամքի-համարանանուխով",
+    "price": 1350,
+    "old_price": 1650,
+    "in_stock": false,
+    "evidence": "Verifier right, matcher wrong. nemo pid 1754 carries hafo DL 303986 exact title. Short description says Քաշը՝ 70գ, Քանակը՝ 4 հատ plus chlorophyll. Pack photo 0002552 shows 4 штуки, обогащены хлорофиллом, для собак 10-25 кг. Price 1350 with old price 1650; stock-availability says Առկա չէ (out of stock), though the og meta tag says in stock. It has no manufacturer tag, which is why it is missing from the brand list, but nemo search for Համեղ պատառ ատամների returns it. The matcher only found -2 (pid 6473, Деревенские лакомства, 1350/1650, also Առկա չէ). That page has hafo DL 303976 title, and its photo 0009339 shows 7 штук, для собак до 10 кг (60 g), so it is a different item."
+   },
+   "notes": "Tie-break batch-07: verifier correct on nemo. rival.py nemo-page under-reports here: old_price comes back null because the regex catches the label span, and stock reads the og meta (in stock) rather than the visible Առկա չէ."
+  }
+ ]
+}

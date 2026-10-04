@@ -1,0 +1,375 @@
+{
+ "results": [
+  {
+   "variant_id": 430,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no row with article 009267 / EAN 8009470009263 (hafo-sku, hafo-live by code: nothing). The only Simba dog paté 150 g on hafo is a different flavour: 009257 'SIMBA պաշտետ շների` տավարի համով, 150 գ' (beef & chickpeas), 480 AMD, https://hafo.am/products/pashtet-shneri-hamar-tavari-msov-ev-siserov. Ours is chicken & liver."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Simba list has only 415 g / 1.23 kg cans and the 20 kg dry beef; no 150 g paté (searched 'simba', 'simba 150', 'simba паштет', 'simba печень')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's Simba list has only 415 g / 720 g / 1230 g cans and dry food; no 150 g chicken & liver paté (searched 'simba', 'simba 150', 'սիմբա')."
+   },
+   "confidence": "medium",
+   "notes": "Simba Paté Adult chicken & liver 150 g: no rival sells this flavour. hafo only has the beef 150 g paté (480 AMD)."
+  },
+  {
+   "variant_id": 1700,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo sells only the bag: 009977 'Կեր շների` թունա, SIMBA 20կգ' 21000 AMD, kg_price null (dump and live API), https://hafo.am/products/monge-simba-tuna-dzuk-20kg. hafo does not sell it per kg."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells Simba dry dog only with beef (20 kg + 'на развес 1 кг' 1100). No tuna (searched 'simba', 'simba тунец', 'simba развес')."
+   },
+   "nemo": {
+    "found": true,
+    "evidence": "nemo product page 'Monge Simba թունա ձուկ (կիլոգրամով)', manufacturer Simba; the description says it is the 20 kg adult-dog tuna food, sold per kg. Price 1150, in stock. Siblings on nemo are the 20 kg tuna bag (21000) and other flavours sold per kg.",
+    "name": "Monge Simba թունա ձուկ (կիլոգրամով)",
+    "price": 1150,
+    "old_price": null,
+    "in_stock": true,
+    "url": "https://www.nemo.am/monge-simba-թունա-համով-կիլոգրամով"
+   },
+   "confidence": "high",
+   "notes": "1 kg of Simba adult dog tuna (20 kg bag) sold loose: nemo 1150 = siruk 1150."
+  },
+  {
+   "variant_id": 1702,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo sells only the bag: 009957 'Կեր շների` գառ, SIMBA 20կգ' 21000 AMD, kg_price null (dump and live API), https://hafo.am/products/monge-simba-garan-msov-20kg. hafo does not sell it per kg."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells Simba dry dog only with beef. No lamb dry food (searched 'simba', 'simba ягн', 'simba развес')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo only has the bag 'Monge Simba գառան մսով (20կգ)' 21000 AMD (https://www.nemo.am/monge-simba-գառան-համով-20-կգ). It has no per-kg (կիլոգրամով) listing for lamb; per-kg Simba on nemo is chicken, beef and tuna only."
+   },
+   "confidence": "medium",
+   "notes": "1 kg of Simba adult dog lamb (20 kg bag) sold loose: no rival sells it per kg."
+  },
+  {
+   "variant_id": 753,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 300617 / EAN 8009470300612. Gemon adult dog pouches on hafo are MM 300607 'Պաուչ Gemon Adult շների հորթի մսով 100գ' (beef & ham, 450) and MM 300627 'թռչնամիս 100գ' (duck, 450), with no salmon."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells no Gemon dog pouch. Its Gemon pouches are all cat pouches (searched 'gemon', 'gemon пауч', 'gemon лосос', 'gemon собак')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's only Gemon dog pouch is 'Gemon, պաուչ տարեց շների համար, 100 գ' (senior turkey, 400). Its salmon pouches are cat pouches (searched 'gemon պաուչ', 'gemon սաղմոն|սալմոն')."
+   },
+   "confidence": "medium",
+   "notes": "Gemon All Breeds adult dog pouch salmon 100 g: not sold by any rival."
+  },
+  {
+   "variant_id": 1035,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 387947 / EAN 8009470387941. hafo's Gemon Maxi Adult 1.25 kg cans are beef & rice (MM 387907, 1750) and fish (MM 387937, 1750), with no pork."
+   },
+   "zoovet": {
+    "found": true,
+    "evidence": "zoovet page title says 'с курицей и свининой' (chicken & pork), but the description on the same page reads 'Gemon Влажный корм со свининой для собак крупных пород (32-80 кг), 1.25 кг' and gives flavour Свинина, weight 1.25. The product photo shows Gemon Adult MAXI 'Bocconi con maiale e riso / chunks with pork and rice 1250g', which is our product. Price 1750, in stock (5 pcs), zoovet code ME-00004377.",
+    "name": "Gemon Влажный корм с курицей и свининой для собак крупных пород (32-80 кг), 1.25 кг",
+    "price": 1750,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "ME-00004377",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-kuritsej-i-svininoj-dlya-sobak-krupnyh-porod-32-80-kg-1-25-kg"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo lists no Gemon 1.25 kg dog cans; it has only the 415 g cans and 400 g patés (searched 'gemon', 'gemon 1250|1.250|1.25', 'gemon խոզ')."
+   },
+   "confidence": "medium",
+   "notes": "zoovet's title wrongly adds chicken. The page description, the flavour field and the photo (Maxi Adult pork & rice 1250 g) all match our 387947. zoovet 1750 vs siruk 2100."
+  },
+  {
+   "variant_id": 1030,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 387957 / EAN 8009470387958. hafo's Gemon 1.25 kg cans are Medium Adult lamb (MM 387917) and chicken/turkey (MM 387927), and Maxi Adult beef (MM 387907) and fish (MM 387937), all 1750. There is no All Breeds salmon & vegetables."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Gemon 1.25 kg cans are Maxi beef & rice, Maxi pork, Medium chicken & turkey and Medium lamb & rice, with no salmon & vegetables (searched 'gemon', 'gemon собак', 'gemon лосос', 'gemon овощ')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo lists no Gemon 1.25 kg dog cans. Its salmon items are cat food or the 415 g 'թունա/սաղմոն' dog can (searched 'gemon', 'gemon սաղմոն|սալմոն', 'gemon 1250')."
+   },
+   "confidence": "medium",
+   "notes": "Gemon All Breeds Adult salmon & vegetables 1250 g: not sold by any rival."
+  },
+  {
+   "variant_id": 1031,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 387967 / EAN 8009470387965. The nearest is the 415 g can 387857 'Պահածո Gemon միջին ցեղ. հասուն շն. համար հորթ/լյարդ 415 գ' (750), a different size and line. There is no veal/liver/veg 1.25 kg."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet only has 'Gemon ... с говядиной и печенью для собак средних пород (12-30 кг), 415 г' (750), a different size. It has no 1.25 kg veal, liver & vegetables can."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo only has the 415 g 'Պահածո Gemon միջին ցեղատեսակի հասուն շների համար հորթ/լյարդ' (750), a different size. It has no 1.25 kg can."
+   },
+   "confidence": "medium",
+   "notes": "Gemon All Breeds Adult veal, liver & vegetables 1250 g: not sold by any rival. Only the 415 g medium-breed veal/liver can exists."
+  },
+  {
+   "variant_id": 1578,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 300417 / EAN 8009470300414. hafo's Gemon dog beef paté is 400 g only: 387807 'Պաշտետ Gemon շների՝ տավարի համով, 400 գ' (800), a different size."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Gemon dog 150 g paté. Its only Gemon dog paté is 'Gemon Dog LIGHT паштет с тунцом для собак, 400 г' (searched 'gemon паштет', 'gemon 150')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has only the 400 g Gemon dog patés ('Gemon պաշտետ շների համար՝ տավարի համով', 800) and no 150 g (searched 'gemon պաշտետ', 'gemon 150')."
+   },
+   "confidence": "medium",
+   "notes": "Gemon adult dog paté beef 150 g: no rival sells the 150 g size. Only the 400 g (800 AMD) exists."
+  },
+  {
+   "variant_id": 1579,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 300447 / EAN 8009470300445. Only the 400 g lamb paté 387817 'Պաշտետ Gemon շների՝ գառի համով, 400 գ' (800), a different size."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Gemon dog lamb paté in any size (searched 'gemon паштет', 'gemon 150', 'gemon собак')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has only 'Gemon պաշտետ շների համար՝ գառի համով, 400 գ' (800), a different size. It has no 150 g."
+   },
+   "confidence": "medium",
+   "notes": "Gemon adult dog paté lamb 150 g: no rival sells the 150 g size."
+  },
+  {
+   "variant_id": 1580,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 300457 / EAN 8009470300452. Only the 400 g Light tuna paté 387847 'Պաշտետ Gemon շների՝ Light տունայի համով, 400 գ' (800, out of stock), a different size and line."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet only has 'Gemon Dog LIGHT паштет с тунцом для собак, 400 г' (800), a different size and line."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo only has 'Gemon Light պաշտետ շների համար՝ թունայի համով, 400 գ' (800), a different size and line."
+   },
+   "confidence": "medium",
+   "notes": "Gemon adult dog paté tuna 150 g: no rival sells the 150 g size."
+  },
+  {
+   "variant_id": 1581,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 300437 / EAN 8009470300438 and no Gemon dog turkey paté in any size (searched 'gemon պաշտետ շն', 'gemon 150')."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Gemon dog turkey paté (searched 'gemon паштет', 'gemon индейк', 'gemon 150')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no Gemon dog turkey paté. Its Gemon dog patés are beef, lamb and Light tuna, all 400 g."
+   },
+   "confidence": "medium",
+   "notes": "Gemon Mature dog paté Light turkey 150 g: not sold by any rival."
+  },
+  {
+   "variant_id": 1582,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 300657 / EAN 8009470300650. The nearest Gemon dog pouch is 300647 'Պաուչ շն. համար Gemon Senior հնդկահավի մսով 100գ' (senior turkey, 400, out of stock), a different line. There is no Sterilised chicken & turkey."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Gemon dog pouch. Its Gemon Sterilised items are cat food (searched 'gemon пауч', 'gemon индейк', 'gemon собак')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo only has 'Gemon, պաուչ տարեց շների համար, 100 գ' (senior, 400). Its Gemon Steril pouches are cat pouches."
+   },
+   "confidence": "medium",
+   "notes": "Gemon Sterilised adult dog pouch chicken & turkey 100 g: not sold by any rival."
+  },
+  {
+   "variant_id": 1694,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's bag row for our bag, 297267 'Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ' 16000, has kg_price null (dump and live API). The only Gemon adult chicken & turkey cat food hafo prices per kg is the separate older 20 kg line MM 310017 «Gemon Adult Chicken & Turkey» (kg_price 2000, out of stock). It has a different article, and nemo sells it loose at its own price (2250) apart from the 7 kg food (2400), so it is not the same item."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells Gemon cat dry only as Kitten and Sterilised beef 7 kg. It has no Adult chicken & turkey (searched 'gemon', 'gemon adult кошек', 'gemon индейк', EAN 8009470297264)."
+   },
+   "nemo": {
+    "found": true,
+    "evidence": "nemo product page 'Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ (կիլոգրամով)', the same name as the 7 kg bag listing 'Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ' (16000), sold per kg. The description is Gemon dry adult cat food with chicken and turkey. Price 2400, in stock.",
+    "name": "Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ (կիլոգրամով)",
+    "price": 2400,
+    "old_price": null,
+    "in_stock": true,
+    "url": "https://www.nemo.am/կեր-կատուների-gemon-adult-հավհնդկահավ-կիլոտրամով"
+   },
+   "confidence": "high",
+   "notes": "1 kg of Gemon Adult cat chicken & turkey (7 kg bag) sold loose: nemo 2400 = siruk 2400. The 20 kg older line is per-kg 2000 on hafo (out of stock) and 2250 on nemo. It is a separate item and is not used."
+  },
+  {
+   "variant_id": 1655,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo sells only the bag: 006487 'Կեր շների համար All breed Puppy ՝ հորթ/բրինձ 15 կգ' 42000, kg_price null (dump and live API), https://hafo.am/products/monge-all-breed-puppy-junior-horti-hamov-15-kg. No other hafo row of this beef food has a kg price."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Monge All Breeds Puppy & Junior foods are trout, lamb, salmon and duck. It has no beef/veal (searched 'monge puppy', 'monge all breeds', 'monge говядин|телятин', 'щенков говяд|телят', EAN)."
+   },
+   "nemo": {
+    "found": true,
+    "evidence": "nemo product page 'Monge All Breed Puppy/Junior, հորթի համով (կիլոգրամով)': dry food for puppies of all breeds, veal flavour. The sibling is the 15 kg bag listing (42000). Price 2950, in stock. The page notes orders start from 6 kg.",
+    "name": "Monge All Breed Puppy/Junior, հորթի համով (կիլոգրամով)",
+    "price": 2950,
+    "old_price": null,
+    "in_stock": true,
+    "url": "https://www.nemo.am/monge-all-breed-puppyjunior-հորթի-համով-կիլոգրամով"
+   },
+   "confidence": "high",
+   "notes": "1 kg of Monge All Breeds Puppy & Junior beef & rice (15 kg bag) sold loose: nemo 2950 = siruk 2950."
+  },
+  {
+   "variant_id": 1664,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo sells only the bag: 005937 'Կեր շների MONGE MINI PUPPY/JUN. սաղմոն, 15կգ' 50000, kg_price null (dump and live API), https://hafo.am/products/monge-mini-puppy-junior-salmon-15-kg. hafo's other Mini Puppy rows with a kg price are lamb (005947, 3550) and chicken (MG 006107, 3200), which are different flavours."
+   },
+   "zoovet": {
+    "found": true,
+    "evidence": "zoovet product page 'Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, на развес 1 кг'. Options: 'На развес, 1 кг' 3550 and 'Упак (15 кг)' 50000, so it is sold loose from the 15 kg salmon bag. In stock (6 pcs).",
+    "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, на развес 1 кг",
+    "price": 3550,
+    "old_price": null,
+    "in_stock": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg"
+   },
+   "nemo": {
+    "found": true,
+    "evidence": "nemo product page 'Monge Mini Puppy Junior սալմոն (կիլոգրամով)': dry food for small-breed puppies, salmon. The page says the price is per 1 kg; the sibling is the 15 kg bag listing (50000). Price 3550, in stock.",
+    "name": "Monge Mini Puppy Junior սալմոն (կիլոգրամով)",
+    "price": 3550,
+    "old_price": null,
+    "in_stock": true,
+    "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-կիլոգրամով-2"
+   },
+   "confidence": "high",
+   "notes": "1 kg of Monge Mini Puppy & Junior salmon & rice (15 kg bag) sold loose: zoovet 3550 and nemo 3550, both = siruk 3550."
+  },
+  {
+   "variant_id": 1672,
+   "hafo": {
+    "found": true,
+    "evidence": "hafo's row for our 12 kg bag, 004417 'Կեր շների MONGE MAXI ADULT 12կգ' (34000, out of stock), has no kg_price. hafo sells the same food (Monge Maxi Adult chicken & rice, for 32-80 kg adult dogs) loose through its 15 kg row MG 006137 'Կեր շների MONGE MAXI ADULT 15կգ' (EAN 8009470006132): kg_price 2700, 3267 in stock (dump and live API). The food is the same and only the bag differs. zoovet prices both bags' loose food the same (2800), and nemo has one per-kg Maxi Adult listing.",
+    "name": "Կեր շների MONGE MAXI ADULT 15կգ (kg_price)",
+    "price": 2700,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "MG 006137",
+    "url": "https://hafo.am/products/monge-maxi-adult"
+   },
+   "zoovet": {
+    "found": true,
+    "evidence": "zoovet product page for the exact 12 kg bag, 'Monge Maxi Adult Сухой корм с курицей и рисом для взрослых собак крупных пород, упаковка 12 кг' (ME-00008943AD). Options: 'На развес, 1 кг' 2800 and 'Упак (12 кг)' 33000. Stock: 'Под заказ' (made to order, delivery from 2 days). The separate '... на развес 1 кг' page shows the same 2800.",
+    "name": "Monge Maxi Adult Сухой корм с курицей и рисом для взрослых собак крупных пород, упаковка 12 кг (На развес, 1 кг)",
+    "price": 2800,
+    "old_price": null,
+    "in_stock": null,
+    "sku": "ME-00008943AD",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-adult-suhoj-korm-s-kuricej-i-risom-dlya-vzroslyh-sobak-krupnyh-porod-upakovka-12-kg"
+   },
+   "nemo": {
+    "found": true,
+    "evidence": "nemo product page 'Կեր շների MONGE MAXI ADULT (կիլոգրամով)': for adult dogs growing to 32-80 kg, with fresh chicken and rice, sold per kg. Price 2700, in stock. nemo also lists the 12 kg bag (34000) with the same description.",
+    "name": "Կեր շների MONGE MAXI ADULT (կիլոգրամով)",
+    "price": 2700,
+    "old_price": null,
+    "in_stock": true,
+    "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-կիլոգրամով"
+   },
+   "confidence": "medium",
+   "notes": "1 kg of Monge Maxi Adult chicken (12 kg bag) sold loose. hafo prices it only through its 15 kg row (kg_price 2700 = siruk 2700), because its 12 kg row has no kg price. nemo 2700. zoovet 2800 on the exact 12 kg page (made to order). If only the exact bag row counts for hafo, the rival is zoovet at 2800."
+  },
+  {
+   "variant_id": 1583,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 142545 / EAN 4820269142541 and no Club 4 Paws mackerel item. hafo's 85 g Club 4 Paws cat pouches are veal, chicken, rabbit, lamb, beef, duck and turkey. The nearest is 908955 '4 ԹԱԹ Premium ժելե կատու, ձուկ/սոուս 100գ' (generic fish, 100 g, 270, out of stock), a different size and recipe."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Club4Paws wet cat food is all 100 g (beef, turkey, rabbit, chicken, duck, lamb) with no mackerel (searched 'club 4', 'скумбри', 'mackerel')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo only has '4 ԹԱԹ Premium ժելե կատուների՝ ձուկ սոուսով' (generic fish in gravy, 100 g per page, 270), a different size and recipe. It has no mackerel 85 g (searched 'սկումբրիա', 'club 4', '4 թաթ')."
+   },
+   "confidence": "medium",
+   "notes": "Club 4 Paws Premium adult cat mackerel in gravy 85 g: not sold by any rival."
+  },
+  {
+   "variant_id": 1584,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 367575 / EAN 4820215367578. The nearest items are a different lifestage or recipe: 142515 '4 ԹԱԹ կատվի ժելե՝ ճագարի մսով, 85 գ' (regular adult rabbit, 85 g, 270) and 908935 '4 ԹԱԹ ժելե կատուների համար Sterilised 80գ' (Sterilised chicken, 270)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet only has 'Club4Paws Влажный корм с кроликом для кошек, 100 г' (310). Its page says it is for adult cats, 100 g, ME-00000342, and it is not Sterilised, so it differs in line and size."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo only has 'Club 4 Paws Sterilised, հավի ժելե կատուների համար, 80 գ' (chicken, 270). It has no Sterilised rabbit (searched 'club 4', '4 paws', 'ճագար ժելե')."
+   },
+   "confidence": "medium",
+   "notes": "Club 4 Paws Premium Sterilised rabbit in jelly 80 g: not sold by any rival. The Sterilised chicken 80 g sells for 270 on hafo and nemo."
+  },
+  {
+   "variant_id": 1585,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has no article 144975 / EAN 4820269144972. The nearest is 142525 '4 ԹԱԹ կատվի ժելե՝ հավ/սոուսում, 85 գ' (EAN 4820269142527, regular adult chicken in gravy, 270), a different lifestage: ours is 7+."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Club4Paws 7+/senior item. It only has 'Club4Paws Влажный корм с курицей в соусе для кошек, 100 г' (310, adult, 100 g)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no Club 4 Paws 7+ chicken in gravy. Its '7+' search hits are only Royal Canin, and its Club 4 Paws list has Kitten, Sensitive, Sterilised and adult jellies."
+   },
+   "confidence": "medium",
+   "notes": "Club 4 Paws Premium adult cat 7+ chicken in gravy 85 g: not sold by any rival. The register name omits '7+', but the EAN and the xlsx name say 7+. The regular adult version is 270 on hafo."
+  }
+ ]
+}

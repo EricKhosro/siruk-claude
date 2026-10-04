@@ -1,0 +1,2068 @@
+[
+ {
+  "variant_id": 1691,
+  "product_id": 1166,
+  "brand": "Gemon",
+  "product": "Gemon Kitten Cat",
+  "variant_label": "Chicken & Rice 7 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "7 kg",
+  "sku": "297257",
+  "ean": "8009470297257",
+  "register_name_hy": "Կեր կատուների՝ GEMON KITTEN, հավ/բրինձ 7 կգ",
+  "xlsx_name_en": "Kitten Cat — Chicken & Rice 7 kg",
+  "siruk_price": 17000,
+  "siruk_url": "https://siruk.am/product/gemon-kitten-cat/dp/1691/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-katuneri-dzageri-hamar-gemon-kitten-hav-brindz-7kg",
+   "row_name": "Կեր կատուների՝ GEMON KITTEN, հավ/բրինձ 7 կգ",
+   "sku": "297257",
+   "price": 17000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5660",
+     "list_price": 17000
+    },
+    {
+     "name": "Gemon Kitten Mousse Влажный корм с курицей и лососем для котят, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-kitten-mousse-vlagnyj-korm-s-kuritsej-i-lososem-dlya-kotyat-85-g",
+     "list_price": 450
+    },
+    {
+     "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, на равес 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-sterilised-suhoj-korm-s-govyadinoj-dlya-sterilizovannyh-koshek-upakovka-7-kg",
+     "list_price": 2900
+    },
+    {
+     "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, упаковка 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5687",
+     "list_price": 19500
+    },
+    {
+     "name": "Gemon Adult Mousse Влажный корм с лососем и курицей для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-lososem-i-kuritsej-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-7-կգ",
+     "list_price": 17000
+    },
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-կիլոգրամով",
+     "list_price": 2550
+    },
+    {
+     "name": "Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-gemon-adult-հավհնդկահավ-7-կգ",
+     "list_price": 16000
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, սաղմոն/թունա, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-սաղմոնթունա-7-կգ",
+     "list_price": 19500
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, տավար, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-տավար-7-կգ",
+     "list_price": 19500
+    },
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten",
+     "list_price": 24500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1692,
+  "product_id": 1166,
+  "brand": "Gemon",
+  "product": "Gemon Kitten Cat",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken & Rice 7 kg",
+  "size": "1 kg",
+  "sku": "297257-KG",
+  "ean": "8009470297257",
+  "register_name_hy": "Կեր կատուների՝ GEMON KITTEN, հավ/բրինձ 7 կգ",
+  "xlsx_name_en": "Kitten Cat — Chicken & Rice 7 kg",
+  "siruk_price": 2550,
+  "siruk_url": "https://siruk.am/product/gemon-kitten-cat/dp/1692/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-katuneri-dzageri-hamar-gemon-kitten-hav-brindz-7kg",
+   "row_name": "Կեր կատուների՝ GEMON KITTEN, հավ/բրինձ 7 կգ",
+   "sku": "297257",
+   "price": 2550
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Kitten Mousse Влажный корм с курицей и лососем для котят, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-kitten-mousse-vlagnyj-korm-s-kuritsej-i-lososem-dlya-kotyat-85-g",
+     "list_price": 450
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5660",
+     "list_price": 17000
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-կիլոգրամով",
+     "list_price": 2550
+    },
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-7-կգ",
+     "list_price": 17000
+    },
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten",
+     "list_price": 24500
+    },
+    {
+     "name": "«Gemon Adult Chicken & Turkey» չոր կեր կատուների համար (20 կգ)",
+     "url": "https://www.nemo.am/gemon-adult-chicken-and-turkey-չոր-կեր-կատուների-համար",
+     "list_price": 38000
+    },
+    {
+     "name": "«Gemon Adult Chicken & Turkey» չոր կեր կատուների համար (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-adult-chicken-and-turkey-չոր-կեր-կատուների-համար-2",
+     "list_price": 2250
+    },
+    {
+     "name": "Gemon Kitten ձագերի համար չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-kitten-ձագերի-համար-չոր-կեր",
+     "list_price": 43000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1693,
+  "product_id": 1167,
+  "brand": "Gemon",
+  "product": "Gemon Adult Cat",
+  "variant_label": "Chicken & Turkey 7 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "7 kg",
+  "sku": "297267",
+  "ean": "8009470297264",
+  "register_name_hy": "Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",
+  "xlsx_name_en": "Adult Cat — Chicken & Turkey 7 kg",
+  "siruk_price": 16000,
+  "siruk_url": "https://siruk.am/product/gemon-adult-cat/dp/1693/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-katuneri-gemon-adult-hav-hndkahav-7kg",
+   "row_name": "Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",
+   "sku": "297267",
+   "price": 16000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, на равес 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-sterilised-suhoj-korm-s-govyadinoj-dlya-sterilizovannyh-koshek-upakovka-7-kg",
+     "list_price": 2900
+    },
+    {
+     "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, упаковка 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5687",
+     "list_price": 19500
+    },
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5660",
+     "list_price": 17000
+    },
+    {
+     "name": "Gemon Adult Mousse Влажный корм с лососем и курицей для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-lososem-i-kuritsej-dlya-koshek-85-g",
+     "list_price": 450
+    },
+    {
+     "name": "Gemon Adult Mousse Влажный корм с курицей и свининой для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-kuritsej-i-svininoj-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-gemon-adult-հավհնդկահավ-7-կգ",
+     "list_price": 16000
+    },
+    {
+     "name": "«Gemon Adult Chicken & Turkey» չոր կեր կատուների համար (20 կգ)",
+     "url": "https://www.nemo.am/gemon-adult-chicken-and-turkey-չոր-կեր-կատուների-համար",
+     "list_price": 38000
+    },
+    {
+     "name": "«Gemon Adult Chicken & Turkey» չոր կեր կատուների համար (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-adult-chicken-and-turkey-չոր-կեր-կատուների-համար-2",
+     "list_price": 2250
+    },
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-7-կգ",
+     "list_price": 17000
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON ADULT հավ և հնդկահավ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-adult-հավ-և-հնդկահավ",
+     "list_price": 22000
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, սաղմոն/թունա, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-սաղմոնթունա-7-կգ",
+     "list_price": 19500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1695,
+  "product_id": 1168,
+  "brand": "Gemon",
+  "product": "Gemon Mini Adult Dog",
+  "variant_label": "Chicken & Rice 20 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "20 kg",
+  "sku": "MM005677",
+  "ean": "8009470005678",
+  "register_name_hy": "Կեր շների  GEMON   MINI  հավ   20կգ",
+  "xlsx_name_en": "Mini Adult Dog — Chicken & Rice 20 kg",
+  "siruk_price": 28000,
+  "siruk_url": "https://siruk.am/product/gemon-mini-adult-dog/dp/1695/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-mini-chicken",
+   "row_name": "Կեր շների  GEMON   MINI  հավ   20կգ",
+   "sku": "MM 005677",
+   "price": 28000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg-5441",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Adult Mousse Влажный корм с лососем и курицей для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-lososem-i-kuritsej-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon Mini Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-mini-chicken",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր-20-կգ",
+     "list_price": 29000
+    },
+    {
+     "name": "Gemon Maxi Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-puppyjunior-copy",
+     "list_price": 32000
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր",
+     "list_price": 1800
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Mini Chicken - Հավ (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-mini-chicken-2",
+     "list_price": 1500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1696,
+  "product_id": 1168,
+  "brand": "Gemon",
+  "product": "Gemon Mini Adult Dog",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken & Rice 20 kg",
+  "size": "1 kg",
+  "sku": "MM005677-KG",
+  "ean": "8009470005678",
+  "register_name_hy": "Կեր շների  GEMON   MINI  հավ   20կգ",
+  "xlsx_name_en": "Mini Adult Dog — Chicken & Rice 20 kg",
+  "siruk_price": 1500,
+  "siruk_url": "https://siruk.am/product/gemon-mini-adult-dog/dp/1696/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-mini-chicken",
+   "row_name": "Կեր շների  GEMON   MINI  հավ   20կգ",
+   "sku": "MM 005677",
+   "price": 1500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Monge Mini Adult Сухой корм с курицей и рисом для собак мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-kuritsej-i-risom-dlya-sobak-melkih-porod-upakovka-15-kg",
+     "list_price": 3000
+    },
+    {
+     "name": "Monge Mini Adult Сухой корм с лососем и рисом для взрослых собак мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-melkih-porod-upakovka-15-kg",
+     "list_price": 3500
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon Mini Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-mini-chicken",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր",
+     "list_price": 1800
+    },
+    {
+     "name": "Gemon Mini Chicken - Հավ (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-mini-chicken-2",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր-20-կգ",
+     "list_price": 29000
+    },
+    {
+     "name": "Gemon Maxi Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-puppyjunior-copy",
+     "list_price": 32000
+    },
+    {
+     "name": "Կեր շների համար՝ GEMON All Breed Puppy and Junior, հավ/բրինձ, 15 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-gemon-all-breed-puppy-and-junior-հավբրինձ-15-կգ",
+     "list_price": 30000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1697,
+  "product_id": 1169,
+  "brand": "Gemon",
+  "product": "Gemon Regular All Breeds Adult Dog",
+  "variant_label": "Chicken & Rice 20 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "20 kg",
+  "sku": "MM006177",
+  "ean": "8009470006170",
+  "register_name_hy": "Կեր շների  GEMON   REGULAR  20կգ",
+  "xlsx_name_en": "Regular All Breeds Adult Dog — Chicken & Rice 20 kg",
+  "siruk_price": 28000,
+  "siruk_url": "https://siruk.am/product/gemon-regular-adult-dog/dp/1697/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-regular",
+   "row_name": "Կեր շների  GEMON   REGULAR  20կգ",
+   "sku": "MM 006177",
+   "price": 28000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg-5441",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gran Bonta All Breeds Adult Влажный корм с говядиной для собак всех пород, 1.23 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gran-bonta-all-breeds-adult-vlagnyj-korm-s-govyadinoj-dlya-sobak-vseh-porod-1-23-kg",
+     "list_price": 1500
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon Regular (20կգ)",
+     "url": "https://www.nemo.am/gemon-regular",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Maxi Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-puppyjunior-copy",
+     "list_price": 32000
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Mini Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-mini-chicken",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր-20-կգ",
+     "list_price": 29000
+    },
+    {
+     "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) 20կգ",
+     "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-20կգ",
+     "list_price": 32500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1698,
+  "product_id": 1169,
+  "brand": "Gemon",
+  "product": "Gemon Regular All Breeds Adult Dog",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken & Rice 20 kg",
+  "size": "1 kg",
+  "sku": "MM006177-KG",
+  "ean": "8009470006170",
+  "register_name_hy": "Կեր շների  GEMON   REGULAR  20կգ",
+  "xlsx_name_en": "Regular All Breeds Adult Dog — Chicken & Rice 20 kg",
+  "siruk_price": 1500,
+  "siruk_url": "https://siruk.am/product/gemon-regular-adult-dog/dp/1698/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-regular",
+   "row_name": "Կեր շների  GEMON   REGULAR  20կգ",
+   "sku": "MM 006177",
+   "price": 1500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg-5441",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "ACANA Adult All Breeds Light & Fit Сухой корм с курицей и индейкой для собак, 11.4 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-adult-all-breed-light-fit-suhoj-korm-s-kuritsej-i-indejkoj-dlya-sobak-11-4-kg",
+     "list_price": 4050
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների համար՝ GEMON All Breed Puppy and Junior, հավ/բրինձ, 15 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-gemon-all-breed-puppy-and-junior-հավբրինձ-15-կգ",
+     "list_price": 30000
+    },
+    {
+     "name": "Gemon Regular (20կգ)",
+     "url": "https://www.nemo.am/gemon-regular",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր",
+     "list_price": 1800
+    },
+    {
+     "name": "Gemon Maxi Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-puppyjunior-copy",
+     "list_price": 32000
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ-կիլոգրամով",
+     "list_price": 1750
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1730,
+  "product_id": 1181,
+  "brand": "Gemon",
+  "product": "Gemon Sterilised Cat",
+  "variant_label": "Beef 7 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "7 kg",
+  "sku": "297277",
+  "ean": "8009470297271",
+  "register_name_hy": "Կեր կատուների՝ GEMON STERIL., տավար 7 կգ",
+  "xlsx_name_en": "Sterilised Cat — Beef 7 kg",
+  "siruk_price": 19500,
+  "siruk_url": "https://siruk.am/product/gemon-sterilised-cat/dp/1730/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-katuneri-hamar-gemon-steril-tavar-7kg",
+   "row_name": "Կեր կատուների՝ GEMON STERIL., տավար 7 կգ",
+   "sku": "297277",
+   "price": 19500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, на равес 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-sterilised-suhoj-korm-s-govyadinoj-dlya-sterilizovannyh-koshek-upakovka-7-kg",
+     "list_price": 2900
+    },
+    {
+     "name": "Gemon Sterilised Сухой корм с говядиной для стерилизованных кошек, упаковка 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5687",
+     "list_price": 19500
+    },
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg-5660",
+     "list_price": 17000
+    },
+    {
+     "name": "Gemon Sterilised Mousse Влажный корм с курицей и печенью для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-sterilised-mousse-vlagnyj-korm-s-kuritsej-i-pechenyu-dlya-koshek-85-g",
+     "list_price": 450
+    },
+    {
+     "name": "Gemon Sterilised Mousse Влажный корм с тунцом и свининой для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-sterilised-mousse-vlagnyj-korm-s-tuntsom-i-svininoj-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, տավար, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-տավար-7-կգ",
+     "list_price": 19500
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, սաղմոն/թունա, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-սաղմոնթունա-7-կգ",
+     "list_price": 19500
+    },
+    {
+     "name": "Gemon Sterilised հնդկահավ, 7կգ",
+     "url": "https://www.nemo.am/gemon-sterilised-հնդկահավ-7կգ",
+     "list_price": 16500
+    },
+    {
+     "name": "Կեր կատուների ձագերի համար՝ GEMON KITTEN, հավ/բրինձ, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-ձագերի-համար-gemon-kitten-հավբրինձ-7-կգ",
+     "list_price": 17000
+    },
+    {
+     "name": "Կեր կատուների՝ GEMON Adult, հավ/հնդկահավ 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-gemon-adult-հավհնդկահավ-7-կգ",
+     "list_price": 16000
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, տավար, (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-տավար-կիլոգրամով",
+     "list_price": 2900
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1731,
+  "product_id": 1181,
+  "brand": "Gemon",
+  "product": "Gemon Sterilised Cat",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Beef 7 kg",
+  "size": "1 kg",
+  "sku": "297277-KG",
+  "ean": "8009470297271",
+  "register_name_hy": "Կեր կատուների՝ GEMON STERIL., տավար 7 կգ",
+  "xlsx_name_en": "Sterilised Cat — Beef 7 kg",
+  "siruk_price": 2900,
+  "siruk_url": "https://siruk.am/product/gemon-sterilised-cat/dp/1731/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-katuneri-hamar-gemon-steril-tavar-7kg",
+   "row_name": "Կեր կատուների՝ GEMON STERIL., տավար 7 կգ",
+   "sku": "297277",
+   "price": 2900
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Sterilised Mousse Влажный корм с курицей и печенью для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-sterilised-mousse-vlagnyj-korm-s-kuritsej-i-pechenyu-dlya-koshek-85-g",
+     "list_price": 450
+    },
+    {
+     "name": "Gemon Sterilised Mousse Влажный корм с тунцом и свининой для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-sterilised-mousse-vlagnyj-korm-s-tuntsom-i-svininoj-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, տավար, (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-տավար-կիլոգրամով",
+     "list_price": 2900
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, տավար, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-տավար-7-կգ",
+     "list_price": 19500
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, սաղմոն/թունա, (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-սաղմոնթունա-կիլոգրամով",
+     "list_price": 2900
+    },
+    {
+     "name": "Կեր կատուների համար՝ GEMON STERIL, սաղմոն/թունա, 7 կգ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-սաղմոնթունա-7-կգ",
+     "list_price": 19500
+    },
+    {
+     "name": "Կեր կատուների համար` GEMON STERIL, հնդկահավ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-gemon-steril-հնդկահավ",
+     "list_price": 4500
+    },
+    {
+     "name": "«Gemon Adult Chicken & Turkey» չոր կեր կատուների համար (20 կգ)",
+     "url": "https://www.nemo.am/gemon-adult-chicken-and-turkey-չոր-կեր-կատուների-համար",
+     "list_price": 38000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1732,
+  "product_id": 1182,
+  "brand": "Gemon",
+  "product": "Gemon Medium Adult Dog",
+  "variant_label": "Lamb & Rice 20 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "20 kg",
+  "sku": "MM005617",
+  "ean": "8009470005616",
+  "register_name_hy": "Կեր շների  GEMON AGNELLO/RISO 20կգ",
+  "xlsx_name_en": "Medium Adult Dog — Lamb & Rice 20 kg",
+  "siruk_price": 32500,
+  "siruk_url": "https://siruk.am/product/gemon-medium-adult-dog/dp/1732/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-lamb-rice-chor-ker",
+   "row_name": "Կեր շների  GEMON AGNELLO/RISO 20կգ",
+   "sku": "MM 005617",
+   "price": 32500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg-5441",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Adult Mousse Влажный корм с лососем и курицей для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-lososem-i-kuritsej-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) 20կգ",
+     "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-20կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր-20-կգ",
+     "list_price": 29000
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ-կիլոգրամով",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Performance Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-performance-չոր-կեր-20-կգ",
+     "list_price": 31000
+    },
+    {
+     "name": "Gemon Super Energy Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-super-energy-չոր-կեր-20-կգ-2",
+     "list_price": 39000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1733,
+  "product_id": 1182,
+  "brand": "Gemon",
+  "product": "Gemon Medium Adult Dog",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Lamb & Rice 20 kg",
+  "size": "1 kg",
+  "sku": "MM005617-KG",
+  "ean": "8009470005616",
+  "register_name_hy": "Կեր շների  GEMON AGNELLO/RISO 20կգ",
+  "xlsx_name_en": "Medium Adult Dog — Lamb & Rice 20 kg",
+  "siruk_price": 1750,
+  "siruk_url": "https://siruk.am/product/gemon-medium-adult-dog/dp/1733/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-lamb-rice-chor-ker",
+   "row_name": "Կեր շների  GEMON AGNELLO/RISO 20կգ",
+   "sku": "MM 005617",
+   "price": 1750
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "ACANA Grass-Fed Lamb Сухой корм с новозеландским ягненком для собак, упаковка 17 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/acana-grass-fed-lamb-suhoj-korm-s-novozelandskim-yagnenkom-dlya-sobak-upakovka-17-kg",
+     "list_price": 5200
+    },
+    {
+     "name": "Club4Paws Medium Adult Сухой корм с курицей для собак средних пород, упаковка 14 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-medium-adult-suhoj-korm-s-kuritsej-dlya-sobak-srednih-porod-upakovka-14-kg",
+     "list_price": 1600
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ-կիլոգրամով",
+     "list_price": 1750
+    },
+    {
+     "name": "Կեր միջին ցեղատեսակի շների համար՝ GEMON MEDIUM ADULT",
+     "url": "https://www.nemo.am/կեր-միջին-ցեղատեսակի-շների-համար-gemon-medium-adult",
+     "list_price": 27000
+    },
+    {
+     "name": "Կեր միջին ցեղատեսակի շների համար՝ GEMON MEDIUM ADULT (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-միջին-ցեղատեսակի-շների-համար-gemon-medium-adult-կիլոգրամով",
+     "list_price": 1900
+    },
+    {
+     "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) 20կգ",
+     "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-20կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր",
+     "list_price": 1800
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1734,
+  "product_id": 1182,
+  "brand": "Gemon",
+  "product": "Gemon Medium Adult Dog",
+  "variant_label": "Tuna & Rice 20 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "20 kg",
+  "sku": "GM005607",
+  "ean": "8009470005609",
+  "register_name_hy": "Կեր շների  GEMON TONNO/RISO 20կգ",
+  "xlsx_name_en": "Medium Adult Dog — Tuna & Rice 20 kg",
+  "siruk_price": 32500,
+  "siruk_url": "https://siruk.am/product/gemon-medium-adult-dog/dp/1734/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-medium-dzuk-ev-brindz-20kg",
+   "row_name": "Կեր շների  GEMON TONNO/RISO 20կգ",
+   "sku": "GM 005607",
+   "price": 32500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg-5441",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Adult Mousse Влажный корм с лососем и курицей для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-lososem-i-kuritsej-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) 20կգ",
+     "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-20կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր-20-կգ",
+     "list_price": 29000
+    },
+    {
+     "name": "«Gemon Adult Tuna & Salmone» չոր կեր կատուների համար (20 կգ)",
+     "url": "https://www.nemo.am/gemon-adult-tuna-salmone-չոր-կեր-կատուների-համար",
+     "list_price": 43500
+    },
+    {
+     "name": "Gemon Performance Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-performance-չոր-կեր-20-կգ",
+     "list_price": 31000
+    },
+    {
+     "name": "Gemon Super Energy Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-super-energy-չոր-կեր-20-կգ-2",
+     "list_price": 39000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1735,
+  "product_id": 1182,
+  "brand": "Gemon",
+  "product": "Gemon Medium Adult Dog",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Tuna & Rice 20 kg",
+  "size": "1 kg",
+  "sku": "GM005607-KG",
+  "ean": "8009470005609",
+  "register_name_hy": "Կեր շների  GEMON TONNO/RISO 20կգ",
+  "xlsx_name_en": "Medium Adult Dog — Tuna & Rice 20 kg",
+  "siruk_price": 1750,
+  "siruk_url": "https://siruk.am/product/gemon-medium-adult-dog/dp/1735/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-medium-dzuk-ev-brindz-20kg",
+   "row_name": "Կեր շների  GEMON TONNO/RISO 20կգ",
+   "sku": "GM 005607",
+   "price": 1750
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Kitten Сухой корм с курицей и рисом для котят, упаковка 7 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/gemon-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-7-kg",
+     "list_price": 2550
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Club4Paws Medium Adult Сухой корм с курицей для собак средних пород, упаковка 14 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/club4paws-medium-adult-suhoj-korm-s-kuritsej-dlya-sobak-srednih-porod-upakovka-14-kg",
+     "list_price": 1600
+    },
+    {
+     "name": "Gemon Adult Mousse Влажный корм с лососем и курицей для кошек, 85 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-lososem-i-kuritsej-dlya-koshek-85-g",
+     "list_price": 450
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) 20կգ",
+     "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-20կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Կեր միջին ցեղատեսակի շների համար՝ GEMON MEDIUM ADULT",
+     "url": "https://www.nemo.am/կեր-միջին-ցեղատեսակի-շների-համար-gemon-medium-adult",
+     "list_price": 27000
+    },
+    {
+     "name": "Կեր միջին ցեղատեսակի շների համար՝ GEMON MEDIUM ADULT (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-միջին-ցեղատեսակի-շների-համար-gemon-medium-adult-կիլոգրամով",
+     "list_price": 1900
+    },
+    {
+     "name": "Gemon կեր շների համար Tonno/Riso (ձուկ և բրինձ) կիլոգրամով",
+     "url": "https://www.nemo.am/gemon-կեր-շների-համար-tonnoriso-ձուկ-և-բրինձ-կիլոգրամով",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Mini Salmon and Rice Չոր կեր (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-mini-salmon-and-rice-չոր-կեր",
+     "list_price": 1800
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1736,
+  "product_id": 1183,
+  "brand": "Gemon",
+  "product": "Gemon Puppy & Junior Dog",
+  "variant_label": "Chicken & Rice 20 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "20 kg",
+  "sku": "MM005627",
+  "ean": "8009470005623",
+  "register_name_hy": "Կեր շների  GEMON    PUPPY / JUNIOR   20կգ",
+  "xlsx_name_en": "Puppy & Junior Dog — Chicken & Rice 20 kg",
+  "siruk_price": 34000,
+  "siruk_url": "https://siruk.am/product/gemon-puppy-junior-dog/dp/1736/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-puppy-junior-hav-20",
+   "row_name": "Կեր շների  GEMON    PUPPY / JUNIOR   20կգ",
+   "sku": "MM 005627",
+   "price": 34000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg-5441",
+     "list_price": 28000
+    },
+    {
+     "name": "Gemon Regular Сухой корм с мясом для средних собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-regular-suhoj-korm-s-myasom-dlya-srednih-sobak-upakovka-20-kg",
+     "list_price": 1500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Сухой корм с тунцом и рисом для собак, упаковка 20 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-tuntsom-i-risom-dlya-sobak-upakovka-20-kg-na-razves-1-kg",
+     "list_price": 1750
+    },
+    {
+     "name": "Gemon Сухой корм с ягненком и рисом для собак, упаковка 20 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/gemon-suhoj-korm-s-yagnenkom-i-risom-dlya-sobak-upakovka-20-kg",
+     "list_price": 32500
+    },
+    {
+     "name": "Monge All Breeds Puppy & Junior Сухой корм с форелью, рисом и картофелем для щенков, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-puppy-junior-suhoj-korm-s-forelyu-risom-i-kartofelem-dlya-schenkov-upakovka-12-kg-5588",
+     "list_price": 44000
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Gemon Puppy& Junior - Հավ և բրինձ (20կգ)",
+     "url": "https://www.nemo.am/gemon-puppyjunior",
+     "list_price": 34000
+    },
+    {
+     "name": "Կեր շների համար՝ GEMON All Breed Puppy and Junior, հավ/բրինձ, 15 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-gemon-all-breed-puppy-and-junior-հավբրինձ-15-կգ",
+     "list_price": 30000
+    },
+    {
+     "name": "Gemon Maxi Puppy & Junior Չոր կեր (15 կգ)",
+     "url": "https://www.nemo.am/gemon-maxi-puppyjunior",
+     "list_price": 30000
+    },
+    {
+     "name": "Gemon Maxi Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-puppyjunior-copy",
+     "list_price": 32000
+    },
+    {
+     "name": "Gemon Lamb & Rice Չոր կեր (20 կգ)",
+     "url": "https://www.nemo.am/gemon-lamb-rice-չոր-կեր-20-կգ",
+     "list_price": 32500
+    },
+    {
+     "name": "Gemon Mini Chicken - Հավ (20կգ)",
+     "url": "https://www.nemo.am/gemon-mini-chicken",
+     "list_price": 28000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1737,
+  "product_id": 1183,
+  "brand": "Gemon",
+  "product": "Gemon Puppy & Junior Dog",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken & Rice 20 kg",
+  "size": "1 kg",
+  "sku": "MM005627-KG",
+  "ean": "8009470005623",
+  "register_name_hy": "Կեր շների  GEMON    PUPPY / JUNIOR   20կգ",
+  "xlsx_name_en": "Puppy & Junior Dog — Chicken & Rice 20 kg",
+  "siruk_price": 1800,
+  "siruk_url": "https://siruk.am/product/gemon-puppy-junior-dog/dp/1737/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/gemon-puppy-junior-hav-20",
+   "row_name": "Կեր շների  GEMON    PUPPY / JUNIOR   20կգ",
+   "sku": "MM 005627",
+   "price": 1800
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Puppy & Junior Сухой корм с форелью, рисом и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-puppy-junior-suhoj-korm-s-forelyu-risom-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge Bwild Puppy & Junior Сухой корм с уткой и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-puppy-junior-suhoj-korm-s-utokoj-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 4650
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Medium Puppy & Junior Сухой корм с курицей и рисом для щенков средних пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների համար՝ GEMON All Breed Puppy and Junior, հավ/բրինձ, 15 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-gemon-all-breed-puppy-and-junior-հավբրինձ-15-կգ",
+     "list_price": 30000
+    },
+    {
+     "name": "Gemon Puppy& Junior - Հավ և բրինձ (20կգ)",
+     "url": "https://www.nemo.am/gemon-puppyjunior",
+     "list_price": 34000
+    },
+    {
+     "name": "Gemon Maxi Puppy & Junior Չոր կեր (15 կգ)",
+     "url": "https://www.nemo.am/gemon-maxi-puppyjunior",
+     "list_price": 30000
+    },
+    {
+     "name": "Gemon Puppy& Junior - Հավ և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-puppyjunior-2",
+     "list_price": 1800
+    },
+    {
+     "name": "Gemon Maxi Puppy & Junior- Հավ և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/gemon-maxi-puppy-junior-հավով-և-բրինձով",
+     "list_price": 2100
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 909,
+  "product_id": 753,
+  "brand": "Inspector",
+  "product": "Inspector Flea & Tick Collar for Dogs",
+  "variant_label": "medium dogs, 65 cm",
+  "kind": "pack",
+  "bag_label": null,
+  "size": null,
+  "sku": "073242",
+  "ean": "4607092073248",
+  "register_name_hy": "Վզնոց շների համար 65սմ Inspector/I209",
+  "xlsx_name_en": "Flea & Tick Collar for Dogs — medium dogs, 65 cm",
+  "siruk_price": 5500,
+  "siruk_url": "https://siruk.am/product/inspector-flea-tick-collar-for-dogs/dp/909/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-tzeri-dem-vzkap-mijin-shneri-hamar",
+   "row_name": "Վզնոց շների համար 65սմ Inspector/I209    ",
+   "sku": "073242",
+   "price": 5500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Inspector Quadro Tabs Таблетки от глистов, блох и клещей для кошек и собак (8-16кг), (упаковка 4 таб), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-8-16-kg-upakovka-4-tab-poshtuchno",
+     "list_price": 3600
+    },
+    {
+     "name": "Inspector Quadro Tabs таблетки от глистов, блох и клещей для собак (более 16 кг), (упаковка 4 таб), поштучно",
+     "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-sobak-bolee-16-kg-upakovka-4-tab-poshtuchno",
+     "list_price": 3000
+    },
+    {
+     "name": "Inspector Quadro Tabs Таблетки против глистов, блох и клещей для кошек и собак (0.5-2 кг), (упаковка 4 шт), поштучно",
+     "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-0-5-2-kg-upakovka-4-sht-poshtuchno",
+     "list_price": 2800
+    },
+    {
+     "name": "Inspector Quadro Tabs Таблетки против глистов, блох и клещей для кошек и собак (2-8 кг), (упаковка 4 шт), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-2-8-kg-upakovka-4-sht",
+     "list_price": 2400
+    },
+    {
+     "name": "Inspector Quadro К Капли от глистов, блох и клещей для кошек (4-8 кг), (упаковка 3 пип), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-k-kapli-ot-glistov-bloh-i-kleschej-dlya-koshek-4-8-kg-upakovka-3-pip-poshtuchno",
+     "list_price": 3900
+    },
+    {
+     "name": "Inspector Quadro Капли от глистов, блох и клещей для кошек (1-4 кг), (упаковка 3 пип), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-kapli-ot-glistov-bloh-i-kleschej-dlya-koshek-1-4-kg-upakovka-3-pip-poshtuchno",
+     "list_price": 3500
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1307,
+  "product_id": 758,
+  "brand": "Inspector",
+  "product": "Inspector Quadro Drops for Dogs",
+  "variant_label": "4–10 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": null,
+  "sku": "077602",
+  "ean": "4607092077604",
+  "register_name_hy": "Հակաոջլային կաթիլներ 4-10 կգ շների համար, Inspector/Quadro C/I305",
+  "xlsx_name_en": "Quadro Drops for Dogs — 4–10 kg",
+  "siruk_price": 5350,
+  "siruk_url": "https://siruk.am/product/inspector-quadro-drops-for-dogs/dp/1307/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/chichuneri-ev-tzeri-dem-katilner-shneri-hamar-4-10",
+   "row_name": "Հակաոջլային կաթիլներ 4-10 կգ շների համար, Inspector/Quadro C/I305 ",
+   "sku": "077602",
+   "price": 5350
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Inspector Quadro Tabs Таблетки от глистов, блох и клещей для кошек и собак (8-16кг), (упаковка 4 таб), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-8-16-kg-upakovka-4-tab-poshtuchno",
+     "list_price": 3600
+    },
+    {
+     "name": "Inspector Quadro Tabs таблетки от глистов, блох и клещей для собак (более 16 кг), (упаковка 4 таб), поштучно",
+     "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-sobak-bolee-16-kg-upakovka-4-tab-poshtuchno",
+     "list_price": 3000
+    },
+    {
+     "name": "Inspector Quadro Tabs Таблетки против глистов, блох и клещей для кошек и собак (0.5-2 кг), (упаковка 4 шт), поштучно",
+     "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-0-5-2-kg-upakovka-4-sht-poshtuchno",
+     "list_price": 2800
+    },
+    {
+     "name": "Inspector Quadro Tabs Таблетки против глистов, блох и клещей для кошек и собак (2-8 кг), (упаковка 4 шт), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-2-8-kg-upakovka-4-sht",
+     "list_price": 2400
+    },
+    {
+     "name": "Inspector Quadro К Капли от глистов, блох и клещей для кошек (4-8 кг), (упаковка 3 пип), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-k-kapli-ot-glistov-bloh-i-kleschej-dlya-koshek-4-8-kg-upakovka-3-pip-poshtuchno",
+     "list_price": 3900
+    },
+    {
+     "name": "Inspector Quadro Капли от глистов, блох и клещей для кошек (1-4 кг), (упаковка 3 пип), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-kapli-ot-glistov-bloh-i-kleschej-dlya-koshek-1-4-kg-upakovka-3-pip-poshtuchno",
+     "list_price": 3500
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1411,
+  "product_id": 758,
+  "brand": "Inspector",
+  "product": "Inspector Quadro Drops for Dogs",
+  "variant_label": "40–60 kg, 6 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "6 ml",
+  "sku": "077632",
+  "ean": "4607092077635",
+  "register_name_hy": "Հակաոջլային կաթիլներ 40-60 կգ շների համար, Inspector/Quadro C/I308",
+  "xlsx_name_en": "Quadro Drops for Dogs — 40–60 kg, 6 ml",
+  "siruk_price": 9700,
+  "siruk_url": "https://siruk.am/product/inspector-quadro-drops-for-dogs/dp/1411/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/hakavojilayin-katilner-40-60-kg-shneri-hamar-inspector-quadro-c",
+   "row_name": "Հակաոջլային կաթիլներ 40-60 կգ շների համար, Inspector/Quadro C/I308",
+   "sku": "077632",
+   "price": 9700
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Inspector Quadro Tabs Таблетки от глистов, блох и клещей для кошек и собак (8-16кг), (упаковка 4 таб), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-8-16-kg-upakovka-4-tab-poshtuchno",
+     "list_price": 3600
+    },
+    {
+     "name": "Inspector Quadro Tabs таблетки от глистов, блох и клещей для собак (более 16 кг), (упаковка 4 таб), поштучно",
+     "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-ot-glistov-bloh-i-kleschej-dlya-sobak-bolee-16-kg-upakovka-4-tab-poshtuchno",
+     "list_price": 3000
+    },
+    {
+     "name": "Inspector Quadro Tabs Таблетки против глистов, блох и клещей для кошек и собак (0.5-2 кг), (упаковка 4 шт), поштучно",
+     "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-0-5-2-kg-upakovka-4-sht-poshtuchno",
+     "list_price": 2800
+    },
+    {
+     "name": "Inspector Quadro Tabs Таблетки против глистов, блох и клещей для кошек и собак (2-8 кг), (упаковка 4 шт), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/inspector-quadro-tabs-tabletki-protiv-glistov-bloh-i-kleschej-dlya-koshek-i-sobak-2-8-kg-upakovka-4-sht",
+     "list_price": 2400
+    },
+    {
+     "name": "Inspector Quadro К Капли от глистов, блох и клещей для кошек (4-8 кг), (упаковка 3 пип), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-k-kapli-ot-glistov-bloh-i-kleschej-dlya-koshek-4-8-kg-upakovka-3-pip-poshtuchno",
+     "list_price": 3900
+    },
+    {
+     "name": "Inspector Quadro Капли от глистов, блох и клещей для кошек (1-4 кг), (упаковка 3 пип), поштучно",
+     "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/inspector-quadro-kapli-ot-glistov-bloh-i-kleschej-dlya-koshek-1-4-kg-upakovka-3-pip-poshtuchno",
+     "list_price": 3500
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 886,
+  "product_id": 730,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard Traditional Line Lemon Shampoo for Short Coats",
+  "variant_label": "300 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "300 ml",
+  "sku": "03168IVS",
+  "ean": "8022767031686",
+  "register_name_hy": "Շամպուն կարճամազ շն. և կատ. համար, TRADITIONAL PLUS, կիտրոնի հոտով, 300 մլ/SLSSHAL300",
+  "xlsx_name_en": "Traditional Line Lemon Shampoo for Short Coats, 300 ml",
+  "siruk_price": 7000,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-traditional-line-lemon-shampoo-for-short-coats-300-ml/dp/886/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/shampun-karchamaz-shneri-ev-katuneri-hamar-traditional-pluskitroni-hotov-300ml",
+   "row_name": "Շամպուն կարճամազ շն. և կատ. համար, TRADITIONAL PLUS, կիտրոնի հոտով, 300 մլ/SLSSHAL300",
+   "sku": "03168IVS",
+   "price": 7000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Traditional Line PLUS Banana Кондиционер для собак и кошек, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kondicionery/iv-san-bernard-traditional-line-plus-banana-konditsioner-dlya-sobak-i-koshek-300-ml",
+     "list_price": 7550
+    },
+    {
+     "name": "Iv San Bernard Vanesia Шампунь для собак и кошек с ослабленной шерстью, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-vanesia-shampun-dlya-sobak-i-koshek-s-oslablennoj-sherstyu-300-ml",
+     "list_price": 3350
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Cristal Clean Кондиционер для устранения желтизны шерсти для кошек и собак и грызунов, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-traditional-line-cristal-clean-konditsioner-dlya-ustraneniya-geltizny-shersti-dlya-koshek-i-sobak-i-gryzunov-500-ml",
+     "list_price": 13100
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Шампунь-пенка Moussette сухой для собак и кошек, 250 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-traditional-line-shampun-penka-moussette-suhoj-dlya-sobak-i-koshek-250-ml",
+     "list_price": 8600
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Andromeda бальзам для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-andromeda-balzam-dlya-sobak-i-koshek-500-ml",
+     "list_price": 8900
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Orion Кондиционер для средней шерсти с экстрактом меда для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-orion-konditsioner-dlya-srednej-shersti-s-ekstraktom-meda-dlya-sobak-i-koshek-500-ml",
+     "list_price": 11100
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Derma Plus, կոնդիթիոներ եղինջի և կերատինի էքստրակտով (SLS free) 300 մլ",
+     "url": "https://www.nemo.am/derma-plus-կոնդիթիոներ-եղինջի-և-կերատինի-էքստրակտով-sls-free-300-մլ-2",
+     "list_price": 10550
+    },
+    {
+     "name": "Api San Crystal Line Ունիվերսալ շամպուն կատվի զագերի և կատուների համար, 200 մլ",
+     "url": "https://www.nemo.am/api-san-crystal-line-ունիվերսալ-շամպուն-կատվի-զագերի-և-կատուների-համար-200-մլ",
+     "list_price": 1500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 887,
+  "product_id": 731,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard Traditional Line Green Apple Shampoo for Long Coats",
+  "variant_label": "300 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "300 ml",
+  "sku": "03174IVS",
+  "ean": "8022767031747",
+  "register_name_hy": "Շամպուն երկարամազ շն. և կատ. համար, TRADITIONAL PLUS, խնձորի հոտով, 300 մլ/SLSSHAM300",
+  "xlsx_name_en": "Traditional Line Green Apple Shampoo for Long Coats, 300 ml",
+  "siruk_price": 7000,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-traditional-line-green-apple-shampoo-for-long-coats-300-ml/dp/887/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/shampun-erkaramaz-shneri-ev-katuneri-hamartraditional-plus-xndzori-hotov-300ml",
+   "row_name": "Շամպուն երկարամազ շն. և կատ. համար, TRADITIONAL PLUS, խնձորի հոտով, 300 մլ/SLSSHAM300",
+   "sku": "03174IVS",
+   "price": 7000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Traditional Line PLUS Banana Кондиционер для собак и кошек, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kondicionery/iv-san-bernard-traditional-line-plus-banana-konditsioner-dlya-sobak-i-koshek-300-ml",
+     "list_price": 7550
+    },
+    {
+     "name": "Iv San Bernard Vanesia Шампунь для собак и кошек с ослабленной шерстью, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-vanesia-shampun-dlya-sobak-i-koshek-s-oslablennoj-sherstyu-300-ml",
+     "list_price": 3350
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Cristal Clean Кондиционер для устранения желтизны шерсти для кошек и собак и грызунов, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-traditional-line-cristal-clean-konditsioner-dlya-ustraneniya-geltizny-shersti-dlya-koshek-i-sobak-i-gryzunov-500-ml",
+     "list_price": 13100
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Шампунь-пенка Moussette сухой для собак и кошек, 250 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-traditional-line-shampun-penka-moussette-suhoj-dlya-sobak-i-koshek-250-ml",
+     "list_price": 8600
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Andromeda бальзам для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-andromeda-balzam-dlya-sobak-i-koshek-500-ml",
+     "list_price": 8900
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Orion Кондиционер для средней шерсти с экстрактом меда для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-orion-konditsioner-dlya-srednej-shersti-s-ekstraktom-meda-dlya-sobak-i-koshek-500-ml",
+     "list_price": 11100
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Derma Plus, կոնդիթիոներ եղինջի և կերատինի էքստրակտով (SLS free) 300 մլ",
+     "url": "https://www.nemo.am/derma-plus-կոնդիթիոներ-եղինջի-և-կերատինի-էքստրակտով-sls-free-300-մլ-2",
+     "list_price": 10550
+    },
+    {
+     "name": "Api San Crystal Line Ունիվերսալ շամպուն կատվի զագերի և կատուների համար, 200 մլ",
+     "url": "https://www.nemo.am/api-san-crystal-line-ունիվերսալ-շամպուն-կատվի-զագերի-և-կատուների-համար-200-մլ",
+     "list_price": 1500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 888,
+  "product_id": 732,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard Traditional Line Lemon Conditioner for Short Coats",
+  "variant_label": "300 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "300 ml",
+  "sku": "03177IVS",
+  "ean": "8022767031778",
+  "register_name_hy": "Բալզամ կարճամազ շն. և կատ. համար, TRADITIONAL PLUS, կիտրոնի հոտով, 300 մլ/NEWBALL300",
+  "xlsx_name_en": "Traditional Line Lemon Conditioner for Short Coats, 300 ml",
+  "siruk_price": 7550,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-traditional-line-lemon-conditioner-for-short-coats-300-ml/dp/888/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/balzam-karchamaz-shneri-ev-katuneri-hamar-traditional-plus-kitroni-hotov-300ml",
+   "row_name": "Բալզամ կարճամազ շն. և կատ. համար, TRADITIONAL PLUS, կիտրոնի հոտով, 300 մլ/NEWBALL300",
+   "sku": "03177IVS",
+   "price": 7550
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Traditional Line PLUS Banana Кондиционер для собак и кошек, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kondicionery/iv-san-bernard-traditional-line-plus-banana-konditsioner-dlya-sobak-i-koshek-300-ml",
+     "list_price": 7550
+    },
+    {
+     "name": "Iv San Bernard Vanesia Шампунь для собак и кошек с ослабленной шерстью, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-vanesia-shampun-dlya-sobak-i-koshek-s-oslablennoj-sherstyu-300-ml",
+     "list_price": 3350
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Cristal Clean Кондиционер для устранения желтизны шерсти для кошек и собак и грызунов, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-traditional-line-cristal-clean-konditsioner-dlya-ustraneniya-geltizny-shersti-dlya-koshek-i-sobak-i-gryzunov-500-ml",
+     "list_price": 13100
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Шампунь-пенка Moussette сухой для собак и кошек, 250 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-traditional-line-shampun-penka-moussette-suhoj-dlya-sobak-i-koshek-250-ml",
+     "list_price": 8600
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Andromeda бальзам для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-andromeda-balzam-dlya-sobak-i-koshek-500-ml",
+     "list_price": 8900
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Orion Кондиционер для средней шерсти с экстрактом меда для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-orion-konditsioner-dlya-srednej-shersti-s-ekstraktom-meda-dlya-sobak-i-koshek-500-ml",
+     "list_price": 11100
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Derma Plus, կոնդիթիոներ եղինջի և կերատինի էքստրակտով (SLS free) 300 մլ",
+     "url": "https://www.nemo.am/derma-plus-կոնդիթիոներ-եղինջի-և-կերատինի-էքստրակտով-sls-free-300-մլ-2",
+     "list_price": 10550
+    },
+    {
+     "name": "Api San Crystal Line Ունիվերսալ շամպուն կատվի զագերի և կատուների համար, 200 մլ",
+     "url": "https://www.nemo.am/api-san-crystal-line-ունիվերսալ-շամպուն-կատվի-զագերի-և-կատուների-համար-200-մլ",
+     "list_price": 1500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 889,
+  "product_id": 733,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard Traditional Line Green Apple Conditioner for Long Coats",
+  "variant_label": "300 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "300 ml",
+  "sku": "03183IVS",
+  "ean": "8022767031839",
+  "register_name_hy": "Բալզամ երկարամազ շն. և կատ. համար, TRADITIONAL PLUS, խնձորի հոտով, 300 մլ/NEWBALM300",
+  "xlsx_name_en": "Traditional Line Green Apple Conditioner for Long Coats, 300 ml",
+  "siruk_price": 7550,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-traditional-line-green-apple-conditioner-for-long-coats-300-ml/dp/889/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/balzam-erkaramaz-shneri-ev-katuneri-hamar-traditional-plus-xndzori-hotov-300ml",
+   "row_name": "Բալզամ երկարամազ շն. և կատ. համար, TRADITIONAL PLUS, խնձորի հոտով, 300 մլ/NEWBALM300",
+   "sku": "03183IVS",
+   "price": 7550
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Traditional Line PLUS Banana Кондиционер для собак и кошек, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kondicionery/iv-san-bernard-traditional-line-plus-banana-konditsioner-dlya-sobak-i-koshek-300-ml",
+     "list_price": 7550
+    },
+    {
+     "name": "Iv San Bernard Vanesia Шампунь для собак и кошек с ослабленной шерстью, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-vanesia-shampun-dlya-sobak-i-koshek-s-oslablennoj-sherstyu-300-ml",
+     "list_price": 3350
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Cristal Clean Кондиционер для устранения желтизны шерсти для кошек и собак и грызунов, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-traditional-line-cristal-clean-konditsioner-dlya-ustraneniya-geltizny-shersti-dlya-koshek-i-sobak-i-gryzunov-500-ml",
+     "list_price": 13100
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Шампунь-пенка Moussette сухой для собак и кошек, 250 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-traditional-line-shampun-penka-moussette-suhoj-dlya-sobak-i-koshek-250-ml",
+     "list_price": 8600
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Andromeda бальзам для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-andromeda-balzam-dlya-sobak-i-koshek-500-ml",
+     "list_price": 8900
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Orion Кондиционер для средней шерсти с экстрактом меда для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-orion-konditsioner-dlya-srednej-shersti-s-ekstraktom-meda-dlya-sobak-i-koshek-500-ml",
+     "list_price": 11100
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Derma Plus, կոնդիթիոներ եղինջի և կերատինի էքստրակտով (SLS free) 300 մլ",
+     "url": "https://www.nemo.am/derma-plus-կոնդիթիոներ-եղինջի-և-կերատինի-էքստրակտով-sls-free-300-մլ-2",
+     "list_price": 10550
+    },
+    {
+     "name": "Api San Crystal Line Ունիվերսալ շամպուն կատվի զագերի և կատուների համար, 200 մլ",
+     "url": "https://www.nemo.am/api-san-crystal-line-ունիվերսալ-շամպուն-կատվի-զագերի-և-կատուների-համար-200-մլ",
+     "list_price": 1500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 890,
+  "product_id": 734,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard Protective Shield Shampoo",
+  "variant_label": "300 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "300 ml",
+  "sku": "03681IVS",
+  "ean": "8022767036810",
+  "register_name_hy": "Շամպուն շն. և կատ. համար, TRADITIONAL PLUS, Էվկալիպտի և մենթոլի հոտով, 300 մլ/PROSHIELD300",
+  "xlsx_name_en": "Protective Shield Shampoo, 300 ml",
+  "siruk_price": 7800,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-protective-shield-shampoo-300-ml/dp/890/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/iv-san-bernard-isb-protective-shield-antiparazitayin-shampun-300ml",
+   "row_name": "Շամպուն շն. և կատ. համար, TRADITIONAL PLUS, Էվկալիպտի և մենթոլի հոտով, 300 մլ/PROSHIELD300",
+   "sku": "03681IVS",
+   "price": 7800
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Traditional Line PLUS Banana Кондиционер для собак и кошек, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kondicionery/iv-san-bernard-traditional-line-plus-banana-konditsioner-dlya-sobak-i-koshek-300-ml",
+     "list_price": 7550
+    },
+    {
+     "name": "Iv San Bernard Vanesia Шампунь для собак и кошек с ослабленной шерстью, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-vanesia-shampun-dlya-sobak-i-koshek-s-oslablennoj-sherstyu-300-ml",
+     "list_price": 3350
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Cristal Clean Кондиционер для устранения желтизны шерсти для кошек и собак и грызунов, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-traditional-line-cristal-clean-konditsioner-dlya-ustraneniya-geltizny-shersti-dlya-koshek-i-sobak-i-gryzunov-500-ml",
+     "list_price": 13100
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Шампунь-пенка Moussette сухой для собак и кошек, 250 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-traditional-line-shampun-penka-moussette-suhoj-dlya-sobak-i-koshek-250-ml",
+     "list_price": 8600
+    },
+    {
+     "name": "Royal Canin Babycat Milk (1st age milk) Заменитель молока для котят от 0 до 2 мес, 300 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-babycat-milk-1st-age-milk-zamenitel-moloka-dlya-kotyat-ot-0-do-2-mes-300-g",
+     "list_price": 9200
+    },
+    {
+     "name": "Trixie Mimi Миска керамическая для кошек, 300 мл",
+     "url": "https://zoovet.am/koshki/miski-kormushki-i-poilki/miski-1/trixie-mimi-miska-keramicheskaya-dlya-koshek-300-ml",
+     "list_price": 2500
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Derma Plus, կոնդիթիոներ եղինջի և կերատինի էքստրակտով (SLS free) 300 մլ",
+     "url": "https://www.nemo.am/derma-plus-կոնդիթիոներ-եղինջի-և-կերատինի-էքստրակտով-sls-free-300-մլ-2",
+     "list_price": 10550
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 891,
+  "product_id": 735,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard Protective Shield Conditioner",
+  "variant_label": "300 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "300 ml",
+  "sku": "03684IVS",
+  "ean": "8022767036841",
+  "register_name_hy": "Բալզամ շն. և կատ. համար, TRADITIONAL PLUS, Էվկալիպտի և մենթոլի հոտով, 300 մլ/PROCOND300",
+  "xlsx_name_en": "Protective Shield Conditioner, 300 ml",
+  "siruk_price": 9300,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-protective-shield-conditioner-300-ml/dp/891/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/balzam-shneri-ev-katuneri-hamar-traditional-plus-evkalipti-ev-mentoli-hotov-300ml",
+   "row_name": "Բալզամ շն. և կատ. համար, TRADITIONAL PLUS, Էվկալիպտի և մենթոլի հոտով, 300 մլ/PROCOND300",
+   "sku": "03684IVS",
+   "price": 9300
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Traditional Line PLUS Banana Кондиционер для собак и кошек, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kondicionery/iv-san-bernard-traditional-line-plus-banana-konditsioner-dlya-sobak-i-koshek-300-ml",
+     "list_price": 7550
+    },
+    {
+     "name": "Iv San Bernard Vanesia Шампунь для собак и кошек с ослабленной шерстью, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-vanesia-shampun-dlya-sobak-i-koshek-s-oslablennoj-sherstyu-300-ml",
+     "list_price": 3350
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Cristal Clean Кондиционер для устранения желтизны шерсти для кошек и собак и грызунов, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-traditional-line-cristal-clean-konditsioner-dlya-ustraneniya-geltizny-shersti-dlya-koshek-i-sobak-i-gryzunov-500-ml",
+     "list_price": 13100
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Шампунь-пенка Moussette сухой для собак и кошек, 250 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-traditional-line-shampun-penka-moussette-suhoj-dlya-sobak-i-koshek-250-ml",
+     "list_price": 8600
+    },
+    {
+     "name": "Royal Canin Babycat Milk (1st age milk) Заменитель молока для котят от 0 до 2 мес, 300 г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-babycat-milk-1st-age-milk-zamenitel-moloka-dlya-kotyat-ot-0-do-2-mes-300-g",
+     "list_price": 9200
+    },
+    {
+     "name": "Trixie Mimi Миска керамическая для кошек, 300 мл",
+     "url": "https://zoovet.am/koshki/miski-kormushki-i-poilki/miski-1/trixie-mimi-miska-keramicheskaya-dlya-koshek-300-ml",
+     "list_price": 2500
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Derma Plus, կոնդիթիոներ եղինջի և կերատինի էքստրակտով (SLS free) 300 մլ",
+     "url": "https://www.nemo.am/derma-plus-կոնդիթիոներ-եղինջի-և-կերատինի-էքստրակտով-sls-free-300-մլ-2",
+     "list_price": 10550
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 892,
+  "product_id": 736,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard Atami H270 Two-Phase Detangling Spray Conditioner",
+  "variant_label": "300 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "300 ml",
+  "sku": "04115IVS",
+  "ean": "8022767041159",
+  "register_name_hy": "Ցողարկիչ կոնդիցիոներ՝ մազերի խճճվելու դեմ, ATAMI LINE, 300մլ/H270300",
+  "xlsx_name_en": "Atami H270 Two-Phase Detangling Spray Conditioner, 300 ml",
+  "siruk_price": 14600,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-atami-h270-two-phase-detangling-spray-conditioner-300-ml/dp/892/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/H270-coxarkich-conditioner-mazeri-xchchvelu-dem-300-ml",
+   "row_name": "Ցողարկիչ կոնդիցիոներ՝ մազերի խճճվելու դեմ, ATAMI LINE, 300մլ/H270300",
+   "sku": "04115IVS",
+   "price": 14600
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Traditional Line PLUS Banana Кондиционер для собак и кошек, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kondicionery/iv-san-bernard-traditional-line-plus-banana-konditsioner-dlya-sobak-i-koshek-300-ml",
+     "list_price": 7550
+    },
+    {
+     "name": "Iv San Bernard Vanesia Шампунь для собак и кошек с ослабленной шерстью, 300 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-vanesia-shampun-dlya-sobak-i-koshek-s-oslablennoj-sherstyu-300-ml",
+     "list_price": 3350
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Cristal Clean Кондиционер для устранения желтизны шерсти для кошек и собак и грызунов, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-traditional-line-cristal-clean-konditsioner-dlya-ustraneniya-geltizny-shersti-dlya-koshek-i-sobak-i-gryzunov-500-ml",
+     "list_price": 13100
+    },
+    {
+     "name": "Iv San Bernard Traditional Line Шампунь-пенка Moussette сухой для собак и кошек, 250 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-traditional-line-shampun-penka-moussette-suhoj-dlya-sobak-i-koshek-250-ml",
+     "list_price": 8600
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Andromeda бальзам для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-andromeda-balzam-dlya-sobak-i-koshek-500-ml",
+     "list_price": 8900
+    },
+    {
+     "name": "Iv San Bernard ISB The Best Line Orion Кондиционер для средней шерсти с экстрактом меда для собак и кошек, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/kondicionery-1/iv-san-bernard-isb-the-best-line-orion-konditsioner-dlya-srednej-shersti-s-ekstraktom-meda-dlya-sobak-i-koshek-500-ml",
+     "list_price": 11100
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Derma Plus, կոնդիթիոներ եղինջի և կերատինի էքստրակտով (SLS free) 300 մլ",
+     "url": "https://www.nemo.am/derma-plus-կոնդիթիոներ-եղինջի-և-կերատինի-էքստրակտով-sls-free-300-մլ-2",
+     "list_price": 10550
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1355,
+  "product_id": 1058,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard DO IT YOURSELF Narciso Perfume",
+  "variant_label": "125 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "125 ml",
+  "sku": "05565IVS",
+  "ean": "8022767055651",
+  "register_name_hy": "Օծանելիք՝ DO IT YOURSELF, NARCISO PERFUME, 125 մլ/PRONA125",
+  "xlsx_name_en": "DO IT YOURSELF Narciso Perfume, 125 ml",
+  "siruk_price": 4900,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-do-it-yourself-narciso-perfume/dp/1355/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/Ocaneliq-do-it-yourself-narciso-perfume-125ml",
+   "row_name": "Օծանելիք՝ DO IT YOURSELF, NARCISO PERFUME, 125 մլ/PRONA125",
+   "sku": "05565IVS",
+   "price": 4900
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Lupin Perfume для собак и кошек, 150 мл",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/ot-zapahov-i-pyaten-1/iv-san-bernard-lupin-perfume-dlya-sobak-i-koshek-150-ml",
+     "list_price": 10700
+    },
+    {
+     "name": "Iv San Bernard Banana Кондиционер для собак и кошек со средней шерстью смягчяющий, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-banana-shampun-dlya-sobak-i-koshek-so-srednej-sherstyu-smyagchyayuschij-500-ml",
+     "list_price": 8550
+    },
+    {
+     "name": "Iv San Bernard Fruit of Groomer Pompello Roso Шампунь для шерсти средней длины для собак и кошек \"Розовый грейпфрут с витаминами\", 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-fruit-of-groomer-pompello-roso-shampun-dlya-shersti-srednej-dliny-dlya-sobak-i-koshek-rozovyj-grejpfrut-s-vitaminami-500-ml",
+     "list_price": 6650
+    },
+    {
+     "name": "Iv San Bernard Groomer Maracuja Шампунь для длинной шерсти, 500 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-groomer-maracuja-shampun-dlya-dlinnoj-shersti-500-ml",
+     "list_price": 6650
+    },
+    {
+     "name": "Iv San Bernard Groomer Mint Шампунь освежающий, 500 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-groomer-mint-shampun-osvegayuschij-500-ml",
+     "list_price": 6650
+    },
+    {
+     "name": "Iv San Bernard Groomer Orange Шампунь укрепляющий, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-groomer-orange-shampun-ukreplyayuschij-500-ml",
+     "list_price": 6650
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1356,
+  "product_id": 1059,
+  "brand": "Iv San Bernard",
+  "product": "Iv San Bernard DO IT YOURSELF Ocean Perfume",
+  "variant_label": "125 ml",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "125 ml",
+  "sku": "05566IVS",
+  "ean": "8022767055668",
+  "register_name_hy": "Օծանելիք՝ DO IT YOURSELF, OCEAN PERFUME, 125 մլ/PROC125",
+  "xlsx_name_en": "DO IT YOURSELF Ocean Perfume, 125 ml",
+  "siruk_price": 4900,
+  "siruk_url": "https://siruk.am/product/iv-san-bernard-do-it-yourself-ocean-perfume/dp/1356/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/Ocaneliq-do-it-yourself-ocean-perfume-125ml",
+   "row_name": "Օծանելիք՝ DO IT YOURSELF, OCEAN PERFUME, 125 մլ/PROC125",
+   "sku": "05566IVS",
+   "price": 4900
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Iv San Bernard Lupin Perfume для собак и кошек, 150 мл",
+     "url": "https://zoovet.am/koshki/gigiena-napolniteli/ot-zapahov-i-pyaten-1/iv-san-bernard-lupin-perfume-dlya-sobak-i-koshek-150-ml",
+     "list_price": 10700
+    },
+    {
+     "name": "Iv San Bernard Banana Кондиционер для собак и кошек со средней шерстью смягчяющий, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-banana-shampun-dlya-sobak-i-koshek-so-srednej-sherstyu-smyagchyayuschij-500-ml",
+     "list_price": 8550
+    },
+    {
+     "name": "Iv San Bernard Fruit of Groomer Pompello Roso Шампунь для шерсти средней длины для собак и кошек \"Розовый грейпфрут с витаминами\", 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-fruit-of-groomer-pompello-roso-shampun-dlya-shersti-srednej-dliny-dlya-sobak-i-koshek-rozovyj-grejpfrut-s-vitaminami-500-ml",
+     "list_price": 6650
+    },
+    {
+     "name": "Iv San Bernard Groomer Maracuja Шампунь для длинной шерсти, 500 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-groomer-maracuja-shampun-dlya-dlinnoj-shersti-500-ml",
+     "list_price": 6650
+    },
+    {
+     "name": "Iv San Bernard Groomer Mint Шампунь освежающий, 500 мл",
+     "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/iv-san-bernard-groomer-mint-shampun-osvegayuschij-500-ml",
+     "list_price": 6650
+    },
+    {
+     "name": "Iv San Bernard Groomer Orange Шампунь укрепляющий, 500 мл",
+     "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/iv-san-bernard-groomer-orange-shampun-ukreplyayuschij-500-ml",
+     "list_price": 6650
+    }
+   ],
+   "nemo": []
+  }
+ }
+]

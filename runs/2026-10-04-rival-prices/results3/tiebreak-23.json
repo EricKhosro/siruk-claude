@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "variant_id": 1004,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list searched 'trixie медальон|адресник|адрес|tag|жетон|капсул|цилиндр|бочонок|адресн': only 'Trixie Медальон-адресник в форме кости для собак, 3.5 x 2 см' (1950, out of stock) - a flat bone-shaped tag, not the screw-open address tube; and a cat collar with tag. No 2278 gold address tube. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մեդալիոն-հասցեատեր-ոսկեգույն",
+    "price": 500,
+    "old_price": null,
+    "name": "Մեդալիոն-հասցեատեր (ոսկեգույն)",
+    "in_stock": true,
+    "evidence": "nemo search on our article '2278' returns exactly this page. Page: metal address tube (Մեդալիոն-հասցեատեր), screw-open, contact info inside, colour gold (ոսկեգույն); photo = gold knurled brass tube with split ring = Trixie 2278. 500 AMD, in stock, no struck price. Manufacturer field empty; brand from article-code hit + photo."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed it; nemo's article-code search '2278' hits this gold tube page, photo and colour match. Verifier right."
+  },
+  {
+   "variant_id": 1313,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list searched 'trixie медальон|адресник|адрес|tag|жетон|капсул|цилиндр|бочонок|адресн': only 'Trixie Медальон-адресник в форме кости для собак, 3.5 x 2 см' (1950, out of stock) - a flat bone-shaped tag, not the screw-open address tube; and a cat collar with tag. No 2280 chrome address tube. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մեդալիոն-հասցեատեր",
+    "price": 700,
+    "old_price": null,
+    "name": "Մեդալիոն-հասցեատեր",
+    "in_stock": true,
+    "evidence": "nemo search on our article '2280' returns exactly this page. Page: metal, chrome-plated (քրոմապատ), silver, screw-open address tube; photo = chrome dumbbell-shaped tube = Trixie 2280 (chrome, sorted shapes). 700 AMD, in stock. The other silver listing (մեդալիոն-հասցեատեր-2, 500, not chrome-plated) is not returned by '2280' and is not ours."
+   },
+   "confidence": "high",
+   "reason": "Matcher missed it; article-code search '2280' hits this chrome-plated tube page. Verifier right."
+  },
+  {
+   "variant_id": 1492,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list searched 'trixie медальон|адресник|адрес|tag|жетон|капсул|цилиндр|бочонок|адресн': only 'Trixie Медальон-адресник в форме кости для собак, 3.5 x 2 см' (1950, out of stock) - a flat bone-shaped tag, not the screw-open address tube; and a cat collar with tag. No 4161 purple address tube. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մեդալիոն-կախազարդ-շների-համար",
+    "price": 600,
+    "old_price": null,
+    "name": "Մեդալիոն-կախազարդ շների համար",
+    "in_stock": true,
+    "evidence": "nemo search on our article '4161' and on hafo's code '41611' both return this page. Page: metal address tag for dogs; photo = purple anodised aluminium screw-open tube with split ring = Trixie 4161 in purple. 600 AMD, in stock. Colour taken from the photo (description names no colour)."
+   },
+   "confidence": "medium",
+   "reason": "Matcher missed it; article-code searches '4161'/'41611' hit this page and its photo is the purple aluminium tube. Medium only because the page text names no colour."
+  }
+ ]
+}

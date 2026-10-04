@@ -1,0 +1,27 @@
+{
+ "results": [
+  {
+   "variant_id": 481,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-softies-kubiki-iz-yagnenka-dlya-sobak-100-g",
+    "price": 1700,
+    "old_price": null,
+    "name": "Trixie Лакомство Softies кубики из ягненка для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Saved row: Trixie Softies lamb cubes 100 g, 1700, in stock; both earlier answers read the page as Premio Marbled Lamb Softies, lamb + fish, 100 g (ME-00004350). zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-գառի-բեկորներ",
+    "price": 1700,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար՝ գառի բեկորներ",
+    "in_stock": true,
+    "evidence": "nemo search on our article '31604' returns this page; manufacturer Trixie, 100 g, 'Գառի և ձկան փափուկ, մսային բեկորներ', meat 72%, fish 8% = Marbled Lamb Softies (lamb + fish) 100 g; wording matches hafo row. 1700, in stock."
+   },
+   "confidence": "high",
+   "reason": "Article-code search lands on the exact page; verifier right."
+  }
+ ]
+}

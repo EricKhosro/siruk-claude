@@ -1,0 +1,384 @@
+{
+ "results": [
+  {
+   "variant_id": 1518,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo dump+live: no row for 19697 / 1969719 / '68262' / EAN 4053032682627; no CityStyle harness at all (CityStyle only PVC collars 19714-19719, PVC/cotton leashes 19710/19700, cat toys, bags). Nearest: Y-harness 1998416Tx S-M 50-60 cm/15 mm grey 11050 (other line/size), Premium 2038xx S-M 40-60 cm (other line)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: brand list + live 'CityStyle', 'шлейка', 'Trixie шлейка', 'harness', EAN: only Trixie cat Y-harness 39-60 cm/10 mm, Premium M-L, cat harness 27x45 - no CityStyle H-harness."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: live 'CityStyle' (treat bag, cotton leash, cat toys, carrier), 'Y-harness' (L, L-XL, XL-XXL only), 'Շլեյկա', EAN - no CityStyle H-harness."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival. Register calls it 'Y-harness' but article/EAN are CityStyle H-harness 19697."
+  },
+  {
+   "variant_id": 1519,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo dump+live: no 1969716 / '68261' / EAN 4053032682610; no CityStyle harness. Nearest Y-harness 1998419Tx S-M 50-60 cm green 11050 (other line)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no CityStyle harness (searched CityStyle, шлейка, Trixie шлейка, EAN)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no CityStyle harness (CityStyle, Y-harness, Շլեյկա, EAN)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1520,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo dump+live: no 1969616 / '68259' / EAN 4053032682597. Nearest: Premium harness 203224Tx XS-S 30-44 cm/10 mm green/mint 2550 (Premium line, not CityStyle) and 203219Tx/203216Tx same size other colours."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no CityStyle harness."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no CityStyle harness."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1522,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 361004 / EAN 4011905717968; dog toys with rope: 35930Trx plush dog with threads 30 cm 3550 and 35894Trx fabric/rope animal dog 32 cm 3350 - other articles/sizes, not 27 cm."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie plush dog with rope (only Gigwi Plush Friendz / Suppa Puppa dogs 15 cm)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'Խաղալիք շուն (պարանով)' page = 30 cm 3550; 'Խաղալիք շուն' = 32 cm plush 3350; 'Խաղալիք շուն շների համար' = latex 8 cm 1950 - none is our 27 cm."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival in 27 cm."
+  },
+  {
+   "variant_id": 1523,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 361011 / EAN 4011905718057; only latex frog 34484Tx 18 cm 2350."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: 'лягушка' -> Gigwi frog 9 cm, Triol frog ring/catnip frog only."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'գորտ' -> latex frog (hafo 34484) 2350, Triol frog pouch, AFP toothbrush frog - no 44 cm plush frog."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1524,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 33545 / EAN 4011905661926; siblings only 33543Tx honeycomb ball 6 cm 2250 and 33544Tx honeycomb rugby ball 11 cm 3150 (no rope)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no honeycomb ball on rope (nearest Be Eco plastic ball on rope 6x13 cm 6100 - other line)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'մեղրամոմ' -> only honeycomb ball 6 cm 2250 and rugby ball 11 cm 3150."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1526,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 23771 / EAN 4011905237718; siblings TX 237721 'Սանր՝ միջին ատամիկներով' medium teeth 22 cm 3950 and TX 237731 rotating teeth 22 cm 3950 - fine-teeth model not listed."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: only Trixie 'Колтунорез' 7x18 cm (two models) - not the 22 cm coat untangler."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: only FURflex and Nunbell/VET combs - no Trixie coat untangler fine teeth."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1527,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 35990 / EAN 4011905651040; leather-toy siblings 35993/35994/35996 only; pig toys are latex/rubber (35092 13 cm, 3537 23 cm, TX 354901 17 cm, 35185 20 cm, 35499 21 cm, 3540 44 cm), plush Junior Pig 36169 15 cm, Be Eco Piggy 34881 24 cm - none is our 19 cm pig."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie pig toy (поросенок/свин/хрюшка searched)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: only 'Trixie, խաղալիք շների ձագերի համար, փափուկ խոզուկ' 15 cm 2300 - not ours."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1528,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 35991 / EAN 4011905651095; latex cow TX 351961 19 cm 4950 (out of stock) and plush cow 34721Tx 50 cm 5450 - not the leather cow 17 cm."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no cow toy."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'Խաղալիք կովիկ շների համար' pages = latex cow 19 cm / 18 cm 4950; 'Trixie, ծվծվան փափուկ կովիկ' 5450 (= hafo 34721) - not ours."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1529,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 35992 / EAN 4011905651149; no salamander toy (only a cat lizard teaser 73170G, other brand)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no salamander."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'սալամանդր' returns nothing."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1531,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 23394 / EAN 4011905233949; gloves 23391/23392/23393/23132/2335/2328 are single gloves of other models - no nylon/rubber pair."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: only Trixie massage glove 18x24 cm 2100 (= 23392) and Nunbell glove."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: only single gloves 2100/3700/2550 (hafo 23391/23392/23393), Nunbell, VET glove."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1539,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 25187 / EAN 4011905251875; nearest melamine double bowl 25184Tx 2x0.4 l/14 cm 6150 - ours is 2x0.2 l/13 cm."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: double bowls are Trixie ceramic 2x0.25 l and Triol/Gamma models - no Trixie melamine 2x0.2 l."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'Մելամինապատ երկտեղանոց կերաման' 6150 = 2x0.4 l model (hafo 25184)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1540,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 25063 / EAN 4011905250632; hafo BE NORDIC bowls are ceramic (2435x, 2430x, 24525/24527) and Vitamin Sea steel - no BE NORDIC melamine cream."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: only BE NORDIC ceramic bowl 0.5 l/16 cm."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: BE NORDIC search: collars, leash, backpack, ceramic cat bowl - no melamine bowl."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1541,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 25060 / EAN 4011905250601; nearest plain melamine bowls 25180Tx 0.2 l/14 cm white 3150 and 25186Tx 0.2 l/14 cm white 2650 - different article/EAN, not BE NORDIC."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no BE NORDIC melamine bowl."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'Կերաման՝ մելամինապատ' 3150 = hafo 25180 (non-BE NORDIC)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Same size as hafo 25180/25186 but a different Trixie article/line; not a match."
+  },
+  {
+   "variant_id": 1542,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 25065 / EAN 4011905250656; no BE NORDIC melamine 0.8 l cream."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no BE NORDIC melamine bowl."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no BE NORDIC melamine bowl."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1543,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 25062; nearest plain melamine bowl 25182Tx 0.8 l/22 cm white 6800 (out of stock) - different article, not BE NORDIC."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no BE NORDIC melamine bowl."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'Կերաման՝ մելամինապատ' 6800 = hafo 25182 (non-BE NORDIC)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Same size as hafo 25182 but a different Trixie article/line; not a match."
+  },
+  {
+   "variant_id": 1552,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 25251 / EAN 4047974252512; nearest 25249Tx Slow Feed stainless/plastic-coated bowl 1 l/21 cm 7600 - different article and volume."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie stainless slow-feeding bowl (silicone Slow Feed mats; plain coated stainless 1.4 l/21 cm and 2 l/23 cm bowls are not slow-feed and other volumes)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: 'Կերաման շների համար՝ Slow Feed' page: plastic-coated stainless 1 l/21 cm 7600 (= hafo 25249); 'Կերաման Slow Bowl' 4500 unbranded - not our 1.1 l model."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1553,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 25252 / EAN 4047974252529; only 25249 1 l/21 cm slow-feed bowl."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie stainless slow-feeding bowl 1.5 l."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: only the 1 l/21 cm Slow Feed bowl (7600)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1562,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 33452 / EAN 4047974334522; Aqua Toy rows: duck 33453/36207, turtle TX 360091, rope toys 33660-33663 - no disc; frisbees 335051/335061 are rubber, not Aqua Toy."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie Aqua Toy disc (only KONG Aqua, Triol AQUA neoprene bone/ring)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: Aqua Toy listings = turtle and rope toys only - no disc."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  },
+  {
+   "variant_id": 1564,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo: no 4089 / EAN 4011905408910; 8 cm cat fabric toys on hafo are other articles (mouse 45785, cone 45608, curly mice 41113, wind-up mouse 4083, hedgehog 45781)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie wriggle toy."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no wriggle toy in its lists or search."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-searched all three shops; no rival sells this exact item, same as matcher (all found=false).",
+   "notes": "Not sold by any rival."
+  }
+ ]
+}

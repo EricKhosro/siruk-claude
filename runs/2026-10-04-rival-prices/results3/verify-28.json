@@ -1,0 +1,456 @@
+{
+ "results": [
+  {
+   "variant_id": 1159,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie dog harness XXS–XS on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search by article 202021, EAN, '41954', XXS-XS/XXS–XS, Շլեյկա շների համար, լանջափոկ, մանուշակագույն: nearest https://www.nemo.am/շլեյկա-շների-համար-կարգավորվող (violet XXS-XS but 20-32 cm/10 mm, 2200) - girth differs from our 26–38 cm; Comfort Soft XXS-XS hint is a different model (25-35 cm, blush/petrol)"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: no article/EAN hit; nearest 'Շլեյկա շների համար, կարգավորվող' is violet XXS-XS 20-32 cm/10 mm at 2200 (other girth/model); Comfort Soft XXS-XS is 25-35 cm petrol (manufacturer listed Monge). Not found confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1168,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie semi-choke collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզկապ-սեղմօղակ-սև",
+    "price": 2150,
+    "old_price": null,
+    "name": "Վզկապ-սեղմօղակ (սև) S–M",
+    "in_stock": true,
+    "evidence": "nemo search by article 202701 returns this page; manufacturer Trixie; S–M 30–40 cm/15 mm, nylon, with stopper, black - every axis matches"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: Վզկապ-սեղմօղակ (սև) S–M, Trixie, S–M 30–40 cm/15 mm, nylon, black, 2150, in stock; article 202701 search returns it. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1324,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie semi-choke collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 202703, EAN, սեղմօղակ/չոկեր + կարմիր: only black S–M (2150), black M–L/L–XL and M–L blue/pink/indigo versions; red S–M not listed"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: 202703/EAN no hit; choke list shows black S–M/M–L/L–XL, electric blue/indigo/pink M–L only. No red S–M. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1170,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie semi-choke collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 202720, EAN '02495', orchid, չոկեր, սեղմօղակ: nearest black S–M 30–40/15 mm https://www.nemo.am/վզկապ-սեղմօղակ-սև (2150) - other colour; no orchid"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: 202720/02495 no hit; no orchid S–M choke. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1290,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie semi-choke collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/նեյլոնե-վզնոց-չոկեր-շղթայով-ml",
+    "price": 2500,
+    "old_price": null,
+    "name": "Նեյլոնե վզնոց-չոկեր, շղթայով M–L",
+    "in_stock": true,
+    "evidence": "nemo search by article 202802 returns this page; text: M–L 35–50 cm/20 mm, electric blue (= royal blue, same Armenian colour word as hafo row); manufacturer field empty but article hit"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: M–L 35–50 cm/20 mm, electric blue, 2500, in stock; article 202802 search returns it (hafo row uses the same 'էլեկտրիկ կապույտ'). Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1291,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie semi-choke collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 202816, EAN '02144', չոկեր, մոխրագույն: M–L 35–50/20 mm listed only electric blue (2500), indigo (2950), pink (2850), black (2500); grey not listed"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: 202816/02144 no hit; M–L chokes are electric blue 2500, indigo 2950, pink 2850, black semi-choke 2500. No grey. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1174,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie Premium Touring harness on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-լանջափոկ-շլեյկա-շների-համար-բենզինագույն-xss",
+    "price": 4250,
+    "old_price": null,
+    "name": "Trixie, լանջափոկ (շլեյկա) շների համար, բենզինագույն, XS–S",
+    "in_stock": true,
+    "evidence": "nemo search by article 203632 returns this page; Trixie padded nylon harness XS–S 30–40 cm/15 mm (as hafo row), colour petrol - every axis matches"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: Trixie padded nylon harness XS–S 30–40 cm/15 mm, petrol, 4250, in stock; article 203632 returns it; matches hafo row (30–40 cm). Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1292,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie Premium Touring harness on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-լանջափոկ-շլեյկա-շների-համար-ավազագույն-sand-s",
+    "price": 4950,
+    "old_price": null,
+    "name": "Trixie, լանջափոկ (շլեյկա) շների համար, ավազագույն-sand, S",
+    "in_stock": true,
+    "evidence": "nemo search by article 203736 returns this page; Trixie padded harness S 35–65 cm/20 mm, colour sand - every axis matches"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: Trixie padded harness S 35–65 cm/20 mm, sand, 4950, in stock; article 203736 returns it. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1489,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie Premium Touring harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 204201, EAN, L–XL, սև: same line L–XL 70–110/25 mm listed only grey https://www.nemo.am/շլեյկա-նեյլոնե-lxl-շների-համար-մոխրագույն (7650) and pink (7650); black not listed ('Լանջափոկ (Շլեյկա) - Սև L–XL' 3750 is another plain nylon model)"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: 204201/EAN no hit; no black L–XL of this line ('Լանջափոկ (Շլեյկա) - Նեյլոն L–XL' 6350 is another model). Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1178,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie chain collar on zoovet (only DUVO+ double chain 55 cm, Trixie choke chain 35 cm/2.0 mm)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 2154, EAN, քրոմապատ, շղթա, մետաղական: only 'Երկշերտ քրոմապատ շղթա' 30–50 cm/2.0–2.5 mm and 'Քրոմապատ շղթա վզնոց' 60 cm; no 70 cm/4 mm"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: chrome chains listed are double-row 30–50 cm/2.0–2.5 mm and a 60 cm chain (1100); no 70 cm/4 mm. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1325,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie chain collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 2155, EAN, քրոմապատ, շղթա, խեղդող: no 78 cm/4 mm chain; nearest 'Քրոմապատ շղթա վզնոց' 60 cm (1100)"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: no 78 cm/4 mm chain (same list as above). Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1326,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie training dummy on zoovet (апорт search returns other brands only)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 32860, EAN, ձող, կտորից ձող, dummy, ապորտ: nothing"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: 32860/EAN no hit; no training dummy. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1327,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); Be Nordic hints are treats/bowl/collars, not the anchor toy; no Be Nordic toys on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-be-nordic-կտորից-խարիսխ",
+    "price": 4300,
+    "old_price": null,
+    "name": "Խաղալիք շների BE NORDIC, կտորից խարիսխ",
+    "in_stock": true,
+    "evidence": "nemo search by article 35651 returns this page; BE NORDIC fabric anchor dog toy, 25 cm, squeaks - every axis matches"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: BE NORDIC fabric anchor, dogs, squeaks, 25 cm, 4300, in stock; article 35651 returns it. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1328,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); Be Nordic hints are treats/bowl/collars, not the lifebelt toy"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-be-nordic-կտորից-օղակ",
+    "price": 4750,
+    "old_price": null,
+    "name": "Խաղալիք շների BE NORDIC, կտորից օղակ",
+    "in_stock": true,
+    "evidence": "nemo search by article 35652 returns this page; BE NORDIC fabric ring (lifebelt) dog toy 30 cm - every axis matches"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: BE NORDIC fabric ring, 30 cm, with sound, 4750, in stock; article 35652 returns it. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1329,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie Junior Snuggler on zoovet (Junior search: treats, teether only)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգստացնող-խաղալիքգորգ-կատուների-համար-2",
+    "price": 3400,
+    "old_price": null,
+    "name": "Հանգստացնող խաղալիք/գորգ կատուների համար",
+    "in_stock": true,
+    "evidence": "nemo search by article 45652 returns this page; manufacturer Trixie; cuddly mat/toy, fox theme, 13 × 13 cm. Text says valerian where our name says matatabi - minor wording doubt, article+fox+size match"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: manufacturer Trixie, fox cuddle mat 13 × 13 cm, 3400, in stock; article 45652 returns it and its title equals hafo's title for 45652Tx (EAN 4011905456522). Page text says valerian vs our 'My Matatabi' - wording doubt only. Agree, medium. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1330,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie massage brush 11×14 on zoovet (only massage glove 18×24)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-մերսող-խոզանակ-կենդանիների-համար",
+    "price": 3150,
+    "old_price": null,
+    "name": "Trixie, մերսող խոզանակ կենդանիների համար",
+    "in_stock": true,
+    "evidence": "nemo search by article 24165 returns this page; Trixie rubber massage brush, 11 × 14 cm - every axis matches"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: Trixie massage brush 11×14 cm, 3150, in stock; article 24165 returns it. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1480,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie One Touch harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 204501, EAN, One Touch: M 50–65/20 mm listed only patterned brown (5600) and green floral (6500); plain black not listed"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: One Touch M listed only patterned brown 50-65 cm (5600) and green (6500); no plain black. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1482,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie One Touch harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 204511, EAN, One Touch, fuchsia/վարդագույն: no fuchsia; M only brown pattern 5600 / green 6500"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: no fuchsia One Touch/harness. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1483,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie One Touch harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 204516, graphite/գրաֆիտ, One Touch: no graphite One Touch; M only brown pattern 5600 / green 6500"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: no graphite One Touch/harness. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1487,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie One Touch harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 204311, One Touch, XS–S: nearest 'One Touch' green XS–S 30–40 cm/15 mm (4900) - other colour and width (ours 10 mm fuchsia)"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: One Touch XS–S only green 30-40 cm/15 mm (4900). No fuchsia 10 mm. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1496,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no tennis ball with plush animals on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/թենիսի-գնդակ-պարանով",
+    "price": 2600,
+    "old_price": null,
+    "name": "Թենիսի գնդակ պարանով",
+    "in_stock": true,
+    "evidence": "nemo search by article 36121 returns this page; dog toy, tennis ball with plush, 16 cm - article and size match"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: ball on rope, plush, 16 cm, 2600, in stock; article 36121 returns it and the title equals hafo's title for TX 36121Trx. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1497,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie flamingo on zoovet (only ZooZooZoo Flamingo Mini)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փափուկ-խաղալիք-ֆլամինգո",
+    "price": 3600,
+    "old_price": null,
+    "name": "Փափուկ խաղալիք ֆլամինգո",
+    "in_stock": true,
+    "evidence": "nemo search by article 35969 returns this page; plush flamingo dog toy 35 cm, with sound - every axis matches"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: plush flamingo 35 cm, with sound, 3600, in stock; article 35969 returns it (the goose page also returned is 32 cm, other toy); title equals hafo's for 35969. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1498,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie plush dog with rope on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շուն",
+    "price": 3350,
+    "old_price": null,
+    "name": "Խաղալիք շուն",
+    "in_stock": true,
+    "evidence": "nemo search by article 35894 returns this page; plush dog toy 32 cm with sound - article and size match"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: plush dog 32 cm, with sound, 3350, in stock; article 35894 returns it; title equals hafo's title for TX 35894Trx. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1499,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); no Trixie sheep toy on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-գառնուկի-տեսքով",
+    "price": 4450,
+    "old_price": null,
+    "name": "Խաղալիք գառնուկի տեսքով",
+    "in_stock": true,
+    "evidence": "nemo search by article 35763 returns this page; plush lamb/sheep dog toy 30 cm with sound (hafo row says llama but the article ties it to the sheep; nemo's separate llama is 31 cm)"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: lamb toy 30 cm, plush, sound, 4450, in stock; article 35763 returns it and its title equals hafo's title for TX 35763Trx (EAN 4011905357638). nemo's llama is 35899 (31 cm), a different item. Confirmed. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1549,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); zoovet Trixie steel bowls are other models (1.4 l/2 l plastic-coated, 1.7 l, 750 ml); no Vitamin Sea"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search article/EAN, 'Vitamin Sea', 'Կերաման BE NORDIC': only the 0.2 l/15 cm Vitamin Sea bowl listed; no 0.45 l/19 cm"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: only Vitamin Sea 0.2 l/15 cm (2500); Trixie steel bowl with rubber base 0.9 l/23 cm grey (3750) is another model. No 0.45 l. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1550,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); zoovet Trixie steel bowls are other models (1.4 l/2 l plastic-coated, 1.7 l, 750 ml); no Vitamin Sea"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search article/EAN, 'Vitamin Sea', 'Կերաման BE NORDIC': only the 0.2 l/15 cm Vitamin Sea bowl listed; no 0.7 l/21 cm"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: only Vitamin Sea 0.2 l/15 cm listed; no 0.7 l/21 cm. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1551,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); zoovet Trixie steel bowls are other models (1.4 l/2 l plastic-coated, 1.7 l, 750 ml); no Vitamin Sea"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search article/EAN, 'Vitamin Sea', 'Կերաման BE NORDIC': only the 0.2 l/15 cm Vitamin Sea bowl listed; no 0.9 l/23 cm"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: only Vitamin Sea 0.2 l/15 cm; nearest same-size bowl 'Կերաման շների համար, չժանգոտվող պողպատից, ռետինե տակով' 0.9 l/23 cm is GREY at 3750 (other model/colour, not black/bronze). Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  },
+  {
+   "variant_id": 1559,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned for harness/collar/lead/toy/bowl terms + live searches (шлейка, полуудавка, цепь, апорт, фламинго, лама, теннисный, щетка, нержавеющей, Junior, Be Nordic, article/EAN codes); zoovet Trixie leads: Premium XS–S violet 2 m/15 mm (other model/length), no 1.80 m black"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo search 201901, EAN, Ձգափոկ նեյլոնե XS-L: same line XS–S 1.80 m/15 mm only in red https://www.nemo.am/ձգափոկ-նեյլոնե-xs-l-կարմիր-2 (4800); black not listed"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo: 201901/EAN no hit; XS-L nylon lead XS–S 1.80 m/15 mm listed only in petrol and red (4800); black 'Classic'/сворка leads are other models. Confirmed not found. Verifier: zoovet live search timed out today (connection errors); re-scanned today's zoovet Trixie list (354 rows) for harness/collar/choke/chain/lead/bowl/toy/brush terms - no matching item."
+  }
+ ]
+}

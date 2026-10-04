@@ -1,0 +1,347 @@
+[
+ {
+  "variant_id": 2009,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Зубочистики Лакомство для чистки зубов для поддержки пищеварения для собак от 10 - 25 кг, 70 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/zubochistiki-lakomstvo-dlya-chistki-zubov-dlya-poddergki-pischevareniya-dlya-sobak-ot-10-25-kg-70-g",
+   "price": 1350,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today. Description: Зубочистики enriched with chlorophyll for digestion; Вес 0.07 kg; for dogs 10-25 kg. Pack photo shows '4 штуки', 'обогащены хлорофиллом', 'для собак 10-25 кг', the same pack as hafo's DL 303986 photo. Price 1350 AMD with no struck-through price; 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Համեղ պատառ ատամների խնամքի համար(անանուխով)",
+   "url": "https://www.nemo.am/համեղ-պատառ-ատամների-խնամքի-համարանանուխով",
+   "price": 1350,
+   "old_price": 1650,
+   "in_stock": false,
+   "evidence": "MISSED BY MATCHER. nemo pid 1754 has the exact hafo title for DL 303986. Page text: 'Քաշը՝ 70գ: Քանակը՝ 4 հատ' plus chlorophyll. Pack photo shows 4 pcs, ОБОГАЩЕНЫ ХЛОРОФИЛЛОМ, для собак 10-25 кг. Price 1350 AMD with 1650 struck through. 'Առկայությունը: Առկա չէ' (out of stock), but the listing is published and appears in nemo's search for 'Համեղ պատառ ատամների'. It has no manufacturer tag, so it is missing from the brand list. Not a match: the brand-list item 'Անանուխով ոսկոր…' -2 (1350/1650), whose photo shows 7 pcs, up to 10 kg (DL 303976, 60 g)."
+  },
+  "verdict": "disagree",
+  "reason": "Matcher said nemo does not carry it. nemo does list the exact 70 g / 4 pcs chlorophyll pack at 1350 (old 1650, out of stock) under hafo's own title. Its URL is /համեղ-պատառ-ատամների-խնամքի-համարանանուխով."
+ },
+ {
+  "variant_id": 2010,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Зубочистики Лакомство для чистки зубов с кальцием для здоровых костей и суставов для собак до 10 кг, 60 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/zubochistiki-lakomstvo-dlya-chistki-zubov-s-kaltsiem-dlya-zdorovyh-kostej-i-sustavov-dlya-sobak-do-10-kg-60-g",
+   "price": 1500,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Opened the zoovet page today: calcium Зубочистики, 'Вес: 60 г', for small breeds. Pack photo shows '7 штук', ОБОГАЩЕНЫ КАЛЬЦИЕМ, для собак до 10 кг. Price 1500 AMD, no old price, 'Нет в наличии'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Համեղ պատառ ատամների խնամքի համար (կալցի)",
+   "url": "https://www.nemo.am/համեղ-պատառ-ատամների-խնամքի-համար-կալցի",
+   "price": 1500,
+   "old_price": 1800,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 1563, Деревенские лакомства): 'Քաշը՝ 60գ', calcium Зубочистики for small breeds. Photo shows 7 pcs, calcium, up to 10 kg. Price 1500 AMD with 1800 struck through. No 'Առկա չէ' label, so it is in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 1500, nemo 1500)."
+ },
+ {
+  "variant_id": 2011,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Зубочистики Лакомство для чистки зубов обогащенные кальцием для собак от 10 - 25 кг, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/zubochistiki-lakomstvo-dlya-chistki-zubov-obogaschennye-kaltsiem-dlya-sobak-ot-10-25-kg-90-g",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today: calcium Зубочистики for 10-25 kg dogs, Вес 0.09 kg. Pack photo shows '4 штуки', calcium, 10-25 kg. Price 1800 AMD, no old price, 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Համեղ պատառ ատամների խնամքի համար",
+   "url": "https://www.nemo.am/համեղ-պատառ-ատամների-խնամքի-համար-2",
+   "price": 1800,
+   "old_price": 2200,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 1565, Деревенские лакомства): 'Քաշը՝ 90գ: Քանակը՝ 4 հատ', calcium Зубочистики. Photo shows 4 pcs, calcium, 10-25 kg. Price 1800 AMD with 2200 struck through, in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 1800, nemo 1800)."
+ },
+ {
+  "variant_id": 2012,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried. zoovet's Зубочистики range today is 4 items: 70 g chlorophyll 10-25 kg, 90 g calcium 10-25 kg, 60 g calcium up to 10 kg, and 105 g calcium 2 pcs for dogs over 25 kg. Live searches 'авокадо', 'шерсти', 'здоровой шерсти', 'Зубочистики' and the EAN 6942133304034 found no avocado dental treat."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Համեղ պատառ ատամների խնամքի համար",
+   "url": "https://www.nemo.am/համեղ-պատառ-ատամների-խնամքի-համար",
+   "price": 900,
+   "old_price": 1100,
+   "in_stock": false,
+   "evidence": "Opened the nemo page today (pid 1561, Деревенские лакомства): 'Քաշը՝ 35գ: Քանակը՝ 5 հատ', avocado Зубочистики. Pack photo shows 5 штук, для здоровой шерсти и кожи, для собак до 25 кг, identical to hafo's DL 304036 photo. Price 900 AMD with 1100 struck through. The page shows 'Առկայությունը: Առկա չէ', so it is OUT OF STOCK; the matcher said in stock. Not a match: 'Ոսկոր շների ատամների համար (ավոկադո)' -2, whose photo shows 2 pcs for dogs from 10 kg."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same price (nemo 900). Correction: the nemo listing is out of stock today."
+ },
+ {
+  "variant_id": 2013,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство сушеная куриная грудка для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-sushenaya-kurinaya-grudka-dlya-sobak-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today: oven-baked chicken breast fillet for adult dogs, 'Вес: 90 г'. Pack photo shows КУРИНЫЕ ГРУДКИ сушеные, Нетто 90 г. Price 2250 AMD, no old price, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի չորացված կրծքամիս",
+   "url": "https://www.nemo.am/հավի-չորացված-կրծքամիս",
+   "price": 2250,
+   "old_price": 2800,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 1694, Деревенские лакомства): 'Քաշը՝ 90գ', chicken breast fillet. Photo shows КУРИНЫЕ ГРУДКИ сушеные; the title is the same as hafo's for DL 711136. Price 2250 AMD with 2800 struck through, in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2250, nemo 2250)."
+ },
+ {
+  "variant_id": 2014,
+  "confidence": "medium",
+  "notes": "the live nemo listing does not print the weight; its pack photo and the hafo-identical title match, and the unpublished older nemo listing of the same item says 90 g",
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried. zoovet's Деревенские лакомства brand list today (52 items) and its live searches ('медальон', 'медальоны куриные', EAN 6921499711151) only have turkey/rice 55 g, lamb 55 g and ostrich 90 g medallions. There are no chicken medallions."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Չորացված հավի միս շների համար",
+   "url": "https://www.nemo.am/չորացված-հավի-միս-շների-համար-2",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 6624, Деревенские лакомства): 'մեդալիոնի տեսքով չորացված'. Pack photo shows КУРИНЫЕ МЕДАЛЬОНЫ сушеные, для взрослых собак; the title is the same as hafo's for DL 711156. Price 2250 AMD, no strike-through, in stock. The older listing with the same title (pid 1604, '90գ', 2200) shows 'no longer available', so it is unpublished."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same price (nemo 2250; zoovet not carried)."
+ },
+ {
+  "variant_id": 2015,
+  "confidence": "medium",
+  "notes": "the live nemo listing does not print the weight. EAN 6921499711175 is Куриные косточки жевательные 90 г (art. 79711175, several RU shops). nemo's unpublished older listing said 100 g.",
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried. zoovet's Деревенские лакомства brand list today (52 items) and its live searches ('косточки', 'косточки жевательные', 'куриные', EAN 6921499711175) have no chewy chicken bones; the only bones are turkey, duck and calcium items."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի մսով ոսկորիկներ փոքր շների համար",
+   "url": "https://www.nemo.am/հավի-մսով-ոսկորիկներ-փոքր-շների-համար-2",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 6626, Деревенские лакомства): chicken meat on beef rawhide bones. Pack photo shows КУРИНЫЕ КОСТОЧКИ жевательные, для взрослых собак; the title is the same as hafo's for DL 711176. Price 2250 AMD, no strike-through, in stock. The older same-title listing (pid 1693, '100գ', 2200) is unpublished ('no longer available')."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same price (nemo 2250; zoovet not carried)."
+ },
+ {
+  "variant_id": 2016,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство куриные палочки крученые для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kurinye-palochki-kruchenye-dlya-sobak-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today: chew stick wrapped in chicken, Вес 0.09 kg. Pack photo shows КУРИНЫЕ ПАЛОЧКИ крученые, Нетто 90 г. Price 2250 AMD, no old price, 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի մսով ձողիկներ",
+   "url": "https://www.nemo.am/հավի-մսով-ձողիկներ",
+   "price": 2250,
+   "old_price": 2800,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 1696, Деревенские лакомства): 'Քաշը՝ 90գ', twisted chicken sticks on rawhide. Photo shows КУРИНЫЕ ПАЛОЧКИ крученые. Price 2250 AMD with 2800 struck through, in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2250, nemo 2250)."
+ },
+ {
+  "variant_id": 2017,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство куриные дольки нежные для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kurinye-dolki-negnye-dlya-sobak-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today: tender chicken slices, Вес 0.09 kg. Pack photo shows КУРИНЫЕ ДОЛЬКИ нежные. Price 2250 AMD, no old price, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի մսով նուրբ շերտեր շների համար",
+   "url": "https://www.nemo.am/հավի-մսով-նուրբ-շերտեր-շների-համար",
+   "price": 2250,
+   "old_price": 2800,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 1605, Деревенские лакомства): 'Քաշը՝ 90գ', tender chicken slices. Photo shows КУРИНЫЕ ДОЛЬКИ нежные; the title is the same as hafo's for DL 711206. Price 2250 AMD with 2800 struck through, in stock. Not a match: the 'հավի չորացրած կտորներ' listings (pids 1601 and 6625), whose packs read КУРИНЫЕ ЛОМТИКИ сушеные (DL 711146)."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2250, nemo 2250)."
+ },
+ {
+  "variant_id": 2018,
+  "confidence": "medium",
+  "notes": "the nemo page text does not print the weight; the pack photo and the hafo-identical title match",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство утиная нарезка для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-utinaya-narezka-dlya-sobak-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Opened the zoovet page today: duck slices, Вес 0.09 kg. Pack photo shows УТИНАЯ НАРЕЗКА сушеная. Price 2250 AMD, no old price, 'Нет в наличии'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Չորացված բադի կտորներ",
+   "url": "https://www.nemo.am/չորացված-բադի-կտորներ-2",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Opened the nemo page today (pid 6621, Деревенские лакомства): juicy duck pieces for training. Pack photo shows УТИНАЯ НАРЕЗКА сушеная; the title is the same as hafo's for DL 711216. Price 2250 AMD, no strike-through. The page shows 'Առկայությունը: Առկա չէ', so it is OUT OF STOCK; the matcher said in stock. Also on nemo: pid 1596, titled 'Բադի մսով ձողիկներ' (90 g, 2250, old 2800, out of stock), which shows the НАРЕЗКА pack as its first photo, and the unpublished pid 1597 at 2800. The price is 2250 either way."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2250, nemo 2250). Correction: the nemo listing is out of stock today."
+ },
+ {
+  "variant_id": 2019,
+  "confidence": "medium",
+  "notes": "the nemo page text does not print the weight; the pack photo, the description and the hafo-identical title match",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство утиная соломка нежная для собак, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-utinaya-solomka-negnaya-dlya-sobak-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today: 'Утиная соломка нежная', Вес 0.09 kg. Pack photo shows УТИНАЯ СОЛОМКА нежная, Нетто 90 г. Price 2250 AMD, no old price, 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բադի մսով ձողիկներ",
+   "url": "https://www.nemo.am/բադի-մսով-ձողիկներ-2",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Opened the nemo page today (pid 6622, Деревенские лакомства): thin tender duck sticks for medium and large adult dogs. Pack photo shows УТИНАЯ СОЛОМКА нежная. Price 2250 AMD, no strike-through. The page shows 'Առկայությունը: Առկա չէ', so it is OUT OF STOCK; the matcher said in stock. The second same-title listing (pid 1596, 90 g, 2250, old 2800, also out of stock) shows the НАРЕЗКА pack, so it is ambiguous. Both are 2250."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2250, nemo 2250). Correction: the nemo listing is out of stock today."
+ },
+ {
+  "variant_id": 2020,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство Куриные рулетики для щенков, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kurinye-ruletiki-dlya-schenkov-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Opened the zoovet page today: chew stick wrapped in chicken, for puppies, Вес 0.09 kg. Pack photo shows КУРИНЫЕ РУЛЕТИКИ, для щенков. Price 2250 AMD, no old price, 'Нет в наличии'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի մսով ձողիկներ ձագերի համար",
+   "url": "https://www.nemo.am/հավի-մսով-ձողիկներ-ձագերի-համար",
+   "price": 2250,
+   "old_price": 2800,
+   "in_stock": false,
+   "evidence": "Opened the nemo page today (pid 1740, Деревенские лакомства): 'Քաշը՝ 90գ', sticks wrapped in chicken, for puppies. Photo shows КУРИНЫЕ РУЛЕТИКИ, для щенков. Price 2250 AMD with 2800 struck through. The page shows 'Առկայությունը: Առկա չէ', so it is OUT OF STOCK; the matcher said in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2250, nemo 2250). Correction: the nemo listing is out of stock today."
+ },
+ {
+  "variant_id": 2021,
+  "confidence": "medium",
+  "notes": "the live nemo listing does not print the weight; its pack photo and the hafo-identical title match, and the unpublished older nemo listing says 90 g",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство куриные колечки для щенков, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kurinye-kolechki-dlya-schenkov-90-g",
+   "price": 2500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today: dried chicken rings for puppies, Вес 0.09 kg. Pack photo shows КУРИНЫЕ КОЛЕЧКИ, для щенков. Price 2500 AMD, no old price, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի մսով օղակներ ձագերի համար",
+   "url": "https://www.nemo.am/հավի-մսով-օղակներ-ձագերի-համար-2",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 5679, Деревенские лакомства): dried chicken rings for puppies. Pack photo shows КУРИНЫЕ КОЛЕЧКИ, для щенков. Price 2250 AMD, no strike-through, in stock. The older same-title listing (pid 1742, '90գ', 2100) is unpublished ('no longer available')."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2500, nemo 2250)."
+ },
+ {
+  "variant_id": 2022,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried. zoovet's Деревенские лакомства brand list today (52 items) and its live searches ('хрящ', 'хрящики', 'хрящики куриной', 'грудк', 'мини-пород', EAN 6921499711403) have no chicken-breast cartilage. The mini-breed Derevenskie items are 55 g breasts, slices, bones and ears."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի կրծքամսի կռճիկներ փոքր շների համար",
+   "url": "https://www.nemo.am/հավի-կրծքամսի-կռճիկներ-փոքր-շների-համար",
+   "price": 1500,
+   "old_price": 1850,
+   "in_stock": true,
+   "evidence": "Opened the nemo page today (pid 1745, Деревенские лакомства): 'Քաշը՝ 30գ', a treat for small breeds. Photo shows ХРЯЩИКИ КУРИНОЙ ГРУДКИ, для мини-пород; the title is the same as hafo's for DL 711406. Price 1500 AMD with 1850 struck through, in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same price (nemo 1500; zoovet not carried)."
+ },
+ {
+  "variant_id": 2023,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Деревенские лакомства Лакомство кальциевые косточки с уткой для щенков, 90 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kaltsievye-kostochki-s-utkoj-dlya-schenkov-90-g",
+   "price": 2250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the zoovet page today: calcium bone with duck for puppies, Вес 0.09 kg. Pack photo shows КАЛЬЦИЕВАЯ КОСТОЧКА с уткой, для щенков. Price 2250 AMD, no old price, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Կալցիումով ոսկորներ ձագերի համար",
+   "url": "https://www.nemo.am/կալցիումով-ոսկորներ-ձագերի-համար",
+   "price": 2250,
+   "old_price": 2800,
+   "in_stock": false,
+   "evidence": "Opened the nemo page today (pid 1739, Деревенские лакомства): 'Քաշը՝ 90գ', duck fillet with calcium bones, for puppies. Photo shows КАЛЬЦИЕВАЯ КОСТОЧКА с уткой. Price 2250 AMD with 2800 struck through. The page shows 'Առկայությունը: Առկա չէ', so it is OUT OF STOCK; the matcher said in stock."
+  },
+  "verdict": "agree",
+  "reason": "Same shops at the same prices (zoovet 2250, nemo 2250). Correction: the nemo listing is out of stock today."
+ }
+]

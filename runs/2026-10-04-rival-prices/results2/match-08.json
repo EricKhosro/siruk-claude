@@ -1,0 +1,273 @@
+{
+ "results": [
+  {
+   "variant_id": 1613,
+   "zoovet": {
+    "found": true,
+    "name": "Eco-Premium Персик Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-persik-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+    "price": 3950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: Eco-Premium Персик (peach) clumping wood cat litter, 1.9 kg (5 l), 3950 AMD, no options, 'В наличии · 2 шт'. Brand, line (wood clumping), scent peach, 5 l all match."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, դեղձի հոտով, 5 լ",
+    "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-դեղձի-հոտով-5-լ",
+    "price": 3950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: manufacturer ECO-Premium, clumping wood-based litter, peach scent (դեղձի հոտով), 5 l, 3950 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 3950 (= hafo 3950)."
+  },
+  {
+   "variant_id": 1614,
+   "zoovet": {
+    "found": true,
+    "name": "Eco-Premium Зеленый чай Наполнитель древесный комкующийся для кошачьего туалета, 1.9 кг (5 л)",
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/eco-premium-zelenyj-chaj-napolnitel-drevesnyj-komkuyuschijsya-dlya-koshachego-tualeta-1-9-kg-5-l",
+    "price": 3950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: Eco-Premium Зеленый чай (green tea) clumping wood litter, 1.9 kg (5 l), 3950 AMD, 'В наличии · 1 шт'. Not the unscented 'Зеленый' (green) at 3750."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Eco-Premium լցանյութ՝ գնդվող, փայտե հիմքով, կանաչ թեյի հոտով, 5լ",
+    "url": "https://www.nemo.am/eco-premium-լցանյութ-գնդվող-փայտե-հիմքով-կանաչ-թեյի-հոտով-20լ-copy",
+    "price": 3950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page name and description say green-tea scent (կանաչ թեյի հոտով), 5 l (slug says 20լ-copy, but the page name/description say 5 l); manufacturer ECO-Premium; 3950 AMD, in stock. Not the 'GREEN' 5 l at 3750."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 3950 (= hafo 3950)."
+  },
+  {
+   "variant_id": 923,
+   "zoovet": {
+    "found": true,
+    "name": "Гельминтал SPOT-ON Капли антигельминтные для кошек (до 4 кг), 1 пипетка",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/gelmintal-spot-on-kapli-antigelmintnye-dlya-koshek-do-4-kg-1-pipetka",
+    "price": 2950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: Gelmintal SPOT-ON for cats up to 4 kg, 1 pipette (our 0.4 ml single pipette), 2950 AMD, no options, in stock (art. ME-00002739)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների դեմ կաթիլներ մինչև 4 կգ կատուների համար",
+    "url": "https://www.nemo.am/ճիճուների-դեմ-կաթիլներ-մինչև-4-կգ-կատուների-համար",
+    "price": 2910,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page short text 'Կաթիլներ կատուների 4կգ E101 Spot-on' (same E101 code as hafo row); photo is the Гельминтал K SPOT-ON box 'для кошек массой менее 4 кг'; 2910 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest: zoovet 2950."
+  },
+  {
+   "variant_id": 1418,
+   "zoovet": {
+    "found": true,
+    "name": "Гельминтал SPOT-ON Капли антигельминтные для кошек (4-10 кг), 1 пипетка",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/gelmintal-spot-on-kapli-antigelmintnye-dlya-koshek-4-10-kg-1-pipetka",
+    "price": 3700,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: Gelmintal SPOT-ON for cats 4-10 kg, 1 pipette (our single 1 ml pipette), 3700 AMD, in stock (ME-00002738). Not the separate listing 'упаковка 3 пипетки (поштучно)' at 2700 (one pipette out of a 3-pipette box, ME-00007395)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների դեմ կաթիլներ մինչև 4-10 կգ կատուների համար",
+    "url": "https://www.nemo.am/ճիճուների-դեմ-կաթիլներ-մինչև-4-10-կգ-կատուների-համար",
+    "price": 3670,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page short text 'Կաթիլներ կատուների 4-10կգ E106 Spot-on' (same E106 code as hafo row); photo is the Гельминтал K SPOT-ON box for cats 4-10 kg; 3670 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest: zoovet 3700."
+  },
+  {
+   "variant_id": 925,
+   "zoovet": {
+    "found": false,
+    "evidence": "Nearest: 'Гельминтал SPOT-ON Капли антигельминтные для щенков (до 10 кг), (упаковка 2 пип), поштучно' at 1850 AMD (https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-gelmintov-glistov/gelmintal-spot-on-kapli-antigelmintnye-dlya-schenkov-do-10-kg-upakovka-2-pip). It sells ONE pipette taken from the 2-pipette box ('поштучно'; price is half of the box price 3670 at hafo/nemo), not our 2 x 0.5 ml box, so the count does not match. 2 x 1850 = 3700 for reference only."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների դեմ կաթիլներ մինչև 10 կգ շների համար",
+    "url": "https://www.nemo.am/ճիճուների-դեմ-կաթիլներ-մինչև-10-կգ-շների-համար",
+    "price": 3670,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page text 'Գելմինտալ C' spot-on for dogs; photo is the Гельминтал C SPOT-ON box 'для щенков и собак менее 10 кг'; sold as the box at 3670 AMD (= hafo box price), in stock. The page does not print the pipette count."
+   },
+   "confidence": "medium",
+   "notes": "zoovet sells single pipettes only (1850 each); nemo 3670 is the only box-price match."
+  },
+  {
+   "variant_id": 1415,
+   "zoovet": {
+    "found": false,
+    "evidence": "Nearest: 'Гельминтал SPOT-ON Капли антигельминтные для собак (от 10 кг), (упаковка 2 пип), поштучно' at 2550 AMD (https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-gelmintov-glistov/gelmintal-spot-on-kapli-antigelmintnye-dlya-sobak-ot-10-kg-upakovka-2-pip). It sells ONE pipette out of the 2-pipette box ('поштучно'; about half of the 5020 box price at hafo/nemo), not our 2 x 2.5 ml box. 2 x 2550 = 5100 for reference only."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների և տզերի, ոջիլների դեմ կաթիլներ շների համար (10+ կգ)",
+    "url": "https://www.nemo.am/ճիճուների-և-տզերի-ոջիլների-դեմ-կաթիլներ-շների-համար-10-կգ",
+    "price": 5020,
+    "old_price": 5150,
+    "in_stock": true,
+    "evidence": "Page text 'Գելմինտալ C' spot-on for dogs; photo is the Гельминтал C SPOT-ON box 'для собак более 10 кг'; price block shows old price 5150 struck through and current price 5020; in stock. The page does not print the pipette count; 5020 = hafo box price."
+   },
+   "confidence": "medium",
+   "notes": "zoovet sells single pipettes only (2550 each); nemo 5020 (old 5150) is the box."
+  },
+  {
+   "variant_id": 927,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries 9 Gelmintal items (brand list + live search 'Гельминтал'): spot-on drops, tablets and Mini tablets. It has no Gelmintal syrup, and searches for 'сироп Гельминтал' and 'Gelmintal' returned nothing."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների դեմ օշարակ կատուների համար (մինչև 4 կգ)",
+    "url": "https://www.nemo.am/ճիճուների-դեմ-օշարակ-կատուների-համար-մինչև-4-կգ",
+    "price": 2210,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: 'Гельминтал օշարակը (сироп)... մինչև 4 կգ կատուների և ձագերի համար, 5 մլ'; photo is the Гельминтал СИРОП box 'для котят и кошек менее 4 кг'; 2210 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it."
+  },
+  {
+   "variant_id": 1419,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Gelmintal syrup: its 9 Gelmintal items are spot-on drops and tablets only. Searched the brand list and the live search ('Гельминтал', 'сироп Гельминтал', 'Gelmintal')."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների դեմ օշարակ կատուների համար (4 կգ +)",
+    "url": "https://www.nemo.am/ճիճուների-դեմ-օշարակ-կատուների-համար-4-կգ-",
+    "price": 2820,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: 'Гельминтал օշարակը (сироп)... 4 կգ ից բարձր կատուների համար 5 մլ'; photo is the Гельминтал СИРОП box 'для кошек более 4 кг'; 2820 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it."
+  },
+  {
+   "variant_id": 929,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Gelmintal syrup: its 9 Gelmintal items are spot-on drops and tablets only. Searched the brand list and the live search ('Гельминтал', 'сироп Гельминтал', 'Gelmintal')."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճուների դեմ օշարակ ձագերի և մինչև 10 կգ շների համար",
+    "url": "https://www.nemo.am/ճիճուների-դեմ-օշարակ-ձագերի-և-մինչև-10-կգ-շների-համար",
+    "price": 2840,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: 'Գելմինտալ օշարակ... Ձագերի և մինչև 10 կգ շների համար'; photo is the Гельминтал СИРОП box 'для щенков и собак менее 10 кг'; 2840 AMD (= hafo), in stock. Not the other 2840 listing 'Գելմենտալ օշարակ փոքր ցեղատեսակի շների և կատուների ձագերի համար', whose photo is Гельминтал МИНИ сироп, a different product."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it."
+  },
+  {
+   "variant_id": 931,
+   "zoovet": {
+    "found": true,
+    "name": "Гельминтал Таблетки антигельминтные для кошек (до 4 кг), (упаковка 2 шт)",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/gelmintal-tabletki-antigelmintnye-dlya-koshek-do-4-kg-upakovka-2-sht",
+    "price": 2650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "Page: Gelmintal tablets for cats up to 4 kg, pack of 2, 2650 AMD, no options, 'Нет в наличии' (out of stock)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճվամուղ հաբեր կատուների համար՝ մինչև 4 կգ",
+    "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-կատուների-համար-մինչև-4-կգ",
+    "price": 2650,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: 'Մինչև 4կգ կատուների համար, 2 հաբ' (cats up to 4 kg, 2 tablets); photo is the Гельминтал T ТАБЛЕТКИ box 'для котят и кошек менее 4 кг'; 2650 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Both 2650; zoovet out of stock."
+  },
+  {
+   "variant_id": 1420,
+   "zoovet": {
+    "found": true,
+    "name": "Гельминтал Таблетки антигельминтные для кошек (от 4 кг), (упаковка 2 шт)",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/gelmintal-tabletki-antigelmintnye-dlya-koshek-ot-4-kg-upakovka-2-sht",
+    "price": 4200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: Gelmintal tablets for cats over 4 kg, pack of 2, 4200 AMD, no options, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճվամուղ հաբեր կատուների համար՝ 4 կգ-ից բարձր",
+    "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-կատուների-համար-4-կգ-ից-բարձր",
+    "price": 4190,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: '4կգ-ից բարձր կատուների համար, 2 հաբ' (cats over 4 kg, 2 tablets); photo is the Гельминтал T ТАБЛЕТКИ box 'для кошек более 4 кг'; 4190 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest: zoovet 4200."
+  },
+  {
+   "variant_id": 933,
+   "zoovet": {
+    "found": true,
+    "name": "Гельминтал Таблетки антигельминтные для щенков и собак (до 10 кг), упаковка 2 шт, поштучно",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-gelmintov-glistov/gelmintal-tabletki-antigelmintnye-dlya-schenkov-i-sobak-do-10-kg-upakovka-2-sht",
+    "price": 3100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: Gelmintal tablets for puppies and dogs up to 10 kg, '(упаковка 2 шт)', 3100 AMD, in stock (ME-00002744). 3100 is the 2-tablet box price (hafo/nemo box 3090), so the 'поштучно' here means per box."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճվամուղ հաբեր շների համար՝ մինչև 10կգ",
+    "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-շների-համար-մինչև-10կգ",
+    "price": 3090,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: 'Մինչև 10կգ շների ձագերի և հասուն շների համար: 2 հաբ' (puppies and dogs up to 10 kg, 2 tablets); photo is the Гельминтал T ТАБЛЕТКИ box 'для щенков и собак менее 10 кг'; 3090 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Highest: zoovet 3100. The zoovet name says 'поштучно', but the price shows it is the 2-tablet box."
+  },
+  {
+   "variant_id": 1417,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Gelmintal range (9 items) has tablets only for cats up to 4 kg, cats over 4 kg and puppies/dogs up to 10 kg, plus Mini tablets. It has no tablets for dogs over 10 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ճիճվամուղ հաբեր 10 կգ-ից բարձր շների համար",
+    "url": "https://www.nemo.am/ճիճվամուղ-հաբեր-10-կգ-ից-բարձր-շների-համար",
+    "price": 4410,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Page: '10կգ-ից բարձր շների համար: 2 հաբ' (dogs over 10 kg, 2 tablets); photo is the Гельминтал T ТАБЛЕТКИ box 'для собак более 10 кг'; 4410 AMD (= hafo), in stock."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it."
+  }
+ ]
+}

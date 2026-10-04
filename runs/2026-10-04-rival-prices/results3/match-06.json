@@ -1,0 +1,543 @@
+{
+ "results": [
+  {
+   "variant_id": 1673,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-myasom-dikogo-kabana-dlya-sobak-upakovka-12-kg-5460",
+    "price": 42000,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с мясом дикого кабана для собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge BWild dry dog food, wild boar, option 'Упак (12 кг)' 42000; wild boar exists only in the BWild Low Grain All Breeds Adult line; stock 1 pc."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-bwild-adult-վայրի-վարազի-մսով",
+    "price": 42000,
+    "old_price": null,
+    "name": "Կեր շների BWILD ADULT` վայրի վարազի մսով",
+    "in_stock": true,
+    "evidence": "Page: manufacturer BWild, 'Քաշը՝ 12կգ', all breeds adult, limited grain (low grain), wild boar; same as hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1674,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-myasom-dikogo-kabana-dlya-sobak-upakovka-12-kg",
+    "price": 3700,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с мясом дикого кабана для собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 3700 of the same BWild wild boar 12 kg bag (pack option 42000)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-bwild-adult-վայրի-վարազի-մսով-կիլոգրամով",
+    "price": 3600,
+    "old_price": null,
+    "name": "Կեր շների BWILD ADULT` վայրի վարազի մսով (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: BWild adult all breeds, limited grain, wild boar, sold per kg (կիլոգրամով)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1675,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-oleninoj-dlya-sobak-upakovka-12-kg-5512",
+    "price": 48000,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с олениной для собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge BWild dog, venison (deer), option 'Упак (12 кг)' 48000; composition lists oats (low grain); adult (deer puppy is a separate listing). Stock 2."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-bwild-adult-եղնիկի-մսով-2",
+    "price": 48000,
+    "old_price": null,
+    "name": "Կեր շների BWILD ADULT` եղնիկի մսով",
+    "in_stock": true,
+    "evidence": "Page: manufacturer BWild, 12 kg, all breeds adult, limited grain, deer. The unsuffixed slug is the per-kg listing."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1676,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-oleninoj-dlya-sobak-upakovka-12-kg",
+    "price": 4200,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с олениной для собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 4200 of BWild adult deer 12 kg bag."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-bwild-adult-եղնիկի-մսով",
+    "price": 4100,
+    "old_price": null,
+    "name": "Կեր շների BWILD ADULT` եղնիկի մսով (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: BWild adult deer, all breeds, limited grain, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1677,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-oleninoj-dlya-schenkov-upakovka-12-kg-5461",
+    "price": 49000,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с олениной для щенков, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge BWild puppy, venison, option 'Упак (12 кг)' 49000; the only BWild deer puppy food is Low Grain Puppy & Junior. Stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-ձագերի-bwild-puppy-եղնիկի-մսով",
+    "price": 49000,
+    "old_price": null,
+    "name": "Կեր շների ձագերի BWILD PUPPY` եղնիկի մսով",
+    "in_stock": true,
+    "evidence": "Page: manufacturer BWild, 12 kg, puppy, deer, reduced carbohydrates; same as hafo row name."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1678,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-oleninoj-dlya-schenkov-upakovka-12-kg",
+    "price": 4300,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с олениной для щенков, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 4300 of BWild puppy deer 12 kg bag."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-ձագերի-bwild-puppy-եղնիկի-մսով-կիլոգրամով",
+    "price": 4200,
+    "old_price": null,
+    "name": "Կեր շների ձագերի BWILD PUPPY` եղնիկի մսով (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: BWild puppy deer, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1679,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-yagnenkom-i-kartofelem-dlya-sobak-upakovka-12-kg-5458",
+    "price": 54500,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с ягненком и картофелем для собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge BWild dog, lamb & potato, composition lists peas (горох 4%) = BWild Grain Free All Breeds Adult lamb/potatoes/peas; option 'Упак (12 кг)' 54500. Stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-bwild-grainfree-գառգարոխկարտոֆիլ",
+    "price": 54500,
+    "old_price": null,
+    "name": "Կեր շների համար Bwild GrainFree գառ/գարոխ/կարտոֆիլ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer BWild, 12 kg, all breeds adult, lamb/peas/potato, Grain Free; same name as hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1680,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-suhoj-korm-s-yagnenkom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+    "price": 4750,
+    "old_price": null,
+    "name": "Monge Bwild Сухой корм с ягненком и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 4750 of BWild GF lamb/potato 12 kg bag."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-bwild-grainfree-գառգարոխկարտոֆիլ-կիլոգրամով",
+    "price": 4650,
+    "old_price": null,
+    "name": "Կեր շների համար Bwild GrainFree գառ/գարոխ/կարտոֆիլ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: BWild Grain Free lamb/peas/potato adult, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1681,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-hairball-suhoj-korm-s-kuritsej-dlya-vzroslyh-koshek-upakovka-10-kg-5595",
+    "price": 35000,
+    "old_price": null,
+    "name": "Monge Hairball Сухой корм с курицей для взрослых кошек, упаковка 10 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge Hairball adult cat chicken, option 'Упак (10 кг)' 35000 (not the VetSolution 1.5 kg). Stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-hairball-չոր-կեր-կատուների-համար",
+    "price": 35000,
+    "old_price": null,
+    "name": "Monge Hairball չոր կեր կատուների համար (10 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, 10 kg, chicken, adult hairball."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1682,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-hairball-suhoj-korm-s-kuritsej-dlya-vzroslyh-koshek-upakovka-10-kg",
+    "price": 3800,
+    "old_price": null,
+    "name": "Monge Hairball Сухой корм с курицей для взрослых кошек, упаковка 10 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 3800 of Monge Hairball 10 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-hairball-չոր-կեր-կատուների-համար-2",
+    "price": 3700,
+    "old_price": null,
+    "name": "Monge Hairball չոր կեր կատուների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Hairball chicken, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1683,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-indoor-suhoj-korm-s-kuritsej-dlya-koshek-s-nizkoj-fizicheskoj-aktivnostyu-upakovka-10-kg-5594",
+    "price": 35000,
+    "old_price": null,
+    "name": "Monge Indoor Сухой корм с курицей для кошек с низкой физической активностью, упаковка 10 кг",
+    "in_stock": false,
+    "evidence": "Page: Monge Indoor cat chicken, option 'Упак (10 кг)' 35000; pack listing 'Нет в наличии' (the loose listing is in stock)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-indoor-չոր-կեր-տնային-կատուների-համար",
+    "price": 35000,
+    "old_price": null,
+    "name": "Monge Indoor չոր կեր տնային կատուների համար (10 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, 10 kg, chicken, adult indoor cats."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1684,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-indoor-suhoj-korm-s-kuritsej-dlya-koshek-s-nizkoj-fizicheskoj-aktivnostyu-upakovka-10-kg",
+    "price": 3800,
+    "old_price": null,
+    "name": "Monge Indoor Сухой корм с курицей для кошек с низкой физической активностью, упаковка 10 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 3800 of Monge Indoor 10 kg; stock 4."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-indoor-չոր-կեր-տնային-կատուների-համար-2",
+    "price": 3700,
+    "old_price": null,
+    "name": "Monge Indoor չոր կեր տնային կատուների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Indoor chicken, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1685,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-10-kg-5450",
+    "price": 34500,
+    "old_price": null,
+    "name": "Monge Kitten Сухой корм с курицей и рисом для котят, упаковка 10 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge Kitten chicken (& rice), option 'Упак (10 кг)' 34500. Stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-kitten-չոր-կեր-կատվի-ձագերի-համար-2",
+    "price": 34500,
+    "old_price": null,
+    "name": "Monge Kitten չոր կեր կատվի ձագերի համար (10 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, 10 kg, chicken, kittens 1-12 months."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1686,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-kitten-suhoj-korm-s-kuritsej-i-risom-dlya-kotyat-upakovka-10-kg",
+    "price": 3700,
+    "old_price": null,
+    "name": "Monge Kitten Сухой корм с курицей и рисом для котят, упаковка 10 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 3700 of Monge Kitten chicken 10 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-kitten-չոր-կեր-կատվի-ձագերի-համար-3",
+    "price": 3600,
+    "old_price": null,
+    "name": "Monge Kitten չոր կեր կատվի ձագերի համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Kitten chicken, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1687,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-sensitive-suhoj-korm-s-kuritsej-dlya-vzroslyh-koshek-upakovka-10-kg-5593",
+    "price": 35500,
+    "old_price": null,
+    "name": "Monge Sensitive Сухой корм с курицей для взрослых кошек, упаковка 10 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge Sensitive adult cat chicken, option 'Упак (10 кг)' 35500. Stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-sensitive-չոր-կեր-կատուների-համար",
+    "price": 35500,
+    "old_price": null,
+    "name": "Monge Sensitive չոր կեր կատուների համար (10 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, 10 kg, sensitive-digestion cats."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1688,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-sensitive-suhoj-korm-s-kuritsej-dlya-vzroslyh-koshek-upakovka-10-kg",
+    "price": 3750,
+    "old_price": null,
+    "name": "Monge Sensitive Сухой корм с курицей для взрослых кошек, упаковка 10 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 3750 of Monge Sensitive 10 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-sensitive-չոր-կեր-կատուների-համար-2",
+    "price": 3650,
+    "old_price": null,
+    "name": "Monge Sensitive չոր կեր կատուների համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Sensitive, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1689,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-adult-suhoj-korm-s-kuritsej-i-risom-dlya-koshek-upakovka-10-kg-5451",
+    "price": 31500,
+    "old_price": null,
+    "name": "Monge Adult Сухой корм с курицей и рисом для кошек, упаковка 10 кг",
+    "in_stock": true,
+    "evidence": "Page: Monge Adult cat chicken (& rice), the standard Monge Cat Adult chicken (rabbit 10 kg is a separate listing at 40000); option 'Упак (10 кг)' 31500. Stock 2."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-adult-chicken-չոր-կեր-կատուների-համար",
+    "price": 31500,
+    "old_price": null,
+    "name": "Monge Adult Chicken չոր կեր կատուների համար (10 կգ)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, 10 kg, chicken, adult cats."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1982,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-starter-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-i-beremennyh-sobak-upakovka-15-kg-5443",
+    "price": 49500,
+    "old_price": null,
+    "name": "Monge Medium Starter Сухой корм с курицей и рисом для щенков средних пород и беременных собак, упаковка 15 кг",
+    "in_stock": false,
+    "evidence": "Page: Monge Medium Starter chicken & rice, option 'Упак (15 кг)' 49500; pack listing 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-medium-starter-ձագերի-և-մայրերի-համար",
+    "price": 49500,
+    "old_price": null,
+    "name": "Monge Medium Starter-Ձագերի և Մայրերի համար",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, 'Քաշը՝ 15 կգ', medium-breed puppies & mothers, chicken & rice."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1983,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-starter-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-i-beremennyh-sobak-upakovka-15-kg",
+    "price": 3500,
+    "old_price": null,
+    "name": "Monge Medium Starter Сухой корм с курицей и рисом для щенков средних пород и беременных собак, упаковка 15 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' 3500 of Monge Medium Starter 15 kg; stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-medium-starter-ձագերի-և-մայրերի-համար-2",
+    "price": 3400,
+    "old_price": null,
+    "name": "Monge Medium Starter-Ձագերի և Մայրերի համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Medium Starter chicken/rice, per kg."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 2033,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-adult-suhoj-korm-s-kuritsej-i-risom-dlya-sobak-srednih-porod-upakovka-15-kg-5444",
+    "price": 39000,
+    "old_price": null,
+    "name": "Monge Medium Adult Сухой корм с курицей и рисом для собак средних пород, упаковка 15 кг",
+    "in_stock": false,
+    "evidence": "Page: Monge Medium Adult chicken & rice, option 'Упак (15 кг)' 39000; pack listing 'Нет в наличии' (loose listing in stock)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-medium-adult-մեծերի-համար",
+    "price": 39000,
+    "old_price": null,
+    "name": "MONGE MEDIUM ADULT",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, 'Քաշը՝ 15կգ', medium-breed adult, chicken & rice. (The '-2' listing at 2700 is the per-kg one.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1181,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Mr.Fresh: searched 'Mr.Fresh', 'mr fresh', 'Мистер|Фреш', 'Expert спрей', 'спрей запах', 'погрыз', 'царапан', 'лоток спрей|приучен', EANs; only Nature's Miracle, Gamma, Tamachi sprays. Nearest: Nature's Miracle cat stain & odor spray 946 ml (different brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searched 'Mr.Fresh', 'ցողարկիչ', 'հոտի', 'սփրեյ', 'Fresh կատուների', 'F403'; nemo lists only the Mr.Fresh 3-in-1 odour spray FOR DOGS 500 ml (3150) and dog training/anti-soiling sprays; no cat & ferret version."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1183,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Mr.Fresh: searched 'Mr.Fresh', 'mr fresh', 'Мистер|Фреш', 'Expert спрей', 'спрей запах', 'погрыз', 'царапан', 'лоток спрей|приучен', EANs; only Nature's Miracle, Gamma, Tamachi sprays."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/mrfresh-ցողարկիչ-հոտի-և-հետքերի-դեմ-շների-համար",
+    "price": 3150,
+    "old_price": null,
+    "name": "«Mr.Fresh» ցողարկիչ հոտի և հետքերի դեմ շների համար",
+    "in_stock": true,
+    "evidence": "Page: 'Չափս՝ 500մլ', «Mr.Fresh» 3-in-1 spray for dogs against odours and stains; matches Expert Stain & Odour Eliminator 3-in-1 for Dogs 500 ml (hafo: Mr.Fresh F404). Manufacturer field empty."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1186,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Mr.Fresh: searched 'Mr.Fresh', 'mr fresh', 'Мистер|Фреш', 'Expert спрей', 'спрей запах', 'погрыз', 'царапан', 'лоток спрей|приучен', EANs; only Nature's Miracle, Gamma, Tamachi sprays. Nearest: Tamachi ANTI-CHEW Dogs 200 ml (different brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Mr.Fresh items: only 3-in-1 odour spray dogs 500 ml, dog toilet-training spray 200 ml (2700), dog anti-soiling spray (3140). Searched 'կրծել', 'Mr.Fresh', 'ցողարկիչ'. Nearest other brands: Tamachi anti-chew 200 ml, mr.Bruno anti-chew 200 ml."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1188,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Mr.Fresh: searched 'Mr.Fresh', 'mr fresh', 'Мистер|Фреш', 'Expert спрей', 'спрей запах', 'погрыз', 'царапан', 'лоток спрей|приучен', EANs; only Nature's Miracle, Gamma, Tamachi sprays. Nearest: Gamma anti-chew/anti-scratch for cats 250 ml (different brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no Mr.Fresh anti-scratch spray for cats; searched 'ճանկ', 'Mr.Fresh', 'սփրեյ', 'ցողարկիչ'."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1192,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Mr.Fresh: searched 'Mr.Fresh', 'mr fresh', 'Мистер|Фреш', 'Expert спрей', 'спрей запах', 'погрыз', 'царапан', 'лоток спрей|приучен', EANs; only Nature's Miracle, Gamma, Tamachi sprays."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no Mr.Fresh litter-training spray for cats; nearest is «Mr.Fresh» սփրեյ շանը տեղին սովորեցնելու համար (dog toilet-training spray 200 ml, 2700), different species/product. Searched 'Mr.Fresh', 'սփրեյ', 'տեղին|զուգարան|սովորեցն'."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1717,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Мяу brand list has only adult dry 'с мясом, рисом и овощами' 11 kg (14500 / 1400 per kg) and wet pouches; no kitten dry. Searched 'Мяу', 'мяу котят|kitten|киттен', EAN. Nearest: Мяу adult meat/rice/veg 11 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մյաու-չոր-կեր-կատուների-ձագերի-համար-քիթթեն-11կգ",
+    "price": 15500,
+    "old_price": null,
+    "name": "ՄՅԱՈՒ չոր կեր կատուների ձագերի համար/ քիթթեն 11կգ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мяу, kitten dry food, 'Քաշը՝ 11կգ'; same as hafo row name."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1718,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Мяу brand list has only adult dry 'с мясом, рисом и овощами' 11 kg (14500 / 1400 per kg) and wet pouches; no kitten dry. Searched 'Мяу', 'мяу котят|kitten|киттен', EAN. Nearest: Мяу adult 11 kg 'на развес 1 кг' 1400 (adult, not kitten)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մյաու-չոր-կեր-կատուների-ձագերի-համար-քիթթեն-կիլոգրամով",
+    "price": 1500,
+    "old_price": null,
+    "name": "ՄՅԱՈՒ չոր կեր կատուների ձագերի համար/ քիթթեն (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Мяу, kitten dry food, per kg (կիլոգրամով, 'Քաշը՝ 1կգ')."
+   },
+   "confidence": "high"
+  }
+ ]
+}

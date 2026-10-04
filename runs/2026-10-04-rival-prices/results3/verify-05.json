@@ -1,0 +1,642 @@
+{
+ "results": [
+  {
+   "variant_id": 806,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-s-tuntsom-400-g",
+    "price": 1650,
+    "old_price": null,
+    "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с тунцом, 400 г",
+    "in_stock": true,
+    "evidence": "Page name: Monge Hypo Monoprotein wet dog food, tuna, 400 g; no options, 1650, in stock. Brand/line/species/flavour/size match hafo 082037."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-թունա-400գ",
+    "price": 1650,
+    "old_price": null,
+    "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, թունա, 400գ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Vet Hypo Monoprotein dog can, tuna, 400 g; 1650."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: zoovet Hypo Monoprotein dog tuna 400 g 1650 in stock (1 pc); nemo manufacturer Monge, Vet Hypo Monoprotein tuna 400 g 1650. Non-Vet Monoprotein tuna 400 g on zoovet (2000) is a different line."
+  },
+  {
+   "variant_id": 807,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-400-g",
+    "price": 1650,
+    "old_price": null,
+    "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с уткой, 400 г",
+    "in_stock": true,
+    "evidence": "Page name says duck (с уткой) although the slug lacks the flavour; Hypo Monoprotein dog can 400 g; 1650, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-բադ-400-գ",
+    "price": 1650,
+    "old_price": null,
+    "name": "Պահածո շների համար Monge Vet Hypo Monoprotein բադ, 400 գ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Vet Hypo Monoprotein dog can, duck 65%, 400 g; 1650."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened: zoovet page name says duck (slug lacks it), 400 g, 1650, in stock 8; nemo Vet Hypo Monoprotein duck 65% 400 g 1650."
+  },
+  {
+   "variant_id": 808,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet lists only Hypo Monoprotein tuna and duck 400 g (searched 'monge hypo', 'vet|гипоаллерг|hypo 400', 'monge ягненком|ягненок', full Monge brand list). Nearest: Monge Monoprotein (non-Vet) wet with lamb 400 g (different line) and Hypo Monoprotein duck 400 g (other flavour)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-գառ-400գ",
+    "price": 1650,
+    "old_price": null,
+    "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, գառ, 400գ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Vet Hypo Monoprotein dog can, lamb, 400 g; 1650."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet re-searched (hypo, monge hypo, гипоаллерг, monoprotein 400, ягнен* 400, EAN 8009470082051, 082057): only Hypo tuna/duck; nearest lamb 400 g is plain Monoprotein (2000, hafo MG014237, different line). nemo page confirmed lamb 400 g 1650."
+  },
+  {
+   "variant_id": 1642,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5585",
+    "price": 40000,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: All Breeds Adult duck/rice/potato, option 'Упак (12 кг)' = 40000, in stock 1."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-բադբրինձկարտոֆիլ",
+    "price": 40000,
+    "old_price": null,
+    "name": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, All Breed Adult duck/rice/potato, text 'Քաշը՝ 12կգ'; 40000."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet option Упак (12 кг)=40000, in stock; nemo text Քաշը 12կգ, duck/rice/potato, 40000."
+  },
+  {
+   "variant_id": 1643,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+    "price": 3550,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3550 on the All Breeds Adult duck/rice/potato 12 kg product."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-բադբրինձկարտոֆիլ-կիլոգրամով",
+    "price": 3450,
+    "old_price": null,
+    "name": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge All Breed Adult duck/rice/potato sold per kg (կիլոգրամով); 3450."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet option На развес, 1 кг=3550 on the 12 kg duck page; nemo (կիլոգրամով) 3450."
+  },
+  {
+   "variant_id": 1644,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-monoprotein-adult-suhoj-korm-s-govyadinoj-i-risom-dlya-sobak-upakovka-12-kg-5530",
+    "price": 39500,
+    "old_price": null,
+    "name": "Monge Monoprotein Adult Сухой корм с говядиной и рисом для собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: Monoprotein Adult beef & rice, option 'Упак (12 кг)' = 39500, page says in stock 1 (brand list said out). hafo row is 'All breed adult Monoprotein հորթ/բրինձ 12 կգ'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հորթբրինձ",
+    "price": 39500,
+    "old_price": null,
+    "name": "Կեր շների համար All breed adult ՝ հորթ/բրինձ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, All Breed Adult veal/beef & rice, 'Քաշը՝ 12կգ'; 39500."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Monoprotein Adult beef & rice Упак (12 кг)=39500, in stock 1; nemo 12 kg veal/rice 39500."
+  },
+  {
+   "variant_id": 1645,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-monoprotein-adult-suhoj-korm-s-govyadinoj-i-risom-dlya-sobak-upakovka-12-kg",
+    "price": 3500,
+    "old_price": null,
+    "name": "Monge Monoprotein Adult Сухой корм с говядиной и рисом для собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3500 on Monoprotein Adult beef & rice 12 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հորթբրինձ-կիլոգրամով",
+    "price": 3400,
+    "old_price": null,
+    "name": "Կեր շների համար All breed adult ՝ հորթ/բրինձ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge All Breed Adult beef/veal & rice per kg; 3400."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet На развес, 1 кг=3500 on the 12 kg beef page; nemo per-kg 3400."
+  },
+  {
+   "variant_id": 1646,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-monoprotein-suhoj-korm-s-yagnenkom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+    "price": 44000,
+    "old_price": null,
+    "name": "Monge Monoprotein Adult Сухой корм с ягненком, рисом и картофелем для собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: Monoprotein Adult lamb/rice/potato 12 kg, 44000, no options, in stock 1. Matches hafo 'All breed Adult գառ/բրինձ/կարտոֆիլ 12 կգ'. A separate 15 kg lamb product (47000) is not ours."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-գառբրինձկարտոֆիլ",
+    "price": 41500,
+    "old_price": null,
+    "name": "Կեր շների համար՝ All breed Adult, գառ/բրինձ/կարտոֆիլ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, All Breed Adult lamb/rice/potato, 'Քաշ՝ 12կգ'; 41500."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet Monoprotein Adult lamb/rice/potato 12 kg 44000 (no options, in stock 1); the 15 kg lamb (47000) is hafo 006357 lamb/rice/vegetables, a different item. nemo 12 kg 41500."
+  },
+  {
+   "variant_id": 1647,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's 12 kg Monoprotein Adult lamb/rice/potato page has no 'На развес' option. Nearest: Monoprotein Adult lamb/rice/potato 15 kg bag sold 'на развес 1 кг' at 3350 (…upakovka-15-kg) — a different bag/product (47000 per 15 kg; nemo lists a 47000 'MONGE գառ/բրինձ/բանջարեղեն' as a separate item), so not counted."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-գառբրինձկարտոֆիլ-կիլոգրամով",
+    "price": 3550,
+    "old_price": null,
+    "name": "Կեր շների համար՝ All breed Adult, գառ/բրինձ/կարտոֆիլ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge All Breed Adult lamb/rice/potato per kg; 3550."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Agree zoovet not found: 12 kg lamb page has no loose option; the loose 3350 belongs to the 15 kg lamb/rice/vegetables product (hafo 006357, EAN 8009470006354, its own kg price 3250), not our 011327. nemo per-kg 3550."
+  },
+  {
+   "variant_id": 1648,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+    "price": 44000,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: All Breeds Adult salmon & rice, option 'Упак (12 кг)' = 44000. Not the 'с лососем и тунцом' 12 kg (43000), which is the hypoallergenic salmon & tuna line."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+    "price": 43000,
+    "old_price": null,
+    "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, All Breed Adult salmon & rice, 'Քաշը՝ 12կգ'; 43000 (slug says կիլոգրամով-copy-copy but name/text = 12 kg bag)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet All Breeds Adult salmon & rice Упак (12 кг)=44000; nemo Քաշը 12կգ salmon & rice 43000 (slug misleading, name/text = bag)."
+  },
+  {
+   "variant_id": 1649,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+    "price": 3800,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3800 on All Breeds Adult salmon & rice 12 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+    "price": 3700,
+    "old_price": null,
+    "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge All Breed Adult salmon & rice per kg ('Քաշը՝ 1կգ'); 3700."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet На развес, 1 кг=3800; nemo (կիլոգրամով) Քաշը 1կգ 3700."
+  },
+  {
+   "variant_id": 1650,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+    "price": 44000,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: All Breeds Adult rabbit/rice/potato, 'Упак (12 кг)' = 44000, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+    "price": 44000,
+    "old_price": null,
+    "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, All Breed Adult rabbit/rice/potato 12 kg; 44000."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet rabbit Упак (12 кг)=44000; nemo rabbit 12 kg 44000."
+  },
+  {
+   "variant_id": 1651,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+    "price": 3900,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3900 on All Breeds Adult rabbit 12 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+    "price": 3800,
+    "old_price": null,
+    "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge All Breed Adult rabbit/rice/potato per kg; 3800."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet На развес 3900; nemo per-kg 3800."
+  },
+  {
+   "variant_id": 1652,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg-5587",
+    "price": 42000,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Page: All Breeds Adult turkey/rice/potato, 'Упак (12 кг)' = 42000; page says in stock 1 (brand list said out)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հնդկահավբրինձ",
+    "price": 42000,
+    "old_price": null,
+    "name": "Կեր շների համար՝ All breed Adult հնդկահավ/բրինձ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, All Breed Adult turkey & rice monoprotein; 42000. Weight not printed in the short text, but it pairs with a per-kg listing and the price equals the 12 kg bag."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet turkey Упак (12 кг)=42000 in stock 1; nemo turkey/rice 42000, the only non-loose turkey dry listing on nemo (price = 12 kg bag)."
+  },
+  {
+   "variant_id": 1653,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+    "price": 3700,
+    "old_price": null,
+    "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3700 on All Breeds Adult turkey 12 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հնդկահավբրինձ-կիլոգրամով",
+    "price": 3600,
+    "old_price": null,
+    "name": "Կեր շների համար՝ All breed Adult հնդկահավ/բրինձ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge All Breed Adult turkey & rice per kg; 3600."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet На развес 3700; nemo per-kg 3600."
+  },
+  {
+   "variant_id": 1659,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg-5447",
+    "price": 46500,
+    "old_price": null,
+    "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг",
+    "in_stock": true,
+    "evidence": "Page: Mini Puppy & Junior chicken & rice, 'Упак (15 кг)' = 46500, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար",
+    "price": 46500,
+    "old_price": null,
+    "name": "Կեր շների համար-Monge mini puppy/junior",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Mini Puppy/Junior chicken & rice, 'Քաշը՝ 15կգ'; 46500."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Упак (15 кг)=46500; nemo Քաշը 15կգ chicken 46500."
+  },
+  {
+   "variant_id": 1660,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+    "price": 3300,
+    "old_price": null,
+    "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3300 on Mini Puppy & Junior chicken 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար-2",
+    "price": 3200,
+    "old_price": null,
+    "name": "Կեր շների համար-Monge mini puppy/junior (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Mini Puppy/Junior chicken & rice per kg; 3200."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet На развес 3300; nemo per-kg 3200."
+  },
+  {
+   "variant_id": 1661,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-yagnenkom-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+    "price": 50000,
+    "old_price": null,
+    "name": "Monge Mini Puppy & Junior Сухой корм с ягненком и рисом для щенков мелких пород, упаковка 15 кг",
+    "in_stock": false,
+    "evidence": "Page: Mini Puppy & Junior lamb & rice, 'Упак (15 кг)' = 50000, Нет в наличии."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ",
+    "price": 50000,
+    "old_price": null,
+    "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Mini Puppy/Junior lamb & rice; 50000 (pairs with a per-kg listing; weight not printed, price = 15 kg bag). Not the MONOPROTEIN Mini Puppy lamb item at 30500."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet Упак (15 кг)=50000, Нет в наличии; nemo Mini Puppy/Junior lamb 50000 (only non-loose non-Monoprotein lamb listing; 30500 item is the 7.5 kg Monoprotein line)."
+  },
+  {
+   "variant_id": 1662,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-yagnenkom-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg",
+    "price": 3650,
+    "old_price": null,
+    "name": "Monge Mini Puppy & Junior Сухой корм с ягненком и рисом для щенков мелких пород, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3650 on Mini Puppy & Junior lamb & rice (15 kg bag option on the same page)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ-կիլոգրամով",
+    "price": 3550,
+    "old_price": null,
+    "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Mini Puppy/Junior lamb & rice per kg; 3550."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet На развес 3650 in stock 9; nemo per-kg 3550."
+  },
+  {
+   "variant_id": 1663,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+    "price": 50000,
+    "old_price": null,
+    "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, упаковка 15 кг",
+    "in_stock": false,
+    "evidence": "Page: Mini Puppy & Junior salmon & rice, 'Упак (15 кг)' = 50000, Нет в наличии."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-15-կգ",
+    "price": 50000,
+    "old_price": null,
+    "name": "Monge Mini Puppy Junior սալմոն, 15 կգ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Mini Puppy Junior salmon, 15 kg; 50000."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Упак (15 кг)=50000, out of stock; nemo salmon 15 kg 50000."
+  },
+  {
+   "variant_id": 1665,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-starter-suhoj-korm-s-kuritsej-dlya-schenkov-melkih-porod-do-2-mesyatsev-upakovka-15-kg-5582",
+    "price": 54000,
+    "old_price": null,
+    "name": "Monge Mini Starter Сухой корм с курицей для щенков мелких пород до 2 месяцев, упаковка 15 кг",
+    "in_stock": false,
+    "evidence": "Page: Mini Starter chicken, 'Упак (15 кг)' = 54000, Нет в наличии."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-starter-ձագերի-և-մայրերի-համար",
+    "price": 54000,
+    "old_price": null,
+    "name": "Monge Mini Starter- Ձագերի և Մայրերի համար",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Mini Starter chicken & rice, 'Քաշը՝ 15կգ'; 54000. (A 1.5 kg listing at 6200 is a different size.)"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Упак (15 кг)=54000, out of stock; nemo Քաշը 15կգ 54000."
+  },
+  {
+   "variant_id": 1666,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-starter-suhoj-korm-s-kuritsej-dlya-schenkov-melkih-porod-do-2-mesyatsev-upakovka-15-kg",
+    "price": 3900,
+    "old_price": null,
+    "name": "Monge Mini Starter Сухой корм с курицей для щенков мелких пород до 2 месяцев, упаковка 15 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 3900 on Mini Starter 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-starter-ձագերի-և-մայրերի-համար-2",
+    "price": 3800,
+    "old_price": null,
+    "name": "Monge Mini Starter- Ձագերի և Մայրերի համար (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Mini Starter per kg; 3800."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet На развес 3900 in stock 4; nemo per-kg 3800."
+  },
+  {
+   "variant_id": 1667,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-upakovka-15-kg-5442",
+    "price": 41000,
+    "old_price": null,
+    "name": "Monge Medium Puppy & Junior Сухой корм с курицей и рисом для щенков средних пород, упаковка 15 кг",
+    "in_stock": true,
+    "evidence": "Page: Medium Puppy & Junior chicken & rice, 'Упак (15 кг)' = 41000, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-medium-puppy",
+    "price": 41000,
+    "old_price": null,
+    "name": "Monge Medium puppy & junior - Ձագերի և կրտսերների համար",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Medium Puppy & Junior chicken & rice, 'Քաշը՝ 15կգ'; 41000."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Упак (15 кг)=41000; nemo Քաշը 15կգ 41000."
+  },
+  {
+   "variant_id": 1669,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg-5448",
+    "price": 41000,
+    "old_price": null,
+    "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг",
+    "in_stock": false,
+    "evidence": "Page: Maxi Puppy & Junior chicken & rice, 'Упак (15 кг)' = 41000, Нет в наличии."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-maxi-puppy-junior-15կգ",
+    "price": 41000,
+    "old_price": null,
+    "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Maxi Puppy/Junior chicken & rice, 'Չափսը՝ 15կգ'; 41000."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Упак (15 кг)=41000, out of stock; nemo Չափսը 15կգ 41000."
+  },
+  {
+   "variant_id": 1670,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+    "price": 2950,
+    "old_price": null,
+    "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Page option 'На развес, 1 кг' = 2950 on Maxi Puppy & Junior 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-1կգ",
+    "price": 2850,
+    "old_price": null,
+    "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR(կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page name: Maxi Puppy/Junior per kg (slug says maxi-adult, but page name/text = Maxi Puppy/Junior chicken); 2850."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet На развес 2950 in stock 11; nemo page name/text Maxi Puppy/Junior per kg 2850 (slug says maxi-adult)."
+  },
+  {
+   "variant_id": 1671,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-adult-suhoj-korm-s-kuricej-i-risom-dlya-vzroslyh-sobak-krupnyh-porod-upakovka-12-kg",
+    "price": 33000,
+    "old_price": null,
+    "name": "Monge Maxi Adult Сухой корм с курицей и рисом для взрослых собак крупных пород, упаковка 12 кг",
+    "in_stock": false,
+    "evidence": "Page: Maxi Adult chicken & rice, 'Упак (12 кг)' = 33000; page shows no stock line, brand list marks it out of stock. Not the 15 kg (38500)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-monge-maxi-adult-12կգ",
+    "price": 34000,
+    "old_price": null,
+    "name": "Կեր շների MONGE MAXI ADULT 12կգ",
+    "in_stock": true,
+    "evidence": "Page: manufacturer Monge, Maxi Adult chicken & rice, 12 kg; 34000. Not the 15 kg (38500)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 12 kg page Упак (12 кг)=33000, no stock line, brand list in_stock false; nemo 12 kg 34000 (15 kg is 38500)."
+  },
+  {
+   "variant_id": 1672,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-adult-suhoj-korm-s-kuricej-i-risom-dlya-vzroslyh-sobak-krupnyh-porod-upakovka-12-kg",
+    "price": 2800,
+    "old_price": null,
+    "name": "Monge Maxi Adult Сухой корм с курицей и рисом для взрослых собак крупных пород, упаковка 12 кг (На развес, 1 кг)",
+    "in_stock": false,
+    "evidence": "The 12 kg Maxi Adult page has option 'На развес, 1 кг' = 2800 (stock not shown; list marks it out). The same 2800 loose is on the 15 kg page (in stock > 20)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-կիլոգրամով",
+    "price": 2700,
+    "old_price": null,
+    "name": "Կեր շների MONGE MAXI ADULT (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Page: Monge Maxi Adult chicken & rice per kg; 2700."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet 12 kg page option На развес, 1 кг=2800 (also a separate loose listing at 2800, list in_stock false); nemo per-kg 2700."
+  }
+ ]
+}

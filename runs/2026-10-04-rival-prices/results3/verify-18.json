@@ -1,0 +1,531 @@
+{
+ "results": [
+  {
+   "variant_id": 598,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No Trixie soft/slicker brush with rubber handle in any size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-ռետինե-բռնակով-մետաղական-ատամիկներով",
+    "price": 2450,
+    "old_price": null,
+    "name": "Սանր ռետինե բռնակով, մետաղական ատամիկներով S",
+    "in_stock": true,
+    "evidence": "Name identical to hafo row name; page description gives size 7*16 սմ = our variant; plastic with rubber handle, nylon+metal pins. Manufacturer field empty, but nemo photo (S page) is the same Trixie 24055 packshot (black head, red rubber handle) as cdn.trixie.de. S/M/L series 7*16/9*16/12*16 = Trixie 24055/24056/24057."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened nemo S page: 7*16 սմ, 2450, in stock; photo identical to cdn.trixie.de 24055 (black head, red rubber handle). zoovet Trixie list has no such brush. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 1256,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No Trixie soft/slicker brush with rubber handle in any size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-ռետինե-բռնակով-մետաղական-ատամիկներով-2",
+    "price": 2900,
+    "old_price": null,
+    "name": "Սանր ռետինե բռնակով, մետաղական ատամիկներով M",
+    "in_stock": true,
+    "evidence": "Name identical to hafo row name; page description gives size 9*16 սմ = our variant; plastic with rubber handle, nylon+metal pins. Manufacturer field empty, but nemo photo (S page) is the same Trixie 24055 packshot (black head, red rubber handle) as cdn.trixie.de. S/M/L series 7*16/9*16/12*16 = Trixie 24055/24056/24057."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened nemo M page: 9*16 սմ, 2900; same Trixie soft-brush photo. zoovet none. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 1257,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No Trixie soft/slicker brush with rubber handle in any size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-ռետինե-բռնակով-մետաղական-ատամիկներով-l",
+    "price": 3250,
+    "old_price": null,
+    "name": "Սանր ռետինե բռնակով, մետաղական ատամիկներով L",
+    "in_stock": true,
+    "evidence": "Name identical to hafo row name; page description gives size 12*16 սմ = our variant; plastic with rubber handle, nylon+metal pins. Manufacturer field empty, but nemo photo (S page) is the same Trixie 24055 packshot (black head, red rubber handle) as cdn.trixie.de. S/M/L series 7*16/9*16/12*16 = Trixie 24055/24056/24057."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened nemo L page: 12*16 սմ, 3250; same Trixie soft-brush photo. zoovet none. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 601,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No Trixie comb with rotating pins."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-շների-համար-պտտվող-ատամիկներով-2",
+    "price": 1550,
+    "old_price": null,
+    "name": "Սանր շների համար՝ պտտվող ատամիկներով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; comb for dogs with rotating metal pins, description size 18 սմ = our 18 cm (sibling page -1 is the 13 cm at 1150, not ours). Colour not stated (Trixie 2411 has one colourway)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened nemo page: Trixie, rotating pins, 18 սմ, 1550 (the -1 page is the 13 cm, 1150). zoovet none. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 602,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No double-sided Trixie brush 5x19."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie brand list has no grooming tools; live searches with hafo Armenian words (Սանր, Սանր-խոզանակ, խոզանակ, կոլտուն, Koltunorez, ատամիկներով, սանր ռետինե, պտտվող, եռանկյունաձև, Մկրատ, եղունգկտրիչ) run. Nearest: 'Երկկողմանի սանր-խոզանակ, ռետինե բռնակով' 2750 (no manufacturer, metal, 5*21 սմ) - different size/model; 'Սանր-խոզանակ՝ երկկողմանի, բարակ պլաստիկ ատամիկներով' 600 (Trixie, 14 cm flea comb) - different product."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo 'Երկկողմանի սանր' (copy) 5x19 2800 checked: photo is a black/red oval brush, different model from 24151 (hafo photo = black/turquoise 24151); 'Երկկողմանի սանր-խոզանակ, ռետինե բռնակով' 5*21 is another model. Not found on either shop. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 603,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No triangular double-sided Trixie brush."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-խոզանակ-եռանկյունաձև",
+    "price": 4950,
+    "old_price": null,
+    "name": "Սանր-խոզանակ՝ եռանկյունաձև",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; triangular, double-sided, plastic pins with ball tips, plastic handle with rubber coating, size 6x19 սմ - matches hafo row (եռանկյունաձև, երկկողմանի, ... 6*19սմ) on every axis."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened nemo page: Trixie, triangular double-sided, 6x19, 4950. zoovet none. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 604,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No Trixie soft brush 19 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խոզանակ-փափուկ-ատամիկներով",
+    "price": 1800,
+    "old_price": null,
+    "name": "Խոզանակ փափուկ ատամիկներով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; plastic brush with soft plastic pins, size 19 սմ - matches hafo 'Սանր-խոզանակ, փափուկ ատամիկներով 19սմ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened nemo page: Trixie soft pins, 19 սմ, 1800. zoovet none. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 605,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. Only Колтунорез 7 x 18 см (two tooth densities, 7700/6750) - different model/size from our 19 cm long hooked-tooth detangler."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-koltunorez-երկար-կեռ-ատամիկներով",
+    "price": 4000,
+    "old_price": null,
+    "name": "Սանր՝ Koltunorez, երկար, կեռ ատամիկներով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; long hooked teeth 5.5 cm, plastic handle with rubber coating/metal, 19 սմ - identical to hafo 'կոլտունորեզ, երկար, կեռ ատամիկներով-5.5սմ, 19 սմ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened nemo page: Trixie, teeth 5.5 սմ, 19 սմ, 4000. zoovet only 7x18 Колтунорез (24243/24244). [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 606,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No Trixie carding groomer 8x14."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սանր-տրիմեր-2",
+    "price": 8250,
+    "old_price": null,
+    "name": "Սանր-Տրիմեր",
+    "in_stock": true,
+    "evidence": "MISSED by matcher (nemo search 'սանր'/'տրիմեր' paginated). Manufacturer Trixie; replaceable-head carding groomer, stainless steel teeth, rubber non-slip handle, 8 x 14 սմ, 8250 in stock. Same 3-size family as hafo's 'Սանր-Տրիմեր' (7x15 7450 / 8x14 8250 / 11x15 10350 = Trixie 24171/24173/24175) with identical prices; 8250 = hafo TX 241731 (EAN 4011905241739 = ours). Photo is the older grey/orange colourway of the same model; the green 'extra sharp' line (24185, 8550) is not on nemo."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo 'Սանր-Տրիմեր' 8x14 (Trixie, 8250), = Trixie 24173. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 607,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/rascheski-shchetki-i-puhoderki/trixie-rascheska-trimmer-zelenaya-dlya-sobak-6-x-15-sm",
+    "price": 7350,
+    "old_price": null,
+    "name": "Trixie Расчёска-триммер зеленая для собак, 6 x 15 см",
+    "in_stock": true,
+    "evidence": "Trixie trimmer comb, green, 6 x 15 cm - brand, model, colour and size all match our 'Trimmer Comb, 6 x 15 cm, green' (24183); page price 7350, in stock."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie brand list has no grooming tools; live searches with hafo Armenian words (Սանր, Սանր-խոզանակ, խոզանակ, կոլտուն, Koltunorez, ատամիկներով, սանր ռետինե, պտտվող, եռանկյունաձև, Մկրատ, եղունգկտրիչ) run. No Trixie trimmer comb / 6x15 item."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet page re-opened: Trixie trimmer comb green 6 x 15 см, 7350, in stock. nemo has only the grey 'Սանր-Տրիմեր' 7x15/8x14/11x15 and a cat trimmer 7x15 (8100) - no green 6x15."
+  },
+  {
+   "variant_id": 608,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. No Trixie carding groomer 8x14."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie brand list has no grooming tools; live searches with hafo Armenian words (Սանր, Սանր-խոզանակ, խոզանակ, կոլտուն, Koltunorez, ատամիկներով, սանր ռետինե, պտտվող, եռանկյունաձև, Մկրատ, եղունգկտրիչ) run. No Trixie carding groomer; nearest 'Սանր՝ առանձին մետաղյա ատամիկներով' 2550 (no manufacturer, 8*16/11*16) - different size/model."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Green extra-sharp 8x14 (24185) on neither shop: nemo 'Սանր-Տրիմեր' 8x14 is the grey 24173 at 8250 (hafo grey 8250 vs green 8550); zoovet has only the green 6x15. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 609,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/kogterezy/trixie-kogterez-gilotina-dlya-sobak-srednih-i-krupnyh-razmerov-14-sm",
+    "price": 3400,
+    "old_price": null,
+    "name": "Trixie Когтерез-гильотина для собак средних и крупных размеров, 14 см",
+    "in_stock": true,
+    "evidence": "Trixie guillotine claw clipper 14 cm; zoovet photo is the same model/shape as cdn.trixie.de 2423 packshot, but in the older black/turquoise grip colouring vs our dark grey/blue - same article, recoloured line; other zoovet clipper is 12.5 cm (not ours)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie brand list has no grooming tools; live searches with hafo Armenian words (Սանր, Սանր-խոզանակ, խոզանակ, կոլտուն, Koltunorez, ատամիկներով, սանր ռետինե, պտտվող, եռանկյունաձև, Մկրատ, եղունգկտրիչ) run. Only 11 cm clippers (Trixie 'Եղունգկտրիչ-մկրատ կենդանիների համար' 2450), an 18 cm scissors (2400) and Triol models - none 14 cm."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet page re-opened: Trixie guillotine clipper 14 см, 3400; same shape as trixie.de 2423 (Claw Clippers 14 cm) packshot, older black/turquoise grip - same article. nemo: only generic/Triol clippers (14 cm 'Մկրատ-խարտոց' 3300 is a different no-brand model, photo checked)."
+  },
+  {
+   "variant_id": 610,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list + live search (щетк/щётк, расческ/расчёск, пуходерк, гребен, колтун, кардер/триммер, когтерез/ножниц, brush/comb/groomer) shows only: trimmer comb green 6x15, two Колтунорез 7x18, two claw clippers (14 cm guillotine, 12.5 cm), 3-head toothbrush, paw cleaner, massage glove. Nearest: Колтунорез 7 x 18 см (7700 / 6750) - different size (ours 6 x 18 cm, wide teeth)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie brand list has no grooming tools; live searches with hafo Armenian words (Սանր, Սանր-խոզանակ, խոզանակ, կոլտուն, Koltunorez, ատամիկներով, սանր ռետինե, պտտվող, եռանկյունաձև, Մկրատ, եղունգկտրիչ) run. No Trixie detangler 6x18."
+   },
+   "confidence": "low",
+   "verdict": "agree",
+   "reason": "nemo Trixie 'Ունիվերսալ սանր «Колтунорез»' family mirrors hafo's (7150/6750/5600/6150); the 5600 page (-3) is priced like hafo 24242 but its text says '5 x 18 սմ' (ours 6 x 18) - stated size conflicts, so not confirmed. zoovet only 7x18. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 611,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: only 'Trixie Зубная щётка с 3 головками' (different product, single long toothbrush) and Triol finger-brush set 2 шт 60 мм (other brand)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ատամի-խոզանակ",
+    "price": 800,
+    "old_price": null,
+    "name": "Ատամի խոզանակ",
+    "in_stock": true,
+    "evidence": "Description: 6 սմ, for dogs and cats, toothbrush and massage brush; photo is the white + red finger toothbrush pair = Trixie 2550 set (2 pcs, 6 cm), matching hafo 'Մատին հագնող խոզանակների հավաքածու՝ 6 սմ/ 2 հատ'. Manufacturer field empty."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened nemo page: 6 սմ, 800; photo white + red finger brushes = Trixie 2550 2-pc set. zoovet none. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 613,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie dental items: toothpastes 100 g, 3-head toothbrush, mouthwater; no cat dental set with paste 50 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կատուների-բերանի-խոռոչի-հիգիենայի-հավաքածու",
+    "price": 2250,
+    "old_price": null,
+    "name": "Կատուների բերանի խոռոչի հիգիենայի հավաքածու",
+    "in_stock": true,
+    "evidence": "MISSED by matcher (nemo search 'հավաքածու'). Manufacturer Trixie; cat dental hygiene set: 50 g paste + 2 toothbrushes with different heads; photo identical to cdn.trixie.de 25620 set packshot (Trixie Dental-Care cat tube + 2 brushes); 2250 = hafo price."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo Trixie cat dental hygiene set 50 g (2250). [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 614,
+   "zoovet": {
+    "found": false,
+    "evidence": "Nearest: 'Trixie Зубная щётка с 3 головками' 1250 (out of stock) - photo is a different single toothbrush, not the 4-pc 15 cm set 25621."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Ատամի խոզանակ' pages are 6 cm finger brushes; no 4 pcs 15 cm toothbrush set."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "No 4-pc 15 cm Trixie toothbrush set on nemo (searched ատամի/ատամների/խոզանակ/հավաքածու) or zoovet. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 615,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: only Triol finger toothbrush set 2 шт 60 мм (other brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Nearest: nemo 'Ատամի խոզանակ' (-2) 650, transparent silicone finger brushes, 6 cm, no manufacturer - Trixie 25624 is blue silicone (cdn.trixie.de), so not the same item; Triol finger set (other brand)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo 'Ատամի խոզանակ' -2 (650) is clear generic silicone with dog photo; Trixie 25624 / hafo photo is blue/teal silicone. zoovet only Triol. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 617,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-tabletten-versteck-lakomstvo-s-dlya-koshek-50-g",
+    "price": 1100,
+    "old_price": null,
+    "name": "Trixie Tabletten-Versteck Лакомство с для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "Trixie Tabletten-Versteck (Hiding Place for Tablets) for cats, 50 g - every axis matches; page price 1100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-հաբերի-համար-նախատեսված-50-գ",
+    "price": 1100,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ հաբերի համար նախատեսված, 50 գ",
+    "in_stock": true,
+    "evidence": "Name = hafo row; description says TRIXIE, pill-pocket snack for cats, 50 g; photo is Trixie Tabletten-Versteck pack #25842. (Manufacturer field wrongly says INABA.)"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Both pages re-opened: zoovet Tabletten-Versteck cats 50 г 1100; nemo 50 գ 1100, text says TRIXIE."
+  },
+  {
+   "variant_id": 618,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie searches (кож, буйвол, бизон, аллерг, 200 г): only 'сыромятая кожа 100 г' and Sushi Rolls - no buffalo scalp 200 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-գոմեշի-կաշվից-հյուրասիրություն-ալերգիկ-շների-համար-200-գ",
+    "price": 2600,
+    "old_price": null,
+    "name": "Trixie, գոմեշի կաշվից հյուրասիրություն ալերգիկ շների համար, 200 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; dried buffalo skin treat for allergic dogs, 200 g - matches hafo 'ալերգիկ շն. համար՝ 12 սմ/200 գ, գոմեշի կաշվից' (length not stated on nemo)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened nemo page: Trixie, buffalo skin braids for allergic dogs, 200 գ, 2600; photo = trixie.de 27153 pack (Büffelkopfhaut). zoovet none. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 619,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie searches (twist/твист/скрутк, круассан/рогалик, косичк/плетен/braid, 85/80/65 г, жил): no Twists 2 pcs/85 g (31145)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-կոլագենով-պատրաստված-հյուրասիրություն-շների-համար",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, կոլագենով պատրաստված հյուրասիրություն շների համար",
+    "in_stock": true,
+    "evidence": "MISSED by matcher (nemo search 'Trixie,'). Manufacturer Trixie; collagen 75 %, chicken 10 %, pea protein, glycerine, tapioca starch, wrapped in chicken (= trixie.de 31145 composition), 2 pcs, 85 g; photo = the two Twists rings of trixie.de 31145. 2000 = hafo price."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo Trixie collagen Twists 2 pcs/85 g (2000). [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 620,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie searches (twist/твист/скрутк, круассан/рогалик, косичк/плетен/braid, 85/80/65 г, жил): no Croissants 2 pcs/80 g (31147)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հավի-մսով-կրուասան-շների-համար",
+    "price": 1850,
+    "old_price": null,
+    "name": "Trixie, հավի մսով կրուասան շների համար",
+    "in_stock": true,
+    "evidence": "MISSED by matcher (nemo search 'կրուասան'). Manufacturer Trixie; collagen 70 % + chicken 16 % croissant, description ends '2 հատ / 80 գ / 8 սմ' = our 2 pcs/80 g (hafo '2 հատ/80 գ/8 սմ'); 1850 = hafo price."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo Trixie Croissants 2 pcs/80 g/8 cm (1850). [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 621,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie searches (twist/твист/скрутк, круассан/рогалик, косичк/плетен/braid, 85/80/65 г, жил): no Braid 65 g (31148)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հավի-մսով-հյուսք-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Trixie, հավի մսով հյուսք շների համար",
+    "in_stock": true,
+    "evidence": "MISSED by matcher (nemo search 'հյուսք'). Manufacturer Trixie; collagen 70 % + chicken 16 % braid, '65 գ / 13 սմ' = hafo 'Braid ջլե հյուսք, հավի մսով, 65 գ/13 սմ'; 1550 = hafo price."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo Trixie Braid 65 g/13 cm (1550). [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 622,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has only the Marbled rolls 70 g ('Denta Fun рулетики с мраморной говядиной, 70 г'); no 140 g pack. Denta Fun Rolls 140 g are duck/chicken - different flavour."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-marbled-dentafun-ձողիկներ",
+    "price": 2650,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար՝ Marbled DentaFun, ձողիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; Marbled DentaFun twisted sticks, rawhide wrapped in beef and fish, 140 g - matches hafo 'Marbled DentaFun ... տավարի, 140գ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened nemo page: Trixie Marbled, 140գ, 2650. zoovet only the 70 g. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 623,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-denta-fun-ruletiki-s-mramornoj-govyadinoj-70-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Trixie Лакомство Denta Fun рулетики с мраморной говядиной, 70 г",
+    "in_stock": true,
+    "evidence": "Trixie Denta Fun Marbled rolls (marbled beef), 70 g - line, flavour and weight match; piece count not printed (70 g is the 6-pc pack)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-marbled-dentafun-տավարի",
+    "price": 1550,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների՝ Marbled DentaFun, տավարի",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; Marbled DentaFun twisted sticks, rawhide wrapped in beef and fish, 70 g - matches hafo row 70գ."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Both re-opened: zoovet Denta Fun marbled beef rolls 70 г 1550; nemo Marbled 70գր 1550."
+  },
+  {
+   "variant_id": 625,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-denta-fun-kostochka-kurinaya-dlya-sobak-5-sm-5-sht-70-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Trixie Лакомство Denta Fun косточка куриная для собак, 5 см, 5 шт, 70 г",
+    "in_stock": true,
+    "evidence": "Trixie Denta Fun chicken knot bone, 5 cm, 5 pcs, 70 g - every axis matches 31321."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոսկոր-շների-համար-հավի-denta-fun",
+    "price": 1550,
+    "old_price": null,
+    "name": "Ոսկոր շների համար՝ հավի Denta Fun",
+    "in_stock": true,
+    "evidence": "MISSED by matcher (nemo search 'ոսկոր'/'Denta'). Manufacturer Trixie; 'Քաշը՝ 70գ: Քանակը՝ 5 հատ: Չափսը՝ 5սմ', knotted bone with chicken = Trixie 31321 (5 pcs/70 g, 5 cm); 1550 = hafo."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo Denta Fun chicken knot 5 pcs/5 cm/70 g (1550)."
+  },
+  {
+   "variant_id": 1220,
+   "zoovet": {
+    "found": false,
+    "evidence": "Ambiguous only: 'Trixie Лакомство Denta Fun косточка куриная для собак, 70 г' 1550 (ME-00004372) states neither piece count nor length and the photo is a single knot bone; could be 2 pcs 11 cm or a duplicate of the 5x5 cm pack, so not confirmed. Other zoovet 70 g knots are 5 cm x5 and 15 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոսկոր-շների-համար-հավի-մսով",
+    "price": 1550,
+    "old_price": null,
+    "name": "Ոսկոր շների համար՝ հավի մսով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; knot bone with chicken, 70 g, 2 pcs, 11 սմ - matches hafo 'հավի, 11 սմ, 70գ Denta Fun' and our 2 pcs/70 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo re-opened: Trixie, 70 գ, 2 հատ, 11 սմ, 1550. zoovet 'Denta Fun косточка куриная, 70 г' (ME-00004372) states no count/length and shows one knot - unconfirmed. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  },
+  {
+   "variant_id": 1221,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-lakomstvo-kostochka-s-kuritsej-dlya-sobak-15-sm-70-g",
+    "price": 1350,
+    "old_price": null,
+    "name": "Trixie Лакомство косточка с курицей для собак, 15 см, 70 г",
+    "in_stock": true,
+    "evidence": "Trixie chicken knot bone 15 cm, 70 g, in the dental-treats category - matches 31323 (15 cm/70 g)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոսկոր-շների-համար-հանգույցներով-հավի",
+    "price": 1350,
+    "old_price": null,
+    "name": "Ոսկոր շների համար հանգույցներով՝ հավի",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; knot bone with chicken, 70 g, 15 սմ - matches hafo 'հավի, 15 սմ, 70գ Denta Fun'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Both re-opened: zoovet 15 см 70 г 1350; nemo 70գ 15սմ 1350."
+  },
+  {
+   "variant_id": 1222,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet chicken knot bones: 5 cm x5/70 g, 15 cm/70 g, 17 cm/140 g, 5 cm x8/120 g, 40 cm - no 18 cm/120 g (nearest 17 cm/140 g 2450, different size)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոսկոր-շների-համար-հավի",
+    "price": 1950,
+    "old_price": null,
+    "name": "Ոսկոր շների համար՝ հավի",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; knotted bone wrapped in chicken, 120 g, 18 սմ - matches hafo 'հավի, 18 սմ, 120 գ/Denta Fun'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo re-opened: 120գ, 18սմ, 1950. zoovet chicken knots are 5 cm x8/120 g, 15 cm/70 g, 17 cm/140 g - none 18 cm/120 g. [zoovet: live search timed out during verification (site unreachable); zoovet not-found checked against today's full zoovet Trixie brand list in shops.json (354 rows).]"
+  }
+ ]
+}

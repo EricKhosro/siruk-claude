@@ -1,0 +1,539 @@
+{
+ "results": [
+  {
+   "variant_id": 1789,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Adult Сухой корм для собак крупных пород от 15 мес до 5 лет, упаковка 15 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-adult-suhoj-korm-dlya-sobak-krupnyh-porod-ot-15-mes-do-5-let-upakovka-15-kg-5494",
+    "price": 45500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Adult Сухой корм для собак крупных пород от 15 мес до 5 лет, упаковка 15 кг', option 'Упак (15 кг)' = 45500 AMD, no struck-through price; stock: В наличии · 1 шт. Brand, line, lifestage/breed size and pack match our Maxi Adult 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Maxi adult 15կգ",
+    "url": "https://www.nemo.am/maxi-adult-15կգ",
+    "price": 45500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Maxi adult 15կգ' = 45500 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Մեծ չափսի շների կեր 15կգ'. Matches our Maxi Adult 15 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1943,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Adult Сухой корм для собак крупных пород от 15 мес до 5 лет, упаковка 15 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-adult-suhoj-korm-dlya-sobak-krupnyh-porod-ot-15-mes-do-5-let-upakovka-15-kg",
+    "price": 3200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Adult Сухой корм для собак крупных пород от 15 мес до 5 лет, упаковка 15 кг, на развес 1 кг', option 'На развес, 1 кг' = 3200 AMD, no struck-through price; stock: В наличии · > 20 шт. Brand, line, lifestage/breed size and pack match our Maxi Adult 1 kg loose (15 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Maxi adult (կիլոգրամով)",
+    "url": "https://www.nemo.am/maxi-adult-1կգ",
+    "price": 3200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Maxi adult (կիլոգրամով)' = 3200 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Արժեքը նշված է 1 կգ-ի համար'. Matches our Maxi Adult 1 kg loose (15 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1791,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Adult 5+ (years ans) Сухой корм для собак крупных пород, упаковка 15 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-adult-5-years-ans-suhoj-korm-dlya-sobak-krupnyh-porod-upakovka-15-kg-5544",
+    "price": 45500,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Adult 5+ (years ans) Сухой корм для собак крупных пород, упаковка 15 кг', option 'Упак (15 кг)' = 45500 AMD, no struck-through price; stock: Под заказ (от 2 дней). Brand, line, lifestage/breed size and pack match our Maxi Adult 5+ 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Maxi adult 5+ 15կգ",
+    "url": "https://www.nemo.am/royal-canin-maxi-adult-5-15կգ",
+    "price": 45500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Maxi adult 5+ 15կգ' = 45500 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: '5 տարեկանից բարձր շների կեր'. Matches our Maxi Adult 5+ 15 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1944,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Adult 5+ (years ans) Сухой корм для собак крупных пород, упаковка 15 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-adult-5-years-ans-suhoj-korm-dlya-sobak-krupnyh-porod-upakovka-15-kg",
+    "price": 3200,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Adult 5+ (years ans) Сухой корм для собак крупных пород, упаковка 15 кг, на развес 1 кг', option 'На развес, 1 кг' = 3200 AMD, no struck-through price; stock: Под заказ (от 2 дней). Brand, line, lifestage/breed size and pack match our Maxi Adult 5+ 1 kg loose (15 kg bag)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo lists Maxi Adult 5+ only as the 15 kg bag (https://www.nemo.am/royal-canin-maxi-adult-5-15կգ, 45500); no '(կիլոգրամով)' listing found (searched 'royal 5+', 'maxi adult 5', 'Maxi adult 5+ կիլոգրամով')."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet matches our 3200 (on order); nemo has no per-kg listing for this line."
+  },
+  {
+   "variant_id": 1793,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Puppy Сухой корм для собак крупных пород до 15 мес, упаковка 15 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-puppy-suhoj-korm-dlya-sobak-krupnyh-porod-do-15-mes-upakovka-15-kg-5495",
+    "price": 47500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Puppy Сухой корм для собак крупных пород до 15 мес, упаковка 15 кг', option 'Упак (15 кг)' = 47500 AMD, no struck-through price; stock: В наличии · 1 шт. Brand, line, lifestage/breed size and pack match our Maxi Puppy 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Maxi puppy 15կգ",
+    "url": "https://www.nemo.am/maxi-puppy-15կգ",
+    "price": 47500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Maxi puppy 15կգ' = 47500 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: '2-ից մինչև 15 ամսական շան ձագերի կեր 15կգ'. Matches our Maxi Puppy 15 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1945,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Puppy Сухой корм для собак крупных пород до 15 мес, упаковка 15 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-puppy-suhoj-korm-dlya-sobak-krupnyh-porod-do-15-mes-upakovka-15-kg",
+    "price": 3300,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Puppy Сухой корм для собак крупных пород до 15 мес, упаковка 15 кг, на развес 1 кг', option 'На развес, 1 кг' = 3300 AMD, no struck-through price; stock: В наличии · 16 шт. Brand, line, lifestage/breed size and pack match our Maxi Puppy 1 kg loose (15 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Maxi puppy (կիլոգրամով)",
+    "url": "https://www.nemo.am/maxi-puppy-1կգ",
+    "price": 3300,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Maxi puppy (կիլոգրամով)' = 3300 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Արժեքը նշված է 1 կգ-ի համար'. Matches our Maxi Puppy 1 kg loose (15 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1795,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Starter Mother & Babydog Сухой корм для собак крупных пород, упаковка 15 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-starter-mother-babydog-suhoj-korm-dlya-sobak-krupnyh-porod-upakovka-15-kg-5545",
+    "price": 53500,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Starter Mother & Babydog Сухой корм для собак крупных пород, упаковка 15 кг', option 'Упак (15 кг)' = 53500 AMD, no struck-through price; stock: Под заказ (от 10 дней). Brand, line, lifestage/breed size and pack match our Maxi Starter Mother & Babydog 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MAXI starter 15կգ",
+    "url": "https://www.nemo.am/maxi-starter-15կգ",
+    "price": 57000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MAXI starter 15կգ' = 57000 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Մինչև 2 ամսական շան ձագերի, հղի և կերակրող շների կեր 15կգ (= Mother & Babydog)'. Matches our Maxi Starter Mother & Babydog 15 kg."
+   },
+   "confidence": "high",
+   "notes": "zoovet sells it at 53500 (siruk 57000, -3500); nemo matches 57000. Our 57000 equals zoovet's MEDIUM Starter 15 kg price, not its Maxi Starter."
+  },
+  {
+   "variant_id": 1946,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Starter Mother & Babydog Сухой корм для собак крупных пород, упаковка 15 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-starter-mother-babydog-suhoj-korm-dlya-sobak-krupnyh-porod-upakovka-15-kg",
+    "price": 3750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Starter Mother & Babydog Сухой корм для собак крупных пород, упаковка 15 кг, на развес 1 кг', option 'На развес, 1 кг' = 3750 AMD, no struck-through price; stock: Под заказ (от 10 дней). Brand, line, lifestage/breed size and pack match our Maxi Starter Mother & Babydog 1 kg loose (15 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MAXI starter (կիլոգրամով)",
+    "url": "https://www.nemo.am/maxi-starter-1կգ",
+    "price": 3950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MAXI starter (կիլոգրամով)' = 3950 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Մինչև 2 ամսական շան ձագերի, հղի և կերակրող շների կեր։ Արժեքը նշված է 1 կգ-ի համար'. Matches our Maxi Starter Mother & Babydog 1 kg loose (15 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "zoovet sells it at 3750/kg (siruk 3950, -200); nemo matches 3950. Our 3950 equals zoovet's Medium Starter per-kg price."
+  },
+  {
+   "variant_id": 1797,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Medium Adult Сухой корм для собак средних пород от 1 до 7 лет, упаковка 15 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-medium-adult-suhoj-korm-dlya-sobak-srednih-porod-ot-1-do-7-let-upakovka-15-kg-5496",
+    "price": 45500,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Medium Adult Сухой корм для собак средних пород от 1 до 7 лет, упаковка 15 кг', option 'Упак (15 кг)' = 45500 AMD, no struck-through price; stock: Нет в наличии. Brand, line, lifestage/breed size and pack match our Medium Adult 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MEDIUM adult 15կգ",
+    "url": "https://www.nemo.am/medium-adult-15կգ",
+    "price": 45500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MEDIUM adult 15կգ' = 45500 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: '12 ամսականից մինչև 7 տարեկան շան կեր 15կգ'. Matches our Medium Adult 15 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1947,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Medium Adult Сухой корм для собак средних пород от 1 до 7 лет, упаковка 15 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-medium-adult-suhoj-korm-dlya-sobak-srednih-porod-ot-1-do-7-let-upakovka-15-kg",
+    "price": 3200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Medium Adult Сухой корм для собак средних пород от 1 до 7 лет, упаковка 15 кг, на развес 1 кг', option 'На развес, 1 кг' = 3200 AMD, no struck-through price; stock: В наличии · 7 шт. Brand, line, lifestage/breed size and pack match our Medium Adult 1 kg loose (15 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MEDIUM adult (կիլոգրամով)",
+    "url": "https://www.nemo.am/medium-adult-1կգ",
+    "price": 3200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MEDIUM adult (կիլոգրամով)' = 3200 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Արժեքը նշված է 1 կգ-ի համար'. Matches our Medium Adult 1 kg loose (15 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1799,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Medium Puppy Сухой корм для собак средних пород до 12 мес, упаковка 15 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-medium-puppy-suhoj-korm-dlya-sobak-srednih-porod-do-12-mes-upakovka-15-kg-5497",
+    "price": 47500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Medium Puppy Сухой корм для собак средних пород до 12 мес, упаковка 15 кг', option 'Упак (15 кг)' = 47500 AMD, no struck-through price; stock: В наличии · 1 шт. Brand, line, lifestage/breed size and pack match our Medium Puppy 15 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Medium puppy 15կգ",
+    "url": "https://www.nemo.am/medium-puppy-15կգ",
+    "price": 47500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Medium puppy 15կգ' = 47500 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: '2-ից մինչև 12 ամսական շան ձագերի կեր 15կգ'. Matches our Medium Puppy 15 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1948,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Medium Puppy Сухой корм для собак средних пород до 12 мес, упаковка 15 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-medium-puppy-suhoj-korm-dlya-sobak-srednih-porod-do-12-mes-upakovka-15-kg",
+    "price": 3300,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Medium Puppy Сухой корм для собак средних пород до 12 мес, упаковка 15 кг, на развес 1 кг', option 'На развес, 1 кг' = 3300 AMD, no struck-through price; stock: В наличии · > 20 шт. Brand, line, lifestage/breed size and pack match our Medium Puppy 1 kg loose (15 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Medium puppy (կիլոգրամով)",
+    "url": "https://www.nemo.am/medium-puppy-1կգ",
+    "price": 3300,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Medium puppy (կիլոգրամով)' = 3300 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Արժեքը նշված է 1 կգ-ի համար'. Matches our Medium Puppy 1 kg loose (15 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1801,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Mini Adult Сухой корм для собак мелких пород от 10 мес до 8 лет, упаковка 8 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-adult-suhoj-korm-dlya-sobak-melkih-porod-ot-10-mes-do-8-let-upakovka-8-kg-5498",
+    "price": 26500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Mini Adult Сухой корм для собак мелких пород от 10 мес до 8 лет, упаковка 8 кг', option 'Упак (8 кг)' = 26500 AMD, no struck-through price; stock: В наличии · 1 шт. Brand, line, lifestage/breed size and pack match our Mini Adult 8 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MINI adult 8կգ",
+    "url": "https://www.nemo.am/mini-adult-8կգ",
+    "price": 26500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MINI adult 8կգ' = 26500 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'փոքր ցեղատեսակի հասուն շների համար (4-ից 10 կգ)'. Matches our Mini Adult 8 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1949,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Mini Adult Сухой корм для собак мелких пород от 10 мес до 8 лет, упаковка 8 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-adult-suhoj-korm-dlya-sobak-melkih-porod-ot-10-mes-do-8-let-upakovka-8-kg",
+    "price": 3450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Mini Adult Сухой корм для собак мелких пород от 10 мес до 8 лет, упаковка 8 кг, на развес 1 кг', option 'На развес, 1 кг' = 3450 AMD, no struck-through price; stock: В наличии · 8 шт. Brand, line, lifestage/breed size and pack match our Mini Adult 1 kg loose (8 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MINI adult (կիլոգրամով)",
+    "url": "https://www.nemo.am/mini-adult-1կգ",
+    "price": 3450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MINI adult (կիլոգրամով)' = 3450 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Արժեքը նշված է 1 կգ-ի համար'. Matches our Mini Adult 1 kg loose (8 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1803,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Mini Puppy Сухой корм для собак мелких пород до 10 мес, упаковка 8 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-puppy-suhoj-korm-dlya-sobak-melkih-porod-do-10-mes-upakovka-8-kg-5499",
+    "price": 29000,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Mini Puppy Сухой корм для собак мелких пород до 10 мес, упаковка 8 кг', option 'Упак (8 кг)' = 29000 AMD, no struck-through price; stock: Нет в наличии. Brand, line, lifestage/breed size and pack match our Mini Puppy 8 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MINI puppy 8կգ",
+    "url": "https://www.nemo.am/mini-puppy-8կգ",
+    "price": 29000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MINI puppy 8կգ' = 29000 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'փոքր ցեղատեսակի շների ձագերի համար՝ 2-ից 10 ամսական'. Matches our Mini Puppy 8 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1950,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Mini Puppy Сухой корм для собак мелких пород до 10 мес, упаковка 8 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-puppy-suhoj-korm-dlya-sobak-melkih-porod-do-10-mes-upakovka-8-kg",
+    "price": 3750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Mini Puppy Сухой корм для собак мелких пород до 10 мес, упаковка 8 кг, на развес 1 кг', option 'На развес, 1 кг' = 3750 AMD, no struck-through price; stock: В наличии · 6 шт. Brand, line, lifestage/breed size and pack match our Mini Puppy 1 kg loose (8 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MINI puppy (կիլոգրամով)",
+    "url": "https://www.nemo.am/royal-canin-mini-puppy-կիլոգրամով",
+    "price": 3750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MINI puppy (կիլոգրամով)' = 3750 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'փոքր ցեղատեսակի շների ձագերի համար՝ 2-ից 10 ամսական; per-kg '(կիլոգրամով)' listing'. Matches our Mini Puppy 1 kg loose (8 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1805,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Mini Adult 8+ (years ans) Сухой корм для собак мелких пород, упаковка 8 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-adult-8-years-ans-suhoj-korm-dlya-sobak-melkih-porod-upakovka-8-kg-5578",
+    "price": 25000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Mini Adult 8+ (years ans) Сухой корм для собак мелких пород, упаковка 8 кг', option 'Упак (8 кг)' = 25000 AMD, no struck-through price; stock: В наличии · 1 шт. Brand, line, lifestage/breed size and pack match our Mini Adult 8+ 8 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MINI adult 8+ 8կգ",
+    "url": "https://www.nemo.am/mini-adult-8",
+    "price": 26500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MINI adult 8+ 8կգ' = 26500 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'փոքր ցեղատեսակի ծեր շների համար (4-ից 10 կգ)'. Matches our Mini Adult 8+ 8 kg."
+   },
+   "confidence": "high",
+   "notes": "zoovet sells the 8 kg bag at 25000 (siruk 26500, -1500); nemo matches 26500."
+  },
+  {
+   "variant_id": 1951,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Mini Adult 8+ (years ans) Сухой корм для собак мелких пород, упаковка 8 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-adult-8-years-ans-suhoj-korm-dlya-sobak-melkih-porod-upakovka-8-kg",
+    "price": 3450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Royal Canin Mini Adult 8+ (years ans) Сухой корм для собак мелких пород, упаковка 8 кг, на развес 1 кг', option 'На развес, 1 кг' = 3450 AMD, no struck-through price; stock: В наличии · 8 шт. Brand, line, lifestage/breed size and pack match our Mini Adult 8+ 1 kg loose (8 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin MINI adult 8+ 8կգ (կիլոգրամով)",
+    "url": "https://www.nemo.am/royal-canin-mini-adult-8-8կգ-կիլոգրամով",
+    "price": 3450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin MINI adult 8+ 8կգ (կիլոգրամով)' = 3450 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Արժեքը նշված է 1 կգ-ի համար'. Matches our Mini Adult 8+ 1 kg loose (8 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1807,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Joint care Сухой корм для собак крупных пород, упаковка 10 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-joint-care-suhoj-korm-dlya-sobak-krupnyh-porod-upakovka-10-kg-5547",
+    "price": 36000,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Joint care Сухой корм для собак крупных пород, упаковка 10 кг', option 'Упак (10 кг)' = 36000 AMD, no struck-through price; stock: Под заказ (от 10 дней). Brand, line, lifestage/breed size and pack match our Maxi Joint Care 10 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Maxi Joint Care 10կգ",
+    "url": "https://www.nemo.am/maxi-joint-care-10կգ",
+    "price": 36000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Maxi Joint Care 10կգ' = 36000 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Խոշոր չափեր ունեցող շների կեր 10կգ'. Matches our Maxi Joint Care 10 kg."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  },
+  {
+   "variant_id": 1952,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am does not carry Royal Canin: local dump search 'canin' / 'royal' (only Trixie 'royal blue' leashes) and hafo-live 'royal canin' / 'canin' / 'Royal' / 'Ռոյալ' return no Royal Canin rows; hafo-sku '318255' (RC EAN prefix) returns nothing."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Maxi Joint care Сухой корм для собак крупных пород, упаковка 10 кг, на развес 1 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-maxi-joint-care-suhoj-korm-dlya-sobak-krupnyh-porod-upakovka-10-kg",
+    "price": 3800,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: 'Royal Canin Maxi Joint care Сухой корм для собак крупных пород, упаковка 10 кг, на развес 1 кг', option 'На развес, 1 кг' = 3800 AMD, no struck-through price; stock: Под заказ (от 10 дней). Brand, line, lifestage/breed size and pack match our Maxi Joint Care 1 kg loose (10 kg bag)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Maxi Joint Care (կիլոգրամով)",
+    "url": "https://www.nemo.am/royal-canin-maxi-joint-care-կիլոգրամով",
+    "price": 3800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Royal Canin Maxi Joint Care (կիլոգրամով)' = 3800 AMD, no old price, manufacturer ROYAL CANIN, availability in stock; description: 'Արժեքը նշված է 1կգ-ի համար'. Matches our Maxi Joint Care 1 kg loose (10 kg bag)."
+   },
+   "confidence": "high",
+   "notes": "hafo does not sell Royal Canin; zoovet and nemo both checked, both match our price."
+  }
+ ]
+}

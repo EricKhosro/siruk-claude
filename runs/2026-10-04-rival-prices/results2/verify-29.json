@@ -1,0 +1,55 @@
+[
+ {
+  "variant_id": 1293,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Trixie Premium Touring harness. Searched 'Trixie шлейка', 'Touring', 'туристическая|Тауринг', 'шлейка 60', 'шлейка L', 'шлейка Premium', 'Trixie 25 мм', 'Trixie 100 см|60-100|60–100', 'Trixie синяя|синий|голубая', 'harness', '204102', EAN 4011905204123. The only Trixie dog harness is 'Trixie Шлейка Premium желтая, размер M-L для собак, 52–75 см / 20 мм' (4600, out of stock), a different line, size and colour. The rest are Trixie cat harnesses and Triol, Julius-K9, Gamma and DOOG harnesses."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Շլեյկա նեյլոնե՝ L, կապույտ",
+   "url": "https://www.nemo.am/շլեյկա-նեյլոնե-l-կապույտ",
+   "price": 7250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the page today. Manufacturer is Trixie (product:brand Trixie). The text describes a fleece-padded harness with a 2-position belly strap, 'L՝ 60–100 սմ/25մմ'. The photo (0005830) is the Trixie Premium Touring harness in royal blue with black fleece. Price 7250֏, no old price, add-to-cart active. nemo's live search matches SKUs: '204102' returns only this listing and '204124' returns the mint 'Նեյլոնե շլեյկա, L'. The name is identical to hafo's title for 204102Tx (royal blue). Indigo (204113Tx) is titled 'մուգ կապույտ' on hafo and has no nemo hit. The text word 'Մուգ կապույտ' does not change this, because the photo and SKU are royal blue. Not a match: 'Շլեյկա նեյլոնե՝ L, շների համար, կապույտ' (6650), which is 60–76 cm/40 mm with neoprene, a different model."
+  },
+  "verdict": "agree",
+  "reason": "Same result: zoovet not carried, nemo found at 7250 (confirmed by SKU search 204102 and the royal-blue photo)."
+ },
+ {
+  "variant_id": 1610,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet sells no Versele-Laga cat litter. Its Versele Laga list is small-animal and bird food, hay and 'Опилки для грызунов' (1 kg / 2.5 kg). These searches return no Versele litter: 'Extreme|eXtreme', 'Compact|Компакт' (only a Gamma treat bag), 'наполнитель 7.5|7,5 л', 'Laga наполнитель|Laga песок', 'сенегал|бентонит', 'наполнитель глиняный|бентонитовый', '23079', EAN 5410340230794. Clumping litters on zoovet are Lechat, Eco-Premium, CAT STEP and Trixie Tofu."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo carries only 'Ավազ կատուների համար՝ Սենեգալյան կավից, EXTREME COMPACT 30լ-18կգ' (14300, in stock; page lists manufacturer JUANIT). That is hafo's 423076V (30 L / 18 kg), not our 7.5 L scented 423079V. These searches find no 7.5 L bag: 'EXTREME', 'COMPACT', 'Սենեգալյան', 'կավից', 'արոմատացված', 'Ավազ կատուների', 'Ավազ նախատեսված', '7.5լ|7.5 կգ', '423079|23079', '423074|23074', EAN 5410340230794. 'COMPACT ULTRA' 4/8 kg is Vitakraft, not Versele-Laga."
+  },
+  "verdict": "agree",
+  "reason": "Same result: neither shop sells the 7.5 L bag."
+ },
+ {
+  "variant_id": 1760,
+  "confidence": "medium",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Flexi list has 3 items. The nearest is 'Flexi Поводок-рулетка розовая с тросом для кошек (до 8 кг), 3 м' (5700, in stock 1 pc). I opened that page: it has no colour options, so it sells pink only, not our light blue. The other two are a red Comfort S 5 m cord and a blue New Comfort M 5 m tape. Searches 'рулетка XS', 'до 8 кг', 'рулетка 3 м', 'рулетка голубая|синяя', '042718', EAN 4000498042717 found only Triol leads besides these."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձգափոկ մեխանիկական` NEW COMFORT XS",
+   "url": "https://www.nemo.am/ձգափոկ-մեխանիկական-new-comfort-xs",
+   "price": 7250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened the page today: price 7250֏, no old price, in stock. It is a cord lead up to 8 kg, 3 m, weighing 110 g, which is the current New Comfort XS cord. This is one listing for several colours with no selector. The text lists colours 'բաց կապույտ մանուշակագույն կարմիր սև', and the gallery has 3 photos: blue (first), red and black. Our light blue is offered at the single price of 7250. Caveat: nemo's SKU search matches '04270' and '042708' but not '04271' or '042718'. So the record's own SKU is 042708 (hafo's light-violet, which hafo prices at 7250, while our light blue is 6650 on hafo). The colour is still sold through this listing at 7250. Not a match: '«New COMFORT» Ռուլետկա (պարան) - Կապույտ XS' (7300), the older-design FX 028708 cord."
+  },
+  "notes": "Medium confidence: the nemo listing covers all four colours and our light blue is in its photos and colour list, but the record's SKU is 042708 (light violet). The price for light blue on nemo is still 7250 because there is only one price.",
+  "verdict": "agree",
+  "reason": "Same result: zoovet not carried (only pink XS cord), nemo found at 7250. The listing is a multi-colour group record whose SKU is 042708, but it includes our light blue at the same single price."
+ }
+]

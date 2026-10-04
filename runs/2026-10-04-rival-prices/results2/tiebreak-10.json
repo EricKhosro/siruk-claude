@@ -1,0 +1,71 @@
+[
+ {
+  "variant_id": 824,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Gemon Влажный корм c говядиной и рисом для собак крупных пород (32-80 кг), 1.25 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-c-govyadinoj-i-risom-dlya-sobak-krupnyh-porod-32-80-kg-1-25-kg",
+   "price": 1750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Both agents agree, and I re-opened the page: Gemon beef & rice for large breeds (32-80 kg), 1.25 kg. 1750 AMD, no struck-through price, in stock (4)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Տավարի և բրնձի համով պաշտետ մեծ շների համար",
+   "url": "https://www.nemo.am/տավարի-և-բրնձի-համով-պաշտետ-մեծ-շների-համար",
+   "price": 1750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "The verifier was right. The title has no brand, but I re-opened the page: manufacturer Gemon, weight 1250 g, complete food for adult large-breed dogs aged 1-8 and weighing 32-80 kg, beef & rice. The title is the same as hafo's title for MM 387907 (EAN 8009470387903). The word 'պաշտետ' is the distributor's label for the Gemon 1250 g can, not a different recipe. 1750 AMD, no old price, in stock. The matcher only searched words containing the brand, so it missed this listing."
+  },
+  "notes": "Verifier right. Both zoovet and nemo charge 1750, so the highest price is 1750."
+ },
+ {
+  "variant_id": 825,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Gemon Влажный корм с ягненком и рисом для собак средних пород (12-30 кг), 1.25 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-yagnenkom-i-risom-dlya-sobak-srednih-porod-12-30-kg-1-25-kg",
+   "price": 1750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Both agents agree, and I re-opened the page: Gemon lamb & rice for medium breeds (12-30 kg), 1.25 kg. 1750 AMD, no struck-through price, in stock (2)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Գառան և բրնձի համով պաշտետ մեծ շների համար",
+   "url": "https://www.nemo.am/գառան-և-բրնձի-համով-պաշտետ-մեծ-շների-համար",
+   "price": 1750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "The verifier was right. I re-opened the page: manufacturer Gemon, weight 1250 g, complete food for adult medium-breed dogs aged 1-8 and weighing 12-30 kg, lamb & rice. That matches EAN 8009470387910 (Medium Adult lamb & rice, 1250 g). The title has no brand and is hafo's naming for MM 387917. 1750 AMD, no old price, in stock. The matcher missed it because it searched by brand."
+  },
+  "notes": "Verifier right. Both zoovet and nemo charge 1750, so the highest price is 1750."
+ },
+ {
+  "variant_id": 826,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Gemon Влажный корм с курицей и индейкой для собак средних пород (12-30 кг), 1.25 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-kuritsej-i-indejkoj-dlya-sobak-srednih-porod-12-30-kg-1-25-kg",
+   "price": 1750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Both agents agree, and I re-opened the page: Gemon chicken & turkey for medium breeds (12-30 kg), 1.25 kg. 1750 AMD, no struck-through price, in stock (2)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հավի և հնդկահավի համով պաշտետ մեծ շների համար",
+   "url": "https://www.nemo.am/հավի-և-հնդկահավի-համով-պաշտետ-մեծ-շների-համար",
+   "price": 1750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "The verifier was right. I re-opened the page: manufacturer Gemon, weight 1250 g, complete food for adult medium-breed dogs aged 1-8 and weighing 12-30 kg, chicken & turkey. That matches EAN 8009470387927 (Medium Adult chicken & turkey, 1250 g). The title has no brand and is hafo's naming for MM 387927. 1750 AMD, no old price, in stock. The matcher missed it because it searched by brand."
+  },
+  "notes": "Verifier right. Both zoovet and nemo charge 1750, so the highest price is 1750."
+ }
+]

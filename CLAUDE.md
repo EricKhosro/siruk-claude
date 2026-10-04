@@ -33,11 +33,6 @@ linked doc before you rely on a number from memory.
    beats cost. Neither outranks the other; try either. Order: hafo →
    confirmed zoovet/nemo → sibling → `no-hafo-price.csv`. `reference/zoovet.md`,
    `reference/pricing.md`.
-2c. **The PM's register is the price of record** (2026-09-16) —
-   `csv/Product.numbers` outranks hafo/zoovet; a register price at/below cost
-   or a typo-level jump (≥ 2.5× cost **and** ≥ 2× current) is held, not
-   written. The register has no article codes — recovery chain and full
-   policy: `reference/pricing.md` → "The register".
 3. **Each variant gets its own hafo price** — never the top-level listing
    price (the cheapest size only). Only `price_source: "variant"` may be
    written; unpriced variants go to the CSV individually.
@@ -205,8 +200,7 @@ linked doc before you rely on a number from memory.
    code at all** (the register) goes through `scripts/identify-by-name.py`
    first — hafo by name, then nemo/zoovet (its `shop_candidates`), then a web
    search, every axis matching
-   (rule 6) — and continues with the code that recovers; the register price
-   (rule 2c) then outranks hafo's.
+   (rule 6) — and continues with the code that recovers.
 4. **Brand site** — resolve from the brand hafo returned
    (`reference/brand-sites.md`), find the product page, extract title, images,
    description, composition, feeding guide, spec text. Nothing there? the

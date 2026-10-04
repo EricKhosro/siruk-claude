@@ -1,0 +1,363 @@
+{
+ "results": [
+  {
+   "variant_id": 1720,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for Trixie 3252 / EAN 4011905032528 (hafo-sku 3252 and EAN, hafo-live '3252', 'նրբերշիկ', local 'Խաղալիք նրբերշիկ|սոսիս', 'պարան 4|հատանոց'). Nearest: 3242Tx 'Խաղալիք շների նրբերշիկ պարանով 11 սմ' 900 AMD (https://hafo.am/products/xaxaliq-shneri-hamar-nrbershiki-tesqov) - one 11 cm sausage, not the 75 cm rope with 4 sausages."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie sausages-on-a-rope on zoovet (сосиск/сосиски/колбаск/Sausages/'trixie верев'/'trixie 75'). Nearest: 'Nunbell Игрушка Сосиски на верёвке для собак' 1900 (https://zoovet.am/sobaki/igrushki-1/drugie-1/nunbell-igrushka-sosiski-na-verevke-dlya-sobak) - Nunbell, not Trixie."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Not on nemo (նրբերշիկ, նրբերշիկով, Sausages, պարան-խաղալիք, '75 սմ', Trixie list). Nearest: 'TopPet Պարան-խաղալիք շների համար՝ 4 նրբերշիկով, 65 սմ' 2900 - page manufacturer Nunbell, 65 cm, not Trixie 75 cm."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells Trixie 3252.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1521,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for Trixie 35670 / EAN 4011905356709 (hafo-sku, hafo-live '35670', 'ленивца', local 'ленив|sloth|ծույլ'). Hafo sloths: 35671Tx 'Խաղալիք՝ փափուկ, կտորից Ленивец, 56 սմ' 5850 (https://hafo.am/products/Trixie-xaxaliq-hamruk-shneri-hamar-56-sm) - same fabric sloth but 56 cm, not 35 cm; 36166Tx Junior Sloth heartbeat 34 cm 10800; 35512Tx latex 20 cm 3550."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No sloth/ленивец toy on zoovet (ленивец, ленив, sloth, 'trixie игрушка 35')."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Not on nemo in 35 cm: only 'Trixie, խաղալիք համրուկ շների համար, 56 սմ' 5850 (56 cm, = hafo 35671) and 'Փափուկ խաղալիք՝ Junior Sloth, սրտի աշխատանքով, 34 սմ' 10800 (different model)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result (the matcher did not name the 56 cm 35671 sibling, but it is a different size so still not a match).",
+   "notes": ""
+  },
+  {
+   "variant_id": 1525,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for Trixie 36133 / EAN 4011905689593 (hafo-sku, hafo-live '36133', 'փղիկ', local 'փղ|слон|elephant'). Hafo Trixie elephants: 36132Tx head 12 cm 3350, 36134Tx 30 cm green 5500, 35926Tx 36 cm 8750, 36023Tx 27 cm 5600, 34825Tx Be Eco 50 cm 5400, 36168Tx junior 13 cm 2300 - none is the 42 cm rope-inside elephant."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie elephant on zoovet (слон): only Gigwi 17/9 cm, Triol 180/270/290 mm, KONG Squiggles."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Not on nemo: Trixie elephants listed are Be Eco (5400), junior (2300), '11 սմ' (5600 = hafo 36023, 27 cm) and 'Խաղալիք փափուկ, կտորից փղիկ' 8750 (= hafo 35926, 36 cm); no 42 cm."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells Trixie 36133.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1424,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for Trixie 40187 / EAN 4011905401874. Hafo's Classic 37x15x47 tray exists only in petrol 40180Tx, mint 40181Tx, pink 40182Tx, raspberry 40183Tx, grey 40184Tx, all 4650 (e.g. https://hafo.am/products/zugaran-katuneri-hamar-classic-kapuyt), plus older TX 40316/40315 (blue) 4650 out of stock - no purple/white."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie Classic tray on zoovet ('туалет trixie', 'trixie лоток'); only Carlo 37x15x47 grey 5000 and Vico models."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo '«Classic» զուգարան կատուների համար' 37x15x47 4650 (https://www.nemo.am/classic-զուգարան-կատուների-համար) names no colour, page shows 'Առկա չէ', and its only photo is a petrol/teal-and-white tray - not purple/white."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: purple/white 40187 is not sold by any rival (the same Classic tray in other colours is 4650 = our price).",
+   "notes": ""
+  },
+  {
+   "variant_id": 488,
+   "hafo": {
+    "found": false,
+    "name": "Թխվածքաբլիթներ գառան համով (sold by weight)",
+    "sku": "316641",
+    "url": "https://hafo.am/products/txvacqablit-garan-hamov",
+    "price": null,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "hafo has the same Trixie 31664 Cookie Snack Giants lamb (sku 316641, article 31664Tx, wholesale 2590 = our cost) but only by weight: kg_price 4150, page 'Գինը՝ 4150 դր․ կայքում նշված է կգ․-ի արժեքը', 'Քաշ՝ 1,250գր'; the box ('տուփ') quantity field is hidden, only the gram/kilogram input is shown. No price for the whole 1.25 kg bag, so it does not match our pack variant."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Trixie Лакомство печенье для собак, упаковка 1.25 кг",
+    "sku": "ME-00008530AD",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-pechene-dlya-sobak-upakovka-1-25-kg",
+    "price": 4250,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "Re-fetched: description 'Trixie Cookie Snack Giants с бараниной', 'Вкус Ягненок', 'Вес (кг) 1.25', '4% ягненка'. Options 'Упак (1,25 кг)' 4250 and 'На развес, 1 кг' 5200; no struck old price; 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Թխվածքաբլիթներ գառան համով",
+    "url": "https://www.nemo.am/թխվածքաբլիթներ-գառան-համով",
+    "price": 4150,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "Re-fetched: manufacturer Trixie, 'Քաշ՝ 1,250գ: Թխվածքաբլիթ շների համար: Գառան համով:', 4150, quantity in units, no '(կիլոգրամով)' or per-kg note (the title copies hafo's per-kg listing, so 4150 may really be per kg)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Same shops at the same prices: zoovet 4250 (pack out of stock), nemo 4150; hafo sells it by weight only.",
+   "notes": "Our 1.25 kg pack is priced 4150 = hafo's PER-KG price, and our cost 2590 = hafo's per-kg wholesale. The register row 'Թխվածքաբլիթներ շն.` գառան մսով, կգ' is per kg too. hafo per kg x 1.25 = 5188; zoovet pack 4250, zoovet loose 5200/kg."
+  },
+  {
+   "variant_id": 1506,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for Trixie 32830 / EAN 4011905328300 (hafo-sku '3283', hafo-live '32830', local 'պարան 65', 'Խաղալիք պարան'). Hafo rope toys: 3279Tx 70 cm knot rope 1750, 3275Tx 60 cm 2750, TX 326501 44 cm etc. - no 65 cm orange Playing Rope."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie 65 cm rope on zoovet ('верев 65', 'канат', 'playing rope', Trixie list: only 32 cm rope with knot 1150 and rope balls)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Not on nemo ('պարան 65', 'պարան', 'պարանե', 'Playing Rope'); 'Գունավոր պարանե խաղալիք' 2300 is a Trixie 28 cm bird toy."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells Trixie 32830.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1532,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row with article 23763 or EAN 4011905237633 (hafo-sku '2376', hafo-live '23763'). Hafo's 22 cm Trixie combs: TX 237641 (article 23764Tx, EAN 4011905237640) 3500 in stock (https://hafo.am/products/karch-atamnerov-sanr-64) and TX 237651 (article 23765Tx, EAN 4011905237657) 3100 out of stock (https://hafo.am/products/karch-atamnerov-sanr-63). The 237651 page uses a 2018 photo file named '...-23763.jpg' showing the old black/orange-ring fine comb, but its article and barcode both say 23765, and ours is the dark grey/blue 23763 - not confirmed."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie 22 cm comb on zoovet (Расческа/гребень/trixie list: only Trixie trimmer-comb 6x15 cm 7350)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Կարճ ատամներով սանր' (Trixie, 22, 'Փոքր ատամիկներով') 3100 (https://www.nemo.am/կարճ-ատամներով-սանր) mirrors hafo TX 237651 (article 23765, black/orange photo) - not our 23763 dark grey/blue."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Same result: no rival lists article 23763.",
+   "notes": "hafo 23764 (sibling variant 587 of the same product) is 3500 = our price. hafo's 23765 row carries a photo named 23763 at 3100 - worth a manual look if the PM thinks hafo's 237651 is really 23763."
+  },
+  {
+   "variant_id": 1427,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for Trixie 4222 / EAN 4011905042220 (240 g). Hafo Trixie malt pastes: TX 042201 'Մածուկ կատուների համար, malt 100գ' 2400 (out of stock), 4221Tx Plus 100 g 3000, 42738Tx Malt'n'Cheese 100 g, 42739Tx Malt'n'Grass 100 g - no 240 g."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has only 'Trixie Malt Paste ... для кошек, 100 г' 2400 (out of stock) - 100 g, not 240 g."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has only 'Մածուկ (ածիկ) կատուների համար' Trixie 100 g 2400 and 'Ածիկի համով մածուկ (Plus)' 3000 - no 240 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells the 240 g tube.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1544,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's double-layered adjustable XS-S 2 m/15 mm (2007xx, 5700) rows are fuchsia 200711, forest 200719, light lilac 200720, aqua 200728, sangria 200731, sage 200734, blush 200735, sand 200736 only; hafo-sku/hafo-live for 200717 and register code 41881 return nothing. Apple exists only as 200417 (single-layer XS-S 4150), 201017 (XS 2 m/10 mm 3850), 201317 (XS 3450)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's only Trixie Premium XS-S lead is 'Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' 4450 (ME-00000525) - purple, never called double-layered, photo is a single-layer fuchsia lead; not apple."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Trixie, երկշերտ նեյլոնե կարգավորվող ձգափոկեր, XS-S' 5700 (https://www.nemo.am/trixie-երկշերտ-նեյլոնե-կարգավորվող-ձգափոկեր-xs-s) lists colours Aqua, sangria, sage, blush, sand only - no apple."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the double-layered XS-S lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1545,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's double-layered adjustable XS-S 2 m/15 mm (2007xx, 5700) rows are fuchsia 200711, forest 200719, light lilac 200720, aqua 200728, sangria 200731, sage 200734, blush 200735, sand 200736 only; hafo-sku/hafo-live for 200722 and register code 41883 return nothing. Coral exists only as 200422 (single-layer XS-S 4150) and 201322 (XS 3450)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's only Trixie Premium XS-S lead is 'Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' 4450 (ME-00000525) - purple, never called double-layered, photo is a single-layer fuchsia lead; not coral."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Trixie, երկշերտ նեյլոնե կարգավորվող ձգափոկեր, XS-S' 5700 (https://www.nemo.am/trixie-երկշերտ-նեյլոնե-կարգավորվող-ձգափոկեր-xs-s) lists colours Aqua, sangria, sage, blush, sand only - no coral."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the double-layered XS-S lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1546,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's double-layered adjustable XS-S 2 m/15 mm (2007xx, 5700) rows are fuchsia 200711, forest 200719, light lilac 200720, aqua 200728, sangria 200731, sage 200734, blush 200735, sand 200736 only; hafo-sku/hafo-live for 200713 and register code 01764 / EAN 4053032017641 return nothing. Indigo exists only as 200413 (XS-S single 4150) and 201313 (XS 3450), both out of stock."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's only Trixie Premium XS-S lead is 'Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' 4450 (ME-00000525) - purple, never called double-layered, photo is a single-layer fuchsia lead; not indigo."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Trixie, երկշերտ նեյլոնե կարգավորվող ձգափոկեր, XS-S' 5700 (https://www.nemo.am/trixie-երկշերտ-նեյլոնե-կարգավորվող-ձգափոկեր-xs-s) lists colours Aqua, sangria, sage, blush, sand only - no indigo."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the double-layered XS-S lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1547,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's double-layered adjustable XS-S 2 m/15 mm (2007xx, 5700) rows are fuchsia 200711, forest 200719, light lilac 200720, aqua 200728, sangria 200731, sage 200734, blush 200735, sand 200736 only; hafo-sku/hafo-live for 200725 and register code 43103 return nothing. Nearest: 200720 light lilac (02484) 5700; purple only as single-layer 200420/200425 (4150)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "Candidate 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' 4450, 'В наличии · 1 шт' (https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/trixie-povodok-perestegka-premium-nejlonovaya-xs-s-fioletovaya-2-m-15-mm): description only says nylon, 3 lengths, extra ring - never double-layered; its photo is a single-layer fuchsia lead; 4450 fits the single-layer 2004xx line (hafo 4150), not the double-layered 2007xx (5700). Model not confirmed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Trixie, երկշերտ նեյլոնե կարգավորվող ձգափոկեր, XS-S' 5700 (https://www.nemo.am/trixie-երկշերտ-նեյլոնե-կարգավորվող-ձգափոկեր-xs-s) lists colours Aqua, sangria, sage, blush, sand only - no purple (sangria is a different Trixie colour)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Same result: zoovet's purple XS-S lead is most likely the single-layer model.",
+   "notes": "If zoovet's purple lead were the double-layered 200725 it would be 1250 below our 5700."
+  },
+  {
+   "variant_id": 1548,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's XS 2 m/10 mm leads: double-layered adjustable 2010xx (3850) = red 201003, fuchsia 201011, graphite 201016, apple 201017; Premium adjustable 2013xx (3450) = bordeaux, black, royal blue, red, fuchsia, ocean, indigo, caramel, mocca, grey, apple, orange, forest, purple, coral, mint 201324, light lilac 201325 - no papaya (201018); hafo-sku/hafo-live for the code return nothing. Nearest: 201318 orange XS 3450 and TX 200018 papaya 1.20 m (3000)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie XS 2 m/10 mm lead on zoovet (Trixie leads there: Premium XS-S purple 4450, Fusion L-XL, cotton tracking leads, Easy Life)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's only Trixie XS 2 m/10 mm lead is 'Ձգափոկ նեյլոնե երկնագույն XS' 3450 (https://www.nemo.am/ձգափոկ-նեյլոնե-երկնագույն-xs), whose photo is the teal Trixie 'ocean' colour (= hafo 201312, slug 'erknaguyn'); no papaya."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the XS 2 m/10 mm lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1554,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's XS 2 m/10 mm leads: double-layered adjustable 2010xx (3850) = red 201003, fuchsia 201011, graphite 201016, apple 201017; Premium adjustable 2013xx (3450) = bordeaux, black, royal blue, red, fuchsia, ocean, indigo, caramel, mocca, grey, apple, orange, forest, purple, coral, mint 201324, light lilac 201325 - no aqua (201328); hafo-sku/hafo-live for the code and EAN 4053032671591 return nothing. Aqua exists only as 200028 (1.20 m), 200428 (XS-S 4150), 200728 (XS-S double 5700)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie XS 2 m/10 mm lead on zoovet (Trixie leads there: Premium XS-S purple 4450, Fusion L-XL, cotton tracking leads, Easy Life)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's only Trixie XS 2 m/10 mm lead is 'Ձգափոկ նեյլոնե երկնագույն XS' 3450 (https://www.nemo.am/ձգափոկ-նեյլոնե-երկնագույն-xs), whose photo is the teal Trixie 'ocean' colour (= hafo 201312, slug 'erknaguyn'); no aqua. The teal 'երկնագույն' lead is ocean, not the light-blue aqua."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the XS 2 m/10 mm lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1555,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's XS 2 m/10 mm leads: double-layered adjustable 2010xx (3850) = red 201003, fuchsia 201011, graphite 201016, apple 201017; Premium adjustable 2013xx (3450) = bordeaux, black, royal blue, red, fuchsia, ocean, indigo, caramel, mocca, grey, apple, orange, forest, purple, coral, mint 201324, light lilac 201325 - no curry (201329); hafo-sku/hafo-live for the code and EAN 4053032671638 return nothing. Curry exists only as 200029 (1.20 m) and 200429 (XS-S 4150)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie XS 2 m/10 mm lead on zoovet (Trixie leads there: Premium XS-S purple 4450, Fusion L-XL, cotton tracking leads, Easy Life)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's only Trixie XS 2 m/10 mm lead is 'Ձգափոկ նեյլոնե երկնագույն XS' 3450 (https://www.nemo.am/ձգափոկ-նեյլոնե-երկնագույն-xs), whose photo is the teal Trixie 'ocean' colour (= hafo 201312, slug 'erknaguyn'); no curry."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the XS 2 m/10 mm lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1556,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's XS 2 m/10 mm leads: double-layered adjustable 2010xx (3850) = red 201003, fuchsia 201011, graphite 201016, apple 201017; Premium adjustable 2013xx (3450) = bordeaux, black, royal blue, red, fuchsia, ocean, indigo, caramel, mocca, grey, apple, orange, forest, purple, coral, mint 201324, light lilac 201325 - no petrol (201332); hafo-sku/hafo-live for the code and EAN 4053032671768 return nothing. Nearest: 201832 'XS, 1.8մ/10 մմ, բենզինի գույն' 3150 - 1.8 m, not 2 m."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie XS 2 m/10 mm lead on zoovet (Trixie leads there: Premium XS-S purple 4450, Fusion L-XL, cotton tracking leads, Easy Life)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's only Trixie XS 2 m/10 mm lead is 'Ձգափոկ նեյլոնե երկնագույն XS' 3450 (https://www.nemo.am/ձգափոկ-նեյլոնե-երկնագույն-xs), whose photo is the teal Trixie 'ocean' colour (= hafo 201312, slug 'erknaguyn'); no petrol. nemo 'Ձգափոկ նեյլոնե XS-L բենզինի գույն' 3150 is the 1.8 m lead."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the XS 2 m/10 mm lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1557,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's XS 2 m/10 mm leads: double-layered adjustable 2010xx (3850) = red 201003, fuchsia 201011, graphite 201016, apple 201017; Premium adjustable 2013xx (3450) = bordeaux, black, royal blue, red, fuchsia, ocean, indigo, caramel, mocca, grey, apple, orange, forest, purple, coral, mint 201324, light lilac 201325 - no sage (201334); hafo-sku/hafo-live for the code and EAN 4053032671843 return nothing. Nearest: 201324 mint 3450 (different colour) and 201834 sage 1.8 m (3150)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie XS 2 m/10 mm lead on zoovet (Trixie leads there: Premium XS-S purple 4450, Fusion L-XL, cotton tracking leads, Easy Life)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's only Trixie XS 2 m/10 mm lead is 'Ձգափոկ նեյլոնե երկնագույն XS' 3450 (https://www.nemo.am/ձգափոկ-նեյլոնե-երկնագույն-xs), whose photo is the teal Trixie 'ocean' colour (= hafo 201312, slug 'erknaguyn'); no sage."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the XS 2 m/10 mm lead.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1558,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's XS 2 m/10 mm leads: double-layered adjustable 2010xx (3850) = red 201003, fuchsia 201011, graphite 201016, apple 201017; Premium adjustable 2013xx (3450) = bordeaux, black, royal blue, red, fuchsia, ocean, indigo, caramel, mocca, grey, apple, orange, forest, purple, coral, mint 201324, light lilac 201325 - no sand (201336); hafo-sku/hafo-live for the code and EAN 4053032671928 return nothing. Nearest: 201836 'XS, 1.8մ/10 մմ, ավազագույն' 3150 - 1.8 m, not 2 m."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie XS 2 m/10 mm lead on zoovet (Trixie leads there: Premium XS-S purple 4450, Fusion L-XL, cotton tracking leads, Easy Life)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's only Trixie XS 2 m/10 mm lead is 'Ձգափոկ նեյլոնե երկնագույն XS' 3450 (https://www.nemo.am/ձգափոկ-նեյլոնե-երկնագույն-xs), whose photo is the teal Trixie 'ocean' colour (= hafo 201312, slug 'erknaguyn'); no sand."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells this colour of the XS 2 m/10 mm lead.",
+   "notes": ""
+  }
+ ]
+}

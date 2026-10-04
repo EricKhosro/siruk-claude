@@ -1,0 +1,480 @@
+{
+ "results": [
+  {
+   "variant_id": 354,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'бад|утка|duck', 'trixie плюш'; no Trixie duck toy (only Triol 'Утка' latex/catapult)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-խաղալիք-բադ-շների-համար",
+    "price": 4600,
+    "old_price": null,
+    "name": "Trixie, խաղալիք բադ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; plush polyester duck, size 38 cm; name = hafo title for 35888Tx. Other ducks 40 cm (4250) / Trixie 'բադիկ' differ."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 355,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'бобр|beaver'; none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-խաղալիք-կուղբ-շների-համար-27-սմ",
+    "price": 4600,
+    "old_price": null,
+    "name": "Trixie , խաղալիք կուղբ շների համար, 27 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name identical to hafo title for 35910Tx incl. 27 cm (separate 40 cm beaver at 5500). Caveat: page short-description is copy-pasted from the duck (says 'բադ, 38 սմ')."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 356,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'гриф|стервятник|vulture|gustav'; none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-կտորից-անգղ-gustav",
+    "price": 3550,
+    "old_price": null,
+    "name": "Խաղալիք շների կտորից անգղ՝ GUSTAV",
+    "in_stock": true,
+    "evidence": "Name = hafo row name (GUSTAV vulture, fabric); description 'polyester, squeaky, 24 cm'. Manufacturer field empty. 28 cm and 32 cm vultures are separate listings."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 357,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'гриф|стервятник|vulture|gustav'; none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շների-խաղալիք-կտորից-անգղ-gustav",
+    "price": 4950,
+    "old_price": null,
+    "name": "Շների խաղալիք կտորից անգղ՝ GUSTAV",
+    "in_stock": true,
+    "evidence": "GUSTAV vulture fabric/plush with sound, description 28 cm. 24 cm (3550) and plain 'անգղ' 32 cm (4950) are other sizes."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 358,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'лиса|лис|fox'; no Trixie fox toy."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-պարանից-աղվես",
+    "price": 4750,
+    "old_price": null,
+    "name": "Խաղալիք շների համար՝ պարանից աղվես",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; plush with rope, sound, 34 cm; name = hafo title for 35919Tx. Other Trixie foxes are 15 cm/11 cm/Be Eco."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 359,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'ёжик|ежик|hedgehog'; nearest 'Trixie Игрушка ёжик для собак, 12 см' (2950, ME-00008392) is TPR rubber, floats - not the fabric plush hedgehog."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-կտորից-ոզնի-12-սմ",
+    "price": 2200,
+    "old_price": null,
+    "name": "Խաղալիք շների կտորից ոզնի 12 սմ",
+    "in_stock": true,
+    "evidence": "Name = hafo row name; plush polyester squeaky hedgehog, 12 cm. Manufacturer field empty."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 360,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'ёжик|ежик|hedgehog'; only a 12 cm TPR rubber hedgehog (2950) - wrong material and size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-կտորից-ոզնի-17-սմ",
+    "price": 3150,
+    "old_price": null,
+    "name": "Խաղալիք շների կտորից ոզնի 17 սմ",
+    "in_stock": true,
+    "evidence": "Name = hafo row name; plush polyester squeaky hedgehog 17 cm. Trixie 33 cm/37 cm hedgehogs are other items."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 361,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'пицца|pizza'; only Triol pizza toys (145 mm plush, 127 mm rubber)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-փափուկ-կտորից-պիցցա",
+    "price": 2650,
+    "old_price": null,
+    "name": "Խաղալիք` փափուկ, կտորից պիցցա",
+    "in_stock": true,
+    "evidence": "Name = hafo title; description 26 cm, with sound. Manufacturer field empty."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 362,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'курица|chicken игрушка', 'гриль'; only Nunbell polka-dot chicken."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-գրիլ",
+    "price": 3600,
+    "old_price": null,
+    "name": "Խաղալիք` գրիլ",
+    "in_stock": true,
+    "evidence": "Name = hafo title; plush, with sound, 26 cm. Manufacturer field empty."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 363,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'птица|bird'; nearest 'Trixie Игрушка птица для собак, 20 см' (2750) is latex 20 cm - not the 30 cm plush bird."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-փափուկ-թռչուն",
+    "price": 4450,
+    "old_price": null,
+    "name": "Խաղալիք փափուկ՝ թռչուն",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 35968Tx; plush, elastic neck (matches siruk text), 30 cm. A latex 20 cm bird (2850) is a different item."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 364,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'осел|ослик|donkey'; none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փափուկ-խաղալիք-իշուկ",
+    "price": 3900,
+    "old_price": null,
+    "name": "Փափուկ խաղալիք-իշուկ",
+    "in_stock": true,
+    "evidence": "Plush donkey with sound, 24 cm (siruk/hafo 24 cm, same price as hafo). Other donkeys: 'Խաղալիք իշուկ' 20 cm (4500), Be Eco Donkey Elenor (4350). Manufacturer field empty."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 365,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'чайка|seagull|hinnerk', 'Be Nordic'; zoovet's Be Nordic items are collars/bowls/treats only."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-ճայ-be-nordic",
+    "price": 4550,
+    "old_price": null,
+    "name": "Խաղալիք շների համար՝ ճայ, BE NORDIC",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; BE NORDIC seagull, plush/polyester, crinkle, sound, 35 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 366,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'вомбат|коала|wombat|koala', 'Be Eco'; only Triol koalas and Be Eco ball toys."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-be-eco-խաղալիք-կոալա-շների-համար",
+    "price": 5100,
+    "old_price": null,
+    "name": "Trixie Be Eco, խաղալիք կոալա շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; Be Eco koala, polyester, 25 cm - matches hafo row 'Կոալա, 25 սմ, Be Eco Koala' for 36096 (siruk calls it Wombat). Non-Be Eco koalas (1850, 5450) differ."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 367,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'слон|elephant'; only Triol elephants."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-փափուկ-կտորից-փղիկի-գլուխ-12-սմ",
+    "price": 3350,
+    "old_price": null,
+    "name": "Խաղալիք՝ փափուկ, կտորից փղիկի գլուխ, 12 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; fabric elephant head, polyester, 12 cm; name = hafo title."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 368,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'слон|elephant'; only Triol elephants."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-փափուկ-կտորից-փղիկ-կանաչ",
+    "price": 5500,
+    "old_price": null,
+    "name": "Խաղալիք՝ փափուկ, կտորից փղիկ ,կանաչ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; fabric elephant, green, 30 cm; name = hafo title. A 36 cm plush elephant (8750) and Be Eco elephant (5400) differ."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 370,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'веревка|канат|rope'; nearest 'Trixie Игрушка веревка с узлом для собак, 32 см' (1150) - 32 cm, not 60 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հանգուցավոր-պարան-9",
+    "price": 2750,
+    "old_price": null,
+    "name": "Հանգուցավոր պարան",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; knotted cotton-blend rope, 60 cm; name = hafo title for 3275Tx. Sibling listings (-2..-8) are 20-50 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 371,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'веревка|rope', 'мячик c верёвкой'; nearest 'Trixie Игрушка мячик c верёвкой для собак' (1150) is a rubber ball, no size - not the tennis ball on rope 50 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/թենիսի-գնդակ-պարանի-վրա",
+    "price": 2700,
+    "old_price": null,
+    "name": "Թենիսի գնդակ պարանի վրա",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 3280Tx; cotton blend rope, plastic handle, non-glass-fibre tennis ball, 6 cm / 50 cm. 'Թենիսի գնդակ պարանով' (plush, 16 cm) differs."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 372,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'bungee|амортизатор'; only the Bungee ball toy (7/48 cm)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-bungee-կտորից-ամորտիզատորով",
+    "price": 3100,
+    "old_price": null,
+    "name": "Խաղալիք` Bungee, կտորից, ամորտիզատորով",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 32867Tx (fabric Bungee with shock absorber); size not printed on page. Manufacturer field empty."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 373,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'bungee|амортизатор', 'кольцо'; only the Bungee ball toy."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched 'Bungee', 'Խաղալիք՝ Bungee', 'ռետինե օղակ', 'նեյլոնե բռնակով', '10/56|56 սմ'; nemo lists only the Bungee ball (4600) and fabric Bungee (3100); no rubber-ring Bungee 10/56 cm."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 374,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/igrushki-1/drugie-1/trixie-igrushka-myachik-c-amortizatorom-dlya-sobak",
+    "price": 4350,
+    "old_price": null,
+    "name": "Trixie Игрушка мячик c амортизатором для собак",
+    "in_stock": false,
+    "evidence": "Trixie; TPR ball on shock-absorbing polyester handle, size 7/48 cm (hafo says 7/47; nemo's same item also says 48 cm). Only Trixie bungee ball on zoovet. Stock 'Под заказ' (to order)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/bungee-խաղալիք-շների-համար",
+    "price": 4600,
+    "old_price": null,
+    "name": "Bungee, խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 32869Tx; handle - shock absorber - ball, 48 cm. Manufacturer field empty."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 375,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'Denta Fun игрушка'; zoovet's Denta Fun rows are all treats."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-գնդակով-պարան",
+    "price": 2950,
+    "old_price": null,
+    "name": "«Denta Fun» գնդակով պարան",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 3299Tx; 7 cm - 24 cm, cotton blend rope with handle, natural rubber mint ball. 'Denta Fun գնդակ' 6 cm (2400) is a different item."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 376,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'каучук'; nearest 'Trixie Игрушка мяч из каучука, в ассортименте, 7 см' (3000) - 7 cm, not 5 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-շների-համար-2",
+    "price": 1100,
+    "old_price": null,
+    "name": "Գնդակ շների համար 5 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; natural rubber ball 5 cm; name = hafo title for 3300Tx + size. 6 cm/7 cm rubber balls differ."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 378,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'каучук', 'Tugger'; no Trixie natural-rubber tugger."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գրեյֆեր-խաղալիք-շների-համար-14-սմ",
+    "price": 5700,
+    "old_price": null,
+    "name": "Գրեյֆեր խաղալիք շների համար 14 սմ",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 3317Tx + 14 cm; natural rubber. A 7 cm tugger (1900) is a different size. Manufacturer field empty."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 379,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'Denta Fun игрушка', 'кольцо'; zoovet's Denta Fun rows are all treats."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-օղակ",
+    "price": 4000,
+    "old_price": null,
+    "name": "«Denta Fun» օղակ",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 33181Tx; natural rubber, mint flavour, 12 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 380,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'aqua|плавающ', 'молекул'; none (only Triol/KONG Aqua toys)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-մոլեկուլ-ջերմակայուն-կաուչուկ-2",
+    "price": 4750,
+    "old_price": null,
+    "name": "Խաղալիք շների՝ մոլեկուլ (ջերմակայուն կաուչուկ)",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 33447Tx; heat-resistant rubber, 14 cm. Same-name listing at 6950 is 17 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 382,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'aqua|плавающ', 'веревка'; nearest Be Nordic rope balls 7/20 cm and 8x30 cm (cotton) - different items."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-aqua-toy",
+    "price": 2350,
+    "old_price": null,
+    "name": "Խաղալիք շների համար՝ Aqua Toy",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 33662Tx; polyester / TPR, 6*40 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 383,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'aqua|плавающ', 'веревка|канат|rope'; none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-aqua-toy-պարանից-3-օղակներ",
+    "price": 3100,
+    "old_price": null,
+    "name": "Խաղալիք՝ Aqua Toy, պարանից 3 օղակներ",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 33663Tx; polyester, 42 cm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 384,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (354 rows) scanned + searches 'игольчат', 'ёжик'; nearest 'Trixie Мяч игольчатый цвета в ассортименте, 10 см' (2000, ME-00002971, slug '-3402') is vinyl with squeaker but not phosphorescent/glow - likely Trixie 3402, not 34091."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-ասեղաձև-ֆոսֆորային",
+    "price": 2000,
+    "old_price": null,
+    "name": "Գնդակ ասեղաձև (ֆոսֆորային)",
+    "in_stock": true,
+    "evidence": "Name = hafo title for 34091 (TX 340911); phosphorescent spiky vinyl ball with sound, 10 cm."
+   },
+   "confidence": "high"
+  }
+ ]
+}

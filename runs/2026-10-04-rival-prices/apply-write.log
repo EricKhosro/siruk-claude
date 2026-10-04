@@ -1,0 +1,379 @@
+⚠ option Health Feature is set on some variants but not on ['08542MG']
+209: written + verified  3278 1950->2000
+219: written + verified  33640 1500->1900
+230: written + verified  34721 4450->5450
+243: written + verified  35170 1700->1650
+244: written + verified  35182 2840->2850
+255: written + verified  35612 1700->1650
+262: written + verified  35806 4850->4950
+278: written + verified  36160 3700->3550
+286: written + verified  33132 4450->5450
+289: written + verified  33448 7200->6950
+300: written + verified  32009 11000->10950
+313: written + verified  4503 2900->2850
+315: written + verified  45558 1700->1650
+317: written + verified  4564 6000->5950
+321: written + verified  4592 2250->2350
+324: written + verified  009017 750->600, 009127 1900->1650, 009027 750->600, 009137 1900->1650, 009167 750->600, 009147 1900->1650, 009177 750->600, 009157 1900->1650, 009187 1900->1650
+325: written + verified  009077 750->600, 009097 750->600, 009517 750->600, 009547 750->600
+326: written + verified  009257 600->480
+327: written + verified  40121 4950->5000
+329: written + verified  40397 8000->7850
+334: written + verified  27152 1700->1650
+346: written + verified  31519 1500->1650
+349: written + verified  31524 1700->1650
+352: written + verified  31587 1700->1650
+354: REFUSED option Health Feature is set on some variants but not on ['31533', '31802']
+356: written + verified  31855 3500->3450
+359: written + verified  31545 2000->2100
+361: written + verified  3155 750->800
+362: written + verified  3156 750->800, 3172 750->800
+367: written + verified  31582 1850->1950
+368: written + verified  31585 1700->1750
+379: written + verified  31662 4050->4900
+380: written + verified  31663 4050->4900
+381: written + verified  31664 4150->4250
+383: written + verified  31671 4600->5980
+384: written + verified  31701 1300->1350
+387: written + verified  31705 2000->2100
+389: written + verified  31709 1900->2000
+395: written + verified  31748 1700->1650
+396: written + verified  31749 1900->2250
+402: written + verified  42733 1950->1800
+403: written + verified  32622 4450->5150
+409: written + verified  32944 4600->4450
+418: written + verified  34870 5300->6100
+419: written + verified  34871 5300->5700
+420: written + verified  35061 3550->3750
+426: written + verified  35821 2650->2850
+457: written + verified  23129 1700->1650
+458: written + verified  23131 2250->2350
+473: written + verified  2360 1800->1850
+488: written + verified  2391 1700->1650
+494: written + verified  2411 1500->1550
+505: written + verified  2561 2800->2700
+509: written + verified  40478 1950->1850
+521: written + verified  31347 2650->2600, 31338 1700->1650
+526: written + verified  31342 1600->1700
+538: written + verified  31591 1800->1900
+541: written + verified  31808 1900->1950
+542: written + verified  31849 2800->2500
+550: written + verified  42706 1100->1200, 42717 1000->1200
+551: written + verified  42708 1000->1100
+553: written + verified  42731 1350->1450
+557: written + verified  42741 1400->1300
+559: written + verified  42746 700->750
+561: written + verified  42754 1200->1250
+562: written + verified  42804 1500->1400
+568: written + verified  2546 2200->2100
+572: written + verified  2572 1700->1650
+573: written + verified  2899 1950->2100
+575: written + verified  2904 1950->2100
+577: written + verified  2906 1950->2100
+578: written + verified  2908 1950->2100
+579: written + verified  2914 1950->2100
+580: written + verified  2915 1950->2100
+582: written + verified  29191 1950->2100
+583: written + verified  29192 1950->2100
+585: written + verified  29194 1950->2100
+597: written + verified  42423 1700->1650
+605: written + verified  46000 5450->5350
+606: REFUSED variant 19455: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+612: written + verified  25626 1500->1490
+614: written + verified  29417 1700->1650
+615: written + verified  29418 1700->1650
+616: written + verified  29419 1700->1650
+622: written + verified  012767 700->600, 012757 700->600, 012777 700->600
+623: written + verified  012787 700->600, 012797 700->600, 012807 700->600
+624: written + verified  013117 600->500, 013127 600->500, 013167 600->500
+625: written + verified  013177 600->500
+626: written + verified  013257 750->600, 014337 2400->2100, 013217 720->600, 013237 720->600, 013247 720->600
+627: written + verified  013607 650->550
+628: written + verified  013617 650->550, 013627 650->550
+629: written + verified  013637 650->550, 013647 650->550, 013657 650->550
+632: written + verified  014627 800->600
+633: REFUSED option Packaging Type is set on some variants but not on ['300607', '300617']
+634: written + verified  300687 500->450
+635: written + verified  301097 500->450, 301087 500->450
+636: written + verified  004097 4600->3850, MG006117-KG 2900->3000, MG006067-KG 3400->3500, MG006077-KG 3400->3500
+637: written + verified  005517 9600->7500
+638: written + verified  005527 10400->8800
+639: written + verified  011257 5700->4600, 011217-KG 3800->3900
+640: written + verified  011407 5150->4250
+641: written + verified  011477 5950->4900
+642: written + verified  011937 9950->8500
+643: written + verified  012007 12100->9000
+644: written + verified  012067 13200->10000
+645: written + verified  012087 13200->10000
+646: written + verified  081517 11170->8900
+647: written + verified  081657 11170->8900
+648: written + verified  081687 11170->8900
+649: written + verified  081757 11170->8900
+650: written + verified  012607 1450->1250
+651: written + verified  012617 1450->1250, 012627 1450->1250, 012647 1450->1250
+652: written + verified  012637 1450->1250
+653: written + verified  014217 2350->2000, 014227 2350->2000, 014237 2350->2000, 014247 2350->2000, 014437 2350->2000, 014137 1200->1000, 014147 1200->1000, 014177 1200->1000, 014187 1200->1000, 014407 1200->1000
+654: written + verified  014447 1450->1250
+655: written + verified  014467 1450->1250, 014477 1450->1250, 014567 1450->1250, 014577 1450->1250, 014457 1450->1250, 014497 1450->1250
+658: written + verified  014487 1450->1250
+659: written + verified  041587 900->700, 041537 900->700, 041567 1850->1550, 041577 1850->1550
+663: written + verified  041787 900->700, 041887 1850->1550
+665: written + verified  060347 2250->1900
+666: written + verified  060357 2250->1900
+667: written + verified  061787 700->570
+670: written + verified  299957 1050->920
+671: written + verified  299967 1050->920
+672: written + verified  300637 550->450
+673: written + verified  300737 900->810
+674: written + verified  300747 900->810
+675: written + verified  300907 500->450
+676: written + verified  301017M 550->450, 301027M 550->450
+677: written + verified  301037M 550->450, 301047M 550->450
+678: written + verified  387807-OLD 1000->800, 387817-OLD 1000->800
+679: written + verified  387857 900->750
+680: written + verified  387867 900->750
+681: written + verified  387877 900->750
+682: written + verified  387907 2100->1750, 387947 2100->1750
+683: written + verified  387917 2100->1750, 387927 2100->1750
+684: written + verified  390797 900->690
+685: written + verified  390807 900->690
+686: written + verified  08523MG 800->750
+687: written + verified  08524MG 800->750
+688: written + verified  08525MG 800->750
+689: written + verified  08526MG 800->750
+690: written + verified  08527MG 800->750
+691: written + verified  08528MG 800->750
+692: written + verified  08539MG 1800->1650, 08544MG 1800->1650, 08542MG 1800->1650, 08543MG 1800->1650, 08540MG 1800->1650
+694: written + verified  08541MG 1800->1650
+698: written + verified  08500MG 1150->1050
+699: written + verified  08501MG 1150->1050
+700: written + verified  08502MG 1150->1050
+701: written + verified  08503MG 1150->1050
+702: written + verified  08504MG 1150->1050
+703: written + verified  08505MG 1150->1050
+704: written + verified  08513MG 1950->1800
+705: written + verified  08514MG 1950->1800
+706: written + verified  08515MG 1950->1800
+707: written + verified  08516MG 1950->1800
+708: written + verified  08518MG 1950->1800
+709: written + verified  008607 800->620, 008617 800->620, 008627 800->620, 008637 800->620
+710: written + verified  012857 800->630
+711: written + verified  012867 800->630, 012877 800->630, 012887 800->630
+712: written + verified  012897 800->630, 012907 800->630
+713: written + verified  013017 700->550, 013037 700->550, 013097 700->550, 013107 700->550, 013067 700->550
+715: written + verified  014507 950->750
+716: written + verified  014517 950->750
+717: written + verified  014527 950->750
+718: written + verified  014537 950->750
+719: written + verified  014647 800->600
+720: written + verified  014657 800->600
+721: written + verified  301067 500->450
+725: written + verified  19449AQ 4300->4000
+727: written + verified  142565 400->270, 142525 400->270, 142505 400->270, 142515 400->270, 142495 400->270, 143015 400->270
+729: written + verified  908935 400->270
+738: written + verified  15248 8300->8050
+742: written + verified  071832 3800->3790
+745: written + verified  071862 2800->2760
+748: written + verified  070932 1350->1340
+749: written + verified  070952 1350->1340
+750: written + verified  071502 2100->2080
+751: written + verified  071522 2100->2080
+752: written + verified  075742 1900->1890
+753: REFUSED variant 075772: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+755: REFUSED variant 075112: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+756: REFUSED variant 077562: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+762: written + verified  077922 4500->4510
+763: REFUSED variant 077982: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+767: written + verified  073452 2900->2950
+769: written + verified  074302 3700->3670, 074312 5050->5020
+771: written + verified  074022 2200->2210, 074052 2850->2820
+773: written + verified  074042 2850->2840
+775: written + verified  074072 2700->2650
+777: written + verified  074102 4400->4410
+779: written + verified  078362 2850->2840
+781: written + verified  073652 1100->1080, 073662 1150->1140
+783: written + verified  073672 1700->1670, 073692 2900->2880
+785: REFUSED variant 791832: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+787: REFUSED variant 791852: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+790: written + verified  073502 2550->2530
+795: written + verified  076912 2400->2450
+805: written + verified  201301 3500->3450, 201303 3500->3450, 201311 3500->3450, 201316 3500->3450
+809: written + verified  201320 3500->3450
+812: written + verified  24575 7300->6800
+815: written + verified  24851 1700->1650
+820: written + verified  2488 2400->2800
+826: written + verified  25073 3550->3800
+839: written + verified  25244 5700->6100, 25245 7500->8000
+856: written + verified  17592 3250->3150, 17593 3600->3500, 17594 4000->3850, 17596 4650->4500
+860: written + verified  19500 1500->1450, 19501 1800->1700, 19502 1800->1700, 19503 2000->1900
+864: written + verified  19526 5700->5500
+866: written + verified  22840 1100->1200
+875: written + verified  072022 6100->5550
+877: REFUSED variant 073252: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+881: written + verified  23236 5100->5450
+886: written + verified  2332 1050->1100
+903: written + verified  23371 250->230
+904: written + verified  23413 400->410
+907: written + verified  23634 360->400
+909: written + verified  23641 400->360
+912: written + verified  28773 5000->4950
+922: written + verified  12224 3100->2900
+923: written + verified  12232 4450->5450
+925: written + verified  13062 4250->4200
+929: written + verified  13314 8320->7800, 13319 8320->7800
+943: written + verified  19005 5800->4800
+952: written + verified  1971601 3350->4350
+979: written + verified  201633 1950->1800, 201628 1950->1800, 201629 1950->1800, 201632 1950->1800, 201630 1950->1800, 201634 1950->1800, 201631 1950->1800, 202228 1450->1350, 202233 1450->1350, 202234 1450->1350, 202231 1450->1350, 201529 1550->1450, 201533 1550->1450, 201532 1550->1450, 201534 1550->1450, 201531 1550->1450, 201428 1300->1200, 201433 1300->1200, 201432 1300->1200, 201434 1300->1200, 201431 1300->1200, 202129 1200->1100, 202133 1200->1100, 202132 1200->1100, 202130 1200->1100, 202134 1200->1100, 202131 1200->1100
+993: written + verified  5601112-KG 3700->3750
+1006: written + verified  5401112-KG 6600->4700
+1009: written + verified  5121112 50000->45000, 5121112-KG 4500->4100
+1015: written + verified  2815412-KG 7900->8800
+1016: written + verified  204102 7000->7250
+1018: written + verified  5721212-KG 4600->4700
+1021: written + verified  AC5301112 50000->49000, AC5301112-KG 4500->4050
+1027: written + verified  076412 3100->3140
+1032: written + verified  076492 3150->3140
+1042: written + verified  15263 1950->1850
+1043: written + verified  15266 1950->1850
+1044: written + verified  15269 1950->1850
+1045: written + verified  15272 1950->1850
+1046: written + verified  15275 1950->1850
+1047: written + verified  12253S 2900->2800
+1048: written + verified  10268S 3200->3100
+1049: written + verified  11235S 1950->1850
+1050: written + verified  142595 300->220, 142605 300->220, 142615 300->220, 142625 300->220, 142635 300->220, 142655 300->220
+1051: written + verified  143005 300->220
+1052: written + verified  83041J 200->150, 83042J 200->150, 83047J 200->150
+1053: written + verified  83010J 150->130, 83014J 150->130
+1054: written + verified  83077J 150->130
+1055: REFUSED variant 13228: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+1056: written + verified  12527 3850->3700
+1057: written + verified  21382 5500->5450
+1100: written + verified  41345 5400->5950
+1102: written + verified  387807 1000->800, 387817 1000->800
+1107: written + verified  BP12510 1900->1800
+1110: REFUSED variant 10203: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+1111: written + verified  12566 2900->2800
+1112: written + verified  13689 3300->3200
+1113: written + verified  10270 4100->3950
+1114: written + verified  11406 1300->1250
+1115: written + verified  12622 1300->1250, 12621 1300->1250
+1116: written + verified  12281 5500->5300
+1117: written + verified  12282 5500->5300
+1118: written + verified  12287 5500->5300
+1119: written + verified  19983 3050->2950
+1120: written + verified  19967 3050->2950
+1121: written + verified  19963 3050->2950
+1122: written + verified  19905 3050->2950
+1123: written + verified  13843 3050->2950
+1124: written + verified  14206 3050->2950
+1125: written + verified  63911PCHL 2350->2320
+1127: written + verified  423079V 7500->7450
+1130: written + verified  48905E 4000->3950
+1131: written + verified  48893E 4000->3950
+1132: written + verified  548833 1700->850
+1133: written + verified  548803 1700->850
+1134: written + verified  548773 1700->850
+1135: written + verified  548783 1700->800
+1136: written + verified  548843 1700->850
+1138: written + verified  208946 2350->2250
+1139: written + verified  208976 2350->2250
+1140: written + verified  214926 2350->2250
+1141: written + verified  214936 2350->2250
+1142: written + verified  212836 2350->2800
+1145: written + verified  11241S 1950->1850
+1146: written + verified  11238 1950->1850
+1147: written + verified  14604S 2400->2300
+1152: written + verified  011137-KG 3450->3550, 011347-KG 3400->3500, 011327 41500->44000, 011307 43000->44000, 011307-KG 3700->3800, 011157-KG 3800->3900, 011397-KG 3600->3700
+1153: written + verified  MG006107-KG 3200->3300, 005947-KG 3550->3650
+1154: written + verified  MG006087-KG 3800->3900
+1156: written + verified  MG006027-KG 2850->2950
+1157: written + verified  004417-KG 2700->2800
+1158: written + verified  011757-KG 3600->3700, 011797-KG 4100->4200
+1159: written + verified  011897-KG 4200->4300
+1160: written + verified  011737-KG 4650->4750
+1161: written + verified  MG 004797-KG 3700->3800
+1162: written + verified  MG 004827-KG 3700->3800
+1163: written + verified  MG 004817-KG 3600->3700
+1164: written + verified  MG 004837-KG 3650->3750
+1180: written + verified  12959 3300->3200
+1184: written + verified  DL711166 2350->2250
+1185: written + verified  DL711796 2350->2250
+1186: written + verified  DL711396 1050->1000
+1187: written + verified  DL710306 2350->2250
+1188: written + verified  504026 1050->1000, 504036 1050->1000, 504046 1050->1000, 504056 1050->1000
+1189: written + verified  14612S 2400->2300
+1190: written + verified  10250S 3100->3000, 10885S 3050->2950
+1191: REFUSED variant 10665: product type 'Supplements' is sized (volume) but the variant has no measure_type/content
+1192: written + verified  12623 1300->1250
+1193: written + verified  077412 3200->3160
+1194: written + verified  03623K 1700->1650
+1195: written + verified  IN10863 4300->4150
+1196: written + verified  IN10937 4650->4500
+1197: written + verified  IN12429 8200->7950
+1198: written + verified  074322 2700->2800
+1199: written + verified  11244S 1950->1850
+1200: written + verified  12207S 2900->2800, IN10240 1800->1700, IN10247 2900->2800, IN10882 3250->3150
+1201: written + verified  DL711836 2350->2250
+1202: written + verified  042718 6450->7250
+1227: written + verified  60146 1600->1850
+1239: written + verified  3182550932691 35000->36000
+1241: written + verified  3182550702973 39500->41500
+1252: written + verified  9003579308929 8600->8650, 9003579311721 8600->8650
+1253: written + verified  9003579011423 8600->8650
+1254: written + verified  9003579309537 8600->8650
+1255: written + verified  9003579308936 8600->8650, 9003579309513 8600->8650
+1256: written + verified  10030111604351 8600->8650, 9003579311714 8600->8650, 9003579003848 8600->8650
+1257: written + verified  9003579310168 8600->8650
+1258: written + verified  9003579308769 8600->8650, 9003579311738 8600->8650
+1259: written + verified  9003579050057 8600->8650
+1260: written + verified  9003579311776 8600->8650, 9003579003916 8600->8650
+1261: written + verified  9003579010044 8600->8650
+1262: written + verified  9003579000458 8600->8650, 9003579000519 8600->8650
+1263: written + verified  9003579000366 8600->8650
+1264: written + verified  9003579018514 8600->8650
+1265: written + verified  9003579018866 8600->8650
+1266: written + verified  9003579018941 8600->8650
+1268: written + verified  20632 2700->2600, 20629 2700->2600, 20630 2700->2600
+1269: written + verified  304016 2350->2200
+1271: written + verified  BP10264 4200->4050
+1272: written + verified  BP12155 2800->2600
+1273: written + verified  BP12509 2050->1950
+1274: written + verified  BP12511 2150->2050
+1275: written + verified  BP12512 2350->2250, BP10196 2350->2250, BP10199 2350->2250
+1276: written + verified  BP12558 4700->4500
+1277: written + verified  BP13207 2350->2250
+1278: written + verified  DL303976 1400->1350
+1279: written + verified  MG006197-KG 3400->3500
+1283: written + verified  02004K 1700->1650
+1284: written + verified  04812K 2100->1950
+1285: written + verified  050026 2700->2600
+1286: written + verified  10940 3400->3300
+1287: written + verified  14460S 2600->2500
+1288: written + verified  15253S 1950->1850
+1289: written + verified  214946 2350->2250
+1291: written + verified  REG00030 33150->31500, REG00030-KG 2500->2350
+1292: written + verified  DL050046 2700->2600
+1293: written + verified  DL050056 1950->1850
+1294: written + verified  DL050066 1950->1850
+1295: written + verified  DL303986 1400->1350
+1296: written + verified  DL303996 1550->1500
+1297: written + verified  DL304006 1900->1800
+1298: written + verified  DL304036 950->900
+1299: written + verified  DL711136 2350->2250
+1300: written + verified  DL711156 2350->2250
+1301: written + verified  DL711176 2350->2250
+1302: written + verified  DL711196 2350->2250
+1303: written + verified  DL711206 2350->2250
+1304: written + verified  DL711216 2350->2250
+1305: written + verified  DL711226 2350->2250
+1306: written + verified  DL711266 2350->2250
+1307: written + verified  DL711276 2350->2500
+1308: written + verified  DL711406 1550->1500
+1309: written + verified  DL711786 2350->2250
+1310: written + verified  IN10860 4000->3850
+1311: written + verified  IN10869 4650->4500
+1312: written + verified  IN10952 4350->4200
+1313: written + verified  IN11066 3400->3300
+1314: written + verified  IN12247 2600->2500
+written: 364 products; skipped: 13; variants planned: 543

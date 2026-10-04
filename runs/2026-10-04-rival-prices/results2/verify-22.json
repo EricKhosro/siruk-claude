@@ -1,0 +1,330 @@
+[
+ {
+  "variant_id": 416,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с телятиной для собак, 415 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-telyatinoj-dlya-sobak-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000212, dog wet, Вес (кг) 0.415 (the description's 'Вес: 1.23 кг' is a copy error; 415 g title, 600 = the 415 g price tier). Called veal, but the full-size photo is the pink Simba Bocconi Adult 'con MANZO / chunks with beef' can = our EAN 8009470009010; zoovet has no other dog 415 g beef can (its beef & veg is 1.23 kg only). Page today: 600 AMD, no struck-through price, stock 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba հորթի մսով պաշտետ (415 գ)",
+   "url": "https://www.nemo.am/simba-մսով-պաշտետ",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Name identical to hafo's title for MS 009017; large dogs, Քաշը 415գ; photo is the pink Bocconi Adult con MANZO can. Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "notes": "All Armenian shops (hafo, zoovet, nemo) label EAN 8009470009010 'veal'; the can photographed is Bocconi Adult con Manzo (beef) - same item.",
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 417,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Simba brand list (18 items) has only four dog 1.23 kg cans: beef & vegetables (ME-00000202), chicken & turkey (ME-00000207), wild bird (ME-00000205), lamb (ME-00000206); searches 'simba 1.23|1,23|1230', 'simba говядин', 'simba телятин', '1.23 кг', EAN 8009470009126 find no plain Manzo/veal 1.23 kg. Nearest: 'Simba Влажный корм с говядиной и овощами для собак, 1.23 кг' (1650) = con Manzo e Ortaggi, a different recipe (our variant 424)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba հորթի մսով պաշտետ (1230 գ)",
+   "url": "https://www.nemo.am/simba-մսով-պաշտետ-2",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Name identical to hafo's title for MS 009127 (barcode 8009470009126); large dogs, Քաշը 1230գ; photo is the pink Bocconi Adult con MANZO can. Page today: 1650 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 418,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с курицей и индейкой для собак, 415 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-kuritsej-i-indejkoj-dlya-sobak-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000211, dog wet, Вкус Курица; Индейка, Вес (кг) 0.415; photo is the yellow Bocconi Adult con Pollo e Tacchino can. Page today: 600 AMD, no struck-through price, stock 'В наличии · 3 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba հավի և հնդկահավի մսով պաշտետ (415 գ)",
+   "url": "https://www.nemo.am/simba-հավի-և-հնդկահավի-պահածո",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Chicken & turkey, large dogs, Քաշը 415գ; photo is the yellow Bocconi Adult con Pollo e Tacchino can. Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 419,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с курицей и индейкой для собак, 1.23 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-kuritsej-i-indejkoj-dlya-sobak-1-23-kg",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000207, dog wet, Вкус Курица; Индейка, Вес (кг) 1.23; photo is the Pollo e Tacchino can. Page today: 1650 AMD, no struck-through price, stock 'В наличии · 3 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba հավի և հնդկահավի մսով պահածո (1230 գ)",
+   "url": "https://www.nemo.am/simba-հավի-և-հնդկահավի-պահածո-2",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Chicken & turkey, large dogs, Քաշը 1230գ; photo is the Pollo e Tacchino can. Page today: 1650 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 420,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с ягненком для собак, 415 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-yagnenkom-dlya-sobak-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000204, dog wet, Вкус Ягненок, Вес (кг) 0.415; photo is the Bocconi Adult con Agnello dog can. Page today: 600 AMD, no struck-through price, stock 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba գառան մսով պաշտետ (415 գ)",
+   "url": "https://www.nemo.am/simba-գառան-մսով-պաշտետ",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Lamb, large dogs, Քաշը 415գ; photo is the Bocconi Adult con Agnello dog can. Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 421,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с ягненком для собак, 1.23 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-yagnenkom-dlya-sobak-1-23-kg",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000206, dog wet, Вкус Ягненок, Вес (кг) 1.23; photo is the con Agnello dog can. Page today: 1650 AMD, no struck-through price, stock 'В наличии · 3 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba գառան մսով պաշտետ (1230 գ)",
+   "url": "https://www.nemo.am/simba-գառան-մսով-պաշտետ-2",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Lamb, large dogs, Քաշը 1230գ; photo is the con Agnello dog can. Page today: 1650 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 422,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с мясом дикой птицы для собак, 415 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-myasom-dikoj-ptitsy-dlya-sobak-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000203, dog wet, Вес (кг) 0.415; attribute/description say duck (copy error) but the photo is the Bocconi Adult con SELVAGGINA (chunks with wild game) dog can = our Wild Game 415 g. Page today: 600 AMD, no struck-through price, stock 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba թռչնամսով պաշտետ, 415 գ",
+   "url": "https://www.nemo.am/simba-թռչնամսով-պաշտետ-415-գ",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Name identical to hafo's title for MS 009177; large dogs, 415 գ; photo is the con Selvaggina dog can. Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 423,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с мясом дикой птицы для собак, 1.23 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-myasom-dikoj-ptitsy-dlya-sobak-1-23-kg",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000205, dog wet, Вес (кг) 1.23; same con Selvaggina can photo as the 415 g (description's 'duck' is a copy error). Page today: 1650 AMD, no struck-through price, stock 'В наличии · 3 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba թռչնամսով պահածո (1230 գ)",
+   "url": "https://www.nemo.am/simba-բադի-մսով-պաշտետ-2",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Name identical to hafo's title for MS 009157 (slug says duck - trust name and photo); large dogs, Քաշը 1230գ; photo is the con Selvaggina can. Page today: 1650 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 424,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с говядиной и овощами для собак, 1.23 кг",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/simba-vlagnyj-korm-s-govyadinoj-i-ovoschami-dlya-sobak-1-23-kg",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000202, dog wet, Вкус Говядина; Овощи, Вес (кг) 1.23; photo is the green Bocconi Adult con Manzo e Ortaggi can. Page today: 1650 AMD, no struck-through price, stock 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba տավարի մսով և բանջարեղենով պահածո (1230 գ)",
+   "url": "https://www.nemo.am/simba-տավարի-մսով-և-բանջարեղենով-պահածո",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Beef & vegetables, large dogs, Քաշը 1230գ; photo is the green Manzo e Ortaggi can. Page today: 1650 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 425,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с курицей для кошек, 415 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/simba-vlagnyj-korm-s-kuritsej-dlya-koshek-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000210, cat wet, Вкус Курица, Вес (кг) 0.415 (the description's first line is copied from the dog chicken & turkey page); photo is the Bocconcini Adult con Pollo cat can. Page today: 600 AMD, no struck-through price, stock 'В наличии · 4 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba հավի մսով պահածո կատուների համար (415 գ)",
+   "url": "https://www.nemo.am/simba-with-chicken",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Chicken for cats, Քաշը 415գ; photo is the Bocconcini Adult con Pollo cat can. Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 426,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с тунцом для кошек, 415 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/simba-vlagnyj-korm-s-tuntsom-dlya-koshek-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000208, cat wet, Вкус Тунец, Вес (кг) 0.415; photo is the blue Bocconcini Adult con Tonno can. Page today: 600 AMD, no struck-through price, stock 'В наличии · 4 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba ձկան մսով պահածո կատուների համար (415 գ)",
+   "url": "https://www.nemo.am/simba-ձկան-մսով-պահածո-կատուների-համար-415-գ",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Name identical to hafo's title for MS 009097; description says tuna flavour, 415 գ; photo is the blue con Tonno can. (Not nemo.am/simba-with-tuna: despite its slug that page is the cat veal item and shows the cat con Manzo can.) Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "notes": "nemo's slug simba-with-tuna is recycled for the cat veal/Manzo can - correctly not used.",
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 427,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с уткой для кошек, 415 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/simba-vlagnyj-korm-s-utkoj-dlya-koshek-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000201, cat wet, Вкус Утка, Вес (кг) 0.415; photo is the purple Bocconcini Adult con Faraona e Anatra (guinea fowl & duck) can. Page today: 600 AMD, no struck-through price, stock 'В наличии · 3 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba բադի մսով պահածո կատուների համար (415 գ)",
+   "url": "https://www.nemo.am/simba-with-guinea-fowl",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Description: guinea fowl and duck meat, cats, Քաշը 415գ; photo is the purple Faraona e Anatra can. Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 428,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Simba Влажный корм с ягненком для кошек, 415 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/simba-vlagnyj-korm-s-yagnenkom-dlya-koshek-415-g",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "ME-00000198, cat wet, Вкус Баранина, Вес (кг) 0.415; photo is the Bocconcini Adult con Agnello cat can. Page today: 600 AMD, no struck-through price, stock 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Simba գառան մսով պահածո կատուների համար (415 գ)",
+   "url": "https://www.nemo.am/simba-with-lamb",
+   "price": 600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Lamb for cats, Քաշը 415գ; photo is the Bocconcini Adult con Agnello cat can. Page today: 600 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ },
+ {
+  "variant_id": 429,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Simba list (18 items: 415 g / 1.23 kg cans + dry 20 kg) has no 150 g Paté tray; searches 'simba паштет', 'simba 150', 'simba pate', 'паштет 150', 'горох', 'горошком', 'monge 150', 'Monge паштет', EAN 8009470009256 find none. Nearest 150 g dog pâtés are Stuzzy Dog (another brand, e.g. 'Stuzzy Dog паштет для собак, говядина, 150 г', 600)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պաշտետ շների համար՝ տավարի մսով և սիսեռով",
+   "url": "https://www.nemo.am/պաշտետ-շների-համար-տավարի-մսով-և-սիսեռով",
+   "price": 480,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Name identical to hafo's title for 009257 (barcode 8009470009256); description: Simba pâté for adult dogs, beef and green peas, 150 g; photo is the Simba Paté Adult con Manzo e Piselli 150 g tray. Page today: 480 AMD, no old price, in stock, manufacturer Simba."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every page: same shops found, same items (photos checked), same prices today; extra searches found nothing missed."
+ }
+]

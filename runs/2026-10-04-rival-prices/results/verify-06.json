@@ -1,0 +1,352 @@
+{
+ "results": [
+  {
+   "variant_id": 1536,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for article 24950 / EAN 4047974249505 (hafo-sku, live search empty). 24950 is Trixie's plain plastic bowl with rubber base ring 0.3 l/12 cm. Nearest hafo: 24420Tx 'Կերաման, պլաստիկ, ռետինե տակով, 0.3լ/12 սմ' 4200 (wholesale 2625 vs our cost 590) is Trixie's fish/heart-print cat bowl (https://hafo.am/products/plastike-keraman-retine-takov); 25031Tx 0.45 l/20 cm 1550 is another article."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie plastic bowl in its Trixie brand list (all Trixie bowls listed are ceramic, steel, silicone or melamine) or live search 'миска пластик' (only Gamma plastic bowls)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Պլաստիկե կերաման ռետինե տակով' 4200 (0.3 l/12 cm, cat) photo is the fish/heart-print bowl = Trixie 24420, not 24950; 'Կերաման պլաստիկե ռետինե տակով' 1550/2500/3550 are 0.45/0.9/1.5 l (25031-25033)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells Trixie 24950.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1537,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for 24951 / EAN 4047974249512. Nearest: 25031Tx 'Կերաման պլաստիկե, ռետինե տակով, 0.45լ/20սմ' 1550 (EAN 4011905250311) - different article and size (0.45 l/20 cm vs 0.5 l/14 cm)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie plastic bowl in its Trixie brand list (all Trixie bowls listed are ceramic, steel, silicone or melamine) or live search 'миска пластик' (only Gamma plastic bowls)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Կերաման պլաստիկե ռետինե տակով' 1550 page: 0.45 l/20 cm (=25031), not 0.5 l/14 cm."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1538,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for 24952 / EAN 4047974249529. Nearest: 25032Tx 0.9 l/23 cm 2500 - different article and size."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie plastic bowl in its Trixie brand list (all Trixie bowls listed are ceramic, steel, silicone or melamine) or live search 'миска пластик' (only Gamma plastic bowls)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Կերաման պլաստիկե ռետինե տակով' -2 2500 is the 0.9 l (25032) mirror; no 0.75 l/16 cm plastic bowl."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1561,
+   "hafo": {
+    "found": false,
+    "evidence": "No hafo row for 24430 / EAN 4047974244302. 24430 is Trixie's transparent cat bowl with rubber ring 0.25 l/12 cm. hafo 2471Tx 'Կերաման, պլաստիկ, ռետինե տակով, 0.25լ/10սմ' 600 (EAN 4011905024714, https://hafo.am/products/keraman-plastik-retine-votiknerov) is Trixie 2471, the lightweight plastic bowl with rubber feet, 0.25 l/10 cm - a different model and diameter."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Trixie plastic bowl in its Trixie brand list (all Trixie bowls listed are ceramic, steel, silicone or melamine) or live search 'миска пластик' (only Gamma plastic bowls)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Կերաման պլաստիկ ռետինե ոտիկներով' 600 (0.25 l, rubber feet) is the hafo 2471 mirror, not 24430; 'Պլաստիկե կերաման ռետինե տակով' 4200 is the 24420 0.3 l fish-print cat bowl."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells 24430; 2471 (10 cm, rubber feet) is a different model.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1560,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has this line (rubber-coated steel bowl, title 'Պողպատյա կերաման ռետինե ծայրերով') only as TX 252551 0.4 l/14 cm 3050 and TX 252561 0.75 l/17 cm 4700 (https://hafo.am/products/poghpatya-keraman-jraman-retine-tsayrerov); no 25257 1.4 l/21 cm (hafo-sku 25257 and EAN 4011905252575 empty)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'Trixie Миска из нержавеющей стали с пластиковым покрытием и резиновым дном, 1.4 л, 21 см' 6100 (ME-00000076): page photos show the grey plastic-coated bowl with black paws and a bone = Trixie 25244 line (hafo 'Կերաման թաթիկներով' 1.5 l/21 cm), not 25257 (stainless bowl with silicone, white/grey). Different model."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Պողպատյա կերաման ռետինե ծայրերով' pages are 3050 (0.4 l) and 4700 (0.75 l) of this line plus 1650-3300 plain steel bowls; no 1.4 l/21 cm."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: no rival sells 25257 in 1.4 l/21 cm.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1530,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo rubberised socks (https://hafo.am/products/gulpa-shneri-hamar-retinapat) only 19525Tx L-XL 5400 and 19526Tx XL 5500; no 19524 L (EAN 4011905195247). TX 195041 'L մոխրագույն' 2300 is the non-rubberised grey sock."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells only Triol dog socks; no Trixie socks."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Գուլպա շների համար ռետինապատ' pages: L-XL 5400 and XL 5500; 'Գուլպա շների համար L - XL' 2300 is the grey cotton sock. No rubberised L."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: size L not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1508,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo's article/EAN hit TX 234721 (EAN 4047974234723) is 'Պայուսակ-աման տոպրակների համար' / row 'Պատյան տոպրակով Պայուսակ M' 4400 (wholesale 1950 vs our cost 750, out of stock) - a bag-dispenser pouch (old Trixie 23472), not the beEco green 4 x 20 bag rolls. hafo bag rolls are other articles: 23473 lemon 950, 23475 rose 950, 2332 black 950, 22840 colourful 1100, 23470 dark-green 4x10 1550."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'Trixie Пакеты для уборки, в рулоне 20 шт, 4 рулона' 1200: the page photo is pack #22840 (striped colourful rolls), not green beEco; other listings are lemon, rose, black, lavender, biodegradable 1 x 100."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo rolls: 'Աղբի տոպրակ 4 հատանոց տուփ' 950 (black), '20 հատանոց փաթեթ' 1100 (colourful), '10 հատանոց փաթեթ' 1550 (dark green corn-starch 4 x 10). None is beEco 4 x 20 green."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: hafo's code hit is a different product; no rival sells 23472.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1024,
+   "hafo": {
+    "found": false,
+    "evidence": "No 3-headed toothbrush on hafo (25622 / EAN 4011905256221 absent). Nearest: TX 256211 brush set 15 cm 4 pcs 1350, 2558Tx 23 cm set 1550, 25624Tx/2550Tx finger brushes."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Trixie Зубная щётка с 3 головками",
+    "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/uhod-za-zubami/trixie-zubnaya-schetka-s-3-golovkami",
+    "price": 1250,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00008403",
+    "evidence": "Product page today: 1 250 AMD, no struck-through price, stock 'В наличии: Под заказ (от 2 дней)'. Photo: white three-headed brush with grey ring grip = Trixie 25622 (white/grey, Trixie's only 3-head brush)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no 3-headed brush (only Bioline brush sets, Dental Chews toys)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Same shop and price: zoovet 1250 (equal to our 1250).",
+   "notes": ""
+  },
+  {
+   "variant_id": 1025,
+   "hafo": {
+    "found": false,
+    "evidence": "No Batik collar on hafo (41592 / EAN 4011905692784 absent). hafo cat collars with bell: 41550Tx 900, 41551Tx stripes 2000, 41552Tx mushrooms 2000, TX 415761 My Home 1850, TX 419671 1650 etc. - other designs."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'Trixie Ошейник регулируемый с колокольчиком для кошек' 1600 (ME-00000679): photo is a navy skull-and-crossbones print, not batik; the other Trixie cat collars are reflective (950) and address-tag (1400)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo cat collars 'Կատուների վզկապ' 1650, 'Վզկապ կատուների համար (նեյլոն)' 1650/1800, Trixie stripe 2000: photos show paisley, cat-print, reflective and striped designs - no batik."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1027,
+   "hafo": {
+    "found": false,
+    "evidence": "No liver-with-hemp pate on hafo (31846 / EAN 4011905318462 absent; 'կանեփ' only shampoo and seeds). Same tube line: 31845Tx Veggie Cream pea 75 g 2300, 31844Tx puppy pate 75 g 1950, 3176Tx PREMIO liver 110 g 1950."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's only Trixie pate is 'Паштет Premio с птицей для кошек, 75 г' 1750; 'конопл' returns only Alleva food."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie pates are PREMIO 110 g/300 g mirrors (liver, beef, chicken, lamb); no hemp pate."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1028,
+   "hafo": {
+    "found": false,
+    "evidence": "No BE NORDIC melamine bowl 25061 on hafo. hafo 25181Tx 'Կերաման մելամինապատ, ռետինե տակով, 0,4լ/17 սմ/ սպիտակ' 4400 (wholesale 2750 vs our cost 3625, https://hafo.am/products/keraman-melaminapat) is Trixie 25181, the ribbed white melamine bowl with arched cut-outs - a different (non-BE NORDIC) model."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'Trixie Миска металлическая с подставкой из меламина, 0.4 л, 17 см' 4950 (ME-00000483): all three page photos are the ribbed white bowl with arched cut-outs, identical to hafo's 25181 photo - so 25181, not BE NORDIC 25061."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Կերաման մելամինապատ' 3150/4400/6800 are the 25180-25182 mirrors; no BE NORDIC melamine bowl."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Same result: nearest is 25181 (different model).",
+   "notes": "Our siruk gallery uses zoovet's 25181 photo (ME000004831), which does not show 25061."
+  },
+  {
+   "variant_id": 1425,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo female diapers (https://hafo.am/products/takdirner-shneri-hamar): XS-S 270, S-M 320, M 360, M-L 400, and 23636Tx XL 530 - no L 23635 (38-56 cm, EAN 4011905236353)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells only Triol HYGIENE diapers and Gamma pants; no Trixie."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie female diapers: S-M 320, M 360, M-L 400, XL 530 - no L (Nunbell L 10 pcs 2500 is another brand)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: size L not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1426,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo male wraps: TX 236411 S-M 360, TX 236421 M-L 400, 23643Tx L-XL 450 - no XS 23640 (EAN 4011905236407)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells only Triol diapers; no Trixie male wraps."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo male wraps: S-M 320, M-L 360, L-XL 450 - no XS."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: size XS not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1533,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo BE NORDIC leather collars with metal decoration: 17500/17501 XS-S, 17510/17511 S, 17521 S-M sand, 17531 M sand - no 17541 L sand 50-56 cm/25 mm (EAN 4011905175416)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has only BE NORDIC wide nylon collars (S-M 5600, M-L 6500); no BE NORDIC leather collar."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo BE NORDIC leather collars: S sand 4950, S grey 4950, M sand 6750 (45-51 cm/20 mm) - no L."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: size L not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1534,
+   "hafo": {
+    "found": false,
+    "evidence": "No 17550 L-XL light grey 55-61 cm/30 mm (EAN 4011905175508) among hafo's BE NORDIC leather collars (17500-17531, XS-S to M only)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no BE NORDIC leather collar."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo BE NORDIC leather collars: S sand, S grey, M sand only."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1535,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo has S-M 40-46 cm/20 mm only in sand (17521Tx 6750, https://hafo.am/products/kashve-vznoc-be-nordic-metaxya-zardov-avazi-guyn); our 17520 is light grey (EAN 4011905175201) - colour differs. Grey only in XS-S (17500) and S (17510)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no BE NORDIC leather collar."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: grey only in S (35-41 cm/15 mm, 4950); no S-M grey."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: S-M light grey not sold by any rival (sand S-M at hafo 6750).",
+   "notes": ""
+  },
+  {
+   "variant_id": 1503,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo Rustic greased-leather collars: 19005Tx S-M 4800, 19006Tx M 5200, 19007Tx M-L 5700, 19008Tx L 6700, 19009Tx L-XL 6700 - no 19004 XS-S 27-34 cm/18 mm (EAN 4011905190044)."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Trixie leather collar (only Gamma leather)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'Trixie, բնական կաշվից վզնոց շների համար' pages: M 5200, M-L 5700, L 6700, L-XL 6700, plus 19014/19015 (7100/8400) - no XS-S."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: size XS-S not sold by any rival.",
+   "notes": ""
+  },
+  {
+   "variant_id": 1509,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo CityStyle cotton lead only 1970001Tx S-M 1.20 m/13 mm black 7350 (https://hafo.am/products/CityStyle-bambakya-kargavorvox-dzgapok-shneri-hamar); no 1970119 M-L 1.00 m/20 mm light grey (68163, EAN 4053032681637). Other CityStyle leads are PVC S-M 5400."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no CityStyle lead (search 'citystyle' empty; Trixie leads are other lines)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'CityStyle, բամբակյա կարգավորվող ձգափոկ շների համար' 7350 page: black, S-M (1.20 m/13 mm) - different size and colour."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same result: not sold by any rival.",
+   "notes": ""
+  }
+ ]
+}

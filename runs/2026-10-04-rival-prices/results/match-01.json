@@ -1,0 +1,578 @@
+{
+ "results": [
+  {
+   "variant_id": 1809,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Mini Starter) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-starter-suhoj-korm-dlya-sobak-melkih-porod-upakovka-8-kg-5548",
+    "name": "Royal Canin Mini Starter Сухой корм для собак мелких пород, упаковка 8 кг",
+    "price": 35000,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (8 кг)' -> 35000, no old price; stock 'В наличии: Под заказ (от 10 дней)' = on order only"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/mini-starter-85կգ",
+    "name": "Royal Canin MINI starter 8կգ",
+    "price": 36000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin MINI starter 8կգ' 36000, no old price, in stock; short text (puppies to 2 months, pregnant/lactating dogs) still says '8,5կգ' and slug '85կգ' - our EAN 3182550932691 is listed by EU shops as both 8.5 kg (old pack) and 8 kg, so same SKU"
+   },
+   "confidence": "high",
+   "notes": "nemo 36000 vs our 35000 (zoovet 35000 equal). nemo's text still says 8.5 kg (older pack of the same EAN)."
+  },
+  {
+   "variant_id": 1953,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Mini Starter) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-mini-starter-suhoj-korm-dlya-sobak-melkih-porod-upakovka-8-kg",
+    "name": "Royal Canin Mini Starter Сухой корм для собак мелких пород, упаковка 8 кг, на развес 1 кг",
+    "price": 4600,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4600; stock 'Под заказ (от 10 дней)' = on order only"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/mini-starter-1կգ",
+    "name": "Royal Canin MINI starter (կիլոգրամով)",
+    "price": 4600,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'MINI starter (կիլոգրամով)' 4600, text 'Արժեքը նշված է 1 կգ-ի համար' (price per 1 kg), in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1811,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Fit 32) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-fit-32-regular-suhoj-korm-dlya-umerenno-aktivnyh-koshek-gulyayuschih-na-ulitse-ot-1-goda-upakovka-15-kg-5511",
+    "name": "Royal Canin Fit 32 Regular Сухой корм для умеренно активных кошек, гуляющих на улице от 1 года, упаковка 15 кг",
+    "price": 53500,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (15 кг)' -> 53500, no old price; stock 'Нет в наличии'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/fit-15կգ",
+    "name": "Royal Canin Fit 15կգ",
+    "price": 53500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Fit 15կգ' 53500 (RC Fit = Fit 32, cats 1-7 yrs per text), no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1954,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Fit 32) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-fit-32-regular-suhoj-korm-dlya-umerenno-aktivnyh-koshek-gulyayuschih-na-ulitse-ot-1-goda-upakovka-15-kg",
+    "name": "Royal Canin Fit 32 Regular ... упаковка 15 кг, на развес 1 кг",
+    "price": 3700,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 3700; stock 'В наличии · 11 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/fit-1կգ",
+    "name": "Royal Canin Fit (կիլոգրամով)",
+    "price": 3700,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Fit (կիլոգրամով)' 3700, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1813,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Kitten) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-kitten-second-age-suhoj-korm-dlya-koshek-ot-4-do-12-mes-upakovka-10-kg-5517",
+    "name": "Royal Canin Kitten Second Age Сухой корм для кошек от 4 до 12 мес, упаковка 10 кг",
+    "price": 41500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (10 кг)' -> 41500, no old price; stock 'В наличии · 1 шт' (dry Kitten 10 kg = Kitten second age)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/royal-canin-kitten-10կգ",
+    "name": "Royal Canin Kitten 10կգ",
+    "price": 39500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Kitten 10կգ' 39500, kittens up to 12 months, no old price, in stock"
+   },
+   "confidence": "high",
+   "notes": "zoovet 41500 vs our 39500; nemo 39500 equal."
+  },
+  {
+   "variant_id": 1955,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Kitten) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-kitten-second-age-suhoj-korm-dlya-koshek-ot-4-do-12-mes-upakovka-10-kg",
+    "name": "Royal Canin Kitten Second Age ... упаковка 10 кг, на развес 1 кг",
+    "price": 4150,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4150; stock 'В наличии · 12 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/kitten-10կգ",
+    "name": "Royal Canin Kitten (կիլոգրամով)",
+    "price": 4150,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Kitten (կիլոգրամով)' 4150, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1815,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Sterilised) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-sterilised-regular-suhoj-korm-dlya-sterilizovannyh-koshek-ot-1-do-7-let-upakovka-15-kg-5518",
+    "name": "Royal Canin Sterilised Regular Сухой корм для стерилизованных кошек от 1 до 7 лет, упаковка 15 кг",
+    "price": 60000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (15 кг)' -> 60000, no old price; stock 'В наличии · 1 шт' (Sterilised 37 = Sterilised Regular)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/sterilised-15կգ",
+    "name": "Royal Canin Sterilised 15կգ",
+    "price": 60000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Sterilised 15կգ' 60000, dry food for sterilised cats (the 15 kg bag is Sterilised 37/Regular), in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1956,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Sterilised) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-sterilised-regular-suhoj-korm-dlya-sterilizovannyh-koshek-ot-1-do-7-let-upakovka-15-kg",
+    "name": "Royal Canin Sterilised Regular ... упаковка 15 кг, на развес 1 кг",
+    "price": 4150,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4150; stock 'В наличии · > 20 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/royal-canin-sterilised-1կգ",
+    "name": "Royal Canin Sterilised (կիլոգրամով)",
+    "price": 4150,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Sterilised (կիլոգրամով)' 4150, 'Արժեքը նշված է 1 կգ-ի համար', in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1817,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Hairball) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-hairball-care-suhoj-korm-dlya-vyvedeniya-shersti-dlya-koshek-upakovka-10-kg-5533",
+    "name": "Royal Canin Hairball Care Сухой корм для выведения шерсти для кошек, упаковка 10 кг",
+    "price": 39500,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (10 кг)' -> 39500, no old price; stock 'Нет в наличии'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/hairball-10կգ",
+    "name": "Royal Canin Hairball 10կգ",
+    "price": 39500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Hairball 10կգ' 39500 (dry, hairball reduction), in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1957,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Hairball) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-hairball-care-suhoj-korm-dlya-vyvedeniya-shersti-dlya-koshek-upakovka-10-kg",
+    "name": "Royal Canin Hairball Care ... упаковка 10 кг, на развес 1 кг",
+    "price": 4150,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4150; stock 'В наличии · 7 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/hairball-1կգ",
+    "name": "Royal Canin Hairball (կիլոգրամով)",
+    "price": 4150,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Hairball (կիլոգրամով)' 4150, price per 1 kg, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1819,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Hypoallergenic) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-hypoallergenic-s-o-suhoj-gipoallergennyj-korm-dlya-koshek-upakovka-4-5-kg",
+    "name": "Royal Canin Hypoallergenic S/O Сухой гипоаллергенный корм для кошек, упаковка 4.5 кг",
+    "price": 22000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: 22000, no size options, no old price; stock 'В наличии · 3 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/hypoallergenic-45կգ",
+    "name": "Royal Canin Hypoallergenic Cat 4.5kg",
+    "price": 22000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Hypoallergenic Cat 4.5kg' 22000, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1958,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Hypoallergenic) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells only the 4.5 kg bag (https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-hypoallergenic-s-o-suhoj-gipoallergennyj-korm-dlya-koshek-upakovka-4-5-kg, 22000): the page has no 'На развес, 1 кг' option and no '... на развес 1 кг' listing exists for the cat line (searched 'royal hypoallergenic', 'гипоаллергенный кошек', 'hypoallergenic развес'; the only RC loose hypoallergenic is the DOG 14 kg)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/royal-canin-hypoallergenic-cat-կիլոգրամով",
+    "name": "Royal Canin Hypoallergenic Cat (կիլոգրամով)",
+    "price": 5000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Hypoallergenic Cat (կիլոգրամով)' 5000, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1821,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Urinary) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-urinary-s-o-suhoj-korm-dlya-koshek-s-problemami-mochevydelitelnoj-sistemy-upakovka-7-kg-5505",
+    "name": "Royal Canin Urinary S/O Сухой корм для кошек с проблемами мочевыделительной системы, упаковка 7 кг",
+    "price": 29000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (7 кг)' -> 29000, no old price; stock 'В наличии · 3 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/royal-canin-urinary-so-7կգ",
+    "name": "Royal Canin Urinary S/O 7կգ",
+    "price": 29000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Urinary S/O 7կգ' 29000, for cats, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1959,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Urinary) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/royal-canin-urinary-s-o-suhoj-korm-dlya-koshek-s-problemami-mochevydelitelnoj-sistemy-upakovka-7-kg",
+    "name": "Royal Canin Urinary S/O ... для кошек ..., упаковка 7 кг, на развес 1 кг",
+    "price": 4300,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4300; stock 'В наличии · > 20 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/royal-canin-urinary-կիլոգրոմով",
+    "name": "Royal Canin Urinary S/O (կիլոգրամով)",
+    "price": 4300,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Urinary S/O (կիլոգրամով)' 4300, cat urinary text, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1823,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Hypoallergenic) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-hypoallergenic-s-o-suhoj-gipoallergennyj-korm-dlya-sobak-upakovka-14-kg-5562",
+    "name": "Royal Canin Hypoallergenic S/O Сухой гипоаллергенный корм для собак, упаковка 14 кг",
+    "price": 60500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (14 кг)' -> 60500, no old price; stock 'В наличии · 1 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/royal-canin-hypoallergenic-14կգ",
+    "name": "Royal Canin Hypoallergenic 14կգ",
+    "price": 60500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Hypoallergenic 14կգ' 60500, text gives weight 14 kg, hypoallergenic diet for dogs over 10 kg, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1960,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Hypoallergenic) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-hypoallergenic-s-o-suhoj-gipoallergennyj-korm-dlya-sobak-upakovka-14-kg",
+    "name": "Royal Canin Hypoallergenic S/O ... для собак, упаковка 14 кг, на развес 1 кг",
+    "price": 4500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4500; stock 'В наличии · 14 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/hypoallergenic-1կգ",
+    "name": "Royal Canin Hypoallergenic (կիլոգրամով)",
+    "price": 4500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Hypoallergenic (կիլոգրամով)' 4500, dogs over 10 kg, price per 1 kg, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1825,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Gastrointestinal) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-gastrointestinal-suhoj-korm-pri-rastrojstvah-pischevareniya-dlya-sobak-upakovka-15-kg-5534",
+    "name": "Royal Canin Gastrointestinal Сухой корм при растройствах пищеварения для собак, упаковка 15 кг",
+    "price": 65000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (15 кг)' -> 65000, no old price; stock 'В наличии · 1 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gastro-intestinal-14",
+    "name": "Royal Canin Gastro Intestinal 15կգ",
+    "price": 65000,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Gastro Intestinal 15կգ' 65000, for dogs with digestive disorders, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1961,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Gastrointestinal) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-gastrointestinal-suhoj-korm-pri-rastrojstvah-pischevareniya-dlya-sobak-upakovka-15-kg",
+    "name": "Royal Canin Gastrointestinal ... для собак, упаковка 15 кг, на развес 1 кг",
+    "price": 4500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4500; stock 'В наличии · 18 шт'"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/gastro-intestinal-1կգ",
+    "name": "Royal Canin Gastro Intestinal (կիլոգրամով)",
+    "price": 4500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Gastro Intestinal (կիլոգրամով)' 4500, dogs, price per 1 kg, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1827,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Urinary) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-urinary-s-o-suhoj-korm-dlya-sobak-s-problemami-mochevydelitelnoj-sistemy-upakovka-13-kg-5564",
+    "name": "Royal Canin Urinary S/O Сухой корм для собак с проблемами мочевыделительной системы, упаковка 13 кг",
+    "price": 56500,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "",
+    "evidence": "zoovet-page: option 'Упак (13 кг)' -> 56500, no old price; stock 'В наличии: Под заказ (от 10 дней)' = on order only"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/urinary-13կգ",
+    "name": "Royal Canin Urinary 13կգ",
+    "price": 56500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Urinary 13կգ' 56500, no old price, urinary-stone diet for DOGS (13 kg is the dog bag), in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "variant_id": 1962,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: no row with this EAN or the RC prefix 318255 in today's dump (6627 listings, hafo-sku); hafo-live 'Royal Canin' / 'Royal' / 'Ռոյալ' / 'Ռոյալ Կանին' / 'Роял Канин' return nothing; line searches (Urinary) return only Monge/Gemon/4 Paws rows."
+   },
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/royal-canin-urinary-s-o-suhoj-korm-dlya-sobak-s-problemami-mochevydelitelnoj-sistemy-upakovka-13-kg",
+    "name": "Royal Canin Urinary S/O ... для собак ..., упаковка 13 кг, на развес 1 кг",
+    "price": 4500,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "",
+    "evidence": "zoovet-page: option 'На развес, 1 кг' -> 4500; stock 'Под заказ (от 10 дней)' = on order only"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/urinary-1կգ",
+    "name": "Royal Canin Urinary (կիլոգրամով)",
+    "price": 4500,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "",
+    "evidence": "nemo-page: 'Royal Canin Urinary (կիլոգրամով)' 4500, dog urinary diet, price per 1 kg, in stock"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

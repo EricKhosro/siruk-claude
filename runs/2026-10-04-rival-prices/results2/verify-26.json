@@ -1,0 +1,374 @@
+[
+ {
+  "variant_id": 961,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie lead list and live search ('trixie поводок', 'поводок xs', 'перестежка', 'trixie premium поводок', 'регулируемый', 'trixie нейлон', articles 201301/201303/201311/201316/201320, EANs) show no Premium adjustable lead XS 2.00 m/10 mm in any colour; nearest is 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' (other size/width)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo article search (201301/201303/201311/201316/201320) returns nothing. 'ձգափոկ' / 'ձգափոկ xs' / colour-word searches list only the Premium XS 2 m/10 mm in light blue ('Ձգափոկ նեյլոնե երկնագույն XS', 3450, out of stock) and light green (3450). No black Premium XS lead. The black nemo lead 'Սև ձգափոկ (перестёжка) շների համար XS' (Trixie, 2,00 մ/10 մմ, 1550) is out of stock: the page says 'Առկա չէ'. It is the Trixie Classic adjustable lead. hafo lists that exact title as TX 141411 'Ձգափոկ սև XS 10մմ 200սմ' at 1550, and nemo's photo shows the small red Classic tag."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Same result as the matcher: neither shop carries the Premium adjustable lead XS 2.00 m/10 mm in this colour.",
+  "notes": "Nearest nemo item is the black Trixie Classic adjustable lead XS 2.00 m/10 mm (TX 141411, 1550, out of stock), not the Premium 201301."
+ },
+ {
+  "variant_id": 1226,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie lead list and live search ('trixie поводок', 'поводок xs', 'перестежка', 'trixie premium поводок', 'регулируемый', 'trixie нейлон', articles 201301/201303/201311/201316/201320, EANs) show no Premium adjustable lead XS 2.00 m/10 mm in any colour; nearest is 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' (other size/width)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo article search (201301/201303/201311/201316/201320) returns nothing. 'ձգափոկ' / 'ձգափոկ xs' / colour-word searches list only the Premium XS 2 m/10 mm in light blue ('Ձգափոկ նեյլոնե երկնագույն XS', 3450, out of stock) and light green (3450). No red Premium XS lead. 'ձգափոկ կարմիր' finds no lead. The black nemo lead 'Սև ձգափոկ (перестёжка) շների համար XS' (Trixie, 2,00 մ/10 մմ, 1550) is out of stock: the page says 'Առկա չէ'. It is the Trixie Classic adjustable lead. hafo lists that exact title as TX 141411 'Ձգափոկ սև XS 10մմ 200սմ' at 1550, and nemo's photo shows the small red Classic tag."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as the matcher: neither shop carries the Premium adjustable lead XS 2.00 m/10 mm in this colour.",
+  "notes": ""
+ },
+ {
+  "variant_id": 1227,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie lead list and live search ('trixie поводок', 'поводок xs', 'перестежка', 'trixie premium поводок', 'регулируемый', 'trixie нейлон', articles 201301/201303/201311/201316/201320, EANs) show no Premium adjustable lead XS 2.00 m/10 mm in any colour; nearest is 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' (other size/width)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo article search (201301/201303/201311/201316/201320) returns nothing. 'ձգափոկ' / 'ձգափոկ xs' / colour-word searches list only the Premium XS 2 m/10 mm in light blue ('Ձգափոկ նեյլոնե երկնագույն XS', 3450, out of stock) and light green (3450). No fuchsia Premium XS lead. 'վարդագույն|ֆուքսիա|fuchsia' finds only a Trixie harness with lead (grey/pink, 7000)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as the matcher: neither shop carries the Premium adjustable lead XS 2.00 m/10 mm in this colour.",
+  "notes": ""
+ },
+ {
+  "variant_id": 1228,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie lead list and live search ('trixie поводок', 'поводок xs', 'перестежка', 'trixie premium поводок', 'регулируемый', 'trixie нейлон', articles 201301/201303/201311/201316/201320, EANs) show no Premium adjustable lead XS 2.00 m/10 mm in any colour; nearest is 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' (other size/width)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo article search (201301/201303/201311/201316/201320) returns nothing. 'ձգափոկ' / 'ձգափոկ xs' / colour-word searches list only the Premium XS 2 m/10 mm in light blue ('Ձգափոկ նեյլոնե երկնագույն XS', 3450, out of stock) and light green (3450). No graphite Premium XS lead. 'մոխրագույն|գրաֆիտ' finds only Trixie harness-with-lead sets (7000)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as the matcher: neither shop carries the Premium adjustable lead XS 2.00 m/10 mm in this colour.",
+  "notes": ""
+ },
+ {
+  "variant_id": 965,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Trixie lead list and live search ('trixie поводок', 'поводок xs', 'перестежка', 'trixie premium поводок', 'регулируемый', 'trixie нейлон', articles 201301/201303/201311/201316/201320, EANs) show no Premium adjustable lead XS 2.00 m/10 mm in any colour; nearest is 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м / 15 мм' (other size/width)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo article search (201301/201303/201311/201316/201320) returns nothing. 'ձգափոկ' / 'ձգափոկ xs' / colour-word searches list only the Premium XS 2 m/10 mm in light blue ('Ձգափոկ նեյլոնե երկնագույն XS', 3450, out of stock) and light green (3450). No purple Premium XS lead. 'մանուշակագույն' finds no lead."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same result as the matcher: neither shop carries the Premium adjustable lead XS 2.00 m/10 mm in this colour.",
+  "notes": ""
+ },
+ {
+  "variant_id": 968,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet 'nordic' finds only Trixie Be Nordic salmon balls, a ceramic bowl and two wide collars. 'коврик под миску' / 'trixie коврик' / '48 x 30' find no BE NORDIC mat, only Gamma/Triol 430 x 280 mm mats and Trixie lick mats."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ջրամանի/կերամանի գորգ՝ BE NORDIC",
+   "url": "https://www.nemo.am/ջրամանիկերամանի-գորգ-be-nordic",
+   "price": 6800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for Trixie article 24575 returns only this page. The page says: bowl/feeder mat, silicone, non-slip, raised edges, grey, 48*30 cm, 6800 AMD, no old price and no out-of-stock note. The photo shows the grey BE NORDIC silicone mat."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (48*30 cm, grey, 6800); zoovet has none."
+ },
+ {
+  "variant_id": 971,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Trixie bowls: stainless with rubber base 1.7 l/21 cm, plastic-coated 1.4 l and 2 l, steel 750 ml, melamine-stand 0.4 l, fish-print 0.3 l. No 0.45 l heavy-weight bowl ('trixie миска', 'миска резин', '0.45|450 мл')."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պողպատյա կերաման ռետինե ծայրերով",
+   "url": "https://www.nemo.am/պողպատյա-կերաման-ռետինե-ծայրերով-3",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 24851 returns only this page. The page says: stainless steel bowl, 0,45 l, 'Ծանրացված' (heavy weight), non-slip rubber feet, 1650 AMD, no old price and no out-of-stock note. Its title matches hafo's 24851 listing title. The photo shows a steel bowl with a black rubber base ring. Nemo prints 14 cm (inner) where we say ø 19 cm."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (0.45 l, heavy weight, 1650); zoovet has none."
+ },
+ {
+  "variant_id": 1012,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's only Trixie muzzles are 'Намордник пластиковый с сеткой' M 23.5 cm (2500) and M-L 26 cm (2850). Both are a plastic basket muzzle (Rottweiler-type, the photo shows a hard basket), a different model and size from the nylon-mesh poisoned-bait protection. No other match for 'намордник' or 'trixie сетк'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Դնչկալ՝ ցանցե",
+   "url": "https://www.nemo.am/դնչկալ-ցանցե-2",
+   "price": 3150,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for Trixie article 17592 returns only this page. The page says: mesh muzzle for dogs, does not block breathing, sniffing or drinking, opens at the side for treats, black, 'S, 18 սմ', 3150 AMD, no old price and no out-of-stock note. The photo shows the black nylon-mesh poisoned-bait muzzle."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (S, 18 սմ, black, 3150); zoovet only has a different plastic basket muzzle."
+ },
+ {
+  "variant_id": 1232,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's only Trixie muzzles are 'Намордник пластиковый с сеткой' M 23.5 cm (2500) and M-L 26 cm (2850). Both are a plastic basket muzzle (Rottweiler-type, the photo shows a hard basket), a different model and size from the nylon-mesh poisoned-bait protection. No other match for 'намордник' or 'trixie сетк'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Դնչկալ՝ ցանցե",
+   "url": "https://www.nemo.am/դնչկալ-ցանցե-3",
+   "price": 3500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for Trixie article 17593 returns only this page. The page says: mesh muzzle for dogs, does not block breathing, sniffing or drinking, opens at the side for treats, black, 'S–M, 22 սմ', 3500 AMD, no old price and no out-of-stock note. The photo shows the black nylon-mesh poisoned-bait muzzle."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (S–M, 22 սմ, black, 3500); zoovet only has a different plastic basket muzzle."
+ },
+ {
+  "variant_id": 1233,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's only Trixie muzzles are 'Намордник пластиковый с сеткой' M 23.5 cm (2500) and M-L 26 cm (2850). Both are a plastic basket muzzle (Rottweiler-type, the photo shows a hard basket), a different model and size from the nylon-mesh poisoned-bait protection. No other match for 'намордник' or 'trixie сетк'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Դնչկալ՝ ցանցե",
+   "url": "https://www.nemo.am/դնչկալ-ցանցե-4",
+   "price": 3850,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for Trixie article 17594 returns only this page. The page says: mesh muzzle for dogs, does not block breathing, sniffing or drinking, opens at the side for treats, black, 'M–L, 27 սմ', 3850 AMD, no old price and no out-of-stock note. The photo shows the black nylon-mesh poisoned-bait muzzle."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (M–L, 27 սմ, black, 3850); zoovet only has a different plastic basket muzzle."
+ },
+ {
+  "variant_id": 1234,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's only Trixie muzzles are 'Намордник пластиковый с сеткой' M 23.5 cm (2500) and M-L 26 cm (2850). Both are a plastic basket muzzle (Rottweiler-type, the photo shows a hard basket), a different model and size from the nylon-mesh poisoned-bait protection. No other match for 'намордник' or 'trixie сетк'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Դնչկալ՝ ցանցե",
+   "url": "https://www.nemo.am/դնչկալ-ցանցե-6",
+   "price": 4500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for Trixie article 17596 returns only this page. The page says: mesh muzzle for dogs, does not block breathing, sniffing or drinking, opens at the side for treats, black, 'XL, 37 սմ', 4500 AMD, no old price and no out-of-stock note. The photo shows the black nylon-mesh poisoned-bait muzzle."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (XL, 37 սմ, black, 4500); zoovet only has a different plastic basket muzzle."
+ },
+ {
+  "variant_id": 1016,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Trixie dog socks: 'носки|носочки|носок' finds only Triol socks ('Дед Мороз' L, 'Панда' S/M)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Գուլպա շների համար XXS-XS",
+   "url": "https://www.nemo.am/գուլպա-շների-համար",
+   "price": 1450,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 19500 returns only this page. The page says: XXS-XS, 2 per box, cotton/elastane, non-slip sole, grey, 1450 AMD, no old price and no out-of-stock note."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (1450); zoovet carries no Trixie socks."
+ },
+ {
+  "variant_id": 1235,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Trixie dog socks: 'носки|носочки|носок' finds only Triol socks ('Дед Мороз' L, 'Панда' S/M)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Գուլպա շների համար XS-S",
+   "url": "https://www.nemo.am/գուլպա-շների-համար-xs-s",
+   "price": 1700,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 19501 returns only this page. The page says: XS-S, cotton/elastane, non-slip sole, grey, 1700 AMD, no out-of-stock note. This page does not state the count, but its sibling pages in the same series say 2 per box."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (1700); zoovet carries no Trixie socks."
+ },
+ {
+  "variant_id": 1236,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Trixie dog socks: 'носки|носочки|носок' finds only Triol socks ('Дед Мороз' L, 'Панда' S/M)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Գուլպա շների համար S-M",
+   "url": "https://www.nemo.am/գուլպա-շների-համար-s-m",
+   "price": 1700,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 19502 returns only this page. The page says: S-M, 2 per box, cotton/elastane, non-slip sole, grey, 1700 AMD, no out-of-stock note."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (1700); zoovet carries no Trixie socks."
+ },
+ {
+  "variant_id": 1237,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Trixie dog socks: 'носки|носочки|носок' finds only Triol socks ('Дед Мороз' L, 'Панда' S/M)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Գուլպա շների համար M-L",
+   "url": "https://www.nemo.am/գուլպա-շների-համար-m-l",
+   "price": 1900,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 19503 returns only this page. The page says: M-L, 2 per box, cotton/elastane, non-slip sole, grey, 1900 AMD, no out-of-stock note."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (1900); zoovet carries no Trixie socks."
+ },
+ {
+  "variant_id": 1020,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Trixie dog socks: 'носки|носочки|носок' finds only Triol socks ('Дед Мороз' L, 'Панда' S/M)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Գուլպա շների համար` ռետինապատ",
+   "url": "https://www.nemo.am/գուլպա-շների-համար-ռետինապատ-2",
+   "price": 5500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 19526 returns only this page. The page says: rubberised dog socks, cotton elastane/latex, front fully rubber-coated, black, quantity 2, XL, 5500 AMD, no out-of-stock note."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (5500); zoovet carries no Trixie socks."
+ },
+ {
+  "variant_id": 1021,
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Одноразовые пакеты с ароматом лаванды для уборки фекалий, 20 шт, 4 рулона",
+   "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/tualety/mpets-odnorazovye-pakety-s-aromatom-lavandy-dlya-uborki-fekalij-20-sht-4-rulona",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page (the slug says 'mpets', but the page names Trixie as the brand): scented poop bags, 4 rolls of 20 each, colour 'Фиолетовый', and the photo shows four purple rolls. 1050 AMD, no old price, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Միանգամյա օգտագործման տոպրակներ լավանդայի բուրմունքով",
+   "url": "https://www.nemo.am/միանգամյա-օգտագործման-տոպրակներ-լավանդայի-բուրմունքով",
+   "price": 950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 22839 returns only this page. The page says: poop bags, lavender scent, size M, purple, 4 packs of 20 bags, 950 AMD, no out-of-stock note."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed both pages (zoovet 1050, nemo 950)."
+ },
+ {
+  "variant_id": 1314,
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Пакеты для уборки с запахом розы, красные, 4 рулона x 20 шт",
+   "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/tualety/trixie-pakety-dlya-uborki-s-zapahom-rozy-krasnye-4-rulona-x-20-sht",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page: Trixie, 4 rolls of 20 bags each with rose scent. The name says 'красные', but the photo shows four magenta-pink rolls, the same colour as our Trixie 23475 packshot. 1050 AMD, no old price, 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Միանգամյա օգտագործման տոպրակ՝ վարդի հոտով",
+   "url": "https://www.nemo.am/միանգամյա-օգտագործման-տոպրակ-վարդի-հոտով",
+   "price": 950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 23475 returns only this page. The page says: poop bags, rose scent, 4 rolls of 20, 950 AMD, no out-of-stock note."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Confirmed both pages (zoovet 1050, nemo 950)."
+ },
+ {
+  "variant_id": 1315,
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Пакеты цветные для уборки, в рулоне 20 шт, 8 рулонов",
+   "url": "https://zoovet.am/koshki/gigiena-napolniteli/lotki-sovki-i-tualety/trixie-pakety-tsvetnye-dlya-uborki-v-rulone-20-sht-8-rulonov",
+   "price": 2100,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page: Trixie coloured poop bags, size M (3 l), 20 per roll, 8 rolls, colours pink/green/blue/turquoise. The photo shows the same 'POOP HAPPENS' print as our 22844 packshot, in an older colourway (ours is red/orange/grey-blue). Not the 8 x 15 listing. 2100 AMD, no old price, 'В наличии · 3 шт'."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo has no 8 x 20 set: article 22844 and EAN searches return nothing. The bag listings are: 'Աղբի տոպրակ` 20 հատանոց փաթեթ' (4 rolls, pink/blue/turquoise/black striped, 1100), 'Աղբի տոպրակ` 4 հատանոց տուփ' (4 x 20 black, 950), 10-bag (1550), cat 3-pack (1850), and 'Trixie, աղբի տոպրակ, M չափս' (one green roll, 850, out of stock)."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Confirmed the zoovet 8 x 20 M set at 2100 (same print, older colourway); nemo has none.",
+  "notes": "The zoovet photo shows an older colourway of the same Trixie 8 x 20 'POOP HAPPENS' set."
+ },
+ {
+  "variant_id": 1039,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet has no Trixie XXL silicone lint roller. 'trixie ролик|ролика' finds only 'Дополнительные насадки для ролика ... 2 шт x 60 полосок' (refill strips). 'липк', 'trixie xxl', 'trixie силикон' and 'trixie шерст' find nothing else."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Լիպկի ռոլիկ XXL` մազերը հավաքելու համար, սիլիկոնե գլխիկով",
+   "url": "https://www.nemo.am/լիպկի-ռոլիկ-xxl-մազերը-հավաքելու-համար-սիլիկոնե-գլխիկով",
+   "price": 5450,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo's search for article 23236 returns only this page. Manufacturer: Trixie. The page says: XXL lint roller, washable silicone surface, protective cover, silicone/plastic, 20*30 cm, 5450 AMD, no out-of-stock note. The name matches hafo's 23236 row. The only photo is a lifestyle shot with a turquoise roller, and no colour is stated."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Confirmed the nemo page (Trixie, XXL silicone, 20*30 cm, 5450); zoovet has none.",
+  "notes": "The nemo photo shows a turquoise roller where our packshot is grey/white. The article search and text make this the same Trixie 23236."
+ }
+]

@@ -1,0 +1,275 @@
+{
+ "results": [
+  {
+   "variant_id": 1044,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Trixie Пакеты черные для уборки, в рулоне 20 шт, 4 рулона",
+    "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/tualety/trixie-pakety-chernye-dlya-uborki-v-rulone-20-sht-4-rulona",
+    "price": 1100,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: brand Trixie, colour 'Черный', 4 rolls x 20 bags, plastic, 'подходит для всех видов диспенсеров'; 1100 AMD, 'В наличии · 1 шт', no old price. (The other 4x20 listing at 1200 is the multicolour 22840 pack, not ours.)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Աղբի տոպրակ` 4 հատանոց տուփ",
+    "url": "https://www.nemo.am/աղբի-տոպրակ-4-հատանոց-տուփ",
+    "price": 950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Գլանային տոպրակներ բոլոր պլաստիկ դոզատորների համար 20 հատանոց փաթեթ Սև' (4-roll box, 20-bag rolls, black); product photo is the Trixie Hundekotbeutel 4 x 20 pack printed Art.-Nr. 2332; 950 AMD, in stock. The sibling listing 'Աղբի տոպրակ` 20 հատանոց փաթեթ' (1100) is the coloured version."
+   },
+   "notes": "Both rivals carry the exact Trixie 2332 black 4x20 pack."
+  },
+  {
+   "variant_id": 1061,
+   "confidence": "medium",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells no lavender-scented pad (searched 'лаванд', 'пеленки', Trixie list, EAN 4047974233719). Nearest: 'Trixie Пеленки одноразовые гелевые с активированным углем для собак, 40 x 60 см, (упаковка 7 шт), поштучно' 260 AMD, out of stock - charcoal, not lavender. https://zoovet.am/sobaki/gigiena-tualety-i-uhod/pelenki-i-podguzniki/trixie-pelenki-odnorazovye-gelevye-s-aktivirovannym-uglem-dlya-sobak-40-h-60-sm-upakovka-7-sht-poshtuchno",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տակդիր շների համար՝ լավանդայի հոտով",
+    "url": "https://www.nemo.am/տակդիր-շների-համար-լավանդայի-հոտով",
+    "price": 230,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: lavender-scented pad, 'Քանակ՝ 7 հատ Չափս՝ 40*60 սմ'; photo is the Trixie Hygiene-Unterlagen Nappy lavender pack '7 x 40 x 60 cm'; 230 AMD, in stock (manufacturer field empty, brand from photo)."
+   },
+   "notes": "Unit caveat: 230 AMD cannot be a whole 7-pad pack; nemo (like hafo, also 230 for this row, and siruk at 250) prices one pad from the 7-pack while labelling it '7 pcs'. Same unit as hafo/siruk, so comparable - but the '7 pcs' label is misleading."
+  },
+  {
+   "variant_id": 1318,
+   "confidence": "medium",
+   "zoovet": {
+    "found": true,
+    "name": "Trixie Одноразовые гелевые пелёнки для собак, 60 x 90 см, (упаковка 8 шт), поштучно",
+    "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/pelenki-i-podguzniki/trixie-odnorazovye-gelevye-pelenki-dlya-sobak-60-x-90-sm-upakovka-8-sht-poshtuchno",
+    "price": 410,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: brand Trixie, nappy pad description (long-fibre natural cellulose, waterproof bottom layer, leak-proof edges), 'Количество: 8 шт Размер: 60 x 90 см'; sold 'поштучно' (one pad from the 8-pack); 410 AMD, 'В наличии · 3 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Փափուկ տակդիր ձագերի համար",
+    "url": "https://www.nemo.am/փափուկ-տակդիր-ձագերի-համար-3",
+    "price": 410,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Trixie, 'Չափսեր`60 x 90սմ', same nappy description; photo is the Trixie Nappy pack '8 St. 60 x 90 cm'; 410 AMD, in stock. (Siblings -1/-2 are 40x60 at 190 and 60x60 at 290.)"
+   },
+   "notes": "Unit caveat: both rivals sell ONE pad taken from the 8-pad pack at 410 (zoovet says 'поштучно'); hafo prices this row 410 too and siruk 400, so siruk is effectively per pad despite the '8 pcs.' label."
+  },
+  {
+   "variant_id": 1319,
+   "confidence": "medium",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Trixie diapers: searched 'подгузники', 'трусы', Trixie list, EAN 4011905236346 - only 'Triol HYGIENE Подгузник для собак ... поштучно' (sizes by dog weight) and Gamma pants. Nearest: Triol HYGIENE M 7-15 kg (12-pack, per piece) - another brand.",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տակդիրներ էգ շների համար M-L",
+    "url": "https://www.nemo.am/տակդիրներ-էգ-շների-համար-m-l",
+    "price": 400,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: disposable diapers for female dogs (heat/incontinence), elastic belt, tail opening, '36 x 52 սմ'; photo is the Trixie 'Windeln für Hündinnen' M-L box; 400 AMD, in stock (manufacturer field empty, brand from photo; siblings XS-S 270, S-M 320, M 360)."
+   },
+   "notes": "Unit caveat: 400 AMD is one diaper from the 12-pack (hafo also 400 for this row); pack count not stated on nemo page."
+  },
+  {
+   "variant_id": 1067,
+   "confidence": "medium",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Trixie male-dog diapers/wraps: searched 'подгузники', 'трусы', Trixie list, EAN 4011905236414 - only Triol HYGIENE diapers (by dog weight) and Gamma pants.",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տակդիրներ որձ շների համար S-M",
+    "url": "https://www.nemo.am/տակդիրներ-որձ-շների-համար",
+    "price": 320,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: disposable diapers for male dogs, elastic belt, '30-46 սմ'; photo is the Trixie 'Windeln für Rüden' S-M box; 320 AMD, in stock (sibling M-L 360, L-XL 450)."
+   },
+   "notes": "Unit caveat: 320 AMD is one wrap from the 12-pack (hafo 360 same unit); pack count not stated on nemo page."
+  },
+  {
+   "variant_id": 1070,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Trixie cooling mat (searched 'охлаждающий', 'охлажд', 'коврик', Trixie list, EAN 4047974287736). Nearest: 'Triol Коврик охлаждающий для животных прямоугольный \"Тропики\", зелёный, 650 х 500 х 7 мм' - other brand/size/colour.",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "Սառեցվող գորգ, M 50 × 40 սմ, սպիտակ/մոխրագույն",
+    "url": "https://www.nemo.am/սառեցվող-գորգ-m-50-40-սմ-սպիտակմոխրագույն",
+    "price": 4950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: cooling mat M 50 x 40 cm white/grey, works without electricity/water; photo is the same grey/white striped Trixie mat as hafo's 28773 photo; 4950 AMD, in stock (manufacturer field empty)."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1080,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet sells no Silver Reflect items (searched 'silver', 'светоотражающий', Trixie collars list, EAN 4011905122243); its Trixie dog collars are BE NORDIC, neoprene-padded and USB light XS-S only.",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Silver Reflect» լուսարձակող վզկապ",
+    "url": "https://www.nemo.am/silver-reflect-լուսարձակող-վզկապ-4",
+    "price": 2900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Trixie, Silver Reflect collar size 'L-XL', 'Գոտին՝ սև, պատկերները՝ մոխրագույն, շան թաթիկներով' (black strap, grey paw prints); 2900 AMD, in stock. L-XL is the only 40-65 cm/25 mm size of this line; siblings XS-S 1650, S-M 1850, M-L 2200."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1081,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Silver Reflect harness (searched 'silver', 'шлейка', 'Trixie шлейка', EAN 4011905122328); its Trixie harnesses are cat harnesses and Premium M-L yellow.",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo carries Silver Reflect only as collars (XS-S 1650, S-M 1850, M-L 2200, L-XL 2900) and an L-XL 2 m/25 mm lead (8000); searched 'Silver Reflect', 'reflect', 'շլեյկա', 'լանջափոկ', 'թաթիկներով', '40-65սմ', '20մմ' incl. description search - no Silver Reflect harness. Nearest: https://www.nemo.am/silver-reflect-լուսարձակող-վզկապ-3 (collar S-M, 1850).",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1083,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Trixie Flash collar in orange or S-M (searched 'flash', 'светящийся ошейник', Trixie list, EAN 4011905130620). Nearest: 'Trixie Ошейник светящийся регулируемый с USB зеленый, для собак, XS-S 35 см / 18 мм' 8000 AMD - other size/colour.",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has no orange Flash collar (searched 'Flash', 'նարնջագույն', '30–40 սմ', 'Վզնոց նեյլոնե' with description search). Nearest: '«USB Flash» լուսավորվող վզկապ (կարմիր) S–M' 30-40 cm/25 mm, Trixie, 9600 AMD (also green) - red/green USB model, not our orange one. https://www.nemo.am/usb-flash-լուսավորվող-վզկապ-կարմիր",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1087,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Easy Flash silicone collar (searched 'flash', 'usb', 'светящийся', Trixie list, EAN 4011905133140); only Trixie USB light collars XS-S 35 cm/18 mm green (8000) / blue (9850).",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Easy Flash, USB» լուսավորվող վզկապ (կապույտ) L–XL",
+    "url": "https://www.nemo.am/easy-flash-usb-լուսավորվող-վզկապ-կապույտ-lxl",
+    "price": 7800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Easy Flash USB light-up collar, silicone strap, 3 light colours, USB cable included, 'Գույնը՝ նեոնե-կապույտ 40–65 սմ / 25 մմ'; photo shows the Trixie collar in blue; 7800 AMD, in stock."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1321,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Easy Flash silicone collar (searched 'flash', 'usb', 'светящийся', Trixie list, EAN 4011905133195); only Trixie USB light collars XS-S 35 cm/18 mm green/blue.",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "«Easy Flash, USB» լուսավորվող վզկապ (վարդագույն ) L–XL",
+    "url": "https://www.nemo.am/easy-flash-usb-լուսավորվող-վզկապ-վարդագույն-lxl",
+    "price": 7800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Easy Flash USB light-up collar, silicone strap, USB cable included, 'Գույնը՝ նեոնե-վարդագույն 40–65 սմ / 25 մմ'; photo shows the collar in pink; 7800 AMD, in stock."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1101,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Trixie leather collar (searched 'rustic', 'кожаный ошейник', 'ошейник кожа', Trixie list, EAN 4011905190051).",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": true,
+    "name": "Trixie, բնական կաշվից վզնոց շների համար, S-M",
+    "url": "https://www.nemo.am/trixie-բնական-կաշվից-վզնոց-շների-համար-s-m",
+    "price": 4800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Trixie natural-leather dog collar 'S-M չափ/34-40 սմ/25 մմ', 'Գույն՝ շագանակագույն, մետաղյա զարդով'; photo is the dark-brown greased-leather Rustic collar; 4800 AMD, in stock. Not the light-brown S-M listing at 7100."
+   },
+   "notes": ""
+  },
+  {
+   "variant_id": 1110,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no CityStyle collar (searched 'citystyle', 'city', Trixie collars list, EAN 4053032659322).",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's CityStyle range is a treat bag, cotton leash, cat toys and a carrier - no collar (searched 'CityStyle', 'Վզնոց CityStyle', '65932', '40-47', 'PVC էլաստիկ' with description search). Nearest: https://www.nemo.am/citystyle-բամբակյա-կարգավորվող-ձգափոկ-շների-համար (leash, 7350).",
+    "price": null,
+    "old_price": null,
+    "in_stock": null
+   },
+   "notes": ""
+  }
+ ]
+}

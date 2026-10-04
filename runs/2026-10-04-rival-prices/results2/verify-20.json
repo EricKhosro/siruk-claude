@@ -1,0 +1,190 @@
+[
+ {
+  "variant_id": 1349,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: no Mooor/Moor/Моор/Мооор/Мур brand or listing (local brand lists + live search for each spelling, 'сочная курочка', EAN 4620213830100 - nothing)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo: no Mooor/Moor/Мооор/Մուր listing (brand lists + live search, EAN). Nearest 75 g cat jelly is a different brand: 'Perfeel+, ժելե կատուների համար, հավ, 75 գ' (manufacturer Perfeel+) 140; Kormell chicken pâté 75 g 150."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": "Mooor not carried by either rival."
+ },
+ {
+  "variant_id": 1350,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: no Mooor/Moor/Моор/Мооор/Мур brand or listing (brand lists + live search, 'аппетитная говядина', EAN 4620213830148 - nothing)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo: no Mooor listing; nearest 75 g items are other brands (Kormell beef/liver pâté 75 g 150, Perfeel+ 75 g 140)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": "Mooor not carried by either rival."
+ },
+ {
+  "variant_id": 1185,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: brand page zoovet.am/mr-fresh lists 0 products; live search 'Mr.Fresh', 'Mr. Fresh', 'гадить', EAN 4607092076416 empty; cat behaviour-correction category has only Gamma/Nature's Miracle/Trixie."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo Mr.Fresh live search: only dog items (Expert dog anti-soiling spray 3140, dog toilet-training spray 2700, odour spray 3150, pads). The page at slug 'սփրեյ-կատուների-կեղտոտելու-դեմ' is named '«Mr.Fresh» սփրեյ շների կեղտոտելու դեմ' and its photo is Mr.Fresh Expert 'Отучение гадить для собак' - the DOG version, not cats."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": "Cat version not carried by either rival."
+ },
+ {
+  "variant_id": 1190,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: brand page zoovet.am/mr-fresh lists 0 products; searches 'Mr.Fresh', 'гадить', EAN 4607092076492 empty; dog behaviour-correction category has only Gamma/Nature's Miracle/Tamachi."
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/սփրեյ-կատուների-կեղտոտելու-դեմ",
+   "name": "«Mr.Fresh» սփրեյ շների կեղտոտելու դեմ",
+   "price": 3140,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: name = Mr.Fresh spray against dogs soiling; description ends 'Պարունակություն՝ 200 մլ'; photo = Mr.Fresh EXPERT 'Отучение гадить' для собак bottle; 3140 AMD, in stock, no old price. (Slug says cats; page/photo are dogs.) Not to confuse with nemo's older non-Expert Mr.Fresh dog spray 'Սփրեյ շների կեղտոտելու դեմ' 200 ml at 2400 (old-design bottle, different line)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": ""
+ },
+ {
+  "variant_id": 1339,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Myau (Мяу) list has only 3 wet pouches + dry 11 kg; live searches 'Мяу телятиной', 'Мяу желе' empty. Nearest 'Мяу Влажный корм с говядиной в соусе для кошек, 85 г' 220 - photo 'з яловичиною в ніжному соусі' (beef in sauce), not veal & vegetables in jelly."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Myau wet food only as 24-pouch boxes ('24հ', 5280 = 24 x 220; brand list + live search pages 1-3 checked), no single-pouch listing; nearest '«МЯУ» ... (հորթ/բանջարեղեն) 24հ' https://www.nemo.am/мяу-պահածոյացված-կեր-չափահաս-կատուների-համար-հորթբանջարեղեն 5280 - photo is the old 100 g 'Желе с телятиной и овощами' pouch, desc 100 գ; box of 24, not one 85 g pouch."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": ""
+ },
+ {
+  "variant_id": 1340,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Myau list: no turkey-only pouch; 'Мяу индейкой' finds only the rabbit & turkey ragout 85 g 220 (different recipe)."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Myau wet food only as 24-pouch boxes ('24հ', 5280 = 24 x 220; brand list + live search pages 1-3 checked), no single-pouch listing; nearest '«МЯУ» ... (հնդկահավ) 24հ' 5280 (desc 100 գ), and a duplicate page '-2' https://www.nemo.am/мяу-պահածոյացված-կեր-չափահաս-կատուների-համար-հնդկահավ-2 (no '24հ' in the name, desc 85 գ turkey in sauce) at the same 5280 box price whose photo is the Myau KITTEN chicken pouch - not a single-pouch offer."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": ""
+ },
+ {
+  "variant_id": 1341,
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/myau-vlagnyj-korm-s-krolikom-i-indejkoj-dlya-koshek-100-g",
+   "name": "Мяу Влажный корм с кроликом и индейкой для кошек, 85 г",
+   "price": 220,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: title '...с кроликом и индейкой для кошек, 85 г', Вес (кг) 0.085, Вкус Кролик; Индейка, adult; photo = current Мяу! pouch 'з кроликом та індичкою рагу' (ragout); 220 AMD, in stock (13 шт), no discount. Description still says 'Вес: 100 г' (old copy); slug '-100-g' recycled."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Myau wet food only as 24-pouch boxes ('24հ', 5280 = 24 x 220; brand list + live search pages 1-3 checked), no single-pouch listing; nearest '«МЯУ» ... (ճագար/հնդկահավ) 24հ' https://www.nemo.am/мяу-պահածոյացված-կեր-չափահաս-կատուների-համար-ճագարհնդկահավ 5280 (box of 24, desc 100 գ)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": "zoovet slug ends '-100-g' (recycled); title, weight field and photo are the 85 g ragout."
+ },
+ {
+  "variant_id": 1342,
+  "zoovet": {
+   "found": true,
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/myau-vlagnyj-korm-s-krolikom-v-souse-dlya-koshek-100-g",
+   "name": "Мяу Влажный корм с кроликом в соусе для кошек, 85 г",
+   "price": 220,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: title '...с кроликом в соусе для кошек, 85 г', adult, Вкус Кролик; 220 AMD, in stock (> 20 шт), no discount. Conflict: description 'Вес: 100 г', Вес (кг) 0.1 and photo is the old 100 g 'с кроликом в нежном соусе' pouch (Myau moved 100 g -> 85 g). Same 220 price as the two other zoovet Myau 85 g pouches and hafo's 85 g row."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Myau wet food only as 24-pouch boxes ('24հ', 5280 = 24 x 220; brand list + live search pages 1-3 checked), no single-pouch listing; nearest '«МЯУ» ... (ճագարով) 24հ' https://www.nemo.am/мяу-պահածոյացված-կեր-չափահաս-կատուների-համար-ճագարով 5280 (box of 24, desc 100 գ)."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "notes": "Accepted on the page title (85 g) - zoovet updated the title but not the old 100 g description/photo; price identical either way."
+ },
+ {
+  "variant_id": 1343,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Myau list: no chicken pouch; 'Мяу курицей' live search empty."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Myau wet food only as 24-pouch boxes ('24հ', 5280 = 24 x 220; brand list + live search pages 1-3 checked), no single-pouch listing; nearest 'ՄՅԱՈՒ ժելե կատուների համար հավը սոուսում 24հ' https://www.nemo.am/մյաու-ժելե-կատուների-համար-հավը-սոուսում 5280 (box of 24, desc 100 գ) and '«МЯУ» ... (հավ) 24հ' 5280."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": ""
+ },
+ {
+  "variant_id": 1344,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Myau list: no fish pouch; 'Мяу рыбой' live search empty."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Myau wet food only as 24-pouch boxes ('24հ', 5280 = 24 x 220; brand list + live search pages 1-3 checked), no single-pouch listing; nearest '«МЯУ» ... (ձուկ) 24հ' https://www.nemo.am/мяу-պահածոյացված-կեր-չափահաս-կատուների-համար-ձուկ 5280 (box of 24, fish in sauce, desc 100 գ)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": ""
+ },
+ {
+  "variant_id": 1345,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet Myau list: no kitten pouch; 'Мяу котят' live search empty."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "nemo sells Myau wet food only as 24-pouch boxes ('24հ', 5280 = 24 x 220; brand list + live search pages 1-3 checked), no single-pouch listing; nearest 'ՄՅԱՈՒ ժելե կատուների ձագերի համար՝ հավի 24հ' https://www.nemo.am/մյաու-ժելե-կատուների-ձագերի-համար-մսային 5280 (box of 24, desc 80 գր)."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": ""
+ },
+ {
+  "variant_id": 1608,
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet: Pchelodar brand list (Ветспокоин, Гепатолюкс, Фенпраз, Фунгивет, Нефро..., shampoo) has no Дезацид; live search 'Дезацид', EAN 4607145634976 empty; cat and dog eye/ear categories list only Анандин 7 ml, Декта-2, Декта Форте (ears), Росинка, Beaphar."
+  },
+  "nemo": {
+   "found": true,
+   "url": "https://www.nemo.am/դեզացիդ-ֆորտե-աչքի-և-ներքթային-կաթիլներ-շան-և-կատվի-համար-copy",
+   "name": "ДЕЗАЦИД ФОРТЕ աչքի և քթի կաթիլներ շների և կատուների համար, 10 մլ",
+   "price": 2320,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: name Дезацид ФОРТЕ eye & nose drops for dogs and cats, 10 մլ; photo = Pchelodar professional 'Дезацид форте' глазные и интраназальные капли 10 ml box; 2320 AMD, in stock, no discount. Plain 'ДЕЗАЦИД' 10 ml at 2160 is a different (non-Forte) product."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "notes": ""
+ }
+]

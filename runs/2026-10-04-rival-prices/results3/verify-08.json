@@ -1,0 +1,536 @@
+{
+ "results": [
+  {
+   "variant_id": 293,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Denta Fun rugby ball toy on zoovet (only Denta Fun treats). [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-ռեգբիի-գնդակ",
+    "price": 2700,
+    "old_price": 2950,
+    "name": "«Denta Fun» ռեգբիի գնդակ",
+    "in_stock": true,
+    "evidence": "Page: size 11 cm, natural rubber, mint flavour, massages gums; photo identical to Trixie 3290 packshot (mint rugby ball). Other nemo Denta Fun rugby balls are 10 cm TPR (2000) and 15 cm (5450) - not ours. Old price 2950 shown struck. [verify: nemo re-opened: 2700, old 2950, in stock, 'Չափսը 11սմ, բնական կաուչուկ, անանուխ'. Alternatives re-checked: denta-fun-ռեգբիի-գնդակ-3 = 10 cm TPR 2000; խաղալիք-շների-denta-fun-ռեգբիի-գնդակ = 15 cm 5450; denta-fun-ռեգբիի-գնդակ-2 = 5 cm ball 1350.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 294,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Denta Fun ball toy on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-denta-fun",
+    "price": 2400,
+    "old_price": 2900,
+    "name": "Գնդակ «Denta Fun»",
+    "in_stock": true,
+    "evidence": "Name = hafo listing title; page: 6 cm, natural rubber, mint flavour; photo = Trixie 32941 (mint ball with white ridges). Not the TPR 6 cm 'denta-fun-գնդակ' (=33680) nor the 5 cm one (1350). [verify: nemo re-opened: 2400, old 2900, 6 cm natural rubber mint; nemo title 'Գնդակ «Denta Fun»' = hafo title of the TX 329411 listing (barcode 4011905329413). The TPR 6 cm '«Denta Fun» գնդակ' = hafo title of 33680.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 295,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Denta Fun ball toy on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-denta-fun-",
+    "price": 3200,
+    "old_price": 3900,
+    "name": "Գնդակ «Denta Fun» -",
+    "in_stock": true,
+    "evidence": "Page: 7 cm, natural rubber, mint flavour; photo = Trixie 32942 (mint ball with white ridges). Found via nemo dog-toys category listing. [verify: nemo re-opened: 3200, old 3900, 7 cm natural rubber mint.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 296,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie rope with natural-rubber ring 12/41 cm; nearest zoovet rope toys are rope balls with loop (7/20, 8x30 cm). [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-պարան-օղակով",
+    "price": 6700,
+    "old_price": 7500,
+    "name": "Խաղալիք-պարան օղակով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name/text = hafo title; cotton-mix rope with natural-rubber ring and handle, 12 cm / 41 cm; same photo colourway as hafo's own photo of 33191 (pink ring, blue/purple rope; trixie.shop now shows orange/lime). [verify: nemo re-opened: 6700, old 7500, manufacturer Trixie, cotton-mix rope + natural-rubber ring with handle, 12 cm - 41 cm. Other nemo 'Օղակաձև պարան' (3650/4000) are different items.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 297,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie natural-rubber ring 9 cm on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-օղակ-շների-համար",
+    "price": 950,
+    "old_price": 1400,
+    "name": "Խաղալիք-օղակ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; natural rubber ring, 9 cm; name = hafo title; yellow ring same as hafo's photo of 3320. Other nemo rings (11/17/25 cm, 'Օղակ') are other items. [verify: nemo re-opened: 950, old 1400, manufacturer Trixie, natural rubber ring 9 cm. Other rings: 11 cm (1900), 15 cm (2900), 16 cm (3600) - other sizes.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 298,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie Snack-Kreisel (gyrating snack toy) on zoovet; nearest 'груша для лакомств 8 см' is a different toy. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-հյուրասիրության-համար-պտտվողջերմապլաստիկ-ռետին-12-սմ",
+    "price": 3250,
+    "old_price": null,
+    "name": "Խաղալիք՝ շների, հյուրասիրության համար, պտտվող/ջերմապլաստիկ ռետին, 12 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name identical to hafo row for 33419; 12 cm; photo = Trixie 33419 petrol snack spinner. [verify: nemo re-opened: 3250, no old price, manufacturer Trixie, name identical to hafo row 12 cm.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 299,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; nearest 'Trixie Игрушка мячик c верёвкой' (1150) is a foam tennis ball on a black cord - different model; no 4.5/35 cm natural-rubber ball on rope. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-գնդակ-պարանով",
+    "price": 1850,
+    "old_price": null,
+    "name": "Խաղալիք շների համար գնդակ պարանով",
+    "in_stock": true,
+    "evidence": "Name = hafo title; natural rubber ball on rope with handle, 4.5/35 cm; red ball photo same as hafo's photo of 33481. Other nemo balls on rope are 5/6 cm or 6/30 cm. [verify: nemo re-opened: 1850, natural rubber ball on rope with handle 4.5/35 cm. Others: 7/35 cm (2950), 6/30 cm (1800), unspecified rubber ball on rope (3000).]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 300,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie honeycomb TPE ball on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-մեղրամոմի-կառուցվածքով-գնդակ-6-սմ",
+    "price": 2250,
+    "old_price": null,
+    "name": "Խաղալիք շների ՝մեղրամոմի կառուցվածքով գնդակ, 6 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; TPE honeycomb ball Ø 6 cm; orange photo identical to Trixie 33543. [verify: nemo re-opened: 2250, manufacturer Trixie, TPE honeycomb ball Ø 6 cm.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 301,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie honeycomb rugby ball on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-մեղրամոմի-կառուցվածքով-ռեգբի-գնդակ-11-սմ",
+    "price": 3150,
+    "old_price": null,
+    "name": "Խաղալիք շների ՝մեղրամոմի կառուցվածքով ռեգբի գնդակ, 11 սմ",
+    "in_stock": true,
+    "evidence": "Text: TRIXIE, TPE honeycomb rugby ball, 11 cm; photo shows the lime honeycomb rugby ball (33544). [verify: nemo re-opened: 3150, text 'TRIXIE ... TPE ... 11 սմ' honeycomb rugby ball.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 303,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie flashing ball; nearest 'гантель светящаяся в темноте 18 см' is a different toy. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/լուսավորվող-գնդակ-շների-համար",
+    "price": 2950,
+    "old_price": null,
+    "name": "Լուսավորվող գնդակ շների համար",
+    "in_stock": true,
+    "evidence": "Name = hafo title; TPR, activates on impact, 6 cm; lime flashing ball as in hafo's photo for the 33642/33643 listing (Trixie's current colour is pink). The other nemo light-up ball is a 5 cm spiky one (1900) - not ours. [verify: nemo re-opened: 2950, TPR, activates on impact, 6 cm; nemo title = hafo listing title 'Լուսավորվող գնդակ շների համար'. Other light-up ball is 5 cm (1900).]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 304,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie flashing ball on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo dog-toys category (all ~1000 items) + searches 'Լուսավորվող', 'լուսավոր': only the 6 cm flashing ball (2950, = variant 303) and a 5 cm spiky light-up ball (1900); no 7.5 cm. [verify: Confirmed not on nemo: full nemo dog-toys category (1000 items, 21 pages) scanned; light-up balls only 6 cm (2950, = variant 303) and 5 cm (1900, page text 'Չափս՝ 5 սմ'); 'Կատապուլտ լուսավորվող գնդակով' is a launcher. Searches 'լուսավոր', '7.5|7,5', 'flash' found nothing else.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 305,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; zoovet 'Мяч игольчатый ... 10 см' (2000, art 3402) is a different size/model. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-ասեղաձև-շների-համար-2",
+    "price": 1400,
+    "old_price": null,
+    "name": "Գնդակ ասեղաձև շների համար 8 սմ",
+    "in_stock": true,
+    "evidence": "Name = hafo title + 8 cm; TPR (ջերմապլաստիկ ռետին) spiky ball, assorted colours (orange/green photo) = Trixie 33651. 6/10/12 cm vinyl and 16 cm items are other models. [verify: nemo re-opened: 1400, TPR spiky ball 8 cm. Other spiky balls: vinyl 6/10/12/16 cm, latex 6/10 cm, rubber 7 cm, phosphor vinyl 10 cm - none TPR 8 cm.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 306,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; zoovet 'Мяч игольчатый ... 10 см' (2000) is 10 cm, different article. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-ասեղաձև-շների-համար-12-սմ",
+    "price": 2750,
+    "old_price": null,
+    "name": "Գնդակ ասեղաձև շների համար 12 սմ",
+    "in_stock": true,
+    "evidence": "Name = hafo title + 12 cm; TPR spiky ball (33652). Vinyl 12 cm 'Ասեղնաձև Գնդակ' (2400) is a different model. [verify: nemo re-opened: 2750, TPR spiky ball 12 cm. Vinyl 12 cm 'Ասեղնաձև Գնդակ' (2400) is a different model.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 307,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/igrushki-1/drugie-1/trixie-igrushka-palochka-krasnaya-18-sm",
+    "price": 2950,
+    "old_price": null,
+    "name": "Trixie Игрушка палочка красная, 18 см",
+    "in_stock": false,
+    "evidence": "Brand Trixie; description 'палочка - термопластичная резина, цвет красный, 18 см'; photo is the Trixie TPR stick with bubble pattern, same red colourway as hafo's own photo of 33653 (Trixie now ships orange). Status 'Под заказ' (to order), not in stock. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փայտիկ",
+    "price": 2950,
+    "old_price": null,
+    "name": "Փայտիկ",
+    "in_stock": true,
+    "evidence": "Name = hafo title 'Փայտիկ'; squeaky TPR stick, 18 cm; red photo same as hafo's photo of 33653. 28 cm sibling is a separate page (4500). [verify: nemo re-opened: 2950, squeaky TPR stick 18 cm. zoovet saved list: 'Trixie Игрушка палочка красная, 18 см' 2950, in_stock false - matches the matcher's page reading.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 308,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; only the 18 cm stick (2950) is on zoovet; no 28 cm. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/փայտիկ-2",
+    "price": 4500,
+    "old_price": null,
+    "name": "Փայտիկ",
+    "in_stock": true,
+    "evidence": "Name = hafo title; squeaky TPR stick, 28 cm (33654); same red stick photo. [verify: nemo re-opened: 4500, squeaky TPR stick 28 cm. zoovet saved list has only the 18 cm stick.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 309,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; nearest 'мяч из каучука, в ассортименте, 7 см' (3000) is a plain smooth natural-rubber ball, not the Trixie TPR ball. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձայնով-գնդակ",
+    "price": 1600,
+    "old_price": null,
+    "name": "Ձայնով-Գնդակ",
+    "in_stock": true,
+    "evidence": "Name = hafo title 'Ձայնով-Գնդակ'; TPR ball 7 cm; photo is the Trixie 'Ball, TPR' design (purple, as in hafo's own photo; Trixie lists pink). [verify: nemo re-opened: 1600, TPR ball 7 cm; title 'Ձայնով-Գնդակ' = hafo title. Other TPR/rubber balls are 6 cm (1900/1950) or natural rubber 6/9 cm; zoovet's 'мяч из каучука, в ассортименте, 7 см' (3000) is a natural-rubber assorted ball, different model.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 310,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie TPR 8 cm ball on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձայնով-գնդակ-2",
+    "price": 2100,
+    "old_price": null,
+    "name": "Ձայնով-Գնդակ",
+    "in_stock": true,
+    "evidence": "Name = hafo title; TPR ball 8 cm; same Trixie TPR ball design (33678). [verify: nemo re-opened: 2100, TPR ball 8 cm.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 311,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Denta Fun ball toy on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-գնդակ",
+    "price": 2400,
+    "old_price": 2600,
+    "name": "«Denta Fun» գնդակ",
+    "in_stock": true,
+    "evidence": "Name = hafo title of the 33680 listing; TPR (ջերմապլաստիկ ռետին), mint flavour, 6 cm; photo identical to Trixie 33680 (smooth teal Denta Fun TPR ball). The natural-rubber 6 cm one is 32941. [verify: nemo re-opened: 2400, old 2600, TPR mint Denta Fun ball 6 cm; nemo title '«Denta Fun» գնդակ' = hafo title of the 33680 listing (barcode 4011905336800).]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 312,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie vinyl hedgehog ball 7 cm on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ոզնաձև-գնդակ-7-սմ",
+    "price": 1300,
+    "old_price": null,
+    "name": "Ոզնաձև գնդակ (7 սմ)",
+    "in_stock": true,
+    "evidence": "Name = hafo title; vinyl, with squeaker, 7 cm; orange spiky photo = Trixie 3414. [verify: nemo re-opened: 1300, 'վինիլ ձայնով 7 սմ'.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 313,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie vinyl hedgehog ball 6 cm on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ասեղնաձև-գնդակ-2",
+    "price": 950,
+    "old_price": null,
+    "name": "Ասեղնաձև Գնդակ",
+    "in_stock": true,
+    "evidence": "Name = hafo title 'Ասեղնաձև Գնդակ'; vinyl, squeaks, 6 cm; spiky ball with white tips as in hafo text for 3428 (photo red vs hafo's orange - colour assorted). 10 cm (1750) and 12 cm (2400) siblings are other sizes. [verify: nemo re-opened: 950, vinyl squeaky spiky ball 6 cm; siblings 10 cm (1750) and 12 cm (2400) confirmed other sizes; title = hafo slug 'asexnadzev-gndak'.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 314,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie foam-rubber 4.5 cm ball on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գնդակ-կաուչուկից",
+    "price": 600,
+    "old_price": null,
+    "name": "Գնդակ (կաուչուկից) 4,5 սմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo title 'Գնդակ (կաուչուկից)' + 4.5 cm; photo = hafo's photo (assorted basketball/soccer/baseball foam balls). 5.5/6/7/9 cm siblings are other sizes. [verify: nemo re-opened: 600, manufacturer Trixie, 4.5 cm natural foam rubber ball, floats; 5.5 cm sibling 750 etc.]"
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 315,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie latex frog dumbbell on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-լատեկսից-գորտ-ձայնով",
+    "price": 2350,
+    "old_price": 2950,
+    "name": "Խաղալիք շների համար՝ լատեկսից գորտ ձայնով",
+    "in_stock": true,
+    "evidence": "Name = hafo title; latex, with voice, 18 cm; green frog dumbbell photo = Trixie 34484. [verify: nemo re-opened: 2350, old 2950, latex, squeaky, 18 cm.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 316,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie plush monkey with rope on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-խաղալիք-կապիկ-շների-համար",
+    "price": 6000,
+    "old_price": null,
+    "name": "Trixie, խաղալիք կապիկ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; polyester/cotton monkey, 40 cm; photo identical to Trixie 34720. [verify: nemo re-opened: 6000, manufacturer Trixie, polyester/cotton monkey 40 cm. Other monkeys: 24 cm plush (3550), 32 cm (5100), 11 cm - other items.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 318,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; zoovet 'Trixie Игрушка ёжик для собак, 12 см' (2950) is a TPR hedgehog-shaped chew toy, not the plush hedgehog. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-կտորից-ոզնի",
+    "price": 1950,
+    "old_price": null,
+    "name": "Խաղալիք շների համար՝ կտորից ոզնի",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; plush/polyester, black/white, 12 cm (matches hafo row 'սև/սպիտակ, 12 սմ'); photo identical to Trixie 34748. The 17 cm black/white (3500) and the white squeaky 12 cm (2200) are other items. [verify: nemo re-opened: 1950, manufacturer Trixie, plush/polyester, no squeaker, black/white, 12 cm. 'Խաղալիք շների կտորից ոզնի 12 սմ' (2200) is polyester WITH squeaker (different item); black/white 17 cm (3500) other size.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 319,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie Be Eco dangling fox on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-be-eco-խաղալիք-աղվես-շների-համար",
+    "price": 5400,
+    "old_price": null,
+    "name": "Trixie Be Eco, խաղալիք աղվես շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; Be Eco fox, polyester, 50 cm; photo identical to Trixie 34823. [verify: nemo re-opened: 5400, manufacturer Trixie, Be Eco fox, polyester, 50 cm.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 320,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie plush horse on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-ձի-շների-համար",
+    "price": 4100,
+    "old_price": 4650,
+    "name": "Խաղալիք ձի շների համար",
+    "in_stock": true,
+    "evidence": "Name = hafo title; photo identical to Trixie 34830 plush horse (brown, white face). Page gives no size text, but only one such horse exists. [verify: nemo re-opened: 4100, old 4650, page text 'փափուկ խաղալիք ձիու տեսքով, Պլյուշ, Չափս՝ 32 սմ' - size now confirmed on the page.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 321,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; no Trixie sport ball 5.5 cm on zoovet. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սպորտային-գնդակներ",
+    "price": 1350,
+    "old_price": 1400,
+    "name": "Սպորտային Գնդակներ",
+    "in_stock": true,
+    "evidence": "Name = hafo title; natural rubber studded sport ball, 5.5 cm; purple photo = hafo's photo of 34843 (Trixie Sportball design). [verify: nemo re-opened: 1350, old 1400, studded natural rubber sport ball 5.5 cm.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  },
+  {
+   "variant_id": 322,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: Trixie brand list (21 dog toys) + live searches checked; zoovet 'мяч из каучука, в ассортименте, 7 см' (3000) is a smooth plain ball - different model. [verify: zoovet.am refused connections today (TCP timeout), so zoovet was re-checked only against today's saved zoovet lists in shops.json (Trixie list, 354 rows, plus every other brand list scanned for Trixie/matching toys); no zoovet page re-opened.]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սպորտային-գնդակներ-2",
+    "price": 1800,
+    "old_price": 2000,
+    "name": "Սպորտային Գնդակներ",
+    "in_stock": true,
+    "evidence": "Name = hafo title; natural rubber studded sport ball, 7 cm; Trixie Sportball design (34845). [verify: nemo re-opened: 1800, old 2000, studded natural rubber sport ball 7 cm. 'Սպորտային գնդակ շների համար' (2200) is a 7 cm latex squeaky ball - different model; zoovet 7 cm natural-rubber assorted ball (3000) is a different model.]"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Every nemo price/old price re-read from the live page today and matches; identity axes (size, material, model) re-checked against all same-type items in nemo's 1000-item dog-toys category; zoovet re-checked against today's saved lists only (site unreachable)."
+  }
+ ]
+}

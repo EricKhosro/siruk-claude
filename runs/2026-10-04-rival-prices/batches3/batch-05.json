@@ -1,0 +1,2378 @@
+[
+ {
+  "variant_id": 806,
+  "product_id": 669,
+  "brand": "Monge",
+  "product": "Monge VetSolution Hypo Monoprotein Dog",
+  "variant_label": "Tuna 400 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "400 g",
+  "sku": "082037",
+  "ean": "8009470082037",
+  "register_name_hy": "Պահածո շն. համար Monge Vet Hypo Monoprotein Տոննո, 400 գ",
+  "xlsx_name_en": "VetSolution Hypo Monoprotein Dog — Tuna 400 g",
+  "siruk_price": 1650,
+  "siruk_url": "https://siruk.am/product/monge-vetsolution-hypo-monoprotein-dog/dp/806/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/pahaco-shneri-hamar-monge-vet-hypo-monoprotein-tuna",
+   "row_name": "Պահածո շն. համար Monge Vet Hypo Monoprotein Տոննո, 400 գ",
+   "sku": "082037",
+   "price": 1650
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с тунцом, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-s-tuntsom-400-g",
+     "list_price": 1650
+    },
+    {
+     "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с уткой, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-400-g",
+     "list_price": 1650
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с индейкой для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-indejkoj-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с индейкой и апельсином для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-indejkoj-i-apelsinom-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с курицей для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-kuritsej-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с курицей и ананасом для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-kuritsej-i-ananasom-dlya-sobak-400-g",
+     "list_price": 2000
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Պահածո շների համար Monge Vet Hypo Monoprotein բադ, 400 գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-բադ-400-գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, գառ, 400գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-գառ-400գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, թունա, 400գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-թունա-400գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Կեր կատուների համար՝ MONGE Monoprotein սաղմոն, 400 գ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-monge-monoprotein-սաղմոն-400-գ",
+     "list_price": 2400
+    },
+    {
+     "name": "Monge Monoprotein պաշտետ՝ հավ և արքայախնձոր, 400 գ",
+     "url": "https://www.nemo.am/monge-monoprotein-պաշտետ-հավ-և-արքայախնձոր-400-գ",
+     "list_price": 2100
+    },
+    {
+     "name": "Monge Monoprotein պաշտետ՝ հնդկահավ և ցիտրուս, 400 գ",
+     "url": "https://www.nemo.am/monge-monoprotein-պաշտետ-հնդկահավ-և-ցիտրուս-400-գ",
+     "list_price": 2100
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 807,
+  "product_id": 669,
+  "brand": "Monge",
+  "product": "Monge VetSolution Hypo Monoprotein Dog",
+  "variant_label": "Duck 400 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "400 g",
+  "sku": "082047",
+  "ean": "8009470082044",
+  "register_name_hy": "Պահածո շն. համար Monge Vet Hypo Monoprotein բադ, 400 գ",
+  "xlsx_name_en": "VetSolution Hypo Monoprotein Dog — Duck 400 g",
+  "siruk_price": 1650,
+  "siruk_url": "https://siruk.am/product/monge-vetsolution-hypo-monoprotein-dog/dp/807/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/pahaco-shneri-hamar-monge-vet-hypo-monoprotein-bad-400gr",
+   "row_name": "Պահածո շն. համար Monge Vet Hypo Monoprotein բադ, 400 գ",
+   "sku": "082047",
+   "price": 1650
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с тунцом, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-s-tuntsom-400-g",
+     "list_price": 1650
+    },
+    {
+     "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с уткой, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-400-g",
+     "list_price": 1650
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с индейкой для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-indejkoj-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с индейкой и апельсином для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-indejkoj-i-apelsinom-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с курицей для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-kuritsej-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с курицей и ананасом для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-kuritsej-i-ananasom-dlya-sobak-400-g",
+     "list_price": 2000
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Պահածո շների համար Monge Vet Hypo Monoprotein բադ, 400 գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-բադ-400-գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, գառ, 400գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-գառ-400գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, թունա, 400գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-թունա-400գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Կեր կատուների համար՝ MONGE Monoprotein սաղմոն, 400 գ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-monge-monoprotein-սաղմոն-400-գ",
+     "list_price": 2400
+    },
+    {
+     "name": "Monge Monoprotein պաշտետ՝ հավ և արքայախնձոր, 400 գ",
+     "url": "https://www.nemo.am/monge-monoprotein-պաշտետ-հավ-և-արքայախնձոր-400-գ",
+     "list_price": 2100
+    },
+    {
+     "name": "Monge Monoprotein պաշտետ՝ հնդկահավ և ցիտրուս, 400 գ",
+     "url": "https://www.nemo.am/monge-monoprotein-պաշտետ-հնդկահավ-և-ցիտրուս-400-գ",
+     "list_price": 2100
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 808,
+  "product_id": 669,
+  "brand": "Monge",
+  "product": "Monge VetSolution Hypo Monoprotein Dog",
+  "variant_label": "Lamb 400 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "400 g",
+  "sku": "082057",
+  "ean": "8009470082051",
+  "register_name_hy": "Պահածո շն. համար Monge Vet Hypo Monoprotein Գառ, 400 գ",
+  "xlsx_name_en": "VetSolution Hypo Monoprotein Dog — Lamb 400 g",
+  "siruk_price": 1650,
+  "siruk_url": "https://siruk.am/product/monge-vetsolution-hypo-monoprotein-dog/dp/808/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/pahaco-shneri-hamar-monge-vet-hypo-monoprotein-gar",
+   "row_name": "Պահածո շն. համար Monge Vet Hypo Monoprotein Գառ, 400 գ",
+   "sku": "082057",
+   "price": 1650
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с тунцом, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-s-tuntsom-400-g",
+     "list_price": 1650
+    },
+    {
+     "name": "Monge Hypo Monoprotein влажный гипоаллергенный корм для собак с уткой, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-hypo-monoprotein-vlagnyj-gipoallergennyj-korm-dlya-sobak-400-g",
+     "list_price": 1650
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с индейкой для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-indejkoj-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с индейкой и апельсином для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-indejkoj-i-apelsinom-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с курицей для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-kuritsej-dlya-sobak-400-g",
+     "list_price": 2000
+    },
+    {
+     "name": "Monge Monoprotein Влажный корм с курицей и ананасом для собак, 400 г",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/monge-monoprotein-vlagnyj-korm-s-kuritsej-i-ananasom-dlya-sobak-400-g",
+     "list_price": 2000
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Պահածո շների համար Monge Vet Hypo Monoprotein բադ, 400 գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-բադ-400-գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, գառ, 400գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-գառ-400գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Պահածո շների համար՝ Monge Vet Hypo Monoprotein, թունա, 400գ",
+     "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-hypo-monoprotein-թունա-400գ",
+     "list_price": 1650
+    },
+    {
+     "name": "Կեր կատուների համար՝ MONGE Monoprotein սաղմոն, 400 գ",
+     "url": "https://www.nemo.am/կեր-կատուների-համար-monge-monoprotein-սաղմոն-400-գ",
+     "list_price": 2400
+    },
+    {
+     "name": "Monge Monoprotein պաշտետ՝ հավ և արքայախնձոր, 400 գ",
+     "url": "https://www.nemo.am/monge-monoprotein-պաշտետ-հավ-և-արքայախնձոր-400-գ",
+     "list_price": 2100
+    },
+    {
+     "name": "Monge Monoprotein պաշտետ՝ հնդկահավ և ցիտրուս, 400 գ",
+     "url": "https://www.nemo.am/monge-monoprotein-պաշտետ-հնդկահավ-և-ցիտրուս-400-գ",
+     "list_price": 2100
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1642,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "Duck & Rice 12 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "12 kg",
+  "sku": "011137",
+  "ean": "8009470011136",
+  "register_name_hy": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Duck & Rice 12 kg",
+  "siruk_price": 40000,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1642/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-bad-brindz",
+   "row_name": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ 12 կգ",
+   "sku": "011137",
+   "price": 40000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-բադբրինձկարտոֆիլ",
+     "list_price": 40000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1643,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Duck & Rice 12 kg",
+  "size": "1 kg",
+  "sku": "011137-KG",
+  "ean": "8009470011136",
+  "register_name_hy": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Duck & Rice 12 kg",
+  "siruk_price": 3450,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1643/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-bad-brindz",
+   "row_name": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ 12 կգ",
+   "sku": "011137",
+   "price": 3450
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с курицей, рисом и картофелем для взрослых собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-so-kuritsej-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Կեր շների համար All breed adult բադ/բրինձ/կարտոֆիլ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-բադբրինձկարտոֆիլ",
+     "list_price": 40000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1644,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "Beef & Rice 12 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "12 kg",
+  "sku": "011347",
+  "ean": "8009470011341",
+  "register_name_hy": "Կեր շների համար All breed adult Monoprotein՝ հորթ/բրինձ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Beef & Rice 12 kg",
+  "siruk_price": 39500,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1644/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-hamar-adult-hort",
+   "row_name": "Կեր շների համար All breed adult Monoprotein՝ հորթ/բրինձ 12 կգ",
+   "sku": "011347",
+   "price": 39500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար All breed adult ՝ հորթ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հորթբրինձ",
+     "list_price": 39500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1645,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Beef & Rice 12 kg",
+  "size": "1 kg",
+  "sku": "011347-KG",
+  "ean": "8009470011341",
+  "register_name_hy": "Կեր շների համար All breed adult Monoprotein՝ հորթ/բրինձ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Beef & Rice 12 kg",
+  "siruk_price": 3400,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1645/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-hamar-adult-hort",
+   "row_name": "Կեր շների համար All breed adult Monoprotein՝ հորթ/բրինձ 12 կգ",
+   "sku": "011347",
+   "price": 3400
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с курицей, рисом и картофелем для взрослых собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-so-kuritsej-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար All breed adult ՝ հորթ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հորթբրինձ",
+     "list_price": 39500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1646,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "Lamb & Rice 12 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "12 kg",
+  "sku": "011327",
+  "ean": "8009470011327",
+  "register_name_hy": "Կեր շների համար All breed Adult գառ/բրինձ/կարտոֆիլ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Lamb & Rice 12 kg",
+  "siruk_price": 41500,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1646/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-hamar-all-breed-adult-gar-brindz-kartofil",
+   "row_name": "Կեր շների համար All breed Adult գառ/բրինձ/կարտոֆիլ 12 կգ",
+   "sku": "011327",
+   "price": 41500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ All breed Adult, գառ/բրինձ/կարտոֆիլ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-գառբրինձկարտոֆիլ",
+     "list_price": 41500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1647,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Lamb & Rice 12 kg",
+  "size": "1 kg",
+  "sku": "011327-KG",
+  "ean": "8009470011327",
+  "register_name_hy": "Կեր շների համար All breed Adult գառ/բրինձ/կարտոֆիլ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Lamb & Rice 12 kg",
+  "siruk_price": 3550,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1647/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-hamar-all-breed-adult-gar-brindz-kartofil",
+   "row_name": "Կեր շների համար All breed Adult գառ/բրինձ/կարտոֆիլ 12 կգ",
+   "sku": "011327",
+   "price": 3550
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с курицей, рисом и картофелем для взрослых собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-so-kuritsej-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ All breed Adult, գառ/բրինձ/կարտոֆիլ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-գառբրինձկարտոֆիլ",
+     "list_price": 41500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1648,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "Salmon & Rice 12 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "12 kg",
+  "sku": "011307",
+  "ean": "8009470011303",
+  "register_name_hy": "Կեր շների համար All breed Adult սալմոն/բրինձ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Salmon & Rice 12 kg",
+  "siruk_price": 43000,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1648/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-all-breed-adult-chor-ker-shneri-hamar-salmon-ev-brindz-12kg",
+   "row_name": "Կեր շների համար All breed Adult սալմոն/բրինձ 12 կգ",
+   "sku": "011307",
+   "price": 43000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Ձողիկներ շների համար MONGE GIFT, բուսական քլորելլայով, Grain Free, All Breeds Adult",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-բուսական-քլորելլայով-grain-free-all-breeds-adult",
+     "list_price": 3000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1649,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Salmon & Rice 12 kg",
+  "size": "1 kg",
+  "sku": "011307-KG",
+  "ean": "8009470011303",
+  "register_name_hy": "Կեր շների համար All breed Adult սալմոն/բրինձ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Salmon & Rice 12 kg",
+  "siruk_price": 3700,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1649/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-all-breed-adult-chor-ker-shneri-hamar-salmon-ev-brindz-12kg",
+   "row_name": "Կեր շների համար All breed Adult սալմոն/բրինձ 12 կգ",
+   "sku": "011307",
+   "price": 3700
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с курицей, рисом и картофелем для взрослых собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-so-kuritsej-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Ձողիկներ շների համար MONGE GIFT, բուսական քլորելլայով, Grain Free, All Breeds Adult",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-բուսական-քլորելլայով-grain-free-all-breeds-adult",
+     "list_price": 3000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1650,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "Rabbit & Rice 12 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "12 kg",
+  "sku": "011157",
+  "ean": "8009470011150",
+  "register_name_hy": "Կեր շների համար All breed Adult ճագար/բրինձ/կարտոֆիլ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Rabbit & Rice 12 kg",
+  "siruk_price": 44000,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1650/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-all-breed-adult-chor-ker-shneri-hamar-chagar-brindz-kartofil-12kg",
+   "row_name": "Կեր շների համար All breed Adult ճագար/բրինձ/կարտոֆիլ 12 կգ",
+   "sku": "011157",
+   "price": 44000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Կեր շների համար՝ All breed Adult, գառ/բրինձ/կարտոֆիլ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-գառբրինձկարտոֆիլ",
+     "list_price": 41500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1651,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Rabbit & Rice 12 kg",
+  "size": "1 kg",
+  "sku": "011157-KG",
+  "ean": "8009470011150",
+  "register_name_hy": "Կեր շների համար All breed Adult ճագար/բրինձ/կարտոֆիլ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Rabbit & Rice 12 kg",
+  "siruk_price": 3800,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1651/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-all-breed-adult-chor-ker-shneri-hamar-chagar-brindz-kartofil-12kg",
+   "row_name": "Կեր շների համար All breed Adult ճագար/բրինձ/կարտոֆիլ 12 կգ",
+   "sku": "011157",
+   "price": 3800
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с курицей, рисом и картофелем для взрослых собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-so-kuritsej-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Կեր շների համար՝ All breed Adult, գառ/բրինձ/կարտոֆիլ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-գառբրինձկարտոֆիլ",
+     "list_price": 41500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1652,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "Turkey & Rice 12 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "12 kg",
+  "sku": "011397",
+  "ean": "8009470011396",
+  "register_name_hy": "Կեր շների համար All breed Adult հնդկահավ/բրինձ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Turkey & Rice 12 kg",
+  "siruk_price": 42000,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1652/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-hamar-all-breed-adult-hndkahav-brindz",
+   "row_name": "Կեր շների համար All breed Adult հնդկահավ/բրինձ 12 կգ",
+   "sku": "011397",
+   "price": 42000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Կեր շների համար՝ All breed Adult հնդկահավ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հնդկահավբրինձ",
+     "list_price": 42000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1653,
+  "product_id": 1152,
+  "brand": "Monge",
+  "product": "Monge All Breeds Adult",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Turkey & Rice 12 kg",
+  "size": "1 kg",
+  "sku": "011397-KG",
+  "ean": "8009470011396",
+  "register_name_hy": "Կեր շների համար All breed Adult հնդկահավ/բրինձ 12 կգ",
+  "xlsx_name_en": "All Breeds Adult — Turkey & Rice 12 kg",
+  "siruk_price": 3600,
+  "siruk_url": "https://siruk.am/product/monge-all-breeds-adult/dp/1653/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-hamar-all-breed-adult-hndkahav-brindz",
+   "row_name": "Կեր շների համար All breed Adult հնդկահավ/բրինձ 12 կգ",
+   "sku": "011397",
+   "price": 3600
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с курицей, рисом и картофелем для взрослых собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-so-kuritsej-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с уткой, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-utkoj-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-կիլոգրամով",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy-copy",
+     "list_price": 43000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, սալմոն և բրինձ (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-սալմոն-և-բրինձ-կիլոգրամով-copy",
+     "list_price": 3700
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE All Breed Adult Monoprotein, գառ/բրինձ, 2.5 կգ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-all-breed-adult-monoprotein-գառբրինձ-25-կգ",
+     "list_price": 10500
+    },
+    {
+     "name": "Կեր շների համար՝ All breed Adult հնդկահավ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-համար-all-breed-adult-հնդկահավբրինձ",
+     "list_price": 42000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1659,
+  "product_id": 1153,
+  "brand": "Monge",
+  "product": "Monge Mini Puppy & Junior",
+  "variant_label": "Chicken 15 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "15 kg",
+  "sku": "MG006107",
+  "ean": "8009470006101",
+  "register_name_hy": "Կեր շների  MONGE MINI  PUPPY/JUN. 15կգ",
+  "xlsx_name_en": "Mini Puppy & Junior — Chicken 15 kg",
+  "siruk_price": 46500,
+  "siruk_url": "https://siruk.am/product/monge-mini-puppy-junior/dp/1659/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-mini-puppy-junior",
+   "row_name": "Կեր շների  MONGE MINI  PUPPY/JUN. 15կգ",
+   "sku": "MG 006107",
+   "price": 46500
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg-5447",
+     "list_price": 46500
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с ягненком и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-yagnenkom-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg-5448",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge Mini Puppy Junior սալմոն, 15 կգ",
+     "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-15-կգ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ-կիլոգրամով",
+     "list_price": 3550
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար",
+     "list_price": 46500
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար-2",
+     "list_price": 3200
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1660,
+  "product_id": 1153,
+  "brand": "Monge",
+  "product": "Monge Mini Puppy & Junior",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken 15 kg",
+  "size": "1 kg",
+  "sku": "MG006107-KG",
+  "ean": "8009470006101",
+  "register_name_hy": "Կեր շների  MONGE MINI  PUPPY/JUN. 15կգ",
+  "xlsx_name_en": "Mini Puppy & Junior — Chicken 15 kg",
+  "siruk_price": 3200,
+  "siruk_url": "https://siruk.am/product/monge-mini-puppy-junior/dp/1660/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-mini-puppy-junior",
+   "row_name": "Կեր շների  MONGE MINI  PUPPY/JUN. 15կգ",
+   "sku": "MG 006107",
+   "price": 3200
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg",
+     "list_price": 3550
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с ягненком и рисом для щенков мелких пород, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-yagnenkom-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg",
+     "list_price": 3650
+    },
+    {
+     "name": "Monge All Breeds Puppy & Junior Сухой корм с форелью, рисом и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-puppy-junior-suhoj-korm-s-forelyu-risom-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge Bwild Puppy & Junior Сухой корм с уткой и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-puppy-junior-suhoj-korm-s-utokoj-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 4650
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ-կիլոգրամով",
+     "list_price": 3550
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար",
+     "list_price": 46500
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար-2",
+     "list_price": 3200
+    },
+    {
+     "name": "Ձողիկներ շների համար՝ MONGE GIFT, գառ/անիսոն, Grain Free, Mini Puppy & Junior",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-գառանիսոն-grain-free-mini-puppy-junior",
+     "list_price": 1500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1661,
+  "product_id": 1153,
+  "brand": "Monge",
+  "product": "Monge Mini Puppy & Junior",
+  "variant_label": "Lamb & Rice 15 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "15 kg",
+  "sku": "005947",
+  "ean": "8009470005944",
+  "register_name_hy": "Կեր շների  MONGE MINI  PUPPY/JUN. գառ, 15կգ",
+  "xlsx_name_en": "Mini Puppy & Junior — Lamb & Rice 15 kg",
+  "siruk_price": 50000,
+  "siruk_url": "https://siruk.am/product/monge-mini-puppy-junior/dp/1661/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-dzageri-hamar-monge-mini-puppy-junior-gar",
+   "row_name": "Կեր շների  MONGE MINI  PUPPY/JUN. գառ, 15կգ",
+   "sku": "005947",
+   "price": 50000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg-5447",
+     "list_price": 46500
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с ягненком и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-yagnenkom-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg-5448",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge Mini Puppy Junior սալմոն, 15 կգ",
+     "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-15-կգ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ-կիլոգրամով",
+     "list_price": 3550
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար",
+     "list_price": 46500
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար-2",
+     "list_price": 3200
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1662,
+  "product_id": 1153,
+  "brand": "Monge",
+  "product": "Monge Mini Puppy & Junior",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Lamb & Rice 15 kg",
+  "size": "1 kg",
+  "sku": "005947-KG",
+  "ean": "8009470005944",
+  "register_name_hy": "Կեր շների  MONGE MINI  PUPPY/JUN. գառ, 15կգ",
+  "xlsx_name_en": "Mini Puppy & Junior — Lamb & Rice 15 kg",
+  "siruk_price": 3550,
+  "siruk_url": "https://siruk.am/product/monge-mini-puppy-junior/dp/1662/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/ker-shneri-dzageri-hamar-monge-mini-puppy-junior-gar",
+   "row_name": "Կեր շների  MONGE MINI  PUPPY/JUN. գառ, 15կգ",
+   "sku": "005947",
+   "price": 3550
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg",
+     "list_price": 3550
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с ягненком и рисом для щенков мелких пород, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-yagnenkom-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg",
+     "list_price": 3650
+    },
+    {
+     "name": "Monge All Breeds Puppy & Junior Сухой корм с форелью, рисом и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-puppy-junior-suhoj-korm-s-forelyu-risom-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge Bwild Puppy & Junior Сухой корм с уткой и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-puppy-junior-suhoj-korm-s-utokoj-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 4650
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ-կիլոգրամով",
+     "list_price": 3550
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար",
+     "list_price": 46500
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար-2",
+     "list_price": 3200
+    },
+    {
+     "name": "Ձողիկներ շների համար՝ MONGE GIFT, գառ/անիսոն, Grain Free, Mini Puppy & Junior",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-գառանիսոն-grain-free-mini-puppy-junior",
+     "list_price": 1500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1663,
+  "product_id": 1153,
+  "brand": "Monge",
+  "product": "Monge Mini Puppy & Junior",
+  "variant_label": "Salmon & Rice 15 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "15 kg",
+  "sku": "005937",
+  "ean": "8009470005937",
+  "register_name_hy": "Կեր շների  MONGE MINI  PUPPY/JUN. սաղմոն, 15կգ",
+  "xlsx_name_en": "Mini Puppy & Junior — Salmon & Rice 15 kg",
+  "siruk_price": 50000,
+  "siruk_url": "https://siruk.am/product/monge-mini-puppy-junior/dp/1663/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-mini-puppy-junior-salmon-15-kg",
+   "row_name": "Կեր շների  MONGE MINI  PUPPY/JUN. սաղմոն, 15կգ",
+   "sku": "005937",
+   "price": 50000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg-5447",
+     "list_price": 46500
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с ягненком и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-yagnenkom-i-risom-dlya-shchenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg-5448",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge Mini Puppy Junior սալմոն, 15 կգ",
+     "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-15-կգ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ-կիլոգրամով",
+     "list_price": 3550
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար",
+     "list_price": 46500
+    },
+    {
+     "name": "Կեր շների համար-Monge mini puppy/junior (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-mini-puppy-մինի-ձագերի-և-կրտսերների-համար-2",
+     "list_price": 3200
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1665,
+  "product_id": 1154,
+  "brand": "Monge",
+  "product": "Monge Mini Starter",
+  "variant_label": "Chicken 15 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "15 kg",
+  "sku": "MG006087",
+  "ean": "8009470006088",
+  "register_name_hy": "Կեր շների MONGE MINI STARTER 15կգ",
+  "xlsx_name_en": "Mini Starter — Chicken 15 kg",
+  "siruk_price": 54000,
+  "siruk_url": "https://siruk.am/product/monge-mini-starter/dp/1665/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-mini-starter",
+   "row_name": "Կեր շների MONGE MINI STARTER 15կգ",
+   "sku": "MG 006087",
+   "price": 54000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Mini Starter Сухой корм с курицей для щенков мелких пород до 2 месяцев, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-starter-suhoj-korm-s-kuritsej-dlya-schenkov-melkih-porod-do-2-mesyatsev-upakovka-15-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge Mini Starter Сухой корм с курицей для щенков мелких пород до 2 месяцев, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-starter-suhoj-korm-s-kuritsej-dlya-schenkov-melkih-porod-do-2-mesyatsev-upakovka-15-kg-5582",
+     "list_price": 54000
+    },
+    {
+     "name": "Monge Medium Starter Сухой корм с курицей и рисом для щенков средних пород и беременных собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-starter-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-i-beremennyh-sobak-upakovka-15-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge Mini Adult Сухой корм с курицей и рисом для собак мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-kuritsej-i-risom-dlya-sobak-melkih-porod-upakovka-15-kg",
+     "list_price": 3000
+    },
+    {
+     "name": "Monge Mini Adult Сухой корм с лососем и рисом для взрослых собак мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-melkih-porod-upakovka-15-kg-5586",
+     "list_price": 49000
+    },
+    {
+     "name": "Monge Mini Adult Сухой корм с лососем и рисом для взрослых собак мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-melkih-porod-upakovka-15-kg",
+     "list_price": 3500
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge Mini Adult գառան մսով չոր կեր (15 կգ)",
+     "url": "https://www.nemo.am/monge-mini-adult-agnello-գառան-մսով-չոր-կեր",
+     "list_price": 49000
+    },
+    {
+     "name": "Monge Mini Puppy Junior սալմոն, 15 կգ",
+     "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-15-կգ",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Grain Free Mini Adult բադի մսով և կարտոֆիլով (15 կգ)",
+     "url": "https://www.nemo.am/monge-green-free",
+     "list_price": 60000
+    },
+    {
+     "name": "Monge Mini Adult Սաղմոն և բրինձ (15 կգ)",
+     "url": "https://www.nemo.am/monge-mini-adult-սաղմոն-և-բրինձ",
+     "list_price": 49000
+    },
+    {
+     "name": "Monge Mini Starter- Ձագերի և Մայրերի համար",
+     "url": "https://www.nemo.am/monge-mini-starter-ձագերի-և-մայրերի-համար",
+     "list_price": 54000
+    },
+    {
+     "name": "Monge Mini Starter- Ձագերի և Մայրերի համար (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-mini-starter-ձագերի-և-մայրերի-համար-2",
+     "list_price": 3800
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1666,
+  "product_id": 1154,
+  "brand": "Monge",
+  "product": "Monge Mini Starter",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken 15 kg",
+  "size": "1 kg",
+  "sku": "MG006087-KG",
+  "ean": "8009470006088",
+  "register_name_hy": "Կեր շների MONGE MINI STARTER 15կգ",
+  "xlsx_name_en": "Mini Starter — Chicken 15 kg",
+  "siruk_price": 3800,
+  "siruk_url": "https://siruk.am/product/monge-mini-starter/dp/1666/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-mini-starter",
+   "row_name": "Կեր շների MONGE MINI STARTER 15կգ",
+   "sku": "MG 006087",
+   "price": 3800
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Mini Starter Сухой корм с курицей для щенков мелких пород до 2 месяцев, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-starter-suhoj-korm-s-kuritsej-dlya-schenkov-melkih-porod-do-2-mesyatsev-upakovka-15-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge Medium Starter Сухой корм с курицей и рисом для щенков средних пород и беременных собак, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-starter-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-i-beremennyh-sobak-upakovka-15-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge Mini Adult Сухой корм с курицей и рисом для собак мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-kuritsej-i-risom-dlya-sobak-melkih-porod-upakovka-15-kg",
+     "list_price": 3000
+    },
+    {
+     "name": "Monge Mini Adult Сухой корм с лососем и рисом для взрослых собак мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-melkih-porod-upakovka-15-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с лососем и рисом для щенков мелких пород, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-lososem-i-risom-dlya-schenkov-melkih-porod-na-razves-1-kg",
+     "list_price": 3550
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Monge Mini Starter- Ձագերի և Մայրերի համար",
+     "url": "https://www.nemo.am/monge-mini-starter-ձագերի-և-մայրերի-համար",
+     "list_price": 54000
+    },
+    {
+     "name": "Monge Mini Starter- Ձագերի և Մայրերի համար (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-mini-starter-ձագերի-և-մայրերի-համար-2",
+     "list_price": 3800
+    },
+    {
+     "name": "Monge Mini Starter, 1.5 կգ",
+     "url": "https://www.nemo.am/monge-mini-starter-15-կգ",
+     "list_price": 6200
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE Mini Adult, հավ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-mini-adult-հավբրինձ",
+     "list_price": 12800
+    },
+    {
+     "name": "Կեր շների համար՝ MONGE Mini Adult, հավ/բրինձ 800գ",
+     "url": "https://www.nemo.am/կեր-շների-համար-monge-mini-adult-հավբրինձ-800գ",
+     "list_price": 3850
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1667,
+  "product_id": 1155,
+  "brand": "Monge",
+  "product": "Monge Medium Puppy & Junior",
+  "variant_label": "Chicken 15 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "15 kg",
+  "sku": "MG006347",
+  "ean": "8009470006347",
+  "register_name_hy": "Կեր շների    MONGE  MEDIUM  Puppy & Junior 15կգ",
+  "xlsx_name_en": "Medium Puppy & Junior — Chicken 15 kg",
+  "siruk_price": 41000,
+  "siruk_url": "https://siruk.am/product/monge-medium-puppy-junior/dp/1667/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/medium-puppy-junior",
+   "row_name": "Կեր շների    MONGE  MEDIUM  Puppy & Junior 15կգ",
+   "sku": "MG 006347",
+   "price": 41000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Medium Puppy & Junior Сухой корм с курицей и рисом для щенков средних пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-upakovka-15-kg-5442",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Medium Puppy & Junior Сухой корм с курицей и рисом для щенков средних пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg-5448",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg-5447",
+     "list_price": 46500
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Ձողիկներ շների համար MONGE GIFT, խոզ/սատանայի ճանկ, Grain Free, Medium-Maxi Puppy & Junior",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-խոզսատանայի-ճանկ-grain-free-medium-maxi-puppy-junior",
+     "list_price": 2100
+    },
+    {
+     "name": "Monge All Breed Puppy/Junior, հորթի համով, 15 կգ",
+     "url": "https://www.nemo.am/monge-all-breed-puppyjunior-հորթի-համով-15-կգ",
+     "list_price": 42000
+    },
+    {
+     "name": "Monge Mini Puppy Junior սալմոն, 15 կգ",
+     "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-15-կգ",
+     "list_price": 50000
+    },
+    {
+     "name": "Monge Medium puppy & junior - Ձագերի և կրտսերների համար",
+     "url": "https://www.nemo.am/monge-medium-puppy",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Medium puppy & junior - Ձագերի և կրտսերների համար (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-medium-puppy-ձագերի-և-կրտսերների-համար",
+     "list_price": 2850
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1669,
+  "product_id": 1156,
+  "brand": "Monge",
+  "product": "Monge Maxi Puppy & Junior",
+  "variant_label": "Chicken 15 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "15 kg",
+  "sku": "MG006027",
+  "ean": "8009470006026",
+  "register_name_hy": "Կեր շների MONGE MAXI PUPPY/JUN. 15կգ",
+  "xlsx_name_en": "Maxi Puppy & Junior — Chicken 15 kg",
+  "siruk_price": 41000,
+  "siruk_url": "https://siruk.am/product/monge-maxi-puppy-junior/dp/1669/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/maxi-puppy-junior",
+   "row_name": "Կեր շների MONGE MAXI PUPPY/JUN. 15կգ",
+   "sku": "MG 006027",
+   "price": 41000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg-5448",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Medium Puppy & Junior Сухой корм с курицей и рисом для щенков средних пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-upakovka-15-kg-5442",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Medium Puppy & Junior Сухой корм с курицей и рисом для щенков средних пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg-5447",
+     "list_price": 46500
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR",
+     "url": "https://www.nemo.am/monge-maxi-puppy-junior-15կգ",
+     "list_price": 41000
+    },
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR(կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-1կգ",
+     "list_price": 2850
+    },
+    {
+     "name": "Ձողիկներ շների համար MONGE GIFT, խոզ/սատանայի ճանկ, Grain Free, Medium-Maxi Puppy & Junior",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-խոզսատանայի-ճանկ-grain-free-medium-maxi-puppy-junior",
+     "list_price": 2100
+    },
+    {
+     "name": "Gemon Maxi Puppy & Junior Չոր կեր (15 կգ)",
+     "url": "https://www.nemo.am/gemon-maxi-puppyjunior",
+     "list_price": 30000
+    },
+    {
+     "name": "Monge All Breed Puppy/Junior, հորթի համով, 15 կգ",
+     "url": "https://www.nemo.am/monge-all-breed-puppyjunior-հորթի-համով-15-կգ",
+     "list_price": 42000
+    },
+    {
+     "name": "Monge Mini Puppy Junior սալմոն, 15 կգ",
+     "url": "https://www.nemo.am/monge-mini-puppy-junior-սալմոն-15-կգ",
+     "list_price": 50000
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1670,
+  "product_id": 1156,
+  "brand": "Monge",
+  "product": "Monge Maxi Puppy & Junior",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken 15 kg",
+  "size": "1 kg",
+  "sku": "MG006027-KG",
+  "ean": "8009470006026",
+  "register_name_hy": "Կեր շների MONGE MAXI PUPPY/JUN. 15կգ",
+  "xlsx_name_en": "Maxi Puppy & Junior — Chicken 15 kg",
+  "siruk_price": 2850,
+  "siruk_url": "https://siruk.am/product/monge-maxi-puppy-junior/dp/1670/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/maxi-puppy-junior",
+   "row_name": "Կեր շների MONGE MAXI PUPPY/JUN. 15կգ",
+   "sku": "MG 006027",
+   "price": 2850
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge All Breeds Puppy & Junior Сухой корм с форелью, рисом и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-puppy-junior-suhoj-korm-s-forelyu-risom-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge Bwild Puppy & Junior Сухой корм с уткой и картофелем для щенков, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-bwild-puppy-junior-suhoj-korm-s-utokoj-i-kartofelem-dlya-schenkov-upakovka-12-kg",
+     "list_price": 4650
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg-5448",
+     "list_price": 41000
+    },
+    {
+     "name": "Monge Medium Puppy & Junior Сухой корм с курицей и рисом для щенков средних пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-medium-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-srednih-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Mini Puppy & Junior Сухой корм с курицей и рисом для щенков мелких пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-melkih-porod-upakovka-15-kg",
+     "list_price": 3300
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR",
+     "url": "https://www.nemo.am/monge-maxi-puppy-junior-15կգ",
+     "list_price": 41000
+    },
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR(կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-1կգ",
+     "list_price": 2850
+    },
+    {
+     "name": "Ձողիկներ շների համար MONGE GIFT, խոզ/սատանայի ճանկ, Grain Free, Medium-Maxi Puppy & Junior",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-խոզսատանայի-ճանկ-grain-free-medium-maxi-puppy-junior",
+     "list_price": 2100
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, MONOPROTEIN, գառ/բրինձ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-monoprotein-գառբրինձ",
+     "list_price": 30500
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ",
+     "list_price": 50000
+    },
+    {
+     "name": "Կեր շների ձագերի համար՝ MONGE MINI PUPPY/JUNIOR, գառ (կիլոգրամով)",
+     "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-monge-mini-puppyjunior-գառ-կիլոգրամով",
+     "list_price": 3550
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1671,
+  "product_id": 1157,
+  "brand": "Monge",
+  "product": "Monge Maxi Adult",
+  "variant_label": "Chicken 12 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "12 kg",
+  "sku": "004417",
+  "ean": "8009470004411",
+  "register_name_hy": "Կեր շների  MONGE    MAXI  ADULT   12կգ",
+  "xlsx_name_en": "Maxi Adult — Chicken 12 kg",
+  "siruk_price": 34000,
+  "siruk_url": "https://siruk.am/product/monge-maxi-adult/dp/1671/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-maxi-adult-12-kg",
+   "row_name": "Կեր շների  MONGE    MAXI  ADULT   12կգ",
+   "sku": "004417",
+   "price": 34000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Maxi Adult Сухой корм с курицей и рисом для взрослых собак крупных пород, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-adult-suhoj-korm-s-kuricej-i-risom-dlya-vzroslyh-sobak-krupnyh-porod-upakovka-12-kg",
+     "list_price": 33000
+    },
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с индейкой, рисом и картофелем для взрослых собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-indejkoj-risom-i-kartofelem-dlya-vzroslyh-sobak-upakovka-12-kg",
+     "list_price": 3700
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg-5583",
+     "list_price": 44000
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с кроликом, рисом и картофелем для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-krolikom-risom-i-kartofelem-dlya-sobak-upakovka-12-kg",
+     "list_price": 3900
+    },
+    {
+     "name": "Monge All Breeds Adult Сухой корм с лососем и рисом для взрослых собак, упаковка 12 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-upakovka-12-kg-5652",
+     "list_price": 44000
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների MONGE MAXI ADULT 12կգ",
+     "url": "https://www.nemo.am/կեր-շների-monge-maxi-adult-12կգ",
+     "list_price": 34000
+    },
+    {
+     "name": "Monge All Breed Adult, չոր կեր շների համար, ճագար/բրինձ/կարտոֆիլ, 12կգ",
+     "url": "https://www.nemo.am/monge-all-breed-adult-չոր-կեր-շների-համար-ճագարբրինձկարտոֆիլ-12կգ",
+     "list_price": 44000
+    },
+    {
+     "name": "Կեր շների MONGE MAXI ADULT",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար",
+     "list_price": 38500
+    },
+    {
+     "name": "Կեր շների MONGE MAXI ADULT (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-կիլոգրամով",
+     "list_price": 2700
+    },
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR",
+     "url": "https://www.nemo.am/monge-maxi-puppy-junior-15կգ",
+     "list_price": 41000
+    },
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR(կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-1կգ",
+     "list_price": 2850
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1672,
+  "product_id": 1157,
+  "brand": "Monge",
+  "product": "Monge Maxi Adult",
+  "variant_label": "1 kg",
+  "kind": "1 kg",
+  "bag_label": "Chicken 12 kg",
+  "size": "1 kg",
+  "sku": "004417-KG",
+  "ean": "8009470004411",
+  "register_name_hy": "Կեր շների  MONGE    MAXI  ADULT   12կգ",
+  "xlsx_name_en": "Maxi Adult — Chicken 12 kg",
+  "siruk_price": 2700,
+  "siruk_url": "https://siruk.am/product/monge-maxi-adult/dp/1672/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/monge-maxi-adult-12-kg",
+   "row_name": "Կեր շների  MONGE    MAXI  ADULT   12կգ",
+   "sku": "004417",
+   "price": 2700
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Monge Maxi Adult Сухой корм с курицей и рисом для взрослых собак крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-adult-suhoj-korm-s-kuritsej-i-risom-dlya-vzroslyh-sobak-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2800
+    },
+    {
+     "name": "Monge Maxi Adult Сухой корм с курицей и рисом для на развес собак крупных пород, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-adult-suhoj-korm-s-kuritsej-i-risom-dlya-na-razves-sobak-krupnyh-porod-na-razves-1-kg",
+     "list_price": 2800
+    },
+    {
+     "name": "Monge Maxi Puppy & Junior Сухой корм с курицей и рисом для щенков крупных пород, упаковка 15 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-maxi-puppy-junior-suhoj-korm-s-kuritsej-i-risom-dlya-schenkov-krupnyh-porod-upakovka-15-kg",
+     "list_price": 2950
+    },
+    {
+     "name": "Monge Adult Сухой корм с кроликом для кошек, упаковка 10 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-adult-suhoj-korm-s-krolikom-dlya-koshek-upakovka-10-kg",
+     "list_price": 4200
+    },
+    {
+     "name": "Monge Adult Сухой корм с курицей и рисом для кошек, упаковка 10 кг, на развес 1 кг",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/monge-adult-suhoj-korm-s-kuritsej-i-risom-dlya-koshek-upakovka-10-kg",
+     "list_price": 3350
+    },
+    {
+     "name": "Monge All Breeds Adult Active Сухой корм с курицей для собак, упаковка 12 кг, на развес 1 кг",
+     "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-all-breeds-adult-active-suhoj-korm-s-kuritsej-dlya-sobak-upakovka-12-kg",
+     "list_price": 3500
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Կեր շների MONGE MAXI ADULT 12կգ",
+     "url": "https://www.nemo.am/կեր-շների-monge-maxi-adult-12կգ",
+     "list_price": 34000
+    },
+    {
+     "name": "Կեր շների MONGE MAXI ADULT",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար",
+     "list_price": 38500
+    },
+    {
+     "name": "Կեր շների MONGE MAXI ADULT (կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-կիլոգրամով",
+     "list_price": 2700
+    },
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR",
+     "url": "https://www.nemo.am/monge-maxi-puppy-junior-15կգ",
+     "list_price": 41000
+    },
+    {
+     "name": "Կեր շների MONGE MAXI PUPPY/JUNIOR(կիլոգրամով)",
+     "url": "https://www.nemo.am/monge-maxi-adult-մաքսի-մեծերի-համար-1կգ",
+     "list_price": 2850
+    },
+    {
+     "name": "Ձողիկներ շների համար MONGE GIFT, բադ/անանուխ, Grain Free, Medium-Maxi Adult",
+     "url": "https://www.nemo.am/ձողիկներ-շների-համար-monge-gift-բադանանուխ-grain-free-medium-maxi-adult",
+     "list_price": 2950
+    }
+   ]
+  }
+ }
+]

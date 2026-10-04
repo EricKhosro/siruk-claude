@@ -1,0 +1,471 @@
+[
+ {
+  "sku": "25622",
+  "zoovet": {
+   "name": "Trixie Зубная щётка с 3 головками",
+   "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/uhod-za-zubami/trixie-zubnaya-schetka-s-3-golovkami",
+   "price_regular": 1250,
+   "price_sale": null,
+   "in_stock": false,
+   "evidence": "Trixie 3-headed toothbrush; photo shows white 3-head brush with grey handle = our white/grey; page gives no length (18 cm not stated) and no article on photo - moderate confidence. Listed out of stock."
+  },
+  "zoovet_reason": "matched",
+  "nemo": null,
+  "nemo_reason": "nemo's 'Ատամի խոզանակ' items are 6 cm finger/massage brushes - no 3-headed toothbrush"
+ },
+ {
+  "sku": "45554",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo 'Trixie, փափուկ բարձիկներ՝ կենդանիների կերպարներով' is 10 cm (ours 11 cm), 1800 AMD - size differs, not matched"
+ },
+ {
+  "sku": "33452",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo Aqua Toy items are a turtle 20 cm, a 6x40 cm toy, rope rings and rope balls - no Aqua Toy disc ø20 cm"
+ },
+ {
+  "sku": "25063",
+  "zoovet": null,
+  "zoovet_reason": "zoovet has only the white 0.4 l/17 cm melamine bowl; no cream variant",
+  "nemo": null,
+  "nemo_reason": "nemo lists the melamine bowl only in white"
+ },
+ {
+  "sku": "25060",
+  "zoovet": null,
+  "zoovet_reason": "zoovet has only the 0.4 l/17 cm size of this bowl (no 0.2 l/14 cm)",
+  "nemo": {
+   "name": "Կերաման՝ մելամինապատ (Սպիտակ 0,2 լ, 14 սմ)",
+   "url": "https://www.nemo.am/կերաման-մելամինապատ",
+   "price_regular": 3150,
+   "price_sale": null,
+   "in_stock": true,
+   "evidence": "Melamine bowl with steel insert, white, 0.2 l / 14 cm; part of a white 0.2/0.4/0.8 l - 14/17/22 cm series = our 25060/25061/25062; photo same design as zoovet's Trixie 0.4 l bowl. DOUBT: nemo also lists a shallow 'Մելամինապատ կերաման՝ ռետինե տակով' 0.2 l/14 cm white at 2550 (shallow cat-bowl shape) - the deep one was chosen because it belongs to the matching 3-size series."
+  },
+  "nemo_reason": "matched"
+ },
+ {
+  "sku": "25065",
+  "zoovet": null,
+  "zoovet_reason": "zoovet has only the white 0.4 l/17 cm melamine bowl; no cream 0.8 l",
+  "nemo": null,
+  "nemo_reason": "nemo lists the melamine bowl only in white"
+ },
+ {
+  "sku": "25062",
+  "zoovet": null,
+  "zoovet_reason": "zoovet has only the 0.4 l/17 cm size of this bowl (no 0.8 l/22 cm)",
+  "nemo": {
+   "name": "Կերաման՝ մելամինապատ (Սպիտակ 0,8 լ, 22 սմ)",
+   "url": "https://www.nemo.am/կերաման-մելամինապատ-3",
+   "price_regular": 6800,
+   "price_sale": null,
+   "in_stock": true,
+   "evidence": "Melamine bowl with steel insert, white, 0.8 l / 22 cm (same series as the 0.2/0.4 l items). All axes match; no article on photo."
+  },
+  "nemo_reason": "matched"
+ },
+ {
+  "sku": "17541",
+  "zoovet": null,
+  "zoovet_reason": "zoovet's BE NORDIC collars are the wide cotton ones (M-L 40-60 cm, S-M 32-45 cm), not the leather collar",
+  "nemo": null,
+  "nemo_reason": "nemo BE NORDIC leather collar only in S (35-41 cm/15 mm, sand/grey) and M (45-51 cm/20 mm, sand) - no L 50-56 cm/25 mm"
+ },
+ {
+  "sku": "17550",
+  "zoovet": null,
+  "zoovet_reason": "zoovet's BE NORDIC collars are the wide cotton ones, not the leather collar",
+  "nemo": null,
+  "nemo_reason": "nemo BE NORDIC leather collar only in S and M sizes - no L-XL 55-61 cm/30 mm light grey"
+ },
+ {
+  "sku": "17520",
+  "zoovet": null,
+  "zoovet_reason": "zoovet's BE NORDIC collars are the wide cotton ones, not the leather collar",
+  "nemo": null,
+  "nemo_reason": "nemo BE NORDIC leather collar only S (35-41 cm/15 mm) and M (45-51 cm/20 mm, sand) - no S-M 40-46 cm/20 mm light grey"
+ },
+ {
+  "sku": "22856",
+  "zoovet": null,
+  "zoovet_reason": "zoovet bag dispensers are a grey nylon one with belt and a black neoprene one with carabiner - not the BE NORDIC sand dispenser",
+  "nemo": null,
+  "nemo_reason": "nemo's bag dispensers (self-adhesive red/black nylon, carabiner, belt) are not the BE NORDIC sand one"
+ },
+ {
+  "sku": "4099",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": {
+   "name": "Գնդակների և թմբուկների տեսականի կատուների համար",
+   "url": "https://www.nemo.am/գնդակների-և-թմբուկների-տեսականի-կատուների-համար",
+   "price_regular": 300,
+   "price_sale": null,
+   "in_stock": true,
+   "evidence": "Assortment of plastic balls and rolls with bell, 4.5 cm (desc); photo = Trixie ball & roll display; listed on nemo's /trixie brand page. Per-piece price."
+  },
+  "nemo_reason": "matched"
+ },
+ {
+  "sku": "41592",
+  "zoovet": null,
+  "zoovet_reason": "zoovet 'Ошейник регулируемый с колокольчиком для кошек' (1600) shows a navy SKULL-pattern collar, not Batik purple/blue - rejected (state/import-sources.json links this page; that link looks wrong)",
+  "nemo": null,
+  "nemo_reason": "nemo's Trixie cat collars with bell are striped elastic ones (photo) and others - no Batik purple/blue"
+ },
+ {
+  "sku": "45664",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo cat bear toy is 10 cm jute/polyester with foil; no 8 cm Bear"
+ },
+ {
+  "sku": "25187",
+  "zoovet": null,
+  "zoovet_reason": "zoovet has no melamine/steel 2-bowl set",
+  "nemo": null,
+  "nemo_reason": "nemo 'Մելամինապատ երկտեղանոց կերաման' is 2 x 0.4 l; ours is 2 x 0.2 l - size differs"
+ },
+ {
+  "sku": "4222",
+  "zoovet": null,
+  "zoovet_reason": "zoovet only has Trixie Malt Paste 100 g (different size; out of stock); no 240 g Cat Malt",
+  "nemo": null,
+  "nemo_reason": "nemo 'Մածուկ (ածիկ) կատուների համար' is 100 g; no 240 g Cat Malt"
+ },
+ {
+  "sku": "46021",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "41345",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": {
+   "name": "«Catch the Balls» խաղալիք կատուների համար",
+   "url": "https://www.nemo.am/catch-the-balls-խաղալիք-կատուների-համար",
+   "price_regular": 6500,
+   "price_sale": 5950,
+   "in_stock": true,
+   "evidence": "Catch the Balls 3-tier ball track, size 25/13 cm (desc) = our ø25 x 13 cm; photo is the Trixie packshot. Struck old price 6500, current 5950."
+  },
+  "nemo_reason": "matched"
+ },
+ {
+  "sku": "1971719",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1971816",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1971516",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1971416",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1970601",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1970519",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1970401",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1969719",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1969716",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1969616",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "1970119",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle lead is S-M 1.20 m/13 mm black; ours is M-L 1.00 m/20 mm light grey"
+ },
+ {
+  "sku": "2073501",
+  "zoovet": null,
+  "zoovet_reason": "no CityStyle collars/harnesses/leads on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo CityStyle items are cat toys, a treat bag, a carrier and one lead - no CityStyle collar/harness/tracking lead"
+ },
+ {
+  "sku": "40187",
+  "zoovet": null,
+  "zoovet_reason": "zoovet only has 'Туалет Carlo с бортом серый, 37 x 15 x 47 см' - different line (Carlo) and colour (grey) from our Classic purple/white; rejected (reference/zoovet.md cites this exact false match, yet state/import-sources.json still links it)",
+  "nemo": null,
+  "nemo_reason": "DOUBTFUL candidate, not matched: nemo 'Զուգարան կատուների համար՝ Classic, մուգ վարդագույն' 37x15x47 cm (4650, struck 5500) - photo is a plum/berry tray with white rim; nemo calls it dark pink, ours is purple/white; colour naming conflicts, no article visible"
+ },
+ {
+  "sku": "23771",
+  "zoovet": null,
+  "zoovet_reason": "zoovet's Trixie dematting combs are 7 x 18 cm 'колтунорез' tools, not the 22 cm fine-tooth coat untangler",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "23763",
+  "zoovet": null,
+  "zoovet_reason": "no 22 cm fine-tooth comb on zoovet",
+  "nemo": null,
+  "nemo_reason": "nemo 'Կարճ ատամներով սանր' 22 cm is black with an orange ring (photo); ours is dark grey/blue - colour differs"
+ },
+ {
+  "sku": "35991",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo latex cows are 19 cm and 18 cm (the 18 cm listing's photo is a boar) - no 17 cm cow"
+ },
+ {
+  "sku": "40570",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "25764",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "23635",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo has female-dog diapers only in XL; ours is L"
+ },
+ {
+  "sku": "23640",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo has male-dog diapers only in L-XL; ours is XS"
+ },
+ {
+  "sku": "23472",
+  "zoovet": null,
+  "zoovet_reason": "zoovet bag packs are colourful #22840 (art. printed on pack photo), black, lemon, rose, lavender or a biodegradable 1 x 100 roll - none is the green 4 x 20 pack",
+  "nemo": null,
+  "nemo_reason": "nemo bag packs are Trixie #23470 compostable 4 x 10 (article on pack photo), a colourful 4 x 20 (#22840 design) and a black one - none is the green 4 x 20"
+ },
+ {
+  "sku": "19524",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo rubberised dog socks are L-XL (5400) and XL (5500); ours is L - size differs"
+ },
+ {
+  "sku": "361004",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo 'Խաղալիք շուն (պարանով)' is 30 cm; ours is 27 cm"
+ },
+ {
+  "sku": "35894",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo 'Խաղալիք շուն (պարանով)' is 30 cm; ours is 32 cm"
+ },
+ {
+  "sku": "23650",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "20725",
+  "zoovet": null,
+  "zoovet_reason": "zoovet only has Easy Life M-XL, 5 m/17 mm, blue - our S-M, 5 m/13 mm neon yellow is a different size/colour",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "36133",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo Trixie elephants are 11, 13, 30, 36 and 50 cm - none 42 cm with rope inside"
+ },
+ {
+  "sku": "35969",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": {
+   "name": "Փափուկ խաղալիք ֆլամինգո",
+   "url": "https://www.nemo.am/փափուկ-խաղալիք-ֆլամինգո",
+   "price_regular": 3600,
+   "price_sale": null,
+   "in_stock": true,
+   "evidence": "Plush flamingo dog toy with squeaker, 35 cm (desc) = our 35 cm; photo is the Trixie flamingo packshot. No article on photo."
+  },
+  "nemo_reason": "matched"
+ },
+ {
+  "sku": "361011",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo has only a latex frog 18 cm and a dental frog - no 44 cm plush frog"
+ },
+ {
+  "sku": "19004",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "23394",
+  "zoovet": null,
+  "zoovet_reason": "zoovet only has a single massage glove 18 x 24 cm (out of stock); ours is the nylon/rubber pair 16 x 23 cm",
+  "nemo": null,
+  "nemo_reason": "nemo gloves are single 18 x 24 cm mesh gloves - not the nylon/rubber pair"
+ },
+ {
+  "sku": "33545",
+  "zoovet": null,
+  "zoovet_reason": "zoovet only has the Be Eco ball on rope 6 x 13 cm; no TPE honeycomb ball 6 x 23 cm",
+  "nemo": null,
+  "nemo_reason": "no matching item on nemo (Trixie listing of 1008 + Armenian/Latin keyword searches checked)"
+ },
+ {
+  "sku": "4161",
+  "zoovet": null,
+  "zoovet_reason": "zoovet's only Trixie tag is a silver bone-shaped tag 3.5 x 2 cm, not the purple I.D. tag",
+  "nemo": null,
+  "nemo_reason": "nemo address tags (metal 600 AMD, orange paw, bone, etc.) - none identifiable as the purple Trixie I.D. tag"
+ },
+ {
+  "sku": "40472",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "DOUBTFUL, not matched: nemo 'Շերեփ կատուների լցանյութի համար L' (1050) - title fits our plain L but its description says 'with mesh' (our 40471); cannot tell which article"
+ },
+ {
+  "sku": "40471",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "DOUBTFUL, not matched: nemo's only L scoop (1050) is ambiguous between our L (40472) and L with mesh (40471)"
+ },
+ {
+  "sku": "4049",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": null,
+  "nemo_reason": "nemo has no M plastic scoop of this line"
+ },
+ {
+  "sku": "40531",
+  "zoovet": null,
+  "zoovet_reason": "no Trixie item of this type/line/size on zoovet (whole Trixie brand list of 354 + Russian keyword searches checked)",
+  "nemo": {
+   "name": "Շերեփ կատուների լցանյութի համար` ցանցով XL",
+   "url": "https://www.nemo.am/շերեփ-կատուների-լցանյութի-համար-ցանցով-xl",
+   "price_regular": 1500,
+   "price_sale": null,
+   "in_stock": true,
+   "evidence": "Plastic litter scoop with mesh, XL - wording matches our supplier name 'Պլաստիկ շերեփ ... ցանցով XL'; photo is a slotted scoop with bag hook. No brand/article on page - moderate confidence."
+  },
+  "nemo_reason": "matched"
+ },
+ {
+  "sku": "40211",
+  "zoovet": null,
+  "zoovet_reason": "zoovet 'Туалет Carlo с бортом серый, 31 x 14 x 43 см' is grey/light grey; ours is anthracite/grey-green - colour differs",
+  "nemo": null,
+  "nemo_reason": "nemo 'Carlo կատուների զուգարան (բաց մոխրագույն)' 31x14x43 cm is light grey; ours is anthracite/grey-green - colour differs"
+ },
+ {
+  "sku": "31846",
+  "zoovet": null,
+  "zoovet_reason": "zoovet's 75 g Trixie pastes are the cat Poultry Pâté (pack photo shows Art.-Nr. 42728) and Leber Wurst for cats - not the dog Liver Pâté with hemp; rejected (state/import-sources.json links the 42728 page - wrong)",
+  "nemo": null,
+  "nemo_reason": "nemo 'Trixie, ոլոռի համով պաշտետ' 75 g is Veggie-Creme (pack photo shows #31845), not our 31846 liver pâté with hemp; nemo's dog PREMIO liver pâté is 110 g / 300 g"
+ },
+ {
+  "sku": "25061",
+  "zoovet": {
+   "name": "Trixie Миска металлическая с подставкой из меламина, 0.4 л, 17 см",
+   "url": "https://zoovet.am/sobaki/miski-kormushki-i-poilki-1/miski/trixie-miska-metallicheskaya-s-podstavkoj-iz-melamina-0-4-l-17-sm",
+   "price_regular": 4950,
+   "price_sale": null,
+   "in_stock": true,
+   "evidence": "Trixie melamine bowl with stainless-steel insert, 0.4 l / 17 cm, colour white (spec row), photos = ribbed white melamine bowl with steel insert; all axes match. No article on photo."
+  },
+  "zoovet_reason": "matched",
+  "nemo": {
+   "name": "Կերաման՝ մելամինապատ (Սպիտակ 0,4 լ, 17սմ)",
+   "url": "https://www.nemo.am/կերաման-մելամինապատ-2",
+   "price_regular": 4400,
+   "price_sale": null,
+   "in_stock": true,
+   "evidence": "Melamine bowl with steel insert, white, 0.4 l / 17 cm; same product photo/design as zoovet's Trixie 0.4 l/17 cm white melamine bowl. All axes match; no article on photo."
+  },
+  "nemo_reason": "matched"
+ }
+]

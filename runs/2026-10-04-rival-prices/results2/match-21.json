@@ -1,0 +1,306 @@
+{
+ "results": [
+  {
+   "variant_id": 895,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club Ошейник от блох и клещей для собак средних пород, 65 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-oshejnik-ot-bloh-i-kleschej-dlya-sobak-srednih-porod-65-sm",
+    "price": 4200,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page today: 4200 AMD, no old price, 'В наличии · 1 шт' (ME-00001473). Pack photo: Rolf Club 3D collar 'для средних собак', 'Длина 65 см'. Not the out-of-stock 'Ошейник против блох, клещей и вшей для собак, 65 см' (2550 AMD, ME-00002684): its photo is the Rolf Club premium ivermectin collar, another line."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf Club միջին շների վզկապ տզերի և լվերի դեմ",
+    "url": "https://www.nemo.am/rolf-club-միջին-շների-վզկապ-տզերի-և-լվերի-դեմ",
+    "price": 4170,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 4170 AMD, no old price, manufacturer Rolf Club, page shows 'Առկայությունը: Առկա չէ' (out of stock). Description: Rolf Club 3D collar for medium-size dogs, '65 սմ'. Same title as hafo's row for SKU 071582."
+   }
+  },
+  {
+   "variant_id": 1421,
+   "confidence": "medium",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club Ошейник против блох, клещей и вшей для собак крупных пород, 65 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-oshejnik-protiv-bloh-kleschej-i-vshej-dlya-sobak-krupnyh-porod-65-sm",
+    "price": 5100,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page today: 5100 AMD, no old price, 'Нет в наличии' (ME-00002683). The pack photo is the Rolf Club 3D collar 'для крупных собак', 'Длина 75 см', our item. The page name says '65 см', which contradicts the photo. zoovet has no other Rolf collar for large dogs."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf Club խոշոր շների վզկապ տզերի և լվերի դեմ",
+    "url": "https://www.nemo.am/rolf-club-խոշոր-շների-վզկապ-տզերի-և-լվերի-դեմ-2",
+    "price": 5090,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 5090 AMD, no old price, no 'Առկա չէ' (in stock). Description: Rolf Club 3D collar for large dogs, '75 սմ'. Same title as hafo's row for SKU 072092."
+   },
+   "notes": "zoovet's name says 65 cm but its photo shows the 75 cm 3D large-dog collar. Its 5100 price fits the 75 cm item (hafo 5090), not the 65 cm one (4200)."
+  },
+  {
+   "variant_id": 1422,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club Ошейник от блох и клещей для щенков и собак, 40 см",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-oshejnik-ot-bloh-i-kleschej-dlya-schenkov-i-sobak-40-sm",
+    "price": 3650,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page today: 3650 AMD, no old price, 'В наличии · 1 шт' (ME-00001472). Pack photo: Rolf Club 3D collar 'для мелких собак и щенков', 'Длина 40 см'. Not the kitten collar 'для котят, 40 см'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf Club փոքր շների և ձագերի վզկապ տզերի և լվերի դեմ",
+    "url": "https://www.nemo.am/rolf-club-փոքր-շների-և-ձագերի-վզկապ-տզերի-և-լվերի-դեմ",
+    "price": 3640,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 3640 AMD, no old price, in stock. Description: 'Չափսը՝ 40սմ', Rolf Club 3D collar for small dogs and puppies. Same title as hafo's row for SKU 071622. Not the cat or kitten 40 cm collars."
+   }
+  },
+  {
+   "variant_id": 898,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club Капли от блох и клещей для собак (4-10 кг), (упаковка 1 пип)",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-kapli-ot-bloh-i-kleschej-dlya-sobak-4-10-kg-upakovka-1-pip",
+    "price": 2900,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page today: 2900 AMD, no old price, 'Нет в наличии' (ME-00002680). Photo: a single-pipette Rolf Club 3D pack 'для собак 4-10 кг'. Not the '(упаковка 3 пип), поштучно' listing (3050 AMD, ME-00000714, in stock): that one sells a loose pipette out of a 3-pipette box, not our 1-pipette box (EAN 4607092071831)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf Club կաթիլներ տզերի և լվերի դեմ շների համար (4-10 կգ)",
+    "url": "https://www.nemo.am/rolf-club-կաթիլներ-տզերի-և-լվերի-դեմ-շների-համար-4-10-կգ",
+    "price": 3790,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 3790 AMD, no old price, manufacturer Rolf Club, in stock. Description: Rolf Club 3D drops, 'for 4-10 kg dogs'. Photo: a single-pipette pack. Not nemo's '(3 կաթիլ)' 3-pipette box at 9100 AMD, which is out of stock."
+   }
+  },
+  {
+   "variant_id": 1407,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club 3D Капли от блох и клещей для собак (10-20 кг), (упаковка 1 пип)",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-3d-kapli-ot-bloh-i-kleschej-dlya-sobak-10-20-kg-upakovka-1-pip",
+    "price": 4600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page today: 4600 AMD, no old price, 'Нет в наличии' (ME-00003358). Photo: a single-pipette Rolf Club 3D pack 'для собак 10-20 кг'. Not the '(упаковка 3 пип), поштучно' listing (3700 AMD), which sells a loose pipette from a 3-pipette box."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf Club կաթիլներ տզերի և լվերի դեմ շների համար (10-20 կգ)",
+    "url": "https://www.nemo.am/rolf-club-կաթիլներ-տզերի-և-լվերի-դեմ-շների-համար-10-20-կգ",
+    "price": 4590,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 4590 AMD, no old price, manufacturer Rolf Club, in stock. Description: Rolf Club 3D drops, '10-20 կգ շների համար: 1 հատ'. Not nemo's 3-pipette box at 11000 AMD."
+   }
+  },
+  {
+   "variant_id": 1408,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club 3D Капли от блох и клещей для собак (40-60 кг), (упаковка 1 пип)",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-3d-kapli-ot-bloh-i-kleschej-dlya-sobak-40-60-kg-upakovka-1-pip",
+    "price": 5950,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page today: 5950 AMD, no old price, 'Нет в наличии' (ME-00003360). Photo: a single-pipette Rolf Club 3D pack 'для собак 40-60 кг'. Not the '(упаковка 3 пип), поштучно' listing (4750 AMD), which sells a loose pipette from a 3-pipette box."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf Club կաթիլներ տզերի և լվերի դեմ շների համար (40-60 կգ)",
+    "url": "https://www.nemo.am/rolf-club-կաթիլներ-տզերի-և-լվերի-դեմ-շների-համար-40-60-կգ",
+    "price": 5930,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 5930 AMD, no old price, manufacturer Rolf Club, in stock. Description: Rolf Club 3D drops, 'for 40-60 kg dogs'. Photo: a single-pipette 3D pack for 40-60 kg."
+   }
+  },
+  {
+   "variant_id": 901,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no 1-pipette Rolf Club 3D cat pack up to 4 kg. Nearest: 'Rolf Club Капли от блох и клещей для кошек (до 4 кг), (упаковка 3 пип), поштучно' (2250 AMD, ME-00000766, in stock), https://zoovet.am/koshki/veterinarnaya-apteka/protiv-bloh-i-kleshchej-1/rolf-club-kapli-ot-bloh-i-kleschej-dlya-koshek-do-4-kg-upakovka-3-pip-poshtuchno. Its photo is the 3-pipette box ('3 тюбик-пипетки'), sold one pipette at a time, not our 1-pipette pack (EAN 4607092071862). The '(до 4 кг), (упаковка 1 пип)' listing is for dogs, not cats."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf 3D կաթիլներ կատուների համար՝ տզերի և ոջիլների դեմ (մինչև 4 կգ)",
+    "url": "https://www.nemo.am/կաթիլներ-մինչև-4կգ-կատուների-համար-միջատների-դեմ",
+    "price": 2760,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 2760 AMD, no old price, manufacturer Rolf Club, in stock. Description: Rolf Club 3D drops for cats, 'Մինչև 4կգ կատուների համար'. Photo: a single-pipette 3D pack 'для кошек до 4 кг'. Same title as hafo's row for SKU 071862."
+   }
+  },
+  {
+   "variant_id": 903,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club Спрей от блох и клещей для собак, 200 мл",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-sprej-ot-bloh-i-kleschej-dlya-sobak-200-ml",
+    "price": 6100,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page today: 6100 AMD, no old price, 'Нет в наличии' (ME-00000284). Photo: Rolf Club 3D spray bottle with a dog. The name gives 200 ml, for dogs."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Rolf Club սփրեյ տզերի և լվերի դեմ շների համար (200 մլ)",
+    "url": "https://www.nemo.am/rolf-club-սփրեյ-տզերի-և-լվերի-դեմ-շների-համար-200-մլ",
+    "price": 6060,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 6060 AMD, no old price, manufacturer Rolf Club, in stock. Description: Rolf Club 3D spray for dogs, 'Չափս՝ 200 մլ'."
+   }
+  },
+  {
+   "variant_id": 904,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no SexControl tablets or oral drops for cats: its whole 'Секс Контроль' list is 'Секс Контроль Капли для регуляции половой охоты для собак, 5 мл' (2200 AMD, oral drops for dogs) and 'Секс Контроль Капли на холку ... для кошек, 1 шт, 3 мл' (2800 AMD; photo = СексКонтроль СПОТ-ОН, a spot-on). 'КонтрСекс NEO Таблетки ... для котов и кобелей (упаковка 10 шт)' is a different brand (КонтрСекс). Searches 'секс', 'сексконтроль', 'регуляции', 'мегестрол', 'таблетки кошек|котов' found nothing else."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«СексКонтроль» հաբեր էգ կատուների համար (10 հաբ)",
+    "url": "https://www.nemo.am/сексконтроль-հաբեր-էգ-կատուների-համար-10-հաբ",
+    "price": 1340,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 1340 AMD, no old price, manufacturer Rolf Club, in stock. Description says '10 հաբ'. Photo: the pink box 'СексКонтроль-К таблетки для задержки и прерывания течки у кошек', for female cats. Same title as hafo's row for SKU 070932."
+   }
+  },
+  {
+   "variant_id": 905,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no SexControl tablets or oral drops for cats: its whole 'Секс Контроль' list is 'Секс Контроль Капли для регуляции половой охоты для собак, 5 мл' (2200 AMD, oral drops for dogs) and 'Секс Контроль Капли на холку ... для кошек, 1 шт, 3 мл' (2800 AMD; photo = СексКонтроль СПОТ-ОН, a spot-on). 'КонтрСекс NEO Таблетки ... для котов и кобелей (упаковка 10 шт)' is a different brand (КонтрСекс). Searches 'секс', 'сексконтроль', 'регуляции', 'мегестрол', 'таблетки кошек|котов' found nothing else."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«СексКонтроль» հաբեր որձ կատուների համար (10 հաբ)",
+    "url": "https://www.nemo.am/сексконтроль-կաթիլներ-կատուների-համար-3-մլ",
+    "price": 1340,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 1340 AMD, no old price, manufacturer Rolf Club, in stock. The URL slug is recycled from 'drops 3 ml', but the page name is male-cat tablets, 10 pcs, and the description says '10 հաբ'. Photo: the blue box 'СексКонтроль-К таблетки ... у котов'. Same title as hafo's row for SKU 070952."
+   }
+  },
+  {
+   "variant_id": 906,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no SexControl oral drops for cats. Nearest: 'Секс Контроль Капли на холку для регуляции половой охоты для кошек, 1 шт, 3 мл' (2800 AMD, out of stock), https://zoovet.am/koshki/veterinarnaya-apteka/dlya-regulyacii-polovoj-sistemy-1/seks-kontrol-kapli-na-holku-dlya-regulyatsii-polovoj-ohoty-dlya-koshek-1-sht-3-ml. Its photo is 'СексКонтроль СПОТ-ОН' (megestrol + ethinylestradiol), the spot-on (our R109 product), not the 'КАПЛИ' oral drops R105. zoovet's other SexControl item is dog drops, 5 ml."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«СексКонтроль» կաթիլներ կատուների համար (3 մլ)",
+    "url": "https://www.nemo.am/сексконтроль-կաթիլներ-կատուների-համար-3-մլ-2",
+    "price": 2080,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 2080 AMD, no old price, manufacturer Rolf Club, page shows 'Առկա չէ' (out of stock). Description says 'Ծավալը ՝ 3 մլ'. Photo: the pink box 'СексКонтроль КАПЛИ для регуляции половой охоты у кошек', for female cats. Same title as hafo's row for SKU 071502 (R105, female)."
+   }
+  },
+  {
+   "variant_id": 907,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no SexControl oral drops for male cats. Nearest: 'Секс Контроль Капли на холку для регуляции половой охоты для кошек, 1 шт, 3 мл' (2800 AMD, out of stock). Its photo is the 'СексКонтроль СПОТ-ОН' spot-on for female cats ('у кошек'), not the 'КАПЛИ ... у котов' oral drops. zoovet's other SexControl item is dog drops, 5 ml."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«СексКонтроль» կաթիլներ որձ կատուների համար",
+    "url": "https://www.nemo.am/сексконтроль-կաթիլներ-որձ-կատուների-համար",
+    "price": 2080,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 2080 AMD, no old price, manufacturer Rolf Club, in stock. Description says 'Ծավալը ՝ 3 մլ'. Photo: the blue box 'СексКонтроль КАПЛИ для регуляции половой охоты у котов', for male cats. Same title as hafo's row for SKU 071522 (R106)."
+   }
+  },
+  {
+   "variant_id": 908,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no SexControl tablets for dogs. Nearest: 'Секс Контроль Капли для регуляции половой охоты для собак, 5 мл' (2200 AMD, in stock), https://zoovet.am/sobaki/veterinarnaya-apteka-1/dlya-regulyacii-polovoj-sistemy/seks-kontrol-kapli-dlya-regulyatsii-polovoj-ohoty-dlya-sobak-5-ml, which is drops, not 10 tablets. 'КонтрСекс NEO Таблетки (упаковка 10 шт)' is a different brand (КонтрСекс)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "«СексКонтроль» հաբեր էգ և որձ շների համար (10 հաբ)",
+    "url": "https://www.nemo.am/сексконтроль-հաբեր-էգ-և-որձ-շների-համար-10-հաբ",
+    "price": 1890,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 1890 AMD, no old price, in stock. Description says 'Քանակը՝ 10 հաբ', СексКонтроль С for female and male dogs. Photo: 'Секс-Контроль С таблетки для регуляции половой охоты у сук и кобелей' (neoterica). Same title as hafo's row for SKU 075742."
+   }
+  },
+  {
+   "variant_id": 1032,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Rolf Club Спрей от блох и клещей для кошек, 200 мл",
+    "url": "https://zoovet.am/sobaki/veterinarnaya-apteka-1/protiv-bloh-i-kleshchej/rolf-club-sprej-ot-bloh-i-kleschej-dlya-koshek-200-ml",
+    "price": 5550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page today: 5550 AMD, no old price, 'В наличии · 1 шт' (ME-00003565). Photo: Rolf Club 3D spray 'для кошек' (fipronil, etofenprox, pyriproxyfen). The name gives 200 ml, for cats."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ցողարկիչ միջատների դեմ` կատուների համար",
+    "url": "https://www.nemo.am/ցողարկիչ-միջատների-դեմ-կատուների-համար",
+    "price": 5550,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 5550 AMD, no old price, manufacturer Rolf Club, page shows 'Առկա չէ' (out of stock). Description: 'Rolf Club 3D սփրեյը ... կատուների', '200 մլ'. Same title as hafo's row for SKU 072022."
+   }
+  },
+  {
+   "variant_id": 1756,
+   "confidence": "medium",
+   "zoovet": {
+    "found": true,
+    "name": "Секс Контроль Капли на холку для регуляции половой охоты для кошек, 1 шт, 3 мл",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/dlya-regulyacii-polovoj-sistemy-1/seks-kontrol-kapli-na-holku-dlya-regulyatsii-polovoj-ohoty-dlya-koshek-1-sht-3-ml",
+    "price": 2800,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page today: 2800 AMD, no old price, 'Нет в наличии' (ME-00000574). Photo: 'СексКонтроль СПОТ-ОН ... для регуляции половой охоты у кошек' (megestrol + ethinylestradiol), the female-cat spot-on. Name gives '1 шт, 3 мл', matching our 3 ml spot-on R109 (EAN 4607092074320)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Սեքս-հսկիչ՝ կատուների համար",
+    "url": "https://www.nemo.am/սեքս-հսկիչ-կատուների-համար",
+    "price": 2500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 2500 AMD, no old price, in stock. Photo: 'СексКонтроль СПОТ-ОН для регуляции половой охоты у кошек' (neoterica). Description: for cats, applied to the back of the neck. The page's manufacturer field says 'Trixie', which looks like a data error. The title is identical to hafo's title for SKU 074322 (R109). The nemo page does not state the volume."
+   },
+   "notes": "nemo's manufacturer field says Trixie and its page has no volume. The photo and the hafo-identical title identify the SexControl spot-on for female cats."
+  }
+ ]
+}

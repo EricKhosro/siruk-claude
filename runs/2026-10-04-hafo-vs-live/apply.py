@@ -1,0 +1,90 @@
+#!/usr/bin/env python3
+"""Set the planned prices on PRODUCTION (plan.json, built by plan.py). User instruction 2026-10-04:
+"everything that matches with hafo should have hafo pricing".
+
+    apply.py              # dry run: GET + checks + backup, builds every body, writes nothing
+    apply.py --write      # PUT each product once, then read it back
+    apply.py --write --only 1229,1230
+
+Per product: fresh GET (backup/<pid>.json) -> every planned variant must still be at the price read on
+2026-10-04 (else skipped: someone changed it) -> new price > cost_price and a multiple of 10 ->
+body from scripts/siruk_payload.py put_body (product type checked) with only `price` changed ->
+PUT -> GET again: planned variants at the new price, every other variant's price unchanged.
+Resumable: apply-state.json records finished products. Uses .siruk-token-prod.
+"""
+import json, os, sys, time
+from collections import defaultdict
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(HERE))
+os.environ.update(SIRUK_API="https://api.siruk.am/api/admin",
+                  SIRUK_TOKEN_FILE=os.path.join(ROOT, ".siruk-token-prod"))
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+from siruk_payload import PayloadError, api, put_body  # noqa: E402
+
+WRITE = "--write" in sys.argv
+ONLY = set(sys.argv[sys.argv.index("--only") + 1].split(",")) if "--only" in sys.argv else None
+SF = os.path.join(HERE, "apply-state.json")
+state = json.load(open(SF, encoding="utf-8")) if os.path.exists(SF) else {"done": {}, "skipped": {}}
+os.makedirs(os.path.join(HERE, "backup"), exist_ok=True)
+
+plan = json.load(open(os.path.join(HERE, "plan.json"), encoding="utf-8"))
+by_pid = defaultdict(list)
+for r in plan:
+    by_pid[str(r["product_id"])].append(r)
+
+
+def save():
+    json.dump(state, open(SF, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+
+ok = skipped = 0
+for pid, changes in sorted(by_pid.items(), key=lambda t: int(t[0])):
+    if (ONLY and pid not in ONLY) or pid in state["done"]:
+        continue
+    g = api("GET", f"/products/{pid}").get("data")
+    if not g:
+        state["skipped"][pid] = "GET failed"; skipped += 1; save(); continue
+    json.dump(g, open(os.path.join(HERE, "backup", f"{pid}.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    vs = {v["sku"]: v for v in g["variants"]}
+    problems = []
+    for c in changes:
+        v = vs.get(c["sku"])
+        new = int(c["new price"])
+        if v is None:
+            problems.append(f"{c['sku']}: variant gone")
+        elif int(float(v["price"])) != int(c["current price"]):
+            problems.append(f"{c['sku']}: price is now {v['price']}, planned from {c['current price']}")
+        elif v.get("cost_price") is not None and new <= float(v["cost_price"]):
+            problems.append(f"{c['sku']}: new {new} <= cost {v['cost_price']}")
+        elif new % 10:
+            problems.append(f"{c['sku']}: {new} not a multiple of 10")
+    if problems:
+        state["skipped"][pid] = problems; skipped += 1; save()
+        print(f"{pid}: SKIPPED {problems}"); continue
+    try:
+        body = put_body(g, patch_sku=changes[0]["sku"], patch={"price": int(changes[0]["new price"])})
+    except PayloadError as e:
+        state["skipped"][pid] = f"refused: {e}"; skipped += 1; save()
+        print(f"{pid}: REFUSED {e}"); continue
+    want = {c["sku"]: int(c["new price"]) for c in changes}
+    for bv in body["variants"]:
+        if bv["sku"] in want:
+            bv["price"] = want[bv["sku"]]
+    if len(body["variants"]) != len(g["variants"]):
+        state["skipped"][pid] = "variant count changed in body"; skipped += 1; save(); continue
+    desc = ", ".join(f"{c['sku']} {c['current price']}->{c['new price']}" for c in changes)
+    if not WRITE:
+        print(f"{pid}: dry-run ok  {desc}"); ok += 1; continue
+    api("PUT", f"/products/{pid}", body)
+    time.sleep(0.6)
+    after = {v["sku"]: v for v in (api("GET", f"/products/{pid}").get("data") or {}).get("variants", [])}
+    bad = [s for s, p in want.items() if s not in after or int(float(after[s]["price"])) != p]
+    bad += [s for s, v in vs.items() if s not in want and (s not in after or float(after[s]["price"]) != float(v["price"]))]
+    if bad:
+        state["skipped"][pid] = f"READ-BACK MISMATCH {bad}"; skipped += 1; save()
+        print(f"{pid}: READ-BACK MISMATCH {bad}"); continue
+    state["done"][pid] = desc; ok += 1; save()
+    print(f"{pid}: written + verified  {desc}")
+    time.sleep(0.6)
+print(f"{'written' if WRITE else 'dry-run ok'}: {ok} products; skipped: {skipped}; variants planned: {len(plan)}")

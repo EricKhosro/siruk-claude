@@ -1,0 +1,511 @@
+{
+ "results": [
+  {
+   "variant_id": 435,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-gevatelnye-kusochki-s-petrushkoj-i-myatoj-dlya-sobak-150-g",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie Лакомство жевательные кусочки с петрушкой и мятой для собак, 150 г",
+    "in_stock": true,
+    "evidence": "Page description names the product \"Chew Bites\" by Trixie, parsley + peppermint, 150 g = Denta Fun Chew Bites with Mint 150 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-chew-bites",
+    "price": 1400,
+    "old_price": null,
+    "name": "«Denta Fun Chew Bites» ստիկս",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: weight 150 g, Denta Fun Chew Bites made with parsley and mint."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 436,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-tabletten-versteck-lakomstvo-dlya-sobak-100-g",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie Tabletten-Versteck Лакомство для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Tabletten-Versteck = Hiding Place for Tablets, dog version, 100 g (page: opening to hide a pill, weight 0.1 kg). Cat 50 g version excluded."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched nemo Trixie brand list, all nemo lists and live search: հաբ, դեղահաբ, թաքց, tablet/versteck/hiding, EAN 4011905258416, 25841. No pill-hiding treat listed on nemo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 437,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-denta-fun-chips-so-spirulinoj-dlya-sobak-50-g",
+    "price": 1100,
+    "old_price": null,
+    "name": "Trixie Denta Fun Chips со спирулиной для собак, 50 г",
+    "in_stock": true,
+    "evidence": "Denta Fun Chips with spirulina, rawhide, 50 g (page weight 0.05 kg)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-dentafun-չիփս",
+    "price": 1100,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար՝ DENTAFUN չիփս",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 50 g, rawhide, contains spirulina algae."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 439,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/lakomstva-dlya-chistki-zubov-1/trixie-kost-gevatelnaya-uzlovaya-belaya-16-sm-1-sht",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie Кость жевательная узловая белая, 16 см, 1 шт",
+    "in_stock": true,
+    "evidence": "White knotted rawhide chewing bone, 16 cm, page weight 0.11 kg = the 110 g natural knot. 24 cm / 39 cm siblings excluded."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/denta-fun-սպիտակ-ոսկոր-հանգույցներով-2",
+    "price": 1800,
+    "old_price": null,
+    "name": "«Denta Fun» Սպիտակ ոսկոր հանգույցներով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: weight 110 g, 16 cm, white knotted rawhide bone. Siblings 50 g/11 cm (900) and 240 g/24 cm (3350) excluded."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 440,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches: only Chewing Roll chicken bone 40 cm (2900) and Denta Fun rolls 17/27/28 cm; no 20 cm / 165 g chicken roll."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հավի-ռոլլ-շների-համար",
+    "price": 3150,
+    "old_price": null,
+    "name": "Trixie, հավի ռոլլ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: chicken roll, collagen 55% + chicken 21%, \"165 գ / 20 սմ\" = hafo 31146 chicken roll 20 cm/165 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 441,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches: no vegan sticks (only vegan rings 1.3 kg)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Nearest: https://www.nemo.am/trixie-հյուրասիրություն-շների-համար-vegan-ձողիկներ-100-գ \"Trixie, ... Vegan ձողիկներ, 100 գ\" 1600 AMD (Trixie vegetable sticks) - listed as 100 g vs our 120 g (Trixie 31288 / EAN 4011905312880 is 120 g), so pack size does not match on the page; possibly the same item mislabelled (same price as hafo/siruk 1600)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 442,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches: no Vegan Dots."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-vegan-dots-բանջարեղենային-հյուրասիրություն-շների-համար",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie Vegan Dots, բանջարեղենային հյուրասիրություն շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Vegan Dots with thyme and parsley, 200 g. Carrot variant is a separate listing."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1376,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches: no Vegan Dots."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-vegan-dots-բանջարեղենային-հյուրասիրություն-շների-համար-գազարով",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie Vegan Dots, բանջարեղենային հյուրասիրություն շների համար՝ գազարով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Vegan Dots with carrot, 200 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 443,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches (dentros/дентрос/vegan/веган): none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-vegan-dentros-500-գ",
+    "price": 3200,
+    "old_price": null,
+    "name": "Trixie Vegan Dentros, 500 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Vegan Dentros with parsley, 500 g. Excluded: \"Denta Fun Dentros\" 180 g / 7 pcs poultry (1200)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 444,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-hearts-myasnye-serdechki-iz-yagnenka-dlya-sobak-500-g",
+    "price": 3400,
+    "old_price": null,
+    "name": "Trixie Лакомство Hearts мясные сердечки из ягненка для собак, 500 г",
+    "in_stock": true,
+    "evidence": "Soft snack hearts with lamb (4% lamb), 500 g = Happy Hearts 31497. Mini Hearts 200 g excluded. Page shows no stock line; list says in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/happy-hearts-փափուկ-պատառներ-շների-համար",
+    "price": 3400,
+    "old_price": null,
+    "name": "«Happy Hearts» փափուկ պատառներ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 500 g, hearts filled with lamb."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 445,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches: no Happy Rolls / salmon rolls 500 g (Happy Mix chicken/lamb/salmon 500 g is a different product)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/httpsnemoamadminproductedit1590",
+    "price": 3400,
+    "old_price": null,
+    "name": "«Happy Rolls» փափուկ պատառ-ձողիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 500 g, Happy Rolls made from salmon, resealable tub. Single-stick listing (80) excluded."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 446,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-bouncies-lakomstvo-so-vkusom-baraniny-dlya-sobak-melkih-porod-i-schenkov-140-g",
+    "price": 1500,
+    "old_price": null,
+    "name": "Trixie Bouncies Лакомство со вкусом баранины для собак мелких пород и щенков, 140 г",
+    "in_stock": false,
+    "evidence": "Bouncies 140 g; page flavour Птица; Баранина (poultry, lamb), 0.14 kg. Out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/bouncies-ստիկս-գունավոր-ոսկորներ-շների",
+    "price": 1500,
+    "old_price": null,
+    "name": "«Bouncies» ստիկս գունավոր ոսկորներ շների",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 140 g, poultry, lamb and tripe. 75 g Bouncies (850) excluded."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 447,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-baffos-lakomstvo-s-govyadinoj-dlya-sobak-140-g",
+    "price": 1500,
+    "old_price": null,
+    "name": "Trixie Baffos Лакомство с говядиной для собак, 140 г",
+    "in_stock": true,
+    "evidence": "Baffos with beef and tripe, 140 g (page)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Nearest: https://www.nemo.am/baffos-փափուկ-պատառ «Baffos» 850 AMD - page says 75 g (beef and tripe); our variant is 140 g. No 140 g Baffos on nemo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 448,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches (lupin/lupinos/люпин/аллерг): none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-ալերգիկ-շների-համար-թռչնամսով-ոսկորիկներ",
+    "price": 3750,
+    "old_price": null,
+    "name": "Հյուրասիրություն ԱԼԵՐԳԻԿ շների համար՝ թռչնամսով ոսկորիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 500 g, poultry, contains lupin (plant protein) for allergic dogs = Soft Snack Lupinos 500 g; same row name as hafo."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 449,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-junior-lakomstvo-s-kaltsiem-dlya-schenkov-140-g",
+    "price": 1500,
+    "old_price": null,
+    "name": "Trixie Junior Лакомство с кальцием для щенков, 140 г",
+    "in_stock": false,
+    "evidence": "Junior: small bone-shaped treats with chicken, lamb, salmon + calcium, 140 g = Junior Soft Snack Bones. Out of stock. The chicken & salmon Junior listing is the Dots."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-ձագերի-գունավոր-ոսկորիկներ",
+    "price": 1500,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների ձագերի` գունավոր ոսկորիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: for puppies, coloured bones, chicken and lamb, 140 g; same row name as hafo."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 450,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-junior-lakomstvo-s-kuritsej-i-lososem-dlya-schenkov-140-g",
+    "price": 1650,
+    "old_price": null,
+    "name": "Trixie Junior Лакомство с курицей и лососем для щенков, 140 г",
+    "in_stock": true,
+    "evidence": "Junior soft snack with chicken & salmon, omega-3/6, 140 g = Junior Soft Snack Dots (matches nemo/hafo puppy dots chicken+salmon omega; the bone-shaped Junior is the separate calcium listing). Shape not stated on page."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-ձագերի-գունավոր-հատիկներ",
+    "price": 1500,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների ձագերի` գունավոր հատիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: puppy coloured dots, chicken and salmon, omega-3/6, 140 g; same row name as hafo."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 451,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches (rado/радо/Dog'o'Rado): none."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/dogorado-լցոնած-ստիկս-շների",
+    "price": 3400,
+    "old_price": null,
+    "name": "«Dog'o'Rado» լցոնած ստիկս շների",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 500 g, filled soft snack with chicken, resealable tub."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 452,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-mini-bones-myasnye-kostochki-dlya-sobak-500-g",
+    "price": 3150,
+    "old_price": null,
+    "name": "Trixie Лакомство Mini Bones мясные косточки для собак, 500 г",
+    "in_stock": true,
+    "evidence": "Mini Bones (beef, lamb, game), 500 g tub."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/mini-bones-trainer-snack-քաղցր-պատառ-շների-համար",
+    "price": 3150,
+    "old_price": null,
+    "name": "«Mini Bones Trainer Snack» քաղցր պատառ շների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 500 g, beef/lamb/poultry trainer bones."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 454,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-bony-mix-mini-kostochki-s-govyadinoj-yagnenkom-tsyplenkom-i-ryboj-dlya-sobak-upakovka-1-8-kg-5539",
+    "price": 11500,
+    "old_price": null,
+    "name": "Trixie Лакомство Bony Mix мини косточки с говядиной, ягненком, цыпленком и рыбой для собак, упаковка 1.8 кг",
+    "in_stock": true,
+    "evidence": "Bony Mix 1.8 kg bag: option \"Упак (1,8 кг)\" = 11500 (loose \"На развес, 1 кг\" = 6500 is not our kind). Note: siruk/hafo 6300 is at per-kg level; hafo row reads \"կգ\"."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-bony-mix-գունավոր-ոսկորիկներ",
+    "price": 6300,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների Bony Mix` գունավոր ոսկորիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Bony Mix coloured bones, beef/lamb/chicken/poultry, \"Պարունակություն՝ 1.8 գ\" (typo for 1.8 kg); same row name as hafo. Caution: 6300 is at the per-kg price level (zoovet 1 kg loose 6500 vs 1.8 kg bag 11500), so nemo may really be pricing per kg. 500 g Bony Mix (3400) excluded."
+   },
+   "confidence": "low"
+  },
+  {
+   "variant_id": 455,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches: no Mini Trainer Dots (Happy Mix chicken/lamb/salmon 500 g is a different product; 31527 = Soft Snack Mini Trainer Dots with salmon per EAN 4011905315270)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-գունավոր-հատիկներ",
+    "price": 3400,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների` գունավոր հատիկներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 500 g, with salmon; same row name as hafo (31527 = Soft Snack Mini Trainer Dots with salmon, 500 g)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 456,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-medalony-s-kuritsej-dlya-sobak-100-g",
+    "price": 1700,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio Медальоны с курицей для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page description: \"Trixie Premio Chicken Coins\", dried chicken, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-coins-պատառ",
+    "price": 1700,
+    "old_price": null,
+    "name": "«PREMIO Chicken Coins» ստիկս չիպս հավի համով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 100 g, dried chicken."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1382,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-beef-coins-iz-govyadiny-dlya-sobak-100-g",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie Лакомство Beef Coins из говядины для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Beef Coins, 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-beef-coins-պատառներ-շների",
+    "price": 2000,
+    "old_price": null,
+    "name": "PREMIO Beef Coins պատառներ շների",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 100 g, beef, 57% meat."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 457,
+   "zoovet": {
+    "found": false,
+    "evidence": "Reviewed zoovet's full Trixie list (every dog treat) + live searches: Premio chicken filets only as 300 g (5100); Chicken Coins/medallions and chicken-breast bones 100 g are different products."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-filets",
+    "price": 1850,
+    "old_price": null,
+    "name": "«PREMIO Chicken Filets» հավի մսով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: 100 g dried chicken filets, 85% meat. 300 g listing excluded."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 458,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-filets-s-kuritsej-dlya-sobak-300-g",
+    "price": 5100,
+    "old_price": null,
+    "name": "Trixie Лакомство Filets с курицей для собак, 300 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie Premio Chicken Filets, dried chicken fillet strips, 85% meat, 300 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-հավի-կրծքամսի-կտորներ",
+    "price": 5100,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների` հավի կրծքամսի կտորներ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: chicken breast pieces, 85% meat, dried, 300 g; same row name as hafo. 100 g (1850) and unsized 16800 listing excluded."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1384,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-filets-gevatelnoe-file-govyadiny-dlya-sobak-80-g",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio Filets жевательное филе говядины для собак, 80 г",
+    "in_stock": false,
+    "evidence": "Premio Filets beef 93%, 80 g. Listed out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հյուրասիրություն-շն-համար-հորթի-մսային-ֆիլեներ-80-գ",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie, հյուրասիրություն շն. համար՝ հորթի մսային ֆիլեներ, 80 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Premio Filets, 93% meat, 80 g; nemo says 'հորթի' (veal) - Premio Filets 80 g exist only as lamb (31858) and beef (31859), and hafo's own URL for 31859 also says horti."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1385,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-file-baraniny-dlya-sobak-80-g",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio Филе баранины для собак, 80 г",
+    "in_stock": true,
+    "evidence": "Premio Filets lamb 93%, 80 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հյուրասիրություն-շն-համար-գառի-մսային-ֆիլեներ-80-գ",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie, հյուրասիրություն շն. համար՝ գառի մսային ֆիլեներ, 80 գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: Premio Filets lamb, 93% meat, 80 g."
+   },
+   "confidence": "high"
+  }
+ ]
+}

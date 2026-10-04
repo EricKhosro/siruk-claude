@@ -1,0 +1,558 @@
+{
+ "results": [
+  {
+   "variant_id": 459,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kostochka-s-kuritsej-dlya-sobak-100-g",
+    "price": 1750,
+    "old_price": null,
+    "name": "Trixie Лакомство косточка с курицей для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie 'косточка с курицей' 100 g, rawhide wrapped in chicken, 58% chicken (ME-00000061) = Premio Chicken Bites/dumbbells 100 g (hafo product slug 'premio-chicken-bites', row 'հավի մսային գանտելիկներ 100գ'; nemo Chicken Bites page has the same 58%/100 g). Not 'косточки с куриной грудкой' (61% = Chickies)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-bites-4",
+    "price": 1700,
+    "old_price": null,
+    "name": "«PREMIO Chicken Bites» ոսկոր հավի մսով",
+    "in_stock": true,
+    "evidence": "Page: Trixie, PREMIO Chicken Bites, 100 g, 58% chicken; same line as hafo's Chicken Bites dumbbells row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 460,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie + 300|300 г, Chicken Bites, гантел/косточка, 31802: zoovet only has the 100 g Chicken Bites (1750) and 'Carpaccio Chicken Stripes 300 г' (different line). No 300 g XXL dumbbells."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-bites-ոսկոր-հավի-մսով",
+    "price": 4200,
+    "old_price": null,
+    "name": "«PREMIO Chicken Bites» գանտելիկներ շների համար",
+    "in_stock": true,
+    "evidence": "Page: Trixie, PREMIO Chicken Bites dumbbells, 300 g, 58% chicken = hafo 'հավի համով XXL 300գ' (31802)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1373,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie утк|duck 80, гантел, 31592. Nearest: 'медальоны с уткой 80 г' (86% duck breast = Duck Coins) and 'Premio Duckinos 80 г' (63%) - different lines; no duck dumbbells / Duck Bites 80 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-duck-bites",
+    "price": 1600,
+    "old_price": null,
+    "name": "PREMIO Duck Bites ոսկորիկներ բադի",
+    "in_stock": true,
+    "evidence": "Page: Trixie, Premio Duck Bites, 80 g, rawhide + duck breast, 59% meat - the duck counterpart of Chicken Bites (dumbbells), matching hafo 'բադի մսով գանտելիկներ 80 գ'. Other nemo 80 g duck item 'բադի մսային կտորներ' (33% meat, 60% rawhide, 1650) not chosen."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 461,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-omega-stripes-poloski-iz-kuritsy-dlya-sobak-100-g",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie Лакомство Omega Stripes полоски из курицы для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Omega Stripes 100 g, chicken breast 85% + omega 3/6 (ME-00004344) = Trixie 31536."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-omega-stripes-ստիկս-շների",
+    "price": 1800,
+    "old_price": null,
+    "name": "«PREMIO Omega Stripes» ստիկս շների",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Omega Stripes, 100 g, 85% chicken breast, omega-3."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 462,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-stripes-poloski-iz-utki-dlya-sobak-100-g",
+    "price": 1950,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio Stripes полоски из утки для собак, 100 г",
+    "in_stock": false,
+    "evidence": "Page: Trixie Premio Ducky Stripes 100 g, duck breast, 90% meat (ME-00008516); listed out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-պատառներ-շների-համար",
+    "price": 1950,
+    "old_price": null,
+    "name": "Premio պատառներ շների համար",
+    "in_stock": true,
+    "evidence": "Page: Trixie, Premio, 100 g, duck breast, meat >= 90% - matches Ducky Stripes (hafo 'բադի կրծքամիս 100 գ'); generic name, so medium. Other nemo duck items (Crispy Duck 88%, 'բադի մսային բեկորներ' 64%) differ."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1387,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie сыр|cheese, stripes, 31586: only 'роллы с курицей и сыром 100 г' (25% chicken = Cheese Chicken Rolls 31589, a different line) and 'Cream Cheese 75г'. No Cheese Chicken Stripes."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-cheese-chicken-stripes",
+    "price": 1950,
+    "old_price": null,
+    "name": "«PREMIO Cheese Chicken Stripes»",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Cheese Chicken Stripes, 100 g, chicken + cheese, 81% meat = Trixie 31586 (ebay.de lists 31586 as Premio Cheese Chicken Stripes 100 g)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1388,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-lamb-stripes-poloski-iz-yagnenka-dlya-sobak-100-g",
+    "price": 1950,
+    "old_price": null,
+    "name": "Trixie Лакомство Lamb Stripes полоски из ягненка для собак, 100 г",
+    "in_stock": false,
+    "evidence": "Page: Trixie Premio Lamb Stripes 100 g; 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գունավոր-խտացված-մաստակ-ձողիկներ-copy",
+    "price": 1950,
+    "old_price": null,
+    "name": "«PREMIO Lamb Stripes» համեղ պատառ",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Lamb Stripes, 100 g, 90% lamb (slug is recycled; name and description confirm)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1389,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-poloski-s-treskoj-i-krolikom-dlya-sobak-100-g",
+    "price": 1800,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio полоски с треской и кроликом для собак, 100 г",
+    "in_stock": false,
+    "evidence": "Page: Trixie Premio strips with rabbit 68% and cod 15%, 100 g; 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մսային-բեկորներ-շների-համար-ճագարձուկ-100-գ",
+    "price": 1800,
+    "old_price": null,
+    "name": "Մսային բեկորներ շների համար ճագար/ձուկ 100 գ",
+    "in_stock": true,
+    "evidence": "Page: Trixie Premio Fish Rabbit Stripes, 100 g; name identical to hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 463,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kostochki-s-utinoj-grudkoj-dlya-sobak-100-g",
+    "price": 1950,
+    "old_price": null,
+    "name": "Trixie Лакомство косточки с утиной грудкой для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie bones wrapped in duck breast, 70% meat, 100 g (ME-00000437) = Premio Duckies (nemo Duckies page: same 70%/100 g)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-duckies-ոսկորներ",
+    "price": 1950,
+    "old_price": null,
+    "name": "«PREMIO Duckies» ոսկորներ",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Duckies, 100 g, duck-breast bones, 70% meat."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 464,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie flag|флаж|грудк, 31539: nearest 'полоски из куриной грудки, 1 шт, 25 г' (single flag, 400, OOS) - wrong pack. No 100 g Chicken Flags."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-flags-հավի-դոշ-շների",
+    "price": 1850,
+    "old_price": null,
+    "name": "«PREMIO Chicken Flags» հավի դոշ շների",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Chicken Flags, 100 g, rawhide + chicken breast 65%."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 465,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie 400, flag, 31588: nothing. Nearest: 'Filets с курицей 300 г' (5100) - different line and size."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-հավի-մսով-premio",
+    "price": 7850,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար` հավի մսով PREMIO",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO chicken breast, 400 g, 7850 (= hafo price for 31588 'հավի ձողիկներ 400 գ PREMIO'). Caveat: the page says 85% meat, while Trixie 31588 Chicken Flags 400 g is 65% chicken + rawhide (web: ebay.de / meintierdiscount.de) - the line is not proven; it is only a Trixie Premio chicken 400 g pack."
+   },
+   "confidence": "low"
+  },
+  {
+   "variant_id": 466,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kubiki-s-krolikom-dlya-sobak-100-g",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Лакомство кубики с кроликом для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie cubes with rabbit, 70% rabbit, 100 g (ME-00000608) = Premio Rabbit Cubes."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-premio-ճագարի-կուբիկներ",
+    "price": 2000,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների՝ Premio, ճագարի կուբիկներ",
+    "in_stock": true,
+    "evidence": "Page: Trixie Premio rabbit cubes, 70% meat, 100 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 468,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kolbaski-s-govyadinoj-dlya-sobak-12-sm-120-g",
+    "price": 800,
+    "old_price": null,
+    "name": "Trixie Лакомство колбаски с говядиной для собак, 12 см, 120 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie sausages 12 cm, 120 g; composition '(из них 7 % рубца)' = tripe Rotolinis (3155), although titled 'с говядиной' (Trixie beef Rotolinis is 20% beef). Ambiguous title, so zoovet side is medium-low."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/rotolinis-համեղ-պատառ-փորոք",
+    "price": 750,
+    "old_price": null,
+    "name": "«Rotolinis» համեղ պատառ (փորոք)",
+    "in_stock": true,
+    "evidence": "Page: Trixie Rotolinis, tripe flavour, 12 pcs, 120 g. (Not slug 'stripes-գառան-մսով', which shows the same name but 100 g / 10 pcs at 800.)"
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1374,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie rotolinis|рубец, говядин, 31771. The only beef-titled Rotolinis 120 g lists 7% tripe in its composition, so it was assigned to the tripe variant (468); no listing is shown to be the beef (20% beef) Rotolinis."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/rotolinis-համեղ-պատառ",
+    "price": 800,
+    "old_price": null,
+    "name": "«Rotolinis» համեղ պատառ",
+    "in_stock": true,
+    "evidence": "Page: Trixie Rotolinis, 12 pcs, 120 g, beef flavour (separate tripe listing exists)."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1375,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-rotolinis-kolbaski-iz-kuritsy-dlya-sobak-120-g",
+    "price": 800,
+    "old_price": null,
+    "name": "Trixie Лакомство Rotolinis колбаски из курицы для собак, 120 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie Rotolinis poultry, 120 g, min 20% poultry."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/rotolinis-փափուկ-պատառ",
+    "price": 800,
+    "old_price": null,
+    "name": "«Rotolinis» փափուկ պատառ",
+    "in_stock": true,
+    "evidence": "Page: Trixie Rotolinis chicken sticks 12 cm, 12 pcs, 120 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 469,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-stripes-poloski-iz-kuritsy-dlya-sobak-100-g",
+    "price": 800,
+    "old_price": null,
+    "name": "Trixie Лакомство Stripes полоски из курицы для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie Stripes Light 100 g, chicken (min 4% chicken) = Stripes poultry 3156."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/stripes-համեղ-պատառ",
+    "price": 800,
+    "old_price": null,
+    "name": "«Stripes» համեղ պատառ",
+    "in_stock": true,
+    "evidence": "Page: Trixie Stripes, 100 g, 10 pcs, chicken. Duplicate listing stripes-համեղ-պատառ-3 (poultry, 100 g / 10 pcs) also 800."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1386,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-palochki-iz-govyadiny-dlya-sobak-12-sm-100-g",
+    "price": 800,
+    "old_price": null,
+    "name": "Trixie Лакомство палочки из говядины для собак, 12 см, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie beef sticks 12 cm, 100 g (ME-00000624) = Stripes Light beef format; caveat: composition text says '12 % баранина' (likely a copy error)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/stripes-համեղ-պատառ-2",
+    "price": 750,
+    "old_price": null,
+    "name": "«Stripes» համեղ պատառ",
+    "in_stock": true,
+    "evidence": "Page: Trixie Stripes, 100 g, 1 box (10 pcs), beef flavour."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 470,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-premio-lolly-s-utkoj-i-ryboj-dlya-sobak-80-g",
+    "price": 1600,
+    "old_price": null,
+    "name": "Trixie Лакомство Premio Lolly с уткой и рыбой для собак, 80 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie Premio Lolly with duck and fish, 80 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-lolly-բադի-միս-և-ձուկ-80գ",
+    "price": 1600,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար` Lolly, բադի միս և ձուկ, 80գ",
+    "in_stock": true,
+    "evidence": "Page: Trixie Premio Lolly, duck 56% + fish 23%, 80 g (found via nemo live search)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 471,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-lakomstvo-shkura-beloj-ryby-dlya-sobak-60-g",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie Лакомство шкура белой рыбы для собак, 60 г",
+    "in_stock": false,
+    "evidence": "Page: Trixie 100% dried whitefish skin, 60 g (ME-00008935); listed out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-premio-սուշի-բեկորներ",
+    "price": 1400,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար PREMIO՝ սուշի բեկորներ",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO, 100% white fish, 60 g - name matches hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 472,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-sushi-rolls-lakomstvo-iz-kogi-serebristogo-heka-dlya-sobak-100-g",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie Sushi Rolls Лакомство из кожи серебристого хека для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie Sushi Rolls, white fish 90%, 100 g. (Not 'с белой рыбой 100 г' = fish-wrapped bones, 45%.)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-sushi-rolls-սնեյք-շների-համար-ձկան",
+    "price": 1900,
+    "old_price": null,
+    "name": "«PREMIO Sushi Rolls» սնեյք շների համար ձկան",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Sushi Rolls, 100 g, white fish 90%. (Other nemo 'ձկան սուշի' is 75 g - not a match.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 473,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/sushenye-lakomstva-1/trixie-palochki-s-ryboj-dlya-sobak-70-g",
+    "price": 2500,
+    "old_price": null,
+    "name": "Trixie Палочки с рыбой для собак, 70 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie, 100% salmon skin, 70 g (ME-00008523) = Premio salmon cigars 70 g; piece count not printed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-premio-սաղմոնով-գլանակներ",
+    "price": 2500,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար` PREMIO, սաղմոնով գլանակներ",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO, 100% salmon-skin rolls, 70 g; piece count not printed."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 474,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-s-kuritsej-i-bananom-dlya-sobak-100-g",
+    "price": 1950,
+    "old_price": null,
+    "name": "Trixie Лакомство с курицей и бананом для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie chicken breast 61% + banana 38%, 100 g (ME-00000435)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-հավով-և-բանանով",
+    "price": 1850,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար՝ հավով և բանանով",
+    "in_stock": true,
+    "evidence": "Page: Trixie, chicken + banana, 61% meat, 100 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1371,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched trixie яблок|apple, 31593, курицей: no chicken & apple item on zoovet."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-հավով-և-խնձորով",
+    "price": 1700,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար՝ հավով և խնձորով",
+    "in_stock": true,
+    "evidence": "Page: Trixie, chicken + apple, 61% meat, 100 g."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 475,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kostochki-s-kuritsej-dlya-sobak-95-g",
+    "price": 1750,
+    "old_price": null,
+    "name": "Trixie Лакомство косточки с курицей для собак, 95 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie bones wrapped in chicken, 59% meat, vitamin C, 95 g (ME-00002907) = Premio Chicken Drumsticks 5 pcs / 95 g (nemo Drumsticks page: identical 59% / vit C / 95 g)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-chicken-drumsticks-սնեյք-շների",
+    "price": 1700,
+    "old_price": null,
+    "name": "«PREMIO Chicken Drumsticks» սնեյք շների",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Chicken Drumsticks, 5 pcs, 95 g, 59% meat."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1372,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-kostochka-s-krolikom-dlya-sobak-100-g",
+    "price": 1900,
+    "old_price": null,
+    "name": "Trixie Лакомство косточка с кроликом для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie bones wrapped in rabbit, 52% rabbit, 100 g (ME-00000060) = Premio Rabbit Drumsticks (nemo Rabbit Drumsticks: same 52% / 100 g); piece count not printed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/premio-rabbit-drumsticks-սնեյք-շների-համար",
+    "price": 1900,
+    "old_price": null,
+    "name": "PREMIO Rabbit Drumsticks սնեյք շների համար",
+    "in_stock": true,
+    "evidence": "Page: Trixie PREMIO Rabbit Drumsticks, 100 g, >= 52% rabbit."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 478,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-rolly-s-kuritsej-i-syrom-dlya-sobak-100-g",
+    "price": 1850,
+    "old_price": null,
+    "name": "Trixie Лакомство роллы с курицей и сыром для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie rolls, chicken breast 25% + cheese 4%, 100 g (ME-00003394) = Cheese Chicken Rolls 31589."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-հավպանիր",
+    "price": 1850,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար՝ հավ/պանիր",
+    "in_stock": true,
+    "evidence": "Page: Trixie, chicken + cheese, 25% meat, 100 g - same recipe as zoovet's rolls; not the 81% Cheese Chicken Stripes."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 481,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-softies-kubiki-iz-yagnenka-dlya-sobak-100-g",
+    "price": 1700,
+    "old_price": null,
+    "name": "Trixie Лакомство Softies кубики из ягненка для собак, 100 г",
+    "in_stock": true,
+    "evidence": "Page: Trixie Premio Marbled Lamb Softies, lamb + fish, 100 g (ME-00004350)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched the nemo Trixie list plus softies, marbled, փափուկ, գառ ձուկ: no Marbled Lamb Softies. Nearest: 'գառան մսով իրիս' (lamb toffee, a different line)."
+   },
+   "confidence": "medium"
+  }
+ ]
+}

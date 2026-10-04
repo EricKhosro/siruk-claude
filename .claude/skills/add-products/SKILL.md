@@ -20,11 +20,9 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
 `reference/admin-api.md` (payloads, ids), `reference/product-rules.md`
 (grouping, naming, categories). Key constraints:
 
-- **The CSV price is our cost. The sale price is the PM's register
-  (`csv/Product.numbers`, `Վաճառքի գին` — CLAUDE.md rule 2c) where it has the
-  row, else hafo.am per article code, per variant. Never invent, derive or
-  estimate a sale price.** `REGISTER_STATUS=state/register/register-status.json`
-  makes the planners take the register first. When neither prices the row: a
+- **The CSV price is our cost. The sale price is hafo.am per article code,
+  per variant. Never invent, derive or estimate a sale price.** When hafo
+  does not price the row: a
   **confirmed** zoovet.am or nemo.am price (rule 2b), then the sibling
   fallback (rule 2a); a row none of those can price goes to
   `runs/<date>/no-hafo-price.csv` and is NOT imported (`reference/pricing.md`).

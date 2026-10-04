@@ -1,0 +1,368 @@
+{
+ "results": [
+  {
+   "variant_id": 1868,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Renal with Chicken pouch Влажный корм для кошек с почечной недостаточностью, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-renal-with-chicken-pouch-vlagnyj-korm-dlya-koshek-s-pochechnoj-nedostatochnostyu-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00003032",
+    "evidence": "zoovet page today: 'Royal Canin Renal with Chicken pouch Влажный корм для кошек с почечной недостаточностью, 85 г', price 750 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Renal chicken pouch 1 հատ 85գ",
+    "url": "https://www.nemo.am/royal-canin-renal-chicken-pouch-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 'Royal Canin Renal chicken pouch 1 հատ 85գ', price 750 AMD, no old price; stock: 'Առկա չէ' (not available). Description: Renal Chicken 85 g wet food for cats."
+   },
+   "confidence": "high",
+   "notes": "Single 85 g Renal Chicken pouch. Both rivals 750 = siruk 750."
+  },
+  {
+   "variant_id": 1870,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Renal with Fish Gravy Влажный корм для кошек с проблемами почек с рыбой, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-renal-with-fish-gravy-vlagnyj-korm-dlya-koshek-s-problemami-pochek-s-ryboj-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "ME-00001028",
+    "evidence": "zoovet page today: 'Royal Canin Renal with Fish Gravy Влажный корм для кошек с проблемами почек с рыбой, 85 г', price 750 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'В наличии · 9 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Renal Fish Pouch 85g",
+    "url": "https://www.nemo.am/renal-tuna-pouch-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 'Royal Canin Renal Fish Pouch 85g', price 750 AMD, no old price; stock: no out-of-stock label, add-to-cart active. Description: Renal Fish Pouch 85 g with tuna (RC Renal fish pouch)."
+   },
+   "confidence": "high",
+   "notes": "Single 85 g Renal Fish pouch. Both rivals 750 = siruk 750."
+  },
+  {
+   "variant_id": 1867,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Renal with Chicken pouch Влажный корм для кошек с почечной недостаточностью, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-renal-with-chicken-pouch-vlazhnyj-korm-dlya-koshek-s-pochechnoj-nedostatochnostyu-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00003032AD",
+    "evidence": "zoovet page today: 'Royal Canin Renal with Chicken pouch Влажный корм для кошек с почечной недостаточностью, 85 г (упаковка 12 шт)', price 8650 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Renal chicken 12 հատ 85գ",
+    "url": "https://www.nemo.am/renal-chicken-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 'Royal Canin Renal chicken 12 հատ 85գ', price 8600 AMD, no old price; stock: 'Առկա չէ' (not available)."
+   },
+   "confidence": "high",
+   "notes": "12 x 85 g Renal Chicken box. zoovet 8650 vs siruk 8600 (+50); nemo 8600 = siruk."
+  },
+  {
+   "variant_id": 1869,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Renal with Fish Gravy Влажный корм для кошек с проблемами почек с рыбой, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-renal-with-fish-gravy-vlazhnyj-korm-dlya-koshek-s-problemami-pochek-s-ryboj-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00001028AD",
+    "evidence": "zoovet page today: 'Royal Canin Renal with Fish Gravy Влажный корм для кошек с проблемами почек с рыбой, 85 г (упаковка 12 шт)', price 8650 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Renal Fish pouch 12 հատ 85գ",
+    "url": "https://www.nemo.am/renal-tuna-pouch-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 'Royal Canin Renal Fish pouch 12 հատ 85գ', price 8600 AMD, no old price; stock: no out-of-stock label, add-to-cart active."
+   },
+   "confidence": "high",
+   "notes": "12 x 85 g Renal Fish box. zoovet 8650 vs siruk 8600 (+50); nemo 8600 = siruk."
+  },
+  {
+   "variant_id": 1872,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Urinary Care Gravy Влажный корм для кошек для профилактики проблемам мочевыделительной системы, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-urinary-care-gravy-vlagnyj-korm-dlya-koshek-dlya-profilaktiki-problemam-mochevydelitelnoj-sistemy-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "ME-00001026",
+    "evidence": "zoovet page today: 'Royal Canin Urinary Care Gravy Влажный корм для кошек для профилактики проблемам мочевыделительной системы, 85 г', price 750 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Urinary care gravy 1 հատ 85գ",
+    "url": "https://www.nemo.am/urinary-care-gravy-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 'Royal Canin Urinary care gravy 1 հատ 85գ', price 750 AMD, no old price; stock: 'Առկա չէ' (not available)."
+   },
+   "confidence": "high",
+   "notes": "Single 85 g Urinary Care in gravy (not Urinary S/O). Both rivals 750 = siruk 750."
+  },
+  {
+   "variant_id": 1871,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Urinary Care Gravy Влажный корм для кошек для профилактики проблемам мочевыделительной системы, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-urinary-care-gravy-vlazhnyj-korm-dlya-koshek-dlya-profilaktiki-problemam-mochevydelitelnoj-sistemy-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": true,
+    "sku": "ME-00001026AD",
+    "evidence": "zoovet page today: 'Royal Canin Urinary Care Gravy Влажный корм для кошек для профилактики проблемам мочевыделительной системы, 85 г (упаковка 12 шт)', price 8650 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'В наличии · 3 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Urinary care gravy 12 հատ 85գ",
+    "url": "https://www.nemo.am/urinary-care-gravy-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 'Royal Canin Urinary care gravy 12 հատ 85գ', price 8600 AMD, no old price; stock: 'Առկա չէ' (not available)."
+   },
+   "confidence": "high",
+   "notes": "12 x 85 g Urinary Care gravy box. zoovet 8650 vs siruk 8600 (+50); nemo 8600 = siruk."
+  },
+  {
+   "variant_id": 1874,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sensory Smell Gravy Влажный корм для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensory-smell-jelly-vlagnyj-korm-gele-dlya-koshek-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00001535",
+    "evidence": "zoovet page today: 'Royal Canin Sensory Smell Gravy Влажный корм для кошек, 85 г', price 750 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock. Texture caveat: the page title says 'Gravy', but its URL slug and its photo (pouch tab 'Chunks in jelly') say jelly, and the 12-pack page of the same article (ME-00001535AD) is titled 'Jelly' while its description says 'SENSORY SMELL Gravy'; zoovet has only this one Sensory Smell listing. Price is the same for either texture."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sensory Smell 85գ",
+    "url": "https://www.nemo.am/royal-canin-sensory-smell-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 'Royal Canin Sensory Smell 85գ', price 750 AMD, no old price; stock: no out-of-stock label, add-to-cart active. Page photo: Sensory Smell 85 g pouch marked 'Chunks in gravy'."
+   },
+   "confidence": "medium",
+   "notes": "Single 85 g Sensory Smell chunks in gravy. nemo is a clean match (photo shows gravy pouch). zoovet's listing has a gravy/jelly conflict (title gravy, photo jelly). Both rivals 750 = siruk 750."
+  },
+  {
+   "variant_id": 1873,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sensory Smell Jelly Влажный корм (желе) для кошек, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensory-smell-jelly-vlazhnyj-korm-zhele-dlya-koshek-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00001535AD",
+    "evidence": "zoovet page today: 'Royal Canin Sensory Smell Jelly Влажный корм (желе) для кошек, 85 г (упаковка 12 шт)', price 8650 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock. This is the 'Упак (12 шт)' option of the 'Sensory Smell Gravy' 85 g page, and its description says 'Влажный корм Royal Canin SENSORY SMELL Gravy'. Texture caveat: the page title says 'Gravy', but its URL slug and its photo (pouch tab 'Chunks in jelly') say jelly, and the 12-pack page of the same article (ME-00001535AD) is titled 'Jelly' while its description says 'SENSORY SMELL Gravy'; zoovet has only this one Sensory Smell listing. Price is the same for either texture."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sensory Smell 85գ (12հատ)",
+    "url": "https://www.nemo.am/royal-canin-sensory-smell-85գ-12հատ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 'Royal Canin Sensory Smell 85գ (12հատ)', price 8600 AMD, no old price; stock: no out-of-stock label, add-to-cart active. Page photo: Sensory Smell 85 g pouch marked 'Chunks in gravy'."
+   },
+   "confidence": "medium",
+   "notes": "12 x 85 g Sensory Smell box. nemo is clean, 8600 = siruk. zoovet 8650 (+50) but its texture is uncertain: title says Jelly, description says Gravy, it is the 12-pack option of the 'Gravy' single page; zoovet sells only this one Sensory Smell box."
+  },
+  {
+   "variant_id": 1876,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sensory Taste Влажный корм для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensory-taste-vlagnyj-korm-dlya-koshek-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00003038",
+    "evidence": "zoovet page today: 'Royal Canin Sensory Taste Влажный корм для кошек, 85 г', price 750 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock. Description: 'рацион в виде соуса'; photo: box marked 'Chunks in gravy'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sensory Taste 85գ",
+    "url": "https://www.nemo.am/royal-canin-sensory-taste-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 'Royal Canin Sensory Taste 85գ', price 750 AMD, no old price; stock: no out-of-stock label, add-to-cart active. Page photo: Sensory Taste 85 g pouch marked 'Chunks in gravy'."
+   },
+   "confidence": "high",
+   "notes": "Single 85 g Sensory Taste chunks in gravy. Both rivals 750 = siruk 750."
+  },
+  {
+   "variant_id": 1875,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sensory Taste Влажный корм для кошек, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensory-taste-vlazhnyj-korm-dlya-koshek-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00003038AD",
+    "evidence": "zoovet page today: 'Royal Canin Sensory Taste Влажный корм для кошек, 85 г (упаковка 12 шт)', price 8650 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock. Description: 'рацион в виде соуса' (gravy)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sensory Taste 85գ (12հատ)",
+    "url": "https://www.nemo.am/royal-canin-sensory-taste-85գ-12հատ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page today: 'Royal Canin Sensory Taste 85գ (12հատ)', price 8600 AMD, no old price; stock: no out-of-stock label, add-to-cart active. Page photo: Sensory Taste pouch marked 'Chunks in gravy'."
+   },
+   "confidence": "high",
+   "notes": "12 x 85 g Sensory Taste gravy box. zoovet 8650 vs siruk 8600 (+50); nemo 8600 = siruk."
+  },
+  {
+   "variant_id": 1878,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sensory Feel Влажный корм для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensory-feel-vlagnyj-korm-dlya-koshek-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00003039",
+    "evidence": "zoovet page today: 'Royal Canin Sensory Feel Влажный корм для кошек, 85 г', price 750 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock. Description: 'кусочки в соусе' (morsels in gravy)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sensory Feel թաց կերակուր կատուների համար 1հատ 85գ",
+    "url": "https://www.nemo.am/royal-canin-sensory-feel-թաց-կերակուր-կատուների-համար-1հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 'Royal Canin Sensory Feel թաց կերակուր կատուների համար 1հատ 85գ', price 750 AMD, no old price; stock: 'Առկա չէ' (not available). Page photo: Sensory Feel 85 g pouch marked 'Morsels in gravy'."
+   },
+   "confidence": "high",
+   "notes": "Single 85 g Sensory Feel morsels in gravy. Both rivals 750 = siruk 750."
+  },
+  {
+   "variant_id": 1877,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sensory Feel Влажный корм для кошек, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sensory-feel-vlazhnyj-korm-dlya-koshek-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00003039AD",
+    "evidence": "zoovet page today: 'Royal Canin Sensory Feel Влажный корм для кошек, 85 г (упаковка 12 шт)', price 8650 AMD (options '1 шт' 750 / 'Упак (12 шт)' 8650), no struck-through price; stock: 'Под заказ (Срок доставки: от 2 дней)' = on order, not in stock. Description: 'кусочки в соусе'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sensory Feel թաց կերակուր կատուների համար 12հատ 85գ",
+    "url": "https://www.nemo.am/royal-canin-sensory-feel-թաց-կերակուր-կատուների-համար-12հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 'Royal Canin Sensory Feel թաց կերակուր կատուների համար 12հատ 85գ', price 8600 AMD, no old price; stock: 'Առկա չէ' (not available)."
+   },
+   "confidence": "high",
+   "notes": "12 x 85 g Sensory Feel gravy box. zoovet 8650 vs siruk 8600 (+50); nemo 8600 = siruk."
+  },
+  {
+   "variant_id": 1879,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin at all: live search 'Royal Canin', 'Ռոյալ Կանին', the EAN, 'renal', 'sensory' and the local dump (royal|ռոյալ|роял, canin|կանին|канин, hafo-sku 9003579) return no Royal Canin rows (only Monge VetSolution / Trixie 'royal blue' items)."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Mother & Babycat Консервы для котят и кормящих и беременных кошек, 195 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-mother-babycat-konservy-dlya-kotyat-i-kormyaschih-i-beremennyh-koshek-195-g",
+    "price": 2300,
+    "old_price": null,
+    "in_stock": false,
+    "sku": "ME-00001022",
+    "evidence": "zoovet page today: 'Royal Canin Mother & Babycat Консервы ... 195 г', price 2300 AMD, no options, no struck-through price; description 'ультрамягкий мусс' / 'нежной муссовой текстурой'; stock 'Под заказ (Срок доставки: от 10 дней)' = on order."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Mother Babycat canned 195գ",
+    "url": "https://www.nemo.am/mother-babycat-canned-195գ",
+    "price": 2300,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page today: 'Royal Canin Mother Babycat canned 195գ', price 2300 AMD, no old price; stock: 'Առկա չէ' (not available). Page photo: Mother & Babycat 195 g can, 'Ultra Soft Mousse'."
+   },
+   "confidence": "high",
+   "notes": "195 g can Mother & Babycat Ultra Soft Mousse. Both rivals 2300 = siruk 2300."
+  }
+ ]
+}

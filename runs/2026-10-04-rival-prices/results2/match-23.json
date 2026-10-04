@@ -1,0 +1,224 @@
+{
+ "results": [
+  {
+   "variant_id": 802,
+   "zoovet": {
+    "found": false,
+    "evidence": "Nearest: 'Special Dog Excellence Влажный корм с ягненком для собак средних пород, 1.25 кг' (1850, in stock, ME-00008955) — page spec 'Вес (кг) 1.25' and the can photo reads 'Medium Adult Bocconi con Agnello 1250g' (new can design); ours is the 1275 g can (EAN 8009470060349, hafo 1.275), so pack size differs. zoovet carries only this lamb can and a Maxi beef 1.275 kg."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պահածո շների համար՝ SPECIAL DOG EXCELLENCE, Medium Adult, գառ",
+    "url": "https://www.nemo.am/պահածո-շների-համար-special-dog-excellence-medium-adult-գառ",
+    "price": 1900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Special Dog; medium-breed adult, canned with lamb, 'Քաշ՝ 1.275կգ'; price 1900, in stock. Name identical to hafo row (minus size)."
+   },
+   "confidence": "high",
+   "notes": "zoovet lamb can is the 1250 g version (would be 1850, lower than nemo anyway)."
+  },
+  {
+   "variant_id": 803,
+   "zoovet": {
+    "found": true,
+    "name": "Special Dog Excellence Влажный корм с говядиной для собак крупных пород, 1.275 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/special-dog-excellence-vlagnyj-korm-s-govyadinoj-dlya-sobak-krupnyh-porod-1-275-kg",
+    "price": 1850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: Special Dog Excellence wet, beef, large breeds, 1.275 kg; can photo 'Bocconi per cani MAXI con Manzo with beef 1275g'; 1850, 'В наличии · 2 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պահածո շների համար՝ SPECIAL DOG EXCELLENCE, Maxi Adult, տավար",
+    "url": "https://www.nemo.am/պահածո-շների-համար-special-dog-excellence-maxi-adult-տավար",
+    "price": 1900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Special Dog; large-breed adult, canned beef, 'Քաշ՝ 1.275կգ'; 1900, in stock."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 291,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie list has no figure-eight rope tugger; nearest 'Trixie Игрушка веревка с узлом для собак, 32 см' (1150, different model). EAN/article search empty."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Ութաձև- Գրեյֆեր",
+    "url": "https://www.nemo.am/ութաձև-գրեյֆեր",
+    "price": 2000,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Չափսը ՝ 35սմ', figure-eight tugger of cotton blend crossed by a plastic cross; photo = Trixie 3278 rope figure-8; title identical to hafo's title for 3278Tx. 2000, in stock."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 302,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie flashing/light-up ball on zoovet (searched светящ/мигающ/flash, мяч, EAN); nearest 'Trixie Мяч игольчатый ... 10 см' (2000, not flashing, other size)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Գնդակ շների համար (լուսավորվող)",
+    "url": "https://www.nemo.am/գնդակ-շների-համար-լուսավորվող",
+    "price": 1900,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: light-up dog ball, thermoplastic rubber, activates on bouncing, 'Չափս՝ 5 սմ'; spiky pink ball photo = Trixie 33640; title identical to hafo TX 336401 title. 1900, in stock."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 317,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie cow plush on zoovet (searched коров/бычок/cow, плюш, EAN); only Triol latex 'Коровка-мяч' 85 mm (different brand/product)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Trixie, ծվծվան փափուկ կովիկ, 5 սմ",
+    "url": "https://www.nemo.am/trixie-ծվծվան-փափուկ-կովիկ-5-սմ",
+    "price": 5450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: Trixie dog toy, soft cow, squeaker, ropes inside, 'Չափս՝ 50 սմ' (title's '5 սմ' is a typo shared with hafo's title); photo = Trixie plush cow 34721. 5450, in stock."
+   },
+   "confidence": "high",
+   "notes": "Other nemo 'Խաղալիք կովիկ շների համար' listings are latex 18-19 cm, not this item."
+  },
+  {
+   "variant_id": 332,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has only cat catnip mice from Trixie; no latex dog mouse 8 cm (EAN search empty)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Խաղալիք մուկ շների համար",
+    "url": "https://www.nemo.am/խաղալիք-մուկ-շների-համար",
+    "price": 1650,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: dog toy, latex, with sound, polyester core, 'Չափս՝ 8 սմ'; purple latex mouse photo = Trixie 35170; title identical to hafo TX 351701. 1650, in stock."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 333,
+   "zoovet": {
+    "found": true,
+    "name": "Trixie Игрушка птица для собак, 20 см",
+    "url": "https://zoovet.am/sobaki/igrushki-1/v-vide-zhivotnyh/trixie-igrushka-ptitsa-dlya-sobak-20-sm",
+    "price": 2750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page: brand Trixie, 'латекс - в ассортименте - с имитацией звуков животных, Размер: 20 см'; photo is the red latex long-neck bird = Trixie 35182. 2750, 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Թռչուն խաղալիք շների համար",
+    "url": "https://www.nemo.am/թռչուն-խաղալիք-շների-համար",
+    "price": 2850,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Չափս`20սմ', dog toy bird, latex; same red latex bird photo (Trixie 35182); title identical to hafo TX 351821. 2850, in stock."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 344,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie mini ring on zoovet (кольц/ring results are Gamma/Triol/Nunbell rings 100-145 mm); EAN search empty."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Օղակ խաղալիք շների համար",
+    "url": "https://www.nemo.am/օղակ-խաղալիք-շների-համար",
+    "price": 1500,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: 'Լատեքս Չափս`8 սմ'; photo (green ring with coloured dots) is the same picture hafo uses for TX 356121; title identical to hafo's title for 35612. 1500, in stock."
+   },
+   "confidence": "medium",
+   "notes": "nemo/hafo photo shows the older green dotted ring, siruk's photo the pastel Junior version of 35612 — same article, size 8 cm and material; nemo shows no manufacturer."
+  },
+  {
+   "variant_id": 369,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie Junior plush dog on zoovet (searched собачк/щенок/junior, плюш, EAN); only Trixie Junior pacifier 9 cm."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Խաղալիք՝ ձագերի համար, փափուկ շնիկ",
+    "url": "https://www.nemo.am/խաղալիք-ձագերի-համար-փափուկ-շնիկ",
+    "price": 3550,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: plush with rope, with sound, 'Չափս՝ 24 սմ'; grey plush puppy-dog with rope ring photo = Trixie Junior dog 36160; title identical to hafo 36160Tx. 3550, in stock."
+   },
+   "confidence": "high",
+   "notes": "Other nemo 'Խաղալիք փափուկ շնիկ' (3850) / Benny listings are different toys."
+  },
+  {
+   "variant_id": 377,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie Denta Fun items are all treats; rugby balls on zoovet are Triol only. EAN search empty."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Խաղալիք շների Denta Fun՝ ռեգբիի գնդակ",
+    "url": "https://www.nemo.am/խաղալիք-շների-denta-fun-ռեգբիի-գնդակ",
+    "price": 5450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: natural rubber, mint scent, massages gums, 'Չափս՝ 15 սմ'; turquoise/white Denta Fun rugby ball photo; title identical to hafo 33132Tx. 5450, in stock."
+   },
+   "confidence": "high",
+   "notes": "Other nemo '«Denta Fun» ռեգբիի գնդակ' listings are 11 cm (2700) and 10 cm TPR (2000) — other sizes, not used."
+  },
+  {
+   "variant_id": 381,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie Aqua Toy on zoovet (aqua/молекул/аква results are Triol neoprene toys); EAN search empty."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Խաղալիք շների՝ մոլեկուլ (ջերմակայուն կաուչուկ)",
+    "url": "https://www.nemo.am/խաղալիք-շների-մոլեկուլ-ջերմակայուն-կաուչուկ",
+    "price": 6950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: dog toy, heat-resistant rubber, '17 սմ'; photo = orange double-ring TRIXIE-embossed tugger, same as siruk's Aqua Toy photo; title identical to hafo 33448Tx. 6950, in stock."
+   },
+   "confidence": "high",
+   "notes": "nemo sibling listing '-2' is the 14 cm size (4750) — not used."
+  },
+  {
+   "variant_id": 392,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Trixie Dog Activity Ball & Treat on zoovet (searched dog activity / ball & treat, EAN)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Խաղալիք շների համար՝ DOG ACTIVITY Ball & Treat",
+    "url": "https://www.nemo.am/խաղալիք-շների-համար-dog-activity-ball-treat",
+    "price": 10950,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Trixie; ball-driven treat dispenser, 2 treat openings, plastic/rubber, Level 3, '17*18 սմ'. 10950, in stock."
+   },
+   "confidence": "high"
+  }
+ ]
+}

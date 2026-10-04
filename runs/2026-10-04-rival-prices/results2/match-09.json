@@ -1,0 +1,278 @@
+{
+ "results": [
+  {
+   "variant_id": 935,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Гельминтал list has only SPOT-ON pipettes, 2-tab tablets and Мини Таблетки 10 шт - no syrup; live searches 'Гельминтал', 'сироп', 'суспензия' (only Дирофен/Празицид suspensions) and the EAN 4607092078366 return no Gelmintal syrup. Nearest: Гельминтал Мини Таблетки (10 шт), a different form."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Գելմենտալ օշարակ փոքր ցեղատեսակի շների և կատուների ձագերի համար",
+    "url": "https://www.nemo.am/գելմենտալ-օշարակ-փոքր-ցեղատեսակի-շների-և-կատուների-ձագերի-համար",
+    "price": 2840,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: Gelmintal syrup for small-breed puppies and kittens, short description 'Տարողությունը՝ 10մլ', for 2-week-old puppies/kittens, 0.5 ml per kg; price 2840 AMD, no old price, in stock. Same item as hafo row 078362 (Gelmintal syrup E200, 10 ml)."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries the syrup."
+  },
+  {
+   "variant_id": 936,
+   "zoovet": {
+    "found": true,
+    "name": "Гельминтал Мини Таблетки антигельминтные для собак и кошек, (упаковка 10 шт)",
+    "url": "https://zoovet.am/koshki/veterinarnaya-apteka/protiv-gelmintov-glistov-1/gelmintal-mini-tabletki-antigelmintnye-dlya-sobak-i-koshek-upakovka-10-sht",
+    "price": 2400,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: Gelmintal Mini tablets, description 'для котят и щенков, кошек и собак с 2 недель, с 500 г веса', '1 таблетка на 1 кг массы, в упаковке: 10 таблеток'; price 2400 AMD, no options, no struck price; stock 'В наличии · 1 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Гельминтал Мини, ճիճվամուղ հաբեր շների, կատուների և նրանց ձագերի համար",
+    "url": "https://www.nemo.am/гельминтал-мини-ճիճվամուղ-հաբեր-շների-կատուների-և-նրանց-ձագերի-համար",
+    "price": 2370,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: Gelmintal Mini dewormer tablets for dogs, cats and their young, from 2 weeks / 500 g, 1 tablet per kg, 'Տուփում առկա է 10 հաբ' (10 tablets per box); price 2370 AMD, no old price, in stock. (nemo also sells a single tablet at 300 AMD - not our pack.)"
+   },
+   "confidence": "high",
+   "notes": "zoovet 2400 > nemo 2370."
+  },
+  {
+   "variant_id": 752,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Gemon brand list (34 items) and live searches ('Gemon пауч', 'пауч', 'Gemon Puppy', 'Gemon Dog', 'дичью', 'ветчиной', 'Джемон') carry no Gemon dog pouch at all - its Gemon pouches are cat-only (Sterilised tuna, kitten chicken, rabbit & veg). Nearest: none (only Gemon dog cans 415 g / 1.25 kg)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Տավարի և խոզապուխտի համով պաուչ մեծ շների համար",
+    "url": "https://www.nemo.am/տավարի-և-խոզապուխտի-համով-պաուչ-մեծ-շների-համար",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, 'Քաշը՝ 100գ', for dogs over 12 months; product photo is the Gemon Dog Adult pouch 'Bocconcini con Manzo e Prosciutto - Chunkies with Beef and Ham, 100g'; name identical to hafo's title for sku MM 300607. Price 450 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it."
+  },
+  {
+   "variant_id": 754,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Gemon brand list (34 items) and live searches ('Gemon пауч', 'пауч', 'Gemon Puppy', 'Gemon Dog', 'дичью', 'ветчиной', 'Джемон') carry no Gemon dog pouch at all - its Gemon pouches are cat-only (Sterilised tuna, kitten chicken, rabbit & veg)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Բադի մսով պաուչ մեծ շների համար",
+    "url": "https://www.nemo.am/բադի-մսով-պաուչ-մեծ-շների-համար",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, 'Քաշը՝ 100գ', for dogs over 12 months; the Armenian name says duck but the product photo is the Gemon Dog Adult pouch 'Bocconcini con Selvaggina - Chunkies with Wild game, 100g' = our Game pouch; the name is identical to hafo's own title for sku MM 300627 (our article). Price 450 AMD, no old price, in stock."
+   },
+   "confidence": "medium",
+   "notes": "nemo's name says 'duck' (copied from hafo's title for this same article) while its photo shows the Wild game pouch; matched on the photo + hafo title."
+  },
+  {
+   "variant_id": 755,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Gemon list has no Adult pork pouch: its Gemon cat pouches are Sterilised tuna, kitten chicken and rabbit & veg (100 g); pork appears only in the 85 g Mousse cans (Adult chicken & pork, Sterilised tuna & pork). Live searches 'пауч', 'свинин', 'Gemon Adult' add nothing. Nearest: Gemon Adult Mousse с курицей и свининой 85 г (different format/size)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաուչ կատուների համար Gemon Adult խոզ 100գ",
+    "url": "https://www.nemo.am/պաուչ-կատուների-համար-gemon-adult-խոզ-100գ",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, complete wet food for adult cats, 16% fresh pork, 'Փաթեթավորում՝ 100 գ'; photo is Gemon Adult 'Bocconcini con Maiale - chunkies with pork' pouch 100 g. Price 450 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it."
+  },
+  {
+   "variant_id": 809,
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с индейкой для серилизованных кошек, 415 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-vlagnyj-korm-s-indejkoj-dlya-serilizovannyh-koshek-415-g",
+    "price": 920,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: price 920 AMD, no options, no struck price, stock 'В наличии · 3 шт'; attributes Вкус Индейка, Для стерилизованных. Its title/weight field say 415 г, but the page's product photo (ME000072901) is the Gemon 'Sterilised PATÉ con TACCHINO - paté with turkey' can marked 400g - the identical photo nemo uses for its 400 g sterilised paté - and Gemon makes no 415 g sterilised turkey can (hafo's Gemon 415 g cat range is rabbit, senior, veal, tuna/fish, salmon/shrimp). Same 920 price as the 400 g beef paté."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ Gemon կատուների՝ ստերիլիզեթ 400գր",
+    "url": "https://www.nemo.am/պաշտետ-gemon-կատուների-ստերիլիզեթ-400գր",
+    "price": 920,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Քաշը՝ 400գ', Gemon wet food for sterilised cats with turkey; photo is Gemon Sterilised 'Paté con Tacchino' can; name identical to hafo's title for sku 299957. Price 920 AMD, no old price, in stock."
+   },
+   "confidence": "medium",
+   "notes": "zoovet's listing text says 415 g but its photo is our 400 g Sterilised turkey paté (weight mislabelled on zoovet); both rivals 920."
+  },
+  {
+   "variant_id": 810,
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм паштет с говядиной для взрослых кошек, 400 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-vlagnyj-korm-pashtet-s-govyadinoj-dlya-vzroslyh-koshek-400-g",
+    "price": 920,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: Gemon Cat canned 'Нежный паштет с говядиной' for adult cats, 'Вес: 400 г' (attribute 0.4 kg); price 920 AMD, no options, no struck price; stock 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պաշտետ Gemon կատուների՝ հորթի մսով 400գ",
+    "url": "https://www.nemo.am/պաշտետ-gemon-կատուների-հորթի-մսով-400գ",
+    "price": 920,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: 'Քաշը՝ 400գ', Gemon wet food for adult cats with veal/beef; photo is Gemon Adult 'Paté con Manzo - Paté with Beef' can; name identical to hafo's title for sku 299967. Price 920 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 920."
+  },
+  {
+   "variant_id": 811,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet's Gemon brand list (34 items) and live searches ('Gemon пауч', 'пауч', 'Gemon Puppy', 'Gemon Dog', 'дичью', 'ветчиной', 'Джемон') carry no Gemon dog pouch at all - its Gemon pouches are cat-only (Sterilised tuna, kitten chicken, rabbit & veg). Nearest: Gemon Влажный корм с курицей и индейкой для щенков, 415 г (a can, different format/size/flavour)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Հավի համով պաուչ ձագերի համար",
+    "url": "https://www.nemo.am/հավի-համով-պաուչ-ձագերի-համար",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, 'Քաշը՝ 100գ', complete food for puppies 2-10 months; photo is Gemon 'Puppy and Junior All Breeds - Bocconcini con Pollo / Chunkies with chicken' pouch 100g; name identical to hafo's title for sku MM 300637. Price 450 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "Only nemo carries it."
+  },
+  {
+   "variant_id": 812,
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с лососем и креветкой для кошек, 415 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-vlagnyj-korm-s-lososem-i-krevetkoj-dlya-koshek-415-g",
+    "price": 810,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: 'Gemon Cat Adult Salmon/Shrimps', chunks of salmon and shrimp for adult cats, weight 0.415 kg; photo is Gemon Adult 'Bocconcini con Salmone e Gamberetti' 415 g can; price 810 AMD, no options, no struck price; stock 'В наличии · 3 шт' (the brand list showed it out of stock, the page shows in stock)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պահածո կատուների՝ սաղմոնով և ծովախեցգետնով",
+    "url": "https://www.nemo.am/պահածո-կատուների-սաղմոնով-և-ծովախեցգետնով",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, salmon and shrimp wet food, 'Պարունակություն՝ 415գր', made in Italy; photo is Gemon Adult 'Bocconcini con Salmone e Gamberetti' can; name identical to hafo's title for sku 300737. Price 750 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "zoovet 810 > nemo 750."
+  },
+  {
+   "variant_id": 813,
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с тунцом и рыбой для стерилизованных кошек, 415 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-vlagnyj-korm-s-tuntsom-i-ryboj-dlya-koshek-415-g",
+    "price": 810,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: title 'с тунцом и рыбой для стерилизованных кошек, 415 г', description 'Gemon cat wet с тунцом и океанической рыбой', 'Вес: 415 г'; price 810 AMD, no options, no struck price; stock 'В наличии · 4 шт'. Its photo is the older Gemon pack of the same recipe labelled 'Adult - Bocconcini con Tonno e Pesce bianco / Chunkies with Tuna and Ocean fish' (the current pack, as on nemo, says Sterilised)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պահածո կատուների՝ թունայով և օվկիանոսային ձկներով",
+    "url": "https://www.nemo.am/պահածո-կատուների-թունայով-և-օվկիանոսային-ձկներով",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, for sterilised cats, tuna and ocean fish, 'Պարունակություն՝ 415գր'; photo is Gemon 'Sterilised Bocconcini con Tonno e Pesce Bianco' 415 g can; name identical to hafo's title for sku 300747. Price 750 AMD, no old price, in stock."
+   },
+   "confidence": "medium",
+   "notes": "zoovet's title says sterilised 415 g tuna & fish (matches) but its photo is the older 'Adult' pack of the same tuna & white-fish recipe; nemo is an exact match."
+  },
+  {
+   "variant_id": 814,
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Sterilised Влажный корм (пауч) кусочки тунца с рыбой дори, 100 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-sterilised-vlagnyj-korm-pauch-kusochki-tuntsa-s-ryboj-dori-100-g",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: Gemon Cat Pouch Sterilized 100 г, chunks with tuna (and dory) for sterilised cats; photo is the Gemon 'Sterilised Bocconcini con Tonno - Chunkies with Tuna' 100 g pouch; price 450 AMD, no options, no struck price; stock 'В наличии · > 20 шт'."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon ձկան պաուչ Sterilized կատուների համար (100 գ)",
+    "url": "https://www.nemo.am/gemon-ձկան-պաուչ-sterilized-կատուների-համար-100-գ",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, 'Քաշը՝ 100գ', tuna & dory pouch for sterilised cats 12+ months; photo is the same Gemon 'Sterilised Bocconcini con Tonno' 100 g pouch; name identical to hafo's title for sku MM 300907. Price 450 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "Both rivals 450."
+  },
+  {
+   "variant_id": 815,
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Adult Mousse Влажный корм с лососем и курицей для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-lososem-i-kuritsej-dlya-koshek-85-g",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet product page today: Gemon Adult Mousse with salmon and chicken for cats, 85 g; price 450 AMD, no options, no struck price; stock 'В наличии · 20 шт'. (Kitten Mousse chicken & salmon is a separate listing.)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon Mousse կատուների համար, հավ/սալմոն, 85 գ",
+    "url": "https://www.nemo.am/gemon-mousse-կատուների-համար-հավսալմոն-85-գ",
+    "price": 430,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, chicken & salmon, 'Պարունակություն՝ 85 գ'; photo is Gemon 'Adult Mousse con Salmone e Pollo' can (the kitten version is a separate nemo listing). Price 430 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "zoovet 450 > nemo 430."
+  },
+  {
+   "variant_id": 816,
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Adult Mousse Влажный корм с курицей и свининой для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-adult-mousse-vlagnyj-korm-s-kuritsej-i-svininoj-dlya-koshek-85-g",
+    "price": 450,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet product page today: Gemon Adult Mousse with chicken and pork for cats, 85 g; price 450 AMD, no options, no struck price; stock 'Нет в наличии' (out of stock)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon Mousse կատուների համար, հավ/խոզ, 85 գ",
+    "url": "https://www.nemo.am/gemon-mousse-կատուների-համար-հավխոզ-85-գ",
+    "price": 430,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo product page today: manufacturer Gemon, chicken & pork mousse for cats, 'Պարունակություն՝ 85 գ' (Gemon's only chicken & pork mousse is the Adult one; sterilised is tuna & pork). Price 430 AMD, no old price, in stock."
+   },
+   "confidence": "high",
+   "notes": "zoovet 450 (out of stock) > nemo 430."
+  }
+ ]
+}

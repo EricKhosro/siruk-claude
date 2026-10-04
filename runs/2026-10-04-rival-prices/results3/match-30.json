@@ -1,0 +1,188 @@
+{
+ "results": [
+  {
+   "variant_id": 1776,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Versele Laga list has only one Nature Snack: 'Лакомство с тропическими фруктами, 85 г' (ME-00005147) whose description says 'Nature Snack Fruities' (apricot/pineapple/papaya) = Fruities, not Berries. Searched 'versele nature', 'nature berries|ягод', 'versele 85', 'лакомство грызун 85', full Versele list. Nearest: Fruities 85 g 1950."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-berries-հատապտղային",
+    "price": 1950,
+    "old_price": null,
+    "name": "Հյուրասիրություն կրծողների համար՝ NATURE BERRIES, հատապտղային",
+    "in_stock": true,
+    "evidence": "Page manufacturer Versele-Laga; short text 'Քաշը՝ 85գ', grapes/rosehip/juniper/cranberry = Nature Snack Berries 85 g; same name as hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1777,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/lakomstva-1/versele-laga-nature-snack-lakomstvo-s-tropicheskimi-fruktami-dlya-gryzunov-85-g",
+    "price": 1950,
+    "old_price": null,
+    "name": "Versele Laga Nature Snack Лакомство с тропическими фруктами для грызунов, 85 г",
+    "in_stock": true,
+    "evidence": "Page description: 'Nature Snack Fruities ... НАТЮР СНЕК ФРУКТЫ', apricot/pineapple/papaya; 85 g; brand Versele Laga; in stock (1 pc)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-fruities-մրգային",
+    "price": 1950,
+    "old_price": null,
+    "name": "Հյուրասիրություն կրծողների համար՝ NATURE FRUITIES, մրգային",
+    "in_stock": true,
+    "evidence": "Manufacturer Versele-Laga; 'Քաշը՝ 85գ'; pineapple/papaya/coconut/grape/apricot = Nature Snack Fruities 85 g; same name as hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1778,
+   "zoovet": {
+    "found": false,
+    "evidence": "Full zoovet Versele Laga list (Complete, Crispy, Crock, Nature Snack Fruities 85 g, Nature hay 500 g x3, Prestige, hay, woodchips) has no Nature Snack Cereals 500 g. Searched 'cereals|злак', 'nature snack', 'versele nature'."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Versele items: Nature Snack 85 g (Nutties/Berries/Fruities/Veggies), Crock 50 g, mountain hay 500 g, vitaminised hay 1/2.5/5 kg. No Nature Snack Cereals 500 g. Searched 'Վիտամինացված կեր', 'cereal', 'nature 500', 'Nature', 'Snack', 'կեր կրծողների', article/EAN."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1779,
+   "zoovet": {
+    "found": false,
+    "evidence": "No Nature Snack Fibres 500 g in zoovet Versele Laga list. Searched 'fibres|клетчатк|fibre', 'nature snack', 'versele nature'."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "No Nature Snack Fibres 500 g on nemo. Searched 'fibre|fiber', 'բանջարեղենային', 'Վիտամինացված կեր', 'Nature', 'Snack', article/EAN; only Nature Snack Veggies 85 g (different line/size)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1780,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-seno-vitaminizirovannoe-dlya-gryzunov-1-kg",
+    "price": 2600,
+    "old_price": null,
+    "name": "Versele Laga Сено витаминизированное для грызунов, 1 кг",
+    "in_stock": true,
+    "evidence": "Versele Laga vitaminised hay for rodents, 'Вес: 1 кг' (ME-00000377); hafo row is 'Խոտ՝ վիտամինացված ... 1 կգ'. Other sizes 2.5/5 kg are separate listings."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խոտ-վիտամինացված-նախատեսված-կրծողների-համար",
+    "price": 2600,
+    "old_price": null,
+    "name": "Խոտ՝ վիտամինացված, նախատեսված կրծողների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Versele-Laga; 'Քաշը՝ 1կգ'; vitaminised hay, same wording as hafo row. (-2 is 5 kg 11550; another listing 2.5 kg 6850.)"
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1781,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-so-svekloj-i-tomatami-dlya-gryzunov-500-g",
+    "price": 5650,
+    "old_price": null,
+    "name": "Versele Laga Nature Сено витаминизированное со свеклой и томатами для грызунов, 500 г",
+    "in_stock": true,
+    "evidence": "Versele Laga Nature hay with beetroot and tomato, 0.5 kg (ME-00007195); matches Nature Timothy Hay Beetroot & Tomato 500 g. Carrot/pumpkin and pepper/parsnip are separate listings."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "No Nature hay beetroot & tomato on nemo. Searched 'լոլիկ|ճակնդեղ|ծաղիկ', 'timothy', 'Խոտ', 'versele'. Nearest: 'Versel Laga, լեռնային խոտ ...' 500 g (mountain hay with mint/chamomile/dandelion/herbs, 3200-3450), a different line/recipe."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1782,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/drugie-pitomcy/gigiena-i-uhod-2/versele-laga-opilki-dlya-gryzunov-1-kg",
+    "price": 1600,
+    "old_price": null,
+    "name": "Versele Laga Опилки для грызунов, 1 кг",
+    "in_stock": true,
+    "evidence": "Versele Laga woodchips (description 'PRESTIGE WOODCHIPS опилки для грызунов, 1 кг'), weight 1 kg (ME-00001509); hafo row 'Թեփ՝ կրծողների համար, 1 կգ'. 2.5 kg is a separate listing (3450). Only Versele woodchips line on zoovet."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo has only 'Թեփ՝ կրծողների համար' 2.5 kg (3450, no manufacturer shown) - different size. Searched 'Թեփ', 'թեփ կրծող', 'chips|bedding|wood', 'փայտ', 'versele'."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1637,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no flexi New Neon: flexi/Triol list = Comfort, New Comfort blue M tape, Joy, Life, Urban, Marvel, cat 3 m. Searched 'flexi', 'neon|неон', 'new neon', 'рулетка лент', colour words, article/EAN."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Nearest: nemo '«New NEON» Ռուլետկա (Ձգվող գոտիով) S' 10700 (https://www.nemo.am/new-neon-ռուլետկա-ձգվող-գոտիով-s) - same size/length/weight band, but text says 'սև/նեոն' and the only photo is black with neon-YELLOW tape; no colour options, so orange not offered. Searched 'NEON', 'New NEON', 'Ռուլետկա', 'Ձգափոկ մեխանիկական', colour words, article/EAN."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1638,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no flexi New Neon: flexi/Triol list = Comfort, New Comfort blue M tape, Joy, Life, Urban, Marvel, cat 3 m. Searched 'flexi', 'neon|неон', 'new neon', 'рулетка лент', colour words, article/EAN."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Nearest: nemo '«New NEON» Ռուլետկա (Ձգվող գոտիով) S' 10700 (https://www.nemo.am/new-neon-ռուլետկա-ձգվող-գոտիով-s) - same size/length/weight band, but text says 'սև/նեոն' and the only photo is black with neon-YELLOW tape; no colour options, so blue not offered. Searched 'NEON', 'New NEON', 'Ռուլետկա', 'Ձգափոկ մեխանիկական', colour words, article/EAN."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1639,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no flexi New Neon: flexi/Triol list = Comfort, New Comfort blue M tape, Joy, Life, Urban, Marvel, cat 3 m. Searched 'flexi', 'neon|неон', 'new neon', 'рулетка лент', colour words, article/EAN."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Nearest: nemo '«New NEON» Ռուլետկա (Ձգվող գոտիով) M' 12800 (https://www.nemo.am/new-neon-ռուլետկա-ձգվող-գոտիով-m) - same size/length/weight band, but text says 'սև/նեոն' and the only photo is black with neon-YELLOW tape; no colour options, so pink not offered. Searched 'NEON', 'New NEON', 'Ռուլետկա', 'Ձգափոկ մեխանիկական', colour words, article/EAN."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1640,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no flexi New Neon: flexi/Triol list = Comfort, New Comfort blue M tape, Joy, Life, Urban, Marvel, cat 3 m. Searched 'flexi', 'neon|неон', 'new neon', 'рулетка лент', colour words, article/EAN."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Nearest: nemo '«New NEON» Ռուլետկա (Ձգվող գոտիով) M' 12800 (https://www.nemo.am/new-neon-ռուլետկա-ձգվող-գոտիով-m) - same size/length/weight band, but text says 'սև/նեոն' and the only photo is black with neon-YELLOW tape; no colour options, so green not offered. Searched 'NEON', 'New NEON', 'Ռուլետկա', 'Ձգափոկ մեխանիկական', colour words, article/EAN."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1751,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no flexi New Neon: flexi/Triol list = Comfort, New Comfort blue M tape, Joy, Life, Urban, Marvel, cat 3 m. Searched 'flexi', 'neon|неон', 'new neon', 'рулетка лент', colour words, article/EAN. Nearest XS tape: Triol Urban XS 3 m (different brand)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/new-neon-ռուլետկա-ձգվող-գոտիով-xs",
+    "price": 8700,
+    "old_price": null,
+    "name": "«New NEON» Ռուլետկա (Ձգվող գոտիով) XS",
+    "in_stock": true,
+    "evidence": "flexi New Neon tape (Ձգվող գոտիով), XS, '3 մ սև/նեոն մինչև 12 կգ' = our XS 3 m up to 12 kg black/neon; image shows flexi New Neon. Price equals hafo/siruk 8700."
+   },
+   "confidence": "high"
+  }
+ ]
+}

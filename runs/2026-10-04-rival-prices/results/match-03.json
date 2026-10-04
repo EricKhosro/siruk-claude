@@ -1,0 +1,544 @@
+{
+ "results": [
+  {
+   "variant_id": 1848,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Kitten Gravy Влажный корм для котят, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-kitten-gravy-vlagnyj-korm-dlya-kotyat-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Kitten Gravy Влажный корм для котят, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Kitten gravy 1 հատ 85գ",
+    "url": "https://www.nemo.am/kitten-gravy-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page 'Royal Canin Kitten gravy 1 հատ 85գ' 750 AMD, no old price; page photo: Kitten pouch 'Gravy'; no 'Առկա չէ' label, add-to-cart shown"
+   },
+   "confidence": "high",
+   "notes": "Kitten in Gravy 85 g single pouch. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1850,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Kitten Jelly Влажный корм для котят, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-kitten-jelly-vlagnyj-korm-dlya-kotyat-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Kitten Jelly Влажный корм для котят, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Kitten jelly 1 հատ 85գ",
+    "url": "https://www.nemo.am/kitten-jelly-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page 'Royal Canin Kitten jelly 1 հատ 85գ' 750 AMD, no old price; page photo: Kitten pouch 'Jelly'; no 'Առկա չէ' label, add-to-cart shown"
+   },
+   "confidence": "high",
+   "notes": "Kitten in Jelly 85 g single pouch. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1852,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Kitten Loaf Влажный корм для котят, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-kitten-loaf-vlagnyj-korm-dlya-kotyat-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Kitten Loaf Влажный корм для котят, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Kitten Loaf 1 հատ 85գ",
+    "url": "https://www.nemo.am/kitten-loaf-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page 'Royal Canin Kitten Loaf 1 հատ 85գ' 750 AMD, no old price; page photo: Kitten pouch 'Loaf'; no 'Առկա չէ' label, add-to-cart shown"
+   },
+   "confidence": "high",
+   "notes": "Kitten Loaf 85 g single pouch. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1847,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Kitten Gravy Влажный корм для котят, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-kitten-gravy-vlazhnyj-korm-dlya-kotyat-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Kitten Gravy Влажный корм для котят, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Kitten gravy 12 հատ 85գ",
+    "url": "https://www.nemo.am/kitten-gravy-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page 'Royal Canin Kitten gravy 12 հատ 85գ' 8600 AMD, no old price; page photo: Kitten pouch 'Gravy'; no 'Առկա չէ' label, add-to-cart shown"
+   },
+   "confidence": "high",
+   "notes": "Kitten in Gravy 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1849,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Kitten Jelly Влажный корм для котят, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-kitten-jelly-vlazhnyj-korm-dlya-kotyat-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Kitten Jelly Влажный корм для котят, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Kitten jelly 12 հատ 85գ",
+    "url": "https://www.nemo.am/kitten-jelly-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page 'Royal Canin Kitten jelly 12 հատ 85գ' 8600 AMD, no old price; page photo: Kitten pouch 'Jelly'; no 'Առկա չէ' label, add-to-cart shown"
+   },
+   "confidence": "high",
+   "notes": "Kitten in Jelly 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1851,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Kitten Loaf Влажный корм для котят, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-kitten-loaf-vlazhnyj-korm-dlya-kotyat-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Kitten Loaf Влажный корм для котят, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Kitten Loaf 12 հատ 85գ",
+    "url": "https://www.nemo.am/kitten-loaf-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page 'Royal Canin Kitten Loaf 12 հատ 85գ' 8600 AMD, no old price; page photo: Kitten pouch 'Loaf'; no 'Առկա չէ' label, add-to-cart shown"
+   },
+   "confidence": "high",
+   "notes": "Kitten Loaf 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1854,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Instinctive 7+ Gravy Влажный корм для зрелых кошек в возрасте от 7, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-7-gravy-vlagnyj-korm-dlya-zrelyh-koshek-v-vozraste-ot-7-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Instinctive 7+ Gravy Влажный корм для зрелых кошек в возрасте от 7, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Под заказ (от 3 дней)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Instinctiv 7+ gravy 1 հատ 85գ",
+    "url": "https://www.nemo.am/instinctiv-7-gravy-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Instinctiv 7+ gravy 1 հատ 85գ' 750 AMD, no old price; page photo: Instinctive 7+ 'Gravy' pouch; availability 'Առկա չէ' (not available)"
+   },
+   "confidence": "high",
+   "notes": "Instinctive 7+ gravy 85 g single. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1853,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Instinctive 7+ Gravy Влажный корм для зрелых кошек в возрасте от 7, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-7-gravy-vlazhnyj-korm-dlya-zrelyh-koshek-v-vozraste-ot-7-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Instinctive 7+ Gravy Влажный корм для зрелых кошек в возрасте от 7, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Под заказ (от 3 дней)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Instinctiv 7+ gravy 12 հատ 85գ",
+    "url": "https://www.nemo.am/instinctiv-7-gravy-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Instinctiv 7+ gravy 12 հատ 85գ' 8600 AMD, no old price; page photo: Instinctive 7+ 'Gravy' pouch; availability 'Առկա չէ' (not available)"
+   },
+   "confidence": "high",
+   "notes": "Instinctive 7+ gravy 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1856,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Light Weight Care Gravy Влажный диетический корм (соус) для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-light-weight-care-gravy-vlagnyj-dieticheskij-korm-sous-dlya-koshek-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Light Weight Care Gravy Влажный диетический корм (соус) для кошек, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Light Weight gravy 1 հատ 85գ",
+    "url": "https://www.nemo.am/ultra-light-gravy-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Light Weight gravy 1 հատ 85գ' 750 AMD, no old price; page photo: Light Weight Care 'Thin slices in gravy' 85 g; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Light Weight Care gravy 85 g single. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1858,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Light Weight Care Jelly Влажный диетический корм (желе) для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-light-weight-care-jelly-vlagnyj-dieticheskij-korm-gele-dlya-koshek-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page 'Royal Canin Light Weight Care Jelly Влажный диетический корм (желе) для кошек, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: В наличии > 20 шт"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Ultra Light jelly 1 հատ 85գ",
+    "url": "https://www.nemo.am/ultra-light-jelly-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Ultra Light jelly 1 հատ 85գ' 750 AMD, no old price; 'Ultra Light' = old name of Light Weight Care; title and its royal-canin.ru link (ultra-light-v-zhele) say jelly, BUT nemo's photo shows the Light Weight 'Thin slices in gravy' pouch - texture not fully confirmed; availability 'Առկա չէ'"
+   },
+   "confidence": "medium",
+   "notes": "Light Weight Care jelly 85 g single. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo. Medium: nemo's jelly listing (titled 'Ultra Light jelly') shows the gravy pouch photo; zoovet is a clean jelly match."
+  },
+  {
+   "variant_id": 1855,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Light Weight Care Gravy Влажный диетический корм (соус) для кошек, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-light-weight-care-gravy-vlazhnyj-dieticheskij-korm-sous-dlya-koshek-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Light Weight Care Gravy Влажный диетический корм (соус) для кошек, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Нет в наличии"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Light Weight gravy 12 հատ 85գ",
+    "url": "https://www.nemo.am/ultra-light-gravy-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Light Weight gravy 12 հատ 85գ' 8600 AMD, no old price; page photo: Light Weight Care 'Thin slices in gravy' 85 g; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Light Weight Care gravy 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1857,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Light Weight Care Jelly Влажный диетический корм (желе) для кошек, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-light-weight-care-jelly-vlazhnyj-dieticheskij-korm-zhele-dlya-koshek-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet 12-pack page 'Royal Canin Light Weight Care Jelly Влажный диетический корм (желе) для кошек, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: В наличии 2 шт"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Ultra Light jelly 12 հատ 85գ",
+    "url": "https://www.nemo.am/ultra-light-jelly-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Ultra Light jelly 12 հատ 85գ' 8600 AMD, no old price; 'Ultra Light' = old name of Light Weight Care; title and its royal-canin.ru link (ultra-light-v-zhele) say jelly, BUT nemo's photo shows the Light Weight 'Thin slices in gravy' pouch - texture not fully confirmed; availability 'Առկա չէ'"
+   },
+   "confidence": "medium",
+   "notes": "Light Weight Care jelly 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600 Medium: nemo's jelly listing (titled 'Ultra Light jelly') shows the gravy pouch photo; zoovet is a clean jelly match."
+  },
+  {
+   "variant_id": 1860,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Instinctive 12+ Jelly Влажный корм для взрослых кошек в возрасте от 12, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-12-jelly-vlagnyj-korm-dlya-vzroslyh-koshek-v-vozraste-ot-12-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Instinctive 12+ Jelly Влажный корм для взрослых кошек в возрасте от 12, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Под заказ (от 3 дней); 'Instinctive 12+ Jelly' = renamed 'Ageing 12+' jelly"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Ageing +12 jelly 1 հատ 85գ",
+    "url": "https://www.nemo.am/ageing-12-jelly-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Ageing +12 jelly 1 հատ 85գ' 750 AMD, no old price; page photo: Ageing 12+ 'Jelly' pouch; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Ageing 12+ (Instinctive 12+) jelly 85 g single. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1859,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Instinctive 12+ Jelly Влажный корм для взрослых кошек в возрасте от 12, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-instinctive-12-jelly-vlazhnyj-korm-dlya-vzroslyh-koshek-v-vozraste-ot-12-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Instinctive 12+ Jelly Влажный корм для взрослых кошек в возрасте от 12, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Под заказ (от 3 дней); 'Instinctive 12+ Jelly' = renamed 'Ageing 12+' jelly"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Ageing +12 jelly 12 հատ 85գ",
+    "url": "https://www.nemo.am/ageing-12-jelly-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Ageing +12 jelly 12 հատ 85գ' 8600 AMD, no old price; page photo: Ageing 12+ 'Jelly' pouch; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Ageing 12+ (Instinctive 12+) jelly 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1862,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sterilised Jelly Влажный корм (желе) для стерилизованных кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sterilised-jelly-vlagnyj-korm-gele-dlya-sterilizovannyh-koshek-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Sterilised Jelly Влажный корм (желе) для стерилизованных кошек, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Под заказ (от 2 дней)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sterilised jelly 1 հատ 85գ",
+    "url": "https://www.nemo.am/sterilised-jelly-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Sterilised jelly 1 հատ 85գ' 750 AMD, no old price; page photo: Sterilised 'Jelly' pouch (short text wrongly says sauce); availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Sterilised jelly 85 g single. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1864,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sterilised Loaf Паштет для стерилизованных кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sterilised-loaf-pashtet-dlya-sterilizovannyh-koshek-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Sterilised Loaf Паштет для стерилизованных кошек, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Под заказ (от 2 дней)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sterilised Loaf 1 հատ 85գ",
+    "url": "https://www.nemo.am/sterilised-loaf-1-հատ-85գ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Sterilised Loaf 1 հատ 85գ' 750 AMD, no old price; page photo: Sterilised 'Loaf' pouch; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Sterilised Loaf 85 g single. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1861,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sterilised Jelly Влажный корм (желе) для стерилизованных кошек, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sterilised-jelly-vlazhnyj-korm-zhele-dlya-sterilizovannyh-koshek-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Sterilised Jelly Влажный корм (желе) для стерилизованных кошек, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Под заказ (от 2 дней)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sterilised jelly 12 հատ 85գ",
+    "url": "https://www.nemo.am/sterilised-jelly-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Sterilised jelly 12 հատ 85գ' 8600 AMD, no old price; page photo: Sterilised 'Jelly' pouch (short text wrongly says sauce); availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Sterilised jelly 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1863,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Sterilised Loaf Паштет для стерилизованных кошек, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-sterilised-loaf-pashtet-dlya-sterilizovannyh-koshek-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Sterilised Loaf Паштет для стерилизованных кошек, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Под заказ (от 2 дней)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Sterilised Loaf 12 հատ 85գ",
+    "url": "https://www.nemo.am/sterilised-loaf-12-հատ-85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Sterilised Loaf 12 հատ 85գ' 8600 AMD, no old price; page photo: Sterilised 'Loaf' pouch; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Sterilised Loaf 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  },
+  {
+   "variant_id": 1866,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Urinary S/O Влажный корм для кошек с проблемами мочевыделительной системы, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-urinary-s-o-vlagnyj-korm-dlya-koshek-s-problemami-mochevydelitelnoj-sistemy-85-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet page 'Royal Canin Urinary S/O Влажный корм для кошек с проблемами мочевыделительной системы, 85 г': options '1 шт' 750 / 'Упак (12 шт)' 8650; our size = '1 шт' -> 750 AMD, no discount; stock: Под заказ (от 2 дней); description: 'влажный корм для кошек в соусе' (gravy)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Urinary S\\O pouch",
+    "url": "https://www.nemo.am/royal-canin-urinary-pouch-կիլոգրամով",
+    "price": 750,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Urinary S\\O pouch' 750 AMD, no old price; page photo: Urinary S/O pouch 'Morsels in gravy'; single listing has no size in its name (slug says կիլոգրամով) but shows the 85 g pouch at the single-pouch price; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Urinary S/O morsels in gravy 85 g single. hafo has no Royal Canin. siruk 750; zoovet 750; nemo 750. Same price on zoovet and nemo."
+  },
+  {
+   "variant_id": 1865,
+   "hafo": {
+    "found": false,
+    "evidence": "hafo.am carries no Royal Canin: 0 hits for 'royal canin' / 'ռոյալ' / 'роял' across today's full hafo dump (6627 listings); hafo-live 'royal canin', 'kitten', 'instinctive', 'urinary', 'sterilised', 'ageing' return only Monge/Gemon/Club 4 Paws/LeChat; hafo-sku '9003579' (RC EAN prefix) and our EANs: 0 hits."
+   },
+   "zoovet": {
+    "found": true,
+    "name": "Royal Canin Urinary S/O Влажный корм для кошек с проблемами мочевыделительной системы, 85 г (упаковка 12 шт)",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/royal-canin-urinary-s-o-vlazhnyj-korm-dlya-koshek-s-problemami-mochevydelitelnoj-sistemy-85-g-upakovka-12-sht",
+    "price": 8650,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "zoovet 12-pack page 'Royal Canin Urinary S/O Влажный корм для кошек с проблемами мочевыделительной системы, 85 г (упаковка 12 шт)': option 'Упак (12 шт)' 8650 AMD (single '1 шт' 750), no discount; stock: Под заказ (от 2 дней); description: 'влажный корм для кошек в соусе' (gravy)"
+   },
+   "nemo": {
+    "found": true,
+    "name": "Royal Canin Urinary S\\O pouch 12x85գ",
+    "url": "https://www.nemo.am/urinary-pouch-12x85գ",
+    "price": 8600,
+    "old_price": null,
+    "in_stock": false,
+    "evidence": "nemo page 'Royal Canin Urinary S\\O pouch 12x85գ' 8600 AMD, no old price; page photo: Urinary S/O pouch 'Morsels in gravy'; single listing has no size in its name (slug says կիլոգրամով) but shows the 85 g pouch at the single-pouch price; availability 'Առկա չէ'"
+   },
+   "confidence": "high",
+   "notes": "Urinary S/O morsels in gravy 12 x 85 g. hafo has no Royal Canin. siruk 8600; zoovet 8650; nemo 8600. Price difference: zoovet 8650 vs siruk 8600"
+  }
+ ]
+}

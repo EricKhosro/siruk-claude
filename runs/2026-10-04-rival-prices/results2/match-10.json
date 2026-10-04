@@ -1,0 +1,245 @@
+{
+ "results": [
+  {
+   "variant_id": 817,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Sterilised Mousse Влажный корм с курицей и печенью для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-sterilised-mousse-vlagnyj-korm-s-kuritsej-i-pechenyu-dlya-koshek-85-g",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00005159: 'Gemon Sterilised Mousse ... с курицей и печенью для кошек, 85 г', description 'GEMON MUSSE С КУРИЦЕЙ И ПЕЧЕНЬЮ' for sterilised adult cats, weight 0.085 kg, 450 AMD, in stock (7 pcs), no old price."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon Mousse ստերիլիզացված կատուների համար, հավ/լյարդ, 85 գ",
+    "url": "https://www.nemo.am/gemon-mousse-ստերիլիզացված-կատուների-համար-հավլյարդ-85-գ",
+    "price": 430,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, Mousse for sterilised cats, chicken & liver (հավ/լյարդ), 85 g, 430 AMD, in stock, no strike-through."
+   },
+   "notes": "Both shops carry the exact Sterilised Mousse chicken & liver 85 g; highest = zoovet 450."
+  },
+  {
+   "variant_id": 818,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Sterilised Mousse Влажный корм с тунцом и свининой для кошек, 85 г",
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/gemon-sterilised-mousse-vlagnyj-korm-s-tuntsom-i-svininoj-dlya-koshek-85-g",
+    "price": 450,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00005156: Gemon Sterilised Mousse tuna & pork (тунец 16%, свиная печень 4%) for sterilised cats, 0.085 kg, 450 AMD, in stock (>20), no old price."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon Mousse ստերիլիզացված կատուների համար, թունա/խոզ, 85 գ",
+    "url": "https://www.nemo.am/gemon-mousse-ստերիլիզացված-կատուների-համար-թունախոզ-85-գ",
+    "price": 430,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, Mousse for sterilised cats, tuna & pork (թունա/խոզ), 85 g, 430 AMD, in stock."
+   },
+   "notes": "Both shops carry the exact Sterilised Mousse tuna & pork 85 g; highest = zoovet 450."
+  },
+  {
+   "variant_id": 819,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Gemon dog pâté with beef (tripe) 400 g: Gemon brand list + searches 'gemon паштет', 'gemon 400', 'gemon ягненк|баран|lamb', 'рубец|tripe', 'Джемон', EAN return only 'Gemon паштет с говядиной для взрослых кошек, 400 г' (cat food, 920) and 'Gemon Dog LIGHT паштет с тунцом 400 г' (tuna light, 800, out of stock) - neither matches."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon պաշտետ շների համար՝ տավարի համով",
+    "url": "https://www.nemo.am/gemon-պաշտետ-շների-համար-տավարի-համով",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, pâté for adult dogs of all sizes, 'meat and animal derivatives 80% (beef 26%)', 400 g - matches EAN 8009470387804 (All Breeds Adult Paté with beef tripe, meat 80% / beef tripe 26%); title identical to hafo's title for 387807. 800 AMD, in stock."
+   },
+   "notes": "EAN 8009470387804 = Gemon All Breeds Adult Paté with beef tripe 400 g. Only nemo carries it (800)."
+  },
+  {
+   "variant_id": 820,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Gemon dog pâté with lamb 400 g: Gemon brand list + searches 'gemon паштет', 'gemon 400', 'gemon ягненк|баран|lamb', 'рубец|tripe', 'Джемон', EAN return only 'Gemon паштет с говядиной для взрослых кошек, 400 г' (cat food, 920) and 'Gemon Dog LIGHT паштет с тунцом 400 г' (tuna light, 800, out of stock) - neither matches."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon պաշտետ շների համար՝ գառի համով, 400 գ",
+    "url": "https://www.nemo.am/gemon-պաշտետ-շների-համար-գառի-համով-400-գ",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, lamb pâté (գառի համով) wet food for adult dogs of all breeds, 400 g; title identical to hafo 387817 title. 800 AMD, in stock."
+   },
+   "notes": "EAN 8009470387811 Gemon dog pâté lamb 400 g. Only nemo carries it (800)."
+  },
+  {
+   "variant_id": 821,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с говядиной и печенью для собак средних пород (12-30 кг), 415 г",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-govyadinoj-i-pechenyu-dlya-sobak-srednih-porod-12-30-kg-415-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00000392: Gemon Dog chunks of beef & liver for adult medium breeds (12-30 kg), 0.415 kg, 750 AMD, in stock (3). EAN 8009470387859 = 'Gemon Medium Adult Chunks with Beef and Liver 415 g' (our 'Veal & Liver' = hafo's հորթ/լյարդ)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պահածո Gemon միջին ցեղատեսակի հասուն շների համար հորթ/լյարդ",
+    "url": "https://www.nemo.am/պահածո-gemon-միջին-ցեղատեսակի-հասուն-շների-համար-հորթլյարդ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, can for medium-breed adult dogs 12-30 kg, veal/liver, 'Քաշը՝ 415գ'; title identical to hafo 387857. 750 AMD, in stock."
+   },
+   "notes": "Both 750."
+  },
+  {
+   "variant_id": 822,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с курицей и индейкой для щенков (2-10 месяцев), 415 г",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-kuritsej-i-indejkoj-dlya-schenkov-2-10-mesyatsev-415-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00000391: Gemon Dog puppy (2-10 months) chunks chicken & turkey, 0.415 kg, 750 AMD, in stock (3)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պահածո Gemon շների ձագերի համար հավ/հնդկահավ",
+    "url": "https://www.nemo.am/պահածո-gemon-շների-ձագերի-համար-հավհնդկահավ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, can for puppies 2-10 months, chicken/turkey, 'Քաշը՝ 415գ'; title identical to hafo 387867. 750 AMD, in stock."
+   },
+   "notes": "Both 750."
+  },
+  {
+   "variant_id": 823,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с курицей и рисом для собак средних пород, 415 г",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-kuritsej-i-risom-dlya-sobak-melkih-porod-2-10-kg-415-g",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00000390: title says 'средних пород' but description + characteristics say chunks of chicken & rice for adult SMALL breeds (2-10 kg), slug 'melkih-porod-2-10-kg', 0.415 kg = EAN 8009470387873 Gemon Mini Adult chunks chicken & rice 415 g (the only Gemon chicken & rice 415 g can). 750 AMD, in stock (3)."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Պահածո Gemon փոքր ցեղատեսակի հասուն շների համար հավ/բրինձ",
+    "url": "https://www.nemo.am/պահածո-gemon-փոքր-ցեղատեսակի-հասուն-շների-համար-հավբրինձ",
+    "price": 750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, can for small-breed adult dogs, chicken/rice, 'Քաշը՝ 415գ'; title identical to hafo 387877. 750 AMD, in stock."
+   },
+   "notes": "Both 750. zoovet title mislabels breed size; description confirms small breed."
+  },
+  {
+   "variant_id": 824,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм c говядиной и рисом для собак крупных пород (32-80 кг), 1.25 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-c-govyadinoj-i-risom-dlya-sobak-krupnyh-porod-32-80-kg-1-25-kg",
+    "price": 1750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00007499: Gemon wet, beef & rice for large breeds 32-80 kg (Maxi Adult), composition meat 45% (beef 5%), rice 4.2%, 1.25 kg = EAN 8009470387903 Maxi Adult Chunkies beef & rice 1.25 kg. 1750 AMD, in stock (4)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's Gemon brand list and searches 'gemon', 'gemon maxi', 'gemon medium', 'gemon պահածո', '1.25|1,25|1250', 'Gemon 1.25' show no Gemon 1.25 kg can at all - only 415 g cans (750), 400 g pâtés (800) and dry food."
+   },
+   "notes": "Only zoovet carries the 1.25 kg can (1750)."
+  },
+  {
+   "variant_id": 825,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с ягненком и рисом для собак средних пород (12-30 кг), 1.25 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-yagnenkom-i-risom-dlya-sobak-srednih-porod-12-30-kg-1-25-kg",
+    "price": 1750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00000223: Gemon Dog chunks of lamb & rice for adult medium breeds 12-30 kg, 1.25 kg = EAN 8009470387910 Gemon Medium Adult Chunks lamb & rice 1250 g (Siruk names the product 'Paté', same EAN). 1750 AMD, in stock (2)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's Gemon brand list and searches 'gemon', 'gemon maxi', 'gemon medium', 'gemon պահածո', '1.25|1,25|1250', 'Gemon 1.25' show no Gemon 1.25 kg can at all - only 415 g cans (750), 400 g pâtés (800) and dry food."
+   },
+   "notes": "Only zoovet carries the 1.25 kg can (1750)."
+  },
+  {
+   "variant_id": 826,
+   "confidence": "high",
+   "zoovet": {
+    "found": true,
+    "name": "Gemon Влажный корм с курицей и индейкой для собак средних пород (12-30 кг), 1.25 кг",
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/vlazhnye-korma-1/gemon-vlagnyj-korm-s-kuritsej-i-indejkoj-dlya-sobak-srednih-porod-12-30-kg-1-25-kg",
+    "price": 1750,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "zoovet page ME-00000222: Gemon Dog chunks chicken & turkey for adult medium breeds 12-30 kg, 1.25 kg = EAN 8009470387927 Gemon Medium Adult Chunks chicken & turkey 1250 g. 1750 AMD, in stock (2)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo's Gemon brand list and searches 'gemon', 'gemon maxi', 'gemon medium', 'gemon պահածո', '1.25|1,25|1250', 'Gemon 1.25' show no Gemon 1.25 kg can at all - only 415 g cans (750), 400 g pâtés (800) and dry food."
+   },
+   "notes": "Only zoovet carries the 1.25 kg can (1750)."
+  },
+  {
+   "variant_id": 1941,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Gemon dog pâté with beef (tripe) 400 g: Gemon brand list + searches 'gemon паштет', 'gemon 400', 'gemon ягненк|баран|lamb', 'рубец|tripe', 'Джемон', EAN return only 'Gemon паштет с говядиной для взрослых кошек, 400 г' (cat food, 920) and 'Gemon Dog LIGHT паштет с тунцом 400 г' (tuna light, 800, out of stock) - neither matches."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon պաշտետ շների համար՝ տավարի համով",
+    "url": "https://www.nemo.am/gemon-պաշտետ-շների-համար-տավարի-համով",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, pâté for adult dogs of all sizes, 'meat and animal derivatives 80% (beef 26%)', 400 g - matches EAN 8009470387804 (All Breeds Adult Paté with beef tripe, meat 80% / beef tripe 26%); title identical to hafo's title for 387807. 800 AMD, in stock."
+   },
+   "notes": "Same item as 819 (sku 387807, EAN 8009470387804). Only nemo carries it (800)."
+  },
+  {
+   "variant_id": 1942,
+   "confidence": "high",
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet carries no Gemon dog pâté with lamb 400 g: Gemon brand list + searches 'gemon паштет', 'gemon 400', 'gemon ягненк|баран|lamb', 'рубец|tripe', 'Джемон', EAN return only 'Gemon паштет с говядиной для взрослых кошек, 400 г' (cat food, 920) and 'Gemon Dog LIGHT паштет с тунцом 400 г' (tuna light, 800, out of stock) - neither matches."
+   },
+   "nemo": {
+    "found": true,
+    "name": "Gemon պաշտետ շների համար՝ գառի համով, 400 գ",
+    "url": "https://www.nemo.am/gemon-պաշտետ-շների-համար-գառի-համով-400-գ",
+    "price": 800,
+    "old_price": null,
+    "in_stock": true,
+    "evidence": "nemo page: manufacturer Gemon, lamb pâté (գառի համով) wet food for adult dogs of all breeds, 400 g; title identical to hafo 387817 title. 800 AMD, in stock."
+   },
+   "notes": "Same item as 820 (sku 387817, EAN 8009470387811). Only nemo carries it (800)."
+  }
+ ]
+}

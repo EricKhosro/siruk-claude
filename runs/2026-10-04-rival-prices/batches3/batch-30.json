@@ -1,0 +1,783 @@
+[
+ {
+  "variant_id": 1776,
+  "product_id": 1217,
+  "brand": "Versele-Laga",
+  "product": "Versele-Laga Nature Snack",
+  "variant_label": "Berries 85 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "85 g",
+  "sku": "461434V",
+  "ean": "5410340614341",
+  "register_name_hy": "Հյուրասիրություն կրծողների համար՝ NATURE BERRIES, հատապտղային 85 գ/461434",
+  "xlsx_name_en": "Nature Snack — Berries 85 g",
+  "siruk_price": 1950,
+  "siruk_url": "https://siruk.am/product/versele-laga-nature-snack/dp/1776/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/hyurasirutyun-krcoxneri-hamar-nature-berries-hataptxayin",
+   "row_name": "Հյուրասիրություն կրծողների համար՝ NATURE BERRIES, հատապտղային 85 գ/461434",
+   "sku": "461434V",
+   "price": 1950
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Versele Laga Nature Snack Лакомство с тропическими фруктами для грызунов, 85 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/lakomstva-1/versele-laga-nature-snack-lakomstvo-s-tropicheskimi-fruktami-dlya-gryzunov-85-g",
+     "list_price": 1950
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с морковью и тыквой для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-morkovyu-i-tykvoj-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с перцем и пастернаком для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-pertsem-i-pasternakom-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное со свеклой и томатами для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-so-svekloj-i-tomatami-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Schesir Nature Style Курица в бульоне для кошек, 85г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/schesir-nature-style-kuritsa-v-bulone-dlya-koshek-85g",
+     "list_price": 700
+    },
+    {
+     "name": "Schesir Nature Style Курица и Говядина с рисом в бульоне для кошек, 85г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/schesir-nature-style-kuritsa-i-govyadina-s-risom-v-bulone-dlya-koshek-85g",
+     "list_price": 700
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE BERRIES, հատապտղային",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-berries-հատապտղային",
+     "list_price": 1950
+    },
+    {
+     "name": "Բարձիկներ կրծողների համար Versele-Laga՝ խոտաբույսերով 50 գ| 61304",
+     "url": "https://www.nemo.am/բարձիկներ-կրծողների-համար-complete-crock-herbs-խոտաբույսերով",
+     "list_price": 2350
+    },
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE NUTTIES, ընդեղեն",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-nutties-ընդեղեն",
+     "list_price": 1950
+    },
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE FRUITIES, մրգային",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-fruities-մրգային",
+     "list_price": 1950
+    },
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE VEGGIES, բանջարեղենային",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-veggies-բանջարեղենային",
+     "list_price": 1950
+    },
+    {
+     "name": "Մնյամս հյուրասիրություն շների համար` DENTAL- HARD, սաղմոնով, 85 գ",
+     "url": "https://www.nemo.am/մնյամս-հյուրասիրություն-շների-համար-dental-hard-սաղմոնով-85-գ",
+     "list_price": 950
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1777,
+  "product_id": 1217,
+  "brand": "Versele-Laga",
+  "product": "Versele-Laga Nature Snack",
+  "variant_label": "Fruities 85 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "85 g",
+  "sku": "461435V",
+  "ean": "5410340614358",
+  "register_name_hy": "Հյուրասիրություն կրծողների համար՝ NATURE FRUITIES, մրգային 85 գ/461435",
+  "xlsx_name_en": "Nature Snack — Fruities 85 g",
+  "siruk_price": 1950,
+  "siruk_url": "https://siruk.am/product/versele-laga-nature-snack/dp/1777/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/hyurasirutyun-krcoxneri-hamar-nature-fruities-mrgayin",
+   "row_name": "Հյուրասիրություն կրծողների համար՝ NATURE FRUITIES, մրգային 85 գ/461435",
+   "sku": "461435V",
+   "price": 1950
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Versele Laga Nature Snack Лакомство с тропическими фруктами для грызунов, 85 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/lakomstva-1/versele-laga-nature-snack-lakomstvo-s-tropicheskimi-fruktami-dlya-gryzunov-85-g",
+     "list_price": 1950
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с морковью и тыквой для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-morkovyu-i-tykvoj-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с перцем и пастернаком для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-pertsem-i-pasternakom-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное со свеклой и томатами для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-so-svekloj-i-tomatami-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Schesir Nature Style Курица в бульоне для кошек, 85г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/schesir-nature-style-kuritsa-v-bulone-dlya-koshek-85g",
+     "list_price": 700
+    },
+    {
+     "name": "Schesir Nature Style Курица и Говядина с рисом в бульоне для кошек, 85г",
+     "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/schesir-nature-style-kuritsa-i-govyadina-s-risom-v-bulone-dlya-koshek-85g",
+     "list_price": 700
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE FRUITIES, մրգային",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-fruities-մրգային",
+     "list_price": 1950
+    },
+    {
+     "name": "Բարձիկներ կրծողների համար Versele-Laga՝ խոտաբույսերով 50 գ| 61304",
+     "url": "https://www.nemo.am/բարձիկներ-կրծողների-համար-complete-crock-herbs-խոտաբույսերով",
+     "list_price": 2350
+    },
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE NUTTIES, ընդեղեն",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-nutties-ընդեղեն",
+     "list_price": 1950
+    },
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE BERRIES, հատապտղային",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-berries-հատապտղային",
+     "list_price": 1950
+    },
+    {
+     "name": "Հյուրասիրություն կրծողների համար՝ NATURE VEGGIES, բանջարեղենային",
+     "url": "https://www.nemo.am/հյուրասիրություն-կրծողների-համար-nature-veggies-բանջարեղենային",
+     "list_price": 1950
+    },
+    {
+     "name": "Մնյամս հյուրասիրություն շների համար` DENTAL- HARD, սաղմոնով, 85 գ",
+     "url": "https://www.nemo.am/մնյամս-հյուրասիրություն-շների-համար-dental-hard-սաղմոնով-85-գ",
+     "list_price": 950
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1778,
+  "product_id": 1218,
+  "brand": "Versele-Laga",
+  "product": "Versele-Laga Nature Snack Cereals",
+  "variant_label": "500 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "500 g",
+  "sku": "461438V",
+  "ean": "5410340614389",
+  "register_name_hy": "Վիտամինացված կեր՝ Nature Snack, կրծողների համար, 500 գ/61438",
+  "xlsx_name_en": "Nature Snack Cereals — 500 g",
+  "siruk_price": 2550,
+  "siruk_url": "https://siruk.am/product/versele-laga-nature-snack-cereals/dp/1778/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/vitaminacvac-ker-nature-snack-krcoxneri-hamar",
+   "row_name": "Վիտամինացված կեր՝ Nature Snack, կրծողների համար, 500 գ/61438",
+   "sku": "461438V",
+   "price": 2550
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с морковью и тыквой для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-morkovyu-i-tykvoj-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с перцем и пастернаком для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-pertsem-i-pasternakom-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное со свеклой и томатами для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-so-svekloj-i-tomatami-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga COMPLETE Cavia Корм для морских свинок, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cavia-korm-dlya-morskih-svinok-500-g",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga COMPLETE Cuni Adult Корм для кроликов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cuni-adult-korm-dlya-krolikov-500-g",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga COMPLETE Cuni Junior Корм для молодых кроликов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cuni-junior-korm-dlya-molodyh-krolikov-500-g",
+     "list_price": 3400
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ անանուխի տերևներով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-անանուխի-տերևներով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ երիցուկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-երիցուկի-էքստրակտով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ խատուտիկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-խատուտիկի-էքստրակտով-500-գ-2",
+     "list_price": 3450
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ խոտաբույսերով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-խոտաբույսերով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Բարձիկներ կրծողների համար Versele-Laga՝ խոտաբույսերով 50 գ| 61304",
+     "url": "https://www.nemo.am/բարձիկներ-կրծողների-համար-complete-crock-herbs-խոտաբույսերով",
+     "list_price": 2350
+    },
+    {
+     "name": "Հյուրասիրություն շների համար` ճագարի ականջներ, մորթիով, 500 գ",
+     "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ճագարի-ականջներ-մորթիով-500-գ",
+     "list_price": 7200
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1779,
+  "product_id": 1219,
+  "brand": "Versele-Laga",
+  "product": "Versele-Laga Nature Snack Fibres",
+  "variant_label": "500 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "500 g",
+  "sku": "461440V",
+  "ean": "5410340614402",
+  "register_name_hy": "Վիտամինացված կեր՝ Nature, կրծողների համար, բանջարեղենային, 500 գ/61440",
+  "xlsx_name_en": "Nature Snack Fibres — 500 g",
+  "siruk_price": 2550,
+  "siruk_url": "https://siruk.am/product/versele-laga-nature-snack-fibres/dp/1779/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/vitaminacvac-ker-nature-krcoxneri-hamar-banjarexenayin",
+   "row_name": "Վիտամինացված կեր՝ Nature, կրծողների համար, բանջարեղենային, 500 գ/61440",
+   "sku": "461440V",
+   "price": 2550
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с морковью и тыквой для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-morkovyu-i-tykvoj-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с перцем и пастернаком для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-pertsem-i-pasternakom-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное со свеклой и томатами для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-so-svekloj-i-tomatami-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga COMPLETE Cavia Корм для морских свинок, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cavia-korm-dlya-morskih-svinok-500-g",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga COMPLETE Cuni Adult Корм для кроликов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cuni-adult-korm-dlya-krolikov-500-g",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga COMPLETE Cuni Junior Корм для молодых кроликов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cuni-junior-korm-dlya-molodyh-krolikov-500-g",
+     "list_price": 3400
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ անանուխի տերևներով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-անանուխի-տերևներով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ երիցուկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-երիցուկի-էքստրակտով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ խատուտիկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-խատուտիկի-էքստրակտով-500-գ-2",
+     "list_price": 3450
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ խոտաբույսերով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-խոտաբույսերով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Բարձիկներ կրծողների համար Versele-Laga՝ խոտաբույսերով 50 գ| 61304",
+     "url": "https://www.nemo.am/բարձիկներ-կրծողների-համար-complete-crock-herbs-խոտաբույսերով",
+     "list_price": 2350
+    },
+    {
+     "name": "Հյուրասիրություն շների համար` ճագարի ականջներ, մորթիով, 500 գ",
+     "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ճագարի-ականջներ-մորթիով-500-գ",
+     "list_price": 7200
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1780,
+  "product_id": 1220,
+  "brand": "Versele-Laga",
+  "product": "Versele-Laga Natural Hay",
+  "variant_label": "1 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "1 kg",
+  "sku": "424131V",
+  "ean": "5410340241318",
+  "register_name_hy": "Խոտ՝ վիտամինացված, նախատեսված կրծողների համար, 1 կգ/24131",
+  "xlsx_name_en": "Natural Hay — 1 kg",
+  "siruk_price": 2600,
+  "siruk_url": "https://siruk.am/product/versele-laga-natural-hay/dp/1780/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/xot-vitaminacvac-naxatesvac-krcoxneri-hamar",
+   "row_name": "Խոտ՝ վիտամինացված, նախատեսված կրծողների համար, 1 կգ/24131",
+   "sku": "424131V",
+   "price": 2600
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Versele Laga CRISPY Корм для кроликов, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-crispy-korm-dlya-krolikov-1-kg",
+     "list_price": 1900
+    },
+    {
+     "name": "Versele Laga Prestige Корм для волнистых попугаев, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-volnistyh-popugaev-1-kg",
+     "list_price": 2100
+    },
+    {
+     "name": "Versele Laga Prestige Корм для канареек, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-kanareek-1-kg",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga Prestige Корм для крупных попугаев, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-krupnyh-popugaev-1-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Versele Laga Prestige Корм для тропических птиц, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-tropicheskih-ptits-1-kg",
+     "list_price": 2450
+    },
+    {
+     "name": "Versele Laga Опилки для грызунов, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/gigiena-i-uhod-2/versele-laga-opilki-dlya-gryzunov-1-kg",
+     "list_price": 1600
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Բարձիկներ կրծողների համար Versele-Laga՝ խոտաբույսերով 50 գ| 61304",
+     "url": "https://www.nemo.am/բարձիկներ-կրծողների-համար-complete-crock-herbs-խոտաբույսերով",
+     "list_price": 2350
+    },
+    {
+     "name": "Խոտ՝ վիտամինացված, նախատեսված կրծողների համար",
+     "url": "https://www.nemo.am/խոտ-վիտամինացված-նախատեսված-կրծողների-համար",
+     "list_price": 2600
+    },
+    {
+     "name": "Խոտ՝ վիտամինացված, նախատեսված կրծողների համար",
+     "url": "https://www.nemo.am/խոտ-վիտամինացված-նախատեսված-կրծողների-համար-2",
+     "list_price": 11550
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ անանուխի տերևներով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-անանուխի-տերևներով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ երիցուկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-երիցուկի-էքստրակտով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ խատուտիկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-խատուտիկի-էքստրակտով-500-գ-2",
+     "list_price": 3450
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1781,
+  "product_id": 1221,
+  "brand": "Versele-Laga",
+  "product": "Versele-Laga Nature Timothy Hay Beetroot & Tomato",
+  "variant_label": "500 g",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "500 g",
+  "sku": "424194V",
+  "ean": "5410340241943",
+  "register_name_hy": "Խոտ՝ Nature, վիտամինացված, ծաղիկներ և լոլիկ, նախատեսված կրծողների համար, 0.5 կգ/24194",
+  "xlsx_name_en": "Nature Timothy Hay Beetroot & Tomato — 500 g",
+  "siruk_price": 6000,
+  "siruk_url": "https://siruk.am/product/versele-laga-nature-timothy-hay-beetroot-tomato/dp/1781/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/nature-lolikov-ev-chakndexov-xot-krcoxneri-hamar-500-g",
+   "row_name": "Խոտ՝ Nature, վիտամինացված, ճակնդեղ և լոլիկ, նախատեսված կրծողների համար, 0.5 կգ/24194",
+   "sku": "424194V",
+   "price": 6000
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с морковью и тыквой для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-morkovyu-i-tykvoj-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное с перцем и пастернаком для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-s-pertsem-i-pasternakom-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga Nature Сено витаминизированное со свеклой и томатами для грызунов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-nature-seno-vitaminizirovannoe-so-svekloj-i-tomatami-dlya-gryzunov-500-g",
+     "list_price": 5650
+    },
+    {
+     "name": "Versele Laga COMPLETE Cavia Корм для морских свинок, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cavia-korm-dlya-morskih-svinok-500-g",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga COMPLETE Cuni Adult Корм для кроликов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cuni-adult-korm-dlya-krolikov-500-g",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga COMPLETE Cuni Junior Корм для молодых кроликов, 500 г",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-complete-cuni-junior-korm-dlya-molodyh-krolikov-500-g",
+     "list_price": 3400
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ անանուխի տերևներով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-անանուխի-տերևներով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ երիցուկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-երիցուկի-էքստրակտով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ խատուտիկի էքստրակտով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-խատուտիկի-էքստրակտով-500-գ-2",
+     "list_price": 3450
+    },
+    {
+     "name": "Versel Laga, լեռնային խոտ՝ խոտաբույսերով, 500 գ",
+     "url": "https://www.nemo.am/versel-laga-լեռնային-խոտ-խոտաբույսերով-500-գ",
+     "list_price": 3200
+    },
+    {
+     "name": "Բարձիկներ կրծողների համար Versele-Laga՝ խոտաբույսերով 50 գ| 61304",
+     "url": "https://www.nemo.am/բարձիկներ-կրծողների-համար-complete-crock-herbs-խոտաբույսերով",
+     "list_price": 2350
+    },
+    {
+     "name": "Հյուրասիրություն շների համար` ճագարի ականջներ, մորթիով, 500 գ",
+     "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ճագարի-ականջներ-մորթիով-500-գ",
+     "list_price": 7200
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1782,
+  "product_id": 1222,
+  "brand": "Versele-Laga",
+  "product": "Versele-Laga Natural Wood Woodchips",
+  "variant_label": "1 kg",
+  "kind": "pack",
+  "bag_label": null,
+  "size": "1 kg",
+  "sku": "424128V",
+  "ean": "5410340241288",
+  "register_name_hy": "Թեփ՝ կրծողների համար, 1 կգ/24128",
+  "xlsx_name_en": "Natural Wood Woodchips — 1 kg",
+  "siruk_price": 1600,
+  "siruk_url": "https://siruk.am/product/versele-laga-natural-wood-woodchips/dp/1782/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/tep-versele-laga-krcoxneri-hamar-1kg",
+   "row_name": "Թեփ՝ կրծողների համար, 1 կգ/24128",
+   "sku": "424128V",
+   "price": 1600
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Versele Laga CRISPY Корм для кроликов, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-crispy-korm-dlya-krolikov-1-kg",
+     "list_price": 1900
+    },
+    {
+     "name": "Versele Laga Prestige Корм для волнистых попугаев, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-volnistyh-popugaev-1-kg",
+     "list_price": 2100
+    },
+    {
+     "name": "Versele Laga Prestige Корм для канареек, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-kanareek-1-kg",
+     "list_price": 3000
+    },
+    {
+     "name": "Versele Laga Prestige Корм для крупных попугаев, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-krupnyh-popugaev-1-kg",
+     "list_price": 3300
+    },
+    {
+     "name": "Versele Laga Prestige Корм для тропических птиц, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/korma-i-lakomstva-2/suhie-korma-1/versele-laga-prestige-korm-dlya-tropicheskih-ptits-1-kg",
+     "list_price": 2450
+    },
+    {
+     "name": "Versele Laga Опилки для грызунов, 1 кг",
+     "url": "https://zoovet.am/drugie-pitomcy/gigiena-i-uhod-2/versele-laga-opilki-dlya-gryzunov-1-kg",
+     "list_price": 1600
+    }
+   ],
+   "nemo": [
+    {
+     "name": "Բարձիկներ կրծողների համար Versele-Laga՝ խոտաբույսերով 50 գ| 61304",
+     "url": "https://www.nemo.am/բարձիկներ-կրծողների-համար-complete-crock-herbs-խոտաբույսերով",
+     "list_price": 2350
+    }
+   ]
+  }
+ },
+ {
+  "variant_id": 1637,
+  "product_id": 1150,
+  "brand": "flexi",
+  "product": "flexi New Neon Tape Lead",
+  "variant_label": "S, 5 m, orange",
+  "kind": "pack",
+  "bag_label": null,
+  "size": null,
+  "sku": "032008",
+  "ean": "4000498032008",
+  "register_name_hy": "Ձգափոկ մեխանիկական, S-15 կգ/5մ լենտա, նարնջագույն, NEON",
+  "xlsx_name_en": "New Neon Tape Lead — S, 5 m, orange",
+  "siruk_price": 10700,
+  "siruk_url": "https://siruk.am/product/flexi-new-neon-tape-lead-5-m/dp/1637/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/dzgapok-mexanikakan-new-neon-s-japaven",
+   "row_name": "Ձգափոկ մեխանիկական, S-15 կգ/5մ լենտա, նարնջագույն, NEON",
+   "sku": "032008",
+   "price": 10700
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Flexi New Comfort Поводок-рулетка синяя с лентой для собак, размер M (до 25 кг), 5 м",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/flexi-new-comfort-povodok-ruletka-sinyaya-s-lentoj-dlya-sobak-razmer-m-do-25-kg-5-m",
+     "list_price": 12900
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1638,
+  "product_id": 1150,
+  "brand": "flexi",
+  "product": "flexi New Neon Tape Lead",
+  "variant_label": "S, 5 m, blue",
+  "kind": "pack",
+  "bag_label": null,
+  "size": null,
+  "sku": "032038",
+  "ean": "4000498032039",
+  "register_name_hy": "Ձգափոկ մեխանիկական, S-15 կգ/5մ լենտա, կապույտ, NEON",
+  "xlsx_name_en": "New Neon Tape Lead — S, 5 m, blue",
+  "siruk_price": 10700,
+  "siruk_url": "https://siruk.am/product/flexi-new-neon-tape-lead-5-m/dp/1638/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/dzgapok-mexanikakan-new-neon-s-japaven",
+   "row_name": "Ձգափոկ մեխանիկական, S-15 կգ/5մ լենտա, կապույտ, NEON",
+   "sku": "032038",
+   "price": 10700
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Flexi New Comfort Поводок-рулетка синяя с лентой для собак, размер M (до 25 кг), 5 м",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/flexi-new-comfort-povodok-ruletka-sinyaya-s-lentoj-dlya-sobak-razmer-m-do-25-kg-5-m",
+     "list_price": 12900
+    },
+    {
+     "name": "Triol Flexi Life Geometry Blue Поводок-рулетка для собак, M 5м до 20кг, трос",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/triol-flexi-life-geometry-blue-povodok-ruletka-dlya-sobak-m-5m-do-20kg-tros",
+     "list_price": 9750
+    },
+    {
+     "name": "Triol Flexi Life Geometry Blue Поводок-рулетка для собак, S 5м до 12кг, трос",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/triol-flexi-life-geometry-blue-povodok-ruletka-dlya-sobak-s-5m-do-12kg-tros",
+     "list_price": 8600
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1639,
+  "product_id": 1150,
+  "brand": "flexi",
+  "product": "flexi New Neon Tape Lead",
+  "variant_label": "M, 5 m, pink",
+  "kind": "pack",
+  "bag_label": null,
+  "size": null,
+  "sku": "032108",
+  "ean": "4000498032107",
+  "register_name_hy": "Ձգափոկ մեխանիկական, M-25 կգ/5մ լենտա, վարդագույն, NEON",
+  "xlsx_name_en": "New Neon Tape Lead — M, 5 m, pink",
+  "siruk_price": 12800,
+  "siruk_url": "https://siruk.am/product/flexi-new-neon-tape-lead-5-m/dp/1639/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/dzgapok-mexanikakan-new-neon-m-japaven",
+   "row_name": "Ձգափոկ մեխանիկական, M-25 կգ/5մ լենտա, վարդագույն, NEON",
+   "sku": "032108",
+   "price": 12800
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Flexi New Comfort Поводок-рулетка синяя с лентой для собак, размер M (до 25 кг), 5 м",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/flexi-new-comfort-povodok-ruletka-sinyaya-s-lentoj-dlya-sobak-razmer-m-do-25-kg-5-m",
+     "list_price": 12900
+    },
+    {
+     "name": "Triol Flexi Life Geometry Pink Поводок-рулетка для собак, M 5м до 20кг, трос",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/triol-flexi-life-geometry-pink-povodok-ruletka-dlya-sobak-m-5m-do-20kg-tros",
+     "list_price": 9800
+    },
+    {
+     "name": "Triol Flexi Life Geometry Pink Поводок-рулетка для собак, S 5м до 12кг, трос",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/triol-flexi-life-geometry-pink-povodok-ruletka-dlya-sobak-s-5m-do-12kg-tros",
+     "list_price": 8550
+    },
+    {
+     "name": "Triol Поводок-рулетка для собак Flexi Life Pink M (до 20 кг), трос, 5 м",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/triol-povodok-ruletka-dlya-sobak-flexi-life-pink-m-do-20-kg-tros-5-m",
+     "list_price": 6850
+    },
+    {
+     "name": "Triol Поводок-рулетка для собак Flexi Life Pink S 5м до 12кг, трос",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/povodok-ruletka-dlya-sobak-flexi-life-pink-s-5m-do-12kg-tros",
+     "list_price": 6000
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1640,
+  "product_id": 1150,
+  "brand": "flexi",
+  "product": "flexi New Neon Tape Lead",
+  "variant_label": "M, 5 m, green",
+  "kind": "pack",
+  "bag_label": null,
+  "size": null,
+  "sku": "031908",
+  "ean": "4000498031902",
+  "register_name_hy": "Ձգափոկ մեխանիկական, M-25 կգ/5մ լենտա, կանաչ, NEON",
+  "xlsx_name_en": "New Neon Tape Lead — M, 5 m, green",
+  "siruk_price": 12800,
+  "siruk_url": "https://siruk.am/product/flexi-new-neon-tape-lead-5-m/dp/1640/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/dzgapok-mexanikakan-new-neon-m-japaven",
+   "row_name": "Ձգափոկ մեխանիկական, M-25 կգ/5մ լենտա, կանաչ, NEON",
+   "sku": "031908",
+   "price": 12800
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Flexi New Comfort Поводок-рулетка синяя с лентой для собак, размер M (до 25 кг), 5 м",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/flexi-new-comfort-povodok-ruletka-sinyaya-s-lentoj-dlya-sobak-razmer-m-do-25-kg-5-m",
+     "list_price": 12900
+    }
+   ],
+   "nemo": []
+  }
+ },
+ {
+  "variant_id": 1751,
+  "product_id": 1150,
+  "brand": "flexi",
+  "product": "flexi New Neon Tape Lead",
+  "variant_label": "XS, 3 m, black/neon",
+  "kind": "pack",
+  "bag_label": null,
+  "size": null,
+  "sku": "FX023508",
+  "ean": "4000498023501",
+  "register_name_hy": "Ձգափոկ մեխանիկական` max-12կգ/3մ/XS չափ/լենտա/NEON",
+  "xlsx_name_en": "New Neon Tape Lead — XS, 3 m, black/neon",
+  "siruk_price": 8700,
+  "siruk_url": "https://siruk.am/product/flexi-new-neon-tape-lead-5-m/dp/1751/",
+  "hafo_match": {
+   "url": "https://hafo.am/products/new-neon-ruletka-gotiov",
+   "row_name": "Ձգափոկ մեխանիկական` max-12կգ/3մ/XS չափ/լենտա/NEON",
+   "sku": "FX 023508",
+   "price": 8700
+  },
+  "candidate_hints": {
+   "zoovet": [
+    {
+     "name": "Flexi New Comfort Поводок-рулетка синяя с лентой для собак, размер M (до 25 кг), 5 м",
+     "url": "https://zoovet.am/sobaki/oshejniki-shlejki-i-ruletki/ruletki/flexi-new-comfort-povodok-ruletka-sinyaya-s-lentoj-dlya-sobak-razmer-m-do-25-kg-5-m",
+     "list_price": 12900
+    }
+   ],
+   "nemo": []
+  }
+ }
+]

@@ -1,0 +1,96 @@
+{
+ "results": [
+  {
+   "variant_id": 1071,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet lists (Trixie 354 rows + other brands) have no Trixie cooling mat (only Triol 'Тропики' 65x50 green) and no Trixie Premium Reflect collar (Trixie collars in the list: BE NORDIC, neoprene, USB glowing, cat collars)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/սառեցնող-ներքնակ-շների-համար-պղպջակներով",
+    "price": 3750,
+    "old_price": null,
+    "name": "Սառեցնող ներքնակ շների համար, պղպջակներով",
+    "in_stock": true,
+    "evidence": "Opened today. The name equals hafo's 28776Tx title. Text: 'Չափս`S, 40*30 սմ', nylon core, cooling on contact, no water or power needed. The photos show a light-blue mat with a bubble pattern. 3750, in stock; this equals the hafo price. Siblings -2 (M 50x40) and -3 (L 65x50) are other sizes."
+   },
+   "confidence": "high",
+   "reason": "nemo S 40x30 blue bubble mat confirmed; the matcher missed it."
+  },
+  {
+   "variant_id": 1238,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet lists (Trixie 354 rows + other brands) have no Trixie cooling mat (only Triol 'Тропики' 65x50 green) and no Trixie Premium Reflect collar (Trixie collars in the list: BE NORDIC, neoprene, USB glowing, cat collars)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձգափոկ-նեյլոնե-s-m-30-45-սմմ20մմ-կարգավորվող-գրաֆիտ",
+    "price": 2850,
+    "old_price": null,
+    "name": "Ձգափոկ՝ նեյլոնե, S-M, 30-45 սմմ/20մմ, կարգավորվող /գրաֆիտ",
+    "in_stock": true,
+    "evidence": "Opened today. The name equals hafo's 1199316Tx row: S-M, 30-45 cm/20 mm, graphite. Text: reflective ('Անդրադարձնող'), 3-way adjustable, graphite webbing. The photo shows a graphite collar with reflective stitching and a TRIXIE-embossed buckle, which is the Premium Reflect collar. 2850, in stock. The plain «Premium» graphite collars on nemo are a different line with other widths."
+   },
+   "confidence": "high",
+   "reason": "nemo Premium Reflect S-M/20 mm graphite confirmed; the matcher missed it."
+  },
+  {
+   "variant_id": 1239,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet lists (Trixie 354 rows + other brands) have no Trixie cooling mat (only Triol 'Тропики' 65x50 green) and no Trixie Premium Reflect collar (Trixie collars in the list: BE NORDIC, neoprene, USB glowing, cat collars)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձգափոկ-նեյլոնե-m-l-36-55-սմմ25մմ-կարգավորվող-գրաֆիտ",
+    "price": 3750,
+    "old_price": null,
+    "name": "Ձգափոկ՝ նեյլոնե, M-L, 36-55 սմմ/25մմ, կարգավորվող /գրաֆիտ",
+    "in_stock": true,
+    "evidence": "Opened today. The name equals hafo's 1199416Tx row: M-L, 36-55 cm/25 mm, graphite. Text: reflective surface, fully adjustable, colour graphite. Same listing family as the S-M Premium Reflect page. 3750, in stock; this equals the hafo price."
+   },
+   "confidence": "high",
+   "reason": "nemo Premium Reflect M-L/25 mm graphite confirmed; the matcher missed it."
+  },
+  {
+   "variant_id": 1240,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet lists (Trixie 354 rows + other brands) have no Trixie cooling mat (only Triol 'Тропики' 65x50 green) and no Trixie Premium Reflect collar (Trixie collars in the list: BE NORDIC, neoprene, USB glowing, cat collars)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ձգափոկ-նեյլոնե-l-xl-42-65-սմմ30մմ-կարգավորվող-գրաֆիտ",
+    "price": 4100,
+    "old_price": null,
+    "name": "Ձգափոկ՝ նեյլոնե, L-XL, 42-65 սմմ/30մմ, կարգավորվող /գրաֆիտ",
+    "in_stock": true,
+    "evidence": "Opened today. The name equals hafo's 1199516Tx row: L-XL, 42-65 cm/30 mm, graphite. Text: reflective surface, fully adjustable, colour graphite. 4100, in stock; this equals the hafo price."
+   },
+   "confidence": "high",
+   "reason": "nemo Premium Reflect L-XL/30 mm graphite confirmed; the matcher missed it."
+  }
+ ]
+}

@@ -1,0 +1,521 @@
+{
+ "results": [
+  {
+   "variant_id": 700,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'латекс|latex|skein|моток', 'игрушка для щенков', 'trixie игрушка 15 см' - only Triol latex toys and Trixie Junior pacifier toy 9 cm; no Trixie latex puppy skein. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-ձագերի-համար-լատեկսից-թելի-տեսքով",
+    "price": 2200,
+    "old_price": null,
+    "name": "Խաղալիք ձագերի համար՝ լատեկսից թելի տեսքով",
+    "in_stock": true,
+    "evidence": "Name matches hafo row (puppy toy, latex, skein shape); page: 'for puppies, skein, latex, with sound, 15 cm' - 15 cm matches. Manufacturer field empty, but naming identical to hafo 35513Tx; sibling listing -2 is the 30 cm version at 3800 (not ours)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 701,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мята|catnip' - only 'Trixie Кошачья мята сушеная, 20 г' (800 AMD) = 20 g pack, not our 30 g tub. Nearest candidate is that 20 g item. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կատուների-անանուխ-չորացված",
+    "price": 1600,
+    "old_price": null,
+    "name": "Կատուների անանուխ՝ չորացված",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: dried catnip leaves, plastic tub, 'Պարունակություն՝ 30գր' = 30 g plastic tub = hafo row 42241Tx. Separate 20 g listing (800) is a different pack."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 702,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'Trixie Пищевая добавка кошачья трава с семенами ячменя, 100 г' (1200, out of stock) is barley cat grass = Trixie 4235 (hafo 4235Tx also 1200, 'for cats'), not Soft Grass 4232 (cats & kittens, 1500). Searched 'трава|grass'. Different line, no match. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խոտի-սերմեր-կատուների-ձագերի-համար",
+    "price": 1500,
+    "old_price": null,
+    "name": "Խոտի սերմեր՝ կատուների ձագերի համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; nemo search '4232' returns it (article tag); page: grass seeds for cats/kittens, rich in vitamins, plastic tray, 'Պարունակություն՝ 100գր' = Soft Grass 4232 100 g; name = hafo title for 4232Tx; price equals hafo 1500."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: Trixie grass seeds 100 g (4232) at 1500."
+  },
+  {
+   "variant_id": 703,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'simple', 'запах', 'устран|нейтрал|дезодор', 'trixie спрей', 'trixie 175' - only Simple'n'Clean silica litter and matatabi spray 50 ml; no Simple'n'Clean deodorising spray. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ցողարկիչ-կատուների-համար-հոտի-դեմ-175մլ-simplenclean",
+    "price": 1950,
+    "old_price": null,
+    "name": "Ցողարկիչ կատուների համար՝ հոտի դեմ, 175մլ, Simple’n’Clean",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; name = hafo row: Simple'n'Clean odour spray for cats, 175 ml. Every axis matches."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 1300,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'simple', 'запах', 'trixie 750' - no Simple'n'Clean spray (750 hits are bottles/bowls/750 g litter deodorant powder). [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/simplenclean-ցողարկիչ-կատուների-համար-հոտի-դեմ",
+    "price": 4650,
+    "old_price": null,
+    "name": "Simple’n’Clean ցողարկիչ կատուների համար՝ հոտի դեմ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; Simple'n'Clean odour spray for cats, 'Պարունակություն՝ 750մլ' = 750 ml. Matches hafo 42407Tx."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 706,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби|matatabi', 'trixie спрей' - only 'Trixie Спрей с мататаби для кошек, 50 мл' (1650, out of stock): 50 ml is not 175 ml. Nearest candidate. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-մաթտաբիի-էքստրակտով-սփրեյ-175-մլ",
+    "price": 2350,
+    "old_price": null,
+    "name": "Trixie, մաթտաբիի էքստրակտով սփրեյ, 175 մլ",
+    "in_stock": true,
+    "evidence": "Trixie matatabi-extract spray for cats, page '175 մլ'; nemo search '42424' returns it; name = hafo title for 42424Tx. Separate 50 ml listing is another pack."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: Trixie matatabi spray 175 ml at 2350."
+  },
+  {
+   "variant_id": 707,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби|matatabi', 'lolly|леденец|чупа' - only matatabi ball 4 cm, spray 50 ml and Premio Lolly dog treat. No Matatabi Lolly. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չուպաչուպս-կատուների-համար-մենթոլով-և-մաթատաբիով",
+    "price": 1850,
+    "old_price": null,
+    "name": "Չուպաչուպս կատուների համար՝ մենթոլով և մաթատաբիով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; product tag '42430tx' = our article 42430; 'Չափ՝ 11սմ' = 11 cm; name matches hafo row."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 708,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби', 'перо|перь|feather' - no matatabi feather toy. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'մաթատաբիով', 'փետուր', 'բերանի' - nearest 'Trixie, մաթատաբիով խաղալիք' (1450) is a wooden 4x5 cm toy with menthol ball, not the 20 cm feather game; GiGwi feather teasers are other brands. Verifier: nemo 'Կատվի խաղալիք անանուխով և փետուրով' (1400) is a catnip egg-tumbler toy, not the matatabi feather stick."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 709,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби', 'lolly|леденец' - none. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-սրտիկ-խաղալիք-կատուների-համար-մաթատաբիով-և-անանուխով",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, սրտիկ-խաղալիք կատուների համար՝ մաթատաբիով և անանուխով",
+    "in_stock": true,
+    "evidence": "Trixie heart-shaped cat toy with matatabi and mint/menthol, oral hygiene, 23 cm = Matatabi Lolly Heart 23 cm (42441); price equals hafo."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 710,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби', 'мышь|мыш' - only catnip mice; no Matatabi Lolly Mouse. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-մկնիկ-խաղալիք-կատուների-համար-մաթատաբիով-և-անանուխով",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, մկնիկ-խաղալիք կատուների համար՝ մաթատաբիով և անանուխով",
+    "in_stock": true,
+    "evidence": "Trixie mouse-shaped cat toy with matatabi and mint, oral hygiene, 20 cm = Matatabi Lolly Mouse 20 cm (42442); price equals hafo."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 711,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'мататаби|matatabi', 'lolly' - none. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մատատաբի-փայտիկ-կատվախոտի-գնդիկով-կատուների-համար",
+    "price": 2100,
+    "old_price": null,
+    "name": "Մատատաբի փայտիկ՝ կատվախոտի գնդիկով՝ կատուների համար",
+    "in_stock": true,
+    "evidence": "nemo search '42444' (our article) returns this page; name is identical to hafo's title for 42444Tx, price equals hafo 2100, page photo is the same item as hafo's 42444 photo (matatabi stick, catnip ball, green plush), text 'especially suitable for large cats' = XXL. Manufacturer field 'Triol' and the Triol tags are copy errors on nemo. Size not stated on page."
+   },
+   "confidence": "medium",
+   "verdict": "disagree",
+   "reason": "Matcher rejected the nemo page over its 'Triol' manufacturer field, but the page is found by our article 42444, has hafo's exact title, photo and price: a match at 2100."
+  },
+  {
+   "variant_id": 712,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/igrushki/myshki/trixie-igrushka-dlya-koshek-mysh-s-koshachej-myatoj-2-sht",
+    "price": 1150,
+    "old_price": null,
+    "name": "Trixie Игрушка для кошек Мышь с кошачьей мятой (2 шт)",
+    "in_stock": true,
+    "evidence": "Trixie set of two mice made of pressed catnip (description), 2 pcs = Set of Catnip Mice 2 pcs (45749); price equals hafo 1150. Size (5 cm) not stated on page; the other Trixie catnip mouse (7 cm, single) is a different item. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կատվախոտից-պատրաստված-մկնիկներ-կատուների-համար",
+    "price": 1150,
+    "old_price": null,
+    "name": "Կատվախոտից պատրաստված մկնիկներ՝ կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; mice made entirely of catnip, 'Պարունակությունը՝ 2 հատ' = 2 pcs; matches hafo row name; size not stated."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 715,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'полотенце|towel', 'trixie халат|полотенце|махров' - none. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'սրբիչ', 'խոնավ|ներծծող', 'մանրաթել' - no Trixie towel."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 716,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'халат|bathrobe' - none. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'խալաթ', 'լոգանք', 'վերմակ', 'բամբակյա' - only Lorient/Vimy raincoats (other products); no Trixie bathrobe XS."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 1301,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'халат|bathrobe' - none. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'խալաթ', 'լոգանք', 'վերմակ' - only Lorient/Vimy raincoats; no Trixie bathrobe S."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 721,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'лап|paw': nearest 'Trixie Чистящее средство для лап с силиконовой щеткой, S-M' (3400, out of stock) - size S-M, not our M-L. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'թաթ', 'մաքրող', 'սիլիկոն', 'մերս' - no paw cleaner (only creams/balms)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 725,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'premio паштет|pate', 'паштет', 'trixie 110' - only cat Premio poultry pâté 75 g; no dog liver pâté 110 g. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-premio-պաշտետ",
+    "price": 1950,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների PREMIO` պաշտետ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; page: dog treat, liver (լյարդի), 'Քաշը՝ 110գ' = Premio Pâté liver 110 g. (Liver XXL 300 g at 3750 and puppy 75 g are other items.)"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 1392,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'бекон|bacon|печен', 'паштет' - none. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-երշիկի-կտորներ-75-գ-2",
+    "price": 1950,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար PREMIO` բեկոնի պաշտետ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; dog Premio pâté, bacon flavour ('Ունի բեկոնի համ'), 'Պարունակություն՝ 110գ'. Matcher missed it (slug is a recycled sausage slug); found via nemo search 'բեկոն' / '31842'."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: Premio bacon pâté 110 g at 1950."
+  },
+  {
+   "variant_id": 1393,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Trixie brand list + live search: 'паштет', 'premio' - no dog lamb pâté. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-premio-գառան-պաշտետ",
+    "price": 2350,
+    "old_price": null,
+    "name": "Հյուրասիրություն շների համար PREMIO` գառան պաշտետ",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; dog Premio pâté, lamb flavour, 'Պարունակություն՝ 110 գ' = 110 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 728,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/dlya-vyvedeniya-shersti-1/trixie-malt-paste-malt-pasta-dlya-vyvedeniya-shersti-iz-geludka-dlya-koshek-100-g",
+    "price": 2400,
+    "old_price": null,
+    "name": "Trixie Malt Paste Мальт паста для выведения шерсти из желудка для кошек, 100 г",
+    "in_stock": false,
+    "evidence": "Trixie Malt Paste for cats, 100 g = Cat Malt 100 g (4220). Page: 2400, 'Нет в наличии'. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մածուկ-ածիկ-կատուների-համար",
+    "price": 2400,
+    "old_price": null,
+    "name": "Մածուկ (ածիկ) կատուների համար",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; malt paste for cats, 'Քաշը՝ 100գ', hairball prevention = Cat Malt 100 g."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 729,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-pashtet-premio-s-ptitsej-dlya-koshek-75-g",
+    "price": 1750,
+    "old_price": null,
+    "name": "Trixie Паштет Premio с птицей для кошек, 75 г",
+    "in_stock": true,
+    "evidence": "Trixie Premio pâté for cats, poultry, 75 g - every axis matches (42728). In stock. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պաշտետ-կատուների-համար-premio-թռչնամսով",
+    "price": 1750,
+    "old_price": null,
+    "name": "Պաշտետ կատուների համար՝ PREMIO, թռչնամսով",
+    "in_stock": true,
+    "evidence": "Manufacturer Trixie; cat Premio pâté with poultry, 'Պարունակություն՝ 75 գ'; nemo search '42728' returns it. Every axis matches."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: Premio cat poultry pâté 75 g at 1750."
+  },
+  {
+   "variant_id": 954,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'миска 0.2|15 см', 'trixie миска металл|нержав', 'trixie миска 0.2' - Trixie steel bowls only 0.3 l/12 cm, 0.4 l/17 cm, 1.4-2 l; no 0.2 l/15 cm. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo Trixie list 'չժանգոտվող', 'պողպատյա կերաման' - nearest 'Պողպատյա կերաման ռետինե տակդիրով' (1350) is 0.2 l but 16 cm with black rubber base; others 0.2 l/12 cm green (1550), 0.2 l/13 cm (700), 0.5 l/14 cm. No 0.2 l/15 cm. Verifier: nemo 1350 bowl photo is a black-coated ribbed bowl, different model from hafo's 24870 photo."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  },
+  {
+   "variant_id": 955,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/oshejniki-shlejki/shlejki-1/trixie-y-obraznaya-shlejka-dlya-koshek-39-60-sm-10-mm",
+    "price": 8250,
+    "old_price": null,
+    "name": "Trixie Y-образная шлейка для кошек, 39–60 см, 10 мм",
+    "in_stock": true,
+    "evidence": "Trixie Y-harness for cats, breathable mesh, with elastic ~1 m lead, chest 39-60 cm, 10 mm = Mesh Y-Harness with Lead 39-60 cm/10 mm (41890); price equals hafo 8250. Colour on page: light blue (our row names none). [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շլեյկա-ձգափոկով-կատուների-համար-y-աձև",
+    "price": 8250,
+    "old_price": null,
+    "name": "Շլեյկա ձգափոկով, կատուների համար՝ Y-աձև",
+    "in_stock": true,
+    "evidence": "nemo search '41890' returns it; cat Y-harness with lead, breathable material, '39-60սմ/ 10մմ/ 1մ' = 41890; name = hafo title; manufacturer field empty; price equals hafo."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: Y-harness 39-60 cm/10 mm/1 m at 8250."
+  },
+  {
+   "variant_id": 956,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'бандана|nordic', 'trixie bandana|платок' - BE NORDIC items are collars/bowls/treats; no bandana collar. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-բանդանա-be-nordic-մուգ-կապույտ-3",
+    "price": 2450,
+    "old_price": null,
+    "name": "Վզնոց-բանդանա՝ BE NORDIC, մուգ կապույտ",
+    "in_stock": true,
+    "evidence": "BE NORDIC bandana collar, cotton, dark blue, 'Չափս S, 30սմ'; nemo search '17321' returns it. Siblings -2 (M 40 cm, 2700) and plain slug (L 50 cm, 2900) are other sizes."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: BE NORDIC bandana S 30 cm dark blue at 2450."
+  },
+  {
+   "variant_id": 1268,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'бандана|nordic' - no BE NORDIC bandana collar. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-բանդանա-be-nordic-մուգ-մոխրագույն",
+    "price": 2700,
+    "old_price": null,
+    "name": "Վզնոց-բանդանա՝ BE NORDIC, մուգ մոխրագույն",
+    "in_stock": true,
+    "evidence": "BE NORDIC bandana collar, cotton, dark grey, 'Չափս`m 40սմ' = M 40 cm. Siblings -3 (L 50 cm, 2900) and -4 (S 30 cm, 2450)."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: BE NORDIC bandana M 40 cm dark grey at 2700."
+  },
+  {
+   "variant_id": 1269,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'бандана|nordic' - no BE NORDIC bandana collar. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/վզնոց-բանդանա-be-nordic-մուգ-մոխրագույն-3",
+    "price": 2900,
+    "old_price": null,
+    "name": "Վզնոց-բանդանա՝ BE NORDIC, մուգ մոխրագույն",
+    "in_stock": true,
+    "evidence": "BE NORDIC bandana collar, cotton, dark grey, 'Չափս`L, 50սմ'; nemo search '17335' returns it."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: BE NORDIC bandana L 50 cm dark grey at 2900."
+  },
+  {
+   "variant_id": 960,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet 'перестежка|premium', 'поводок xs' - only 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м/15 мм' (4450): violet, plain nylon (no double layer); not aqua. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-երկշերտ-նեյլոնե-կարգավորվող-ձգափոկեր-xs-s",
+    "price": 5700,
+    "old_price": null,
+    "name": "Trixie, երկշերտ նեյլոնե կարգավորվող ձգափոկեր, XS-S",
+    "in_stock": true,
+    "evidence": "nemo search '200728' (our article) returns it; Trixie double-layered nylon adjustable lead, XS-S 2 m/15 mm; colour chosen at order, list includes 'կապույտ՝ Aqua'; name = hafo title for 200728Tx; price equals hafo."
+   },
+   "confidence": "high",
+   "verdict": "disagree",
+   "reason": "Matcher missed nemo: double-layered adjustable lead XS-S, Aqua offered, at 5700."
+  },
+  {
+   "variant_id": 1721,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet nearest 'Trixie Поводок-перестежка Premium нейлоновая XS–S, фиолетовая, 2 м/15 мм' (4450): colour violet, not light lilac, and page describes a plain nylon lead (no double layer); price far below hafo 5700 - treated as a different item. [verifier: zoovet.am refused connections during this check; zoovet re-checked against today's zoovet brand-list dump in shops.json only]"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo 'ձգափոկ xs-s', 'մանուշակագույն', 'կարգավորվող' - no light-lilac XS-S adjustable lead; only sky-blue nylon XS-S and black leads. Verifier: nemo double-layer XS-S lead (5700) offers Aqua/sangria/sage/blush/sand only, no light lilac."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-opened every nemo page claimed found (name, size, price, stock confirmed); re-searched nemo by article, EAN, hafo title and Armenian/English terms for not-found shops; zoovet checked against today's list dump (live site unreachable)."
+  }
+ ]
+}

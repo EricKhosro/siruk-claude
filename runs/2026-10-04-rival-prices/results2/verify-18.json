@@ -1,0 +1,404 @@
+[
+ {
+  "variant_id": 834,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); the only Sterilised duck/lemon-balm cat stick is 'Monge Gift Лакомство палочки с уткой и мелисой для кошек, 1 шт, 5 г' (250 AMD, weight '1 шт, 5 г', composition duck + cranberry + Melissa) - a single 5 g stick, not our 3-stick 15 g pack; EAN 8009470085281 search empty. Nearest: https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-palochki-s-utkoj-i-melisoj-dlya-koshek-1-sht-5-g"
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ձողիկներ կատուների համար՝ MONGE GIFT, Grain Free, Sterilised, բադ/լիմոնի տերև, 3 ստիկս/15 գ",
+   "url": "https://www.nemo.am/ձողիկներ-կատուների-համար-monge-gift-grain-free-sterilised-բադլիմոնի-տերև-3-ստիկս15-գ",
+   "price": 750,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, Sterilised duck/lemon-leaf cat sticks, description ends '3 ստիկս/15 գ' (= hafo row); 750 AMD, in stock, no old price; the only Sterilised cat stick on nemo."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 835,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its rabbit/beta-glucan (Immunity) dog stick is sold only as a single stick ('1 шт, 15 г', page weight 0.015 kg, 330 AMD, old 550) - not our 3-stick 45 g pack; no 45 g / 3-pack listing or option (searched '45 г|45г', '3 шт', 'палочк'). Nearest: https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/monge-gift-lakomstvo-palochki-s-krolikom-i-beta-glyukanom-dlya-sobak-1-sht-15-g"
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT ձողիկներ շների համար, ճագար/բետա գլյուկաններ, Grain Free, Immunity Support",
+   "url": "https://www.nemo.am/monge-gift-ձողիկներ-շների-համար-ճագարբետա-գլյուկաններ-grain-free-immunity-support",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, rabbit/beta-glucans Immunity Support dog sticks, short description ends '3 ստիկս/45 գ'; 1650 AMD, in stock, no old price. Matches hafo's row name for our SKU. (nemo's separate 'մսային բատոն ... 40 գ' items are a different 40 g size.)"
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1403,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its duck/spirulina (Training) dog stick is sold only as a single stick ('1 шт, 15 г', page weight 0.015 kg, 550 AMD) - not our 3-stick 45 g pack; no 45 g / 3-pack listing or option (searched '45 г|45г', '3 шт', 'палочк'). Nearest: https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/monge-gift-lakomstvo-palochki-s-utkoj-i-spirulinoj-dlya-sobak-1-sht-15-g"
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT ձողիկներ շների համար, բադ/սպիրուլինա, Grain Free, Training",
+   "url": "https://www.nemo.am/monge-gift-ձողիկներ-շների-համար-բադսպիրուլինա-grain-free-training",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, duck/spirulina Training dog sticks, short description ends '3 ստիկս/45 գ'; 1650 AMD, in stock, no old price. Matches hafo's row name for our SKU. (nemo's separate 'մսային բատոն ... 40 գ' items are a different 40 g size.)"
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1404,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its lamb/chestnut (Sensitive) dog stick is sold only as a single stick ('1 шт, 15 г', page weight 0.015 kg, 550 AMD) - not our 3-stick 45 g pack; no 45 g / 3-pack listing or option (searched '45 г|45г', '3 шт', 'палочк'). Nearest: https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/monge-gift-lakomstvo-palochki-s-yagnenkom-i-kashtanom-dlya-sobak-1-sht-15-g"
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT ձողիկներ շների համար, գառ/շագանակ, Grain Free, Sensitive",
+   "url": "https://www.nemo.am/monge-gift-ձողիկներ-շների-համար-գառշագանակ-grain-free-sensitive",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, lamb/chestnut Sensitive dog sticks, short description ends '3 ստիկս/45 գ'; 1650 AMD, in stock, no old price. Matches hafo's row name for our SKU. (nemo's separate 'մսային բատոն ... 40 գ' items are a different 40 g size.)"
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1405,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its salmon/aloe vera (Skin Support) dog stick is sold only as a single stick ('1 шт, 15 г', page weight 0.015 kg, 550 AMD) - not our 3-stick 45 g pack; no 45 g / 3-pack listing or option (searched '45 г|45г', '3 шт', 'палочк'). Nearest: https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/monge-gift-lakomstvo-palochki-s-lososem-i-aloe-vera-dlya-sobak-1-sht-15-g"
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT ձողիկներ շների համար, սաղմոն/ալոե, Grain Free, Skin Support",
+   "url": "https://www.nemo.am/monge-gift-ձողիկներ-շների-համար-սաղմոնալոե-grain-free-skin-support",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, salmon/aloe Skin Support dog sticks, short description ends '3 ստիկս/45 գ'; 1650 AMD, in stock, no old price. Matches hafo's row name for our SKU. (nemo's separate 'մսային բատոն ... 40 գ' items are a different 40 g size.)"
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1406,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its trout/turmeric (Mobility) dog stick is sold only as a single stick ('1 шт, 15 г', page weight 0.015 kg, 550 AMD) - not our 3-stick 45 g pack; no 45 g / 3-pack listing or option (searched '45 г|45г', '3 шт', 'палочк'). Nearest: https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/monge-gift-lakomstvo-palochki-s-forelyu-i-kurkumoj-dlya-sobak-1-sht-15-g"
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT ձողիկներ շների համար, իշխան/իմբիր, Grain Free, Mobility Support",
+   "url": "https://www.nemo.am/monge-gift-ձողիկներ-շների-համար-իշխանիմբիր-grain-free-mobility-support",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, trout Mobility Support (herb rendered իմբիր exactly as in hafo's row for SKU 08540MG) dog sticks, short description ends '3 ստիկս/45 գ'; 1650 AMD, in stock, no old price. Matches hafo's row name for our SKU. (nemo's separate 'մսային բատոն ... 40 գ' items are a different 40 g size.)"
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 837,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its pork/milk (Puppy & Junior) dog stick is sold only as a single stick ('1 шт, 15 г', page weight 0.015 kg, 550 AMD) - not our 3-stick 45 g pack; no 45 g / 3-pack listing or option (searched '45 г|45г', '3 шт', 'палочк'). Nearest: https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/monge-gift-lakomstvo-palochki-so-svininoj-i-molokom-dlya-schenkov-1-sht-15-g"
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT ձողիկներ շների ձագերի համար, խոզ/կաթ, Grain Free, Puppy & Junior",
+   "url": "https://www.nemo.am/monge-gift-ձողիկներ-շների-ձագերի-համար-խոզկաթ-grain-free-puppy-junior",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, pork/milk Puppy & Junior dog sticks, short description ends '3 ստիկս/45 գ'; 1650 AMD, in stock, no old price. Matches hafo's row name for our SKU. (nemo's separate 'մսային բատոն ... 40 գ' items are a different 40 g size.)"
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 841,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its 60 g Filled & Crunchy pillows are only Kitten trout/milk, Fussy pork/cheese and Hairball salmon/catnip; no Dental rabbit/peppermint 60 g (searched 'monge мят', 'monge кролик', 'gift dental', 'monge подушечк', 'monge 60 г', EAN 8009470085007). Nearest rabbit cat item is the 50 g Dental meat minis rabbit/apple - other line and size."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բարձիկներ կատուների համար՝ MONGE GIFT, Grain Free, Dental, ճագար/անանուխ, 60 գ",
+   "url": "https://www.nemo.am/բարձիկներ-կատուների-համար-monge-gift-grain-free-dental-ճագարանանուխ-60-գ",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, Dental rabbit/peppermint pillows (mint for fresh breath), '60գ'; 1050 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 842,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Gift Лакомство подушечки с форелью и молоком для котят, 60 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-podushechki-s-forelyu-i-molokom-dlya-koshek-i-kotyat-60-g",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened: 'Monge Gift Kitten with Trout and Milk', crunchy shell + soft milk filling, 'Вес: 60 г'; 1050 AMD, no options, no old price, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բարձիկներ կատուների համար՝ MONGE GIFT, Grain Free, Kitten, իշխան/կաթ, 60 գ",
+   "url": "https://www.nemo.am/բարձիկներ-կատուների-համար-monge-gift-grain-free-kitten-իշխանկաթ-60-գ",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, Kitten trout/milk pillows, '60գ'; 1050 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 843,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Gift Лакомство подушечки со свининой и сыром для кошек, 60 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-podushechki-so-svininoj-i-syrom-dlya-koshek-60-g",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened: 'Monge Gift Fussy Cat Pork and Cheese', crunchy pillows with soft cheese filling, adult cats, weight 0.06 kg; 1050 AMD, no options, no old price, 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բարձիկներ կատուների համար՝ MONGE GIFT, Grain Free, խոզ/պանիր, 60 գ",
+   "url": "https://www.nemo.am/բարձիկներ-կատուների-համար-monge-gift-grain-free-խոզպանիր-60-գ",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, adult pork/cheese pillows, '60գ'; 1050 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 844,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Gift Лакомство с лососем и кошачьей мятой для кошек, 60 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-s-lososyu-i-gorohom-dlya-koshek-60-g",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened (slug recycled 's-lososyu-i-gorohom'; description partly copied from Dental): title 'с лососем и кошачьей мятой ... 60 г', text 'MONGE GIFT HAIRBALL ... Хрустящие подушечки с начинкой ... 60 г', composition salmon + catnip (Nepeta cataria 0,5%), weight 0.06 kg; 1050 AMD, no options, no old price, in stock (1)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բարձիկներ կատուների համար՝ MONGE GIFT, Grain Free, Hairball, սաղմոն/կատվախոտ, 60 գ",
+   "url": "https://www.nemo.am/բարձիկներ-կատուների-համար-monge-gift-grain-free-hairball-սաղմոնկատվախոտ-60-գ",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, Hairball salmon/catnip pillows, '60գ'; 1050 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 845,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its 60 g pillows are only Kitten trout/milk, Fussy pork/cheese and Hairball salmon/catnip; no Skin Support cod/aloe (searched 'monge треск', 'monge алоэ|алое', 'monge 60 г', EAN 8009470085045). Nearest cod item is the single 5 g cod/red-clover cat stick."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բարձիկներ կատուների համար՝ MONGE GIFT, Grain Free, Skin Support, գոդ ֆիշ/ալոե, 60 գ",
+   "url": "https://www.nemo.am/բարձիկներ-կատուների-համար-monge-gift-grain-free-skin-support-գոդ-ֆիշալոե-60-գ-2",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, Skin Support cod/aloe pillows (aloe vera for skin & coat), '60գ'; 1050 AMD, in stock, no old price. (An older duplicate URL without '-2' also shows 1050.)"
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 846,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its 60 g pillows are only Kitten trout/milk, Fussy pork/cheese and Hairball salmon/catnip; no Sterilised duck/cranberry 60 g (searched 'monge утк', 'monge клюкв', 'gift sterilised', 'monge стерилиз', EAN 8009470085052). Nearest duck cat item is the single 5 g Sterilised stick."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բարձիկներ կատուների համար՝ MONGE GIFT, Grain Free, Sterilised, բադ/լորամիրգ, 60 գ",
+   "url": "https://www.nemo.am/բարձիկներ-կատուների-համար-monge-gift-grain-free-sterilised-բադլորամիրգ-60-գ",
+   "price": 1050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, Sterilised duck/cranberry pillows for sterilised adult cats, '60գ'; 1050 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 847,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Gift Лакомство с лососем и сливой для кошек, 50 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-s-lososem-i-slivoj-dlya-koshek-50-g",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened: 'Monge Gift Cat Hairball', salmon 35% with dried plum, 'Вес: 50 г'; 1800 AMD, no options, no old price, in stock (2)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT կատուների համար, սաղմոն/սալոր, Grain Free, Skin Support",
+   "url": "https://www.nemo.am/monge-gift-կատուների-համար-սաղմոնսալոր-grain-free-skin-support",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, salmon/plum, description 'MONGE GIFT HAIRBALL CAT ... 50գ' (title label Skin Support, same as hafo's row for SKU 08513MG); 1800 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 848,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Gift Лакомство подушечки с кроликом и яблоком для кошек, 50 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-podushechki-s-krolikom-i-yablokom-dlya-koshek-50-g",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened: 'Monge Gift Cat Dental (Кролик с яблоком)', fresh fish 63% + rabbit 14% + apple, weight 0.05 kg (meat minis despite 'подушечки' in the title); 1800 AMD, no options, no old price, in stock (1)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT կատուների համար, ճագար/խնձոր, Grain Free, Dental",
+   "url": "https://www.nemo.am/monge-gift-կատուների-համար-ճագարխնձոր-grain-free-dental",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, rabbit/apple, 'MONGE GIFT DENTAL CAT ... 50գ'; 1800 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 849,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Gift Лакомство с форелью и черникой для кошек и котят, 50 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-s-forelyu-i-chernikoj-dlya-koshek-i-kotyat-50-g",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened: 'Monge Gift Kitten Meat Minis Trout', dried blueberry (черника) 1%, 'Вес: 50 г'; 1800 AMD, no options, no old price, in stock (2)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT կատուների ձագերի համար, իշխան/սև հաղարջ, Grain Free, Kitten",
+   "url": "https://www.nemo.am/monge-gift-կատուների-ձագերի-համար-իշխանսև-հաղարջ-grain-free-kitten",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, 'MONGE GIFT Kitten - Growth Support ... 50գ' trout (berry rendered սև հաղարջ exactly as in hafo's row for SKU 08515MG); 1800 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 850,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Gift Лакомство со свининой и ананасом для кошек, 50 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/monge-gift-lakomstvo-so-svininoj-i-ananasom-dlya-koshek-50-g",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened: 'Monge Gift Fussy Cat Meat Minis Pork' with cheese and pineapple, weight 0.05 kg; 1800 AMD, no options, no old price, in stock (1)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT կատուների համար, խոզ/արքայախնձոր, Grain Free",
+   "url": "https://www.nemo.am/monge-gift-կատուների-համար-խոզարքայախնձոր-grain-free",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, 'MONGE GIFT Fussy Cat' pork, pineapple and cheese, description ends '50գ'; 1800 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 851,
+  "confidence": "high",
+  "verdict": "agree",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's live search 'Monge Gift' returns 35 items (re-checked today); its 50 g meat-minis cat range is only rabbit/apple, salmon/plum, trout/blueberry and pork/pineapple; no Sterilised duck/pomegranate (searched 'monge утк', 'monge гранат', 'monge клюкв', 'gift sterilised', 'monge 50 г', EAN 8009470085182)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "MONGE GIFT կատուների համար, բադ/նուռ, Grain Free, Sterilised",
+   "url": "https://www.nemo.am/monge-gift-կատուների-համար-բադնուռ-grain-free-sterilised",
+   "price": 1800,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer Monge, 'MONGE GIFT Sterilised' duck, pomegranate and cranberry for sterilised adult cats, description ends '50գ'; 1800 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ },
+ {
+  "variant_id": 856,
+  "confidence": "medium",
+  "verdict": "agree",
+  "notes": "nemo states large-breed buffalo 100 g outright. zoovet's page does not say 'large breed', but zoovet's 100 g BWild cat cans are buffalo/boar/anchovy/salmon/cod/tuna and the buffalo one is the only 100 g buffalo cat pate (the 85 g buffalo is a separate pouch), tagged 'Для здоровья суставов' (fits the glucosamine large-breed formula). Both 630.",
+  "zoovet": {
+   "found": true,
+   "name": "Monge Bwild Влажный корм из мяса буйвола с овощами для кошек, 100 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/vlazhnye-korma/monge-bwild-vlagnyj-korm-iz-myasa-bujvola-s-ovoschami-dlya-koshek-100-g",
+   "price": 630,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "zoovet page re-opened: 'Monge Cat Bwild GRAIN FREE ... консервы из мяса буйвола с овощами для кошек 100г', 'Вес: 100 г', purpose 'Для здоровья суставов'; 630 AMD, no options, no old price, in stock (>20). Only 100 g buffalo cat can on zoovet ('буйвол' search: also an 85 g pouch and 1.5 kg dry)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Պաշտետ մեծ ցեղատեսակի կատուների համար՝ Bwild բիզոնի մսով և բանջարեղենով",
+   "url": "https://www.nemo.am/պաշտետ-մեծ-ցեղատեսակի-կատուների-համար-bwild",
+   "price": 630,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "nemo page re-opened: manufacturer BWild, 'Քաշը՝ 100գ', pate for large-breed cats with buffalo and vegetables, glucosamine/chondroitin; 630 AMD, in stock, no old price."
+  },
+  "reason": "Re-opened every matched page and re-searched zoovet with several spellings/EANs; same shops found at the same prices."
+ }
+]

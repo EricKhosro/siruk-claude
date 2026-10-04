@@ -1,0 +1,528 @@
+{
+ "results": [
+  {
+   "variant_id": 1635,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches: 'kaskad|каскад', 'ошейник' (all 114 collar listings: Trixie, Triol, Gamma, Beaphar, Nunbell, DOOG, DUVO+, Julius-K9), 'ошейник кож|leather', size strings, EAN prefix 4605350. No Kaskad collar listed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches: 'kaskad|каскад|կասկադ', 'վզնոց', 'վզ' (160 rows), 'կաշվե', 'վզնոց կաշ', 'երկշերտ', 'ձագ վզ', '12մմ|15մմ|35մմ', EAN prefix 4605350. No 35 mm x 50-59 cm padded leather collar; nearest: Nunbell leather collar Չ765 40-55 cm (2210), different brand/size. Verifier: the only Kaskad Classic collar on nemo is 'Վզնոց շների համար՝ Каскад Classic, կաշի փափուկ պաստառով' 30 mm x 44-53 cm (2950, hafo 00314K), a different size."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-searched both shops. zoovet has no Kaskad item at all (каскад/kaskad/4605350/кожаный ошейник: only Gamma leather 35 mm x 600 mm). nemo mirrors hafo's titles; hafo's title for 00244K 'Վզնոց շների համար՝ Каскад Classic' is not on nemo. The only Kaskad Classic collar on nemo is the 30 mm x 44-53 cm padded one (2950, hafo 00314K): a different width and length. Also seen: the double-leather spiked 35 mm x 50-59 cm (6850), a different model."
+  },
+  {
+   "variant_id": 2048,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches: 'kaskad|каскад', 'ошейник' (all 114 collar listings: Trixie, Triol, Gamma, Beaphar, Nunbell, DOOG, DUVO+, Julius-K9), 'ошейник кож|leather', size strings, EAN prefix 4605350. No Kaskad collar listed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կաշվե-վզնոց-շների-համար-վարդագույն",
+    "price": 950,
+    "old_price": null,
+    "name": "Կաշվե վզնոց՝ շների համար, վարդագույն",
+    "in_stock": true,
+    "evidence": "nemo page name is identical to hafo's title for SKU 01664K ('Կաշվե վզնոց՝ շների համար, վարդագույն'); page text: leather, size 12մմ*20-24 սմ, colour pink, so width, length band and colour all match. Brand not printed (nemo 'manufacturer' field says Trixie, which nemo also shows on its generic VET-xxxx collars; this matches the Kaskad 12mm*20-24cm pink row hafo lists)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Opened the nemo page. Name = hafo title for 01664K; text 'Կաշվե, Չափս՝ 12մմ*20-24 սմ, Գույն՝ վարդագույն'; 950, in stock. The manufacturer field 'Trixie' is nemo's generic tag; the name, size and colour all match. zoovet has no Kaskad collar."
+  },
+  {
+   "variant_id": 1636,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches: 'kaskad|каскад', 'ошейник' (all 114 collar listings: Trixie, Triol, Gamma, Beaphar, Nunbell, DOOG, DUVO+, Julius-K9), 'ошейник кож|leather', size strings, EAN prefix 4605350. No Kaskad collar listed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches: 'kaskad|каскад|կասկադ', 'վզնոց', 'վզ' (160 rows), 'կաշվե', 'վզնոց կաշ', 'երկշերտ', 'ձագ վզ', '12մմ|15մմ|35մմ', EAN prefix 4605350. No 35 mm x 50-59 cm Kaskad Classic braid collar; nearest: Nunbell leather collar Չ765 40-55 cm (2210). Verifier: the only Kaskad Classic collar on nemo is 'Վզնոց շների համար՝ Каскад Classic, կաշի փափուկ պաստառով' 30 mm x 44-53 cm (2950, hafo 00314K), a different size."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-searched. Neither shop lists the 35 mm x 50-59 cm Kaskad Classic braid collar (hafo title 'Կաշվե վզնոց շների համար՝ Каскад Classic' is not on nemo). Nearest on nemo: Kaskad Classic padded 30 mm x 44-53 cm (2950), and the double-leather spiked 35 mm x 50-59 cm (6850), a different model."
+  },
+  {
+   "variant_id": 1988,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches: 'kaskad|каскад', 'ошейник' (all 114 collar listings: Trixie, Triol, Gamma, Beaphar, Nunbell, DOOG, DUVO+, Julius-K9), 'ошейник кож|leather', size strings, EAN prefix 4605350. No Kaskad collar listed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches: 'kaskad|каскад|կասկադ', 'վզնոց', 'վզ' (160 rows), 'կաշվե', 'վզնոց կաշ', 'երկշերտ', 'ձագ վզ', '12մմ|15մմ|35մմ', EAN prefix 4605350. No puppy leather collar 15 mm x 24-30 cm; nearest: generic Կաշվե վզկապ VET-0155 (900, no size given), size not confirmable."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-searched nemo, including hafo's title 'Կաշվե վզնոց` շների ձագերի համար' and 'ձագերի համար': only cat-kitten collars. The VET-xxxx leather collars give no size. zoovet has no Kaskad item."
+  },
+  {
+   "variant_id": 1989,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches: 'kaskad|каскад', 'ошейник' (all 114 collar listings: Trixie, Triol, Gamma, Beaphar, Nunbell, DOOG, DUVO+, Julius-K9), 'ошейник кож|leather', size strings, EAN prefix 4605350. No Kaskad collar listed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches: 'kaskad|каскад|կասկադ', 'վզնոց', 'վզ' (160 rows), 'կաշվե', 'վզնոց կաշ', 'երկշերտ', 'ձագ վզ', '12մմ|15մմ|35մմ', EAN prefix 4605350. Only the PINK 12 mm x 20-24 cm leather collar is listed (950, = hafo 01664K); the brown one (hafo 01662K 'շագանակագույն') is not listed; searched 'շագանակագույն' too."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-searched nemo, including hafo's title '...շների համար, շագանակագույն' and 'շագանակագույն': only the PINK 12 mm collar (950) is listed. zoovet has no Kaskad item."
+  },
+  {
+   "variant_id": 2073,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches: 'kaskad|каскад', 'ошейник' (all 114 collar listings: Trixie, Triol, Gamma, Beaphar, Nunbell, DOOG, DUVO+, Julius-K9), 'ошейник кож|leather', size strings, EAN prefix 4605350. No Kaskad collar listed."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches: 'kaskad|каскад|կասկադ', 'վզնոց', 'վզ' (160 rows), 'կաշվե', 'վզնոց կաշ', 'երկշերտ', 'ձագ վզ', '12մմ|15մմ|35մմ', EAN prefix 4605350. Nearest: 'Երկշերտ կաշվե վզակապ՝ զարդերով' 12mm*24-28 cm with decorations (2100), different length band and model."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "Re-searched ('երկշերտ', 'զարդերով', hafo's title '...երկշերտ'). The nemo nearest is 'Երկշերտ կաշվե վզակապ՝ զարդերով' 12 mm x 24-28 cm with decorations (2100): a different length band and model. zoovet has no Kaskad item."
+  },
+  {
+   "variant_id": 2029,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/kotoffej-napolnitel-komkuyuschijsya-dlya-koshachego-tualeta-2-7-kg-4-8-l",
+    "price": 1750,
+    "old_price": null,
+    "name": "Котоffей Наполнитель комкующийся для кошачьего туалета, 2.7 кг (4,8 л)",
+    "in_stock": true,
+    "evidence": "Brand Котоffей, clumping, 2.7 kg / 4.8 l; all axes match hafo KF5200111 'գնդվող 2.7կգ 4.8լ'. In stock (2 pcs)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/քարացող-լցանյութ-котоffей-կատուների-զուգարանի-համար",
+    "price": 1750,
+    "old_price": null,
+    "name": "Քարացող Լցանյութ «Котоffей» կատուների զուգարանի համար (2,7 կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Котоffей; clumping bentonite; page text '2,7 կգ - 4,8 լ'. Name mirrors hafo title 'Քարացող Լցանյութ «Котоffей»... (4,8 լ)'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Opened both pages. zoovet: Котоffей clumping 2.7 kg (4.8 l), 1750, in stock. nemo: manufacturer Котоffей, clumping, '2,7 կգ - 4,8 լ', 1750, in stock."
+  },
+  {
+   "variant_id": 2030,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/kotoffej-napolnitel-gigienicheskij-vpityvayuschij-dlya-koshachego-tualeta-2-7-kg-4-8-l",
+    "price": 1750,
+    "old_price": null,
+    "name": "Котоffей Наполнитель гигиенический впитывающий для кошачьего туалета, 2.7 кг (4,8 л)",
+    "in_stock": true,
+    "evidence": "Brand Котоffей, hygienic, 2.7 kg / 4.8 l; matches hafo KF5200211. In stock (5 pcs)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/քարացող-լցանյութ-котоffей-կատուների-զուգարանի-համար-48-լ-copy-2",
+    "price": 1750,
+    "old_price": null,
+    "name": "Հիգիենիկ Լցանյութ «Котоffей» կատուների զուգարանի համար (2,7 կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Котоffей; hygienic litter; page text '4,8 լ - 2,7 կգ'. The slug is recycled from the clumping product, but the name and description are for the hygienic one."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Opened both pages. zoovet: Котоffей hygienic 2.7 kg (4.8 l), 1750, in stock. nemo: 'Հիգիենիկ' Котоffей '4,8 լ - 2,7 կգ', 1750. The slug is recycled but the name and text match."
+  },
+  {
+   "variant_id": 2031,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/kotoffej-napolnitel-drevesnyj-dlya-koshachego-tualeta-2-kg-6-l",
+    "price": 1700,
+    "old_price": null,
+    "name": "Котоffей Наполнитель древесный для кошачьего туалета, 2 кг (6 л)",
+    "in_stock": true,
+    "evidence": "Kotoffey's 2 kg/6 l wood litters are 'ДРЕВЕСНЫЙ' (orange band, dark pellets) and 'ДЛЯ КОШЕЧЕК' (pink band, light pellets). hafo's DARK-wood row KF5200311 shows the 'ДРЕВЕСНЫЙ' pack, and this zoovet page's photo is the same 'ДРЕВЕСНЫЙ' pack. Caveat: zoovet's text says 'светлой древесной основы' (light wood), contradicting its own photo; identity taken from the packshot. 2 kg / 6 l match. In stock (4)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մուգ-փայտե-հիմքով-լցանյութ-котоffей-կատուների-համար-6-լ-copy",
+    "price": 1700,
+    "old_price": null,
+    "name": "Մուգ փայտե հիմքով լցանյութ «Котоffей» կատուների համար (2 կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Котоffей; 'մուգ փայտե հիմքից' (dark wood); page text '2 կգ - 6 լ'. Mirrors hafo title 'Մուգ փայտե հիմքով լցանյութ «Котоffей»... (6 լ)'."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet's text says 'светлой древесной основы' (light wood), but its photo is the orange-band 'ДРЕВЕСНЫЙ' pack with brown pellets. I checked hafo's own packshots: the DARK-wood row KF5200311 shows the orange 'ДРЕВЕСНЫЙ' pack, and the light-wood row shows the pink 'ДЛЯ КОШЕЧЕК' pack. So the zoovet page is the dark-wood item; 2 kg / 6 l, 1700. nemo: 'Մուգ փայտե', '2 կգ - 6 լ', 1700. Medium confidence only because of zoovet's contradictory text."
+  },
+  {
+   "variant_id": 2032,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/napolniteli/kotoffej-napolnitel-dlya-priveredlivyh-koshek-dlya-koshachego-tualeta-2-kg-6-l",
+    "price": 1700,
+    "old_price": null,
+    "name": "Котоffей Наполнитель для привередливых кошек для кошачьего туалета, 2 кг (6 л)",
+    "in_stock": true,
+    "evidence": "The page photo is Kotoffey 'ДЛЯ КОШЕЧЕК' (pink band, light pellets), the same pack hafo shows for its LIGHT-wood row KF5200411; wood-based, 2 kg / 6 l. zoovet's text doesn't give the wood colour (the other zoovet listing's text says 'светлой', but its photo is the dark 'ДРЕВЕСНЫЙ' pack). In stock (2)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/լցանյութ-котоffей-կատուների-համար",
+    "price": 1700,
+    "old_price": null,
+    "name": "Բաց փայտե հիմքով լցանյութ «Котоffей» կատուների համար (2 կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Котоffей; 'բաց փայտե հիմքից' (light wood); 6 mm granules; '2 կգ - 6 լ'. Mirrors hafo title 'Բաց փայտե հիմքով լցանյութ «Котоffей»... (6 լ)'."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet's 'для привередливых кошек' page photo is the pink 'ДЛЯ КОШЕЧЕК' pack with pale pellets, the same pack hafo shows for light-wood KF5200411; 2 kg / 6 l, 1700. nemo: 'Բաց փայտե', 6 mm granules, '2 կգ - 6 լ', 1700."
+  },
+  {
+   "variant_id": 1620,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches 'мнямс|mnyams', 'кацуо|katsuo', 'магуро|maguro', 'крем-лакомство мнямс', '4 шт 15 г|4x15'. zoovet only sells Mnyams cream treats as single 1 x 15 g sticks (duck & katsuo tuna 280, chicken 280), not the 4 x 15 g pack."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մնյամս-կատուների-համար-պյուրե-թունայով-կացուո-15գ-x-4",
+    "price": 1100,
+    "old_price": null,
+    "name": "Մնյամս կատուների համար պյուրե թունայով կացուո 15գ x 4",
+    "in_stock": true,
+    "evidence": "Manufacturer Мнямс; katsuo tuna purée; 15 g x 4. All axes match hafo 703803."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: Мнямс katsuo tuna purée '15գ x 4', 1100, in stock. zoovet only sells single 1 x 15 g sticks (280): a count mismatch."
+  },
+  {
+   "variant_id": 1621,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches 'мнямс|mnyams', 'кацуо|katsuo', 'магуро|maguro', 'крем-лакомство мнямс', '4 шт 15 г|4x15'. zoovet only sells Mnyams cream treats as single 1 x 15 g sticks (duck & katsuo tuna 280, chicken 280), not the 4 x 15 g pack. No katsuo & maguro variant at all."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մնյամս-կատուների-համար-պյուրե-թյունոսով-կացուո-և-մագուրո-ձկներով-15գ",
+    "price": 1100,
+    "old_price": null,
+    "name": "Մնյամս կատուների համար պյուրե թյունոսով, կացուո և մագուրո ձկներով 15գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Мнямс; tuna with katsuo and maguro purée. The name is word-for-word hafo's row 703813 without the 'x4'. The page doesn't print the count, but it is priced at 1100 like the other 4 x 15 g packs (a single 15 g stick sells for about 280), so it is the 4-pack."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo page name = hafo's title for 703813 (hafo's row adds 'x4'), 1100. nemo sells no single Mnyams purée sticks; all of its Mnyams purées are 4-packs at 1100. zoovet has singles only."
+  },
+  {
+   "variant_id": 1622,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches 'мнямс|mnyams', 'кацуо|katsuo', 'магуро|maguro', 'крем-лакомство мнямс', '4 шт 15 г|4x15'. zoovet only sells Mnyams cream treats as single 1 x 15 g sticks (duck & katsuo tuna 280, chicken 280), not the 4 x 15 g pack."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մնյամս-կատուների-համար-պյուրե-թունայով-և-ծովախեցգետնով-15գ-x4",
+    "price": 1100,
+    "old_price": null,
+    "name": "Մնյամս կատուների համար պյուրե՝ թունայով և ծովախեցգետնով 15գ x4",
+    "in_stock": true,
+    "evidence": "Manufacturer Мнямс; tuna (katsuo) & shrimp purée; 15 g x 4. Matches hafo 540693."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: tuna & shrimp '15գ x4', 1100. zoovet has singles only."
+  },
+  {
+   "variant_id": 1623,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches 'мнямс|mnyams', 'кацуо|katsuo', 'магуро|maguro', 'крем-лакомство мнямс', '4 шт 15 г|4x15'. zoovet only sells Mnyams cream treats as single 1 x 15 g sticks (duck & katsuo tuna 280, chicken 280), not the 4 x 15 g pack. Nearest: 'Мнямс Крем-лакомство с курицей для кошек, 1 шт, 15 г' (280), a single stick, not the 4-pack."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մնյամս-կատուների-համար-պյուրե-հավի-մսով-15-գ-x-4",
+    "price": 1100,
+    "old_price": null,
+    "name": "Մնյամս կատուների համար պյուրե հավի մսով 15 գ x 4",
+    "in_stock": true,
+    "evidence": "Manufacturer Мнямс; chicken purée; 15 g x 4. Matches hafo 703833."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: chicken '15 գ x 4', 1100. zoovet: chicken single stick (280) only."
+  },
+  {
+   "variant_id": 1624,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches 'мнямс|mnyams', 'кацуо|katsuo', 'магуро|maguro', 'крем-лакомство мнямс', '4 шт 15 г|4x15'. zoovet only sells Mnyams cream treats as single 1 x 15 g sticks (duck & katsuo tuna 280, chicken 280), not the 4 x 15 g pack. Nearest: 'Мнямс Крем-лакомство с уткой и тунцом кацуо для кошек, 1 шт, 15 г' (280), a single stick, not the 4-pack."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մնյամս-կատուների-համար-պյուրե-կացուո-բադթունա-15գ-x4",
+    "price": 1100,
+    "old_price": null,
+    "name": "Մնյամս կատուների համար պյուրե՝ կացուո բադ/թունա 15գ x4",
+    "in_stock": true,
+    "evidence": "Manufacturer Мнямс; duck & katsuo tuna purée; 15 g x 4. Matches hafo 540713."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "nemo page: katsuo duck/tuna '15գ x4', 1100. zoovet: duck & katsuo single stick (280) only."
+  },
+  {
+   "variant_id": 1575,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-kuritsej-i-risom-dlya-sobak-melkih-porod-upakovka-15-kg-5446",
+    "price": 41500,
+    "old_price": null,
+    "name": "Monge Mini Adult Сухой корм с курицей и рисом для собак мелких пород, упаковка 15 кг",
+    "in_stock": false,
+    "evidence": "Monge Mini Adult, chicken & rice, small breeds, adult; option 'Упак (15 кг)' = 41500. Page shows 'Нет в наличии'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-adult-մեծերի-համար",
+    "price": 41500,
+    "old_price": null,
+    "name": "Կեր շների համար- Monge Mini Adult",
+    "in_stock": true,
+    "evidence": "Manufacturer Monge; page text 'Քաշը՝ 15կգ', small-breed adult, chicken (հավի թարմ միս) & rice. Matches hafo MG006117."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet option 'Упак (15 кг)' = 41500, out of stock. nemo: 'Քաշը՝ 15կգ', small-breed adult, chicken & rice, 41500."
+  },
+  {
+   "variant_id": 1576,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-monoprotein-mini-adult-suhoj-korm-s-yagnenkom-risom-kartofelem-dlya-sobak-melkih-porod-upakovka-15-kg-5509",
+    "price": 49000,
+    "old_price": null,
+    "name": "Monge Monoprotein MINI Adult Сухой корм с ягненком, рисом, картофелем для собак мелких пород, упаковка 15 кг",
+    "in_stock": true,
+    "evidence": "Our EAN 8009470006064 is Monge Mini Adult with lamb, rice & potatoes, 15 kg (shops index it that way). zoovet's Monoprotein Mini Adult lamb/rice/potato 15 kg is the same food. Option 'Упак (15 кг)' = 49000, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-adult-agnello-գառան-մսով-չոր-կեր",
+    "price": 49000,
+    "old_price": null,
+    "name": "Monge Mini Adult գառան մսով չոր կեր (15 կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Monge; Mini Adult; lamb, rice and potatoes; 'Քաշը՝ 15կգ'. Matches hafo MG006067 'MINI ADULT AGNELLO 15կգ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet's only Mini Adult lamb listing is 'Monoprotein MINI Adult' lamb/rice/potato 15 kg, option 'Упак (15 кг)' 49000, in stock. nemo's Mini Adult lamb 15 kg (= hafo title for MG006067) describes the same lamb, rice and potato recipe; 49000."
+  },
+  {
+   "variant_id": 1577,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-melkih-porod-upakovka-15-kg-5586",
+    "price": 49000,
+    "old_price": null,
+    "name": "Monge Mini Adult Сухой корм с лососем и рисом для взрослых собак мелких пород, упаковка 15 кг",
+    "in_stock": true,
+    "evidence": "Monge Mini Adult salmon & rice 15 kg; option 'Упак (15 кг)' = 49000; in stock (1)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-adult-սաղմոն-և-բրինձ",
+    "price": 49000,
+    "old_price": null,
+    "name": "Monge Mini Adult Սաղմոն և բրինձ (15 կգ)",
+    "in_stock": true,
+    "evidence": "Manufacturer Monge; Mini Adult small breed; salmon & rice; 15 kg."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet option 'Упак (15 кг)' 49000, in stock. nemo: Mini Adult salmon & rice, 'Քաշը՝ 15կգ', 49000."
+  },
+  {
+   "variant_id": 1656,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-kuritsej-i-risom-dlya-sobak-melkih-porod-upakovka-15-kg",
+    "price": 3000,
+    "old_price": null,
+    "name": "Monge Mini Adult Сухой корм с курицей и рисом для собак мелких пород, упаковка 15 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 3000 of the Mini Adult chicken & rice 15 kg bag; in stock (8)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-adult-մեծերի-համար-2",
+    "price": 2900,
+    "old_price": null,
+    "name": "Կեր շների համար- Monge Mini Adult (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose (կիլոգրամով) listing of Monge Mini Adult; text: small-breed adult, chicken & rice, same food as the 15 kg bag."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: option 'На развес, 1 кг' = 3000. nemo: 'Monge Mini Adult (կիլոգրամով)', chicken & rice text, 2900."
+  },
+  {
+   "variant_id": 1657,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-monoprotein-mini-adult-suhoj-korm-s-yagnenkom-risom-kartofelem-dlya-sobak-melkih-porod-upakovka-15-kg",
+    "price": 3500,
+    "old_price": null,
+    "name": "Monge Monoprotein MINI Adult Сухой корм с ягненком, рисом, картофелем для собак мелких пород, упаковка 15 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 3500 of the Mini Adult lamb/rice/potato 15 kg bag (the EAN 8009470006064 food); in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-adult-գառան-մսով-չոր-կեր-կիլոգրամով",
+    "price": 3400,
+    "old_price": null,
+    "name": "Monge Mini Adult գառան մսով չոր կեր (կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose listing of Monge Mini Adult lamb, rice & potatoes, the same food as the 15 kg bag."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: option 'На развес, 1 кг' = 3500 on the Monoprotein Mini Adult lamb listing. nemo: Mini Adult lamb (կիլոգրամով), 3400."
+  },
+  {
+   "variant_id": 1658,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-mini-adult-suhoj-korm-s-lososem-i-risom-dlya-vzroslyh-sobak-melkih-porod-upakovka-15-kg",
+    "price": 3500,
+    "old_price": null,
+    "name": "Monge Mini Adult Сухой корм с лососем и рисом для взрослых собак мелких пород, упаковка 15 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 3500 of Mini Adult salmon & rice 15 kg; in stock (20)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-mini-adult-salmon-չափսերով-փոքր-ցեղատեսակի-չափահաս-շների-համար",
+    "price": 3400,
+    "old_price": null,
+    "name": "Monge Mini Adult Սաղմոն և բրինձ(կիլոգրամով)",
+    "in_stock": true,
+    "evidence": "Loose listing of Monge Mini Adult salmon & rice."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: option 'На развес, 1 кг' = 3500. nemo: Mini Adult salmon & rice (կիլոգրամով), 3400."
+  },
+  {
+   "variant_id": 1573,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-suhoj-korm-s-lososem-i-risom-dlya-schenkov-upakovka-12-kg-5456",
+    "price": 44000,
+    "old_price": null,
+    "name": "Monge Сухой корм с лососем и рисом для щенков, упаковка 12 кг",
+    "in_stock": true,
+    "evidence": "Monge puppy salmon & rice, 12 kg; option 'Упак (12 кг)' = 44000; in stock (1). The title doesn't name the line, and the description is Monge's Monoprotein all-breeds salmon & rice text. Mini Puppy salmon is listed separately as a 15 kg bag, so this 12 kg bag is All Breeds Puppy & Junior. Medium confidence because 'All Breeds' isn't printed."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կեր-շների-ձագերի-համար-all-breed-puppy-սաղմոնբրինձ",
+    "price": 44000,
+    "old_price": null,
+    "name": "Կեր շների ձագերի համար` All breed PUPPY, սաղմոն/բրինձ",
+    "in_stock": true,
+    "evidence": "Manufacturer Monge; All Breeds puppy, single protein salmon & rice. The page prints no weight, but 44000 equals the 12 kg bag price (nemo lists the 800 g bag separately at 4650)."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet lists 'Monge All Breeds ADULT salmon & rice 12 kg' separately from this 'salmon & rice for puppies 12 kg' listing (characteristic: age 'Молодое'). Mini Puppy salmon is a separate 15 kg listing. So this one is the All Breeds Puppy & Junior salmon. Option 'Упак (12 кг)' = 44000. nemo: name = hafo title for 011217, 44000 (the 800 g bag is listed separately at 4650)."
+  },
+  {
+   "variant_id": 1574,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches 'monge puppy|junior', 'monge щенков 15 кг', 'monge говядин|телят', 'monge 12 кг': no All Breeds Puppy & Junior beef/veal & rice. Nearest: Monge Puppy and Junior lamb & rice 12 kg (44000) and All Breeds Puppy trout 12 kg (44000), both a different flavour."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/monge-all-breed-puppyjunior-հորթի-համով-15-կգ",
+    "price": 42000,
+    "old_price": null,
+    "name": "Monge All Breed Puppy/Junior, հորթի համով, 15 կգ",
+    "in_stock": true,
+    "evidence": "Manufacturer Monge; All Breeds Puppy/Junior; veal (հորթ, the same word hafo uses for row 006487 'հորթ/բրինձ 15 կգ'); 15 kg."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet's Monge puppy listings are trout, lamb, duck, Bwild, and Mini/Medium/Maxi chicken; there is no veal/beef All Breeds puppy. nemo: name = hafo's title for 006487, '15 կգ', 42000."
+  },
+  {
+   "variant_id": 1654,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/suhie-korma-2/monge-suhoj-korm-s-lososem-i-risom-dlya-schenkov-upakovka-12-kg",
+    "price": 3900,
+    "old_price": null,
+    "name": "Monge Сухой корм с лососем и рисом для щенков, упаковка 12 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Option 'На развес, 1 кг' = 3900 of the puppy salmon & rice 12 kg bag (see variant 1573 for the All Breeds caveat); in stock (13)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches 'all breed', 'puppy կիլոգրամով', 'սաղմոն կիլոգրամով|սալմոն կիլոգրամով': no loose listing of All Breed Puppy salmon. Nearest: All breed Puppy trout (իշխան) կիլոգրամով 3800 and Mini Puppy Junior salmon կիլոգրամով 3550, a different flavour or line."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet: option 'На развес, 1 кг' = 3900 of the puppy salmon 12 kg listing (see 1573). nemo's loose list has All Breed Puppy trout (3800), duck (3800), lamb (3800) and veal (2950), plus Mini Puppy salmon (3550), but no All Breed Puppy salmon loose."
+  },
+  {
+   "variant_id": 787,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet searches 'monge свинин', 'monge 150 г', 'monoprotein влажный', 'monge solo|соло', 'monge паштет', EAN 8009470014410. Nearest: Monge Monoprotein wet pork 400 g (2000), wrong size; Monoprotein rabbit 150 g (1000), wrong flavour."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo searches 'monge խոզ', 'monge 150', 'solo'. Nearest: 'Monge Solo պաշտետ շների համար՝ խոզի համով, 150 գ (grain free)12 հատ' at 12000. That is a box of 12 x 150 g (about 1000 per tray), not a single 150 g tray, so the count doesn't match."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet has no Monge pork 150 g tray: only Monoprotein pork 400 g and rabbit 150 g. nemo's Monge Solo pork 150 g is sold as '12 հատ' at 12000 (box of 12), a count mismatch with our single tray."
+  },
+  {
+   "variant_id": 805,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lechebnye-korma-1/monge-vetsolution-diabeticobesity-vlagnyj-korm-dlya-sobak-s-diabetom-i-ili-izbytochnym-vesom-400-g",
+    "price": 1650,
+    "old_price": null,
+    "name": "Monge VetSolution Diabetic&Obesity Влажный корм для собак с диабетом и/или избыточным весом, 400 г",
+    "in_stock": true,
+    "evidence": "Monge VetSolution Diabetic & Obesity, dog, wet, 400 g; in stock (12). The page doesn't name the protein, but this wet diet is sold in one recipe only."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պահածո-շների-համար-monge-vet-diabetic-and-obesity-թունա-400գ-2",
+    "price": 1650,
+    "old_price": null,
+    "name": "Պահածո շների համար՝ Monge Vet Diabetic and Obesity, թունա, 400գ",
+    "in_stock": true,
+    "evidence": "Manufacturer Monge; Vet Diabetic and Obesity dog can, tuna, 400 g. Mirrors hafo row 082017 'Monge Vet Diabetic and Obesity Տոննո, 400 գ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet page: Diabetic&Obesity wet dog 400 g, text 'Содержит мясо тунца', taste 'Тунец', 1650. nemo: tuna 400 g, 1650."
+  }
+ ]
+}

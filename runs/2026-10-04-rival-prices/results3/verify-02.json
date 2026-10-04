@@ -1,0 +1,537 @@
+{
+ "results": [
+  {
+   "variant_id": 1998,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/club4paws-suhoj-korm-s-kuricej-dlya-koshek-upakovka-14-kg",
+    "price": 28000,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с курицей для кошек, упаковка 14 кг",
+    "in_stock": false,
+    "evidence": "Club4Paws cat dry, zoovet page image = Club 4 Paws Premium Adult Cats 14 kg bag (same packshot as ours); chicken, option 'Упак (14 кг)' = 28000, page says Нет в наличии. Not Hairball/Sterilised/Salmon (separate listings)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հավի-մսով-չոր-կեր-մեծ-կատուների-համար-14-կգ",
+    "price": 28000,
+    "old_price": null,
+    "name": "Հավի մսով չոր կեր մեծ կատուների համար (14 կգ)",
+    "in_stock": true,
+    "evidence": "nemo page manufacturer Club4 Paws, 'Պրեմիում ... 12+ ամսականից ... Քաշ՝ 14 կգ'; packshot shows Club 4 Paws Premium Adult Cats 14 kg 'Chicken'. Note nemo also has Hairball/Sterilised and 11+3 kg promo bags (veal/rabbit only) - not this item."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both pages: zoovet 'Упак (14 кг)'=28000 (Нет в наличии), nemo 28000 in stock, manufacturer Club4 Paws, packshot = Club 4 Paws Premium Adult Cats Chicken 14 kg. Agree."
+  },
+  {
+   "variant_id": 1999,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/club4paws-suhoj-korm-s-kuritsej-dlya-koshek-upakovka-14-kg-na-razves-1-kg",
+    "price": 2100,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с курицей для кошек, упаковка 14 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Club4Paws cat dry, zoovet page image = Club 4 Paws Premium Adult Cats 14 kg bag (same packshot as ours); chicken, option 'На развес, 1 кг' = 2100, in stock 10 шт."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "No per-kg (կիլոգրամով / 1 կգ) listing of Club 4 Paws cat dry on nemo; only 14 kg bags (28000) and 11+3 kg promo bags. Searched 'կիլոգրամով', '4 ԹԱԹ', 'club', 'կատուների 14 կգ'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet '...на развес 1 кг' option 'На развес, 1 кг'=2100, in stock 10. nemo: re-searched 'club|4 ԹԱԹ', 'կիլոգրամով', 'կատու 1 կգ' - nemo's Club4Paws per-kg listings are all dog lines; cat only 14 kg and 11+3 kg promo bags. Agree."
+  },
+  {
+   "variant_id": 2000,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/club4paws-suhoj-korm-s-telyatinoj-dlya-koshek-upakovka-14-kg-5452",
+    "price": 28000,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с телятиной для кошек, упаковка 14 кг",
+    "in_stock": true,
+    "evidence": "Club4Paws cat dry, zoovet page image = Club 4 Paws Premium Adult Cats 14 kg bag (same packshot as ours); veal (телятина) 'With Veal' bag, option 'Упак (14 кг)' = 28000, in stock 2 шт."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/տավարի-մսով-չոր-կեր-մեծ-կատուների-համար-14-կգ",
+    "price": 28000,
+    "old_price": null,
+    "name": "Տավարի մսով չոր կեր մեծ կատուների համար (14 կգ)",
+    "in_stock": true,
+    "evidence": "nemo page manufacturer Club4 Paws, 'Պրեմիում ... 12+ ամսականից ... Քաշ՝ 14 կգ'; packshot shows Club 4 Paws Premium Adult Cats 14 kg 'WITH VEAL' (nemo text says տավար/beef but packshot is the With Veal bag; Club 4 Paws has no beef adult cat dry). Nearest other: '4 ԹԱԹ ... հորթի' 23300 is an 11+3 kg promo bag - different pack."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet veal page 'Упак (14 кг)'=28000, stock 2. nemo page says տավար but its packshot is the Club 4 Paws Premium Adult Cats 'WITH VEAL' 14 kg bag; 28000 in stock. nemo '...հորթի' 23300 is 'Քաշը՝ 11+3 կգ' promo pack - not ours. Agree."
+  },
+  {
+   "variant_id": 2001,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/club4paws-suhoj-korm-s-telyatinoj-dlya-koshek-upakovka-14-kg",
+    "price": 2100,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с телятиной для кошек, упаковка 14 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Club4Paws cat dry, zoovet page image = Club 4 Paws Premium Adult Cats 14 kg bag (same packshot as ours); veal, option 'На развес, 1 кг' = 2100, in stock > 20 шт."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "No per-kg listing of Club 4 Paws cat dry on nemo (only 14 kg 28000 and 11+3 kg promo 23300). Searched 'կիլոգրամով', '4 ԹԱԹ', 'club'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet veal 'На развес, 1 кг'=2100, > 20 шт. nemo: no Club4Paws cat per-kg listing (same searches as 1999). Agree."
+  },
+  {
+   "variant_id": 2002,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/index.php?route=product/product&path=60_63_64&product_id=5665",
+    "price": 28000,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с кроликом для кошек, упаковка 14 кг",
+    "in_stock": false,
+    "evidence": "Club4Paws cat dry, zoovet page image = Club 4 Paws Premium Adult Cats 14 kg bag (same packshot as ours); rabbit 'With Rabbit', option 'Упак (14 кг)' = 28000, Нет в наличии."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չոր-կեր-կատուների-համար-ճագարի-14կգ",
+    "price": 28000,
+    "old_price": null,
+    "name": "Չոր կեր կատուների համար ճագարի 14կգ",
+    "in_stock": true,
+    "evidence": "nemo page manufacturer Club4 Paws, 'Պրեմիում ... 12+ ամսականից ... Քաշ՝ 14 կգ'; packshot shows Club 4 Paws Premium Adult Cats 14 kg 'With Rabbit'. Nearest other: '4 ԹԱԹ ... ճագարի' 23300 is an 11+3 kg promo bag - different pack."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet rabbit 'Упак (14 кг)'=28000, Нет в наличии. nemo packshot 'WITH RABBIT' 14 kg, 28000 in stock; nemo '...ճագարի' 23300 is the 11+3 kg promo pack. Agree."
+  },
+  {
+   "variant_id": 2003,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/suhie-korma/club4paws-suhoj-korm-s-krolikom-dlya-koshek-upakovka-14-kg-na-razves-1-kg",
+    "price": 2100,
+    "old_price": null,
+    "name": "Club4Paws Сухой корм с кроликом для кошек, упаковка 14 кг, на развес 1 кг",
+    "in_stock": true,
+    "evidence": "Club4Paws cat dry, zoovet page image = Club 4 Paws Premium Adult Cats 14 kg bag (same packshot as ours); rabbit, option 'На развес, 1 кг' = 2100, in stock 12 шт."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "No per-kg listing of Club 4 Paws cat dry on nemo. Searched 'կիլոգրամով', '4 ԹԱԹ', 'club'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet rabbit 'На развес, 1 кг'=2100, 12 шт. nemo: no Club4Paws cat per-kg listing. Agree."
+  },
+  {
+   "variant_id": 874,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Comfy items: searched 'comfy|комфи', 'клубник', 'регби', 'молот', 'snacky', 'strong dog', 'мятн', EAN/article. Nearest: Triol AROMA мяч для регби 80 мм (different brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo live 'Comfy' lists only strawberry, green apple, ring, snake toys + shampoos; 'ռեգբի' gives Denta Fun / Triol / Trixie rugby balls only; 'մենթոլ' nothing. Not found."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: 'comfy|комфи', 'регби|rugby', 'мят|mint|dental', EAN prefix 5905546, article codes - no Comfy at all (only Triol rugby balls). nemo: live 'comfy' = strawberry, green apple, ring (menthol dental ring 13 cm, pink/blue - different model), snake, shampoos; 'ռեգբի' = Denta Fun/Triol/Trixie/Soft&Strong only. Agree not found."
+  },
+  {
+   "variant_id": 875,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Comfy items: searched 'comfy|комфи', 'клубник', 'регби', 'молот', 'snacky', 'strong dog', 'мятн', EAN/article. Nearest: Triol latex 'Клубника' 105 мм (different brand)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/comfy-խաղալիք-ելակ",
+    "price": 2850,
+    "old_price": null,
+    "name": "Comfy, խաղալիք ելակ",
+    "in_stock": true,
+    "evidence": "nemo live 'Comfy'; page: 'Խաղալիք ելակ', treat-hiding, colour կարմիր (red), size 7.5 սմ; packshot is the Comfy Snacky strawberry with Comfy logo (nemo's manufacturer field wrongly says Trixie). Comfy Snacky Strawberry is made in one 7.5x6.5 cm size."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "nemo page re-opened: 'Comfy, խաղալիք ելակ' 2850 in stock, treat-hiding, red, 7.5 սմ; packshot is the Comfy strawberry with Comfy logo (manufacturer field says Trixie, wrong). zoovet: no Comfy; only Triol latex 'Клубника' 105 mm. Agree."
+  },
+  {
+   "variant_id": 876,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Comfy items: searched 'comfy|комфи', 'клубник', 'регби', 'молот', 'snacky', 'strong dog', 'мятн', EAN/article. "
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo live 'Comfy' has no Snacky ball; searched 'ելուստ', 'գնդակ կանաչ', '8.5 սմ'. Nearest Comfy: 'Comfy, խաղալիք կանաչ խնձոր' 3600 (green apple 7.5 cm - different model)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: no Comfy. nemo: Comfy list has no ball; 'գնդակ' list has no Comfy/8.5 cm treat ball. Nearest Comfy green apple 7.5 cm 3600 (different model). Agree not found."
+  },
+  {
+   "variant_id": 878,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet has no Comfy items: searched 'comfy|комфи', 'клубник', 'регби', 'молот', 'snacky', 'strong dog', 'мятн', EAN/article. "
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no Comfy Strong Dog hammer. Nearest: 'Strong Dog, խաղալիք պարսատիկ' 4000 (slingshot, 30 cm - different model); 'Խաղալիք՝ շների համար, ՄՈՒՐՃ' 1500 is a 16 cm vinyl hammer, no brand - not it."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: no Comfy/hammer ('молот|hammer|strong dog', '13,5|135 мм' -> Triol only). nemo: 'մուրճ' = unbranded 16 cm vinyl hammer 1500; 'Strong Dog, խաղալիք պարսատիկ' is a 30 cm slingshot. Agree not found."
+  },
+  {
+   "variant_id": 2075,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-utinye-kostochki-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство утиные косточки для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount. Duck bones (not the calcium-bone duck item)."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բադի-մսով-ոսկորներ-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Բադի մսով ոսկորներ փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' / 'փոքր ցեղատեսակի' search; page manufacturer Деревенские лакомства, short desc 'Քաշը՝ 55գ'; packshot image shows 'КОСТОЧКИ УТИНЫЕ для мини-пород'; duck meat + rawhide."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet page 'утиные косточки для собак мелких пород, 55 г' 1550 in stock. nemo page 1550, manufacturer Деревенские лакомства, 55 g; packshot 'КОСТОЧКИ УТИНЫЕ для мини-пород'. Agree."
+  },
+  {
+   "variant_id": 2064,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no goose item in the Деревенские лакомства list (searched 'гус', 'гусин', 'goose', EAN 6921959208986). Nearest mini-breed 55 g items are duck/chicken/lamb/beef/rabbit."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched 'սագ', 'փոքր շների', 'փոքր ցեղատեսակի', 'goose'; no Деревенские лакомства goose treat. Nearest: 'Բադի կրծքամսով ձողիկներ' (duck breasts)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Деревенские лакомства list (54 items) has no goose; 'гус' only Monge Bwild/Trixie. nemo 'սագ' only Bwild foods/toys/Molina; all nemo 'փոքր շների' Деревенские items checked (incl. -2 = turkey 85 g, կռճիկներ = chicken 30 g). Agree not found."
+  },
+  {
+   "variant_id": 2065,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-dolki-utinye-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство дольки утиные для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բադի-մսով-հյուրասիրություն-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Բադի մսով հյուրասիրություն փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' / 'փոքր ցեղատեսակի' search; page manufacturer Деревенские лакомства, short desc 'Քաշը՝ 55գ'; packshot image shows 'ДОЛЬКИ УТИНЫЕ для мини-пород'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'дольки утиные ... 55 г' 1550 in stock. nemo page 1550, 55 g; packshot 'ДОЛЬКИ УТИНЫЕ' mini breeds. Agree."
+  },
+  {
+   "variant_id": 2066,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no mini-breed chicken sticks; nearest 'Деревенские лакомства куриные палочки крученые для собак, 90 г' (different line/pack). Searched 'деревенские палочки', 'деревенские куриные', '55 г'."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հավի-մսով-ձողիկներ-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Հավի մսով ձողիկներ փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' / 'փոքր ցեղատեսակի' search; page manufacturer Деревенские лакомства, short desc 'Քաշը՝ 55գ'; packshot image shows 'ПАЛОЧКИ КУРИНЫЕ для мини-пород'; chicken + rawhide."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet list: only 'куриные палочки крученые 90 г' - different line/pack; no mini 55 g sticks. nemo page 1550, 55 g, packshot 'ПАЛОЧКИ КУРИНЫЕ для мини-пород'. Agree."
+  },
+  {
+   "variant_id": 2067,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-grudki-kurinye-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство грудки куриные для собак мелких пород, 55 г",
+    "in_stock": false,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount. Page says Нет в наличии."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հավի-կրծքամսով-ձողիկներ-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Հավի կրծքամսով ձողիկներ փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' search; page 'Քաշը՝ 55գ, Փոքր ցեղատեսակի շների համար, Հավի կրծքամիս'; packshot shows Деревенские лакомства 'ГРУДКИ КУРИНЫЕ для мини-пород' although nemo's manufacturer field says Мнямс."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet 'грудки куриные ... мелких пород, 55 г' 1550, Нет в наличии. nemo page 1550, 55 g; packshot 'ГРУДКИ КУРИНЫЕ' Деревенские лакомства mini (manufacturer field says Мнямс, wrong). Agree."
+  },
+  {
+   "variant_id": 2076,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-grudki-utinye-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство грудки утиные для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բադի-կրծքամսով-ձողիկներ-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Բադի կրծքամսով ձողիկներ փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' / 'փոքր ցեղատեսակի' search; page manufacturer Деревенские лакомства, short desc 'Քաշը՝ 55գ'; packshot image shows 'ГРУДКИ УТИНЫЕ для мини-пород'. (Мнямс 'բադի կրծքամիս' 1600 is a different brand.)"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'грудки утиные ... 55 г' 1550 in stock. nemo 1550, packshot 'ГРУДКИ УТИНЫЕ' mini. Agree."
+  },
+  {
+   "variant_id": 2068,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-medalony-iz-yagnenka-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство медальоны из ягненка для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/գառան-մսով-օղակներ-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Գառան մսով օղակներ փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' / 'փոքր ցեղատեսակի' search; page manufacturer Деревенские лакомства, short desc 'Քաշը՝ 55գ'; packshot image shows 'МЕДАЛЬОНЫ ИЗ ЯГНЕНКА для мини-пород'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'медальоны из ягненка ... 55 г' 1550. nemo 1550, packshot 'МЕДАЛЬОНЫ ИЗ ЯГНЕНКА' mini. Agree."
+  },
+  {
+   "variant_id": 2069,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-narezka-govyagya-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство нарезка говяжья для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/տավարի-մսով-ձողիկներ-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Տավարի մսով ձողիկներ փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' / 'փոքր ցեղատեսակի' search; page manufacturer Деревенские лакомства, short desc 'Քաշը՝ 55գ'; packshot image shows 'НАРЕЗКА ГОВЯДИНЫ для мини-пород'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'нарезка говяжья ... 55 г' 1550. nemo 1550, packshot 'НАРЕЗКА ГОВЯДИНЫ' mini. Agree."
+  },
+  {
+   "variant_id": 2070,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-lomtiki-krolchatiny-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство Ломтики крольчатины для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/ճագարի-մսով-կտորներ-փոքր-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Ճագարի մսով կտորներ փոքր շների համար",
+    "in_stock": true,
+    "evidence": "nemo 'փոքր շների' / 'փոքր ցեղատեսակի' search; page manufacturer Деревенские лакомства, short desc 'Քաշը՝ 55գ'; packshot image shows 'ЛОМТИКИ КРОЛЬЧАТИНЫ для мини-пород'."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'Ломтики крольчатины ... 55 г' 1550. nemo 1550, packshot 'ЛОМТИКИ КРОЛЬЧАТИНЫ' mini. Agree."
+  },
+  {
+   "variant_id": 2071,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-ushi-krolichi-s-myasom-yagnenka-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство уши кроличьи с мясом ягненка для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount. (Not the plain 15 g rabbit ears.)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/համեղ-պատառ-փոքր-ցեղատեսակի-շների-համար",
+    "price": 1550,
+    "old_price": null,
+    "name": "Համեղ պատառ փոքր ցեղատեսակի շների համար",
+    "in_stock": true,
+    "evidence": "nemo page manufacturer Деревенские лакомства, 'Քաշը՝ 55գ ... ճագարի ականջների և նուրբ գառի մսի' (rabbit ears + lamb), mini breeds. Not 'Ճագարի ականջներ փոքր շների համար' (15 g plain ears, 1000)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'уши кроличьи с мясом ягненка ... 55 г' 1550. nemo page 1550, 55 g, rabbit ears + lamb, Деревенские лакомства (not the 15 g plain ears 1000). Agree."
+  },
+  {
+   "variant_id": 2072,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kaltsievaya-kostochka-s-kuritsej-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство кальциевая косточка с курицей для собак мелких пород, 55 г",
+    "in_stock": false,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount. Page says Нет в наличии."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/համեղ-պատառ-փոքր-ցեղատեսակի-շների-համար-4",
+    "price": 1550,
+    "old_price": null,
+    "name": "Համեղ պատառ փոքր ցեղատեսակի շների համար",
+    "in_stock": true,
+    "evidence": "nemo page manufacturer Деревенские лакомства, 'Քաշը՝ 55գ ... Հավի ֆիլե: Կալցի ոսկորներ' (chicken calcium bones), mini breeds. The -3 sibling is the duck version."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'кальциевая косточка с курицей ... 55 г' 1550, Нет в наличии. nemo '-4' page 1550, 55 g, chicken fillet + calcium bones. Agree."
+  },
+  {
+   "variant_id": 2077,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/derevenskie-lakomstva-lakomstvo-kaltsievaya-kostochka-s-utkoj-dlya-sobak-melkih-porod-55-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Деревенские лакомства Лакомство кальциевая косточка с уткой для собак мелких пород, 55 г",
+    "in_stock": true,
+    "evidence": "zoovet brand list 'Деревенские лакомства' (searched 'деревенск', '55 г', 'мелких пород', EAN); page confirmed 55 g, mini breeds, no discount."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/համեղ-պատառ-փոքր-ցեղատեսակի-շների-համար-3",
+    "price": 1550,
+    "old_price": null,
+    "name": "Համեղ պատառ փոքր ցեղատեսակի շների համար",
+    "in_stock": true,
+    "evidence": "nemo page manufacturer Деревенские лакомства, 'Քաշը՝ 55գ ... կալցի ոսկորներ և բադի ֆիլեի' (duck calcium bones), mini breeds."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet 'кальциевая косточка с уткой ... 55 г' 1550 in stock. nemo '-3' page 1550, 55 g, duck fillet + calcium bones. Agree."
+  },
+  {
+   "variant_id": 1984,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Gav! dry food (searched 'гав|gav', 'Гав!', 'ассорти', 'телят собак', EAN 4820083901423/4820083900020, article). 'ГАВ ГАМЫЧ' hits are Gamma toys. Nearest: DARSI Adult Мясное ассорти 10 kg (different brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no Gav! dry food (searched 'ԳԱՖ', 'ԳԱՎ', 'Гав', 'gav', 'kormotech', 'ասորտի', 'հորթ/բրինձ'). Nearest: Monge All Breed Adult հորթ/բրինձ 12 kg 39500 (different brand/pack)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: 'гав' = Gamma ГАВ ГАМЫЧ toys only; 'gav', 'kormotech' nothing. nemo: 'Гав/gav', 'ասորտի', 'հորթ բրինձ', 'kormotech' - only DARSI/Monge. Agree not found."
+  },
+  {
+   "variant_id": 1985,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Gav! dry food (searched 'гав|gav', 'Гав!', 'ассорти', 'телят собак', EAN 4820083901423/4820083900020, article). 'ГАВ ГАМЫЧ' hits are Gamma toys. Nearest: DARSI Adult Мясное ассорти 10 kg (different brand). No 'на развес 1 кг' Gav! listing either."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no Gav! dry food (searched 'ԳԱՖ', 'ԳԱՎ', 'Гав', 'gav', 'kormotech', 'ասորտի', 'հորթ/բրինձ'). Nearest: Monge All Breed Adult հորթ/բրինձ (կիլոգրամով) 3400 (different brand)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "No Gav! on either shop, so no per-kg listing. Agree."
+  },
+  {
+   "variant_id": 1986,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Gav! dry food (searched 'гав|gav', 'Гав!', 'ассорти', 'телят собак', EAN 4820083901423/4820083900020, article). 'ГАВ ГАМЫЧ' hits are Gamma toys. Nearest: DARSI Adult Мясное ассорти 10 kg (different brand)."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no Gav! dry food (searched 'ԳԱՖ', 'ԳԱՎ', 'Гав', 'gav', 'kormotech', 'ասորտի', 'հորթ/բրինձ'). Nearest: DARSI Adult մսային ասորտի 10 kg (different brand)."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Same searches; nearest DARSI Adult Мясное ассорти 10 kg (other brand). Agree not found."
+  },
+  {
+   "variant_id": 1987,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: no Gav! dry food (searched 'гав|gav', 'Гав!', 'ассорти', 'телят собак', EAN 4820083901423/4820083900020, article). 'ГАВ ГАМЫЧ' hits are Gamma toys. Nearest: DARSI Adult Мясное ассорти 10 kg (different brand). No loose 1 kg Gav! listing."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: no Gav! dry food (searched 'ԳԱՖ', 'ԳԱՎ', 'Гав', 'gav', 'kormotech', 'ասորտի', 'հորթ/բրինձ'). No per-kg Gav! listing."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "No Gav! on either shop, so no per-kg listing. Agree."
+  },
+  {
+   "variant_id": 1416,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet Гельминтал range has only SPOT-ON drops and tablets (e.g. 'SPOT-ON для собак (от 10 кг)' 2550 - pipettes, different form); no syrup/suspension. Searched 'гельминтал', 'гельминтал сироп/суспензия', 'сироп', EAN 4607092074030."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: only 'Гельминтал Мини' tablets; no Gelmintal syrup. Searched 'Гельминтал', 'Gelmintal', 'Գելմենտալ', 'օշարակ', 'ճիճվամուղ'. Nearest syrups are Supramil."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet Гельминтал: SPOT-ON pipettes and tablets only, no syrup/suspension. nemo 'Гельминтал' = Мини tablets only; 'օշարակ', 'ճիճվամուղ' = Supramil/others. Agree not found."
+  }
+ ]
+}

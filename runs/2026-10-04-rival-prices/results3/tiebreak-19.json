@@ -1,0 +1,27 @@
+{
+ "results": [
+  {
+   "variant_id": 631,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved row 'Trixie Лакомство кольцо с курицей для собак, 110 г' (2250, out of stock) names a single ring ('кольцо') and no count/6 cm; its price equals hafo 31328Tx, the single 110 g chicken Chewing Ring, while our 31332 is 2 rings x 6 cm / 110 g at 2350. Cannot confirm count/size, so not our item. Nearest: that row. zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հավի-մսային-օղակներ",
+    "price": 2350,
+    "old_price": null,
+    "name": "Trixie, հավի մսային օղակներ",
+    "in_stock": true,
+    "evidence": "Opened today: name identical to hafo's title for 31332Tx; page 'Հավի միս (32 %) ... Տուփում առկա է 2 օղակ' (2 rings in the box, chicken). Manufacturer field empty but Trixie in the name. Weight/6 cm not printed; 2 rings + chicken + hafo title fit our 2 pcs/110 g. 2350, in stock. Other nemo rings differ: 'Chewing Ring Denta Fun ... 110 գ' 2250 = 31328 single ring; 'Chewing Ring Denta Fun ջլե օղակներ' 2150 = 10 cm fish; rawhide rings 1950 (7 cm 2x60 g) / 2350 (15 cm 175 g); liver-filled ring 1800; 100 g chicken+liver rings 1750."
+   },
+   "confidence": "medium",
+   "reason": "zoovet refuted (single-ring row at the 31328 price); nemo 2-ring chicken page agreed by both, weight not printed on it."
+  }
+ ]
+}

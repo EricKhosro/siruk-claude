@@ -1,0 +1,384 @@
+[
+ {
+  "variant_id": 649,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Лакомство Rabbit Ears c кроликом для собак, 80 г",
+   "url": "https://zoovet.am/sobaki/korma-i-lakomstva-1/lakomstva-2/myasnye-vyalenye-i-pechenye-lakomstva-1/trixie-lakomstvo-rabbit-ears-c-krolikom-dlya-sobak-80-g",
+   "price": 1900,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page today: 1900 AMD, no old price, 'В наличии · 1 шт', Вес 0.08 кг. Name says 'с кроликом' but the page photo is the Trixie PREMIO 'Rabbit Ears - Mit Hühnchen / With chicken' 80 g pouch = 31808. Only Trixie rabbit-ears listing on zoovet (others are Деревенские лакомства / Doggy Joy)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն շների համար ճագարի ականջներ",
+   "url": "https://www.nemo.am/հյուրասիրություն-շների-համար-ճագարի-ականջներ",
+   "price": 1950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, 'Քաշը՝ 80գ ... Լցոնված հավի մսով' (filled with chicken); photo = Trixie 'Snack Rabbit Ears Mit Huhn' (new pack of 31808). 1950 AMD, in stock, no old price. The 1400 '...հավի մսով՝ 80գ' listing is Mnyams; the 2250 ones are Деревенские лакомства 90 g."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 650,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "No Trixie topping on zoovet: Trixie list (354 rows) and live searches 'топпинг', 'топинг', 'Topping' (only Belcando/Monge toppings), 'улучшения вкуса', 'жидкая добавка', 31849, EAN all empty for Trixie; the 300 ml hits are bowls / mouth water."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բուսական հեղուկ-հավելում՝ կերի համը բարելավելու համար,300 մլ",
+   "url": "https://www.nemo.am/բուսկան-հեղուկ-հավելում-կերի-համը-բարելավելու-համար300-մլ",
+   "price": 2500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, plant-based (բուսական) liquid topping for dry food, 300 ml; photo is the Trixie 'Veggie-Topping' pouch. 2500 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 658,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Chicken Cubes Лакомство кубики из курицы для кошек, 50 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-chicken-cubes-lakomstvo-kubiki-iz-kuritsy-dlya-koshek-50-g",
+   "price": 1200,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Page photo: Trixie PREMIO Chicken Cubes 50 g with 'Art.-Nr. 42706' visible. 1200 AMD, no old price; stock 'Под заказ (от 2 дней)' -> in_stock=false."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«PREMIO Chicken Cubes» կատուների համար",
+   "url": "https://www.nemo.am/httpsnemoamadminproductedit1826",
+   "price": 1200,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, 50 g, chicken, chicken content 73%, cat treat. 1200 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1400,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "No Trixie Chicken & Cheese Cubes on zoovet. Nearest: 'Chicken & Cheese Rolls для кошек, 50 г' (1500) - rolls with chicken 79% / cheese 8% / tuna 5%, a different line; 'Freeze Dried с курицей и сыром, 25 г' (1400) - different line and size. Searches 'cubes|кубик', 'кубики', 'Cheese Cubes', 'курицей и сыром', 42717, EAN checked."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«PREMIO Cheese Chicken Cubes» կատուների համար",
+   "url": "https://www.nemo.am/premio-cheese-chicken-cubes-կատուների-համար",
+   "price": 1200,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, 50 g, chicken and cheese cubes, chicken 81%. 1200 AMD, in stock, no old price. (The 1400 'Trixie ... հավի միս և պանիր' is the 25 g freeze-dried.)"
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 665,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Mini Fish Nuggets Лакомство PREMIO с тунцом для кошек, 50 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-mini-fish-nuggets-lakomstvo-premio-s-tuntsom-dlya-koshek-50-g",
+   "price": 1300,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: 'с тунцом, курицей и кошачьей мятой', tuna 58% / chicken breast 26%, small soft treats, 50 g = Trainer Snack Mini Nuggets 42741. 1300 AMD, 'В наличии · 1 шт', no old price."
+  },
+  "nemo": {
+   "found": true,
+   "name": "«Mini Nuggets Trainer Snack» կատուների համար",
+   "url": "https://www.nemo.am/mini-nuggets-trainer-snack-կատուների-համար",
+   "price": 1300,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, 50 g, tuna, chicken and catnip, fish 58% / meat 26%. 1300 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 666,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Лакомство печеньки с лососем и кошачьей мятой для кошек, 50 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-pechenki-s-lososem-i-koshachej-myatoj-dlya-koshek-50-g",
+   "price": 1100,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page photo: Trixie 'Cookies mit Lachs und Katzenminze' 50 g, Art. 42743; salmon 8%. 1100 AMD, 'В наличии · 1 шт', no old price. ('Snack Cookies с курицей и рыбой' 650 is another recipe.)"
+  },
+  "nemo": {
+   "found": true,
+   "name": "«Cookies» քաղցր պատառ կատուների համար",
+   "url": "https://www.nemo.am/cookies-քաղցր-պատառ-կատուների-համար",
+   "price": 1000,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, 50 g, with salmon and catnip; photo is the same Trixie Cookies salmon & catnip pouch, Art. 42743. 1000 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1397,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Freeze Dried Лакомство для кошек печень ягнёнка и лосось, 25 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-freeze-dried-lakomstvo-dlya-koshek-pechen-yagnenka-i-losos-25-g",
+   "price": 1400,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: freeze-dried, 70% lamb liver / 30% salmon, cats, 25 g; photo Trixie Freeze Dried 'Lammleber & Lachs'. 1400 AMD, 'В наличии · 1 шт', no old price."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Trixie, հյուրասիրություն կատուների համար, գառ և ձուկ",
+   "url": "https://www.nemo.am/trixie-հյուրասիրություն-կատուների-համար-գառ-և-ձուկ",
+   "price": 1400,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, freeze-dried cat treat, lamb and fish, 25 g; photo is the identical Trixie Freeze Dried 'Lammleber & Lachs' pouch. 1400 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 676,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "No Trixie eye balm on zoovet: searches 'бальзам' (only ISB/Gamma), 'глаз', 'trixie глаз', 'лосьон глаз', 2546, EAN return only Trixie eye wipes (40 pcs / 100 pcs)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բալզամ աչքերի խնամքի համար",
+   "url": "https://www.nemo.am/բալզամ-աչքերի-խնամքի-համար",
+   "price": 2100,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie (Germany), eye-care balm for dogs and cats, 50 ml; photo = Trixie 'Eye-Care Balsam für die Augenumgebung', Art. 2546. 2100 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 680,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "No Trixie Paw-Care Spray on zoovet; the only Trixie paw item is 'Чистящее средство для лап с силиконовой щеткой, S-M' (paw cleaner). Searches 'лап', 'Paw', 'trixie спрей' (only the matatabi spray), 2572, EAN checked."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "No Trixie Paw-Care Spray (hafo's photo of 2572 = 'Pfotenpflege-Spray mit Bienenwachs'). Nearest: 'Կրեմ թաթերի խնամքի համար' (Trixie, 1650, 50 ml) - its photo is the Paw-Care beeswax TUBE (cream), not the spray; 'Թաթերի բալզամ ..., 40 մլ' (3950) is Beaphar foot balm; Perfect Care / Пчелодар are other brands. Searches 'թաթ', 'ցողարկիչ', 'Paw', 2572 checked."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 705,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Спрей с мататаби для кошек, 50 мл",
+   "url": "https://zoovet.am/koshki/vitaminy-i-dobavki/drugie-2/trixie-sprej-s-matatabi-dlya-koshek-50-ml",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Page: Trixie matatabi-extract play spray for toys, 50 ml; photo 'Matatabi-Spielspray'. 1650 AMD, no old price; stock 'Под заказ (от 2 дней)' -> in_stock=false."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "No Trixie Matatabi spray on nemo. Nearest: '«Play Spray» ցողարկիչ կատուների համար' (Trixie, 4250) - catnip, 150 ml, a different product and size. Matatabi hits are toys/sticks only. Searches 'մատատաբի|մաթատաբի|matatabi', 'Play Spray', 42423 checked."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 713,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "No such Trixie kitten toy (hafo photo: rocking base with treat cups and a ball on a stick). zoovet's 10 Trixie cat toys are mice, matatabi ball, laser, scratchers, treat box; 'Trixie Игрушка палочка красная, 18 см' is a dog stick. Searches 'котят', '18 см', 'мяч кош', 'лакомств игрушк', 46000 checked."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "No match in nemo's Trixie list (1008 rows): kitten/ball toys there are 'գնդակներ օղակի մեջ' (3150, ball track), 'պոչով գնդակ', 'Fix & Catch', 'Crazy Circle', 'Brain Mover' - all different products. Searches 'ձողի', 'կատուների ձագերի խաղալիք', 'Junior', 'Snack', '18 սմ' checked."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 714,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "No first-aid kit on zoovet: 'аптечк', 'First Aid', 'trixie первой помощи', 19455 all empty."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Առաջին բուժօգնության դեղատուփ՝ շների և կատուների համար",
+   "url": "https://www.nemo.am/առաջին-բուժօգնության-դեղատուփ-շների-և-կատուների-համար",
+   "price": 12450,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: manufacturer Trixie, first-aid kit for dogs and cats, 17 components / 38 pieces; photo shows the Trixie red roll-up first-aid bag with its 'Erste Hilfe' booklet. 12450 AMD, in stock, no old price. Name identical to hafo's 19455 row."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 718,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Зубная паста для собак с маслом чайного дерева, 100 г",
+   "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/uhod-za-zubami/trixie-zubnaya-pasta-dlya-sobak-s-maslom-chajnogo-dereva-100-g",
+   "price": 1550,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page photo: Trixie 'Zahncreme mit Teebaum-Öl / Toothpaste with tea tree oil', 100 g. 1550 AMD, 'В наличии · 1 шт', no old price."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ատամի մածուկ թեյի ծառի յուղով",
+   "url": "https://www.nemo.am/ատամի-մածուկ-թեյի-ծառի-յուղով",
+   "price": 1500,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page (no manufacturer field): dog toothpaste with Australian tea tree oil, 100 g; photo = Trixie Dental-Care tea-tree tube. 1500 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 1302,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Зубная паста для собак, 100 г",
+   "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/uhod-za-zubami/trixie-zubnaya-pasta-dlya-sobak-100-g",
+   "price": 1450,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: description 'приятным вкусом мяты'; photo Trixie 'Zahncreme mit Minze / Toothpaste with mint', 100 g. 1450 AMD, 'В наличии · 1 шт', no old price. The other same-named listing '...-100-g-5859' is the beef-aroma tube."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ատամի մածուկ (անանուխ)",
+   "url": "https://www.nemo.am/ատամի-մածուկ-անանուխ",
+   "price": 1400,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: dog toothpaste, mint, 100 g; photo = Trixie Dental-Care 'Zahncreme mit Minze'. 1400 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 720,
+  "confidence": "high",
+  "zoovet": {
+   "found": false,
+   "evidence": "zoovet's Trixie toothpastes are only tea tree (1550), mint (1450) and beef aroma ('-100-g-5859', photo 'Zahncreme mit Rindfleischaroma', 1450). Searches 'зубная паста', 'энзимами', 'ферментами', 'Enzym' - no enzyme paste."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Ատամի մածուկ՝ ֆերմենտներով հարուստ-Enzymes, 100 գ",
+   "url": "https://www.nemo.am/ատամի-մածուկ-ֆերմենտներով-հարուստ-enzymes-100-գ",
+   "price": 1490,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page text 'Trixie Toothpaste with Enzymes', 100 g; photo = Trixie Dental-Care 'Zahncreme mit Enzymen' (manufacturer field wrongly says Bioline). 1490 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 722,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Салфетки для ухода за шерстью 40 шт",
+   "url": "https://zoovet.am/koshki/gigiena-napolniteli/uhod-za-ushami-i-glazami-1/trixie-salfetki-dlya-uhoda-za-sherstyu-40-sht",
+   "price": 1550,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page photo: Trixie 'Coat-Care Universal Care Wipes' 40x, #29417. 1550 AMD, 'В наличии · 1 шт', no old price."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Խոնավ անձեռոցիկ, մորթու համար, 40 հատ, ալոե վերայով",
+   "url": "https://www.nemo.am/խոնավ-անձեռոցիկ-մորթու-համար-40-հատ-ալոե-վերայով",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: 'Trixie Universal Care Wipes', aloe vera, 40 pcs; photo #29417. 1650 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 723,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Салфетки для ухода за глазами 40 шт",
+   "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/uhod-za-ushami-i-glazami/trixie-salfetki-dlya-uhoda-za-glazami-40-sht",
+   "price": 1550,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: cooling lotion with aloe vera, 40 pcs; photo Trixie 'Eye-Care' 40x pack (29418). 1550 AMD, 'В наличии · 1 шт', no old price. (The 100-pc disposable eye wipes, 3300, are a different product.)"
+  },
+  "nemo": {
+   "found": true,
+   "name": "Խոնավ անձեռոցիկ, աչքերի համար, 40 հատ, ալոե վերայով",
+   "url": "https://www.nemo.am/խոնավ-անձեռոցիկ-աչքերի-համար-40-հատ-ալոե-վերայով",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: 'Eye Care Wipes', 40 pcs; photo Trixie 'Eye-Care' 40x, #29418. 1650 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ },
+ {
+  "variant_id": 724,
+  "confidence": "high",
+  "zoovet": {
+   "found": true,
+   "name": "Trixie Салфетки для ухода за ушами 40 шт",
+   "url": "https://zoovet.am/sobaki/gigiena-tualety-i-uhod/uhod-za-ushami-i-glazami/trixie-salfetki-dlya-uhoda-za-ushami-40-sht",
+   "price": 1550,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Page photo: Trixie 'Ear-Care' 40x, #29419. 1550 AMD, no old price; stock 'Под заказ (от 2 дней)' -> in_stock=false."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Խոնավ անձեռոցիկ, ականջների համար, 40 հատ, ալոե վերայով",
+   "url": "https://www.nemo.am/խոնավ-անձեռոցիկ-ականջների-համար-40-հատ-ալոե-վերայով",
+   "price": 1650,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Page: 'Ear Care Wipes', aloe vera + hamamelis, 40 pcs; photo Trixie 'Ear-Care' 40x, #29419. 1650 AMD, in stock, no old price."
+  },
+  "verdict": "agree",
+  "reason": "Re-opened every claimed page (name, description, pack photo, price, stock) and re-searched the not-found shops; same shops found at the same prices."
+ }
+]

@@ -1,0 +1,415 @@
+[
+ {
+  "variant_id": 1595,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet Beaphar list (38 items) has no paw balm; live searches 'beaphar бальзам', 'Beaphar лап', 'бальзам', 'лап', 'бальзам для лап', 'Paw', 'Foot', '8711231102709' show only Gamma paw wax / Trixie paw cleaner."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Թաթերի բալզամ շների և կատուների համար,40 մլ",
+   "url": "https://www.nemo.am/թաթերի-բալզամ-շների-և-կատուների-համար40-մլ",
+   "price": 3950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: packshot is the Beaphar Voetbalsem / Foot Balsam box (paw icon, dog+cat); text: paw-pad balm for dogs and cats, vaseline base, 'Ծավալը՝ 40 մլ'. Title identical to hafo sku 10270 (EAN 8711231102709). Manufacturer field wrongly says Trixie. 3950, no old price, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages.",
+  "notes": "nemo manufacturer tag says Trixie but the packshot is Beaphar Foot Balsam 40 ml."
+ },
+ {
+  "variant_id": 1596,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Лакомство подушечки с хлорофилом для кошек, 35 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/beaphar-lakomstvo-podushechki-s-hlorofilom-dlya-koshek-35-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = Beaphar Cat-A-Dent Bits pouch (Healthy snack + chlorophyll); description: chlorophyll pillows for cats' teeth, 'Вес: 35 г', ME-00001136. 1250, no discount, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն կատուների համար՝ բարձիկների տեսքով",
+   "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-բարձիկների-տեսքով",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo Cat-A-Dent Bits pouch; chlorophyll pillows for oral hygiene, 'Պարունակություն՝ 35գր'. 1250, in stock. (The '..., no stress' sibling listing is a different product.)"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1597,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Malt Bits Лакомство для выведения шерсти из желудка для кошек, 35 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/lakomstva-dlya-chistki-zubov/beaphar-malt-bits-dlya-vyvedeniya-shersti-iz-geludka-kotov-35-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = original blue Malt Bits pouch (Healthy snack + malt paste); description 'Beaphar Malt Bits ... 35 г', malt-paste pillows; ME-00004156. Spec table says 'Вкус Рыба' but photo/description are the original Malt Bits, not Salmon. 1250, 'В наличии · 2 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն կատուների համար՝ malt biits, 35գ",
+   "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-malt-biits-35գ",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo original Malt Bits pouch; crunchy treat filled with malt paste, 35 g; title matches hafo sku 12622. 1250, in stock. (/malt-bits is Malt Bits LIGHT - '50% less fat'; /malt-bits-2 is Salmon.)"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1598,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Лакомство хрустящие подушечки с мальт-пастой и лососем для кошек, 35 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/sushenye-lakomstva/beaphar-lakomstvo-hrustyaschie-podushechki-s-malt-pastoj-i-lososem-dlya-koshek-35-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = Salmon Malt Bits pouch; description 'Подушечки Salmon Malt Bits', лосось 0,1%, 35 г; ME-00002925. 1250, 'В наличии · 3 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն կատուների համար՝ malt bits",
+   "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-malt-bits-2",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo Salmon Malt Bits pouch; 'Քաշը՝ 35գ', fish-flavoured malt pillows. 1250, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1599,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet's Beaphar brand list today (38 items) has only one BIO item (Bio Shiny Coat 200 ml) and 250 ml shampoos long coat / macadamia dog / cat / puppy chamomile / black / brown; live searches 'Beaphar шампунь', 'Beaphar Bio', 'Beaphar White', 'Beaphar белой', 'Beaphar щенков', 'Beaphar Sensitive', 'папай', 'смородин', 'антизуд' show none. Nearest: Bio Shiny Coat 200 ml (different recipe)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Շամպուն շների ձագերի համար՝ BIO, ալոե վեռա/պապայա",
+   "url": "https://www.nemo.am/շամպուն-շների-ձագերի-համար-bio-ալոե-վեռապապայա",
+   "price": 5300,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo Beaphar BIO Welpentraum/Puppy tube (papaya, cherry blossom, Ecocert); puppy shampoo, papaya + cherry blossom, organic aloe vera gel, 'Տարողություն՝ 200մլ'. Title matches hafo sku 12281. 5300, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1600,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Bio Шампунь для блестящей шерсти с гибискусом и маслом макадамии для собак , 200 мл",
+   "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/beaphar-bio-shampun-dlya-blestyaschej-shersti-s-gibiskusom-i-maslom-makadamii-dlya-sobak-200-ml",
+   "price": 5300,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: description 'Шампунь Beaphar Bio Cosmetic Shiny Coat Aloe Vera Macadamia Oil - Hibiscus, 200 мл', ECOCERT; ME-00001609. 5300, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Շամպուն շների մորթու համար՝ BIO, ալոե վեռա/մակադամիայի յուղ",
+   "url": "https://www.nemo.am/շամպուն-շների-մորթու-համար-bio-ալոե-վեռամակադամիայի-յուղ",
+   "price": 5300,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo Beaphar BIO Shiny Coat tube (macadamia oil, hibiscus, Ecocert); 'Տարողությունը՝ 200մլ'. Title matches hafo sku 12282. 5300, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1601,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet's Beaphar brand list today (38 items) has only one BIO item (Bio Shiny Coat 200 ml) and 250 ml shampoos long coat / macadamia dog / cat / puppy chamomile / black / brown; live searches 'Beaphar шампунь', 'Beaphar Bio', 'Beaphar White', 'Beaphar белой', 'Beaphar щенков', 'Beaphar Sensitive', 'папай', 'смородин', 'антизуд' show none. No BIO Sensitive / Anti-itch shampoo."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Շամպուն զգայուն մաշկ ունեցող շների համար՝ BIO, ալոե վեռա/սև հաղարջ",
+   "url": "https://www.nemo.am/շամպուն-զգայուն-մաշկ-ունեցող-շների-համար-bio-ալոե-վեռասև-հաղարջ",
+   "price": 5300,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo Beaphar BIO Anti-itch / Anti-demangeaisons tube (St John's wort + black currant, Ecocert); sensitive-skin dog shampoo, 'Պարունակություն՝ 200մլ'. Title matches hafo sku 12287. 5300, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1602,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet's Beaphar brand list today (38 items) has only one BIO item (Bio Shiny Coat 200 ml) and 250 ml shampoos long coat / macadamia dog / cat / puppy chamomile / black / brown; live searches 'Beaphar шампунь', 'Beaphar Bio', 'Beaphar White', 'Beaphar белой', 'Beaphar щенков', 'Beaphar Sensitive', 'папай', 'смородин', 'антизуд' show none. No White Coat (also searched 'белого окраса', 'белых собак')."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Շամպուն սպիտակ մորթիով շների համար, ալոե վեռա/կանաչ թեյ, 250 մլ",
+   "url": "https://www.nemo.am/շամպուն-սպիտակ-մորթիով-շների-համար-ալոե-վեռականաչ-թեյ-250-մլ",
+   "price": 2950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo new-line Beaphar Shampoo White Coat bottle (green tea extract & aloe vera); white-coat dog shampoo, 250 ml. Matches hafo sku 19983. 2950, in stock. (Old 'ProVitamin Shampoo- սպիտակ մազերի համար' 2850 is the previous line - not this item.)"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1603,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Шампунь с маслом макадамия и алое для собак, 250 мл",
+   "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/beaphar-shampun-s-maslom-makadamiya-i-aloe-dlya-sobak-250-ml",
+   "price": 2950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = Beaphar Shampoo Universal / Универсальный, Macadamia oil & Aloe vera bottle; description: for all coat types and breeds, 250 мл; ME-00005089. 2950, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Not carried: crawled nemo dog-shampoo (/շամպուն-չոր-շամպուն-2, 255 items) and cat-shampoo (-4, 158 items) categories + live searches 'Beaphar, շամպուն', 'մակադամիա', 'երիցուկով', 'նշի յուղով', 'շամպուն կատուների համար', 'շամպուն երկարամազ', 'ProVitamin': nemo's new-line Beaphar 250 ml shampoos are only White Coat and Brown Coat; the rest are the OLD ProVitamin line (macadamia sensitive-skin dog, macadamia puppy, red, black, white, herbal, cat anti-tangle) - different line/formula. Nearest: 'Շամպուն «ProVitamin Shampoo Macadamia Oil» զգայուն մաշկ ունեցող շների համար' 2850 - old ProVitamin bottle 'for dogs with sensitive skin and damaged hair', not the Universal Macadamia & Aloe."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1604,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Шампунь для котов всех типов шерсти MACADAMIA&ALOE, 250 мл",
+   "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/beaphar-dlya-kotov-vseh-tipov-shersti-macadamiaaloe-250-ml",
+   "price": 2950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = Beaphar Shampoo Cat, Macadamia oil & Aloe vera bottle; cat shampoo, 250 мл; ME-00004918. 2950, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Not carried: crawled nemo dog-shampoo (/շամպուն-չոր-շամպուն-2, 255 items) and cat-shampoo (-4, 158 items) categories + live searches 'Beaphar, շամպուն', 'մակադամիա', 'երիցուկով', 'նշի յուղով', 'շամպուն կատուների համար', 'շամպուն երկարամազ', 'ProVitamin': nemo's new-line Beaphar 250 ml shampoos are only White Coat and Brown Coat; the rest are the OLD ProVitamin line (macadamia sensitive-skin dog, macadamia puppy, red, black, white, herbal, cat anti-tangle) - different line/formula. Nearest: 'Շամպուն «ProVitamin Shampoo Anti Tangle» կատուների խճճվածության դեմ' 2850 - old-line anti-tangle cat shampoo, different product."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1605,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Шампунь для щенков ромашка/алое, 250 мл",
+   "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/beaphar-shampun-dlya-schenkov-romashka-aloe-250-ml",
+   "price": 2950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = Beaphar Shampoo Puppy / Щенята, Camomile & Aloe vera bottle; 250 мл; ME-00004920. 2950, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Not carried: crawled nemo dog-shampoo (/շամպուն-չոր-շամպուն-2, 255 items) and cat-shampoo (-4, 158 items) categories + live searches 'Beaphar, շամպուն', 'մակադամիա', 'երիցուկով', 'նշի յուղով', 'շամպուն կատուների համար', 'շամպուն երկարամազ', 'ProVitamin': nemo's new-line Beaphar 250 ml shampoos are only White Coat and Brown Coat; the rest are the OLD ProVitamin line (macadamia sensitive-skin dog, macadamia puppy, red, black, white, herbal, cat anti-tangle) - different line/formula. Nearest: 'Շամպուն ձագերի համար' (/շամպուն-ձագերի-համար-250-մլ) 2850 - photo is the old ProVitamin Shampoo MACADAMIA OIL for puppies (different line and recipe); BIO Puppy 200 ml papaya is a different line/size."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1606,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Шампунь для длинношерстных собак с миндальным маслом и алое, 250 мл",
+   "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/beaphar-shampun-dlya-dlinnosherstnyh-sobak-s-mindalnym-maslom-i-aloe-250-ml",
+   "price": 2950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = Beaphar Shampoo Long Coat / Длинная шерсть, Almond oil & Aloe vera bottle; 250 мл; ME-00005088. 2950, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": false,
+   "evidence": "Not carried: crawled nemo dog-shampoo (/շամպուն-չոր-շամպուն-2, 255 items) and cat-shampoo (-4, 158 items) categories + live searches 'Beaphar, շամպուն', 'մակադամիա', 'երիցուկով', 'նշի յուղով', 'շամպուն կատուների համար', 'շամպուն երկարամազ', 'ProVitamin': nemo's new-line Beaphar 250 ml shampoos are only White Coat and Brown Coat; the rest are the OLD ProVitamin line (macadamia sensitive-skin dog, macadamia puppy, red, black, white, herbal, cat anti-tangle) - different line/formula. Long-coat shampoos on nemo are Gamma / Pchelodar / Animal Play / KERATIN+ only."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1607,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Шампунь для собак коричневых окрасов мед/алое, 250 мл",
+   "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/beaphar-shampun-dlya-sobak-korichnevyh-okrasov-med-aloe-250-ml",
+   "price": 2950,
+   "old_price": null,
+   "in_stock": false,
+   "evidence": "Opened page: brown/red coat dog shampoo with manuka honey + aloe vera, 250 мл; ME-00004919. 2950, 'Нет в наличии'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Beaphar, շամպուն շագանակագույն մորթու համար",
+   "url": "https://www.nemo.am/beaphar-շամպուն-շագանակագույն-մորթու-համար",
+   "price": 2950,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo new-line Shampoo Brown Coat (Manuka honey & Aloe vera); 'Պարունակություն՝ 250 մլ'. Matches hafo sku 14206. 2950, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1729,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: no Beaphar Duo Active paste on zoovet (Beaphar list has only IntestoPro paste and multivitamin-paste Bits); live searches 'Duo', 'Дуо', 'Beaphar Duo', 'Beaphar паста', 'Active', 'мультивитаминная паста', 'таурин паста' show none."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Duo-Active մածուկ կատուների համար",
+   "url": "https://www.nemo.am/duo-active-մածուկ-կատուների-համար",
+   "price": 3200,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo Beaphar Duo Active Paste tube (2 in 1, Multi-Vitamin / Eyesight / MOS); cat paste, vitamins B1/B2/B6/B12/E, eyesight, 'Պարունակություն՝ 100 գ'. Title identical to hafo title for sku 12959. 3200, in stock. Not the separate 'Beaphar duo malt paste 100գ'."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1748,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried. Nearest: 'Beaphar Ошейник от блох и клещей зеленый для собак, 65 см' (2250, Нет в наличии, ME-00007482) - photo is the insecticidal 'Flea & Tick collar for Dog' box (6 months), not the plant-based Bio/VETO repellent collar. Searches 'VETO', 'маргоза', 'Bio ошейник', 'репеллент' show none."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Բիո-վզնոց միջատների դեմ ՝ միջին ցեղատեսակի շների և ձագերի համար, կանաչ/65սմ",
+   "url": "https://www.nemo.am/բիո-վզնոց-միջատների-դեմ-միջին-ցեղատեսակի-շների-և-ձագերի-համար-կանաչ65սմ",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo Beaphar VETOpure collar for dogs, plant-based (margosa & lavender), green, 65 cm. Title identical to hafo title for sku 10665. 2600, in stock. (Insecticidal 'Վզկապ տզերի և լվերի դեմ' collars are a different product.)"
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages.",
+  "notes": "nemo packshot shows Beaphar's newer VETOpure branding of the same green 65 cm plant-based dog collar; page text says 'up to 4 months' while the box says 12 weeks."
+ },
+ {
+  "variant_id": 1749,
+  "zoovet": {
+   "found": true,
+   "name": "Beaphar Лакомство с кошачьей мятой для котят и кошек, 35 г",
+   "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/beaphar-lakomstvo-s-koshachej-myatoj-dlya-kotyat-i-koshek-35-g",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo = Beaphar Catnip Bits pouch; crunchy pillows with catnip paste (catnip 0.12%), 35 г; ME-00001135. 1250, 'В наличии · 1 шт'."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Հյուրասիրություն կատուների և ձագերի համար՝ կատվի անանուխով, 75 հատ",
+   "url": "https://www.nemo.am/հյուրասիրություն-կատուների-և-ձագերի-համար-կատվի-անանուխով-75-հատ",
+   "price": 1250,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo small Catnip Bits pouch; '75 հատ' is the 35 g pouch - hafo's own title for our sku 12623 is the same '...75 հատ' with row '35 գ'. 1250, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1966,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet's Beaphar cat collars are only the 35 cm insecticidal Flea & Tick collars (red/blue/purple/black); searches 'Beaphar ошейник', 'ошейник для кошек', 'ошейник 30 см', 'Soft', 'светоотражающий', 'блестками' show no 30 cm Soft Cat Flea Collar (the reflective cat collar there is a plain Trixie collar)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Վզնոց միջատների և լվերի դեմ` կատուների և ձագերի համար՝ կարգավորվող, մոխրագույն. 30սմ",
+   "url": "https://www.nemo.am/վզնոց-միջատների-և-լվերի-դեմ-կատուների-և-ձագերի-համար-կարգավորվող-մոխրագույն-30սմ",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo Soft Cat Flea Collar 'GLITTER COLLAR 30 CM' (silver-grey, with bell); margosa + lavandin, 8 weeks. Title identical to hafo title for sku 20632. 2600, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1967,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet's Beaphar cat collars are only the 35 cm insecticidal Flea & Tick collars (red/blue/purple/black); searches 'Beaphar ошейник', 'ошейник для кошек', 'ошейник 30 см', 'Soft', 'светоотражающий', 'блестками' show no 30 cm Soft Cat Flea Collar (the reflective cat collar there is a plain Trixie collar)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Վզնոց միջատների և լվերի դեմ` կատուների և ձագերի համար՝ կարգավորվող,30սմ",
+   "url": "https://www.nemo.am/վզնոց-միջատների-և-լվերի-դեմ-կատուների-և-ձագերի-համար-կարգավորվող30սմ",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo Soft Cat Flea Collar 'SPARKLE COLLAR 30 CM' (dotted, shown in red; our variant is assorted colours). Title identical to hafo title for sku 20629. 2600, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1968,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet's Beaphar cat collars are only the 35 cm insecticidal Flea & Tick collars (red/blue/purple/black); searches 'Beaphar ошейник', 'ошейник для кошек', 'ошейник 30 см', 'Soft', 'светоотражающий', 'блестками' show no 30 cm Soft Cat Flea Collar (the reflective cat collar there is a plain Trixie collar)."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Վզնոց միջատների և լվերի դեմ`` կատուների և ձագերի համար՝ անդրադարձնող,կարգավորվող,30սմ",
+   "url": "https://www.nemo.am/վզնոց-միջատների-և-լվերի-դեմ-կատուների-և-ձագերի-համար-անդրադարձնողկարգավորվող30սմ",
+   "price": 2600,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: manufacturer Beaphar; photo Soft Cat Flea Collar 'REFLECTIVE COLLAR 30 CM' in yellow. Title identical to hafo title for sku 20630. 2600, in stock."
+  },
+  "confidence": "high",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages."
+ },
+ {
+  "variant_id": 1972,
+  "zoovet": {
+   "found": false,
+   "evidence": "Not carried: zoovet's only Beaphar eye product is vitamin-A eye drops 5 ml; searches 'Beaphar Sensitiv', 'Beaphar слез', 'Beaphar глаз', 'слезных', 'слезные', 'Sensitiv' show no tear-stain remover."
+  },
+  "nemo": {
+   "found": true,
+   "name": "Beaphar Sensitiv շների և կատուների աչքերի խնամքի համար",
+   "url": "https://www.nemo.am/beaphar-sensitiv-շների-և-կատուների-աչքերի-խնամքի-համար",
+   "price": 4050,
+   "old_price": null,
+   "in_stock": true,
+   "evidence": "Opened page: photo Beaphar Sensitiv dropper bottle ('Средство для удаления слезных пятен'); tear-stain remover for dogs and cats. Title identical to hafo's title for our 50 ml row (BP 10264, EAN 8711231102648). Page does not print the volume; Sensitiv is a single 50 ml size. 4050, in stock."
+  },
+  "confidence": "medium",
+  "verdict": "agree",
+  "reason": "Same shops found at the same prices as the matcher; every axis re-checked on today's pages.",
+  "notes": "nemo page does not state 50 ml; identity from photo + hafo title."
+ }
+]

@@ -1,0 +1,606 @@
+{
+ "results": [
+  {
+   "variant_id": 1394,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-snack-cookies-lakomstvo-s-kuritsej-i-ryboj-dlya-koshek-50-g",
+    "price": 650,
+    "old_price": null,
+    "name": "Trixie Snack Cookies Лакомство с курицей и рыбой для кошек, 50 г",
+    "in_stock": true,
+    "evidence": "Page description: \"Trixie Snack Cookies Chicken and Shrimp ... курицу и нежные креветки\", 50 g (0.05 kg), cats, Trixie; title says \"рыбой\" but the text is chicken & shrimp = our 42748 Chicken & Prawn 50 g. 650, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/թխվածքաբլիթ-կատուների-համար-կրեվետկայի-և-հավի-մսով-50գ",
+    "price": 650,
+    "old_price": null,
+    "name": "Թխվածքաբլիթ կատուների համար՝ կրեվետկայի և հավի մսով, 50գ",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 42748 returns this page; name identical to hafo row; short text \"TRIXIE • cookies for cats with chicken and shrimp\", 50 g. Manufacturer field says INABA (nemo data error), text says Trixie. 650, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both. zoovet 650 in stock; title says 'с рыбой' but description reads 'Snack Cookies Chicken and Shrimp ... курицу и нежные креветки', 50 g (other zoovet cookie is salmon & catnip 1100, not ours). nemo 650 in stock; text 'TRIXIE ... հավի մսով և ծովախեցգետնով', 50 g (manufacturer field INABA is a nemo data error)."
+  },
+  {
+   "variant_id": 667,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-tuna-strips-lakomstvo-premio-s-tuntsom-dlya-koshek-20-g",
+    "price": 750,
+    "old_price": null,
+    "name": "Trixie Tuna Strips Лакомство PREMIO с тунцом для кошек, 20 г",
+    "in_stock": false,
+    "evidence": "Page: Premio Tuna Strips for cats 20 g, \"с тунцом и белой рыбой\", tuna 45% + white fish 45% = our Premio Strips Tuna & Whitefish 20 g. 750, out of stock (\"Нет в наличии\")."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-ձկան-բեկորներ",
+    "price": 700,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ ձկան բեկորներ",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 42746 returns it; name = our register name; manufacturer Trixie; \"20 g, tuna and white fish, 90% fish\". 700, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both. zoovet description: Premio Tuna Strips 20 g, tuna 45% + white fish 45%, 750, out of stock. nemo: Trixie, 20 g, tuna and white fish, 700 in stock."
+  },
+  {
+   "variant_id": 669,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-dlya-koshek-oblachka-s-lososem-junior-40-g",
+    "price": 1250,
+    "old_price": null,
+    "name": "Trixie Лакомство облачка с лососем Junior для котят, 40 г",
+    "in_stock": true,
+    "evidence": "Junior Clouds for kittens, 40 g; description \"с лососем и курицей, рыбы 55%, мяса 20%\" = our salmon/chicken Junior Clouds 40 g. 1250, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-ձագերի-համար",
+    "price": 1200,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների ձագերի համար",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 42754 returns it; manufacturer Trixie; \"40 g, fish and chicken pieces for kittens, fish 55%, chicken 20%\". 1200, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both. zoovet: Junior for kittens 40 g, salmon & chicken, fish 55% meat 20%, 1250 in stock. nemo: Trixie, 40 g, fish 55% chicken 20%, kittens, 1200 in stock."
+  },
+  {
+   "variant_id": 670,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-lakomstvo-freeze-dried-krevetki-dlya-koshek-25-g",
+    "price": 1550,
+    "old_price": null,
+    "name": "Trixie Лакомство Freeze Dried креветки для кошек, 25 г",
+    "in_stock": true,
+    "evidence": "Freeze Dried shrimps for cats, 100% shrimp, 25 g, Trixie. 1550, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/հյուրասիրություն-կատուների-համար-shrimps-չորացված-մանրածովախեցգետին-25-գ",
+    "price": 1550,
+    "old_price": null,
+    "name": "Հյուրասիրություն կատուների համար՝ Shrimps, չորացված մանրածովախեցգետին, 25 գ",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 42755 returns it; manufacturer Trixie; freeze-dried 100% shrimp, 25 g. 1550, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie freeze-dried shrimps 25 g, 1550 in stock on each."
+  },
+  {
+   "variant_id": 1395,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/sushenye-lakomstva/trixie-lakomstvo-freeze-dried-kurinye-serdechki-dlya-koshek-25-g",
+    "price": 1100,
+    "old_price": null,
+    "name": "Trixie Лакомство Freeze Dried куриные сердечки для кошек, 25 г",
+    "in_stock": true,
+    "evidence": "Freeze Dried chicken hearts for cats, 100% chicken hearts, 25 g, Trixie. 1100, in stock."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched SKU 42756, EAN 4011905427560, \"սրտիկ\", \"սիրտ\", \"Hearts\", \"սառեցված\", \"Freeze\", hafo title \"Խորտիկ կատուների՝ հավի չորացրած սիրտ\"; Trixie list scanned. Nearest: other Trixie freeze-dried 25 g (shrimps, chicken & cheese) and PREMIO Ducky/Barbecue Hearts (not freeze-dried). Not listed."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet re-opened: Freeze Dried chicken hearts 25 g, 1100 in stock. nemo: own searches (42756, EAN, սրտիկ, սիրտ, Hearts, freeze/սառեցված/չորացված, Trixie cat list) find only other hearts treats (Деревенские лакомства 30 g, PREMIO Ducky/Barbecue Hearts) - not listed."
+  },
+  {
+   "variant_id": 1396,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/korma-i-lakomstva/lakomstva/myasnye-vyalenye-i-pechenye-lakomstva/trixie-freeze-dried-lakomstvo-s-kuritsej-i-syrom-dlya-koshek-25-g",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie Freeze Dried Лакомство с курицей и сыром для кошек, 25 г",
+    "in_stock": true,
+    "evidence": "Freeze Dried chicken & cheese for cats, 25 g (0.025 kg), Trixie. 1400, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-հյուրասիրություն-կատուների-համար-հավի-միս-և-պանիր",
+    "price": 1400,
+    "old_price": null,
+    "name": "Trixie, հյուրասիրություն կատուների համար, հավի միս և պանիր",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 42805 returns it; manufacturer Trixie; freeze-dried chicken and cheese, 25 g. 1400, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie freeze-dried chicken & cheese 25 g, 1400 in stock on each."
+  },
+  {
+   "variant_id": 677,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"trixie уш|ear\", \"для ушей\", \"лосьон для ушей\", \"капли\", 2547, Trixie list. Zoovet has only Trixie ear-care wipes 40 pcs and ear finger pads, plus Cliny/Gamma/Flamingo ear lotions. No Trixie Ear Care 50 ml."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-ականջի-կաթիլներ-կենդանիների-համար-50մլ",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, ականջի կաթիլներ կենդանիների համար, 50մլ",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2547 returns it; manufacturer Trixie; ear care drops for dogs/cats, 50 ml. 2000, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (ушей, ear care, капли, лосьон, Trixie list) show only Trixie ear wipes/finger pads and other brands' lotions - not listed. nemo re-opened: Trixie ear drops 50 ml, 2000 in stock."
+  },
+  {
+   "variant_id": 678,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"trixie зуб|полост|dental|рта\", \"полости рта\", \"спрей для зубов\", 2548, Trixie list. Zoovet has only Trixie oral-care water 300 ml (apple) and toothpastes; mouth sprays only from Cliny/Flamingo. No Trixie Dental Hygiene Spray 50 ml."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բերանի-խոռոչի-սփրեյ-շների-և-կատուների-համար-50-մլ",
+    "price": 1850,
+    "old_price": null,
+    "name": "Բերանի խոռոչի սփրեյ շների և կատուների համար (50 մլ)",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2548 returns this page; mouth spray for dogs and cats, 50 ml (tooth cleaning, fresh breath). Manufacturer field empty, but the SKU match and 50 ml spray agree with hafo 2548Tx. 1850, in stock."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (полости рта, спрей, зуб/dental, Trixie list) show Cliny/Flamingo/Beaphar sprays and Trixie oral water 300 ml only - not listed. nemo: live search for SKU 2548 returns only this page; 50 ml mouth spray, 1850 in stock (manufacturer blank)."
+  },
+  {
+   "variant_id": 679,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"глаз|слез|tear\", \"для глаз\", \"слезных\", 2559, Trixie list. Zoovet has only Trixie eye-care wipes (40 / 100 pcs) and other brands eye lotions. No Trixie Tearstain Remover 50 ml."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-աչքերի-կաթիլներ-կենդանիների-համար-50մլ",
+    "price": 2000,
+    "old_price": null,
+    "name": "Trixie, աչքերի կաթիլներ կենդանիների համար, 50մլ",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2559 returns it; manufacturer Trixie; eye-care drops that remove tear stains, 50 ml. 2000, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (глаз, слезн, tear) show Trixie eye wipes and other brands' lotions only - not listed. nemo re-opened: Trixie eye drops removing tear stains, 50 ml, 2000 in stock."
+  },
+  {
+   "variant_id": 681,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/trixie-shampun-pitatelnyj-s-medom-dlya-sobak-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь питательный с медом для собак, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie nourishing honey shampoo for dogs, 250 ml. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/մեղրային-շամպուն",
+    "price": 1950,
+    "old_price": null,
+    "name": "Մեղրային շամպուն",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2899 returns it; manufacturer Trixie; honey shampoo, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie honey shampoo 250 ml; zoovet 2100 in stock, nemo 1950 in stock."
+  },
+  {
+   "variant_id": 682,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"trixie трав|herbal\", \"травяной шампунь\", \"шампунь с травами\", \"Herbal\", 2900, Trixie shampoo list (honey, orange, jojoba, puppy, dark/light coat, long/short-hair cats, anti-dandruff, dry foam). No Trixie Herbal Shampoo."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բուսական-շամպուն",
+    "price": 1950,
+    "old_price": null,
+    "name": "Բուսական շամպուն",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2900 returns it; manufacturer Trixie; herbal shampoo, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (трав/herbal, Trixie shampoo list) - no herbal shampoo; the one Trixie item not in the matcher's list, 'Шампунь для длинношерстных собак' 250 ml (2100, под заказ), is the long-hair shampoo per its description (no herbs) - not ours. nemo re-opened: Trixie herbal shampoo 250 ml, 1950 in stock."
+  },
+  {
+   "variant_id": 683,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/trixie-shampun-protiv-perhoti-dlya-sobak-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь против перхоти для собак, 250 мл",
+    "in_stock": false,
+    "evidence": "Trixie anti-dandruff shampoo for dogs, 250 ml. 2100, out of stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-թեփի-դեմ",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն թեփի դեմ",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2904 returns it; manufacturer Trixie; anti-dandruff shampoo for dogs, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie anti-dandruff dog shampoo 250 ml; zoovet 2100 out of stock, nemo 1950 in stock."
+  },
+  {
+   "variant_id": 684,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"кокос|coconut\", \"с кокосовым\", 2905, Trixie shampoo list. No Trixie Coconut Oil Shampoo on zoovet."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-կոկոսի-յուղով",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն կոկոսի յուղով",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2905 returns it; manufacturer Trixie; coconut oil shampoo, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (кокос, масл, Trixie shampoo list) - not listed (zoovet's Trixie long-hair dog shampoo description has no coconut oil). nemo re-opened: Trixie coconut-oil shampoo 250 ml, 1950 in stock."
+  },
+  {
+   "variant_id": 685,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/trixie-shampun-dlya-schenkov-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь для щенков, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie puppy shampoo, 250 ml. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-ձագերի-համար-2",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն (Ձագերի համար)",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2906 returns it; manufacturer Trixie; puppy shampoo, 250 ml. 1950, in stock. (Another nemo listing \"... 1 մլ\" at 4450 is a different size, not used.)"
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie puppy shampoo 250 ml; zoovet 2100, nemo 1950, both in stock."
+  },
+  {
+   "variant_id": 686,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/trixie-shampun-dlya-korotkosherstnyh-koshek-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь для короткошерстных кошек, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie shampoo for short-haired cats, 250 ml. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-կարճամազ-կատուների-համար",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն կարճամազ կատուների համար",
+    "in_stock": true,
+    "evidence": "nemo live search for 2908 returns it; manufacturer Trixie; shampoo for short-haired cats, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie short-hair cat shampoo 250 ml; zoovet 2100, nemo 1950, both in stock."
+  },
+  {
+   "variant_id": 687,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/trixie-shampun-vosstanavlivayuschij-dlya-sobak-so-svetlym-okrasom-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь восстанавливающий для собак со светлым окрасом, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie colour shampoo \"для собак с белым и светлым окрасом шерсти\", 250 ml = our Colour Shampoo for White Dogs. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-perfect-շների-և-կատուների-համար-մազաթափության-դեմ-copy",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն բաց գույնի մազեր ունեցող շների համար",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2914 returns it; manufacturer Trixie; for white and light-coloured dogs, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie shampoo for white/light dogs 250 ml; zoovet 2100, nemo 1950 (manufacturer Trixie, recycled slug), both in stock."
+  },
+  {
+   "variant_id": 688,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/trixie-shampun-dlya-sobak-s-temnoj-sherstyu-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь для собак с темной шерстью, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie shampoo for dark-coated dogs, 250 ml. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-մուգ-մազեր-ունեցող-շների-համար",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն մուգ մազեր ունեցող շների համար",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2915 returns it; manufacturer Trixie; for dark and black dogs, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie shampoo for dark/black dogs 250 ml; zoovet 2100, nemo 1950, both in stock."
+  },
+  {
+   "variant_id": 689,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"сух|dry\", \"сухой шампунь\", \"шампунь-пудра\", 29181, Trixie list. Zoovet has only the Trixie dry FOAM shampoo 450 ml (different product/size). No dry powder shampoo 100 g."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չոր-շամպուն-3",
+    "price": 1550,
+    "old_price": null,
+    "name": "Չոր շամպուն",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29181 returns this page; dry shampoo for dogs, cats and small animals, from 12 weeks, 100 g. Manufacturer field empty, but SKU match and 100 g agree with hafo TX 291811. 1550, in stock."
+   },
+   "confidence": "medium",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (сухой шампунь, пудра, порош, dry) show only the Trixie dry FOAM 450 ml - not listed. nemo: live search for SKU 29181 returns only this page; dry shampoo 100 g, 1550 in stock (other nemo 'Չոր շամպուն' pages are 230 ml/2700 and 200 g/2300)."
+  },
+  {
+   "variant_id": 690,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/trixie-shampun-dlya-dlinnosherstnyh-koshek-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь для длинношерстных кошек, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie shampoo for long-haired cats, 250 ml. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-երկարամազ-կատուների-համար",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն երկարամազ կատուների համար",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29191 returns it; manufacturer Trixie; long-haired cats, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie long-hair cat shampoo 250 ml; zoovet 2100, nemo 1950, both in stock."
+  },
+  {
+   "variant_id": 691,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/trixie-shampun-s-maslom-gogoba-dlya-sobak-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь с маслом жожоба для собак, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie jojoba-oil shampoo (not the conditioner) for dogs, 250 ml. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-ժոժոբայի-յուղով",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն ժոժոբայի յուղով",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29192 returns it; manufacturer Trixie; jojoba oil shampoo, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie jojoba-oil shampoo 250 ml; zoovet 2100, nemo 1950, both in stock."
+  },
+  {
+   "variant_id": 692,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"кондиц|бальзам|conditioner\", \"кондиционер для собак\", \"жожоба\", 29193, Trixie list. Zoovet has only the Trixie jojoba SHAMPOO 250 ml (different product); conditioners only from Iv San Bernard/Gamma."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կոնդիցիոներ-ժոժոբայի-յուղով",
+    "price": 1950,
+    "old_price": null,
+    "name": "Կոնդիցիոներ ժոժոբայի յուղով",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29193 returns it; manufacturer Trixie; jojoba oil conditioner for dogs, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (кондиционер, бальзам, жожоба) show Iv San Bernard/Gamma conditioners and the Trixie jojoba SHAMPOO only - not listed. nemo re-opened: Trixie jojoba conditioner 250 ml, 1950 in stock."
+  },
+  {
+   "variant_id": 693,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/sobaki/kosmetika-i-gruming/shampuni/trixie-shampun-s-apelsinom-dlya-sobak-250-ml",
+    "price": 2100,
+    "old_price": null,
+    "name": "Trixie Шампунь с апельсином для собак, 250 мл",
+    "in_stock": true,
+    "evidence": "Trixie orange shampoo for dogs, 250 ml. 2100, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուննարինջ",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն(նարինջ)",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29194 returns it; manufacturer Trixie; orange shampoo, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie orange shampoo 250 ml; zoovet 2100, nemo 1950, both in stock."
+  },
+  {
+   "variant_id": 694,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"натурал|natural|масл\", \"кондиционер\", 29195, Trixie shampoo list. No Trixie Natural-Oil Shampoo on zoovet."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched SKU 29195, EAN 4011905291956, \"բնական յուղ\", \"շամպուն բնական\", \"Natural\", hafo title \"Շամպուն բնական յուղով\". Nearest: Trixie Natural-Oil CONDITIONER 250 ml (\"Կոնդիցիոներ բնական յուղից\", 2200, hafo 29196) and \"Շամպուն իրանական յուղով\" (hafo 2942, a different shampoo). Not a match."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (натурал, natural oil, масл, Trixie shampoo list) - not listed. nemo: own searches (29195, EAN, բնական յուղ, Natural, յուղով) find the Natural-Oil CONDITIONER (2200) and 'Շամպուն իրանական յուղով' = hafo 2942Tx, a different shampoo - not listed."
+  },
+  {
+   "variant_id": 695,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"2 в 1|2в1|two\", \"Шампунь 2 в 1\", 29197, Trixie shampoo list. No Trixie 2-in-1 shampoo on zoovet."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-կոնդիցիոներերկուսը-մեկում",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն-կոնդիցիոներ(երկուսը մեկում)",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29197 returns it; manufacturer Trixie; 2-in-1 shampoo-conditioner (D-panthenol, jojoba), 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (2 в 1, 2в1, two, Trixie list) - not listed. nemo: live search for 29197 returns only this page; Trixie 2-in-1 shampoo-conditioner 250 ml, 1950 in stock (separate 'Շամպուն-կոնդիցիոներ' page is an anti-hair-loss Trixie item, not ours)."
+  },
+  {
+   "variant_id": 696,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/gigiena-napolniteli/uhod-za-ushami-i-glazami-1/trixie-odnorazovye-podushechki-na-paltsy-dlya-uhoda-za-ushami-50-sht",
+    "price": 3500,
+    "old_price": null,
+    "name": "Trixie Одноразовые подушечки на пальцы для ухода за ушами, 50 шт",
+    "in_stock": true,
+    "evidence": "Trixie single-use finger pads for EAR care, 50 pcs (aloe vera lotion). 3500, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-մատնոցներ-կենդանիների-ականջները-մաքրելու-համար-50-հատ",
+    "price": 3500,
+    "old_price": null,
+    "name": "Trixie, մատնոցներ կենդանիների ականջները մաքրելու համար, 50 հատ",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29392 returns it; manufacturer Trixie; ear-cleaning finger pads, aloe vera, 50 pcs. 3500, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie ear-care finger pads 50 pcs, 3500 in stock on each."
+  },
+  {
+   "variant_id": 697,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"пальц|напальч|finger\", \"подушечки\", \"напальчники\", 29393, Trixie list. Nearest: Trixie finger pads for EAR care 50 pcs (3500), a different product; Triol finger toothbrushes 2 pcs. No Trixie dental finger pads."
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "Searched SKU 29393, EAN 4011905293936, \"մատնոց\", \"ատամների մաքրման\", \"ատամ\". Nearest: Trixie ear-cleaning finger pads 50 pcs (3500), a different product. Not listed."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet and nemo: own searches (пальц/напальчник/finger, մատնոց, ատամ, ատամների մաքրման, 29393, EAN) show only the EAR finger pads 50 pcs - dental pads not listed on either."
+  },
+  {
+   "variant_id": 698,
+   "zoovet": {
+    "found": true,
+    "url": "https://zoovet.am/koshki/kosmetika/shampuni-1/trixie-suhoj-shampun-penka-dlya-sobak-i-koshek-450-ml",
+    "price": 3600,
+    "old_price": null,
+    "name": "Trixie Сухой шампунь-пенка для собак и кошек, 450 мл",
+    "in_stock": true,
+    "evidence": "Trixie dry foam shampoo for dogs and cats, 450 ml, from 12 weeks. 3600, in stock."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/չոր-շամպուն-450-մլ",
+    "price": 3600,
+    "old_price": null,
+    "name": "Չոր շամպուն (450 մլ)",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 29411 returns this page; dry shampoo for dogs and cats, 450 ml. Manufacturer field empty, but the SKU match and 450 ml agree with hafo TX 294111. 3600, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "Re-opened both: Trixie dry foam shampoo 450 ml, 3600 in stock on each; nemo page is the only hit for SKU 29411."
+  },
+  {
+   "variant_id": 699,
+   "zoovet": {
+    "found": false,
+    "evidence": "Searched \"чайн|tea tree\", \"чайного\", 2945, Trixie list. Only Trixie tea-tree TOOTHPASTE 100 g (different product). No Trixie Tea Tree Oil Shampoo."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/շամպուն-շների-համարթեյի-ծառի-յուղով",
+    "price": 1950,
+    "old_price": null,
+    "name": "Շամպուն շների համար(թեյի ծառի յուղով)",
+    "in_stock": true,
+    "evidence": "nemo live search for SKU 2945 returns it; manufacturer Trixie; tea tree oil shampoo for dogs, 250 ml. 1950, in stock."
+   },
+   "confidence": "high",
+   "verdict": "agree",
+   "reason": "zoovet: own searches (чайн, tea, чайного дерева) show only the Trixie tea-tree toothpaste 100 g - not listed. nemo re-opened: Trixie tea-tree oil dog shampoo 250 ml, 1950 in stock."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "results": [
+  {
+   "variant_id": 393,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Saved zoovet list (Trixie brand list) searched 'activity|flip|игра|стратег' and 'trixie головолом|интеллект|интерактив|развива|стратег|23 см': no Trixie Dog Activity board of any kind (only Triol cat toy sets, a lick mat, bowls). zoovet checked against today's saved list; page not reachable."
+   },
+   "nemo": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "Ours is Trixie 32026 Dog Activity Flip Board ø23 cm (EAN 4011905320267). nemo-page of the matcher's URL 'DOG ACTIVITY-Flip & Fun' (5250): 'contains 1 cone and adjustable parts ... 23 cm' = Trixie 32001 Flip & Fun (hafo row 32001Tx, EAN 4011905320014, same 5250) - a different article. nemo's listing carrying hafo's exact title 'Խաղալիք շների DOG ACTIVITY հյուրասիրություն և խաղ' (5200) states 32x18 cm = Trixie 32002 (hafo row 32002Tx), not ours. Other nemo Dog Activity items: Tower 10500, Strategy/rotating 22x33x18 9600, Rod Board 9500, Poker Box 2 11650, Chess 9650 - none is 32026. nemo search on '32026' and the EAN returns nothing relevant."
+   },
+   "confidence": "high",
+   "reason": "Verifier right: nemo's Flip & Fun is article 32001 (1 cone) and the 5200 listing is 32002 (32x18 cm); no listing of 32026 Flip Board on nemo; none on zoovet."
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "variant_id": 524,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet rows (shops.json) for Trixie rubber balls: 'мяч из каучука, в ассортименте, 7 см' (3000), 'плетеный мяч из каучука 10 см' (5150), 'груша для лакомств из каучука 8 см', 'цветной веревочный мяч 9 см'. None is the Trixie 34842 natural-rubber ball 9 cm."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/բնական-կաուչուկից-գնդակ-2",
+    "price": 2700,
+    "old_price": null,
+    "name": "Բնական կաուչուկից Գնդակ",
+    "in_stock": true,
+    "evidence": "Opened today. Page text: 'Չափսը՝ 9սմ', natural rubber, with sound; 2700, in stock. nemo search by our article '34842' returns exactly this page. The photo shows the same mould as Trixie's own 34842 packshot (spiky ball with bone and paw motifs). trixie.de lists 34842 as one article, ø 9 cm, pink; there is no other 9 cm colour SKU. The photo is red and the page names no colour, so colour can't be confirmed from text. The article-code hit and the identical mould decide it. The un-suffixed listing 'բնական-կաուչուկից-գնդակ' (1650) states 6 cm, so it is the 34841 sibling, not ours."
+   },
+   "confidence": "medium",
+   "reason": "nemo '-2' listing is our 9 cm Trixie natural-rubber ball (article search 34842 hits it, 9 cm, same mould); the matcher only saw the 6 cm listing. zoovet has none."
+  },
+  {
+   "variant_id": 533,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet Trixie rows: no plush rope toy 17 cm. Only knot rope / rope balls, and '17 см' hits are treats, bowls and lick mats."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/պարանից-խաղալիք-շների-համար-2",
+    "price": 2850,
+    "old_price": null,
+    "name": "Պարանից խաղալիք շների համար",
+    "in_stock": true,
+    "evidence": "Opened all three same-title listings today. All say 'Չափս՝ 17 սմ: Պլյուշ / կտոր: Ձայնով:'. (a) https://www.nemo.am/պարանից-խաղալիք-շների-համար-2: 2850, elephant photo. (b) https://www.nemo.am/շան-խաղալիք-ռետինե-հավիկի-տեսքով-2: 2850, manufacturer Trixie, elephant photo; the slug is recycled but the page is the rope toy. (c) https://www.nemo.am/պարանից-խաղալիք-շների-համար: 2650 (= hafo), dog photo. nemo search '35821' returns (b) and (c). Siruk's own 35821 gallery (Trixie PHO_PRO_CLIP_3582-1/-2) shows both the elephant and the dog motif of this one article. So all three are our exact item, and per rule 3 we take the higher price, 2850. The other listing is 2650."
+   },
+   "confidence": "high",
+   "reason": "Three nemo listings of the same Trixie 35821 plush rope toy 17 cm (elephant/dog motifs of one article). Higher price 2850 wins over the matcher's 2650."
+  },
+  {
+   "variant_id": 1294,
+   "zoovet": {
+    "found": false,
+    "url": null,
+    "price": null,
+    "old_price": null,
+    "name": null,
+    "in_stock": null,
+    "evidence": "zoovet checked against today's saved list; page not reachable. Saved zoovet list: Trixie has no latex Longie. All 26 'латекс' rows are Triol toys."
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/խաղալիք-շների-համարլատեքսից",
+    "price": 3750,
+    "old_price": null,
+    "name": "Խաղալիք շների համար (լատեքսից)",
+    "in_stock": true,
+    "evidence": "Opened both listings today. (a) https://www.nemo.am/խաղալիք-շների-համարլատեքսից: 'Չափս 30 - 32 սմ: Լատեքս: Ձայնով: Միջուկը պոլիեսթեր', 3750, in stock, no manufacturer field. (b) https://www.nemo.am/խաղալիք-շների-համարլատեքսից-2: manufacturer Trixie, latex, sound, polyester core, 30-32 cm, 3550 (= hafo TX 350611). Both photos are the same yellow tiger Trixie Longie. nemo search '35061' returns both. Both are our exact item, so per rule 3 we take the higher price, 3750. The other listing is 3550."
+   },
+   "confidence": "high",
+   "reason": "Two nemo listings of the same Trixie Longie latex 30-32 cm (same text, same photo). Higher price 3750 wins over the matcher's 3550."
+  }
+ ]
+}

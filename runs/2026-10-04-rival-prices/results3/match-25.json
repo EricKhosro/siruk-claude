@@ -1,0 +1,410 @@
+{
+ "results": [
+  {
+   "variant_id": 1078,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Silver Reflect collar on zoovet (only a cat reflective collar)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/silver-reflect-լուսարձակող-վզկապ-3",
+    "price": 1850,
+    "old_price": null,
+    "name": "«Silver Reflect» լուսարձակող վզկապ",
+    "in_stock": true,
+    "evidence": "Trixie (manufacturer); nemo search by article 12222 returns this page; description: S–M, black strap, grey paw pattern, reflective - matches S–M 30–45 cm/15 mm black/silver grey. Sibling pages: XS-S 1650, M–L 2200, L-XL 2900."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1320,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Silver Reflect collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/silver-reflect-լուսարձակող-վզկապ-2",
+    "price": 2200,
+    "old_price": null,
+    "name": "«Silver Reflect» լուսարձակող վզկապ M–L",
+    "in_stock": true,
+    "evidence": "Trixie; nemo search by article 12223 returns this page; M–L, black strap, grey paws - matches M–L 35–55 cm/20 mm."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1082,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Silver Reflect harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Silver Reflect H-harness; nearest: 'Վզնոց ... L-XL 2մ 25մմ Silver Reflect' 8000 (a 2 m lead, L-XL) and Silver Reflect collars."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1278,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Flash Light (non-USB) collar; nearest: Trixie USB light collar XS-S 35 cm/18 mm green/blue"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Trixie Flash Light (non-USB) orange collar; nearest: «USB Flash» / «Easy Flash, USB» light collars (other model/colours)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1279,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Flash Light collar; nearest: Trixie USB light collar XS-S 35 cm/18 mm"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Trixie Flash Light orange collar L–XL; nearest: «USB Flash» green/red L–XL 10150, «Easy Flash, USB» L–XL 7800 (other models)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1086,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; only USB light collars XS-S 35 cm/18 mm (green 8000, blue 9850) - different size/colour"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/usb-flash-լուսավորվող-վզկապ-կարմիր-m-l",
+    "price": 9600,
+    "old_price": null,
+    "name": "«USB Flash» լուսավորվող վզկապ (կարմիր) M-L",
+    "in_stock": true,
+    "evidence": "Trixie; nemo search by article 13071 returns this page; red, M-L, description 40–50 cm / 25 mm, USB rechargeable - every axis matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1488,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; only USB light collars XS-S 35 cm/18 mm (green 8000, blue 9850) - different size"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/usb-flash-լուսավորվող-վզկապ-կանաչ-lxl",
+    "price": 10150,
+    "old_price": null,
+    "name": "«USB Flash» լուսավորվող վզկապ (կանաչ) L–XL",
+    "in_stock": true,
+    "evidence": "Trixie; nemo search by article 13077 returns this page; green, L–XL, description 50–60 cm / 25 mm, USB - every axis matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1089,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; nearest: Trixie Поводок-цепь с нейлоновой ручкой, красный, 1 м/4 мм (5100) - different length/thickness/colour"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Trixie chain lead with neoprene hand loop; only Nunbell/VET metal leads (other brand)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1280,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; nearest: Trixie Поводок-цепь с нейлоновой ручкой, красный, 1 м/4 мм (5100) - ours is 3.0 mm with neoprene loop"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Trixie chain lead with neoprene hand loop; only Nunbell/VET metal leads (other brand)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1281,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; nearest: Trixie Поводок-цепь с нейлоновой ручкой, красный, 1 м/4 мм (5100) - ours is black"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Trixie chain lead with neoprene hand loop; only Nunbell/VET metal leads (other brand)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1092,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Comfort Soft harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; nearest: Comfort Soft harness XXS-XS 25-35 cm in blush (5500) and petrol (5500) - ours is XXS–XS 28–40 cm/15 mm fuchsia; different colour/size."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1282,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Comfort Soft harness on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; nearest: Comfort Soft harness XXS-XS 25-35 cm blush (5500) - ours is S 33–50 cm/20 mm blush; different size. Also Comfort Soft light blue XS-S 6850."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1283,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Comfort Soft harness on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/լանջափոկ-շլեյկա-սև-s-m",
+    "price": 9050,
+    "old_price": null,
+    "name": "Լանջափոկ (Շլեյկա) - սև S-M",
+    "in_stock": true,
+    "evidence": "nemo search by article 16281 returns this page; black, S-M 35-60 cm / 20 mm, breathable nylon with soft padding, adjustable at the belly (Comfort Soft description) - every axis matches. Manufacturer not shown on the page."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1095,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; only BE NORDIC wide collars S-M 32-45/30mm and M-L 40-60/38mm (different model)"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; nearest: Կաշվե վզնոց BE NORDIC մետաղյա զարդով, ավազի գույն, S 35–41 cm/15 mm (4950) - ours is XS–S 30–36 cm/15 mm; different size."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1322,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; only BE NORDIC wide collars S-M 32-45/30mm and M-L 40-60/38mm (different model)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կաշվե-վզնոց-be-nordic-մետաղյա-զարդով-ավազի-գույն-m",
+    "price": 6750,
+    "old_price": null,
+    "name": "Կաշվե վզնոց՝ BE NORDIC, մետաղյա զարդով, ավազի գույն, M",
+    "in_stock": true,
+    "evidence": "Trixie; nemo search by article 17531 returns this page; leather, metal buckle, sand, M 45-51 cm / 20 mm - every axis matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1096,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; only BE NORDIC wide collars S-M 32-45/30mm and M-L 40-60/38mm (different model)"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/կաշվե-վզնոց-be-nordic-մետաղյա-զարդով-մոխրագույն-s",
+    "price": 4950,
+    "old_price": null,
+    "name": "Կաշվե վզնոց՝ BE NORDIC, մետաղյա զարդով, մոխրագույն, S",
+    "in_stock": true,
+    "evidence": "Trixie; nemo search by article 17510 returns this page; leather, grey, S 35–41 cm / 15 mm - every axis matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1098,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Trixie Rustic leather collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; nearest: 'Վզնոց՝ բնական կաշվից, մուգ շագանակագույն' 10700 - greased leather with rivets, dark brown, but S–M 34–40 cm/30 mm (ours M 38–47 cm/40 mm)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1099,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Trixie Rustic/Heartbeat leather collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-բնական-կաշվից-վզնոց-շների-համար",
+    "price": 7100,
+    "old_price": null,
+    "name": "Trixie, բնական կաշվից վզնոց շների համար",
+    "in_stock": true,
+    "evidence": "nemo search by article 18984 returns this page; Trixie natural leather collar S–M 34–40 cm/30 mm, black - every axis matches the hafo row."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1284,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Trixie Rustic/Heartbeat leather collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-բնական-կաշվից-վզնոց-շների-համար-m",
+    "price": 8400,
+    "old_price": null,
+    "name": "Trixie, բնական կաշվից վզնոց շների համար, M",
+    "in_stock": true,
+    "evidence": "nemo search by article 18985 returns this page; Trixie natural leather M 38–47 cm/40 mm, black - every axis matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1285,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Trixie Rustic/Heartbeat leather collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-բնական-կաշվից-վզնոց-շների-համար-m-բաց-շագանակագույն",
+    "price": 8400,
+    "old_price": null,
+    "name": "Trixie, բնական կաշվից վզնոց շների համար՝ M, բաց շագանակագույն",
+    "in_stock": true,
+    "evidence": "nemo search by article 19015 returns this page; Trixie natural leather with metal decoration, M 38–47 cm/40 mm, colour 'light brown' (Trixie's brown version of black 18985; nemo's dark-brown rivet collar is a separate listing). Size, model and article match; colour wording differs slightly."
+   },
+   "confidence": "medium"
+  },
+  {
+   "variant_id": 1241,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Trixie Rustic leather collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-բնական-կաշվից-վզնոց-շների-համար-m-շագանակագույն",
+    "price": 5200,
+    "old_price": null,
+    "name": "Trixie, բնական կաշվից վզնոց շների համար, M, շագանակագույն",
+    "in_stock": true,
+    "evidence": "nemo search by article 19006 returns this page; Trixie natural leather M 37–44 cm/25 mm, brown with metal decoration - matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1242,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Trixie Rustic leather collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-բնական-կաշվից-վզնոց-շների-համար-m-l-շագանակագույն",
+    "price": 5700,
+    "old_price": null,
+    "name": "Trixie, բնական կաշվից վզնոց շների համար, M-L, շագանակագույն",
+    "in_stock": true,
+    "evidence": "nemo search by article 19007 returns this page; M–L 42–48 cm/25 mm, brown, metal decoration - matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1243,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Trixie Rustic leather collar on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/trixie-բնական-կաշվից-վզնոց-շների-համար-l-շագանակագույն",
+    "price": 6700,
+    "old_price": null,
+    "name": "Trixie, բնական կաշվից վզնոց շների համար, L, շագանակագույն",
+    "in_stock": true,
+    "evidence": "nemo search by article 19008 returns this page; L 48–56 cm/30 mm, brown, metal decoration - matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1106,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Active Comfort rhinestone collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Active Comfort rhinestone collar; nearest: Trixie 'Երկշերտ կաշվե վզնոց քարերով' 57-66 cm/45 mm black (14950) - other model/size."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1286,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Active Comfort rhinestone collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Active Comfort rhinestone collar; nearest: Trixie 'Երկշերտ կաշվե վզնոց քարերով' 57-66 cm/45 mm black (14950)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1287,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no Active Comfort rhinestone collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no Active Comfort rhinestone collar; nearest: Trixie 'Երկշերտ կաշվե վզնոց քարերով' 57-66 cm/45 mm black (14950)."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1109,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no CityStyle lead on zoovet"
+   },
+   "nemo": {
+    "found": true,
+    "url": "https://www.nemo.am/citystyle-բամբակյա-կարգավորվող-ձգափոկ-շների-համար",
+    "price": 7350,
+    "old_price": null,
+    "name": "CityStyle, բամբակյա կարգավորվող ձգափոկ շների համար",
+    "in_stock": true,
+    "evidence": "nemo search by article 1970001 returns this page; CityStyle adjustable cotton lead, black, S-M 1.20 m / 13 mm - every axis matches."
+   },
+   "confidence": "high"
+  },
+  {
+   "variant_id": 1323,
+   "zoovet": {
+    "found": false,
+    "evidence": "zoovet: searched Trixie brand list + live search (ошейник/шлейка/поводок, Silver Reflect, светоотраж, Flash/светящ/USB, цепь, Comfort, Nordic, кож/Rustic, стразы, CityStyle), the article code and EAN; no CityStyle collar on zoovet"
+   },
+   "nemo": {
+    "found": false,
+    "evidence": "nemo: searched article code, EAN, live search (Silver Reflect, Reflect, Flash, լուսավորվող, Comfort Soft, շլեյկա, լանջափոկ, ձգափոկ, վզնոց, վզկապ, կաշվից, կաշվե, քարերով, CityStyle, BE NORDIC, նարնջագույն, մետաղական ձգափոկ, նեոպրեն) and the Trixie list; no CityStyle collar; only the CityStyle lead, toys and carrier bag."
+   },
+   "confidence": "high"
+  }
+ ]
+}
