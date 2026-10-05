@@ -10996,11 +10996,12 @@
    "accepted": true
   },
   "live": false,
-  "product_id": null,
+  "product_id": 1137,
   "product": null,
   "slug": null,
-  "variant_id": null,
-  "variant": null
+  "variant_id": 1622,
+  "variant": null,
+  "note": "NOT a missing product: article 703823 is the renumbered code for Mnyams tuna & shrimp puree, already live as variant 1622 under the older sku 540693 (hafo lists both codes separately, both 1100, EANs 4610011703829 and 4620202540690). Consider updating variant 1622 sku 540693 -> 703823."
  },
  {
   "reg_no": "00470",
@@ -21737,11 +21738,12 @@
   "code_from": "exact-name",
   "hafo": null,
   "live": false,
-  "product_id": null,
+  "product_id": 1340,
   "product": null,
   "slug": null,
-  "variant_id": null,
-  "variant": null
+  "variant_id": 2078,
+  "variant": null,
+  "note": "imported 2026-10-05 as a new product (Trixie article 41590 \"Collar, Reflecting\", EAN 4011905692487 confirmed on trixie.de); price 1600 from the cost-1000 Batik collar sibling"
  },
  {
   "reg_no": "00965",

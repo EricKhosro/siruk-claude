@@ -16,6 +16,16 @@ CLAUDE.md as usual. Notes for this batch:
    records.
 2. **Price.** `Sale Price (AMD)` is empty on purpose: price every row from
    hafo, then zoovet/nemo by name, then the sibling rule (CLAUDE.md 2–2b).
+   - **Three are already sourced** (2026-10-05, `state/armsoft-extra-prices.csv`,
+     evidence per row): good **0469** → 1,100 and **0471** → 3,050 from hafo by
+     article code; **0962** → 1,600 from its cost-1000 sibling, Siruk variant
+     1025 (Trixie Batik Collar with Bell). Use those, don't re-derive them.
+   - The other 13 were re-checked the same day against hafo (by code, by the
+     whole local catalogue dump and by EAN), zoovet's Trixie list and nemo by
+     name, and none could be priced — see `state/open-items.csv`,
+     area `armsoft prices`, for exactly what each one needs. Note hafo's
+     `2410Tx` hit is a **collision with Tetra `TT 24101`** (aquarium filter),
+     not our Trixie comb.
    - The old register sale prices are not a price source: on 8 rows they
      equal cost, and good 0210's 8,300 is a typo.
    - A row no rival prices goes on `no-hafo-price.csv` for me. Never invent

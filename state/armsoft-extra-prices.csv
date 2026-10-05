@@ -1,0 +1,17 @@
+good_code,unit,price_amd,source,evidence
+0469,001,1100,hafo.am,"hafo SKU 703823 + EAN 4610011703829 + variant name all match the row exactly (hafo-lookup.py --code 703823, price_source variant); all 5 existing Mnyams Cream Treat Purée siblings on Siruk are also 1100"
+0471,001,3050,hafo.am,"hafo SKU 10778S + EAN 4048422107781 + variant name 'Ջլե գնդակներ՝ հավի համով, S, 2 հատ/40 գ' match the row exactly (hafo-lookup.py --code 10778S, price_source variant)"
+0962,001,1600,sibling (rule 2a),"register 00964 (cost 1000) is the colour sibling of register 00965 = Siruk variant 1025 'Trixie Batik Collar with Bell, purple/blue', same cost 1000, priced 1600; it is the only cost-1000 nylon cat collar on Siruk, so no sibling price disagreement"
+0210,001,400,brand comparable (user-approved 2026-10-05),"Club 4 Paws Premium Adult Cat 85 g: the FISH variant Mackerel in Gravy sells at 400 (cost 225, x1.778) while the six meat variants at the same cost sell at 270. User chose 400 on 2026-10-05 because fish carries a premium on this shelf"
+0355,001,220,brand comparable (user-approved 2026-10-05),"all 7 Myau Adult Cat Pouch variants sell at 220 (their cost is 170; ours is 160, so x1.375). Matching the pouch shelf price rather than the strict ratio, which would give 210"
+0462,001,850,brand comparable (user-approved 2026-10-05),"4 of the 5 same-cost (515) Mnyams Crunchy Pillows 60 g sell at 850 (x1.650); the 5th, Healthy Skin & Coat, is 800. User chose 850 on 2026-10-05"
+0463,001,850,brand comparable (user-approved 2026-10-05),4 of the 5 same-cost (515) Mnyams Crunchy Pillows 60 g sell at 850 (x1.650)
+0659,001,2100,brand comparable (user-approved 2026-10-05),"every same-cost (1310) Trixie product sells at 2100 (x1.603): Ball 8 cm, Chicken 14 cm, Dragon 20 cm, Denta Fun Ball. Trixie modal x1.6 on 701 of 792 rows"
+0898,001,2000,brand comparable (user-approved 2026-10-05),"every same-cost (1250) Trixie product sells at 2000 (x1.600): Playing Rope Tugger 35 cm, Hedgehog Ball, Set of Tubes, Squirrel, Cat Collar with Bell nylon patterned"
+0947,001,2100,brand comparable (user-approved 2026-10-05),every same-cost (1310) Trixie product sells at 2100 (x1.603)
+1046,001,2350,brand comparable (user-approved 2026-10-05),"Kaskad is x1.60 on 13 of 14 rows; the SAME collar is 12 mm cost 625 -> 1000 and 35 mm cost 2310 -> 3700. Cross-checked: 2350 is also exactly the hafo price of SKU 00385K, the row our EAN 4605350003853 matched"
+1265,001,1600,brand comparable (user-approved 2026-10-05),"every same-cost (1000) Trixie product sells at 1600 (x1.600): Rope Ring with Tennis Ball, Ball 7 cm, Mouse in display 9 cm"
+1303,001,1600,brand comparable (user-approved 2026-10-05),every same-cost (1000) Trixie product sells at 1600 (x1.600)
+1304,001,1600,brand comparable (user-approved 2026-10-05),every same-cost (1000) Trixie product sells at 1600 (x1.600)
+1340,001,2600,brand comparable (user-approved 2026-10-05),three Beaphar collars at exactly our cost 1675 sell at 2600 (x1.552): VETOshield Bio Band 65 cm and Soft Flea Collar for Cats (Glitter / Sparkle / Reflective). CAVEAT: this rows brand is not confirmed
+1341,001,600,same-line comparable (user-approved 2026-10-05),"the three Monge VetSolution CAT 100 g products already on Siruk - Urinary Struvite, Renal & Oxalate and Recovery - all sell at 600 (cost 470, x1.277). Good 1341 is the same line, species, format and size, so no ratio is needed. Implies its unknown cost is also 470 - CONFIRM"
