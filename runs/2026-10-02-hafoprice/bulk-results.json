@@ -1,0 +1,66 @@
+{
+ "runs/2026-10-02-hafoprice/bulk/01672K.json": {
+  "status": "refused",
+  "errors": "the catalog already has a similar product 1322 Classic Double Leather Collar with Rhinestones — same product → add-variant.sh; FORCE=1 to create anyway"
+ },
+ "runs/2026-10-02-hafoprice/bulk/12625.json": {
+  "status": "created",
+  "id": 1329,
+  "slug": "beaphar-vit-bits",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/208986.json": {
+  "status": "created",
+  "id": 1330,
+  "slug": "derevenskie-lakomstva-tender-goose-slices-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/711536.json": {
+  "status": "created",
+  "id": 1331,
+  "slug": "derevenskie-lakomstva-duck-wedges-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/DL711496.json": {
+  "status": "created",
+  "id": 1332,
+  "slug": "derevenskie-lakomstva-meat-sticks-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/DL711506.json": {
+  "status": "created",
+  "id": 1333,
+  "slug": "derevenskie-lakomstva-breasts-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/DL711516.json": {
+  "status": "created",
+  "id": 1334,
+  "slug": "derevenskie-lakomstva-lamb-medallions-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/DL711546.json": {
+  "status": "created",
+  "id": 1335,
+  "slug": "derevenskie-lakomstva-beef-slices-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/DL711676.json": {
+  "status": "created",
+  "id": 1336,
+  "slug": "derevenskie-lakomstva-rabbit-slices-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/DL711856.json": {
+  "status": "created",
+  "id": 1337,
+  "slug": "derevenskie-lakomstva-rabbit-ears-with-lamb-for-mini-breeds",
+  "read_back": "ok"
+ },
+ "runs/2026-10-02-hafoprice/bulk/DL711866.json": {
+  "status": "created",
+  "id": 1338,
+  "slug": "derevenskie-lakomstva-calcium-bones-for-mini-breeds",
+  "read_back": "ok"
+ }
+}

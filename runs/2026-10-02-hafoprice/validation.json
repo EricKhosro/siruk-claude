@@ -1,0 +1,12 @@
+{
+ "DL711876": {
+  "status": "pass",
+  "fails": [],
+  "warns": [
+   [
+    "R-evidence",
+    "'packaging' = 'Pouch' read off the photo, not the text"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "code": "DL711516",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Lamb Medallions for Mini Breeds",
+ "label": "Lamb 55 g",
+ "existing_id": null,
+ "category_ids": [
+  86
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Lamb",
+   "quote": "Медальоны из ягненка"
+  },
+  "ingredient": {
+   "value": "Lamb",
+   "quote": "Состав: мясо ягненка"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "идеальное лакомство для маленьких собак"
+  },
+  "special-diet": {
+   "value": "No Artificial Colorants",
+   "quote": "Без добавок и красителей"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/99a/6o1fe79yxn7gfrygkothdwhukzbvp392.png",
+  "https://derlak.ru/upload/iblock/d68/v9pkhbc5wv0h0znlbzf629ep19amni7q.png",
+  "https://derlak.ru/upload/iblock/3de/7da91poomprqwgnikb9mlgfo2x8csvm4.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Lamb medallions — a treat for small dogs. Juicy pieces of natural meat that are easy to chew and highly nutritious. A great choice for a healthy, tasty reward. No additives or colourings.",
+  "ingredient_information": "Lamb meat, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 47.30 g, fat 4.12 g, moisture 16.98 g, fibre 0.17 g, ash 5.08 g; energy 226.3 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-dlya-mini-porod-medalony-iz-yagnenka-55g-art-79711519/"
+ },
+ "evidence_file": "cards/DL711516.source.txt"
+}

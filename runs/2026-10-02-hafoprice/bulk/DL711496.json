@@ -1,0 +1,67 @@
+{
+ "name": "Meat Sticks for Mini Breeds",
+ "slug": "derevenskie-lakomstva-meat-sticks-for-mini-breeds",
+ "category_ids": [
+  85
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711496",
+   "name": "Chicken 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "breed-size": [
+     31
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Tender baked chicken meat on a chew: a delicious treat and an engaging toy that keeps your dog busy while you are away. For mini-breed dogs.</p>",
+   "ingredient_information": "<p>Chicken meat, beef rawhide, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 71.9 g, fat 3.08 g, moisture 16.08 g, fibre 0.1 g, ash 2.97 g; energy 315.3 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14917,
+    14920,
+    14923
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Мясные палочки для мини-пород",
+   "variants": {
+    "DL711496": {
+     "about_this_item": "Нежное запечённое куриное мясо на жевательной основе: вкусное лакомство и увлекательная игрушка, которая займёт собаку, пока вас нет дома. Для собак мини-пород.",
+     "ingredient_information": "Мясо курицы, говяжья сыромятная кожа, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 71,9 г, жир 3,08 г, влажность 16,08 г, клетчатка 0,1 г, зола 2,97 г; энергия 315,3 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Մսային ձողիկներ մինի ցեղերի համար",
+   "variants": {
+    "DL711496": {
+     "about_this_item": "Նուրբ թխված հավի միս ծամելու հիմքի վրա՝ համեղ հյուրասիրություն և հետաքրքիր խաղալիք, որը կզբաղեցնի շանը, մինչ դուք տանը չեք։ Մինի ցեղերի շների համար։",
+     "ingredient_information": "Հավի միս, տավարի չմշակված կաշի, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 71,9 գ, ճարպ 3,08 գ, խոնավություն 16,08 գ, թաղանթանյութ 0,1 գ, մոխիր 2,97 գ, էներգիա՝ 315,3 կկալ։"
+    }
+   }
+  }
+ }
+}

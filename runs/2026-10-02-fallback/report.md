@@ -8,9 +8,9 @@ New step used: Google search with the result pages read in the headed Chrome
 
 | | Rows |
 |---|---|
-| Imported now | **12** — 6 new products, 6 variants on live products |
+| Imported now | **13** — 7 new products, 6 variants on live products |
 | Were already live (register never linked them) | 6 — 01365–01368, 01370, 01371 = Trixie 50540/5105/5108/6000/60146/60795 (products 1223–1228), from sirook.pdf 2026-09-28 |
-| Genuinely not importable | **39** — `not-imported.csv` |
+| Genuinely not importable | **38** — `not-imported.csv` |
 
 ### Created / added
 
@@ -27,6 +27,7 @@ New step used: Google search with the result pages read in the headed Chrome
 | 00116 | 10201 | 1110 Beaphar Flea & Tick Collar for Cats (+variant) | 35 cm, green | 2200 | EAN 8711231102013 pages (biostyle, e-zoo.by photo named by EAN) |
 | 00118 | REG00118 | 1110 Beaphar Flea & Tick Collar for Cats (+variant) | 35 cm, blue | 2200 | zoovet.am (confirmed by hand) |
 | 00170 | 63245PCHL | 1327 Pchelodar Cleaning Paw Spray | 125 ml | 1800 | Google → biostyle.biz (art. 1041, EAN 4607145632453); photo eapteka.ru |
+| 00033 | REG00033 | 1328 My Love Junior Dry Dog Food (new brand My Love, 47) | Chicken 11 kg + 1 kg pack | 13000 / 1200 | EAN 4820269143074 pages (e-fresh.gr packshot, emag.ro) — brand created on user approval |
 | 00171 | 63243PCHL | 1326 Pchelodar Antiskolzin Anti-Slip Paw Spray | 125 ml | 2100 | Google → biostyle.biz (art. 1004); photo agrobioprom.ru (maker) |
 
 Prices: the PM's register (rule 2c). Stock 10. en/ru/hy shipped (bulk create / set-translation).

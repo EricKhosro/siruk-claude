@@ -1,0 +1,48 @@
+{
+ "code": "12625",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 30,
+ "name": "Vit Bits",
+ "label": "35 g",
+ "existing_id": null,
+ "category_ids": [
+  91
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "health-feature": {
+   "value": "Vitamins & Minerals",
+   "quote": "crunchy treats filled with delicious multi-vitamin paste"
+  },
+  "lifestage": {
+   "value": "All Lifestages",
+   "quote": "Для кошек и котят с 6-недельного возраста"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://biostyle.biz/upload/iblock/dd4/2qzh0i3zgahz8qy9x8e89ntm9npn170k.png",
+  "https://media.ox.ee/pictures/scaled/568/4389182_800x600.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Beaphar Vit Bits are crunchy cat treats filled with a tasty multi-vitamin paste — a perfect snack for any occasion. They contain added taurine, which supports good eyesight and a healthy heart, and a balanced complex of B vitamins that helps prevent nutrition-related problems such as hair loss, skin problems and a dull coat. For cats and kittens from 6 weeks of age; suitable for pregnant and nursing cats. Contains no GMOs. 35 g (about 75 pieces).",
+  "ingredient_information": "Composition: cereals, milk and milk derivatives, oils and fats, meat and animal derivatives, yeasts, minerals. Analytical constituents: protein 31%, crude fibre 2.8%, fat 10%, ash 3.4%, moisture 9%, calcium 0.15%, phosphorus 0.62%, sodium 0.17%, potassium 0.54%, magnesium 0.13%. Additives per kg: vitamin A 4580 IU, vitamin B1 58 mg, vitamin B2 17 mg, pantothenic acid 2.8 mg, nicotinamide 160 mg, biotin 62 mcg, taurine 660 mg, antioxidants, colourants.",
+  "feeding_instructions": "Give as a preventive supplement or as a reward. Daily: cats under 3 kg — 1–5 pieces; 3–6 kg — 5–10 pieces. Not for animals younger than 6 weeks. Always provide enough fresh drinking water. Store in the closed original pack in a dry place out of reach of children at 15–25 °C."
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://biostyle.biz/catalog/beaphar_12625_podushechki_s_vitaminnoy_pastoy_dlya_koshek_35g_75sht_18sht_kor/",
+  "also": "https://www.pets24.ee/en/product/1572248",
+  "ean": "8711231126255"
+ },
+ "evidence_file": "cards/12625.source.txt",
+ "review_note": "New product (Vit Bits ≠ Malt/Catnip/Cat-a-dent Bits). Both photos are the same EN/RU pack from two shops."
+}

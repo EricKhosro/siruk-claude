@@ -26,8 +26,12 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
   **confirmed** zoovet.am or nemo.am price (rule 2b), then the sibling
   fallback (rule 2a); a row none of those can price goes to
   `runs/<date>/no-hafo-price.csv` and is NOT imported (`reference/pricing.md`).
-  A register price at or below cost is not a price (rule 5) — the row is held
-  and listed.
+  A register price that is blank, at or below cost (rule 5) or a typo-level
+  jump is not a price — but the row is **not** parked for that: it falls back
+  to hafo's variant price, then a confirmed zoovet.am / nemo.am price, then
+  the sibling fallback (user, 2026-10-02; `prepare-run.py` does it and notes
+  the overridden register price). Only a row none of them can price above
+  cost is held and listed.
 - **Exception — the user names a sale-price column up front** ("column X is
   our selling price"): that column is `price` for the run and the whole
   price-lookup chain (register, hafo, zoovet/nemo, sibling) is **skipped** for

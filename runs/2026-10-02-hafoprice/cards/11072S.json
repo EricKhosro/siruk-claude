@@ -1,0 +1,58 @@
+{
+ "code": "11072S",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 31,
+ "name": "Delights Bones Strong",
+ "label": "S, Chicken, 55 g",
+ "existing_id": 1313,
+ "category_ids": [
+  85
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Delicious chicken breast inside"
+  },
+  "health-feature": {
+   "value": "Dental & Breath Care",
+   "quote": "Enhancing dental care due to the natural abrasive action of chewing"
+  },
+  "special-diet": {
+   "value": "Low Fat",
+   "quote": "Low in fat"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "small dogs with a weight between 5 and 10kg"
+  },
+  "size": {
+   "value": "S",
+   "quote": "S չափի"
+  }
+ },
+ "images": [
+  "https://www.8in1.eu/fileadmin/_processed_/d/a/csm_TH32737_9649_f26a6fd2b4.png",
+  "https://www.8in1.eu/fileadmin/_processed_/6/7/csm_TH32737_9652_101c2498f2.png",
+  "https://www.8in1.eu/fileadmin/_processed_/c/7/csm_TH32737_14255_c50c7a62c3.png",
+  "https://www.8in1.eu/fileadmin/_processed_/3/0/csm_TR30286_9632_e3ff95815a.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "8in1 Delights Chicken Bone Strong S is made of tasty beefhide with delicious chicken breast inside and gives strong, long-lasting chewing fun for small dogs weighing 5–10 kg. Its firm consistency makes it an extra-tough chew, ideal for dogs with a particularly strong instinct to chew. While keeping your dog busy, the natural abrasive action of chewing removes tartar and supports dental health. Low in fat, rich in protein, oven baked and free from artificial colours and flavour enhancers, with no added GMOs or gluten. One bone, 55 g.",
+  "ingredient_information": null,
+  "feeding_instructions": "Feed 1 treat over a course of four days. Do not exceed 1 treat in a four day period. Treats should not exceed 10% of your dog's daily caloric intake. Select a chew slightly larger than your pet's mouth. Balance food intake and exercise with this reward snack. Always provide fresh water. Supervise your dog while chewing."
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://www.8in1.eu/en/products/8in1-delights-chicken-bones-strong/S",
+  "ean": "4048422110729",
+  "ean_name_upcitemdb": "8in1 Delights Strong Bone S"
+ },
+ "evidence_file": "cards/11072S.source.txt",
+ "review_note": "Joins 1313 'Delights Bones Strong XS' — rename product to 'Delights Bones Strong' (XS is a variant axis)."
+}

@@ -1,0 +1,65 @@
+{
+ "name": "Vit Bits",
+ "slug": "beaphar-vit-bits",
+ "category_ids": [
+  91
+ ],
+ "brand_id": 30,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "12625",
+   "name": "35 g",
+   "price": 1250.0,
+   "cost_price": 805.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "health-feature": [
+     136
+    ],
+    "lifestage": [
+     29
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Beaphar Vit Bits are crunchy cat treats filled with a tasty multi-vitamin paste — a perfect snack for any occasion. They contain added taurine, which supports good eyesight and a healthy heart, and a balanced complex of B vitamins that helps prevent nutrition-related problems such as hair loss, skin problems and a dull coat. For cats and kittens from 6 weeks of age; suitable for pregnant and nursing cats. Contains no GMOs. 35 g (about 75 pieces).</p>",
+   "ingredient_information": "<p>Composition: cereals, milk and milk derivatives, oils and fats, meat and animal derivatives, yeasts, minerals. Analytical constituents: protein 31%, crude fibre 2.8%, fat 10%, ash 3.4%, moisture 9%, calcium 0.15%, phosphorus 0.62%, sodium 0.17%, potassium 0.54%, magnesium 0.13%. Additives per kg: vitamin A 4580 IU, vitamin B1 58 mg, vitamin B2 17 mg, pantothenic acid 2.8 mg, nicotinamide 160 mg, biotin 62 mcg, taurine 660 mg, antioxidants, colourants.</p>",
+   "feeding_instructions": "<p>Give as a preventive supplement or as a reward. Daily: cats under 3 kg — 1–5 pieces; 3–6 kg — 5–10 pieces. Not for animals younger than 6 weeks. Always provide enough fresh drinking water. Store in the closed original pack in a dry place out of reach of children at 15–25 °C.</p>",
+   "images": [
+    14893,
+    14896
+   ],
+   "measure_type": "mass",
+   "content": 35.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Vit Bits",
+   "variants": {
+    "12625": {
+     "about_this_item": "Beaphar Vit Bits — хрустящие подушечки для кошек со вкусной мультивитаминной пастой внутри, отличное лакомство на любой случай. Содержат таурин, который поддерживает хорошее зрение и здоровое сердце, и сбалансированный комплекс витаминов группы B, помогающий предотвратить проблемы, связанные с питанием: выпадение шерсти, проблемы с кожей и тусклую шерсть. Для кошек и котят с 6 недель; подходит беременным и кормящим кошкам. Не содержит ГМО. 35 г (около 75 подушечек).",
+     "ingredient_information": "Состав: злаки, молоко и молочные продукты, масла и жиры, мясо и продукты животного происхождения, дрожжи, минералы. Аналитические компоненты: белок 31%, сырая клетчатка 2,8%, жир 10%, зола 3,4%, влажность 9%, кальций 0,15%, фосфор 0,62%, натрий 0,17%, калий 0,54%, магний 0,13%. Добавки на кг: витамин A 4580 МЕ, витамин B1 58 мг, витамин B2 17 мг, пантотеновая кислота 2,8 мг, никотинамид 160 мг, биотин 62 мкг, таурин 660 мг, антиоксиданты, красители.",
+     "feeding_instructions": "Давайте в качестве профилактической добавки или поощрения. В день: кошкам до 3 кг — 1–5 подушечек; 3–6 кг — 5–10 подушечек. Не для животных младше 6 недель. Всегда обеспечивайте достаточно свежей питьевой воды. Хранить в закрытой оригинальной упаковке в сухом месте, недоступном для детей, при 15–25 °C."
+    }
+   }
+  },
+  "hy": {
+   "name": "Vit Bits",
+   "variants": {
+    "12625": {
+     "about_this_item": "Beaphar Vit Bits-ը խրթխրթան բարձիկներ են կատուների համար՝ ներսում համեղ բազմավիտամինային մածուկով, հիանալի հյուրասիրություն ցանկացած առիթի համար։ Պարունակում են տաուրին, որն աջակցում է լավ տեսողությանը և սրտի առողջությանը, և B խմբի վիտամինների հավասարակշռված համալիր, որն օգնում է կանխել սնուցման հետ կապված խնդիրները՝ մազաթափություն, մաշկի խնդիրներ և անփայլ բուրդ։ Կատուների և 6 շաբաթականից ձագերի համար, հարմար է հղի և կերակրող կատուներին։ Չի պարունակում ԳՁՕ։ 35 գ (մոտ 75 բարձիկ)։",
+     "ingredient_information": "Բաղադրություն՝ հացահատիկներ, կաթ և կաթնամթերք, յուղեր և ճարպեր, միս և կենդանական ծագման մթերքներ, խմորիչ, հանքանյութեր։ Վերլուծական բաղադրիչներ՝ սպիտակուց 31%, հում թաղանթանյութ 2,8%, ճարպ 10%, մոխիր 3,4%, խոնավություն 9%, կալցիում 0,15%, ֆոսֆոր 0,62%, նատրիում 0,17%, կալիում 0,54%, մագնեզիում 0,13%։ Հավելումներ 1 կգ-ում՝ վիտամին A 4580 ՄՄ, վիտամին B1 58 մգ, վիտամին B2 17 մգ, պանտոտենաթթու 2,8 մգ, նիկոտինամիդ 160 մգ, բիոտին 62 մկգ, տաուրին 660 մգ, հակաօքսիդանտներ, ներկանյութեր։",
+     "feeding_instructions": "Տվեք որպես կանխարգելիչ հավելում կամ խրախուսանք։ Օրական՝ մինչև 3 կգ կատուներին՝ 1–5 բարձիկ, 3–6 կգ՝ 5–10 բարձիկ։ Նախատեսված չէ 6 շաբաթականից փոքր կենդանիների համար։ Միշտ ապահովեք բավարար թարմ խմելու ջուր։ Պահել փակ օրիգինալ փաթեթավորմամբ, չոր, երեխաների համար անհասանելի տեղում, 15–25 °C ջերմաստիճանում։"
+    }
+   }
+  }
+ }
+}

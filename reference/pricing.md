@@ -35,11 +35,26 @@ never read a sale price from it.** The text below is kept for history only.
 The PM's register `csv/Product.numbers` ("Ապրանքների մնացորդներ") now carries
 `Վաճառքի գին` on every row, and the user's rule is that **our price must match
 that column**. So the order is: register → hafo (cross-check, and the price
-where the register is blank) → confirmed zoovet → sibling fallback. Two
+where the register is blank) → confirmed zoovet / nemo → sibling fallback. Two
 guards stay: a register price at or below the row's cost is not written (rule
 5; 69 rows on 2026-09-16 had the cost typed in the sale column) and a jump of
 ≥ 2.5× cost **and** ≥ 2× the current price is held as SUSPECT (a 150 g paté
-at 9,600; a 85 g pouch at 8,300). `scripts/register-price-sync.py` applies the
+at 9,600; a 85 g pouch at 8,300).
+
+**A register price that is missing or fails a guard falls back down the
+chain** (user, 2026-10-02) — it is not a reason to leave the row out:
+hafo's `variant` price for the exact article → a hand-confirmed zoovet.am or
+nemo.am price (by name, every axis matching, rule 2b) → the sibling fallback →
+only then `holds.csv` / `not-imported.csv` for the user. The fallback price
+must beat cost (rule 5) and is itself sanity-checked: hafo's row is not used
+when its brand differs from the row's, or when it is ≥ 2.5× cost and ≥ 2× the
+register (or ≥ 5× cost) — a wrong-row hit (2410Tx, a Trixie comb, matched a
+Tetra filter at 104,500). `scripts/prepare-run.py` does this for new rows and
+writes the reason in the row's notes ("… — hafo's 1550 used instead (rule 2c
+fallback)"); a row hafo can't price goes `needs-price` and the worker tries
+zoovet/nemo. The report lists every row priced this way so the PM sees which
+register prices were overridden. `scripts/register-price-sync.py` (live
+variants) applies the register where it passes the guards and logs the
 rest and logs everything in `runs/<date>/price-sync.csv`. Where a `Kg` rate is
 given the bag is also sold loose; the per-kilo twin variant that used to carry
 it (`make-perkg-twin.py`) is retired with the `per_kg` pricing type

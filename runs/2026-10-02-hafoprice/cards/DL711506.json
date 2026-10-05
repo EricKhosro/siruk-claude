@@ -1,0 +1,54 @@
+{
+ "code": "DL711506",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Breasts for Mini Breeds",
+ "label": "Chicken 55 g",
+ "existing_id": null,
+ "category_ids": [
+  86
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Грудки куриные"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "Состав: куриное филе"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "идеальное лакомство для собак мини-пород"
+  },
+  "special-diet": {
+   "value": "No Artificial Colorants",
+   "quote": "Без добавок и красителей"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/44f/6ewovkvgr9rzfy2942u4w2j60z52a9ws.png",
+  "https://derlak.ru/upload/iblock/cfe/nklvbaxeolf00ywjbgdlj79yx5acrd8r.png",
+  "https://derlak.ru/upload/iblock/e44/0kxpu8ie9s8jr2b03cggkphl8gw8b3fj.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Baked chicken breasts — a treat made for mini-breed dogs from selected chicken fillet. A natural product, great for rewarding and distracting your pet. No additives or colourings.",
+  "ingredient_information": "Chicken fillet, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 62 g, fat 2.5 g, moisture 15.42 g, fibre 0.54 g, ash 3.78 g; energy 233.7 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-dlya-mini-porod-grudki-kurinye-55g-art-79711502/"
+ },
+ "evidence_file": "cards/DL711506.source.txt"
+}

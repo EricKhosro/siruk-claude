@@ -28,9 +28,13 @@ Routes:
 Price chain (CLAUDE.md rules 1, 2, 2c, 3, 5): the user-named sale column (only with
 --sale-column) > the PM's register (state/register/register-status.json) > hafo's own
 variant row (price_source "variant"). Never the listing price, never arithmetic.
-A register price at/below cost holds the row (rule 2c/5); a register price >= 2.5x cost
-AND >= 2x the hafo price is held as SUSPECT (the rule's "2x current" — a new row has no
-current price, so hafo's stands in; with no hafo price either, >= 2.5x cost alone holds it).
+A register price at/below cost is not used (rule 2c/5); nor is a register price >= 2.5x cost
+AND >= 2x the hafo price (SUSPECT — the rule's "2x current": a new row has no current price,
+so hafo's stands in; with no hafo price either, >= 2.5x cost alone sets it aside).
+A register price that is missing or set aside falls back to hafo's variant price for the
+exact code (user 2026-10-02); with no hafo price the row goes needs-price, and the worker
+tries a confirmed zoovet.am / nemo.am price by name (rule 2b). Only a row no source can price
+above cost is held.
 An unnamed filled `Sale Price (AMD)` column is
 recorded (`csv_sale_unnamed`) but never used.
 """
@@ -289,23 +293,43 @@ def main():
         price, source = None, None
         if a.sale_column:
             price, source = num(r.get(a.sale_column)), "user-column"
+        reg_held = None  # why the register price was not used (rule 2c guards)
         if price is None and reg_price is not None:
             if cost is not None and reg_price <= cost:
-                rec.update(route="hold", hold_reason=f"register price {reg_price:g} <= cost {cost:g} "
-                           f"(rule 5; hafo has {hafo_price or 'none'})")
+                reg_held = f"register price {reg_price:g} <= cost {cost:g} (rule 5)"
             elif cost and hafo_price and reg_price >= 2.5 * cost and reg_price >= 2 * hafo_price:
-                rec.update(route="hold", hold_reason=f"SUSPECT register {reg_price:g}: "
-                           f"{reg_price / cost:.1f}x cost, {reg_price / hafo_price:.1f}x hafo {hafo_price:g}")
+                reg_held = (f"SUSPECT register {reg_price:g}: "
+                            f"{reg_price / cost:.1f}x cost, {reg_price / hafo_price:.1f}x hafo {hafo_price:g}")
             elif cost and not hafo_price and reg_price >= 2.5 * cost:
                 # rule 2c's second test ("2x current") has nothing to compare against on a
-                # new row hafo can't price — hold rather than trust a 2.5x+ jump blind
+                # new row hafo can't price — don't trust a 2.5x+ jump blind
                 # (the 85 g pouch at 8,300 against a 225 cost was exactly this)
-                rec.update(route="hold", hold_reason=f"SUSPECT register {reg_price:g}: "
-                           f"{reg_price / cost:.1f}x cost and no hafo price to cross-check")
+                reg_held = (f"SUSPECT register {reg_price:g}: "
+                            f"{reg_price / cost:.1f}x cost and no hafo price to cross-check")
             else:
                 price, source = reg_price, "register"
-        if price is None and "route" not in rec and hafo_price:
+        # Register missing or held (user 2026-10-02): hafo's confirmed variant price for the
+        # exact code is the fallback; with none, the worker tries a confirmed zoovet/nemo
+        # price (route needs-price) — never arithmetic.
+        hafo_bad = None  # a hafo price the fallback must not take
+        if hafo_price and reg_held:
+            hp = float(hafo_price)
+            if bid_hafo and bid_csv and bid_hafo != bid_csv:
+                hafo_bad = f"hafo's row is another brand ({h.get('brand')}) — its {hp:g} is not this item's"
+            elif cost and reg_price and reg_price > cost and hp >= 2.5 * cost and hp >= 2 * reg_price:
+                hafo_bad = f"hafo {hp:g} is {hp / cost:.1f}x cost and {hp / reg_price:.1f}x the register — wrong row?"
+            elif cost and hp >= 5 * cost:
+                hafo_bad = f"hafo {hp:g} is {hp / cost:.1f}x cost — wrong row?"
+        if price is None and hafo_price and not hafo_bad and (cost is None or float(hafo_price) > cost):
             price, source = float(hafo_price), "hafo"
+            if reg_held:
+                rec["notes"].append(f"{reg_held} — hafo's {float(hafo_price):g} used instead (rule 2c fallback)")
+        elif price is None and reg_held:
+            if hafo_bad:
+                reg_held = f"{reg_held}; {hafo_bad}"
+            rec["notes"].append(f"{reg_held} — no hafo price either: try a confirmed zoovet/nemo price")
+            rec["why_no_price"] = reg_held
+            rec["route"] = "needs-price"
         if reg_price and hafo_price and abs(reg_price - hafo_price) / hafo_price > 0.25:
             rec["notes"].append(f"register {reg_price:g} vs hafo {hafo_price:g} differ >25% — pack size?")
         rec["price"] = {"amount": price, "source": source, "hafo": hafo_price, "register": reg_price}

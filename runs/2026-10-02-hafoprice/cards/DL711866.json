@@ -1,0 +1,50 @@
+{
+ "code": "DL711866",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Calcium Bones for Mini Breeds",
+ "label": "Chicken 55 g",
+ "existing_id": null,
+ "category_ids": [
+  82
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Chicken",
+   "quote": "кусочки куриного филе"
+  },
+  "ingredient": {
+   "value": "Chicken",
+   "quote": "Состав: филе курицы"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "Любимое угощение собак мини-пород"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/976/mid8b28rduln0tdmrojuoqmihnkr8w25.png",
+  "https://derlak.ru/upload/iblock/f6b/ea221r58020t9c0cu474dhk1s27cl694.png",
+  "https://derlak.ru/upload/iblock/07d/l2pp3vz6pyy0lsfb1hwq1qxk912p9eyo.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "A favourite treat of mini-breed dogs: a wholesome calcium bone with pieces of chicken fillet, made especially for the most pampered pets.",
+  "ingredient_information": "Chicken fillet, calcium bone, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 26%, fat 2.5%, moisture 18%, fibre 0.2%, ash 3.5%; energy 280 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-dlya-mini-porod-kaltsievaya-kostochka-s-kuritsey-55g-art-79711861/"
+ },
+ "evidence_file": "cards/DL711866.source.txt"
+}

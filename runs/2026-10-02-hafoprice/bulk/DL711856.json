@@ -1,0 +1,67 @@
+{
+ "name": "Rabbit Ears with Lamb for Mini Breeds",
+ "slug": "derevenskie-lakomstva-rabbit-ears-with-lamb-for-mini-breeds",
+ "category_ids": [
+  82
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711856",
+   "name": "Lamb 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     40
+    ],
+    "ingredient": [
+     476
+    ],
+    "breed-size": [
+     31
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Crunchy rabbit ears combined with tender lamb meat: a treat any dog will enjoy that also makes it work a little. Well suited to mini-breed dogs.</p>",
+   "ingredient_information": "<p>Lamb meat, rabbit ears, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 38%, fat 5%, moisture 18%, fibre 0.2%, ash 5%; energy 325 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14962,
+    14965,
+    14968
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Уши кроличьи с ягнёнком для мини-пород",
+   "variants": {
+    "DL711856": {
+     "about_this_item": "Хрустящие кроличьи ушки в сочетании с нежным мясом ягнёнка: лакомство, которое понравится любой собаке и заставит её немного потрудиться. Хорошо подходит собакам мини-пород.",
+     "ingredient_information": "Мясо ягнёнка, кроличьи уши, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 38%, жир 5%, влажность 18%, клетчатка 0,2%, зола 5%; энергия 325 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ճագարի ականջներ գառան մսով մինի ցեղերի համար",
+   "variants": {
+    "DL711856": {
+     "about_this_item": "Խրթխրթան ճագարի ականջներ՝ նուրբ գառան մսի հետ համադրությամբ. հյուրասիրություն, որը դուր կգա ցանկացած շան և կստիպի նրան մի փոքր աշխատել։ Լավ է համապատասխանում մինի ցեղերի շներին։",
+     "ingredient_information": "Գառան միս, ճագարի ականջներ, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 38%, ճարպ 5%, խոնավություն 18%, թաղանթանյութ 0,2%, մոխիր 5%, էներգիա՝ 325 կկալ։"
+    }
+   }
+  }
+ }
+}

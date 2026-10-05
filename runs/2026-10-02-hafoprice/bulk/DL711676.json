@@ -1,0 +1,73 @@
+{
+ "name": "Rabbit Slices for Mini Breeds",
+ "slug": "derevenskie-lakomstva-rabbit-slices-for-mini-breeds",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711676",
+   "name": "Rabbit 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     52
+    ],
+    "ingredient": [
+     485
+    ],
+    "breed-size": [
+     31
+    ],
+    "special-diet": [
+     100
+    ],
+    "health-feature": [
+     130
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Dietary slices of tender rabbit meat for small-breed dogs. Easily digested, hypoallergenic and with a delicate taste — ideal for pets with sensitive digestion or a tendency to allergic reactions, and for owners who value natural, high-quality food.</p>",
+   "ingredient_information": "<p>Rabbit meat, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 42 g, fat 3.5 g, moisture 23 g, fibre 0.2 g, ash 3.5 g; energy 245 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14953,
+    14956,
+    14959
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Ломтики крольчатины для мини-пород",
+   "variants": {
+    "DL711676": {
+     "about_this_item": "Диетические ломтики из нежнейшей крольчатины для собак мелких пород. Легко усваиваются, гипоаллергенны и обладают деликатным вкусом — идеальны для питомцев с чувствительным пищеварением или склонностью к аллергическим реакциям и для владельцев, которые ценят натуральный качественный корм.",
+     "ingredient_information": "Мясо кролика, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 42 г, жир 3,5 г, влажность 23 г, клетчатка 0,2 г, зола 3,5 г; энергия 245 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Ճագարի մսի շերտեր մինի ցեղերի համար",
+   "variants": {
+    "DL711676": {
+     "about_this_item": "Նուրբ ճագարի մսից դիետիկ շերտեր փոքր ցեղերի շների համար։ Հեշտ են մարսվում, հիպոալերգիկ են և ունեն նուրբ համ՝ իդեալական են զգայուն մարսողությամբ կամ ալերգիկ ռեակցիաների հակված կենդանիների համար, ինչպես նաև այն տերերի համար, ովքեր գնահատում են բնական և որակյալ կերը։",
+     "ingredient_information": "Ճագարի միս, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 42 գ, ճարպ 3,5 գ, խոնավություն 23 գ, թաղանթանյութ 0,2 գ, մոխիր 3,5 գ, էներգիա՝ 245 կկալ։"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "name": "Lamb Medallions for Mini Breeds",
+ "slug": "derevenskie-lakomstva-lamb-medallions-for-mini-breeds",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711516",
+   "name": "Lamb 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     40
+    ],
+    "ingredient": [
+     476
+    ],
+    "breed-size": [
+     31
+    ],
+    "special-diet": [
+     86
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Lamb medallions — a treat for small dogs. Juicy pieces of natural meat that are easy to chew and highly nutritious. A great choice for a healthy, tasty reward. No additives or colourings.</p>",
+   "ingredient_information": "<p>Lamb meat, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 47.30 g, fat 4.12 g, moisture 16.98 g, fibre 0.17 g, ash 5.08 g; energy 226.3 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14935,
+    14938,
+    14941
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Медальоны из ягнёнка для мини-пород",
+   "variants": {
+    "DL711516": {
+     "about_this_item": "Медальоны из ягнёнка — лакомство для маленьких собак. Сочные кусочки натурального мяса легко жевать, они очень питательны. Отличный выбор для полезного и вкусного поощрения. Без добавок и красителей.",
+     "ingredient_information": "Мясо ягнёнка, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 47,30 г, жир 4,12 г, влажность 16,98 г, клетчатка 0,17 г, зола 5,08 г; энергия 226,3 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Գառան մսով մեդալյոններ մինի ցեղերի համար",
+   "variants": {
+    "DL711516": {
+     "about_this_item": "Գառան մսով մեդալյոններ՝ հյուրասիրություն փոքր շների համար։ Բնական մսի հյութալի կտորները հեշտ է ծամել, և դրանք շատ սննդարար են։ Հիանալի ընտրություն օգտակար և համեղ խրախուսանքի համար։ Առանց հավելումների և ներկանյութերի։",
+     "ingredient_information": "Գառան միս, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 47,30 գ, ճարպ 4,12 գ, խոնավություն 16,98 գ, թաղանթանյութ 0,17 գ, մոխիր 5,08 գ, էներգիա՝ 226,3 կկալ։"
+    }
+   }
+  }
+ }
+}

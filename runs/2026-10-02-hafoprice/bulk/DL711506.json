@@ -1,0 +1,70 @@
+{
+ "name": "Breasts for Mini Breeds",
+ "slug": "derevenskie-lakomstva-breasts-for-mini-breeds",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711506",
+   "name": "Chicken 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "breed-size": [
+     31
+    ],
+    "special-diet": [
+     86
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Baked chicken breasts — a treat made for mini-breed dogs from selected chicken fillet. A natural product, great for rewarding and distracting your pet. No additives or colourings.</p>",
+   "ingredient_information": "<p>Chicken fillet, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 62 g, fat 2.5 g, moisture 15.42 g, fibre 0.54 g, ash 3.78 g; energy 233.7 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14926,
+    14929,
+    14932
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Грудки для мини-пород",
+   "variants": {
+    "DL711506": {
+     "about_this_item": "Запечённые куриные грудки — лакомство для собак мини-пород из отборного куриного филе. Натуральный продукт, отлично подходит для поощрения и отвлечения питомца. Без добавок и красителей.",
+     "ingredient_information": "Куриное филе, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 62 г, жир 2,5 г, влажность 15,42 г, клетчатка 0,54 г, зола 3,78 г; энергия 233,7 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կրծքամիս մինի ցեղերի համար",
+   "variants": {
+    "DL711506": {
+     "about_this_item": "Թխված հավի կրծքամիս՝ հյուրասիրություն մինի ցեղերի շների համար՝ ընտիր հավի ֆիլեից։ Բնական արտադրանք, հիանալի է կենդանուն խրախուսելու և շեղելու համար։ Առանց հավելումների և ներկանյութերի։",
+     "ingredient_information": "Հավի ֆիլե, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 62 գ, ճարպ 2,5 գ, խոնավություն 15,42 գ, թաղանթանյութ 0,54 գ, մոխիր 3,78 գ, էներգիա՝ 233,7 կկալ։"
+    }
+   }
+  }
+ }
+}

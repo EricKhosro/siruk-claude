@@ -1,0 +1,50 @@
+{
+ "code": "DL711876",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Calcium Bones for Mini Breeds",
+ "label": "Duck 55 g",
+ "existing_id": 1338,
+ "category_ids": [
+  82
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Duck",
+   "quote": "кусочками утиного филе"
+  },
+  "ingredient": {
+   "value": "Duck",
+   "quote": "Состав: утиное филе"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "Восхитительное лакомство для миниатюрных гурманов"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/ae3/mul2jr9whjmssr8l859ombc0lm1tdaxd.png",
+  "https://derlak.ru/upload/iblock/1b8/gsb4jj0pta052hk36pz2xi8525p8ssu9.png",
+  "https://derlak.ru/upload/iblock/bdf/yo9z16lwwiivgxqoj8tg1z2uy3mgzznr.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "A calcium bone with tender pieces of duck fillet for miniature-breed dogs, combining great taste with real benefit.",
+  "ingredient_information": "Duck fillet, calcium bone (rice, corn starch, potato starch, vegetable protein, calcium phosphate, flour). Guaranteed analysis per 100 g: protein 25%, fat 2.5%, moisture 18%, fibre 0.2%, ash 3.5%; energy 266 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-dlya-mini-porod-kaltsievaya-kostochka-s-utkoy-55g-art-79711878/"
+ },
+ "evidence_file": "cards/DL711876.source.txt"
+}

@@ -1,0 +1,70 @@
+{
+ "name": "Beef Slices for Mini Breeds",
+ "slug": "derevenskie-lakomstva-beef-slices-for-mini-breeds",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711546",
+   "name": "Beef 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     37
+    ],
+    "ingredient": [
+     450
+    ],
+    "breed-size": [
+     31
+    ],
+    "special-diet": [
+     86
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>Slices of tender beef for mini-breed dogs — a traditional treat with a great taste, ideal as a reward and for training. Suited to small gourmets who appreciate natural ingredients and a rich meaty aroma. No additives or colourings.</p>",
+   "ingredient_information": "<p>Beef, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 44 g, fat 5.6 g, moisture 23 g, fibre 0.1 g, ash 5.5 g; energy 226.4 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14944,
+    14947,
+    14950
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Нарезка говядины для мини-пород",
+   "variants": {
+    "DL711546": {
+     "about_this_item": "Нарезка из нежнейшей говядины для собак мини-пород — традиционное лакомство с прекрасным вкусом, идеальное для поощрения и дрессировки. Подойдёт маленьким гурманам, ценящим натуральные ингредиенты и насыщенный мясной аромат. Без добавок и красителей.",
+     "ingredient_information": "Говядина, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 44 г, жир 5,6 г, влажность 23 г, клетчатка 0,1 г, зола 5,5 г; энергия 226,4 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Տավարի մսի կտորներ մինի ցեղերի համար",
+   "variants": {
+    "DL711546": {
+     "about_this_item": "Նուրբ տավարի մսի կտորներ մինի ցեղերի շների համար՝ ավանդական հյուրասիրություն հիանալի համով, իդեալական խրախուսանքի և վարժեցման համար։ Կհամապատասխանի փոքրիկ գուրմաններին, ովքեր գնահատում են բնական բաղադրիչներն ու մսի հարուստ բույրը։ Առանց հավելումների և ներկանյութերի։",
+     "ingredient_information": "Տավարի միս, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 44 գ, ճարպ 5,6 գ, խոնավություն 23 գ, թաղանթանյութ 0,1 գ, մոխիր 5,5 գ, էներգիա՝ 226,4 կկալ։"
+    }
+   }
+  }
+ }
+}

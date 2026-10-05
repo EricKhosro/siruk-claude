@@ -1,0 +1,73 @@
+{
+ "name": "Tender Goose Slices for Mini Breeds",
+ "slug": "derevenskie-lakomstva-tender-goose-slices-for-mini-breeds",
+ "category_ids": [
+  86
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "208986",
+   "name": "Goose 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     424
+    ],
+    "ingredient": [
+     469
+    ],
+    "breed-size": [
+     31
+    ],
+    "special-diet": [
+     86
+    ],
+    "health-feature": [
+     104
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>A meat delicacy made specially for mini-breed dogs: perfectly sized pieces of selected meat with goose, prepared without added colourings or preservatives. Tender poultry meat to help whet your little hunter's appetite.</p>",
+   "ingredient_information": "<p>Duck meat, goose meat, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 28 g, fat 11 g, moisture 21 g, fibre 1 g, ash 5 g; energy 331 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14899,
+    14902,
+    14905
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Нежная нарезка с гусем для мини-пород",
+   "variants": {
+    "208986": {
+     "about_this_item": "Мясной деликатес, изготовленный специально для собак мини-пород: кусочки отборного мяса с гусем идеального размера, приготовленные без добавления красителей и консервантов. Нежное мясо птицы разбудит аппетит вашего маленького охотника.",
+     "ingredient_information": "Мясо утки, мясо гуся, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 28 г, жир 11 г, влажность 21 г, клетчатка 1 г, зола 5 г; энергия 331 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Սագի մսով նուրբ կտորներ մինի ցեղերի համար",
+   "variants": {
+    "208986": {
+     "about_this_item": "Մսային դելիկատես՝ պատրաստված հատուկ մինի ցեղերի շների համար. ընտիր մսի կատարյալ չափի կտորներ սագի մսով, առանց ներկանյութերի և կոնսերվանտների։ Թռչնի նուրբ միսը կարթնացնի ձեր փոքրիկ որսորդի ախորժակը։",
+     "ingredient_information": "Բադի միս, սագի միս, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 28 գ, ճարպ 11 գ, խոնավություն 21 գ, թաղանթանյութ 1 գ, մոխիր 5 գ, էներգիա՝ 331 կկալ։"
+    }
+   }
+  }
+ }
+}

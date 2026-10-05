@@ -1,0 +1,60 @@
+{
+ "code": "REG00033",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "dry-food",
+ "brand_id": 47,
+ "name": "Junior Dry Dog Food",
+ "label": "Chicken 11 kg",
+ "existing_id": null,
+ "category_ids": [
+  3
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "lifestage": {
+   "value": "Puppy",
+   "quote": "For junior dogs over 4 months old"
+  },
+  "flavor": {
+   "value": "Chicken",
+   "quote": "Pui deshidratat 29%"
+  },
+  "ingredient": {
+   "value": "Chicken Meal",
+   "quote": "Pui deshidratat 29%"
+  },
+  "health-feature": {
+   "value": "Skin & Coat Health",
+   "quote": "for healthy skin and a shiny coat"
+  },
+  "special-diet": {
+   "value": "With Grain",
+   "quote": "Porumb"
+  },
+  "packaging": {
+   "value": "Bag",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://www.e-fresh.gr/storage/media/catalog/products/460/1/4600001241/71ml1004.jpg",
+  "https://s13emagst.akamaized.net/products/110266/110265613/images/res_6e564ef96eb008a405b1aab2df0e2d02.jpg"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "My Love Junior is a complete, balanced dry food for puppies and junior dogs from 4 to 15 months, with all the vitamins, proteins, fats and carbohydrates a growing dog needs.\n- Optimal protein-to-fat ratio for active young dogs\n- Calcium and phosphorus with vitamin D3 for healthy bones and a strong skeleton\n- Omega-6 fatty acids with vitamins E, B1, B2, B6, B12, B5 and zinc for healthy skin and a shiny coat\n- Free of artificial flavourings and colourings",
+  "ingredient_information": "Composition: maize, dehydrated chicken protein 29%, wheat, chicken fat, hydrolysed chicken protein, sunflower oil, minerals, linseed, sugar beet pulp, salmon oil, brewer's yeast.\nAnalytical constituents: crude protein 26%, crude fat 15%, crude ash 6%, crude fibre 3%, calcium 1.4%, phosphorus 1.1%, potassium 0.6%, omega-3 fatty acids 0.4%, omega-6 fatty acids 2.9%.\nNutritional additives (per kg): vitamin A, vitamin D3, vitamin E, vitamin B1, vitamin B2, vitamin B6, vitamin B12, vitamin K3, vitamin B5, niacin, biotin, folic acid, choline, copper, zinc, selenium.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "barcode",
+  "url": "https://www.e-fresh.gr/en/xhra-trofh-gia-koytabia-my-love-11kg",
+  "text_from": "e-fresh.gr + emag.ro (both print EAN 4820269143074)",
+  "images_from": "e-fresh.gr packshot (JUNIOR 4-15 months, 11 kg, looked at) + emag.ro Junior infographic",
+  "ean": "4820269143074"
+ },
+ "evidence_file": "cards/REG00033.source.txt"
+}

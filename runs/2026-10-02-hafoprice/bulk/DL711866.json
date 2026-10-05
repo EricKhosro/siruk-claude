@@ -1,0 +1,67 @@
+{
+ "name": "Calcium Bones for Mini Breeds",
+ "slug": "derevenskie-lakomstva-calcium-bones-for-mini-breeds",
+ "category_ids": [
+  82
+ ],
+ "brand_id": 38,
+ "attribute_family_id": 3,
+ "is_best_seller": false,
+ "is_on_sale": false,
+ "variants": [
+  {
+   "sku": "DL711866",
+   "name": "Chicken 55 g",
+   "price": 1550.0,
+   "cost_price": 1000.0,
+   "sale_mode": "pack",
+   "initial_stock": 10,
+   "attribute_values": {
+    "flavor": [
+     36
+    ],
+    "ingredient": [
+     461
+    ],
+    "breed-size": [
+     31
+    ],
+    "packaging": [
+     148
+    ]
+   },
+   "about_this_item": "<p>A favourite treat of mini-breed dogs: a wholesome calcium bone with pieces of chicken fillet, made especially for the most pampered pets.</p>",
+   "ingredient_information": "<p>Chicken fillet, calcium bone, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 26%, fat 2.5%, moisture 18%, fibre 0.2%, ash 3.5%; energy 280 kcal.</p>",
+   "feeding_instructions": "",
+   "images": [
+    14971,
+    14974,
+    14977
+   ],
+   "measure_type": "mass",
+   "content": 55.0,
+   "pack_count": 1,
+   "is_default": true
+  }
+ ],
+ "translations": {
+  "ru": {
+   "name": "Кальциевые косточки для мини-пород",
+   "variants": {
+    "DL711866": {
+     "about_this_item": "Любимое угощение собак мини-пород: полезная кальциевая косточка с кусочками куриного филе, созданная специально для самых избалованных питомцев.",
+     "ingredient_information": "Куриное филе, кальциевая косточка, продукты растительного происхождения, минералы. Гарантированный анализ на 100 г: белок 26%, жир 2,5%, влажность 18%, клетчатка 0,2%, зола 3,5%; энергия 280 ккал."
+    }
+   }
+  },
+  "hy": {
+   "name": "Կալցիումային ոսկորիկներ մինի ցեղերի համար",
+   "variants": {
+    "DL711866": {
+     "about_this_item": "Մինի ցեղերի շների սիրելի հյուրասիրությունը՝ օգտակար կալցիումային ոսկորիկ հավի ֆիլեի կտորներով, ստեղծված հատուկ ամենաերես առած կենդանիների համար։",
+     "ingredient_information": "Հավի ֆիլե, կալցիումային ոսկորիկ, բուսական ծագման մթերքներ, հանքանյութեր։ Երաշխավորված վերլուծություն 100 գ-ում՝ սպիտակուց 26%, ճարպ 2,5%, խոնավություն 18%, թաղանթանյութ 0,2%, մոխիր 3,5%, էներգիա՝ 280 կկալ։"
+    }
+   }
+  }
+ }
+}

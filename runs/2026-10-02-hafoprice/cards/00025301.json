@@ -1,0 +1,8 @@
+{
+ "code": "00025301",
+ "status": "hold",
+ "hold_reason": "no price: register = cost, not on hafo/zoovet/nemo",
+ "existing_id_if_priced": 1149,
+ "notes": "kaskad-pet.ru page confirmed (EAN 4605350003952, clean packshot https://www.kaskad-pet.ru/upload/iblock/3df/s6givy99rejekv0ia8d542jkdgz22zip.jpg). zoovet.am Kaskad brand page empty, no name-search hits; nemo.am has only the padded Kaskad Classic collar (2950, different item). Size value '25 mm × 39–46 cm' is not in the size menu — needed when it joins 1149.",
+ "evidence_file": "cards/00025301.source.txt"
+}

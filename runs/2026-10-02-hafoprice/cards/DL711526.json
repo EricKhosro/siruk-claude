@@ -1,0 +1,50 @@
+{
+ "code": "DL711526",
+ "status": "ready",
+ "hold_reason": null,
+ "type": "treats",
+ "brand_id": 38,
+ "name": "Bones for Mini Breeds",
+ "label": "Duck 55 g",
+ "existing_id": 1294,
+ "category_ids": [
+  85
+ ],
+ "price": {
+  "source": "prepared"
+ },
+ "attributes": {
+  "flavor": {
+   "value": "Duck",
+   "quote": "Косточки с утиным мясом"
+  },
+  "ingredient": {
+   "value": "Duck",
+   "quote": "Состав: мясо утки"
+  },
+  "breed-size": {
+   "value": "Small Breeds",
+   "quote": "Отличный выбор для собак мини-пород"
+  },
+  "packaging": {
+   "value": "Pouch",
+   "basis": "photo"
+  }
+ },
+ "images": [
+  "https://derlak.ru/upload/iblock/576/h24btp6sy7j4o50a7su9mbc0d4s4uzc5.png",
+  "https://derlak.ru/upload/iblock/181/dwnppntebmvh4j9zltyqgh9lt1onnaka.png",
+  "https://derlak.ru/upload/iblock/5c7/q4c1bcnsn4tmuenqn19w61mnxebctdd2.png"
+ ],
+ "first_image": "packshot",
+ "texts": {
+  "about_this_item": "Bones with duck meat that satisfy a dog's predator instincts and bring moments of joy. A great choice for mini-breed dogs that love tasty, natural treats.",
+  "ingredient_information": "Duck meat, beef rawhide, plant-derived by-products, minerals. Guaranteed analysis per 100 g: protein 39 g, fat 4.4 g, moisture 18 g, fibre 0.2 g, ash 4 g; energy 195.6 kcal.",
+  "feeding_instructions": null
+ },
+ "source": {
+  "kind": "brand-site",
+  "url": "https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-dlya-mini-porod-kostochki-utinye-55g-art-79711526/"
+ },
+ "evidence_file": "cards/DL711526.source.txt"
+}

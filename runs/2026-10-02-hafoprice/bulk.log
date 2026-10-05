@@ -1,0 +1,32 @@
+✗ runs/2026-10-02-hafoprice/bulk/01672K.json: the catalog already has a similar product 1322 Classic Double Leather Collar with Rhinestones — same product → add-variant.sh; FORCE=1 to create anyway
+products: 10  categories: 101  brands: 47
+product: 2 missing translation(s)
+    (1329, 'ru', 'name', 'Vit Bits')
+    (1329, 'hy', 'name', 'Vit Bits')
+category: 0 missing translation(s)
+brand: 0 missing translation(s)
+attribute names / value labels / family names / variant labels: NOT translatable on this backend (see reference/admin-api.md)
+✓ runs/2026-10-02-hafoprice/bulk/12625.json: Vit Bits  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/208986.json: Tender Goose Slices for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/711536.json: Duck Wedges for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/DL711496.json: Meat Sticks for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/DL711506.json: Breasts for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/DL711516.json: Lamb Medallions for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/DL711546.json: Beef Slices for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/DL711676.json: Rabbit Slices for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/DL711856.json: Rabbit Ears with Lamb for Mini Breeds  (1 variant(s))
+✓ runs/2026-10-02-hafoprice/bulk/DL711866.json: Calcium Bones for Mini Breeds  (1 variant(s))
+batch 1: created 10, failed 0
+  product 1329  beaphar-vit-bits  read-back ok
+  product 1330  derevenskie-lakomstva-tender-goose-slices-for-mini-breeds  read-back ok
+  product 1331  derevenskie-lakomstva-duck-wedges-for-mini-breeds  read-back ok
+  product 1332  derevenskie-lakomstva-meat-sticks-for-mini-breeds  read-back ok
+  product 1333  derevenskie-lakomstva-breasts-for-mini-breeds  read-back ok
+  product 1334  derevenskie-lakomstva-lamb-medallions-for-mini-breeds  read-back ok
+  product 1335  derevenskie-lakomstva-beef-slices-for-mini-breeds  read-back ok
+  product 1336  derevenskie-lakomstva-rabbit-slices-for-mini-breeds  read-back ok
+  product 1337  derevenskie-lakomstva-rabbit-ears-with-lamb-for-mini-breeds  read-back ok
+  product 1338  derevenskie-lakomstva-calcium-bones-for-mini-breeds  read-back ok
+results → runs/2026-10-02-hafoprice/bulk-results.json
+
+# translations (CLAUDE.md 13 — report from this, not from what was sent):

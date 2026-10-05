@@ -1,11 +1,11 @@
 {
- "REG00118": {
+ "REG00033": {
   "status": "pass",
   "fails": [],
   "warns": [
    [
-    "R-size",
-    "supplements is a sized type but the row has no net content — give `size`, or it is written with ALLOW_NO_SIZE=1 (chew in cm, collar)"
+    "R-evidence",
+    "'packaging' = 'Bag' read off the photo, not the text"
    ]
   ]
  }
