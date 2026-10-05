@@ -3,11 +3,15 @@
 
 Per <Goods>:
   * BarCode     -> the product's EAN (existing value, PM register, run data)
-  * Image       -> public URL of the siruk variant's first gallery image
+  * Image       -> left empty by default. The ArmSoft importer wants base64
+                   image bytes in <Image> and rejects a URL ("not a valid
+                   Base-64 string", 2026-10-02). The first gallery image URL
+                   goes to the report CSV; --image-urls writes it anyway.
   * sold per kg -> a bag with a "1 kg" twin on siruk (SKU <bag sku>-KG) becomes
                    a weight good laid out like 0002: Unit 303 (kg) default,
-                   AltUnit 003 (bag, Coef = bag kg), BarCode = a unique random
-                   5-digit scale code, MTBarCode 003 = EAN, MTBarCode 303 =
+                   AltUnit 003 (bag, Coef = bag kg), BarCode = a unique 5-digit
+                   scale code (00001, 00002, ... — the next free number,
+                   user 2026-10-04), MTBarCode 003 = EAN, MTBarCode 303 =
                    scale code, PLUCode nil.
 
 Scale codes are kept in state/scale-codes.json (good -> code) so a rebuild
@@ -17,7 +21,7 @@ keeps them. Read-only against the API: it reads a product dump made earlier.
       --media <medias.json {id: {url}}> [--in Scale/all-xml.xml] \
       [--out Scale/all-xml-scale.xml] [--report Scale/scale-export-report.csv]
 """
-import argparse, collections, csv, glob, json, os, random, re, sys, zipfile
+import argparse, collections, csv, glob, json, os, re, sys, zipfile
 import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 
@@ -188,6 +192,10 @@ def main():
     ap.add_argument('--media', required=True)
     ap.add_argument('--register', default=p('csv/AllAngineProduct-FINAL-2026-09-28.xlsx'))
     ap.add_argument('--codes', default=p('state/scale-codes.json'))
+    ap.add_argument('--image-urls', action='store_true',
+                    help='write the siruk image URL into <Image>. Off by default: the ArmSoft '
+                         'importer expects base64 image bytes there and rejects a URL '
+                         '("not a valid Base-64 string", 2026-10-02). The URL is always in the report CSV.')
     a = ap.parse_args()
 
     raw = open(a.inp, encoding='utf-8-sig', newline='').read()
@@ -223,13 +231,14 @@ def main():
     codes = json.load(open(a.codes)) if os.path.exists(a.codes) else {}
     taken = set(codes.values())
     taken |= set(re.findall(r'<BarCode>(\d+)</BarCode>', raw))
-    rng = random.SystemRandom()
+    next_code = max((int(c) for c in codes.values()), default=0) + 1
 
     used_reg, rows, eans_seen = set(), [], collections.defaultdict(list)
     blocked = {}
     RANK = {'XML': 0, 'PM register': 1, 'runs/2026-10-01-register/found.csv': 2}
 
     def convert(m):
+        nonlocal next_code
         block = m.group(1)
         g = parse_block(block)
         code, name, long_name = txt(g, 'Code'), txt(g, 'Name'), txt(g, 'LongName')
@@ -324,10 +333,9 @@ def main():
         if weight:
             scale = codes.get(code)
             if not scale:
-                while True:
-                    scale = str(rng.randint(10000, 99999))
-                    if scale not in taken:
-                        break
+                while f'{next_code:05d}' in taken:
+                    next_code += 1
+                scale = f'{next_code:05d}'
                 codes[code] = scale
                 taken.add(scale)
             block = set_simple(block, 'Unit', '303')
@@ -354,7 +362,7 @@ def main():
                                 (mt(code, unit, ean) if ean else []) + others, nl)
         elif ean and not txt(g, 'BarCode'):
             notes.append('EAN found but not written (weight good left as it was)')
-        if img:
+        if img and a.image_urls:
             block = set_simple(block, 'Image', img)
 
         rows.append({'code': code, 'reg_no': reg_no, 'name': name, 'long_name': long_name,
