@@ -10,3 +10,18 @@ __pycache__/
 .siruk-token-prod
 .venv-scrapling/
 .venv-img/
+
+# images (run scratch: candidates, contact sheets, lens debug) — never commit
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.webp
+*.gif
+*.avif
+*.bmp
+*.tif
+*.tiff
+*.heic
