@@ -1,0 +1,56 @@
+[
+ {
+  "product_id": "804",
+  "sku": "200722",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/200722/1-zoocomplex.jpg",
+    "url": "https://zoocomplex.com.ua/image/cachewebp/catalog/0_product/offers_22/product-42541902-560x560.webp",
+    "source": "zoocomplex.com.ua",
+    "keyed_by": "page https://zoocomplex.com.ua/trixie-eg-tx-200722/ is TX-200722 (article 200722 in URL and title), Premium double-layer XS-S 2 m",
+    "seen": "coral Premium adjustable lead alone on white, both snaps, Trixie tag; 560x560, no watermark"
+   }
+  ],
+  "tried": "round 2 2026-10-07: Lens on trixie.kiev.ua packshot (1 exact match, wrong size), images DE/RU, search \"200722\" trixie; trixie.es page empty"
+ },
+ {
+  "product_id": "1178",
+  "sku": "902135",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/902135/1-uzum.jpg",
+    "url": "https://images.uzum.uz/chfhlct40v9pplt1m3vg/original.jpg",
+    "source": "uzum.uz",
+    "keyed_by": "our EAN 4820083902130 printed on the sack label (read in the photo); listing 'Мяу сухой корм для котят, 11 кг'",
+    "seen": "white 11 kg sack with red Мяу! label, '(RU) Мяу! полнорационный сухой корм для котят', kitten feeding table by months, '11 kg'; 1080x1440, clean"
+   },
+   {
+    "file": "found/902135/2-uzum.jpg",
+    "url": "https://images.uzum.uz/chfhlcl40v9pplt1m3v0/original.jpg",
+    "source": "uzum.uz",
+    "keyed_by": "same listing; same sack",
+    "seen": "same sack lying flat, 1080x1440"
+   }
+  ],
+  "tried": "round 2: petreon.lt (adult bag photo, rejected), pandashop.md (3 kg retail bag, rejected), petshop.md 90213 (right sack, PET SHOP watermark, rejected; Lens on it found only petshop.md copies)"
+ },
+ {
+  "product_id": "1156",
+  "sku": "MG006027",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/MG006027/1-eliteshop.jpg",
+    "url": "https://eliteshop.am/files/originals/products/e8d38c85b95564d865f8b71e135d2e6b.jpg",
+    "source": "eliteshop.am",
+    "keyed_by": "NOT keyed: page 'Monge Maxi Puppy & Junior 15kg' has no EAN; found as a Lens match of petcity's EAN-keyed photo but it is a different photograph",
+    "seen": "Monge Best for Breeders MAXI bag with label 'MAXI PUPPY AND JUNIOR'; 600x750, clean"
+   }
+  ],
+  "caveat": "Not keyed by EAN. Best for Breeders has one MAXI Puppy & Junior recipe (rich in chicken), so the label identifies it, but the label colour differs from petcity's EAN-keyed photo. Your call.",
+  "tried": "round 2: Lens on petcity image, petreon.lt page (no image extracted), BfB site (generic MAXI bag, no label)",
+  "approved": "user approved 2026-10-07 despite no EAN key"
+ }
+]

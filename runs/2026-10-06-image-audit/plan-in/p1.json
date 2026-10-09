@@ -1,0 +1,2328 @@
+[
+ {
+  "product_id": "210",
+  "product": "Junior Rope Dumbbell",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 292,
+    "sku": "32811",
+    "label": "15 cm",
+    "size_label": null,
+    "options": "Toy Type=Rope & Tug; Material=Cotton/Polyester; Toy Size=15 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2277,
+      "verdict": "ok",
+      "seen": "junior rope dumbbell, two knot balls, mint/lilac/grey, white background",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2277.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2280,
+      "verdict": "ok",
+      "seen": "lifestyle: puppy in bed chewing the mint/lilac/grey rope dumbbell",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2280.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2283,
+      "verdict": "ok",
+      "seen": "lifestyle: two puppies with mint/lilac/grey knot ends (consistent with the dumbbell)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2283.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2286,
+      "verdict": "unclear",
+      "seen": "lifestyle: puppy chewing a single mint/lilac/grey knot ball; no twisted middle or second knot visible, cannot confirm it is the dumbbell rather than a junior rope ball",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2286.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 1857,
+      "verdict": "wrong-colour",
+      "seen": "rope dumbbell in purple/orange/beige speckled cord - different colourway from the lead's mint/lilac/grey junior dumbbell",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1857.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "238",
+  "product": "Snack-Snake",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 326,
+    "sku": "34950",
+    "label": "18 cm",
+    "size_label": null,
+    "options": "Toy Type=Activity & Intelligence; Material=Thermoplastic Rubber; Toy Size=18 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2358,
+      "verdict": "ok",
+      "seen": "blue-grey TPR coiled snack snake, white background",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2358.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2361,
+      "verdict": "ok",
+      "seen": "same blue snack snake, rear angle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2361.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2364,
+      "verdict": "ok",
+      "seen": "detail: underside spiral groove of the blue snack snake",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2364.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2367,
+      "verdict": "ok",
+      "seen": "detail: hand filling the blue snake groove with a paste tube (usage shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2367.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 2370,
+      "verdict": "ok",
+      "seen": "lifestyle: white terrier licking the blue snack snake",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2370.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 1956,
+      "verdict": "wrong-colour",
+      "seen": "lime-green snack snake, same shape - different colourway from the blue lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1956.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "243",
+  "product": "Mouse Toy for Dogs",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 332,
+    "sku": "35170",
+    "label": "8 cm",
+    "size_label": null,
+    "options": "Toy Type=Latex & Rubber; Material=Latex; Toy Size=8 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 1974,
+      "verdict": "ok",
+      "seen": "pale pink latex mouse with darker pink dots, white background",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1974.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2385,
+      "verdict": "wrong-colour",
+      "seen": "purple latex mouse with lilac dots - different colour from pale-pink lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2385.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2388,
+      "verdict": "wrong-colour",
+      "seen": "green latex mouse with darker green dots - different colour from pale-pink lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2388.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2394,
+      "verdict": "wrong-colour",
+      "seen": "magenta latex mouse with lilac dots - different colour from pale-pink lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2394.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "252",
+  "product": "Monkey",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 341,
+    "sku": "35511",
+    "label": "25 cm",
+    "size_label": null,
+    "options": "Toy Type=Latex & Rubber; Material=Latex; Toy Size=25 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2001,
+      "verdict": "ok",
+      "seen": "lime-green latex long-limbed monkey, white background",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2001.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2406,
+      "verdict": "wrong-colour",
+      "seen": "same long-limbed latex monkey in pink - different colour from green lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2406.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2409,
+      "verdict": "wrong-colour",
+      "seen": "same long-limbed latex monkey in turquoise - different colour from green lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2409.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "254",
+  "product": "Monkey",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 343,
+    "sku": "35523",
+    "label": "12 cm",
+    "size_label": null,
+    "options": "Toy Type=Latex & Rubber; Material=Latex; Toy Size=12 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2007,
+      "verdict": "ok",
+      "seen": "turquoise latex sitting monkey covering its eyes (see-no-evil), yellow face/hands, white background",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2007.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2418,
+      "verdict": "wrong-colour",
+      "seen": "pink latex monkey covering its mouth (speak-no-evil) - different colour and design from turquoise lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2418.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2421,
+      "verdict": "wrong-colour",
+      "seen": "orange latex monkey covering its ears (hear-no-evil) - different colour and design from turquoise lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2421.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2424,
+      "verdict": "ok",
+      "seen": "group shot of the 3-monkey set (orange, turquoise, pink) incl. the turquoise lead design; acceptable as last-position group shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2424.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "255",
+  "product": "Junior Mini Ring",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 344,
+    "sku": "35612",
+    "label": "8 cm",
+    "size_label": null,
+    "options": "Toy Type=Rope & Tug; Material=Latex; Toy Size=8 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2427,
+      "verdict": "ok",
+      "seen": "pastel lilac latex ring with mint/yellow nubs, white background",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2427.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2430,
+      "verdict": "ok",
+      "seen": "lifestyle: puppy with the lilac Junior ring",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2430.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2433,
+      "verdict": "ok",
+      "seen": "lifestyle: puppy in bed with the lilac Junior ring",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2433.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2436,
+      "verdict": "ok",
+      "seen": "lifestyle: collie puppy chewing the lilac Junior ring",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2436.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 2010,
+      "verdict": "wrong-colour",
+      "seen": "green latex ring with red/blue/yellow nubs - older/different colourway from the pastel lilac lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2010.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "283",
+  "product": "Bungee Rope for Tugging with Ball",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 374,
+    "sku": "32869",
+    "label": "47 cm",
+    "size_label": null,
+    "options": "Toy Type=Fetch & Retrieve; Material=Synthetic Fabric; Toy Size=47 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2538,
+      "verdict": "unclear",
+      "seen": "Bungee with grey strap and PINK hollow ball; gallery shows three colourways and the variant has no colour option - confirm whether stock is assorted or one colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2538.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2541,
+      "verdict": "unclear",
+      "seen": "Bungee with lime strap and BLUE hollow ball - different colourway from lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2541.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2544,
+      "verdict": "unclear",
+      "seen": "Bungee with blue strap and GREEN hollow ball - different colourway from lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2544.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2100,
+      "verdict": "unclear",
+      "seen": "Blue strap bungee with green hollow ball, vertical - different colourway from lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2100.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "285",
+  "product": "Silent Ball Dog Toy",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 376,
+    "sku": "3300",
+    "label": "5 cm",
+    "size_label": null,
+    "options": "Toy Type=Fetch & Retrieve; Material=Rubber; Toy Size=5 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2106,
+      "verdict": "ok",
+      "seen": "Single plain yellow rubber ball, alone on white (smallest of the line)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2106.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2553,
+      "verdict": "wrong-size",
+      "seen": "Group shot of four solid rubber balls in four sizes/colours (yellow, orange, pink, teal); only the small yellow one is 5 cm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2553.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "295",
+  "product": "Duck",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 387,
+    "sku": "35492",
+    "label": "30 cm",
+    "size_label": null,
+    "options": "Toy Type=Latex & Rubber; Material=Latex; Toy Size=30 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2586,
+      "verdict": "ok",
+      "seen": "Teal latex flying duck with brown back and yellow beak alone on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2586.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2589,
+      "verdict": "ok",
+      "seen": "Same teal duck, other side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2589.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2592,
+      "verdict": "ok",
+      "seen": "Same teal duck, top view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2592.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2136,
+      "verdict": "unclear",
+      "seen": "Latex flying duck in a DIFFERENT paint scheme (rainbow green/orange/blue, older design) than the teal duck at pos 0-2; variant has no colour option - confirm which one is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2136.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "300",
+  "product": "Ball & Treat",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 392,
+    "sku": "32009",
+    "label": "18 cm",
+    "size_label": null,
+    "options": "Toy Type=Activity & Intelligence; Material=Thermoplastic Rubber; Toy Size=18 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2610,
+      "verdict": "ok",
+      "seen": "Trixie Ball & Treat dispenser, grey/light-blue body with yellow ball, clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2610.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2613,
+      "verdict": "ok",
+      "seen": "Lifestyle: same grey/blue dispenser with yellow ball on floor (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2613.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2151,
+      "verdict": "unclear",
+      "seen": "Older colourway of Ball & Treat: white/dark-blue body printed \"DOG Activity\", no ball; differs from grey/light-blue lead - confirm which colourway is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2151.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "301",
+  "product": "Flip Board Strategy Game",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 393,
+    "sku": "32026",
+    "label": "23 cm",
+    "size_label": null,
+    "options": "Toy Type=Activity & Intelligence; Material=Plastic; Toy Size=23 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2616,
+      "verdict": "ok",
+      "seen": "Flip Board, grey base with blue/sage pegs (2 cones), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2616.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2619,
+      "verdict": "ok",
+      "seen": "Close-up detail of the same grey/blue/sage Flip Board (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2619.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2622,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog with the same grey/blue/sage Flip Board (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2622.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2154,
+      "verdict": "unclear",
+      "seen": "Older colourway of Flip Board: white/blue printed \"DOG Activity\"; differs from grey/sage lead - confirm which colourway is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2154.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "302",
+  "product": "Flip Board XXL Strategy Game",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 394,
+    "sku": "32053",
+    "label": "28 cm",
+    "size_label": null,
+    "options": "Toy Type=Activity & Intelligence; Material=Plastic; Toy Size=28 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2625,
+      "verdict": "ok",
+      "seen": "Flip Board XXL, grey base with 3 sage/blue cones, clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2625.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2628,
+      "verdict": "ok",
+      "seen": "Close-up of the same grey/sage/blue board (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2628.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2631,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog with the same grey board (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2631.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2157,
+      "verdict": "unclear",
+      "seen": "Older colourway of Flip Board XXL: white/blue with 3 blue cones; differs from grey/sage lead - confirm which colourway is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2157.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "306",
+  "product": "Mouse in display",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 398,
+    "sku": "41116",
+    "label": "4.5 cm",
+    "size_label": null,
+    "options": "Toy Type=Catnip; Material=Synthetic Fabric; Toy Size=4.5 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2643,
+      "verdict": "unclear",
+      "seen": "Two fabric mice, blue and pink floral print; pos 1 shows two mice in a different abstract print - cannot tell which design is stocked or whether one or two mice are sold; lead is a group of two",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2643.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2169,
+      "verdict": "unclear",
+      "seen": "Two fabric mice, cream abstract print with orange/teal ears; design differs from the floral pair at pos 0",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2169.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "314",
+  "product": "Set of Tubes",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 406,
+    "sku": "45490",
+    "label": "15 cm",
+    "size_label": null,
+    "options": "Toy Type=Mouse & Animal; Material=Synthetic Fabric; Toy Size=15 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2193,
+      "verdict": "unclear",
+      "seen": "Single teal feather + iridescent mesh loop - only 1 of the 4 set pieces; set shot is pos 3, better lead for picking",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2193.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2667,
+      "verdict": "ok",
+      "seen": "Pink feather + mesh loop, one piece of the set (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2667.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2670,
+      "verdict": "ok",
+      "seen": "Yellow mesh tube, one piece of the set (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2670.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2673,
+      "verdict": "ok",
+      "seen": "Full set: pink and teal feather loops + two yellow mesh tubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2673.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "315",
+  "product": "Sleeping face",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 407,
+    "sku": "45558",
+    "label": "17 cm",
+    "size_label": null,
+    "options": "Toy Type=Mouse & Animal; Material=Plush; Toy Size=17 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2676,
+      "verdict": "not-packshot-lead",
+      "seen": "Lifestyle: grey cat playing with a white Sleeping face toy on floor",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2676.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2679,
+      "verdict": "ok",
+      "seen": "Group of 4 assortment colours white/brown/grey/beige sleeping-face plush (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2679.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2196,
+      "verdict": "ok",
+      "seen": "Single grey sleeping-face plush with orange base, clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2196.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "319",
+  "product": "Dragon",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 411,
+    "sku": "45755",
+    "label": "20 cm",
+    "size_label": null,
+    "options": "Toy Type=Mouse & Animal; Material=Plush; Toy Size=20 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2697,
+      "verdict": "not-packshot-lead",
+      "seen": "Group of 4 dragon plush toys in grey/orange/green/yellow (assortment), not a single product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2697.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2700,
+      "verdict": "ok",
+      "seen": "Group of the 4 assortment colours, other angle (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2700.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2208,
+      "verdict": "ok",
+      "seen": "Single yellow dragon plush with striped tail, clean cut-out - better lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2208.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2694,
+      "verdict": "ok",
+      "seen": "Lifestyle: cat with orange dragon plush (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2694.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "324",
+  "product": "Chunks Adult",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 416,
+    "sku": "009017",
+    "label": "Beef 415 g",
+    "size_label": "415 g",
+    "options": "Flavor=Beef; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2739,
+      "verdict": "ok",
+      "seen": "Simba Bocconi Adult con Manzo / chunks with beef, dog can, squat ~415 g can (weight not visible)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2739.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 417,
+    "sku": "009127",
+    "label": "Beef 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Beef; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13999,
+      "verdict": "ok",
+      "seen": "Simba Bocconi con Carne / chunks with meat (au boeuf), tall 1230 g-format can, older design (weight not visible); matches hafo \"meat 1230 g\"",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13999.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 418,
+    "sku": "009027",
+    "label": "Chicken & Turkey 415 g",
+    "size_label": "415 g",
+    "options": "Flavor=Chicken & Turkey; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2742,
+      "verdict": "ok",
+      "seen": "Simba Bocconi Adult con Pollo e Tacchino / chicken and turkey, squat ~415 g can",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2742.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 419,
+    "sku": "009137",
+    "label": "Chicken & Turkey 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Chicken & Turkey; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14002,
+      "verdict": "ok",
+      "seen": "Simba Bocconi con Pollo e Tacchino / chicken and turkey, tall 1230 g-format can, older design",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14002.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 420,
+    "sku": "009167",
+    "label": "Lamb 415 g",
+    "size_label": "415 g",
+    "options": "Flavor=Lamb; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2745,
+      "verdict": "ok",
+      "seen": "Simba Bocconi Adult con Agnello / lamb, squat ~415 g can",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2745.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 421,
+    "sku": "009147",
+    "label": "Lamb 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Lamb; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14005,
+      "verdict": "ok",
+      "seen": "Simba Bocconi con Agnello / chunks with lamb, tall 1230 g-format can, older design",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14005.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 422,
+    "sku": "009177",
+    "label": "Wild Game 415 g",
+    "size_label": "415 g",
+    "options": "Flavor=Wild Game; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2748,
+      "verdict": "ok",
+      "seen": "Simba Bocconi Adult con Selvaggina / wild game, squat ~415 g can",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2748.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 423,
+    "sku": "009157",
+    "label": "Wild Game 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Wild Game; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2748,
+      "verdict": "wrong-size",
+      "seen": "Same squat ~415 g Selvaggina/wild game can as the 415 g variant 422 - not the tall 1230 g can",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2748.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 424,
+    "sku": "009187",
+    "label": "Beef & Vegetables 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Beef & Vegetables; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2751,
+      "verdict": "ok",
+      "seen": "Simba Bocconi Adult con Manzo e Ortaggi / beef and vegetables, tall 1230 g-format can",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2751.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "328",
+  "product": "Classic Litter Tray, 37 × 15 × 47 cm",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 432,
+    "sku": "40181",
+    "label": "mint green/white",
+    "size_label": null,
+    "options": "Color Family=Green",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8377,
+      "verdict": "ok",
+      "seen": "Classic rectangular tray with clip-on rim, mint/turquoise basin with white rim, clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8377.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1424,
+    "sku": "40187",
+    "label": "purple/white",
+    "size_label": null,
+    "options": "Color Family=Purple",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8266,
+      "verdict": "unclear",
+      "seen": "Classic rectangular tray with white rim, basin reads blue-grey/slate rather than purple; Trixie's own 40187 photo, so colour name 'purple/white' vs shown blue-grey needs checking",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8266.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8272,
+      "verdict": "unclear",
+      "seen": "same Classic tray, white rim, basin blue-grey/slate (not clearly purple)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8272.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8278,
+      "verdict": "unclear",
+      "seen": "same Classic tray, other angle, basin blue-grey/slate (not clearly purple)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8278.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "329",
+  "product": "Delio Litter Tray, with Rim",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 433,
+    "sku": "40397",
+    "label": "38 × 20 × 50 cm, purple/white",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 1773,
+      "verdict": "ok",
+      "seen": "Delio tray with high white rim printed with row of cat silhouettes, grey-violet (purple) basin, clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1773.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2813,
+      "verdict": "ok",
+      "seen": "Delio grey-violet basin alone without rim",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2813.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2816,
+      "verdict": "ok",
+      "seen": "Delio side view, cat-silhouette white rim, grey-violet basin",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2816.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5654,
+      "verdict": "ok",
+      "seen": "Delio front view, perforated white rim, grey-violet basin",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5654.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 5660,
+      "verdict": "ok",
+      "seen": "Delio 3/4 view other side, grey-violet basin",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5660.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8383,
+      "verdict": "ok",
+      "seen": "Delio cat-silhouette rim, grey-violet basin (dup of pos 0)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8383.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 8389,
+      "verdict": "ok",
+      "seen": "Delio grey-violet basin alone (dup of pos 1)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8389.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8395,
+      "verdict": "ok",
+      "seen": "Delio side view, grey-violet basin (dup of pos 2)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8395.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 8398,
+      "verdict": "wrong-colour",
+      "seen": "Delio tray with cat-silhouette rim but basin is steel blue-grey, not purple - the grey/white colour variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8398.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 8401,
+      "verdict": "wrong-colour",
+      "seen": "same image as pos 8: Delio blue-grey/white colour variant, not purple",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8401.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 8407,
+      "verdict": "wrong-colour",
+      "seen": "Delio side view, basin steel blue-grey (grey/white variant), not purple",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8407.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 8410,
+      "verdict": "wrong-colour",
+      "seen": "Delio front view, basin steel blue-grey (grey/white variant), not purple",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8410.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 8416,
+      "verdict": "wrong-colour",
+      "seen": "Delio basin alone in steel blue-grey (grey variant), not purple",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8416.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "331",
+  "product": "Denta Fun Chew Bites with Mint",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 435,
+    "sku": "00265",
+    "label": "150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Mint",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9449,
+      "verdict": "unclear",
+      "seen": "Trixie 'Snack Chew Bites' pouch, 'with parsley & peppermint', #31501 printed; no 'Denta Fun' wording and no weight on pack - line name/article (sku 00265) and 150 g cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9449.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9452,
+      "verdict": "ok",
+      "seen": "close-up of green/brown ridged chew bites matching the #31501 parsley & peppermint pouch",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9452.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7960,
+      "verdict": "unclear",
+      "seen": "Trixie 'Snack Chew Bites' pouch, 'with parsley & peppermint', #31501 printed; no 'Denta Fun' wording and no weight on pack - line name/article (sku 00265) and 150 g cannot be confirmed (same pack as pos 0, higher res)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7960.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7963,
+      "verdict": "ok",
+      "seen": "close-up of the same green ridged chew bites",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7963.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "332",
+  "product": "Hiding Place for Tablets for dogs",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 436,
+    "sku": "25841",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2822,
+      "verdict": "not-packshot-lead",
+      "seen": "single brown treat piece close-up, not the pouch; pouch is Trixie Tablettenversteck #25841 (pos 1)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2822.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2825,
+      "verdict": "ok",
+      "seen": "Trixie Tablettenversteck / Hiding Place for Tablets pouch, #25841 printed, for dogs; weight not printed on front, single-size article",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2825.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8439,
+      "verdict": "ok",
+      "seen": "same Trixie Hiding Place for Tablets pouch #25841",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8439.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8445,
+      "verdict": "ok",
+      "seen": "same Trixie Hiding Place for Tablets pouch #25841 (shop image)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8445.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 2828,
+      "verdict": "ok",
+      "seen": "single treat with white tablet inserted (usage close-up)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2828.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 5675,
+      "verdict": "ok",
+      "seen": "hands inserting tablet into a treat (usage shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5675.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 5678,
+      "verdict": "ok",
+      "seen": "hands inserting tablet into a treat (usage shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5678.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 5684,
+      "verdict": "ok",
+      "seen": "hands inserting tablet into a treat, close (usage shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5684.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 8451,
+      "verdict": "ok",
+      "seen": "single treat with tablet inserted (dup of pos 4)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8451.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 8457,
+      "verdict": "ok",
+      "seen": "Trixie Hiding Place for Tablets pouch #25841 (identical to pos 3)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8457.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 8463,
+      "verdict": "ok",
+      "seen": "five hollow brown treats close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8463.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 8466,
+      "verdict": "ok",
+      "seen": "single treat with tablet inserted",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8466.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 8469,
+      "verdict": "ok",
+      "seen": "hands inserting tablet into treat (usage shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8469.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 5687,
+      "verdict": "ok",
+      "seen": "lifestyle: Labrador looking at a treat on owner's hand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5687.jpg"
+     },
+     {
+      "pos": 14,
+      "media": 2831,
+      "verdict": "ok",
+      "seen": "group of five hollow brown treats close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2831.jpg"
+     },
+     {
+      "pos": 15,
+      "media": 8475,
+      "verdict": "ok",
+      "seen": "group of five hollow brown treats (dup of pos 14)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8475.jpg"
+     },
+     {
+      "pos": 16,
+      "media": 5693,
+      "verdict": "ok",
+      "seen": "illustration of hollow treats with tablet and capsule (pack artwork)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5693.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "333",
+  "product": "Chips with Spirulina",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 437,
+    "sku": "2674",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Health Feature=Immune Support",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2834,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose green spirulina chips on white, no pack; Trixie #2674 pack is at pos 4/5",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2834.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5699,
+      "verdict": "ok",
+      "seen": "Close-up of a single green spirulina chip, matches Denta Fun Chips with Spirulina",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5699.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5705,
+      "verdict": "ok",
+      "seen": "Pile of loose green spirulina chips on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5705.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8481,
+      "verdict": "ok",
+      "seen": "Loose green spirulina chips (same shot as pos 0, re-encoded duplicate)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8481.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 2837,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Chips with Spirulina pouch (new design, husky), #2674; weight not printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2837.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 5708,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Chewing Chips with Spirulina pouch (older design), #2674, 50 g printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5708.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 8487,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Chips with Spirulina pouch #2674 (duplicate of pos 4)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8487.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "334",
+  "product": "Dips with rabbit & chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 438,
+    "sku": "27152",
+    "label": "120 g",
+    "size_label": "120 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2840,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose rabbit & chicken dip (rabbit ear wrapped in chicken) on white, no pack; pack at pos 6",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2840.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2843,
+      "verdict": "ok",
+      "seen": "Three loose rabbit-ear chicken dips on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2843.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5717,
+      "verdict": "ok",
+      "seen": "Single loose rabbit-ear chicken dip, other angle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5717.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5720,
+      "verdict": "ok",
+      "seen": "Single loose rabbit-ear chicken dip, side view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5720.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8490,
+      "verdict": "ok",
+      "seen": "Single loose dip, duplicate of pos 0",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8490.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8493,
+      "verdict": "ok",
+      "seen": "Three loose dips, duplicate of pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8493.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 2846,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dips with rabbit & chicken pouch, #27152; weight not printed on front (single-size line)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2846.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8499,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dips with rabbit & chicken pouch #27152 (duplicate of pos 6)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8499.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 2849,
+      "verdict": "ok",
+      "seen": "Lifestyle: two hands holding chicken-wrapped dips in front of Trixie shop bins (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2849.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 8505,
+      "verdict": "ok",
+      "seen": "Lifestyle: hands holding dips in shop, duplicate of pos 8",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8505.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 8513,
+      "verdict": "ok",
+      "seen": "Small single loose dip on white (570px)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8513.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 8519,
+      "verdict": "ok",
+      "seen": "Small single loose dip on white (same picture as pos 10)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8519.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 8525,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dips with rabbit & chicken pouch, #27152 (570px)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8525.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 8528,
+      "verdict": "ok",
+      "seen": "Three loose dips on white (570px)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8528.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "335",
+  "product": "Knot",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 439,
+    "sku": "31121",
+    "label": "110 g, natural",
+    "size_label": "110 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2852,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose white rawhide knot bone on white, no pack; Denta Fun Knot #31121 pack at pos 4",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2852.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5729,
+      "verdict": "ok",
+      "seen": "Loose white rawhide knot bone, vertical",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5729.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5732,
+      "verdict": "ok",
+      "seen": "Loose white rawhide knot bone, horizontal",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5732.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8531,
+      "verdict": "ok",
+      "seen": "Loose rawhide knot, duplicate of pos 0",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8531.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 5738,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Knot Rawhide (Rinderhaut) pouch, #31121; weight not printed, size identified by article number",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5738.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "336",
+  "product": "Roll",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 440,
+    "sku": "31146",
+    "label": "165 g",
+    "size_label": "165 g",
+    "options": "Health Feature=Digestive Health",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2855,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose collagen roll on white, no pack; Denta Fun Roll #31146 pack at pos 5",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2855.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2858,
+      "verdict": "ok",
+      "seen": "Loose collagen roll, angled view showing rolled end",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2858.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5744,
+      "verdict": "ok",
+      "seen": "Close-up of collagen roll end",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5744.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8534,
+      "verdict": "ok",
+      "seen": "Loose collagen roll, duplicate of pos 0",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8534.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8537,
+      "verdict": "ok",
+      "seen": "Loose collagen roll, duplicate of pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8537.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 2861,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Roll made of collagen pouch, without rawhide, chicken icon, #31146; weight not printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2861.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 8543,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Roll collagen pouch #31146 (duplicate of pos 5)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8543.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8546,
+      "verdict": "ok",
+      "seen": "Small loose collagen roll on white (570px)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8546.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 8549,
+      "verdict": "ok",
+      "seen": "Small loose collagen roll (same picture as pos 7)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8549.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 8552,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Roll collagen pouch #31146 (570px)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8552.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 8555,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle chewing collagen roll on floor (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8555.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 8558,
+      "verdict": "ok",
+      "seen": "Small loose collagen roll side view on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8558.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 2864,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle chewing collagen roll",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2864.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 2867,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle chewing collagen roll, low angle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2867.jpg"
+     },
+     {
+      "pos": 14,
+      "media": 5753,
+      "verdict": "ok",
+      "seen": "Lifestyle: hand giving collagen roll to poodle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5753.jpg"
+     },
+     {
+      "pos": 15,
+      "media": 5756,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle chewing roll, portrait",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5756.jpg"
+     },
+     {
+      "pos": 16,
+      "media": 5762,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle with collagen roll on floor in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5762.jpg"
+     },
+     {
+      "pos": 17,
+      "media": 5765,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle chewing roll, wide crop",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5765.jpg"
+     },
+     {
+      "pos": 18,
+      "media": 8561,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle chewing roll, duplicate of pos 12",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8561.jpg"
+     },
+     {
+      "pos": 19,
+      "media": 8564,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle chewing roll, duplicate of pos 13",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8564.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "337",
+  "product": "Sticks with Vegetables",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 441,
+    "sku": "31288",
+    "label": "120 g",
+    "size_label": "120 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2870,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose orange vegetable stick on white, no pack/brand/weight; pack (#31288 Vegan Sticks) appears only at pos 6",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2870.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2873,
+      "verdict": "ok",
+      "seen": "Bundle of loose orange vegetable sticks, no pack; same Vegan Sticks treat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2873.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5771,
+      "verdict": "ok",
+      "seen": "Bundle of loose orange vegetable sticks (other angle), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5771.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5774,
+      "verdict": "ok",
+      "seen": "Single loose orange vegetable stick, angled, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5774.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8567,
+      "verdict": "ok",
+      "seen": "Single loose orange vegetable stick (duplicate of pos 0 shot), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8567.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8570,
+      "verdict": "ok",
+      "seen": "Bundle of loose orange vegetable sticks, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8570.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 2876,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Sticks 'Mit Gemuese / With vegetables' pouch, #31288 printed; no weight on front, single-size product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2876.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8576,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Sticks with vegetables pouch, #31288 printed; no weight on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8576.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 8582,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Sticks with vegetables pouch with loose sticks in front; no weight shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8582.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 8585,
+      "verdict": "ok",
+      "seen": "Same picture as pos 8: Vegan Sticks with vegetables pouch + loose sticks",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8585.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 8588,
+      "verdict": "ok",
+      "seen": "Bundle of loose orange vegetable sticks, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8588.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 8591,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Sticks with vegetables pouch, #31288 printed; no weight on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8591.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 8594,
+      "verdict": "ok",
+      "seen": "Single loose orange vegetable stick, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8594.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 8597,
+      "verdict": "ok",
+      "seen": "Single loose orange vegetable stick, angled, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8597.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "338",
+  "product": "Soft Snack Dots",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1376,
+    "sku": "31295",
+    "label": "Carrot 200 g",
+    "size_label": "200 g",
+    "options": "Flavor=Carrot",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3863,
+      "verdict": "not-packshot-lead",
+      "seen": "Pile of loose reddish-orange carrot dots, no pack/brand/weight; tub #31295 only at pos 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3863.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6822,
+      "verdict": "ok",
+      "seen": "Close-up of a single reddish-orange carrot dot, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6822.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3866,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dots 'Mit Karotte / With carrot' tub, #31295 printed; weight not visible on front, single 200 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3866.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6825,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dots with carrot tub, #31295, with pile of orange dots in front; weight not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6825.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 442,
+    "sku": "31294",
+    "label": "Parsley & Thyme 200 g",
+    "size_label": "200 g",
+    "options": "Flavor=Herbs & Spices",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2879,
+      "verdict": "not-packshot-lead",
+      "seen": "Pile of loose olive-green herb dots, no pack/brand/weight; tub #31294 only at pos 3",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2879.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5780,
+      "verdict": "ok",
+      "seen": "Close-up of a single olive-green herb dot, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5780.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8600,
+      "verdict": "ok",
+      "seen": "Pile of loose olive-green herb dots (same shot as pos 0), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8600.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 2882,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dots 'Mit Petersilie & Thymian / With parsley & thyme' tub, #31294 printed; weight not visible on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2882.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8606,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dots with parsley & thyme tub, #31294 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8606.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 5786,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dots with parsley & thyme tub, #31294, with green dots in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5786.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 8609,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dots with parsley & thyme tub, #31294 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8609.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8612,
+      "verdict": "ok",
+      "seen": "Same picture as pos 6: Vegan Dots parsley & thyme tub #31294",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8612.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 8615,
+      "verdict": "ok",
+      "seen": "Pile of loose olive-green herb dots, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8615.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "339",
+  "product": "Dentros with parsley",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 443,
+    "sku": "31296",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2885,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose brown ridged dental stick, top view, no pack/brand/weight; tub #31296 only at pos 6",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2885.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2888,
+      "verdict": "ok",
+      "seen": "Several loose brown ridged dental sticks, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2888.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5792,
+      "verdict": "ok",
+      "seen": "Single loose brown ridged dental stick, angled, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5792.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5795,
+      "verdict": "ok",
+      "seen": "Stack of loose brown ridged dental sticks, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5795.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8618,
+      "verdict": "ok",
+      "seen": "Single loose brown dental stick (same shot as pos 0), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8618.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8621,
+      "verdict": "ok",
+      "seen": "Several loose brown dental sticks, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8621.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 2891,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dentros 'Mit Petersilie / With parsley' bucket, #31296 printed; weight not visible on front, single 500 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2891.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8624,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dentros with parsley bucket, #31296 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8624.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 5798,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Dentros with parsley bucket with loose sticks in front; weight not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5798.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "340",
+  "product": "Soft Snack Hearts with Lamb",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 444,
+    "sku": "31497",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2894,
+      "verdict": "not-packshot-lead",
+      "seen": "Pile of loose cream hearts with dark-brown heart centre, no pack/brand/weight; bucket #31497 only at pos 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2894.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8627,
+      "verdict": "ok",
+      "seen": "Pile of loose cream/brown hearts (same shot as pos 0), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8627.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2897,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Hearts 'Mit Lamm / With lamb' bucket, #31497 printed; weight not visible on front, single 500 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2897.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5642,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Hearts with lamb bucket with loose hearts in front, #31497 line",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5642.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8630,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Hearts with lamb bucket, #31497 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8630.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8633,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Hearts with lamb bucket, #31497 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8633.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 8636,
+      "verdict": "ok",
+      "seen": "Same picture as pos 5: Soft Snack Hearts with lamb bucket #31497",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8636.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8642,
+      "verdict": "ok",
+      "seen": "Pile of loose cream/brown hearts, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8642.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "344",
+  "product": "Soft Snack Lupinos with lupins",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 448,
+    "sku": "31517",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2927,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose brown bone-shaped treats only, no pack shown; match the Lupinos treats in pos 1/2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2927.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2930,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Lupinos tub 'with lupins', #31517 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2930.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5813,
+      "verdict": "ok",
+      "seen": "Same Lupinos tub with bone treats in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5813.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "345",
+  "product": "Junior Soft Snack Bones",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 449,
+    "sku": "31518",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2933,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose mixed-colour mini bones only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2933.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5822,
+      "verdict": "ok",
+      "seen": "Trixie Junior Soft Snack Bones + Calcium small tub with treats in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5822.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2936,
+      "verdict": "ok",
+      "seen": "Trixie Junior Soft Snack Bones + Calcium small tub, #31518 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2936.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "346",
+  "product": "Junior Soft Snack Dots",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 450,
+    "sku": "31519",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2939,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose mixed-colour cylinder dots only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2939.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5828,
+      "verdict": "ok",
+      "seen": "Trixie Junior Soft Snack Dots small tub with dots in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5828.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2942,
+      "verdict": "ok",
+      "seen": "Trixie Junior Soft Snack Dots small tub, #31519 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2942.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "347",
+  "product": "Soft Snack Dog'o'Rado with Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 451,
+    "sku": "31522",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2945,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose multicolour square treats with black centre only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2945.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2948,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Dog'o'Rado tub 'Mit Huhn / with chicken', #31522 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2948.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5834,
+      "verdict": "ok",
+      "seen": "Same Dog'o'Rado with chicken tub with treats in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5834.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "348",
+  "product": "Trainer Snack Bones",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 452,
+    "sku": "31523",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2951,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose mixed-colour mini bones only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2951.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2954,
+      "verdict": "ok",
+      "seen": "Trixie Trainer Snack Bones tub 'extra small and soft', #31523 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2954.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5843,
+      "verdict": "ok",
+      "seen": "Same Trainer Snack Bones tub with bones in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5843.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "349",
+  "product": "Trainer Snack Hearts",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 453,
+    "sku": "31524",
+    "label": "200 g",
+    "size_label": "200 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2957,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose red/brown/cream heart treats only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2957.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2960,
+      "verdict": "ok",
+      "seen": "Trixie Trainer Snack Hearts tub (smaller, no handle), #31524 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2960.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2963,
+      "verdict": "ok",
+      "seen": "Same Trainer Snack Hearts tub with hearts in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2963.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "350",
+  "product": "Soft Snack Bony Mix XXL",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 454,
+    "sku": "31526",
+    "label": "1,800 g",
+    "size_label": "1.8 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2966,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose multicolour mini bones only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2966.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2969,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Bony Mix large bucket 'with beef, lamb, chicken, venison & salmon', #31526 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2969.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5849,
+      "verdict": "ok",
+      "seen": "Same Bony Mix large bucket with bones in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5849.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "351",
+  "product": "Trainer Snack Dots with Salmon",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 455,
+    "sku": "31527",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2972,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose multicolour cylinder dots only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2972.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2975,
+      "verdict": "ok",
+      "seen": "Trixie Trainer Snack Dots tub 'Mit Lachs / with salmon', #31527 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2975.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5852,
+      "verdict": "ok",
+      "seen": "Same Trainer Snack Dots with salmon tub with dots in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5852.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "352",
+  "product": "Coins",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1382,
+    "sku": "31706",
+    "label": "Beef 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4049,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose red/white marbled beef coins only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4049.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6937,
+      "verdict": "ok",
+      "seen": "Trixie Snack Coins 'Mit Rind / with beef' pouch with coins in front (note: 'Snack Coins' line, siblings are 'Premio Coins')",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6937.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4052,
+      "verdict": "ok",
+      "seen": "Trixie Snack Coins with beef pouch, #31706 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4052.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 456,
+    "sku": "31531",
+    "label": "Chicken Breast 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2978,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose orange chicken coins only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2978.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2981,
+      "verdict": "ok",
+      "seen": "Trixie Premio Coins 'with chicken breast' pouch, #31531 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2981.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1383,
+    "sku": "31587",
+    "label": "Duck Breast 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3128,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose red duck coins with grid marks only, no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3128.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3131,
+      "verdict": "ok",
+      "seen": "Trixie Premio Coins 'with duck breast' pouch, #31587 printed; weight not printed, article matches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3131.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3134,
+      "verdict": "unclear",
+      "seen": "Loose smooth orange-brown coins, no pack; colour/texture differs from the gridded red duck coins in pos 0/1, flavour cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3134.jpg"
+     }
+    ]
+   }
+  ]
+ }
+]

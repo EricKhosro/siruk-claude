@@ -1,0 +1,166 @@
+[
+ {
+  "product_id": "1284",
+  "sku": "04812K",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/04812K/1-kaskad.jpg",
+    "url": "https://www.kaskad-pet.ru/upload/iblock/afa/3pi9dqtadjuuz6026ipv2fpmzo02s4tj.jpg",
+    "source": "kaskad-pet.ru (brand)",
+    "keyed_by": "brand page https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_s_ukrashen_na_sintepone_s_bubenchikami_10mm_28sm_rozovyy/ prints Артикул 00010027-12 + ШтрихКод 4605350048120 (= hafo's barcode for 04812K)",
+    "seen": "1600 px, white bg: pink leather 10 mm collar, yellow felt padding, nickel studs, buckle. NO BELLS VISIBLE"
+   }
+  ],
+  "caveat": "Kaskad's own photo of this exact article/EAN shows no bells. The same is true of all its colour siblings (-04 yellow, -05 green, -07 black, each on its own page), and hafo's photo is the black -07 shot. The bells must come loose or sit out of frame. It is still the only keyed photo of this article and colour. Lead decides: accept, or reword the name/label away from 'with bells'.",
+  "tried": "kaskad-pet.ru collar catalogue crawl (799 pages), sibling colour pages, hafo",
+  "lens_hint": "Каскад ошейник кожаный с бубенчиками 10мм 28см розовый 00010027-12"
+ },
+ {
+  "product_id": "1320",
+  "sku": "PM902085",
+  "status": "not-found",
+  "images": [],
+  "tried": "hotline.ua (EAN 4820083902086 → 'Мяу! Хрустящая курочка 11 кг' page, but its only photo is the new generic red 'повнораціонний' 11 kg bag with a meat icon and no flavour printed, so rejected), image-search.py on EAN+code (0 keyed), barcode-lookup, ean-image-lookup, 4lapy (not cached), kormotech.com brand page (logo/visual only), miau.ua is an SPA, ek.ua/brain.com.ua/rozetka/prom all blocked (403/429)",
+  "lens_hint": "\"4820083902086\" Мяу Хрустящая курочка 11 кг (old pack design like the rabbit one: red bag, cat, flavour panel bottom-right 'Апетитна курятина 11 кг')"
+ },
+ {
+  "product_id": "1320",
+  "sku": "PM902075",
+  "status": "excluded-by-user",
+  "images": [
+   {
+    "file": "found/PM902075/1-hotline.jpg",
+    "url": "https://hotline.ua/img/tx/241/2414064095.jpg",
+    "source": "hotline.ua",
+    "keyed_by": "https://hotline.ua/ua/zootovary-korm-dlya-koshek/myau-suhoj-korm-nezhnyj-krolik-11-kg/ is titled 'Мяу! Нежный кролик 11 кг (4820083902079)', which is our EAN; hotline search by that EAN returns only this product",
+    "seen": "800 px, Myau! red bag (older design), flavour panel with rabbit icon 'НІЖНИЙ КРОЛИК / НЕЖНЫЙ КРОЛИК' and '11 кг' printed. Clean, no watermark"
+   }
+  ],
+  "tried": "hotline.ua EAN search",
+  "lens_hint": "",
+  "excluded": "excluded by user 2026-10-07 (preview review)"
+ },
+ {
+  "product_id": "1148",
+  "sku": "00244K",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/00244K/1-kaskad.jpg",
+    "url": "https://www.kaskad-pet.ru/upload/iblock/662/0l9gzvjs74jlhsd21tld5dzgj95slxde.jpg",
+    "source": "kaskad-pet.ru (brand)",
+    "keyed_by": "brand page https://www.kaskad-pet.ru/catalog/osheyniki/osheynik_kozhanyy_s_sinteponom_s_tesmoy_shirina_35_mm_obkhvat_shei_ot_50_do_59_sm/ prints Артикул 00035303 + ШтрихКод 4605350002443 (= hafo's barcode and its row '/00035303' for 00244K)",
+    "seen": "1600 px, white bg: brown leather collar, felt padding, woven jacquard tape (pink/purple) down the middle, buckle"
+   }
+  ],
+  "caveat": "The 'need' text asks for a PLAIN padded collar with no braid or jacquard inlay. That is wrong. The article is Kaskad's 'Ошейник кожаный с синтепоном, с тесьмой' (with tape), hafo's row also says տիսմայով (with tape), and the plain padded version is a different article (00035012 / 4605350002016). Brand text: 'Цвет: чёрный, коричневый. Тесьма в ассортименте', so colour and tape vary by unit. The product name/label should mention the tape.",
+  "tried": "kaskad-pet.ru: all 19 pages for 35 mm 50–59 cm collars checked by article",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1178",
+  "sku": "902135",
+  "status": "not-found",
+  "images": [],
+  "tried": "hotline.ua (EAN 4820083902130: 0 results; name search lists no kitten 11 kg), image-search.py (0 keyed), barcode-lookup, ean-image-lookup, kormotech.com, biopet.az has a 'Мяу для котят 11 кг' page but prints no EAN and was judged size-unconfirmable in the 10-02 audit",
+  "lens_hint": "\"4820083902130\" Мяу! для кошенят 11 кг сухий корм"
+ },
+ {
+  "product_id": "1201",
+  "sku": "DL711836",
+  "status": "held",
+  "images": [
+   {
+    "file": "found/DL711836/1-derlak.png",
+    "url": "https://derlak.ru/upload/iblock/0dc/hfsm21psuqmb3zwpx4ufo0on0el6o8st.png",
+    "source": "derlak.ru (brand)",
+    "keyed_by": "brand's own page for the exact recipe + size: https://derlak.ru/catalog/dogs/treats/derevenskie-lakomstva-ushi-krolichi-s-myasom-tsyplenka-dlya-shchenkov-90g-art-76051073/ (Артикул 76051073). It does NOT carry our EAN.",
+    "seen": "1032x1600, Деревенские лакомства pouch 'УШИ КРОЛИЧЬИ С МЯСОМ ЦЫПЛЕНКА', 'лакомства для щенков с 4 месяцев', puppy, 'Нетто 90 г' printed small on the right"
+   },
+   {
+    "file": "found/DL711836/2-derlak-contents.png",
+    "url": "https://derlak.ru/upload/iblock/51b/0mqnsww91z0kqkylaa4mx77i5q80qhy0.png",
+    "source": "derlak.ru (brand)",
+    "keyed_by": "same brand page",
+    "seen": "1600x941, the treats out of the pack (rabbit ears wrapped in chicken)"
+   }
+  ],
+  "brand_finding": "Article DL711836 is Деревенские лакомства (brand 38). Hafo's barcode is 6921499711830, and its text names the producer as Деревенские Лакомства; its photo is the older DL pouch with the same name. derlak's old article series 79711xxx matches EAN 6921499711xxx, e.g. Carrefour UAE sells 'Dog Fest Chicken Medallions' under 6921499711151 = derlak art 79711151. Dog Fest is the export/English label of the same line. openpetfoodfacts' record for our exact EAN 6921499711830 shows a Dog Fest 'Rabbit Ear with Chicken for puppies' pouch. So the barcode is shared by both labels, and the Armenian supply (hafo) is the DL pouch. Keep brand Деревенские лакомства.",
+  "caveat": "Not keyed to our EAN. derlak's current pack is a newer article: art 76051073, and the back shows EAN 6948526051073, so the back shot was not taken. The design differs a little from hafo's older pouch (no 'кроличьи уши / 100% куриное мясо' roundel), but brand, recipe, lifestage and 90 g all match. zoovet.am has the same current DL front (368x500, too small).",
+  "tried": "barcode-lookup (openpetfoodfacts only, CC-BY-SA evidence: Dog Fest pouch), image-search.py (0 keyed), derlak.ru search by 711836/79711836/EAN (nothing), petzone.com/its-hellas.gr Dog Fest pages (404), usetorg (Vercel wall), carrefouruae (blocked), zoovet",
+  "lens_hint": "\"6921499711830\" Деревенские лакомства уши кроличьи с мясом цыпленка для щенков 90 г"
+ },
+ {
+  "product_id": "1215",
+  "sku": "461698V",
+  "status": "not-found",
+  "images": [],
+  "tried": "versele.com CDN <EAN>pack/switch/back/food.ashx under Crispy (404; the 2025 relaunch page lists only 850 g etc.), barcode-lookup, ean-image-lookup (no Carrefour ES image for this EAN), image-search.py (0 keyed), WebSearch EAN (nothing), zoovet 400 g Guinea Pig photo (500 px, old pack, but no weight readable on the pack and not EAN-keyed; it is already the current lead, media 13993)",
+  "lens_hint": "\"5410340616987\" Versele-Laga Crispy Muesli Guinea Pigs 400 g"
+ },
+ {
+  "product_id": "1215",
+  "sku": "461711V",
+  "status": "not-found",
+  "images": [],
+  "tried": "Carrefour ES EAN-named file 5410340617113_1.jpg is keyed but only 381x492 and no weight readable (same stock shot as zoovet's 400 g), so rejected. bricomarche.com/p/crispy-muesli-guinea-pigs-1kg/5410340617113 prints the EAN but sits behind Cloudflare (403); worth trying in the headed browser. versele.com CDN (404), openpetfoodfacts (CC-BY-SA, evidence only), image-search.py (0 keyed)",
+  "lens_hint": "\"5410340617113\" Versele-Laga Crispy Muesli Guinea Pigs 1 kg (open bricomarche.com/p/crispy-muesli-guinea-pigs-1kg/5410340617113 in the headed browser)"
+ },
+ {
+  "product_id": "1110",
+  "sku": "10203",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/10203/1-biostyle.png",
+    "url": "https://biostyle.biz/upload/iblock/e6a/rp3to1bwtghuzjxrfifh3exv403xbkmn.png",
+    "source": "biostyle.biz (Beaphar RU distributor)",
+    "keyed_by": "page https://biostyle.biz/catalog/beaphar_10203_osheynik_d_kosh_oranzhevyy_35sm_12sht_bl_96_kor/ has article 10203 in the url and prints EAN 8711231102037 (= hafo barcode)",
+    "seen": "750x1000, Beaphar 'Flea & Tick collar for Cat' box (current design, Abyssinian cat), side panel 'цвет ошейника' ORANGE 35 см, orange collar drawn on the front. Clean"
+   }
+  ],
+  "tried": "beaphar.cz search (no hit), 21vek.by (no 10203 page), biostyle.biz search",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1110",
+  "sku": "10202",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/10202/1-biostyle.png",
+    "url": "https://biostyle.biz/upload/iblock/fd8/0tvqxg8zzuybqzh9nxnoajq9fd1ur4z9.png",
+    "source": "biostyle.biz (Beaphar RU distributor)",
+    "keyed_by": "page https://biostyle.biz/catalog/beaphar_10202_osheynik_d_kosh_fioletovyy_35sm_12sht_bl_96_kor/ has article 10202 in the url and prints EAN 8711231102020 (= hafo barcode)",
+    "seen": "750x1000, same current Beaphar box (grey long-haired cat), side panel 'цвет ошейника' PURPLE 35 см, purple collar drawn on the front. Clean"
+   }
+  ],
+  "alt": "21vek.by also has a keyed old-design box (file 10202_beaphar_9077391_….png, 454x691) with the badge 'ФИОЛЕТОВЫЙ 35 CM' printed. Not added, so the variant does not mix two box designs.",
+  "tried": "21vek.by, biostyle.biz",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1130",
+  "sku": "48905E",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/48905E/1-eco-premium.jpg",
+    "url": "https://xn----jtbjfmbjjj7a9g.xn--p1ai/sites/default/files/2025-09/persik%20pered.jpg",
+    "source": "эко-премиум.рф (brand)",
+    "keyed_by": "brand's own file 'persik pered' (peach, front) in the same folder as the 'green pered.jpg' used on its litter page. Its back (image 2) prints our EAN 4631155489059 with '5 персик'",
+    "seen": "5392 px original, downsized to 2000; ECO-Premium white/red stand-up bag, 'Экстракт персика' peach roundel, '5 л' printed bottom front, light grey studio bg, product alone"
+   },
+   {
+    "file": "found/48905E/2-eco-premium-back.jpg",
+    "url": "https://xn----jtbjfmbjjj7a9g.xn--p1ai/sites/default/files/2025-09/persik%20zad.jpg",
+    "source": "эко-премиум.рф (brand)",
+    "keyed_by": "barcode 4631155489059 printed on the pack (read from the full-res crop)",
+    "seen": "back of the same 5 l peach bag, usage text, barcode labelled '5 персик'"
+   }
+  ],
+  "tried": "brand page (generic Green photos only); file name guessed from the Green pattern",
+  "lens_hint": ""
+ }
+]

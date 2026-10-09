@@ -1,0 +1,446 @@
+[
+ {
+  "product_id": "337",
+  "product": "Sticks with Vegetables",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 441,
+    "sku": "31288",
+    "label": "120 g",
+    "size_label": "120 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2870",
+      "file": "PHO_PRO_CLIP_31288-2_-SALL_-AWK_-V1",
+      "dims": "1600x139",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2870.jpg",
+      "md5": "f7c5870a4206f8261ad8a32257cf6b39"
+     },
+     {
+      "pos": 1,
+      "media": "2873",
+      "file": "PHO_PRO_CLIP_31288-4_-SALL_-AWK_-V1",
+      "dims": "1600x825",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2873.jpg",
+      "md5": "7b43b70ea2dc46a0270cc7083f90ae6b"
+     },
+     {
+      "pos": 2,
+      "media": "5771",
+      "file": "PHO_PRO_CLIP_31288-1_-SALL_-AWK_-V1",
+      "dims": "1600x825",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5771.jpg",
+      "md5": "5640a55209882b4d3b90f0f0fbd03721"
+     },
+     {
+      "pos": 3,
+      "media": "5774",
+      "file": "PHO_PRO_CLIP_31288-3_-SALL_-AWK_-V1",
+      "dims": "1600x636",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5774.jpg",
+      "md5": "1e8a1cf15a6e763fdca29884d27cabb6"
+     },
+     {
+      "pos": 4,
+      "media": "8567",
+      "file": "PHO_PRO_CLIP_31288-2__23SALL__23AWK__23V1",
+      "dims": "1600x139",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8567.jpg",
+      "md5": "15d5ecbf9b03fa20b5a2d4f6549de1eb"
+     },
+     {
+      "pos": 5,
+      "media": "8570",
+      "file": "PHO_PRO_CLIP_31288-4__23SALL__23AWK__23V1",
+      "dims": "1600x825",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8570.jpg",
+      "md5": "b0e1c18ea79ae8f1669da81db24cb6f9"
+     },
+     {
+      "pos": 6,
+      "media": "2876",
+      "file": "PHO_PAC_CLIP_31288-2_-SALL_-AWK_-V1",
+      "dims": "742x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2876.jpg",
+      "md5": "a686568b9b39e28ad5d7c0ec50572e47"
+     },
+     {
+      "pos": 7,
+      "media": "8576",
+      "file": "PHO_PAC_CLIP_31288-2__23SALL__23AWK__23V1",
+      "dims": "742x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8576.jpg",
+      "md5": "9b20b9d93ea28c24701b18c435958ae3"
+     },
+     {
+      "pos": 8,
+      "media": "8582",
+      "file": "56692_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8582.jpg",
+      "md5": "cd7f25c587dac30d15f77290fd77d9c9"
+     },
+     {
+      "pos": 9,
+      "media": "8585",
+      "file": "56692_3.jpg-1",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8585.jpg",
+      "md5": "cd7f25c587dac30d15f77290fd77d9c9"
+     },
+     {
+      "pos": 10,
+      "media": "8588",
+      "file": "56694_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8588.jpg",
+      "md5": "39a98f5297981415b78de05b6860b296"
+     },
+     {
+      "pos": 11,
+      "media": "8591",
+      "file": "56693_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8591.jpg",
+      "md5": "e910185ff826cb558f341cf23bfd0965"
+     },
+     {
+      "pos": 12,
+      "media": "8594",
+      "file": "56695_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8594.jpg",
+      "md5": "beb3624edfae5d9446b4066e917a18f7"
+     },
+     {
+      "pos": 13,
+      "media": "8597",
+      "file": "56696_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8597.jpg",
+      "md5": "6d402f9c85bc15608ef506acbcd8b014"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "338",
+  "product": "Soft Snack Dots",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1376,
+    "sku": "31295",
+    "label": "Carrot 200 g",
+    "size_label": "200 g",
+    "options": "Flavor=Carrot",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "3863",
+      "file": "PHO_PRO_CLIP_31295-1_-SALL_-AWK_-V1",
+      "dims": "1600x769",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3863.jpg",
+      "md5": "56dac5908d7814ebd8b43f19de6dfb1f"
+     },
+     {
+      "pos": 1,
+      "media": "6822",
+      "file": "PHO_PRO_CLIP_31295-2_-SALL_-AWK_-V1",
+      "dims": "1294x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6822.jpg",
+      "md5": "779e5de5f51740ef7c067bf07a77efba"
+     },
+     {
+      "pos": 2,
+      "media": "3866",
+      "file": "PHO_PAC_CLIP_31295-1_-SALL_-AWK_-V1",
+      "dims": "1121x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3866.jpg",
+      "md5": "a79925dabd31d46549758167d5b55eeb"
+     },
+     {
+      "pos": 3,
+      "media": "6825",
+      "file": "PHO_PRO_31295-2_-SALL_-AWK_-V1",
+      "dims": "1311x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6825.jpg",
+      "md5": "8dfa01ff4a9d0522d6e5196eb1a9bf41"
+     }
+    ]
+   },
+   {
+    "variant_id": 442,
+    "sku": "31294",
+    "label": "Parsley & Thyme 200 g",
+    "size_label": "200 g",
+    "options": "Flavor=Herbs & Spices",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2879",
+      "file": "PHO_PRO_CLIP_31294-2_-SALL_-AWK_-V1",
+      "dims": "1600x714",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2879.jpg",
+      "md5": "ebaa51a4e0b6b29bcc8b4d8bed795d8d"
+     },
+     {
+      "pos": 1,
+      "media": "5780",
+      "file": "PHO_PRO_CLIP_31294-1_-SALL_-AWK_-V1",
+      "dims": "1189x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5780.jpg",
+      "md5": "4922539e14680a316bf152545a491ef1"
+     },
+     {
+      "pos": 2,
+      "media": "8600",
+      "file": "PHO_PRO_CLIP_31294-2__23SALL__23AWK__23V1",
+      "dims": "1600x714",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8600.jpg",
+      "md5": "e616476fd44acfbd3d206fe7ef49cda5"
+     },
+     {
+      "pos": 3,
+      "media": "2882",
+      "file": "PHO_PAC_CLIP_31294-1_-SALL_-AWK_-V1",
+      "dims": "1121x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2882.jpg",
+      "md5": "f252615add5864514190e23751588a74"
+     },
+     {
+      "pos": 4,
+      "media": "8606",
+      "file": "PHO_PAC_CLIP_31294-1__23SALL__23AWK__23V1",
+      "dims": "1121x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8606.jpg",
+      "md5": "9bc97768f9936f04b0f8e3d7a1cd3464"
+     },
+     {
+      "pos": 5,
+      "media": "5786",
+      "file": "PHO_PRO_31294-2_-SALL_-AWK_-V1",
+      "dims": "1263x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5786.jpg",
+      "md5": "2c5d3c190ef1f1d18c653f062f55b1a4"
+     },
+     {
+      "pos": 6,
+      "media": "8609",
+      "file": "65688_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8609.jpg",
+      "md5": "aaf2f84ae4f8562f16a0369220363821"
+     },
+     {
+      "pos": 7,
+      "media": "8612",
+      "file": "65688_3.jpg-1",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8612.jpg",
+      "md5": "aaf2f84ae4f8562f16a0369220363821"
+     },
+     {
+      "pos": 8,
+      "media": "8615",
+      "file": "56690_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8615.jpg",
+      "md5": "1aac486376c6d8510500f26f3b43f20f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "339",
+  "product": "Dentros with parsley",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 443,
+    "sku": "31296",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2885",
+      "file": "PHO_PRO_CLIP_31296-1_-SALL_-AWK_-V1",
+      "dims": "1600x262",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2885.jpg",
+      "md5": "59dd77902bce7c2a7028985b0d809c87"
+     },
+     {
+      "pos": 1,
+      "media": "2888",
+      "file": "PHO_PRO_CLIP_31296-3_-SALL_-AWK_-V1",
+      "dims": "1600x885",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2888.jpg",
+      "md5": "ca4aaeed1498efcbf603ab3daaf9c17f"
+     },
+     {
+      "pos": 2,
+      "media": "5792",
+      "file": "PHO_PRO_CLIP_31296-2_-SALL_-AWK_-V1",
+      "dims": "1600x745",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5792.jpg",
+      "md5": "c7767899af005c3087f7408ebf778b2c"
+     },
+     {
+      "pos": 3,
+      "media": "5795",
+      "file": "PHO_PRO_CLIP_31296-4_-SALL_-AWK_-V1",
+      "dims": "1600x1165",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5795.jpg",
+      "md5": "d4cd34970b87d59c41c84c6c94a33eb5"
+     },
+     {
+      "pos": 4,
+      "media": "8618",
+      "file": "PHO_PRO_CLIP_31296-1__23SALL__23AWK__23V1",
+      "dims": "1600x262",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8618.jpg",
+      "md5": "3153dd4fe96bf91152cd279362ccf4ff"
+     },
+     {
+      "pos": 5,
+      "media": "8621",
+      "file": "PHO_PRO_CLIP_31296-3__23SALL__23AWK__23V1",
+      "dims": "1600x885",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8621.jpg",
+      "md5": "1a5120db77d9039da891d2897b7114a1"
+     },
+     {
+      "pos": 6,
+      "media": "2891",
+      "file": "PHO_PAC_CLIP_31296-1_-SALL_-AWK_-V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2891.jpg",
+      "md5": "1a8e982ba311b527a6420a0a6da95585"
+     },
+     {
+      "pos": 7,
+      "media": "8624",
+      "file": "PHO_PAC_CLIP_31296-1__23SALL__23AWK__23V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8624.jpg",
+      "md5": "2f7af9fd7b4053a2c34baeb164430cbf"
+     },
+     {
+      "pos": 8,
+      "media": "5798",
+      "file": "PHO_PRO_31296-1_-SALL_-AWK_-V1",
+      "dims": "1276x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5798.jpg",
+      "md5": "e9cdf2d08131de048042717e5d88f44a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "340",
+  "product": "Soft Snack Hearts with Lamb",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 444,
+    "sku": "31497",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2894",
+      "file": "PHO_PRO_CLIP_31497-3_-SALL_-AWK_-V1",
+      "dims": "1600x891",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2894.jpg",
+      "md5": "d023d8ac65213fa6cfd73d99fc3cf861"
+     },
+     {
+      "pos": 1,
+      "media": "8627",
+      "file": "PHO_PRO_CLIP_31497-3__23SALL__23AWK__23V1",
+      "dims": "1600x891",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8627.jpg",
+      "md5": "e7553149dfb00e5d61d04d9ee8802e2b"
+     },
+     {
+      "pos": 2,
+      "media": "2897",
+      "file": "PHO_PAC_CLIP_31497-1_-SALL_-AWK_-V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2897.jpg",
+      "md5": "76964f53570af472cece0e685b629a1d"
+     },
+     {
+      "pos": 3,
+      "media": "5642",
+      "file": "PHO_PAC_CLIP_31497-2_-SALL_-AWK_-V1",
+      "dims": "1102x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5642.jpg",
+      "md5": "6b3441d5653fdac2989d7c775944d22e"
+     },
+     {
+      "pos": 4,
+      "media": "8630",
+      "file": "PHO_PAC_CLIP_31497-1__23SALL__23AWK__23V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8630.jpg",
+      "md5": "9f497df846d941e10f1968c80ef035c3"
+     },
+     {
+      "pos": 5,
+      "media": "8633",
+      "file": "65596_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8633.jpg",
+      "md5": "420c9418150652fbba1529248e2bea91"
+     },
+     {
+      "pos": 6,
+      "media": "8636",
+      "file": "65596_3.jpg-1",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8636.jpg",
+      "md5": "420c9418150652fbba1529248e2bea91"
+     },
+     {
+      "pos": 7,
+      "media": "8642",
+      "file": "32514_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8642.jpg",
+      "md5": "be925177f8d8fb8dbd6bf7e7d8d63f4b"
+     }
+    ]
+   }
+  ]
+ }
+]

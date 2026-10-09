@@ -1,0 +1,382 @@
+[
+ {
+  "product_id": "1137",
+  "product": "Cream Treat Purée",
+  "brand": "Mnyams",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1620,
+    "sku": "703803",
+    "label": "Katsuo Tuna, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Tuna",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11583",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_1",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11583.jpg",
+      "md5": "ac5f0f5db01da8b085fddd7ba5e4e5fd"
+     },
+     {
+      "pos": 1,
+      "media": "11586",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_2",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11586.jpg",
+      "md5": "27bb43a4dff0e5f6988fa08c339386a2"
+     },
+     {
+      "pos": 2,
+      "media": "11589",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_3",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11589.jpg",
+      "md5": "4c9b9ec3f016f279c5f7e493bd2694e5"
+     },
+     {
+      "pos": 3,
+      "media": "11592",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_6",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11592.jpg",
+      "md5": "dc8af4c69fd434cce5b85ead2bcdf06e"
+     },
+     {
+      "pos": 4,
+      "media": "11595",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_7",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11595.jpg",
+      "md5": "46c0805de9e3c1641619bd86deb24ebd"
+     },
+     {
+      "pos": 5,
+      "media": "11598",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_11",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11598.jpg",
+      "md5": "9c87377893045fe82c831d43b9cfd6b2"
+     },
+     {
+      "pos": 6,
+      "media": "11601",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_12",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11601.jpg",
+      "md5": "2862a7cf5f11d0e95d50fb324e1121d0"
+     },
+     {
+      "pos": 7,
+      "media": "11604",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_13",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11604.jpg",
+      "md5": "2b262144f6f5cf7612d6cd4b044647f6"
+     },
+     {
+      "pos": 8,
+      "media": "11607",
+      "file": "6f79faba-51cc-11e8-812d-005056bf23ce_1x1_10B",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11607.jpg",
+      "md5": "01932bd31125bcc801de1ebfb91efbe8"
+     }
+    ]
+   },
+   {
+    "variant_id": 1621,
+    "sku": "703813",
+    "label": "Katsuo & Maguro Tuna, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Seafood & Fish",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11610",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_1",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11610.jpg",
+      "md5": "7cf502939f046cc3b6fafa5d5ae328b7"
+     },
+     {
+      "pos": 1,
+      "media": "11613",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_2",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11613.jpg",
+      "md5": "5c2836ee075365041363be0198ecdbf5"
+     },
+     {
+      "pos": 2,
+      "media": "11616",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_3",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11616.jpg",
+      "md5": "051ca171e581bb4c470ef6b442a61eba"
+     },
+     {
+      "pos": 3,
+      "media": "11619",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_6",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11619.jpg",
+      "md5": "1c5d5e2f375329a45efd2894917f58b3"
+     },
+     {
+      "pos": 4,
+      "media": "11622",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_7",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11622.jpg",
+      "md5": "115f7fec5e5588aec35b0c9ec127b7f1"
+     },
+     {
+      "pos": 5,
+      "media": "11625",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_11",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11625.jpg",
+      "md5": "95358631cbac565a1afa0d907fc71453"
+     },
+     {
+      "pos": 6,
+      "media": "11628",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_12",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11628.jpg",
+      "md5": "cc7dd565d8304887a35d52326b524b46"
+     },
+     {
+      "pos": 7,
+      "media": "11631",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_13",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11631.jpg",
+      "md5": "ab9bc72df3bfaa5026de003c5b43cba2"
+     },
+     {
+      "pos": 8,
+      "media": "11634",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_14",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11634.jpg",
+      "md5": "f65fc5caea240745a1db671ad41673a6"
+     },
+     {
+      "pos": 9,
+      "media": "11637",
+      "file": "b8f53f2d-51cc-11e8-812d-005056bf23ce_1x1_15",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11637.jpg",
+      "md5": "740b0e7830ab63bb05b377bc21f1af10"
+     }
+    ]
+   },
+   {
+    "variant_id": 1622,
+    "sku": "540693",
+    "label": "Katsuo Tuna & Shrimp, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Shrimp",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11640",
+      "file": "c14c3f28-3b6f-11ee-8341-000c29a460e0_1x1_1",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11640.jpg",
+      "md5": "045199a9738c077a17953c087d8f3409"
+     },
+     {
+      "pos": 1,
+      "media": "11643",
+      "file": "c14c3f28-3b6f-11ee-8341-000c29a460e0_1x1_2",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11643.jpg",
+      "md5": "35dd733ed1d39e4dcd2ee8a3d6212b81"
+     },
+     {
+      "pos": 2,
+      "media": "11646",
+      "file": "c14c3f28-3b6f-11ee-8341-000c29a460e0_1x1_11",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11646.jpg",
+      "md5": "f5e64e65968524fe9d32ad9076d45569"
+     },
+     {
+      "pos": 3,
+      "media": "11649",
+      "file": "c14c3f28-3b6f-11ee-8341-000c29a460e0_1x1_12",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11649.jpg",
+      "md5": "fe6cb8c3a487a7e3d2ec43aeaea76bed"
+     },
+     {
+      "pos": 4,
+      "media": "11652",
+      "file": "c14c3f28-3b6f-11ee-8341-000c29a460e0_1x1_13",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11652.jpg",
+      "md5": "a932dc0196211bae9166beebe0a42a50"
+     },
+     {
+      "pos": 5,
+      "media": "11655",
+      "file": "c14c3f28-3b6f-11ee-8341-000c29a460e0_1x1_14",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11655.jpg",
+      "md5": "5960f1885a9653a3a857873cba01419b"
+     }
+    ]
+   },
+   {
+    "variant_id": 1623,
+    "sku": "703833",
+    "label": "Chicken, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11658",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_1",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11658.jpg",
+      "md5": "08f55a6cf1354512acbdcb69228b96d9"
+     },
+     {
+      "pos": 1,
+      "media": "11661",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_2",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11661.jpg",
+      "md5": "e346553db19bbd14c159108eacd09c9d"
+     },
+     {
+      "pos": 2,
+      "media": "11664",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_3",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11664.jpg",
+      "md5": "2fe0c50e5a2ddc26cde7c98648ee44e2"
+     },
+     {
+      "pos": 3,
+      "media": "11667",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_4",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11667.jpg",
+      "md5": "e5de70a2eb7ad5636b48584533e6c4c8"
+     },
+     {
+      "pos": 4,
+      "media": "11670",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_6",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11670.jpg",
+      "md5": "a41ad92f54e05465d890bacfc2c565d7"
+     },
+     {
+      "pos": 5,
+      "media": "11673",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_7",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11673.jpg",
+      "md5": "4f3da4a6cb8deba10f0fceb0561c8fd7"
+     },
+     {
+      "pos": 6,
+      "media": "11676",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_11",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11676.jpg",
+      "md5": "15033989d89b4a56ce373f89f4d4d4f3"
+     },
+     {
+      "pos": 7,
+      "media": "11679",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_13",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11679.jpg",
+      "md5": "28d33789d6b44fa50926a732b90d7038"
+     },
+     {
+      "pos": 8,
+      "media": "11682",
+      "file": "3de6be84-51cd-11e8-812d-005056bf23ce_1x1_10B",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11682.jpg",
+      "md5": "54b3ec78486f858f0729d4aa5fe885df"
+     }
+    ]
+   },
+   {
+    "variant_id": 1624,
+    "sku": "540713",
+    "label": "Duck & Katsuo Tuna, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11685",
+      "file": "14f291a7-3b70-11ee-8341-000c29a460e0_1x1_1",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11685.jpg",
+      "md5": "c973b6171c17bdd81554bf8808d6626c"
+     },
+     {
+      "pos": 1,
+      "media": "11688",
+      "file": "14f291a7-3b70-11ee-8341-000c29a460e0_1x1_2",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11688.jpg",
+      "md5": "6d141abc95dc660a42eb2ae04dd84b49"
+     },
+     {
+      "pos": 2,
+      "media": "11691",
+      "file": "14f291a7-3b70-11ee-8341-000c29a460e0_1x1_11",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11691.jpg",
+      "md5": "af1e4a6a820e20c340fbc4e6921360dc"
+     },
+     {
+      "pos": 3,
+      "media": "11694",
+      "file": "14f291a7-3b70-11ee-8341-000c29a460e0_1x1_12",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11694.jpg",
+      "md5": "0e246ffc0b04a386794e32a4dcf18a67"
+     },
+     {
+      "pos": 4,
+      "media": "11697",
+      "file": "14f291a7-3b70-11ee-8341-000c29a460e0_1x1_13",
+      "dims": "1500x1501",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11697.jpg",
+      "md5": "de9a836c8613e50726be249f6f66b206"
+     }
+    ]
+   }
+  ]
+ }
+]

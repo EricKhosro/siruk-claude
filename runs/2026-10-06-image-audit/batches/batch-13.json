@@ -1,0 +1,1210 @@
+[
+ {
+  "product_id": "620",
+  "product": "Cat Malt",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 728,
+    "sku": "4220",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Health Feature=Digestive Health",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4523",
+      "file": "PHO_PRO_CLIP_4220-2_-SALL_-AWK_-V1",
+      "dims": "449x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4523.jpg",
+      "md5": "4ce1e466fd5b6f389831a752820bb486"
+     }
+    ]
+   },
+   {
+    "variant_id": 1427,
+    "sku": "4222",
+    "label": "240 g",
+    "size_label": "240 g",
+    "options": "Health Feature=Digestive Health",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10407",
+      "file": "PHO_PAC_CLIP_4222-3_-SALL_-AWK_-V1",
+      "dims": "609x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10407.jpg",
+      "md5": "9b1281171ac4a44a30242a254854dc30"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "621",
+  "product": "Poultry Pâté",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 729,
+    "sku": "42728",
+    "label": "75 g, poultry",
+    "size_label": "75 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4526",
+      "file": "PHO_PRO_CLIP_42728-2_-SALL_-AWK_-V1",
+      "dims": "518x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4526.jpg",
+      "md5": "9f6a5ea7898b8bfda94e039e85e85515"
+     },
+     {
+      "pos": 1,
+      "media": "4529",
+      "file": "PHO_PAC_CLIP_42728-1_-SALL_-AWK_-V1",
+      "dims": "523x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4529.jpg",
+      "md5": "0d887d1f2ef1431a0ebf3ad82ea52987"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "622",
+  "product": "BWild Grain Free Adult Cat",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 730,
+    "sku": "012767",
+    "label": "Cod with Prawns & Vegetables 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Cod; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների համար Monge Bwild adult ձկան (մեռլուզո)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Bwild adult մեռլուզո  85 գ",
+    "ean": "8009470012768",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1782",
+      "file": "monge-bwild-grain-free-codfish-with-prawns-and-vegetables-in-sauce-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1782.jpg",
+      "md5": "d1f7df74fb94daf159afe543b6615847"
+     },
+     {
+      "pos": 1,
+      "media": "4532",
+      "file": "monge-bwild-grain-free-codfish-with-prawns-and-vegetables-in-sauce-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4532.jpg",
+      "md5": "6d795421cd74cc7f4aade32acc4717e3"
+     }
+    ]
+   },
+   {
+    "variant_id": 731,
+    "sku": "012757",
+    "label": "Buffalo with Vegetables 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Buffalo; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների համար Monge Bwild adult բիզոնի մսով",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Bwild adult բիզոն  85 գ",
+    "ean": "8009470012751",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4535",
+      "file": "monge-bwild-grain-free-buffalo-with-vegetables-in-sauce-85g-kitten-and-large-breeds",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4535.jpg",
+      "md5": "2036a565e94f6ff903c286894d77d54e"
+     },
+     {
+      "pos": 1,
+      "media": "4538",
+      "file": "monge-bwild-grain-free-buffalo-with-vegetables-in-sauce-85g-kitten-and-large-breeds.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4538.jpg",
+      "md5": "eaab2c3ff741c6326181009691551e02"
+     }
+    ]
+   },
+   {
+    "variant_id": 732,
+    "sku": "012777",
+    "label": "Anchovies with Vegetables 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Anchovies; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների համար Monge Bwild adult ձկան (անչոուս)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Bwild adult անչոուս  85 գ",
+    "ean": "8009470012775",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4541",
+      "file": "monge-bwild-grain-free-anchovies-with-vegetables-in-sauce-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4541.jpg",
+      "md5": "55fcec2dd842c4c4bab3db4f27bcb3a2"
+     },
+     {
+      "pos": 1,
+      "media": "4544",
+      "file": "monge-bwild-grain-free-anchovies-with-vegetables-in-sauce-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4544.jpg",
+      "md5": "ad454d359daa5a5a1f976a01dfb91159"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "623",
+  "product": "BWild Grain Free Sterilised Cat",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 733,
+    "sku": "012787",
+    "label": "Salmon with Prawns & Vegetables 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Salmon; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ ստերիլիզացված կատուների համար Monge Bwild ձկան (սալմոն)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Bwild steril. Սաղմոն  85 գ",
+    "ean": "8009470012782",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1785",
+      "file": "monge-bwild-grain-free-salmon-with-prawns-and-vegetables-in-sauce-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1785.jpg",
+      "md5": "a087352aa0585e3aa84754f58a43eea9"
+     },
+     {
+      "pos": 1,
+      "media": "4547",
+      "file": "monge-bwild-grain-free-salmon-with-prawns-and-vegetables-in-sauce-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4547.jpg",
+      "md5": "a3a70547774d4d758f311720cad8290f"
+     }
+    ]
+   },
+   {
+    "variant_id": 734,
+    "sku": "012797",
+    "label": "Tuna with Prawns & Vegetables 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Tuna; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ ստերիլիզացված կատուների համար Bwild ձկան (թյունոս)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Bwild steril. tonno 85 գ",
+    "ean": "8009470012799",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1788",
+      "file": "monge-bwild-grain-free-tuna-with-prawns-and-vegetables-in-sauce-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1788.jpg",
+      "md5": "83ec43f5b7eaa37ad5fbfde9fad60f63"
+     },
+     {
+      "pos": 1,
+      "media": "4550",
+      "file": "monge-bwild-grain-free-tuna-with-prawns-and-vegetables-in-sauce-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4550.jpg",
+      "md5": "857ee4c4c4694b3de56e9a0afa84a302"
+     }
+    ]
+   },
+   {
+    "variant_id": 735,
+    "sku": "012807",
+    "label": "Wild Boar with Vegetables 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Boar; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ ստերիլիզացված կատուների համար Monge Bwild  վայրի վարազի մսով",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Bwild steril. վայրի վարազ  85 գ",
+    "ean": "8009470012805",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4553",
+      "file": "monge-bwild-grain-free-boar-with-vegetables-in-sauce-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4553.jpg",
+      "md5": "be80142609bbb3ce8463c1f5d3f82d14"
+     },
+     {
+      "pos": 1,
+      "media": "4556",
+      "file": "monge-bwild-grain-free-boar-with-vegetables-in-sauce-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4556.jpg",
+      "md5": "acdc8c2e3af984b8c6b9a984093f3333"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "624",
+  "product": "Grill Adult Dog",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 736,
+    "sku": "013117",
+    "label": "Chicken & Turkey 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Grill շների համար (հավ և հնդկահավ)",
+    "hafo_variant_hy": "Կեր շն MONGE GRIL  Grain Free հավ և հնդկահավ 100 գ",
+    "ean": "8009470013116",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1791",
+      "file": "monge-grill-meat-pieces-with-chicken-and-turkey-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1791.jpg",
+      "md5": "e9ba90b25ae7095c179fd59000f43b52"
+     },
+     {
+      "pos": 1,
+      "media": "4559",
+      "file": "monge-grill-meat-pieces-with-chicken-and-turkey-100g-.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4559.jpg",
+      "md5": "ad219e3606972947f1322e12b3de60f4"
+     }
+    ]
+   },
+   {
+    "variant_id": 737,
+    "sku": "013127",
+    "label": "Salmon 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Salmon; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Grill  շների համար (սաղմոն)",
+    "hafo_variant_hy": "Կեր  շն.  MONGE GRIL  Grain Free ձուկ salmon 100գ",
+    "ean": "8009470013123",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4562",
+      "file": "monge-grill-meat-pieces-with-salmon-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4562.jpg",
+      "md5": "024fe9bdf83848676b0592fcd6327a54"
+     },
+     {
+      "pos": 1,
+      "media": "4565",
+      "file": "monge-grill-meat-pieces-with-salmon-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4565.jpg",
+      "md5": "65835c8278fdb8f58330f82d7084cb48"
+     }
+    ]
+   },
+   {
+    "variant_id": 738,
+    "sku": "013167",
+    "label": "Lamb with Vegetables 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Lamb; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Grill  շների համար (Գառ և բանջարեղեն)",
+    "hafo_variant_hy": "Կեր  շն. MONGE GRIL Grain Free գառ և բանջարեղեն 100գ",
+    "ean": "8009470013161",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4568",
+      "file": "monge-grill-meat-pieces-with-lamb-and-vegetables-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4568.jpg",
+      "md5": "a9ef0a2459ffdd956262e666224fd76e"
+     },
+     {
+      "pos": 1,
+      "media": "4571",
+      "file": "monge-grill-meat-pieces-with-lamb-and-vegetables-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4571.jpg",
+      "md5": "4da8530a47cc28b4a9b6511536c495d4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "625",
+  "product": "Grill Puppy Chicken & Turkey",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 739,
+    "sku": "013177",
+    "label": "Chicken & Turkey 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Կեր շների ձագերի՝ MONGE GRIL հավ և հնդկահավ",
+    "hafo_variant_hy": "Կեր շն. ձագերի՝ MONGE GRIL  Grain Free հավ և հնդկահավ 100 գ",
+    "ean": "8009470013178",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1794",
+      "file": "monge-grill-puppy-meat-pieces-with-chicken-and-turkey-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1794.jpg",
+      "md5": "e792598bf10b196821de8f077813b38b"
+     },
+     {
+      "pos": 1,
+      "media": "4574",
+      "file": "monge-grill-puppy-meat-pieces-with-chicken-and-turkey-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4574.jpg",
+      "md5": "bc332418f631031a3777ba1e5c0b5c52"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "626",
+  "product": "Fruit Adult Dog Paté",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 740,
+    "sku": "013257",
+    "label": "Pork with Pineapple 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Pork; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Fruit խոզի մսով և արքայախնձորով պաշտետ (100 գ)",
+    "hafo_variant_hy": "Կեր  շն. MONGE  FRUIT խոզ և արքայախնձոր 100 գ",
+    "ean": "8009470013253",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1797",
+      "file": "monge-dog-fruit-pate-with-pork-and-pineapple-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1797.jpg",
+      "md5": "168f98cc982acbf828b080d094333a79"
+     },
+     {
+      "pos": 1,
+      "media": "4577",
+      "file": "monge-dog-fruit-pate-with-pork-and-pineapple-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4577.jpg",
+      "md5": "569f10147997e39e62eeff7f48426748"
+     }
+    ]
+   },
+   {
+    "variant_id": 741,
+    "sku": "014337",
+    "label": "Turkey with Citrus Fruits 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Turkey; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Monoprotein պաշտետ՝ հնդկահավ և ցիտրուս, 400 գ",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoprotein հնդկահավ/ցիտրուս 400գ  ",
+    "ean": "8009470014335",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4580",
+      "file": "monge-dog-fruit-turkey-with-citrus-fruits-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4580.jpg",
+      "md5": "8d7ba03524f5e81c3e500f7517fb19bd"
+     },
+     {
+      "pos": 1,
+      "media": "4583",
+      "file": "monge-dog-fruit-turkey-with-citrus-fruits-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4583.jpg",
+      "md5": "0718f4d9b2729eea502decddc5ce64cc"
+     },
+     {
+      "pos": 2,
+      "media": "4586",
+      "file": "monge-dog-fruit-turkey-with-citrus-fruits-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4586.jpg",
+      "md5": "20c3735de2846cf9c6c35ba7f797cdb4"
+     },
+     {
+      "pos": 3,
+      "media": "4589",
+      "file": "monge-dog-fruit-turkey-with-citrus-fruits-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4589.jpg",
+      "md5": "4ab4c18f77cb938d7eab68915b8004f6"
+     }
+    ]
+   },
+   {
+    "variant_id": 742,
+    "sku": "013217",
+    "label": "Chicken with Raspberries 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Fruit հավի մսով և ազնվամորիով պաշտետ (100 գ)",
+    "hafo_variant_hy": "Կեր  շն. MONGE  FRUIT  հավ և ազնվամորի  100 գ",
+    "ean": "8009470013215",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4592",
+      "file": "monge-dog-fruit-pate-with-chicken-and-raspberries-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4592.jpg",
+      "md5": "104d4143a9f084d03761c70a9dee0def"
+     },
+     {
+      "pos": 1,
+      "media": "4595",
+      "file": "monge-dog-fruit-pate-with-chicken-and-raspberries-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4595.jpg",
+      "md5": "1a283e69fce1a2fa033a4c1ba46c9ff4"
+     }
+    ]
+   },
+   {
+    "variant_id": 743,
+    "sku": "013237",
+    "label": "Duck with Orange 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Fruit բադի մսով և նարինջով պաշտետ (100 գ)",
+    "hafo_variant_hy": "Կեր  շն. MONGE  FRUIT բադ և նարինջ 100 գ",
+    "ean": "8009470013239",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4598",
+      "file": "monge-dog-fruit-pate-with-duck-and-orange-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4598.jpg",
+      "md5": "e5c278ecc2b4ba46e1d32f6e12dd7d9f"
+     },
+     {
+      "pos": 1,
+      "media": "4601",
+      "file": "monge-dog-fruit-pate-with-duck-and-orange-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4601.jpg",
+      "md5": "edebbb8f7767ab5673cad2b6b85032a6"
+     }
+    ]
+   },
+   {
+    "variant_id": 744,
+    "sku": "013247",
+    "label": "Salmon with Pear 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Salmon; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Fruit սաղմոնի մսով և տանձով պաշտետ (100 գ)",
+    "hafo_variant_hy": "Կեր շն MONGE FRUIT ձուկ և տանձ 100 գ",
+    "ean": "8009470013246",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4604",
+      "file": "monge-dog-fruit-pate-with-salmon-and-pear-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4604.jpg",
+      "md5": "4fa23cedc1a97a77fb1a1ddf9c2cce97"
+     },
+     {
+      "pos": 1,
+      "media": "4607",
+      "file": "monge-dog-fruit-pate-with-salmon-and-pear-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4607.jpg",
+      "md5": "88712fbc319f1d368f5e250ce745b787"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "627",
+  "product": "Grill Kitten Salmon",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 745,
+    "sku": "013607",
+    "label": "Salmon 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Salmon; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների ձագերի համար (սալմոն)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Grill KITTEN սաղմոն 85գ",
+    "ean": "8009470013604",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1800",
+      "file": "monge-grill-cat-kitten-salmon-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1800.jpg",
+      "md5": "0e42333806054df2c3fd2da3e7a00636"
+     },
+     {
+      "pos": 1,
+      "media": "4610",
+      "file": "monge-grill-cat-kitten-salmon-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4610.jpg",
+      "md5": "fb8e48965bf46fc7a182c7cc6018eed9"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "628",
+  "product": "Grill Adult Cat",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 746,
+    "sku": "013617",
+    "label": "Rabbit 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Rabbit; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Grill կատուների համար (ճագար)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Grill ADULT ճագար 85գ",
+    "ean": "8009470013611",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1803",
+      "file": "monge-grill-cat-adult-rabbit-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1803.jpg",
+      "md5": "2882e73376953bf1fce17210cea44349"
+     },
+     {
+      "pos": 1,
+      "media": "4613",
+      "file": "monge-grill-cat-adult-rabbit-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4613.jpg",
+      "md5": "6704f723208704c06a1238dda656a1f5"
+     }
+    ]
+   },
+   {
+    "variant_id": 747,
+    "sku": "013627",
+    "label": "Lamb 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Lamb; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Grill կատուների համար (գառ)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Grill ADULT գառ 85գ",
+    "ean": "8009470013628",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1806",
+      "file": "monge-grill-cat-adult-lamb-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1806.jpg",
+      "md5": "0d85b6c9136addfd56f156a7b2c8dc86"
+     },
+     {
+      "pos": 1,
+      "media": "4616",
+      "file": "monge-grill-cat-adult-lamb-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4616.jpg",
+      "md5": "732c678b03cc12854c5bb96ab4e12fc2"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "629",
+  "product": "Grill Sterilised Cat",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 748,
+    "sku": "013637",
+    "label": "Chicken 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Grill STERIL կատուների համար (հավ)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Grill STERIL հավ 85գ",
+    "ean": "8009470013635",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4619",
+      "file": "monge-grill-cat-sterilized-cockerel-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4619.jpg",
+      "md5": "7dacbdf8561379868562b1d4f6267be8"
+     },
+     {
+      "pos": 1,
+      "media": "4622",
+      "file": "monge-grill-cat-sterilized-cockerel-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4622.jpg",
+      "md5": "938a85180520b86f4e385aac87583be0"
+     }
+    ]
+   },
+   {
+    "variant_id": 1260,
+    "sku": "013647",
+    "label": "Veal 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Veal; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge Grill STERIL կատուների համար (հորթ)",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Grill STERIL հորթ 85գ",
+    "ean": "8009470013642",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4625",
+      "file": "grill-cat-sterilized-veal-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4625.jpg",
+      "md5": "9f3efa90234303f65b0672391b2cd910"
+     },
+     {
+      "pos": 1,
+      "media": "4628",
+      "file": "grill-cat-sterilized-veal-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4628.jpg",
+      "md5": "8e65a205b6a31142a9806b7929c98f3e"
+     }
+    ]
+   },
+   {
+    "variant_id": 1261,
+    "sku": "013657",
+    "label": "Trout 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Trout; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Monge, իշխանի համով պաուչ ստերիլիզացված կատուների համար, 85 գ",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge Grill STERIL իշխան 85գ",
+    "ean": "8009470013659",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4631",
+      "file": "monge-grill-cat-sterilized-trout-85g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4631.jpg",
+      "md5": "51b1b93834a7e56bf5225577feee77b7"
+     },
+     {
+      "pos": 1,
+      "media": "4634",
+      "file": "monge-grill-cat-sterilized-trout-85g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4634.jpg",
+      "md5": "5cb418e8745cdbf2a4c2c14657347a3b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "632",
+  "product": "VetSolution Urinary Struvite Cat",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 751,
+    "sku": "014627",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "«Vetsolution Urinary Struvite» պաշտետ կատուների համար (100 գ)",
+    "hafo_variant_hy": "Կեր կատ. համար՝ պաշտետ, MONGE VET Urinari Struvite 100 գ",
+    "ean": "8009470014625",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4637",
+      "file": "monge-vetsolution-cat-urinary-struvite-100g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4637.jpg",
+      "md5": "60702d6e70cb7577d88c7d3514f69be5"
+     },
+     {
+      "pos": 1,
+      "media": "7234",
+      "file": "URINARY-STRUVITE-100g_8009470014625",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7234.jpg",
+      "md5": "010abb2232a9666ce70cd23ffd76652c"
+     },
+     {
+      "pos": 2,
+      "media": "4640",
+      "file": "monge-vetsolution-cat-urinary-struvite-100g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4640.jpg",
+      "md5": "75326adf83937c7e5df0dc9096a42bcb"
+     },
+     {
+      "pos": 3,
+      "media": "4643",
+      "file": "monge-vetsolution-cat-urinary-struvite-100g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4643.jpg",
+      "md5": "d758498b72991e988322bd1bc6142d89"
+     },
+     {
+      "pos": 4,
+      "media": "4646",
+      "file": "monge-vetsolution-cat-urinary-struvite-100g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4646.jpg",
+      "md5": "d133dc3af459d05694b353156a5a520c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "633",
+  "product": "Adult Dog Pouch",
+  "brand": "Gemon",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 752,
+    "sku": "300607",
+    "label": "Beef & Ham 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": "Տավարի և խոզապուխտի համով պաուչ մեծ շների համար",
+    "hafo_variant_hy": "Պաուչ  Gemon  Adult  շների հորթի մսով  100գ",
+    "ean": "8009470300605",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4649",
+      "file": "ALL-BREEDS-ADULT_Manzo-e-Prosciutto_100g_8009470300605",
+      "dims": "425x595",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4649.jpg",
+      "md5": "025c5f9a385b2bfa1f849846a6efb97b"
+     }
+    ]
+   },
+   {
+    "variant_id": 753,
+    "sku": "300617",
+    "label": "Salmon 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "7237",
+      "file": "ALL-BREEDS-ADULT_Salmone_100g_8009470300612",
+      "dims": "425x595",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7237.jpg",
+      "md5": "694e12c72d3aba4a396771b7c5ec2e44"
+     }
+    ]
+   },
+   {
+    "variant_id": 754,
+    "sku": "300627",
+    "label": "Game 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Wild Game; Packaging Type=Pouch",
+    "hafo_title_hy": "Բադի մսով պաուչ մեծ շների համար",
+    "hafo_variant_hy": "Պաուչ  Gemon  Adult  շների թռչնամիս  100գ",
+    "ean": "8009470300629",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4652",
+      "file": "ALL-BREEDS-ADULT_Selvaggina_100g_8009470300629",
+      "dims": "425x595",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4652.jpg",
+      "md5": "47e73475616dc88e27ca6bd3a3a280d5"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "634",
+  "product": "Adult Cat Pouch Pork",
+  "brand": "Gemon",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 755,
+    "sku": "300687",
+    "label": "Pork 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Pork",
+    "hafo_title_hy": "Պաուչ կատուների համար  Gemon Adult  խոզ  100գ",
+    "hafo_variant_hy": "Պաուչ կատուների համար  Gemon Adult  խոզ  100գ",
+    "ean": "8009470300681",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4655",
+      "file": "ADULT_Maiale_100g_8009470300681",
+      "dims": "1000x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4655.jpg",
+      "md5": "48cd21895a4b5917d6537d90104bb751"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "635",
+  "product": "Fresh Sterilised Cat",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 756,
+    "sku": "301097",
+    "label": "Herring 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Herring; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների համար Monge FRESH Steril տառեխ 85գ",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge FRESH Steril տառեխ 85գ",
+    "ean": "8009470301091",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4658",
+      "file": "monge-fresh-with-herring-85g-sterilised",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4658.jpg",
+      "md5": "1a5ea42001060b282ee71829714318e7"
+     },
+     {
+      "pos": 1,
+      "media": "7240",
+      "file": "Monge-Fresh-Sterilised-Aringa_Buste-85g_8009470301091",
+      "dims": "511x682",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7240.jpg",
+      "md5": "670f5934768e0c805e9ae3c09e78b2e1"
+     },
+     {
+      "pos": 2,
+      "media": "4661",
+      "file": "monge-fresh-with-herring-85g-sterilised.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4661.jpg",
+      "md5": "fa6224275f16f2e238c13d83c953cd52"
+     },
+     {
+      "pos": 3,
+      "media": "4664",
+      "file": "monge-fresh-with-herring-85g-sterilised.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4664.jpg",
+      "md5": "51b4c3d627dd4644e88295169dfc985c"
+     }
+    ]
+   },
+   {
+    "variant_id": 757,
+    "sku": "301087",
+    "label": "Beef 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Beef; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների համար Monge FRESH Steril տավար 85գ",
+    "hafo_variant_hy": "Պաուչ կատ. համար Monge FRESH Steril տավար 85գ",
+    "ean": "8009470301084",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4667",
+      "file": "monge-fresh-with-beef-85g-sterilised",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4667.jpg",
+      "md5": "8123f767c37ff22847586b9ed92db904"
+     },
+     {
+      "pos": 1,
+      "media": "7243",
+      "file": "Monge-Fresh-Sterilised-Manzo_Buste-85g_8009470301084",
+      "dims": "509x679",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7243.jpg",
+      "md5": "8e306d0498337b30ee3eab75b6eeb62a"
+     },
+     {
+      "pos": 2,
+      "media": "4670",
+      "file": "monge-fresh-with-beef-85g-sterilised.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4670.jpg",
+      "md5": "57ed659ec11adb10ef3b1bbd3fb79202"
+     },
+     {
+      "pos": 3,
+      "media": "4673",
+      "file": "monge-fresh-with-beef-85g-sterilised.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4673.jpg",
+      "md5": "12a2f468d0b0d5b6bd7896a29914fd7f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "636",
+  "product": "Mini Adult",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 758,
+    "sku": "004097",
+    "label": "Chicken & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Կեր շների համար՝ MONGE Mini Adult, հավ/բրինձ",
+    "hafo_variant_hy": "Կեր շների MONGE MINI ADULT հավ 800 գ",
+    "ean": "8009470004114",
+    "images": [
+     {
+      "pos": 0,
+      "media": "7246",
+      "file": "dog-mini-adult-chicken-800g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7246.jpg",
+      "md5": "5c1847ba82598ef300bca4fbeee9ed90"
+     },
+     {
+      "pos": 1,
+      "media": "7249",
+      "file": "dog-mini-adult-chicken-800g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7249.jpg",
+      "md5": "ff4c36aff47d55b99443100a09a53ea9"
+     }
+    ]
+   },
+   {
+    "variant_id": 1575,
+    "sku": "MG006117",
+    "label": "Chicken 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14017",
+      "file": "1575-1-final.jpg",
+      "dims": "1080x1080",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14017.jpg",
+      "md5": "422ccf3ab7064fc6c0423d8c4605c5f7"
+     },
+     {
+      "pos": 1,
+      "media": "14020",
+      "file": "1575-2-final.jpg",
+      "dims": "1852x1852",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14020.jpg",
+      "md5": "e1da7842a0752782ea5832de2b7f5826"
+     }
+    ]
+   },
+   {
+    "variant_id": 1656,
+    "sku": "MG006117-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14017",
+      "file": "1575-1-final.jpg",
+      "dims": "1080x1080",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14017.jpg",
+      "md5": "422ccf3ab7064fc6c0423d8c4605c5f7"
+     },
+     {
+      "pos": 1,
+      "media": "14020",
+      "file": "1575-2-final.jpg",
+      "dims": "1852x1852",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14020.jpg",
+      "md5": "e1da7842a0752782ea5832de2b7f5826"
+     }
+    ]
+   },
+   {
+    "variant_id": 1576,
+    "sku": "MG006067",
+    "label": "Lamb & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14023",
+      "file": "1576-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14023.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14026",
+      "file": "1576-2-final.jpg",
+      "dims": "1852x1852",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14026.jpg",
+      "md5": "7c97dd30fa2756c28603ae24f4987405"
+     }
+    ]
+   },
+   {
+    "variant_id": 1657,
+    "sku": "MG006067-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14023",
+      "file": "1576-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14023.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14026",
+      "file": "1576-2-final.jpg",
+      "dims": "1852x1852",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14026.jpg",
+      "md5": "7c97dd30fa2756c28603ae24f4987405"
+     }
+    ]
+   },
+   {
+    "variant_id": 1577,
+    "sku": "MG006077",
+    "label": "Salmon & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14029",
+      "file": "1577-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14029.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14032",
+      "file": "1577-2-final.jpg",
+      "dims": "1852x1852",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14032.jpg",
+      "md5": "8dd017c022e8eeff1e99a6f070a3bccc"
+     }
+    ]
+   },
+   {
+    "variant_id": 1658,
+    "sku": "MG006077-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14029",
+      "file": "1577-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14029.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14032",
+      "file": "1577-2-final.jpg",
+      "dims": "1852x1852",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14032.jpg",
+      "md5": "8dd017c022e8eeff1e99a6f070a3bccc"
+     }
+    ]
+   }
+  ]
+ }
+]

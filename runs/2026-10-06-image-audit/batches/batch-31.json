@@ -1,0 +1,1106 @@
+[
+ {
+  "product_id": "1154",
+  "product": "Mini Starter",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1665,
+    "sku": "MG006087",
+    "label": "Chicken 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14053",
+      "file": "1665-1-final.jpg",
+      "dims": "1080x1080",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14053.jpg",
+      "md5": "422ccf3ab7064fc6c0423d8c4605c5f7"
+     },
+     {
+      "pos": 1,
+      "media": "14056",
+      "file": "1665-2-final.jpg",
+      "dims": "1853x1853",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14056.jpg",
+      "md5": "69b4fbf75e13366e32046177b02de8db"
+     }
+    ]
+   },
+   {
+    "variant_id": 1666,
+    "sku": "MG006087-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14053",
+      "file": "1665-1-final.jpg",
+      "dims": "1080x1080",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14053.jpg",
+      "md5": "422ccf3ab7064fc6c0423d8c4605c5f7"
+     },
+     {
+      "pos": 1,
+      "media": "14056",
+      "file": "1665-2-final.jpg",
+      "dims": "1853x1853",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14056.jpg",
+      "md5": "69b4fbf75e13366e32046177b02de8db"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1155",
+  "product": "Medium Puppy & Junior",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1667,
+    "sku": "MG006347",
+    "label": "Chicken 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14059",
+      "file": "1667-1-final.jpg",
+      "dims": "1076x1076",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14059.jpg",
+      "md5": "cc1c8f4d46354a5b959114a7fc383e81"
+     },
+     {
+      "pos": 1,
+      "media": "14062",
+      "file": "1667-2-final.jpg",
+      "dims": "1853x1853",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14062.jpg",
+      "md5": "0b7bdd9c16b76f0fb5174c5594b52040"
+     }
+    ]
+   },
+   {
+    "variant_id": 1668,
+    "sku": "MG006347-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14059",
+      "file": "1667-1-final.jpg",
+      "dims": "1076x1076",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14059.jpg",
+      "md5": "cc1c8f4d46354a5b959114a7fc383e81"
+     },
+     {
+      "pos": 1,
+      "media": "14062",
+      "file": "1667-2-final.jpg",
+      "dims": "1853x1853",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14062.jpg",
+      "md5": "0b7bdd9c16b76f0fb5174c5594b52040"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1156",
+  "product": "Maxi Puppy & Junior",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1669,
+    "sku": "MG006027",
+    "label": "Chicken 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14014",
+      "file": "1669-1-final.jpg",
+      "dims": "1077x1077",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14014.jpg",
+      "md5": "6554fca2e099a15dde3ca926c7aeba11"
+     }
+    ]
+   },
+   {
+    "variant_id": 1670,
+    "sku": "MG006027-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14014",
+      "file": "1669-1-final.jpg",
+      "dims": "1077x1077",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14014.jpg",
+      "md5": "6554fca2e099a15dde3ca926c7aeba11"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1157",
+  "product": "Maxi Adult",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1671,
+    "sku": "004417",
+    "label": "Chicken 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14098",
+      "file": "1671-1-final.jpg",
+      "dims": "1402x1402",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14098.jpg",
+      "md5": "50f0a66796d80adfd32a1fd180ee1344"
+     },
+     {
+      "pos": 1,
+      "media": "14101",
+      "file": "1671-2-final.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14101.jpg",
+      "md5": "21e7f308c3774ee829c91c5b5c73fb31"
+     }
+    ]
+   },
+   {
+    "variant_id": 1672,
+    "sku": "004417-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14098",
+      "file": "1671-1-final.jpg",
+      "dims": "1402x1402",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14098.jpg",
+      "md5": "50f0a66796d80adfd32a1fd180ee1344"
+     },
+     {
+      "pos": 1,
+      "media": "14101",
+      "file": "1671-2-final.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14101.jpg",
+      "md5": "21e7f308c3774ee829c91c5b5c73fb31"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1158",
+  "product": "BWild Low Grain All Breeds Adult",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1673,
+    "sku": "011757",
+    "label": "Wild Boar 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Boar",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14104",
+      "file": "1673-1-final.jpg",
+      "dims": "697x697",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14104.jpg",
+      "md5": "6ddf9c36b484e361c21955bb815f4c2b"
+     },
+     {
+      "pos": 1,
+      "media": "14107",
+      "file": "1673-2-final.jpg",
+      "dims": "1232x1232",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14107.jpg",
+      "md5": "0b78112715fb4e61036c30a5430e431e"
+     }
+    ]
+   },
+   {
+    "variant_id": 1674,
+    "sku": "011757-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Boar",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14104",
+      "file": "1673-1-final.jpg",
+      "dims": "697x697",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14104.jpg",
+      "md5": "6ddf9c36b484e361c21955bb815f4c2b"
+     },
+     {
+      "pos": 1,
+      "media": "14107",
+      "file": "1673-2-final.jpg",
+      "dims": "1232x1232",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14107.jpg",
+      "md5": "0b78112715fb4e61036c30a5430e431e"
+     }
+    ]
+   },
+   {
+    "variant_id": 1675,
+    "sku": "011797",
+    "label": "Deer 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Venison",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14110",
+      "file": "1675-1-final.jpg",
+      "dims": "696x696",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14110.jpg",
+      "md5": "7976dad31a68f2ca1b893aaabf65ee81"
+     }
+    ]
+   },
+   {
+    "variant_id": 1676,
+    "sku": "011797-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Venison",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14110",
+      "file": "1675-1-final.jpg",
+      "dims": "696x696",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14110.jpg",
+      "md5": "7976dad31a68f2ca1b893aaabf65ee81"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1159",
+  "product": "BWild Low Grain All Breeds Puppy & Junior",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1677,
+    "sku": "011897",
+    "label": "Deer 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Venison",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14113",
+      "file": "1677-1-final.jpg",
+      "dims": "697x697",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14113.jpg",
+      "md5": "4c41e393c499abb16c863311e1172519"
+     },
+     {
+      "pos": 1,
+      "media": "14116",
+      "file": "1677-2-final.jpg",
+      "dims": "1232x1232",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14116.jpg",
+      "md5": "25c43a992cb090f99f922b9155dce9ef"
+     }
+    ]
+   },
+   {
+    "variant_id": 1678,
+    "sku": "011897-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Venison",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14113",
+      "file": "1677-1-final.jpg",
+      "dims": "697x697",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14113.jpg",
+      "md5": "4c41e393c499abb16c863311e1172519"
+     },
+     {
+      "pos": 1,
+      "media": "14116",
+      "file": "1677-2-final.jpg",
+      "dims": "1232x1232",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14116.jpg",
+      "md5": "25c43a992cb090f99f922b9155dce9ef"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1160",
+  "product": "BWild Grain Free All Breeds Adult",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1679,
+    "sku": "011737",
+    "label": "Lamb, Potatoes & Peas 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14119",
+      "file": "1679-1-final.jpg",
+      "dims": "697x697",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14119.jpg",
+      "md5": "c849ffb10f8bc26dd8005e9a4ada28f7"
+     },
+     {
+      "pos": 1,
+      "media": "14122",
+      "file": "1679-2-final.jpg",
+      "dims": "1232x1232",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14122.jpg",
+      "md5": "ac2fc4539ed82c266c6f2e4b03bc78c1"
+     }
+    ]
+   },
+   {
+    "variant_id": 1680,
+    "sku": "011737-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14119",
+      "file": "1679-1-final.jpg",
+      "dims": "697x697",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14119.jpg",
+      "md5": "c849ffb10f8bc26dd8005e9a4ada28f7"
+     },
+     {
+      "pos": 1,
+      "media": "14122",
+      "file": "1679-2-final.jpg",
+      "dims": "1232x1232",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14122.jpg",
+      "md5": "ac2fc4539ed82c266c6f2e4b03bc78c1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1161",
+  "product": "Hairball Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1681,
+    "sku": "MG 004797",
+    "label": "Chicken 10 kg",
+    "size_label": "10 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11842",
+      "file": "ge-catalog-product-upload-ME000035261-800x800",
+      "dims": "800x800",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11842.jpg",
+      "md5": "37dff324960fe72bad89ab297a5a23c6"
+     }
+    ]
+   },
+   {
+    "variant_id": 1682,
+    "sku": "MG 004797-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11842",
+      "file": "ge-catalog-product-upload-ME000035261-800x800",
+      "dims": "800x800",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11842.jpg",
+      "md5": "37dff324960fe72bad89ab297a5a23c6"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1162",
+  "product": "Indoor Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1683,
+    "sku": "MG 004827",
+    "label": "Chicken 10 kg",
+    "size_label": "10 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11942",
+      "file": "dbpim-prod_44471",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11942.jpg",
+      "md5": "469b35bbd8f4d3117959aaaa3f24ff8a"
+     }
+    ]
+   },
+   {
+    "variant_id": 1684,
+    "sku": "MG 004827-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11942",
+      "file": "dbpim-prod_44471",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11942.jpg",
+      "md5": "469b35bbd8f4d3117959aaaa3f24ff8a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1163",
+  "product": "Kitten Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1685,
+    "sku": "MG 004817",
+    "label": "Chicken 10 kg",
+    "size_label": "10 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14176",
+      "file": "004817-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14176.jpg",
+      "md5": "a1232977592a552dbd192bc8bef01f48"
+     },
+     {
+      "pos": 1,
+      "media": "14179",
+      "file": "004817-2.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14179.jpg",
+      "md5": "111fa28ae6b1a08d7f2423dc01a6b3fa"
+     }
+    ]
+   },
+   {
+    "variant_id": 1686,
+    "sku": "MG 004817-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14176",
+      "file": "004817-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14176.jpg",
+      "md5": "a1232977592a552dbd192bc8bef01f48"
+     },
+     {
+      "pos": 1,
+      "media": "14179",
+      "file": "004817-2.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14179.jpg",
+      "md5": "111fa28ae6b1a08d7f2423dc01a6b3fa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1164",
+  "product": "Sensitive Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1687,
+    "sku": "MG 004837",
+    "label": "Chicken 10 kg",
+    "size_label": "10 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11939",
+      "file": "dbpim-prod_44477",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11939.jpg",
+      "md5": "e4e83f5609148b29b049fbb61f20363b"
+     }
+    ]
+   },
+   {
+    "variant_id": 1688,
+    "sku": "MG 004837-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11939",
+      "file": "dbpim-prod_44477",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11939.jpg",
+      "md5": "e4e83f5609148b29b049fbb61f20363b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1165",
+  "product": "Adult Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1689,
+    "sku": "MG 004807",
+    "label": "Chicken 10 kg",
+    "size_label": "10 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14182",
+      "file": "004807-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14182.jpg",
+      "md5": "fb59d26eaaf29af544308785a9de6b95"
+     }
+    ]
+   },
+   {
+    "variant_id": 1690,
+    "sku": "MG 004807-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14182",
+      "file": "004807-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14182.jpg",
+      "md5": "fb59d26eaaf29af544308785a9de6b95"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1166",
+  "product": "Kitten Cat",
+  "brand": "Gemon",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1691,
+    "sku": "297257",
+    "label": "Chicken & Rice 7 kg",
+    "size_label": "7 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11274",
+      "file": "KITTEN_Pollo_2kg_8009470297134",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11274.jpg",
+      "md5": "f106d0b07a2f2d8467911c2c96b37ef2"
+     }
+    ]
+   },
+   {
+    "variant_id": 1692,
+    "sku": "297257-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11274",
+      "file": "KITTEN_Pollo_2kg_8009470297134",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11274.jpg",
+      "md5": "f106d0b07a2f2d8467911c2c96b37ef2"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1167",
+  "product": "Adult Cat",
+  "brand": "Gemon",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1693,
+    "sku": "297267",
+    "label": "Chicken & Turkey 7 kg",
+    "size_label": "7 kg",
+    "options": "Flavor=Chicken & Turkey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11277",
+      "file": "ADULT_PolloeTacchino_2kg_8009470297158",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11277.jpg",
+      "md5": "2d5dd1188053baa7f8abbd8e8c0bdb4f"
+     }
+    ]
+   },
+   {
+    "variant_id": 1694,
+    "sku": "297267-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken & Turkey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11277",
+      "file": "ADULT_PolloeTacchino_2kg_8009470297158",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11277.jpg",
+      "md5": "2d5dd1188053baa7f8abbd8e8c0bdb4f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1168",
+  "product": "Mini Adult Dog",
+  "brand": "Gemon",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1695,
+    "sku": "MM005677",
+    "label": "Chicken & Rice 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11280",
+      "file": "gemonbestforbreederzak",
+      "dims": "577x991",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg",
+      "md5": "b1c0b04d0e694f006c5556ceb967b680"
+     },
+     {
+      "pos": 1,
+      "media": "11283",
+      "file": "MINI-ADULT_Pollo_3kg_8009470386050",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11283.jpg",
+      "md5": "9d7658ca33ce9c19b550d8647c8803c8"
+     },
+     {
+      "pos": 2,
+      "media": "11286",
+      "file": "Mini-Adult-with-Chicken-and-Rice",
+      "dims": "1210x1693",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11286.jpg",
+      "md5": "336212f80f0b2dc5d53208cbb3e7d5f5"
+     },
+     {
+      "pos": 3,
+      "media": "11289",
+      "file": "gemonminiadultkiprijst",
+      "dims": "920x142",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg",
+      "md5": "82e163c809e810e6a157dba088c290dc"
+     }
+    ]
+   },
+   {
+    "variant_id": 1696,
+    "sku": "MM005677-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11280",
+      "file": "gemonbestforbreederzak",
+      "dims": "577x991",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg",
+      "md5": "b1c0b04d0e694f006c5556ceb967b680"
+     },
+     {
+      "pos": 1,
+      "media": "11283",
+      "file": "MINI-ADULT_Pollo_3kg_8009470386050",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11283.jpg",
+      "md5": "9d7658ca33ce9c19b550d8647c8803c8"
+     },
+     {
+      "pos": 2,
+      "media": "11286",
+      "file": "Mini-Adult-with-Chicken-and-Rice",
+      "dims": "1210x1693",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11286.jpg",
+      "md5": "336212f80f0b2dc5d53208cbb3e7d5f5"
+     },
+     {
+      "pos": 3,
+      "media": "11289",
+      "file": "gemonminiadultkiprijst",
+      "dims": "920x142",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg",
+      "md5": "82e163c809e810e6a157dba088c290dc"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1169",
+  "product": "Regular All Breeds Adult Dog",
+  "brand": "Gemon",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1697,
+    "sku": "MM006177",
+    "label": "Chicken & Rice 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11292",
+      "file": "ALL-BREEDS-Regular_20kg_SX_8009470006279",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11292.jpg",
+      "md5": "b8d95fdad397c30e501bd401d43c18ba"
+     },
+     {
+      "pos": 1,
+      "media": "11280",
+      "file": "gemonbestforbreederzak",
+      "dims": "577x991",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg",
+      "md5": "b1c0b04d0e694f006c5556ceb967b680"
+     },
+     {
+      "pos": 2,
+      "media": "11295",
+      "file": "All-Breeds-Regular",
+      "dims": "1210x1693",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11295.jpg",
+      "md5": "ef9ab38afe7018c19353aeffd9941960"
+     },
+     {
+      "pos": 3,
+      "media": "11289",
+      "file": "gemonminiadultkiprijst",
+      "dims": "920x142",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg",
+      "md5": "82e163c809e810e6a157dba088c290dc"
+     }
+    ]
+   },
+   {
+    "variant_id": 1698,
+    "sku": "MM006177-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11292",
+      "file": "ALL-BREEDS-Regular_20kg_SX_8009470006279",
+      "dims": "447x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11292.jpg",
+      "md5": "b8d95fdad397c30e501bd401d43c18ba"
+     },
+     {
+      "pos": 1,
+      "media": "11280",
+      "file": "gemonbestforbreederzak",
+      "dims": "577x991",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg",
+      "md5": "b1c0b04d0e694f006c5556ceb967b680"
+     },
+     {
+      "pos": 2,
+      "media": "11295",
+      "file": "All-Breeds-Regular",
+      "dims": "1210x1693",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11295.jpg",
+      "md5": "ef9ab38afe7018c19353aeffd9941960"
+     },
+     {
+      "pos": 3,
+      "media": "11289",
+      "file": "gemonminiadultkiprijst",
+      "dims": "920x142",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg",
+      "md5": "82e163c809e810e6a157dba088c290dc"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1170",
+  "product": "Adult Dog Kibbles",
+  "brand": "Simba",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1699,
+    "sku": "009977",
+    "label": "Tuna 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Tuna",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11313",
+      "file": "SIMBA-DOG-TONNO_4kg_8009470009966",
+      "dims": "382x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11313.jpg",
+      "md5": "6c4d74a62dc66851ee03122eef2c6c10"
+     }
+    ]
+   },
+   {
+    "variant_id": 1700,
+    "sku": "009977-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Tuna",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11313",
+      "file": "SIMBA-DOG-TONNO_4kg_8009470009966",
+      "dims": "382x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11313.jpg",
+      "md5": "6c4d74a62dc66851ee03122eef2c6c10"
+     }
+    ]
+   },
+   {
+    "variant_id": 1701,
+    "sku": "009957",
+    "label": "Lamb 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11316",
+      "file": "SIMBA-DOG-AGNELLO_4kg_8009470009805-2",
+      "dims": "387x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11316.jpg",
+      "md5": "d4a0fca2de5a32880021a531393e9c95"
+     }
+    ]
+   },
+   {
+    "variant_id": 1702,
+    "sku": "009957-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11316",
+      "file": "SIMBA-DOG-AGNELLO_4kg_8009470009805-2",
+      "dims": "387x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11316.jpg",
+      "md5": "d4a0fca2de5a32880021a531393e9c95"
+     }
+    ]
+   }
+  ]
+ }
+]

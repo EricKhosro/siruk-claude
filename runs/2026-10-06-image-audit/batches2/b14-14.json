@@ -1,0 +1,658 @@
+[
+ {
+  "product_id": "637",
+  "product": "Monoprotein Adult Cat Salmon",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 759,
+    "sku": "005517",
+    "label": "Salmon 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": "Կեր կատուների համար՝ MONGE Monoprotein սաղմոն, 1.5 կգ",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE Monoprotein սալմոն, 1.5 կգ",
+    "ean": "8009470005517",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4682",
+      "file": "cat-adult-salmon-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4682.jpg",
+      "md5": "e06896148999c257468e1ba93ca72b39"
+     },
+     {
+      "pos": 1,
+      "media": "7252",
+      "file": "ADULT-MONO-salmone_15KG_8009470005517",
+      "dims": "540x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7252.jpg",
+      "md5": "3abe04f34229ac291c4be9da4f1d69b7"
+     },
+     {
+      "pos": 2,
+      "media": "4685",
+      "file": "cat-adult-salmon-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4685.jpg",
+      "md5": "fb3368c7fcfc0cf98e8768bc93fb0d28"
+     },
+     {
+      "pos": 3,
+      "media": "4688",
+      "file": "cat-adult-salmon-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4688.jpg",
+      "md5": "bf2079afdf7f133240deb5cd4e857dda"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "638",
+  "product": "Monoprotein Sterilised Cat Beef",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 760,
+    "sku": "005527",
+    "label": "Beef 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": "Կեր կատուների համար՝ MONGE STERILISED Monoprotein, հորթի մսով",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE STERILISED Monoprotein հորթ 1.5 կգ",
+    "ean": "8009470005524",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4691",
+      "file": "cat-sterilized-beef-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4691.jpg",
+      "md5": "ca4962a19fa6097949352952da8af6d8"
+     },
+     {
+      "pos": 1,
+      "media": "7255",
+      "file": "STERILISED-MONO-manzo-15KG_8009470005524",
+      "dims": "540x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7255.jpg",
+      "md5": "df9f06ba53795bb299d92d0900fe8b51"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "639",
+  "product": "All Breeds Puppy & Junior",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 761,
+    "sku": "011257",
+    "label": "Lamb & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": "«All Breeds Puppy & Junior» շների չոր կեր (գառ/բրինձ) 800 գ",
+    "hafo_variant_hy": "Կեր շն MONGE   PUPPY & JUNIOR  գառան  800 գ",
+    "ean": "8009470011259",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1755",
+      "file": "monge_cane_secco_all_breeds_puppy_e_junior_agnello_con_riso",
+      "dims": "384x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1755.jpg",
+      "md5": "f51fa7186b5483c1a455cd584de3441f"
+     }
+    ]
+   },
+   {
+    "variant_id": 1573,
+    "sku": "011217",
+    "label": "Salmon & Rice 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14008",
+      "file": "1573-1-final.jpg",
+      "dims": "1403x1403",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14008.jpg",
+      "md5": "bac3d72994e4fad90ef081f421b9ea89"
+     }
+    ]
+   },
+   {
+    "variant_id": 1654,
+    "sku": "011217-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14008",
+      "file": "1573-1-final.jpg",
+      "dims": "1403x1403",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14008.jpg",
+      "md5": "bac3d72994e4fad90ef081f421b9ea89"
+     }
+    ]
+   },
+   {
+    "variant_id": 1574,
+    "sku": "006487",
+    "label": "Beef & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14035",
+      "file": "1574-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14035.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14038",
+      "file": "1574-2-final.jpg",
+      "dims": "1880x1880",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14038.jpg",
+      "md5": "b72b6d01055515bf8e71fb215d3f1272"
+     }
+    ]
+   },
+   {
+    "variant_id": 1655,
+    "sku": "006487-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14035",
+      "file": "1574-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14035.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14038",
+      "file": "1574-2-final.jpg",
+      "dims": "1880x1880",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14038.jpg",
+      "md5": "b72b6d01055515bf8e71fb215d3f1272"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "640",
+  "product": "Extra Small Puppy & Junior Chicken",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 762,
+    "sku": "011407",
+    "label": "Chicken 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Monge Extra Small Puppy & Junior Հավի համով (800 գ)",
+    "hafo_variant_hy": "Կեր շն MONGE  EXTRA SMALL PUPPY, հավ  800 գ",
+    "ean": "8009470011402",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1758",
+      "file": "Extra-Small-Puppy-and-Junior-Rich-in-Chicken_800g_8009470011402",
+      "dims": "384x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1758.jpg",
+      "md5": "7e1500d21651fcee8cd9586c5485675d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "641",
+  "product": "Extra Small Adult Lamb & Rice",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 763,
+    "sku": "011477",
+    "label": "Lamb & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": "Կեր շների համար՝ MONGE  EXTRA SMALL ADULT, գառ/բրինձ, 800 գ",
+    "hafo_variant_hy": "Կեր շների համար՝ MONGE  EXTRA SMALL ADULT, գառ/բրինձ, 800 գ",
+    "ean": "8009470011471",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1761",
+      "file": "monge_cane_secco_extra_small_adult_agnello_riso_e_patate",
+      "dims": "384x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1761.jpg",
+      "md5": "ad1030c289971baf8642c914d97d5432"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "642",
+  "product": "Sterilised Cat Chicken",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 764,
+    "sku": "011937",
+    "label": "Chicken 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Monge Sterilised չոր կեր կատուների համար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE  STERILISED հավ 1.5 կգ",
+    "ean": "8009470011938",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4694",
+      "file": "cat-sterilized-chicken-15-kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4694.jpg",
+      "md5": "0b5c7fcd4ec539b04311be09fdacae77"
+     },
+     {
+      "pos": 1,
+      "media": "7258",
+      "file": "STERILISED-CHICKEN_15KG_8009470011938",
+      "dims": "540x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7258.jpg",
+      "md5": "a06cfbe7e331ebff857a0d202631e538"
+     },
+     {
+      "pos": 2,
+      "media": "4697",
+      "file": "cat-sterilized-chicken-15-kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4697.jpg",
+      "md5": "661efddb587e933098f084083b60b157"
+     },
+     {
+      "pos": 3,
+      "media": "4700",
+      "file": "cat-sterilized-chicken-15-kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4700.jpg",
+      "md5": "6f01a8eea819aeefb8448e17cb9f1853"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "643",
+  "product": "BWild Adult Cat Hare",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 765,
+    "sku": "012007",
+    "label": "Hare 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "Bwild, չոր կեր հասուն կատուների համար, ճագար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատուների համար BWILD CAT ` LOW GRAIN, ճագար, 1.5 կգ",
+    "ean": "8009470012003",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4703",
+      "file": "cat-bwild-adult-hare-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4703.jpg",
+      "md5": "add0e9a3c2cd7a92831d19c7afd6fd1b"
+     },
+     {
+      "pos": 1,
+      "media": "4706",
+      "file": "cat-bwild-adult-hare-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4706.jpg",
+      "md5": "d74338b93ea0090f3c5120d7d0290e3a"
+     },
+     {
+      "pos": 2,
+      "media": "4709",
+      "file": "cat-bwild-adult-hare-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4709.jpg",
+      "md5": "a1242d7cfac2fedfdf36251d52a93bcc"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "644",
+  "product": "BWild Grain Free Large Breed Cat Buffalo",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 766,
+    "sku": "012067",
+    "label": "Buffalo 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Buffalo",
+    "hafo_title_hy": "Կեր կատուների համար BWILD CAT՝ գոմեշ",
+    "hafo_variant_hy": "Կեր կատուների համար BWILD CAT` առանց հացահատիկի, գոմեշ/ոսպ/կարտոֆիլ, 1.5 կգ",
+    "ean": "8009470012065",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4712",
+      "file": "cat-bwild-grain-free-large-breeds-buffalo-15-kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4712.jpg",
+      "md5": "cc250d93e7d64ba81febc5ff9e9900f0"
+     },
+     {
+      "pos": 1,
+      "media": "4715",
+      "file": "cat-bwild-grain-free-large-breeds-buffalo-15-kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4715.jpg",
+      "md5": "32fd39336be412bff885a4d8317da00d"
+     },
+     {
+      "pos": 2,
+      "media": "4718",
+      "file": "cat-bwild-grain-free-large-breeds-buffalo-15-kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4718.jpg",
+      "md5": "ddc0672f0da9eb13f2075751a74bb8fa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "645",
+  "product": "BWild Grain Free Sterilised Cat Tuna with Peas",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 767,
+    "sku": "012087",
+    "label": "Tuna with Peas 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Tuna",
+    "hafo_title_hy": "Կեր ստերիլիզացված կատուների համար BWILD CAT STERIL` թյունոս",
+    "hafo_variant_hy": "Կեր ստերիլ կատուների համար BWILD CAT STERIL` առանց հացահատիկի, թյունոս/գարոխ, 1.5 կգ",
+    "ean": "8009470012089",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4721",
+      "file": "cat-bwild-grain-free-sterilized-tuna-with-peas-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4721.jpg",
+      "md5": "0494401e05931370fa02b93883d0bd34"
+     },
+     {
+      "pos": 1,
+      "media": "4724",
+      "file": "cat-bwild-grain-free-sterilized-tuna-with-peas-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4724.jpg",
+      "md5": "eebda22fc7f0f2d7bc3cc21a0ed863da"
+     },
+     {
+      "pos": 2,
+      "media": "4727",
+      "file": "cat-bwild-grain-free-sterilized-tuna-with-peas-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4727.jpg",
+      "md5": "1aadc4a202abaca45687af0f5d55a265"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "646",
+  "product": "VetSolution Gastrointestinal Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 768,
+    "sku": "081517",
+    "label": "1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "VetSolution Gastrointestinal (ստամքս-աղիքային) բժշկական չոր կեր կատուների համար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE VET Gastrointestinal 1.5 կգ",
+    "ean": "8009470081511",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4730",
+      "file": "vetsolution-cat-gastrointestinal-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4730.jpg",
+      "md5": "c3323001aa6f17757f637d61cfdf67a4"
+     },
+     {
+      "pos": 1,
+      "media": "7261",
+      "file": "VETSolution_GASTROINTESTINAL_gatto_15-kg_8009470081511-copia",
+      "dims": "640x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7261.jpg",
+      "md5": "d4ebe961d65aa111fbdcbbc2ef47522a"
+     },
+     {
+      "pos": 2,
+      "media": "4733",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4733.jpg",
+      "md5": "c2c5e4cc51d33137ca6a867a0e5b4826"
+     },
+     {
+      "pos": 3,
+      "media": "4736",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4736.jpg",
+      "md5": "7e1b514ed5010f058658fc28a87e9d6c"
+     },
+     {
+      "pos": 4,
+      "media": "4739",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4739.jpg",
+      "md5": "1c0c562d9f882eb369f00914a616a51c"
+     },
+     {
+      "pos": 5,
+      "media": "4742",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4742.jpg",
+      "md5": "e291d155cdabf45b9b596f9164be3feb"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "647",
+  "product": "VetSolution Renal Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 769,
+    "sku": "081657",
+    "label": "1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "VetSolution Renal (երիկամային) բժշկական չոր կեր կատուների համար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE VET RENAL 1.5 կգ",
+    "ean": "8009470081658",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4745",
+      "file": "vetsolution-cat-renal-15-kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4745.jpg",
+      "md5": "4748712000b0a66e10693b838ea8c4ec"
+     },
+     {
+      "pos": 1,
+      "media": "7264",
+      "file": "VETSolution_RENAL_gatto_15-kg_8009470081658",
+      "dims": "640x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7264.jpg",
+      "md5": "454d4c78ca3b99e3f54df0875853b69b"
+     },
+     {
+      "pos": 2,
+      "media": "4748",
+      "file": "vetsolution-cat-renal-15-kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4748.jpg",
+      "md5": "38f268e34e393bb57fd6985782ff7759"
+     },
+     {
+      "pos": 3,
+      "media": "4751",
+      "file": "vetsolution-cat-renal-15-kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4751.jpg",
+      "md5": "ba6fe8275a5707bcbb10d948f96d5b84"
+     },
+     {
+      "pos": 4,
+      "media": "4754",
+      "file": "vetsolution-cat-renal-15-kg.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4754.jpg",
+      "md5": "beb51f0946223c739f4bff5f2383c9ad"
+     },
+     {
+      "pos": 5,
+      "media": "4757",
+      "file": "vetsolution-cat-renal-15-kg.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4757.jpg",
+      "md5": "89eeabfb05aaad7dc24e9b03cdaeabb8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "648",
+  "product": "VetSolution Hepatic Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 770,
+    "sku": "081687",
+    "label": "1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "VetSolution Hepatic բժշկական չոր կեր կատուների համար",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE VET HEPATIC 1.5 կգ",
+    "ean": "8009470081689",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4760",
+      "file": "vetsolution-cat-hepatic-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4760.jpg",
+      "md5": "1afa680a9d92bfa6974d6baae90f62a2"
+     },
+     {
+      "pos": 1,
+      "media": "7267",
+      "file": "VETSolution_HEPATIC_gatto_15-kg_8009470081689",
+      "dims": "640x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7267.jpg",
+      "md5": "effcea8aeec1a4760b8caa1c11456c36"
+     },
+     {
+      "pos": 2,
+      "media": "4763",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4763.jpg",
+      "md5": "10c6b02ba723b50aae51d8ee34b17ad7"
+     },
+     {
+      "pos": 3,
+      "media": "4766",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4766.jpg",
+      "md5": "e43394803996f9136062035ef3094eae"
+     },
+     {
+      "pos": 4,
+      "media": "4769",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4769.jpg",
+      "md5": "4fb26fbd2fb76d92c48e4b23e824547f"
+     },
+     {
+      "pos": 5,
+      "media": "4772",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4772.jpg",
+      "md5": "cc894fa77c753179b4d5de0dad7e50fa"
+     }
+    ]
+   }
+  ]
+ }
+]

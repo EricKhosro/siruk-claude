@@ -1,0 +1,272 @@
+[
+ {
+  "product_id": "929",
+  "sku": "13319",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/13319/1-trixiecz.jpg",
+    "url": "https://www.trixiecz.cz/data/tmp/0/9/39119_0.jpg",
+    "source": "trixiecz.cz (official CZ distributor)",
+    "keyed_by": "trixiecz page for EAN 4011905133195 (hafo-confirmed barcode for 13319), name 'L-XL 40-65cm/25mm růžový'",
+    "seen": "Easy Flash USB collar, neon pink silicone strap, clear light buckle, whole collar alone on white, 800x342"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. Other 3 trixiecz images are buckle/USB close-ups on a BLUE collar - rejected (wrong colour).",
+  "lens_hint": null,
+  "caveat": "size L-XL not printed; collar shape identical across sizes, page is keyed to the L-XL pink article"
+ },
+ {
+  "product_id": "1012",
+  "sku": "202802",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. trixie.de semi-choke page lists only 202801/202803; hafo's photo (royal blue, watermarked) is the only royal-blue image; carrefour 4011905202822 = ocean collar (already flagged wrong colour).",
+  "lens_hint": "Trixie Premium Halbzug-Halsband Nylonkette M-L 35-50 cm 20 mm royalblau 4011905202822"
+ },
+ {
+  "product_id": "1066",
+  "sku": "36121",
+  "status": "excluded-by-user",
+  "images": [
+   {
+    "file": "found/36121/1-hornung.jpg",
+    "url": "https://hornung-baushop.de/media/8d/7a/aa/1758870377/plueschspielzeug-spielen-4011905361215-hornung-baushop.jpg",
+    "source": "hornung-baushop.de",
+    "keyed_by": "EAN 4011905361215 in file name; page 'trixie-figur-mit-tau-und-tennisball-pluesch-16-cm-sortiert'",
+    "seen": "blue plush hippo whose body is a tennis ball, rope legs; one figure alone on white, 671x1080"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. carrefour EAN image only 263 px.",
+  "lens_hint": null,
+  "caveat": "item is an assortment ('sortiert'); photo shows one of the figures",
+  "excluded": "excluded by user 2026-10-07 (preview review)"
+ },
+ {
+  "product_id": "1087",
+  "sku": "25060",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/25060/1-carrefour.jpg",
+    "url": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/original/4011905250601_1.jpg",
+    "source": "carrefour.es picture bucket",
+    "keyed_by": "EAN 4011905250601 in file name (computed Trixie EAN)",
+    "seen": "white melamine BE NORDIC bowl with stainless insert, 'BE NORDIC' printed on side, alone on white, 1500x1500"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. No trixie.de/es/cz/shop/tiierisch entry (discontinued).",
+  "lens_hint": "Trixie BE NORDIC Napf Melamin Edelstahl weiss 0.2 l/ø 14 cm",
+  "caveat": "SIZE-GENERIC: the 25060 and 25062 files are the identical photo; size not printed and not discernible - per 'One gallery per size' the lead may want this on needs-image.csv as 'other size'"
+ },
+ {
+  "product_id": "1087",
+  "sku": "25062",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/25062/1-carrefour.jpg",
+    "url": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/original/4011905250625_1.jpg",
+    "source": "carrefour.es picture bucket",
+    "keyed_by": "EAN 4011905250625 in file name (computed Trixie EAN)",
+    "seen": "white melamine BE NORDIC bowl with stainless insert, 'BE NORDIC' printed on side, alone on white, 1500x1500"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. No trixie.de/es/cz/shop/tiierisch entry (discontinued).",
+  "lens_hint": "Trixie BE NORDIC Napf Melamin Edelstahl weiss 0.8 l/ø 22 cm",
+  "caveat": "SIZE-GENERIC: the 25060 and 25062 files are the identical photo; size not printed and not discernible - per 'One gallery per size' the lead may want this on needs-image.csv as 'other size'"
+ },
+ {
+  "product_id": "1092",
+  "sku": "4099",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/4099/1-trixie-de.jpg",
+    "url": "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_4099-12_%23SALL_%23AWK_%23V1.jpg",
+    "source": "trixie.de CDN",
+    "keyed_by": "article 4099 in file name",
+    "seen": "current assortment: 5 perforated rattle balls + 4 rattle rolls (orange/purple/teal/pink), alone on white, 1600x1008"
+   },
+   {
+    "file": "found/4099/2-trixie-es.jpg",
+    "url": "https://www.trixie.es/WebRoot/StoreWeb/Shops/Trixie/5CFB/8675/299C/F4C1/583D/0A6E/0E02/5E40/PHO_PRO_CLIP_4099-13.jpg",
+    "source": "trixie.es",
+    "keyed_by": "article 4099 in file name",
+    "seen": "same 9 pieces lined up in a row, 1500x1500"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. PHO_PRO_SET_CLIP_4099-3 rejected (older neon-colour assortment). trixiecz image is the same as CDN -12.",
+  "lens_hint": null,
+  "caveat": "no single-piece shot exists; photo is the official assortment of the display (one piece sold, assorted)"
+ },
+ {
+  "product_id": "804",
+  "sku": "200722",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. Article absent everywhere; tiierisch has the 15 mm line 2007xx but no coral (22); only coral is 201022 (10 mm) - different article, rejected.",
+  "lens_hint": "Trixie Premium Verlängerungsleine doppellagig XS-S 2,00 m 15 mm koralle 200722"
+ },
+ {
+  "product_id": "805",
+  "sku": "201303",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/201303/1-tiierisch.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/trixie-premium-hunde-verlaengerungsleine-1674747003.jpg",
+    "source": "tiierisch.de (Shopify)",
+    "keyed_by": "Shopify variant sku 201303 ('2,00 m/10 mm / rot') maps to this image",
+    "seen": "red Premium adjustable lead, both snaps + O-rings, alone on white, 1000x1000"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch",
+  "lens_hint": null,
+  "caveat": "width (10 mm) not discernible; the same red image serves the 15/20/25 mm articles",
+  "review": "2026-10-07: dropped 2-trixie-shop.jpg (1600x116 strip, useless in a gallery)"
+ },
+ {
+  "product_id": "805",
+  "sku": "201018",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. No source carries 201018; tiierisch 2010xx line has no papaya; 201318 papaya is a different article (rejected).",
+  "lens_hint": "Trixie Premium Verlängerungsleine XS 2,00 m 10 mm papaya 201018"
+ },
+ {
+  "product_id": "825",
+  "sku": "25032",
+  "status": "excluded-by-user",
+  "images": [
+   {
+    "file": "found/25032/1-tiierisch.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/trixie-schlinger-napf-slow-feed-fuer-hunde-1657177936.jpg",
+    "source": "tiierisch.de (Shopify)",
+    "keyed_by": "Shopify variant sku 25032 ('0,9/ø 23 cm / diverse') maps to this image",
+    "seen": "grey-blue translucent slow-feed bowl with 3 knobs, white base, alone on white, 1300x1300"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. trixie.shop has only PHO_PRO_DOG lifestyle files for 25032.",
+  "lens_hint": null,
+  "caveat": "SIZE-GENERIC: same image file for 25031/25032/25033; size not printed. Colour grey(petrol-ish) - confirm it is the stocked colour",
+  "excluded": "excluded by user 2026-10-07 (preview review)"
+ },
+ {
+  "product_id": "886",
+  "sku": "2332",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/2332/1-tiierisch.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/trixie-hundekotbeutel-1524239720.jpg",
+    "source": "tiierisch.de (Shopify)",
+    "keyed_by": "variant sku 2332; pack prints 'Art.-Nr. 2332' and '4 x 20 St.'",
+    "seen": "retail pack: header card + 4 black rolls, 1000x1000 (header art has a dog - it is the pack print)"
+   },
+   {
+    "file": "found/2332/2-trixiecz.jpg",
+    "url": "https://www.trixiecz.cz/data/tmp/0/5/30525_0.jpg",
+    "source": "trixiecz.cz",
+    "keyed_by": "page EAN 4011905023328; card prints '#2332' '4 x 20'",
+    "seen": "same pack, 4 black rolls, 1920x1024"
+   },
+   {
+    "file": "found/2332/3-trixie-de.jpg",
+    "url": "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_2332-5_%23SALL_%23AWK_%23V1.jpg",
+    "source": "trixie.de CDN",
+    "keyed_by": "article 2332 in file name",
+    "seen": "one black roll alone"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch",
+  "lens_hint": null
+ },
+ {
+  "product_id": "901",
+  "sku": "13238",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. Only images: trixiecz in-car scene (no animal) and a line drawing (both already in gallery); carrefour EAN 4011905132389 = cover in car with a dog + Trixie logo overlay - rejected.",
+  "lens_hint": "Trixie Kofferraum-Schondecke mit Ladekantenschutz 1,80 x 1,30 m beige/schwarz 13238"
+ },
+ {
+  "product_id": "507",
+  "sku": "25621",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. Trixie CDN has PHO_PRO_SET_CLIP_25621-1..3 but they show only 2 brushes (set is 4 pcs); all other hits show 1 brush; no retail-pack photo found.",
+  "lens_hint": "Trixie Zahnbürsten-Set 4 Stück 15 cm weiss 25621 Verpackung"
+ },
+ {
+  "product_id": "411",
+  "sku": "33360",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. carrefour EAN 4011905333601 (= current gallery 9560) shows a RED NUBBY dumbbell with bell - hafo's photo for the same EAN shows a YELLOW dumbbell with soft cog-shaped ends, so the carrefour shot is the wrong/old design; rejected.",
+  "lens_hint": "Trixie Hantel mit weichen Enden Naturgummi 17 cm gelb 33360 / 4011905333601"
+ },
+ {
+  "product_id": "422",
+  "sku": "35232",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/35232/1-trixiecz.jpg",
+    "url": "https://www.trixiecz.cz/data/tmp/0/9/33599_0.jpg",
+    "source": "trixiecz.cz",
+    "keyed_by": "page EAN 4011905352329, 'Rat/mouse, tire tracks, latex, 22 cm'",
+    "seen": "grey latex rat with tyre-track print, alone on white, 1920x1024"
+   },
+   {
+    "file": "found/35232/2-trixiecz.jpg",
+    "url": "https://www.trixiecz.cz/data/tmp/0/0/33600_0.jpg",
+    "source": "trixiecz.cz",
+    "keyed_by": "same page",
+    "seen": "beige/pink latex mouse with tyre-track print, alone on white, 1920x1024"
+   },
+   {
+    "file": "found/35232/3-trixie-de.jpg",
+    "url": "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_35232-3_%23SALL_%23AWK_%23V1.jpg",
+    "source": "trixie.de CDN",
+    "keyed_by": "article 35232 in file name",
+    "seen": "both colours side by side (group)"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch",
+  "lens_hint": null,
+  "caveat": "assorted (grey rat / beige mouse); one single shot per colour"
+ },
+ {
+  "product_id": "470",
+  "sku": "2353",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch. Keyed images show brush (CDN -9) and black comb (CDN -10) only separately (hornung EAN image = same brush shot); tiierisch 2353 variant image is a RED-handle set (wrong); tiierisch family has a wooden+grey-comb set shot but it is not keyed to 2353.",
+  "lens_hint": "Trixie Softbürste Holzgriff mit Bürstenreiniger 6 x 13 cm 2353"
+ },
+ {
+  "product_id": "470",
+  "sku": "2354",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/2354/1-tiierisch.jpg",
+    "url": "https://cdn.shopify.com/s/files/1/0988/2750/1912/files/trixie-hundebuerste-mit-buerstenreiniger-1596443762.jpg",
+    "source": "tiierisch.de (Shopify)",
+    "keyed_by": "Shopify variant sku 2354 ('9x13 cm') maps to this image",
+    "seen": "slicker brush with wooden handle AND white brush-cleaner comb together, alone on white, 1000x1000"
+   },
+   {
+    "file": "found/2354/2-trixie-de.jpg",
+    "url": "https://cdn.trixie.de/assets/img/1600mx1200m/PHO_PRO_CLIP_2354-3_%23SALL_%23AWK_%23V1.jpg",
+    "source": "trixie.de CDN",
+    "keyed_by": "article 2354 in file name",
+    "seen": "the wooden-handle brush alone"
+   }
+  ],
+  "tried": "trixie-image.sh (trixie.de catalogue + CDN probe incl. PHO_PRO/PAC/SET_CLIP 1-12), trixie-es.py, trixie-shop-index, trixiecz-index, tiierisch-index, trixie-gtin-index, ean-image-lookup (hornung/carrefour), image-search.py (Bing, 0 keyed hits), barcode-lookup, WebSearch",
+  "lens_hint": null,
+  "caveat": "cleaner comb shown white; confirm stock comb colour"
+ }
+]

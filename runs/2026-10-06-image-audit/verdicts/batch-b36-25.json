@@ -1,0 +1,922 @@
+[
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 0,
+  "media": "13663",
+  "verdict": "ok",
+  "seen": "RC Sterilised pouch, Kleine Stueckchen in Gelee / jelly, 85 g printed, single pouch alone"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 1,
+  "media": "13666",
+  "verdict": "wrong-size",
+  "seen": "Infographic: RC Sterilised jelly pouch with '85g x12' badge, weight-maintenance icon, JELLY label - 12-pouch case on a single 85 g variant"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 2,
+  "media": "13669",
+  "verdict": "ok",
+  "seen": "Infographic 'Give your cat tailored nutrition' - Sterilised benefits icons, no pack"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 3,
+  "media": "13672",
+  "verdict": "ok",
+  "seen": "'Chunks in jelly' food close-up on plate"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 4,
+  "media": "13675",
+  "verdict": "ok",
+  "seen": "Feeding table, 4 kg cat: 3 pouches or 1 + 39 g dry, Sterilised purple style"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 5,
+  "media": "13678",
+  "verdict": "ok",
+  "seen": "'Available in 3 textures' - Sterilised jelly 85 g pouch + loaf/gravy/jelly food plates"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 6,
+  "media": "13681",
+  "verdict": "ok",
+  "seen": "'New look, upgraded formula' - old vs new Sterilised jelly 85 g pouch"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1862,
+  "sku": "9003579311776-1",
+  "label": "In Jelly 85 g",
+  "pos": 7,
+  "media": "13684",
+  "verdict": "ok",
+  "seen": "Analytical constituents card (protein 9.1%, moisture 81%), purple style, no product name printed"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1864,
+  "sku": "9003579003923",
+  "label": "Loaf 85 g",
+  "pos": 0,
+  "media": "13687",
+  "verdict": "ok",
+  "seen": "RC Sterilised Loaf-Mousse-Pate pouch, 85 g printed, single pouch alone"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 0,
+  "media": "13663",
+  "verdict": "wrong-size",
+  "seen": "RC Sterilised pouch, Kleine Stueckchen in Gelee / jelly, 85 g printed, single pouch alone - lead shows a single 85 g pouch, variant is the 12 x 85 g case"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 1,
+  "media": "13666",
+  "verdict": "ok",
+  "seen": "Infographic: RC Sterilised jelly pouch with '85g x12' badge, weight-maintenance icon, JELLY label"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 2,
+  "media": "13669",
+  "verdict": "ok",
+  "seen": "Infographic 'Give your cat tailored nutrition' - Sterilised benefits icons, no pack"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 3,
+  "media": "13672",
+  "verdict": "ok",
+  "seen": "'Chunks in jelly' food close-up on plate"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 4,
+  "media": "13675",
+  "verdict": "ok",
+  "seen": "Feeding table, 4 kg cat: 3 pouches or 1 + 39 g dry, Sterilised purple style"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 5,
+  "media": "13678",
+  "verdict": "ok",
+  "seen": "'Available in 3 textures' - Sterilised jelly 85 g pouch + loaf/gravy/jelly food plates"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 6,
+  "media": "13681",
+  "verdict": "ok",
+  "seen": "'New look, upgraded formula' - old vs new Sterilised jelly 85 g pouch"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1861,
+  "sku": "9003579311776",
+  "label": "In Jelly 12 × 85 g",
+  "pos": 7,
+  "media": "13684",
+  "verdict": "ok",
+  "seen": "Analytical constituents card (protein 9.1%, moisture 81%), purple style, no product name printed"
+ },
+ {
+  "product_id": "1260",
+  "variant_id": 1863,
+  "sku": "9003579003916",
+  "label": "Loaf 12 × 85 g",
+  "pos": 0,
+  "media": "13687",
+  "verdict": "wrong-size",
+  "seen": "RC Sterilised Loaf-Mousse-Pate pouch, 85 g printed, single pouch alone - lead shows a single 85 g pouch, variant is the 12 x 85 g case"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1866,
+  "sku": "9003579010051",
+  "label": "85 g",
+  "pos": 0,
+  "media": "13690",
+  "verdict": "ok",
+  "seen": "RC Veterinary Urinary S/O Morsels in Gravy pouch, single pouch, no weight printed"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1866,
+  "sku": "9003579010051",
+  "label": "85 g",
+  "pos": 1,
+  "media": "13693",
+  "verdict": "ok",
+  "seen": "RC Veterinary Urinary S/O Morsels in Gravy pouch, single pouch alone"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1866,
+  "sku": "9003579010051",
+  "label": "85 g",
+  "pos": 2,
+  "media": "13696",
+  "verdict": "wrong-size",
+  "seen": "Urinary S/O Morsels in Gravy pouch next to its 12-pouch carton (case of 12) - 12-pouch case on a single 85 g variant"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1866,
+  "sku": "9003579010051",
+  "label": "85 g",
+  "pos": 3,
+  "media": "13699",
+  "verdict": "ok",
+  "seen": "'How to feed your cat' wet-only table (Urinary S/O style, 908 kcal/kg)"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1866,
+  "sku": "9003579010051",
+  "label": "85 g",
+  "pos": 4,
+  "media": "13702",
+  "verdict": "wrong-product",
+  "seen": "'Also available in dry' - Urinary S/O pouch next to a Urinary S/O DRY bag - shows other products' packs"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1866,
+  "sku": "9003579010051",
+  "label": "85 g",
+  "pos": 5,
+  "media": "13195",
+  "verdict": "ok",
+  "seen": "'Consult your vet' lifestyle card, cat at vet, no pack"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1865,
+  "sku": "9003579010044",
+  "label": "12 × 85 g",
+  "pos": 0,
+  "media": "13696",
+  "verdict": "ok",
+  "seen": "Urinary S/O Morsels in Gravy pouch next to its 12-pouch carton (case of 12)"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1865,
+  "sku": "9003579010044",
+  "label": "12 × 85 g",
+  "pos": 1,
+  "media": "13690",
+  "verdict": "ok",
+  "seen": "RC Veterinary Urinary S/O Morsels in Gravy pouch, single pouch, no weight printed"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1865,
+  "sku": "9003579010044",
+  "label": "12 × 85 g",
+  "pos": 2,
+  "media": "13693",
+  "verdict": "ok",
+  "seen": "RC Veterinary Urinary S/O Morsels in Gravy pouch, single pouch alone"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1865,
+  "sku": "9003579010044",
+  "label": "12 × 85 g",
+  "pos": 3,
+  "media": "13699",
+  "verdict": "ok",
+  "seen": "'How to feed your cat' wet-only table (Urinary S/O style, 908 kcal/kg)"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1865,
+  "sku": "9003579010044",
+  "label": "12 × 85 g",
+  "pos": 4,
+  "media": "13702",
+  "verdict": "wrong-product",
+  "seen": "'Also available in dry' - Urinary S/O pouch next to a Urinary S/O DRY bag - shows other products' packs"
+ },
+ {
+  "product_id": "1261",
+  "variant_id": 1865,
+  "sku": "9003579010044",
+  "label": "12 × 85 g",
+  "pos": 5,
+  "media": "13195",
+  "verdict": "ok",
+  "seen": "'Consult your vet' lifestyle card, cat at vet, no pack"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1868,
+  "sku": "9003579000465",
+  "label": "Chicken 85 g",
+  "pos": 0,
+  "media": "13705",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Chicken, thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1868,
+  "sku": "9003579000465",
+  "label": "Chicken 85 g",
+  "pos": 1,
+  "media": "13708",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Chicken thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1868,
+  "sku": "9003579000465",
+  "label": "Chicken 85 g",
+  "pos": 2,
+  "media": "13711",
+  "verdict": "wrong-size",
+  "seen": "Renal with Chicken pouch next to its 12-pouch carton (case) - 12-pouch case on a single 85 g variant"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1868,
+  "sku": "9003579000465",
+  "label": "Chicken 85 g",
+  "pos": 3,
+  "media": "13714",
+  "verdict": "wrong-product",
+  "seen": "'Mixed feeding available' - Renal with Chicken pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1868,
+  "sku": "9003579000465",
+  "label": "Chicken 85 g",
+  "pos": 4,
+  "media": "13195",
+  "verdict": "ok",
+  "seen": "'Consult your vet' lifestyle card, cat at vet, no pack"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1870,
+  "sku": "9003579000526",
+  "label": "Fish 85 g",
+  "pos": 0,
+  "media": "13717",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Fish, thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1870,
+  "sku": "9003579000526",
+  "label": "Fish 85 g",
+  "pos": 1,
+  "media": "13720",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Fish thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1870,
+  "sku": "9003579000526",
+  "label": "Fish 85 g",
+  "pos": 2,
+  "media": "13723",
+  "verdict": "wrong-size",
+  "seen": "Renal with Fish pouch next to its 12-pouch carton (case) - 12-pouch case on a single 85 g variant"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1870,
+  "sku": "9003579000526",
+  "label": "Fish 85 g",
+  "pos": 3,
+  "media": "13726",
+  "verdict": "ok",
+  "seen": "'How to feed your cat' Renal pouch table, 950 kcal/kg, no flavour named"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1870,
+  "sku": "9003579000526",
+  "label": "Fish 85 g",
+  "pos": 4,
+  "media": "13729",
+  "verdict": "wrong-product",
+  "seen": "'Mixed feeding available' - Renal with Fish pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1870,
+  "sku": "9003579000526",
+  "label": "Fish 85 g",
+  "pos": 5,
+  "media": "13195",
+  "verdict": "ok",
+  "seen": "'Consult your vet' lifestyle card, cat at vet, no pack"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1867,
+  "sku": "9003579000458",
+  "label": "Chicken 12 × 85 g",
+  "pos": 0,
+  "media": "13711",
+  "verdict": "ok",
+  "seen": "Renal with Chicken pouch next to its 12-pouch carton (case)"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1867,
+  "sku": "9003579000458",
+  "label": "Chicken 12 × 85 g",
+  "pos": 1,
+  "media": "13705",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Chicken, thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1867,
+  "sku": "9003579000458",
+  "label": "Chicken 12 × 85 g",
+  "pos": 2,
+  "media": "13708",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Chicken thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1867,
+  "sku": "9003579000458",
+  "label": "Chicken 12 × 85 g",
+  "pos": 3,
+  "media": "13714",
+  "verdict": "wrong-product",
+  "seen": "'Mixed feeding available' - Renal with Chicken pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1867,
+  "sku": "9003579000458",
+  "label": "Chicken 12 × 85 g",
+  "pos": 4,
+  "media": "13195",
+  "verdict": "ok",
+  "seen": "'Consult your vet' lifestyle card, cat at vet, no pack"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1869,
+  "sku": "9003579000519",
+  "label": "Fish 12 × 85 g",
+  "pos": 0,
+  "media": "13723",
+  "verdict": "ok",
+  "seen": "Renal with Fish pouch next to its 12-pouch carton (case)"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1869,
+  "sku": "9003579000519",
+  "label": "Fish 12 × 85 g",
+  "pos": 1,
+  "media": "13717",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Fish, thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1869,
+  "sku": "9003579000519",
+  "label": "Fish 12 × 85 g",
+  "pos": 2,
+  "media": "13720",
+  "verdict": "ok",
+  "seen": "RC Veterinary Renal with Fish thin slices in gravy pouch, single"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1869,
+  "sku": "9003579000519",
+  "label": "Fish 12 × 85 g",
+  "pos": 3,
+  "media": "13726",
+  "verdict": "ok",
+  "seen": "'How to feed your cat' Renal pouch table, 950 kcal/kg, no flavour named"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1869,
+  "sku": "9003579000519",
+  "label": "Fish 12 × 85 g",
+  "pos": 4,
+  "media": "13729",
+  "verdict": "wrong-product",
+  "seen": "'Mixed feeding available' - Renal with Fish pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+ },
+ {
+  "product_id": "1262",
+  "variant_id": 1869,
+  "sku": "9003579000519",
+  "label": "Fish 12 × 85 g",
+  "pos": 5,
+  "media": "13195",
+  "verdict": "ok",
+  "seen": "'Consult your vet' lifestyle card, cat at vet, no pack"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 0,
+  "media": "13732",
+  "verdict": "ok",
+  "seen": "RC Care Urinary pouch, thin slices in gravy, 85 g printed, single"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 1,
+  "media": "13735",
+  "verdict": "ok",
+  "seen": "RC Care Urinary pouch, thin slices in gravy, 85 g printed, single"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 2,
+  "media": "13330",
+  "verdict": "ok",
+  "seen": "'Helps support hydration' - thin slices in gravy food on plate"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 3,
+  "media": "13738",
+  "verdict": "ok",
+  "seen": "'Health benefit' urinary tract icon + cat, no pack"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 4,
+  "media": "13741",
+  "verdict": "ok",
+  "seen": "'Proven results - supports a healthy urinary tract in 10 days' text card"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 5,
+  "media": "13744",
+  "verdict": "ok",
+  "seen": "'New product design, same formula' - old vs new Urinary Care gravy 85 g pouch"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 6,
+  "media": "13747",
+  "verdict": "wrong-product",
+  "seen": "'Complete nutritional program' - Urinary Care DRY 2 kg bag + Urinary Care gravy 85 g pouch - shows other products' packs"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 7,
+  "media": "13750",
+  "verdict": "wrong-size",
+  "seen": "Urinary Care gravy 85 g pouch + carton printed 'x12 85 g pouch', badge '85 g x12' - 12-pouch case on a single 85 g variant"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 8,
+  "media": "13753",
+  "verdict": "ok",
+  "seen": "Analytical constituents card, teal Urinary Care style (protein 9.2%), no product name"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1872,
+  "sku": "9003579000366-1",
+  "label": "85 g",
+  "pos": 9,
+  "media": "13756",
+  "verdict": "ok",
+  "seen": "Feeding instructions card, 767 kcal/kg, references 'Urinary Care'"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 0,
+  "media": "13750",
+  "verdict": "ok",
+  "seen": "Urinary Care gravy 85 g pouch + carton printed 'x12 85 g pouch', badge '85 g x12'"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 1,
+  "media": "13732",
+  "verdict": "ok",
+  "seen": "RC Care Urinary pouch, thin slices in gravy, 85 g printed, single"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 2,
+  "media": "13735",
+  "verdict": "ok",
+  "seen": "RC Care Urinary pouch, thin slices in gravy, 85 g printed, single"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 3,
+  "media": "13330",
+  "verdict": "ok",
+  "seen": "'Helps support hydration' - thin slices in gravy food on plate"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 4,
+  "media": "13738",
+  "verdict": "ok",
+  "seen": "'Health benefit' urinary tract icon + cat, no pack"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 5,
+  "media": "13741",
+  "verdict": "ok",
+  "seen": "'Proven results - supports a healthy urinary tract in 10 days' text card"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 6,
+  "media": "13744",
+  "verdict": "ok",
+  "seen": "'New product design, same formula' - old vs new Urinary Care gravy 85 g pouch"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 7,
+  "media": "13747",
+  "verdict": "wrong-product",
+  "seen": "'Complete nutritional program' - Urinary Care DRY 2 kg bag + Urinary Care gravy 85 g pouch - shows other products' packs"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 8,
+  "media": "13753",
+  "verdict": "ok",
+  "seen": "Analytical constituents card, teal Urinary Care style (protein 9.2%), no product name"
+ },
+ {
+  "product_id": "1263",
+  "variant_id": 1871,
+  "sku": "9003579000366",
+  "label": "12 × 85 g",
+  "pos": 9,
+  "media": "13756",
+  "verdict": "ok",
+  "seen": "Feeding instructions card, 767 kcal/kg, references 'Urinary Care'"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 0,
+  "media": "13759",
+  "verdict": "ok",
+  "seen": "RC Sensory Smell chunks in gravy pouch, 85 g printed, single"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 1,
+  "media": "13762",
+  "verdict": "ok",
+  "seen": "Sensory Smell chunks in gravy 85 g pouch with 'Sensory Smell / Gravy' text"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 2,
+  "media": "13765",
+  "verdict": "wrong-product",
+  "seen": "'New multi-variety pack' - Sensory Smell, Taste, Feel pouches + mixed 12-pouch box (Smell x4, Taste x4, Feel x4) - shows other products' packs"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 3,
+  "media": "13768",
+  "verdict": "ok",
+  "seen": "'A sensorial experience' - food of Smell, Taste and Feel, no packs"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 4,
+  "media": "13771",
+  "verdict": "ok",
+  "seen": "'New wet technology' - Smell chunks in gravy food, no pack"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 5,
+  "media": "13774",
+  "verdict": "wrong-product",
+  "seen": "'Perfect for mix feeding' - dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches - shows other products' packs"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 6,
+  "media": "13777",
+  "verdict": "ok",
+  "seen": "Feeding instructions card, 852 kcal/kg, lime Smell style"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 7,
+  "media": "13780",
+  "verdict": "ok",
+  "seen": "Analytical constituents card, lime Smell style (protein 11.4%), no product name"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 8,
+  "media": "13783",
+  "verdict": "ok",
+  "seen": "'Smell stimulation' cat close-up infographic, no pack"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1874,
+  "sku": "9003579018514-1",
+  "label": "85 g",
+  "pos": 9,
+  "media": "13786",
+  "verdict": "ok",
+  "seen": "RC Sensory Smell chunks in gravy pouch, 85 g printed, single"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 0,
+  "media": "13759",
+  "verdict": "wrong-size",
+  "seen": "RC Sensory Smell chunks in gravy pouch, 85 g printed, single - lead shows a single 85 g pouch, variant is the 12 x 85 g case"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 1,
+  "media": "13762",
+  "verdict": "ok",
+  "seen": "Sensory Smell chunks in gravy 85 g pouch with 'Sensory Smell / Gravy' text"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 2,
+  "media": "13765",
+  "verdict": "wrong-product",
+  "seen": "'New multi-variety pack' - Sensory Smell, Taste, Feel pouches + mixed 12-pouch box (Smell x4, Taste x4, Feel x4) - shows other products' packs"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 3,
+  "media": "13768",
+  "verdict": "ok",
+  "seen": "'A sensorial experience' - food of Smell, Taste and Feel, no packs"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 4,
+  "media": "13771",
+  "verdict": "ok",
+  "seen": "'New wet technology' - Smell chunks in gravy food, no pack"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 5,
+  "media": "13774",
+  "verdict": "wrong-product",
+  "seen": "'Perfect for mix feeding' - dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches - shows other products' packs"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 6,
+  "media": "13777",
+  "verdict": "ok",
+  "seen": "Feeding instructions card, 852 kcal/kg, lime Smell style"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 7,
+  "media": "13780",
+  "verdict": "ok",
+  "seen": "Analytical constituents card, lime Smell style (protein 11.4%), no product name"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 8,
+  "media": "13783",
+  "verdict": "ok",
+  "seen": "'Smell stimulation' cat close-up infographic, no pack"
+ },
+ {
+  "product_id": "1264",
+  "variant_id": 1873,
+  "sku": "9003579018514",
+  "label": "12 × 85 g",
+  "pos": 9,
+  "media": "13786",
+  "verdict": "ok",
+  "seen": "RC Sensory Smell chunks in gravy pouch, 85 g printed, single"
+ }
+]

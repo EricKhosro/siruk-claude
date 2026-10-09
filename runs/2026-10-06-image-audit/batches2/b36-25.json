@@ -1,0 +1,946 @@
+[
+ {
+  "product_id": "1260",
+  "product": "Sterilised Wet",
+  "brand": "Royal Canin",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1862,
+    "sku": "9003579311776-1",
+    "label": "In Jelly 85 g",
+    "size_label": "85 g",
+    "options": "Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13663",
+      "file": "fc0ab2a5-ba2e-417c-98c1-b455010b8e5f_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13663.jpg",
+      "md5": "6340fa24cb943360bcd3b0ce82589a5a"
+     },
+     {
+      "pos": 1,
+      "media": "13666",
+      "file": "0482b0ae-11b6-40a2-853c-b1ef0012690f_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13666.jpg",
+      "md5": "1604658845b6c3c8eaf5a57642b38f6a"
+     },
+     {
+      "pos": 2,
+      "media": "13669",
+      "file": "3f60fdb3-7e64-40a4-9f57-b2490007d507_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13669.jpg",
+      "md5": "e3be188f20865515779b2fb1ffacc72f"
+     },
+     {
+      "pos": 3,
+      "media": "13672",
+      "file": "0bbba6b8-5231-461d-80af-b2490007d4e8_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13672.jpg",
+      "md5": "e464a0a1692ddeb1d1e12ae751c3296a"
+     },
+     {
+      "pos": 4,
+      "media": "13675",
+      "file": "631ee820-1b03-4f24-b2ff-b2490007d4dd_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13675.jpg",
+      "md5": "16af2b1d9881f5afff1bd29742819147"
+     },
+     {
+      "pos": 5,
+      "media": "13678",
+      "file": "8a57ba61-0b47-41a0-bc2d-b2490007d4fb_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13678.jpg",
+      "md5": "7b014ac0ea637cd76d9698521e300c44"
+     },
+     {
+      "pos": 6,
+      "media": "13681",
+      "file": "07491996-491e-4fa6-92b6-b1ef001268f9_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13681.jpg",
+      "md5": "260a36dd3ea754e819bab8b1a094902e"
+     },
+     {
+      "pos": 7,
+      "media": "13684",
+      "file": "4156-cv-eretailkit-7-en-gb-v2.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13684.png",
+      "md5": "ecab7ba0031580d8467753399d1facde"
+     }
+    ]
+   },
+   {
+    "variant_id": 1864,
+    "sku": "9003579003923",
+    "label": "Loaf 85 g",
+    "size_label": "85 g",
+    "options": "Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13687",
+      "file": "7e40c86b-8d3c-44ab-94b6-b2490007d710_DownloadAsJpg.jpg",
+      "dims": "595x842",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13687.jpg",
+      "md5": "327527afb6f36f99853c8f9d243f60c9"
+     }
+    ]
+   },
+   {
+    "variant_id": 1861,
+    "sku": "9003579311776",
+    "label": "In Jelly 12 × 85 g",
+    "size_label": "12 × 85 g",
+    "options": "Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13663",
+      "file": "fc0ab2a5-ba2e-417c-98c1-b455010b8e5f_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13663.jpg",
+      "md5": "6340fa24cb943360bcd3b0ce82589a5a"
+     },
+     {
+      "pos": 1,
+      "media": "13666",
+      "file": "0482b0ae-11b6-40a2-853c-b1ef0012690f_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13666.jpg",
+      "md5": "1604658845b6c3c8eaf5a57642b38f6a"
+     },
+     {
+      "pos": 2,
+      "media": "13669",
+      "file": "3f60fdb3-7e64-40a4-9f57-b2490007d507_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13669.jpg",
+      "md5": "e3be188f20865515779b2fb1ffacc72f"
+     },
+     {
+      "pos": 3,
+      "media": "13672",
+      "file": "0bbba6b8-5231-461d-80af-b2490007d4e8_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13672.jpg",
+      "md5": "e464a0a1692ddeb1d1e12ae751c3296a"
+     },
+     {
+      "pos": 4,
+      "media": "13675",
+      "file": "631ee820-1b03-4f24-b2ff-b2490007d4dd_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13675.jpg",
+      "md5": "16af2b1d9881f5afff1bd29742819147"
+     },
+     {
+      "pos": 5,
+      "media": "13678",
+      "file": "8a57ba61-0b47-41a0-bc2d-b2490007d4fb_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13678.jpg",
+      "md5": "7b014ac0ea637cd76d9698521e300c44"
+     },
+     {
+      "pos": 6,
+      "media": "13681",
+      "file": "07491996-491e-4fa6-92b6-b1ef001268f9_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13681.jpg",
+      "md5": "260a36dd3ea754e819bab8b1a094902e"
+     },
+     {
+      "pos": 7,
+      "media": "13684",
+      "file": "4156-cv-eretailkit-7-en-gb-v2.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13684.png",
+      "md5": "ecab7ba0031580d8467753399d1facde"
+     }
+    ]
+   },
+   {
+    "variant_id": 1863,
+    "sku": "9003579003916",
+    "label": "Loaf 12 × 85 g",
+    "size_label": "12 × 85 g",
+    "options": "Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13687",
+      "file": "7e40c86b-8d3c-44ab-94b6-b2490007d710_DownloadAsJpg.jpg",
+      "dims": "595x842",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13687.jpg",
+      "md5": "327527afb6f36f99853c8f9d243f60c9"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1261",
+  "product": "Urinary S/O Morsels in Gravy",
+  "brand": "Royal Canin",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1866,
+    "sku": "9003579010051",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13690",
+      "file": "7e42ed57-a063-472b-a20f-b377001a89ad_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13690.jpg",
+      "md5": "53053144e528a0b08668adc0a9ac3b08"
+     },
+     {
+      "pos": 1,
+      "media": "13693",
+      "file": "rc-vet-wet-caturinarysocig-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13693.png",
+      "md5": "69b2f58b34ac88fc57a5b993bd1d2a88"
+     },
+     {
+      "pos": 2,
+      "media": "13696",
+      "file": "0f48a6a1-2ad1-4258-b8a0-b20b003a54f8_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13696.jpg",
+      "md5": "c0f39ea1fb03886527ee059c674be14a"
+     },
+     {
+      "pos": 3,
+      "media": "13699",
+      "file": "rc-vet-wet-caturinarysocig-eretailkit-b1-page-5-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13699.png",
+      "md5": "ec5c0f9a64c24f2b655f661e854b9072"
+     },
+     {
+      "pos": 4,
+      "media": "13702",
+      "file": "rc-vet-wet-caturinarysocig-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13702.png",
+      "md5": "417b9adfa6ae913b684403b92a2a1e0a"
+     },
+     {
+      "pos": 5,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   },
+   {
+    "variant_id": 1865,
+    "sku": "9003579010044",
+    "label": "12 × 85 g",
+    "size_label": "12 × 85 g",
+    "options": "Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13696",
+      "file": "0f48a6a1-2ad1-4258-b8a0-b20b003a54f8_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13696.jpg",
+      "md5": "c0f39ea1fb03886527ee059c674be14a"
+     },
+     {
+      "pos": 1,
+      "media": "13690",
+      "file": "7e42ed57-a063-472b-a20f-b377001a89ad_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13690.jpg",
+      "md5": "53053144e528a0b08668adc0a9ac3b08"
+     },
+     {
+      "pos": 2,
+      "media": "13693",
+      "file": "rc-vet-wet-caturinarysocig-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13693.png",
+      "md5": "69b2f58b34ac88fc57a5b993bd1d2a88"
+     },
+     {
+      "pos": 3,
+      "media": "13699",
+      "file": "rc-vet-wet-caturinarysocig-eretailkit-b1-page-5-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13699.png",
+      "md5": "ec5c0f9a64c24f2b655f661e854b9072"
+     },
+     {
+      "pos": 4,
+      "media": "13702",
+      "file": "rc-vet-wet-caturinarysocig-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13702.png",
+      "md5": "417b9adfa6ae913b684403b92a2a1e0a"
+     },
+     {
+      "pos": 5,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1262",
+  "product": "Renal Thin Slices in Gravy",
+  "brand": "Royal Canin",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1868,
+    "sku": "9003579000465",
+    "label": "Chicken 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13705",
+      "file": "76ed0ff5-9427-4afe-af8d-b2490009f93c_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13705.jpg",
+      "md5": "f7a914f1ee4ffa7701d33d0f7281bdc2"
+     },
+     {
+      "pos": 1,
+      "media": "13708",
+      "file": "amended-rc-vet-wet-catrenchicktsig-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13708.png",
+      "md5": "8c2a595c5dd347b8b3d35c3618c4a349"
+     },
+     {
+      "pos": 2,
+      "media": "13711",
+      "file": "amended-rc-vet-wet-catrenchicktsig-eretailkit-b1-page-2-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13711.png",
+      "md5": "914cfb2ef1a49e0901aaedb41ccb0c34"
+     },
+     {
+      "pos": 3,
+      "media": "13714",
+      "file": "amended-rc-vet-wet-catrenchicktsig-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13714.png",
+      "md5": "9ebdcf49b31af0daa017bfcaae443775"
+     },
+     {
+      "pos": 4,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   },
+   {
+    "variant_id": 1870,
+    "sku": "9003579000526",
+    "label": "Fish 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Fish; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13717",
+      "file": "e368cc22-a420-47c8-8752-b377011ca322_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13717.jpg",
+      "md5": "89a0b58f95f7c490cd1c719d14e1b4b3"
+     },
+     {
+      "pos": 1,
+      "media": "13720",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13720.png",
+      "md5": "72cfe282534f3619b1f591704819d4ef"
+     },
+     {
+      "pos": 2,
+      "media": "13723",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-2-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13723.png",
+      "md5": "37218581262271472a05e195253c85fc"
+     },
+     {
+      "pos": 3,
+      "media": "13726",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-5-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13726.png",
+      "md5": "aaf4f5afaca76ad96c5af50f5bba6f42"
+     },
+     {
+      "pos": 4,
+      "media": "13729",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13729.png",
+      "md5": "e5e55b72f05022d745e03f238cd6969e"
+     },
+     {
+      "pos": 5,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   },
+   {
+    "variant_id": 1867,
+    "sku": "9003579000458",
+    "label": "Chicken 12 × 85 g",
+    "size_label": "12 × 85 g",
+    "options": "Flavor=Chicken; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13711",
+      "file": "amended-rc-vet-wet-catrenchicktsig-eretailkit-b1-page-2-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13711.png",
+      "md5": "914cfb2ef1a49e0901aaedb41ccb0c34"
+     },
+     {
+      "pos": 1,
+      "media": "13705",
+      "file": "76ed0ff5-9427-4afe-af8d-b2490009f93c_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13705.jpg",
+      "md5": "f7a914f1ee4ffa7701d33d0f7281bdc2"
+     },
+     {
+      "pos": 2,
+      "media": "13708",
+      "file": "amended-rc-vet-wet-catrenchicktsig-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13708.png",
+      "md5": "8c2a595c5dd347b8b3d35c3618c4a349"
+     },
+     {
+      "pos": 3,
+      "media": "13714",
+      "file": "amended-rc-vet-wet-catrenchicktsig-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13714.png",
+      "md5": "9ebdcf49b31af0daa017bfcaae443775"
+     },
+     {
+      "pos": 4,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   },
+   {
+    "variant_id": 1869,
+    "sku": "9003579000519",
+    "label": "Fish 12 × 85 g",
+    "size_label": "12 × 85 g",
+    "options": "Flavor=Fish; Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13723",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-2-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13723.png",
+      "md5": "37218581262271472a05e195253c85fc"
+     },
+     {
+      "pos": 1,
+      "media": "13717",
+      "file": "e368cc22-a420-47c8-8752-b377011ca322_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13717.jpg",
+      "md5": "89a0b58f95f7c490cd1c719d14e1b4b3"
+     },
+     {
+      "pos": 2,
+      "media": "13720",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13720.png",
+      "md5": "72cfe282534f3619b1f591704819d4ef"
+     },
+     {
+      "pos": 3,
+      "media": "13726",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-5-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13726.png",
+      "md5": "aaf4f5afaca76ad96c5af50f5bba6f42"
+     },
+     {
+      "pos": 4,
+      "media": "13729",
+      "file": "amended-rc-vet-wet-catrenfishtsig-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13729.png",
+      "md5": "e5e55b72f05022d745e03f238cd6969e"
+     },
+     {
+      "pos": 5,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1263",
+  "product": "Urinary Care in Gravy",
+  "brand": "Royal Canin",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1872,
+    "sku": "9003579000366-1",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13732",
+      "file": "ccd33456-6f17-4829-8bf8-b2490007b7e5_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13732.jpg",
+      "md5": "6aa3cdb7fcde31c04fa235aa1f5e5c1b"
+     },
+     {
+      "pos": 1,
+      "media": "13735",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13735.png",
+      "md5": "8c3a6eeba40d798d98323a44b0830570"
+     },
+     {
+      "pos": 2,
+      "media": "13330",
+      "file": "01df8e68-c0be-43a3-8d82-b37e00b0b619_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13330.jpg",
+      "md5": "4a2806e92d73d27cbcc73c9f29a96204"
+     },
+     {
+      "pos": 3,
+      "media": "13738",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page6.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13738.png",
+      "md5": "8ca4faddf9c0886b16b5c95c41caf304"
+     },
+     {
+      "pos": 4,
+      "media": "13741",
+      "file": "rc-fcn22-urinarycaregravy-mv-2bis-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13741.png",
+      "md5": "1d86e2207fd08e40f817aa37bbe047a9"
+     },
+     {
+      "pos": 5,
+      "media": "13744",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page12.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13744.png",
+      "md5": "48c30991feb88c9c2bba940a47b13dd0"
+     },
+     {
+      "pos": 6,
+      "media": "13747",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page8.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13747.png",
+      "md5": "a56c54fbb222805d9f96e33de9f027a5"
+     },
+     {
+      "pos": 7,
+      "media": "13750",
+      "file": "rc-fcn22-urinarycaregravy-mv-3-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13750.png",
+      "md5": "8340da9dbc87deaa5d0ba32b6dc085ed"
+     },
+     {
+      "pos": 8,
+      "media": "13753",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page9.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13753.png",
+      "md5": "bd539a56daf6a60836949c9e6e9ad869"
+     },
+     {
+      "pos": 9,
+      "media": "13756",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13756.png",
+      "md5": "b9193edeb0274bb1e7bd6f3f5741b970"
+     }
+    ]
+   },
+   {
+    "variant_id": 1871,
+    "sku": "9003579000366",
+    "label": "12 × 85 g",
+    "size_label": "12 × 85 g",
+    "options": "Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13750",
+      "file": "rc-fcn22-urinarycaregravy-mv-3-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13750.png",
+      "md5": "8340da9dbc87deaa5d0ba32b6dc085ed"
+     },
+     {
+      "pos": 1,
+      "media": "13732",
+      "file": "ccd33456-6f17-4829-8bf8-b2490007b7e5_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13732.jpg",
+      "md5": "6aa3cdb7fcde31c04fa235aa1f5e5c1b"
+     },
+     {
+      "pos": 2,
+      "media": "13735",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13735.png",
+      "md5": "8c3a6eeba40d798d98323a44b0830570"
+     },
+     {
+      "pos": 3,
+      "media": "13330",
+      "file": "01df8e68-c0be-43a3-8d82-b37e00b0b619_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13330.jpg",
+      "md5": "4a2806e92d73d27cbcc73c9f29a96204"
+     },
+     {
+      "pos": 4,
+      "media": "13738",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page6.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13738.png",
+      "md5": "8ca4faddf9c0886b16b5c95c41caf304"
+     },
+     {
+      "pos": 5,
+      "media": "13741",
+      "file": "rc-fcn22-urinarycaregravy-mv-2bis-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13741.png",
+      "md5": "1d86e2207fd08e40f817aa37bbe047a9"
+     },
+     {
+      "pos": 6,
+      "media": "13744",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page12.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13744.png",
+      "md5": "48c30991feb88c9c2bba940a47b13dd0"
+     },
+     {
+      "pos": 7,
+      "media": "13747",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page8.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13747.png",
+      "md5": "a56c54fbb222805d9f96e33de9f027a5"
+     },
+     {
+      "pos": 8,
+      "media": "13753",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page9.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13753.png",
+      "md5": "bd539a56daf6a60836949c9e6e9ad869"
+     },
+     {
+      "pos": 9,
+      "media": "13756",
+      "file": "fcn22-hero-image-wet-urinary-tsig-page10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13756.png",
+      "md5": "b9193edeb0274bb1e7bd6f3f5741b970"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1264",
+  "product": "Sensory Smell Chunks in Gravy",
+  "brand": "Royal Canin",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1874,
+    "sku": "9003579018514-1",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13759",
+      "file": "a0e0a09c-170b-4e46-ba8e-b20b002d88f4_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13759.jpg",
+      "md5": "00e034ac1f8c1eeba99f0210d0541e02"
+     },
+     {
+      "pos": 1,
+      "media": "13762",
+      "file": "d871c2be-d7d7-4b5b-8080-b2490008b196_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13762.jpg",
+      "md5": "c15334b2b27eff1d6a69b300097514b7"
+     },
+     {
+      "pos": 2,
+      "media": "13765",
+      "file": "53a9bcfc-c732-4460-8f51-b2490008b128_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13765.jpg",
+      "md5": "6847ed46a6a09dc44e1b62d8044c6744"
+     },
+     {
+      "pos": 3,
+      "media": "13768",
+      "file": "a3fcf9ba-6a77-4227-bb91-b1ef0017ef9e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13768.jpg",
+      "md5": "43893bb9a8fafcef5b26de580427088b"
+     },
+     {
+      "pos": 4,
+      "media": "13771",
+      "file": "827b3949-d0ee-406e-baf2-b2490008b0ce_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13771.jpg",
+      "md5": "9975286c159af0f8e53c4b207c275376"
+     },
+     {
+      "pos": 5,
+      "media": "13774",
+      "file": "8b574d0d-0b91-40e4-b90b-b1ef0017f0f5_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13774.jpg",
+      "md5": "f3dfebbc32dcf2d95f58c9d31224af6e"
+     },
+     {
+      "pos": 6,
+      "media": "13777",
+      "file": "638a1fb2-ea2a-4832-8c14-b1ef0017f192_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13777.jpg",
+      "md5": "be03f739a7f1d6993ed6ffd92e18949c"
+     },
+     {
+      "pos": 7,
+      "media": "13780",
+      "file": "5a8a99bd-7044-4611-b5e9-b2490008b159_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13780.jpg",
+      "md5": "e79aec8e5793a04153903e2b07dc2281"
+     },
+     {
+      "pos": 8,
+      "media": "13783",
+      "file": "df6134d2-060d-4810-a882-b2490008b0c4_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13783.jpg",
+      "md5": "37eaeac9fe4cd7482ab6a7cc2100aa0f"
+     },
+     {
+      "pos": 9,
+      "media": "13786",
+      "file": "d2755581-54b3-4488-9134-b1ef0017f150_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13786.jpg",
+      "md5": "216d89ebf610378ed870da161009a622"
+     }
+    ]
+   },
+   {
+    "variant_id": 1873,
+    "sku": "9003579018514",
+    "label": "12 × 85 g",
+    "size_label": "12 × 85 g",
+    "options": "Packaging Type=Pouch",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13759",
+      "file": "a0e0a09c-170b-4e46-ba8e-b20b002d88f4_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13759.jpg",
+      "md5": "00e034ac1f8c1eeba99f0210d0541e02"
+     },
+     {
+      "pos": 1,
+      "media": "13762",
+      "file": "d871c2be-d7d7-4b5b-8080-b2490008b196_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13762.jpg",
+      "md5": "c15334b2b27eff1d6a69b300097514b7"
+     },
+     {
+      "pos": 2,
+      "media": "13765",
+      "file": "53a9bcfc-c732-4460-8f51-b2490008b128_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13765.jpg",
+      "md5": "6847ed46a6a09dc44e1b62d8044c6744"
+     },
+     {
+      "pos": 3,
+      "media": "13768",
+      "file": "a3fcf9ba-6a77-4227-bb91-b1ef0017ef9e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13768.jpg",
+      "md5": "43893bb9a8fafcef5b26de580427088b"
+     },
+     {
+      "pos": 4,
+      "media": "13771",
+      "file": "827b3949-d0ee-406e-baf2-b2490008b0ce_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13771.jpg",
+      "md5": "9975286c159af0f8e53c4b207c275376"
+     },
+     {
+      "pos": 5,
+      "media": "13774",
+      "file": "8b574d0d-0b91-40e4-b90b-b1ef0017f0f5_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13774.jpg",
+      "md5": "f3dfebbc32dcf2d95f58c9d31224af6e"
+     },
+     {
+      "pos": 6,
+      "media": "13777",
+      "file": "638a1fb2-ea2a-4832-8c14-b1ef0017f192_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13777.jpg",
+      "md5": "be03f739a7f1d6993ed6ffd92e18949c"
+     },
+     {
+      "pos": 7,
+      "media": "13780",
+      "file": "5a8a99bd-7044-4611-b5e9-b2490008b159_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13780.jpg",
+      "md5": "e79aec8e5793a04153903e2b07dc2281"
+     },
+     {
+      "pos": 8,
+      "media": "13783",
+      "file": "df6134d2-060d-4810-a882-b2490008b0c4_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13783.jpg",
+      "md5": "37eaeac9fe4cd7482ab6a7cc2100aa0f"
+     },
+     {
+      "pos": 9,
+      "media": "13786",
+      "file": "d2755581-54b3-4488-9134-b1ef0017f150_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13786.jpg",
+      "md5": "216d89ebf610378ed870da161009a622"
+     }
+    ]
+   }
+  ]
+ }
+]

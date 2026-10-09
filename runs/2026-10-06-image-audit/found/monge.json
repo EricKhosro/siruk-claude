@@ -1,0 +1,315 @@
+[
+ {
+  "product_id": "324",
+  "sku": "009157",
+  "ean": "8009470009157",
+  "status": "not-found",
+  "images": [],
+  "tried": "EAN confirmed (hafo variant barcode). monge.it ES/EN Simba pages + spec PDF (only the 415 g short-can render, no size printed), monge.it WP media search, monge.shop (no Simba), ean-image-lookup, barcode-lookup, WebSearch EAN/IT/RU names, zoovet (has a 1.23 kg listing but its photo is the same 341x499 short-can render, no size printed). Prior run 2026-10-01 also searched bricosi/k2shop/amazon without a 1230 g tall can.",
+  "lens_hint": "Simba Bocconi Adult con Selvaggina 1230 g lattina (tall can, pheasant icon)"
+ },
+ {
+  "product_id": "1279",
+  "sku": "MG006197",
+  "ean": "8009470006194",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/MG006197/1-bfb-bag.png",
+    "url": "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Medium-starter-rijk-aan-kip.png",
+    "source": "mongebestforbreeders.com",
+    "keyed_by": "official BfB product page SKU 800947000619 (= EAN 8009470006194 w/o check digit) 'Medium – Moeder & Puppy Rijk aan Kip Starter 15 kg'",
+    "seen": "Monge Best for Breeders MEDIUM breeder bag, '15kg' printed; front is generic (no Starter text) - same artwork as Medium Puppy/Adult"
+   },
+   {
+    "file": "found/MG006197/2-bfb-sheet.jpg",
+    "url": "https://mongebestforbreeders.com/wp-content/uploads/2024/11/Medium-starter-rijk-aan-kip.jpeg",
+    "source": "mongebestforbreeders.com",
+    "keyed_by": "same page, per-recipe data sheet",
+    "seen": "Monge BfB DAILY Line Medium sheet 'STARTER - RICCO IN POLLO', MEDIUM 15kg bag pictured, 'Disponibile nel formato 15kg' (Italian text)"
+   }
+  ],
+  "tried": "BfB site (curl must use the DEFAULT curl user-agent - a browser UA gets 403), zoovet (1.5 kg retail bag only), monge.shop outlet (page gone)",
+  "lens_hint": "Monge Best for Breeders Medium Starter 15 kg"
+ },
+ {
+  "product_id": "1153",
+  "sku": "005947",
+  "ean": "8009470005944",
+  "status": "not-found",
+  "images": [],
+  "tried": "BfB page SKU 800947000594 has only the generic Speciality Line front + the per-recipe sheet minipuppyjuniorlamenrijst.jpeg - that sheet is ALREADY in the gallery (media 14050, pos 1). No real bag photo with the recipe label found: zoovet's 'Mini Puppy & Junior lamb 15 kg' photo is actually the MINI Puppy & Junior Rich in Chicken bag (label + EAN ...6101) - rejected. petreon.lt / zakaz.ua are Cloudflare-walled.",
+  "lens_hint": "Monge Best for Breeders Speciality Line Mini Puppy & Junior Monoprotein Agnello 15 kg etichetta; suggestion: promote existing sheet 14050 to lead or accept generic front"
+ },
+ {
+  "product_id": "1153",
+  "sku": "005937",
+  "ean": "8009470005937",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/005937/1-zoovet.png",
+    "url": "https://zoovet.am/image/catalog/product/8/ge-catalog-product-upload-ME000084431.png",
+    "source": "zoovet.am",
+    "keyed_by": "zoovet 'Monge Mini Puppy & Junior ... с лососем и рисом, 15 кг' (no code on zoovet); bag's own recipe label read",
+    "seen": "BfB SPECIALITY LINE 15 kg bag WITH its recipe label panel applied; label line reads 'PUPPY AND JUNIOR Salmone e riso - Salmon and rice' (legible only when zoomed; bag ~350x700 px inside 800x900 frame)"
+   },
+   {
+    "file": "found/005937/2-bfb-sheet.jpg",
+    "url": "https://mongebestforbreeders.com/wp-content/uploads/2024/11/puppyjuniorzalmrijstmono.jpg",
+    "source": "mongebestforbreeders.com",
+    "keyed_by": "BfB page SKU 800947000593 (= our EAN) 'Mini – Puppy & Junior – Monoproteïne Zalm met Rijst 15 kg'",
+    "seen": "Monge BfB Monoprotein sheet 'PUPPY AND JUNIOR - SALMON WITH RICE', Speciality Line bag, pack size 15kg - BUT headed 'All Breeds' (not Mini)"
+   }
+  ],
+  "tried": "BfB site, zoovet. NOTE: Monge's own sheet calls this recipe All Breeds Puppy & Junior Salmon (same sheet used on the Medium P&J salmon page); hafo/BfB title say Mini. Our 'Mini' product name may be wrong - check.",
+  "lens_hint": "Monge Best for Breeders Speciality Line Puppy Junior Salmone riso 15 kg"
+ },
+ {
+  "product_id": "1156",
+  "sku": "MG006027",
+  "ean": "8009470006026",
+  "status": "not-found",
+  "images": [],
+  "tried": "BfB page SKU 800947000602 'Maxi – Puppy & Junior Rijk aan Kip 15 kg': gallery = generic MAXI front (already lead, media 14014) + a data sheet that pictures the 3 kg retail Daily Line bag (rejected, wrong size). zoovet 'Maxi Puppy & Junior 15 kg' photo is the 3 kg retail bag (rejected).",
+  "lens_hint": "Monge Best for Breeders MAXI Puppy Junior ricco in pollo 15 kg etichetta"
+ },
+ {
+  "product_id": "1166",
+  "sku": "297257",
+  "ean": "8009470297257",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/297257/1-farmacosmo.jpg",
+    "url": "https://www.farmacosmo.it/2060287-large_default/gemon-kitten-pollo-riso-alimento-completo-per-gattini-in-accrescimento-7-kg-244240.jpg",
+    "source": "farmacosmo.it",
+    "keyed_by": "page gtin13 8009470297257 (also farmacialoreto.it 'EAN: 8009470297257')",
+    "seen": "Gemon Kitten con pollo e riso, 1-12 months, tall bag, '7kg' printed bottom left, clean 800x800"
+   }
+  ],
+  "tried": "monge.it (2 kg only), farmacosmo, farmacialoreto, petzone",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1167",
+  "sku": "297267",
+  "ean": "8009470297264",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/297267/1-farmacosmo.jpg",
+    "url": "https://www.farmacosmo.it/2060288-large_default/gemon-adult-pollo-e-tacchino-alimento-completo-per-gatti-adulti-7-kg-244241.jpg",
+    "source": "farmacosmo.it",
+    "keyed_by": "page carries EAN 8009470297264 (farmacialoreto.it too)",
+    "seen": "Gemon Adult cat con pollo e tacchino, tall bag, '7kg' printed bottom left, clean 800x800"
+   }
+  ],
+  "tried": "monge.it (2 kg only), farmacosmo, farmacialoreto",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1168",
+  "sku": "MM005677",
+  "ean": "8009470005678",
+  "status": "not-found",
+  "images": [],
+  "tried": "BfB page SKU 800947000567 'Gemon Mini – Adult Kip met rijst 20 kg' has only the generic Gemon breeder bag (media 11280, current lead) + the recipe sheet Mini-Adult-with-Chicken-and-Rice-.jpg which is byte-identical to gallery media 11286 (pos 2). monge.it has no Gemon Mini Adult 20 kg page. No photo of the bag with its recipe label found.",
+  "lens_hint": "Gemon Breeders Mini Adult pollo e riso 20 kg; suggestion: drop 11283 (3 kg), move sheet 11286 to pos 1"
+ },
+ {
+  "product_id": "1170",
+  "sku": "009977",
+  "ean": "8009470009973",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/009977/1-monge-it-sheet.png",
+    "url": "https://www.monge.it/wp-content/uploads/2025/06/Simba-adult-dog-kibbles-with-tuna-ENG.pdf",
+    "source": "monge.it (official spec-sheet PDF, embedded packshot extracted)",
+    "keyed_by": "brand's own spec sheet for this recipe, linked from monge.it/es/producto/simba-croquetas-con-atun/ ('Pack size: 4kg - 20kg')",
+    "seen": "Simba ADULT con TONNO kibbles bag, '20kg' printed bottom right; 518x744 transparent PNG (flatten on upload)"
+   }
+  ],
+  "tried": "monge.it page og:image is the 4 kg bag; 20 kg image URL guesses 404; zoovet has beef 20 kg only",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1170",
+  "sku": "009957",
+  "ean": "8009470009959",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/009957/1-monge-it-sheet.png",
+    "url": "https://www.monge.it/wp-content/uploads/2025/06/Simba-adult-dog-kibbles-with-lamb-ENG.pdf",
+    "source": "monge.it (official spec-sheet PDF, embedded packshot extracted)",
+    "keyed_by": "brand's own spec sheet for this recipe, linked from monge.it/es/producto/simba-croquetas-con-cordero/",
+    "seen": "Simba ADULT con AGNELLO kibbles bag, '20kg' printed bottom right; 518x744 transparent PNG"
+   }
+  ],
+  "tried": "monge.it page og:image is the 4 kg bag",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1182",
+  "sku": "GM005607",
+  "ean": "8009470005609",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/GM005607/1-bfb-bag.jpg",
+    "url": "https://mongebestforbreeders.com/wp-content/uploads/2024/12/gemonbestforbreederzak.jpg",
+    "source": "mongebestforbreeders.com",
+    "keyed_by": "BfB page SKU 800947000560 (= our EAN) 'Gemon Medium – Adult Tonijn met Rijst 20 kg'",
+    "seen": "generic Gemon breeder bag, '20 Kg' printed, no recipe on front (same file as media 11280)"
+   },
+   {
+    "file": "found/GM005607/2-bfb-sheet.jpg",
+    "url": "https://mongebestforbreeders.com/wp-content/uploads/2024/12/All-Breeds-Adult-with-Tuna-and-Rice-.jpg",
+    "source": "mongebestforbreeders.com",
+    "keyed_by": "same page, per-recipe sheet",
+    "seen": "Gemon Breeders sheet 'ALL BREEDS - ADULT WITH TUNA AND RICE', 20 Kg bag pictured, 'Pack size: 20kg'"
+   }
+  ],
+  "tried": "current lead 11924 is a Gemon ADULT CAT label (wrong product) - replace. No photo of the bag with the tuna label found.",
+  "lens_hint": "Gemon Breeders tonno e riso 20 kg etichetta"
+ },
+ {
+  "product_id": "1183",
+  "sku": "MM005627",
+  "ean": "8009470005623",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/MM005627/1-bfb-bag.jpg",
+    "url": "https://mongebestforbreeders.com/wp-content/uploads/2024/12/gemonbestforbreederzak.jpg",
+    "source": "mongebestforbreeders.com",
+    "keyed_by": "BfB page SKU 800947000562 (= our EAN) 'Gemon Medium – Puppy & Junior Kip met Rijst 20 kg'",
+    "seen": "generic Gemon breeder bag, '20 Kg' printed, clean (no recipe on front)"
+   },
+   {
+    "file": "found/MM005627/2-bfb-sheet.jpg",
+    "url": "https://mongebestforbreeders.com/wp-content/uploads/2024/12/All-Breeds-PuppyJunior-with-Chicken-and-Rice-.jpg",
+    "source": "mongebestforbreeders.com",
+    "keyed_by": "same page, per-recipe sheet",
+    "seen": "Gemon Breeders sheet 'ALL BREEDS - PUPPY AND JUNIOR WITH CHICKEN AND RICE', 20 Kg bag, 'Pack size: 20kg'"
+   }
+  ],
+  "tried": "no clean photo of the bag with its recipe label exists beyond the watermarked current lead 11930",
+  "lens_hint": "Gemon Breeders Puppy Junior pollo e riso 20 kg"
+ },
+ {
+  "product_id": "641",
+  "sku": "011477",
+  "ean": "8009470011471",
+  "status": "excluded-by-user",
+  "images": [
+   {
+    "file": "found/011477/1-4lapy.jpg",
+    "url": "https://storage.yandexcloud.net/pim-core/dbpim-prod_44102.jpg",
+    "source": "4lapy.ru",
+    "keyed_by": "barcode 8009470011471 on the 4lapy offer",
+    "seen": "Monge Speciality Line Extra Small <2 kg ADULT, N1 Lamb, 'Lamb, Rice and Potatoes', '800g' printed, clean 1000x1000"
+   }
+  ],
+  "tried": "4lapy flat front 428738.jpeg rejected (Честный ЗНАК badge overlay)",
+  "lens_hint": "",
+  "excluded": "excluded by user 2026-10-07 (preview review)"
+ },
+ {
+  "product_id": "659",
+  "sku": "041537",
+  "ean": "8009470041539",
+  "status": "not-found",
+  "images": [],
+  "tried": "monge.it has only the 1230 g can (GRAN-BONTA-CANE-MANZO-1230_8009470041560) and the spec-PDF render (no size printed); old 'Carne' design (current gallery 10078) prints no size. almulinoshop.it prints our EAN but its photo is Monge's 1230 g render (partial '1…' weight on the edge) - rejected. mediawavestore keyed to the 1230 EAN. zoovet only 1.23 kg.",
+  "lens_hint": "Gran Bontà Bocconi con Manzo 400 g lattina (new red label, '400g' on side)"
+ },
+ {
+  "product_id": "665",
+  "sku": "060347",
+  "ean": "8009470060349",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/060347/1-monge-it.jpg",
+    "url": "https://www.monge.it/wp-content/uploads/2015/12/Bocconi-Medium-AGNELLO-1250g-ALTA_8009470060349.jpg",
+    "source": "monge.it",
+    "keyed_by": "our EAN in file name",
+    "seen": "Special Dog Excellence MEDIUM ADULT Bocconi con Agnello can, '1250g' printed (NOT 1275 g), clean 1000x1000"
+   }
+  ],
+  "tried": "monge.it, zoovet (also 1250 g, same render). Every source for this EAN prints 1250 g - the variant label 1275 g (from hafo '1.275 g') is probably wrong/outdated; fix the variant to 1250 g before using this photo.",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "666",
+  "sku": "060357",
+  "ean": "8009470060356",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/060357/1-monge-it.jpg",
+    "url": "https://www.monge.it/wp-content/uploads/2015/12/Bocconi-Maxi-MANZO-1250g-ALTA_8009470060356.jpg",
+    "source": "monge.it",
+    "keyed_by": "our EAN in file name",
+    "seen": "Special Dog Excellence MAXI ADULT Bocconi con Manzo can (current design), '1250g' printed, clean 1000x1000"
+   }
+  ],
+  "tried": "CONFLICT: the EAN-keyed current can prints 1250 g; only the old design printed 1275 g. Use ONE: image 1 (and relabel variant 1250 g) if stock is the current can, or image 2 if stock is the old 1275 g can.",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "636",
+  "sku": "MG006067",
+  "ean": "8009470006064",
+  "status": "not-found",
+  "images": [],
+  "tried": "BfB page SKU 800947000606: generic Speciality Line front + sheet mongemonolamrijstminiadult.jpg (already in gallery, media 14026 pos 1). zoovet 'Monoprotein MINI Adult lamb 15 kg' photo is the small retail bag (no size) - rejected. No bag photo with recipe label.",
+  "lens_hint": "Monge Best for Breeders Speciality Line Mini Adult Monoprotein agnello riso patate 15 kg etichetta; suggestion: promote sheet 14026 to lead"
+ },
+ {
+  "product_id": "636",
+  "sku": "MG006077",
+  "ean": "8009470006071",
+  "status": "not-found",
+  "images": [],
+  "tried": "BfB page SKU 800947000607: generic front + sheet monomongeminiadultzalm.jpg (already media 14032 pos 1). zoovet 'Mini Adult salmon 15 kg' is the retail bag, no size - rejected.",
+  "lens_hint": "Monge Best for Breeders Speciality Line Mini Adult salmone riso 15 kg etichetta; suggestion: promote sheet 14032 to lead"
+ },
+ {
+  "product_id": "639",
+  "sku": "011257",
+  "ean": "8009470011259",
+  "status": "excluded-by-user",
+  "images": [
+   {
+    "file": "found/011257/1-4lapy.jpg",
+    "url": "https://storage.yandexcloud.net/pim-core/126647.jpeg",
+    "source": "4lapy.ru",
+    "keyed_by": "barcode 8009470011259 on the 4lapy offer",
+    "seen": "Monge Speciality Line All Breeds PUPPY AND JUNIOR, N1 Lamb, 'Lamb with Rice', '800g' printed, flat front, clean 1000x1000"
+   },
+   {
+    "file": "found/011257/2-4lapy.jpg",
+    "url": "https://storage.yandexcloud.net/pim-core/126648.jpeg",
+    "source": "4lapy.ru",
+    "keyed_by": "same offer",
+    "seen": "same bag 3/4 view, 'Lamb and Rice', '800g' printed"
+   }
+  ],
+  "tried": "",
+  "lens_hint": "",
+  "excluded": "excluded by user 2026-10-07 (preview review)"
+ },
+ {
+  "product_id": "639",
+  "sku": "006487",
+  "ean": "8009470006484",
+  "status": "not-found",
+  "images": [],
+  "tried": "BfB page SKU 800947000648: generic front + sheet Schede-prodotti-Breeder-MONGE-PUPPY-BEEF_ENG.jpg (already media 14038 pos 1). No bag photo with the beef label.",
+  "lens_hint": "Monge Best for Breeders Speciality Line Puppy Junior manzo riso 15 kg etichetta; suggestion: promote sheet 14038 to lead"
+ }
+]

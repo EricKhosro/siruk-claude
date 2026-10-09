@@ -1,0 +1,834 @@
+[
+ {
+  "product_id": "1236",
+  "product": "Mini Puppy",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1803,
+    "sku": "3182550793049",
+    "label": "8 kg",
+    "size_label": "8 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "12970",
+      "file": "c2698e01-24b8-4434-b780-b2490009a85b_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12970.jpg",
+      "md5": "fd1f9aacf8c4a76a183bea287620461c"
+     },
+     {
+      "pos": 1,
+      "media": "12973",
+      "file": "rc-spt-dry-minipuppy-mv-1-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12973.png",
+      "md5": "6a69a50dc71a3dae81c091ef4c97f659"
+     },
+     {
+      "pos": 2,
+      "media": "12976",
+      "file": "3d0a0db6-09c6-4f16-b2ba-b24900097b77_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12976.jpg",
+      "md5": "d4d784278da3702973df7c8fe5d858c0"
+     },
+     {
+      "pos": 3,
+      "media": "12979",
+      "file": "sol-hero-image-mini-puppy-dry-b1-mv3.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12979.png",
+      "md5": "b2fcad25ba344dc1196dc16be72bcbe3"
+     },
+     {
+      "pos": 4,
+      "media": "12982",
+      "file": "sol-hero-image-mini-puppy-dry-gb2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12982.png",
+      "md5": "bd17ddf73f5d30807f52b32389fa4f70"
+     },
+     {
+      "pos": 5,
+      "media": "12985",
+      "file": "sol-hero-image-wet-mini-puppy-pouch-cig-b1-cv4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12985.png",
+      "md5": "66c7439a6a9740a22a556797d98c97c7"
+     },
+     {
+      "pos": 6,
+      "media": "12988",
+      "file": "e3dbfc61-3912-4ddf-8e87-b24900097cc7_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12988.jpg",
+      "md5": "4ed0b629485a6bb41f5b36e956ec94e0"
+     },
+     {
+      "pos": 7,
+      "media": "12991",
+      "file": "90311b67-0cd7-427f-b460-b1ef001ba168_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12991.jpg",
+      "md5": "86bc4fe54f61798894bd111527759100"
+     },
+     {
+      "pos": 8,
+      "media": "12994",
+      "file": "a855e03b-19e7-4223-9401-b1ef001ba203_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12994.jpg",
+      "md5": "383843655827c11121bd34cbc6003aa4"
+     },
+     {
+      "pos": 9,
+      "media": "12997",
+      "file": "4e2b8695-848d-4707-9f33-b24900097d1e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12997.jpg",
+      "md5": "3d4c4057fa4cb5bdbfd53782a84b4aff"
+     }
+    ]
+   },
+   {
+    "variant_id": 1950,
+    "sku": "3182550793049-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "12970",
+      "file": "c2698e01-24b8-4434-b780-b2490009a85b_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12970.jpg",
+      "md5": "fd1f9aacf8c4a76a183bea287620461c"
+     },
+     {
+      "pos": 1,
+      "media": "12973",
+      "file": "rc-spt-dry-minipuppy-mv-1-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12973.png",
+      "md5": "6a69a50dc71a3dae81c091ef4c97f659"
+     },
+     {
+      "pos": 2,
+      "media": "12976",
+      "file": "3d0a0db6-09c6-4f16-b2ba-b24900097b77_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12976.jpg",
+      "md5": "d4d784278da3702973df7c8fe5d858c0"
+     },
+     {
+      "pos": 3,
+      "media": "12979",
+      "file": "sol-hero-image-mini-puppy-dry-b1-mv3.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12979.png",
+      "md5": "b2fcad25ba344dc1196dc16be72bcbe3"
+     },
+     {
+      "pos": 4,
+      "media": "12982",
+      "file": "sol-hero-image-mini-puppy-dry-gb2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12982.png",
+      "md5": "bd17ddf73f5d30807f52b32389fa4f70"
+     },
+     {
+      "pos": 5,
+      "media": "12985",
+      "file": "sol-hero-image-wet-mini-puppy-pouch-cig-b1-cv4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12985.png",
+      "md5": "66c7439a6a9740a22a556797d98c97c7"
+     },
+     {
+      "pos": 6,
+      "media": "12988",
+      "file": "e3dbfc61-3912-4ddf-8e87-b24900097cc7_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12988.jpg",
+      "md5": "4ed0b629485a6bb41f5b36e956ec94e0"
+     },
+     {
+      "pos": 7,
+      "media": "12991",
+      "file": "90311b67-0cd7-427f-b460-b1ef001ba168_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12991.jpg",
+      "md5": "86bc4fe54f61798894bd111527759100"
+     },
+     {
+      "pos": 8,
+      "media": "12994",
+      "file": "a855e03b-19e7-4223-9401-b1ef001ba203_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12994.jpg",
+      "md5": "383843655827c11121bd34cbc6003aa4"
+     },
+     {
+      "pos": 9,
+      "media": "12997",
+      "file": "4e2b8695-848d-4707-9f33-b24900097d1e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12997.jpg",
+      "md5": "3d4c4057fa4cb5bdbfd53782a84b4aff"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1237",
+  "product": "Mini Adult 8+",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1805,
+    "sku": "3182550831406",
+    "label": "8 kg",
+    "size_label": "8 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13000",
+      "file": "rc-shn24-dry-miniad8-3002-mv-2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13000.png",
+      "md5": "5795d71ea0eae792bfe04aaba1672e72"
+     },
+     {
+      "pos": 1,
+      "media": "13003",
+      "file": "rc-shn-dry-miniad8-3002-page-01.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13003.png",
+      "md5": "e3b46a282a2e0224117e9c6a9965a254"
+     },
+     {
+      "pos": 2,
+      "media": "13006",
+      "file": "c282e66b-76c3-4a00-a2bb-b37701444d82_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13006.jpg",
+      "md5": "730ba3bbff399cd7f97a7dbd6b144272"
+     },
+     {
+      "pos": 3,
+      "media": "13009",
+      "file": "rc-shn24-dry-miniad8-3002-cv-2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13009.png",
+      "md5": "31a7a9c9721ed9b2ff6868a887f8874c"
+     },
+     {
+      "pos": 4,
+      "media": "13012",
+      "file": "36822c08-43cc-492f-9f13-b37701523dab_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13012.jpg",
+      "md5": "5889f7351bdb3b1c5bc38deb84b7001f"
+     },
+     {
+      "pos": 5,
+      "media": "13015",
+      "file": "ea6b60e3-72c9-4194-a333-b37701604d42_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13015.jpg",
+      "md5": "fc92c11449992f26e69001389ce045a8"
+     },
+     {
+      "pos": 6,
+      "media": "13018",
+      "file": "4c082d68-726f-49b3-8eea-b37701605a81_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13018.jpg",
+      "md5": "52934a8c25f438aec12aac73353dd140"
+     },
+     {
+      "pos": 7,
+      "media": "13021",
+      "file": "rc-shn24-dry-miniad8-3002-cv-12.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13021.png",
+      "md5": "cf023e7a7210c043178ba297dcf8d748"
+     },
+     {
+      "pos": 8,
+      "media": "13024",
+      "file": "rc-shn24-dry-miniad8-3002-cv-11.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13024.png",
+      "md5": "1293b468d8a5290ae8b17c2e169d87ca"
+     },
+     {
+      "pos": 9,
+      "media": "13027",
+      "file": "rc-shn24-dry-miniad8-3002-cv-4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13027.png",
+      "md5": "9131bbe7a21eb83dadc05b52c48b01e0"
+     }
+    ]
+   },
+   {
+    "variant_id": 1951,
+    "sku": "3182550831406-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13000",
+      "file": "rc-shn24-dry-miniad8-3002-mv-2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13000.png",
+      "md5": "5795d71ea0eae792bfe04aaba1672e72"
+     },
+     {
+      "pos": 1,
+      "media": "13003",
+      "file": "rc-shn-dry-miniad8-3002-page-01.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13003.png",
+      "md5": "e3b46a282a2e0224117e9c6a9965a254"
+     },
+     {
+      "pos": 2,
+      "media": "13006",
+      "file": "c282e66b-76c3-4a00-a2bb-b37701444d82_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13006.jpg",
+      "md5": "730ba3bbff399cd7f97a7dbd6b144272"
+     },
+     {
+      "pos": 3,
+      "media": "13009",
+      "file": "rc-shn24-dry-miniad8-3002-cv-2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13009.png",
+      "md5": "31a7a9c9721ed9b2ff6868a887f8874c"
+     },
+     {
+      "pos": 4,
+      "media": "13012",
+      "file": "36822c08-43cc-492f-9f13-b37701523dab_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13012.jpg",
+      "md5": "5889f7351bdb3b1c5bc38deb84b7001f"
+     },
+     {
+      "pos": 5,
+      "media": "13015",
+      "file": "ea6b60e3-72c9-4194-a333-b37701604d42_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13015.jpg",
+      "md5": "fc92c11449992f26e69001389ce045a8"
+     },
+     {
+      "pos": 6,
+      "media": "13018",
+      "file": "4c082d68-726f-49b3-8eea-b37701605a81_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13018.jpg",
+      "md5": "52934a8c25f438aec12aac73353dd140"
+     },
+     {
+      "pos": 7,
+      "media": "13021",
+      "file": "rc-shn24-dry-miniad8-3002-cv-12.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13021.png",
+      "md5": "cf023e7a7210c043178ba297dcf8d748"
+     },
+     {
+      "pos": 8,
+      "media": "13024",
+      "file": "rc-shn24-dry-miniad8-3002-cv-11.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13024.png",
+      "md5": "1293b468d8a5290ae8b17c2e169d87ca"
+     },
+     {
+      "pos": 9,
+      "media": "13027",
+      "file": "rc-shn24-dry-miniad8-3002-cv-4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13027.png",
+      "md5": "9131bbe7a21eb83dadc05b52c48b01e0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1238",
+  "product": "Maxi Joint Care",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1807,
+    "sku": "3182550893701",
+    "label": "10 kg",
+    "size_label": "10 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13030",
+      "file": "2fb6a894-f24f-4ac6-9f32-b1ef00115fc4_DownloadAsJpg.jpg",
+      "dims": "933x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13030.jpg",
+      "md5": "dcd18801609d72ea6cfd1bc32a70cf4a"
+     },
+     {
+      "pos": 1,
+      "media": "13033",
+      "file": "ccn23-maxi-joint-care-dry-packshot-b1-med-res-basic.png",
+      "dims": "933x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13033.png",
+      "md5": "8cbceb7dfdfc254d594de81dd7539fd6"
+     },
+     {
+      "pos": 2,
+      "media": "13036",
+      "file": "51d35d2a-b448-4810-bcac-b1ef0011606e_DownloadAsJpg.jpg",
+      "dims": "384x384",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13036.jpg",
+      "md5": "cfca603e626c3a6e9fff14d5602b2a67"
+     },
+     {
+      "pos": 3,
+      "media": "13039",
+      "file": "edd40ad4-0f33-4d49-961f-b1ef001149bf_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13039.jpg",
+      "md5": "9755017ea92524020e6f771e9f344f67"
+     }
+    ]
+   },
+   {
+    "variant_id": 1952,
+    "sku": "3182550893701-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13030",
+      "file": "2fb6a894-f24f-4ac6-9f32-b1ef00115fc4_DownloadAsJpg.jpg",
+      "dims": "933x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13030.jpg",
+      "md5": "dcd18801609d72ea6cfd1bc32a70cf4a"
+     },
+     {
+      "pos": 1,
+      "media": "13033",
+      "file": "ccn23-maxi-joint-care-dry-packshot-b1-med-res-basic.png",
+      "dims": "933x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13033.png",
+      "md5": "8cbceb7dfdfc254d594de81dd7539fd6"
+     },
+     {
+      "pos": 2,
+      "media": "13036",
+      "file": "51d35d2a-b448-4810-bcac-b1ef0011606e_DownloadAsJpg.jpg",
+      "dims": "384x384",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13036.jpg",
+      "md5": "cfca603e626c3a6e9fff14d5602b2a67"
+     },
+     {
+      "pos": 3,
+      "media": "13039",
+      "file": "edd40ad4-0f33-4d49-961f-b1ef001149bf_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13039.jpg",
+      "md5": "9755017ea92524020e6f771e9f344f67"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1239",
+  "product": "Mini Starter Mother & Babydog",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1809,
+    "sku": "3182550932691",
+    "label": "8 kg",
+    "size_label": "8 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13042",
+      "file": "68bf7d2b-6df5-4d6f-9268-b1ef001c12e6_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13042.jpg",
+      "md5": "87cf5c3831c3f161c19ee83687e58b96"
+     },
+     {
+      "pos": 1,
+      "media": "13045",
+      "file": "sol-hero-image-mini-starter-dry-gb1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13045.png",
+      "md5": "6623850b343c9f94dec7b8aed2b2a08f"
+     },
+     {
+      "pos": 2,
+      "media": "13048",
+      "file": "sol-hero-image-mini-starter-dry-b1-cv1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13048.png",
+      "md5": "dae39a8de0f711404c66f89e4f8d2acf"
+     },
+     {
+      "pos": 3,
+      "media": "13051",
+      "file": "sol-hero-image-mini-starter-dry-b1-mv3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13051.png",
+      "md5": "e30330f3901b42dcf54a2df0fc266aa2"
+     },
+     {
+      "pos": 4,
+      "media": "13054",
+      "file": "sol-hero-image-mini-starter-dry-gb2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13054.png",
+      "md5": "f6f01ef3137d092cd46b94c0b6454ca1"
+     },
+     {
+      "pos": 5,
+      "media": "13057",
+      "file": "sol-hero-image-mini-starter-dry-gb3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13057.png",
+      "md5": "cca6a9efea96d7fb6ec0a737e292e5f0"
+     },
+     {
+      "pos": 6,
+      "media": "13060",
+      "file": "sol-hero-image-mini-starter-dry-b1-cv5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13060.png",
+      "md5": "f9e501a83cf565bf5943421d2b9a5337"
+     },
+     {
+      "pos": 7,
+      "media": "13063",
+      "file": "sol-hero-image-mini-starter-dry-gb4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13063.png",
+      "md5": "acf304f9941f533e51a89404fd11ac14"
+     },
+     {
+      "pos": 8,
+      "media": "13066",
+      "file": "sol-hero-image-mini-starter-dry-gb-5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13066.png",
+      "md5": "586e3e0bdd80ef54f04c0b590dfa025c"
+     },
+     {
+      "pos": 9,
+      "media": "13069",
+      "file": "sol-hero-image-mini-starter-dry-b1-cv8.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13069.png",
+      "md5": "695516b834f3513977e8e26d24bfaf6b"
+     }
+    ]
+   },
+   {
+    "variant_id": 1953,
+    "sku": "3182550932691-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13042",
+      "file": "68bf7d2b-6df5-4d6f-9268-b1ef001c12e6_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13042.jpg",
+      "md5": "87cf5c3831c3f161c19ee83687e58b96"
+     },
+     {
+      "pos": 1,
+      "media": "13045",
+      "file": "sol-hero-image-mini-starter-dry-gb1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13045.png",
+      "md5": "6623850b343c9f94dec7b8aed2b2a08f"
+     },
+     {
+      "pos": 2,
+      "media": "13048",
+      "file": "sol-hero-image-mini-starter-dry-b1-cv1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13048.png",
+      "md5": "dae39a8de0f711404c66f89e4f8d2acf"
+     },
+     {
+      "pos": 3,
+      "media": "13051",
+      "file": "sol-hero-image-mini-starter-dry-b1-mv3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13051.png",
+      "md5": "e30330f3901b42dcf54a2df0fc266aa2"
+     },
+     {
+      "pos": 4,
+      "media": "13054",
+      "file": "sol-hero-image-mini-starter-dry-gb2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13054.png",
+      "md5": "f6f01ef3137d092cd46b94c0b6454ca1"
+     },
+     {
+      "pos": 5,
+      "media": "13057",
+      "file": "sol-hero-image-mini-starter-dry-gb3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13057.png",
+      "md5": "cca6a9efea96d7fb6ec0a737e292e5f0"
+     },
+     {
+      "pos": 6,
+      "media": "13060",
+      "file": "sol-hero-image-mini-starter-dry-b1-cv5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13060.png",
+      "md5": "f9e501a83cf565bf5943421d2b9a5337"
+     },
+     {
+      "pos": 7,
+      "media": "13063",
+      "file": "sol-hero-image-mini-starter-dry-gb4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13063.png",
+      "md5": "acf304f9941f533e51a89404fd11ac14"
+     },
+     {
+      "pos": 8,
+      "media": "13066",
+      "file": "sol-hero-image-mini-starter-dry-gb-5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13066.png",
+      "md5": "586e3e0bdd80ef54f04c0b590dfa025c"
+     },
+     {
+      "pos": 9,
+      "media": "13069",
+      "file": "sol-hero-image-mini-starter-dry-b1-cv8.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13069.png",
+      "md5": "695516b834f3513977e8e26d24bfaf6b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1240",
+  "product": "Fit 32",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1811,
+    "sku": "RC-FIT-32-15000G",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13072",
+      "file": "d00b96be-3063-4140-ac03-b378009a2c3a_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13072.jpg",
+      "md5": "d373621209c9de255413efaabe7af60a"
+     },
+     {
+      "pos": 1,
+      "media": "13075",
+      "file": "91010141-992b-4f20-9d15-b1ef0012546f_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13075.jpg",
+      "md5": "8259364141900cda4c806affff4be134"
+     },
+     {
+      "pos": 2,
+      "media": "13078",
+      "file": "9ee54d63-1cf1-46fc-b5fa-b378009a441c_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13078.jpg",
+      "md5": "0252ae89c015bc8effeea1bfb3153159"
+     },
+     {
+      "pos": 3,
+      "media": "13081",
+      "file": "fhn-fit32-cv-eretailkit-3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13081.png",
+      "md5": "c430abea1d03ea28079bacd845fd6e1b"
+     },
+     {
+      "pos": 4,
+      "media": "13084",
+      "file": "35e16d25-9c55-481d-8820-b378009a3fca_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13084.jpg",
+      "md5": "a85071d8a793b9213cff9af104aead5f"
+     },
+     {
+      "pos": 5,
+      "media": "13087",
+      "file": "fed37c28-eb19-449e-93cc-b378009a47ac_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13087.jpg",
+      "md5": "7272f6ec1e30ad05f5190e577d34e763"
+     },
+     {
+      "pos": 6,
+      "media": "13090",
+      "file": "bd20ee50-dec9-4d86-b24e-b378009a4c2c_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13090.jpg",
+      "md5": "6d07ba667db48e01f7a6d11b43297099"
+     },
+     {
+      "pos": 7,
+      "media": "13093",
+      "file": "rc-fhn-fit32-cv-eretailkit-7-en-gb-pdf.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13093.png",
+      "md5": "c3627c591073d1f4b69e95cebf01c747"
+     }
+    ]
+   },
+   {
+    "variant_id": 1954,
+    "sku": "RC-FIT-32-15000G-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13072",
+      "file": "d00b96be-3063-4140-ac03-b378009a2c3a_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13072.jpg",
+      "md5": "d373621209c9de255413efaabe7af60a"
+     },
+     {
+      "pos": 1,
+      "media": "13075",
+      "file": "91010141-992b-4f20-9d15-b1ef0012546f_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13075.jpg",
+      "md5": "8259364141900cda4c806affff4be134"
+     },
+     {
+      "pos": 2,
+      "media": "13078",
+      "file": "9ee54d63-1cf1-46fc-b5fa-b378009a441c_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13078.jpg",
+      "md5": "0252ae89c015bc8effeea1bfb3153159"
+     },
+     {
+      "pos": 3,
+      "media": "13081",
+      "file": "fhn-fit32-cv-eretailkit-3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13081.png",
+      "md5": "c430abea1d03ea28079bacd845fd6e1b"
+     },
+     {
+      "pos": 4,
+      "media": "13084",
+      "file": "35e16d25-9c55-481d-8820-b378009a3fca_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13084.jpg",
+      "md5": "a85071d8a793b9213cff9af104aead5f"
+     },
+     {
+      "pos": 5,
+      "media": "13087",
+      "file": "fed37c28-eb19-449e-93cc-b378009a47ac_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13087.jpg",
+      "md5": "7272f6ec1e30ad05f5190e577d34e763"
+     },
+     {
+      "pos": 6,
+      "media": "13090",
+      "file": "bd20ee50-dec9-4d86-b24e-b378009a4c2c_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13090.jpg",
+      "md5": "6d07ba667db48e01f7a6d11b43297099"
+     },
+     {
+      "pos": 7,
+      "media": "13093",
+      "file": "rc-fhn-fit32-cv-eretailkit-7-en-gb-pdf.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13093.png",
+      "md5": "c3627c591073d1f4b69e95cebf01c747"
+     }
+    ]
+   }
+  ]
+ }
+]

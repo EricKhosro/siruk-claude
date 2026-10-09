@@ -1,0 +1,641 @@
+batch,product_id,variant_id,sku,label,pos,media,verdict,fix,seen
+01,210,292,32811,15 cm,3,2286,unclear,check-secondary,"lifestyle: puppy chewing a single mint/lilac/grey knot ball; no twisted middle or second knot visible, cannot confirm it is the dumbbell rather than a junior rope ball"
+01,210,292,32811,15 cm,4,1857,wrong-colour,drop-secondary,rope dumbbell in purple/orange/beige speckled cord - different colourway from the lead's mint/lilac/grey junior dumbbell
+02,238,326,34950,18 cm,5,1956,wrong-colour,drop-secondary,"lime-green snack snake, same shape - different colourway from the blue lead (variant has no colour option)"
+02,243,332,35170,8 cm,1,2385,wrong-colour,drop-secondary,purple latex mouse with lilac dots - different colour from pale-pink lead (variant has no colour option)
+02,243,332,35170,8 cm,2,2388,wrong-colour,drop-secondary,green latex mouse with darker green dots - different colour from pale-pink lead
+02,243,332,35170,8 cm,3,2394,wrong-colour,drop-secondary,magenta latex mouse with lilac dots - different colour from pale-pink lead
+02,252,341,35511,25 cm,1,2406,wrong-colour,drop-secondary,same long-limbed latex monkey in pink - different colour from green lead (variant has no colour option)
+02,252,341,35511,25 cm,2,2409,wrong-colour,drop-secondary,same long-limbed latex monkey in turquoise - different colour from green lead
+02,254,343,35523,12 cm,1,2418,wrong-colour,drop-secondary,pink latex monkey covering its mouth (speak-no-evil) - different colour and design from turquoise lead
+02,254,343,35523,12 cm,2,2421,wrong-colour,drop-secondary,orange latex monkey covering its ears (hear-no-evil) - different colour and design from turquoise lead
+02,255,344,35612,8 cm,4,2010,wrong-colour,drop-secondary,green latex ring with red/blue/yellow nubs - older/different colourway from the pastel lilac lead
+03,283,374,32869,47 cm,0,2538,unclear,check-lead,Bungee with grey strap and PINK hollow ball; gallery shows three colourways and the variant has no colour option - confirm whether stock is assorted or one colour
+03,283,374,32869,47 cm,1,2541,unclear,check-secondary,Bungee with lime strap and BLUE hollow ball - different colourway from lead
+03,283,374,32869,47 cm,2,2544,unclear,check-secondary,Bungee with blue strap and GREEN hollow ball - different colourway from lead
+03,283,374,32869,47 cm,3,2100,unclear,check-secondary,"Blue strap bungee with green hollow ball, vertical - different colourway from lead"
+03,285,376,3300,5 cm,1,2553,wrong-size,drop-secondary,"Group shot of four solid rubber balls in four sizes/colours (yellow, orange, pink, teal); only the small yellow one is 5 cm"
+03,295,387,35492,30 cm,3,2136,unclear,check-secondary,"Latex flying duck in a DIFFERENT paint scheme (rainbow green/orange/blue, older design) than the teal duck at pos 0-2; variant has no colour option - confirm which one is stocked"
+04,300,392,32009,18 cm,2,2151,unclear,check-secondary,"Older colourway of Ball & Treat: white/dark-blue body printed ""DOG Activity"", no ball; differs from grey/light-blue lead - confirm which colourway is stocked"
+04,301,393,32026,23 cm,3,2154,unclear,check-secondary,"Older colourway of Flip Board: white/blue printed ""DOG Activity""; differs from grey/sage lead - confirm which colourway is stocked"
+04,302,394,32053,28 cm,3,2157,unclear,check-secondary,Older colourway of Flip Board XXL: white/blue with 3 blue cones; differs from grey/sage lead - confirm which colourway is stocked
+04,306,398,41116,4.5 cm,0,2643,unclear,check-lead,"Two fabric mice, blue and pink floral print; pos 1 shows two mice in a different abstract print - cannot tell which design is stocked or whether one or two mice are sold; lead is a group of two"
+04,306,398,41116,4.5 cm,1,2169,unclear,check-secondary,"Two fabric mice, cream abstract print with orange/teal ears; design differs from the floral pair at pos 0"
+04,314,406,45490,15 cm,0,2193,unclear,check-lead,"Single teal feather + iridescent mesh loop - only 1 of the 4 set pieces; set shot is pos 3, better lead for picking"
+04,315,407,45558,17 cm,0,2676,not-packshot-lead,reorder-or-replace-lead,Lifestyle: grey cat playing with a white Sleeping face toy on floor
+04,319,411,45755,20 cm,0,2697,not-packshot-lead,reorder-or-replace-lead,"Group of 4 dragon plush toys in grey/orange/green/yellow (assortment), not a single product"
+04,324,423,009157,Wild Game 1230 g,0,2748,wrong-size,REPLACE-LEAD,Same squat ~415 g Selvaggina/wild game can as the 415 g variant 422 - not the tall 1230 g can
+07,389,1377,31747,Chicken Breast & Fish 80 g,0,3305,not-packshot-lead,reorder-or-replace-lead,"Single loose twisted chicken & fish stick on white, no pack; matches Premio Sticks chicken breast & fish - loose treats only; pack shot exists later in gallery"
+07,389,496,31709,Rabbit 100 g,0,3278,not-packshot-lead,reorder-or-replace-lead,"Loose reddish rabbit sticks on white, no pack - loose treats only; pack shot exists later in gallery"
+07,389,496,31709,Rabbit 100 g,3,3284,unclear,check-secondary,"Store scene, hand holding thin pale beige sticks over Trixie treat bins; no pack, sticks do not look like the reddish rabbit sticks - cannot confirm this product"
+07,393,500,31742,80 g,0,3299,not-packshot-lead,reorder-or-replace-lead,Loose duck & rice bone-shaped treats on white - loose treats only; pack shot exists later in gallery
+07,395,502,31748,75 g,0,3311,not-packshot-lead,reorder-or-replace-lead,Loose spiral wheel treats (chicken & fish) on white - loose treats only; pack shot exists later in gallery
+07,396,503,31749,4 pcs./100 g,0,3317,not-packshot-lead,reorder-or-replace-lead,"Four loose corn-dog sticks (coated, rawhide stick) on white - loose treats only; pack shot exists later in gallery"
+07,398,505,31803,300 g,0,3329,not-packshot-lead,reorder-or-replace-lead,Loose chicken & pollock stripes pile on white - loose treats only; pack shot exists later in gallery
+07,402,509,42733,140 g,0,3353,not-packshot-lead,reorder-or-replace-lead,Loose multicolour soft star treats on white - loose treats only; pack shot exists later in gallery
+07,402,509,42733,140 g,1,3356,unclear,check-secondary,"Older 'Kitty Stars with salmon and lamb' tub design, #42733 printed - same article but pack names salmon & lamb, not the current lamb-only pack; confirm which pack is stocked"
+07,402,509,42733,140 g,3,5993,unclear,check-secondary,"Older 'Kitty Stars with salmon and lamb' tub with stars in front, #42733 - flavour wording differs from current lamb pack; confirm stocked pack"
+07,406,513,32814,ø 9 cm,3,7951,wrong-colour,drop-secondary,Pink rope knot ball with white/lime stripes (zoovet image) - different colourway/design from the pastel ball in pos 0-2
+07,411,518,33360,17 cm,0,9560,unclear,check-lead,Red nubby rubber dumbbell with bell hole; no 'soft ends' visible and size not shown - cannot confirm it is the 'Dumbbell with Soft Ends 17 cm'
+07,422,529,35232,22 cm,0,3383,not-packshot-lead,reorder-or-replace-lead,"Two latex rats (beige and grey) side by side - assortment group shot, not a single item"
+08,459,566,23132,"16 × 24 cm, pink/black",0,3539,not-packshot-lead,reorder-or-replace-lead,pink/black grooming glove worn on a hand and forearm
+09,469,576,23393,"16 × 24 cm, dark grey/blue",3,6350,wrong-colour,drop-secondary,"Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",4,6353,wrong-colour,drop-secondary,"Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",5,6356,wrong-colour,drop-secondary,"Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",6,6359,wrong-colour,drop-secondary,"Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",11,6371,wrong-colour,drop-secondary,"Lifestyle close-up: glove with turquoise pad on a dog - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",12,6374,wrong-colour,drop-secondary,"Lifestyle: glove with turquoise pad on a golden retriever - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",13,6377,wrong-colour,drop-secondary,"Lifestyle outdoors: glove with turquoise pad - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",15,6383,wrong-colour,drop-secondary,"Lifestyle outdoors: glove back, turquoise pad visible at fingertips - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",16,6386,unclear,check-secondary,"Lifestyle outdoors: only black glove back visible; pad colour not shown, same shoot as turquoise version"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",17,6389,wrong-colour,drop-secondary,"Lifestyle on sofa: glove back, turquoise pad visible at fingertips - turquoise/black older colour edition, variant is dark grey/blue"
+09,469,576,23393,"16 × 24 cm, dark grey/blue",18,6392,unclear,check-secondary,"Lifestyle on sofa: only black glove back visible; pad colour not shown, same shoot as turquoise version"
+09,470,577,2353,6 × 13 cm,0,3593,not-packshot-lead,reorder-or-replace-lead,"Shows only the black plastic brush-cleaner comb, not the wooden-handle soft brush itself"
+09,473,580,2360,8 cm,1,6401,wrong-colour,drop-secondary,Same scissors with turquoise/black handles; lead shows grey-blue
+09,473,580,2360,8 cm,2,6404,wrong-colour,drop-secondary,Same scissors with turquoise/black handles; lead shows grey-blue
+09,473,580,2360,8 cm,3,6407,wrong-colour,drop-secondary,Same scissors with turquoise/black handles; lead shows grey-blue
+09,473,580,2360,8 cm,7,6419,wrong-colour,drop-secondary,Lifestyle: turquoise-handled scissors trimming paw fur; lead shows grey-blue
+09,473,580,2360,8 cm,8,6422,wrong-colour,drop-secondary,Hand holding turquoise-handled scissors; lead shows grey-blue
+09,473,580,2360,8 cm,9,6425,wrong-colour,drop-secondary,Lifestyle: turquoise-handled scissors at dog's face; lead shows grey-blue
+09,473,580,2360,8 cm,10,6428,wrong-colour,drop-secondary,Hand demo: turquoise-handled scissors; lead shows grey-blue
+09,475,582,2367,12 cm,3,6434,wrong-colour,drop-secondary,Same claw clipper with turquoise grips; lead shows grey-blue
+09,475,582,2367,12 cm,10,6455,wrong-colour,drop-secondary,Lifestyle: turquoise-grip clipper cutting dog claws; lead shows grey-blue
+09,475,582,2367,12 cm,11,6458,wrong-colour,drop-secondary,Hand holding turquoise-grip clipper; lead shows grey-blue
+09,475,582,2367,12 cm,12,6461,wrong-colour,drop-secondary,Lifestyle: turquoise-grip clipper on dog paw; lead shows grey-blue
+09,475,582,2367,12 cm,13,6464,wrong-colour,drop-secondary,Hand holding turquoise-grip clipper; lead shows grey-blue
+09,475,582,2367,12 cm,14,6467,wrong-colour,drop-secondary,Lifestyle: turquoise-grip clipper on dog paw; lead shows grey-blue
+09,475,582,2367,12 cm,15,6470,wrong-colour,drop-secondary,Lifestyle banner crop: turquoise-grip clipper; lead shows grey-blue
+09,479,586,2373,"8 cm, dark grey/blue",1,6500,wrong-colour,drop-secondary,"Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue"
+09,479,586,2373,"8 cm, dark grey/blue",2,6503,wrong-colour,drop-secondary,"Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue"
+09,479,586,2373,"8 cm, dark grey/blue",3,6506,wrong-colour,drop-secondary,"Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue"
+09,479,586,2373,"8 cm, dark grey/blue",7,6518,wrong-colour,drop-secondary,"Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue"
+09,479,586,2373,"8 cm, dark grey/blue",8,6521,wrong-colour,drop-secondary,"Lifestyle: turquoise-handled claw scissors on white cat - turquoise/black older colour edition, variant is dark grey/blue"
+09,482,589,23772,"22 cm, dark grey/blue",2,6536,wrong-colour,drop-secondary,"Same comb with turquoise handle - turquoise/black older colour edition, variant is dark grey/blue"
+09,497,604,24155,19 cm,2,6590,wrong-colour,drop-secondary,Same brush shape in turquoise/black; lead shows grey-blue
+09,497,604,24155,19 cm,3,6593,wrong-colour,drop-secondary,Same brush shape in turquoise; lead shows grey-blue
+09,497,604,24155,19 cm,4,6596,wrong-colour,drop-secondary,Same brush shape in turquoise; lead shows grey-blue
+09,497,604,24155,19 cm,5,6599,wrong-colour,drop-secondary,"Same brush in turquoise/black, side; lead shows grey-blue"
+09,497,604,24155,19 cm,6,6602,wrong-colour,drop-secondary,"Same brush in turquoise/black, side; lead shows grey-blue"
+09,497,604,24155,19 cm,10,6611,wrong-colour,drop-secondary,Lifestyle: turquoise-tooth brush on brown dog; lead shows grey-blue
+09,497,604,24155,19 cm,11,6614,wrong-colour,drop-secondary,Hand holding turquoise brush; lead shows grey-blue
+09,497,604,24155,19 cm,12,6617,wrong-colour,drop-secondary,Lifestyle: turquoise-tooth brush on brown dog; lead shows grey-blue
+09,497,604,24155,19 cm,13,6620,wrong-colour,drop-secondary,Hand holding black/turquoise brush; lead shows grey-blue
+09,497,604,24155,19 cm,14,6623,wrong-colour,drop-secondary,Lifestyle: black/turquoise brush on white cat; lead shows grey-blue
+09,499,606,24173,"8 × 14 cm, dark grey/blue",2,6645,wrong-colour,drop-secondary,"Same tool with turquoise handle/button - turquoise/black older colour edition, variant is dark grey/blue"
+09,499,606,24173,"8 × 14 cm, dark grey/blue",3,6648,wrong-colour,drop-secondary,"Same tool with turquoise handle, blade detached - turquoise/black older colour edition, variant is dark grey/blue"
+09,499,606,24173,"8 × 14 cm, dark grey/blue",4,6651,wrong-colour,drop-secondary,"Same tool with turquoise handle, blade detached - turquoise/black older colour edition, variant is dark grey/blue"
+09,500,607,24183,"6 × 15 cm, green",2,7921,unclear,check-secondary,"Green/black deshedding trimmer; blade looks wider relative to handle than in other shots, size not printed - cannot confirm 6 cm"
+09,500,607,24183,"6 × 15 cm, green",3,7924,unclear,check-secondary,"Green/black deshedding trimmer; blade looks wider relative to handle, size not printed - cannot confirm 6 cm"
+11,545,653,31869,100 g,0,4100,not-packshot-lead,reorder-or-replace-lead,"Loose duck cubes only, no pack; pack is at pos 1"
+11,546,654,42681,"Chicken Breast, 5 × 14 g",0,4106,not-packshot-lead,reorder-or-replace-lead,"Single Creamy Snack stick (chicken icon), not the 5x14 g retail pack"
+11,546,1398,42682,"Shrimp, 5 × 14 g",0,4115,not-packshot-lead,reorder-or-replace-lead,"Single Creamy Snack stick (shrimp icon), not the 5x14 g retail pack"
+11,546,1399,42683,"Whitefish, 5 × 14 g",0,4127,not-packshot-lead,reorder-or-replace-lead,"Single Creamy Snack stick (fish icon), not the 5x14 g retail pack"
+11,549,657,42705,50 g,0,4139,not-packshot-lead,reorder-or-replace-lead,"Loose heart-shaped treats only, no pack"
+11,550,658,42706,Chicken Breast 50 g,0,4148,not-packshot-lead,reorder-or-replace-lead,"Loose chicken cubes only, no pack"
+11,550,1400,42717,Chicken Breast & Cheese 50 g,0,4163,not-packshot-lead,reorder-or-replace-lead,"Loose chicken & cheese cubes only, no pack"
+11,551,659,42708,50 g,0,4157,not-packshot-lead,reorder-or-replace-lead,"Loose mini sticks only, no pack"
+11,553,661,42731,50 g,0,4169,not-packshot-lead,reorder-or-replace-lead,"Loose tuna/chicken sandwich cubes only, no pack"
+11,554,1401,42763,Chicken Breast & Tuna 50 g,0,4253,not-packshot-lead,reorder-or-replace-lead,"Loose rolls (chicken & tuna) only, no pack"
+11,554,1402,42764,Chicken Breast & Cheese 50 g,0,4259,not-packshot-lead,reorder-or-replace-lead,"Loose rolls (chicken & cheese) only, no pack"
+11,554,662,42732,Tuna & Chicken Breast 50 g,0,4178,not-packshot-lead,reorder-or-replace-lead,"Loose tuna rolls slices only, no pack"
+11,555,663,42734,50 g,0,4187,not-packshot-lead,reorder-or-replace-lead,"Loose tuna strips/bites only, no pack"
+11,556,664,42735,4 pcs./70 g,0,4196,not-packshot-lead,reorder-or-replace-lead,"Loose chicken breast fillets only, no pack"
+11,557,665,42741,50 g,0,4202,not-packshot-lead,reorder-or-replace-lead,"Loose mini nuggets only, no pack"
+11,558,1394,42748,Chicken & Prawn 50 g,0,4226,not-packshot-lead,reorder-or-replace-lead,"Loose fish-shaped cookies only, no pack"
+11,558,666,42743,Salmon & Catnip 50 g,0,4211,not-packshot-lead,reorder-or-replace-lead,"Loose fish-shaped cookies only, no pack"
+11,559,667,42746,20 g,0,4217,not-packshot-lead,reorder-or-replace-lead,"Loose tuna/whitefish strips only, no pack"
+11,561,669,42754,40 g,0,4235,not-packshot-lead,reorder-or-replace-lead,"Loose salmon clouds only, no pack"
+11,562,1395,42756,Chicken Hearts 25 g,0,4247,not-packshot-lead,reorder-or-replace-lead,"Loose freeze-dried chicken hearts only, no pack"
+11,562,1396,42805,Chicken & Cheese 25 g,0,4271,not-packshot-lead,reorder-or-replace-lead,"Loose freeze-dried chicken & cheese cubes only, no pack"
+11,562,1397,42804,Lamb Liver & Salmon 25 g,0,4265,not-packshot-lead,reorder-or-replace-lead,"Loose freeze-dried lamb liver & salmon cubes only, no pack"
+11,562,670,42755,Shrimps 25 g,0,4241,not-packshot-lead,reorder-or-replace-lead,"Loose freeze-dried shrimps only, no pack"
+12,590,698,29411,450 ml,0,7905,unclear,check-lead,"Trixie Trocken-Schaum-Shampoo / Dry Foam Shampoo pump bottle, right product; no volume printed and the shot is shared by 29410 (230 ml) and 29411 (450 ml), so 450 ml cannot be confirmed"
+12,608,716,23571,"XS, grey",0,4454,unclear,check-lead,"Grey Trixie bathrobe cut-out shared by all sizes (23571-23575); size not visible, and the S variant shows the same lead picture as XS"
+12,608,716,23571,"XS, grey",1,4457,unclear,check-secondary,"Grey bathrobe side cut-out shared by all sizes; size not visible, same picture on XS and S"
+12,608,716,23571,"XS, grey",4,4466,unclear,check-secondary,"Labrador wearing the grey bathrobe, shared all-sizes shot; the robe shown is a large size, not this variant's"
+12,608,1301,23572,"S, grey",0,4454,unclear,check-lead,"Grey Trixie bathrobe cut-out shared by all sizes (23571-23575); size not visible, and the S variant shows the same lead picture as XS"
+12,608,1301,23572,"S, grey",1,4457,unclear,check-secondary,"Grey bathrobe side cut-out shared by all sizes; size not visible, same picture on XS and S"
+12,608,1301,23572,"S, grey",3,4466,unclear,check-secondary,"Labrador wearing the grey bathrobe, shared all-sizes shot; the robe shown is a large size, not this variant's"
+12,613,721,25705,"M–L, dark grey/blue",0,4487,unclear,check-lead,"Top-down view into a blue paw cleaner opening, shared by 25704/25705/25707; size M-L cannot be told and the shot is hard to recognise as a lead - pos 1 (4490) is the 25705-specific packshot"
+13,636,1576,MG006067,Lamb & Rice 15 kg,0,14023,unclear,check-lead,"Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell lamb from salmon"
+13,636,1657,MG006067-KG,1 kg,0,14023,unclear,check-lead,"Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell lamb from salmon"
+13,636,1577,MG006077,Salmon & Rice 15 kg,0,14029,unclear,check-lead,"Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell salmon from lamb"
+13,636,1658,MG006077-KG,1 kg,0,14029,unclear,check-lead,"Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell salmon from lamb"
+15,659,1223,041537,Meat 400 g,0,10078,unclear,check-lead,"Gran Bonta Carne (chunks with meat) can, old design; no size printed and the product sells 400 g and 1230 g cans"
+15,659,1224,041567,Meat 1230 g,0,7315,unclear,check-lead,"Gran Bonta new design 'Bocconi con Manzo / Chunks with Beef' can, '12..' size digits at the edge; variant is 'Meat' (hafo: meaty) and the 400 g sibling shows the old 'Carne' can, so confirm the 1230 g article is the beef recipe"
+15,663,800,041787,"Meat, Egg & Cheese 415 g",0,10096,unclear,check-lead,"Gran Bonta Delizie dello Chef 'Carne, Uova e Formaggio' can; no size printed and the product sells 415 g and 1230 g"
+15,663,1303,041887,Beef 1230 g,0,7540,unclear,check-lead,"Gran Bonta Delizie dello Chef 'Bocconi con Manzo' (beef) can, low-res; no size printed and the product sells 415 g and 1230 g"
+15,665,802,060347,Lamb 1275 g,0,4997,wrong-size,REPLACE-LEAD,"Special Dog Excellence Medium Adult Bocconi con Agnello (lamb) can, prints 1250g; variant is 1275 g (hafo says 1.275), so this is likely the older 1250 g pack"
+15,666,803,060357,Beef 1275 g,0,5000,wrong-size,REPLACE-LEAD,"Special Dog Excellence Maxi Adult Bocconi con Manzo (beef) can, prints 1250g; variant is 1275 g (hafo says 1.275), so this is likely the older 1250 g pack"
+17,725,877,19449AQ,"16.5 cm, green",0,5381,not-packshot-lead,reorder-or-replace-lead,"Back of the Comfy Mint card only (text + label 'COMFY TOY MINT DENTAL BONE green 16.5cm Art.No 113554'), the toy itself not shown; label barcode 5905546194495 differs from our EAN 5905546192927 but Art.No matches hafo /113554"
+17,731,887,03174IVS,300 ml,1,5417,wrong-size,drop-secondary,"Group of three Traditional Line Green Apple Long Coat shampoo containers (bottle, ~3 l tub, 1 l bottle), newer label design - shows other sizes"
+17,732,888,03177IVS,300 ml,1,5420,wrong-size,drop-secondary,"Group of three Traditional Line Lemon Short Coat conditioner containers (bottle, ~3 l tub, 1 l bottle) - shows other sizes"
+17,733,889,03183IVS,300 ml,1,5423,wrong-size,drop-secondary,"Group of three Traditional Line Green Apple Long Coat conditioner containers (bottle, ~3 l tub, 1 l bottle) - shows other sizes"
+17,734,890,03681IVS,300 ml,1,5426,wrong-size,drop-secondary,Group: Protective Shield shampoo small bottle + 5 l canister + 1 l bottle - shows other sizes
+17,735,891,03684IVS,300 ml,1,5429,wrong-size,drop-secondary,Group: Protective Conditioner small bottle + 5 l canister + 1 l bottle - shows other sizes
+17,737,893,15247,250 g,0,5435,unclear,check-lead,"Beaphar Lactol Puppy milk +DHA tub; net weight digit cut off at left edge, file is art. 15185 not our 15247 - 250 g vs 500 g not confirmable"
+17,738,894,15248,250 g,0,5438,unclear,check-lead,"Beaphar Lactol Kitten milk +DHA tub; net weight cut off at left edge, file art. 15186 not our 15248 - 250 g not confirmable"
+19,799,955,41890,39–60 cm/10 mm,0,7972,not-packshot-lead,reorder-or-replace-lead,"Only two bungee leads (black and aqua) without the harness; group of two items, harness not shown"
+19,800,1268,17333,"M: 40 cm, dark grey",0,9536,unclear,check-lead,"BE NORDIC bandana collar, dark grey with compass (N/E/S/W) embroidery - colour matches, but same photo as L variant; size M not distinguishable"
+19,800,1269,17335,"L: 50 cm, dark grey",0,9539,unclear,check-lead,"BE NORDIC bandana collar, dark grey with compass embroidery - colour matches, but identical photo (same md5) as M variant; size L not distinguishable"
+19,804,1545,200722,"XS–S, 2.00 m/15 mm, coral",0,7984,wrong-colour,REPLACE-LEAD,Aqua/teal Trixie Premium lead (same photo as aqua variant 200728); variant is coral
+19,804,1547,200725,"XS–S, 2.00 m/15 mm, purple",0,14836,wrong-colour,REPLACE-LEAD,Pale light-lilac Trixie Premium lead (file 201025); variant label says purple. Photo looks like light lilac - possible label swap with 200720
+19,804,1721,200720,"XS–S, 2.00 m/15 mm, light lilac",0,14152,wrong-colour,REPLACE-LEAD,Berry/magenta-purple Trixie Premium lead (file 200720-1); variant label says light lilac. Possible label swap with 200725
+19,805,1226,201303,"XS, 2.00 m/10 mm, red",0,7987,not-packshot-lead,reorder-or-replace-lead,Lifestyle: woman wearing red lead across body attached to a dog; colour red matches but not a clean packshot
+19,805,1548,201018,"XS, 2.00 m/10 mm, papaya",0,10006,wrong-colour,REPLACE-LEAD,Black Trixie Premium lead (same photo as black variant 201301); variant is papaya
+19,812,968,24575,"48 × 30 cm, grey",2,8005,wrong-size,drop-secondary,Group shot of two BE NORDIC mats - smaller 24575 on top of the larger size 24576
+19,813,1536,24950,0.3 l/ø 12 cm,0,10818,unclear,check-lead,"Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable"
+19,813,1537,24951,0.5 l/ø 14 cm,0,10818,unclear,check-lead,"Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable"
+19,813,1538,24952,0.75 l/ø 16 cm,0,10818,unclear,check-lead,"Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable"
+20,823,979,25026,0.3 l/ø 16 cm,0,8041,unclear,check-lead,"Blue slow-feeding plastic bowl, clean shot; one range picture (25026-25028) shared with the 1.4 l sibling, size not shown"
+20,823,979,25026,0.3 l/ø 16 cm,2,8047,wrong-colour,drop-secondary,"Grey slow-feeder plastic bowl, same shape - grey, lead is blue (variant has no colour option)"
+20,823,979,25026,0.3 l/ø 16 cm,3,8050,wrong-colour,drop-secondary,"Grey slow-feeder plastic bowl side view - grey, lead is blue"
+20,823,979,25026,0.3 l/ø 16 cm,4,8053,wrong-colour,drop-secondary,"Grey slow-feeder bowl top view with kibble - grey, lead is blue"
+20,823,979,25026,0.3 l/ø 16 cm,5,8056,wrong-colour,drop-secondary,"Grey slow-feeder bowl top view empty - grey, lead is blue"
+20,823,979,25026,0.3 l/ø 16 cm,7,8062,wrong-colour,drop-secondary,"Grey slow-feeder bowl with kibble - grey, lead is blue"
+20,823,979,25026,0.3 l/ø 16 cm,8,8065,wrong-colour,drop-secondary,"Grey slow-feeder bowl with wet food close-up - grey, lead is blue (variant has no colour option)"
+20,823,1310,25028,1.4 l/ø 25 cm,0,8041,unclear,check-lead,"Same blue slow-feeder picture as the 0.3 l lead (same md5) - range shot, cannot confirm the 1.4 l size"
+20,823,1310,25028,1.4 l/ø 25 cm,2,8047,wrong-colour,drop-secondary,"Grey slow-feeder plastic bowl, same shape - grey, lead is blue (variant has no colour option)"
+20,823,1310,25028,1.4 l/ø 25 cm,3,8050,wrong-colour,drop-secondary,"Grey slow-feeder plastic bowl side view - grey, lead is blue"
+20,823,1310,25028,1.4 l/ø 25 cm,4,8053,wrong-colour,drop-secondary,"Grey slow-feeder bowl top view with kibble - grey, lead is blue"
+20,823,1310,25028,1.4 l/ø 25 cm,5,8056,wrong-colour,drop-secondary,"Grey slow-feeder bowl top view empty - grey, lead is blue"
+20,823,1310,25028,1.4 l/ø 25 cm,7,8062,wrong-colour,drop-secondary,"Grey slow-feeder bowl with kibble - grey, lead is blue"
+20,823,1310,25028,1.4 l/ø 25 cm,8,8065,wrong-colour,drop-secondary,"Grey slow-feeder bowl with wet food close-up - grey, lead is blue (variant has no colour option)"
+20,825,981,25032,0.9 l/ø 23 cm,0,8074,not-packshot-lead,reorder-or-replace-lead,"Group: three grey slow-feeding bowls of three sizes stacked (25031-25033 range), not the 0.9 l bowl alone"
+20,825,981,25032,0.9 l/ø 23 cm,1,8077,wrong-colour,drop-secondary,"Group of three petrol/blue slow-feeding bowls stacked (three sizes) - blue vs grey lead, and other sizes shown"
+20,825,981,25032,0.9 l/ø 23 cm,2,8068,wrong-colour,drop-secondary,"Lifestyle: dachshund eating from petrol-blue slow-feeding bowl - blue, lead is grey"
+20,825,981,25032,0.9 l/ø 23 cm,3,8071,wrong-colour,drop-secondary,"Lifestyle: dachshund eating from petrol-blue slow-feeding bowl - blue, lead is grey"
+20,829,1229,25142,"0.45 l/ø 19 cm, grey",0,9575,unclear,check-lead,"Grey bowl printed ""A house is not a home without a dog"", rubber base - identical picture (same md5) on 0.45/0.7/0.9 l variants, size cannot be told"
+20,829,1230,25143,"0.7 l/ø 21 cm, grey",0,9572,unclear,check-lead,"Grey bowl printed ""A house is not a home without a dog"", rubber base - identical picture (same md5) on 0.45/0.7/0.9 l variants, size cannot be told"
+20,829,1231,25144,"0.9 l/ø 23 cm, grey",0,9578,unclear,check-lead,"Grey bowl printed ""A house is not a home without a dog"", rubber base - identical picture (same md5) on 0.45/0.7/0.9 l variants, size cannot be told"
+20,836,992,25212,"0.9 l/ø 17 cm, green",0,8092,unclear,check-lead,"Green enamel bowl printed ""ready for ADVENTURE"", clean shot; range picture shared with the 1.9 l sibling, size not shown"
+20,836,992,25212,"0.9 l/ø 17 cm, green",1,8095,unclear,check-secondary,Green enamel bowl with mountain + paw print design - different print from lead; may be the other size
+20,836,992,25212,"0.9 l/ø 17 cm, green",2,8098,wrong-size,drop-secondary,"Lifestyle on grass: two green ""ready for adventure"" enamel bowls of two different sizes"
+20,836,1312,25213,"1.9 l/ø 21 cm, green",0,8092,unclear,check-lead,"Same green ""ready for adventure"" enamel bowl as the 0.9 l lead (same md5) - cannot confirm 1.9 l size"
+20,836,1312,25213,"1.9 l/ø 21 cm, green",1,8095,unclear,check-secondary,Green enamel bowl with mountain + paw print design - different print from lead; may be the other size
+20,836,1312,25213,"1.9 l/ø 21 cm, green",2,8098,wrong-size,drop-secondary,"Lifestyle on grass: two green ""ready for adventure"" enamel bowls of two different sizes"
+20,839,995,25243,0.8 l/ø 17 cm,0,9512,unclear,check-lead,"Petrol ""HUNGRY"" paw-print stainless bowl, clean shot; same picture on 0.8/1.5/2.2 l variants, size not shown"
+20,839,995,25243,0.8 l/ø 17 cm,1,9515,wrong-colour,drop-secondary,"Light-green ""HUNGRY"" paw-print bowl - different colour from petrol lead (variant has no colour option)"
+20,839,995,25243,0.8 l/ø 17 cm,2,9518,wrong-colour,drop-secondary,"Grey ""HUNGRY"" paw-print bowl - different colour from petrol lead"
+20,839,995,25243,0.8 l/ø 17 cm,3,9521,unclear,check-secondary,"Underside detail of three bowls in grey, light green and petrol - shows all colourways; cannot tell which is stocked"
+20,839,1272,25244,1.5 l/ø 21 cm,0,9512,unclear,check-lead,"Same petrol ""HUNGRY"" bowl as the 0.8 l lead (same md5) - cannot confirm 1.5 l size"
+20,839,1272,25244,1.5 l/ø 21 cm,1,9515,wrong-colour,drop-secondary,"Light-green ""HUNGRY"" paw-print bowl - different colour from petrol lead (variant has no colour option)"
+20,839,1272,25244,1.5 l/ø 21 cm,2,9518,wrong-colour,drop-secondary,"Grey ""HUNGRY"" paw-print bowl - different colour from petrol lead"
+20,839,1272,25244,1.5 l/ø 21 cm,3,9521,unclear,check-secondary,"Underside detail of three bowls in grey, light green and petrol - shows all colourways; cannot tell which is stocked"
+20,839,1273,25245,2.2 l/ø 23 cm,0,9512,unclear,check-lead,"Same petrol ""HUNGRY"" bowl as the 0.8 l lead (same md5) - cannot confirm 2.2 l size"
+20,839,1273,25245,2.2 l/ø 23 cm,1,9515,wrong-colour,drop-secondary,"Light-green ""HUNGRY"" paw-print bowl - different colour from petrol lead (variant has no colour option)"
+20,839,1273,25245,2.2 l/ø 23 cm,2,9518,wrong-colour,drop-secondary,"Grey ""HUNGRY"" paw-print bowl - different colour from petrol lead"
+20,839,1273,25245,2.2 l/ø 23 cm,3,9521,unclear,check-secondary,"Underside detail of three bowls in grey, light green and petrol - shows all colourways; cannot tell which is stocked"
+20,842,998,25247,0.9 l/ø 19 cm,1,8107,wrong-colour,drop-secondary,"Light-green ""WOOF"" long-ear bowl - different colour from grey lead (variant has no colour option)"
+20,842,998,25247,0.9 l/ø 19 cm,2,8110,wrong-colour,drop-secondary,"Petrol ""WOOF"" long-ear bowl - different colour from grey lead"
+20,842,998,25247,0.9 l/ø 19 cm,3,8113,wrong-colour,drop-secondary,"Petrol long-ear bowl underside detail with insert - petrol, lead is grey"
+20,843,999,25249,1 l/ø 21 cm,1,9826,wrong-colour,drop-secondary,Light-blue slow-feeding stainless bowl - different colour from grey lead (variant has no colour option)
+20,843,999,25249,1 l/ø 21 cm,3,9832,wrong-colour,drop-secondary,"Light-blue bowl underside detail - blue, lead is grey"
+20,844,1000,25256,0.75 l/ø 17 cm,0,8116,unclear,check-lead,"Stainless bowl in beige/blue/grey wave shell with paw print, clean shot; same picture on 0.75 l and 1.4 l variants, size not shown"
+20,844,1560,25257,1.4 l/ø 21 cm,0,8116,unclear,check-lead,Same beige/blue wave paw bowl as the 0.75 l lead (same md5) - cannot confirm 1.4 l size
+20,848,1313,2280,chrome,1,8137,unclear,check-secondary,Chrome address capsule of a different shape (straight ribbed cylinder) from the dumbbell lead - cannot tell which shape is stocked
+20,848,1313,2280,chrome,2,8140,unclear,check-secondary,Chrome address capsule of a third shape (bowling-pin) differing from lead - cannot tell which shape is stocked
+21,850,1006,24606,"0.75 l, blue/green",3,8152,wrong-size,drop-secondary,Group shot: tall blue 24606 bottle next to the smaller green 24605 bottle - shows a different-size sibling article
+21,864,1530,19524,"L, 2 pcs., black",0,8302,not-packshot-lead,reorder-or-replace-lead,Lead is a lifestyle shot: golden retriever wearing the black striped socks on a floor; right product but not a clean packshot
+21,871,1027,31846,75 g,1,8284,unclear,check-secondary,"Different tube design: plain Trixie ""Leberwurst mit Hanf"" pink/grey tube, no PREMIO, no article no. and no weight printed - not the same pack as pos 0; confirm which pack is stocked"
+21,880,1038,23231,1 × 60 sheets,2,8425,wrong-product,drop-secondary,"Range lifestyle shot on a sideboard: 4 different Trixie cleaning products (lint brushes, upholstery brush, lint roller) together - not this product alone"
+21,880,1038,23231,1 × 60 sheets,3,8431,unclear,check-secondary,Use shot: lint roller with DARK grey/black handle and plain white roll - differs from the white-handle grey Trixie roller at pos 0
+21,882,1040,23237,"7 × 10 cm, grey",2,8425,wrong-product,drop-secondary,"Range lifestyle shot on a sideboard: 4 different Trixie cleaning products (lint brushes, upholstery brush, lint roller) together - not this product alone"
+22,886,1044,2332,"4 × 20 bags, black",0,8516,unclear,check-lead,"Single black poop-bag roll, no packaging/print; variant is 4 x 20 bags - the 4-roll pack is not shown"
+22,888,1046,2345,10 pcs.,0,9982,wrong-size,REPLACE-LEAD,"Trixie Dog PickUp counter display carton (Hundekotgreifer, #2345) full of many bundles - not the single 10-pc pack sold; pos 1 is the right 10-pc packshot"
+22,891,1049,23496,"XS, S, S–M, 10 pcs.",0,8714,unclear,check-lead,"Loose stack of white pads, no pack or size print; cannot tell XS/S/S-M from the M pads (sibling 23497)"
+22,901,1059,13238,"1.80 × 1.30 m, black/beige",0,9883,not-packshot-lead,reorder-or-replace-lead,"Beige cover with black edge installed in an open car boot (whole car in shot) - right line, but a scene, not a clean product shot"
+22,904,1062,23410,7 pcs.,0,8849,unclear,check-lead,"Single loose white/blue pad, no pack or size print - cannot tell 30 x 50 cm from the 60 x 90 cm sibling"
+22,914,1072,1199216,"XS–S, 25–35 cm/20 mm, graphite",0,8936,unclear,check-lead,"Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable"
+22,914,1072,1199216,"XS–S, 25–35 cm/20 mm, graphite",5,8951,unclear,check-secondary,"Woman and dog at night; dog wears a reflective harness, lead glowing - collar not clearly shown"
+22,914,1238,1199316,"S–M, 30–45 cm/20 mm, graphite",0,8936,unclear,check-lead,"Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable"
+22,914,1239,1199416,"M–L, 36–55 cm/25 mm, graphite",0,8936,unclear,check-lead,"Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable"
+22,914,1240,1199516,"L–XL, 42–65 cm/30 mm, graphite",0,8936,unclear,check-lead,"Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable"
+22,914,1240,1199516,"L–XL, 42–65 cm/30 mm, graphite",5,8951,unclear,check-secondary,"Woman and dog at night; dog wears a reflective harness, lead glowing - collar not clearly shown"
+23,929,1321,13319,"L–XL: 40–65 cm/25 mm, neon pink",0,9949,wrong-colour,REPLACE-LEAD,"Close-up of transparent LED buckle on NEON BLUE silicone strap - variant is neon pink; also a detail shot, not a full packshot"
+23,929,1321,13319,"L–XL: 40–65 cm/25 mm, neon pink",1,9952,wrong-colour,drop-secondary,"Close-up of USB port in buckle, NEON BLUE strap visible - variant is neon pink"
+23,937,1322,17531,"M: 45–51 cm/20 mm, sand",0,9964,wrong-product,REPLACE-LEAD,BE NORDIC sand leather collar with SNAP-HOOK (carabiner) closure - not the metal pin-buckle collar of this line (17501-17551 buckle series shown on sibling 1095)
+23,937,1322,17531,"M: 45–51 cm/20 mm, sand",1,9967,wrong-product,drop-secondary,"Same BE NORDIC sand collar with snap-hook/swivel closure, compass keeper - not the pin-buckle version"
+24,964,1122,5431112,11.4 kg,0,9047,wrong-size,REPLACE-LEAD,"Acana Highest Protein Ranchlands Recipe dog bag, front; pack prints NET WEIGHT 6 kg / 13.2 lb (variant 11.4 kg)"
+24,964,1122,5431112,11.4 kg,1,9056,unclear,check-secondary,Acana Ranchlands Recipe back of pack; net weight on the back label not legible (same render set as the 6 kg front)
+24,964,1359,5431112-KG,1 kg,0,9047,wrong-size,REPLACE-LEAD,"1 kg loose twin reuses bag gallery; bag shown is Acana Ranchlands 6 kg (NET WEIGHT 6 kg printed), not the 11.4 kg bag it is scooped from"
+24,964,1359,5431112-KG,1 kg,1,9056,unclear,check-secondary,Acana Ranchlands Recipe back of pack; net weight on the back label not legible (same render set as the 6 kg front)
+24,979,1196,201403,"XS–S, 22–35 cm/10 mm, red",1,7987,wrong-product,drop-secondary,"Lifestyle photo: woman wearing a red hands-free lead across the body, dog in red collar; main subject is a lead, collar barely visible"
+24,979,1208,201703,"L–XL, 40–65 cm/25 mm, red",1,7987,wrong-product,drop-secondary,"Lifestyle photo: woman wearing a red hands-free lead across the body, dog in red collar; main subject is a lead, collar barely visible"
+24,979,1214,202203,"S, 25–40 cm/15 mm, red",1,7987,wrong-product,drop-secondary,"Lifestyle photo: woman wearing a red hands-free lead across the body, dog in red collar; main subject is a lead, collar barely visible"
+25,1006,1164,5401112,11.4 kg,0,9230,wrong-size,REPLACE-LEAD,"Acana Highest Protein Wild Prairie dog front, NET WEIGHT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg"
+25,1006,1164,5401112,11.4 kg,1,9233,wrong-size,drop-secondary,Acana Wild Prairie back of pack from the same 6 kg set (tiny size print reads 6 kg / 13.2 lb); 6 kg bag; variant is 11.4 kg
+25,1006,1722,5401112-KG,1 kg,0,9230,wrong-size,REPLACE-LEAD,"Acana Highest Protein Wild Prairie dog front, NET WEIGHT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag"
+25,1006,1722,5401112-KG,1 kg,1,9233,wrong-size,drop-secondary,Acana Wild Prairie back of pack from the same 6 kg set (tiny size print reads 6 kg / 13.2 lb); 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag
+25,1009,1167,5121112,11.4 kg,0,9242,wrong-size,REPLACE-LEAD,"Acana Light & Fit Recipe front, NET WEIGHT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg"
+25,1009,1167,5121112,11.4 kg,1,9245,wrong-size,drop-secondary,Acana Light & Fit back of pack from the 6 kg set (tiny size print reads 6 kg / 13.2 lb); 6 kg bag; variant is 11.4 kg
+25,1009,1723,5121112-KG,1 kg,0,9242,wrong-size,REPLACE-LEAD,"Acana Light & Fit Recipe front, NET WEIGHT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag"
+25,1009,1723,5121112-KG,1 kg,1,9245,wrong-size,drop-secondary,Acana Light & Fit back of pack from the 6 kg set (tiny size print reads 6 kg / 13.2 lb); 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag
+25,1012,1290,202802,"M–L: 35–50 cm/20 mm, royal blue",0,9608,wrong-colour,REPLACE-LEAD,"Trixie semi-choke collar in ocean/turquoise (not royal blue), Trixie watermark across bottom"
+25,1016,1489,204201,"L–XL, 70–110 cm/25 mm, black",1,10548,wrong-colour,drop-secondary,Trixie Touring harness in bright green webbing on grey fleece; variant is black
+25,1018,1176,5721212,11.4 kg,0,9287,wrong-size,REPLACE-LEAD,"Acana Singles Yorkshire Pork Recipe front, NET WT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg"
+25,1018,1176,5721212,11.4 kg,1,9293,wrong-size,drop-secondary,"Acana Singles Yorkshire Pork back of pack, ""6 kg | 13.2 lb"" printed bottom right; 6 kg bag; variant is 11.4 kg"
+25,1018,1364,5721212-KG,1 kg,0,9287,wrong-size,REPLACE-LEAD,"Acana Singles Yorkshire Pork Recipe front, NET WT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag"
+25,1018,1364,5721212-KG,1 kg,1,9293,wrong-size,drop-secondary,"Acana Singles Yorkshire Pork back of pack, ""6 kg | 13.2 lb"" printed bottom right; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag"
+25,1024,1182,AC5701212,11.4 kg,0,9323,wrong-size,REPLACE-LEAD,"Acana Singles Grass-Fed Lamb Recipe front, NET WT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg"
+25,1024,1182,AC5701212,11.4 kg,1,9326,wrong-size,drop-secondary,"Acana Singles Grass-Fed Lamb back of pack, ""6 kg | 13.2 lb"" printed bottom right; 6 kg bag; variant is 11.4 kg"
+25,1024,1365,AC5701212-KG,1 kg,0,9323,wrong-size,REPLACE-LEAD,"Acana Singles Grass-Fed Lamb Recipe front, NET WT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag"
+25,1024,1365,AC5701212-KG,1 kg,1,9326,wrong-size,drop-secondary,"Acana Singles Grass-Fed Lamb back of pack, ""6 kg | 13.2 lb"" printed bottom right; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag"
+26,1029,1187,AC5001112,11.4 kg,0,9365,wrong-size,REPLACE-LEAD,"Acana Puppy Recipe (chicken & hake) bag front, prints NET WEIGHT 6 kg / 13.2 lb, not 11.4 kg"
+26,1029,1187,AC5001112,11.4 kg,1,9368,wrong-size,drop-secondary,"Acana Puppy Recipe bag back, label prints 6 kg / 13.2 lb"
+26,1029,1187,AC5001112,11.4 kg,3,9380,unclear,check-secondary,"'New look' marketing: old and new Puppy bags side by side, weight unreadable, line has several sizes"
+26,1029,1725,AC5001112-KG,1 kg,0,9365,wrong-size,REPLACE-LEAD,"Acana Puppy Recipe (chicken & hake) bag front, prints NET WEIGHT 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1029,1725,AC5001112-KG,1 kg,1,9368,wrong-size,drop-secondary,"Acana Puppy Recipe bag back, label prints 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1029,1725,AC5001112-KG,1 kg,3,9380,unclear,check-secondary,"'New look' marketing: old and new Puppy bags side by side, weight unreadable, line has several sizes (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1031,1189,AC5236012,6 kg,2,9395,unclear,check-secondary,"'New look' marketing: old and new Adult Small Breed bags, weight unreadable"
+26,1031,1189,AC5236012,6 kg,3,9398,unclear,check-secondary,"Looks identical to 9395 (duplicate 'new look' Adult Small Breed image), weight unreadable"
+26,1031,1367,AC5236012-KG,1 kg,2,9395,unclear,check-secondary,"'New look' marketing: old and new Adult Small Breed bags, weight unreadable (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1031,1367,AC5236012-KG,1 kg,3,9398,unclear,check-secondary,"Looks identical to 9395 (duplicate 'new look' Adult Small Breed image), weight unreadable (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1033,1191,AC5421112,11.4 kg,0,9404,wrong-size,REPLACE-LEAD,"Acana Highest Protein Grasslands bag front, prints 6 kg / 13.2 lb, not 11.4 kg"
+26,1033,1191,AC5421112,11.4 kg,1,9410,wrong-size,drop-secondary,"Acana Grasslands bag back, label reads 6 kg / 13.2 lb"
+26,1033,1191,AC5421112,11.4 kg,3,9419,unclear,check-secondary,"'New look' marketing: old and new Grasslands bags, weight unreadable, line has several sizes"
+26,1033,1726,AC5421112-KG,1 kg,0,9404,wrong-size,REPLACE-LEAD,"Acana Highest Protein Grasslands bag front, prints 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1033,1726,AC5421112-KG,1 kg,1,9410,wrong-size,drop-secondary,"Acana Grasslands bag back, label reads 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1033,1726,AC5421112-KG,1 kg,3,9419,unclear,check-secondary,"'New look' marketing: old and new Grasslands bags, weight unreadable, line has several sizes (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1035,1193,AC5411112,11.4 kg,0,9425,wrong-size,REPLACE-LEAD,"Acana Highest Protein Pacifica bag front, prints 6 kg / 13.2 lb, not 11.4 kg"
+26,1035,1193,AC5411112,11.4 kg,1,9428,wrong-size,drop-secondary,"Acana Pacifica bag back, label reads 6 kg / 13.2 lb"
+26,1035,1193,AC5411112,11.4 kg,3,9434,unclear,check-secondary,"'New look' marketing: old and new Pacifica bags, weight unreadable, line has several sizes"
+26,1035,1727,AC5411112-KG,1 kg,0,9425,wrong-size,REPLACE-LEAD,"Acana Highest Protein Pacifica bag front, prints 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1035,1727,AC5411112-KG,1 kg,1,9428,wrong-size,drop-secondary,"Acana Pacifica bag back, label reads 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1035,1727,AC5411112-KG,1 kg,3,9434,unclear,check-secondary,"'New look' marketing: old and new Pacifica bags, weight unreadable, line has several sizes (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1036,1194,AC5711212,11.4 kg,0,9437,wrong-size,REPLACE-LEAD,"Acana Singles Free-Run Duck bag front, prints 6 kg / 13.2 lb, not 11.4 kg"
+26,1036,1194,AC5711212,11.4 kg,1,9440,wrong-size,drop-secondary,"Acana Singles Free-Run Duck bag back, label prints 6 kg / 13.2 lb"
+26,1036,1368,AC5711212-KG,1 kg,0,9437,wrong-size,REPLACE-LEAD,"Acana Singles Free-Run Duck bag front, prints 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1036,1368,AC5711212-KG,1 kg,1,9440,wrong-size,drop-secondary,"Acana Singles Free-Run Duck bag back, label prints 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)"
+26,1037,1326,32860,"ø 6 × 14 cm/25 cm, orange",2,10144,unclear,check-secondary,"Orange dummy at an angle. The body looks longer compared with the strap than in 10138/10141, so it may be the 14 cm piece or a longer size"
+26,1037,1326,32860,"ø 6 × 14 cm/25 cm, orange",3,10147,wrong-size,drop-secondary,"Orange dummy, front view. The body is about 3.7 times as long as it is wide (about 2.1 in 10141), which looks like a longer size than the 6 x 14 cm one"
+26,1050,1586,142645,Liver in Gravy,5,11361,wrong-size,drop-secondary,"Showbox of 24 Myau liver pouches - a case, not the single 85 g pouch sold"
+26,1052,1346,83041J,Chicken,0,14158,unclear,check-lead,"KorMell pouch, tender pate with chicken (RU); no net weight visible to confirm 75 g"
+26,1052,1347,83042J,Beef & Liver,0,14164,unclear,check-lead,"KorMell pouch, tender pate with beef and liver (RU); no net weight visible to confirm 75 g"
+26,1052,1348,83047J,Duck,0,14170,unclear,check-lead,"KorMell pouch, tender pate with duck (RU); no net weight visible to confirm 75 g"
+27,1064,1475,203431,"M–L, 52–75 cm/20 mm, sangria",0,10506,unclear,check-lead,"Trixie Premium H-harness in sangria (wine red), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 203231 (XS–S, 30–44 cm/10 mm, sangria) shows the same picture"
+27,1064,1477,203231,"XS–S, 30–44 cm/10 mm, sangria",0,10506,unclear,check-lead,"Trixie Premium H-harness in sangria (wine red), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 203431 (M–L, 52–75 cm/20 mm, sangria) shows the same picture"
+27,1065,1481,204535,"M, 50–65 cm/20 mm, blush",0,10524,unclear,check-lead,"Trixie Premium One Touch harness in blush (dusty pink), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204335 (XS–S, 30–40 cm/10 mm, blush) shows the same picture"
+27,1065,1482,204511,"M, 50–65 cm/20 mm, fuchsia",0,10527,unclear,check-lead,"Trixie Premium One Touch harness in fuchsia, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204311 (XS–S, 30–40 cm/10 mm, fuchsia) shows the same picture"
+27,1065,1486,204335,"XS–S, 30–40 cm/10 mm, blush",0,10524,unclear,check-lead,"Trixie Premium One Touch harness in blush (dusty pink), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204535 (M, 50–65 cm/20 mm, blush) shows the same picture"
+27,1065,1487,204311,"XS–S, 30–40 cm/10 mm, fuchsia",0,10527,unclear,check-lead,"Trixie Premium One Touch harness in fuchsia, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204511 (M, 50–65 cm/20 mm, fuchsia) shows the same picture"
+27,1066,1496,36121,16 cm,0,12320,wrong-product,REPLACE-LEAD,Plain purple/yellow tennis ball only (Trixie 3476 tennis ball); no fabric animal attached - not the 'Tennis Ball with Fabric Animals' toy
+27,1075,1510,1970601,"M, 35–42 cm/25 mm, black",0,10680,unclear,check-lead,"Trixie CityStyle collar, charcoal/black canvas with black lining, gunmetal buckle; colour matches but shot is shared by all sizes, size not visible, and sibling 1970401 (XS–S, 25–32 cm/25 mm, black) shows the same picture"
+27,1075,1510,1970601,"M, 35–42 cm/25 mm, black",1,10683,unclear,check-secondary,"Charcoal/black CityStyle collar laid flat; colour matches but shot is shared by all sizes, size not visible, and sibling 1970401 (XS–S, 25–32 cm/25 mm, black) shows the same picture"
+27,1075,1512,1970401,"XS–S, 25–32 cm/25 mm, black",0,10680,unclear,check-lead,"Trixie CityStyle collar, charcoal/black canvas with black lining, gunmetal buckle; colour matches but shot is shared by all sizes, size not visible, and sibling 1970601 (M, 35–42 cm/25 mm, black) shows the same picture"
+27,1075,1512,1970401,"XS–S, 25–32 cm/25 mm, black",1,10683,unclear,check-secondary,"Charcoal/black CityStyle collar laid flat; colour matches but shot is shared by all sizes, size not visible, and sibling 1970601 (M, 35–42 cm/25 mm, black) shows the same picture"
+27,1077,1519,1969716,"S–M, 42–60 cm/15 mm, sage",0,10716,unclear,check-lead,"Trixie CityStyle H-harness in sage canvas with black lining/padding, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 1969616 (XS–S, 30–44 cm/10 mm, sage) shows the same picture"
+27,1077,1520,1969616,"XS–S, 30–44 cm/10 mm, sage",0,10716,unclear,check-lead,"Trixie CityStyle H-harness in sage canvas with black lining/padding, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 1969716 (S–M, 42–60 cm/15 mm, sage) shows the same picture"
+28,1087,1540,25063,"0.2 l/ø 14 cm, cream",0,12311,unclear,check-lead,"Cream melamine bowl with steel insert and anchor print (BE NORDIC design); capacity/diameter not shown, same 500x500 shop image also used on the white 0.2 l and white 0.8 l siblings"
+28,1087,1541,25060,"0.2 l/ø 14 cm, white",0,12311,wrong-colour,REPLACE-LEAD,"Cream/beige bowl with anchor print, not white; same image as cream lead variant"
+28,1087,1543,25062,"0.8 l/ø 22 cm, white",0,12311,wrong-colour,REPLACE-LEAD,"Cream/beige bowl with anchor print, not white; also the 0.2 l lead image"
+28,1088,1549,24304,"0.45 l/ø 19 cm, black/bronze",0,10860,unclear,check-lead,"Black matt bowl with copper interior, ""VITAMIN SEA"" print; colour matches but size not shown and the same image is used for all 3 sizes"
+28,1088,1550,24305,"0.7 l/ø 21 cm, black/bronze",0,10860,wrong-size,REPLACE-LEAD,Identical Vitamin Sea bowl image to the 0.45 l lead; no 0.7 l-specific photo
+28,1088,1551,24306,"0.9 l/ø 23 cm, black/bronze",0,10860,wrong-size,REPLACE-LEAD,Identical Vitamin Sea bowl image to the 0.45 l lead; no 0.9 l-specific photo
+28,1089,1552,25251,1.1 l/ø 21 cm,0,10863,unclear,check-lead,"Stainless slow-feeding bowl with centre hump; generic shot covering 25250/25251/25252, size not identifiable"
+28,1089,1553,25252,1.5 l/ø 24 cm,0,10863,wrong-size,REPLACE-LEAD,Identical generic slow-feeding bowl image to the 1.1 l lead; no 1.5 l-specific photo
+28,1090,1559,201901,"XS–S, 1.80 m/15 mm, black",0,10902,unclear,check-lead,"Black nylon lead with snap hook and padded handle, Trixie tag; generic shot covering 203001/201801/201901, length/width not identifiable"
+28,1092,1563,4099,ø 4.5 cm,0,10926,not-packshot-lead,reorder-or-replace-lead,"Group of 9 mixed balls and rattle rolls (display assortment), not a single product shot"
+28,1098,1569,4166,4 pcs.,0,11031,wrong-size,REPLACE-LEAD,Single pink/clear rattling ball; variant is a set of 4 pcs (set only shown at pos 4)
+28,1099,1570,4074,10 cm,0,11046,not-packshot-lead,reorder-or-replace-lead,"Group of 4 sisal mice (blue, pink, grey, beige) in a row; sold as one 10 cm mouse"
+28,1102,1578,300417,Beef 150 g,0,11298,unclear,check-lead,Gemon Adult All Breeds Paté con Manzo (beef) tray; flavour and line match but no net weight printed on the tray
+28,1102,1579,300447,Lamb 150 g,0,11301,unclear,check-lead,Gemon Adult All Breeds Paté con Agnello (lamb) tray; flavour and line match but no net weight printed
+28,1102,1580,300457,Tuna 150 g,0,11304,unclear,check-lead,Gemon Adult All Breeds Paté con Tonno (tuna) tray; flavour and line match but no net weight printed
+28,1103,1581,300437,Turkey 150 g,0,11307,unclear,check-lead,Gemon Mature All Breeds Paté Light con Tacchino (turkey) tray; matches but no net weight printed
+30,1143,1630,06018IVS,Fantasia,0,11745,unclear,check-lead,"pink detangling brush with cheetah print; no brand or design name visible, cannot confirm it is the Iv San Bernard Dermobrush 'Fantasia' design"
+30,1144,1631,03171IVS,300 ml,1,11751,wrong-size,drop-secondary,"same Banana shampoo but tall 1 l bottle, not the 300 ml variant"
+30,1144,1631,03171IVS,300 ml,2,11754,wrong-size,drop-secondary,"same Banana shampoo in 5 l canister, not the 300 ml variant"
+30,1148,1635,00244K,"35 mm, 50–59 cm",0,11790,wrong-product,REPLACE-LEAD,"brown leather collar with pink jacquard tape/braid inlay - that is the 'with Braid' style, not the plain padded classic collar"
+30,1149,2047,00030302,"30 mm, 49–58 cm",0,14812,wrong-size,REPLACE-LEAD,identical photo (same md5) to the 35 mm × 50–59 cm sibling's lead: black leather collar with gold/white jacquard braid; nothing shows the 30 mm × 49–58 cm size
+30,1150,1751,FX023508,"XS, 3 m, black/neon",0,13990,unclear,check-lead,"flexi New Neon tape lead, black body with neon-yellow tape; size/length not legible, cannot confirm XS 3 m vs S/M"
+30,1153,1659,MG006107,Chicken 15 kg,0,14041,unclear,check-lead,"Monge Best for Breeders MINI (Daily line) bag, 15 kg; front prints neither flavour nor lifestage, so Puppy & Junior chicken can't be confirmed from it"
+30,1153,1660,MG006107-KG,1 kg,0,14041,unclear,check-lead,"Monge Best for Breeders MINI (Daily line) bag, 15 kg; front prints neither flavour nor lifestage, so Puppy & Junior chicken can't be confirmed from it"
+30,1153,1661,005947,Lamb & Rice 15 kg,0,14047,unclear,check-lead,"Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour or lifestage printed on front; identical picture used for the Salmon sibling"
+30,1153,1662,005947-KG,1 kg,0,14047,unclear,check-lead,"Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour or lifestage printed on front; identical picture used for the Salmon sibling"
+30,1153,1663,005937,Salmon & Rice 15 kg,0,14011,unclear,check-lead,"Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour printed; byte-identical to the Lamb sibling's lead photo, so salmon is not shown"
+30,1153,1664,005937-KG,1 kg,0,14011,unclear,check-lead,"Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour printed; byte-identical to the Lamb sibling's lead photo, so salmon is not shown"
+31,1156,1669,MG006027,Chicken 15 kg,0,14014,unclear,check-lead,"Monge Best for Breeders MAXI bag, 15kg; front shows no lifestage (Puppy & Junior vs Adult) or flavour, no sheet in gallery to confirm"
+31,1156,1670,MG006027-KG,1 kg,0,14014,unclear,check-lead,"Monge Best for Breeders MAXI bag, 15kg; front shows no lifestage (Puppy & Junior vs Adult) or flavour, no sheet in gallery to confirm"
+31,1163,1685,MG 004817,Chicken 10 kg,1,14179,unclear,check-secondary,"Monge Best for Breeders Gatti-Cats 10kg bag, generic face with no variant label - does not show Kitten"
+31,1163,1686,MG 004817-KG,1 kg,1,14179,unclear,check-secondary,"Monge Best for Breeders Gatti-Cats 10kg bag, generic face with no variant label - does not show Kitten"
+31,1166,1691,297257,Chicken & Rice 7 kg,0,11274,wrong-size,REPLACE-LEAD,"Gemon Kitten con pollo e riso retail bag, 2kg printed (variant is 7 kg)"
+31,1166,1692,297257-KG,1 kg,0,11274,wrong-size,REPLACE-LEAD,"Gemon Kitten con pollo e riso retail bag, 2kg printed (variant is 7 kg)"
+31,1167,1693,297267,Chicken & Turkey 7 kg,0,11277,wrong-size,REPLACE-LEAD,"Gemon Adult con pollo e tacchino retail bag, 2kg printed (variant is 7 kg)"
+31,1167,1694,297267-KG,1 kg,0,11277,wrong-size,REPLACE-LEAD,"Gemon Adult con pollo e tacchino retail bag, 2kg printed (variant is 7 kg)"
+31,1168,1695,MM005677,Chicken & Rice 20 kg,1,11283,wrong-size,drop-secondary,"Gemon Mini Adult pollo e riso retail bag, 3kg printed (variant is 20 kg)"
+31,1168,1696,MM005677-KG,1 kg,1,11283,wrong-size,drop-secondary,"Gemon Mini Adult pollo e riso retail bag, 3kg printed (variant is 20 kg)"
+31,1169,1697,MM006177,Chicken & Rice 20 kg,1,11280,unclear,check-secondary,"plain Gemon breeder 20kg bag, no recipe on front; differs from the retail Regular bag at pos0 - can't confirm which pack is stocked"
+31,1169,1698,MM006177-KG,1 kg,1,11280,unclear,check-secondary,"plain Gemon breeder 20kg bag, no recipe on front; differs from the retail Regular bag at pos0 - can't confirm which pack is stocked"
+31,1170,1699,009977,Tuna 20 kg,0,11313,wrong-size,REPLACE-LEAD,"Simba Adult dog kibbles con tonno bag, 4kg printed (variant is 20 kg)"
+31,1170,1700,009977-KG,1 kg,0,11313,wrong-size,REPLACE-LEAD,"Simba Adult dog kibbles con tonno bag, 4kg printed (variant is 20 kg)"
+31,1170,1701,009957,Lamb 20 kg,0,11316,wrong-size,REPLACE-LEAD,"Simba Adult dog kibbles con agnello bag, 4kg printed (variant is 20 kg)"
+31,1170,1702,009957-KG,1 kg,0,11316,wrong-size,REPLACE-LEAD,"Simba Adult dog kibbles con agnello bag, 4kg printed (variant is 20 kg)"
+32,1178,1717,902135,11 kg,0,14188,unclear,check-lead,"Myau (Мяу!) for kittens (для кошенят) stand-up pouch, Ukrainian pack; no net weight visible and the pouch shape looks like a small retail pack, not the 11 kg bag - size cannot be confirmed"
+32,1178,1718,902135-KG,1 kg,0,14188,unclear,check-lead,"Myau (Мяу!) for kittens (для кошенят) stand-up pouch, Ukrainian pack; no net weight visible and the pouch shape looks like a small retail pack, not the 11 kg bag - size cannot be confirmed"
+32,1182,1734,GM005607,Tuna & Rice 20 kg,0,11924,wrong-product,REPLACE-LEAD,"Gemon Breeders 20 kg bag but label reads ADULT CAT with tuna and salmon - a cat food, not Medium Adult Dog Tuna & Rice"
+32,1182,1735,GM005607-KG,1 kg,0,11924,wrong-product,REPLACE-LEAD,"Gemon Breeders 20 kg bag but label reads ADULT CAT with tuna and salmon - a cat food, not Medium Adult Dog Tuna & Rice"
+32,1183,1736,MM005627,Chicken & Rice 20 kg,0,11930,not-packshot-lead,reorder-or-replace-lead,"Gemon Breeders Puppy & Junior bag, 20 Kg printed, flavour text illegible; photo overlaid with a third-party shop 'C' watermark pattern - not a clean packshot"
+32,1183,1737,MM005627-KG,1 kg,0,11930,not-packshot-lead,reorder-or-replace-lead,"Gemon Breeders Puppy & Junior bag, 20 Kg printed, flavour text illegible; photo overlaid with a third-party shop 'C' watermark pattern - not a clean packshot"
+33,1194,1752,03623K,M,0,14194,unclear,check-lead,"Plain blue litter tray with grid/mesh, no brand or size marking visible; cannot confirm Inteko or size M (tray made in several sizes)"
+33,1199,1757,11244S,80 g,0,12356,unclear,check-lead,"8in1 Fillets Pro Digest chicken pouch; no size letter or weight visible, line sold in more than one pouch size"
+33,1201,1759,DL711836,"Chicken, 90 g",0,12365,wrong-product,REPLACE-LEAD,"Dog Fest 'Rabbit Ear with Chicken' for puppies pouch, net wt 90 g - brand is Dog Fest, product brand is Derevenskie Lakomstva (unless the brand field is wrong)"
+33,1201,1759,DL711836,"Chicken, 90 g",1,12368,wrong-product,drop-secondary,"Dog Fest Rabbit Ears with Chicken back of pouch, 90 g, EAN 6921499711830, Art 79711830 - Dog Fest, not Derevenskie Lakomstva"
+33,1201,1759,DL711836,"Chicken, 90 g",2,12371,unclear,check-secondary,"Loose chicken-wrapped rabbit ears on white, no brand shown; part of the Dog Fest gallery"
+33,1204,1762,421620V,1 kg,0,12380,unclear,check-lead,"Versele-Laga Prestige Budgies bag; no weight printed, line sold in 1 kg / 4 kg / 20 kg"
+33,1207,1765,421795V,1 kg,0,12389,unclear,check-lead,"Versele-Laga Prestige Parrots bag; no weight printed, line sold in several sizes"
+33,1208,1766,422201V,1 kg,0,12392,unclear,check-lead,"Versele-Laga Prestige Loro Parque African Parrot Mix pouch; no weight printed, line sold in several sizes"
+33,1209,1767,422220V,1 kg,0,12395,unclear,check-lead,"Versele-Laga Prestige Loro Parque African Parakeet Mix pouch; no weight printed, line sold in several sizes"
+33,1215,1773,461698V,400 g,0,13993,unclear,check-lead,"Versele-Laga Crispy Muesli Guinea Pigs bag; no weight printed, line sold in 400 g / 1 kg / 2.75 kg / 20 kg"
+33,1215,1773,461698V,400 g,1,12413,unclear,check-secondary,"Crispy Muesli Guinea Pigs bag, angled; no weight printed - same picture is the lead of the 1 kg sibling (1774), so it may be the 1 kg pack"
+33,1215,1774,461711V,1 kg,0,12413,unclear,check-lead,"Crispy Muesli Guinea Pigs bag, angled; no weight printed - also used as pos 1 of the 400 g sibling, so sizes are not told apart"
+33,1216,1775,461699V,400 g,0,13996,unclear,check-lead,"Versele-Laga Crispy Muesli Hamsters & Co bag; no weight printed, line sold in 400 g / 1 kg / 2.75 kg / 20 kg"
+33,1216,1775,461699V,400 g,1,12419,unclear,check-secondary,"Crispy Muesli Hamsters & Co bag, no weight printed"
+35,1252,1836,9003579308929-1,In Gravy 85 g,6,13342,wrong-flavour,drop-secondary,"complete program: H&S dry bag 2 kg + H&S LOAF pouch 85 g - pouch shown is LOAF texture, variant is chunks in gravy"
+35,1252,1836,9003579308929-1,In Gravy 85 g,9,13351,wrong-size,drop-secondary,H&S gravy pouch 85 g + 12-pouch carton '85 g x12' - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1252,1835,9003579308929,In Gravy 12 × 85 g,7,13342,wrong-flavour,drop-secondary,"complete program: H&S dry bag 2 kg + H&S LOAF pouch 85 g - pouch shown is LOAF texture, variant is chunks in gravy"
+35,1252,1837,9003579311721,In Jelly 12 × 85 g,0,13354,wrong-size,REPLACE-LEAD,"Hair & Skin pouch thin slices in JELLY 85 g, clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling"
+35,1253,1840,9003579011430,Chicken 85 g,2,13387,wrong-size,drop-secondary,SC Chicken with Rice pouch + 12-pouch carton (case shot) - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1254,1841,9003579309537,12 × 85 g,0,13402,wrong-size,REPLACE-LEAD,"Digestive Care pouch thin slices in gravy 85 g, clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling"
+35,1255,1844,9003579308936-1,In Gravy 85 g,1,13432,wrong-size,drop-secondary,Instinctive gravy pouch art with '85g x12' badge + gravy bowl infographic - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1255,1846,9003579309513-1,In Jelly 85 g,1,13456,wrong-flavour,drop-secondary,"Instinctive '85g x12' + LOAF texture infographic (not jelly) - shows LOAF texture, variant is chunks in jelly; also x12 case badge on a single-pouch variant"
+35,1255,1843,9003579308936,In Gravy 12 × 85 g,0,13429,wrong-size,REPLACE-LEAD,"Instinctive adult pouch thin slices in gravy, 85 g printed, clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling"
+35,1255,1845,9003579309513,In Jelly 12 × 85 g,0,13453,wrong-size,REPLACE-LEAD,"Instinctive pouch JELLY (Gelee) 85 g, clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling"
+35,1255,1845,9003579309513,In Jelly 12 × 85 g,1,13456,wrong-flavour,drop-secondary,"Instinctive '85g x12' + LOAF texture infographic (not jelly) - shows LOAF texture, variant is chunks in jelly"
+35,1256,1848,10030111604351-1,In Gravy 85 g,1,13474,wrong-size,drop-secondary,Kitten gravy pouch '85 g x12' + gravy bowl - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1256,1848,10030111604351-1,In Gravy 85 g,5,13486,wrong-product,drop-secondary,"at 12 months switch: Kitten bag+pouch, Maine Coon, Indoor (range group) - shows adult Maine Coon / Indoor packs, other products"
+35,1256,1850,9003579311714-1,In Jelly 85 g,1,13504,wrong-size,drop-secondary,Kitten jelly '85 g x12' + jelly bowl - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1256,1850,9003579311714-1,In Jelly 85 g,5,13516,wrong-product,drop-secondary,"at 12 months switch (jelly kitten pouch + Maine Coon + Indoor group) - shows adult Maine Coon / Indoor packs, other products"
+35,1256,1852,9003579003848-1,Loaf 85 g,1,13531,wrong-size,drop-secondary,Kitten loaf '85 g x12' + loaf plate - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1256,1852,9003579003848-1,Loaf 85 g,5,13543,wrong-product,drop-secondary,"at 12 months switch (loaf kitten pouch group) - shows adult Maine Coon / Indoor packs, other products"
+35,1256,1847,10030111604351,In Gravy 12 × 85 g,0,13471,wrong-size,REPLACE-LEAD,"Kitten pouch chunks in gravy 85 g, clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling"
+35,1256,1847,10030111604351,In Gravy 12 × 85 g,5,13486,wrong-product,drop-secondary,"at 12 months switch: Kitten bag+pouch, Maine Coon, Indoor (range group) - shows adult Maine Coon / Indoor packs, other products"
+35,1256,1849,9003579311714,In Jelly 12 × 85 g,0,13501,wrong-size,REPLACE-LEAD,Kitten pouch chunks in JELLY 85 g clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling
+35,1256,1849,9003579311714,In Jelly 12 × 85 g,5,13516,wrong-product,drop-secondary,"at 12 months switch (jelly kitten pouch + Maine Coon + Indoor group) - shows adult Maine Coon / Indoor packs, other products"
+35,1256,1851,9003579003848,Loaf 12 × 85 g,0,13528,wrong-size,REPLACE-LEAD,Kitten pouch LOAF in sauce 85 g clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling
+35,1256,1851,9003579003848,Loaf 12 × 85 g,5,13543,wrong-product,drop-secondary,"at 12 months switch (loaf kitten pouch group) - shows adult Maine Coon / Indoor packs, other products"
+35,1257,1854,9003579310168-1,85 g,1,13561,wrong-size,drop-secondary,Instinctive 7+ '85g x12' + gravy + vitality - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1257,1853,9003579310168,12 × 85 g,0,13555,wrong-size,REPLACE-LEAD,Instinctive 7+ gravy pouch 85 g clean - single pouch shown for the 12 x 85 g case variant; same lead as its 85 g sibling
+35,1258,1856,9003579308769-1,In Gravy 85 g,9,13603,wrong-size,drop-secondary,LW gravy pouch 85 g + 12-pouch carton '85 g x12' - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1258,1858,9003579311738-1,In Jelly 85 g,9,13630,wrong-size,drop-secondary,LW jelly pouch + 12-pouch carton '85 g x12' - shows the 12 x 85 g case on the single 85 g pouch variant
+35,1259,1860,9003579050057-1,85 g,0,13633,unclear,check-lead,RC 11+ (senior over 11) pouch chunks in jelly 85 g clean -- pack says 11+ not 12+ - pack says 11+ (senior over 11) while product is Ageing 12+; RC presents 11+ as the new design of 12+ (13657); confirm the stocked pack/rename
+35,1259,1860,9003579050057-1,85 g,1,13636,unclear,check-secondary,RC 11+ chunks in jelly pouch 85 g - pack says 11+ (senior over 11) while product is Ageing 12+; RC presents 11+ as the new design of 12+ (13657); confirm the stocked pack/rename
+35,1259,1860,9003579050057-1,85 g,2,13639,wrong-flavour,drop-secondary,"RC 11+ chunks in GRAVY pouch + 12 carton gravy '85g x12'  -> wrong texture - 11+ GRAVY pouch/carton, variant is Ageing 12+ chunks in jelly; also a 12-pouch case on the single 85 g variant"
+35,1259,1860,9003579050057-1,85 g,6,13651,wrong-flavour,drop-secondary,"mix dry & wet: 11+ gravy pouch, 11+ jelly pouch, 11+ can, 11+ dry bag (group) - group also shows the gravy pouch, can and dry bag, not this jelly pouch alone"
+35,1259,1860,9003579050057-1,85 g,7,13654,wrong-lifestage,drop-secondary,11+ jelly -> 15+ jelly age progression - shows the 15+ pouch next to the 11+ one
+35,1259,1859,9003579050057,12 × 85 g,0,13639,wrong-flavour,REPLACE-LEAD,"RC 11+ chunks in GRAVY pouch + 12 carton gravy '85g x12'  -> wrong texture - 11+ GRAVY pouch/carton, variant is Ageing 12+ chunks in jelly"
+35,1259,1859,9003579050057,12 × 85 g,1,13633,unclear,check-secondary,RC 11+ (senior over 11) pouch chunks in jelly 85 g clean -- pack says 11+ not 12+ - pack says 11+ (senior over 11) while product is Ageing 12+; RC presents 11+ as the new design of 12+ (13657); confirm the stocked pack/rename
+35,1259,1859,9003579050057,12 × 85 g,2,13636,unclear,check-secondary,RC 11+ chunks in jelly pouch 85 g - pack says 11+ (senior over 11) while product is Ageing 12+; RC presents 11+ as the new design of 12+ (13657); confirm the stocked pack/rename
+35,1259,1859,9003579050057,12 × 85 g,6,13651,wrong-flavour,drop-secondary,"mix dry & wet: 11+ gravy pouch, 11+ jelly pouch, 11+ can, 11+ dry bag (group) - group also shows the gravy pouch, can and dry bag, not this jelly pouch alone"
+35,1259,1859,9003579050057,12 × 85 g,7,13654,wrong-lifestage,drop-secondary,11+ jelly -> 15+ jelly age progression - shows the 15+ pouch next to the 11+ one
+b05-01,328,1424,40187,purple/white,0,8266,unclear,check-lead,"Classic rectangular tray with white rim, basin reads blue-grey/slate rather than purple; Trixie's own 40187 photo, so colour name 'purple/white' vs shown blue-grey needs checking"
+b05-01,328,1424,40187,purple/white,1,8272,unclear,check-secondary,"same Classic tray, white rim, basin blue-grey/slate (not clearly purple)"
+b05-01,328,1424,40187,purple/white,2,8278,unclear,check-secondary,"same Classic tray, other angle, basin blue-grey/slate (not clearly purple)"
+b05-01,329,433,40397,"38 × 20 × 50 cm, purple/white",8,8398,wrong-colour,drop-secondary,"Delio tray with cat-silhouette rim but basin is steel blue-grey, not purple - the grey/white colour variant"
+b05-01,329,433,40397,"38 × 20 × 50 cm, purple/white",9,8401,wrong-colour,drop-secondary,"same image as pos 8: Delio blue-grey/white colour variant, not purple"
+b05-01,329,433,40397,"38 × 20 × 50 cm, purple/white",10,8407,wrong-colour,drop-secondary,"Delio side view, basin steel blue-grey (grey/white variant), not purple"
+b05-01,329,433,40397,"38 × 20 × 50 cm, purple/white",11,8410,wrong-colour,drop-secondary,"Delio front view, basin steel blue-grey (grey/white variant), not purple"
+b05-01,329,433,40397,"38 × 20 × 50 cm, purple/white",12,8416,wrong-colour,drop-secondary,"Delio basin alone in steel blue-grey (grey variant), not purple"
+b05-01,331,435,00265,150 g,0,9449,unclear,check-lead,"Trixie 'Snack Chew Bites' pouch, 'with parsley & peppermint', #31501 printed; no 'Denta Fun' wording and no weight on pack - line name/article (sku 00265) and 150 g cannot be confirmed"
+b05-01,331,435,00265,150 g,2,7960,unclear,check-secondary,"Trixie 'Snack Chew Bites' pouch, 'with parsley & peppermint', #31501 printed; no 'Denta Fun' wording and no weight on pack - line name/article (sku 00265) and 150 g cannot be confirmed (same pack as pos 0, higher res)"
+b05-01,332,436,25841,100 g,0,2822,not-packshot-lead,reorder-or-replace-lead,"single brown treat piece close-up, not the pouch; pouch is Trixie Tablettenversteck #25841 (pos 1)"
+b05-02,333,437,2674,50 g,0,2834,not-packshot-lead,reorder-or-replace-lead,"Loose green spirulina chips on white, no pack; Trixie #2674 pack is at pos 4/5"
+b05-02,334,438,27152,120 g,0,2840,not-packshot-lead,reorder-or-replace-lead,"Single loose rabbit & chicken dip (rabbit ear wrapped in chicken) on white, no pack; pack at pos 6"
+b05-02,335,439,31121,"110 g, natural",0,2852,not-packshot-lead,reorder-or-replace-lead,"Single loose white rawhide knot bone on white, no pack; Denta Fun Knot #31121 pack at pos 4"
+b05-02,336,440,31146,165 g,0,2855,not-packshot-lead,reorder-or-replace-lead,"Single loose collagen roll on white, no pack; Denta Fun Roll #31146 pack at pos 5"
+b05-03,337,441,31288,120 g,0,2870,not-packshot-lead,reorder-or-replace-lead,"Single loose orange vegetable stick on white, no pack/brand/weight; pack (#31288 Vegan Sticks) appears only at pos 6"
+b05-03,338,1376,31295,Carrot 200 g,0,3863,not-packshot-lead,reorder-or-replace-lead,"Pile of loose reddish-orange carrot dots, no pack/brand/weight; tub #31295 only at pos 2"
+b05-03,338,442,31294,Parsley & Thyme 200 g,0,2879,not-packshot-lead,reorder-or-replace-lead,"Pile of loose olive-green herb dots, no pack/brand/weight; tub #31294 only at pos 3"
+b05-03,339,443,31296,500 g,0,2885,not-packshot-lead,reorder-or-replace-lead,"Single loose brown ridged dental stick, top view, no pack/brand/weight; tub #31296 only at pos 6"
+b05-03,340,444,31497,500 g,0,2894,not-packshot-lead,reorder-or-replace-lead,"Pile of loose cream hearts with dark-brown heart centre, no pack/brand/weight; bucket #31497 only at pos 2"
+b05-04,344,448,31517,500 g,0,2927,not-packshot-lead,reorder-or-replace-lead,"Loose brown bone-shaped treats only, no pack shown; match the Lupinos treats in pos 1/2"
+b05-04,345,449,31518,140 g,0,2933,not-packshot-lead,reorder-or-replace-lead,"Loose mixed-colour mini bones only, no pack shown"
+b05-04,346,450,31519,140 g,0,2939,not-packshot-lead,reorder-or-replace-lead,"Loose mixed-colour cylinder dots only, no pack shown"
+b05-04,347,451,31522,500 g,0,2945,not-packshot-lead,reorder-or-replace-lead,"Loose multicolour square treats with black centre only, no pack shown"
+b05-04,348,452,31523,500 g,0,2951,not-packshot-lead,reorder-or-replace-lead,"Loose mixed-colour mini bones only, no pack shown"
+b05-04,349,453,31524,200 g,0,2957,not-packshot-lead,reorder-or-replace-lead,"Loose red/brown/cream heart treats only, no pack shown"
+b05-04,350,454,31526,"1,800 g",0,2966,not-packshot-lead,reorder-or-replace-lead,"Loose multicolour mini bones only, no pack shown"
+b05-04,351,455,31527,500 g,0,2972,not-packshot-lead,reorder-or-replace-lead,"Loose multicolour cylinder dots only, no pack shown"
+b05-04,352,1382,31706,Beef 100 g,0,4049,not-packshot-lead,reorder-or-replace-lead,"Loose red/white marbled beef coins only, no pack shown"
+b05-04,352,456,31531,Chicken Breast 100 g,0,2978,not-packshot-lead,reorder-or-replace-lead,"Loose orange chicken coins only, no pack shown"
+b05-04,352,1383,31587,Duck Breast 80 g,0,3128,not-packshot-lead,reorder-or-replace-lead,"Loose red duck coins with grid marks only, no pack shown"
+b05-04,352,1383,31587,Duck Breast 80 g,2,3134,unclear,check-secondary,"Loose smooth orange-brown coins, no pack; colour/texture differs from the gridded red duck coins in pos 0/1, flavour cannot be confirmed"
+b05-05,353,457,31532,Chicken Breast 100 g,0,2984,not-packshot-lead,reorder-or-replace-lead,"Loose dried chicken breast fillets on white, no pack, no size or code visible (shot shared by 31528/31532/31801); the 100 g pack #31532 is at pos 1 and should lead"
+b05-05,353,1384,31859,Beef 80 g,0,4085,not-packshot-lead,reorder-or-replace-lead,"Single loose red beef filet strip on white, no pack, no flavour/size printed; the beef pack #31859 is at pos 3 and should lead"
+b05-05,353,1385,31858,Lamb 80 g,0,4070,not-packshot-lead,reorder-or-replace-lead,"Single loose dark-brown lamb filet strip on white, no pack, no flavour/size printed; the lamb pack #31858 is at pos 2 and should lead"
+b05-05,354,459,31533,Chicken 100 g,0,2993,not-packshot-lead,reorder-or-replace-lead,"Two loose chicken dumbbell treats on white, no pack, no size/code; the 100 g pack #31533 is at pos 2 and should lead"
+b05-05,354,1373,31592,Duck Breast 80 g,0,3146,not-packshot-lead,reorder-or-replace-lead,"Pile of loose red-brown duck dumbbell treats on white, no pack, no size/code; the duck pack #31592 is at pos 1 and should lead"
+b05-05,355,461,31536,100 g,0,3002,not-packshot-lead,reorder-or-replace-lead,"Pile of loose chicken strips on white, no pack, no size/code; the pack #31536 is at pos 3 and should lead"
+b06-06,358,464,31539,100 g,0,3035,unclear,check-lead,"Loose chicken-wrapped rawhide sticks (Flags) on white, no pack or weight; cannot tell the 100 g pouch from the 400 g XXL jar sibling (31588)"
+b06-07,365,472,31573,100 g,0,3095,not-packshot-lead,reorder-or-replace-lead,"Loose Premio Sushi whitefish rolls only, no pack"
+b06-07,366,473,31576,6 pcs./70 g,0,3101,not-packshot-lead,reorder-or-replace-lead,"Single loose salmon skin roll, no pack"
+b06-07,367,1371,31593,Apple 100 g,0,3155,not-packshot-lead,reorder-or-replace-lead,"Loose dried chicken breast wrapped around apple slices, no pack"
+b06-07,367,474,31582,Banana 100 g,0,3110,not-packshot-lead,reorder-or-replace-lead,"Loose chicken-wrapped banana chips, no pack"
+b06-07,368,475,31585,"Chicken Breast, 5 pcs./95 g",0,3116,not-packshot-lead,reorder-or-replace-lead,"Single loose drumstick treat, no pack"
+b06-07,368,1372,31546,"Rabbit, 8 pcs./100 g",0,4022,not-packshot-lead,reorder-or-replace-lead,"Pile of loose drumstick treats, no pack"
+b06-07,374,481,31604,100 g,0,3161,not-packshot-lead,reorder-or-replace-lead,"Loose marbled lamb & fish cubes, no pack"
+b06-07,375,482,31606,Chicken Breast 50 g,0,3167,not-packshot-lead,reorder-or-replace-lead,"Loose freeze-dried chicken breast cubes, no pack"
+b06-07,375,1391,31607,Duck Breast 50 g,0,3173,not-packshot-lead,reorder-or-replace-lead,"Loose freeze-dried duck breast cubes, no pack"
+b06-07,377,484,31611,75 g,0,3179,not-packshot-lead,reorder-or-replace-lead,"Loose choco drops, no pack"
+b06-07,378,485,31656,100 g,0,3185,not-packshot-lead,reorder-or-replace-lead,"Single loose chicken pretzel, no pack"
+b06-07,379,486,31662,1.3 kg,0,3194,not-packshot-lead,reorder-or-replace-lead,"Loose multicolour bone-shaped cookies, no pack"
+b06-07,380,487,31663,1.3 kg,0,3200,not-packshot-lead,reorder-or-replace-lead,"Loose multicolour animal-shaped Farmies cookies, no pack"
+b06-08,381,488,31664,1.25 kg,0,3206,not-packshot-lead,reorder-or-replace-lead,"Single loose Cookie Giants biscuit close-up, no pack; the lamb tub (#31664) is at pos 4"
+b06-08,383,490,31671,1.3 kg,0,3215,not-packshot-lead,reorder-or-replace-lead,"Pile of loose tri-colour loop cookies, no pack; Vegan Cookie Snack Loops tub (#31671) is at pos 4"
+b06-08,384,491,31701,Chicken 80 g,0,3230,not-packshot-lead,reorder-or-replace-lead,"Loose chicken & rice balls, no pack; Premio Balls chicken pouch (#31701) is at pos 1"
+b06-08,384,491,31701,Chicken 80 g,2,3236,unclear,check-secondary,"Hand holding three orange grain-coated balls in a shop; no pack, balls look finer-grained than the chicken & rice balls, cannot confirm it is this product"
+b06-08,384,1370,31704,Duck 80 g,0,3251,not-packshot-lead,reorder-or-replace-lead,"Loose reddish duck & rice balls, no pack; Premio Balls duck pouch (#31704) is at pos 1"
+b06-08,385,492,31703,100 g,0,3242,not-packshot-lead,reorder-or-replace-lead,"Three loose pasta-shaped chicken treats, no pack; Snack Pasta pouch (#31703) is at pos 1"
+b06-08,387,494,31705,100 g,0,3257,not-packshot-lead,reorder-or-replace-lead,"Single duck crispy strip close-up, no pack; Premio Crispies duck pouch (#31705) is at pos 5"
+b06-08,388,495,31707,100 g,0,3269,not-packshot-lead,reorder-or-replace-lead,"Single sesame bagel treat close-up, no pack; Snack Bagels pouch (#31707) is at pos 2"
+b10-09,503,610,24242,"6 × 18 cm, dark grey/blue",2,6666,wrong-colour,drop-secondary,"Same detangler model but handle is black/turquoise, not dark grey/blue"
+b10-09,503,610,24242,"6 × 18 cm, dark grey/blue",5,6675,wrong-colour,drop-secondary,"Lifestyle: hand brushing a dog with the detangler; handle visibly turquoise (older colourway), not dark grey/blue"
+b10-09,503,610,24242,"6 × 18 cm, dark grey/blue",6,6678,wrong-colour,drop-secondary,"Hand holding the detangler, black/turquoise handle, not dark grey/blue"
+b10-09,503,610,24242,"6 × 18 cm, dark grey/blue",7,6681,wrong-colour,drop-secondary,"Lifestyle close-up brushing dog, turquoise handle visible, not dark grey/blue"
+b10-09,504,611,2550,2 pcs.,0,3743,unclear,check-lead,"Single white finger toothbrush (rubber nubs) only; label is a 2-pc set, lead shows 1 of 2 pieces; set shots are at pos 4-7"
+b10-09,505,612,2561,2561,0,3749,unclear,check-lead,Trixie Dental-Care toothpaste with mint tube (dog) alone; the product is the dog dental set (paste + toothbrush + 2 finger brushes) - lead shows only one component; full set at pos 5-8
+b10-09,507,614,25621,"4 pcs., white",0,3779,unclear,check-lead,"Single small white Trixie toothbrush (black logo); label says 4 pcs., lead shows 1 brush; no shot shows 4 pieces"
+b10-09,507,614,25621,"4 pcs., white",1,6720,unclear,check-secondary,"Single white Trixie brush, alternate angle; label 4 pcs. not shown"
+b10-09,507,614,25621,"4 pcs., white",2,6723,unclear,check-secondary,"Single white brush, newer grey TRiXiE logo; label 4 pcs. not shown"
+b10-09,507,614,25621,"4 pcs., white",3,6726,unclear,check-secondary,"Single white brush, grey logo, side view; label 4 pcs. not shown"
+b10-09,507,614,25621,"4 pcs., white",4,6729,unclear,check-secondary,"Single white brush, grey logo; label 4 pcs. not shown"
+b10-09,507,614,25621,"4 pcs., white",5,6732,unclear,check-secondary,"2 white Trixie brushes (black logo); label says 4 pcs., picture shows 2"
+b10-09,507,614,25621,"4 pcs., white",6,6735,unclear,check-secondary,"2 white Trixie brushes, alternate render; label says 4 pcs., picture shows 2"
+b10-09,507,614,25621,"4 pcs., white",7,6738,unclear,check-secondary,"2 white brushes, grey TRiXiE logo; label says 4 pcs., picture shows 2"
+b10-10,510,617,25842,50 g,0,3791,not-packshot-lead,reorder-or-replace-lead,"Loose brown hollow tablet-hiding treat pieces, no pouch; the Trixie pouch (#25842) is at pos 3"
+b10-10,511,618,27153,200 g,0,3800,not-packshot-lead,reorder-or-replace-lead,"Loose braided buffalo-scalp chews, no pouch; Trixie Natural & Dried pouch (#27153) is at pos 5"
+b10-10,512,619,31145,2 pcs./85 g,0,3824,not-packshot-lead,reorder-or-replace-lead,"Two loose collagen twist rings, no pouch; Denta Fun Twists pouch (#31145) is at pos 4"
+b10-10,513,620,31147,2 pcs./80 g,0,3833,not-packshot-lead,reorder-or-replace-lead,"Two loose collagen croissant chews, no pouch; Denta Fun Croissants pouch (#31147) is at pos 3"
+b10-10,514,621,31148,65 g,0,3839,not-packshot-lead,reorder-or-replace-lead,"Single loose collagen braid chew, no pouch; Denta Fun Braid pouch (#31148) is at pos 2"
+b10-11,515,622,31227,3 pcs./140 g,0,3848,unclear,check-lead,"Single loose red/white marbled roll on white, no pack or art no.; colour (red meat wrap) differs from the brown rolls shown in this variant's own #31227 pack and pos 2, and matches the 70 g sibling's red rolls - cannot confirm beef & white fish 3 pcs/140 g"
+b10-11,515,622,31227,3 pcs./140 g,1,3851,unclear,check-secondary,"Loose red/white marbled roll, angled; no pack; red wrap does not match the brown rolls in the #31227 pack - looks like the 6 pcs/70 g sibling's roll"
+b10-11,515,623,31225,6 pcs./70 g,0,3854,unclear,check-lead,"Single loose red/white marbled roll, no pack or art no.; cannot tell 6 pcs/70 g from the 3 pcs/140 g sibling (31227 lead shows the same red roll)"
+b10-11,517,625,31321,5 pcs./70 g,0,3869,unclear,check-lead,"Single loose rawhide knot with chicken wrap, no pack or art no.; cannot tell 5 pcs/70 g from the 2 pcs/70 g, 70 g and 120 g single-knot siblings, whose leads show the same kind of knot"
+b10-11,517,1220,31322,2 pcs./70 g,0,3872,unclear,check-lead,"Single loose rawhide knot with chicken band, no pack or art no.; cannot tell 2 pcs/70 g from the 5 pcs, 70 g and 120 g siblings"
+b10-11,517,1221,31323,70 g,0,3878,unclear,check-lead,"Single loose rawhide knot with chicken wrap, no pack or art no.; cannot tell 70 g single knot from the 120 g sibling (31324 lead is the same kind of shot)"
+b10-11,517,1222,31324,120 g,0,3884,unclear,check-lead,"Single loose rawhide knot with chicken wrap, no pack or art no.; cannot tell 120 g from the 70 g single-knot sibling"
+b10-12,521,629,31327,"Chicken, 3 pcs./140 g",0,3890,not-packshot-lead,reorder-or-replace-lead,"Single loose chicken-wrapped rawhide roll on white, no pack; Denta Fun Rolls chicken pack is at pos 2"
+b10-12,521,1298,31346,Chicken 120 g,0,3902,not-packshot-lead,reorder-or-replace-lead,"Single loose short chicken-wrapped roll on white, no pack; pack (#31346) is at pos 3"
+b10-12,521,1378,31371,"Duck, 10 pcs./80 g",0,3953,not-packshot-lead,reorder-or-replace-lead,"Single loose long thin duck-wrapped roll on white, no pack; pack (#31371) at pos 2"
+b10-12,521,1379,31347,Duck 120 g,0,3965,not-packshot-lead,reorder-or-replace-lead,"Single loose short duck-wrapped roll on white, no pack; pack (#31347) at pos 2"
+b10-12,521,1380,31338,"Rabbit, 6 pcs./70 g",0,3914,not-packshot-lead,reorder-or-replace-lead,"Single loose dark-brown rabbit-coated roll on white, no pack; pack (#31338) at pos 3"
+b10-12,521,1381,31388,"Buffalo, 5 pcs./70 g",0,4004,not-packshot-lead,reorder-or-replace-lead,"Single loose tan meat-wrapped rawhide roll on white, no pack; buffalo pack (#31388) is at pos 7"
+b10-12,521,1381,31388,"Buffalo, 5 pcs./70 g",1,6901,unclear,check-secondary,Single loose roll spirally wrapped in mixed dark-red/tan meat strips; looks unlike the even tan wraps in the #31388 pack window - cannot confirm buffalo
+b10-12,521,1381,31388,"Buffalo, 5 pcs./70 g",3,6907,unclear,check-secondary,Five loose rolls spirally wrapped in mixed dark-red/light meat strips; differ from the even tan wraps in the #31388 pack window - cannot confirm buffalo
+b10-12,521,1381,31388,"Buffalo, 5 pcs./70 g",4,6910,unclear,check-secondary,Pile of rolls spirally wrapped in mixed dark/light meat strips; differ from the #31388 pack window - cannot confirm buffalo
+b10-12,521,1381,31388,"Buffalo, 5 pcs./70 g",5,6913,unclear,check-secondary,Single roll spirally wrapped in mixed dark/light meat strips; differs from the #31388 pack window - cannot confirm buffalo
+b10-12,521,1381,31388,"Buffalo, 5 pcs./70 g",6,6916,unclear,check-secondary,Single roll spirally wrapped in mixed dark/light meat strips; differs from the #31388 pack window - cannot confirm buffalo
+b10-12,523,631,31332,2 pcs./110 g,0,3908,not-packshot-lead,reorder-or-replace-lead,"Single loose chicken-wrapped ring on white, no pack; Denta Fun Rings pack (#31332) at pos 1"
+b10-12,525,633,31340,8 pcs./120 g,0,3920,not-packshot-lead,reorder-or-replace-lead,"Six loose chicken-coated mini bones on white, no pack; Mini Bones pack (#31340) at pos 4"
+b10-12,526,634,31342,6 pcs./100 g,0,3932,not-packshot-lead,reorder-or-replace-lead,"Loose chicken & rice dumbbell treats on white, no pack; Snack Dumbbells pack (#31342) at pos 1"
+b10-13,527,635,31344,140 g,0,3938,unclear,check-lead,"Loose single Denta Fun chicken-wrapped rawhide bone on white, no pack; size (140 g vs 200 g / 60 g sibling) cannot be told from the picture"
+b10-13,527,1258,31343,2 × 60 g,1,6883,unclear,check-secondary,Single loose chicken-wrapped bone on white; cannot tell it is the 60 g piece of 31343 rather than the 140/200 g sibling bone
+b10-13,527,1259,31345,200 g,0,3947,unclear,check-lead,"Loose single Denta Fun chicken-wrapped bone on white, no pack; size (200 g vs 140 g sibling) cannot be told from the picture"
+b10-13,532,640,31372,250 g,0,3971,unclear,check-lead,"Single loose chicken-wrapped rawhide stick only; does not show the Roll Mix pack or its chicken/lamb/beef mix, no size"
+b10-13,535,643,31466,"Duck, 2 pcs./110 g",0,4010,unclear,check-lead,"Single loose brown meat-wrapped rib on white, no pack; flavour not printed and colour differs from the red duck meat shown on the #31466 pack and in the 2-piece shot - cannot confirm duck"
+b10-13,535,643,31466,"Duck, 2 pcs./110 g",1,6919,unclear,check-secondary,Single loose brown meat-wrapped rib on white; flavour not confirmable (does not match the red duck meat in the #31466 pack window)
+b14-14,639,761,011257,Lamb & Rice 800 g,0,1755,wrong-size,REPLACE-LEAD,"Monge All Breeds Puppy and Junior Lamb with Rice dog bag, but 2,5kg printed (variant is 800 g)"
+b14-14,639,1574,006487,Beef & Rice 15 kg,0,14035,unclear,check-lead,"Monge Best for Breeders Speciality Line 15kg generic breeder bag; front prints no recipe or lifestage, so Beef & Rice Puppy & Junior cannot be confirmed from the pack"
+b14-14,639,1655,006487-KG,1 kg,0,14035,unclear,check-lead,"Monge Best for Breeders Speciality Line 15kg generic breeder bag; front prints no recipe or lifestage, so Beef & Rice Puppy & Junior cannot be confirmed from the pack; -KG twin reuses its 15 kg bag gallery"
+b14-14,641,763,011477,Lamb & Rice 800 g,0,1761,wrong-size,REPLACE-LEAD,"Monge Speciality Line Extra Small Adult Lamb with Rice and Potatoes dog bag, but 2,5kg printed (variant is 800 g)"
+b29-18,1110,1591,10203,"35 cm, orange",0,11816,unclear,check-lead,"three loose orange collars on white, no box/brand/length visible; colour matches but brand and 35 cm cannot be confirmed"
+b29-18,1110,1592,10202,"35 cm, purple",0,11819,unclear,check-lead,"three loose purple collars on white, no box/brand/length visible; colour matches but brand and 35 cm cannot be confirmed"
+b29-18,1125,1608,63911PCHL,10 ml,0,11418,wrong-product,REPLACE-LEAD,"Pchelodar 'Слезинка' eye-cleaning lotion with royal jelly, bottle + box, 50 ml - not Dezacid Forte"
+b29-18,1125,1608,63911PCHL,10 ml,1,11421,wrong-product,drop-secondary,"Pchelodar 'Дезацид' (gentamicin, succinic acid) eye & nasal drops 10 мл bottle + box - plain Dezacid, not Forte"
+b29-18,1125,1608,63911PCHL,10 ml,2,11424,wrong-product,drop-secondary,ApiDoctor 'Ясные глазки' eye hygiene lotion spray bottle - different product
+b29-18,1126,1609,63833PCHL,15 ml,0,11430,wrong-product,REPLACE-LEAD,"ApiDoctor 'Чистые ушки' ear-cleaning lotion spray, with cat and dogs on label - not Otidez Forte"
+b29-18,1126,1609,63833PCHL,15 ml,1,11433,wrong-product,drop-secondary,"Pchelodar 'Отидез' ear drops box 15 мл (permethrin, dexamethasone...) - plain Otidez, not Forte"
+b29-18,1126,1609,63833PCHL,15 ml,2,11436,wrong-product,drop-secondary,Pchelodar 'Ушастик' ear lotion bottle + box 50 ml - different product
+b29-18,1130,1613,48905E,5 l,0,11451,wrong-flavour,REPLACE-LEAD,"Eco-Premium clumping wood litter bag front, 5 л, green flecks in window; same bag as pos1 whose back prints 'GREEN' - green tea, not peach"
+b29-18,1130,1613,48905E,5 l,1,11454,wrong-flavour,drop-secondary,"Eco-Premium bag back, barcode label '5 GREEN' - green tea variant, not peach"
+b29-18,1132,1615,548833,Chicken & Egg with Taurine 60 g,8,11481,wrong-product,drop-secondary,"'Другие вкусы' grid of six other Мнямс adult/sterilised pillow lines (hairball, taurine, skin, teeth, salmon, urinary) - none is this kitten chicken & egg pouch"
+b29-19,1133,1616,548803,Chicken with Vitamins 60 g,7,11505,wrong-flavour,drop-secondary,"Group 'other flavours' infographic: 6 other Crunchy Pillows packs (hairball, health&activity, skin&coat, health&beauty salmon, kitten, sterilised), not this variant's pack alone"
+b29-19,1134,1617,548773,Chicken with Vitamin Complex 60 g,8,11532,wrong-flavour,drop-secondary,"Group 'other flavours' infographic: 6 other Crunchy Pillows packs (skin&coat, health&activity, healthy teeth, health&beauty salmon, kitten, sterilised), not this variant's pack alone"
+b29-19,1135,1618,548783,Poultry with Zinc 60 g,7,11556,wrong-flavour,drop-secondary,"Group 'other flavours' infographic: 6 other Crunchy Pillows packs (hairball, health&activity, healthy teeth, health&beauty salmon, kitten, sterilised), not this variant's pack alone"
+b29-19,1136,1619,548843,Chicken & Cranberry with L-Carnitine 60 g,7,11580,wrong-flavour,drop-secondary,"Group 'other flavours' infographic: 6 other Crunchy Pillows packs (hairball, health&activity, skin&coat, healthy teeth, health&beauty salmon, kitten; this sterilised pack not shown), not this variant's pack alone"
+b29-20,1137,1620,703803,"Katsuo Tuna, 4 × 15 g",8,11607,wrong-size,drop-secondary,"Tuna Katsuo 4x15 g pouch in front of a shipping carton, ""48 штук в упаковке"" - shows a 48-pouch case, variant is one pouch"
+b29-20,1137,1621,703813,"Katsuo & Maguro Tuna, 4 × 15 g",9,11637,wrong-flavour,drop-secondary,"Range group shot of 6 flavours (chicken, tuna, tuna+shrimp, tuna+maguro, tuna+scallop, duck+tuna), 4x15 g - other flavours' packs"
+b29-20,1137,1623,703833,"Chicken, 4 × 15 g",8,11682,wrong-size,drop-secondary,"Chicken 4x15 g pouch in front of a shipping carton, ""48 штук в упаковке"" - shows a 48-pouch case, variant is one pouch"
+b34-21,1225,1785,5108,30 g,0,12464,unclear,check-lead,"Plain white rectangular mineral block with two wire hooks, no packaging; no seashells visible on this side, nothing printed - cannot confirm it is the seashell pecking stone or its 30 g size"
+b34-21,1227,1787,60146,100 g,1,12485,unclear,check-secondary,Top view of paler clay block with mixed orange/white crumb topping and no hanging loop - looks like a different recipe/version than pos 0 and 3; carrot clay stone not confirmable
+b34-21,1227,1787,60146,100 g,2,12488,unclear,check-secondary,"Paler clay block with mixed orange/white crumb topping, no raffia loop - differs from the carrot stone in pos 0/3; could be another variety"
+b34-21,1229,1789,3182551055955,15 kg,0,12763,unclear,check-lead,"Royal Canin Size Health Nutrition Maxi Adult (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed"
+b34-21,1229,1789,3182551055955,15 kg,1,12766,unclear,check-secondary,"Royal Canin Maxi Adult (L, from 26 to 44 kg) bag render; no net weight printed, size not confirmable"
+b34-21,1229,1789,3182551055955,15 kg,5,12778,wrong-size,drop-secondary,"Zip system infographic with Maxi Adult bag; states easyopen & zipsystem on '1 kg / 4 kg' bags - depicts the small-bag feature, not the 15 kg bag"
+b34-21,1229,1943,3182551055955-KG,1 kg,0,12763,unclear,check-lead,"Royal Canin Size Health Nutrition Maxi Adult (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-21,1229,1943,3182551055955-KG,1 kg,1,12766,unclear,check-secondary,"Royal Canin Maxi Adult (L, from 26 to 44 kg) bag render; no net weight printed, size not confirmable (1 kg loose twin reuses bag gallery)"
+b34-21,1229,1943,3182551055955-KG,1 kg,5,12778,wrong-size,drop-secondary,"Zip system infographic with Maxi Adult bag; states easyopen & zipsystem on '1 kg / 4 kg' bags - depicts the small-bag feature, not the 15 kg bag (1 kg loose twin reuses bag gallery)"
+b34-21,1230,1791,3182550402316,15 kg,0,12793,unclear,check-lead,"Royal Canin Maxi Adult 5+ (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable"
+b34-21,1230,1791,3182550402316,15 kg,1,12796,unclear,check-secondary,Royal Canin Maxi Adult 5+ bag render with '5+ AGE' badge; no net weight printed
+b34-21,1230,1944,3182550402316-KG,1 kg,0,12793,unclear,check-lead,"Royal Canin Maxi Adult 5+ (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable (1 kg loose twin reuses bag gallery)"
+b34-21,1230,1944,3182550402316-KG,1 kg,1,12796,unclear,check-secondary,Royal Canin Maxi Adult 5+ bag render with '5+ AGE' badge; no net weight printed (1 kg loose twin reuses bag gallery)
+b34-21,1231,1793,3182550402163,15 kg,0,12820,unclear,check-lead,"Royal Canin Maxi Puppy (2-15 months, adult weight 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable"
+b34-21,1231,1793,3182550402163,15 kg,1,12823,unclear,check-secondary,Royal Canin Maxi Puppy bag render with benefit icons; no net weight printed
+b34-21,1231,1945,3182550402163-KG,1 kg,0,12820,unclear,check-lead,"Royal Canin Maxi Puppy (2-15 months, adult weight 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable (1 kg loose twin reuses bag gallery)"
+b34-21,1231,1945,3182550402163-KG,1 kg,1,12823,unclear,check-secondary,Royal Canin Maxi Puppy bag render with benefit icons; no net weight printed (1 kg loose twin reuses bag gallery)
+b34-22,1232,1795,3182550778787,15 kg,0,12850,unclear,check-lead,"Royal Canin Maxi Starter Mother & Babydog (1-2 months, adult weight 26-44 kg, stage 2) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed"
+b34-22,1232,1795,3182550778787,15 kg,1,12853,unclear,check-secondary,Royal Canin Maxi Starter Mother & Babydog bag render with benefit icons and rehydratable kibble; no net weight printed
+b34-22,1232,1946,3182550778787-KG,1 kg,0,12850,unclear,check-lead,"Royal Canin Maxi Starter Mother & Babydog (1-2 months, adult weight 26-44 kg, stage 2) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-22,1232,1946,3182550778787-KG,1 kg,1,12853,unclear,check-secondary,Royal Canin Maxi Starter Mother & Babydog bag render with benefit icons and rehydratable kibble; no net weight printed (1 kg loose twin reuses bag gallery)
+b34-22,1233,1797,3182551055849,15 kg,0,12880,unclear,check-lead,"Royal Canin Size Health Nutrition Medium Adult (size M, 11-25 kg, dogs over 12 months) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed"
+b34-22,1233,1797,3182551055849,15 kg,1,12883,unclear,check-secondary,"Royal Canin Medium Adult (M, from 11 to 25 kg) bag render; no net weight printed, size not confirmable"
+b34-22,1233,1947,3182551055849-KG,1 kg,0,12880,unclear,check-lead,"Royal Canin Size Health Nutrition Medium Adult (size M, 11-25 kg, dogs over 12 months) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-22,1233,1947,3182551055849-KG,1 kg,1,12883,unclear,check-secondary,"Royal Canin Medium Adult (M, from 11 to 25 kg) bag render; no net weight printed, size not confirmable (1 kg loose twin reuses bag gallery)"
+b34-22,1234,1799,3182550402132,15 kg,0,12910,unclear,check-lead,"Royal Canin Medium Puppy (2-12 months, adult weight 11-25 kg, stage 3) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed"
+b34-22,1234,1799,3182550402132,15 kg,1,12913,unclear,check-secondary,"Royal Canin Medium Puppy bag render with benefit icons (immune, brain development, kibble); no net weight printed"
+b34-22,1234,1948,3182550402132-KG,1 kg,0,12910,unclear,check-lead,"Royal Canin Medium Puppy (2-12 months, adult weight 11-25 kg, stage 3) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-22,1234,1948,3182550402132-KG,1 kg,1,12913,unclear,check-secondary,"Royal Canin Medium Puppy bag render with benefit icons (immune, brain development, kibble); no net weight printed (1 kg loose twin reuses bag gallery)"
+b34-22,1235,1801,3182551055740,8 kg,0,12940,unclear,check-lead,"Royal Canin Size Health Nutrition Mini Adult (size S, up to 10 kg, dogs over 10 months) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 8 kg cannot be confirmed"
+b34-22,1235,1801,3182551055740,8 kg,1,12943,unclear,check-secondary,"Royal Canin Mini Adult (S, up to 10 kg) bag render; no net weight printed, size not confirmable"
+b34-22,1235,1801,3182551055740,8 kg,6,12958,unclear,check-secondary,"Zip system infographic: Mini Adult bag with easyopen & zipsystem / freshpack top; no net weight printed, cannot confirm the 8 kg bag has this zip top"
+b34-22,1235,1949,3182551055740-KG,1 kg,0,12940,unclear,check-lead,"Royal Canin Size Health Nutrition Mini Adult (size S, up to 10 kg, dogs over 10 months) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 8 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-22,1235,1949,3182551055740-KG,1 kg,1,12943,unclear,check-secondary,"Royal Canin Mini Adult (S, up to 10 kg) bag render; no net weight printed, size not confirmable (1 kg loose twin reuses bag gallery)"
+b34-22,1235,1949,3182551055740-KG,1 kg,6,12958,unclear,check-secondary,"Zip system infographic: Mini Adult bag with easyopen & zipsystem / freshpack top; no net weight printed, cannot confirm the 8 kg bag has this zip top (1 kg loose twin reuses bag gallery)"
+b34-23,1240,1811,RC-FIT-32-15000G,15 kg,6,13090,wrong-size,drop-secondary,"'New look' graphic: OLD-design Fit 32 bag with '2KG' printed on it -> new Fit 32 bag; the old pack shows 2 kg, variant is a 15 kg bag"
+b34-23,1240,1954,RC-FIT-32-15000G-KG,1 kg,6,13090,wrong-size,drop-secondary,"'New look' graphic: OLD-design Fit 32 bag with '2KG' printed on it -> new Fit 32 bag; the old pack shows 2 kg, variant is a 15 kg bag"
+b34-24,1241,1813,3182550702973,10 kg,0,13096,unclear,check-lead,"RC Kitten (up to 12 months) bag, clean packshot; no net weight printed on front, line sold in several sizes so 10 kg cannot be confirmed"
+b34-24,1241,1813,3182550702973,10 kg,3,13105,wrong-product,drop-secondary,"Group shot: RC Kitten dry bag plus RC Kitten wet pouch 85 g (chunks in gravy), a different product"
+b34-24,1241,1813,3182550702973,10 kg,4,13108,wrong-product,drop-secondary,"Lifestage chart showing RC Kitten bag + Kitten pouch, Maine Coon Adult bag + pouch, Indoor bag + Indoor Sterilised pouch"
+b34-24,1241,1813,3182550702973,10 kg,5,13111,wrong-product,drop-secondary,"""New design"" shot showing old RC Veterinary Pediatric Growth feline bag next to the Kitten bag"
+b34-24,1241,1955,3182550702973-KG,1 kg,0,13096,unclear,check-lead,"RC Kitten (up to 12 months) bag, clean packshot; no net weight printed on front, line sold in several sizes so 10 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-24,1241,1955,3182550702973-KG,1 kg,3,13105,wrong-product,drop-secondary,"Group shot: RC Kitten dry bag plus RC Kitten wet pouch 85 g (chunks in gravy), a different product"
+b34-24,1241,1955,3182550702973-KG,1 kg,4,13108,wrong-product,drop-secondary,"Lifestage chart showing RC Kitten bag + Kitten pouch, Maine Coon Adult bag + pouch, Indoor bag + Indoor Sterilised pouch"
+b34-24,1241,1955,3182550702973-KG,1 kg,5,13111,wrong-product,drop-secondary,"""New design"" shot showing old RC Veterinary Pediatric Growth feline bag next to the Kitten bag"
+b34-24,1242,1815,3182550777308,15 kg,0,13126,unclear,check-lead,"RC Regular Sterilised 37 bag, clean packshot; no net weight printed, line sold in several sizes so 15 kg cannot be confirmed"
+b34-24,1242,1815,3182550777308,15 kg,5,13141,wrong-product,drop-secondary,"Group shot: Sterilised 37 dry bag plus RC Sterilised wet pouch 85 g loaf, a different product"
+b34-24,1242,1956,3182550777308-KG,1 kg,0,13126,unclear,check-lead,"RC Regular Sterilised 37 bag, clean packshot; no net weight printed, line sold in several sizes so 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-24,1242,1956,3182550777308-KG,1 kg,5,13141,wrong-product,drop-secondary,"Group shot: Sterilised 37 dry bag plus RC Sterilised wet pouch 85 g loaf, a different product"
+b34-24,1243,1817,3182550721424,10 kg,0,13147,unclear,check-lead,"RC Care Hairball bag, clean packshot; weight on side panel cut off/unreadable, line sold in several sizes so 10 kg cannot be confirmed"
+b34-24,1243,1817,3182550721424,10 kg,6,13165,wrong-size,drop-secondary,"""Complete nutritional program"": Hairball Care bag printing 2 kg icon at top, plus Hairball Care wet pouch 85 g"
+b34-24,1243,1957,3182550721424-KG,1 kg,0,13147,unclear,check-lead,"RC Care Hairball bag, clean packshot; weight on side panel cut off/unreadable, line sold in several sizes so 10 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-24,1243,1957,3182550721424-KG,1 kg,6,13165,wrong-size,drop-secondary,"""Complete nutritional program"": Hairball Care bag printing 2 kg icon at top, plus Hairball Care wet pouch 85 g"
+b34-24,1244,1819,3182550939560,4.5 kg,0,13177,unclear,check-lead,"RC Veterinary Hypoallergenic cat bag, clean packshot; no net weight on front, barcode not legible as our EAN; line sold in several sizes so 4.5 kg cannot be confirmed"
+b34-24,1244,1958,3182550939560-KG,1 kg,0,13177,unclear,check-lead,"RC Veterinary Hypoallergenic cat bag, clean packshot; no net weight on front, barcode not legible as our EAN; line sold in several sizes so 4.5 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-24,1245,1821,3182550859554,7 kg,0,13198,unclear,check-lead,"RC Veterinary Urinary S/O cat bag, clean packshot; no net weight on front, line sold in several sizes so 7 kg cannot be confirmed"
+b34-24,1245,1821,3182550859554,7 kg,2,13204,wrong-product,drop-secondary,"""Also available in wet"": Urinary S/O dry bag plus two Urinary S/O wet pouches (morsels in gravy, loaf)"
+b34-24,1245,1959,3182550859554-KG,1 kg,0,13198,unclear,check-lead,"RC Veterinary Urinary S/O cat bag, clean packshot; no net weight on front, line sold in several sizes so 7 kg cannot be confirmed (1 kg loose twin reuses bag gallery)"
+b34-24,1245,1959,3182550859554-KG,1 kg,2,13204,wrong-product,drop-secondary,"""Also available in wet"": Urinary S/O dry bag plus two Urinary S/O wet pouches (morsels in gravy, loaf)"
+b36-25,1260,1862,9003579311776-1,In Jelly 85 g,1,13666,wrong-size,drop-secondary,"Infographic: RC Sterilised jelly pouch with '85g x12' badge, weight-maintenance icon, JELLY label - 12-pouch case on a single 85 g variant"
+b36-25,1260,1861,9003579311776,In Jelly 12 × 85 g,0,13663,wrong-size,REPLACE-LEAD,"RC Sterilised pouch, Kleine Stueckchen in Gelee / jelly, 85 g printed, single pouch alone - lead shows a single 85 g pouch, variant is the 12 x 85 g case"
+b36-25,1260,1863,9003579003916,Loaf 12 × 85 g,0,13687,wrong-size,REPLACE-LEAD,"RC Sterilised Loaf-Mousse-Pate pouch, 85 g printed, single pouch alone - lead shows a single 85 g pouch, variant is the 12 x 85 g case"
+b36-25,1261,1866,9003579010051,85 g,2,13696,wrong-size,drop-secondary,Urinary S/O Morsels in Gravy pouch next to its 12-pouch carton (case of 12) - 12-pouch case on a single 85 g variant
+b36-25,1261,1866,9003579010051,85 g,4,13702,wrong-product,drop-secondary,'Also available in dry' - Urinary S/O pouch next to a Urinary S/O DRY bag - shows other products' packs
+b36-25,1261,1865,9003579010044,12 × 85 g,4,13702,wrong-product,drop-secondary,'Also available in dry' - Urinary S/O pouch next to a Urinary S/O DRY bag - shows other products' packs
+b36-25,1262,1868,9003579000465,Chicken 85 g,2,13711,wrong-size,drop-secondary,Renal with Chicken pouch next to its 12-pouch carton (case) - 12-pouch case on a single 85 g variant
+b36-25,1262,1868,9003579000465,Chicken 85 g,3,13714,wrong-product,drop-secondary,"'Mixed feeding available' - Renal with Chicken pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+b36-25,1262,1870,9003579000526,Fish 85 g,2,13723,wrong-size,drop-secondary,Renal with Fish pouch next to its 12-pouch carton (case) - 12-pouch case on a single 85 g variant
+b36-25,1262,1870,9003579000526,Fish 85 g,4,13729,wrong-product,drop-secondary,"'Mixed feeding available' - Renal with Fish pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+b36-25,1262,1867,9003579000458,Chicken 12 × 85 g,3,13714,wrong-product,drop-secondary,"'Mixed feeding available' - Renal with Chicken pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+b36-25,1262,1869,9003579000519,Fish 12 × 85 g,4,13729,wrong-product,drop-secondary,"'Mixed feeding available' - Renal with Fish pouch + dry Renal, Renal Select, Renal Special bags - shows other products' packs"
+b36-25,1263,1872,9003579000366-1,85 g,6,13747,wrong-product,drop-secondary,'Complete nutritional program' - Urinary Care DRY 2 kg bag + Urinary Care gravy 85 g pouch - shows other products' packs
+b36-25,1263,1872,9003579000366-1,85 g,7,13750,wrong-size,drop-secondary,"Urinary Care gravy 85 g pouch + carton printed 'x12 85 g pouch', badge '85 g x12' - 12-pouch case on a single 85 g variant"
+b36-25,1263,1871,9003579000366,12 × 85 g,7,13747,wrong-product,drop-secondary,'Complete nutritional program' - Urinary Care DRY 2 kg bag + Urinary Care gravy 85 g pouch - shows other products' packs
+b36-25,1264,1874,9003579018514-1,85 g,2,13765,wrong-product,drop-secondary,"'New multi-variety pack' - Sensory Smell, Taste, Feel pouches + mixed 12-pouch box (Smell x4, Taste x4, Feel x4) - shows other products' packs"
+b36-25,1264,1874,9003579018514-1,85 g,5,13774,wrong-product,drop-secondary,"'Perfect for mix feeding' - dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches - shows other products' packs"
+b36-25,1264,1873,9003579018514,12 × 85 g,0,13759,wrong-size,REPLACE-LEAD,"RC Sensory Smell chunks in gravy pouch, 85 g printed, single - lead shows a single 85 g pouch, variant is the 12 x 85 g case"
+b36-25,1264,1873,9003579018514,12 × 85 g,2,13765,wrong-product,drop-secondary,"'New multi-variety pack' - Sensory Smell, Taste, Feel pouches + mixed 12-pouch box (Smell x4, Taste x4, Feel x4) - shows other products' packs"
+b36-25,1264,1873,9003579018514,12 × 85 g,5,13774,wrong-product,drop-secondary,"'Perfect for mix feeding' - dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches - shows other products' packs"
+b36-26,1265,1876,9003579018866-1,85 g,6,13807,wrong-product,drop-secondary,"'New multi-variety pack': Smell, Taste, Feel pouches + Sensory multipack box x12 (Smell x4/Taste x4/Feel x4) - a different SKU"
+b36-26,1265,1876,9003579018866-1,85 g,7,13810,wrong-product,drop-secondary,"'Perfect for mix feeding': dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches"
+b36-26,1265,1875,9003579018866,12 × 85 g,0,13789,wrong-size,REPLACE-LEAD,"RC Sensory Taste chunks in gravy single pouch, 85 g printed; clean packshot (cat is printed pack art) - variant is a 12 x 85 g case, photo shows one pouch"
+b36-26,1265,1875,9003579018866,12 × 85 g,1,13792,wrong-size,drop-secondary,"RC Sensory Taste pouch 85 g + 'Sensory Taste / Gravy' text panel - variant is a 12 x 85 g case, photo shows one pouch"
+b36-26,1265,1875,9003579018866,12 × 85 g,2,13795,wrong-size,drop-secondary,"RC Sensory Taste chunks in gravy single pouch, 85 g printed - variant is a 12 x 85 g case, photo shows one pouch"
+b36-26,1265,1875,9003579018866,12 × 85 g,6,13807,wrong-product,drop-secondary,"'New multi-variety pack': Smell, Taste, Feel pouches + Sensory multipack box x12 (Smell x4/Taste x4/Feel x4) - a different SKU"
+b36-26,1265,1875,9003579018866,12 × 85 g,7,13810,wrong-product,drop-secondary,"'Perfect for mix feeding': dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches"
+b36-26,1266,1878,9003579018941-1,85 g,4,13831,wrong-product,drop-secondary,"'New multi-variety pack': Smell, Taste, Feel pouches + Sensory multipack box x12 - a different SKU"
+b36-26,1266,1878,9003579018941-1,85 g,6,13837,wrong-product,drop-secondary,"'Perfect for mix feeding': dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches (Taste in front)"
+b36-26,1266,1877,9003579018941,12 × 85 g,0,13819,wrong-size,REPLACE-LEAD,"RC Sensory Feel morsels in gravy single pouch, 85 g printed; clean packshot - variant is a 12 x 85 g case, photo shows one pouch"
+b36-26,1266,1877,9003579018941,12 × 85 g,1,13822,wrong-size,drop-secondary,"RC Sensory Feel pouch 85 g + 'Sensory Feel / Gravy' text panel - variant is a 12 x 85 g case, photo shows one pouch"
+b36-26,1266,1877,9003579018941,12 × 85 g,4,13831,wrong-product,drop-secondary,"'New multi-variety pack': Smell, Taste, Feel pouches + Sensory multipack box x12 - a different SKU"
+b36-26,1266,1877,9003579018941,12 × 85 g,6,13837,wrong-product,drop-secondary,"'Perfect for mix feeding': dry Fit/Sterilised/Indoor/Sensible bags + Sensory Smell, Taste, Feel pouches (Taste in front)"
+b36-26,1267,1879,9003579311660,Mousse 195 g,2,13852,wrong-product,drop-secondary,'New design' panel: old Pediatric Weaning 195 g can (different vet product) -> new Mother & Babycat can
+b36-26,1267,1879,9003579311660,Mousse 195 g,5,13861,wrong-product,drop-secondary,'Variety of sensorial experiences': dry Mother & Babycat bag + Mother & Babycat can + bowl
+b36-26,1267,1879,9003579311660,Mousse 195 g,6,13864,wrong-product,drop-secondary,"'At 4 months switch to kitten': dry Mother & Babycat bag + can, Maine Coon Kitten bag, Kitten bag, Kitten 85 g pouch"
+b36-27,1268,1966,20632,"Glitter, grey",6,14293,wrong-colour,drop-secondary,"Three glitter cards: silver, RED and BLACK glitter collars, 'Colours may vary' - shows other colours than grey"
+b36-27,1268,1966,20632,"Glitter, grey",8,14299,wrong-product,drop-secondary,"Range line-up: velvet black twin, velvet red, sparkle navy, reflective yellow, glitter silver cards - other lines/colours"
+b36-27,1268,1967,20629,"Sparkle, assorted colours",8,14245,wrong-product,drop-secondary,"Range line-up: velvet black twin, velvet red, glitter silver, reflective yellow, sparkle navy cards - other lines"
+b36-27,1268,1968,20630,"Reflective, yellow",8,14272,wrong-product,drop-secondary,"Range line-up: velvet black twin, velvet red, glitter silver, sparkle navy, reflective yellow cards - other lines/colours"
+b36-28,1277,1980,BP13207,"65 cm, black",1,14395,unclear,check-secondary,"Older Beaphar 'Ошейник от блох и клещей для щенков' box, small 65 cm icon; collar colour not shown/printed, so black cannot be confirmed"
+b36-28,1279,1982,MG006197,Chicken 15 kg,0,14737,unclear,check-lead,"Monge Best for Breeders MEDIUM bag, 15kg printed small; no 'Starter' / lifestage or chicken marking visible - could be the Adult Medium bag, Starter not confirmed"
+b36-28,1279,1983,MG006197-KG,1 kg,0,14737,unclear,check-lead,"Same as bag pos 0 (-KG twin reuse is fine): Monge BfB MEDIUM 15kg bag, Starter lifestage not visible"
+b37-29,1284,1991,04812K,"10 mm, 28 cm, pink",0,14143,wrong-product,REPLACE-LEAD,"Salmon/pink leather collar with a row of metal studs and yellow fleece padding; NO bells anywhere - a studded padded collar, not the 'Padded Leather Collar with Bells'"
+b37-29,1286,1993,10940,155 tablets,5,14197,wrong-size,drop-secondary,"Excel range group banner ('7 причин обрати Excel'): Detox, Multivitamin small breed X70, Glucosamine X110, Calcium for Dogs X1700 (other size), Brewer's Yeast X260 - our X155 tub not shown"
+b37-29,1290,1997,26455351,"3.5 mm, 55 cm",0,14311,unclear,check-lead,"Chrome prong collar with chain loop and ring, white background; no size marking; the identical shot (same pose/crop) is also the 2.5 mm × 45 cm variant's photo (14866), so it cannot be confirmed as the 3.5 mm × 55 cm one"
+b37-29,1290,2056,26445251,"2.5 mm, 45 cm",0,14866,wrong-size,REPLACE-LEAD,"Chrome prong collar - the same photo as the lead 3.5 mm × 55 cm variant (14311, identical composition, higher resolution); sibling of a different size shows the lead's picture"
+b37-29,1290,2057,26460321,"3.5 mm, 60 cm",0,14869,unclear,check-lead,"Chrome prong collar with snap hook on chain and more links/prongs than the lead's photo; no size marking; same file (md5) is used for the 4 mm × 65 cm variant, so size cannot be confirmed"
+b37-29,1290,2058,26465401,"4 mm, 65 cm",0,14872,unclear,check-lead,Identical image (same md5) to the 3.5 mm × 60 cm variant: chrome prong collar with snap hook; no size marking; two sizes share one picture
+b37-30,1291,2000,CP909205,Veal 14 kg,4,14434,wrong-size,drop-secondary,"Group shot: Club 4 Paws WITH VEAL 900 g bag plus a 100 g veal-in-gravy wet pouch - not the 14 kg bag, and includes another product"
+b37-30,1291,2001,CP909205-KG,1 kg,4,14434,wrong-size,drop-secondary,"Group shot: Club 4 Paws WITH VEAL 900 g bag plus a 100 g veal-in-gravy wet pouch - not the 14 kg bag, and includes another product"
+b38-32,1310,2024,IN10860,260 tablets,0,14635,unclear,check-lead,"8in1 Excel Brewer's Yeast skin and coat tub, front only; tablet count not printed visibly (line sold in several counts) - 260 not confirmed"
+b38-32,1310,2024,IN10860,260 tablets,1,14638,unclear,check-secondary,"Same 8in1 Excel Brewer's Yeast tub, angled view; no tablet count visible"
+b38-32,1315,2029,KF5200111,2.7 kg (4.8 l),4,14695,wrong-size,drop-secondary,Small group shot of two clumping bags: 8.1 kg / 9.0 / 14.4 l bag plus 2.7 kg bag - shows another size
+b38-32,1316,2030,KF5200211,2.7 kg (4.8 l),4,14710,wrong-size,drop-secondary,Group shot of two hygienic bags: 8.1 kg / 14.4 l bag plus 2.7 kg bag - shows another size
+b38-32,1317,2031,KF5200311,2 kg (6 l),4,14725,wrong-size,drop-secondary,Group shot of two wood bags: 6 kg / 11.25 / 18.0 l bag plus 2 kg bag - shows another size
+b38-32,1318,2032,KF5200411,2 kg (6 l),1,14731,wrong-size,drop-secondary,"Group shot of two ""Для кошечек"" bags: 6 kg / 11.25 / 18.0 l plus 2 kg - shows another size"
+b38-32,1319,2033,MG006147,Chicken 15 kg,0,14734,unclear,check-lead,"Monge Best for Breeders MEDIUM bag (small ""MEDIUM - ADULT"" label); flavour and weight not legible - chicken / 15 kg not confirmed"
+b38-32,1319,2034,MG006147-KG,1 kg,0,14734,unclear,check-lead,"Monge Best for Breeders MEDIUM bag (small ""MEDIUM - ADULT"" label); flavour and weight not legible - chicken / 15 kg not confirmed"
+b38-32,1320,2035,PM902085,Chicken 11 kg,0,14824,wrong-size,REPLACE-LEAD,"Myau ""Апетитна курятина"" (chicken) bag, 300 g printed - not 11 kg"
+b38-32,1320,2036,PM902085-KG,1 kg,0,14824,wrong-size,REPLACE-LEAD,"Myau ""Апетитна курятина"" (chicken) bag, 300 g printed - not 11 kg (KG twin of 11 kg bag reuses gallery; bag photo itself is the wrong size)"
+b38-32,1320,2037,PM902075,Rabbit 11 kg,0,14827,wrong-size,REPLACE-LEAD,"Myau ""Ніжний кролик"" (rabbit) bag, 300 g printed - not 11 kg"
+b38-32,1320,2038,PM902075-KG,1 kg,0,14827,wrong-size,REPLACE-LEAD,"Myau ""Ніжний кролик"" (rabbit) bag, 300 g printed - not 11 kg (KG twin of 11 kg bag reuses gallery; bag photo itself is the wrong size)"
+b38-33,1322,2049,00012105,"12 mm, 20–24 cm",1,14851,wrong-colour,drop-secondary,"Chihuahua wearing a GREEN rhinestone leather collar (lifestyle); lead shows pink, variant has no colour set"
+b38-33,1322,2049,00012105,"12 mm, 20–24 cm",2,14854,wrong-colour,drop-secondary,"Chihuahua wearing a GREEN rhinestone leather collar (lifestyle); lead shows pink, variant has no colour set"

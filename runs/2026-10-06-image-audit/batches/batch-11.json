@@ -1,0 +1,1658 @@
+[
+ {
+  "product_id": "542",
+  "product": "Veggie Topping",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 650,
+    "sku": "31849",
+    "label": "300 ml",
+    "size_label": "300 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4061",
+      "file": "PHO_PAC_CLIP_31849-1_-SALL_-AWK_-V1",
+      "dims": "583x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4061.jpg",
+      "md5": "9513ad629610f851e9b4790258caad40"
+     },
+     {
+      "pos": 1,
+      "media": "4067",
+      "file": "PHO_PRO_USE_31849-4_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4067.jpg",
+      "md5": "478eecf9b40394f5f77f5c1af350c34d"
+     },
+     {
+      "pos": 2,
+      "media": "6946",
+      "file": "PHO_PRO_USE_31849-1_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6946.jpg",
+      "md5": "a5510e5d3ae3c25021009e6ae71a4181"
+     },
+     {
+      "pos": 3,
+      "media": "6949",
+      "file": "PHO_PRO_USE_31849-2_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6949.jpg",
+      "md5": "fb044da9f709a31afaa27fb5486e5f18"
+     },
+     {
+      "pos": 4,
+      "media": "6952",
+      "file": "PHO_PRO_USE_31849-3_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6952.jpg",
+      "md5": "2e0c9faa688623f293d7f21e84a05cc7"
+     },
+     {
+      "pos": 5,
+      "media": "6955",
+      "file": "PHO_PRO_USE_31849-5_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6955.jpg",
+      "md5": "aa2ca8ac2038fb099995206372d882e9"
+     },
+     {
+      "pos": 6,
+      "media": "4064",
+      "file": "PHO_PRO_DOG_31849-1_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4064.jpg",
+      "md5": "fb5ae54e3a4d97d246cda9c2773a25c3"
+     },
+     {
+      "pos": 7,
+      "media": "6958",
+      "file": "PHO_PRO_DOG_31849-2_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6958.jpg",
+      "md5": "feb3d04f217912f3adcd2db34a475afa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "545",
+  "product": "Softies with Duck Breast",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 653,
+    "sku": "31869",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4100",
+      "file": "PHO_PRO_CLIP_31869-3_-SALL_-AWK_-V1",
+      "dims": "1600x958",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4100.jpg",
+      "md5": "171a41818f590a95862dd690ba9d4db8"
+     },
+     {
+      "pos": 1,
+      "media": "4103",
+      "file": "PHO_PAC_CLIP_31869-2_-SALL_-AWK_-V1",
+      "dims": "712x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4103.jpg",
+      "md5": "133021fca781832af107d248e43847aa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "546",
+  "product": "Creamy Snacks",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 654,
+    "sku": "42681",
+    "label": "Chicken Breast, 5 × 14 g",
+    "size_label": "70 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4106",
+      "file": "PHO_PAC_CLIP_42681-2_-SALL_-AWK_-V1",
+      "dims": "288x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4106.jpg",
+      "md5": "c4c8ee1f64b1c0ebe38a8b7729cb6e53"
+     },
+     {
+      "pos": 1,
+      "media": "4109",
+      "file": "PHO_PAC_CLIP_42681-5_-SALL_-AWK_-V1",
+      "dims": "688x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4109.jpg",
+      "md5": "5696e60eee4f4daa7bfd01a7d47ff3da"
+     },
+     {
+      "pos": 2,
+      "media": "4112",
+      "file": "PHO_PAC_CLIP_42681-6_-SALL_-AWK_-V1",
+      "dims": "728x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4112.jpg",
+      "md5": "c3e19e3e02271f4db9afc40a544e7280"
+     }
+    ]
+   },
+   {
+    "variant_id": 1398,
+    "sku": "42682",
+    "label": "Shrimp, 5 × 14 g",
+    "size_label": "70 g",
+    "options": "Flavor=Shrimp",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4115",
+      "file": "PHO_PAC_CLIP_42682-2_-SALL_-AWK_-V1",
+      "dims": "288x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4115.jpg",
+      "md5": "632e8423ef99f29146abee172515dce6"
+     },
+     {
+      "pos": 1,
+      "media": "4118",
+      "file": "PHO_PAC_CLIP_42682-5_-SALL_-AWK_-V1",
+      "dims": "688x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4118.jpg",
+      "md5": "9742a82fdc29512ce8fa3599a86119fb"
+     },
+     {
+      "pos": 2,
+      "media": "4121",
+      "file": "PHO_PAC_CLIP_42682-7_-SALL_-AWK_-V1",
+      "dims": "728x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4121.jpg",
+      "md5": "5b6d081d65379fa41b9f4bf5b9b70bed"
+     },
+     {
+      "pos": 3,
+      "media": "4124",
+      "file": "PHO_PAC_CLIP_42682-8_-SALL_-AWK_-V1",
+      "dims": "288x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4124.jpg",
+      "md5": "cf129cb22f80a0bb485945b99c670561"
+     }
+    ]
+   },
+   {
+    "variant_id": 1399,
+    "sku": "42683",
+    "label": "Whitefish, 5 × 14 g",
+    "size_label": "70 g",
+    "options": "Flavor=Fish",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4127",
+      "file": "PHO_PAC_CLIP_42683-2_-SALL_-AWK_-V1",
+      "dims": "288x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4127.jpg",
+      "md5": "5433786b58bdbdcfce55bbba70aed4c8"
+     },
+     {
+      "pos": 1,
+      "media": "4130",
+      "file": "PHO_PAC_CLIP_42683-5_-SALL_-AWK_-V1",
+      "dims": "688x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4130.jpg",
+      "md5": "ef4d65ef789c03ce70029cba02f0c4b0"
+     },
+     {
+      "pos": 2,
+      "media": "4133",
+      "file": "PHO_PAC_CLIP_42683-7_-SALL_-AWK_-V1",
+      "dims": "728x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4133.jpg",
+      "md5": "5e614135f81bd9ba2f1ec97fba1eff1e"
+     },
+     {
+      "pos": 3,
+      "media": "4136",
+      "file": "PHO_PAC_CLIP_42683-8_-SALL_-AWK_-V1",
+      "dims": "288x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4136.jpg",
+      "md5": "335bfdcbbaf255dedf207a47703c45de"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "549",
+  "product": "Premio Hearts with Duck Breast and Pollock",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 657,
+    "sku": "42705",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4139",
+      "file": "PHO_PRO_CLIP_42705-1_-SALL_-AWK_-V1",
+      "dims": "1600x762",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4139.jpg",
+      "md5": "d9b23e6d34583fc39e07d5112825bf62"
+     },
+     {
+      "pos": 1,
+      "media": "4142",
+      "file": "PHO_PAC_CLIP_42705-2_-SALL_-AWK_-V1",
+      "dims": "795x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4142.jpg",
+      "md5": "7396b803c6079078dbe987ec43ab6618"
+     },
+     {
+      "pos": 2,
+      "media": "4145",
+      "file": "PHO_PAC_CLIP_42705-3_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4145.jpg",
+      "md5": "da04d80d93105ad4b7963120d81778c9"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "550",
+  "product": "Premio Cubes",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 658,
+    "sku": "42706",
+    "label": "Chicken Breast 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4148",
+      "file": "PHO_PRO_CLIP_42706-3_-SALL_-AWK_-V1",
+      "dims": "1600x858",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4148.jpg",
+      "md5": "756e930a3ce9d75544aa8cc60d7e34bd"
+     },
+     {
+      "pos": 1,
+      "media": "6967",
+      "file": "PHO_PRO_CLIP_42706-1_-SALL_-AWK_-V1",
+      "dims": "1459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6967.jpg",
+      "md5": "dbc34bc9e17db391f2816372755146dc"
+     },
+     {
+      "pos": 2,
+      "media": "6970",
+      "file": "PHO_PRO_CLIP_42706-2_-SALL_-AWK_-V1",
+      "dims": "1600x743",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6970.jpg",
+      "md5": "94f77a2e12e4e96e4dd39cfa8ab4efe9"
+     },
+     {
+      "pos": 3,
+      "media": "4151",
+      "file": "PHO_PAC_CLIP_42706-2_-SALL_-AWK_-V1",
+      "dims": "794x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4151.jpg",
+      "md5": "6fb6fa20cc8e10f5336f7bc3f30886f3"
+     },
+     {
+      "pos": 4,
+      "media": "4154",
+      "file": "PHO_PAC_CLIP_42706-3_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4154.jpg",
+      "md5": "c1d60ccc933aa1f062c08cb5cae31e0a"
+     }
+    ]
+   },
+   {
+    "variant_id": 1400,
+    "sku": "42717",
+    "label": "Chicken Breast & Cheese 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Cheese",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4163",
+      "file": "PHO_PRO_CLIP_42717-5_-SALL_-AWK_-V1",
+      "dims": "1600x750",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4163.jpg",
+      "md5": "0237adce44de801aa787141ffc24ecd1"
+     },
+     {
+      "pos": 1,
+      "media": "6982",
+      "file": "PHO_PRO_CLIP_42717-1_-SALL_-AWK_-V1",
+      "dims": "1509x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6982.jpg",
+      "md5": "382a8cf2cbd037e0c9b2431bcb820018"
+     },
+     {
+      "pos": 2,
+      "media": "6985",
+      "file": "PHO_PRO_CLIP_42717-4_-SALL_-AWK_-V1",
+      "dims": "1600x634",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6985.jpg",
+      "md5": "18ca3c437031cbf0765fe2f5328030ad"
+     },
+     {
+      "pos": 3,
+      "media": "4166",
+      "file": "PHO_PAC_CLIP_42717-2_-SALL_-AWK_-V1",
+      "dims": "796x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4166.jpg",
+      "md5": "b18a437c2cc77029bfcff28f382427a8"
+     },
+     {
+      "pos": 4,
+      "media": "6988",
+      "file": "PHO_PAC_CLIP_42717-3_-SALL_-AWK_-V1",
+      "dims": "753x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6988.jpg",
+      "md5": "69f9ec538592613ae3a44f46a1d8e3bc"
+     },
+     {
+      "pos": 5,
+      "media": "6991",
+      "file": "PHO_PAC_CLIP_42717-4_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6991.jpg",
+      "md5": "fb2a2f28b98d20371e2567b350839744"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "551",
+  "product": "Mini Sticks with Chicken Breast and Rice",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 659,
+    "sku": "42708",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4157",
+      "file": "PHO_PRO_CLIP_42708-1_-SALL_-AWK_-V1",
+      "dims": "1600x870",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4157.jpg",
+      "md5": "f7e6199f6ee6ca39acb8af33f7a77f30"
+     },
+     {
+      "pos": 1,
+      "media": "6973",
+      "file": "PHO_PRO_CLIP_42708-2_-SALL_-AWK_-V1",
+      "dims": "1600x680",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6973.jpg",
+      "md5": "fc942a72c4aa5eead2ef3b886c046ad5"
+     },
+     {
+      "pos": 2,
+      "media": "6976",
+      "file": "PHO_PRO_CLIP_42708-3_-SALL_-AWK_-V1",
+      "dims": "1192x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6976.jpg",
+      "md5": "d6f952f94883c4f77ae9cc5bc23a79b8"
+     },
+     {
+      "pos": 3,
+      "media": "4160",
+      "file": "PHO_PAC_CLIP_42708-3_-SALL_-AWK_-V1",
+      "dims": "793x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4160.jpg",
+      "md5": "a91853b104332e7674b4fdb5517e115e"
+     },
+     {
+      "pos": 4,
+      "media": "6979",
+      "file": "PHO_PAC_CLIP_42708-4_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6979.jpg",
+      "md5": "7f836369dea47afc4bea02ed623327d0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "553",
+  "product": "Premio Sandwiches with Tuna and Chicken Breast",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 661,
+    "sku": "42731",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4169",
+      "file": "PHO_PRO_CLIP_42731-1_-SALL_-AWK_-V1",
+      "dims": "1600x902",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4169.jpg",
+      "md5": "5a871868a4e670082705cefaf1ed28cf"
+     },
+     {
+      "pos": 1,
+      "media": "4172",
+      "file": "PHO_PAC_CLIP_42731-2_-SALL_-AWK_-V1",
+      "dims": "795x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4172.jpg",
+      "md5": "d97a5abd1373681a1768d9cbc4899dfc"
+     },
+     {
+      "pos": 2,
+      "media": "4175",
+      "file": "PHO_PAC_CLIP_42731-3_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4175.jpg",
+      "md5": "685a392087ee788317b4a01e23c1c47d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "554",
+  "product": "Premio Rolls",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1401,
+    "sku": "42763",
+    "label": "Chicken Breast & Tuna 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken; Health Feature=Dental & Breath Care",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4253",
+      "file": "PHO_PRO_CLIP_42763-1_-SALL_-AWK_-V1",
+      "dims": "1600x900",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4253.jpg",
+      "md5": "76e009e04351a88b48c586077f779fa1"
+     },
+     {
+      "pos": 1,
+      "media": "7015",
+      "file": "PHO_PRO_CLIP_42763-2_-SALL_-AWK_-V1",
+      "dims": "1445x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7015.jpg",
+      "md5": "0ff4cf656e6b391a91fb378de4afa031"
+     },
+     {
+      "pos": 2,
+      "media": "7018",
+      "file": "PHO_PRO_CLIP_42763-3_-SALL_-AWK_-V1",
+      "dims": "1448x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7018.jpg",
+      "md5": "c610c6bde29d020944d2390772a6e833"
+     },
+     {
+      "pos": 3,
+      "media": "7021",
+      "file": "PHO_PRO_CLIP_42763-4_-SALL_-AWK_-V1",
+      "dims": "1600x1033",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7021.jpg",
+      "md5": "863df8070ae3ebd6d6ab0c0cd79ee36c"
+     },
+     {
+      "pos": 4,
+      "media": "4256",
+      "file": "PHO_PAC_CLIP_42763-1_-SALL_-AWK_-V1",
+      "dims": "857x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4256.jpg",
+      "md5": "31dcb247ed17959007d73fe5d4806ea3"
+     },
+     {
+      "pos": 5,
+      "media": "7024",
+      "file": "PHO_PAC_CLIP_42763-2_-SALL_-AWK_-V1",
+      "dims": "416x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7024.jpg",
+      "md5": "26e2d64e507c724b804dd2bfd7a7f2b5"
+     }
+    ]
+   },
+   {
+    "variant_id": 1402,
+    "sku": "42764",
+    "label": "Chicken Breast & Cheese 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Cheese",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4259",
+      "file": "PHO_PRO_CLIP_42764-1_-SALL_-AWK_-V1",
+      "dims": "1600x912",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4259.jpg",
+      "md5": "faa00f5b1ec99c95ec67ed7ef32bb48d"
+     },
+     {
+      "pos": 1,
+      "media": "7027",
+      "file": "PHO_PRO_CLIP_42764-2_-SALL_-AWK_-V1",
+      "dims": "1221x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7027.jpg",
+      "md5": "03d33577fefd43ca47f983d5964aa3a4"
+     },
+     {
+      "pos": 2,
+      "media": "4262",
+      "file": "PHO_PAC_CLIP_42764-2_-SALL_-AWK_-V1",
+      "dims": "857x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4262.jpg",
+      "md5": "7d0d41704618f6fa5a9b18e61f1072de"
+     },
+     {
+      "pos": 3,
+      "media": "7030",
+      "file": "PHO_PAC_CLIP_42764-4_-SALL_-AWK_-V1",
+      "dims": "416x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7030.jpg",
+      "md5": "5effdab56ae52a53746abbda75d6ce29"
+     }
+    ]
+   },
+   {
+    "variant_id": 662,
+    "sku": "42732",
+    "label": "Tuna & Chicken Breast 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Tuna",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4178",
+      "file": "PHO_PRO_CLIP_42732-1_-SALL_-AWK_-V1",
+      "dims": "1600x787",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4178.jpg",
+      "md5": "459be6fde9dac37b9f96b6a002e4d8ad"
+     },
+     {
+      "pos": 1,
+      "media": "4181",
+      "file": "PHO_PAC_CLIP_42732-3_-SALL_-AWK_-V1",
+      "dims": "793x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4181.jpg",
+      "md5": "495b72be4240be326538e54388940c37"
+     },
+     {
+      "pos": 2,
+      "media": "4184",
+      "file": "PHO_PAC_CLIP_42732-5_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4184.jpg",
+      "md5": "3bdbc3367a4c157a7e3932e77cb512cd"
+     },
+     {
+      "pos": 3,
+      "media": "6994",
+      "file": "PHO_PAC_CLIP_42732-4_-SALL_-AWK_-V1",
+      "dims": "742x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6994.jpg",
+      "md5": "02731da65e5c72e53290683c412a2c88"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "555",
+  "product": "Premio Bites with Tuna and Chicken Breast",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 663,
+    "sku": "42734",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4187",
+      "file": "PHO_PRO_CLIP_42734-1_-SALL_-AWK_-V1",
+      "dims": "1600x704",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4187.jpg",
+      "md5": "213695fc0c7df4a3ef71fabab5e58a74"
+     },
+     {
+      "pos": 1,
+      "media": "4190",
+      "file": "PHO_PAC_CLIP_42734-2_-SALL_-AWK_-V1",
+      "dims": "794x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4190.jpg",
+      "md5": "04c155c6c4a129008600179b1d308398"
+     },
+     {
+      "pos": 2,
+      "media": "4193",
+      "file": "PHO_PAC_CLIP_42734-3_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4193.jpg",
+      "md5": "77175cf4b32040c88b743972170a63e0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "556",
+  "product": "Premio Tenders Chicken Breast",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 664,
+    "sku": "42735",
+    "label": "4 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4196",
+      "file": "PHO_PRO_CLIP_42735-1_-SALL_-AWK_-V1",
+      "dims": "1600x855",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4196.jpg",
+      "md5": "a855ff805e9e849e3bfa86edd9677417"
+     },
+     {
+      "pos": 1,
+      "media": "6997",
+      "file": "PHO_PRO_CLIP_42735-2_-SALL_-AWK_-V1",
+      "dims": "1600x373",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6997.jpg",
+      "md5": "e877e3fff418b95cf837fd947cd93d6d"
+     },
+     {
+      "pos": 2,
+      "media": "4199",
+      "file": "PHO_PAC_CLIP_42735-2_-SALL_-AWK_-V1",
+      "dims": "641x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4199.jpg",
+      "md5": "afa6cacba4fbece2ad9569e2a1f16e00"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "557",
+  "product": "Premio Trainer Snack Mini Nuggets with Tuna, Chicken and Catnip",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 665,
+    "sku": "42741",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4202",
+      "file": "PHO_PRO_CLIP_42741-1_-SALL_-AWK_-V1",
+      "dims": "1600x1031",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4202.jpg",
+      "md5": "3934bc09e365afa64819a6368029e8c5"
+     },
+     {
+      "pos": 1,
+      "media": "7000",
+      "file": "PHO_PRO_CLIP_42741-2_-SALL_-AWK_-V1",
+      "dims": "724x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7000.jpg",
+      "md5": "fbc13f30512a0ef881b9956cdc1ae2fa"
+     },
+     {
+      "pos": 2,
+      "media": "4205",
+      "file": "PHO_PAC_CLIP_42741-2_-SALL_-AWK_-V1",
+      "dims": "800x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4205.jpg",
+      "md5": "62f3c58ab05489ba7502c3429daf9611"
+     },
+     {
+      "pos": 3,
+      "media": "4208",
+      "file": "PHO_PAC_CLIP_42741-3_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4208.jpg",
+      "md5": "ee7644a5e13a7d0e8d6d453e549ba777"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "558",
+  "product": "Cookies",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1394,
+    "sku": "42748",
+    "label": "Chicken & Prawn 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4226",
+      "file": "PHO_PRO_CLIP_42748-2_-SALL_-AWK_-V1",
+      "dims": "1600x692",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4226.jpg",
+      "md5": "7182a9197988510e253b603d78b32e94"
+     },
+     {
+      "pos": 1,
+      "media": "4229",
+      "file": "PHO_PRO_CLIP_42748-3_-SALL_-AWK_-V1",
+      "dims": "1600x513",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4229.jpg",
+      "md5": "da3dfe40ef7adafc6294b2105375d40c"
+     },
+     {
+      "pos": 2,
+      "media": "7006",
+      "file": "PHO_PRO_CLIP_42748-1_-SALL_-AWK_-V1",
+      "dims": "1251x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7006.jpg",
+      "md5": "c5deb8efd5e611eb6c0a88c141d12260"
+     },
+     {
+      "pos": 3,
+      "media": "4232",
+      "file": "PHO_PAC_CLIP_42748-2_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4232.jpg",
+      "md5": "ebbf4fd073a88342b3c16cbb51aebabd"
+     }
+    ]
+   },
+   {
+    "variant_id": 666,
+    "sku": "42743",
+    "label": "Salmon & Catnip 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4211",
+      "file": "PHO_PRO_CLIP_42743-1_-SALL_-AWK_-V1",
+      "dims": "1105x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4211.jpg",
+      "md5": "c9e6e7768822127d695503fee3fd3e12"
+     },
+     {
+      "pos": 1,
+      "media": "4214",
+      "file": "PHO_PAC_CLIP_42743-2_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4214.jpg",
+      "md5": "84137449680fd225d5af95055107dadd"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "559",
+  "product": "Premio Strips with Tuna & Whitefish",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 667,
+    "sku": "42746",
+    "label": "20 g",
+    "size_label": "20 g",
+    "options": "Flavor=Tuna",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4217",
+      "file": "PHO_PRO_CLIP_42746-1_-SALL_-AWK_-V1",
+      "dims": "1600x651",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4217.jpg",
+      "md5": "a5141729f31b0bb210f55b7d0f02ac52"
+     },
+     {
+      "pos": 1,
+      "media": "7003",
+      "file": "PHO_PRO_CLIP_42746-2_-SALL_-AWK_-V1",
+      "dims": "1600x1006",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7003.jpg",
+      "md5": "f5a2ef64ee4fb797dfc22702c3524dfd"
+     },
+     {
+      "pos": 2,
+      "media": "4220",
+      "file": "PHO_PAC_CLIP_42746-1_-SALL_-AWK_-V1",
+      "dims": "794x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4220.jpg",
+      "md5": "a2494db9dc7e8312f707b940156c6015"
+     },
+     {
+      "pos": 3,
+      "media": "4223",
+      "file": "PHO_PAC_CLIP_42746-3_-SALL_-AWK_-V1",
+      "dims": "784x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4223.jpg",
+      "md5": "d12cf356f550f3b414c1a4d284ad09e8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "561",
+  "product": "Junior Clouds",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 669,
+    "sku": "42754",
+    "label": "40 g",
+    "size_label": "40 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4235",
+      "file": "PHO_PRO_CLIP_42754-3_-SALL_-AWK_-V1",
+      "dims": "1600x659",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4235.jpg",
+      "md5": "9961c2c64b89a4d048775d8daf25dcfd"
+     },
+     {
+      "pos": 1,
+      "media": "7009",
+      "file": "PHO_PRO_CLIP_42754-4_-SALL_-AWK_-V1",
+      "dims": "1162x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7009.jpg",
+      "md5": "33ecde733c4fabbd43d896e962b9295b"
+     },
+     {
+      "pos": 2,
+      "media": "4238",
+      "file": "PHO_PAC_CLIP_42754-1_-SALL_-AWK_-V1",
+      "dims": "796x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4238.jpg",
+      "md5": "fe8c1ada6ad93ceb911a77283ed7a0a8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "562",
+  "product": "Freeze Dried Cat Snacks",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1395,
+    "sku": "42756",
+    "label": "Chicken Hearts 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4247",
+      "file": "PHO_PRO_CLIP_42756-1_-SALL_-AWK_-V1",
+      "dims": "1600x891",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4247.jpg",
+      "md5": "a99eb868e067991ee2ff2fd5f47debe6"
+     },
+     {
+      "pos": 1,
+      "media": "4250",
+      "file": "PHO_PAC_CLIP_42756-2_-SALL_-AWK_-V1",
+      "dims": "742x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4250.jpg",
+      "md5": "92d729a42fbe30f5110deac0f2e92c1c"
+     }
+    ]
+   },
+   {
+    "variant_id": 1396,
+    "sku": "42805",
+    "label": "Chicken & Cheese 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Cheese",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4271",
+      "file": "PHO_PRO_CLIP_42805-2_-SALL_-AWK_-V1",
+      "dims": "1600x690",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4271.jpg",
+      "md5": "b74fcf031e906a8dee7112c534ef7e93"
+     },
+     {
+      "pos": 1,
+      "media": "7042",
+      "file": "PHO_PRO_CLIP_42805-1_-SALL_-AWK_-V1",
+      "dims": "1150x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7042.jpg",
+      "md5": "2bc92dccc5ac50e1fa9faa4b42647760"
+     },
+     {
+      "pos": 2,
+      "media": "7045",
+      "file": "PHO_PRO_CLIP_42805-3_-SALL_-AWK_-V1",
+      "dims": "1001x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7045.jpg",
+      "md5": "2af2bc129a9abff1a65f263bd3f73fee"
+     },
+     {
+      "pos": 3,
+      "media": "7048",
+      "file": "PHO_PRO_CLIP_42805-4_-SALL_-AWK_-V1",
+      "dims": "670x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7048.jpg",
+      "md5": "d46839dc7e71fda9395161ef30ce80d7"
+     },
+     {
+      "pos": 4,
+      "media": "4274",
+      "file": "PHO_PAC_CLIP_42805-1_-SALL_-AWK_-V1",
+      "dims": "661x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4274.jpg",
+      "md5": "f471ea67157b254f818428ee7434b82c"
+     }
+    ]
+   },
+   {
+    "variant_id": 1397,
+    "sku": "42804",
+    "label": "Lamb Liver & Salmon 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4265",
+      "file": "PHO_PRO_CLIP_42804-2_-SALL_-AWK_-V1",
+      "dims": "1600x711",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4265.jpg",
+      "md5": "db36c9e473782eb0e5112de6cc2fa766"
+     },
+     {
+      "pos": 1,
+      "media": "7033",
+      "file": "PHO_PRO_CLIP_42804-1_-SALL_-AWK_-V1",
+      "dims": "1384x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7033.jpg",
+      "md5": "49c78d633d68c58980ebdba3c2d1aa4b"
+     },
+     {
+      "pos": 2,
+      "media": "7036",
+      "file": "PHO_PRO_CLIP_42804-3_-SALL_-AWK_-V1",
+      "dims": "1001x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7036.jpg",
+      "md5": "a09c352fd977657a35b12d0070d07432"
+     },
+     {
+      "pos": 3,
+      "media": "7039",
+      "file": "PHO_PRO_CLIP_42804-4_-SALL_-AWK_-V1",
+      "dims": "670x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7039.jpg",
+      "md5": "489800ec43b4e694b71870f294982294"
+     },
+     {
+      "pos": 4,
+      "media": "4268",
+      "file": "PHO_PAC_CLIP_42804-1_-SALL_-AWK_-V1",
+      "dims": "661x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4268.jpg",
+      "md5": "732d10c4783e7c84cd09fe8f6b596e2e"
+     }
+    ]
+   },
+   {
+    "variant_id": 670,
+    "sku": "42755",
+    "label": "Shrimps 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Shrimp",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4241",
+      "file": "PHO_PRO_CLIP_42755-1_-SALL_-AWK_-V1",
+      "dims": "1600x860",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4241.jpg",
+      "md5": "0aae7ac774b08f6688e72fdd9ee27a46"
+     },
+     {
+      "pos": 1,
+      "media": "7012",
+      "file": "PHO_PRO_CLIP_42755-2_-SALL_-AWK_-V1",
+      "dims": "1600x959",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7012.jpg",
+      "md5": "32382b0fc8074bf40476639c5bce8ddb"
+     },
+     {
+      "pos": 2,
+      "media": "4244",
+      "file": "PHO_PAC_CLIP_42755-2_-SALL_-AWK_-V1",
+      "dims": "742x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4244.jpg",
+      "md5": "122feb990b5a3ae4388c99b81d17b8f7"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "568",
+  "product": "Balm for the Eye Area",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 676,
+    "sku": "2546",
+    "label": "50 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4277",
+      "file": "PHO_PRO_CLIP_2546-3_-SALL_-AWK_-V1",
+      "dims": "796x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4277.jpg",
+      "md5": "a329c9e5adaaa75d36934cad3148734c"
+     },
+     {
+      "pos": 1,
+      "media": "7051",
+      "file": "PHO_PRO_CLIP_2546-4_-SALL_-AWK_-V1",
+      "dims": "796x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7051.jpg",
+      "md5": "cc189b61e7c6ea9a45d86b79a106890d"
+     },
+     {
+      "pos": 2,
+      "media": "4280",
+      "file": "PHO_PAC_CLIP_2546-2_-SALL_-AWK_-V1",
+      "dims": "462x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4280.jpg",
+      "md5": "53eb1b719db2376c05405c8595e9e7c7"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "569",
+  "product": "Ear Care",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 677,
+    "sku": "2547",
+    "label": "50 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4283",
+      "file": "PHO_PRO_CLIP_2547-3_-SALL_-AWK_-V1",
+      "dims": "644x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4283.jpg",
+      "md5": "ea635da192cf911ba312478b616f8ee9"
+     },
+     {
+      "pos": 1,
+      "media": "7054",
+      "file": "PHO_PRO_CLIP_2547-4_-SALL_-AWK_-V1",
+      "dims": "645x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7054.jpg",
+      "md5": "78931a043217791bf1ca1fd026354d53"
+     },
+     {
+      "pos": 2,
+      "media": "4286",
+      "file": "PHO_PAC_CLIP_2547-1_-SALL_-AWK_-V1",
+      "dims": "462x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4286.jpg",
+      "md5": "2e454785090e6075a9c4dd857599c14b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "570",
+  "product": "Dental Hygiene Spray",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 678,
+    "sku": "2548",
+    "label": "50 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4289",
+      "file": "PHO_PRO_CLIP_2548-1_-SALL_-AWK_-V1",
+      "dims": "814x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4289.jpg",
+      "md5": "7c309786135dbf50426088addf779bc1"
+     },
+     {
+      "pos": 1,
+      "media": "4292",
+      "file": "PHO_PRO_CLIP_2548-2_-SALL_-AWK_-V1",
+      "dims": "462x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4292.jpg",
+      "md5": "a2059c797f8e3c75edd4bf9474e275a9"
+     },
+     {
+      "pos": 2,
+      "media": "7057",
+      "file": "PHO_PRO_CLIP_2548-3_-SALL_-AWK_-V1",
+      "dims": "814x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7057.jpg",
+      "md5": "ab8f7e729132c6c8a2faf979928cd955"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "571",
+  "product": "Tearstain Remover",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 679,
+    "sku": "2559",
+    "label": "50 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4295",
+      "file": "PHO_PRO_CLIP_2559-4_-SALL_-AWK_-V1",
+      "dims": "796x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4295.jpg",
+      "md5": "f6176b9a3e3409ec56e0af8639be8eb1"
+     },
+     {
+      "pos": 1,
+      "media": "7060",
+      "file": "PHO_PRO_CLIP_2559-5_-SALL_-AWK_-V1",
+      "dims": "796x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7060.jpg",
+      "md5": "c16984721e22af37495770f8bb4fa542"
+     },
+     {
+      "pos": 2,
+      "media": "4298",
+      "file": "PHO_PAC_CLIP_2559-2_-SALL_-AWK_-V1",
+      "dims": "462x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4298.jpg",
+      "md5": "7e06bead2d132ab07d8c614cf9ced453"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "572",
+  "product": "Paw Care Spray",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 680,
+    "sku": "2572",
+    "label": "50 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4301",
+      "file": "PHO_PRO_CLIP_2572-1_-SALL_-AWK_-V1",
+      "dims": "814x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4301.jpg",
+      "md5": "fd73d0593d7c5d49ebc95f018d50cd96"
+     },
+     {
+      "pos": 1,
+      "media": "7063",
+      "file": "PHO_PRO_CLIP_2572-2_-SALL_-AWK_-V1",
+      "dims": "814x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7063.jpg",
+      "md5": "428226e2fd8fbf62f50222defb634e73"
+     },
+     {
+      "pos": 2,
+      "media": "4304",
+      "file": "PHO_PAC_CLIP_2572-1_-SALL_-AWK_-V1",
+      "dims": "462x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4304.jpg",
+      "md5": "68eea346397ba6dbae0b0d6062cfcfdd"
+     },
+     {
+      "pos": 3,
+      "media": "7066",
+      "file": "PHO_PRO_USE_2572-1_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7066.jpg",
+      "md5": "be218efa14801d06e9991000492194e4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "573",
+  "product": "Honey Shampoo",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 681,
+    "sku": "2899",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4307",
+      "file": "PHO_PAC_CLIP_2899-1_-SALL_-AWK_-V1",
+      "dims": "459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4307.jpg",
+      "md5": "0c913e9c68bff3cfa5fec39feae901ad"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "574",
+  "product": "Herbal Shampoo",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 682,
+    "sku": "2900",
+    "label": "250 ml",
+    "size_label": "250 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "8756",
+      "file": "65477_3",
+      "dims": "570x570",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8756.jpg",
+      "md5": "b1b8f93bedd6c3de3db327fa1f2deaeb"
+     },
+     {
+      "pos": 1,
+      "media": "7902",
+      "file": "PHO_PRO_CLIP_2900-1",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7902.jpg",
+      "md5": "6e07958f674bf17c6e1b62611132a5e5"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "575",
+  "product": "Anti-Dandruff Shampoo",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 683,
+    "sku": "2904",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4310",
+      "file": "PHO_PAC_CLIP_2904-1_-SALL_-AWK_-V1",
+      "dims": "459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4310.jpg",
+      "md5": "2b75cf4cba0d2781e83dc6c49bbebb0d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "576",
+  "product": "Coconut Oil Shampoo",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 684,
+    "sku": "2905",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4313",
+      "file": "PHO_PAC_CLIP_2905-1_-SALL_-AWK_-V1",
+      "dims": "459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4313.jpg",
+      "md5": "322f433ce0d4430d3650b5deeeefc246"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "577",
+  "product": "Puppy Shampoo",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 685,
+    "sku": "2906",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4316",
+      "file": "PHO_PAC_CLIP_2906-1_-SALL_-AWK_-V1",
+      "dims": "459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4316.jpg",
+      "md5": "48b6c3c200e9b5c967f16220a8882b39"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "578",
+  "product": "Cat Shampoo",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 686,
+    "sku": "2908",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4319",
+      "file": "PHO_PAC_CLIP_2908-1_-SALL_-AWK_-V1",
+      "dims": "459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4319.jpg",
+      "md5": "b953b31ec80c97f180edbdf51235a726"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "579",
+  "product": "Colour Shampoo for White Dogs",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 687,
+    "sku": "2914",
+    "label": "250 ml",
+    "size_label": "250 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4322",
+      "file": "PHO_PAC_CLIP_2914-1_-SALL_-AWK_-V1",
+      "dims": "459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4322.jpg",
+      "md5": "d98cc5b52da21950c9801c48d0969f5d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "580",
+  "product": "Colour Shampoo for Black Dogs",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 688,
+    "sku": "2915",
+    "label": "250 ml",
+    "size_label": "250 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4325",
+      "file": "PHO_PAC_CLIP_2915-1_-SALL_-AWK_-V1",
+      "dims": "459x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4325.jpg",
+      "md5": "647a0fd42923bb0d13eb966e010b666a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "581",
+  "product": "Dry Shampoo",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 689,
+    "sku": "29181",
+    "label": "100 g",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4328",
+      "file": "PHO_PAC_CLIP_29181-1_-SALL_-AWK_-V1",
+      "dims": "465x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4328.jpg",
+      "md5": "7b38c4876de168d2b66305ec02016134"
+     }
+    ]
+   }
+  ]
+ }
+]

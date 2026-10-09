@@ -1,0 +1,2168 @@
+[
+ {
+  "product_id": "641",
+  "product": "Extra Small Adult Lamb & Rice",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 763,
+    "sku": "011477",
+    "label": "Lamb & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 1761,
+      "verdict": "wrong-size",
+      "seen": "Monge Speciality Line Extra Small Adult Lamb with Rice and Potatoes dog bag, but 2,5kg printed (variant is 800 g)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1761.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "659",
+  "product": "Gran Bonta Adult Dog",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 796,
+    "sku": "041587",
+    "label": "Chicken & Turkey 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Chicken; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9581,
+      "verdict": "ok",
+      "seen": "Gran Bonta Pollo e Tacchino (chicken & turkey) can, 400g printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9581.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9584,
+      "verdict": "ok",
+      "seen": "size infographic: same yellow Gran Bonta Pollo e Tacchino can beside a hand silhouette, 11 cm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9584.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9587,
+      "verdict": "ok",
+      "seen": "label close-up: composition, pollo 6%, tacchino 5%",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9587.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1223,
+    "sku": "041537",
+    "label": "Meat 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Meat; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10078,
+      "verdict": "unclear",
+      "seen": "Gran Bonta Carne (chunks with meat) can, old design; no size printed and the product sells 400 g and 1230 g cans",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10078.jpeg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1224,
+    "sku": "041567",
+    "label": "Meat 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Meat; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7315,
+      "verdict": "unclear",
+      "seen": "Gran Bonta new design 'Bocconi con Manzo / Chunks with Beef' can, '12..' size digits at the edge; variant is 'Meat' (hafo: meaty) and the 400 g sibling shows the old 'Carne' can, so confirm the 1230 g article is the beef recipe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7315.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1225,
+    "sku": "041577",
+    "label": "Chicken & Turkey 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Chicken; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7318,
+      "verdict": "ok",
+      "seen": "Gran Bonta new design Pollo e Tacchino / Chicken and Turkey can, '12..' size digits visible at the edge",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7318.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "663",
+  "product": "Gran Bonta Chef Adult Dog",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 800,
+    "sku": "041787",
+    "label": "Meat, Egg & Cheese 415 g",
+    "size_label": "415 g",
+    "options": "Flavor=Egg; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10096,
+      "verdict": "unclear",
+      "seen": "Gran Bonta Delizie dello Chef 'Carne, Uova e Formaggio' can; no size printed and the product sells 415 g and 1230 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10096.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1303,
+    "sku": "041887",
+    "label": "Beef 1230 g",
+    "size_label": "1.23 kg",
+    "options": "Flavor=Beef; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7540,
+      "verdict": "unclear",
+      "seen": "Gran Bonta Delizie dello Chef 'Bocconi con Manzo' (beef) can, low-res; no size printed and the product sells 415 g and 1230 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7540.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "665",
+  "product": "Excellence Medium Adult Lamb",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 802,
+    "sku": "060347",
+    "label": "Lamb 1275 g",
+    "size_label": "1.275 kg",
+    "options": "Flavor=Lamb; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4997,
+      "verdict": "wrong-size",
+      "seen": "Special Dog Excellence Medium Adult Bocconi con Agnello (lamb) can, prints 1250g; variant is 1275 g (hafo says 1.275), so this is likely the older 1250 g pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4997.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "666",
+  "product": "Excellence Maxi Adult Beef",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 803,
+    "sku": "060357",
+    "label": "Beef 1275 g",
+    "size_label": "1.275 kg",
+    "options": "Flavor=Beef; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 5000,
+      "verdict": "wrong-size",
+      "seen": "Special Dog Excellence Maxi Adult Bocconi con Manzo (beef) can, prints 1250g; variant is 1275 g (hafo says 1.275), so this is likely the older 1250 g pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5000.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "725",
+  "product": "Mint Dental Bone",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 877,
+    "sku": "19449AQ",
+    "label": "16.5 cm, green",
+    "size_label": null,
+    "options": "Toy Type=Chew & Dental",
+    "images": [
+     {
+      "pos": 0,
+      "media": 5381,
+      "verdict": "not-packshot-lead",
+      "seen": "Back of the Comfy Mint card only (text + label 'COMFY TOY MINT DENTAL BONE green 16.5cm Art.No 113554'), the toy itself not shown; label barcode 5905546194495 differs from our EAN 5905546192927 but Art.No matches hafo /113554",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5381.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5384,
+      "verdict": "ok",
+      "seen": "Green Comfy Mint dental bone on header card",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5384.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "731",
+  "product": "Traditional Line Green Apple Shampoo for Long Coats",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 887,
+    "sku": "03174IVS",
+    "label": "300 ml",
+    "size_label": "300 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13951,
+      "verdict": "ok",
+      "seen": "Iv San Bernard Shampoo SLS Free Mela verde/Green Apple, long coat; slim 300 ml-format bottle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13951.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5417,
+      "verdict": "wrong-size",
+      "seen": "Group of three Traditional Line Green Apple Long Coat shampoo containers (bottle, ~3 l tub, 1 l bottle), newer label design - shows other sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5417.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "732",
+  "product": "Traditional Line Lemon Conditioner for Short Coats",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 888,
+    "sku": "03177IVS",
+    "label": "300 ml",
+    "size_label": "300 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13954,
+      "verdict": "ok",
+      "seen": "Iv San Bernard Conditioner Balsamo Limone/Lemon short coat; slim 300 ml-format bottle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13954.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5420,
+      "verdict": "wrong-size",
+      "seen": "Group of three Traditional Line Lemon Short Coat conditioner containers (bottle, ~3 l tub, 1 l bottle) - shows other sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5420.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "733",
+  "product": "Traditional Line Green Apple Conditioner for Long Coats",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 889,
+    "sku": "03183IVS",
+    "label": "300 ml",
+    "size_label": "300 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13957,
+      "verdict": "ok",
+      "seen": "Iv San Bernard Conditioner Balsamo Mela verde/Green Apple long coat; slim 300 ml-format bottle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13957.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5423,
+      "verdict": "wrong-size",
+      "seen": "Group of three Traditional Line Green Apple Long Coat conditioner containers (bottle, ~3 l tub, 1 l bottle) - shows other sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5423.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "734",
+  "product": "Protective Shield Shampoo",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 890,
+    "sku": "03681IVS",
+    "label": "300 ml",
+    "size_label": "300 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13960,
+      "verdict": "ok",
+      "seen": "Iv San Bernard Shampoo SLS Free Protective Shield, eucalyptus, red cap; slim 300 ml-format bottle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13960.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5426,
+      "verdict": "wrong-size",
+      "seen": "Group: Protective Shield shampoo small bottle + 5 l canister + 1 l bottle - shows other sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5426.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "735",
+  "product": "Protective Shield Conditioner",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 891,
+    "sku": "03684IVS",
+    "label": "300 ml",
+    "size_label": "300 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13963,
+      "verdict": "ok",
+      "seen": "Iv San Bernard Conditioner Balsamo Protective Conditioner, eucalyptus, purple cap; slim 300 ml-format bottle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13963.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5429,
+      "verdict": "wrong-size",
+      "seen": "Group: Protective Conditioner small bottle + 5 l canister + 1 l bottle - shows other sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5429.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "737",
+  "product": "Lactol Puppy Milk",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 893,
+    "sku": "15247",
+    "label": "250 g",
+    "size_label": "250 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 5435,
+      "verdict": "unclear",
+      "seen": "Beaphar Lactol Puppy milk +DHA tub; net weight digit cut off at left edge, file is art. 15185 not our 15247 - 250 g vs 500 g not confirmable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5435.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "738",
+  "product": "Lactol Kitten Milk",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 894,
+    "sku": "15248",
+    "label": "250 g",
+    "size_label": "250 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 5438,
+      "verdict": "unclear",
+      "seen": "Beaphar Lactol Kitten milk +DHA tub; net weight cut off at left edge, file art. 15186 not our 15248 - 250 g not confirmable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5438.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "799",
+  "product": "Mesh Y-Harness with Lead",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 955,
+    "sku": "41890",
+    "label": "39–60 cm/10 mm",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7972,
+      "verdict": "not-packshot-lead",
+      "seen": "Only two bungee leads (black and aqua) without the harness; group of two items, harness not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7972.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7975,
+      "verdict": "ok",
+      "seen": "Aqua mesh Y-harness with bungee lead (Trixie tag); colour not specified on variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7975.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7978,
+      "verdict": "ok",
+      "seen": "Black mesh Y-harness with bungee lead (Trixie tag); colour not specified on variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7978.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7981,
+      "verdict": "ok",
+      "seen": "Lifestyle: tabby cat wearing aqua mesh harness with lead; secondary image",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7981.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "800",
+  "product": "BE NORDIC Bandana Collar",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 956,
+    "sku": "17321",
+    "label": "S: 30 cm, dark blue",
+    "size_label": null,
+    "options": "Color Family=Dark Blue; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9569,
+      "verdict": "ok",
+      "seen": "BE NORDIC bandana collar, dark blue/navy with white anchor embroidery; clean shot (size not shown)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9569.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1268,
+    "sku": "17333",
+    "label": "M: 40 cm, dark grey",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9536,
+      "verdict": "unclear",
+      "seen": "BE NORDIC bandana collar, dark grey with compass (N/E/S/W) embroidery - colour matches, but same photo as L variant; size M not distinguishable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9536.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1269,
+    "sku": "17335",
+    "label": "L: 50 cm, dark grey",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9539,
+      "verdict": "unclear",
+      "seen": "BE NORDIC bandana collar, dark grey with compass embroidery - colour matches, but identical photo (same md5) as M variant; size L not distinguishable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9539.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "804",
+  "product": "Premium Adjustable Lead, double-layered",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 960,
+    "sku": "200728",
+    "label": "XS–S, 2.00 m/15 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7984,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable double lead, aqua/teal; clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7984.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1544,
+    "sku": "200717",
+    "label": "XS–S, 2.00 m/15 mm, apple",
+    "size_label": null,
+    "options": "Color Family=Green; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14833,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, apple green; clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14833.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1545,
+    "sku": "200722",
+    "label": "XS–S, 2.00 m/15 mm, coral",
+    "size_label": null,
+    "options": "Color Family=Red; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7984,
+      "verdict": "wrong-colour",
+      "seen": "Aqua/teal Trixie Premium lead (same photo as aqua variant 200728); variant is coral",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7984.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1546,
+    "sku": "200713",
+    "label": "XS–S, 2.00 m/15 mm, indigo",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10857,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, indigo/navy blue; clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10857.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1547,
+    "sku": "200725",
+    "label": "XS–S, 2.00 m/15 mm, purple",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14836,
+      "verdict": "wrong-colour",
+      "seen": "Pale light-lilac Trixie Premium lead (file 201025); variant label says purple. Photo looks like light lilac - possible label swap with 200720",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14836.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1721,
+    "sku": "200720",
+    "label": "XS–S, 2.00 m/15 mm, light lilac",
+    "size_label": null,
+    "options": "Color Family=Lilac; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14152,
+      "verdict": "wrong-colour",
+      "seen": "Berry/magenta-purple Trixie Premium lead (file 200720-1); variant label says light lilac. Possible label swap with 200725",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14152.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "805",
+  "product": "Premium Adjustable Lead",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 961,
+    "sku": "201301",
+    "label": "XS, 2.00 m/10 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10006,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, black; clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10006.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1226,
+    "sku": "201303",
+    "label": "XS, 2.00 m/10 mm, red",
+    "size_label": null,
+    "options": "Color Family=Red; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7987,
+      "verdict": "not-packshot-lead",
+      "seen": "Lifestyle: woman wearing red lead across body attached to a dog; colour red matches but not a clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7987.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1227,
+    "sku": "201311",
+    "label": "XS, 2.00 m/10 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7990,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, fuchsia/raspberry pink; clean detail shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7990.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1228,
+    "sku": "201316",
+    "label": "XS, 2.00 m/10 mm, graphite",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10009,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, graphite grey; clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10009.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1548,
+    "sku": "201018",
+    "label": "XS, 2.00 m/10 mm, papaya",
+    "size_label": null,
+    "options": "Color Family=Orange; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10006,
+      "verdict": "wrong-colour",
+      "seen": "Black Trixie Premium lead (same photo as black variant 201301); variant is papaya",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10006.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1554,
+    "sku": "201328",
+    "label": "XS, 2.00 m/10 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10881,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, aqua/teal; clean detail shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10881.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1555,
+    "sku": "201329",
+    "label": "XS, 2.00 m/10 mm, curry",
+    "size_label": null,
+    "options": "Color Family=Yellow; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10890,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, curry/mustard yellow; clean detail shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10890.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1556,
+    "sku": "201332",
+    "label": "XS, 2.00 m/10 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10893,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, petrol (dark teal); clean detail shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10893.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1557,
+    "sku": "201334",
+    "label": "XS, 2.00 m/10 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10896,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, sage green; clean detail shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10896.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1558,
+    "sku": "201336",
+    "label": "XS, 2.00 m/10 mm, sand",
+    "size_label": null,
+    "options": "Color Family=Beige; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10899,
+      "verdict": "ok",
+      "seen": "Trixie Premium adjustable lead, sand/beige; clean detail shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10899.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "812",
+  "product": "BE NORDIC Place Mat",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 968,
+    "sku": "24575",
+    "label": "48 × 30 cm, grey",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7999,
+      "verdict": "ok",
+      "seen": "BE NORDIC grey silicone place mat, '54°40' N | 9°24' E' print; clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7999.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8002,
+      "verdict": "ok",
+      "seen": "Same BE NORDIC grey mat, angled view with Trixie logo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8002.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8005,
+      "verdict": "wrong-size",
+      "seen": "Group shot of two BE NORDIC mats - smaller 24575 on top of the larger size 24576",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8005.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "813",
+  "product": "Plastic Bowl",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 969,
+    "sku": "2471",
+    "label": "0.25 l/ø 10 cm",
+    "size_label": null,
+    "options": "Size=0.25 l/ø 10 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8008,
+      "verdict": "ok",
+      "seen": "Trixie plain plastic bowl, sage green (colour assorted, variant has no colour); clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8008.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8011,
+      "verdict": "ok",
+      "seen": "Same plain plastic bowl, light grey colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8011.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8014,
+      "verdict": "ok",
+      "seen": "Same plain plastic bowl, dusty rose colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8014.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8017,
+      "verdict": "ok",
+      "seen": "Same plain plastic bowl, blue colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8017.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1536,
+    "sku": "24950",
+    "label": "0.3 l/ø 12 cm",
+    "size_label": null,
+    "options": "Color Family=Color Varies; Size=0.3 l/ø 12 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10818,
+      "verdict": "unclear",
+      "seen": "Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10818.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10821,
+      "verdict": "ok",
+      "seen": "Same handle bowl, blue colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10821.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10824,
+      "verdict": "ok",
+      "seen": "Same handle bowl, dusty rose colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10824.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 10827,
+      "verdict": "ok",
+      "seen": "Same handle bowl, light grey colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10827.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 10830,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog eating from grey and sage handle bowls; secondary image",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10830.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1537,
+    "sku": "24951",
+    "label": "0.5 l/ø 14 cm",
+    "size_label": null,
+    "options": "Color Family=Color Varies; Size=0.5 l/ø 14 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10818,
+      "verdict": "unclear",
+      "seen": "Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10818.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10821,
+      "verdict": "ok",
+      "seen": "Same handle bowl, blue colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10821.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10824,
+      "verdict": "ok",
+      "seen": "Same handle bowl, dusty rose colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10824.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 10827,
+      "verdict": "ok",
+      "seen": "Same handle bowl, light grey colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10827.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 10830,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog eating from grey and sage handle bowls; secondary image",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10830.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1538,
+    "sku": "24952",
+    "label": "0.75 l/ø 16 cm",
+    "size_label": null,
+    "options": "Color Family=Color Varies; Size=0.75 l/ø 16 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10818,
+      "verdict": "unclear",
+      "seen": "Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10818.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10821,
+      "verdict": "ok",
+      "seen": "Same handle bowl, blue colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10821.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10824,
+      "verdict": "ok",
+      "seen": "Same handle bowl, dusty rose colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10824.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 10827,
+      "verdict": "ok",
+      "seen": "Same handle bowl, light grey colour (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10827.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 10830,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog eating from grey and sage handle bowls; secondary image",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10830.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1561,
+    "sku": "24430",
+    "label": "0.25 l/ø 12 cm",
+    "size_label": null,
+    "options": "Color Family=Color Varies; Size=0.25 l/ø 12 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10905,
+      "verdict": "ok",
+      "seen": "Trixie clover/flower-shaped plastic bowl, turquoise; clean product shot (colour varies)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10905.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10908,
+      "verdict": "ok",
+      "seen": "Same clover bowl, green",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10908.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10911,
+      "verdict": "ok",
+      "seen": "Same clover bowl, pink/magenta",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10911.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 10914,
+      "verdict": "ok",
+      "seen": "Same clover bowl, grey",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10914.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "823",
+  "product": "Slow Feeding Plastic Bowl",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 979,
+    "sku": "25026",
+    "label": "0.3 l/ø 16 cm",
+    "size_label": null,
+    "options": "Size=0.3 l/ø 16 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8041,
+      "verdict": "unclear",
+      "seen": "Blue slow-feeding plastic bowl, clean shot; one range picture (25026-25028) shared with the 1.4 l sibling, size not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8041.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8044,
+      "verdict": "ok",
+      "seen": "Same blue slow-feeder bowl, side view (range shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8044.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8047,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder plastic bowl, same shape - grey, lead is blue (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8047.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8050,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder plastic bowl side view - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8050.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8053,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl top view with kibble - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8053.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8056,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl top view empty - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8056.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 8059,
+      "verdict": "ok",
+      "seen": "Same blue slow-feeder bowl filled with kibble",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8059.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8062,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl with kibble - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8062.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 8065,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl with wet food close-up - grey, lead is blue (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8065.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1310,
+    "sku": "25028",
+    "label": "1.4 l/ø 25 cm",
+    "size_label": null,
+    "options": "Size=1.4 l/ø 25 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8041,
+      "verdict": "unclear",
+      "seen": "Same blue slow-feeder picture as the 0.3 l lead (same md5) - range shot, cannot confirm the 1.4 l size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8041.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8044,
+      "verdict": "ok",
+      "seen": "Same blue slow-feeder bowl, side view (range shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8044.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8047,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder plastic bowl, same shape - grey, lead is blue (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8047.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8050,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder plastic bowl side view - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8050.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8053,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl top view with kibble - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8053.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8056,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl top view empty - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8056.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 8059,
+      "verdict": "ok",
+      "seen": "Same blue slow-feeder bowl filled with kibble",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8059.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 8062,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl with kibble - grey, lead is blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8062.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 8065,
+      "verdict": "wrong-colour",
+      "seen": "Grey slow-feeder bowl with wet food close-up - grey, lead is blue (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8065.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "825",
+  "product": "Slow Feeding Plastic Bowl, 0.9 l/ø 23 cm",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 981,
+    "sku": "25032",
+    "label": "0.9 l/ø 23 cm",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8074,
+      "verdict": "not-packshot-lead",
+      "seen": "Group: three grey slow-feeding bowls of three sizes stacked (25031-25033 range), not the 0.9 l bowl alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8074.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8077,
+      "verdict": "wrong-colour",
+      "seen": "Group of three petrol/blue slow-feeding bowls stacked (three sizes) - blue vs grey lead, and other sizes shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8077.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8068,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: dachshund eating from petrol-blue slow-feeding bowl - blue, lead is grey",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8068.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8071,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: dachshund eating from petrol-blue slow-feeding bowl - blue, lead is grey",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8071.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "829",
+  "product": "Stainless Steel Bowl with Rubber Base",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 985,
+    "sku": "25141",
+    "label": "0.2 l/ø 15 cm, grey",
+    "size_label": null,
+    "options": "Size=0.2 l/ø 15 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9542,
+      "verdict": "ok",
+      "seen": "Grey/stainless bowl with rubber base printed \"A house is not a home without a cat\" - cat version fits the 0.2 l/15 cm size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9542.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1229,
+    "sku": "25142",
+    "label": "0.45 l/ø 19 cm, grey",
+    "size_label": null,
+    "options": "Size=0.45 l/ø 19 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9575,
+      "verdict": "unclear",
+      "seen": "Grey bowl printed \"A house is not a home without a dog\", rubber base - identical picture (same md5) on 0.45/0.7/0.9 l variants, size cannot be told",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9575.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1230,
+    "sku": "25143",
+    "label": "0.7 l/ø 21 cm, grey",
+    "size_label": null,
+    "options": "Size=0.7 l/ø 21 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9572,
+      "verdict": "unclear",
+      "seen": "Grey bowl printed \"A house is not a home without a dog\", rubber base - identical picture (same md5) on 0.45/0.7/0.9 l variants, size cannot be told",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9572.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1231,
+    "sku": "25144",
+    "label": "0.9 l/ø 23 cm, grey",
+    "size_label": null,
+    "options": "Size=0.9 l/ø 23 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9578,
+      "verdict": "unclear",
+      "seen": "Grey bowl printed \"A house is not a home without a dog\", rubber base - identical picture (same md5) on 0.45/0.7/0.9 l variants, size cannot be told",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9578.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "836",
+  "product": "Bowl, enamel/stainless steel",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 992,
+    "sku": "25212",
+    "label": "0.9 l/ø 17 cm, green",
+    "size_label": null,
+    "options": "Size=0.9 l/ø 17 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8092,
+      "verdict": "unclear",
+      "seen": "Green enamel bowl printed \"ready for ADVENTURE\", clean shot; range picture shared with the 1.9 l sibling, size not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8092.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8095,
+      "verdict": "unclear",
+      "seen": "Green enamel bowl with mountain + paw print design - different print from lead; may be the other size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8095.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8098,
+      "verdict": "wrong-size",
+      "seen": "Lifestyle on grass: two green \"ready for adventure\" enamel bowls of two different sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8098.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1312,
+    "sku": "25213",
+    "label": "1.9 l/ø 21 cm, green",
+    "size_label": null,
+    "options": "Size=1.9 l/ø 21 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8092,
+      "verdict": "unclear",
+      "seen": "Same green \"ready for adventure\" enamel bowl as the 0.9 l lead (same md5) - cannot confirm 1.9 l size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8092.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8095,
+      "verdict": "unclear",
+      "seen": "Green enamel bowl with mountain + paw print design - different print from lead; may be the other size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8095.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8098,
+      "verdict": "wrong-size",
+      "seen": "Lifestyle on grass: two green \"ready for adventure\" enamel bowls of two different sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8098.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "839",
+  "product": "Stainless Steel Bowl with Paw Prints and Rubber Base",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 995,
+    "sku": "25243",
+    "label": "0.8 l/ø 17 cm",
+    "size_label": null,
+    "options": "Size=0.8 l/ø 17 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9512,
+      "verdict": "unclear",
+      "seen": "Petrol \"HUNGRY\" paw-print stainless bowl, clean shot; same picture on 0.8/1.5/2.2 l variants, size not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9512.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9515,
+      "verdict": "wrong-colour",
+      "seen": "Light-green \"HUNGRY\" paw-print bowl - different colour from petrol lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9515.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9518,
+      "verdict": "wrong-colour",
+      "seen": "Grey \"HUNGRY\" paw-print bowl - different colour from petrol lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9518.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9521,
+      "verdict": "unclear",
+      "seen": "Underside detail of three bowls in grey, light green and petrol - shows all colourways; cannot tell which is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9521.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1272,
+    "sku": "25244",
+    "label": "1.5 l/ø 21 cm",
+    "size_label": null,
+    "options": "Size=1.5 l/ø 21 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9512,
+      "verdict": "unclear",
+      "seen": "Same petrol \"HUNGRY\" bowl as the 0.8 l lead (same md5) - cannot confirm 1.5 l size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9512.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9515,
+      "verdict": "wrong-colour",
+      "seen": "Light-green \"HUNGRY\" paw-print bowl - different colour from petrol lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9515.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9518,
+      "verdict": "wrong-colour",
+      "seen": "Grey \"HUNGRY\" paw-print bowl - different colour from petrol lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9518.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9521,
+      "verdict": "unclear",
+      "seen": "Underside detail of three bowls in grey, light green and petrol - shows all colourways; cannot tell which is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9521.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1273,
+    "sku": "25245",
+    "label": "2.2 l/ø 23 cm",
+    "size_label": null,
+    "options": "Size=2.2 l/ø 23 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9512,
+      "verdict": "unclear",
+      "seen": "Same petrol \"HUNGRY\" bowl as the 0.8 l lead (same md5) - cannot confirm 2.2 l size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9512.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9515,
+      "verdict": "wrong-colour",
+      "seen": "Light-green \"HUNGRY\" paw-print bowl - different colour from petrol lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9515.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9518,
+      "verdict": "wrong-colour",
+      "seen": "Grey \"HUNGRY\" paw-print bowl - different colour from petrol lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9518.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9521,
+      "verdict": "unclear",
+      "seen": "Underside detail of three bowls in grey, light green and petrol - shows all colourways; cannot tell which is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9521.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "842",
+  "product": "Long-Ear Bowl, Stainless Steel/Plastic",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 998,
+    "sku": "25247",
+    "label": "0.9 l/ø 19 cm",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8104,
+      "verdict": "ok",
+      "seen": "Grey long-ear bowl, stainless insert, printed \"WOOF\" with paws, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8104.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8107,
+      "verdict": "wrong-colour",
+      "seen": "Light-green \"WOOF\" long-ear bowl - different colour from grey lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8107.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8110,
+      "verdict": "wrong-colour",
+      "seen": "Petrol \"WOOF\" long-ear bowl - different colour from grey lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8110.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8113,
+      "verdict": "wrong-colour",
+      "seen": "Petrol long-ear bowl underside detail with insert - petrol, lead is grey",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8113.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "843",
+  "product": "Slow Feeding Stainless Steel Bowl with Rubber Base, 1 l/ø 21 cm",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 999,
+    "sku": "25249",
+    "label": "1 l/ø 21 cm",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9823,
+      "verdict": "ok",
+      "seen": "Grey slow-feeding stainless bowl with central dome, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9823.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9826,
+      "verdict": "wrong-colour",
+      "seen": "Light-blue slow-feeding stainless bowl - different colour from grey lead (variant has no colour option)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9826.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9829,
+      "verdict": "ok",
+      "seen": "Grey bowl underside with rubber ring, same line",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9829.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9832,
+      "verdict": "wrong-colour",
+      "seen": "Light-blue bowl underside detail - blue, lead is grey",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9832.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 9835,
+      "verdict": "ok",
+      "seen": "Top view of stainless slow-feeding insert with kibble",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9835.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 9838,
+      "verdict": "ok",
+      "seen": "Top view of stainless slow-feeding insert with wet food",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9838.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "844",
+  "product": "Stainless Steel Bowl",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1000,
+    "sku": "25256",
+    "label": "0.75 l/ø 17 cm",
+    "size_label": null,
+    "options": "Size=0.75 l/ø 17 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8116,
+      "verdict": "unclear",
+      "seen": "Stainless bowl in beige/blue/grey wave shell with paw print, clean shot; same picture on 0.75 l and 1.4 l variants, size not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8116.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1560,
+    "sku": "25257",
+    "label": "1.4 l/ø 21 cm",
+    "size_label": null,
+    "options": "Size=1.4 l/ø 21 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8116,
+      "verdict": "unclear",
+      "seen": "Same beige/blue wave paw bowl as the 0.75 l lead (same md5) - cannot confirm 1.4 l size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8116.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "848",
+  "product": "I.D. Tag",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1004,
+    "sku": "2278",
+    "label": "gold",
+    "size_label": null,
+    "options": "Color Family=Gold",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8131,
+      "verdict": "ok",
+      "seen": "Gold knurled cylinder address capsule with split ring, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8131.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1313,
+    "sku": "2280",
+    "label": "chrome",
+    "size_label": null,
+    "options": "Color Family=Silver",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8134,
+      "verdict": "ok",
+      "seen": "Chrome/silver dumbbell-shaped address capsule with ring, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8134.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8137,
+      "verdict": "unclear",
+      "seen": "Chrome address capsule of a different shape (straight ribbed cylinder) from the dumbbell lead - cannot tell which shape is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8137.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8140,
+      "verdict": "unclear",
+      "seen": "Chrome address capsule of a third shape (bowling-pin) differing from lead - cannot tell which shape is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8140.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1492,
+    "sku": "4161",
+    "label": "purple",
+    "size_label": null,
+    "options": "Color Family=Purple",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10554,
+      "verdict": "ok",
+      "seen": "Purple/pink anodised address capsule with ring, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10554.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10557,
+      "verdict": "ok",
+      "seen": "Same purple capsule opened, showing thread",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10557.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "850",
+  "product": "Bottle with Bowl, 0.75 l, blue/green",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1006,
+    "sku": "24606",
+    "label": "0.75 l, blue/green",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8143,
+      "verdict": "ok",
+      "seen": "Trixie stainless bottle 24606 with blue silicone bowl cover and carabiner, clean shot; product is blue/green assorted",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8143.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8146,
+      "verdict": "ok",
+      "seen": "Same 24606 bottle disassembled: blue bowl cover + stainless bottle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8146.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8149,
+      "verdict": "ok",
+      "seen": "Same 24606 bottle with green cover (the other colour of blue/green)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8149.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8152,
+      "verdict": "wrong-size",
+      "seen": "Group shot: tall blue 24606 bottle next to the smaller green 24605 bottle - shows a different-size sibling article",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8152.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "864",
+  "product": "Dog Socks, black",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1020,
+    "sku": "19526",
+    "label": "XL, 2 pcs., black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8296,
+      "verdict": "ok",
+      "seen": "Pair of black socks with white/grey stripes and black rubber soles, clean shot (19521-19526 shot, all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8296.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8302,
+      "verdict": "ok",
+      "seen": "Golden retriever wearing the black striped socks - secondary",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8302.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8308,
+      "verdict": "ok",
+      "seen": "Size table #19521-#19526 incl. XL #19526",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8308.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1530,
+    "sku": "19524",
+    "label": "L, 2 pcs., black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8302,
+      "verdict": "not-packshot-lead",
+      "seen": "Lead is a lifestyle shot: golden retriever wearing the black striped socks on a floor; right product but not a clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8302.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "871",
+  "product": "Liver Pâté with Hemp",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1027,
+    "sku": "31846",
+    "label": "75 g",
+    "size_label": "75 g",
+    "options": "Flavor=Liver",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8281,
+      "verdict": "ok",
+      "seen": "Trixie PREMIO Leberwurst mit Hanf / Liver Pate with hemp tube, #31846, 75 g printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8281.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8284,
+      "verdict": "unclear",
+      "seen": "Different tube design: plain Trixie \"Leberwurst mit Hanf\" pink/grey tube, no PREMIO, no article no. and no weight printed - not the same pack as pos 0; confirm which pack is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8284.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "880",
+  "product": "Lint Roller",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1038,
+    "sku": "23231",
+    "label": "1 × 60 sheets",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8413,
+      "verdict": "ok",
+      "seen": "Trixie lint roller, white handle with grey Trixie roll, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8413.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8419,
+      "verdict": "ok",
+      "seen": "Lint roller handle and roll separated",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8419.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8425,
+      "verdict": "wrong-product",
+      "seen": "Range lifestyle shot on a sideboard: 4 different Trixie cleaning products (lint brushes, upholstery brush, lint roller) together - not this product alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8425.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8431,
+      "verdict": "unclear",
+      "seen": "Use shot: lint roller with DARK grey/black handle and plain white roll - differs from the white-handle grey Trixie roller at pos 0",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8431.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "882",
+  "product": "Upholstery and Textile Brush",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1040,
+    "sku": "23237",
+    "label": "7 × 10 cm, grey",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8472,
+      "verdict": "ok",
+      "seen": "Trixie upholstery/textile brush, white oval body, grey rubber bristles, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8472.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8478,
+      "verdict": "ok",
+      "seen": "Underside of the same brush, grey rubber bristles",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8478.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8425,
+      "verdict": "wrong-product",
+      "seen": "Range lifestyle shot on a sideboard: 4 different Trixie cleaning products (lint brushes, upholstery brush, lint roller) together - not this product alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8425.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8484,
+      "verdict": "ok",
+      "seen": "Brush used on cushion with hair - secondary",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8484.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "886",
+  "product": "Dog Poop Bags, 4 × 20 bags, black",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1044,
+    "sku": "2332",
+    "label": "4 × 20 bags, black",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8516,
+      "verdict": "unclear",
+      "seen": "Single black poop-bag roll, no packaging/print; variant is 4 x 20 bags - the 4-roll pack is not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8516.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8522,
+      "verdict": "ok",
+      "seen": "Black poop-bag roll close-up (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8522.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8540,
+      "verdict": "ok",
+      "seen": "Black poop-bag roll with cardboard core visible (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8540.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "888",
+  "product": "Cardboard Poop Scoops, 10 pcs.",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1046,
+    "sku": "2345",
+    "label": "10 pcs.",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9982,
+      "verdict": "wrong-size",
+      "seen": "Trixie Dog PickUp counter display carton (Hundekotgreifer, #2345) full of many bundles - not the single 10-pc pack sold; pos 1 is the right 10-pc packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9982.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9985,
+      "verdict": "ok",
+      "seen": "Trixie Dog PickUp bundle, band prints '10 Hundekotgreifer', Art.-Nr. 2345",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9985.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9988,
+      "verdict": "ok",
+      "seen": "Single Trixie Dog PickUp scooper card, Art.-Nr. 2345",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9988.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9991,
+      "verdict": "ok",
+      "seen": "Newer kraft-pack Trixie Kotgreifer bundle with banderole, compostable; count not printed (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9991.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 9994,
+      "verdict": "ok",
+      "seen": "Hands opening a paper scooper bag (usage step)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9994.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 9997,
+      "verdict": "ok",
+      "seen": "Hands folding paper scooper (usage step)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9997.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 10000,
+      "verdict": "ok",
+      "seen": "Hands pinching paper scooper closed (usage step)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10000.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 10003,
+      "verdict": "ok",
+      "seen": "Hand holding closed paper scooper bag (usage step)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10003.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "891",
+  "product": "Pads for Protective Pants",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1049,
+    "sku": "23496",
+    "label": "XS, S, S–M, 10 pcs.",
+    "size_label": null,
+    "options": "Size=XS, S, S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8714,
+      "verdict": "unclear",
+      "seen": "Loose stack of white pads, no pack or size print; cannot tell XS/S/S-M from the M pads (sibling 23497)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8714.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8720,
+      "verdict": "ok",
+      "seen": "Trixie Wechsel-Einlagen bag, 'XS+S+S-M', 10 pcs, Art.-Nr. 23496",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8720.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8738,
+      "verdict": "ok",
+      "seen": "Newer Trixie pads bag #23496, XS / S / S-M, 10x, with loose pads",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8738.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1317,
+    "sku": "23497",
+    "label": "M, 10 pcs.",
+    "size_label": null,
+    "options": "Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8750,
+      "verdict": "ok",
+      "seen": "Trixie Wechsel-Einlagen bag, size M, 10 pcs, Art.-Nr. 23497",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8750.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8765,
+      "verdict": "ok",
+      "seen": "Newer Trixie pads bag #23497, size M, 10x",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8765.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "901",
+  "product": "Car Seat Cover, 1.80 × 1.30 m, black/beige",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1059,
+    "sku": "13238",
+    "label": "1.80 × 1.30 m, black/beige",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9883,
+      "verdict": "not-packshot-lead",
+      "seen": "Beige cover with black edge installed in an open car boot (whole car in shot) - right line, but a scene, not a clean product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9883.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9886,
+      "verdict": "ok",
+      "seen": "Grey line drawing of the cover fitted in a car boot (installation diagram)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9886.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "904",
+  "product": "Hygiene Pad Nappy",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1062,
+    "sku": "23410",
+    "label": "7 pcs.",
+    "size_label": null,
+    "options": "Size=7 pcs.",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8849,
+      "verdict": "unclear",
+      "seen": "Single loose white/blue pad, no pack or size print - cannot tell 30 x 50 cm from the 60 x 90 cm sibling",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8849.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8852,
+      "verdict": "ok",
+      "seen": "Trixie Nappy hygiene pads bag, 7 x 30 x 50 cm, #23410",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8852.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1318,
+    "sku": "23413",
+    "label": "8 pcs.",
+    "size_label": null,
+    "options": "Size=8 pcs.",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8855,
+      "verdict": "ok",
+      "seen": "Trixie Nappy hygiene pads bag, 8 x 60 x 90 cm, #23413",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8855.jpg"
+     }
+    ]
+   }
+  ]
+ }
+]

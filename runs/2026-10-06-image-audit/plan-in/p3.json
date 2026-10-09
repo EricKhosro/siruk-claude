@@ -1,0 +1,2970 @@
+[
+ {
+  "product_id": "500",
+  "product": "Trimmer Comb, 6 × 15 cm, green",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 607,
+    "sku": "24183",
+    "label": "6 × 15 cm, green",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9629,
+      "verdict": "ok",
+      "seen": "Green/black deshedding trimmer, very low-res 134px",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9629.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7918,
+      "verdict": "ok",
+      "seen": "Green/black deshedding trimmer",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7918.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7921,
+      "verdict": "unclear",
+      "seen": "Green/black deshedding trimmer; blade looks wider relative to handle than in other shots, size not printed - cannot confirm 6 cm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7921.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7924,
+      "verdict": "unclear",
+      "seen": "Green/black deshedding trimmer; blade looks wider relative to handle, size not printed - cannot confirm 6 cm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7924.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 7927,
+      "verdict": "ok",
+      "seen": "Green/black deshedding trimmer",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7927.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "503",
+  "product": "Fur Detangler, 6 × 18 cm, dark grey/blue",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 610,
+    "sku": "24242",
+    "label": "6 × 18 cm, dark grey/blue",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3737,
+      "verdict": "ok",
+      "seen": "Detangler/undercoat rake with dark grey head and black/blue handle, clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3737.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3740,
+      "verdict": "ok",
+      "seen": "Same detangler, other side, dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3740.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6666,
+      "verdict": "wrong-colour",
+      "seen": "Same detangler model but handle is black/turquoise, not dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6666.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6669,
+      "verdict": "ok",
+      "seen": "Detangler lying horizontally, dark grey/blue handle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6669.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6672,
+      "verdict": "ok",
+      "seen": "Detangler horizontal, other side, dark grey/blue handle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6672.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6675,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: hand brushing a dog with the detangler; handle visibly turquoise (older colourway), not dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6675.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6678,
+      "verdict": "wrong-colour",
+      "seen": "Hand holding the detangler, black/turquoise handle, not dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6678.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6681,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle close-up brushing dog, turquoise handle visible, not dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6681.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "504",
+  "product": "Tooth Brush Set",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 611,
+    "sku": "2550",
+    "label": "2 pcs.",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3743,
+      "verdict": "unclear",
+      "seen": "Single white finger toothbrush (rubber nubs) only; label is a 2-pc set, lead shows 1 of 2 pieces; set shots are at pos 4-7",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3743.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3746,
+      "verdict": "ok",
+      "seen": "Single turquoise bristle finger brush, one piece of the 2550 set (older colourway)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3746.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6684,
+      "verdict": "ok",
+      "seen": "Single petrol-blue finger brush with white nubs, one piece of the 2550 set (current colourway)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6684.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6687,
+      "verdict": "ok",
+      "seen": "Same petrol-blue finger brush, angled view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6687.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6690,
+      "verdict": "ok",
+      "seen": "2 finger brushes: white nub brush + turquoise bristle brush (older colourway of the set)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6690.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6693,
+      "verdict": "ok",
+      "seen": "Same 2-pc set white + turquoise, alternate render",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6693.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6696,
+      "verdict": "ok",
+      "seen": "2-pc set turquoise bristle + white nub brush",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6696.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6699,
+      "verdict": "ok",
+      "seen": "2-pc set petrol-blue nub brush + white nub brush (newer colourway)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6699.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "505",
+  "product": "Dental Hygiene Set for Dogs",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 612,
+    "sku": "2561",
+    "label": "2561",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3749,
+      "verdict": "unclear",
+      "seen": "Trixie Dental-Care toothpaste with mint tube (dog) alone; the product is the dog dental set (paste + toothbrush + 2 finger brushes) - lead shows only one component; full set at pos 5-8",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3749.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3752,
+      "verdict": "ok",
+      "seen": "Double-ended white dog toothbrush, component of the set",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3752.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3755,
+      "verdict": "ok",
+      "seen": "White speckled finger brush with bristles, component of the set",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3755.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3758,
+      "verdict": "ok",
+      "seen": "White finger brush with rubber nubs, component of the set",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3758.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3761,
+      "verdict": "ok",
+      "seen": "Trixie Dental-Care toothpaste with mint tube, component of the set (newer artwork)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3761.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 3764,
+      "verdict": "ok",
+      "seen": "Full dog dental set: double-ended toothbrush, Trixie Dental-Care mint toothpaste, 2 finger brushes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3764.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6702,
+      "verdict": "ok",
+      "seen": "Full dog dental set, same 4 pieces, newer tube text",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6702.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6705,
+      "verdict": "ok",
+      "seen": "Dog dental set grouped: mint toothpaste, toothbrush, 2 finger brushes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6705.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 6708,
+      "verdict": "ok",
+      "seen": "Dog dental set grouped, alternate arrangement",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6708.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "507",
+  "product": "Toothbrush Set",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 614,
+    "sku": "25621",
+    "label": "4 pcs., white",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3779,
+      "verdict": "unclear",
+      "seen": "Single small white Trixie toothbrush (black logo); label says 4 pcs., lead shows 1 brush; no shot shows 4 pieces",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3779.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6720,
+      "verdict": "unclear",
+      "seen": "Single white Trixie brush, alternate angle; label 4 pcs. not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6720.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6723,
+      "verdict": "unclear",
+      "seen": "Single white brush, newer grey TRiXiE logo; label 4 pcs. not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6723.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6726,
+      "verdict": "unclear",
+      "seen": "Single white brush, grey logo, side view; label 4 pcs. not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6726.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6729,
+      "verdict": "unclear",
+      "seen": "Single white brush, grey logo; label 4 pcs. not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6729.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6732,
+      "verdict": "unclear",
+      "seen": "2 white Trixie brushes (black logo); label says 4 pcs., picture shows 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6732.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6735,
+      "verdict": "unclear",
+      "seen": "2 white Trixie brushes, alternate render; label says 4 pcs., picture shows 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6735.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6738,
+      "verdict": "unclear",
+      "seen": "2 white brushes, grey TRiXiE logo; label says 4 pcs., picture shows 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6738.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "510",
+  "product": "Hiding Place for Tablets, for Cats",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 617,
+    "sku": "25842",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3791,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose brown hollow tablet-hiding treat pieces, no pouch; the Trixie pouch (#25842) is at pos 3",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3791.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6750,
+      "verdict": "ok",
+      "seen": "Close-up of two loose hollow tablet-hiding treats",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6750.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6753,
+      "verdict": "ok",
+      "seen": "Same close-up of two loose hollow tablet-hiding treats (same md5 as pos 1)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6753.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3794,
+      "verdict": "ok",
+      "seen": "Trixie Tablettenversteck / Hiding Place for Tablets pouch, For Cats, #25842; weight not printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3794.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3797,
+      "verdict": "ok",
+      "seen": "Two treats with white and orange tablets inserted, illustrating use",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3797.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6756,
+      "verdict": "ok",
+      "seen": "Two treats with tablets inserted (use illustration)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6756.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6759,
+      "verdict": "ok",
+      "seen": "Same two treats with tablets inserted (same md5 as pos 5)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6759.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6762,
+      "verdict": "ok",
+      "seen": "Illustration of the hollow treat pieces with tablets",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6762.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "511",
+  "product": "Buffalo scalp",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 618,
+    "sku": "27153",
+    "label": "200 g",
+    "size_label": "200 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3800,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose braided buffalo-scalp chews, no pouch; Trixie Natural & Dried pouch (#27153) is at pos 5",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3800.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3803,
+      "verdict": "ok",
+      "seen": "Two loose braided buffalo-scalp chews",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3803.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6765,
+      "verdict": "ok",
+      "seen": "Row of loose braided buffalo-scalp chews",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6765.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6768,
+      "verdict": "ok",
+      "seen": "Single braided chew close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6768.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6771,
+      "verdict": "ok",
+      "seen": "Single braided chew, angled",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6771.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 3806,
+      "verdict": "ok",
+      "seen": "Trixie Natural & Dried Buffalo headskin (Büffelkopfhaut) pouch, #27153, dog photo on pack; weight not printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3806.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6774,
+      "verdict": "ok",
+      "seen": "Same #27153 pouch with two loose braids beside it",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6774.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 3809,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian chewing a braid in a room",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3809.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 3812,
+      "verdict": "ok",
+      "seen": "Lifestyle: hand offering a braid to a Dalmatian",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3812.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 3815,
+      "verdict": "ok",
+      "seen": "Lifestyle: hand holding braid, Dalmatian sitting",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3815.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 3818,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian chewing braid, close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3818.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 3821,
+      "verdict": "ok",
+      "seen": "Lifestyle: hand holding braid, chocolate Labrador behind",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3821.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 6777,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian chewing braid (wide crop)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6777.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 6780,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian chewing braid (portrait)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6780.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "512",
+  "product": "Twists",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 619,
+    "sku": "31145",
+    "label": "2 pcs./85 g",
+    "size_label": "85 g",
+    "options": "Health Feature=Digestive Health",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3824,
+      "verdict": "not-packshot-lead",
+      "seen": "Two loose collagen twist rings, no pouch; Denta Fun Twists pouch (#31145) is at pos 4",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3824.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6783,
+      "verdict": "ok",
+      "seen": "Two loose twist rings, other angle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6783.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6786,
+      "verdict": "ok",
+      "seen": "Two loose twist rings, side view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6786.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6789,
+      "verdict": "ok",
+      "seen": "Two loose twist rings, top view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6789.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3827,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Twists pouch, made of collagen, chicken icon, #31145; weight not printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3827.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 3830,
+      "verdict": "ok",
+      "seen": "Lifestyle: woman offering a twist ring to a poodle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3830.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6792,
+      "verdict": "ok",
+      "seen": "Lifestyle: twist ring in hand, poodle giving paw",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6792.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6795,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle taking the twist ring",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6795.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "513",
+  "product": "Croissants",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 620,
+    "sku": "31147",
+    "label": "2 pcs./80 g",
+    "size_label": "80 g",
+    "options": "Health Feature=Digestive Health",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3833,
+      "verdict": "not-packshot-lead",
+      "seen": "Two loose collagen croissant chews, no pouch; Denta Fun Croissants pouch (#31147) is at pos 3",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3833.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6798,
+      "verdict": "ok",
+      "seen": "Single loose croissant chew close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6798.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6801,
+      "verdict": "ok",
+      "seen": "Single loose croissant chew side view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6801.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3836,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Croissants pouch, made of collagen, chicken icon, #31147; weight not printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3836.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "514",
+  "product": "Braid",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 621,
+    "sku": "31148",
+    "label": "65 g",
+    "size_label": "65 g",
+    "options": "Health Feature=Digestive Health",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3839,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose collagen braid chew, no pouch; Denta Fun Braid pouch (#31148) is at pos 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3839.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6804,
+      "verdict": "ok",
+      "seen": "Single loose braid chew, angled",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6804.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3842,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Braid pouch, made of collagen, chicken icon, #31148; weight not printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3842.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3845,
+      "verdict": "ok",
+      "seen": "Lifestyle: chocolate Labrador chewing the braid",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3845.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6807,
+      "verdict": "ok",
+      "seen": "Lifestyle: Labrador lying with the braid",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6807.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6810,
+      "verdict": "ok",
+      "seen": "Lifestyle: Labrador sniffing the braid",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6810.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "515",
+  "product": "Marbled Rolls with beef & white fish",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 622,
+    "sku": "31227",
+    "label": "3 pcs./140 g",
+    "size_label": "140 g",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3848,
+      "verdict": "unclear",
+      "seen": "Single loose red/white marbled roll on white, no pack or art no.; colour (red meat wrap) differs from the brown rolls shown in this variant's own #31227 pack and pos 2, and matches the 70 g sibling's red rolls - cannot confirm beef & white fish 3 pcs/140 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3848.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3851,
+      "verdict": "unclear",
+      "seen": "Loose red/white marbled roll, angled; no pack; red wrap does not match the brown rolls in the #31227 pack - looks like the 6 pcs/70 g sibling's roll",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3851.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6813,
+      "verdict": "ok",
+      "seen": "Three loose brown/white marbled rolls on white; match the brown rolls visible in the #31227 pack (3 pcs)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6813.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6816,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Marbled Rolls pack, with beef & white fish, 3 brown rolls visible, #31227 printed; weight not printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6816.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 623,
+    "sku": "31225",
+    "label": "6 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3854,
+      "verdict": "unclear",
+      "seen": "Single loose red/white marbled roll, no pack or art no.; cannot tell 6 pcs/70 g from the 3 pcs/140 g sibling (31227 lead shows the same red roll)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3854.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6819,
+      "verdict": "ok",
+      "seen": "Single loose red/white marbled roll, angled; same red rolls as in the #31225 pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6819.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3857,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Marbled Rolls pack, with beef & white fish, 6 red/white rolls visible, #31225 printed; weight not printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3857.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3860,
+      "verdict": "ok",
+      "seen": "Stack of 6 loose red/white marbled rolls on white; matches #31225 contents (6 pcs)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3860.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "517",
+  "product": "Knot with Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 625,
+    "sku": "31321",
+    "label": "5 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Chicken; Size=5 pcs./70 g",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3869,
+      "verdict": "unclear",
+      "seen": "Single loose rawhide knot with chicken wrap, no pack or art no.; cannot tell 5 pcs/70 g from the 2 pcs/70 g, 70 g and 120 g single-knot siblings, whose leads show the same kind of knot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3869.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6828,
+      "verdict": "ok",
+      "seen": "Five loose small rawhide knots with chicken on white; matches 5 pcs pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6828.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6831,
+      "verdict": "ok",
+      "seen": "Five loose small rawhide knots with chicken, other arrangement; matches 5 pcs pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6831.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6834,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Knots pack, with chicken, 4-5 small knots visible, #31321 printed; weight not printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6834.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1220,
+    "sku": "31322",
+    "label": "2 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Chicken; Size=2 pcs./70 g",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3872,
+      "verdict": "unclear",
+      "seen": "Single loose rawhide knot with chicken band, no pack or art no.; cannot tell 2 pcs/70 g from the 5 pcs, 70 g and 120 g siblings",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3872.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6837,
+      "verdict": "ok",
+      "seen": "Two loose rawhide knots with chicken on white; matches 2 pcs pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6837.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3875,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Knots pack, with chicken, 2 knots visible, #31322 printed; weight not printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3875.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1221,
+    "sku": "31323",
+    "label": "70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Chicken; Size=70 g",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3878,
+      "verdict": "unclear",
+      "seen": "Single loose rawhide knot with chicken wrap, no pack or art no.; cannot tell 70 g single knot from the 120 g sibling (31324 lead is the same kind of shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3878.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3881,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Knot (single) pack, with chicken, one knot visible, #31323 printed; weight not printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3881.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1222,
+    "sku": "31324",
+    "label": "120 g",
+    "size_label": "120 g",
+    "options": "Flavor=Chicken; Size=120 g",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3884,
+      "verdict": "unclear",
+      "seen": "Single loose rawhide knot with chicken wrap, no pack or art no.; cannot tell 120 g from the 70 g single-knot sibling",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3884.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3887,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Knot (single) pack, with chicken, one large knot visible, #31324 printed; weight not printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3887.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "521",
+  "product": "Rolls",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 629,
+    "sku": "31327",
+    "label": "Chicken, 3 pcs./140 g",
+    "size_label": "140 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3890,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose chicken-wrapped rawhide roll on white, no pack; Denta Fun Rolls chicken pack is at pos 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3890.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6840,
+      "verdict": "ok",
+      "seen": "Single loose chicken-wrapped rawhide roll on white, same line",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6840.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6851,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Rolls Mit Huhn / with chicken pouch, 3 rolls visible, #31327 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6851.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3893,
+      "verdict": "ok",
+      "seen": "Lifestyle: brown Labrador taking a chicken roll from a hand (secondary image)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3893.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3896,
+      "verdict": "ok",
+      "seen": "Three loose chicken-wrapped rawhide rolls on white (matches 3-pc pack)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3896.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 3899,
+      "verdict": "ok",
+      "seen": "Three loose chicken-wrapped rolls on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3899.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1298,
+    "sku": "31346",
+    "label": "Chicken 120 g",
+    "size_label": "120 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3902,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose short chicken-wrapped roll on white, no pack; pack (#31346) is at pos 3",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3902.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6854,
+      "verdict": "ok",
+      "seen": "Single loose short chicken-wrapped roll on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6854.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6859,
+      "verdict": "ok",
+      "seen": "Pile of short chicken-wrapped rolls on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6859.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6862,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Rolls Mit Huhn / with chicken pouch of short rolls, #31346 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6862.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3905,
+      "verdict": "ok",
+      "seen": "Stack of short chicken-wrapped rolls on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3905.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1378,
+    "sku": "31371",
+    "label": "Duck, 10 pcs./80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3953,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose long thin duck-wrapped roll on white, no pack; pack (#31371) at pos 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3953.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3956,
+      "verdict": "ok",
+      "seen": "Single loose long thin duck-wrapped roll on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3956.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3959,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Rolls Mit Ente / with duck pouch, ~10 thin rolls visible, #31371 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3959.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3962,
+      "verdict": "ok",
+      "seen": "Stack of ~10 thin duck-wrapped rolls on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3962.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1379,
+    "sku": "31347",
+    "label": "Duck 120 g",
+    "size_label": "120 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3965,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose short duck-wrapped roll on white, no pack; pack (#31347) at pos 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3965.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6889,
+      "verdict": "ok",
+      "seen": "Single loose short duck-wrapped roll on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6889.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6892,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Rolls Mit Ente / with duck pouch of short rolls, #31347 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6892.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3968,
+      "verdict": "ok",
+      "seen": "Stack of short duck-wrapped rolls on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3968.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1380,
+    "sku": "31338",
+    "label": "Rabbit, 6 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Rabbit",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3914,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose dark-brown rabbit-coated roll on white, no pack; pack (#31338) at pos 3",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3914.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6865,
+      "verdict": "ok",
+      "seen": "Single loose dark-brown rabbit-coated roll on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6865.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6868,
+      "verdict": "ok",
+      "seen": "Seven loose dark-brown wrapped rolls on white (pack shows 6; same line)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6868.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6871,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Rolls Mit Kaninchen / with rabbit pouch, 6 rolls visible, #31338 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6871.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3917,
+      "verdict": "ok",
+      "seen": "Stack of dark-brown rabbit-coated rolls on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3917.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1381,
+    "sku": "31388",
+    "label": "Buffalo, 5 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Buffalo",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4004,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose tan meat-wrapped rawhide roll on white, no pack; buffalo pack (#31388) is at pos 7",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4004.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6901,
+      "verdict": "unclear",
+      "seen": "Single loose roll spirally wrapped in mixed dark-red/tan meat strips; looks unlike the even tan wraps in the #31388 pack window - cannot confirm buffalo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6901.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6904,
+      "verdict": "ok",
+      "seen": "Five loose tan meat-wrapped rawhide rolls on white, matches the 5 rolls in the #31388 pack window",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6904.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6907,
+      "verdict": "unclear",
+      "seen": "Five loose rolls spirally wrapped in mixed dark-red/light meat strips; differ from the even tan wraps in the #31388 pack window - cannot confirm buffalo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6907.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6910,
+      "verdict": "unclear",
+      "seen": "Pile of rolls spirally wrapped in mixed dark/light meat strips; differ from the #31388 pack window - cannot confirm buffalo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6910.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6913,
+      "verdict": "unclear",
+      "seen": "Single roll spirally wrapped in mixed dark/light meat strips; differs from the #31388 pack window - cannot confirm buffalo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6913.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6916,
+      "verdict": "unclear",
+      "seen": "Single roll spirally wrapped in mixed dark/light meat strips; differs from the #31388 pack window - cannot confirm buffalo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6916.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 4007,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Rolls Mit Buffel / with buffalo meat pouch, 5 rolls visible, #31388 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4007.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "523",
+  "product": "Ring with Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 631,
+    "sku": "31332",
+    "label": "2 pcs./110 g",
+    "size_label": "110 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3908,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose chicken-wrapped ring on white, no pack; Denta Fun Rings pack (#31332) at pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3908.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3911,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Rings Mit Huhn / with chicken pouch, 2 rings visible, #31332 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3911.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "525",
+  "product": "Mini Bones with Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 633,
+    "sku": "31340",
+    "label": "8 pcs./120 g",
+    "size_label": "120 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3920,
+      "verdict": "not-packshot-lead",
+      "seen": "Six loose chicken-coated mini bones on white, no pack; Mini Bones pack (#31340) at pos 4",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3920.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3923,
+      "verdict": "ok",
+      "seen": "Eight loose chicken-coated mini bones on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3923.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3926,
+      "verdict": "ok",
+      "seen": "Loose chicken-coated mini bones on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3926.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3929,
+      "verdict": "ok",
+      "seen": "Eight loose chicken-coated mini bones on white",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3929.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6874,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Mini Bones Mit Huhn / with chicken pouch, #31340 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6874.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "526",
+  "product": "Dumbbells with Chicken and Rice",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 634,
+    "sku": "31342",
+    "label": "6 pcs./100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3932,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose chicken & rice dumbbell treats on white, no pack; Snack Dumbbells pack (#31342) at pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3932.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3935,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dumbbells Mit Huhn & Reis / with chicken & rice pouch, #31342 printed; weight not printed, article matches sku",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3935.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6877,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dumbbells chicken & rice pouch with loose dumbbells in front (pack + product composite)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6877.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "527",
+  "product": "Bone with Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 635,
+    "sku": "31344",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3938,
+      "verdict": "unclear",
+      "seen": "Loose single Denta Fun chicken-wrapped rawhide bone on white, no pack; size (140 g vs 200 g / 60 g sibling) cannot be told from the picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3938.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6880,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Bone pack, \"Mit Huhn / With chicken\", single bone, #31344 printed (matches sku); no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6880.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1258,
+    "sku": "31343",
+    "label": "2 × 60 g",
+    "size_label": "2 × 60 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3941,
+      "verdict": "ok",
+      "seen": "Two loose chicken-wrapped bones on white - matches the 2-piece pack 31343",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3941.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6883,
+      "verdict": "unclear",
+      "seen": "Single loose chicken-wrapped bone on white; cannot tell it is the 60 g piece of 31343 rather than the 140/200 g sibling bone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6883.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3944,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Bones pack, With chicken, two bones visible, #31343 printed (matches sku)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3944.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1259,
+    "sku": "31345",
+    "label": "200 g",
+    "size_label": "200 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3947,
+      "verdict": "unclear",
+      "seen": "Loose single Denta Fun chicken-wrapped bone on white, no pack; size (200 g vs 140 g sibling) cannot be told from the picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3947.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3950,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Bone pack (tall), With chicken, single bone, #31345 printed (matches sku); no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3950.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "532",
+  "product": "Roll Mix with Chicken, Lamb or Beef",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 640,
+    "sku": "31372",
+    "label": "250 g",
+    "size_label": "250 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3971,
+      "verdict": "unclear",
+      "seen": "Single loose chicken-wrapped rawhide stick only; does not show the Roll Mix pack or its chicken/lamb/beef mix, no size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3971.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3974,
+      "verdict": "ok",
+      "seen": "Pile of mixed chicken (orange) and lamb/beef (dark) wrapped sticks - Roll Mix contents",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3974.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3977,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Roll Mix pack, With chicken, lamb or beef, #31372 printed (matches sku); no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3977.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3980,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Roll Mix pack (newer design, poodle), with Chicken, Lamb or Beef, #31372 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3980.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3983,
+      "verdict": "ok",
+      "seen": "Group of mixed chicken / lamb / beef wrapped sticks - Roll Mix contents",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3983.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 3986,
+      "verdict": "ok",
+      "seen": "Group of dark-meat (lamb/beef) wrapped sticks - component of the Roll Mix",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3986.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 3989,
+      "verdict": "ok",
+      "seen": "Group of chicken-wrapped sticks - component of the Roll Mix",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3989.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 3992,
+      "verdict": "ok",
+      "seen": "Group of dark-meat wrapped sticks - component of the Roll Mix",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3992.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "535",
+  "product": "Barbecue Ribs",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 643,
+    "sku": "31466",
+    "label": "Duck, 2 pcs./110 g",
+    "size_label": "110 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4010,
+      "verdict": "unclear",
+      "seen": "Single loose brown meat-wrapped rib on white, no pack; flavour not printed and colour differs from the red duck meat shown on the #31466 pack and in the 2-piece shot - cannot confirm duck",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4010.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6919,
+      "verdict": "unclear",
+      "seen": "Single loose brown meat-wrapped rib on white; flavour not confirmable (does not match the red duck meat in the #31466 pack window)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6919.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6922,
+      "verdict": "ok",
+      "seen": "Two red duck-meat wrapped ribs - matches the 2-piece duck pack #31466",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6922.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4013,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Barbecue Ribs pack, Mit Ente / With duck, 2 ribs, #31466 printed (matches sku)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4013.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1369,
+    "sku": "31467",
+    "label": "Chicken, 3 pcs./90 g",
+    "size_label": "90 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4016,
+      "verdict": "ok",
+      "seen": "Single loose pale-orange chicken-wrapped rib on white - matches chicken ribs shown in #31467 pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4016.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6925,
+      "verdict": "ok",
+      "seen": "Single chicken-wrapped rib, same line",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6925.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6928,
+      "verdict": "ok",
+      "seen": "Single chicken-wrapped rib, same line",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6928.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6931,
+      "verdict": "ok",
+      "seen": "Three chicken-wrapped ribs - matches 3 pcs chicken pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6931.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4019,
+      "verdict": "ok",
+      "seen": "Trixie Denta Fun Barbecue Ribs pack, Mit Huhn / With chicken, 3 ribs, #31467 printed (matches sku)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4019.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "545",
+  "product": "Softies with Duck Breast",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 653,
+    "sku": "31869",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4100,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose duck cubes only, no pack; pack is at pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4100.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4103,
+      "verdict": "ok",
+      "seen": "Trixie Snack Softies with duck breast pouch, #31869 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4103.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "546",
+  "product": "Creamy Snacks",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 654,
+    "sku": "42681",
+    "label": "Chicken Breast, 5 × 14 g",
+    "size_label": "70 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4106,
+      "verdict": "not-packshot-lead",
+      "seen": "Single Creamy Snack stick (chicken icon), not the 5x14 g retail pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4106.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4109,
+      "verdict": "ok",
+      "seen": "Trixie Creamy Snack with chicken, 5 x 14 g, #42681",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4109.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4112,
+      "verdict": "ok",
+      "seen": "Trixie Creamy Snack with chicken breast, 5x, #42681 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4112.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1398,
+    "sku": "42682",
+    "label": "Shrimp, 5 × 14 g",
+    "size_label": "70 g",
+    "options": "Flavor=Shrimp",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4115,
+      "verdict": "not-packshot-lead",
+      "seen": "Single Creamy Snack stick (shrimp icon), not the 5x14 g retail pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4115.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4118,
+      "verdict": "ok",
+      "seen": "Trixie Creamy Snack with shrimp, 5 x 14 g, #42682",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4118.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4121,
+      "verdict": "ok",
+      "seen": "Trixie Creamy Snack with shrimp, 5x, #42682 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4121.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4124,
+      "verdict": "ok",
+      "seen": "Single stick Creamy Snack with shrimp (new design) - inner unit of same product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4124.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1399,
+    "sku": "42683",
+    "label": "Whitefish, 5 × 14 g",
+    "size_label": "70 g",
+    "options": "Flavor=Fish",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4127,
+      "verdict": "not-packshot-lead",
+      "seen": "Single Creamy Snack stick (fish icon), not the 5x14 g retail pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4127.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4130,
+      "verdict": "ok",
+      "seen": "Trixie Creamy Snack with white fish, 5 x 14 g, #42683",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4130.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4133,
+      "verdict": "ok",
+      "seen": "Trixie Creamy Snack with whitefish, 5x, #42683 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4133.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4136,
+      "verdict": "ok",
+      "seen": "Single stick Creamy Snack with whitefish (new design) - inner unit of same product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4136.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "549",
+  "product": "Premio Hearts with Duck Breast and Pollock",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 657,
+    "sku": "42705",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4139,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose heart-shaped treats only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4139.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4142,
+      "verdict": "ok",
+      "seen": "Trixie Premio Ducky Hearts, duck breast & pollock, 50 g, Art.-Nr. 42705",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4142.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4145,
+      "verdict": "ok",
+      "seen": "Trixie Premio Hearts duck breast & pollock, #42705 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4145.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "550",
+  "product": "Premio Cubes",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 658,
+    "sku": "42706",
+    "label": "Chicken Breast 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4148,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose chicken cubes only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4148.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6967,
+      "verdict": "ok",
+      "seen": "Loose chicken cubes close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6967.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6970,
+      "verdict": "ok",
+      "seen": "Loose chicken cubes close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6970.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4151,
+      "verdict": "ok",
+      "seen": "Trixie Premio Chicken Cubes, with chicken, 50 g, #42706",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4151.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4154,
+      "verdict": "ok",
+      "seen": "Trixie Premio Cubes with chicken breast, #42706 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4154.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1400,
+    "sku": "42717",
+    "label": "Chicken Breast & Cheese 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Cheese",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4163,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose chicken & cheese cubes only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4163.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6982,
+      "verdict": "ok",
+      "seen": "Loose chicken & cheese cubes close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6982.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6985,
+      "verdict": "ok",
+      "seen": "Loose chicken & cheese cubes close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6985.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4166,
+      "verdict": "ok",
+      "seen": "Trixie Premio Cheese Chicken Cubes, 50 g, Art.-Nr. 42717",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4166.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6988,
+      "verdict": "ok",
+      "seen": "Trixie Premio Cheese Chicken Cubes pouch with loose treats, 42717",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6988.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6991,
+      "verdict": "ok",
+      "seen": "Trixie Premio Cubes chicken breast & cheese, #42717 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6991.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "551",
+  "product": "Mini Sticks with Chicken Breast and Rice",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 659,
+    "sku": "42708",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4157,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose mini sticks only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4157.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6973,
+      "verdict": "ok",
+      "seen": "Loose mini sticks close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6973.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6976,
+      "verdict": "ok",
+      "seen": "Loose mini sticks top view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6976.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4160,
+      "verdict": "ok",
+      "seen": "Trixie Premio Chicken Mini Sticks, chicken & rice, 50 g, #42708",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4160.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6979,
+      "verdict": "ok",
+      "seen": "Trixie Premio Mini Sticks chicken breast & rice, #42708 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6979.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "553",
+  "product": "Premio Sandwiches with Tuna and Chicken Breast",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 661,
+    "sku": "42731",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4169,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose tuna/chicken sandwich cubes only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4169.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4172,
+      "verdict": "ok",
+      "seen": "Trixie Premio Tuna Sandwiches, tuna & chicken, 50 g, #42731",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4172.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4175,
+      "verdict": "ok",
+      "seen": "Trixie Premio Sandwiches tuna & chicken breast, #42731 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4175.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "554",
+  "product": "Premio Rolls",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1401,
+    "sku": "42763",
+    "label": "Chicken Breast & Tuna 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken; Health Feature=Dental & Breath Care",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4253,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose rolls (chicken & tuna) only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4253.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7015,
+      "verdict": "ok",
+      "seen": "Loose rolls top view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7015.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7018,
+      "verdict": "ok",
+      "seen": "Single roll close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7018.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7021,
+      "verdict": "ok",
+      "seen": "Single roll cross-section close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7021.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4256,
+      "verdict": "ok",
+      "seen": "Trixie Premio Rolls chicken breast & tuna, #42763 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4256.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 7024,
+      "verdict": "ok",
+      "seen": "Inner sachet Premio Rolls chicken breast & tuna",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7024.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1402,
+    "sku": "42764",
+    "label": "Chicken Breast & Cheese 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Cheese",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4259,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose rolls (chicken & cheese) only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4259.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7027,
+      "verdict": "ok",
+      "seen": "Single chicken & cheese roll close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7027.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4262,
+      "verdict": "ok",
+      "seen": "Trixie Premio Rolls chicken breast & cheese, #42764 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4262.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7030,
+      "verdict": "ok",
+      "seen": "Inner sachet Premio Rolls chicken breast & cheese",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7030.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 662,
+    "sku": "42732",
+    "label": "Tuna & Chicken Breast 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Tuna",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4178,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose tuna rolls slices only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4178.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4181,
+      "verdict": "ok",
+      "seen": "Trixie Premio Tuna Rolls, tuna & chicken, 50 g, #42732",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4181.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4184,
+      "verdict": "ok",
+      "seen": "Trixie Premio Rolls tuna & chicken breast, #42732 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4184.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6994,
+      "verdict": "ok",
+      "seen": "Trixie Premio Tuna Rolls pouch with loose treats, 50 g partly visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6994.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "555",
+  "product": "Premio Bites with Tuna and Chicken Breast",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 663,
+    "sku": "42734",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4187,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose tuna strips/bites only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4187.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4190,
+      "verdict": "ok",
+      "seen": "Trixie Premio Tuna Bites, with tuna, 50 g, Art.-Nr. 42734",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4190.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4193,
+      "verdict": "ok",
+      "seen": "Trixie Premio Bites tuna & chicken breast, #42734 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4193.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "556",
+  "product": "Premio Tenders Chicken Breast",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 664,
+    "sku": "42735",
+    "label": "4 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4196,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose chicken breast fillets only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4196.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6997,
+      "verdict": "ok",
+      "seen": "Single chicken breast fillet close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6997.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4199,
+      "verdict": "ok",
+      "seen": "Trixie Premio Huhnerbrust / Chicken Breast, 4x, #42735",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4199.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "557",
+  "product": "Premio Trainer Snack Mini Nuggets with Tuna, Chicken and Catnip",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 665,
+    "sku": "42741",
+    "label": "50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4202,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose mini nuggets only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4202.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7000,
+      "verdict": "ok",
+      "seen": "Trixie Premio Trainer Snack Mini Fish Nuggets pouch with loose treats (catnip badge)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7000.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4205,
+      "verdict": "ok",
+      "seen": "Trixie Premio Trainer Snack Mini Fish Nuggets, 50 g, #42741",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4205.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4208,
+      "verdict": "ok",
+      "seen": "Trixie Premio Trainer Snack Mini Nuggets tuna, chicken & catnip, #42741 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4208.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "558",
+  "product": "Cookies",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1394,
+    "sku": "42748",
+    "label": "Chicken & Prawn 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4226,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose fish-shaped cookies only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4226.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4229,
+      "verdict": "ok",
+      "seen": "Two fish-shaped cookies close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4229.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7006,
+      "verdict": "ok",
+      "seen": "Loose fish-shaped cookies top view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7006.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4232,
+      "verdict": "ok",
+      "seen": "Trixie Snack Cookies with chicken & shrimp, #42748 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4232.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 666,
+    "sku": "42743",
+    "label": "Salmon & Catnip 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4211,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose fish-shaped cookies only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4211.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4214,
+      "verdict": "ok",
+      "seen": "Trixie Cookies with salmon & catnip, #42743 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4214.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "559",
+  "product": "Premio Strips with Tuna & Whitefish",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 667,
+    "sku": "42746",
+    "label": "20 g",
+    "size_label": "20 g",
+    "options": "Flavor=Tuna",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4217,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose tuna/whitefish strips only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4217.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7003,
+      "verdict": "ok",
+      "seen": "Loose strips close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7003.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4220,
+      "verdict": "ok",
+      "seen": "Trixie Premio Tuna Strips, tuna & white fish, 20 g, #42746",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4220.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4223,
+      "verdict": "ok",
+      "seen": "Trixie Premio Strips tuna & whitefish, #42746 (new design)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4223.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "561",
+  "product": "Junior Clouds",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 669,
+    "sku": "42754",
+    "label": "40 g",
+    "size_label": "40 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4235,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose salmon clouds only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4235.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7009,
+      "verdict": "ok",
+      "seen": "Loose salmon clouds top view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7009.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4238,
+      "verdict": "ok",
+      "seen": "Trixie Junior Salmon Clouds, salmon & chicken, 40 g, #42754 (kitten)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4238.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "562",
+  "product": "Freeze Dried Cat Snacks",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1395,
+    "sku": "42756",
+    "label": "Chicken Hearts 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4247,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose freeze-dried chicken hearts only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4247.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4250,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried chicken hearts, #42756 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4250.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1396,
+    "sku": "42805",
+    "label": "Chicken & Cheese 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Cheese",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4271,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose freeze-dried chicken & cheese cubes only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4271.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7042,
+      "verdict": "ok",
+      "seen": "Single freeze-dried chicken & cheese cube",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7042.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7045,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried chicken meat & cheese pouch with loose cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7045.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7048,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried chicken meat & cheese pouch with loose cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7048.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4274,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried chicken meat & cheese, #42805 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4274.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1397,
+    "sku": "42804",
+    "label": "Lamb Liver & Salmon 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4265,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose freeze-dried lamb liver & salmon cubes only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4265.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7033,
+      "verdict": "ok",
+      "seen": "Single freeze-dried lamb liver & salmon cube",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7033.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7036,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried lamb liver & salmon pouch with loose cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7036.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7039,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried lamb liver & salmon pouch with loose cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7039.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4268,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried lamb liver & salmon, #42804 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4268.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 670,
+    "sku": "42755",
+    "label": "Shrimps 25 g",
+    "size_label": "25 g",
+    "options": "Flavor=Shrimp",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4241,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose freeze-dried shrimps only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4241.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7012,
+      "verdict": "ok",
+      "seen": "Single freeze-dried shrimp close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7012.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4244,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried Shrimps, #42755 (no weight printed)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4244.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "590",
+  "product": "Dry Foam Shampoo",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 698,
+    "sku": "29411",
+    "label": "450 ml",
+    "size_label": "450 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7905,
+      "verdict": "unclear",
+      "seen": "Trixie Trocken-Schaum-Shampoo / Dry Foam Shampoo pump bottle, right product; no volume printed and the shot is shared by 29410 (230 ml) and 29411 (450 ml), so 450 ml cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7905.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "608",
+  "product": "Bathrobe",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 716,
+    "sku": "23571",
+    "label": "XS, grey",
+    "size_label": null,
+    "options": "Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4454,
+      "verdict": "unclear",
+      "seen": "Grey Trixie bathrobe cut-out shared by all sizes (23571-23575); size not visible, and the S variant shows the same lead picture as XS",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4454.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4457,
+      "verdict": "unclear",
+      "seen": "Grey bathrobe side cut-out shared by all sizes; size not visible, same picture on XS and S",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4457.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4460,
+      "verdict": "ok",
+      "seen": "Lifestyle: dachshund in grey bathrobe (XS article shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4460.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4463,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog in grey bathrobe (XS article shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4463.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4466,
+      "verdict": "unclear",
+      "seen": "Labrador wearing the grey bathrobe, shared all-sizes shot; the robe shown is a large size, not this variant's",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4466.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 7183,
+      "verdict": "ok",
+      "seen": "Lifestyle: small dog in grey bathrobe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7183.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 7186,
+      "verdict": "ok",
+      "seen": "Lifestyle: small dog in grey bathrobe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7186.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 7189,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog in grey bathrobe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7189.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 7192,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog in grey bathrobe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7192.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 7195,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog in grey bathrobe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7195.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 4469,
+      "verdict": "ok",
+      "seen": "Size chart: back length 30 cm, neck max 40 cm, chest 40-48 cm (XS)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4469.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1301,
+    "sku": "23572",
+    "label": "S, grey",
+    "size_label": null,
+    "options": "Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4454,
+      "verdict": "unclear",
+      "seen": "Grey Trixie bathrobe cut-out shared by all sizes (23571-23575); size not visible, and the S variant shows the same lead picture as XS",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4454.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4457,
+      "verdict": "unclear",
+      "seen": "Grey bathrobe side cut-out shared by all sizes; size not visible, same picture on XS and S",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4457.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4472,
+      "verdict": "ok",
+      "seen": "Lifestyle: small white dog in grey bathrobe (S article shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4472.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4466,
+      "verdict": "unclear",
+      "seen": "Labrador wearing the grey bathrobe, shared all-sizes shot; the robe shown is a large size, not this variant's",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4466.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 7198,
+      "verdict": "ok",
+      "seen": "Lifestyle: small dog in grey bathrobe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7198.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 7201,
+      "verdict": "ok",
+      "seen": "Lifestyle: small dog in grey bathrobe",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7201.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 4475,
+      "verdict": "ok",
+      "seen": "Size chart: back length 40 cm, neck max 44 cm, chest 46-56 cm (S)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4475.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "613",
+  "product": "Paw cleaner for dogs with silicone bristles",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 721,
+    "sku": "25705",
+    "label": "M–L, dark grey/blue",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4487,
+      "verdict": "unclear",
+      "seen": "Top-down view into a blue paw cleaner opening, shared by 25704/25705/25707; size M-L cannot be told and the shot is hard to recognise as a lead - pos 1 (4490) is the 25705-specific packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4487.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4490,
+      "verdict": "ok",
+      "seen": "Trixie blue/grey paw cleaner cup with silicone bristles and wrist strap (25705-specific shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4490.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 7210,
+      "verdict": "ok",
+      "seen": "Same paw cleaner cup, side view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7210.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4493,
+      "verdict": "ok",
+      "seen": "Paw cleaner disassembled: ring, bristle insert, cup",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4493.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4496,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog paw in the blue paw cleaner",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4496.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 4499,
+      "verdict": "ok",
+      "seen": "Hand pouring dirty water from the paw cleaner",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4499.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "636",
+  "product": "Mini Adult",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 758,
+    "sku": "004097",
+    "label": "Chicken & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 7246,
+      "verdict": "ok",
+      "seen": "Monge Daily Line Mini Adult bag, rich in chicken, 800 g printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7246.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7249,
+      "verdict": "ok",
+      "seen": "Monge Daily Line Mini Adult chicken Polish info sheet (shows 3 kg bag, packs 800 g/3 kg/7.5 kg) - same line infographic",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7249.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1575,
+    "sku": "MG006117",
+    "label": "Chicken 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14017,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders MINI bag, 15 kg mark on front; flavour not printed on front, BfB Mini Adult chicken per its sheet",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14017.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14020,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Mini Adult - Rich in Chicken info sheet, pack size 15 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14020.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1656,
+    "sku": "MG006117-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14017,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders MINI bag, 15 kg mark on front; flavour not printed on front, BfB Mini Adult chicken per its sheet (1 kg loose-sale twin reusing its bag's gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14017.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14020,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Mini Adult - Rich in Chicken info sheet, pack size 15 kg (1 kg loose-sale twin reusing its bag's gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14020.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1576,
+    "sku": "MG006067",
+    "label": "Lamb & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14023,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell lamb from salmon",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14023.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14026,
+      "verdict": "ok",
+      "seen": "Monge BfB Monoprotein Mini Adult - Lamb with rice and potatoes info sheet, pack size 15 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14026.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1657,
+    "sku": "MG006067-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14023,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell lamb from salmon",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14023.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14026,
+      "verdict": "ok",
+      "seen": "Monge BfB Monoprotein Mini Adult - Lamb with rice and potatoes info sheet, pack size 15 kg (1 kg loose-sale twin reusing its bag's gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14026.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1577,
+    "sku": "MG006077",
+    "label": "Salmon & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14029,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell salmon from lamb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14029.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14032,
+      "verdict": "ok",
+      "seen": "Monge BfB Monoprotein Mini Adult - Salmon with rice info sheet, pack size 15 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14032.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1658,
+    "sku": "MG006077-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14029,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Speciality Line bag, 15 kg mark; front prints no flavour - identical picture (same md5) used for the Lamb and Salmon 15 kg variants, so it cannot tell salmon from lamb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14029.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14032,
+      "verdict": "ok",
+      "seen": "Monge BfB Monoprotein Mini Adult - Salmon with rice info sheet, pack size 15 kg (1 kg loose-sale twin reusing its bag's gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14032.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "639",
+  "product": "All Breeds Puppy & Junior",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 761,
+    "sku": "011257",
+    "label": "Lamb & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 1755,
+      "verdict": "wrong-size",
+      "seen": "Monge All Breeds Puppy and Junior Lamb with Rice dog bag, but 2,5kg printed (variant is 800 g)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1755.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1573,
+    "sku": "011217",
+    "label": "Salmon & Rice 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14008,
+      "verdict": "ok",
+      "seen": "Monge All Breeds Puppy and Junior Monoprotein Salmon with Rice dog bag, 12kg printed; clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14008.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1654,
+    "sku": "011217-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14008,
+      "verdict": "ok",
+      "seen": "Monge All Breeds Puppy and Junior Monoprotein Salmon with Rice dog bag, 12kg printed; clean packshot; -KG twin reuses its 12 kg bag gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14008.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1574,
+    "sku": "006487",
+    "label": "Beef & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14035,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Speciality Line 15kg generic breeder bag; front prints no recipe or lifestage, so Beef & Rice Puppy & Junior cannot be confirmed from the pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14035.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14038,
+      "verdict": "ok",
+      "seen": "English infographic: Monge Best for Breeders All Breeds Puppy and Junior Monoprotein Beef with Rice, pack size 15kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14038.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1655,
+    "sku": "006487-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14035,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Speciality Line 15kg generic breeder bag; front prints no recipe or lifestage, so Beef & Rice Puppy & Junior cannot be confirmed from the pack; -KG twin reuses its 15 kg bag gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14035.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14038,
+      "verdict": "ok",
+      "seen": "English infographic: Monge Best for Breeders All Breeds Puppy and Junior Monoprotein Beef with Rice, pack size 15kg; -KG twin reuses its 15 kg bag gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14038.jpg"
+     }
+    ]
+   }
+  ]
+ }
+]

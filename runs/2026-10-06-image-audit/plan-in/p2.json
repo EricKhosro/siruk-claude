@@ -1,0 +1,2342 @@
+[
+ {
+  "product_id": "353",
+  "product": "Filets",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 457,
+    "sku": "31532",
+    "label": "Chicken Breast 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2984,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose dried chicken breast fillets on white, no pack, no size or code visible (shot shared by 31528/31532/31801); the 100 g pack #31532 is at pos 1 and should lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2984.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2987,
+      "verdict": "ok",
+      "seen": "Trixie Premio Filets Huhnerbrust / Chicken breast pouch, regular (non-XXL) pack, #31532 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2987.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 458,
+    "sku": "31801",
+    "label": "Chicken Breast 300 g",
+    "size_label": "300 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13942,
+      "verdict": "ok",
+      "seen": "Trixie Premio Filets Chicken breast pouch with 'XXL PACK' badge, #31801 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13942.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 2984,
+      "verdict": "ok",
+      "seen": "Loose dried chicken breast fillets on white (same-line content close-up)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2984.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2990,
+      "verdict": "ok",
+      "seen": "Same picture as pos 0: Premio Filets Chicken breast XXL PACK, #31801 (duplicate of the lead in the gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2990.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1384,
+    "sku": "31859",
+    "label": "Beef 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4085,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose red beef filet strip on white, no pack, no flavour/size printed; the beef pack #31859 is at pos 3 and should lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4085.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4088,
+      "verdict": "ok",
+      "seen": "Single loose red beef filet strip on white, matches the beef pack contents",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4088.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6961,
+      "verdict": "ok",
+      "seen": "Four loose red beef filet strips on white, matches beef pack contents",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6961.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4091,
+      "verdict": "ok",
+      "seen": "Trixie Premio Filets Rind / Beef pouch, #31859 printed, no weight printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4091.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4094,
+      "verdict": "ok",
+      "seen": "Lifestyle: woman offers a red beef filet strip to a poodle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4094.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 4097,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle taking a red beef filet strip from a hand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4097.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6964,
+      "verdict": "ok",
+      "seen": "Lifestyle: poodle sniffing a red beef filet strip held in a hand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6964.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1385,
+    "sku": "31858",
+    "label": "Lamb 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4070,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose dark-brown lamb filet strip on white, no pack, no flavour/size printed; the lamb pack #31858 is at pos 2 and should lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4070.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4073,
+      "verdict": "ok",
+      "seen": "Single loose dark-brown lamb filet strip on white, matches lamb pack contents",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4073.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 4076,
+      "verdict": "ok",
+      "seen": "Trixie Premio Filets Lamm / Lamb pouch, #31858 printed, no weight printed on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4076.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 4079,
+      "verdict": "ok",
+      "seen": "Lifestyle: woman offers a dark-brown lamb filet strip to a poodle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4079.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 4082,
+      "verdict": "ok",
+      "seen": "Lifestyle (portrait): poodle sniffing a dark-brown lamb filet strip in a hand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4082.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "354",
+  "product": "Dumbbells",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 459,
+    "sku": "31533",
+    "label": "Chicken 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 2993,
+      "verdict": "not-packshot-lead",
+      "seen": "Two loose chicken dumbbell treats on white, no pack, no size/code; the 100 g pack #31533 is at pos 2 and should lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2993.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5855,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dumbbells Mit Huhn / With chicken regular (non-XXL) pouch with two loose dumbbells in front; code not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5855.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 2996,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dumbbells With chicken regular pouch, #31533 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2996.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 460,
+    "sku": "31802",
+    "label": "Chicken 300 g",
+    "size_label": "300 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13966,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dumbbells With chicken pouch with 'XXL PACK' badge, #31802 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13966.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5858,
+      "verdict": "ok",
+      "seen": "Same picture as pos 0: Snack Dumbbells chicken XXL PACK, #31802 (duplicate of the lead)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5858.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1373,
+    "sku": "31592",
+    "label": "Duck Breast 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Duck; Health Feature=Skin & Coat Health",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3146,
+      "verdict": "not-packshot-lead",
+      "seen": "Pile of loose red-brown duck dumbbell treats on white, no pack, no size/code; the duck pack #31592 is at pos 1 and should lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3146.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3149,
+      "verdict": "ok",
+      "seen": "Trixie Snack Dumbbells Mit Entenbrust / With duck breast pouch, #31592 printed, no weight on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3149.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3152,
+      "verdict": "ok",
+      "seen": "Lifestyle: one red-brown duck dumbbell on an open palm, shop shelves behind",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3152.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "355",
+  "product": "Omegas with Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 461,
+    "sku": "31536",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3002,
+      "verdict": "not-packshot-lead",
+      "seen": "Pile of loose chicken strips on white, no pack, no size/code; the pack #31536 is at pos 3 and should lead",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3002.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3005,
+      "verdict": "ok",
+      "seen": "Single loose chicken strip on white (content close-up)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3005.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5861,
+      "verdict": "ok",
+      "seen": "Stack of loose chicken strips on white (content close-up)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5861.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3008,
+      "verdict": "ok",
+      "seen": "Trixie Premio Omegas Mit Huhn / With chicken pouch, Omega 3+6 badge, #31536 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3008.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "358",
+  "product": "Flags with Chicken Breast",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 464,
+    "sku": "31539",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3035,
+      "verdict": "unclear",
+      "seen": "Loose chicken-wrapped rawhide sticks (Flags) on white, no pack or weight; cannot tell the 100 g pouch from the 400 g XXL jar sibling (31588)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3035.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3038,
+      "verdict": "ok",
+      "seen": "Trixie Flags pouch 'mit Huhnerbrust / with chicken breast', #31539; pouch (not the XXL jar) = 100 g, no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3038.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 465,
+    "sku": "31588",
+    "label": "400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3041,
+      "verdict": "ok",
+      "seen": "Trixie Snack Flags XXL PACK jar, blue lid, with chicken breast, #31588; no weight printed but XXL jar = 400 g variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3041.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3044,
+      "verdict": "ok",
+      "seen": "Same XXL PACK Flags jar #31588, blue lid, other angle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3044.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3047,
+      "verdict": "ok",
+      "seen": "XXL PACK Flags jar #31588, grey lid version, with chicken breast",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3047.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3050,
+      "verdict": "ok",
+      "seen": "XXL PACK Flags jar #31588, grey lid, other angle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3050.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "365",
+  "product": "Sushi with Whitefish",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 472,
+    "sku": "31573",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3095,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose Premio Sushi whitefish rolls only, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3095.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5885,
+      "verdict": "ok",
+      "seen": "Close-up of one whitefish sushi roll piece",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5885.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3098,
+      "verdict": "ok",
+      "seen": "Trixie Premio Sushi 'With white fish' pouch, #31573; no weight printed (single-size line)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3098.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "366",
+  "product": "Salmon skin",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 473,
+    "sku": "31576",
+    "label": "6 pcs./70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3101,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose salmon skin roll, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3101.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3104,
+      "verdict": "ok",
+      "seen": "Bundle of rolled salmon skin sticks, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3104.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5888,
+      "verdict": "ok",
+      "seen": "Single rolled salmon skin stick",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5888.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5891,
+      "verdict": "ok",
+      "seen": "Bundle of salmon skin sticks with '6x' badge (matches 6 pcs.)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5891.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3107,
+      "verdict": "ok",
+      "seen": "Trixie Natural & Dried 'Lachshaut / Salmon skin' pouch, #31576; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3107.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "367",
+  "product": "Bites with Chicken Breast",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1371,
+    "sku": "31593",
+    "label": "Apple 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Apple",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3155,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose dried chicken breast wrapped around apple slices, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3155.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3158,
+      "verdict": "ok",
+      "seen": "Trixie Snack Bites 'With chicken breast & apple' pouch, #31593; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3158.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 474,
+    "sku": "31582",
+    "label": "Banana 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Banana",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3110,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose chicken-wrapped banana chips, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3110.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3113,
+      "verdict": "ok",
+      "seen": "Trixie Snack Bites 'With chicken & banana' pouch, #31582; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3113.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "368",
+  "product": "Drumsticks",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 475,
+    "sku": "31585",
+    "label": "Chicken Breast, 5 pcs./95 g",
+    "size_label": "95 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3116,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose drumstick treat, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3116.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3119,
+      "verdict": "ok",
+      "seen": "Trixie Snack Drumsticks 'With chicken breast' pouch, #31585; no weight/count printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3119.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5894,
+      "verdict": "ok",
+      "seen": "Same chicken breast Drumsticks pouch #31585 with one drumstick in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5894.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1372,
+    "sku": "31546",
+    "label": "Rabbit, 8 pcs./100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Rabbit",
+    "images": [
+     {
+      "pos": 0,
+      "media": 4022,
+      "verdict": "not-packshot-lead",
+      "seen": "Pile of loose drumstick treats, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4022.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 4025,
+      "verdict": "ok",
+      "seen": "Trixie Snack Drumsticks 'With rabbit' pouch, #31546; no weight/count printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4025.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "374",
+  "product": "Marbled Softies with lamb & fish",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 481,
+    "sku": "31604",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3161,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose marbled lamb & fish cubes, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3161.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3164,
+      "verdict": "ok",
+      "seen": "Trixie Premio Marbled Softies 'With lamb & fish' pouch, #31604; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3164.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "375",
+  "product": "Freeze Dried Dog Snacks",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 482,
+    "sku": "31606",
+    "label": "Chicken Breast 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3167,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose freeze-dried chicken breast cubes, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3167.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5900,
+      "verdict": "ok",
+      "seen": "Pile of freeze-dried chicken cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5900.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5903,
+      "verdict": "ok",
+      "seen": "Top view of freeze-dried chicken cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5903.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3170,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried 'Chicken breast' pouch, #31606; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3170.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1391,
+    "sku": "31607",
+    "label": "Duck Breast 50 g",
+    "size_label": "50 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3173,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose freeze-dried duck breast cubes, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3173.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5906,
+      "verdict": "ok",
+      "seen": "Identical picture to pos 0 (same md5) - loose duck cubes; duplicate in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5906.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5909,
+      "verdict": "ok",
+      "seen": "Pile of freeze-dried duck cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5909.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5912,
+      "verdict": "ok",
+      "seen": "Top view of freeze-dried duck cubes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5912.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3176,
+      "verdict": "ok",
+      "seen": "Trixie Freeze Dried 'Entenbrust / Duck breast' pouch, #31607; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3176.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "377",
+  "product": "Choco Drops",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 484,
+    "sku": "31611",
+    "label": "75 g",
+    "size_label": "75 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3179,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose choco drops, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3179.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3182,
+      "verdict": "ok",
+      "seen": "Trixie Choco Drops 'With vitamins' pouch, #31611; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3182.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "378",
+  "product": "Mini Pretzels with Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 485,
+    "sku": "31656",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3185,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose chicken pretzel, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3185.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3188,
+      "verdict": "ok",
+      "seen": "Pile of loose chicken mini pretzels",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3188.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5915,
+      "verdict": "ok",
+      "seen": "Top view of 7 chicken mini pretzels",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5915.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3191,
+      "verdict": "ok",
+      "seen": "Trixie Premio Mini Pretzels 'With chicken' pouch, #31656; no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3191.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "379",
+  "product": "Cookie Bones",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 486,
+    "sku": "31662",
+    "label": "1.3 kg",
+    "size_label": "1.3 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3194,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose multicolour bone-shaped cookies, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3194.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3197,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Cookies 'Bones' tub, #31662; weight not printed (single-size tub)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3197.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5918,
+      "verdict": "ok",
+      "seen": "Same Vegan Cookies Bones tub with loose bone cookies in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5918.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "380",
+  "product": "Cookie Farmies",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 487,
+    "sku": "31663",
+    "label": "1.3 kg",
+    "size_label": "1.3 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3200,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose multicolour animal-shaped Farmies cookies, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3200.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3203,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Cookies 'Farmies' tub, #31663; weight not printed (single-size tub)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3203.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5921,
+      "verdict": "ok",
+      "seen": "Same Vegan Cookies Farmies tub with loose cookies in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5921.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "381",
+  "product": "Cookie Giants with Lamb",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 488,
+    "sku": "31664",
+    "label": "1.25 kg",
+    "size_label": "1.25 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3206,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose Cookie Giants biscuit close-up, no pack; the lamb tub (#31664) is at pos 4",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3206.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3209,
+      "verdict": "ok",
+      "seen": "Pile of loose round Cookie Giants biscuits",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3209.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5924,
+      "verdict": "ok",
+      "seen": "Side view of one Cookie Giants biscuit",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5924.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5927,
+      "verdict": "ok",
+      "seen": "Pile of loose Cookie Giants biscuits",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5927.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3212,
+      "verdict": "ok",
+      "seen": "Trixie Snack Cookie Giants tub, \"Mit Lamm / With lamb\", #31664, lamb icon; no weight printed, single size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3212.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 5930,
+      "verdict": "ok",
+      "seen": "Same Cookie Giants with lamb tub #31664 with biscuits in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5930.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "383",
+  "product": "Cookie Snack Loops",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 490,
+    "sku": "31671",
+    "label": "1.3 kg",
+    "size_label": "1.3 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3215,
+      "verdict": "not-packshot-lead",
+      "seen": "Pile of loose tri-colour loop cookies, no pack; Vegan Cookie Snack Loops tub (#31671) is at pos 4",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3215.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3218,
+      "verdict": "ok",
+      "seen": "Three loop cookies (beige/brown/pink)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3218.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5942,
+      "verdict": "ok",
+      "seen": "Top view of loose loop cookies",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5942.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5945,
+      "verdict": "ok",
+      "seen": "Three loop cookies close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5945.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 3221,
+      "verdict": "ok",
+      "seen": "Trixie Vegan Cookie Snack Loops tub, #31671; no weight printed, single size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3221.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 5948,
+      "verdict": "ok",
+      "seen": "Same Vegan Cookie Snack Loops tub with loops in front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5948.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 3224,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian puppy, trail of loop cookies on floor",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3224.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 3227,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian sniffing loop cookies on floor",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3227.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 5951,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian eating loop cookies",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5951.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 5954,
+      "verdict": "ok",
+      "seen": "Lifestyle: Dalmatian sniffing loop cookies",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5954.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "384",
+  "product": "Balls with Rice",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 491,
+    "sku": "31701",
+    "label": "Chicken 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3230,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose chicken & rice balls, no pack; Premio Balls chicken pouch (#31701) is at pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3230.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3233,
+      "verdict": "ok",
+      "seen": "Trixie Premio Balls \"With chicken & rice\" pouch, #31701, chicken icon; no weight printed, single 80 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3233.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3236,
+      "verdict": "unclear",
+      "seen": "Hand holding three orange grain-coated balls in a shop; no pack, balls look finer-grained than the chicken & rice balls, cannot confirm it is this product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3236.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3239,
+      "verdict": "ok",
+      "seen": "Four chicken & rice balls close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3239.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1370,
+    "sku": "31704",
+    "label": "Duck 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3251,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose reddish duck & rice balls, no pack; Premio Balls duck pouch (#31704) is at pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3251.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3254,
+      "verdict": "ok",
+      "seen": "Trixie Premio Balls \"With duck & rice\" pouch, #31704, duck icon; no weight printed, single 80 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3254.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "385",
+  "product": "Pasta with chicken meat & chicken liver",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 492,
+    "sku": "31703",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3242,
+      "verdict": "not-packshot-lead",
+      "seen": "Three loose pasta-shaped chicken treats, no pack; Snack Pasta pouch (#31703) is at pos 1",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3242.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3245,
+      "verdict": "ok",
+      "seen": "Trixie Snack Pasta \"With chicken meat & chicken liver\" pouch, #31703; no weight printed, single 100 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3245.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3248,
+      "verdict": "ok",
+      "seen": "Pile of loose pasta-shaped treats (white/brown)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3248.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "387",
+  "product": "Crispies with Duck",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 494,
+    "sku": "31705",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3257,
+      "verdict": "not-packshot-lead",
+      "seen": "Single duck crispy strip close-up, no pack; Premio Crispies duck pouch (#31705) is at pos 5",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3257.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3260,
+      "verdict": "ok",
+      "seen": "Single duck crispy strip, side view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3260.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3263,
+      "verdict": "ok",
+      "seen": "Several duck crispy strips",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3263.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5957,
+      "verdict": "ok",
+      "seen": "Single duck crispy strip",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5957.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 5960,
+      "verdict": "ok",
+      "seen": "Single duck crispy strip",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5960.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 3266,
+      "verdict": "ok",
+      "seen": "Trixie Premio Crispies \"With duck\" pouch, #31705, duck icon; no weight printed, single 100 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3266.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 5963,
+      "verdict": "ok",
+      "seen": "Same Premio Crispies With duck pouch #31705",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5963.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "388",
+  "product": "Bagels with Lamb & Chicken",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 495,
+    "sku": "31707",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3269,
+      "verdict": "not-packshot-lead",
+      "seen": "Single sesame bagel treat close-up, no pack; Snack Bagels pouch (#31707) is at pos 2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3269.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3272,
+      "verdict": "ok",
+      "seen": "Pile of sesame bagel treats",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3272.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3275,
+      "verdict": "ok",
+      "seen": "Trixie Snack Bagels \"With lamb & chicken\" pouch, #31707, lamb + chicken icons; no weight printed, single 100 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3275.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "389",
+  "product": "Sticks",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1377,
+    "sku": "31747",
+    "label": "Chicken Breast & Fish 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3305,
+      "verdict": "not-packshot-lead",
+      "seen": "Single loose twisted chicken & fish stick on white, no pack; matches Premio Sticks chicken breast & fish - loose treats only; pack shot exists later in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3305.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3308,
+      "verdict": "ok",
+      "seen": "Trixie Premio Sticks 'with chicken breast & fish' pouch, #31747 printed; no weight visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3308.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 496,
+    "sku": "31709",
+    "label": "Rabbit 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Rabbit",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3278,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose reddish rabbit sticks on white, no pack - loose treats only; pack shot exists later in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3278.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3281,
+      "verdict": "ok",
+      "seen": "Trixie Premio Sticks 'with rabbit' pouch, #31709 printed; no weight visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3281.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5966,
+      "verdict": "ok",
+      "seen": "Trixie Premio Sticks 'with rabbit' pouch (alt render), #31709 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5966.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3284,
+      "verdict": "unclear",
+      "seen": "Store scene, hand holding thin pale beige sticks over Trixie treat bins; no pack, sticks do not look like the reddish rabbit sticks - cannot confirm this product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3284.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "393",
+  "product": "Bones with Duck and Rice",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 500,
+    "sku": "31742",
+    "label": "80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3299,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose duck & rice bone-shaped treats on white - loose treats only; pack shot exists later in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3299.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3302,
+      "verdict": "ok",
+      "seen": "Trixie Premio Bones 'with Duck & Rice' pouch, #31742 printed; no weight visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3302.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "395",
+  "product": "Wheels with chicken breast & fish",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 502,
+    "sku": "31748",
+    "label": "75 g",
+    "size_label": "75 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3311,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose spiral wheel treats (chicken & fish) on white - loose treats only; pack shot exists later in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3311.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 5975,
+      "verdict": "ok",
+      "seen": "Close-up of a single spiral wheel treat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5975.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 5978,
+      "verdict": "ok",
+      "seen": "Four spiral wheel treats close-up",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5978.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 3314,
+      "verdict": "ok",
+      "seen": "Trixie Premio Wheels 'with chicken breast & fish' pouch, #31748 printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3314.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "396",
+  "product": "Corn Dogs with Duck",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 503,
+    "sku": "31749",
+    "label": "4 pcs./100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3317,
+      "verdict": "not-packshot-lead",
+      "seen": "Four loose corn-dog sticks (coated, rawhide stick) on white - loose treats only; pack shot exists later in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3317.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3320,
+      "verdict": "ok",
+      "seen": "Trixie Snack Corn Dogs 'with duck' pouch, #31749, 4 sticks visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3320.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3323,
+      "verdict": "ok",
+      "seen": "Lifestyle: hand offering a corn-dog stick to a labrador (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3323.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "398",
+  "product": "Sticks with Chicken and Fish",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 505,
+    "sku": "31803",
+    "label": "300 g",
+    "size_label": "300 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3329,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose chicken & pollock stripes pile on white - loose treats only; pack shot exists later in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3329.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3332,
+      "verdict": "ok",
+      "seen": "Trixie Premio Stripes 'with chicken & pollock' XXL Pack pouch, #31803 printed (product name says Sticks, pack says Stripes - same article)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3332.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "402",
+  "product": "Soft Snack Stars with Lamb",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 509,
+    "sku": "42733",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3353,
+      "verdict": "not-packshot-lead",
+      "seen": "Loose multicolour soft star treats on white - loose treats only; pack shot exists later in gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3353.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3356,
+      "verdict": "unclear",
+      "seen": "Older 'Kitty Stars with salmon and lamb' tub design, #42733 printed - same article but pack names salmon & lamb, not the current lamb-only pack; confirm which pack is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3356.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3359,
+      "verdict": "ok",
+      "seen": "Trixie Soft Snack Stars 'with Lamb' cat tub, #42733 printed; no weight visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3359.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 5993,
+      "verdict": "unclear",
+      "seen": "Older 'Kitty Stars with salmon and lamb' tub with stars in front, #42733 - flavour wording differs from current lamb pack; confirm stocked pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5993.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "406",
+  "product": "Rope Ball, ø 9 cm",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 513,
+    "sku": "32814",
+    "label": "ø 9 cm",
+    "size_label": null,
+    "options": "Toy Type=Rope & Tug; Material=Cotton; Toy Size=9 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8873,
+      "verdict": "ok",
+      "seen": "Pastel lilac/mint/grey cotton rope knot ball",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8873.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8876,
+      "verdict": "ok",
+      "seen": "Same pastel rope knot ball, front view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8876.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8882,
+      "verdict": "ok",
+      "seen": "Same pastel rope knot ball, other view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8882.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 7951,
+      "verdict": "wrong-colour",
+      "seen": "Pink rope knot ball with white/lime stripes (zoovet image) - different colourway/design from the pastel ball in pos 0-2",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7951.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "411",
+  "product": "Dumbbell with Soft Ends, rubber, 17 cm",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 518,
+    "sku": "33360",
+    "label": "17 cm",
+    "size_label": null,
+    "options": "Toy Type=Latex & Rubber; Material=Rubber; Toy Size=17 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9560,
+      "verdict": "unclear",
+      "seen": "Red nubby rubber dumbbell with bell hole; no 'soft ends' visible and size not shown - cannot confirm it is the 'Dumbbell with Soft Ends 17 cm'",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9560.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "422",
+  "product": "Mouse, latex, 22 cm",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 529,
+    "sku": "35232",
+    "label": "22 cm",
+    "size_label": null,
+    "options": "Toy Type=Latex & Rubber; Material=Latex; Toy Size=22 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3383,
+      "verdict": "not-packshot-lead",
+      "seen": "Two latex rats (beige and grey) side by side - assortment group shot, not a single item",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3383.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "459",
+  "product": "Coat Care Glove",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 566,
+    "sku": "23132",
+    "label": "16 × 24 cm, pink/black",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3539,
+      "verdict": "not-packshot-lead",
+      "seen": "pink/black grooming glove worn on a hand and forearm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3539.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3542,
+      "verdict": "ok",
+      "seen": "glove back side, black mesh, Trixie tag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3542.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3545,
+      "verdict": "ok",
+      "seen": "pink/black grooming glove alone, palm side, Trixie tag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3545.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6293,
+      "verdict": "ok",
+      "seen": "glove angled, pink nubs",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6293.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6296,
+      "verdict": "ok",
+      "seen": "glove palm side, upright",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6296.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 3548,
+      "verdict": "ok",
+      "seen": "lifestyle: woman using glove on long-haired cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3548.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6299,
+      "verdict": "ok",
+      "seen": "lifestyle cut-out: glove on cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6299.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6302,
+      "verdict": "ok",
+      "seen": "lifestyle: glove on cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6302.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 6305,
+      "verdict": "ok",
+      "seen": "lifestyle: woman wearing pink glove",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6305.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 6308,
+      "verdict": "ok",
+      "seen": "lifestyle: glove on cat, close",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6308.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "469",
+  "product": "Fur Care Glove, 16 × 24 cm, dark grey/blue",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 576,
+    "sku": "23393",
+    "label": "16 × 24 cm, dark grey/blue",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3581,
+      "verdict": "ok",
+      "seen": "Five-finger glove, black mesh with dark grey-blue rubber nub pad, Trixie tag, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3581.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3584,
+      "verdict": "ok",
+      "seen": "Same glove, black mesh back side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3584.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3587,
+      "verdict": "ok",
+      "seen": "Same grey-blue glove worn on a hand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3587.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6350,
+      "verdict": "wrong-colour",
+      "seen": "Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6350.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6353,
+      "verdict": "wrong-colour",
+      "seen": "Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6353.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6356,
+      "verdict": "wrong-colour",
+      "seen": "Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6356.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6359,
+      "verdict": "wrong-colour",
+      "seen": "Five-finger glove with bright turquoise pad - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6359.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6362,
+      "verdict": "ok",
+      "seen": "Grey-blue pad glove, front view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6362.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 6365,
+      "verdict": "ok",
+      "seen": "Grey-blue pad glove, close-up with Trixie tag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6365.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 6368,
+      "verdict": "ok",
+      "seen": "Grey-blue pad glove, flat view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6368.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 3590,
+      "verdict": "ok",
+      "seen": "Lifestyle: glove back (black mesh) on a terrier; colour of pad not shown, same shoot as grey-blue version",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3590.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 6371,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle close-up: glove with turquoise pad on a dog - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6371.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 6374,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: glove with turquoise pad on a golden retriever - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6374.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 6377,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle outdoors: glove with turquoise pad - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6377.jpg"
+     },
+     {
+      "pos": 14,
+      "media": 6380,
+      "verdict": "ok",
+      "seen": "Lifestyle: glove back, grey-blue pad edge visible, on terrier",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6380.jpg"
+     },
+     {
+      "pos": 15,
+      "media": 6383,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle outdoors: glove back, turquoise pad visible at fingertips - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6383.jpg"
+     },
+     {
+      "pos": 16,
+      "media": 6386,
+      "verdict": "unclear",
+      "seen": "Lifestyle outdoors: only black glove back visible; pad colour not shown, same shoot as turquoise version",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6386.jpg"
+     },
+     {
+      "pos": 17,
+      "media": 6389,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle on sofa: glove back, turquoise pad visible at fingertips - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6389.jpg"
+     },
+     {
+      "pos": 18,
+      "media": 6392,
+      "verdict": "unclear",
+      "seen": "Lifestyle on sofa: only black glove back visible; pad colour not shown, same shoot as turquoise version",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6392.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "470",
+  "product": "Soft Brush with Brush Cleaner, wooden handle",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 577,
+    "sku": "2353",
+    "label": "6 × 13 cm",
+    "size_label": null,
+    "options": "Size=6 × 13 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3593,
+      "verdict": "not-packshot-lead",
+      "seen": "Shows only the black plastic brush-cleaner comb, not the wooden-handle soft brush itself",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3593.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3596,
+      "verdict": "ok",
+      "seen": "Small slicker brush with wooden handle and steel frame",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3596.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1297,
+    "sku": "2354",
+    "label": "9 × 13 cm",
+    "size_label": null,
+    "options": "Size=9 × 13 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3599,
+      "verdict": "ok",
+      "seen": "Larger slicker brush with wooden handle and steel frame",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3599.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "473",
+  "product": "Face and Paw Scissors",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 580,
+    "sku": "2360",
+    "label": "8 cm",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3602,
+      "verdict": "ok",
+      "seen": "Face/paw scissors, rounded tips, black/grey-blue handles, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3602.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6401,
+      "verdict": "wrong-colour",
+      "seen": "Same scissors with turquoise/black handles; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6401.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6404,
+      "verdict": "wrong-colour",
+      "seen": "Same scissors with turquoise/black handles; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6404.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6407,
+      "verdict": "wrong-colour",
+      "seen": "Same scissors with turquoise/black handles; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6407.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6410,
+      "verdict": "ok",
+      "seen": "Grey-blue scissors, angled view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6410.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6413,
+      "verdict": "ok",
+      "seen": "Grey-blue scissors, closed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6413.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6416,
+      "verdict": "ok",
+      "seen": "Grey-blue scissors, open, side view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6416.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6419,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-handled scissors trimming paw fur; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6419.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 6422,
+      "verdict": "wrong-colour",
+      "seen": "Hand holding turquoise-handled scissors; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6422.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 6425,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-handled scissors at dog's face; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6425.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 6428,
+      "verdict": "wrong-colour",
+      "seen": "Hand demo: turquoise-handled scissors; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6428.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "475",
+  "product": "Claw Scissors, 12 cm",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 582,
+    "sku": "2367",
+    "label": "12 cm",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3608,
+      "verdict": "ok",
+      "seen": "Claw clippers/scissors, black with grey-blue grips, spring, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3608.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3611,
+      "verdict": "ok",
+      "seen": "Same grey-blue claw clipper, angled",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3611.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 3614,
+      "verdict": "ok",
+      "seen": "Same grey-blue claw clipper, back side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3614.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6434,
+      "verdict": "wrong-colour",
+      "seen": "Same claw clipper with turquoise grips; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6434.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6437,
+      "verdict": "ok",
+      "seen": "Grey-blue claw clipper, angled",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6437.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6440,
+      "verdict": "ok",
+      "seen": "Grey-blue claw clipper, closed side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6440.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6443,
+      "verdict": "ok",
+      "seen": "Grey-blue claw clipper, closed side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6443.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6446,
+      "verdict": "ok",
+      "seen": "Grey-blue claw clipper, closed front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6446.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 6449,
+      "verdict": "ok",
+      "seen": "Grey-blue claw clipper, closed front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6449.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 6452,
+      "verdict": "ok",
+      "seen": "Grey-blue claw clipper, open horizontal",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6452.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 6455,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-grip clipper cutting dog claws; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6455.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 6458,
+      "verdict": "wrong-colour",
+      "seen": "Hand holding turquoise-grip clipper; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6458.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 6461,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-grip clipper on dog paw; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6461.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 6464,
+      "verdict": "wrong-colour",
+      "seen": "Hand holding turquoise-grip clipper; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6464.jpg"
+     },
+     {
+      "pos": 14,
+      "media": 6467,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-grip clipper on dog paw; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6467.jpg"
+     },
+     {
+      "pos": 15,
+      "media": 6470,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle banner crop: turquoise-grip clipper; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6470.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "479",
+  "product": "Claw Scissors, 8 cm, dark grey/blue",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 586,
+    "sku": "2373",
+    "label": "8 cm, dark grey/blue",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3632,
+      "verdict": "ok",
+      "seen": "Small cat claw scissors, black/grey-blue handles, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3632.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6500,
+      "verdict": "wrong-colour",
+      "seen": "Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6500.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6503,
+      "verdict": "wrong-colour",
+      "seen": "Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6503.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6506,
+      "verdict": "wrong-colour",
+      "seen": "Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6506.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6509,
+      "verdict": "ok",
+      "seen": "Grey-blue claw scissors, closed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6509.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6512,
+      "verdict": "ok",
+      "seen": "Grey-blue claw scissors, angled",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6512.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6515,
+      "verdict": "ok",
+      "seen": "Grey-blue claw scissors, horizontal",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6515.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6518,
+      "verdict": "wrong-colour",
+      "seen": "Same claw scissors with turquoise handles - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6518.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 6521,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-handled claw scissors on white cat - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6521.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 6524,
+      "verdict": "ok",
+      "seen": "Lifestyle: grey-blue claw scissors on white cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6524.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "482",
+  "product": "Coat Untangler, medium teeth",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 589,
+    "sku": "23772",
+    "label": "22 cm, dark grey/blue",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3641,
+      "verdict": "ok",
+      "seen": "Medium-tooth comb, dark grey/blue handle, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3641.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 6533,
+      "verdict": "ok",
+      "seen": "Same comb, grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6533.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6536,
+      "verdict": "wrong-colour",
+      "seen": "Same comb with turquoise handle - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6536.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6539,
+      "verdict": "ok",
+      "seen": "Same comb, grey-blue, horizontal",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6539.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "497",
+  "product": "Soft Brush, 19 cm",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 604,
+    "sku": "24155",
+    "label": "19 cm",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3701,
+      "verdict": "ok",
+      "seen": "Detangling soft brush, dark grey/blue body, Trixie logo, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3701.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3704,
+      "verdict": "ok",
+      "seen": "Same grey-blue brush, face view",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3704.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6590,
+      "verdict": "wrong-colour",
+      "seen": "Same brush shape in turquoise/black; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6590.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6593,
+      "verdict": "wrong-colour",
+      "seen": "Same brush shape in turquoise; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6593.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6596,
+      "verdict": "wrong-colour",
+      "seen": "Same brush shape in turquoise; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6596.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6599,
+      "verdict": "wrong-colour",
+      "seen": "Same brush in turquoise/black, side; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6599.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 6602,
+      "verdict": "wrong-colour",
+      "seen": "Same brush in turquoise/black, side; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6602.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 6605,
+      "verdict": "ok",
+      "seen": "Grey-blue brush, angled",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6605.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 6608,
+      "verdict": "ok",
+      "seen": "Grey-blue brush, side (grey back)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6608.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 3707,
+      "verdict": "ok",
+      "seen": "Lifestyle: grey-blue brush on brown dog",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3707.jpg"
+     },
+     {
+      "pos": 10,
+      "media": 6611,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-tooth brush on brown dog; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6611.jpg"
+     },
+     {
+      "pos": 11,
+      "media": 6614,
+      "verdict": "wrong-colour",
+      "seen": "Hand holding turquoise brush; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6614.jpg"
+     },
+     {
+      "pos": 12,
+      "media": 6617,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: turquoise-tooth brush on brown dog; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6617.jpg"
+     },
+     {
+      "pos": 13,
+      "media": 6620,
+      "verdict": "wrong-colour",
+      "seen": "Hand holding black/turquoise brush; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6620.jpg"
+     },
+     {
+      "pos": 14,
+      "media": 6623,
+      "verdict": "wrong-colour",
+      "seen": "Lifestyle: black/turquoise brush on white cat; lead shows grey-blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6623.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "499",
+  "product": "Carding Groomer",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 606,
+    "sku": "24173",
+    "label": "8 × 14 cm, dark grey/blue",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 3716,
+      "verdict": "ok",
+      "seen": "Deshedding/carding tool with removable blade and release button, dark grey/blue, clean shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3716.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 3719,
+      "verdict": "ok",
+      "seen": "Same tool, side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3719.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 6645,
+      "verdict": "wrong-colour",
+      "seen": "Same tool with turquoise handle/button - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6645.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 6648,
+      "verdict": "wrong-colour",
+      "seen": "Same tool with turquoise handle, blade detached - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6648.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 6651,
+      "verdict": "wrong-colour",
+      "seen": "Same tool with turquoise handle, blade detached - turquoise/black older colour edition, variant is dark grey/blue",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6651.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 6654,
+      "verdict": "ok",
+      "seen": "Grey-blue tool head, front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6654.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 3722,
+      "verdict": "ok",
+      "seen": "Detail of removable blade head",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3722.jpg"
+     }
+    ]
+   }
+  ]
+ }
+]

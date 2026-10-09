@@ -1,0 +1,278 @@
+[
+ {
+  "product_id": "1153",
+  "sku": "005947",
+  "status": "not-found",
+  "images": [],
+  "tried": "mongebenelux.com (EAN on page, 15 kg listing) has only retail-bag infographics (7.5/12/3 kg Speciality or Daily Line bags) and a sheet, so rejected. espacemonge.fr has BfB 15 kg pages but its picture is the generic BfB bag with no recipe label (checked: Mini Adult lamb 8009470006064). petreon.lt has 15 kg BfB pages keyed by EAN but returns 403 to curl and WebFetch. mongebenelux page for 8009470005944 = Monoproteine Mini Puppy & Junior Lam met Rijst 15 kg, all 6 images show the 7.5 kg retail bag. Prior: BfB page (generic front + recipe sheet, already gallery 14050), zoovet (wrong recipe)",
+  "lens_hint": "open petreon.lt/en/dry-food/656620-...-15-kg-8009470005944.html in the headed browser; else promote the existing BfB sheet 14050 to lead"
+ },
+ {
+  "product_id": "639",
+  "sku": "006487",
+  "status": "not-found",
+  "images": [],
+  "tried": "mongebenelux.com (EAN on page, 15 kg listing) has only retail-bag infographics (7.5/12/3 kg Speciality or Daily Line bags) and a sheet, so rejected. espacemonge.fr has BfB 15 kg pages but its picture is the generic BfB bag with no recipe label (checked: Mini Adult lamb 8009470006064). petreon.lt has 15 kg BfB pages keyed by EAN but returns 403 to curl and WebFetch. mongebenelux 8009470006484 = Monoproteine Puppy & Junior Rundvlees met Rijst 15 kg, retail 12 kg bag infographics only. Prior: BfB sheet 14038 already in gallery",
+  "lens_hint": "petreon.lt BfB 15 kg page for 8009470006484 in the headed browser; else promote sheet 14038 to lead"
+ },
+ {
+  "product_id": "324",
+  "sku": "009157",
+  "status": "excluded-by-user",
+  "images": [
+   {
+    "file": "found/009157/1-domaineanimalia.jpg",
+    "url": "https://www.domaineanimalia.com/wp-content/uploads/2025/09/8009470009157.jpg",
+    "source": "domaineanimalia.com",
+    "keyed_by": "file name 8009470009157.jpg (hafo-confirmed EAN) + SKU: 8009470009157 on page SIMBA DOG WILD GAMES 1.230KG",
+    "seen": "Simba Bocconi Adult con Selvaggina current design (pheasant icon, border collie), TALL can, alone on white, 600x600, no watermark. Weight not legible, but the tall format can only be the 1230 g can: height to width about 1.9, while the 415 g can is about 1.5 (compare the vicofoodbox 415 g render)"
+   }
+  ],
+  "tried": "zooservice.it (ean13 on page, but old green design, short can, rejected), vicofoodbox (current design, short 415 g can, rejected), amicipappagalli (Gemon image, wrong brand), carrefour.it / quattrozampeshop (Cloudflare 403), carrefour.ke (empty). Prior: monge.it, zoovet short-can render",
+  "lens_hint": "",
+  "excluded": "excluded by user 2026-10-07 (preview review)"
+ },
+ {
+  "product_id": "659",
+  "sku": "041537",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/041537/1-bellitalia.jpg",
+    "url": "https://www.bell-italia.com/image/catalog/products/Gran-Bonta'-Bocconi-di-Carne-per-Cani-Gr.400-0.jpg",
+    "source": "bell-italia.com",
+    "keyed_by": "EAN: 8009470041539 on bell-italia.com/en/gran-bonta-carne-gr400-cane-t08140901 (Gran Bonta Bocconi di Carne per Cani Gr.400)",
+    "seen": "Gran Bonta Bocconi cotti nel forno con CARNE 400 g can front, golden retriever, 400g printed on the can, alone on white, 870x870, no watermark"
+   },
+   {
+    "file": "found/041537/2-bellitalia.jpg",
+    "url": "https://www.bell-italia.com/image/catalog/products/Gran-Bonta'-Bocconi-di-Carne-per-Cani-Gr.400-4.jpg",
+    "source": "bell-italia.com",
+    "keyed_by": "same page, EAN 8009470041539",
+    "seen": "other front panel of the same can (Greek ME KREAS / Bocconi con carne), 400g printed, 870x870"
+   },
+   {
+    "file": "found/041537/3-bellitalia.jpg",
+    "url": "https://www.bell-italia.com/image/catalog/products/Gran-Bonta'-Bocconi-di-Carne-per-Cani-Gr.400-3.jpg",
+    "source": "bell-italia.com",
+    "keyed_by": "same page; barcode 8 009470 041539 printed on the can",
+    "seen": "side/back label: composition, Gran Bonta Bocconi con Carne 400 g., barcode 8009470041539 printed, 870x870"
+   }
+  ],
+  "tried": "bell-italia.com accepted (3 of 5 shots kept; -1 is a near-duplicate of -0, -2 is a plain text side). Checked too: italianabrand (no image), margheritacasalinghi, petsuppliesmalta (small PNG), 24sevenmegastore, italyshop.cz, agrariagioiese, aessepiforniture (no image). This is the classic Carne label; if stock is the new Bocconi con Manzo label, that 400 g design is still missing",
+  "lens_hint": "",
+  "caveat": "Classic \"Carne\" label (= our \"Meat 400 g\"); if stock carries the newer red label, that design is still missing."
+ },
+ {
+  "product_id": "901",
+  "sku": "13238",
+  "status": "not-found",
+  "images": [],
+  "tried": "amazon.de/dp/B008I07296 (MPN 13238 + GTIN 04011905132389 on page): all 5 gallery images are fitted-in-car scenes (silver car with grille = current gallery scene; line drawing = current gallery; dog in boot; close-up with grille) plus one dark-car boot shot with the split cover alone and no animal (https://m.media-amazon.com/images/I/712PPigv3PL._AC_SL1500_.jpg, 1500 px, clean). None is a pack front or the cover laid out alone. trixie.kiev.ua TX-13238 (EAN on page) has the same scenes, watermarked. eBay 334402395750 not checked (eBay images usually seller photos). Prior: trixie CDN, carrefour (dog + logo)",
+  "lens_hint": "Trixie 13238 Kofferraum-Schondecke Verpackung / packaging; if an in-car shot is acceptable, the amazon 712PPigv3PL boot shot (cover alone, no animal) is the best one"
+ },
+ {
+  "product_id": "804",
+  "sku": "200722",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie.kiev.ua TX-200722 (title Поводок-перестежка Premium двухслойный XS–S 2.00м/15мм, коралл) has the official coral double-layer lead packshot, but it is covered in www.trixie.kiev.ua watermarks plus a logo, so rejected. trixie.shop JSON for the double-layered lead lists only colours 01/02/03/16/28/31/34/35/36 (no coral 22). Probed cdn.trixie.de 1600mx1200m PHO_PRO_CLIP / DET_CLIP with 2007xx/2008xx/2009xx/2010xx coral combinations: no hits. WebSearch for the article: nothing",
+  "lens_hint": "Google Lens on https://static.trixie.kiev.ua/static/tx/xxl/trixie.kiev.ua_5271d32ac6cf6762cc994d106520b8e6.jpg to find an unwatermarked copy of the coral 200722 packshot; query Trixie Premium V-Leine doppellagig XS-S 2,00 m/15 mm koralle 200722"
+ },
+ {
+  "product_id": "805",
+  "sku": "201018",
+  "status": "not-found",
+  "images": [],
+  "tried": "trixie.shop JSON shows 2010xx = Premium Verlängerungsleine doppellagig XS 2.00 m/10 mm, current colours 01/02/03/16/28/31/34/35/36 only (papaya 18 discontinued). 201318 papaya is the single-layer Premium Verlängerungsleine, a different article, rejected. cdn.trixie.de 1600mx1200m probes with 2010 18 / 2007 18 combinations: no hits. trixie.kiev.ua search for 201018: no product. WebSearch: nothing keyed",
+  "lens_hint": "Trixie Premium Verlängerungsleine doppellagig XS 2,00 m/10 mm papaya 201018 (double-layered, not 201318)"
+ },
+ {
+  "product_id": "1012",
+  "sku": "202802",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/202802/1-petscage.jpg",
+    "url": "https://petscage.ru/wa-data/public/shop/products/63/08/20863/images/92437/92437.970.jpg",
+    "source": "petscage.ru",
+    "keyed_by": "page title Trixie 202802 + EAN CODE 4011905202822 on page (M-L 35-50 cm/20 mm, синий)",
+    "seen": "royal-blue nylon semi-choke collar with steel chain, item alone on white, 700x700, no watermark"
+   },
+   {
+    "file": "found/202802/2-placek.jpg",
+    "url": "https://trixie.placek.sk/images/thumbs/0165712_G14-20282.jpeg",
+    "source": "trixie.placek.sk",
+    "keyed_by": "EAN 4011905202822 on page (Obojek TRIXIE Premium stahovací modrý M-L, 35-50 cm, 2 cm)",
+    "seen": "same royal-blue semi-choke collar with Trixie tag, alone on white, 600x450"
+   }
+  ],
+  "tried": "re-confirmed petscage.ru/product/trixie-202802 and trixie.placek.sk (both print EAN 4011905202822, which emag also ties to art. 202802); md5-matched saved files to the page images",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "470",
+  "sku": "2353",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/2353/1-amazon.jpg",
+    "url": "https://m.media-amazon.com/images/I/51d4Jk+7FgL.jpg",
+    "source": "amazon.de",
+    "keyed_by": "amazon.de/Trixie-Hundeb%C3%BCrste-Soft-Reiniger-2353/dp/B0009585QW: title Trixie 2353 + GTIN 04011905023533 on page; trixie.kiev.ua TX-2353 (Штрих-код 4011905023533) shows the same set shot, watermarked",
+    "seen": "wooden-handle soft slicker brush plus brush-cleaner comb side by side, alone on white, 1000x1000, no watermark. FLAG: the comb in this set shot is light GREY, but Trixie current separate comb shot (CDN -10, gallery 3593) is BLACK. Same article, older photo; lead to veto if comb colour matters for picking"
+   }
+  ],
+  "tried": "amazon.de (GTIN on page; the gallery also has the black comb alone and two brush-only shots), trixie.kiev.ua TX-2353 (same set shot but heavily watermarked, rejected), petok.de / joli-design.at blocked, automais 404. Prior: trixie CDN, tiierisch (red set = wrong)",
+  "lens_hint": "if the grey-comb set is vetoed: Trixie Softbürste 2353 mit Bürstenreiniger schwarz Set",
+  "caveat": "The comb in this shot is light grey; Trixie's current comb-only photo shows a black comb. Fine unless the comb colour matters for picking."
+ },
+ {
+  "product_id": "507",
+  "sku": "25621",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/25621/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/1/800/611344_pla_trixie_zahnb_rsten_set_4x15cm_weiss_1000x1000_hs_01_1.jpg",
+    "source": "zooplus.de",
+    "keyed_by": "gtin13/ean 4011905256214 (= Trixie 25621) on zooplus.de/shop/hunde/hundepflege/zahnpflege/2395014, variant 4 Stück; file name says set_4x15cm_weiss",
+    "seen": "four white Trixie toothbrushes side by side, alone on white, 800x800, no watermark"
+   },
+   {
+    "file": "found/25621/2-djurmaxi.jpg",
+    "url": "https://www.djurmaxi.se/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/5/25621.jpg",
+    "source": "djurmaxi.se",
+    "keyed_by": "file name 25621.jpg + Streckkod/gtin 4011905256214 on djurmaxi.se/trixie-toothbrush-set-4-pack-31849.html",
+    "seen": "four white Trixie toothbrushes, alone on white, 884x1500"
+   }
+  ],
+  "tried": "re-confirmed both pages print EAN 4011905256214; md5-matched saved files to the page images. No retail-pack photo found, but the 4-brush set shot shows the full count",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "411",
+  "sku": "33360",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/33360/1-hundse.jpg",
+    "url": "https://www.hund.se/product-images/XL/trixie-apport-med-bjallra-0.jpg",
+    "source": "hund.se",
+    "keyed_by": "EAN 4011905333601 on page (Trixie Apport med bjällra, 17cm, Färg: Gul, naturgummi)",
+    "seen": "yellow natural-rubber dumbbell with soft cog-shaped ends, item alone on white, 1000x700, no watermark"
+   },
+   {
+    "file": "found/33360/2-hundse.jpg",
+    "url": "https://www.hund.se/product-images/XL/trixie-apport-med-bjallra-1.jpg",
+    "source": "hund.se",
+    "keyed_by": "EAN 4011905333601 on page",
+    "seen": "same yellow dumbbell, second angle, alone on white, 1000x694"
+   },
+   {
+    "file": "found/33360/3-hundse.jpg",
+    "url": "https://www.hund.se/product-images/XL/trixie-apport-med-bjallra-2.jpg",
+    "source": "hund.se",
+    "keyed_by": "EAN 4011905333601 on page",
+    "seen": "lifestyle: beagle sniffing the yellow dumbbell on grass, 1000x666"
+   },
+   {
+    "file": "found/33360/4-hundse.jpg",
+    "url": "https://www.hund.se/product-images/XL/trixie-apport-med-bjallra-3.jpg",
+    "source": "hund.se",
+    "keyed_by": "EAN 4011905333601 on page",
+    "seen": "lifestyle: beagle carrying the yellow dumbbell, 564x700"
+   }
+  ],
+  "tried": "re-confirmed hund.se/trixie-apport-med-bjallra (EAN 4011905333601, 17 cm, yellow) and md5-matched all 4 saved files to its XL images; prior: trixie.de/CDN, carrefour (red old design, rejected)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1215",
+  "sku": "461698V",
+  "status": "not-found",
+  "images": [],
+  "tried": "EAN-keyed pages checked and images viewed: premiumpet.si (Barcode 5410340616987, 1000 px render), alphazooshop.hu (DI461698, 2000 px render), kedvence.hu (EAN on page; group shot of 3 sizes with a kedvence.hu watermark). All show the current aha!/fun Crispy Muesli Guinea Pigs pouch, but none prints a weight on the front, and it is the same render used for the 1 kg (zocoanimal/Leclerc 5410340617113), so the shape does not prove 400 g. wasserman.eu has no image; beo-pets.pl is behind a bot wall. Prior: versele.com CDN 404, zoovet old pack",
+  "lens_hint": "\"5410340616987\" Crispy Muesli Guinea Pigs 400 g photo of a real bag showing 400 g (back or bottom); fallback for the lead to decide: premiumpet.si 400 g render (same art as 1 kg, no weight printed)"
+ },
+ {
+  "product_id": "1215",
+  "sku": "461711V",
+  "status": "not-found",
+  "images": [],
+  "tried": "EAN-keyed: media.e.leclerc/5410340617113_1 (1090 px PNG; the EAN is the file name, and the page prints EAN + Contenu net 1 kg) and zocoanimal.com (ean13 5410340617113, 1100x1422). Both are the same official aha!/fun pouch render with no weight printed anywhere on the front, identical to the 400 g render, so the size is not provable from the picture. Rejected under the printed-weight rule. Prior: Carrefour ES 381x492, bricomarche behind Cloudflare, versele.com CDN 404",
+  "lens_hint": "\"5410340617113\" Crispy Muesli Guinea Pigs 1 kg real bag photo with 1 kg printed; fallback for the lead to decide: Leclerc 5410340617113_1 render (clean, keyed, but no weight printed)"
+ },
+ {
+  "product_id": "1178",
+  "sku": "902135",
+  "status": "not-found",
+  "images": [],
+  "tried": "Pages printing EAN 4820083902130 all show a small retail kitten bag with no 11 kg on it: bild-shop.by (block-bottom pouch, no weight printed), pet24.md (pouch printing 3 кг), fourpaws.ro (new-design Для кошенят pouch, no weight). barcode-list.ru (name only). petreon.lt / pandashop.md / allegro / ek.ua / rozetka blocked (403). moyo.ua has no kitten 11 kg listing. Prior: hotline, image-search.py, barcode-lookup, kormotech.com, biopet.az",
+  "lens_hint": "\"4820083902130\" Мяу для кошенят 11 кг мішок (large sack shape, 11 kg printed); also try the petreon.lt / pandashop.md pages in the headed browser"
+ },
+ {
+  "product_id": "1156",
+  "sku": "MG006027",
+  "status": "not-found",
+  "images": [],
+  "tried": "mongebenelux.com (EAN on page, 15 kg listing) has only retail-bag infographics (7.5/12/3 kg Speciality or Daily Line bags) and a sheet, so rejected. espacemonge.fr has BfB 15 kg pages but its picture is the generic BfB bag with no recipe label (checked: Mini Adult lamb 8009470006064). petreon.lt has 15 kg BfB pages keyed by EAN but returns 403 to curl and WebFetch. mongebenelux page for 8009470006026 = Maxi Puppy & Junior Rijk aan Kip 15 kg, shows the Daily Line retail bag. petcity.rs (EAN 8009470006026 on page) has the right picture, a BfB MAXI breeder bag with the PUPPY AND JUNIOR recipe label, but it is 600 px, upscaled and has a large orange mascot logo over the corner, so rejected. ektekglobal JSON not available. Prior: BfB page (generic front, sheet shows the 3 kg bag)",
+  "lens_hint": "Google Lens on https://static.wixstatic.com/media/754add_986b63a5329a47fb982936d136062e05~mv2.png (petcity BfB MAXI Puppy & Junior labelled bag) to find a clean copy; query Monge Best for Breeders MAXI Puppy Junior 15 kg 8009470006026"
+ },
+ {
+  "product_id": "636",
+  "sku": "MG006067",
+  "status": "not-found",
+  "images": [],
+  "tried": "mongebenelux.com (EAN on page, 15 kg listing) has only retail-bag infographics (7.5/12/3 kg Speciality or Daily Line bags) and a sheet, so rejected. espacemonge.fr has BfB 15 kg pages but its picture is the generic BfB bag with no recipe label (checked: Mini Adult lamb 8009470006064). petreon.lt has 15 kg BfB pages keyed by EAN but returns 403 to curl and WebFetch. espacemonge.fr/fr/specialityline-breeders-chien/146-...-15-kg-8009470006064.html (EAN on page) shows only the generic BfB MINI bag (686x960), with no recipe label. mongebenelux 8009470006064 = 7.5 kg retail infographics. Prior: BfB sheet 14026 already in gallery",
+  "lens_hint": "petreon.lt BfB 15 kg page for 8009470006064 in the headed browser; else promote sheet 14026 to lead"
+ },
+ {
+  "product_id": "636",
+  "sku": "MG006077",
+  "status": "not-found",
+  "images": [],
+  "tried": "mongebenelux.com (EAN on page, 15 kg listing) has only retail-bag infographics (7.5/12/3 kg Speciality or Daily Line bags) and a sheet, so rejected. espacemonge.fr has BfB 15 kg pages but its picture is the generic BfB bag with no recipe label (checked: Mini Adult lamb 8009470006064). petreon.lt has 15 kg BfB pages keyed by EAN but returns 403 to curl and WebFetch. mongebenelux 8009470006071 = Monoproteine Mini Adult Zalm met Rijst 15 kg, 7.5 kg retail infographics only. Prior: BfB sheet 14032 already in gallery, zoovet retail bag",
+  "lens_hint": "petreon.lt BfB 15 kg page for 8009470006071 in the headed browser; else promote sheet 14032 to lead"
+ },
+ {
+  "product_id": "1168",
+  "sku": "MM005677",
+  "status": "found",
+  "images": [
+   {
+    "file": "found/MM005677/1-espacemonge.jpg",
+    "url": "https://www.espacemonge.fr/2267/gemon-super-energy-adulte-31-22.jpg",
+    "source": "espacemonge.fr",
+    "keyed_by": "ean13 8009470005678 on page + in URL espacemonge.fr/de/gemon-high-premium/694-gemon-super-energy-adulte-31-22-8009470005678.html (title Gemon Mini Adult Poulet - 20 kg BREEDERS)",
+    "seen": "Gemon breeder bag with the recipe label applied: Mini ADULT, CON POLLO E RISO / WITH CHICKEN AND RICE, 20 Kg printed, alone on white, 800x800, no watermark"
+   },
+   {
+    "file": "found/MM005677/2-espacemonge.jpg",
+    "url": "https://www.espacemonge.fr/2268/gemon-super-energy-adulte-31-22.jpg",
+    "source": "espacemonge.fr",
+    "keyed_by": "same page; barcode 8 009470 005678 printed on the label",
+    "seen": "close-up of the recipe label: Gemon Breeders Mini ADULT con pollo e riso, composition and feeding table, EAN 8009470005678 printed, 800x800"
+   }
+  ],
+  "tried": "espacemonge.fr accepted. Same render also on mongebenelux.com (EAN on page, only 500x707) and monge-webshop.ro (1414x2000 but no EAN or article on the page, so not keyed). petshop88.gr has no EAN. Prior: BfB page (generic bag + sheet)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1320",
+  "sku": "PM902085",
+  "status": "excluded-by-user",
+  "images": [
+   {
+    "file": "found/PM902085/1-moyo.jpg",
+    "url": "https://i.moyo.ua/img/products/6287/72_4000.jpg",
+    "source": "moyo.ua",
+    "keyed_by": "Штрихкод 4820083902086 (hafo-confirmed barcode) on moyo.ua/sukhoy_korm_myau_dlya_kotov_s_kuritsey_11kg_b1240302_/628772.html (Сухой корм Мяу для котов с курицей 11кг)",
+    "seen": "Myau red 11 kg bag, chicken flavour panel Хрустка курятина / Хрустящая курочка with 11 кг printed, item alone on white, 1154x1154, no watermark"
+   }
+  ],
+  "tried": "listex.info, bild-shop.by, zoomag.md (all print EAN 4820083902086 but show the generic red meat-picture bag with no flavour printed, rejected), hotline.ua (same generic bag), elmir.ua / zoocomplex / zoovetbaza / rozetka blocked (403/429). moyo.ua accepted. Note: the 11 kg chicken bag says Хрустка курятина; Апетитна курятина is the 300 g pack wording",
+  "lens_hint": "",
+  "excluded": "excluded by user 2026-10-07 (preview review)"
+ }
+]

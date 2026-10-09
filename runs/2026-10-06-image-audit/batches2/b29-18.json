@@ -1,0 +1,966 @@
+[
+ {
+  "product_id": "1106",
+  "product": "Vitamin B Complex",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1587,
+    "sku": "12523",
+    "label": "50 ml",
+    "size_label": "50 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11364",
+      "file": "12523-hero_1605888918",
+      "dims": "422x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11364.jpg",
+      "md5": "61867f124794428b6bf2c77a1134e4a5"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1107",
+  "product": "Kitty's Protein",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1588,
+    "sku": "BP12510",
+    "label": "75 tablets",
+    "size_label": "75 pcs",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11367",
+      "file": "12510-hero_1605888890",
+      "dims": "796x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11367.jpg",
+      "md5": "8ebb3c77c1daa90570ebf81801befe30"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1108",
+  "product": "Play Spray",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1589,
+    "sku": "BP12526",
+    "label": "150 ml",
+    "size_label": "150 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11370",
+      "file": "12526-hero_1605888923",
+      "dims": "244x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11370.jpg",
+      "md5": "75abdd611a9963f94a44c6183198a154"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1109",
+  "product": "Puppy Trainer",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1590,
+    "sku": "12562",
+    "label": "50 ml",
+    "size_label": "50 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11373",
+      "file": "12562_01",
+      "dims": "226x462",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11373.jpg",
+      "md5": "190dff700c7f391ba764227f31acdd1a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1110",
+  "product": "Flea & Tick Collar for Cats",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1591,
+    "sku": "10203",
+    "label": "35 cm, orange",
+    "size_label": null,
+    "options": "Color Family=Orange; Size=35 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11816",
+      "file": "10203_Flea_Tick_Collar_Cats_Orange_2015_01",
+      "dims": "540x540",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11816.jpg",
+      "md5": "8220b03e88c501faea1f1ee0c7fecc54"
+     }
+    ]
+   },
+   {
+    "variant_id": 1592,
+    "sku": "10202",
+    "label": "35 cm, purple",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=35 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11819",
+      "file": "10202_Flea_Tick_Collar_Cats_Violet_2015_01",
+      "dims": "540x540",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11819.jpg",
+      "md5": "9058dc0fbefccb801a7d35ddbd4314db"
+     }
+    ]
+   },
+   {
+    "variant_id": 2059,
+    "sku": "10201",
+    "label": "35 cm, green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=35 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14875",
+      "file": "8711231102013_1.jpg",
+      "dims": "540x540",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14875.jpg",
+      "md5": "567c636218031ebe83fe7281b0570905"
+     }
+    ]
+   },
+   {
+    "variant_id": 2060,
+    "sku": "REG00118",
+    "label": "35 cm, blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=35 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14878",
+      "file": "ge-catalog-product-upload-ME000007121.jpg",
+      "dims": "400x500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14878.jpg",
+      "md5": "94b39e8b6bec37bfc731c11cccf657ab"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1111",
+  "product": "Catty Home",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1593,
+    "sku": "12566",
+    "label": "10 ml",
+    "size_label": "10 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11822",
+      "file": "12566_Catty_Home_2008_01",
+      "dims": "540x540",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11822.png",
+      "md5": "8ac4b66dcf6d200143c2d9af91c63d7b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1112",
+  "product": "Malt Paste",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1594,
+    "sku": "13689",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11376",
+      "file": "13689",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11376.jpg",
+      "md5": "a77729cdf13c794f2d8fc55767ada90d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1113",
+  "product": "Paw Balm",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1595,
+    "sku": "10270",
+    "label": "40 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11379",
+      "file": "10270",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11379.jpg",
+      "md5": "3468adafd827656278d384dd21860bb1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1114",
+  "product": "Cat-a-dent Bits",
+  "brand": "Beaphar",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1596,
+    "sku": "11406",
+    "label": "35 g",
+    "size_label": "35 g",
+    "options": "Health Feature=Dental & Breath Care",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11382",
+      "file": "11406",
+      "dims": "408x734",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11382.jpg",
+      "md5": "a97c0689708f135d520c544884afd8ed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1115",
+  "product": "Malt Bits",
+  "brand": "Beaphar",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1597,
+    "sku": "12622",
+    "label": "Original 35 g",
+    "size_label": "35 g",
+    "options": "Flavor=Malt; Health Feature=Hairball Control",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11385",
+      "file": "12622-hero_1605889082",
+      "dims": "554x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11385.jpg",
+      "md5": "2800fd2a7cbcf7830c2af7ff050a3303"
+     }
+    ]
+   },
+   {
+    "variant_id": 1598,
+    "sku": "12621",
+    "label": "Salmon 35 g",
+    "size_label": "35 g",
+    "options": "Flavor=Salmon; Health Feature=Hairball Control",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11388",
+      "file": "12621-hero_1605889080",
+      "dims": "557x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11388.jpg",
+      "md5": "386d6c5ce522827e857b4f455e2a686a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1116",
+  "product": "BIO Cosmetic Shampoo Puppy",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1599,
+    "sku": "12281",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11391",
+      "file": "12281-hero_1613835824",
+      "dims": "452x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11391.jpg",
+      "md5": "c313e84a39db4a929d75728632e940ad"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1117",
+  "product": "BIO Cosmetic Shampoo Shiny Coat",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1600,
+    "sku": "12282",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11394",
+      "file": "12282-hero_1613835828",
+      "dims": "452x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11394.jpg",
+      "md5": "d7ce5ecfd146b6bfd99edc5afed45995"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1118",
+  "product": "BIO Cosmetic Shampoo Sensitive",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1601,
+    "sku": "12287",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11397",
+      "file": "12287-hero_1613835836",
+      "dims": "452x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11397.jpg",
+      "md5": "c5d1306022adc35f0886692a8bb3f28c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1119",
+  "product": "White Coat Shampoo for Dogs",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1602,
+    "sku": "19983",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11400",
+      "file": "19983_SHAMPOO_WHITE_DOG",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11400.jpg",
+      "md5": "f01790acb2bb3380883c64e2f541d0fc"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1120",
+  "product": "Universal Shampoo for Dogs",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1603,
+    "sku": "19967",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11403",
+      "file": "19967_SHAMPOO_UNIVERSAL",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11403.jpg",
+      "md5": "839d8cd4b37307e8db90885f7c18fbaf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1121",
+  "product": "Cat Shampoo",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1604,
+    "sku": "19963",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11406",
+      "file": "19963_SHAMPOO_CAT",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11406.jpg",
+      "md5": "ece5cbee2398ca7e515098d111ae3e44"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1122",
+  "product": "Puppy Shampoo",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1605,
+    "sku": "19905",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11409",
+      "file": "19905_SHAMPOO_PUPPY",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11409.jpg",
+      "md5": "7f1bec4230c134dfff31263327cb933c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1123",
+  "product": "Long Coat Shampoo for Dogs",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1606,
+    "sku": "13843",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11412",
+      "file": "13843_SHAMPOO_LONG_COAT",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11412.jpg",
+      "md5": "accaa82fc79d38ae0fba54586205b42f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1124",
+  "product": "Brown Coat Shampoo for Dogs",
+  "brand": "Beaphar",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1607,
+    "sku": "14206",
+    "label": "250 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11415",
+      "file": "14206_SHAMPOO_BROWN_DOG",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11415.jpg",
+      "md5": "dc7df8f4d55d32d5c8ce428d9bbacb28"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1125",
+  "product": "Dezacid Forte Eye & Nasal Drops",
+  "brand": "Pchelodar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1608,
+    "sku": "63911PCHL",
+    "label": "10 ml",
+    "size_label": "10 ml",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11418",
+      "file": "0627b25897f713daf2cf92c5c3593e3e",
+      "dims": "1929x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11418.jpg",
+      "md5": "757a9a9f8e4711695dd7f7cec96f02d5"
+     },
+     {
+      "pos": 1,
+      "media": "11421",
+      "file": "34d227abbf9a5efeafb9cd497232bf6a",
+      "dims": "800x1132",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11421.jpg",
+      "md5": "3b9c11751548be15db3868a4a45059e4"
+     },
+     {
+      "pos": 2,
+      "media": "11424",
+      "file": "f8511b88044811d8856231c3d50608bc",
+      "dims": "900x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11424.jpg",
+      "md5": "b5a9c3a0258098dd26bd95eabd65256e"
+     },
+     {
+      "pos": 3,
+      "media": "11427",
+      "file": "wnscrvsxt7kyu6z6ofa327iiw7obdjdd",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11427.jpg",
+      "md5": "386de1c0e2678ab0b0c1f993df985982"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1126",
+  "product": "Otidez Forte Ear Drops",
+  "brand": "Pchelodar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1609,
+    "sku": "63833PCHL",
+    "label": "15 ml",
+    "size_label": "15 ml",
+    "options": "",
+    "hafo_title_hy": "ОТИДЕЗ ФОРТЕ, ականջի բուժական կաթիլներ կենդանիների համար, 15 մլ",
+    "hafo_variant_hy": "Կաթիլներ կենդանիների ականջների համար, Отидез форте, 15մլ/1623 (1142/63480PCHL)",
+    "ean": "4607145634808",
+    "images": [
+     {
+      "pos": 0,
+      "media": "11430",
+      "file": "1e04ebb435f64a16f92c02ed1949eb0c",
+      "dims": "900x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11430.jpg",
+      "md5": "d7d2ab2eb78b1fec96ed0f41b3ad3202"
+     },
+     {
+      "pos": 1,
+      "media": "11433",
+      "file": "376b686ffdc0aa0ee61fdbd1c94cd732",
+      "dims": "900x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11433.jpg",
+      "md5": "588595220d18b1404d08f8cf82180f00"
+     },
+     {
+      "pos": 2,
+      "media": "11436",
+      "file": "5f54a13b9d781c80bb17cb41d8061cbf",
+      "dims": "800x839",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11436.jpg",
+      "md5": "34dd63d554a52d1a4d1828523939ee17"
+     },
+     {
+      "pos": 3,
+      "media": "11439",
+      "file": "p7y2i7lg2gu4yidioybdtc77pjpakov2",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11439.jpg",
+      "md5": "eb184634b313108e29d7724af8c00dbf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1127",
+  "product": "eXtreme Compact Clumping Litter",
+  "brand": "Versele-Laga",
+  "type": "Litter",
+  "variants": [
+   {
+    "variant_id": 1610,
+    "sku": "423079V",
+    "label": "7.5 l",
+    "size_label": "7.5 L",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11442",
+      "file": "5410340230794pack",
+      "dims": "800x958",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11442.jpg",
+      "md5": "5b45e7c37474bbe9b83a171f2e07454f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1128",
+  "product": "Senegal Clay Litter",
+  "brand": "Versele-Laga",
+  "type": "Litter",
+  "variants": [
+   {
+    "variant_id": 1611,
+    "sku": "423074V",
+    "label": "12 l",
+    "size_label": "12 L",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11445",
+      "file": "5410340230749pack",
+      "dims": "800x958",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11445.jpg",
+      "md5": "35ae61ea83635930260276a282efa3fe"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1129",
+  "product": "Silica Litter",
+  "brand": "Versele-Laga",
+  "type": "Litter",
+  "variants": [
+   {
+    "variant_id": 1612,
+    "sku": "423080V",
+    "label": "5 l",
+    "size_label": "5 L",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11448",
+      "file": "5410340230800pack",
+      "dims": "800x958",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11448.jpg",
+      "md5": "dfe980d457a1850cc5406b44166c20f1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1130",
+  "product": "Clumping Wood Litter, Peach",
+  "brand": "Eco-Premium",
+  "type": "Litter",
+  "variants": [
+   {
+    "variant_id": 1613,
+    "sku": "48905E",
+    "label": "5 l",
+    "size_label": "5 L",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11451",
+      "file": "green-pered",
+      "dims": "2000x1974",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11451.jpg",
+      "md5": "4c28b5edf96045b3c259c4431cfc3003"
+     },
+     {
+      "pos": 1,
+      "media": "11454",
+      "file": "green-zad",
+      "dims": "2000x1974",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11454.jpg",
+      "md5": "4b40c2486faacd355dffa93c4c72889d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1131",
+  "product": "Clumping Wood Litter, Green Tea",
+  "brand": "Eco-Premium",
+  "type": "Litter",
+  "variants": [
+   {
+    "variant_id": 1614,
+    "sku": "48893E",
+    "label": "5 l",
+    "size_label": "5 L",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11451",
+      "file": "green-pered",
+      "dims": "2000x1974",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11451.jpg",
+      "md5": "4c28b5edf96045b3c259c4431cfc3003"
+     },
+     {
+      "pos": 1,
+      "media": "11454",
+      "file": "green-zad",
+      "dims": "2000x1974",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11454.jpg",
+      "md5": "4b40c2486faacd355dffa93c4c72889d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1132",
+  "product": "Crunchy Pillows for Kittens",
+  "brand": "Mnyams",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1615,
+    "sku": "548833",
+    "label": "Chicken & Egg with Taurine 60 g",
+    "size_label": "60 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "11457",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_1",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11457.jpg",
+      "md5": "feea3722b25474281b9b9dbe386a27f4"
+     },
+     {
+      "pos": 1,
+      "media": "11460",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_2",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11460.jpg",
+      "md5": "be99e6db807c6ac495c4374ab4606b1b"
+     },
+     {
+      "pos": 2,
+      "media": "11463",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_11",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11463.jpg",
+      "md5": "7d6fac2bcfdb8c42e86ab8d612b39f55"
+     },
+     {
+      "pos": 3,
+      "media": "11466",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_12",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11466.jpg",
+      "md5": "83ce57f503cb233bcf7e812608c1e121"
+     },
+     {
+      "pos": 4,
+      "media": "11469",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_13",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11469.jpg",
+      "md5": "1a99bc3ae87912a41eef1b9e00ea5992"
+     },
+     {
+      "pos": 5,
+      "media": "11472",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_14",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11472.jpg",
+      "md5": "4f15c2ca7bea59022d070c58152b1063"
+     },
+     {
+      "pos": 6,
+      "media": "11475",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_15",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11475.jpg",
+      "md5": "2093b05de3cd91f226424e42d22b22cb"
+     },
+     {
+      "pos": 7,
+      "media": "11478",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_16",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11478.jpg",
+      "md5": "84ab0dba28ac8cf760f8112ff5f2128a"
+     },
+     {
+      "pos": 8,
+      "media": "11481",
+      "file": "501e42f1-3702-11f0-8528-000c29a460e0_1x1_17",
+      "dims": "1500x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11481.jpg",
+      "md5": "e8e6773c477a4fb99e44413764df257e"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,23 @@
+{
+  // OpenCode project configuration. See .opencode/README.md for the layout.
+  "$schema": "https://opencode.ai/config.json",
+
+  // OpenCode does not read Claude Code's .mcp.json, so the chrome-devtools MCP
+  // server the brand-site skills drive is configured here instead.
+  "mcp": {
+    "servers": {
+      "chrome-devtools": {
+        "type": "local",
+        "command": ["npx", "-y", "chrome-devtools-mcp@latest"]
+      }
+    }
+  },
+
+  // The Siruk admin has a demo and a production environment. Demo writes are
+  // the day-to-day default; anything that talks to production asks first.
+  // (During a supervised production run you can answer "Allow always", or
+  // lower this rule to "allow" in a local, uncommitted config.)
+  "permissions": [
+    { "action": "shell", "resource": "*api.siruk.am*", "effect": "ask" }
+  ]
+}

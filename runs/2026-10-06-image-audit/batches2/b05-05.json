@@ -1,0 +1,354 @@
+[
+ {
+  "product_id": "353",
+  "product": "Filets",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 457,
+    "sku": "31532",
+    "label": "Chicken Breast 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2984",
+      "file": "PHO_PRO_CLIP_31528-31532-31801-3_-SALL_-AWK_-V1",
+      "dims": "1600x898",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2984.jpg",
+      "md5": "e3e8b72e10914038e956b4ff26d6f009"
+     },
+     {
+      "pos": 1,
+      "media": "2987",
+      "file": "PHO_PAC_CLIP_31532-4_-SALL_-AWK_-V1",
+      "dims": "788x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2987.jpg",
+      "md5": "56d78f64b26228213b344a7cdd24df87"
+     }
+    ]
+   },
+   {
+    "variant_id": 458,
+    "sku": "31801",
+    "label": "Chicken Breast 300 g",
+    "size_label": "300 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13942",
+      "file": "458-1.jpg",
+      "dims": "913x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13942.jpg",
+      "md5": "e9e4652dffea4e3d446878eb51c68b31"
+     },
+     {
+      "pos": 1,
+      "media": "2984",
+      "file": "PHO_PRO_CLIP_31528-31532-31801-3_-SALL_-AWK_-V1",
+      "dims": "1600x898",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2984.jpg",
+      "md5": "e3e8b72e10914038e956b4ff26d6f009"
+     },
+     {
+      "pos": 2,
+      "media": "2990",
+      "file": "PHO_PAC_CLIP_31801-2_-SALL_-AWK_-V1",
+      "dims": "913x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2990.jpg",
+      "md5": "e9e4652dffea4e3d446878eb51c68b31"
+     }
+    ]
+   },
+   {
+    "variant_id": 1384,
+    "sku": "31859",
+    "label": "Beef 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4085",
+      "file": "PHO_PRO_CLIP_31859-1_-SALL_-AWK_-V1",
+      "dims": "1600x505",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4085.jpg",
+      "md5": "c9b50ecfc5a2de22f1bcc913b99e5b5c"
+     },
+     {
+      "pos": 1,
+      "media": "4088",
+      "file": "PHO_PRO_CLIP_31859-2_-SALL_-AWK_-V1",
+      "dims": "1600x939",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4088.jpg",
+      "md5": "5998af4949cd9d870c47d91e9053874e"
+     },
+     {
+      "pos": 2,
+      "media": "6961",
+      "file": "PHO_PRO_CLIP_31859-3_-SALL_-AWK_-V1",
+      "dims": "1167x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6961.jpg",
+      "md5": "1958eabc6d949dd67513ae2dc64f34d9"
+     },
+     {
+      "pos": 3,
+      "media": "4091",
+      "file": "PHO_PAC_CLIP_31859-2_-SALL_-AWK_-V1",
+      "dims": "712x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4091.jpg",
+      "md5": "aeb0402fe7a037948b74becc84700c29"
+     },
+     {
+      "pos": 4,
+      "media": "4094",
+      "file": "PHO_PRO_DOG_31859-1_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4094.jpg",
+      "md5": "b774707c84ae93f22bc6e7f76041cbb5"
+     },
+     {
+      "pos": 5,
+      "media": "4097",
+      "file": "PHO_PRO_DOG_31859-3_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4097.jpg",
+      "md5": "a0002d6951ea58e9f582febd0f44d6f9"
+     },
+     {
+      "pos": 6,
+      "media": "6964",
+      "file": "PHO_PRO_DOG_31859-2_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6964.jpg",
+      "md5": "b852d1b7c1b4dfbe1ed731731cadbbfe"
+     }
+    ]
+   },
+   {
+    "variant_id": 1385,
+    "sku": "31858",
+    "label": "Lamb 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4070",
+      "file": "PHO_PRO_CLIP_31858-1_-SALL_-AWK_-V1",
+      "dims": "1600x1015",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4070.jpg",
+      "md5": "1077e1c86d513768b2d8c087f66a783a"
+     },
+     {
+      "pos": 1,
+      "media": "4073",
+      "file": "PHO_PRO_CLIP_31858-2_-SALL_-AWK_-V1",
+      "dims": "1600x526",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4073.jpg",
+      "md5": "f70f30c96f910480b43940b3db385dc6"
+     },
+     {
+      "pos": 2,
+      "media": "4076",
+      "file": "PHO_PAC_CLIP_31858-2_-SALL_-AWK_-V1",
+      "dims": "712x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4076.jpg",
+      "md5": "aa8e6a9b2002eeaadf35d7c0604cc4bf"
+     },
+     {
+      "pos": 3,
+      "media": "4079",
+      "file": "PHO_PRO_DOG_31858-1_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4079.jpg",
+      "md5": "2b921c7a788cc34d2cd4494e7b166834"
+     },
+     {
+      "pos": 4,
+      "media": "4082",
+      "file": "PHO_PRO_DOG_31858-2_-SALL_-AWK_-V1",
+      "dims": "800x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4082.jpg",
+      "md5": "4d7273e14ebf84c14f2af25f113a442d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "354",
+  "product": "Dumbbells",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 459,
+    "sku": "31533",
+    "label": "Chicken 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2993",
+      "file": "PHO_PRO_CLIP_31533-2_-SALL_-AWK_-V1",
+      "dims": "1108x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2993.jpg",
+      "md5": "5f205b6d1902950d4567515698ba9d13"
+     },
+     {
+      "pos": 1,
+      "media": "5855",
+      "file": "PHO_PRO_CLIP_31533-4_-SALL_-AWK_-V1",
+      "dims": "671x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5855.jpg",
+      "md5": "fc3fc112504b7c067d4aebfbebb79b22"
+     },
+     {
+      "pos": 2,
+      "media": "2996",
+      "file": "PHO_PAC_CLIP_31533-1_-SALL_-AWK_-V1",
+      "dims": "788x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2996.jpg",
+      "md5": "cdc7c9b03db81dc1200e69597a3edc21"
+     }
+    ]
+   },
+   {
+    "variant_id": 460,
+    "sku": "31802",
+    "label": "Chicken 300 g",
+    "size_label": "300 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13966",
+      "file": "460-1.jpg",
+      "dims": "913x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13966.jpg",
+      "md5": "af16ee6766ef016b07c628f0d03c63cc"
+     },
+     {
+      "pos": 1,
+      "media": "5858",
+      "file": "PHO_PAC_CLIP_31802-1_-SALL_-AWK_-V1",
+      "dims": "913x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5858.jpg",
+      "md5": "af16ee6766ef016b07c628f0d03c63cc"
+     }
+    ]
+   },
+   {
+    "variant_id": 1373,
+    "sku": "31592",
+    "label": "Duck Breast 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Duck; Health Feature=Skin & Coat Health",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "3146",
+      "file": "PHO_PRO_CLIP_31592-997723112-1_-SALL_-AWK_-V1",
+      "dims": "1538x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3146.jpg",
+      "md5": "4009f68aa73832ce8ea6f12711b9b80d"
+     },
+     {
+      "pos": 1,
+      "media": "3149",
+      "file": "PHO_PAC_CLIP_31592-1_-SALL_-AWK_-V1",
+      "dims": "830x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3149.jpg",
+      "md5": "835dc3b7b9e93d88411a7e97a207b7c7"
+     },
+     {
+      "pos": 2,
+      "media": "3152",
+      "file": "PHO_PRO_31592-1_-SALL_-AWK_-V1",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3152.jpg",
+      "md5": "752c0f199abdea3c003b6a5e7a7116e8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "355",
+  "product": "Omegas with Chicken",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 461,
+    "sku": "31536",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "3002",
+      "file": "PHO_PRO_CLIP_31536-1_-SALL_-AWK_-V1",
+      "dims": "1600x792",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3002.jpg",
+      "md5": "c054c43dc17d08d13119ca14fdaa328b"
+     },
+     {
+      "pos": 1,
+      "media": "3005",
+      "file": "PHO_PRO_CLIP_31536-3_-SALL_-AWK_-V1",
+      "dims": "1600x320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3005.jpg",
+      "md5": "b27761edb6d1b57c68b11a948aebf92c"
+     },
+     {
+      "pos": 2,
+      "media": "5861",
+      "file": "PHO_PRO_CLIP_31536-2_-SALL_-AWK_-V1",
+      "dims": "1600x561",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5861.jpg",
+      "md5": "fc9552cf67fe61b6d517fba3552eb939"
+     },
+     {
+      "pos": 3,
+      "media": "3008",
+      "file": "PHO_PAC_CLIP_31536-6_-SALL_-AWK_-V1",
+      "dims": "788x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3008.jpg",
+      "md5": "efc565f61cb373540da2ac2487636d3a"
+     }
+    ]
+   }
+  ]
+ }
+]

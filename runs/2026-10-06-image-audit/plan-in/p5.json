@@ -1,0 +1,3866 @@
+[
+ {
+  "product_id": "914",
+  "product": "Premium Reflect Collar",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1072,
+    "sku": "1199216",
+    "label": "XS–S, 25–35 cm/20 mm, graphite",
+    "size_label": null,
+    "options": "Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8936,
+      "verdict": "unclear",
+      "seen": "Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8936.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8939,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar, rear view with Trixie badge (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8939.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8942,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar laid flat (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8942.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8945,
+      "verdict": "ok",
+      "seen": "Dog wearing graphite reflective collar + lead, day/night split (lifestyle)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8945.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8948,
+      "verdict": "ok",
+      "seen": "Dog wearing reflective collar + lead at dusk (lifestyle)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8948.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8951,
+      "verdict": "unclear",
+      "seen": "Woman and dog at night; dog wears a reflective harness, lead glowing - collar not clearly shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8951.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1238,
+    "sku": "1199316",
+    "label": "S–M, 30–45 cm/20 mm, graphite",
+    "size_label": null,
+    "options": "Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8936,
+      "verdict": "unclear",
+      "seen": "Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8936.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8939,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar, rear view with Trixie badge (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8939.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8942,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar laid flat (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8942.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8945,
+      "verdict": "ok",
+      "seen": "Dog wearing graphite reflective collar + lead, day/night split (lifestyle)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8945.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1239,
+    "sku": "1199416",
+    "label": "M–L, 36–55 cm/25 mm, graphite",
+    "size_label": null,
+    "options": "Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8936,
+      "verdict": "unclear",
+      "seen": "Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8936.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8939,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar, rear view with Trixie badge (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8939.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8942,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar laid flat (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8942.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8945,
+      "verdict": "ok",
+      "seen": "Dog wearing graphite reflective collar + lead, day/night split (lifestyle)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8945.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1240,
+    "sku": "1199516",
+    "label": "L–XL, 42–65 cm/30 mm, graphite",
+    "size_label": null,
+    "options": "Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 8936,
+      "verdict": "unclear",
+      "seen": "Premium Reflect collar, graphite reflective, grey buckle, Trixie - one generic photo used as lead for all four sizes (XS-S, S-M, M-L, L-XL); size not determinable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8936.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 8939,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar, rear view with Trixie badge (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8939.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 8942,
+      "verdict": "ok",
+      "seen": "Premium Reflect graphite collar laid flat (generic for all sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8942.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 8945,
+      "verdict": "ok",
+      "seen": "Dog wearing graphite reflective collar + lead, day/night split (lifestyle)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8945.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 8948,
+      "verdict": "ok",
+      "seen": "Dog wearing reflective collar + lead at dusk (lifestyle)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8948.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 8951,
+      "verdict": "unclear",
+      "seen": "Woman and dog at night; dog wears a reflective harness, lead glowing - collar not clearly shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/8951.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "929",
+  "product": "Easy Flash USB Light Collar, silicone",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1087,
+    "sku": "13314",
+    "label": "L–XL: 40–65 cm/25 mm, neon blue",
+    "size_label": null,
+    "options": "Color Family=Blue",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9940,
+      "verdict": "ok",
+      "seen": "Trixie Easy Flash silicone collar, neon blue, transparent LED buckle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9940.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9943,
+      "verdict": "ok",
+      "seen": "Close-up of transparent LED buckle on neon blue silicone strap",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9943.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9946,
+      "verdict": "ok",
+      "seen": "Close-up of USB port in transparent buckle, blue strap visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9946.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1321,
+    "sku": "13319",
+    "label": "L–XL: 40–65 cm/25 mm, neon pink",
+    "size_label": null,
+    "options": "Color Family=Pink",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9949,
+      "verdict": "wrong-colour",
+      "seen": "Close-up of transparent LED buckle on NEON BLUE silicone strap - variant is neon pink; also a detail shot, not a full packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9949.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9952,
+      "verdict": "wrong-colour",
+      "seen": "Close-up of USB port in buckle, NEON BLUE strap visible - variant is neon pink",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9952.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "937",
+  "product": "BE NORDIC Leather Collar with Metal Buckle",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1095,
+    "sku": "17501",
+    "label": "XS–S: 30–36 cm/15 mm, sand",
+    "size_label": null,
+    "options": "Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9485,
+      "verdict": "ok",
+      "seen": "BE NORDIC sand leather collar, flat, metal pin buckle, compass keeper, BE NORDIC tag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9485.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9488,
+      "verdict": "ok",
+      "seen": "BE NORDIC sand leather collar curled, BE NORDIC orange tag, pin buckle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9488.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9491,
+      "verdict": "ok",
+      "seen": "BE NORDIC sand collar, buckle side with compass keeper, TRIXIE embossed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9491.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9494,
+      "verdict": "ok",
+      "seen": "Detail: buckle and compass keeper on sand leather",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9494.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 9497,
+      "verdict": "ok",
+      "seen": "Detail: BE NORDIC tag on sand leather strap",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9497.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 9500,
+      "verdict": "ok",
+      "seen": "Detail: strap end with holes, TRIXIE embossed, sand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9500.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1322,
+    "sku": "17531",
+    "label": "M: 45–51 cm/20 mm, sand",
+    "size_label": null,
+    "options": "Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9964,
+      "verdict": "wrong-product",
+      "seen": "BE NORDIC sand leather collar with SNAP-HOOK (carabiner) closure - not the metal pin-buckle collar of this line (17501-17551 buckle series shown on sibling 1095)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9964.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9967,
+      "verdict": "wrong-product",
+      "seen": "Same BE NORDIC sand collar with snap-hook/swivel closure, compass keeper - not the pin-buckle version",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9967.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "964",
+  "product": "Highest Protein Ranchlands",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1122,
+    "sku": "5431112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9047,
+      "verdict": "wrong-size",
+      "seen": "Acana Highest Protein Ranchlands Recipe dog bag, front; pack prints NET WEIGHT 6 kg / 13.2 lb (variant 11.4 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9047.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9056,
+      "verdict": "unclear",
+      "seen": "Acana Ranchlands Recipe back of pack; net weight on the back label not legible (same render set as the 6 kg front)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9056.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9059,
+      "verdict": "ok",
+      "seen": "'NEW LOOK!' infographic: old vs new Acana Ranchlands packaging, same line; no size readable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9059.jpeg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1359,
+    "sku": "5431112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Beef",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9047,
+      "verdict": "wrong-size",
+      "seen": "1 kg loose twin reuses bag gallery; bag shown is Acana Ranchlands 6 kg (NET WEIGHT 6 kg printed), not the 11.4 kg bag it is scooped from",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9047.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9056,
+      "verdict": "unclear",
+      "seen": "Acana Ranchlands Recipe back of pack; net weight on the back label not legible (same render set as the 6 kg front)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9056.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9059,
+      "verdict": "ok",
+      "seen": "'NEW LOOK!' infographic: old vs new Acana Ranchlands packaging, same line; no size readable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9059.jpeg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "979",
+  "product": "Premium Collar",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1137,
+    "sku": "201401",
+    "label": "XS–S, 22–35 cm/10 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9110,
+      "verdict": "ok",
+      "seen": "Black narrow nylon collar, TRIXIE embossed buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9110.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9113,
+      "verdict": "ok",
+      "seen": "Black narrow collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9113.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1195,
+    "sku": "201402",
+    "label": "XS–S, 22–35 cm/10 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9122,
+      "verdict": "ok",
+      "seen": "Royal blue narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9122.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1196,
+    "sku": "201403",
+    "label": "XS–S, 22–35 cm/10 mm, red",
+    "size_label": null,
+    "options": "Color Family=Red; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9131,
+      "verdict": "ok",
+      "seen": "Red narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9131.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7987,
+      "verdict": "wrong-product",
+      "seen": "Lifestyle photo: woman wearing a red hands-free lead across the body, dog in red collar; main subject is a lead, collar barely visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7987.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1197,
+    "sku": "201411",
+    "label": "XS–S, 22–35 cm/10 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9140,
+      "verdict": "ok",
+      "seen": "Fuchsia narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9140.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1198,
+    "sku": "201501",
+    "label": "S–M, 30–45 cm/15 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9149,
+      "verdict": "ok",
+      "seen": "Black wider nylon collar, large D-ring, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9149.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9155,
+      "verdict": "ok",
+      "seen": "Black wider collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9155.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1199,
+    "sku": "201502",
+    "label": "S–M, 30–45 cm/15 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9164,
+      "verdict": "ok",
+      "seen": "Royal blue wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9164.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1200,
+    "sku": "201503",
+    "label": "S–M, 30–45 cm/15 mm, red",
+    "size_label": null,
+    "options": "Color Family=Red; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9173,
+      "verdict": "ok",
+      "seen": "Red wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9173.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1201,
+    "sku": "201511",
+    "label": "S–M, 30–45 cm/15 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9182,
+      "verdict": "ok",
+      "seen": "Fuchsia wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9182.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1202,
+    "sku": "201601",
+    "label": "M–L, 35–55 cm/20 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9149,
+      "verdict": "ok",
+      "seen": "Black wider nylon collar, large D-ring, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9149.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9155,
+      "verdict": "ok",
+      "seen": "Black wider collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9155.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1203,
+    "sku": "201602",
+    "label": "M–L, 35–55 cm/20 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9164,
+      "verdict": "ok",
+      "seen": "Royal blue wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9164.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1204,
+    "sku": "201603",
+    "label": "M–L, 35–55 cm/20 mm, red",
+    "size_label": null,
+    "options": "Color Family=Red; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9173,
+      "verdict": "ok",
+      "seen": "Red wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9173.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1205,
+    "sku": "201633",
+    "label": "M–L, 35–55 cm/20 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9197,
+      "verdict": "ok",
+      "seen": "Olive green wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9197.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1206,
+    "sku": "201701",
+    "label": "L–XL, 40–65 cm/25 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9149,
+      "verdict": "ok",
+      "seen": "Black wider nylon collar, large D-ring, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9149.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9155,
+      "verdict": "ok",
+      "seen": "Black wider collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9155.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1207,
+    "sku": "201702",
+    "label": "L–XL, 40–65 cm/25 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9164,
+      "verdict": "ok",
+      "seen": "Royal blue wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9164.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1208,
+    "sku": "201703",
+    "label": "L–XL, 40–65 cm/25 mm, red",
+    "size_label": null,
+    "options": "Color Family=Red; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9173,
+      "verdict": "ok",
+      "seen": "Red wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9173.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7987,
+      "verdict": "wrong-product",
+      "seen": "Lifestyle photo: woman wearing a red hands-free lead across the body, dog in red collar; main subject is a lead, collar barely visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7987.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1209,
+    "sku": "201711",
+    "label": "L–XL, 40–65 cm/25 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9182,
+      "verdict": "ok",
+      "seen": "Fuchsia wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9182.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1210,
+    "sku": "202101",
+    "label": "XXS–XS, 15–25 cm/10 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9110,
+      "verdict": "ok",
+      "seen": "Black narrow nylon collar, TRIXIE embossed buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9110.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9113,
+      "verdict": "ok",
+      "seen": "Black narrow collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9113.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1211,
+    "sku": "202102",
+    "label": "XXS–XS, 15–25 cm/10 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9122,
+      "verdict": "ok",
+      "seen": "Royal blue narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9122.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1212,
+    "sku": "202103",
+    "label": "XXS–XS, 15–25 cm/10 mm, red",
+    "size_label": null,
+    "options": "Color Family=Red; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9131,
+      "verdict": "ok",
+      "seen": "Red narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9131.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1213,
+    "sku": "202202",
+    "label": "S, 25–40 cm/15 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9122,
+      "verdict": "ok",
+      "seen": "Royal blue narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9122.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1214,
+    "sku": "202203",
+    "label": "S, 25–40 cm/15 mm, red",
+    "size_label": null,
+    "options": "Color Family=Red; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9131,
+      "verdict": "ok",
+      "seen": "Red narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9131.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 7987,
+      "verdict": "wrong-product",
+      "seen": "Lifestyle photo: woman wearing a red hands-free lead across the body, dog in red collar; main subject is a lead, collar barely visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7987.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1215,
+    "sku": "202211",
+    "label": "S, 25–40 cm/15 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9140,
+      "verdict": "ok",
+      "seen": "Fuchsia narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9140.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1431,
+    "sku": "201728",
+    "label": "L–XL, 40–65 cm/25 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10449,
+      "verdict": "ok",
+      "seen": "Aqua wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10449.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1432,
+    "sku": "201735",
+    "label": "L–XL, 40–65 cm/25 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10452,
+      "verdict": "ok",
+      "seen": "Blush (pale pink) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10452.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1433,
+    "sku": "201729",
+    "label": "L–XL, 40–65 cm/25 mm, curry",
+    "size_label": null,
+    "options": "Color Family=Yellow; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10455,
+      "verdict": "ok",
+      "seen": "Curry (mustard yellow) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10455.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1434,
+    "sku": "201733",
+    "label": "L–XL, 40–65 cm/25 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9197,
+      "verdict": "ok",
+      "seen": "Olive green wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9197.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1435,
+    "sku": "201732",
+    "label": "L–XL, 40–65 cm/25 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10458,
+      "verdict": "ok",
+      "seen": "Petrol (dark teal) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10458.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1436,
+    "sku": "201734",
+    "label": "L–XL, 40–65 cm/25 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10461,
+      "verdict": "ok",
+      "seen": "Sage green wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10461.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1437,
+    "sku": "201736",
+    "label": "L–XL, 40–65 cm/25 mm, sand",
+    "size_label": null,
+    "options": "Color Family=Beige; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10464,
+      "verdict": "ok",
+      "seen": "Sand (beige) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10464.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1438,
+    "sku": "201628",
+    "label": "M–L, 35–55 cm/20 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10449,
+      "verdict": "ok",
+      "seen": "Aqua wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10449.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1439,
+    "sku": "201629",
+    "label": "M–L, 35–55 cm/20 mm, curry",
+    "size_label": null,
+    "options": "Color Family=Yellow; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10455,
+      "verdict": "ok",
+      "seen": "Curry (mustard yellow) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10455.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1440,
+    "sku": "201611",
+    "label": "M–L, 35–55 cm/20 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9182,
+      "verdict": "ok",
+      "seen": "Fuchsia wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9182.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1441,
+    "sku": "201632",
+    "label": "M–L, 35–55 cm/20 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10458,
+      "verdict": "ok",
+      "seen": "Petrol (dark teal) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10458.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1442,
+    "sku": "201630",
+    "label": "M–L, 35–55 cm/20 mm, rust",
+    "size_label": null,
+    "options": "Color Family=Brown; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10467,
+      "verdict": "ok",
+      "seen": "Rust (orange-brown) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10467.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1443,
+    "sku": "201634",
+    "label": "M–L, 35–55 cm/20 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10461,
+      "verdict": "ok",
+      "seen": "Sage green wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10461.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1444,
+    "sku": "201636",
+    "label": "M–L, 35–55 cm/20 mm, sand",
+    "size_label": null,
+    "options": "Color Family=Beige; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10464,
+      "verdict": "ok",
+      "seen": "Sand (beige) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10464.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1445,
+    "sku": "201631",
+    "label": "M–L, 35–55 cm/20 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10470,
+      "verdict": "ok",
+      "seen": "Sangria (burgundy) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10470.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1446,
+    "sku": "202228",
+    "label": "S, 25–40 cm/15 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10473,
+      "verdict": "ok",
+      "seen": "Aqua narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10473.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1447,
+    "sku": "202235",
+    "label": "S, 25–40 cm/15 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10476,
+      "verdict": "ok",
+      "seen": "Blush narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10476.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1448,
+    "sku": "202233",
+    "label": "S, 25–40 cm/15 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10479,
+      "verdict": "ok",
+      "seen": "Olive green narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10479.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10482,
+      "verdict": "ok",
+      "seen": "Olive green narrow collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10482.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1449,
+    "sku": "202234",
+    "label": "S, 25–40 cm/15 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10485,
+      "verdict": "ok",
+      "seen": "Sage narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10485.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1450,
+    "sku": "202236",
+    "label": "S, 25–40 cm/15 mm, sand",
+    "size_label": null,
+    "options": "Color Family=Beige; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10488,
+      "verdict": "ok",
+      "seen": "Sand narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10488.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1451,
+    "sku": "202231",
+    "label": "S, 25–40 cm/15 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10491,
+      "verdict": "ok",
+      "seen": "Sangria narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10491.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1452,
+    "sku": "201535",
+    "label": "S–M, 30–45 cm/15 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10452,
+      "verdict": "ok",
+      "seen": "Blush (pale pink) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10452.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1453,
+    "sku": "201529",
+    "label": "S–M, 30–45 cm/15 mm, curry",
+    "size_label": null,
+    "options": "Color Family=Yellow; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10455,
+      "verdict": "ok",
+      "seen": "Curry (mustard yellow) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10455.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1454,
+    "sku": "201533",
+    "label": "S–M, 30–45 cm/15 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9197,
+      "verdict": "ok",
+      "seen": "Olive green wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9197.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1455,
+    "sku": "201532",
+    "label": "S–M, 30–45 cm/15 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10458,
+      "verdict": "ok",
+      "seen": "Petrol (dark teal) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10458.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1456,
+    "sku": "201534",
+    "label": "S–M, 30–45 cm/15 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10461,
+      "verdict": "ok",
+      "seen": "Sage green wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10461.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1457,
+    "sku": "201531",
+    "label": "S–M, 30–45 cm/15 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10470,
+      "verdict": "ok",
+      "seen": "Sangria (burgundy) wider nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10470.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1458,
+    "sku": "201428",
+    "label": "XS–S, 22–35 cm/10 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10473,
+      "verdict": "ok",
+      "seen": "Aqua narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10473.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1459,
+    "sku": "201435",
+    "label": "XS–S, 22–35 cm/10 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10476,
+      "verdict": "ok",
+      "seen": "Blush narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10476.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1460,
+    "sku": "201433",
+    "label": "XS–S, 22–35 cm/10 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10479,
+      "verdict": "ok",
+      "seen": "Olive green narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10479.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10482,
+      "verdict": "ok",
+      "seen": "Olive green narrow collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10482.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1461,
+    "sku": "201432",
+    "label": "XS–S, 22–35 cm/10 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10494,
+      "verdict": "ok",
+      "seen": "Petrol narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10494.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1462,
+    "sku": "201434",
+    "label": "XS–S, 22–35 cm/10 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10485,
+      "verdict": "ok",
+      "seen": "Sage narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10485.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1463,
+    "sku": "201436",
+    "label": "XS–S, 22–35 cm/10 mm, sand",
+    "size_label": null,
+    "options": "Color Family=Beige; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10488,
+      "verdict": "ok",
+      "seen": "Sand narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10488.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1464,
+    "sku": "201431",
+    "label": "XS–S, 22–35 cm/10 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10491,
+      "verdict": "ok",
+      "seen": "Sangria narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10491.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1465,
+    "sku": "202135",
+    "label": "XXS–XS, 15–25 cm/10 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10476,
+      "verdict": "ok",
+      "seen": "Blush narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10476.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1466,
+    "sku": "202129",
+    "label": "XXS–XS, 15–25 cm/10 mm, curry",
+    "size_label": null,
+    "options": "Color Family=Yellow; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10497,
+      "verdict": "ok",
+      "seen": "Curry narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10497.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1467,
+    "sku": "202111",
+    "label": "XXS–XS, 15–25 cm/10 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9140,
+      "verdict": "ok",
+      "seen": "Fuchsia narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9140.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1468,
+    "sku": "202133",
+    "label": "XXS–XS, 15–25 cm/10 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10479,
+      "verdict": "ok",
+      "seen": "Olive green narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10479.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10482,
+      "verdict": "ok",
+      "seen": "Olive green narrow collar laid flat (same collar), clean cut-out",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10482.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1469,
+    "sku": "202132",
+    "label": "XXS–XS, 15–25 cm/10 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10494,
+      "verdict": "ok",
+      "seen": "Petrol narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10494.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1470,
+    "sku": "202130",
+    "label": "XXS–XS, 15–25 cm/10 mm, rust",
+    "size_label": null,
+    "options": "Color Family=Brown; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10500,
+      "verdict": "ok",
+      "seen": "Rust narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10500.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1471,
+    "sku": "202134",
+    "label": "XXS–XS, 15–25 cm/10 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10485,
+      "verdict": "ok",
+      "seen": "Sage narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10485.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1472,
+    "sku": "202136",
+    "label": "XXS–XS, 15–25 cm/10 mm, sand",
+    "size_label": null,
+    "options": "Color Family=Beige; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10488,
+      "verdict": "ok",
+      "seen": "Sand narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10488.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1473,
+    "sku": "202131",
+    "label": "XXS–XS, 15–25 cm/10 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10491,
+      "verdict": "ok",
+      "seen": "Sangria narrow nylon collar, TRIXIE buckle, clean cut-out; Trixie product photo, size not visible; same photo used for the other sizes of this colour",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10491.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1006",
+  "product": "Highest Protein Wild Prairie Dog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1164,
+    "sku": "5401112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9230,
+      "verdict": "wrong-size",
+      "seen": "Acana Highest Protein Wild Prairie dog front, NET WEIGHT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9230.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9233,
+      "verdict": "wrong-size",
+      "seen": "Acana Wild Prairie back of pack from the same 6 kg set (tiny size print reads 6 kg / 13.2 lb); 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9233.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9236,
+      "verdict": "ok",
+      "seen": "Acana 70% protein-rich animal ingredients infographic (Highest Protein orange)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9236.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9239,
+      "verdict": "ok",
+      "seen": "Acana Wild Prairie old vs new look comparison; no size legible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9239.jpeg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1722,
+    "sku": "5401112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9230,
+      "verdict": "wrong-size",
+      "seen": "Acana Highest Protein Wild Prairie dog front, NET WEIGHT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9230.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9233,
+      "verdict": "wrong-size",
+      "seen": "Acana Wild Prairie back of pack from the same 6 kg set (tiny size print reads 6 kg / 13.2 lb); 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9233.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9236,
+      "verdict": "ok",
+      "seen": "Acana 70% protein-rich animal ingredients infographic (Highest Protein orange)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9236.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9239,
+      "verdict": "ok",
+      "seen": "Acana Wild Prairie old vs new look comparison; no size legible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9239.jpeg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1009",
+  "product": "Light & Fit",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1167,
+    "sku": "5121112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9242,
+      "verdict": "wrong-size",
+      "seen": "Acana Light & Fit Recipe front, NET WEIGHT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9242.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9245,
+      "verdict": "wrong-size",
+      "seen": "Acana Light & Fit back of pack from the 6 kg set (tiny size print reads 6 kg / 13.2 lb); 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9245.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9248,
+      "verdict": "ok",
+      "seen": "Acana 65% protein-rich ingredients infographic (chicken + hake, Light & Fit)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9248.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9254,
+      "verdict": "ok",
+      "seen": "Acana Light & Fit old vs new look comparison; no size legible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9254.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1723,
+    "sku": "5121112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9242,
+      "verdict": "wrong-size",
+      "seen": "Acana Light & Fit Recipe front, NET WEIGHT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9242.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9245,
+      "verdict": "wrong-size",
+      "seen": "Acana Light & Fit back of pack from the 6 kg set (tiny size print reads 6 kg / 13.2 lb); 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9245.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9248,
+      "verdict": "ok",
+      "seen": "Acana 65% protein-rich ingredients infographic (chicken + hake, Light & Fit)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9248.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 9254,
+      "verdict": "ok",
+      "seen": "Acana Light & Fit old vs new look comparison; no size legible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9254.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1012",
+  "product": "Semi-Choke Collar with Nylon Chain",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1170,
+    "sku": "202720",
+    "label": "S–M: 30–40 cm/15 mm, orchid",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10090,
+      "verdict": "ok",
+      "seen": "Trixie semi-choke collar in orchid/berry nylon with chain",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10090.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1290,
+    "sku": "202802",
+    "label": "M–L: 35–50 cm/20 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9608,
+      "verdict": "wrong-colour",
+      "seen": "Trixie semi-choke collar in ocean/turquoise (not royal blue), Trixie watermark across bottom",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9608.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1291,
+    "sku": "202816",
+    "label": "M–L: 35–50 cm/20 mm, grey",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10093,
+      "verdict": "ok",
+      "seen": "Trixie semi-choke collar in graphite grey with chain",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10093.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1016",
+  "product": "Premium Touring Harness",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1174,
+    "sku": "203632",
+    "label": "XS–S, 30–55 cm/15 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9284,
+      "verdict": "ok",
+      "seen": "Trixie Premium Touring harness, petrol webbing on grey fleece; size not visible on item; same colour shot shared by XS–S (1174) and M–L (1490) siblings",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9284.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1292,
+    "sku": "203736",
+    "label": "S, 35–65 cm/20 mm, sand",
+    "size_label": null,
+    "options": "Color Family=Beige; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9290,
+      "verdict": "ok",
+      "seen": "Trixie Premium Touring harness, sand webbing on grey fleece",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9290.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1293,
+    "sku": "204102",
+    "label": "L, 60–100 cm/25 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9302,
+      "verdict": "ok",
+      "seen": "Trixie Premium Touring harness, royal blue webbing on black fleece",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9302.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1489,
+    "sku": "204201",
+    "label": "L–XL, 70–110 cm/25 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=L–XL",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10545,
+      "verdict": "ok",
+      "seen": "Trixie Premium Touring harness, all black",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10545.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10548,
+      "verdict": "wrong-colour",
+      "seen": "Trixie Touring harness in bright green webbing on grey fleece; variant is black",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10548.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1490,
+    "sku": "204032",
+    "label": "M–L, 50–90 cm/25 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9284,
+      "verdict": "ok",
+      "seen": "Trixie Premium Touring harness, petrol webbing on grey fleece; size not visible on item; same colour shot shared by XS–S (1174) and M–L (1490) siblings",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9284.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1491,
+    "sku": "203834",
+    "label": "S–M, 40–70 cm/20 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10551,
+      "verdict": "ok",
+      "seen": "Trixie Premium Touring harness, sage webbing on grey fleece",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10551.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1018",
+  "product": "Singles Yorkshire Pork",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1176,
+    "sku": "5721212",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Pork",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9287,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Yorkshire Pork Recipe front, NET WT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9287.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9293,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Yorkshire Pork back of pack, \"6 kg | 13.2 lb\" printed bottom right; 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9293.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9296,
+      "verdict": "ok",
+      "seen": "Acana Singles pork bowl \"Thoughtfully balanced\" 50/50/0 infographic (Yorkshire Pork)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9296.png"
+     },
+     {
+      "pos": 3,
+      "media": 9299,
+      "verdict": "ok",
+      "seen": "Acana Limited Ingredient Diet \"Helps support\" infographic, green (Yorkshire Pork colour)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9299.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1364,
+    "sku": "5721212-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Pork",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9287,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Yorkshire Pork Recipe front, NET WT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9287.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9293,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Yorkshire Pork back of pack, \"6 kg | 13.2 lb\" printed bottom right; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9293.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9296,
+      "verdict": "ok",
+      "seen": "Acana Singles pork bowl \"Thoughtfully balanced\" 50/50/0 infographic (Yorkshire Pork)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9296.png"
+     },
+     {
+      "pos": 3,
+      "media": 9299,
+      "verdict": "ok",
+      "seen": "Acana Limited Ingredient Diet \"Helps support\" infographic, green (Yorkshire Pork colour)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9299.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1024",
+  "product": "Singles Grass-Fed Lamb",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1182,
+    "sku": "AC5701212",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9323,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Grass-Fed Lamb Recipe front, NET WT 6 kg / 13.2 lb printed; 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9323.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9326,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Grass-Fed Lamb back of pack, \"6 kg | 13.2 lb\" printed bottom right; 6 kg bag; variant is 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9326.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9332,
+      "verdict": "ok",
+      "seen": "Acana Singles lamb bowl \"Thoughtfully balanced\" infographic (Grass-Fed Lamb)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9332.png"
+     },
+     {
+      "pos": 3,
+      "media": 9338,
+      "verdict": "ok",
+      "seen": "Acana Limited Ingredient Diet \"Helps support\" infographic, pink/lamb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9338.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1365,
+    "sku": "AC5701212-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9323,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Grass-Fed Lamb Recipe front, NET WT 6 kg / 13.2 lb printed; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9323.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9326,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Grass-Fed Lamb back of pack, \"6 kg | 13.2 lb\" printed bottom right; 1 kg loose twin of the 11.4 kg bag; gallery shows the 6 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9326.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9332,
+      "verdict": "ok",
+      "seen": "Acana Singles lamb bowl \"Thoughtfully balanced\" infographic (Grass-Fed Lamb)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9332.png"
+     },
+     {
+      "pos": 3,
+      "media": 9338,
+      "verdict": "ok",
+      "seen": "Acana Limited Ingredient Diet \"Helps support\" infographic, pink/lamb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9338.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1029",
+  "product": "Puppy",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1187,
+    "sku": "AC5001112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9365,
+      "verdict": "wrong-size",
+      "seen": "Acana Puppy Recipe (chicken & hake) bag front, prints NET WEIGHT 6 kg / 13.2 lb, not 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9365.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9368,
+      "verdict": "wrong-size",
+      "seen": "Acana Puppy Recipe bag back, label prints 6 kg / 13.2 lb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9368.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9374,
+      "verdict": "ok",
+      "seen": "Acana 70% protein infographic, chicken + hake (Puppy), no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9374.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9380,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Puppy bags side by side, weight unreadable, line has several sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9380.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1725,
+    "sku": "AC5001112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9365,
+      "verdict": "wrong-size",
+      "seen": "Acana Puppy Recipe (chicken & hake) bag front, prints NET WEIGHT 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9365.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9368,
+      "verdict": "wrong-size",
+      "seen": "Acana Puppy Recipe bag back, label prints 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9368.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9374,
+      "verdict": "ok",
+      "seen": "Acana 70% protein infographic, chicken + hake (Puppy), no pack shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9374.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9380,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Puppy bags side by side, weight unreadable, line has several sizes (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9380.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1031",
+  "product": "Adult Small Breed",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1189,
+    "sku": "AC5236012",
+    "label": "6 kg",
+    "size_label": "6 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9383,
+      "verdict": "ok",
+      "seen": "Acana Adult Small Breed Recipe bag front, prints 6 kg / 13.2 lb, matches variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9383.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9389,
+      "verdict": "ok",
+      "seen": "Acana Adult Small Breed Recipe bag back, 6 kg / 13.2 lb printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9389.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9395,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Adult Small Breed bags, weight unreadable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9395.png"
+     },
+     {
+      "pos": 3,
+      "media": 9398,
+      "verdict": "unclear",
+      "seen": "Looks identical to 9395 (duplicate 'new look' Adult Small Breed image), weight unreadable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9398.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1367,
+    "sku": "AC5236012-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9383,
+      "verdict": "ok",
+      "seen": "Acana Adult Small Breed Recipe bag front, prints 6 kg / 13.2 lb, matches variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9383.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9389,
+      "verdict": "ok",
+      "seen": "Acana Adult Small Breed Recipe bag back, 6 kg / 13.2 lb printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9389.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9395,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Adult Small Breed bags, weight unreadable (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9395.png"
+     },
+     {
+      "pos": 3,
+      "media": 9398,
+      "verdict": "unclear",
+      "seen": "Looks identical to 9395 (duplicate 'new look' Adult Small Breed image), weight unreadable (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9398.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1033",
+  "product": "Highest Protein Grasslands Dog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1191,
+    "sku": "AC5421112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9404,
+      "verdict": "wrong-size",
+      "seen": "Acana Highest Protein Grasslands bag front, prints 6 kg / 13.2 lb, not 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9404.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9410,
+      "verdict": "wrong-size",
+      "seen": "Acana Grasslands bag back, label reads 6 kg / 13.2 lb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9410.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9413,
+      "verdict": "ok",
+      "seen": "Acana 70% protein infographic (Grasslands styling), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9413.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9419,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Grasslands bags, weight unreadable, line has several sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9419.jpeg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1726,
+    "sku": "AC5421112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9404,
+      "verdict": "wrong-size",
+      "seen": "Acana Highest Protein Grasslands bag front, prints 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9404.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9410,
+      "verdict": "wrong-size",
+      "seen": "Acana Grasslands bag back, label reads 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9410.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9413,
+      "verdict": "ok",
+      "seen": "Acana 70% protein infographic (Grasslands styling), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9413.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9419,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Grasslands bags, weight unreadable, line has several sizes (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9419.jpeg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1035",
+  "product": "Highest Protein Pacifica Dog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1193,
+    "sku": "AC5411112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Herring",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9425,
+      "verdict": "wrong-size",
+      "seen": "Acana Highest Protein Pacifica bag front, prints 6 kg / 13.2 lb, not 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9425.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9428,
+      "verdict": "wrong-size",
+      "seen": "Acana Pacifica bag back, label reads 6 kg / 13.2 lb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9428.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9431,
+      "verdict": "ok",
+      "seen": "Acana 70% protein infographic with whole fish (Pacifica), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9431.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9434,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Pacifica bags, weight unreadable, line has several sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9434.jpeg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1727,
+    "sku": "AC5411112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Herring",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9425,
+      "verdict": "wrong-size",
+      "seen": "Acana Highest Protein Pacifica bag front, prints 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9425.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9428,
+      "verdict": "wrong-size",
+      "seen": "Acana Pacifica bag back, label reads 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9428.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9431,
+      "verdict": "ok",
+      "seen": "Acana 70% protein infographic with whole fish (Pacifica), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9431.jpeg"
+     },
+     {
+      "pos": 3,
+      "media": 9434,
+      "verdict": "unclear",
+      "seen": "'New look' marketing: old and new Pacifica bags, weight unreadable, line has several sizes (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9434.jpeg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1036",
+  "product": "Singles Free-Run Duck",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1194,
+    "sku": "AC5711212",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9437,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Free-Run Duck bag front, prints 6 kg / 13.2 lb, not 11.4 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9437.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9440,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Free-Run Duck bag back, label prints 6 kg / 13.2 lb",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9440.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9443,
+      "verdict": "ok",
+      "seen": "Acana Singles infographic, duck + liver with pears, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9443.png"
+     },
+     {
+      "pos": 3,
+      "media": 9446,
+      "verdict": "ok",
+      "seen": "Acana Limited Ingredient Diet lifestyle/benefits panel (woman with retriever), secondary",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9446.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1368,
+    "sku": "AC5711212-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 9437,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Free-Run Duck bag front, prints 6 kg / 13.2 lb, not 11.4 kg (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9437.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 9440,
+      "verdict": "wrong-size",
+      "seen": "Acana Singles Free-Run Duck bag back, label prints 6 kg / 13.2 lb (1 kg twin reuses its bag gallery, which shows the wrong bag)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9440.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 9443,
+      "verdict": "ok",
+      "seen": "Acana Singles infographic, duck + liver with pears, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9443.png"
+     },
+     {
+      "pos": 3,
+      "media": 9446,
+      "verdict": "ok",
+      "seen": "Acana Limited Ingredient Diet lifestyle/benefits panel (woman with retriever), secondary",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9446.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1037",
+  "product": "Training Dummy",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1326,
+    "sku": "32860",
+    "label": "ø 6 × 14 cm/25 cm, orange",
+    "size_label": null,
+    "options": "Toy Type=Fetch & Retrieve; Material=Polyester; Toy Size=25 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10138,
+      "verdict": "ok",
+      "seen": "Orange Trixie training dummy with grey strap, short wide bone-shaped body, alone on white, clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10138.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10141,
+      "verdict": "ok",
+      "seen": "Same orange dummy upright, short bone-shaped body (length about twice its width), grey loop with Trixie tag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10141.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10144,
+      "verdict": "unclear",
+      "seen": "Orange dummy at an angle. The body looks longer compared with the strap than in 10138/10141, so it may be the 14 cm piece or a longer size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10144.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 10147,
+      "verdict": "wrong-size",
+      "seen": "Orange dummy, front view. The body is about 3.7 times as long as it is wide (about 2.1 in 10141), which looks like a longer size than the 6 x 14 cm one",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10147.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1339,
+    "sku": "142595",
+    "label": "Veal & Vegetables in Jelly",
+    "size_label": "85 g",
+    "options": "Flavor=Veal; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13888,
+      "verdict": "ok",
+      "seen": "Myau pouch front: with beef and vegetables, jelly (UA text); no size on front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13888.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 13891,
+      "verdict": "ok",
+      "seen": "Myau pouch back, 85 g, EAN 4820269142596 (matches variant)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13891.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1340,
+    "sku": "142605",
+    "label": "Turkey in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Turkey; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13894,
+      "verdict": "ok",
+      "seen": "Myau pouch front: with turkey in tender sauce (UA text)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13894.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 13897,
+      "verdict": "ok",
+      "seen": "Myau pouch back, turkey in sauce, 85 g, EAN 4820269142602 (matches)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13897.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1341,
+    "sku": "142615",
+    "label": "Rabbit & Turkey Ragout",
+    "size_label": "85 g",
+    "options": "Flavor=Rabbit; Food Texture=Stew; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11966,
+      "verdict": "ok",
+      "seen": "Myau pouch front: with rabbit and turkey, ragout (UA text); no size printed (line is 85 g only); small crop artefacts at bottom edge",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11966.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1342,
+    "sku": "142625",
+    "label": "Rabbit in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Rabbit; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13900,
+      "verdict": "ok",
+      "seen": "Myau pouch front: with rabbit in tender sauce (UA text)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13900.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 13903,
+      "verdict": "ok",
+      "seen": "Myau pouch back, rabbit in sauce, 85 g, EAN 4820269142626 (matches)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13903.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1343,
+    "sku": "142635",
+    "label": "Chicken in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13906,
+      "verdict": "ok",
+      "seen": "Myau pouch front: with chicken in tender sauce (UA text)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13906.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 13909,
+      "verdict": "ok",
+      "seen": "Myau pouch back, chicken in sauce, 85 g, EAN 4820269142633 (matches)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13909.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1344,
+    "sku": "142655",
+    "label": "Fish in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Fish; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13912,
+      "verdict": "ok",
+      "seen": "Myau pouch front: with fish in tender sauce (UA text)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13912.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 13915,
+      "verdict": "ok",
+      "seen": "Myau pouch back, fish in sauce, 85 g, EAN 4820269142657 (matches)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13915.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1586,
+    "sku": "142645",
+    "label": "Liver in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Liver; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11346,
+      "verdict": "ok",
+      "seen": "Myau pouch front: with liver in tender sauce (UA text)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11346.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11349,
+      "verdict": "ok",
+      "seen": "Myau liver-in-sauce pouch back, 85 g, EAN 4820269142640 (variant's stored EAN 4820083906848 differs; photo matches sku 142645 line)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11349.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11352,
+      "verdict": "ok",
+      "seen": "Infographic: Myau liver in tender sauce pouch with benefit icons",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11352.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11355,
+      "verdict": "ok",
+      "seen": "Composition text panel for Myau liver (4% liver)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11355.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11358,
+      "verdict": "ok",
+      "seen": "Feeding-guide infographic for Myau adult pouches",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11358.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11361,
+      "verdict": "wrong-size",
+      "seen": "Showbox of 24 Myau liver pouches - a case, not the single 85 g pouch sold",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11361.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1052",
+  "product": "Cat Paté",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1346,
+    "sku": "83041J",
+    "label": "Chicken",
+    "size_label": "75 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14158,
+      "verdict": "unclear",
+      "seen": "KorMell pouch, tender pate with chicken (RU); no net weight visible to confirm 75 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14158.webp"
+     }
+    ]
+   },
+   {
+    "variant_id": 1347,
+    "sku": "83042J",
+    "label": "Beef & Liver",
+    "size_label": "75 g",
+    "options": "Flavor=Beef; Food Texture=Pate; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14164,
+      "verdict": "unclear",
+      "seen": "KorMell pouch, tender pate with beef and liver (RU); no net weight visible to confirm 75 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14164.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1348,
+    "sku": "83047J",
+    "label": "Duck",
+    "size_label": "75 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Pouch",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14170,
+      "verdict": "unclear",
+      "seen": "KorMell pouch, tender pate with duck (RU); no net weight visible to confirm 75 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14170.webp"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1064",
+  "product": "Premium H-Harness",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1474,
+    "sku": "203428",
+    "label": "M–L, 52–75 cm/20 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10503,
+      "verdict": "ok",
+      "seen": "Trixie Premium H-harness in aqua/ocean, clean cut-out; Trixie shot shared by all sizes, size not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10503.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1475,
+    "sku": "203431",
+    "label": "M–L, 52–75 cm/20 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=M–L",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10506,
+      "verdict": "unclear",
+      "seen": "Trixie Premium H-harness in sangria (wine red), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 203231 (XS–S, 30–44 cm/10 mm, sangria) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10506.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1476,
+    "sku": "203302",
+    "label": "S–M, 42–60 cm/15 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10509,
+      "verdict": "ok",
+      "seen": "Trixie Premium H-harness in royal blue, clean cut-out; size not visible (shared size shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10509.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10512,
+      "verdict": "ok",
+      "seen": "Older Trixie Premium H-harness shot in royal blue (red-badge buckle, older generation); same line/colour, secondary",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10512.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1477,
+    "sku": "203231",
+    "label": "XS–S, 30–44 cm/10 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10506,
+      "verdict": "unclear",
+      "seen": "Trixie Premium H-harness in sangria (wine red), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 203431 (M–L, 52–75 cm/20 mm, sangria) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10506.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1478,
+    "sku": "204829",
+    "label": "XXS–XS, 20–32 cm/10 mm, curry",
+    "size_label": null,
+    "options": "Color Family=Yellow; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10515,
+      "verdict": "ok",
+      "seen": "Trixie Premium H-harness in curry/mustard yellow, clean cut-out; size not visible (shared size shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10515.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1479,
+    "sku": "204833",
+    "label": "XXS–XS, 20–32 cm/10 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=XXS–XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10518,
+      "verdict": "ok",
+      "seen": "Trixie Premium H-harness in olive green, clean cut-out; size not visible (shared size shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10518.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1065",
+  "product": "Premium One Touch Harness",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1480,
+    "sku": "204501",
+    "label": "M, 50–65 cm/20 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10521,
+      "verdict": "ok",
+      "seen": "Trixie Premium One Touch harness in black, clean cut-out; size not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10521.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1481,
+    "sku": "204535",
+    "label": "M, 50–65 cm/20 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10524,
+      "verdict": "unclear",
+      "seen": "Trixie Premium One Touch harness in blush (dusty pink), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204335 (XS–S, 30–40 cm/10 mm, blush) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10524.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1482,
+    "sku": "204511",
+    "label": "M, 50–65 cm/20 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10527,
+      "verdict": "unclear",
+      "seen": "Trixie Premium One Touch harness in fuchsia, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204311 (XS–S, 30–40 cm/10 mm, fuchsia) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10527.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1483,
+    "sku": "204516",
+    "label": "M, 50–65 cm/20 mm, graphite",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10530,
+      "verdict": "ok",
+      "seen": "Trixie Premium One Touch harness in graphite, clean cut-out; size not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10530.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1484,
+    "sku": "204532",
+    "label": "M, 50–65 cm/20 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10533,
+      "verdict": "ok",
+      "seen": "Trixie Premium One Touch harness in petrol, clean cut-out; size not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10533.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1485,
+    "sku": "204402",
+    "label": "S, 40–50 cm/15 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10536,
+      "verdict": "ok",
+      "seen": "Trixie Premium One Touch harness in royal blue, clean cut-out; size not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10536.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1486,
+    "sku": "204335",
+    "label": "XS–S, 30–40 cm/10 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10524,
+      "verdict": "unclear",
+      "seen": "Trixie Premium One Touch harness in blush (dusty pink), clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204535 (M, 50–65 cm/20 mm, blush) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10524.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1487,
+    "sku": "204311",
+    "label": "XS–S, 30–40 cm/10 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10527,
+      "verdict": "unclear",
+      "seen": "Trixie Premium One Touch harness in fuchsia, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 204511 (M, 50–65 cm/20 mm, fuchsia) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10527.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1066",
+  "product": "Tennis Ball with Fabric Animals",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1496,
+    "sku": "36121",
+    "label": "16 cm",
+    "size_label": null,
+    "options": "Toy Type=Fetch & Retrieve; Toy Size=16 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12320,
+      "verdict": "wrong-product",
+      "seen": "Plain purple/yellow tennis ball only (Trixie 3476 tennis ball); no fabric animal attached - not the 'Tennis Ball with Fabric Animals' toy",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12320.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1075",
+  "product": "CityStyle Collar, extra wide",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1510,
+    "sku": "1970601",
+    "label": "M, 35–42 cm/25 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10680,
+      "verdict": "unclear",
+      "seen": "Trixie CityStyle collar, charcoal/black canvas with black lining, gunmetal buckle; colour matches but shot is shared by all sizes, size not visible, and sibling 1970401 (XS–S, 25–32 cm/25 mm, black) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10680.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10683,
+      "verdict": "unclear",
+      "seen": "Charcoal/black CityStyle collar laid flat; colour matches but shot is shared by all sizes, size not visible, and sibling 1970401 (XS–S, 25–32 cm/25 mm, black) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10683.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1511,
+    "sku": "1970519",
+    "label": "S–M, 30–37 cm/25 mm, light grey",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10686,
+      "verdict": "ok",
+      "seen": "Trixie CityStyle collar light grey canvas with black lining, gunmetal buckle",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10686.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10689,
+      "verdict": "ok",
+      "seen": "Light grey CityStyle collar laid flat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10689.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1512,
+    "sku": "1970401",
+    "label": "XS–S, 25–32 cm/25 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10680,
+      "verdict": "unclear",
+      "seen": "Trixie CityStyle collar, charcoal/black canvas with black lining, gunmetal buckle; colour matches but shot is shared by all sizes, size not visible, and sibling 1970601 (M, 35–42 cm/25 mm, black) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10680.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10683,
+      "verdict": "unclear",
+      "seen": "Charcoal/black CityStyle collar laid flat; colour matches but shot is shared by all sizes, size not visible, and sibling 1970601 (M, 35–42 cm/25 mm, black) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10683.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1077",
+  "product": "CityStyle H-Harness",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1518,
+    "sku": "1969719",
+    "label": "S–M, 42–60 cm/15 mm, light grey",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10713,
+      "verdict": "ok",
+      "seen": "Trixie CityStyle H-harness light grey canvas with black lining/padding, clean cut-out; size not visible",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10713.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1519,
+    "sku": "1969716",
+    "label": "S–M, 42–60 cm/15 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=S–M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10716,
+      "verdict": "unclear",
+      "seen": "Trixie CityStyle H-harness in sage canvas with black lining/padding, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 1969616 (XS–S, 30–44 cm/10 mm, sage) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10716.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1520,
+    "sku": "1969616",
+    "label": "XS–S, 30–44 cm/10 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10716,
+      "verdict": "unclear",
+      "seen": "Trixie CityStyle H-harness in sage canvas with black lining/padding, clean cut-out; colour matches but shot is shared by all sizes, size not visible, and sibling 1969716 (S–M, 42–60 cm/15 mm, sage) shows the same picture",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10716.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1087",
+  "product": "BE NORDIC Bowl, melamine/stainless steel",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1540,
+    "sku": "25063",
+    "label": "0.2 l/ø 14 cm, cream",
+    "size_label": null,
+    "options": "Color Family=Ivory; Size=0.2 l/ø 14 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12311,
+      "verdict": "unclear",
+      "seen": "Cream melamine bowl with steel insert and anchor print (BE NORDIC design); capacity/diameter not shown, same 500x500 shop image also used on the white 0.2 l and white 0.8 l siblings",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12311.webp"
+     }
+    ]
+   },
+   {
+    "variant_id": 1541,
+    "sku": "25060",
+    "label": "0.2 l/ø 14 cm, white",
+    "size_label": null,
+    "options": "Color Family=White; Size=0.2 l/ø 14 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12311,
+      "verdict": "wrong-colour",
+      "seen": "Cream/beige bowl with anchor print, not white; same image as cream lead variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12311.webp"
+     }
+    ]
+   },
+   {
+    "variant_id": 1542,
+    "sku": "25065",
+    "label": "0.8 l/ø 22 cm, cream",
+    "size_label": null,
+    "options": "Color Family=Ivory; Size=0.8 l/ø 22 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10842,
+      "verdict": "ok",
+      "seen": "Cream melamine bowl with steel insert and seagull print, Trixie packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10842.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10845,
+      "verdict": "ok",
+      "seen": "Same cream bowl line, anchor print side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10845.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10848,
+      "verdict": "ok",
+      "seen": "Same cream bowl, \"BE NORDIC\" print side",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10848.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 10851,
+      "verdict": "ok",
+      "seen": "Cream melamine outer with insert removed, seagull print (same bowl)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10851.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 10854,
+      "verdict": "ok",
+      "seen": "Stainless steel insert alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10854.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1543,
+    "sku": "25062",
+    "label": "0.8 l/ø 22 cm, white",
+    "size_label": null,
+    "options": "Color Family=White; Size=0.8 l/ø 22 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12311,
+      "verdict": "wrong-colour",
+      "seen": "Cream/beige bowl with anchor print, not white; also the 0.2 l lead image",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12311.webp"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1088",
+  "product": "BE NORDIC Vitamin Sea Stainless Steel Bowl",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1549,
+    "sku": "24304",
+    "label": "0.45 l/ø 19 cm, black/bronze",
+    "size_label": null,
+    "options": "Color Family=Black; Size=0.45 l/ø 19 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10860,
+      "verdict": "unclear",
+      "seen": "Black matt bowl with copper interior, \"VITAMIN SEA\" print; colour matches but size not shown and the same image is used for all 3 sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10860.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1550,
+    "sku": "24305",
+    "label": "0.7 l/ø 21 cm, black/bronze",
+    "size_label": null,
+    "options": "Color Family=Black; Size=0.7 l/ø 21 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10860,
+      "verdict": "wrong-size",
+      "seen": "Identical Vitamin Sea bowl image to the 0.45 l lead; no 0.7 l-specific photo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10860.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1551,
+    "sku": "24306",
+    "label": "0.9 l/ø 23 cm, black/bronze",
+    "size_label": null,
+    "options": "Color Family=Black; Size=0.9 l/ø 23 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10860,
+      "verdict": "wrong-size",
+      "seen": "Identical Vitamin Sea bowl image to the 0.45 l lead; no 0.9 l-specific photo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10860.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1089",
+  "product": "Slow Feeding Stainless Steel Bowl",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1552,
+    "sku": "25251",
+    "label": "1.1 l/ø 21 cm",
+    "size_label": null,
+    "options": "Size=1.1 l/ø 21 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10863,
+      "verdict": "unclear",
+      "seen": "Stainless slow-feeding bowl with centre hump; generic shot covering 25250/25251/25252, size not identifiable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10863.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10866,
+      "verdict": "ok",
+      "seen": "Same slow-feeding stainless bowl, other angle (generic multi-size shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10866.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10869,
+      "verdict": "ok",
+      "seen": "Underside detail of the slow-feeding bowl with anti-slip rubber ring",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10869.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 10872,
+      "verdict": "ok",
+      "seen": "Lifestyle: slow-feeding bowl mounted in a separate bowl stand (stand 24921 not included)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10872.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 10875,
+      "verdict": "ok",
+      "seen": "Lifestyle close-up: slow-feeding bowl with kibble in a stand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10875.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 10878,
+      "verdict": "ok",
+      "seen": "Lifestyle: dog eating from slow-feeding bowl in a stand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10878.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1553,
+    "sku": "25252",
+    "label": "1.5 l/ø 24 cm",
+    "size_label": null,
+    "options": "Size=1.5 l/ø 24 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10863,
+      "verdict": "wrong-size",
+      "seen": "Identical generic slow-feeding bowl image to the 1.1 l lead; no 1.5 l-specific photo",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10863.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 10866,
+      "verdict": "ok",
+      "seen": "Same slow-feeding bowl, other angle (generic multi-size shot)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10866.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 10869,
+      "verdict": "ok",
+      "seen": "Underside detail of slow-feeding bowl with rubber ring",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10869.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1090",
+  "product": "Premium Lead, extra long, double-layered",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1559,
+    "sku": "201901",
+    "label": "XS–S, 1.80 m/15 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XS–S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10902,
+      "verdict": "unclear",
+      "seen": "Black nylon lead with snap hook and padded handle, Trixie tag; generic shot covering 203001/201801/201901, length/width not identifiable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10902.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1092",
+  "product": "Ball and Roll in display",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1563,
+    "sku": "4099",
+    "label": "ø 4.5 cm",
+    "size_label": null,
+    "options": "Toy Type=Ball; Material=Plastic; Toy Size=4.5 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 10926,
+      "verdict": "not-packshot-lead",
+      "seen": "Group of 9 mixed balls and rattle rolls (display assortment), not a single product shot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10926.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1098",
+  "product": "Set of Rattling Balls",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1569,
+    "sku": "4166",
+    "label": "4 pcs.",
+    "size_label": null,
+    "options": "Toy Type=Ball; Material=Plastic; Toy Size=4.5 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11031,
+      "verdict": "wrong-size",
+      "seen": "Single pink/clear rattling ball; variant is a set of 4 pcs (set only shown at pos 4)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11031.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11034,
+      "verdict": "ok",
+      "seen": "Single yellow/clear rattling ball (one of the set)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11034.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11037,
+      "verdict": "ok",
+      "seen": "Single purple/clear rattling ball (one of the set)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11037.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11040,
+      "verdict": "ok",
+      "seen": "Single orange/clear rattling ball (one of the set)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11040.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11043,
+      "verdict": "ok",
+      "seen": "Set of 4 rattling balls: pink, yellow, purple, orange",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11043.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1099",
+  "product": "Sisal Mouse XXL",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1570,
+    "sku": "4074",
+    "label": "10 cm",
+    "size_label": null,
+    "options": "Toy Type=Mouse & Animal; Toy Size=10 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11046,
+      "verdict": "not-packshot-lead",
+      "seen": "Group of 4 sisal mice (blue, pink, grey, beige) in a row; sold as one 10 cm mouse",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11046.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11049,
+      "verdict": "ok",
+      "seen": "Single beige sisal mouse",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11049.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11052,
+      "verdict": "ok",
+      "seen": "Single grey sisal mouse",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11052.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11055,
+      "verdict": "ok",
+      "seen": "Single pink sisal mouse",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11055.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11058,
+      "verdict": "ok",
+      "seen": "Single blue sisal mouse",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11058.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1102",
+  "product": "Adult Dog Paté",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1578,
+    "sku": "300417",
+    "label": "Beef 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Beef; Food Texture=Pate; Packaging Type=Tray",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11298,
+      "verdict": "unclear",
+      "seen": "Gemon Adult All Breeds Paté con Manzo (beef) tray; flavour and line match but no net weight printed on the tray",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11298.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1579,
+    "sku": "300447",
+    "label": "Lamb 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Lamb; Food Texture=Pate; Packaging Type=Tray",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11301,
+      "verdict": "unclear",
+      "seen": "Gemon Adult All Breeds Paté con Agnello (lamb) tray; flavour and line match but no net weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11301.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1580,
+    "sku": "300457",
+    "label": "Tuna 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Tuna; Food Texture=Pate; Packaging Type=Tray",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11304,
+      "verdict": "unclear",
+      "seen": "Gemon Adult All Breeds Paté con Tonno (tuna) tray; flavour and line match but no net weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11304.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1941,
+    "sku": "387807",
+    "label": "Beef & Tripe 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Beef; Food Texture=Pate; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 5081,
+      "verdict": "ok",
+      "seen": "Gemon Adult All Breeds Paté con Trippa di Manzo (beef tripe) can, 400g printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5081.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1942,
+    "sku": "387817",
+    "label": "Lamb 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Lamb; Food Texture=Pate; Packaging Type=Can",
+    "images": [
+     {
+      "pos": 0,
+      "media": 5084,
+      "verdict": "ok",
+      "seen": "Gemon Adult All Breeds Paté con Agnello (lamb) can, 400g printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5084.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1103",
+  "product": "Mature Dog Paté Light",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1581,
+    "sku": "300437",
+    "label": "Turkey 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Turkey; Food Texture=Pate; Packaging Type=Tray",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11307,
+      "verdict": "unclear",
+      "seen": "Gemon Mature All Breeds Paté Light con Tacchino (turkey) tray; matches but no net weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11307.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1110",
+  "product": "Flea & Tick Collar for Cats",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1591,
+    "sku": "10203",
+    "label": "35 cm, orange",
+    "size_label": null,
+    "options": "Color Family=Orange; Size=35 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11816,
+      "verdict": "unclear",
+      "seen": "three loose orange collars on white, no box/brand/length visible; colour matches but brand and 35 cm cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11816.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1592,
+    "sku": "10202",
+    "label": "35 cm, purple",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=35 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11819,
+      "verdict": "unclear",
+      "seen": "three loose purple collars on white, no box/brand/length visible; colour matches but brand and 35 cm cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11819.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 2059,
+    "sku": "10201",
+    "label": "35 cm, green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=35 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14875,
+      "verdict": "ok",
+      "seen": "Beaphar Flea & Tick collar for Cat box, 'зеленый 35 см' printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14875.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 2060,
+    "sku": "REG00118",
+    "label": "35 cm, blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=35 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14878,
+      "verdict": "ok",
+      "seen": "Beaphar Flea & Tick collar for Cat box (diazinon 15% RU edition), 'синий 35 см' printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14878.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1125",
+  "product": "Dezacid Forte Eye & Nasal Drops",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1608,
+    "sku": "63911PCHL",
+    "label": "10 ml",
+    "size_label": "10 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11418,
+      "verdict": "wrong-product",
+      "seen": "Pchelodar 'Слезинка' eye-cleaning lotion with royal jelly, bottle + box, 50 ml - not Dezacid Forte",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11418.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11421,
+      "verdict": "wrong-product",
+      "seen": "Pchelodar 'Дезацид' (gentamicin, succinic acid) eye & nasal drops 10 мл bottle + box - plain Dezacid, not Forte",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11421.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11424,
+      "verdict": "wrong-product",
+      "seen": "ApiDoctor 'Ясные глазки' eye hygiene lotion spray bottle - different product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11424.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11427,
+      "verdict": "ok",
+      "seen": "Agrobioprom 'Дезацид ФОРТЕ' / DEZACID FORTE box, eye & nose, 10 мл",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11427.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1126",
+  "product": "Otidez Forte Ear Drops",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1609,
+    "sku": "63833PCHL",
+    "label": "15 ml",
+    "size_label": "15 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11430,
+      "verdict": "wrong-product",
+      "seen": "ApiDoctor 'Чистые ушки' ear-cleaning lotion spray, with cat and dogs on label - not Otidez Forte",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11430.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11433,
+      "verdict": "wrong-product",
+      "seen": "Pchelodar 'Отидез' ear drops box 15 мл (permethrin, dexamethasone...) - plain Otidez, not Forte",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11433.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11436,
+      "verdict": "wrong-product",
+      "seen": "Pchelodar 'Ушастик' ear lotion bottle + box 50 ml - different product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11436.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11439,
+      "verdict": "ok",
+      "seen": "Agrobioprom 'Отидез ФОРТЕ' / OTIDEZ FORTE box, 15 мл",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11439.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1130",
+  "product": "Clumping Wood Litter, Peach",
+  "type": "Litter",
+  "variants": [
+   {
+    "variant_id": 1613,
+    "sku": "48905E",
+    "label": "5 l",
+    "size_label": "5 L",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11451,
+      "verdict": "wrong-flavour",
+      "seen": "Eco-Premium clumping wood litter bag front, 5 л, green flecks in window; same bag as pos1 whose back prints 'GREEN' - green tea, not peach",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11451.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11454,
+      "verdict": "wrong-flavour",
+      "seen": "Eco-Premium bag back, barcode label '5 GREEN' - green tea variant, not peach",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11454.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1132",
+  "product": "Crunchy Pillows for Kittens",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1615,
+    "sku": "548833",
+    "label": "Chicken & Egg with Taurine 60 g",
+    "size_label": "60 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11457,
+      "verdict": "ok",
+      "seen": "Мнямс Хрустящие подушечки для котят, с цыпленком и яйцом, таурин, 60 г - pouch front",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11457.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11460,
+      "verdict": "ok",
+      "seen": "same pouch back, kitten treat chicken & egg, composition, 60 г, EAN 4620202548832",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11460.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11463,
+      "verdict": "ok",
+      "seen": "infographic: same chicken & egg kitten pouch 60 г beside a kitten",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11463.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11466,
+      "verdict": "ok",
+      "seen": "benefits infographic (Ca, taurine, A/D3/E) with pillows and woman holding kitten; no other product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11466.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11469,
+      "verdict": "ok",
+      "seen": "infographic: pillows spilling from the same kitten pouch, grain-free, high protein",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11469.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11472,
+      "verdict": "ok",
+      "seen": "Мнямс lifestyle: woman with kitten on shoulder, treat-use bullets; no pack, no other product",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11472.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11475,
+      "verdict": "ok",
+      "seen": "lifestyle: woman with kitten and the same chicken & egg kitten pouch 60 г",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11475.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11478,
+      "verdict": "ok",
+      "seen": "feeding table 6/10/14 pcs per day by weight, matches pack back",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11478.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 11481,
+      "verdict": "wrong-product",
+      "seen": "'Другие вкусы' grid of six other Мнямс adult/sterilised pillow lines (hairball, taurine, skin, teeth, salmon, urinary) - none is this kitten chicken & egg pouch",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11481.jpg"
+     }
+    ]
+   }
+  ]
+ }
+]

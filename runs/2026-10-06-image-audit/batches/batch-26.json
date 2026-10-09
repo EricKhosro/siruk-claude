@@ -1,0 +1,1734 @@
+[
+ {
+  "product_id": "1027",
+  "product": "Expert Anti-Soiling Spray for Cats",
+  "brand": "Mr. Fresh",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1185,
+    "sku": "076412",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": "Սփրեյ կատուների կեղտոտելու դեմ",
+    "hafo_variant_hy": "Ցողարկիչ կատուների կեղտոտելու դեմ 200մլ Mr.Fresh F407",
+    "ean": "4607092076416",
+    "images": [
+     {
+      "pos": 0,
+      "media": "9356",
+      "file": "b3840f8f3ecd0d6c1511c962fa35ec2f55fac880",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9356.png",
+      "md5": "0bc23911144cd7de4a4941092fe723e7"
+     },
+     {
+      "pos": 1,
+      "media": "9362",
+      "file": "e660110f6d1617637bb739d972e47e26e1fbc9c1",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9362.png",
+      "md5": "effe76baffefdf226093fb34c0393682"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1028",
+  "product": "Expert Anti-Chewing Spray for Dogs",
+  "brand": "Mr. Fresh",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1186,
+    "sku": "076472",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": "Ցողարկիչ շների կրծելու դեմ",
+    "hafo_variant_hy": "Ցողարկիչ շների կրծելու դեմ 200մլ  Mr.Fresh F405",
+    "ean": "4607092076478",
+    "images": [
+     {
+      "pos": 0,
+      "media": "9371",
+      "file": "52578afa3d3bff5648cb028a64cca988f86f87f4",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9371.png",
+      "md5": "0318e964f479ea35ba416a7166d82d54"
+     },
+     {
+      "pos": 1,
+      "media": "9377",
+      "file": "3f1521a8bd522d205e364f2ab4d2d62e723793e5",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9377.png",
+      "md5": "b82280abe52e73afb544f33f45b0e970"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1029",
+  "product": "Puppy",
+  "brand": "Acana",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1187,
+    "sku": "AC5001112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9365",
+      "file": "ACANA-Puppy-Recipe-Front-Right-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9365.jpg",
+      "md5": "8cf56945f55181d4b8b09f1d4d62c671"
+     },
+     {
+      "pos": 1,
+      "media": "9368",
+      "file": "ACANA-Puppy-Recipe-Back-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9368.jpg",
+      "md5": "4d955d083860dd5c679aa421ca61a9eb"
+     },
+     {
+      "pos": 2,
+      "media": "9374",
+      "file": "NS-ACANA-Dog-Ingredients-PUPPY-556x800",
+      "dims": "1200x1725",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9374.jpeg",
+      "md5": "74647aaffa156366d604ab002299bc86"
+     },
+     {
+      "pos": 3,
+      "media": "9380",
+      "file": "ACANA-Dog-Puppy-New-Look-EMEA",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9380.jpg",
+      "md5": "f4bd8520f1a0a85de9e04cf1f657b484"
+     }
+    ]
+   },
+   {
+    "variant_id": 1725,
+    "sku": "AC5001112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9365",
+      "file": "ACANA-Puppy-Recipe-Front-Right-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9365.jpg",
+      "md5": "8cf56945f55181d4b8b09f1d4d62c671"
+     },
+     {
+      "pos": 1,
+      "media": "9368",
+      "file": "ACANA-Puppy-Recipe-Back-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9368.jpg",
+      "md5": "4d955d083860dd5c679aa421ca61a9eb"
+     },
+     {
+      "pos": 2,
+      "media": "9374",
+      "file": "NS-ACANA-Dog-Ingredients-PUPPY-556x800",
+      "dims": "1200x1725",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9374.jpeg",
+      "md5": "74647aaffa156366d604ab002299bc86"
+     },
+     {
+      "pos": 3,
+      "media": "9380",
+      "file": "ACANA-Dog-Puppy-New-Look-EMEA",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9380.jpg",
+      "md5": "f4bd8520f1a0a85de9e04cf1f657b484"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1030",
+  "product": "Expert Anti-Scratching Spray for Cats",
+  "brand": "Mr. Fresh",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1188,
+    "sku": "076482",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": "Ցողարկիչ կատուների ճանկելու դեմ 200մլ Mr.Fresh",
+    "hafo_variant_hy": "Ցողարկիչ կատուների ճանկելու դեմ 200մլ Mr.Fresh F406",
+    "ean": "4607092076485",
+    "images": [
+     {
+      "pos": 0,
+      "media": "9386",
+      "file": "653a40fc0567bc0cb33d90c5243340eab5949da0",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9386.png",
+      "md5": "38705a0852f917c4ade623bd73dff98c"
+     },
+     {
+      "pos": 1,
+      "media": "9392",
+      "file": "48b3a35ef2db548355b106115b6759db11915db4",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9392.png",
+      "md5": "1920a67bee8942e93a5f6ff4313c96db"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1031",
+  "product": "Adult Small Breed",
+  "brand": "Acana",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1189,
+    "sku": "AC5236012",
+    "label": "6 kg",
+    "size_label": "6 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9383",
+      "file": "ACANA-Dog-Light-Fit-Recipe-Front-Right-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9383.jpg",
+      "md5": "6d153df32bad27d5b9cc46a25cf29e36"
+     },
+     {
+      "pos": 1,
+      "media": "9389",
+      "file": "ACANA-Adult-Small-Breed-Recipe-Back-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9389.jpg",
+      "md5": "42ff8dff5be57547438dffd6b6f4bb66"
+     },
+     {
+      "pos": 2,
+      "media": "9395",
+      "file": "ACANA-Dog-Adult-Small-Breed-Dog-New-Look-EMEA",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9395.png",
+      "md5": "55896d29512fe9eac228d00bca009bef"
+     },
+     {
+      "pos": 3,
+      "media": "9398",
+      "file": "ACANA-Dog-Adult-Small-Breed-Dog-New-Look-EMEA",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9398.jpg",
+      "md5": "d3d09a1e0defdfe238c3a2ebffab0274"
+     }
+    ]
+   },
+   {
+    "variant_id": 1367,
+    "sku": "AC5236012-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9383",
+      "file": "ACANA-Dog-Light-Fit-Recipe-Front-Right-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9383.jpg",
+      "md5": "6d153df32bad27d5b9cc46a25cf29e36"
+     },
+     {
+      "pos": 1,
+      "media": "9389",
+      "file": "ACANA-Adult-Small-Breed-Recipe-Back-6kg-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9389.jpg",
+      "md5": "42ff8dff5be57547438dffd6b6f4bb66"
+     },
+     {
+      "pos": 2,
+      "media": "9395",
+      "file": "ACANA-Dog-Adult-Small-Breed-Dog-New-Look-EMEA",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9395.png",
+      "md5": "55896d29512fe9eac228d00bca009bef"
+     },
+     {
+      "pos": 3,
+      "media": "9398",
+      "file": "ACANA-Dog-Adult-Small-Breed-Dog-New-Look-EMEA",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9398.jpg",
+      "md5": "d3d09a1e0defdfe238c3a2ebffab0274"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1032",
+  "product": "Expert Anti-Soiling Spray for Dogs",
+  "brand": "Mr. Fresh",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1190,
+    "sku": "076492",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": "«Mr.Fresh» սփրեյ շների կեղտոտելու դեմ",
+    "hafo_variant_hy": "Ցողարկիչ շների կեղտոտելու դեմ 200մլ Mr.Fresh F408",
+    "ean": "4607092076492",
+    "images": [
+     {
+      "pos": 0,
+      "media": "9401",
+      "file": "5ec6697dd0a8e21cd5833d21a93a79f19b64adb9",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9401.png",
+      "md5": "d7a47370063505bed6dd3a65b33f14d1"
+     },
+     {
+      "pos": 1,
+      "media": "9407",
+      "file": "262697f8a64035f6511084b18c4797756289eefd",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9407.png",
+      "md5": "768db5032991a6f80dd62facd68b767f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1033",
+  "product": "Highest Protein Grasslands Dog",
+  "brand": "Acana",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1191,
+    "sku": "AC5421112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9404",
+      "file": "ACANA-Dog-Highest-Protein-Grasslands-Recipe-6kg-Front-Right-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9404.jpg",
+      "md5": "4e6788f806e6a80e970518063ce8c55c"
+     },
+     {
+      "pos": 1,
+      "media": "9410",
+      "file": "Grasslands-Recipe-Dog-6kg-Back-EN",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9410.jpg",
+      "md5": "c7e4601005fa00943919cf29783e7d9a"
+     },
+     {
+      "pos": 2,
+      "media": "9413",
+      "file": "ACANA-Highest-Protein-Grasslands-Features-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9413.jpeg",
+      "md5": "fdda96c197a762dc0b9339f1dbec9625"
+     },
+     {
+      "pos": 3,
+      "media": "9419",
+      "file": "ACANA-Highest-Protein-Grasslands-New-Look-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9419.jpeg",
+      "md5": "9064ab5f87d2951731b1e99aa1b247fa"
+     }
+    ]
+   },
+   {
+    "variant_id": 1726,
+    "sku": "AC5421112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9404",
+      "file": "ACANA-Dog-Highest-Protein-Grasslands-Recipe-6kg-Front-Right-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9404.jpg",
+      "md5": "4e6788f806e6a80e970518063ce8c55c"
+     },
+     {
+      "pos": 1,
+      "media": "9410",
+      "file": "Grasslands-Recipe-Dog-6kg-Back-EN",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9410.jpg",
+      "md5": "c7e4601005fa00943919cf29783e7d9a"
+     },
+     {
+      "pos": 2,
+      "media": "9413",
+      "file": "ACANA-Highest-Protein-Grasslands-Features-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9413.jpeg",
+      "md5": "fdda96c197a762dc0b9339f1dbec9625"
+     },
+     {
+      "pos": 3,
+      "media": "9419",
+      "file": "ACANA-Highest-Protein-Grasslands-New-Look-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9419.jpeg",
+      "md5": "9064ab5f87d2951731b1e99aa1b247fa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1034",
+  "product": "Expert Litter Training Spray for Cats",
+  "brand": "Mr. Fresh",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1192,
+    "sku": "076502",
+    "label": "200 ml",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": "Ցողարկիչ կատուների տեղին սովորեցնելու 200մլ Mr.Fresh",
+    "hafo_variant_hy": "Ցողարկիչ կատուների տեղին սովորեցնելու 200մլ Mr.Fresh F409",
+    "ean": "4607092076508",
+    "images": [
+     {
+      "pos": 0,
+      "media": "9416",
+      "file": "56cc446a5b997f3dc2c5a2222a7f7e24f38a81d4",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9416.png",
+      "md5": "ce9ee00376ba7f0f44542411f1834522"
+     },
+     {
+      "pos": 1,
+      "media": "9422",
+      "file": "ed0391e8cc8856649b944275b865970d45abc228",
+      "dims": "544x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9422.png",
+      "md5": "c43d22832d2212769d12cc043ebff177"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1035",
+  "product": "Highest Protein Pacifica Dog",
+  "brand": "Acana",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1193,
+    "sku": "AC5411112",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Herring",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9425",
+      "file": "ACANA-Dog-Highest-Protein-Pacifica-Recipe-6kg-Front-Right-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9425.jpg",
+      "md5": "3a430ab891cd2f753983c6b11dbf5eaa"
+     },
+     {
+      "pos": 1,
+      "media": "9428",
+      "file": "Pacifica-Recipe-Dog-6kg-Back-EN",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9428.jpg",
+      "md5": "1e3f9979a10064e740440258f464c3df"
+     },
+     {
+      "pos": 2,
+      "media": "9431",
+      "file": "ACANA-Highest-Protein-Pacifica-Features-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9431.jpeg",
+      "md5": "168fb256a964edc37390cddaaa0c3ad3"
+     },
+     {
+      "pos": 3,
+      "media": "9434",
+      "file": "ACANA-Highest-Protein-Pacifica-New-Look-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9434.jpeg",
+      "md5": "04808097a1c3f50ead4b6638c23f3f39"
+     }
+    ]
+   },
+   {
+    "variant_id": 1727,
+    "sku": "AC5411112-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Herring",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9425",
+      "file": "ACANA-Dog-Highest-Protein-Pacifica-Recipe-6kg-Front-Right-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9425.jpg",
+      "md5": "3a430ab891cd2f753983c6b11dbf5eaa"
+     },
+     {
+      "pos": 1,
+      "media": "9428",
+      "file": "Pacifica-Recipe-Dog-6kg-Back-EN",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9428.jpg",
+      "md5": "1e3f9979a10064e740440258f464c3df"
+     },
+     {
+      "pos": 2,
+      "media": "9431",
+      "file": "ACANA-Highest-Protein-Pacifica-Features-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9431.jpeg",
+      "md5": "168fb256a964edc37390cddaaa0c3ad3"
+     },
+     {
+      "pos": 3,
+      "media": "9434",
+      "file": "ACANA-Highest-Protein-Pacifica-New-Look-Canada-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9434.jpeg",
+      "md5": "04808097a1c3f50ead4b6638c23f3f39"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1036",
+  "product": "Singles Free-Run Duck",
+  "brand": "Acana",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1194,
+    "sku": "AC5711212",
+    "label": "11.4 kg",
+    "size_label": "11.4 kg",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9437",
+      "file": "Free-Run-Duck-Recipe-6kg-Front-Right-FEDIAF",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9437.jpg",
+      "md5": "f4102daba76cf66db29cb021861b38bb"
+     },
+     {
+      "pos": 1,
+      "media": "9440",
+      "file": "Singles-Free-Run-Duck-Recipe-6kg-Back-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9440.jpg",
+      "md5": "cfe536883ecc63a7573fb2b329b73d47"
+     },
+     {
+      "pos": 2,
+      "media": "9443",
+      "file": "ACANA-Dog-Singles-Free-Run-Duck-Bowl-Image-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9443.png",
+      "md5": "df2b22dff427cfa7f3f9784bd6e01a83"
+     },
+     {
+      "pos": 3,
+      "media": "9446",
+      "file": "ACANA-Dog-Singles-Free-Run-Duck-Key-Features-EMEA-APAC",
+      "dims": "1200x1128",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9446.png",
+      "md5": "4649c47c8e8f2691334be30099584d20"
+     }
+    ]
+   },
+   {
+    "variant_id": 1368,
+    "sku": "AC5711212-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "9437",
+      "file": "Free-Run-Duck-Recipe-6kg-Front-Right-FEDIAF",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9437.jpg",
+      "md5": "f4102daba76cf66db29cb021861b38bb"
+     },
+     {
+      "pos": 1,
+      "media": "9440",
+      "file": "Singles-Free-Run-Duck-Recipe-6kg-Back-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9440.jpg",
+      "md5": "cfe536883ecc63a7573fb2b329b73d47"
+     },
+     {
+      "pos": 2,
+      "media": "9443",
+      "file": "ACANA-Dog-Singles-Free-Run-Duck-Bowl-Image-EMEA-APAC",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9443.png",
+      "md5": "df2b22dff427cfa7f3f9784bd6e01a83"
+     },
+     {
+      "pos": 3,
+      "media": "9446",
+      "file": "ACANA-Dog-Singles-Free-Run-Duck-Key-Features-EMEA-APAC",
+      "dims": "1200x1128",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/9446.png",
+      "md5": "4649c47c8e8f2691334be30099584d20"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1037",
+  "product": "Training Dummy",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1326,
+    "sku": "32860",
+    "label": "ø 6 × 14 cm/25 cm, orange",
+    "size_label": null,
+    "options": "Toy Type=Fetch & Retrieve; Material=Polyester; Toy Size=25 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10138",
+      "file": "trixie-trainings-dummy-fuer-hunde-1706868699",
+      "dims": "1300x1300",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10138.jpg",
+      "md5": "9242d7630800f59c14a3ef43e862481f"
+     },
+     {
+      "pos": 1,
+      "media": "10141",
+      "file": "trixie-trainings-dummy-fuer-hunde-1706868703",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10141.jpg",
+      "md5": "85a6c1cda01129161b9e42987892a9b2"
+     },
+     {
+      "pos": 2,
+      "media": "10144",
+      "file": "trixie-trainings-dummy-fuer-hunde-1706868697",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10144.jpg",
+      "md5": "0c9f85ed9a8819426ee37a0a01d731ed"
+     },
+     {
+      "pos": 3,
+      "media": "10147",
+      "file": "trixie-trainings-dummy-fuer-hunde-1706868705",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10147.jpg",
+      "md5": "1ee5f4470c7365a9bccdae2eddd4463f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1038",
+  "product": "BE NORDIC Anchor",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1327,
+    "sku": "35651",
+    "label": "25 cm",
+    "size_label": null,
+    "options": "Toy Type=Plush; Material=Polyester; Toy Size=25 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10150",
+      "file": "33658_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10150.jpg",
+      "md5": "970145e820b3b03aa98203196af04a8f"
+     },
+     {
+      "pos": 1,
+      "media": "10153",
+      "file": "33659_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10153.jpg",
+      "md5": "728262908f6225036367962cbf41f219"
+     },
+     {
+      "pos": 2,
+      "media": "10156",
+      "file": "33660_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10156.jpg",
+      "md5": "ec446e6c424e403e41225e54eb04e410"
+     },
+     {
+      "pos": 3,
+      "media": "10159",
+      "file": "33661_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10159.jpg",
+      "md5": "c2fcbe1c924726987d5828ac716c8b30"
+     },
+     {
+      "pos": 4,
+      "media": "10162",
+      "file": "33662_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10162.jpg",
+      "md5": "86349e3cbe31977528a5506d701fc9c0"
+     },
+     {
+      "pos": 5,
+      "media": "10165",
+      "file": "33663_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10165.jpg",
+      "md5": "30505d41fc81e6e66a82a0452ca4233f"
+     },
+     {
+      "pos": 6,
+      "media": "10168",
+      "file": "33664_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10168.jpg",
+      "md5": "acfd3c3860e815534c1e3c254b36414a"
+     },
+     {
+      "pos": 7,
+      "media": "10171",
+      "file": "33665_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10171.jpg",
+      "md5": "897461b74452d81bc1f4d1c54827a355"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1039",
+  "product": "BE NORDIC Lifebelt",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1328,
+    "sku": "35652",
+    "label": "ø 30 cm",
+    "size_label": null,
+    "options": "Toy Type=Plush; Material=Polyester; Toy Size=30 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10174",
+      "file": "33666_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10174.jpg",
+      "md5": "520ebdf2d669bc595953577851dfbc11"
+     },
+     {
+      "pos": 1,
+      "media": "10177",
+      "file": "33667_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10177.jpg",
+      "md5": "fe397945f4804b763252c50b9732d2b1"
+     },
+     {
+      "pos": 2,
+      "media": "10180",
+      "file": "33668_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10180.jpg",
+      "md5": "615dab76c30bbf9ac82299a6a14018af"
+     },
+     {
+      "pos": 3,
+      "media": "10183",
+      "file": "33669_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10183.jpg",
+      "md5": "84631d8703ec2dfc69894801c30add64"
+     },
+     {
+      "pos": 4,
+      "media": "10186",
+      "file": "33670_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10186.jpg",
+      "md5": "87b8f124c03d86270e5866aab30199dd"
+     },
+     {
+      "pos": 5,
+      "media": "10189",
+      "file": "33671_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10189.jpg",
+      "md5": "9026128a8c076a9792d3e44d3aa18383"
+     },
+     {
+      "pos": 6,
+      "media": "10192",
+      "file": "33672_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10192.jpg",
+      "md5": "1e5f592e4ad367eae3436c4e233b96e6"
+     },
+     {
+      "pos": 7,
+      "media": "10195",
+      "file": "33673_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10195.jpg",
+      "md5": "7871f412f528aab155a2c2ae30aea617"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1040",
+  "product": "Junior Snuggler Fox, My Matatabi",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1329,
+    "sku": "45652",
+    "label": "13 × 13 cm",
+    "size_label": null,
+    "options": "Toy Type=Plush; Material=Polyester; Toy Size=13 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10198",
+      "file": "36606_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10198.jpg",
+      "md5": "d745a0db9a9ad31eff1b068c9a24f3ca"
+     },
+     {
+      "pos": 1,
+      "media": "10201",
+      "file": "36607_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10201.jpg",
+      "md5": "f7db15192ee8ab83a85b66e04b65db6c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1041",
+  "product": "Massage Brush with Hand Loop, 11 × 14 cm",
+  "brand": "Trixie",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1330,
+    "sku": "24165",
+    "label": "11 × 14 cm",
+    "size_label": null,
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10204",
+      "file": "30795_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10204.jpg",
+      "md5": "1c42304e45feeed9bf50919484d4ffed"
+     },
+     {
+      "pos": 1,
+      "media": "10207",
+      "file": "30796_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10207.jpg",
+      "md5": "8050a52f3adf0ce9b2d2fb807d843735"
+     },
+     {
+      "pos": 2,
+      "media": "10210",
+      "file": "30797_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10210.jpg",
+      "md5": "4ee564dbfd336a58713d30e80c7037ab"
+     },
+     {
+      "pos": 3,
+      "media": "10213",
+      "file": "30798_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10213.jpg",
+      "md5": "fe837d628253afe3100f495f3e4c4151"
+     },
+     {
+      "pos": 4,
+      "media": "10216",
+      "file": "30799_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10216.jpg",
+      "md5": "13f3483aee4e37445fcc83697b8bcc1b"
+     },
+     {
+      "pos": 5,
+      "media": "10219",
+      "file": "30800_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10219.jpg",
+      "md5": "1e0717b337d100bfc4a08ddbedecd3cf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1042",
+  "product": "Tasties Chicken Breasts",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1331,
+    "sku": "15263",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Հյուրասիրություն շների՝ TASTIES հավի կրծքամիս, 85 գ",
+    "hafo_variant_hy": "Հյուրասիրություն շների՝ TASTIES հավի կրծքամիս, 85 գ",
+    "ean": "4048422152637",
+    "images": [
+     {
+      "pos": 0,
+      "media": "10237",
+      "file": "csm_TH20113_9649_e647b1bb9f",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10237.jpg",
+      "md5": "2ceeb20efe702d4df0e19bbcf4db7cfe"
+     },
+     {
+      "pos": 1,
+      "media": "10240",
+      "file": "csm_TH20113_9652_481d44ee9f",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10240.jpg",
+      "md5": "76a45619ee4fc4a0af1e9df8e0fb3712"
+     },
+     {
+      "pos": 2,
+      "media": "10243",
+      "file": "csm_TH20113_14255_bb5a144f67",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10243.jpg",
+      "md5": "3c6e1f7f1857a72134be4dd300d9b6e7"
+     },
+     {
+      "pos": 3,
+      "media": "10246",
+      "file": "csm_TR30477_9632_f08b56415c",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10246.jpg",
+      "md5": "1ba9791f7822fb2034be262dbc030a31"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1043",
+  "product": "Tasties Chicken Fillets",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1332,
+    "sku": "15266",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Հյուրասիրություն շների՝ TASTIES հավի ֆիլե, 85 գ",
+    "hafo_variant_hy": "Հյուրասիրություն շների՝ TASTIES հավի ֆիլե, 85 գ",
+    "ean": "4048422152668",
+    "images": [
+     {
+      "pos": 0,
+      "media": "12152",
+      "file": "csm_TH20114_9649_3278640524.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12152.jpg",
+      "md5": "3b4ddca3845bb53cd6ebc63e3d2d4fc4"
+     },
+     {
+      "pos": 1,
+      "media": "12155",
+      "file": "csm_TH20114_9652_5a6bab7745.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12155.jpg",
+      "md5": "b2618f31e2ba793634ad92614a3f589d"
+     },
+     {
+      "pos": 2,
+      "media": "12158",
+      "file": "csm_TH20114_14255_410aeb7c1a.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12158.jpg",
+      "md5": "6577e9cf66675c381e7812d7c1e888bf"
+     },
+     {
+      "pos": 3,
+      "media": "12161",
+      "file": "csm_TR30478_9632_d73c609410.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12161.jpg",
+      "md5": "b49910ba3dfae499eefe73609b6dc5d0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1044",
+  "product": "Tasties Chicken Chips",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1333,
+    "sku": "15269",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Հյուրասիրություն շների՝ TASTIES հավի չիպս, 85 գ",
+    "hafo_variant_hy": "Հյուրասիրություն շների՝ TASTIES հավի չիպս, 85 գ",
+    "ean": "4048422152699",
+    "images": [
+     {
+      "pos": 0,
+      "media": "12140",
+      "file": "csm_TH20115_9649_8ef9fa4e5e.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12140.jpg",
+      "md5": "b82fbb7bfb9972defa18bcd2115e4a3f"
+     },
+     {
+      "pos": 1,
+      "media": "12143",
+      "file": "csm_TH20115_9652_7489c6a90b.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12143.jpg",
+      "md5": "9449efd135084f98cdbe8580a14abaf7"
+     },
+     {
+      "pos": 2,
+      "media": "12146",
+      "file": "csm_TH20115_14255_b9d9e1796b.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12146.jpg",
+      "md5": "b9ab272137a8aa63eca9264ded8d9d24"
+     },
+     {
+      "pos": 3,
+      "media": "12149",
+      "file": "csm_TR30479_9632_b4732da7e7.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12149.jpg",
+      "md5": "419f2fe7dbc1f325d313946eec79ccbf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1045",
+  "product": "Tasties Sushi Rolls",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1334,
+    "sku": "15272",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Հյուրասիրություն շների՝ TASTIES սուշի ռոլ, հավ/ձուկ, 85 գ",
+    "hafo_variant_hy": "Հյուրասիրություն շների՝ TASTIES սուշի ռոլ, հավ/ձուկ, 85 գ",
+    "ean": "4048422152729",
+    "images": [
+     {
+      "pos": 0,
+      "media": "12128",
+      "file": "csm_TH20116_9649_758062d222.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12128.jpg",
+      "md5": "f2972386f43aeab1f0aa0a3a46e80fb4"
+     },
+     {
+      "pos": 1,
+      "media": "12131",
+      "file": "csm_TH20116_9652_5009a26d2b.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12131.jpg",
+      "md5": "263f9a8c12dc2db475e258ea34865d81"
+     },
+     {
+      "pos": 2,
+      "media": "12134",
+      "file": "csm_TH20116_14255_1019a192e9.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12134.jpg",
+      "md5": "e84397261379b5e757c1e8a4ec5f073f"
+     },
+     {
+      "pos": 3,
+      "media": "12137",
+      "file": "csm_TR30480_9632_65f68aa925.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12137.jpg",
+      "md5": "9a239f97c92d33a5060af20cc5db4c76"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1046",
+  "product": "Tasties Twisters",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1335,
+    "sku": "15275",
+    "label": "85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Հյուրասիրություն շների՝ TASTIES թվիսթեր, հավ/ձուկ 85 գ",
+    "hafo_variant_hy": "Հյուրասիրություն շների՝ TASTIES թվիսթեր, հավ/ձուկ 85 գ",
+    "ean": "4048422152750",
+    "images": [
+     {
+      "pos": 0,
+      "media": "12116",
+      "file": "csm_TH20117_9649_4254cf0fc5.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12116.jpg",
+      "md5": "4170b2cd88eb37aa06ca150b10d00022"
+     },
+     {
+      "pos": 1,
+      "media": "12119",
+      "file": "csm_TH20117_9652_8ccf57d088.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12119.jpg",
+      "md5": "d63ba243c4d09cfa9e0b6658b07557da"
+     },
+     {
+      "pos": 2,
+      "media": "12122",
+      "file": "csm_TH20117_14255_4890453d88.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12122.jpg",
+      "md5": "8a9392664de8ad4d60f58374b2363d34"
+     },
+     {
+      "pos": 3,
+      "media": "12125",
+      "file": "csm_TR30481_9632_9daf486905.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12125.jpg",
+      "md5": "55614dc496b3fc7ea4921acf07770981"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1047",
+  "product": "PRO Dental Twisted Sticks",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1336,
+    "sku": "12253S",
+    "label": "XS, 55 g / 10 ct",
+    "size_label": "55 g",
+    "options": "Flavor=Chicken; Health Feature=Dental & Breath Care",
+    "hafo_title_hy": "Delights հավի համով դենտալ ձողիկներ շների համար, XS չափի",
+    "hafo_variant_hy": "Ձողիկներ` DENTAL, հավի համով, XS, 55 գ",
+    "ean": "4048422122531",
+    "images": [
+     {
+      "pos": 0,
+      "media": "12104",
+      "file": "csm_TH21048_9649_d65dfcea6c.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12104.jpg",
+      "md5": "4ac56c77b67f34a13b154e1434fdecb4"
+     },
+     {
+      "pos": 1,
+      "media": "12107",
+      "file": "csm_TH21048_9652_464520ce37.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12107.jpg",
+      "md5": "be765e8ee1d4ead0e81f988c8270d363"
+     },
+     {
+      "pos": 2,
+      "media": "12110",
+      "file": "csm_TH21048_14255_f623a44c20.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12110.jpg",
+      "md5": "05864d663c8f6092c749f41101439692"
+     },
+     {
+      "pos": 3,
+      "media": "12113",
+      "file": "csm_TR30303_9632_4e97138e96.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12113.jpg",
+      "md5": "ef5071e56ae58595f5121590baa08793"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1048",
+  "product": "PRO Dental Bone",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1337,
+    "sku": "10268S",
+    "label": "L, 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken; Health Feature=Dental & Breath Care",
+    "hafo_title_hy": "Ոսկոր շների համար",
+    "hafo_variant_hy": "Ոսկոր` հանգույցներով, L DENTAL, հավի համով, 85 գ",
+    "ean": "4048422102687",
+    "images": [
+     {
+      "pos": 0,
+      "media": "12092",
+      "file": "csm_TH32816_9649_ff4fb5971e.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12092.jpg",
+      "md5": "160da8c341c23511893b8d7f89d5421d"
+     },
+     {
+      "pos": 1,
+      "media": "12095",
+      "file": "csm_TH32816_9652_d50d19b003.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12095.jpg",
+      "md5": "05f04d78d34fb926311fe9c76eb82216"
+     },
+     {
+      "pos": 2,
+      "media": "12098",
+      "file": "csm_TH32816_14255_5117aef809.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12098.jpg",
+      "md5": "c7d22b2a1b7f8fd7dd2a7a927f6c9917"
+     },
+     {
+      "pos": 3,
+      "media": "12101",
+      "file": "csm_TR30275_9632_4fe13fb775.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12101.jpg",
+      "md5": "532763c5d7b288e9078b6c46a8656c75"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1049",
+  "product": "PRO Fillets Dental",
+  "brand": "8in1",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1338,
+    "sku": "11235S",
+    "label": "80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Chicken; Health Feature=Dental & Breath Care",
+    "hafo_title_hy": "Ֆիլե` հավի համով, PRO DENTAL",
+    "hafo_variant_hy": "Ֆիլե` հավի համով, PRO DENTAL, 80 գ",
+    "ean": "4048422112358",
+    "images": [
+     {
+      "pos": 0,
+      "media": "12080",
+      "file": "csm_TH35263_9649_9f264d4f0f.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12080.jpg",
+      "md5": "7287d6d61a0566861b373212515f86c4"
+     },
+     {
+      "pos": 1,
+      "media": "12083",
+      "file": "csm_TH35263_9652_23fe1dfdcf.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12083.jpg",
+      "md5": "c2e629434ab2bc69bc72cf6f3c91b855"
+     },
+     {
+      "pos": 2,
+      "media": "12086",
+      "file": "csm_TH35263_14255_c29112aa27.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12086.jpg",
+      "md5": "0bf840cdb5881a83c1264ee5aebac1d5"
+     },
+     {
+      "pos": 3,
+      "media": "12089",
+      "file": "csm_TR31488_9632_451fd0a952.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12089.jpg",
+      "md5": "cfbfe60d0bef122c40057bc0959ba463"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1050",
+  "product": "Adult Cat Pouch",
+  "brand": "Myau",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1339,
+    "sku": "142595",
+    "label": "Veal & Vegetables in Jelly",
+    "size_label": "85 g",
+    "options": "Flavor=Veal; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "«МЯУ» Պահածոյացված կեր չափահաս կատուների համար (հորթ/բանջարեղեն)",
+    "hafo_variant_hy": "ՄՅԱՈՒ ժելե կատուների համար հորթ/բանջարեղեն 85 գ",
+    "ean": "4820269142596",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13888",
+      "file": "1339-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13888.jpg",
+      "md5": "248c5e9df087352304783b1d899f3a56"
+     },
+     {
+      "pos": 1,
+      "media": "13891",
+      "file": "1339-2.jpg",
+      "dims": "600x600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13891.jpg",
+      "md5": "3fbc4734b0ed883be474557ff450d5cc"
+     }
+    ]
+   },
+   {
+    "variant_id": 1340,
+    "sku": "142605",
+    "label": "Turkey in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Turkey; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "«МЯУ» Պահածոյացված կեր չափահաս կատուների համար (հնդկահավ)",
+    "hafo_variant_hy": "ՄՅԱՈՒ ժելե կատուների համար հնդկահավ/սոուսում 85 գ",
+    "ean": "4820269142602",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13894",
+      "file": "1340-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13894.jpg",
+      "md5": "914dd60d90dd0804c8f91d55f6cb233c"
+     },
+     {
+      "pos": 1,
+      "media": "13897",
+      "file": "1340-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13897.jpg",
+      "md5": "42ae15869dedd38275890d076de91998"
+     }
+    ]
+   },
+   {
+    "variant_id": 1341,
+    "sku": "142615",
+    "label": "Rabbit & Turkey Ragout",
+    "size_label": "85 g",
+    "options": "Flavor=Rabbit; Food Texture=Stew; Packaging Type=Pouch",
+    "hafo_title_hy": "«МЯУ» Պահածոյացված կեր չափահաս կատուների համար (ճագար/հնդկահավ)",
+    "hafo_variant_hy": "ՄՅԱՈՒ կատուների ռագու ճագար/հնդկահավ 85 գ",
+    "ean": "4820269142619",
+    "images": [
+     {
+      "pos": 0,
+      "media": "11966",
+      "file": "ge-catalog-product-upload-ME000001881",
+      "dims": "931x896",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11966.png",
+      "md5": "5e500577bdf145c586fa7a136da34c48"
+     }
+    ]
+   },
+   {
+    "variant_id": 1342,
+    "sku": "142625",
+    "label": "Rabbit in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Rabbit; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "«МЯУ» Պահածոյացված կեր չափահաս կատուների համար (ճագարով)",
+    "hafo_variant_hy": "ՄՅԱՈՒ ժելե կատուների համար ճագար և սոուս, 85 գ",
+    "ean": "4820269142626",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13900",
+      "file": "1342-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13900.jpg",
+      "md5": "6127f8b908545064cb9b90647f29fb6f"
+     },
+     {
+      "pos": 1,
+      "media": "13903",
+      "file": "1342-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13903.jpg",
+      "md5": "b143c9db8eb93f23d2279ff4c8417460"
+     }
+    ]
+   },
+   {
+    "variant_id": 1343,
+    "sku": "142635",
+    "label": "Chicken in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "ՄՅԱՈՒ  ժելե կատուների համար հավը սոուսում",
+    "hafo_variant_hy": "ՄՅԱՈՒ  ժելե կատուների համար հավը սոուսում 85գ",
+    "ean": "4820269142633",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13906",
+      "file": "1343-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13906.jpg",
+      "md5": "befad6632777b15bc8988e9c600d21e5"
+     },
+     {
+      "pos": 1,
+      "media": "13909",
+      "file": "1343-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13909.jpg",
+      "md5": "69485f420aec16ed52f1d47c05bd8a54"
+     }
+    ]
+   },
+   {
+    "variant_id": 1344,
+    "sku": "142655",
+    "label": "Fish in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Fish; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "«МЯУ» Պահածոյացված կեր չափահաս կատուների համար (ձուկ)",
+    "hafo_variant_hy": "ՄՅԱՈՒ ժելե կատուների համար ձուկ/սոուս, 85 գ",
+    "ean": "4820269142657",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13912",
+      "file": "1344-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13912.jpg",
+      "md5": "ff39f2ce71fa7e6b43cbdfc39c2e94fd"
+     },
+     {
+      "pos": 1,
+      "media": "13915",
+      "file": "1344-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13915.jpg",
+      "md5": "5b9c63f3f1ff875e4a106f3659c3f9ce"
+     }
+    ]
+   },
+   {
+    "variant_id": 1586,
+    "sku": "142645",
+    "label": "Liver in Gravy",
+    "size_label": "85 g",
+    "options": "Flavor=Liver; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "ՄՅԱՈՒ ժելե կատուների համար մսային սոուս (80գ)",
+    "hafo_variant_hy": null,
+    "ean": "4820083906848",
+    "images": [
+     {
+      "pos": 0,
+      "media": "11346",
+      "file": "dd702f42d7586ec8b98696cdd56a1918",
+      "dims": "536x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11346.jpg",
+      "md5": "16d814774d6b142bea87b049afd45ef3"
+     },
+     {
+      "pos": 1,
+      "media": "11349",
+      "file": "80e678ad47becd47c9446e27dfcccd50",
+      "dims": "700x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11349.jpg",
+      "md5": "3a35f2c7001ac1811914104ffdba5b6f"
+     },
+     {
+      "pos": 2,
+      "media": "11352",
+      "file": "328c7a347faab08c2dcacd782a22db00",
+      "dims": "700x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11352.jpg",
+      "md5": "ff7f80971129aad7fddf26b3d7d71023"
+     },
+     {
+      "pos": 3,
+      "media": "11355",
+      "file": "e4fba2112c4f50d9b4dd7d5a4741e49e",
+      "dims": "700x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11355.jpg",
+      "md5": "431fd6f513fc926bd4ecc3ac9eea3a01"
+     },
+     {
+      "pos": 4,
+      "media": "11358",
+      "file": "d9da1653b09523207fc9ed26a8f1dc08",
+      "dims": "700x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11358.jpg",
+      "md5": "b07a7287676d70db9131e9b7e6657635"
+     },
+     {
+      "pos": 5,
+      "media": "11361",
+      "file": "b70b5454d1b0644ed929041e613410fa",
+      "dims": "700x700",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11361.jpg",
+      "md5": "a89b12c642792ad943d226ab81b1dd5d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1051",
+  "product": "Kitten Pouch",
+  "brand": "Myau",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1345,
+    "sku": "143005",
+    "label": "Chicken in Jelly",
+    "size_label": "85 g",
+    "options": "Flavor=Chicken; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "ՄՅԱՈՒ ժելե կատուների ձագերի համար՝ հավի",
+    "hafo_variant_hy": "ՄՅԱՈՒ ժելե` kitten, կատ. ձագերի համար, հավի, 85 գ",
+    "ean": "4820269143005",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13918",
+      "file": "1345-1.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13918.jpg",
+      "md5": "783c025848c052d7fef404c86d1c2894"
+     },
+     {
+      "pos": 1,
+      "media": "13921",
+      "file": "1345-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13921.jpg",
+      "md5": "843aac0f87745ee5494d822c6e62eb4e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1052",
+  "product": "Cat Paté",
+  "brand": "KorMell",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1346,
+    "sku": "83041J",
+    "label": "Chicken",
+    "size_label": "75 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաշտետ կատուների համար՝ Kormell, հավ 75 գ",
+    "hafo_variant_hy": "Պաշտետ կատ. համար՝ Kormell, հավ 75 գ/085",
+    "ean": "4620213830414",
+    "images": [
+     {
+      "pos": 0,
+      "media": "14158",
+      "file": "83041J-1.webp",
+      "dims": "807x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14158.webp",
+      "md5": "a83b50fcc1b30a71c021b54c78a063f1"
+     }
+    ]
+   },
+   {
+    "variant_id": 1347,
+    "sku": "83042J",
+    "label": "Beef & Liver",
+    "size_label": "75 g",
+    "options": "Flavor=Beef; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաշտետ կատուների համար՝ Kormell, տավար,լյարդ 75 գ",
+    "hafo_variant_hy": "Պաշտետ կատ. համար՝ Kormell, տավար,լյարդ 75 գ/086",
+    "ean": "4620213830421",
+    "images": [
+     {
+      "pos": 0,
+      "media": "14164",
+      "file": "83042J-1.png",
+      "dims": "1024x1536",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14164.png",
+      "md5": "4b36fc44123265b620dcbf7de6d7b7ab"
+     }
+    ]
+   },
+   {
+    "variant_id": 1348,
+    "sku": "83047J",
+    "label": "Duck",
+    "size_label": "75 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաշտետ կատուների համար՝ Kormell, բադ 75 գ",
+    "hafo_variant_hy": "Պաշտետ կատ. համար՝ Kormell, բադ75 գ/084",
+    "ean": "4620213830476",
+    "images": [
+     {
+      "pos": 0,
+      "media": "14170",
+      "file": "83047J-1.webp",
+      "dims": "1099x1500",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14170.webp",
+      "md5": "af9c5d1d2c9d4abaf26ca45e58ff9fa2"
+     }
+    ]
+   }
+  ]
+ }
+]

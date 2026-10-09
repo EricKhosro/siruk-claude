@@ -1,0 +1,762 @@
+[
+ {
+  "product_id": "1291",
+  "product": "Premium Adult Dry Cat Food",
+  "brand": "Club 4 Paws",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1998,
+    "sku": "CP909145",
+    "label": "Chicken 14 kg",
+    "size_label": "14 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14398",
+      "file": "25.webp",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14398.webp",
+      "md5": "b734c2bf8a83ab65cd1c8f18bb574f26"
+     },
+     {
+      "pos": 1,
+      "media": "14404",
+      "file": "1-10.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14404.jpg",
+      "md5": "18b04fab07e9b6aaff6e91139c920450"
+     },
+     {
+      "pos": 2,
+      "media": "14407",
+      "file": "2-14.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14407.jpg",
+      "md5": "9e21f55c13ce3a8f6f4965b28738c9be"
+     },
+     {
+      "pos": 3,
+      "media": "14410",
+      "file": "3-13.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14410.jpg",
+      "md5": "bb667e5acfcf59264c1e3e579aac5ec7"
+     },
+     {
+      "pos": 4,
+      "media": "14413",
+      "file": "4-13.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14413.jpg",
+      "md5": "ba8746e62d49eb497d35dbbb250f8cbb"
+     },
+     {
+      "pos": 5,
+      "media": "14416",
+      "file": "5-13.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14416.jpg",
+      "md5": "9fa73142fc5ad782019d605a8b7d0d1e"
+     }
+    ]
+   },
+   {
+    "variant_id": 1999,
+    "sku": "CP909145-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14398",
+      "file": "25.webp",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14398.webp",
+      "md5": "b734c2bf8a83ab65cd1c8f18bb574f26"
+     },
+     {
+      "pos": 1,
+      "media": "14404",
+      "file": "1-10.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14404.jpg",
+      "md5": "18b04fab07e9b6aaff6e91139c920450"
+     },
+     {
+      "pos": 2,
+      "media": "14407",
+      "file": "2-14.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14407.jpg",
+      "md5": "9e21f55c13ce3a8f6f4965b28738c9be"
+     },
+     {
+      "pos": 3,
+      "media": "14410",
+      "file": "3-13.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14410.jpg",
+      "md5": "bb667e5acfcf59264c1e3e579aac5ec7"
+     },
+     {
+      "pos": 4,
+      "media": "14413",
+      "file": "4-13.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14413.jpg",
+      "md5": "ba8746e62d49eb497d35dbbb250f8cbb"
+     },
+     {
+      "pos": 5,
+      "media": "14416",
+      "file": "5-13.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14416.jpg",
+      "md5": "9fa73142fc5ad782019d605a8b7d0d1e"
+     }
+    ]
+   },
+   {
+    "variant_id": 2000,
+    "sku": "CP909205",
+    "label": "Veal 14 kg",
+    "size_label": "14 kg",
+    "options": "Flavor=Veal",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14419",
+      "file": "paws21.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14419.jpg",
+      "md5": "908c8532ce4e1f45c15a5fab33c3c81a"
+     },
+     {
+      "pos": 1,
+      "media": "14422",
+      "file": "slide-2-advantages.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14422.jpg",
+      "md5": "82c8cae51428b749afb41856ecb33097"
+     },
+     {
+      "pos": 2,
+      "media": "14425",
+      "file": "slide-3-composition.jpg-1",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14425.jpg",
+      "md5": "99cbb218a8bf6e82a8b4ef484e1d71b0"
+     },
+     {
+      "pos": 3,
+      "media": "14428",
+      "file": "slide-4-change.jpg-1",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14428.jpg",
+      "md5": "60627184778beb577616fee929d79c66"
+     },
+     {
+      "pos": 4,
+      "media": "14434",
+      "file": "slide-6-additional.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14434.jpg",
+      "md5": "c14f56fd3e8d58eb5082c93efda1b9c6"
+     },
+     {
+      "pos": 5,
+      "media": "14437",
+      "file": "slide-9-bowlgranula.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14437.jpg",
+      "md5": "eb722b48eb6ddea0b421521965175e54"
+     }
+    ]
+   },
+   {
+    "variant_id": 2001,
+    "sku": "CP909205-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Veal",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14419",
+      "file": "paws21.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14419.jpg",
+      "md5": "908c8532ce4e1f45c15a5fab33c3c81a"
+     },
+     {
+      "pos": 1,
+      "media": "14422",
+      "file": "slide-2-advantages.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14422.jpg",
+      "md5": "82c8cae51428b749afb41856ecb33097"
+     },
+     {
+      "pos": 2,
+      "media": "14425",
+      "file": "slide-3-composition.jpg-1",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14425.jpg",
+      "md5": "99cbb218a8bf6e82a8b4ef484e1d71b0"
+     },
+     {
+      "pos": 3,
+      "media": "14428",
+      "file": "slide-4-change.jpg-1",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14428.jpg",
+      "md5": "60627184778beb577616fee929d79c66"
+     },
+     {
+      "pos": 4,
+      "media": "14434",
+      "file": "slide-6-additional.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14434.jpg",
+      "md5": "c14f56fd3e8d58eb5082c93efda1b9c6"
+     },
+     {
+      "pos": 5,
+      "media": "14437",
+      "file": "slide-9-bowlgranula.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14437.jpg",
+      "md5": "eb722b48eb6ddea0b421521965175e54"
+     }
+    ]
+   },
+   {
+    "variant_id": 2002,
+    "sku": "909155",
+    "label": "Rabbit 14 kg",
+    "size_label": "14 kg",
+    "options": "Flavor=Rabbit",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14323",
+      "file": "paws23.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14323.jpg",
+      "md5": "7840cb4a228504fc5aff801e7ed1429e"
+     },
+     {
+      "pos": 1,
+      "media": "14326",
+      "file": "slide-2-advantages-1-scaled.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14326.jpg",
+      "md5": "19175924d71aaf9d11cc4b8a4ee39e5c"
+     },
+     {
+      "pos": 2,
+      "media": "14329",
+      "file": "slide-3-composition.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14329.jpg",
+      "md5": "a135efc66db2f339801d5ad1ba87d046"
+     },
+     {
+      "pos": 3,
+      "media": "14332",
+      "file": "slide-4-change.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14332.jpg",
+      "md5": "b4f1f03940fe9dd3472ff03b15457376"
+     },
+     {
+      "pos": 4,
+      "media": "14335",
+      "file": "slide-5-norm-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14335.jpg",
+      "md5": "9592e7e70fb52e0c03ccce95aa62de32"
+     },
+     {
+      "pos": 5,
+      "media": "14341",
+      "file": "slide-9-bowlgranula-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14341.jpg",
+      "md5": "9575a286d0d27f0e1e9cb1a54afcc618"
+     }
+    ]
+   },
+   {
+    "variant_id": 2003,
+    "sku": "909155-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Rabbit",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14323",
+      "file": "paws23.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14323.jpg",
+      "md5": "7840cb4a228504fc5aff801e7ed1429e"
+     },
+     {
+      "pos": 1,
+      "media": "14326",
+      "file": "slide-2-advantages-1-scaled.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14326.jpg",
+      "md5": "19175924d71aaf9d11cc4b8a4ee39e5c"
+     },
+     {
+      "pos": 2,
+      "media": "14329",
+      "file": "slide-3-composition.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14329.jpg",
+      "md5": "a135efc66db2f339801d5ad1ba87d046"
+     },
+     {
+      "pos": 3,
+      "media": "14332",
+      "file": "slide-4-change.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14332.jpg",
+      "md5": "b4f1f03940fe9dd3472ff03b15457376"
+     },
+     {
+      "pos": 4,
+      "media": "14335",
+      "file": "slide-5-norm-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14335.jpg",
+      "md5": "9592e7e70fb52e0c03ccce95aa62de32"
+     },
+     {
+      "pos": 5,
+      "media": "14341",
+      "file": "slide-9-bowlgranula-2.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14341.jpg",
+      "md5": "9575a286d0d27f0e1e9cb1a54afcc618"
+     }
+    ]
+   },
+   {
+    "variant_id": 2004,
+    "sku": "REG00030",
+    "label": "Salmon 14 kg",
+    "size_label": "14 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14761",
+      "file": "paws22.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14761.jpg",
+      "md5": "e4e7769b314b848c23d236914f42cd8d"
+     },
+     {
+      "pos": 1,
+      "media": "14764",
+      "file": "1-11.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14764.jpg",
+      "md5": "d8ee8acbc8b0e16e066d45d0a89a0ebe"
+     },
+     {
+      "pos": 2,
+      "media": "14767",
+      "file": "2-18.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14767.jpg",
+      "md5": "166ec58407661db69f9ccab40c1e0761"
+     },
+     {
+      "pos": 3,
+      "media": "14770",
+      "file": "3-17.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14770.jpg",
+      "md5": "a0c18ff7795a6e1a975fb5559d2c413d"
+     },
+     {
+      "pos": 4,
+      "media": "14773",
+      "file": "4-17.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14773.jpg",
+      "md5": "c7310549eaff9bd2dc1b19a2028f7625"
+     },
+     {
+      "pos": 5,
+      "media": "14776",
+      "file": "5-17.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14776.jpg",
+      "md5": "5500ab9405601a0c891228abbf55b99a"
+     },
+     {
+      "pos": 6,
+      "media": "14779",
+      "file": "6-16.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14779.jpg",
+      "md5": "3eebebcc48bc1e4929cccb0502b74acd"
+     }
+    ]
+   },
+   {
+    "variant_id": 2005,
+    "sku": "REG00030-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14761",
+      "file": "paws22.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14761.jpg",
+      "md5": "e4e7769b314b848c23d236914f42cd8d"
+     },
+     {
+      "pos": 1,
+      "media": "14764",
+      "file": "1-11.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14764.jpg",
+      "md5": "d8ee8acbc8b0e16e066d45d0a89a0ebe"
+     },
+     {
+      "pos": 2,
+      "media": "14767",
+      "file": "2-18.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14767.jpg",
+      "md5": "166ec58407661db69f9ccab40c1e0761"
+     },
+     {
+      "pos": 3,
+      "media": "14770",
+      "file": "3-17.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14770.jpg",
+      "md5": "a0c18ff7795a6e1a975fb5559d2c413d"
+     },
+     {
+      "pos": 4,
+      "media": "14773",
+      "file": "4-17.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14773.jpg",
+      "md5": "c7310549eaff9bd2dc1b19a2028f7625"
+     },
+     {
+      "pos": 5,
+      "media": "14776",
+      "file": "5-17.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14776.jpg",
+      "md5": "5500ab9405601a0c891228abbf55b99a"
+     },
+     {
+      "pos": 6,
+      "media": "14779",
+      "file": "6-16.jpg",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14779.jpg",
+      "md5": "3eebebcc48bc1e4929cccb0502b74acd"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1292",
+  "product": "Sausages with Rice",
+  "brand": "Derevenskie Lakomstva",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 2006,
+    "sku": "DL050046",
+    "label": "Turkey 85 g",
+    "size_label": "85 g",
+    "options": "Flavor=Turkey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14440",
+      "file": "lkr1r8kiq388qey9m7p5xu1koc6dobh4.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14440.jpg",
+      "md5": "7b25a02b44c3cef42e71d1aceabf78f6"
+     },
+     {
+      "pos": 1,
+      "media": "14443",
+      "file": "crvdbm0ffup2xyn0xav6h0pgaiwql09b.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14443.jpg",
+      "md5": "a4622261fc7d255526748fb20b6a4eff"
+     },
+     {
+      "pos": 2,
+      "media": "14446",
+      "file": "it1afqxs3s6f5zo70z4lmzbtlo2sncuh.jpg",
+      "dims": "1600x1208",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14446.jpg",
+      "md5": "47eb2836423296169fbb4d747b208612"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1293",
+  "product": "Medallions with Rice for Mini Breeds",
+  "brand": "Derevenskie Lakomstva",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 2007,
+    "sku": "DL050056",
+    "label": "Turkey 55 g",
+    "size_label": "55 g",
+    "options": "Flavor=Turkey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14449",
+      "file": "9f56z43o5rswc7kdmcvqsp8my302y3kb.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14449.jpg",
+      "md5": "10553d2cd3fb2ea368f023b4bd780acb"
+     },
+     {
+      "pos": 1,
+      "media": "14452",
+      "file": "cwv7466q52nsgfqhtairx7gmj27hyv0l.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14452.jpg",
+      "md5": "1ce25eede71060969f0bc6b86c1f0be9"
+     },
+     {
+      "pos": 2,
+      "media": "14455",
+      "file": "zcu40xw8s0i5t4o4obkihcbzdgqs392s.jpg",
+      "dims": "1600x1096",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14455.jpg",
+      "md5": "f793c3ef1f54c356a0f583afc3f812d4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1294",
+  "product": "Bones for Mini Breeds",
+  "brand": "Derevenskie Lakomstva",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 2008,
+    "sku": "DL050066",
+    "label": "Turkey 55 g",
+    "size_label": "55 g",
+    "options": "Flavor=Turkey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14458",
+      "file": "21ghqypx9fhfgomyx2z2o2wgkgvm5i33.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14458.jpg",
+      "md5": "98a5997bb74887d8a61cd330b2725158"
+     },
+     {
+      "pos": 1,
+      "media": "14461",
+      "file": "38cc3kw59hnu47b2vy5gaf5yfnsutlwo.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14461.jpg",
+      "md5": "46d35c32bf3a218574f03d398bb7753e"
+     },
+     {
+      "pos": 2,
+      "media": "14464",
+      "file": "fisaymvb0pejjhpzyppdpmxsiq5fnvd9.jpg",
+      "dims": "1600x1547",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14464.jpg",
+      "md5": "b2bce46c6261a7b582b045c12f7e90b4"
+     }
+    ]
+   },
+   {
+    "variant_id": 2075,
+    "sku": "DL711526",
+    "label": "Duck 55 g",
+    "size_label": "55 g",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14992",
+      "file": "h24btp6sy7j4o50a7su9mbc0d4s4uzc5.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14992.jpg",
+      "md5": "69ada0817af4cb0c77e83c0f755bd5bc"
+     },
+     {
+      "pos": 1,
+      "media": "14995",
+      "file": "dwnppntebmvh4j9zltyqgh9lt1onnaka.jpg",
+      "dims": "1600x1620",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14995.jpg",
+      "md5": "e864b34bb8baa953c0b0e73358f2f43a"
+     },
+     {
+      "pos": 2,
+      "media": "14998",
+      "file": "q4c1bcnsn4tmuenqn19w61mnxebctdd2.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14998.jpg",
+      "md5": "cd2cbe1fd4d44986f15a8a3c88634c48"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1295",
+  "product": "Chlorophyll Dental Bones for Medium Breeds",
+  "brand": "Derevenskie Lakomstva",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 2009,
+    "sku": "DL303986",
+    "label": "Mint, 70 g",
+    "size_label": "70 g",
+    "options": "Flavor=Mint; Health Feature=Digestive Health",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14476",
+      "file": "hd3swtdsp8w62ig20osjjxtexf4ivcgl.jpg",
+      "dims": "1200x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14476.jpg",
+      "md5": "92083728b1d156d712d00da8f57a7ac3"
+     },
+     {
+      "pos": 1,
+      "media": "14479",
+      "file": "1yx3mkh717xp5v2wed72dro0y3zf0jyn.webp",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14479.webp",
+      "md5": "52f536db6968373483fb5003ed496971"
+     },
+     {
+      "pos": 2,
+      "media": "14482",
+      "file": "glhy0x2soxpesomzj72vwd8jj9sec0gt.jpg",
+      "dims": "1200x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14482.jpg",
+      "md5": "5be3b46dbb1a70b673cd2d59705df5c8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1296",
+  "product": "Calcium Dental Bones for Small Breeds",
+  "brand": "Derevenskie Lakomstva",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 2010,
+    "sku": "DL303996",
+    "label": "60 g",
+    "size_label": "60 g",
+    "options": "Health Feature=Hip & Joint Support",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14485",
+      "file": "fshl16jqwqj51e5wo2bmgbk90vex2dn9.jpg",
+      "dims": "1200x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14485.jpg",
+      "md5": "f26b47c26fc949fce5e4700c4b279442"
+     },
+     {
+      "pos": 1,
+      "media": "14488",
+      "file": "8f3g4a34hjbo1cbfbgxe5htmbaoke0iq.jpg",
+      "dims": "1200x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14488.jpg",
+      "md5": "05ced9a1bd61f924c487e6b6af25d72f"
+     },
+     {
+      "pos": 2,
+      "media": "14491",
+      "file": "gxtdygc99ix61b53cu6npdyo13us5l15.jpg",
+      "dims": "1200x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14491.jpg",
+      "md5": "1c43f8aa7565d4213bd42e1d14febb40"
+     }
+    ]
+   }
+  ]
+ }
+]

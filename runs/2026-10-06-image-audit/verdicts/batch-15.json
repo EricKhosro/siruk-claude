@@ -1,0 +1,612 @@
+[
+ {
+  "product_id": "658",
+  "variant_id": 795,
+  "sku": "014487",
+  "label": "Turkey with Vegetables 400 g",
+  "pos": 0,
+  "media": "4991",
+  "verdict": "ok",
+  "seen": "Monge Fresh Senior Tacchino con Ortaggi / Turkey with Vegetables can, chunks in loaf; size not printed, single 400 g variant"
+ },
+ {
+  "product_id": "658",
+  "variant_id": 795,
+  "sku": "014487",
+  "label": "Turkey with Vegetables 400 g",
+  "pos": 1,
+  "media": "7312",
+  "verdict": "ok",
+  "seen": "Monge Fresh Senior Turkey with Vegetables can, 400g printed"
+ },
+ {
+  "product_id": "658",
+  "variant_id": 795,
+  "sku": "014487",
+  "label": "Turkey with Vegetables 400 g",
+  "pos": 2,
+  "media": "4994",
+  "verdict": "ok",
+  "seen": "Monge Polska info sheet: Fresh Senior Indyk z warzywami (turkey & veg), 400 g can"
+ },
+ {
+  "product_id": "659",
+  "variant_id": 796,
+  "sku": "041587",
+  "label": "Chicken & Turkey 400 g",
+  "pos": 0,
+  "media": "9581",
+  "verdict": "ok",
+  "seen": "Gran Bonta Pollo e Tacchino (chicken & turkey) can, 400g printed"
+ },
+ {
+  "product_id": "659",
+  "variant_id": 796,
+  "sku": "041587",
+  "label": "Chicken & Turkey 400 g",
+  "pos": 1,
+  "media": "9584",
+  "verdict": "ok",
+  "seen": "size infographic: same yellow Gran Bonta Pollo e Tacchino can beside a hand silhouette, 11 cm"
+ },
+ {
+  "product_id": "659",
+  "variant_id": 796,
+  "sku": "041587",
+  "label": "Chicken & Turkey 400 g",
+  "pos": 2,
+  "media": "9587",
+  "verdict": "ok",
+  "seen": "label close-up: composition, pollo 6%, tacchino 5%"
+ },
+ {
+  "product_id": "659",
+  "variant_id": 1223,
+  "sku": "041537",
+  "label": "Meat 400 g",
+  "pos": 0,
+  "media": "10078",
+  "verdict": "unclear",
+  "seen": "Gran Bonta Carne (chunks with meat) can, old design; no size printed and the product sells 400 g and 1230 g cans"
+ },
+ {
+  "product_id": "659",
+  "variant_id": 1224,
+  "sku": "041567",
+  "label": "Meat 1230 g",
+  "pos": 0,
+  "media": "7315",
+  "verdict": "unclear",
+  "seen": "Gran Bonta new design 'Bocconi con Manzo / Chunks with Beef' can, '12..' size digits at the edge; variant is 'Meat' (hafo: meaty) and the 400 g sibling shows the old 'Carne' can, so confirm the 1230 g article is the beef recipe"
+ },
+ {
+  "product_id": "659",
+  "variant_id": 1225,
+  "sku": "041577",
+  "label": "Chicken & Turkey 1230 g",
+  "pos": 0,
+  "media": "7318",
+  "verdict": "ok",
+  "seen": "Gran Bonta new design Pollo e Tacchino / Chicken and Turkey can, '12..' size digits visible at the edge"
+ },
+ {
+  "product_id": "663",
+  "variant_id": 800,
+  "sku": "041787",
+  "label": "Meat, Egg & Cheese 415 g",
+  "pos": 0,
+  "media": "10096",
+  "verdict": "unclear",
+  "seen": "Gran Bonta Delizie dello Chef 'Carne, Uova e Formaggio' can; no size printed and the product sells 415 g and 1230 g"
+ },
+ {
+  "product_id": "663",
+  "variant_id": 1303,
+  "sku": "041887",
+  "label": "Beef 1230 g",
+  "pos": 0,
+  "media": "7540",
+  "verdict": "unclear",
+  "seen": "Gran Bonta Delizie dello Chef 'Bocconi con Manzo' (beef) can, low-res; no size printed and the product sells 415 g and 1230 g"
+ },
+ {
+  "product_id": "665",
+  "variant_id": 802,
+  "sku": "060347",
+  "label": "Lamb 1275 g",
+  "pos": 0,
+  "media": "4997",
+  "verdict": "wrong-size",
+  "seen": "Special Dog Excellence Medium Adult Bocconi con Agnello (lamb) can, prints 1250g; variant is 1275 g (hafo says 1.275), so this is likely the older 1250 g pack"
+ },
+ {
+  "product_id": "666",
+  "variant_id": 803,
+  "sku": "060357",
+  "label": "Beef 1275 g",
+  "pos": 0,
+  "media": "5000",
+  "verdict": "wrong-size",
+  "seen": "Special Dog Excellence Maxi Adult Bocconi con Manzo (beef) can, prints 1250g; variant is 1275 g (hafo says 1.275), so this is likely the older 1250 g pack"
+ },
+ {
+  "product_id": "667",
+  "variant_id": 804,
+  "sku": "061787",
+  "label": "Beef 100 g",
+  "pos": 0,
+  "media": "7321",
+  "verdict": "ok",
+  "seen": "Lechat Excellence Adult Bocconcini con Manzo (beef) pouch, 100g"
+ },
+ {
+  "product_id": "668",
+  "variant_id": 805,
+  "sku": "082017",
+  "label": "400 g",
+  "pos": 0,
+  "media": "5003",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Diabetic and Obesity Monoprotein Tuna can, adult dog; no size printed, single 400 g variant"
+ },
+ {
+  "product_id": "668",
+  "variant_id": 805,
+  "sku": "082017",
+  "label": "400 g",
+  "pos": 1,
+  "media": "7324",
+  "verdict": "ok",
+  "seen": "same VetSolution Diabetic & Obesity Monoprotein Tuna can, clean packshot"
+ },
+ {
+  "product_id": "668",
+  "variant_id": 805,
+  "sku": "082017",
+  "label": "400 g",
+  "pos": 2,
+  "media": "5006",
+  "verdict": "ok",
+  "seen": "older-design VetSolution Diabetic and Obesity canine can (no flavour box), same line, secondary image"
+ },
+ {
+  "product_id": "668",
+  "variant_id": 805,
+  "sku": "082017",
+  "label": "400 g",
+  "pos": 3,
+  "media": "5009",
+  "verdict": "ok",
+  "seen": "Polish info sheet: Diabetic & Obesity Monoprotein Tunczyk (tuna), 400 g"
+ },
+ {
+  "product_id": "668",
+  "variant_id": 805,
+  "sku": "082017",
+  "label": "400 g",
+  "pos": 4,
+  "media": "5012",
+  "verdict": "ok",
+  "seen": "English info sheet: Diabetic & Obesity Monoprotein Tuna, net 400g"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 806,
+  "sku": "082037",
+  "label": "Tuna 400 g",
+  "pos": 0,
+  "media": "5015",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Hypo Monoprotein Tuna can (aloe vera), adult dog; no size printed, single 400 g variant"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 806,
+  "sku": "082037",
+  "label": "Tuna 400 g",
+  "pos": 1,
+  "media": "7327",
+  "verdict": "ok",
+  "seen": "same Hypo Monoprotein Tuna can, clean packshot"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 806,
+  "sku": "082037",
+  "label": "Tuna 400 g",
+  "pos": 2,
+  "media": "5018",
+  "verdict": "ok",
+  "seen": "older-design VetSolution Hypo Monoprotein can, 'Tonno/Tuna' box, secondary"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 806,
+  "sku": "082037",
+  "label": "Tuna 400 g",
+  "pos": 3,
+  "media": "5021",
+  "verdict": "ok",
+  "seen": "Polish info sheet: Hypo Monoprotein Tunczyk (tuna), 400 g"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 806,
+  "sku": "082037",
+  "label": "Tuna 400 g",
+  "pos": 4,
+  "media": "5024",
+  "verdict": "ok",
+  "seen": "English info sheet: Hypo Monoprotein Tuna, net 400g"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 807,
+  "sku": "082047",
+  "label": "Duck 400 g",
+  "pos": 0,
+  "media": "5027",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Hypo Monoprotein Duck can (aloe vera), adult dog; no size printed, single 400 g variant"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 807,
+  "sku": "082047",
+  "label": "Duck 400 g",
+  "pos": 1,
+  "media": "7330",
+  "verdict": "ok",
+  "seen": "same Hypo Monoprotein Duck can, clean packshot"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 807,
+  "sku": "082047",
+  "label": "Duck 400 g",
+  "pos": 2,
+  "media": "5030",
+  "verdict": "ok",
+  "seen": "older-design Hypo Monoprotein can, 'Anatra/Duck' box, secondary"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 807,
+  "sku": "082047",
+  "label": "Duck 400 g",
+  "pos": 3,
+  "media": "5033",
+  "verdict": "ok",
+  "seen": "Polish info sheet: Hypo Monoprotein Kaczka (duck), 400 g"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 807,
+  "sku": "082047",
+  "label": "Duck 400 g",
+  "pos": 4,
+  "media": "5036",
+  "verdict": "ok",
+  "seen": "English info sheet: Hypo Monoprotein Duck, net 400g"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 808,
+  "sku": "082057",
+  "label": "Lamb 400 g",
+  "pos": 0,
+  "media": "5039",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Hypo Monoprotein Lamb can (aloe vera), adult dog; no size printed, single 400 g variant"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 808,
+  "sku": "082057",
+  "label": "Lamb 400 g",
+  "pos": 1,
+  "media": "7333",
+  "verdict": "ok",
+  "seen": "same Hypo Monoprotein Lamb can, clean packshot"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 808,
+  "sku": "082057",
+  "label": "Lamb 400 g",
+  "pos": 2,
+  "media": "5042",
+  "verdict": "ok",
+  "seen": "older-design Hypo Monoprotein can, 'Agnello/Lamb' box, secondary"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 808,
+  "sku": "082057",
+  "label": "Lamb 400 g",
+  "pos": 3,
+  "media": "5045",
+  "verdict": "ok",
+  "seen": "Polish info sheet: Hypo Monoprotein Jagniecina (lamb), 400 g"
+ },
+ {
+  "product_id": "669",
+  "variant_id": 808,
+  "sku": "082057",
+  "label": "Lamb 400 g",
+  "pos": 4,
+  "media": "5048",
+  "verdict": "ok",
+  "seen": "English info sheet: Hypo Monoprotein Lamb, net 400g"
+ },
+ {
+  "product_id": "670",
+  "variant_id": 809,
+  "sku": "299957",
+  "label": "Turkey 400 g",
+  "pos": 0,
+  "media": "5051",
+  "verdict": "ok",
+  "seen": "Gemon cat Sterilised Pate con Tacchino (turkey) can, 400g"
+ },
+ {
+  "product_id": "671",
+  "variant_id": 810,
+  "sku": "299967",
+  "label": "Beef 400 g",
+  "pos": 0,
+  "media": "5054",
+  "verdict": "ok",
+  "seen": "Gemon cat Adult Pate con Manzo (beef) can, 400g (hafo says veal, the pack says beef)"
+ },
+ {
+  "product_id": "672",
+  "variant_id": 811,
+  "sku": "300637",
+  "label": "Chicken 100 g",
+  "pos": 0,
+  "media": "5057",
+  "verdict": "ok",
+  "seen": "Gemon Puppy and Junior All Breeds Bocconcini con Pollo (chicken) pouch, 100g"
+ },
+ {
+  "product_id": "673",
+  "variant_id": 812,
+  "sku": "300737",
+  "label": "Salmon & Shrimp 415 g",
+  "pos": 0,
+  "media": "5060",
+  "verdict": "ok",
+  "seen": "Gemon cat Adult Bocconcini Salmone e Gamberetti (salmon & shrimps) can, 415g"
+ },
+ {
+  "product_id": "674",
+  "variant_id": 813,
+  "sku": "300747",
+  "label": "Tuna & White Fish 415 g",
+  "pos": 0,
+  "media": "5063",
+  "verdict": "ok",
+  "seen": "Gemon cat Sterilised Bocconcini Tonno e Pesce Bianco (tuna & ocean fish) can, 415g"
+ },
+ {
+  "product_id": "675",
+  "variant_id": 814,
+  "sku": "300907",
+  "label": "Tuna 100 g",
+  "pos": 0,
+  "media": "5066",
+  "verdict": "ok",
+  "seen": "Gemon cat Sterilised Bocconcini con Tonno (tuna) pouch, 100g"
+ },
+ {
+  "product_id": "676",
+  "variant_id": 815,
+  "sku": "301017M",
+  "label": "Chicken & Salmon 85 g",
+  "pos": 0,
+  "media": "5069",
+  "verdict": "ok",
+  "seen": "Gemon cat Adult Mousse Salmone e Pollo (salmon & chicken) small can; size not printed on the front, line 85 g only"
+ },
+ {
+  "product_id": "676",
+  "variant_id": 816,
+  "sku": "301027M",
+  "label": "Chicken & Pork 85 g",
+  "pos": 0,
+  "media": "5072",
+  "verdict": "ok",
+  "seen": "Gemon cat Adult Mousse Pollo e Maiale (chicken & pork) small can; size not printed on the front, line 85 g only"
+ },
+ {
+  "product_id": "677",
+  "variant_id": 817,
+  "sku": "301037M",
+  "label": "Chicken & Liver 85 g",
+  "pos": 0,
+  "media": "5075",
+  "verdict": "ok",
+  "seen": "Gemon cat Sterilised Mousse Pollo e Fegatini (chicken & liver) small can; line 85 g only"
+ },
+ {
+  "product_id": "677",
+  "variant_id": 818,
+  "sku": "301047M",
+  "label": "Tuna & Pork 85 g",
+  "pos": 0,
+  "media": "5078",
+  "verdict": "ok",
+  "seen": "Gemon cat Sterilised Mousse Tonno e Maiale (tuna & pork) small can; line 85 g only"
+ },
+ {
+  "product_id": "678",
+  "variant_id": 819,
+  "sku": "387807-OLD",
+  "label": "Beef & Tripe 400 g",
+  "pos": 0,
+  "media": "5081",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult All Breeds Pate con Trippa di Manzo (beef tripe) can, 400g"
+ },
+ {
+  "product_id": "678",
+  "variant_id": 820,
+  "sku": "387817-OLD",
+  "label": "Lamb 400 g",
+  "pos": 0,
+  "media": "5084",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult All Breeds Pate con Agnello (lamb) can, 400g"
+ },
+ {
+  "product_id": "679",
+  "variant_id": 821,
+  "sku": "387857",
+  "label": "Veal & Liver 415 g",
+  "pos": 0,
+  "media": "5087",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult Medium Bocconi Manzo e Fegato (beef & liver) can, 415g"
+ },
+ {
+  "product_id": "680",
+  "variant_id": 822,
+  "sku": "387867",
+  "label": "Chicken & Turkey 415 g",
+  "pos": 0,
+  "media": "5090",
+  "verdict": "ok",
+  "seen": "Gemon Puppy and Junior All Breeds Bocconi Pollo e Tacchino (chicken & turkey) can, 415g"
+ },
+ {
+  "product_id": "681",
+  "variant_id": 823,
+  "sku": "387877",
+  "label": "Chicken & Rice 415 g",
+  "pos": 0,
+  "media": "7336",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult MEDIUM Bocconi Pollo e Riso (chicken & rice) can, 415g; matches hafo (medium breed), but the product NAME says 'Mini', so the name needs fixing"
+ },
+ {
+  "product_id": "682",
+  "variant_id": 824,
+  "sku": "387907",
+  "label": "Beef & Rice 1250 g",
+  "pos": 0,
+  "media": "7339",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult Maxi Bocconi Manzo e Riso (beef & rice) can, 1250g"
+ },
+ {
+  "product_id": "682",
+  "variant_id": 1035,
+  "sku": "387947",
+  "label": "Pork & Rice 1250 g",
+  "pos": 0,
+  "media": "8290",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult Maxi Bocconi Maiale e Riso (pork & rice) can, 1250g"
+ },
+ {
+  "product_id": "683",
+  "variant_id": 825,
+  "sku": "387917",
+  "label": "Lamb & Rice 1250 g",
+  "pos": 0,
+  "media": "7342",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult Medium Bocconi Agnello e Riso (lamb & rice) can, 1250g; pack is chunks (bocconi), though the product name says 'Pate'"
+ },
+ {
+  "product_id": "683",
+  "variant_id": 826,
+  "sku": "387927",
+  "label": "Chicken & Turkey 1250 g",
+  "pos": 0,
+  "media": "5093",
+  "verdict": "ok",
+  "seen": "Gemon dog Adult Medium Bocconi Pollo e Tacchino (chicken & turkey) can, 1250g; pack is chunks (bocconi), though the product name says 'Pate'"
+ },
+ {
+  "product_id": "684",
+  "variant_id": 827,
+  "sku": "390797",
+  "label": "Chicken & Turkey 415 g",
+  "pos": 0,
+  "media": "5096",
+  "verdict": "ok",
+  "seen": "Leo's Puppy Bocconi con Pollo e Tacchino (chicken & turkey) can; no size printed, single 415 g variant"
+ },
+ {
+  "product_id": "685",
+  "variant_id": 828,
+  "sku": "390807",
+  "label": "Poultry 415 g",
+  "pos": 0,
+  "media": "7345",
+  "verdict": "ok",
+  "seen": "Leo's Adult Bocconi con Pollo (chicken) can; no size printed, single 415 g variant"
+ },
+ {
+  "product_id": "686",
+  "variant_id": 829,
+  "sku": "08523MG",
+  "label": "15 g",
+  "pos": 0,
+  "media": "5099",
+  "verdict": "ok",
+  "seen": "Monge Gift cat soft sticks Coniglio con Salvia (rabbit with sage), Dental, 3 sticks 15g"
+ },
+ {
+  "product_id": "686",
+  "variant_id": 829,
+  "sku": "08523MG",
+  "label": "15 g",
+  "pos": 1,
+  "media": "5102",
+  "verdict": "ok",
+  "seen": "Polish info sheet: Gift Soft Sticks Adult Dental Krolik z szalwia (rabbit & sage), 15 g"
+ },
+ {
+  "product_id": "687",
+  "variant_id": 830,
+  "sku": "08524MG",
+  "label": "15 g",
+  "pos": 0,
+  "media": "5105",
+  "verdict": "ok",
+  "seen": "Monge Gift cat soft sticks Kitten Trota con Camomilla (trout with chamomile), 3 sticks 15g"
+ },
+ {
+  "product_id": "687",
+  "variant_id": 830,
+  "sku": "08524MG",
+  "label": "15 g",
+  "pos": 1,
+  "media": "5108",
+  "verdict": "ok",
+  "seen": "Polish info sheet: Gift Soft Sticks Kitten Pstrag z rumiankiem (trout & chamomile), 15 g"
+ },
+ {
+  "product_id": "688",
+  "variant_id": 831,
+  "sku": "08525MG",
+  "label": "15 g",
+  "pos": 0,
+  "media": "5111",
+  "verdict": "ok",
+  "seen": "Monge Gift cat soft sticks Fussy Cat Maiale con Rosa Canina (pork with rosehip), with cheese, 3 sticks 15g"
+ },
+ {
+  "product_id": "688",
+  "variant_id": 831,
+  "sku": "08525MG",
+  "label": "15 g",
+  "pos": 1,
+  "media": "5114",
+  "verdict": "ok",
+  "seen": "Polish info sheet: Gift Fussy Cat Wieprzowina z dzika roza (pork & rosehip), cheese, 15 g"
+ }
+]

@@ -1,0 +1,786 @@
+[
+ {
+  "product_id": "1241",
+  "product": "Kitten",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1813,
+    "sku": "3182550702973",
+    "label": "10 kg",
+    "size_label": "10 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13096",
+      "file": "fa1241ac-7528-4e00-b045-b2490009a695_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13096.jpg",
+      "md5": "43b22bbf45c99eb164e611868182bce5"
+     },
+     {
+      "pos": 1,
+      "media": "13099",
+      "file": "e942a588-e29d-477e-ba0a-b20b0037757e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13099.jpg",
+      "md5": "1f10a0251c8ca2e83c6329e0b8cf54ec"
+     },
+     {
+      "pos": 2,
+      "media": "13102",
+      "file": "4aed8a5d-abd1-4824-9749-b20b00376e78_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13102.jpg",
+      "md5": "fcaa78bad4fd5e100dd5fe6e920070c5"
+     },
+     {
+      "pos": 3,
+      "media": "13105",
+      "file": "sol-hero-image-wet-kitten-multi-b1-cv3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13105.png",
+      "md5": "23f73ef783ece5725870611478b6fbc1"
+     },
+     {
+      "pos": 4,
+      "media": "13108",
+      "file": "sol-hero-image-wet-kitten-multi-b1-cv4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13108.png",
+      "md5": "1ce5d5340490705d1ac5975d8291ada7"
+     },
+     {
+      "pos": 5,
+      "media": "13111",
+      "file": "sol-hero-image-kitten-dry-b1-cv1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13111.png",
+      "md5": "96a089a1a4344a03be61cf4db26a0d97"
+     },
+     {
+      "pos": 6,
+      "media": "13114",
+      "file": "sol-hero-image-kitten-dry-b1-mv3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13114.png",
+      "md5": "8ca5ad70186f8d6cc96090156ecd1a5b"
+     },
+     {
+      "pos": 7,
+      "media": "13117",
+      "file": "rc-spt-dry-kitten-cv-6-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13117.png",
+      "md5": "94fa20ccdfde06136df11f3c30200702"
+     },
+     {
+      "pos": 8,
+      "media": "13120",
+      "file": "rc-spt-dry-kitten-cv-7.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13120.png",
+      "md5": "b3329596823c36caab7b5dacfd1bfda2"
+     },
+     {
+      "pos": 9,
+      "media": "13123",
+      "file": "sol-hero-image-kitten-dry-b1-cv8.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13123.png",
+      "md5": "695516b834f3513977e8e26d24bfaf6b"
+     }
+    ]
+   },
+   {
+    "variant_id": 1955,
+    "sku": "3182550702973-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13096",
+      "file": "fa1241ac-7528-4e00-b045-b2490009a695_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13096.jpg",
+      "md5": "43b22bbf45c99eb164e611868182bce5"
+     },
+     {
+      "pos": 1,
+      "media": "13099",
+      "file": "e942a588-e29d-477e-ba0a-b20b0037757e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13099.jpg",
+      "md5": "1f10a0251c8ca2e83c6329e0b8cf54ec"
+     },
+     {
+      "pos": 2,
+      "media": "13102",
+      "file": "4aed8a5d-abd1-4824-9749-b20b00376e78_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13102.jpg",
+      "md5": "fcaa78bad4fd5e100dd5fe6e920070c5"
+     },
+     {
+      "pos": 3,
+      "media": "13105",
+      "file": "sol-hero-image-wet-kitten-multi-b1-cv3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13105.png",
+      "md5": "23f73ef783ece5725870611478b6fbc1"
+     },
+     {
+      "pos": 4,
+      "media": "13108",
+      "file": "sol-hero-image-wet-kitten-multi-b1-cv4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13108.png",
+      "md5": "1ce5d5340490705d1ac5975d8291ada7"
+     },
+     {
+      "pos": 5,
+      "media": "13111",
+      "file": "sol-hero-image-kitten-dry-b1-cv1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13111.png",
+      "md5": "96a089a1a4344a03be61cf4db26a0d97"
+     },
+     {
+      "pos": 6,
+      "media": "13114",
+      "file": "sol-hero-image-kitten-dry-b1-mv3.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13114.png",
+      "md5": "8ca5ad70186f8d6cc96090156ecd1a5b"
+     },
+     {
+      "pos": 7,
+      "media": "13117",
+      "file": "rc-spt-dry-kitten-cv-6-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13117.png",
+      "md5": "94fa20ccdfde06136df11f3c30200702"
+     },
+     {
+      "pos": 8,
+      "media": "13120",
+      "file": "rc-spt-dry-kitten-cv-7.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13120.png",
+      "md5": "b3329596823c36caab7b5dacfd1bfda2"
+     },
+     {
+      "pos": 9,
+      "media": "13123",
+      "file": "sol-hero-image-kitten-dry-b1-cv8.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13123.png",
+      "md5": "695516b834f3513977e8e26d24bfaf6b"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1242",
+  "product": "Sterilised 37",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1815,
+    "sku": "3182550777308",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13126",
+      "file": "cd9a054c-ee77-4adb-8c2a-b24900071afb_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13126.jpg",
+      "md5": "c7e7ffd3d4ad8fdc98f061a20ebe6b19"
+     },
+     {
+      "pos": 1,
+      "media": "13129",
+      "file": "739cb1f6-aedb-4823-a00b-b1ef00126011_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13129.jpg",
+      "md5": "5ab55bd3690df258cd6cd3f726c68514"
+     },
+     {
+      "pos": 2,
+      "media": "13132",
+      "file": "21fdfc51-ba40-4a35-ad14-b2490007cf68_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13132.jpg",
+      "md5": "ba85f6bf2dd2b80f2ceb5b7d6bc6adbb"
+     },
+     {
+      "pos": 3,
+      "media": "13135",
+      "file": "565ad8ac-ff68-4b1b-b4e9-b2490007cf7e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13135.jpg",
+      "md5": "2a320b5397158899c23003bcee4be69d"
+     },
+     {
+      "pos": 4,
+      "media": "13138",
+      "file": "47e2d181-dee1-4c26-81db-b2490007cf32_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13138.jpg",
+      "md5": "f625f3288fcfa46b79f31a903075c30d"
+     },
+     {
+      "pos": 5,
+      "media": "13141",
+      "file": "32529f84-5b7d-422c-8d9d-b2490007cf91_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13141.jpg",
+      "md5": "2b0205470354b3418e7c0a7a9862c219"
+     },
+     {
+      "pos": 6,
+      "media": "13144",
+      "file": "fhn-sterilised37-cv-eretailkit-6.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13144.png",
+      "md5": "be625e293fdc47207bdc51e4a3dc36aa"
+     }
+    ]
+   },
+   {
+    "variant_id": 1956,
+    "sku": "3182550777308-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13126",
+      "file": "cd9a054c-ee77-4adb-8c2a-b24900071afb_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13126.jpg",
+      "md5": "c7e7ffd3d4ad8fdc98f061a20ebe6b19"
+     },
+     {
+      "pos": 1,
+      "media": "13129",
+      "file": "739cb1f6-aedb-4823-a00b-b1ef00126011_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13129.jpg",
+      "md5": "5ab55bd3690df258cd6cd3f726c68514"
+     },
+     {
+      "pos": 2,
+      "media": "13132",
+      "file": "21fdfc51-ba40-4a35-ad14-b2490007cf68_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13132.jpg",
+      "md5": "ba85f6bf2dd2b80f2ceb5b7d6bc6adbb"
+     },
+     {
+      "pos": 3,
+      "media": "13135",
+      "file": "565ad8ac-ff68-4b1b-b4e9-b2490007cf7e_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13135.jpg",
+      "md5": "2a320b5397158899c23003bcee4be69d"
+     },
+     {
+      "pos": 4,
+      "media": "13138",
+      "file": "47e2d181-dee1-4c26-81db-b2490007cf32_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13138.jpg",
+      "md5": "f625f3288fcfa46b79f31a903075c30d"
+     },
+     {
+      "pos": 5,
+      "media": "13141",
+      "file": "32529f84-5b7d-422c-8d9d-b2490007cf91_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13141.jpg",
+      "md5": "2b0205470354b3418e7c0a7a9862c219"
+     },
+     {
+      "pos": 6,
+      "media": "13144",
+      "file": "fhn-sterilised37-cv-eretailkit-6.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13144.png",
+      "md5": "be625e293fdc47207bdc51e4a3dc36aa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1243",
+  "product": "Hairball Care",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1817,
+    "sku": "3182550721424",
+    "label": "10 kg",
+    "size_label": "10 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13147",
+      "file": "23c87388-76e1-49d0-81e3-b42500c5b199_DownloadAsJpg.jpg",
+      "dims": "1240x1754",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13147.jpg",
+      "md5": "b65bfe08ec098557bb8934341bb7c69a"
+     },
+     {
+      "pos": 1,
+      "media": "13150",
+      "file": "9aa1f779-9268-405b-af38-b2490007b876_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13150.jpg",
+      "md5": "a7da8adc8b741a9e9e6da43a2b7474af"
+     },
+     {
+      "pos": 2,
+      "media": "13153",
+      "file": "34f76f88-c05d-4db3-b947-b2490007b8c6_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13153.jpg",
+      "md5": "10ddaebb525b0812af0c7978a125e482"
+     },
+     {
+      "pos": 3,
+      "media": "13156",
+      "file": "b0e1e4bb-ce20-449e-806f-b2490007b885_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13156.jpg",
+      "md5": "e9062ca35c1125192defa9687360aa10"
+     },
+     {
+      "pos": 4,
+      "media": "13159",
+      "file": "rc-fcn22-hairballcare-cv-0-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13159.png",
+      "md5": "c26f691a642b6c1f1edc259d897955fb"
+     },
+     {
+      "pos": 5,
+      "media": "13162",
+      "file": "df1875cc-281a-4774-873f-b2490007b8ad_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13162.jpg",
+      "md5": "da536e27db4591bdf124e3ae64ade687"
+     },
+     {
+      "pos": 6,
+      "media": "13165",
+      "file": "c95de3e8-e03f-41b1-a54f-b2490007b8d8_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13165.jpg",
+      "md5": "4464ef3933134ea615469fe34e46a13e"
+     },
+     {
+      "pos": 7,
+      "media": "13168",
+      "file": "bbe4b6ba-6611-49ca-b9d2-b2490007b8ee_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13168.jpg",
+      "md5": "65537245d4ffff8e543565dc5c8a3e73"
+     },
+     {
+      "pos": 8,
+      "media": "13171",
+      "file": "1b85be99-68ad-456c-a4e3-b2490007b901_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13171.jpg",
+      "md5": "83edf10852f94d10502f344656986d73"
+     },
+     {
+      "pos": 9,
+      "media": "13174",
+      "file": "d6037ed5-4902-40f5-9417-b2490007bbd1_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13174.jpg",
+      "md5": "73b37c9fc90ed8ae0faaf6c767975332"
+     }
+    ]
+   },
+   {
+    "variant_id": 1957,
+    "sku": "3182550721424-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13147",
+      "file": "23c87388-76e1-49d0-81e3-b42500c5b199_DownloadAsJpg.jpg",
+      "dims": "1240x1754",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13147.jpg",
+      "md5": "b65bfe08ec098557bb8934341bb7c69a"
+     },
+     {
+      "pos": 1,
+      "media": "13150",
+      "file": "9aa1f779-9268-405b-af38-b2490007b876_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13150.jpg",
+      "md5": "a7da8adc8b741a9e9e6da43a2b7474af"
+     },
+     {
+      "pos": 2,
+      "media": "13153",
+      "file": "34f76f88-c05d-4db3-b947-b2490007b8c6_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13153.jpg",
+      "md5": "10ddaebb525b0812af0c7978a125e482"
+     },
+     {
+      "pos": 3,
+      "media": "13156",
+      "file": "b0e1e4bb-ce20-449e-806f-b2490007b885_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13156.jpg",
+      "md5": "e9062ca35c1125192defa9687360aa10"
+     },
+     {
+      "pos": 4,
+      "media": "13159",
+      "file": "rc-fcn22-hairballcare-cv-0-en-gb.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13159.png",
+      "md5": "c26f691a642b6c1f1edc259d897955fb"
+     },
+     {
+      "pos": 5,
+      "media": "13162",
+      "file": "df1875cc-281a-4774-873f-b2490007b8ad_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13162.jpg",
+      "md5": "da536e27db4591bdf124e3ae64ade687"
+     },
+     {
+      "pos": 6,
+      "media": "13165",
+      "file": "c95de3e8-e03f-41b1-a54f-b2490007b8d8_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13165.jpg",
+      "md5": "4464ef3933134ea615469fe34e46a13e"
+     },
+     {
+      "pos": 7,
+      "media": "13168",
+      "file": "bbe4b6ba-6611-49ca-b9d2-b2490007b8ee_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13168.jpg",
+      "md5": "65537245d4ffff8e543565dc5c8a3e73"
+     },
+     {
+      "pos": 8,
+      "media": "13171",
+      "file": "1b85be99-68ad-456c-a4e3-b2490007b901_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13171.jpg",
+      "md5": "83edf10852f94d10502f344656986d73"
+     },
+     {
+      "pos": 9,
+      "media": "13174",
+      "file": "d6037ed5-4902-40f5-9417-b2490007bbd1_DownloadAsJpg.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13174.jpg",
+      "md5": "73b37c9fc90ed8ae0faaf6c767975332"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1244",
+  "product": "Hypoallergenic Cat",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1819,
+    "sku": "3182550939560",
+    "label": "4.5 kg",
+    "size_label": "4.5 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13177",
+      "file": "c90bce1a-fb0b-4523-aba2-b2490009f47f_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13177.jpg",
+      "md5": "e7a05a5460d488b3dc97af991c7c7491"
+     },
+     {
+      "pos": 1,
+      "media": "13180",
+      "file": "rc-vet-dry-cathypo-b1-page-1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13180.png",
+      "md5": "8f5a67f175ccffb89da5393a478ca5f0"
+     },
+     {
+      "pos": 2,
+      "media": "13183",
+      "file": "rc-vet-dry-cathypo-b1-page-2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13183.png",
+      "md5": "ce26f558870745b371acaeaa68662acc"
+     },
+     {
+      "pos": 3,
+      "media": "13186",
+      "file": "rc-vet-dry-cathypo-b1-page-6.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13186.png",
+      "md5": "fccc19fc1baf8ff90d061d42b755aac9"
+     },
+     {
+      "pos": 4,
+      "media": "13189",
+      "file": "rc-vet-dry-cathypo-b1-page-5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13189.png",
+      "md5": "f417e146ceca3ff76926c9f6f85a61bd"
+     },
+     {
+      "pos": 5,
+      "media": "13192",
+      "file": "rc-vet-dry-cathypo-b1-page-4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13192.png",
+      "md5": "9589950f91c3e8633e2ee77de8964ecb"
+     },
+     {
+      "pos": 6,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   },
+   {
+    "variant_id": 1958,
+    "sku": "3182550939560-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13177",
+      "file": "c90bce1a-fb0b-4523-aba2-b2490009f47f_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13177.jpg",
+      "md5": "e7a05a5460d488b3dc97af991c7c7491"
+     },
+     {
+      "pos": 1,
+      "media": "13180",
+      "file": "rc-vet-dry-cathypo-b1-page-1.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13180.png",
+      "md5": "8f5a67f175ccffb89da5393a478ca5f0"
+     },
+     {
+      "pos": 2,
+      "media": "13183",
+      "file": "rc-vet-dry-cathypo-b1-page-2.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13183.png",
+      "md5": "ce26f558870745b371acaeaa68662acc"
+     },
+     {
+      "pos": 3,
+      "media": "13186",
+      "file": "rc-vet-dry-cathypo-b1-page-6.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13186.png",
+      "md5": "fccc19fc1baf8ff90d061d42b755aac9"
+     },
+     {
+      "pos": 4,
+      "media": "13189",
+      "file": "rc-vet-dry-cathypo-b1-page-5.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13189.png",
+      "md5": "f417e146ceca3ff76926c9f6f85a61bd"
+     },
+     {
+      "pos": 5,
+      "media": "13192",
+      "file": "rc-vet-dry-cathypo-b1-page-4.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13192.png",
+      "md5": "9589950f91c3e8633e2ee77de8964ecb"
+     },
+     {
+      "pos": 6,
+      "media": "13195",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-10.png",
+      "dims": "1320x1320",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13195.png",
+      "md5": "3d03791067c72bc39ed0418f9d95cbea"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1245",
+  "product": "Urinary S/O Cat",
+  "brand": "Royal Canin",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1821,
+    "sku": "3182550859554",
+    "label": "7 kg",
+    "size_label": "7 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13198",
+      "file": "9ab8dc1a-fc9b-4c9c-b898-b37500f98dae_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13198.jpg",
+      "md5": "d2b6bf9ae91085c91cde0dc67a0157c3"
+     },
+     {
+      "pos": 1,
+      "media": "13201",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13201.png",
+      "md5": "978ac6cf381e31312e852fa50549aeba"
+     },
+     {
+      "pos": 2,
+      "media": "13204",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13204.png",
+      "md5": "564f05019484594870409d996fd25ffd"
+     },
+     {
+      "pos": 3,
+      "media": "13207",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-5-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13207.png",
+      "md5": "7cf5ea66cc29021b6fd4a1b722b76de2"
+     },
+     {
+      "pos": 4,
+      "media": "13210",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-8-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13210.png",
+      "md5": "228b1aac78664833100b51f7a586c2e6"
+     }
+    ]
+   },
+   {
+    "variant_id": 1959,
+    "sku": "3182550859554-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "13198",
+      "file": "9ab8dc1a-fc9b-4c9c-b898-b37500f98dae_DownloadAsJpg.jpg",
+      "dims": "1414x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13198.jpg",
+      "md5": "d2b6bf9ae91085c91cde0dc67a0157c3"
+     },
+     {
+      "pos": 1,
+      "media": "13201",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-1-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13201.png",
+      "md5": "978ac6cf381e31312e852fa50549aeba"
+     },
+     {
+      "pos": 2,
+      "media": "13204",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-7-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13204.png",
+      "md5": "564f05019484594870409d996fd25ffd"
+     },
+     {
+      "pos": 3,
+      "media": "13207",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-5-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13207.png",
+      "md5": "7cf5ea66cc29021b6fd4a1b722b76de2"
+     },
+     {
+      "pos": 4,
+      "media": "13210",
+      "file": "rc-vet-dry-caturinaryso-eretailkit-b1-page-8-en-gb.png",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13210.png",
+      "md5": "228b1aac78664833100b51f7a586c2e6"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,822 @@
+[
+ {
+  "product_id": "229",
+  "variant_id": 316,
+  "sku": "34720",
+  "label": "40 cm",
+  "pos": 0,
+  "media": "2334",
+  "verdict": "ok",
+  "seen": "brown/cream plush monkey with brown/beige cotton rope loops at hands and feet, white background"
+ },
+ {
+  "product_id": "229",
+  "variant_id": 316,
+  "sku": "34720",
+  "label": "40 cm",
+  "pos": 1,
+  "media": "2337",
+  "verdict": "ok",
+  "seen": "same brown monkey, graphic overlay showing the rope running through the body (construction infographic)"
+ },
+ {
+  "product_id": "229",
+  "variant_id": 316,
+  "sku": "34720",
+  "label": "40 cm",
+  "pos": 2,
+  "media": "1926",
+  "verdict": "ok",
+  "seen": "brown/cream plush monkey with rope loops, front view, white background"
+ },
+ {
+  "product_id": "230",
+  "variant_id": 317,
+  "sku": "34721",
+  "label": "50 cm",
+  "pos": 0,
+  "media": "2340",
+  "verdict": "ok",
+  "seen": "long-legged beige plush cow with green corduroy ears/hooves, horns, white background"
+ },
+ {
+  "product_id": "230",
+  "variant_id": 317,
+  "sku": "34721",
+  "label": "50 cm",
+  "pos": 1,
+  "media": "2343",
+  "verdict": "ok",
+  "seen": "lifestyle: brown dog with the beige/green plush cow"
+ },
+ {
+  "product_id": "230",
+  "variant_id": 317,
+  "sku": "34721",
+  "label": "50 cm",
+  "pos": 2,
+  "media": "2346",
+  "verdict": "ok",
+  "seen": "lifestyle: dog in play bow chewing the beige/green plush cow"
+ },
+ {
+  "product_id": "230",
+  "variant_id": 317,
+  "sku": "34721",
+  "label": "50 cm",
+  "pos": 3,
+  "media": "2349",
+  "verdict": "ok",
+  "seen": "same beige/green cow with rope-inside construction overlay graphic"
+ },
+ {
+  "product_id": "230",
+  "variant_id": 317,
+  "sku": "34721",
+  "label": "50 cm",
+  "pos": 4,
+  "media": "1929",
+  "verdict": "ok",
+  "seen": "beige/green plush cow, front view, white background"
+ },
+ {
+  "product_id": "231",
+  "variant_id": 318,
+  "sku": "34748",
+  "label": "12 cm",
+  "pos": 0,
+  "media": "1932",
+  "verdict": "ok",
+  "seen": "grey speckled plush hedgehog with tan face and black nose, white background"
+ },
+ {
+  "product_id": "232",
+  "variant_id": 319,
+  "sku": "34823",
+  "label": "50 cm",
+  "pos": 0,
+  "media": "1935",
+  "verdict": "ok",
+  "seen": "flat long-bodied orange/white plush fox (dangling), white background"
+ },
+ {
+  "product_id": "232",
+  "variant_id": 319,
+  "sku": "34823",
+  "label": "50 cm",
+  "pos": 1,
+  "media": "2352",
+  "verdict": "ok",
+  "seen": "same flat orange/white dangling fox, other angle"
+ },
+ {
+  "product_id": "233",
+  "variant_id": 320,
+  "sku": "34830",
+  "label": "32 cm",
+  "pos": 0,
+  "media": "1938",
+  "verdict": "ok",
+  "seen": "dark brown plush horse with white muzzle, orange hooves and mane, white background"
+ },
+ {
+  "product_id": "234",
+  "variant_id": 321,
+  "sku": "34843",
+  "label": "5.5 cm",
+  "pos": 0,
+  "media": "1941",
+  "verdict": "ok",
+  "seen": "yellow studded rubber sport ball (basketball-seam pattern), white background; size not printed, own art-no photo 34843"
+ },
+ {
+  "product_id": "234",
+  "variant_id": 322,
+  "sku": "34845",
+  "label": "7 cm",
+  "pos": 0,
+  "media": "1944",
+  "verdict": "ok",
+  "seen": "yellow studded rubber sport ball (football-panel pattern), white background; distinct from 5.5 cm sibling; own art-no photo 34845"
+ },
+ {
+  "product_id": "235",
+  "variant_id": 323,
+  "sku": "34847",
+  "label": "14 cm",
+  "pos": 0,
+  "media": "1947",
+  "verdict": "ok",
+  "seen": "turquoise rubber dental stick with nubs and yellow woven inserts, white background"
+ },
+ {
+  "product_id": "236",
+  "variant_id": 324,
+  "sku": "34861",
+  "label": "6 cm",
+  "pos": 0,
+  "media": "1950",
+  "verdict": "ok",
+  "seen": "pink natural-rubber ball with paw-print relief, white background"
+ },
+ {
+  "product_id": "237",
+  "variant_id": 325,
+  "sku": "34930",
+  "label": "12 cm",
+  "pos": 0,
+  "media": "1953",
+  "verdict": "ok",
+  "seen": "translucent grey TPR snack dumbbell with spiked/studded ends, white background"
+ },
+ {
+  "product_id": "237",
+  "variant_id": 325,
+  "sku": "34930",
+  "label": "12 cm",
+  "pos": 1,
+  "media": "2355",
+  "verdict": "ok",
+  "seen": "same translucent grey snack dumbbell, side view"
+ },
+ {
+  "product_id": "238",
+  "variant_id": 326,
+  "sku": "34950",
+  "label": "18 cm",
+  "pos": 0,
+  "media": "2358",
+  "verdict": "ok",
+  "seen": "blue-grey TPR coiled snack snake, white background"
+ },
+ {
+  "product_id": "238",
+  "variant_id": 326,
+  "sku": "34950",
+  "label": "18 cm",
+  "pos": 1,
+  "media": "2361",
+  "verdict": "ok",
+  "seen": "same blue snack snake, rear angle"
+ },
+ {
+  "product_id": "238",
+  "variant_id": 326,
+  "sku": "34950",
+  "label": "18 cm",
+  "pos": 2,
+  "media": "2364",
+  "verdict": "ok",
+  "seen": "detail: underside spiral groove of the blue snack snake"
+ },
+ {
+  "product_id": "238",
+  "variant_id": 326,
+  "sku": "34950",
+  "label": "18 cm",
+  "pos": 3,
+  "media": "2367",
+  "verdict": "ok",
+  "seen": "detail: hand filling the blue snake groove with a paste tube (usage shot)"
+ },
+ {
+  "product_id": "238",
+  "variant_id": 326,
+  "sku": "34950",
+  "label": "18 cm",
+  "pos": 4,
+  "media": "2370",
+  "verdict": "ok",
+  "seen": "lifestyle: white terrier licking the blue snack snake"
+ },
+ {
+  "product_id": "238",
+  "variant_id": 326,
+  "sku": "34950",
+  "label": "18 cm",
+  "pos": 5,
+  "media": "1956",
+  "verdict": "wrong-colour",
+  "seen": "lime-green snack snake, same shape - different colourway from the blue lead (variant has no colour option)"
+ },
+ {
+  "product_id": "239",
+  "variant_id": 327,
+  "sku": "35091",
+  "label": "15 cm",
+  "pos": 0,
+  "media": "1959",
+  "verdict": "ok",
+  "seen": "small orange latex chicken with red head lying flat, white background; own art-no photo 35091"
+ },
+ {
+  "product_id": "239",
+  "variant_id": 328,
+  "sku": "3539",
+  "label": "47 cm",
+  "pos": 0,
+  "media": "1962",
+  "verdict": "ok",
+  "seen": "long thin orange latex rubber chicken with red head, white background; distinct from 15 cm sibling; own art-no photo 3539"
+ },
+ {
+  "product_id": "240",
+  "variant_id": 329,
+  "sku": "35092",
+  "label": "13 cm",
+  "pos": 0,
+  "media": "1965",
+  "verdict": "ok",
+  "seen": "orange latex sucking pig lying flat, white background"
+ },
+ {
+  "product_id": "240",
+  "variant_id": 329,
+  "sku": "35092",
+  "label": "13 cm",
+  "pos": 1,
+  "media": "2373",
+  "verdict": "ok",
+  "seen": "lifestyle: chihuahua with the orange latex pig"
+ },
+ {
+  "product_id": "241",
+  "variant_id": 330,
+  "sku": "35093",
+  "label": "14 cm",
+  "pos": 0,
+  "media": "1968",
+  "verdict": "ok",
+  "seen": "orange latex duck with purple head, standing upright, white background"
+ },
+ {
+  "product_id": "241",
+  "variant_id": 330,
+  "sku": "35093",
+  "label": "14 cm",
+  "pos": 1,
+  "media": "2376",
+  "verdict": "ok",
+  "seen": "same orange/purple latex duck lying flat"
+ },
+ {
+  "product_id": "241",
+  "variant_id": 330,
+  "sku": "35093",
+  "label": "14 cm",
+  "pos": 2,
+  "media": "2379",
+  "verdict": "ok",
+  "seen": "lifestyle: Jack Russell carrying the orange/purple duck"
+ },
+ {
+  "product_id": "242",
+  "variant_id": 331,
+  "sku": "3516",
+  "label": "23 cm",
+  "pos": 0,
+  "media": "1971",
+  "verdict": "ok",
+  "seen": "orange latex starfish with googly eyes, top view, white background"
+ },
+ {
+  "product_id": "242",
+  "variant_id": 331,
+  "sku": "3516",
+  "label": "23 cm",
+  "pos": 1,
+  "media": "2382",
+  "verdict": "ok",
+  "seen": "same orange starfish, angled view"
+ },
+ {
+  "product_id": "243",
+  "variant_id": 332,
+  "sku": "35170",
+  "label": "8 cm",
+  "pos": 0,
+  "media": "1974",
+  "verdict": "ok",
+  "seen": "pale pink latex mouse with darker pink dots, white background"
+ },
+ {
+  "product_id": "243",
+  "variant_id": 332,
+  "sku": "35170",
+  "label": "8 cm",
+  "pos": 1,
+  "media": "2385",
+  "verdict": "wrong-colour",
+  "seen": "purple latex mouse with lilac dots - different colour from pale-pink lead (variant has no colour option)"
+ },
+ {
+  "product_id": "243",
+  "variant_id": 332,
+  "sku": "35170",
+  "label": "8 cm",
+  "pos": 2,
+  "media": "2388",
+  "verdict": "wrong-colour",
+  "seen": "green latex mouse with darker green dots - different colour from pale-pink lead"
+ },
+ {
+  "product_id": "243",
+  "variant_id": 332,
+  "sku": "35170",
+  "label": "8 cm",
+  "pos": 3,
+  "media": "2394",
+  "verdict": "wrong-colour",
+  "seen": "magenta latex mouse with lilac dots - different colour from pale-pink lead"
+ },
+ {
+  "product_id": "244",
+  "variant_id": 333,
+  "sku": "35182",
+  "label": "20 cm",
+  "pos": 0,
+  "media": "1977",
+  "verdict": "ok",
+  "seen": "red long-necked latex bird with yellow beak and green toes, white background"
+ },
+ {
+  "product_id": "245",
+  "variant_id": 334,
+  "sku": "35185",
+  "label": "20 cm",
+  "pos": 0,
+  "media": "1980",
+  "verdict": "ok",
+  "seen": "pink latex pig painted with flowers and green grass, white background"
+ },
+ {
+  "product_id": "246",
+  "variant_id": 335,
+  "sku": "35190",
+  "label": "10 cm",
+  "pos": 0,
+  "media": "1983",
+  "verdict": "ok",
+  "seen": "pink latex pig with bristles, white background"
+ },
+ {
+  "product_id": "247",
+  "variant_id": 336,
+  "sku": "35197",
+  "label": "17 cm",
+  "pos": 0,
+  "media": "1986",
+  "verdict": "ok",
+  "seen": "orange/white latex sitting fox, front view, white background"
+ },
+ {
+  "product_id": "247",
+  "variant_id": 336,
+  "sku": "35197",
+  "label": "17 cm",
+  "pos": 1,
+  "media": "2397",
+  "verdict": "ok",
+  "seen": "same orange latex fox, side view"
+ },
+ {
+  "product_id": "248",
+  "variant_id": 337,
+  "sku": "35199",
+  "label": "14 cm",
+  "pos": 0,
+  "media": "1989",
+  "verdict": "ok",
+  "seen": "turquoise latex dinosaur with pink heart cheek, white background"
+ },
+ {
+  "product_id": "248",
+  "variant_id": 337,
+  "sku": "35199",
+  "label": "14 cm",
+  "pos": 1,
+  "media": "2400",
+  "verdict": "ok",
+  "seen": "same turquoise latex dino, side view"
+ },
+ {
+  "product_id": "249",
+  "variant_id": 338,
+  "sku": "35267",
+  "label": "14 cm",
+  "pos": 0,
+  "media": "1992",
+  "verdict": "ok",
+  "seen": "pink latex chicken with orange beak and red feet, standing, white background"
+ },
+ {
+  "product_id": "250",
+  "variant_id": 339,
+  "sku": "35330",
+  "label": "26 cm",
+  "pos": 0,
+  "media": "1995",
+  "verdict": "ok",
+  "seen": "green latex caterpillar with yellow feet and pink antennae, white background"
+ },
+ {
+  "product_id": "251",
+  "variant_id": 340,
+  "sku": "35497",
+  "label": "18 cm",
+  "pos": 0,
+  "media": "1998",
+  "verdict": "ok",
+  "seen": "black latex wild boar with white tusks, white background"
+ },
+ {
+  "product_id": "252",
+  "variant_id": 341,
+  "sku": "35511",
+  "label": "25 cm",
+  "pos": 0,
+  "media": "2001",
+  "verdict": "ok",
+  "seen": "lime-green latex long-limbed monkey, white background"
+ },
+ {
+  "product_id": "252",
+  "variant_id": 341,
+  "sku": "35511",
+  "label": "25 cm",
+  "pos": 1,
+  "media": "2406",
+  "verdict": "wrong-colour",
+  "seen": "same long-limbed latex monkey in pink - different colour from green lead (variant has no colour option)"
+ },
+ {
+  "product_id": "252",
+  "variant_id": 341,
+  "sku": "35511",
+  "label": "25 cm",
+  "pos": 2,
+  "media": "2409",
+  "verdict": "wrong-colour",
+  "seen": "same long-limbed latex monkey in turquoise - different colour from green lead"
+ },
+ {
+  "product_id": "253",
+  "variant_id": 342,
+  "sku": "35522",
+  "label": "23 cm",
+  "pos": 0,
+  "media": "2004",
+  "verdict": "ok",
+  "seen": "latex cabbage-pig, cream pig head in green/yellow cabbage leaves, white background"
+ },
+ {
+  "product_id": "253",
+  "variant_id": 342,
+  "sku": "35522",
+  "label": "23 cm",
+  "pos": 1,
+  "media": "2412",
+  "verdict": "ok",
+  "seen": "detail: front view of the cabbage-pig face"
+ },
+ {
+  "product_id": "253",
+  "variant_id": 342,
+  "sku": "35522",
+  "label": "23 cm",
+  "pos": 2,
+  "media": "2415",
+  "verdict": "ok",
+  "seen": "lifestyle: Labrador lying with the cabbage-pig"
+ },
+ {
+  "product_id": "254",
+  "variant_id": 343,
+  "sku": "35523",
+  "label": "12 cm",
+  "pos": 0,
+  "media": "2007",
+  "verdict": "ok",
+  "seen": "turquoise latex sitting monkey covering its eyes (see-no-evil), yellow face/hands, white background"
+ },
+ {
+  "product_id": "254",
+  "variant_id": 343,
+  "sku": "35523",
+  "label": "12 cm",
+  "pos": 1,
+  "media": "2418",
+  "verdict": "wrong-colour",
+  "seen": "pink latex monkey covering its mouth (speak-no-evil) - different colour and design from turquoise lead"
+ },
+ {
+  "product_id": "254",
+  "variant_id": 343,
+  "sku": "35523",
+  "label": "12 cm",
+  "pos": 2,
+  "media": "2421",
+  "verdict": "wrong-colour",
+  "seen": "orange latex monkey covering its ears (hear-no-evil) - different colour and design from turquoise lead"
+ },
+ {
+  "product_id": "254",
+  "variant_id": 343,
+  "sku": "35523",
+  "label": "12 cm",
+  "pos": 3,
+  "media": "2424",
+  "verdict": "ok",
+  "seen": "group shot of the 3-monkey set (orange, turquoise, pink) incl. the turquoise lead design; acceptable as last-position group shot"
+ },
+ {
+  "product_id": "255",
+  "variant_id": 344,
+  "sku": "35612",
+  "label": "8 cm",
+  "pos": 0,
+  "media": "2427",
+  "verdict": "ok",
+  "seen": "pastel lilac latex ring with mint/yellow nubs, white background"
+ },
+ {
+  "product_id": "255",
+  "variant_id": 344,
+  "sku": "35612",
+  "label": "8 cm",
+  "pos": 1,
+  "media": "2430",
+  "verdict": "ok",
+  "seen": "lifestyle: puppy with the lilac Junior ring"
+ },
+ {
+  "product_id": "255",
+  "variant_id": 344,
+  "sku": "35612",
+  "label": "8 cm",
+  "pos": 2,
+  "media": "2433",
+  "verdict": "ok",
+  "seen": "lifestyle: puppy in bed with the lilac Junior ring"
+ },
+ {
+  "product_id": "255",
+  "variant_id": 344,
+  "sku": "35612",
+  "label": "8 cm",
+  "pos": 3,
+  "media": "2436",
+  "verdict": "ok",
+  "seen": "lifestyle: collie puppy chewing the lilac Junior ring"
+ },
+ {
+  "product_id": "255",
+  "variant_id": 344,
+  "sku": "35612",
+  "label": "8 cm",
+  "pos": 4,
+  "media": "2010",
+  "verdict": "wrong-colour",
+  "seen": "green latex ring with red/blue/yellow nubs - older/different colourway from the pastel lilac lead"
+ },
+ {
+  "product_id": "256",
+  "variant_id": 345,
+  "sku": "35671",
+  "label": "56 cm",
+  "pos": 0,
+  "media": "2013",
+  "verdict": "ok",
+  "seen": "brown long-pile plush sloth with white face, sitting, white background"
+ },
+ {
+  "product_id": "256",
+  "variant_id": 345,
+  "sku": "35671",
+  "label": "56 cm",
+  "pos": 1,
+  "media": "2439",
+  "verdict": "ok",
+  "seen": "same brown plush sloth, legs extended"
+ },
+ {
+  "product_id": "256",
+  "variant_id": 345,
+  "sku": "35671",
+  "label": "56 cm",
+  "pos": 2,
+  "media": "2442",
+  "verdict": "ok",
+  "seen": "lifestyle: Jack Russell with the brown sloth"
+ },
+ {
+  "product_id": "256",
+  "variant_id": 345,
+  "sku": "35671",
+  "label": "56 cm",
+  "pos": 3,
+  "media": "2445",
+  "verdict": "ok",
+  "seen": "lifestyle: beagle with the brown sloth"
+ },
+ {
+  "product_id": "256",
+  "variant_id": 1521,
+  "sku": "35670",
+  "label": "35 cm",
+  "pos": 0,
+  "media": "10719",
+  "verdict": "ok",
+  "seen": "cream/beige shaggy plush sloth with brown eye patches, white background; different design from 56 cm brown sibling, own art-no photo 35670"
+ },
+ {
+  "product_id": "256",
+  "variant_id": 1521,
+  "sku": "35670",
+  "label": "35 cm",
+  "pos": 1,
+  "media": "10722",
+  "verdict": "ok",
+  "seen": "same cream plush sloth, angled view"
+ },
+ {
+  "product_id": "257",
+  "variant_id": 346,
+  "sku": "35672",
+  "label": "40 cm",
+  "pos": 0,
+  "media": "2016",
+  "verdict": "ok",
+  "seen": "tan/white plush meerkat standing, grey paws, white background"
+ },
+ {
+  "product_id": "257",
+  "variant_id": 346,
+  "sku": "35672",
+  "label": "40 cm",
+  "pos": 1,
+  "media": "2448",
+  "verdict": "ok",
+  "seen": "detail: back view of the tan plush meerkat"
+ },
+ {
+  "product_id": "257",
+  "variant_id": 346,
+  "sku": "35672",
+  "label": "40 cm",
+  "pos": 2,
+  "media": "2451",
+  "verdict": "ok",
+  "seen": "lifestyle: puppy carrying the tan/white plush meerkat"
+ },
+ {
+  "product_id": "258",
+  "variant_id": 347,
+  "sku": "35673",
+  "label": "33 cm",
+  "pos": 0,
+  "media": "2019",
+  "verdict": "ok",
+  "seen": "grey/white plush koala sitting, white background"
+ },
+ {
+  "product_id": "258",
+  "variant_id": 347,
+  "sku": "35673",
+  "label": "33 cm",
+  "pos": 1,
+  "media": "2454",
+  "verdict": "ok",
+  "seen": "same grey koala, angled view"
+ },
+ {
+  "product_id": "258",
+  "variant_id": 347,
+  "sku": "35673",
+  "label": "33 cm",
+  "pos": 2,
+  "media": "2457",
+  "verdict": "ok",
+  "seen": "lifestyle: husky in bed with the grey plush koala (file shared with art 28240 bed shot)"
+ },
+ {
+  "product_id": "259",
+  "variant_id": 348,
+  "sku": "35677",
+  "label": "22 cm",
+  "pos": 0,
+  "media": "2022",
+  "verdict": "ok",
+  "seen": "beige/brown shaggy plush alpaca lying, pink ears, white background"
+ },
+ {
+  "product_id": "259",
+  "variant_id": 348,
+  "sku": "35677",
+  "label": "22 cm",
+  "pos": 1,
+  "media": "2460",
+  "verdict": "ok",
+  "seen": "same alpaca, front view"
+ },
+ {
+  "product_id": "259",
+  "variant_id": 348,
+  "sku": "35677",
+  "label": "22 cm",
+  "pos": 2,
+  "media": "2463",
+  "verdict": "ok",
+  "seen": "detail: back view of the alpaca"
+ },
+ {
+  "product_id": "260",
+  "variant_id": 349,
+  "sku": "35697",
+  "label": "38 cm",
+  "pos": 0,
+  "media": "2025",
+  "verdict": "ok",
+  "seen": "green rope with orange/grey fleck: loop handle, chain links and woven knot ball, vertical, white background"
+ },
+ {
+  "product_id": "260",
+  "variant_id": 349,
+  "sku": "35697",
+  "label": "38 cm",
+  "pos": 1,
+  "media": "2466",
+  "verdict": "ok",
+  "seen": "same green rope with woven-in ball, horizontal"
+ },
+ {
+  "product_id": "261",
+  "variant_id": 350,
+  "sku": "35796",
+  "label": "14 cm",
+  "pos": 0,
+  "media": "2028",
+  "verdict": "ok",
+  "seen": "white plush sheep with black ears and legs, white background"
+ },
+ {
+  "product_id": "262",
+  "variant_id": 351,
+  "sku": "35806",
+  "label": "32 cm",
+  "pos": 0,
+  "media": "2031",
+  "verdict": "ok",
+  "seen": "cream/brown striped corduroy plush vulture with orange beak, white background"
+ },
+ {
+  "product_id": "263",
+  "variant_id": 352,
+  "sku": "35812",
+  "label": "15 cm",
+  "pos": 0,
+  "media": "2034",
+  "verdict": "ok",
+  "seen": "cream plush duck with brown beak/feet and jute-rope tuft, white background"
+ }
+]

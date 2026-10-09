@@ -1,0 +1,1690 @@
+[
+ {
+  "product_id": "637",
+  "product": "Monoprotein Adult Cat Salmon",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 759,
+    "sku": "005517",
+    "label": "Salmon 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": "Կեր կատուների համար՝ MONGE Monoprotein սաղմոն, 1.5 կգ",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE Monoprotein սալմոն, 1.5 կգ",
+    "ean": "8009470005517",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4682",
+      "file": "cat-adult-salmon-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4682.jpg",
+      "md5": "e06896148999c257468e1ba93ca72b39"
+     },
+     {
+      "pos": 1,
+      "media": "7252",
+      "file": "ADULT-MONO-salmone_15KG_8009470005517",
+      "dims": "540x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7252.jpg",
+      "md5": "3abe04f34229ac291c4be9da4f1d69b7"
+     },
+     {
+      "pos": 2,
+      "media": "4685",
+      "file": "cat-adult-salmon-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4685.jpg",
+      "md5": "fb3368c7fcfc0cf98e8768bc93fb0d28"
+     },
+     {
+      "pos": 3,
+      "media": "4688",
+      "file": "cat-adult-salmon-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4688.jpg",
+      "md5": "bf2079afdf7f133240deb5cd4e857dda"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "638",
+  "product": "Monoprotein Sterilised Cat Beef",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 760,
+    "sku": "005527",
+    "label": "Beef 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": "Կեր կատուների համար՝ MONGE STERILISED Monoprotein, հորթի մսով",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE STERILISED Monoprotein հորթ 1.5 կգ",
+    "ean": "8009470005524",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4691",
+      "file": "cat-sterilized-beef-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4691.jpg",
+      "md5": "ca4962a19fa6097949352952da8af6d8"
+     },
+     {
+      "pos": 1,
+      "media": "7255",
+      "file": "STERILISED-MONO-manzo-15KG_8009470005524",
+      "dims": "540x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7255.jpg",
+      "md5": "df9f06ba53795bb299d92d0900fe8b51"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "639",
+  "product": "All Breeds Puppy & Junior",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 761,
+    "sku": "011257",
+    "label": "Lamb & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": "«All Breeds Puppy & Junior» շների չոր կեր (գառ/բրինձ) 800 գ",
+    "hafo_variant_hy": "Կեր շն MONGE   PUPPY & JUNIOR  գառան  800 գ",
+    "ean": "8009470011259",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1755",
+      "file": "monge_cane_secco_all_breeds_puppy_e_junior_agnello_con_riso",
+      "dims": "384x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1755.jpg",
+      "md5": "f51fa7186b5483c1a455cd584de3441f"
+     }
+    ]
+   },
+   {
+    "variant_id": 1573,
+    "sku": "011217",
+    "label": "Salmon & Rice 12 kg",
+    "size_label": "12 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14008",
+      "file": "1573-1-final.jpg",
+      "dims": "1403x1403",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14008.jpg",
+      "md5": "bac3d72994e4fad90ef081f421b9ea89"
+     }
+    ]
+   },
+   {
+    "variant_id": 1654,
+    "sku": "011217-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14008",
+      "file": "1573-1-final.jpg",
+      "dims": "1403x1403",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14008.jpg",
+      "md5": "bac3d72994e4fad90ef081f421b9ea89"
+     }
+    ]
+   },
+   {
+    "variant_id": 1574,
+    "sku": "006487",
+    "label": "Beef & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14035",
+      "file": "1574-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14035.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14038",
+      "file": "1574-2-final.jpg",
+      "dims": "1880x1880",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14038.jpg",
+      "md5": "b72b6d01055515bf8e71fb215d3f1272"
+     }
+    ]
+   },
+   {
+    "variant_id": 1655,
+    "sku": "006487-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14035",
+      "file": "1574-1-final.jpg",
+      "dims": "1075x1075",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14035.jpg",
+      "md5": "621dd334f33d598dbbfe617a57820c20"
+     },
+     {
+      "pos": 1,
+      "media": "14038",
+      "file": "1574-2-final.jpg",
+      "dims": "1880x1880",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14038.jpg",
+      "md5": "b72b6d01055515bf8e71fb215d3f1272"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "640",
+  "product": "Extra Small Puppy & Junior Chicken",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 762,
+    "sku": "011407",
+    "label": "Chicken 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Monge Extra Small Puppy & Junior Հավի համով (800 գ)",
+    "hafo_variant_hy": "Կեր շն MONGE  EXTRA SMALL PUPPY, հավ  800 գ",
+    "ean": "8009470011402",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1758",
+      "file": "Extra-Small-Puppy-and-Junior-Rich-in-Chicken_800g_8009470011402",
+      "dims": "384x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1758.jpg",
+      "md5": "7e1500d21651fcee8cd9586c5485675d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "641",
+  "product": "Extra Small Adult Lamb & Rice",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 763,
+    "sku": "011477",
+    "label": "Lamb & Rice 800 g",
+    "size_label": "800 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": "Կեր շների համար՝ MONGE  EXTRA SMALL ADULT, գառ/բրինձ, 800 գ",
+    "hafo_variant_hy": "Կեր շների համար՝ MONGE  EXTRA SMALL ADULT, գառ/բրինձ, 800 գ",
+    "ean": "8009470011471",
+    "images": [
+     {
+      "pos": 0,
+      "media": "1761",
+      "file": "monge_cane_secco_extra_small_adult_agnello_riso_e_patate",
+      "dims": "384x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/1761.jpg",
+      "md5": "ad1030c289971baf8642c914d97d5432"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "642",
+  "product": "Sterilised Cat Chicken",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 764,
+    "sku": "011937",
+    "label": "Chicken 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": "Monge Sterilised չոր կեր կատուների համար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE  STERILISED հավ 1.5 կգ",
+    "ean": "8009470011938",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4694",
+      "file": "cat-sterilized-chicken-15-kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4694.jpg",
+      "md5": "0b5c7fcd4ec539b04311be09fdacae77"
+     },
+     {
+      "pos": 1,
+      "media": "7258",
+      "file": "STERILISED-CHICKEN_15KG_8009470011938",
+      "dims": "540x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7258.jpg",
+      "md5": "a06cfbe7e331ebff857a0d202631e538"
+     },
+     {
+      "pos": 2,
+      "media": "4697",
+      "file": "cat-sterilized-chicken-15-kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4697.jpg",
+      "md5": "661efddb587e933098f084083b60b157"
+     },
+     {
+      "pos": 3,
+      "media": "4700",
+      "file": "cat-sterilized-chicken-15-kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4700.jpg",
+      "md5": "6f01a8eea819aeefb8448e17cb9f1853"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "643",
+  "product": "BWild Adult Cat Hare",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 765,
+    "sku": "012007",
+    "label": "Hare 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "Bwild, չոր կեր հասուն կատուների համար, ճագար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատուների համար BWILD CAT ` LOW GRAIN, ճագար, 1.5 կգ",
+    "ean": "8009470012003",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4703",
+      "file": "cat-bwild-adult-hare-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4703.jpg",
+      "md5": "add0e9a3c2cd7a92831d19c7afd6fd1b"
+     },
+     {
+      "pos": 1,
+      "media": "4706",
+      "file": "cat-bwild-adult-hare-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4706.jpg",
+      "md5": "d74338b93ea0090f3c5120d7d0290e3a"
+     },
+     {
+      "pos": 2,
+      "media": "4709",
+      "file": "cat-bwild-adult-hare-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4709.jpg",
+      "md5": "a1242d7cfac2fedfdf36251d52a93bcc"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "644",
+  "product": "BWild Grain Free Large Breed Cat Buffalo",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 766,
+    "sku": "012067",
+    "label": "Buffalo 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Buffalo",
+    "hafo_title_hy": "Կեր կատուների համար BWILD CAT՝ գոմեշ",
+    "hafo_variant_hy": "Կեր կատուների համար BWILD CAT` առանց հացահատիկի, գոմեշ/ոսպ/կարտոֆիլ, 1.5 կգ",
+    "ean": "8009470012065",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4712",
+      "file": "cat-bwild-grain-free-large-breeds-buffalo-15-kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4712.jpg",
+      "md5": "cc250d93e7d64ba81febc5ff9e9900f0"
+     },
+     {
+      "pos": 1,
+      "media": "4715",
+      "file": "cat-bwild-grain-free-large-breeds-buffalo-15-kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4715.jpg",
+      "md5": "32fd39336be412bff885a4d8317da00d"
+     },
+     {
+      "pos": 2,
+      "media": "4718",
+      "file": "cat-bwild-grain-free-large-breeds-buffalo-15-kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4718.jpg",
+      "md5": "ddc0672f0da9eb13f2075751a74bb8fa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "645",
+  "product": "BWild Grain Free Sterilised Cat Tuna with Peas",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 767,
+    "sku": "012087",
+    "label": "Tuna with Peas 1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "Flavor=Tuna",
+    "hafo_title_hy": "Կեր ստերիլիզացված կատուների համար BWILD CAT STERIL` թյունոս",
+    "hafo_variant_hy": "Կեր ստերիլ կատուների համար BWILD CAT STERIL` առանց հացահատիկի, թյունոս/գարոխ, 1.5 կգ",
+    "ean": "8009470012089",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4721",
+      "file": "cat-bwild-grain-free-sterilized-tuna-with-peas-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4721.jpg",
+      "md5": "0494401e05931370fa02b93883d0bd34"
+     },
+     {
+      "pos": 1,
+      "media": "4724",
+      "file": "cat-bwild-grain-free-sterilized-tuna-with-peas-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4724.jpg",
+      "md5": "eebda22fc7f0f2d7bc3cc21a0ed863da"
+     },
+     {
+      "pos": 2,
+      "media": "4727",
+      "file": "cat-bwild-grain-free-sterilized-tuna-with-peas-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4727.jpg",
+      "md5": "1aadc4a202abaca45687af0f5d55a265"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "646",
+  "product": "VetSolution Gastrointestinal Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 768,
+    "sku": "081517",
+    "label": "1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "VetSolution Gastrointestinal (ստամքս-աղիքային) բժշկական չոր կեր կատուների համար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE VET Gastrointestinal 1.5 կգ",
+    "ean": "8009470081511",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4730",
+      "file": "vetsolution-cat-gastrointestinal-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4730.jpg",
+      "md5": "c3323001aa6f17757f637d61cfdf67a4"
+     },
+     {
+      "pos": 1,
+      "media": "7261",
+      "file": "VETSolution_GASTROINTESTINAL_gatto_15-kg_8009470081511-copia",
+      "dims": "640x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7261.jpg",
+      "md5": "d4ebe961d65aa111fbdcbbc2ef47522a"
+     },
+     {
+      "pos": 2,
+      "media": "4733",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4733.jpg",
+      "md5": "c2c5e4cc51d33137ca6a867a0e5b4826"
+     },
+     {
+      "pos": 3,
+      "media": "4736",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4736.jpg",
+      "md5": "7e1b514ed5010f058658fc28a87e9d6c"
+     },
+     {
+      "pos": 4,
+      "media": "4739",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4739.jpg",
+      "md5": "1c0c562d9f882eb369f00914a616a51c"
+     },
+     {
+      "pos": 5,
+      "media": "4742",
+      "file": "vetsolution-cat-gastrointestinal-15kg.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4742.jpg",
+      "md5": "e291d155cdabf45b9b596f9164be3feb"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "647",
+  "product": "VetSolution Renal Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 769,
+    "sku": "081657",
+    "label": "1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "VetSolution Renal (երիկամային) բժշկական չոր կեր կատուների համար (1,5 կգ)",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE VET RENAL 1.5 կգ",
+    "ean": "8009470081658",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4745",
+      "file": "vetsolution-cat-renal-15-kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4745.jpg",
+      "md5": "4748712000b0a66e10693b838ea8c4ec"
+     },
+     {
+      "pos": 1,
+      "media": "7264",
+      "file": "VETSolution_RENAL_gatto_15-kg_8009470081658",
+      "dims": "640x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7264.jpg",
+      "md5": "454d4c78ca3b99e3f54df0875853b69b"
+     },
+     {
+      "pos": 2,
+      "media": "4748",
+      "file": "vetsolution-cat-renal-15-kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4748.jpg",
+      "md5": "38f268e34e393bb57fd6985782ff7759"
+     },
+     {
+      "pos": 3,
+      "media": "4751",
+      "file": "vetsolution-cat-renal-15-kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4751.jpg",
+      "md5": "ba6fe8275a5707bcbb10d948f96d5b84"
+     },
+     {
+      "pos": 4,
+      "media": "4754",
+      "file": "vetsolution-cat-renal-15-kg.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4754.jpg",
+      "md5": "beb51f0946223c739f4bff5f2383c9ad"
+     },
+     {
+      "pos": 5,
+      "media": "4757",
+      "file": "vetsolution-cat-renal-15-kg.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4757.jpg",
+      "md5": "89eeabfb05aaad7dc24e9b03cdaeabb8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "648",
+  "product": "VetSolution Hepatic Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 770,
+    "sku": "081687",
+    "label": "1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "VetSolution Hepatic բժշկական չոր կեր կատուների համար",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE VET HEPATIC 1.5 կգ",
+    "ean": "8009470081689",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4760",
+      "file": "vetsolution-cat-hepatic-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4760.jpg",
+      "md5": "1afa680a9d92bfa6974d6baae90f62a2"
+     },
+     {
+      "pos": 1,
+      "media": "7267",
+      "file": "VETSolution_HEPATIC_gatto_15-kg_8009470081689",
+      "dims": "640x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7267.jpg",
+      "md5": "effcea8aeec1a4760b8caa1c11456c36"
+     },
+     {
+      "pos": 2,
+      "media": "4763",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4763.jpg",
+      "md5": "10c6b02ba723b50aae51d8ee34b17ad7"
+     },
+     {
+      "pos": 3,
+      "media": "4766",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4766.jpg",
+      "md5": "e43394803996f9136062035ef3094eae"
+     },
+     {
+      "pos": 4,
+      "media": "4769",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4769.jpg",
+      "md5": "4fb26fbd2fb76d92c48e4b23e824547f"
+     },
+     {
+      "pos": 5,
+      "media": "4772",
+      "file": "vetsolution-cat-hepatic-15kg.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4772.jpg",
+      "md5": "cc894fa77c753179b4d5de0dad7e50fa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "649",
+  "product": "VetSolution Diabetic Cat",
+  "brand": "Monge",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 771,
+    "sku": "081757",
+    "label": "1.5 kg",
+    "size_label": "1.5 kg",
+    "options": "",
+    "hafo_title_hy": "VetSolution Diabetic բժշկական չոր կեր կատուների համար",
+    "hafo_variant_hy": "Կեր կատ. համար  MONGE VET DIABETIC 1.5 կգ",
+    "ean": "8009470081757",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4775",
+      "file": "vetsolution-cat-diabetic-15kg",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4775.jpg",
+      "md5": "c03957429f5a5aee487c358e58adb557"
+     },
+     {
+      "pos": 1,
+      "media": "7270",
+      "file": "VETSolution_DIABETIC_gatto_15-kg_8009470081757-copia",
+      "dims": "640x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7270.jpg",
+      "md5": "d731cbcd5df976b03c0d8778f3193e16"
+     },
+     {
+      "pos": 2,
+      "media": "4778",
+      "file": "vetsolution-cat-diabetic-15kg.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4778.jpg",
+      "md5": "e5506893f559e876380168804edcca32"
+     },
+     {
+      "pos": 3,
+      "media": "4781",
+      "file": "vetsolution-cat-diabetic-15kg.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4781.jpg",
+      "md5": "1cce85e1c095217c9c5a56013b97af5f"
+     },
+     {
+      "pos": 4,
+      "media": "4784",
+      "file": "vetsolution-cat-diabetic-15kg.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4784.jpg",
+      "md5": "34f0133057d45cdd25a8690ac16c277c"
+     },
+     {
+      "pos": 5,
+      "media": "4787",
+      "file": "vetsolution-cat-diabetic-15kg.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4787.jpg",
+      "md5": "2d3755c3d594cfce154e27ed1f48396d"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "650",
+  "product": "BWild Grain Free Puppy Duck",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 772,
+    "sku": "012607",
+    "label": "Duck 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Duck; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների ձագերի համար՝ Bwild",
+    "hafo_variant_hy": "Պահածո շն. ձագերի համար Bwild բադ և դդում 400գ",
+    "ean": "8009470012607",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4790",
+      "file": "monge-bwild-grain-free-puppy-duck-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4790.jpg",
+      "md5": "a9cf93941b3865e60a93fe8c4c13eeb5"
+     },
+     {
+      "pos": 1,
+      "media": "4793",
+      "file": "monge-bwild-grain-free-puppy-duck-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4793.jpg",
+      "md5": "fc95c2b373d9e38e1af9a2b0dffacc84"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "651",
+  "product": "BWild Grain Free Adult Dog",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 773,
+    "sku": "012617",
+    "label": "Lamb 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Lamb; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո բոլոր ցեղատեսակի հասուն շների համար՝ Bwild գառ",
+    "hafo_variant_hy": "Պահածո բոլոր ցեղատես. հասուն շն. համար Bwild գառ, դդում և դդմիկ 400գ",
+    "ean": "8009470012614",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4796",
+      "file": "monge-bwild-grain-free-lamb-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4796.jpg",
+      "md5": "3fca72220785c1807b2bea659adfea1e"
+     },
+     {
+      "pos": 1,
+      "media": "4799",
+      "file": "monge-bwild-grain-free-lamb-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4799.jpg",
+      "md5": "c4307e7946982c1e013587f9911731a3"
+     }
+    ]
+   },
+   {
+    "variant_id": 774,
+    "sku": "012627",
+    "label": "Salmon 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Salmon; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո բոլոր ցեղատեսակի հասուն շների համար՝ Bwild սաղմոն",
+    "hafo_variant_hy": "Պահածո բոլոր ցեղատես. հասուն շն. համար Bwild սաղմոն, դդում և դդմիկ 400գ",
+    "ean": "8009470012621",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4802",
+      "file": "monge-bwild-grain-free-salmon-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4802.jpg",
+      "md5": "1f06cacaa49f482175824e72c87c6444"
+     },
+     {
+      "pos": 1,
+      "media": "4805",
+      "file": "monge-bwild-grain-free-salmon-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4805.jpg",
+      "md5": "afd0cccf4861dbd036be9087698ab3f7"
+     }
+    ]
+   },
+   {
+    "variant_id": 775,
+    "sku": "012647",
+    "label": "Turkey 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Turkey; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո բոլոր ցեղատեսակի հասուն շների համար՝ Bwild",
+    "hafo_variant_hy": "Պահածո բոլոր ցեղատես. հասուն շն. համար՝ Bwild, հնդկահավ և դդում, 400գ",
+    "ean": "8009470012645",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4808",
+      "file": "monge-bwild-grain-free-turkey-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4808.jpg",
+      "md5": "8a75e224bf3ebc7f5f4dc469e7b8d25e"
+     },
+     {
+      "pos": 1,
+      "media": "4811",
+      "file": "monge-bwild-grain-free-turkey-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4811.jpg",
+      "md5": "d8e2509eb7a9686ba4d7ccfa05efdebd"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "652",
+  "product": "BWild Grain Free Mini Adult Dog Duck",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 776,
+    "sku": "012637",
+    "label": "Duck 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Duck; Food Texture=Chunks in Gravy; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո փոքր ցեղատեսակի հասուն շների համար՝ Bwild",
+    "hafo_variant_hy": "Պահածո փոքր ցեղատեսակի հասուն շն. համար Bwild բադ և դդում 400գ",
+    "ean": "8009470012638",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4814",
+      "file": "monge-bwild-grain-free-mini-adult-duck-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4814.jpg",
+      "md5": "df144cd55b81164fbf59d8a3571149a3"
+     },
+     {
+      "pos": 1,
+      "media": "4817",
+      "file": "monge-bwild-grain-free-mini-adult-duck-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4817.jpg",
+      "md5": "576a0f1ecdddfe94ca378a353c6670a1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "653",
+  "product": "Solo Monoprotein Adult Dog Paté",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 777,
+    "sku": "014217",
+    "label": "Chicken 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (Հավ )",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico հավ 400գ  ",
+    "ean": "8009470014212",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4820",
+      "file": "monge-dog-solo-chicken-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4820.jpg",
+      "md5": "e71792f1822481864bd9c60806b03475"
+     },
+     {
+      "pos": 1,
+      "media": "4823",
+      "file": "monge-dog-solo-chicken-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4823.jpg",
+      "md5": "e02124876ef7f79ba1002e1ad9f64426"
+     },
+     {
+      "pos": 2,
+      "media": "4826",
+      "file": "monge-dog-solo-chicken-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4826.jpg",
+      "md5": "882ce8f1d8f67bf8fb4be91f1fcdde49"
+     },
+     {
+      "pos": 3,
+      "media": "4829",
+      "file": "monge-dog-solo-chicken-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4829.jpg",
+      "md5": "6a95487f9c0561435df2de1627e8a268"
+     }
+    ]
+   },
+   {
+    "variant_id": 778,
+    "sku": "014227",
+    "label": "Turkey 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Turkey; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (Հնդկահավ)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico հնդկահավ  400գ",
+    "ean": "8009470014229",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4832",
+      "file": "monge-dog-solo-turkey-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4832.jpg",
+      "md5": "9cecce71feaa72b684f920009f77099b"
+     },
+     {
+      "pos": 1,
+      "media": "4835",
+      "file": "monge-dog-solo-turkey-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4835.jpg",
+      "md5": "1d19974385452dad6f16ed82ceb070f3"
+     },
+     {
+      "pos": 2,
+      "media": "4838",
+      "file": "monge-dog-solo-turkey-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4838.jpg",
+      "md5": "8d2b40eede052eb3eb4190228ec0b5d1"
+     },
+     {
+      "pos": 3,
+      "media": "4841",
+      "file": "monge-dog-solo-turkey-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4841.jpg",
+      "md5": "d8145f0915930aad9609db67fe04bf58"
+     }
+    ]
+   },
+   {
+    "variant_id": 779,
+    "sku": "014237",
+    "label": "Lamb 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Lamb; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (Գառ)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico` գառ, 400գ",
+    "ean": "8009470014236",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4844",
+      "file": "monge-dog-solo-lamb-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4844.jpg",
+      "md5": "6b8bf419842204df6792a44499c9ce98"
+     },
+     {
+      "pos": 1,
+      "media": "4847",
+      "file": "monge-dog-solo-lamb-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4847.jpg",
+      "md5": "a65c74ada04c45a34408ca4a4b017404"
+     },
+     {
+      "pos": 2,
+      "media": "4850",
+      "file": "monge-dog-solo-lamb-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4850.jpg",
+      "md5": "24eec715d5f474dca4396fa66a251bd8"
+     },
+     {
+      "pos": 3,
+      "media": "4853",
+      "file": "monge-dog-solo-lamb-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4853.jpg",
+      "md5": "0513ea3d09b818b48b85d4d7c62dea81"
+     }
+    ]
+   },
+   {
+    "variant_id": 780,
+    "sku": "014247",
+    "label": "Tuna 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Tuna; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների պահածո Monge Monoprotein  (Թյունոս)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico, ձուկ 400գ ",
+    "ean": "8009470014243",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4856",
+      "file": "monge-dog-solo-tuna-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4856.jpg",
+      "md5": "026d797a922b7b13fc52d98aaa6cc0a2"
+     },
+     {
+      "pos": 1,
+      "media": "4859",
+      "file": "monge-dog-solo-tuna-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4859.jpg",
+      "md5": "b04c1eaf47b92e046580fecfcc06f248"
+     },
+     {
+      "pos": 2,
+      "media": "4862",
+      "file": "monge-dog-solo-tuna-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4862.jpg",
+      "md5": "1f7539fd966e36ab144bfe04ee983124"
+     },
+     {
+      "pos": 3,
+      "media": "4865",
+      "file": "monge-dog-solo-tuna-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4865.jpg",
+      "md5": "fa1d6115e2f2a29b16526718f893b1ab"
+     }
+    ]
+   },
+   {
+    "variant_id": 781,
+    "sku": "014437",
+    "label": "Duck 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (բադ)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico բադ 400գ",
+    "ean": "8009470014434",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4868",
+      "file": "monge-dog-solo-duck-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4868.jpg",
+      "md5": "6aff85a9fe4262863cdb4507aef3cabd"
+     },
+     {
+      "pos": 1,
+      "media": "4871",
+      "file": "monge-dog-solo-duck-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4871.jpg",
+      "md5": "496077ac1f82c64556d446faf12601f6"
+     },
+     {
+      "pos": 2,
+      "media": "4874",
+      "file": "monge-dog-solo-duck-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4874.jpg",
+      "md5": "f3be9921c1dbd5a536eb04925902a16f"
+     },
+     {
+      "pos": 3,
+      "media": "4877",
+      "file": "monge-dog-solo-duck-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4877.jpg",
+      "md5": "067133ec81f7bdfe1a5a6db7642e687b"
+     }
+    ]
+   },
+   {
+    "variant_id": 782,
+    "sku": "014137",
+    "label": "Chicken 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Monoproteico հավով պաշտետ (150 գ)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, հավ 150գ",
+    "ean": "8009470014137",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4880",
+      "file": "monge-dog-solo-chicken-150g.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4880.jpg",
+      "md5": "dd6ec20016ea90a66131e2db29da672c"
+     },
+     {
+      "pos": 1,
+      "media": "7273",
+      "file": "SOLO-POLLO-VERTICALE_8009470014137",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7273.jpg",
+      "md5": "91d7a88527504c36ddb11abe945ba8be"
+     },
+     {
+      "pos": 2,
+      "media": "4883",
+      "file": "monge-dog-solo-chicken-150g.jpg-5",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4883.jpg",
+      "md5": "07a8c924b09413aa2dc93260737a6af9"
+     },
+     {
+      "pos": 3,
+      "media": "4886",
+      "file": "monge-dog-solo-chicken-150g.jpg-6",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4886.jpg",
+      "md5": "882ce8f1d8f67bf8fb4be91f1fcdde49"
+     },
+     {
+      "pos": 4,
+      "media": "4889",
+      "file": "monge-dog-solo-chicken-150g.jpg-7",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4889.jpg",
+      "md5": "6a95487f9c0561435df2de1627e8a268"
+     }
+    ]
+   },
+   {
+    "variant_id": 783,
+    "sku": "014147",
+    "label": "Turkey 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Turkey; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  հնդկահավի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, հնդկահավ 150գ",
+    "ean": "8009470014144",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4892",
+      "file": "monge-dog-solo-turkey-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4892.jpg",
+      "md5": "0734625349c1135525313b2df14b1b9b"
+     },
+     {
+      "pos": 1,
+      "media": "7276",
+      "file": "SOLO-TACCHINO-VERTICALE_8009470014144",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7276.jpg",
+      "md5": "9396b95af582cdf4a5610e142547d521"
+     },
+     {
+      "pos": 2,
+      "media": "4895",
+      "file": "monge-dog-solo-turkey-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4895.jpg",
+      "md5": "595e3161b3fc87a4e1a1fb9ace58c9e7"
+     },
+     {
+      "pos": 3,
+      "media": "4898",
+      "file": "monge-dog-solo-turkey-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4898.jpg",
+      "md5": "8d2b40eede052eb3eb4190228ec0b5d1"
+     },
+     {
+      "pos": 4,
+      "media": "4901",
+      "file": "monge-dog-solo-turkey-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4901.jpg",
+      "md5": "d8145f0915930aad9609db67fe04bf58"
+     }
+    ]
+   },
+   {
+    "variant_id": 784,
+    "sku": "014177",
+    "label": "Venison 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Venison; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  եղնիկի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, եղնիկ 150գ",
+    "ean": "8009470014175",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4904",
+      "file": "monge-dog-solo-deer-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4904.jpg",
+      "md5": "52ec2f872e2cd5f62c9c45a04ee7b0d4"
+     },
+     {
+      "pos": 1,
+      "media": "7279",
+      "file": "SOLO-CERVO-VERTICALE_8009470014175",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7279.jpg",
+      "md5": "fbcd131f073e66bce1e05dd8c0f2f11f"
+     },
+     {
+      "pos": 2,
+      "media": "4907",
+      "file": "monge-dog-solo-deer-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4907.jpg",
+      "md5": "5c8b319ce85981ce510c63628de64bc1"
+     },
+     {
+      "pos": 3,
+      "media": "4910",
+      "file": "monge-dog-solo-deer-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4910.jpg",
+      "md5": "d6eb7cf79bedcbc2cae59aeb746bd9f6"
+     },
+     {
+      "pos": 4,
+      "media": "4913",
+      "file": "monge-dog-solo-deer-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4913.jpg",
+      "md5": "c0d7c119f438f5dcd71c9487e73ada07"
+     }
+    ]
+   },
+   {
+    "variant_id": 785,
+    "sku": "014187",
+    "label": "Duck 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  բադի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, բադ 150գ",
+    "ean": "8009470014182",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4916",
+      "file": "monge-dog-solo-duck-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4916.jpg",
+      "md5": "4b2f939a8ad2447283477fa54159fc7b"
+     },
+     {
+      "pos": 1,
+      "media": "7282",
+      "file": "SOLO-ANATRA-VERTICALE_8009470014182",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7282.jpg",
+      "md5": "44512e9949138f8e95e5a227882464d3"
+     },
+     {
+      "pos": 2,
+      "media": "4919",
+      "file": "monge-dog-solo-duck-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4919.jpg",
+      "md5": "83f013bc36826c36c0a420d5b738dfa0"
+     },
+     {
+      "pos": 3,
+      "media": "4922",
+      "file": "monge-dog-solo-duck-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4922.jpg",
+      "md5": "f3be9921c1dbd5a536eb04925902a16f"
+     },
+     {
+      "pos": 4,
+      "media": "4925",
+      "file": "monge-dog-solo-duck-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4925.jpg",
+      "md5": "067133ec81f7bdfe1a5a6db7642e687b"
+     }
+    ]
+   },
+   {
+    "variant_id": 786,
+    "sku": "014407",
+    "label": "Beef 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Beef; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  հորթի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, հորթ 150գ",
+    "ean": "8009470014403",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4928",
+      "file": "monge-dog-solo-beef-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4928.jpg",
+      "md5": "7bb3e3ad6d6938a23bbc8aa2f6278abb"
+     },
+     {
+      "pos": 1,
+      "media": "7285",
+      "file": "SOLO-MANZO-VERTICALE_8009470014403",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7285.jpg",
+      "md5": "b23bf735a3d635776bcdfde3d3a3cf37"
+     },
+     {
+      "pos": 2,
+      "media": "4931",
+      "file": "monge-dog-solo-beef-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4931.jpg",
+      "md5": "214a92648b5fa7960764dc50e437fef6"
+     },
+     {
+      "pos": 3,
+      "media": "4934",
+      "file": "monge-dog-solo-beef-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4934.jpg",
+      "md5": "c3fb660a1f93204f831df27aa966f7e4"
+     },
+     {
+      "pos": 4,
+      "media": "4937",
+      "file": "monge-dog-solo-beef-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4937.jpg",
+      "md5": "b4dcb11ad726662cf84a9c7b2b4ab78c"
+     }
+    ]
+   },
+   {
+    "variant_id": 787,
+    "sku": "014417",
+    "label": "Pork 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Pork; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  խոզի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, խոզ 150գ",
+    "ean": "8009470014410",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4940",
+      "file": "monge-dog-solo-pork-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4940.jpg",
+      "md5": "b93771e98ddc02eb0c764099e3feba90"
+     },
+     {
+      "pos": 1,
+      "media": "7288",
+      "file": "SOLO-MAIALE-VERTICALE_8009470014410",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7288.jpg",
+      "md5": "f34920aea8efcb91aeecb30c4718b02d"
+     },
+     {
+      "pos": 2,
+      "media": "4943",
+      "file": "monge-dog-solo-pork-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4943.jpg",
+      "md5": "34d9997c397f043740d6efa4cf860d41"
+     },
+     {
+      "pos": 3,
+      "media": "4946",
+      "file": "monge-dog-solo-pork-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4946.jpg",
+      "md5": "54a81cd327a094d3c0d56aaa4798611b"
+     },
+     {
+      "pos": 4,
+      "media": "4949",
+      "file": "monge-dog-solo-pork-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4949.jpg",
+      "md5": "82b3b0749b2aa6019954e66c87f12e92"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "654",
+  "product": "Fresh Puppy Veal with Vegetables",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 788,
+    "sku": "014447",
+    "label": "Veal with Vegetables 400 g",
+    "size_label": "400 g",
+    "options": "Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների ձագերի  համար Monge FRESH",
+    "hafo_variant_hy": "Պահածո շն. ձագերի  համար Monge FRESH հորթ/բանջարեղեն 400գ",
+    "ean": "8009470014441",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4952",
+      "file": "monge-fresh-puppy-veal-with-vegetables-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4952.jpg",
+      "md5": "b9e0dcba34b193dc83a85364803f141a"
+     },
+     {
+      "pos": 1,
+      "media": "7291",
+      "file": "Vitello-Junior_8009470014441",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7291.jpg",
+      "md5": "be646325bf96c9ba831f54f283ac282f"
+     },
+     {
+      "pos": 2,
+      "media": "4955",
+      "file": "monge-fresh-puppy-veal-with-vegetables-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4955.jpg",
+      "md5": "f3c6fb0d4a074e3959f53c69a9ad1e7e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "655",
+  "product": "Fresh Adult Dog",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 789,
+    "sku": "014467",
+    "label": "Pork 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Pork; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH խոզ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH խոզ 400գ",
+    "ean": "8009470014465",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4958",
+      "file": "monge-fresh-adult-pork-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4958.jpg",
+      "md5": "f73fb5fd7e7b29bea221166eb887fd2d"
+     },
+     {
+      "pos": 1,
+      "media": "7294",
+      "file": "Maiale_8009470014465",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7294.jpg",
+      "md5": "419ce469b92ee336594b4fb51f0c5246"
+     },
+     {
+      "pos": 2,
+      "media": "4961",
+      "file": "monge-fresh-adult-pork-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4961.jpg",
+      "md5": "f404408b023e087a58f7e943ae04c3e5"
+     }
+    ]
+   },
+   {
+    "variant_id": 790,
+    "sku": "014477",
+    "label": "Chicken 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH հավ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH հավ 400գ",
+    "ean": "8009470014472",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4964",
+      "file": "monge-fresh-adult-chicken-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4964.jpg",
+      "md5": "64b61435363b3cccc566619bc04db375"
+     },
+     {
+      "pos": 1,
+      "media": "7297",
+      "file": "Pollo_8009470014472",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7297.jpg",
+      "md5": "b29d545648f23ac384344b949edf55a9"
+     },
+     {
+      "pos": 2,
+      "media": "4967",
+      "file": "monge-fresh-adult-chicken-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4967.jpg",
+      "md5": "22664f698430b3289f3dcb5326cf7134"
+     }
+    ]
+   },
+   {
+    "variant_id": 791,
+    "sku": "014567",
+    "label": "Duck 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH բադ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH բադ 400գ",
+    "ean": "8009470014564",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4970",
+      "file": "monge-fresh-adult-duck-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4970.jpg",
+      "md5": "1610e89c3e4528d2f424b26c22918bc6"
+     },
+     {
+      "pos": 1,
+      "media": "7300",
+      "file": "Anatra_8009470014564",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7300.jpg",
+      "md5": "8a07f1ce12d6846eab6de6e9142a42a7"
+     },
+     {
+      "pos": 2,
+      "media": "4973",
+      "file": "monge-fresh-adult-duck-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4973.jpg",
+      "md5": "26a7fd9be0dffa81d65260c0c83681da"
+     }
+    ]
+   },
+   {
+    "variant_id": 792,
+    "sku": "014577",
+    "label": "Lamb 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Lamb; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH գառ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH գառ 400գ",
+    "ean": "8009470014571",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4976",
+      "file": "monge-fresh-adult-lamb-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4976.jpg",
+      "md5": "a373e1885bb9aa3d8b3849991bc2f277"
+     },
+     {
+      "pos": 1,
+      "media": "7303",
+      "file": "Agnello_8009470014571",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7303.jpg",
+      "md5": "e8c35a349fc0140083275736cf212b26"
+     },
+     {
+      "pos": 2,
+      "media": "4979",
+      "file": "monge-fresh-adult-lamb-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4979.jpg",
+      "md5": "b83d29e9d37031f5e2ebb95a51a9203e"
+     }
+    ]
+   },
+   {
+    "variant_id": 1262,
+    "sku": "014457",
+    "label": "Veal 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Veal; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH հորթ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH հորթ 400գ",
+    "ean": "8009470014458",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4982",
+      "file": "monge-fresh-adult-with-veal-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4982.jpg",
+      "md5": "ae53f25c6e0a0b7695545cb5b7f6ff25"
+     },
+     {
+      "pos": 1,
+      "media": "7306",
+      "file": "Vitello_8009470014458",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7306.jpg",
+      "md5": "680d1e1b935f7fb301e9db38b87f8d2c"
+     },
+     {
+      "pos": 2,
+      "media": "4985",
+      "file": "monge-fresh-adult-with-veal-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4985.jpg",
+      "md5": "659c47eac3937bd7fc88c2a96ff05b6c"
+     }
+    ]
+   },
+   {
+    "variant_id": 1263,
+    "sku": "014497",
+    "label": "Trout 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Trout; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շն. համար Monge FRESH իշխան  400գ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH իշխան  400գ",
+    "ean": "8009470014496",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4988",
+      "file": "monge-fresh-adult-trout-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4988.jpg",
+      "md5": "4415502d675b4a46f5d3b808b05a3f5a"
+     },
+     {
+      "pos": 1,
+      "media": "7309",
+      "file": "Trota_8009470014496",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7309.jpg",
+      "md5": "cf18cfa4d4821163f216bfeeea8260e8"
+     }
+    ]
+   }
+  ]
+ }
+]

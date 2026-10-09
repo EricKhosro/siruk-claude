@@ -1,0 +1,26 @@
+[2026-10-07 13:03:14] ERROR: Error executing page_action: Page.evaluate: TypeError: Cannot read properties of null (reading 'innerText')
+    at eval (eval at evaluate (:337:30), <anonymous>:19:45)
+    at UtilityScript.evaluate (<anonymous>:343:50)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[2026-10-07 13:03:14] INFO: Fetched (200) <GET https://petreon.lt/ru/sukhoj-korm/656616-monge-best-for-breeders-dog-maxi-puppy-junior-2816-15--8009470006026.html> (referer: https://www.google.com/)
+MG006027~p/page: 0 results
+[2026-10-07 13:03:26] INFO: Fetched (200) <GET https://petreon.lt/ru/sukhoj-korm/656620-monge-best-for-breeders-dog-natural-superpremium-mini-puppy-15--8009470005944.html> (referer: https://www.google.com/)
+005947~p/page: 1 results
+[2026-10-07 13:03:36] INFO: Fetched (200) <GET https://petreon.lt/en/dry-food/661020-monge-bfb-dry-dog-mini-salmon-2714-dry-food-for-small-breed-dogs-15-kg-8009470006071.html> (referer: https://www.google.com/)
+MG006077~p/page: 1 results
+[2026-10-07 13:03:47] INFO: Fetched (301) <GET https://petreon.lt/en/sausas-maistas/656186--complete-dry-food-for-cats-11-kg-4820083902130.html> (referer: https://www.google.com/)
+[2026-10-07 13:03:47] INFO: Fetched (200) <GET https://petreon.lt/en/dry-food/656186--complete-dry-food-for-cats-11-kg-4820083902130.html> (referer: https://www.google.com/)
+902135~p/page: 1 results
+[2026-10-07 13:03:57] INFO: Fetched (200) <GET https://www.pandashop.md/ro/product/kittens-11kg-00266074/> (referer: https://www.google.com/)
+902135~p2/page: 1 results
+[2026-10-07 13:04:08] INFO: Fetched (200) <GET https://www.trixie.es/TR-200722> (referer: https://www.google.com/)
+200722~p/page: 1 results
+[2026-10-07 13:04:16] INFO: Fetched (403) <GET https://epicentrk.ua/shop/mplc-povidec-perestibka-trixie-premium-dvosarovij-dla-sobak-xs-200-sm-koralovo-cervonij-tx-200722-1f094810-a813-63b6-a17d-b12c8a1febd8> (referer: https://www.google.com/)
+200722~p2/page: 0 results ERROR blocked
+[2026-10-07 13:04:29] INFO: Fetched (200) <GET https://zoocomplex.com.ua/trixie-eg-tx-200722/> (referer: https://www.google.com/)
+200722~p3/page: 1 results
+[2026-10-07 13:04:40] INFO: Fetched (404) <GET https://zooone.com.ua/ru/povidec-perestibka-premium-xs-s-dvosharovijj-dlja-sobak-trixie-koralovo-chervonijj> (referer: https://www.google.com/)
+200722~p4/page: 1 results
+[2026-10-07 13:04:52] INFO: Fetched (200) <GET https://www.zoogarden.eu/Trasportini-e-accessori-auto-cane/3188-tx13238-dog-telo-prot-bagagliaio-poliestere-18x13m-beige-4011905132389.html> (referer: https://www.google.com/)
+13238~p/page: 1 results
+wrote runs/2026-10-06-image-audit/lens2-pages-results.json

@@ -1,0 +1,262 @@
+[
+ {
+  "product_id": "654",
+  "product": "Fresh Puppy Veal with Vegetables",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 788,
+    "sku": "014447",
+    "label": "Veal with Vegetables 400 g",
+    "size_label": "400 g",
+    "options": "Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների ձագերի  համար Monge FRESH",
+    "hafo_variant_hy": "Պահածո շն. ձագերի  համար Monge FRESH հորթ/բանջարեղեն 400գ",
+    "ean": "8009470014441",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4952",
+      "file": "monge-fresh-puppy-veal-with-vegetables-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4952.jpg",
+      "md5": "b9e0dcba34b193dc83a85364803f141a"
+     },
+     {
+      "pos": 1,
+      "media": "7291",
+      "file": "Vitello-Junior_8009470014441",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7291.jpg",
+      "md5": "be646325bf96c9ba831f54f283ac282f"
+     },
+     {
+      "pos": 2,
+      "media": "4955",
+      "file": "monge-fresh-puppy-veal-with-vegetables-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4955.jpg",
+      "md5": "f3c6fb0d4a074e3959f53c69a9ad1e7e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "655",
+  "product": "Fresh Adult Dog",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 789,
+    "sku": "014467",
+    "label": "Pork 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Pork; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH խոզ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH խոզ 400գ",
+    "ean": "8009470014465",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4958",
+      "file": "monge-fresh-adult-pork-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4958.jpg",
+      "md5": "f73fb5fd7e7b29bea221166eb887fd2d"
+     },
+     {
+      "pos": 1,
+      "media": "7294",
+      "file": "Maiale_8009470014465",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7294.jpg",
+      "md5": "419ce469b92ee336594b4fb51f0c5246"
+     },
+     {
+      "pos": 2,
+      "media": "4961",
+      "file": "monge-fresh-adult-pork-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4961.jpg",
+      "md5": "f404408b023e087a58f7e943ae04c3e5"
+     }
+    ]
+   },
+   {
+    "variant_id": 790,
+    "sku": "014477",
+    "label": "Chicken 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH հավ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH հավ 400գ",
+    "ean": "8009470014472",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4964",
+      "file": "monge-fresh-adult-chicken-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4964.jpg",
+      "md5": "64b61435363b3cccc566619bc04db375"
+     },
+     {
+      "pos": 1,
+      "media": "7297",
+      "file": "Pollo_8009470014472",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7297.jpg",
+      "md5": "b29d545648f23ac384344b949edf55a9"
+     },
+     {
+      "pos": 2,
+      "media": "4967",
+      "file": "monge-fresh-adult-chicken-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4967.jpg",
+      "md5": "22664f698430b3289f3dcb5326cf7134"
+     }
+    ]
+   },
+   {
+    "variant_id": 791,
+    "sku": "014567",
+    "label": "Duck 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH բադ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH բադ 400գ",
+    "ean": "8009470014564",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4970",
+      "file": "monge-fresh-adult-duck-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4970.jpg",
+      "md5": "1610e89c3e4528d2f424b26c22918bc6"
+     },
+     {
+      "pos": 1,
+      "media": "7300",
+      "file": "Anatra_8009470014564",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7300.jpg",
+      "md5": "8a07f1ce12d6846eab6de6e9142a42a7"
+     },
+     {
+      "pos": 2,
+      "media": "4973",
+      "file": "monge-fresh-adult-duck-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4973.jpg",
+      "md5": "26a7fd9be0dffa81d65260c0c83681da"
+     }
+    ]
+   },
+   {
+    "variant_id": 792,
+    "sku": "014577",
+    "label": "Lamb 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Lamb; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH գառ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH գառ 400գ",
+    "ean": "8009470014571",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4976",
+      "file": "monge-fresh-adult-lamb-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4976.jpg",
+      "md5": "a373e1885bb9aa3d8b3849991bc2f277"
+     },
+     {
+      "pos": 1,
+      "media": "7303",
+      "file": "Agnello_8009470014571",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7303.jpg",
+      "md5": "e8c35a349fc0140083275736cf212b26"
+     },
+     {
+      "pos": 2,
+      "media": "4979",
+      "file": "monge-fresh-adult-lamb-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4979.jpg",
+      "md5": "b83d29e9d37031f5e2ebb95a51a9203e"
+     }
+    ]
+   },
+   {
+    "variant_id": 1262,
+    "sku": "014457",
+    "label": "Veal 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Veal; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շների համար Monge FRESH հորթ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH հորթ 400գ",
+    "ean": "8009470014458",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4982",
+      "file": "monge-fresh-adult-with-veal-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4982.jpg",
+      "md5": "ae53f25c6e0a0b7695545cb5b7f6ff25"
+     },
+     {
+      "pos": 1,
+      "media": "7306",
+      "file": "Vitello_8009470014458",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7306.jpg",
+      "md5": "680d1e1b935f7fb301e9db38b87f8d2c"
+     },
+     {
+      "pos": 2,
+      "media": "4985",
+      "file": "monge-fresh-adult-with-veal-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4985.jpg",
+      "md5": "659c47eac3937bd7fc88c2a96ff05b6c"
+     }
+    ]
+   },
+   {
+    "variant_id": 1263,
+    "sku": "014497",
+    "label": "Trout 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Trout; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Պահածո շն. համար Monge FRESH իշխան  400գ",
+    "hafo_variant_hy": "Պահածո շն. համար Monge FRESH իշխան  400գ",
+    "ean": "8009470014496",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4988",
+      "file": "monge-fresh-adult-trout-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4988.jpg",
+      "md5": "4415502d675b4a46f5d3b808b05a3f5a"
+     },
+     {
+      "pos": 1,
+      "media": "7309",
+      "file": "Trota_8009470014496",
+      "dims": "672x672",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7309.jpg",
+      "md5": "cf18cfa4d4821163f216bfeeea8260e8"
+     }
+    ]
+   }
+  ]
+ }
+]

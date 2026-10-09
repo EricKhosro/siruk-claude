@@ -1,0 +1,722 @@
+{
+ "641": {
+  "011477": {
+   "gallery": [],
+   "need": "Monge Speciality Line Extra Small Adult Lamb with Rice & Potatoes dry dog food, 800 g bag front with 800 g printed",
+   "question": null,
+   "why": "dropped 1761 (Monge Speciality Extra Small Adult Lamb bag printing 2,5 kg on the 800 g variant); no other image",
+   "hold": "excluded by user 2026-10-07 (preview review)"
+  }
+ },
+ "659": {
+  "041587": {
+   "gallery": [
+    9581,
+    9584,
+    9587
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9581 Gran Bonta Pollo e Tacchino can, 400g printed"
+  },
+  "041537": {
+   "gallery": [
+    10078
+   ],
+   "need": "Gran Bonta Carne / chunks with meat 400 g can, front with 400 g visible (current design if the stock is the new 'Bocconi con Manzo' label)",
+   "question": null,
+   "why": "kept 10078 (Gran Bonta Carne can, old design, recipe matches) but no weight printed and the product sells Meat in 400 g and 1230 g cans of different size, so the size is not confirmed"
+  },
+  "041567": {
+   "gallery": [
+    7315
+   ],
+   "need": null,
+   "question": "Variant is 'Meat' (hafo: meaty) but the only photo is the new-design 'Bocconi con Manzo / Chunks with Beef' can. Is the 1230 g article stocked the beef recipe (i.e. Carne renamed Manzo)? If not, a Carne 1230 g photo is needed.",
+   "why": "unchanged; lead 7315 Gran Bonta new design Bocconi con Manzo can, '12..' (1230 g) digits visible at the edge"
+  },
+  "041577": {
+   "gallery": [
+    7318
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 7318 Gran Bonta new design Pollo e Tacchino can, '12..' digits visible"
+  }
+ },
+ "663": {
+  "041787": {
+   "gallery": [
+    10096
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10096 Gran Bonta Delizie dello Chef Carne, Uova e Formaggio can. Accepted: this recipe is sold in one size only (415 g) in this product, nothing contradicts"
+  },
+  "041887": {
+   "gallery": [
+    7540
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 7540 Gran Bonta Delizie dello Chef Bocconi con Manzo can (low-res). Accepted: beef is sold in one size only (1230 g) in this product, nothing contradicts"
+  }
+ },
+ "665": {
+  "060347": {
+   "gallery": [],
+   "need": "Special Dog Excellence Medium Adult Bocconi con Agnello (lamb) can, front with 1275 g printed",
+   "question": "The brand packshot prints 1250 g; hafo says 1.275 kg. If the cans actually stocked print 1250 g, fix the variant size and restore 4997 instead of shooting a new photo.",
+   "why": "dropped 4997 (Special Dog Excellence Medium Adult lamb can printing 1250g; variant is 1275 g)"
+  }
+ },
+ "666": {
+  "060357": {
+   "gallery": [],
+   "need": "Special Dog Excellence Maxi Adult Bocconi con Manzo (beef) can, front with 1275 g printed",
+   "question": "The brand packshot prints 1250 g; hafo says 1.275 kg. If the cans actually stocked print 1250 g, fix the variant size and restore 5000 instead of shooting a new photo.",
+   "why": "dropped 5000 (Special Dog Excellence Maxi Adult beef can printing 1250g; variant is 1275 g)"
+  }
+ },
+ "725": {
+  "19449AQ": {
+   "gallery": [
+    5384,
+    5381
+   ],
+   "need": null,
+   "question": null,
+   "why": "reordered: lead 5384 green Comfy Mint dental bone on its header card; 5381 (card back, label 'MINT DENTAL BONE green 16.5cm Art.No 113554') kept as secondary"
+  }
+ },
+ "731": {
+  "03174IVS": {
+   "gallery": [
+    13951
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 5417 (group of three sizes); lead 13951 Iv San Bernard Green Apple long-coat shampoo bottle (single size in product)"
+  }
+ },
+ "732": {
+  "03177IVS": {
+   "gallery": [
+    13954
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 5420 (group of three sizes); lead 13954 Iv San Bernard Lemon short-coat conditioner bottle"
+  }
+ },
+ "733": {
+  "03183IVS": {
+   "gallery": [
+    13957
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 5423 (group of three sizes); lead 13957 Iv San Bernard Green Apple long-coat conditioner bottle"
+  }
+ },
+ "734": {
+  "03681IVS": {
+   "gallery": [
+    13960
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 5426 (group with 5 l and 1 l sizes); lead 13960 Protective Shield shampoo bottle, red cap"
+  }
+ },
+ "735": {
+  "03684IVS": {
+   "gallery": [
+    13963
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 5429 (group with 5 l and 1 l sizes); lead 13963 Protective Conditioner bottle, purple cap"
+  }
+ },
+ "737": {
+  "15247": {
+   "gallery": [
+    5435
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 5435 Beaphar Lactol Puppy milk +DHA tub. Accepted: product has one size only (250 g), weight cut off but nothing on the pack contradicts it (file art. 15185 is a supplier-side code, not a printed size)"
+  }
+ },
+ "738": {
+  "15248": {
+   "gallery": [
+    5438
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 5438 Beaphar Lactol Kitten milk +DHA tub. Accepted: product has one size only (250 g), nothing printed contradicts it"
+  }
+ },
+ "799": {
+  "41890": {
+   "gallery": [
+    7975,
+    7978,
+    7981
+   ],
+   "need": null,
+   "question": "Variant has no colour but photos show aqua and black versions. Which colour(s) are stocked? If only one, drop the other colour's photo (and lifestyle 7981 if black).",
+   "why": "dropped 7972 (two bungee leads only, harness not shown); lead 7975 aqua mesh Y-harness with lead; 7978 black version, 7981 lifestyle kept"
+  }
+ },
+ "800": {
+  "17321": {
+   "gallery": [
+    9569
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9569 BE NORDIC bandana, dark blue with anchor"
+  },
+  "17333": {
+   "gallery": [
+    9536
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9536 BE NORDIC bandana, dark grey compass. Accepted: same-colour clothing looks identical across sizes"
+  },
+  "17335": {
+   "gallery": [
+    9539
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9539 BE NORDIC bandana, dark grey compass. Accepted: same-colour clothing looks identical across sizes"
+  }
+ },
+ "804": {
+  "200728": {
+   "gallery": [
+    7984
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 7984 Trixie Premium double lead, aqua"
+  },
+  "200717": {
+   "gallery": [
+    14833
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 14833 Trixie Premium lead, apple green"
+  },
+  "200722": {
+   "gallery": [],
+   "need": "Trixie Premium adjustable double-layered lead XS-S 2.00 m/15 mm, coral (art. 200722), clean product shot",
+   "question": null,
+   "why": "dropped 7984 (aqua lead on the coral variant)"
+  },
+  "200713": {
+   "gallery": [
+    10857
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10857 Trixie Premium lead, indigo"
+  },
+  "200725": {
+   "gallery": [
+    14152
+   ],
+   "need": null,
+   "question": "Purple (200725) and light lilac (200720) look swapped: the 200720 file shows a berry/purple lead, the photo on 200725 (file 201025) shows light lilac. Confirm which article number is which colour on the stocked leads; galleries have been swapped to match the labels.",
+   "why": "dropped 14836 (light lilac lead on the purple variant); moved in 14152 (berry/purple Trixie Premium lead, currently on the light-lilac sibling 200720) as it matches the 'purple' label",
+   "hold": "label/photo swap question"
+  },
+  "200720": {
+   "gallery": [
+    14836
+   ],
+   "need": null,
+   "question": "See 200725: possible purple/light-lilac label swap; 14836 is file 201025 (a different article number) and low-res. Confirm the stocked 200720 colour; a clean light-lilac 200720 shot would be better.",
+   "why": "dropped 14152 (berry/purple lead on the light-lilac variant); moved in 14836 (light-lilac Trixie Premium lead, from purple sibling 200725) as it matches the label",
+   "hold": "label/photo swap question"
+  }
+ },
+ "805": {
+  "201301": {
+   "gallery": [
+    10006
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10006 Trixie Premium lead, black"
+  },
+  "201303": {
+   "gallery": [
+    7987
+   ],
+   "need": "Trixie Premium adjustable lead XS 2.00 m/10 mm, red (art. 201303), clean product shot",
+   "question": null,
+   "why": "kept 7987 (lifestyle, red lead worn by woman with dog; colour matches) but no clean product shot exists"
+  },
+  "201311": {
+   "gallery": [
+    7990
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 7990 Trixie Premium lead, fuchsia"
+  },
+  "201316": {
+   "gallery": [
+    10009
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10009 Trixie Premium lead, graphite"
+  },
+  "201018": {
+   "gallery": [],
+   "need": "Trixie Premium adjustable lead XS 2.00 m/10 mm, papaya/orange (art. 201018), clean product shot",
+   "question": null,
+   "why": "dropped 10006 (black lead on the papaya variant)"
+  },
+  "201328": {
+   "gallery": [
+    10881
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10881 Trixie Premium lead, aqua"
+  },
+  "201329": {
+   "gallery": [
+    10890
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10890 Trixie Premium lead, curry"
+  },
+  "201332": {
+   "gallery": [
+    10893
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10893 Trixie Premium lead, petrol"
+  },
+  "201334": {
+   "gallery": [
+    10896
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10896 Trixie Premium lead, sage"
+  },
+  "201336": {
+   "gallery": [
+    10899
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10899 Trixie Premium lead, sand"
+  }
+ },
+ "812": {
+  "24575": {
+   "gallery": [
+    7999,
+    8002
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8005 (group with the larger 24576 mat); lead 7999 grey BE NORDIC mat"
+  }
+ },
+ "813": {
+  "2471": {
+   "gallery": [
+    8008,
+    8011,
+    8014,
+    8017
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 8008 plain plastic bowl, colours assorted"
+  },
+  "24950": {
+   "gallery": [
+    10818,
+    10821,
+    10824,
+    10827,
+    10830
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10818 handle bowl with rubber ring. Accepted: bowl looks identical across sizes, no size contradicted"
+  },
+  "24951": {
+   "gallery": [
+    10818,
+    10821,
+    10824,
+    10827,
+    10830
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10818 handle bowl with rubber ring. Accepted: bowl looks identical across sizes"
+  },
+  "24952": {
+   "gallery": [
+    10818,
+    10821,
+    10824,
+    10827,
+    10830
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10818 handle bowl with rubber ring. Accepted: bowl looks identical across sizes"
+  },
+  "24430": {
+   "gallery": [
+    10905,
+    10908,
+    10911,
+    10914
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10905 clover bowl, colours assorted"
+  }
+ },
+ "823": {
+  "25026": {
+   "gallery": [
+    8041,
+    8044,
+    8059
+   ],
+   "need": null,
+   "question": "Variant has no colour; photos show blue and grey versions. Confirm the stocked colour is blue (if grey, the grey images should replace the blue ones).",
+   "why": "dropped grey-colour images 8047, 8050, 8053, 8056, 8062, 8065; lead 8041 blue slow-feeder bowl. Accepted: bowl looks identical across sizes"
+  },
+  "25028": {
+   "gallery": [
+    8041,
+    8044,
+    8059
+   ],
+   "need": null,
+   "question": "Same as 25026: confirm the stocked colour is blue.",
+   "why": "dropped grey-colour images 8047, 8050, 8053, 8056, 8062, 8065; lead 8041 blue slow-feeder bowl. Accepted: bowl looks identical across sizes"
+  }
+ },
+ "825": {
+  "25032": {
+   "gallery": [],
+   "need": "Trixie slow-feeding plastic bowl 0.9 l / ø 23 cm (art. 25032) alone, in the stocked colour (grey or petrol), clean product shot",
+   "question": "Which colour is the stocked 25032 bowl, grey or petrol? Images exist in both colours.",
+   "why": "dropped 8074 (stack of three grey sizes), 8077 (stack of three petrol sizes), 8068 and 8071 (petrol lifestyle); no single-bowl shot left",
+   "hold": "excluded by user 2026-10-07 (preview review)"
+  }
+ },
+ "829": {
+  "25141": {
+   "gallery": [
+    9542
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9542 grey stainless bowl, 'without a cat' print"
+  },
+  "25142": {
+   "gallery": [
+    9575
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9575 grey bowl, 'without a dog' print. Accepted: bowl looks identical across sizes"
+  },
+  "25143": {
+   "gallery": [
+    9572
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9572 grey bowl, 'without a dog' print. Accepted: bowl looks identical across sizes"
+  },
+  "25144": {
+   "gallery": [
+    9578
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 9578 grey bowl, 'without a dog' print. Accepted: bowl looks identical across sizes"
+  }
+ },
+ "836": {
+  "25212": {
+   "gallery": [
+    8092
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8095 (different mountain/paw print) and 8098 (two sizes together); lead 8092 green 'ready for ADVENTURE' enamel bowl. Accepted: both sizes carry this print (8098) and look identical"
+  },
+  "25213": {
+   "gallery": [
+    8092
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8095 (different mountain/paw print) and 8098 (two sizes together); lead 8092 green 'ready for ADVENTURE' enamel bowl. Accepted: both sizes carry this print and look identical"
+  }
+ },
+ "839": {
+  "25243": {
+   "gallery": [
+    9512
+   ],
+   "need": null,
+   "question": "Variant has no colour; the line comes in petrol, light green and grey. Confirm the stocked colour is petrol.",
+   "why": "dropped 9515 (light green), 9518 (grey), 9521 (all three colourways); lead 9512 petrol 'HUNGRY' bowl. Accepted: bowl looks identical across sizes"
+  },
+  "25244": {
+   "gallery": [
+    9512
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 9515, 9518, 9521 (other colourways); lead 9512 petrol 'HUNGRY' bowl. Accepted: identical across sizes"
+  },
+  "25245": {
+   "gallery": [
+    9512
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 9515, 9518, 9521 (other colourways); lead 9512 petrol 'HUNGRY' bowl. Accepted: identical across sizes"
+  }
+ },
+ "842": {
+  "25247": {
+   "gallery": [
+    8104
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8107 (light green), 8110 and 8113 (petrol); lead 8104 grey 'WOOF' long-ear bowl"
+  }
+ },
+ "843": {
+  "25249": {
+   "gallery": [
+    9823,
+    9829,
+    9835,
+    9838
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 9826 and 9832 (light-blue version); lead 9823 grey slow-feeding stainless bowl"
+  }
+ },
+ "844": {
+  "25256": {
+   "gallery": [
+    8116
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 8116 wave paw stainless bowl. Accepted: bowl looks identical across sizes"
+  },
+  "25257": {
+   "gallery": [
+    8116
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 8116 wave paw stainless bowl. Accepted: bowl looks identical across sizes"
+  }
+ },
+ "848": {
+  "2278": {
+   "gallery": [
+    8131
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 8131 gold knurled address capsule"
+  },
+  "2280": {
+   "gallery": [
+    8134
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8137 and 8140 (chrome capsules of other shapes); lead 8134 chrome dumbbell capsule"
+  },
+  "4161": {
+   "gallery": [
+    10554,
+    10557
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 10554 purple anodised capsule"
+  }
+ },
+ "850": {
+  "24606": {
+   "gallery": [
+    8143,
+    8146,
+    8149
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8152 (group with the smaller 24605 bottle); lead 8143 Trixie 0.75 l bottle with blue cover"
+  }
+ },
+ "864": {
+  "19526": {
+   "gallery": [
+    8296,
+    8302,
+    8308
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 8296 black striped socks pair"
+  },
+  "19524": {
+   "gallery": [
+    8296,
+    8302,
+    8308
+   ],
+   "need": null,
+   "question": null,
+   "why": "replaced lifestyle-only lead: lead 8296 black striped socks pair (from sibling XL, same clothing in the same colour, accepted across sizes), 8302 lifestyle, 8308 size table covering L"
+  }
+ },
+ "871": {
+  "31846": {
+   "gallery": [
+    8281
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8284 (different non-PREMIO tube, no article/weight); lead 8281 Trixie PREMIO Liver Pate with hemp #31846 75 g"
+  }
+ },
+ "880": {
+  "23231": {
+   "gallery": [
+    8413,
+    8419
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8425 (range shot of 4 products) and 8431 (dark-handle roller of a different design); lead 8413 white-handle Trixie lint roller"
+  }
+ },
+ "882": {
+  "23237": {
+   "gallery": [
+    8472,
+    8478,
+    8484
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8425 (range shot of 4 products); lead 8472 Trixie upholstery brush"
+  }
+ },
+ "886": {
+  "2332": {
+   "gallery": [
+    8516,
+    8522,
+    8540
+   ],
+   "need": "Trixie dog poop bags, black, pack of 4 rolls × 20 bags (art. 2332), pack front",
+   "question": null,
+   "why": "kept the black roll shots (correct bags) but none shows the 4-roll pack sold"
+  }
+ },
+ "888": {
+  "2345": {
+   "gallery": [
+    9985,
+    9988,
+    9991,
+    9994,
+    9997,
+    10000,
+    10003
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 9982 (counter display carton of many bundles); lead 9985 Trixie Dog PickUp bundle, '10 Hundekotgreifer', Art.-Nr. 2345"
+  }
+ },
+ "891": {
+  "23496": {
+   "gallery": [
+    8720,
+    8738
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8714 (loose pads, size not shown); lead 8720 Trixie pads bag XS+S+S-M, 10 pcs, Art.-Nr. 23496"
+  },
+  "23497": {
+   "gallery": [
+    8750,
+    8765
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 8750 Trixie pads bag size M, 10 pcs, Art.-Nr. 23497"
+  }
+ },
+ "901": {
+  "13238": {
+   "gallery": [
+    9883,
+    9886
+   ],
+   "need": "Trixie car seat/boot cover 1.80 × 1.30 m, black/beige (art. 13238), pack front or the cover laid out alone",
+   "question": null,
+   "why": "kept 9883 (beige/black cover installed in a car boot) and 9886 (fitting diagram); no clean shot of the cover or its pack"
+  }
+ },
+ "904": {
+  "23410": {
+   "gallery": [
+    8852
+   ],
+   "need": null,
+   "question": null,
+   "why": "dropped 8849 (loose pad, size not shown); lead 8852 Trixie Nappy pads bag 7 × 30 × 50 cm #23410"
+  },
+  "23413": {
+   "gallery": [
+    8855
+   ],
+   "need": null,
+   "question": null,
+   "why": "unchanged; lead 8855 Trixie Nappy pads bag 8 × 60 × 90 cm #23413"
+  }
+ }
+}

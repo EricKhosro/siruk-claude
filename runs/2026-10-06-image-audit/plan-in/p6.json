@@ -1,0 +1,2875 @@
+[
+ {
+  "product_id": "1133",
+  "product": "Crunchy Pillows Healthy Teeth",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1616,
+    "sku": "548803",
+    "label": "Chicken with Vitamins 60 g",
+    "size_label": "60 g",
+    "options": "Flavor=Chicken; Health Feature=Dental & Breath Care",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11484,
+      "verdict": "ok",
+      "seen": "Mnyams Crunchy Pillows adult cat, s cyplenkom (chicken), Zdorovye zuby (healthy teeth), vitamins A/D3/E, 60 g front packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11484.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11487,
+      "verdict": "ok",
+      "seen": "Back of same pack: chicken 'Zdorovye zuby', net 60 g, EAN 4620202548801",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11487.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11490,
+      "verdict": "ok",
+      "seen": "Lifestyle: same chicken Healthy Teeth 60 g pack beside a cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11490.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11493,
+      "verdict": "ok",
+      "seen": "Benefits infographic for teeth line (plaque, minerals, taurine), cat and pillows, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11493.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11496,
+      "verdict": "ok",
+      "seen": "Infographic 'for dental health' with same Healthy Teeth pack and kibble",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11496.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11499,
+      "verdict": "ok",
+      "seen": "Brand lifestyle: girl with sphynx, generic Crunchy Pillows text, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11499.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11502,
+      "verdict": "ok",
+      "seen": "Lifestyle: woman with cat, same chicken Healthy Teeth 60 g pack on table",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11502.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11505,
+      "verdict": "wrong-flavour",
+      "seen": "Group 'other flavours' infographic: 6 other Crunchy Pillows packs (hairball, health&activity, skin&coat, health&beauty salmon, kitten, sterilised), not this variant's pack alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11505.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1134",
+  "product": "Crunchy Pillows Hairball Control",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1617,
+    "sku": "548773",
+    "label": "Chicken with Vitamin Complex 60 g",
+    "size_label": "60 g",
+    "options": "Flavor=Chicken; Health Feature=Hairball Control",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11508,
+      "verdict": "ok",
+      "seen": "Mnyams Crunchy Pillows adult cat, s cyplenkom (chicken), Vyvedenie shersti (hairball), plant fibres, A/D3/E, 60 g front packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11508.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11511,
+      "verdict": "ok",
+      "seen": "Back of same pack: chicken 'Vyvedenie shersti', net 60 g, EAN 4620202548771",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11511.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11514,
+      "verdict": "ok",
+      "seen": "Lifestyle: same chicken Hairball 60 g pack beside a cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11514.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11517,
+      "verdict": "ok",
+      "seen": "Benefits infographic hairball line (hairballs, fibre, taurine), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11517.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11520,
+      "verdict": "ok",
+      "seen": "Infographic 'for hair removal' with same Hairball pack and pillows",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11520.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11523,
+      "verdict": "ok",
+      "seen": "Brand lifestyle: girl with sphynx, generic Crunchy Pillows text, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11523.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11526,
+      "verdict": "ok",
+      "seen": "Lifestyle: woman with cat, same chicken Hairball 60 g pack on table",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11526.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11529,
+      "verdict": "ok",
+      "seen": "Feeding table (6/10/14 pcs per day for 2/4/6 kg cat), matches hairball back-label norm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11529.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 11532,
+      "verdict": "wrong-flavour",
+      "seen": "Group 'other flavours' infographic: 6 other Crunchy Pillows packs (skin&coat, health&activity, healthy teeth, health&beauty salmon, kitten, sterilised), not this variant's pack alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11532.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1135",
+  "product": "Crunchy Pillows Healthy Skin & Coat",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1618,
+    "sku": "548783",
+    "label": "Poultry with Zinc 60 g",
+    "size_label": "60 g",
+    "options": "Flavor=Poultry; Health Feature=Skin & Coat Health",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11535,
+      "verdict": "ok",
+      "seen": "Mnyams Crunchy Pillows adult cat, s pticey (poultry), Zdorovaya kozha i sherst, zinc/flax/salmon oil, 60 g front packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11535.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11538,
+      "verdict": "ok",
+      "seen": "Back of same pack: poultry 'Zdorovaya kozha i sherst', zinc, net 60 g, EAN 4620202548788",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11538.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11541,
+      "verdict": "ok",
+      "seen": "Lifestyle: same poultry Skin & Coat 60 g pack beside a cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11541.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11544,
+      "verdict": "ok",
+      "seen": "Benefits infographic skin&coat line (omega-3, zinc, taurine), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11544.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11547,
+      "verdict": "ok",
+      "seen": "Infographic 'for skin and coat' with same Skin & Coat pack and pillows",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11547.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11550,
+      "verdict": "ok",
+      "seen": "Brand lifestyle: girl with sphynx, generic Crunchy Pillows text, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11550.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11553,
+      "verdict": "ok",
+      "seen": "Lifestyle: woman with cat, same poultry Skin & Coat 60 g pack on table",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11553.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11556,
+      "verdict": "wrong-flavour",
+      "seen": "Group 'other flavours' infographic: 6 other Crunchy Pillows packs (hairball, health&activity, healthy teeth, health&beauty salmon, kitten, sterilised), not this variant's pack alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11556.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1136",
+  "product": "Crunchy Pillows for Sterilised Cats",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1619,
+    "sku": "548843",
+    "label": "Chicken & Cranberry with L-Carnitine 60 g",
+    "size_label": "60 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11559,
+      "verdict": "ok",
+      "seen": "Mnyams Crunchy Pillows for sterilised cats, s cyplenkom (chicken), L-carnitine + cranberry, Profilaktika MKB, 60 g front packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11559.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11562,
+      "verdict": "ok",
+      "seen": "Back of same pack: sterilised, chicken and cranberry, MKB, net 60 g, EAN 4620202548849",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11562.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11565,
+      "verdict": "ok",
+      "seen": "Lifestyle: same sterilised chicken MKB 60 g pack beside a cat",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11565.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11568,
+      "verdict": "ok",
+      "seen": "Benefits infographic sterilised line (cranberry, L-carnitine, taurine), no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11568.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11571,
+      "verdict": "ok",
+      "seen": "Infographic 'for sterilised cats' with same sterilised pack and pillows",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11571.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11574,
+      "verdict": "ok",
+      "seen": "Brand lifestyle: woman with grey cat, generic Crunchy Pillows text, no pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11574.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11577,
+      "verdict": "ok",
+      "seen": "Lifestyle: woman with cat, same sterilised chicken MKB 60 g pack on table",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11577.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11580,
+      "verdict": "wrong-flavour",
+      "seen": "Group 'other flavours' infographic: 6 other Crunchy Pillows packs (hairball, health&activity, skin&coat, healthy teeth, health&beauty salmon, kitten; this sterilised pack not shown), not this variant's pack alone",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11580.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1137",
+  "product": "Cream Treat Purée",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1620,
+    "sku": "703803",
+    "label": "Katsuo Tuna, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Tuna",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11583,
+      "verdict": "ok",
+      "seen": "Mnyams cream treat front, new design, \"Тунец Кацуо\", 4x15 g, clean packshot (cat is pack art)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11583.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11586,
+      "verdict": "ok",
+      "seen": "Back of new-design Tuna Katsuo pack, 4x15 g, EAN 4610011703805",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11586.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11589,
+      "verdict": "ok",
+      "seen": "Old vs new design comparison, both Tuna Katsuo 4x15 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11589.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11592,
+      "verdict": "ok",
+      "seen": "Old-design Tuna Katsuo cream treat pack front, 4x15 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11592.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11595,
+      "verdict": "ok",
+      "seen": "Back of old-design Tuna Katsuo pack, 4x15 g, EAN 4610011703805",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11595.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11598,
+      "verdict": "ok",
+      "seen": "Infographic: Tuna Katsuo cream treat, 4x15 g, new pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11598.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11601,
+      "verdict": "ok",
+      "seen": "Infographic: bowl of cream, \"Утонченный вкус тунца\"",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11601.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11604,
+      "verdict": "ok",
+      "seen": "Benefits infographic with Tuna Katsuo 4x15 g pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11604.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 11607,
+      "verdict": "wrong-size",
+      "seen": "Tuna Katsuo 4x15 g pouch in front of a shipping carton, \"48 штук в упаковке\" - shows a 48-pouch case, variant is one pouch",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11607.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1621,
+    "sku": "703813",
+    "label": "Katsuo & Maguro Tuna, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Seafood & Fish",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11610,
+      "verdict": "ok",
+      "seen": "Front, new design, \"Тунец Кацуо и Магуро\", 4x15 g, clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11610.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11613,
+      "verdict": "ok",
+      "seen": "Back of Katsuo & Maguro pack, 4x15 g, EAN 4610011703812",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11613.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11616,
+      "verdict": "ok",
+      "seen": "Old vs new design comparison, both Katsuo & Maguro 4x15 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11616.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11619,
+      "verdict": "ok",
+      "seen": "Old-design Katsuo & Maguro pack front, 4x15 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11619.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11622,
+      "verdict": "ok",
+      "seen": "Back of old-design Katsuo & Maguro pack, 4x15 g, EAN 4610011703812",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11622.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11625,
+      "verdict": "ok",
+      "seen": "Infographic: \"Тунец и Магуро\", 4x15 g, Katsuo & Maguro pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11625.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11628,
+      "verdict": "ok",
+      "seen": "Infographic: bowl of cream, \"вкус тунца и магуро\"",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11628.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11631,
+      "verdict": "ok",
+      "seen": "Benefits infographic with Katsuo & Maguro 4x15 g pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11631.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 11634,
+      "verdict": "ok",
+      "seen": "Feeding guide infographic, text only, no flavour shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11634.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 11637,
+      "verdict": "wrong-flavour",
+      "seen": "Range group shot of 6 flavours (chicken, tuna, tuna+shrimp, tuna+maguro, tuna+scallop, duck+tuna), 4x15 g - other flavours' packs",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11637.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1622,
+    "sku": "540693",
+    "label": "Katsuo Tuna & Shrimp, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Shrimp",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11640,
+      "verdict": "ok",
+      "seen": "Front, new design, \"Тунец Кацуо и креветки\", 4x15 g, clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11640.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11643,
+      "verdict": "ok",
+      "seen": "Back of Katsuo & Shrimp pack, 4x15 g, EAN 4620202540690",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11643.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11646,
+      "verdict": "ok",
+      "seen": "Infographic: \"Тунец и креветки\", 4x15 g, Katsuo & Shrimp pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11646.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11649,
+      "verdict": "ok",
+      "seen": "Infographic: bowl of cream, \"вкус тунца и креветок\"",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11649.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11652,
+      "verdict": "ok",
+      "seen": "Benefits infographic with Katsuo & Shrimp 4x15 g pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11652.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11655,
+      "verdict": "ok",
+      "seen": "Feeding guide infographic, text only",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11655.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1623,
+    "sku": "703833",
+    "label": "Chicken, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11658,
+      "verdict": "ok",
+      "seen": "Front, new design, \"Курица\", 4x15 g, clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11658.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11661,
+      "verdict": "ok",
+      "seen": "Back of Chicken pack, 4x15 g, EAN 4610011703836",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11661.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11664,
+      "verdict": "ok",
+      "seen": "Old vs new design comparison, both Chicken 4x15 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11664.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11667,
+      "verdict": "ok",
+      "seen": "Lifestyle: ginger cat licking a \"Курица\" Mnyams stick from a hand",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11667.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11670,
+      "verdict": "ok",
+      "seen": "Old-design Chicken cream treat pack front, 4x15 g",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11670.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 11673,
+      "verdict": "ok",
+      "seen": "Back of old-design Chicken pack, 4x15 g, EAN 4610011703836",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11673.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 11676,
+      "verdict": "ok",
+      "seen": "Infographic: \"Курица\", 4x15 g, Chicken pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11676.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 11679,
+      "verdict": "ok",
+      "seen": "Benefits infographic with Chicken 4x15 g pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11679.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 11682,
+      "verdict": "wrong-size",
+      "seen": "Chicken 4x15 g pouch in front of a shipping carton, \"48 штук в упаковке\" - shows a 48-pouch case, variant is one pouch",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11682.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1624,
+    "sku": "540713",
+    "label": "Duck & Katsuo Tuna, 4 × 15 g",
+    "size_label": "60 g",
+    "options": "Flavor=Duck",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11685,
+      "verdict": "ok",
+      "seen": "Front, new design, \"Утка и тунец Кацуо\", 4x15 g, clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11685.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11688,
+      "verdict": "ok",
+      "seen": "Back of Duck & Katsuo pack, 4x15 g, EAN 4620202540713",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11688.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11691,
+      "verdict": "ok",
+      "seen": "Infographic: \"Утка и тунец\", 4x15 g, Duck & Katsuo pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11691.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11694,
+      "verdict": "ok",
+      "seen": "Infographic: bowl of cream, \"вкус утки и тунца\"",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11694.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 11697,
+      "verdict": "ok",
+      "seen": "Benefits infographic with Duck & Katsuo 4x15 g pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11697.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1143",
+  "product": "Dermobrush",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1630,
+    "sku": "06018IVS",
+    "label": "Fantasia",
+    "size_label": null,
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11745,
+      "verdict": "unclear",
+      "seen": "pink detangling brush with cheetah print; no brand or design name visible, cannot confirm it is the Iv San Bernard Dermobrush 'Fantasia' design",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11745.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1144",
+  "product": "Traditional Plus Banana Shampoo for Medium Coats",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1631,
+    "sku": "03171IVS",
+    "label": "300 ml",
+    "size_label": "300 ml",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11748,
+      "verdict": "ok",
+      "seen": "Iv San Bernard Traditional Shampoo Banana SLS free, medium coat; short small-format bottle (300 ml shape, distinct from 1 l bottle); no size printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11748.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11751,
+      "verdict": "wrong-size",
+      "seen": "same Banana shampoo but tall 1 l bottle, not the 300 ml variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11751.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11754,
+      "verdict": "wrong-size",
+      "seen": "same Banana shampoo in 5 l canister, not the 300 ml variant",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11754.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1148",
+  "product": "Classic Leather Collar, padded",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1635,
+    "sku": "00244K",
+    "label": "35 mm, 50–59 cm",
+    "size_label": null,
+    "options": "Color Family=Color Varies; Size=35 mm × 50–59 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11790,
+      "verdict": "wrong-product",
+      "seen": "brown leather collar with pink jacquard tape/braid inlay - that is the 'with Braid' style, not the plain padded classic collar",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11790.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 2048,
+    "sku": "01664K",
+    "label": "12 mm, 20–24 cm, pink",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=12 mm × 20–24 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14815,
+      "verdict": "ok",
+      "seen": "plain pink leather collar, felt-padded lining, narrow width",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14815.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14818,
+      "verdict": "ok",
+      "seen": "lifestyle: chihuahua wearing the same plain pink collar (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14818.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 14821,
+      "verdict": "ok",
+      "seen": "lifestyle: chihuahua wearing the same plain pink collar (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14821.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1149",
+  "product": "Classic Leather Collar with Braid",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1636,
+    "sku": "00247K",
+    "label": "35 mm, 50–59 cm",
+    "size_label": null,
+    "options": "Size=35 mm × 50–59 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11793,
+      "verdict": "ok",
+      "seen": "black leather collar with gold/white jacquard braid inlay, wide collar",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11793.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 2047,
+    "sku": "00030302",
+    "label": "30 mm, 49–58 cm",
+    "size_label": null,
+    "options": "Size=30 mm × 49–58 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14812,
+      "verdict": "wrong-size",
+      "seen": "identical photo (same md5) to the 35 mm × 50–59 cm sibling's lead: black leather collar with gold/white jacquard braid; nothing shows the 30 mm × 49–58 cm size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14812.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 2055,
+    "sku": "00012007",
+    "label": "12 mm, 20–24 cm",
+    "size_label": null,
+    "options": "Size=12 mm × 20–24 cm",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14863,
+      "verdict": "ok",
+      "seen": "narrow burgundy leather collar with yellow/red jacquard braid inlay",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14863.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1150",
+  "product": "New Neon Tape Lead",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1637,
+    "sku": "032008",
+    "label": "S, 5 m, orange",
+    "size_label": null,
+    "options": "Color Family=Orange; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11796,
+      "verdict": "ok",
+      "seen": "flexi New Neon tape lead, orange, housing reads CLASSIC S tape 5m",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11796.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1638,
+    "sku": "032038",
+    "label": "S, 5 m, blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=S",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11802,
+      "verdict": "ok",
+      "seen": "flexi New Neon tape lead, blue, housing reads CLASSIC S tape 5m",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11802.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1639,
+    "sku": "032108",
+    "label": "M, 5 m, pink",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11805,
+      "verdict": "ok",
+      "seen": "flexi New Neon tape lead, pink, housing reads CLASSIC M tape 5m",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11805.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1640,
+    "sku": "031908",
+    "label": "M, 5 m, green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=M",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11811,
+      "verdict": "ok",
+      "seen": "flexi New Neon tape lead, green, housing reads CLASSIC M tape 5m",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11811.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1751,
+    "sku": "FX023508",
+    "label": "XS, 3 m, black/neon",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XS",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13990,
+      "verdict": "unclear",
+      "seen": "flexi New Neon tape lead, black body with neon-yellow tape; size/length not legible, cannot confirm XS 3 m vs S/M",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13990.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12068,
+      "verdict": "ok",
+      "seen": "close-up of neon-yellow tape exit on black flexi housing (secondary)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12068.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1153",
+  "product": "Mini Puppy & Junior",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1659,
+    "sku": "MG006107",
+    "label": "Chicken 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14041,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders MINI (Daily line) bag, 15 kg; front prints neither flavour nor lifestage, so Puppy & Junior chicken can't be confirmed from it",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14041.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14044,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Mini Puppy and Junior Rich in Chicken data sheet, pack size 15 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14044.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1660,
+    "sku": "MG006107-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14041,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders MINI (Daily line) bag, 15 kg; front prints neither flavour nor lifestage, so Puppy & Junior chicken can't be confirmed from it",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14041.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14044,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Mini Puppy and Junior Rich in Chicken data sheet, pack size 15 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14044.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1661,
+    "sku": "005947",
+    "label": "Lamb & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14047,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour or lifestage printed on front; identical picture used for the Salmon sibling",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14047.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14050,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Mini Puppy and Junior Monoprotein Lamb with Rice data sheet, 15 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14050.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1662,
+    "sku": "005947-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14047,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour or lifestage printed on front; identical picture used for the Salmon sibling",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14047.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14050,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Mini Puppy and Junior Monoprotein Lamb with Rice data sheet, 15 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14050.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1663,
+    "sku": "005937",
+    "label": "Salmon & Rice 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14011,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour printed; byte-identical to the Lamb sibling's lead photo, so salmon is not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14011.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1664,
+    "sku": "005937-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Salmon",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14011,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders SPECIALITY LINE bag, 15 kg; no flavour printed; byte-identical to the Lamb sibling's lead photo, so salmon is not shown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14011.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1156",
+  "product": "Maxi Puppy & Junior",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1669,
+    "sku": "MG006027",
+    "label": "Chicken 15 kg",
+    "size_label": "15 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14014,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders MAXI bag, 15kg; front shows no lifestage (Puppy & Junior vs Adult) or flavour, no sheet in gallery to confirm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14014.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1670,
+    "sku": "MG006027-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14014,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders MAXI bag, 15kg; front shows no lifestage (Puppy & Junior vs Adult) or flavour, no sheet in gallery to confirm",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14014.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1163",
+  "product": "Kitten Cat",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1685,
+    "sku": "MG 004817",
+    "label": "Chicken 10 kg",
+    "size_label": "10 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14176,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Gatti-Cats bag with KITTEN label (1-12 months)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14176.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14179,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Gatti-Cats 10kg bag, generic face with no variant label - does not show Kitten",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14179.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1686,
+    "sku": "MG 004817-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14176,
+      "verdict": "ok",
+      "seen": "Monge Best for Breeders Gatti-Cats bag with KITTEN label (1-12 months)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14176.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 14179,
+      "verdict": "unclear",
+      "seen": "Monge Best for Breeders Gatti-Cats 10kg bag, generic face with no variant label - does not show Kitten",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14179.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1166",
+  "product": "Kitten Cat",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1691,
+    "sku": "297257",
+    "label": "Chicken & Rice 7 kg",
+    "size_label": "7 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11274,
+      "verdict": "wrong-size",
+      "seen": "Gemon Kitten con pollo e riso retail bag, 2kg printed (variant is 7 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11274.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1692,
+    "sku": "297257-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11274,
+      "verdict": "wrong-size",
+      "seen": "Gemon Kitten con pollo e riso retail bag, 2kg printed (variant is 7 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11274.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1167",
+  "product": "Adult Cat",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1693,
+    "sku": "297267",
+    "label": "Chicken & Turkey 7 kg",
+    "size_label": "7 kg",
+    "options": "Flavor=Chicken & Turkey",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11277,
+      "verdict": "wrong-size",
+      "seen": "Gemon Adult con pollo e tacchino retail bag, 2kg printed (variant is 7 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11277.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1694,
+    "sku": "297267-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken & Turkey",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11277,
+      "verdict": "wrong-size",
+      "seen": "Gemon Adult con pollo e tacchino retail bag, 2kg printed (variant is 7 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11277.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1168",
+  "product": "Mini Adult Dog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1695,
+    "sku": "MM005677",
+    "label": "Chicken & Rice 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11280,
+      "verdict": "ok",
+      "seen": "plain Gemon breeder 20kg bag, no recipe on front; brand sheet (pos2) shows this bag as Mini Adult chicken & rice 20kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11283,
+      "verdict": "wrong-size",
+      "seen": "Gemon Mini Adult pollo e riso retail bag, 3kg printed (variant is 20 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11283.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11286,
+      "verdict": "ok",
+      "seen": "Gemon Breeders Mini Adult with chicken and rice data sheet, pack size 20kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11286.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11289,
+      "verdict": "ok",
+      "seen": "Gemon icon strip (made in Italy, no cruelty test, digestibility) - infographic",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1696,
+    "sku": "MM005677-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11280,
+      "verdict": "ok",
+      "seen": "plain Gemon breeder 20kg bag, no recipe on front; brand sheet (pos2) shows this bag as Mini Adult chicken & rice 20kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11283,
+      "verdict": "wrong-size",
+      "seen": "Gemon Mini Adult pollo e riso retail bag, 3kg printed (variant is 20 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11283.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11286,
+      "verdict": "ok",
+      "seen": "Gemon Breeders Mini Adult with chicken and rice data sheet, pack size 20kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11286.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11289,
+      "verdict": "ok",
+      "seen": "Gemon icon strip (made in Italy, no cruelty test, digestibility) - infographic",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1169",
+  "product": "Regular All Breeds Adult Dog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1697,
+    "sku": "MM006177",
+    "label": "Chicken & Rice 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11292,
+      "verdict": "ok",
+      "seen": "Gemon Regular All Breeds Adult pollo e riso bag, 20kg printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11292.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11280,
+      "verdict": "unclear",
+      "seen": "plain Gemon breeder 20kg bag, no recipe on front; differs from the retail Regular bag at pos0 - can't confirm which pack is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11295,
+      "verdict": "ok",
+      "seen": "Gemon Breeders Regular All Breeds Adult chicken & rice data sheet, 20kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11295.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11289,
+      "verdict": "ok",
+      "seen": "Gemon icon strip (made in Italy, no cruelty test, digestibility) - infographic",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1698,
+    "sku": "MM006177-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11292,
+      "verdict": "ok",
+      "seen": "Gemon Regular All Breeds Adult pollo e riso bag, 20kg printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11292.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 11280,
+      "verdict": "unclear",
+      "seen": "plain Gemon breeder 20kg bag, no recipe on front; differs from the retail Regular bag at pos0 - can't confirm which pack is stocked",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11280.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 11295,
+      "verdict": "ok",
+      "seen": "Gemon Breeders Regular All Breeds Adult chicken & rice data sheet, 20kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11295.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 11289,
+      "verdict": "ok",
+      "seen": "Gemon icon strip (made in Italy, no cruelty test, digestibility) - infographic",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11289.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1170",
+  "product": "Adult Dog Kibbles",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1699,
+    "sku": "009977",
+    "label": "Tuna 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Tuna",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11313,
+      "verdict": "wrong-size",
+      "seen": "Simba Adult dog kibbles con tonno bag, 4kg printed (variant is 20 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11313.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1700,
+    "sku": "009977-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Tuna",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11313,
+      "verdict": "wrong-size",
+      "seen": "Simba Adult dog kibbles con tonno bag, 4kg printed (variant is 20 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11313.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1701,
+    "sku": "009957",
+    "label": "Lamb 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11316,
+      "verdict": "wrong-size",
+      "seen": "Simba Adult dog kibbles con agnello bag, 4kg printed (variant is 20 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11316.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1702,
+    "sku": "009957-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11316,
+      "verdict": "wrong-size",
+      "seen": "Simba Adult dog kibbles con agnello bag, 4kg printed (variant is 20 kg)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11316.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1178",
+  "product": "Kitten Dry Food",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1717,
+    "sku": "902135",
+    "label": "11 kg",
+    "size_label": "11 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14188,
+      "verdict": "unclear",
+      "seen": "Myau (Мяу!) for kittens (для кошенят) stand-up pouch, Ukrainian pack; no net weight visible and the pouch shape looks like a small retail pack, not the 11 kg bag - size cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14188.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1718,
+    "sku": "902135-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14188,
+      "verdict": "unclear",
+      "seen": "Myau (Мяу!) for kittens (для кошенят) stand-up pouch, Ukrainian pack; no net weight visible and the pouch shape looks like a small retail pack, not the 11 kg bag - size cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14188.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1182",
+  "product": "Medium Adult Dog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1732,
+    "sku": "MM005617",
+    "label": "Lamb & Rice 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11927,
+      "verdict": "ok",
+      "seen": "Gemon Breeders bag, label Agnello e Riso - Lamb & Rice, 20 Kg printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11927.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1733,
+    "sku": "MM005617-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Lamb",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11927,
+      "verdict": "ok",
+      "seen": "Gemon Breeders bag, label Agnello e Riso - Lamb & Rice, 20 Kg printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11927.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1734,
+    "sku": "GM005607",
+    "label": "Tuna & Rice 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Tuna",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11924,
+      "verdict": "wrong-product",
+      "seen": "Gemon Breeders 20 kg bag but label reads ADULT CAT with tuna and salmon - a cat food, not Medium Adult Dog Tuna & Rice",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11924.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1735,
+    "sku": "GM005607-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Tuna",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11924,
+      "verdict": "wrong-product",
+      "seen": "Gemon Breeders 20 kg bag but label reads ADULT CAT with tuna and salmon - a cat food, not Medium Adult Dog Tuna & Rice",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11924.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1183",
+  "product": "Puppy & Junior Dog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1736,
+    "sku": "MM005627",
+    "label": "Chicken & Rice 20 kg",
+    "size_label": "20 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11930,
+      "verdict": "not-packshot-lead",
+      "seen": "Gemon Breeders Puppy & Junior bag, 20 Kg printed, flavour text illegible; photo overlaid with a third-party shop 'C' watermark pattern - not a clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11930.jpeg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1737,
+    "sku": "MM005627-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 11930,
+      "verdict": "not-packshot-lead",
+      "seen": "Gemon Breeders Puppy & Junior bag, 20 Kg printed, flavour text illegible; photo overlaid with a third-party shop 'C' watermark pattern - not a clean packshot",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11930.jpeg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1194",
+  "product": "Litter Tray with Mesh",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1752,
+    "sku": "03623K",
+    "label": "M",
+    "size_label": null,
+    "options": "Size=M, with mesh",
+    "images": [
+     {
+      "pos": 0,
+      "media": 14194,
+      "verdict": "unclear",
+      "seen": "Plain blue litter tray with grid/mesh, no brand or size marking visible; cannot confirm Inteko or size M (tray made in several sizes)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14194.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1199",
+  "product": "PRO Fillets Digest",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1757,
+    "sku": "11244S",
+    "label": "80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Chicken; Health Feature=Digestive Health",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12356,
+      "verdict": "unclear",
+      "seen": "8in1 Fillets Pro Digest chicken pouch; no size letter or weight visible, line sold in more than one pouch size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12356.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12359,
+      "verdict": "ok",
+      "seen": "8in1 Fillets Pro Digest chicken pouch, 'S' size mark visible (S = small pouch); low-res with NEW sticker",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12359.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1201",
+  "product": "Rabbit Ears for Puppies",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1759,
+    "sku": "DL711836",
+    "label": "Chicken, 90 g",
+    "size_label": "90 g",
+    "options": "Flavor=Chicken",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12365,
+      "verdict": "wrong-product",
+      "seen": "Dog Fest 'Rabbit Ear with Chicken' for puppies pouch, net wt 90 g - brand is Dog Fest, product brand is Derevenskie Lakomstva (unless the brand field is wrong)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12365.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12368,
+      "verdict": "wrong-product",
+      "seen": "Dog Fest Rabbit Ears with Chicken back of pouch, 90 g, EAN 6921499711830, Art 79711830 - Dog Fest, not Derevenskie Lakomstva",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12368.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 12371,
+      "verdict": "unclear",
+      "seen": "Loose chicken-wrapped rabbit ears on white, no brand shown; part of the Dog Fest gallery",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12371.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1204",
+  "product": "Prestige Budgies",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1762,
+    "sku": "421620V",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12380,
+      "verdict": "unclear",
+      "seen": "Versele-Laga Prestige Budgies bag; no weight printed, line sold in 1 kg / 4 kg / 20 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12380.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1207",
+  "product": "Prestige Parrots",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1765,
+    "sku": "421795V",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12389,
+      "verdict": "unclear",
+      "seen": "Versele-Laga Prestige Parrots bag; no weight printed, line sold in several sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12389.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1208",
+  "product": "Prestige Premium Loro Parque African Parrot Mix",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1766,
+    "sku": "422201V",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12392,
+      "verdict": "unclear",
+      "seen": "Versele-Laga Prestige Loro Parque African Parrot Mix pouch; no weight printed, line sold in several sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12392.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1209",
+  "product": "Prestige Premium Loro Parque African Parakeet Mix",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1767,
+    "sku": "422220V",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12395,
+      "verdict": "unclear",
+      "seen": "Versele-Laga Prestige Loro Parque African Parakeet Mix pouch; no weight printed, line sold in several sizes",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12395.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1215",
+  "product": "Crispy Muesli Guinea Pigs",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1773,
+    "sku": "461698V",
+    "label": "400 g",
+    "size_label": "400 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13993,
+      "verdict": "unclear",
+      "seen": "Versele-Laga Crispy Muesli Guinea Pigs bag; no weight printed, line sold in 400 g / 1 kg / 2.75 kg / 20 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13993.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12413,
+      "verdict": "unclear",
+      "seen": "Crispy Muesli Guinea Pigs bag, angled; no weight printed - same picture is the lead of the 1 kg sibling (1774), so it may be the 1 kg pack",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12413.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1774,
+    "sku": "461711V",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12413,
+      "verdict": "unclear",
+      "seen": "Crispy Muesli Guinea Pigs bag, angled; no weight printed - also used as pos 1 of the 400 g sibling, so sizes are not told apart",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12413.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1216",
+  "product": "Crispy Muesli Hamsters & Co",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1775,
+    "sku": "461699V",
+    "label": "400 g",
+    "size_label": "400 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 13996,
+      "verdict": "unclear",
+      "seen": "Versele-Laga Crispy Muesli Hamsters & Co bag; no weight printed, line sold in 400 g / 1 kg / 2.75 kg / 20 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13996.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12419,
+      "verdict": "unclear",
+      "seen": "Crispy Muesli Hamsters & Co bag, no weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12419.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1225",
+  "product": "Pecking Stone with Seashells",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1785,
+    "sku": "5108",
+    "label": "30 g",
+    "size_label": "30 g",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12464,
+      "verdict": "unclear",
+      "seen": "Plain white rectangular mineral block with two wire hooks, no packaging; no seashells visible on this side, nothing printed - cannot confirm it is the seashell pecking stone or its 30 g size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12464.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12467,
+      "verdict": "ok",
+      "seen": "Close-up of pale pecking block studded with crushed seashell pieces; no pack/size printed, single-size item",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12467.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1227",
+  "product": "Clay Stone with Carrot",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1787,
+    "sku": "60146",
+    "label": "100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Carrot",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12482,
+      "verdict": "ok",
+      "seen": "Clay block topped with dried carrot pieces, raffia hanging loop; no pack/size, single size",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12482.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12485,
+      "verdict": "unclear",
+      "seen": "Top view of paler clay block with mixed orange/white crumb topping and no hanging loop - looks like a different recipe/version than pos 0 and 3; carrot clay stone not confirmable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12485.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 12488,
+      "verdict": "unclear",
+      "seen": "Paler clay block with mixed orange/white crumb topping, no raffia loop - differs from the carrot stone in pos 0/3; could be another variety",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12488.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12491,
+      "verdict": "ok",
+      "seen": "Front of clay block covered in dried carrot pieces with raffia loop - same item as pos 0",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12491.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1229",
+  "product": "Maxi Adult",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1789,
+    "sku": "3182551055955",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12763,
+      "verdict": "unclear",
+      "seen": "Royal Canin Size Health Nutrition Maxi Adult (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12763.png"
+     },
+     {
+      "pos": 1,
+      "media": 12766,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Adult (L, from 26 to 44 kg) bag render; no net weight printed, size not confirmable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12766.png"
+     },
+     {
+      "pos": 2,
+      "media": 12769,
+      "verdict": "ok",
+      "seen": "Infographic: German Shepherd portrait, Digestive health / Bone & joint / Optimal health support - Maxi Adult claims",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12769.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12772,
+      "verdict": "ok",
+      "seen": "Infographic: adapted kibble size, large dog eating from RC bowl, kibble with 1 cm scale",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12772.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 12775,
+      "verdict": "ok",
+      "seen": "Infographic: two kibbles, high-quality nutrients / highly digestible proteins",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12775.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 12778,
+      "verdict": "wrong-size",
+      "seen": "Zip system infographic with Maxi Adult bag; states easyopen & zipsystem on '1 kg / 4 kg' bags - depicts the small-bag feature, not the 15 kg bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12778.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 12781,
+      "verdict": "ok",
+      "seen": "Mix dry & wet infographic: Maxi Adult bag plus Maxi Adult 410 g loaf can (cross-sell), same line",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12781.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12784,
+      "verdict": "ok",
+      "seen": "New product design infographic: old Maxi Adult bag -> new Maxi Adult L bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12784.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 12787,
+      "verdict": "ok",
+      "seen": "Range infographic by age: Maxi Puppy, Maxi Adult, Maxi Adult 5+, Maxi Ageing 8+ bags in a row (secondary, informational)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12787.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 12790,
+      "verdict": "ok",
+      "seen": "Guaranteed analysis: protein 26%, fibre 1.3%, fat 17%, ash 7.7% (Maxi Adult values)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12790.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1943,
+    "sku": "3182551055955-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12763,
+      "verdict": "unclear",
+      "seen": "Royal Canin Size Health Nutrition Maxi Adult (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12763.png"
+     },
+     {
+      "pos": 1,
+      "media": 12766,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Adult (L, from 26 to 44 kg) bag render; no net weight printed, size not confirmable (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12766.png"
+     },
+     {
+      "pos": 2,
+      "media": 12769,
+      "verdict": "ok",
+      "seen": "Infographic: German Shepherd portrait, Digestive health / Bone & joint / Optimal health support - Maxi Adult claims (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12769.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12772,
+      "verdict": "ok",
+      "seen": "Infographic: adapted kibble size, large dog eating from RC bowl, kibble with 1 cm scale (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12772.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 12775,
+      "verdict": "ok",
+      "seen": "Infographic: two kibbles, high-quality nutrients / highly digestible proteins (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12775.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 12778,
+      "verdict": "wrong-size",
+      "seen": "Zip system infographic with Maxi Adult bag; states easyopen & zipsystem on '1 kg / 4 kg' bags - depicts the small-bag feature, not the 15 kg bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12778.jpg"
+     },
+     {
+      "pos": 6,
+      "media": 12781,
+      "verdict": "ok",
+      "seen": "Mix dry & wet infographic: Maxi Adult bag plus Maxi Adult 410 g loaf can (cross-sell), same line (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12781.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12784,
+      "verdict": "ok",
+      "seen": "New product design infographic: old Maxi Adult bag -> new Maxi Adult L bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12784.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 12787,
+      "verdict": "ok",
+      "seen": "Range infographic by age: Maxi Puppy, Maxi Adult, Maxi Adult 5+, Maxi Ageing 8+ bags in a row (secondary, informational) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12787.jpg"
+     },
+     {
+      "pos": 9,
+      "media": 12790,
+      "verdict": "ok",
+      "seen": "Guaranteed analysis: protein 26%, fibre 1.3%, fat 17%, ash 7.7% (Maxi Adult values) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12790.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1230",
+  "product": "Maxi Adult 5+",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1791,
+    "sku": "3182550402316",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12793,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Adult 5+ (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12793.png"
+     },
+     {
+      "pos": 1,
+      "media": 12796,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Adult 5+ bag render with '5+ AGE' badge; no net weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12796.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 12799,
+      "verdict": "ok",
+      "seen": "Infographic: German Shepherd portrait, Digestive health / Bone & joint / Optimal vitality support (5+ claims)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12799.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12802,
+      "verdict": "ok",
+      "seen": "Infographic: adapted kibble size, dog eating, kibble with 1 cm scale",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12802.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 12805,
+      "verdict": "ok",
+      "seen": "Mix dry & wet: Maxi Adult 5+ bag plus Maxi Ageing loaf can (cross-sell)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12805.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 12808,
+      "verdict": "ok",
+      "seen": "Zip system infographic with Maxi Adult 5+ bag; no bag sizes stated",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12808.png"
+     },
+     {
+      "pos": 6,
+      "media": 12811,
+      "verdict": "ok",
+      "seen": "New product design: old Maxi Adult 5+ bag -> new Maxi Adult 5+ L bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12811.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12814,
+      "verdict": "ok",
+      "seen": "Guaranteed analysis: protein 26%, fibre 1.6%, fat 17%, ash 6.4%",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12814.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 12817,
+      "verdict": "ok",
+      "seen": "Daily feeding guide with Maxi Adult 5+ bag and Maxi Ageing can, 26/35/44 kg dog rows",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12817.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1944,
+    "sku": "3182550402316-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12793,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Adult 5+ (size L, 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12793.png"
+     },
+     {
+      "pos": 1,
+      "media": 12796,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Adult 5+ bag render with '5+ AGE' badge; no net weight printed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12796.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 12799,
+      "verdict": "ok",
+      "seen": "Infographic: German Shepherd portrait, Digestive health / Bone & joint / Optimal vitality support (5+ claims) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12799.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12802,
+      "verdict": "ok",
+      "seen": "Infographic: adapted kibble size, dog eating, kibble with 1 cm scale (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12802.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 12805,
+      "verdict": "ok",
+      "seen": "Mix dry & wet: Maxi Adult 5+ bag plus Maxi Ageing loaf can (cross-sell) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12805.jpg"
+     },
+     {
+      "pos": 5,
+      "media": 12808,
+      "verdict": "ok",
+      "seen": "Zip system infographic with Maxi Adult 5+ bag; no bag sizes stated (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12808.png"
+     },
+     {
+      "pos": 6,
+      "media": 12811,
+      "verdict": "ok",
+      "seen": "New product design: old Maxi Adult 5+ bag -> new Maxi Adult 5+ L bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12811.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12814,
+      "verdict": "ok",
+      "seen": "Guaranteed analysis: protein 26%, fibre 1.6%, fat 17%, ash 6.4% (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12814.jpg"
+     },
+     {
+      "pos": 8,
+      "media": 12817,
+      "verdict": "ok",
+      "seen": "Daily feeding guide with Maxi Adult 5+ bag and Maxi Ageing can, 26/35/44 kg dog rows (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12817.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1231",
+  "product": "Maxi Puppy",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1793,
+    "sku": "3182550402163",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12820,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Puppy (2-15 months, adult weight 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12820.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12823,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Puppy bag render with benefit icons; no net weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12823.png"
+     },
+     {
+      "pos": 2,
+      "media": 12826,
+      "verdict": "ok",
+      "seen": "New design infographic: old Pediatric Junior Large Dog vet bag -> new Maxi Puppy bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12826.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12829,
+      "verdict": "ok",
+      "seen": "New design infographic: old Maxi Puppy bag -> new Maxi Puppy bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12829.png"
+     },
+     {
+      "pos": 4,
+      "media": 12832,
+      "verdict": "ok",
+      "seen": "Health benefits for your puppy infographic, GSD puppy with RC bowl",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12832.png"
+     },
+     {
+      "pos": 5,
+      "media": 12835,
+      "verdict": "ok",
+      "seen": "Sensorial experience infographic: Maxi Puppy dry bag plus Maxi Puppy 140 g wet pouch (cross-sell)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12835.png"
+     },
+     {
+      "pos": 6,
+      "media": 12838,
+      "verdict": "ok",
+      "seen": "At 15 months switch to adult: Maxi Puppy bag + pouch, then Labrador Adult and Maxi Adult bags (informational)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12838.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12841,
+      "verdict": "ok",
+      "seen": "Analytical constituents: protein 30%, fat 16%, composition and additives text (Maxi Puppy)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12841.png"
+     },
+     {
+      "pos": 8,
+      "media": 12844,
+      "verdict": "ok",
+      "seen": "Feeding instructions: kibble only / mix with 140 g Maxi Puppy pouch, adult target weight 30 kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12844.png"
+     },
+     {
+      "pos": 9,
+      "media": 12847,
+      "verdict": "ok",
+      "seen": "How to transition your pet's food, 7-day chart, generic RC",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12847.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1945,
+    "sku": "3182550402163-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12820,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Puppy (2-15 months, adult weight 26-44 kg) bag render, clean packshot; no net weight printed - line sold in several sizes, 15 kg not confirmable (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12820.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12823,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Puppy bag render with benefit icons; no net weight printed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12823.png"
+     },
+     {
+      "pos": 2,
+      "media": 12826,
+      "verdict": "ok",
+      "seen": "New design infographic: old Pediatric Junior Large Dog vet bag -> new Maxi Puppy bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12826.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12829,
+      "verdict": "ok",
+      "seen": "New design infographic: old Maxi Puppy bag -> new Maxi Puppy bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12829.png"
+     },
+     {
+      "pos": 4,
+      "media": 12832,
+      "verdict": "ok",
+      "seen": "Health benefits for your puppy infographic, GSD puppy with RC bowl (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12832.png"
+     },
+     {
+      "pos": 5,
+      "media": 12835,
+      "verdict": "ok",
+      "seen": "Sensorial experience infographic: Maxi Puppy dry bag plus Maxi Puppy 140 g wet pouch (cross-sell) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12835.png"
+     },
+     {
+      "pos": 6,
+      "media": 12838,
+      "verdict": "ok",
+      "seen": "At 15 months switch to adult: Maxi Puppy bag + pouch, then Labrador Adult and Maxi Adult bags (informational) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12838.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12841,
+      "verdict": "ok",
+      "seen": "Analytical constituents: protein 30%, fat 16%, composition and additives text (Maxi Puppy) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12841.png"
+     },
+     {
+      "pos": 8,
+      "media": 12844,
+      "verdict": "ok",
+      "seen": "Feeding instructions: kibble only / mix with 140 g Maxi Puppy pouch, adult target weight 30 kg (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12844.png"
+     },
+     {
+      "pos": 9,
+      "media": 12847,
+      "verdict": "ok",
+      "seen": "How to transition your pet's food, 7-day chart, generic RC (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12847.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1232",
+  "product": "Maxi Starter Mother & Babydog",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1795,
+    "sku": "3182550778787",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12850,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Starter Mother & Babydog (1-2 months, adult weight 26-44 kg, stage 2) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12850.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12853,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Starter Mother & Babydog bag render with benefit icons and rehydratable kibble; no net weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12853.png"
+     },
+     {
+      "pos": 2,
+      "media": 12856,
+      "verdict": "ok",
+      "seen": "New design infographic: old Pediatric Starter Large Dog (vet) bag -> new Maxi Starter Mother & Babydog bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12856.png"
+     },
+     {
+      "pos": 3,
+      "media": 12859,
+      "verdict": "ok",
+      "seen": "New design infographic: old Maxi Starter Mother & Babydog bag -> new Maxi Starter bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12859.png"
+     },
+     {
+      "pos": 4,
+      "media": 12862,
+      "verdict": "ok",
+      "seen": "Health benefits infographic (mother & puppy health, immune, microbiome), GSD mother and puppy with RC bowl",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12862.png"
+     },
+     {
+      "pos": 5,
+      "media": 12865,
+      "verdict": "ok",
+      "seen": "Rehydratable kibble infographic, donut-shaped kibble, for mother/for puppies",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12865.png"
+     },
+     {
+      "pos": 6,
+      "media": 12868,
+      "verdict": "ok",
+      "seen": "At 2 months switch to puppy nutrition: Maxi Starter bag + Starter mousse can, then Labrador Puppy / Maxi Puppy bags; RC line infographic",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12868.png"
+     },
+     {
+      "pos": 7,
+      "media": 12871,
+      "verdict": "ok",
+      "seen": "Analytical constituents: protein 30%, fat 22%, composition and additives, 4173 kcal/kg (Starter)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12871.png"
+     },
+     {
+      "pos": 8,
+      "media": 12874,
+      "verdict": "ok",
+      "seen": "Feeding instructions table: kibble only / mix with Starter can 195 g, adult target weight 30 kg, 4173 kcal/kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12874.png"
+     },
+     {
+      "pos": 9,
+      "media": 12877,
+      "verdict": "ok",
+      "seen": "How to transition your pet's food, 7-day chart, generic RC",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12877.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1946,
+    "sku": "3182550778787-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12850,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Starter Mother & Babydog (1-2 months, adult weight 26-44 kg, stage 2) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12850.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12853,
+      "verdict": "unclear",
+      "seen": "Royal Canin Maxi Starter Mother & Babydog bag render with benefit icons and rehydratable kibble; no net weight printed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12853.png"
+     },
+     {
+      "pos": 2,
+      "media": 12856,
+      "verdict": "ok",
+      "seen": "New design infographic: old Pediatric Starter Large Dog (vet) bag -> new Maxi Starter Mother & Babydog bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12856.png"
+     },
+     {
+      "pos": 3,
+      "media": 12859,
+      "verdict": "ok",
+      "seen": "New design infographic: old Maxi Starter Mother & Babydog bag -> new Maxi Starter bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12859.png"
+     },
+     {
+      "pos": 4,
+      "media": 12862,
+      "verdict": "ok",
+      "seen": "Health benefits infographic (mother & puppy health, immune, microbiome), GSD mother and puppy with RC bowl (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12862.png"
+     },
+     {
+      "pos": 5,
+      "media": 12865,
+      "verdict": "ok",
+      "seen": "Rehydratable kibble infographic, donut-shaped kibble, for mother/for puppies (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12865.png"
+     },
+     {
+      "pos": 6,
+      "media": 12868,
+      "verdict": "ok",
+      "seen": "At 2 months switch to puppy nutrition: Maxi Starter bag + Starter mousse can, then Labrador Puppy / Maxi Puppy bags; RC line infographic (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12868.png"
+     },
+     {
+      "pos": 7,
+      "media": 12871,
+      "verdict": "ok",
+      "seen": "Analytical constituents: protein 30%, fat 22%, composition and additives, 4173 kcal/kg (Starter) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12871.png"
+     },
+     {
+      "pos": 8,
+      "media": 12874,
+      "verdict": "ok",
+      "seen": "Feeding instructions table: kibble only / mix with Starter can 195 g, adult target weight 30 kg, 4173 kcal/kg (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12874.png"
+     },
+     {
+      "pos": 9,
+      "media": 12877,
+      "verdict": "ok",
+      "seen": "How to transition your pet's food, 7-day chart, generic RC (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12877.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1233",
+  "product": "Medium Adult",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1797,
+    "sku": "3182551055849",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12880,
+      "verdict": "unclear",
+      "seen": "Royal Canin Size Health Nutrition Medium Adult (size M, 11-25 kg, dogs over 12 months) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12880.png"
+     },
+     {
+      "pos": 1,
+      "media": 12883,
+      "verdict": "unclear",
+      "seen": "Royal Canin Medium Adult (M, from 11 to 25 kg) bag render; no net weight printed, size not confirmable",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12883.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 12886,
+      "verdict": "ok",
+      "seen": "Infographic: muscle mass support, natural defences, optimal health; B/W spaniel, RC crown",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12886.png"
+     },
+     {
+      "pos": 3,
+      "media": 12889,
+      "verdict": "ok",
+      "seen": "Infographic: adapted kibble size, spaniel eating from RC bowl, round kibble with 1 cm scale",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12889.png"
+     },
+     {
+      "pos": 4,
+      "media": 12892,
+      "verdict": "ok",
+      "seen": "Infographic: kibble close-up, high-quality protein, enriched with vitamins C & E",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12892.png"
+     },
+     {
+      "pos": 5,
+      "media": 12895,
+      "verdict": "ok",
+      "seen": "New product design: old Medium Adult bag -> new Medium Adult (M) bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12895.png"
+     },
+     {
+      "pos": 6,
+      "media": 12898,
+      "verdict": "ok",
+      "seen": "Mix dry & wet: Medium Adult bag + Medium Adult 140 g gravy pouch",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12898.png"
+     },
+     {
+      "pos": 7,
+      "media": 12901,
+      "verdict": "ok",
+      "seen": "Mix dry & wet: Medium Adult bag + Medium Adult loaf can",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12901.png"
+     },
+     {
+      "pos": 8,
+      "media": 12904,
+      "verdict": "ok",
+      "seen": "Nutrition tailored to age: Medium Puppy, Medium Adult, Adult 7+, Ageing 10+ bags (line overview)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12904.png"
+     },
+     {
+      "pos": 9,
+      "media": 12907,
+      "verdict": "ok",
+      "seen": "Daily feeding guide for Medium Adult, 11/16/25 kg dog weights, dry or dry + can",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12907.png"
+     }
+    ]
+   },
+   {
+    "variant_id": 1947,
+    "sku": "3182551055849-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12880,
+      "verdict": "unclear",
+      "seen": "Royal Canin Size Health Nutrition Medium Adult (size M, 11-25 kg, dogs over 12 months) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12880.png"
+     },
+     {
+      "pos": 1,
+      "media": 12883,
+      "verdict": "unclear",
+      "seen": "Royal Canin Medium Adult (M, from 11 to 25 kg) bag render; no net weight printed, size not confirmable (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12883.jpg"
+     },
+     {
+      "pos": 2,
+      "media": 12886,
+      "verdict": "ok",
+      "seen": "Infographic: muscle mass support, natural defences, optimal health; B/W spaniel, RC crown (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12886.png"
+     },
+     {
+      "pos": 3,
+      "media": 12889,
+      "verdict": "ok",
+      "seen": "Infographic: adapted kibble size, spaniel eating from RC bowl, round kibble with 1 cm scale (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12889.png"
+     },
+     {
+      "pos": 4,
+      "media": 12892,
+      "verdict": "ok",
+      "seen": "Infographic: kibble close-up, high-quality protein, enriched with vitamins C & E (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12892.png"
+     },
+     {
+      "pos": 5,
+      "media": 12895,
+      "verdict": "ok",
+      "seen": "New product design: old Medium Adult bag -> new Medium Adult (M) bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12895.png"
+     },
+     {
+      "pos": 6,
+      "media": 12898,
+      "verdict": "ok",
+      "seen": "Mix dry & wet: Medium Adult bag + Medium Adult 140 g gravy pouch (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12898.png"
+     },
+     {
+      "pos": 7,
+      "media": 12901,
+      "verdict": "ok",
+      "seen": "Mix dry & wet: Medium Adult bag + Medium Adult loaf can (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12901.png"
+     },
+     {
+      "pos": 8,
+      "media": 12904,
+      "verdict": "ok",
+      "seen": "Nutrition tailored to age: Medium Puppy, Medium Adult, Adult 7+, Ageing 10+ bags (line overview) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12904.png"
+     },
+     {
+      "pos": 9,
+      "media": 12907,
+      "verdict": "ok",
+      "seen": "Daily feeding guide for Medium Adult, 11/16/25 kg dog weights, dry or dry + can (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12907.png"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1234",
+  "product": "Medium Puppy",
+  "type": "Dry Food",
+  "variants": [
+   {
+    "variant_id": 1799,
+    "sku": "3182550402132",
+    "label": "15 kg",
+    "size_label": "15 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12910,
+      "verdict": "unclear",
+      "seen": "Royal Canin Medium Puppy (2-12 months, adult weight 11-25 kg, stage 3) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12910.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12913,
+      "verdict": "unclear",
+      "seen": "Royal Canin Medium Puppy bag render with benefit icons (immune, brain development, kibble); no net weight printed",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12913.png"
+     },
+     {
+      "pos": 2,
+      "media": 12916,
+      "verdict": "ok",
+      "seen": "New design infographic: old Pediatric Junior (vet) bag -> new Medium Puppy bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12916.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12919,
+      "verdict": "ok",
+      "seen": "New design infographic: old Medium Puppy bag -> new Medium Puppy bag",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12919.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 12922,
+      "verdict": "ok",
+      "seen": "Health benefits for your puppy infographic, B/W spaniel puppy with RC bowl",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12922.png"
+     },
+     {
+      "pos": 5,
+      "media": 12925,
+      "verdict": "ok",
+      "seen": "Sensorial experiences: Medium Puppy bag + Medium Puppy 140 g gravy pouch",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12925.png"
+     },
+     {
+      "pos": 6,
+      "media": 12928,
+      "verdict": "ok",
+      "seen": "At 12 months switch to adult: Medium Puppy bag + pouch, then Cocker Adult / Medium Adult bags; RC line infographic",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12928.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12931,
+      "verdict": "ok",
+      "seen": "Analytical constituents: protein 32%, fat 20%, composition and additives (Medium Puppy)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12931.png"
+     },
+     {
+      "pos": 8,
+      "media": 12934,
+      "verdict": "ok",
+      "seen": "Feeding instructions: kibble only / mix with Medium Puppy 140 g pouch, adult target weight 14 kg, 4125 kcal/kg",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12934.png"
+     },
+     {
+      "pos": 9,
+      "media": 12937,
+      "verdict": "ok",
+      "seen": "How to transition your pet's food, 7-day chart, generic RC",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12937.jpg"
+     }
+    ]
+   },
+   {
+    "variant_id": 1948,
+    "sku": "3182550402132-KG",
+    "label": "1 kg",
+    "size_label": "1 kg",
+    "options": "",
+    "images": [
+     {
+      "pos": 0,
+      "media": 12910,
+      "verdict": "unclear",
+      "seen": "Royal Canin Medium Puppy (2-12 months, adult weight 11-25 kg, stage 3) bag render, clean packshot; no net weight printed - line sold in several bag sizes, 15 kg cannot be confirmed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12910.jpg"
+     },
+     {
+      "pos": 1,
+      "media": 12913,
+      "verdict": "unclear",
+      "seen": "Royal Canin Medium Puppy bag render with benefit icons (immune, brain development, kibble); no net weight printed (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12913.png"
+     },
+     {
+      "pos": 2,
+      "media": 12916,
+      "verdict": "ok",
+      "seen": "New design infographic: old Pediatric Junior (vet) bag -> new Medium Puppy bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12916.jpg"
+     },
+     {
+      "pos": 3,
+      "media": 12919,
+      "verdict": "ok",
+      "seen": "New design infographic: old Medium Puppy bag -> new Medium Puppy bag (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12919.jpg"
+     },
+     {
+      "pos": 4,
+      "media": 12922,
+      "verdict": "ok",
+      "seen": "Health benefits for your puppy infographic, B/W spaniel puppy with RC bowl (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12922.png"
+     },
+     {
+      "pos": 5,
+      "media": 12925,
+      "verdict": "ok",
+      "seen": "Sensorial experiences: Medium Puppy bag + Medium Puppy 140 g gravy pouch (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12925.png"
+     },
+     {
+      "pos": 6,
+      "media": 12928,
+      "verdict": "ok",
+      "seen": "At 12 months switch to adult: Medium Puppy bag + pouch, then Cocker Adult / Medium Adult bags; RC line infographic (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12928.jpg"
+     },
+     {
+      "pos": 7,
+      "media": 12931,
+      "verdict": "ok",
+      "seen": "Analytical constituents: protein 32%, fat 20%, composition and additives (Medium Puppy) (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12931.png"
+     },
+     {
+      "pos": 8,
+      "media": 12934,
+      "verdict": "ok",
+      "seen": "Feeding instructions: kibble only / mix with Medium Puppy 140 g pouch, adult target weight 14 kg, 4125 kcal/kg (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12934.png"
+     },
+     {
+      "pos": 9,
+      "media": 12937,
+      "verdict": "ok",
+      "seen": "How to transition your pet's food, 7-day chart, generic RC (1 kg loose twin reuses bag gallery)",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12937.jpg"
+     }
+    ]
+   }
+  ]
+ }
+]

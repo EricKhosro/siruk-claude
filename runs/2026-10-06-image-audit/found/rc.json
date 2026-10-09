@@ -1,0 +1,207 @@
+[
+ {
+  "product_id": "1252",
+  "sku": "9003579311721",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch). RC UK hair&skin-thin-slices-in-jelly-4151 keys our EAN as '12x85 g' (packMultiplicator 12 = 12 single pouches), but its only image is the single-pouch packshot (FCN22 HAIR&SKIN JELLY PACKSHOT POUCH, '85 g'); the IT main visual has no size; no box / '85g x12' visual exists for this recipe on any RC site checked.",
+  "lens_hint": "Royal Canin Care Hair & Skin thin slices in jelly 12 x 85 g box carton"
+ },
+ {
+  "product_id": "1254",
+  "sku": "9003579309537",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch). RC UK digestive-care-thin-slices-in-gravy-4076 keys our EAN as '12x85 g' (12 × pouch); gallery = single pouch '85 g' packshot + infographics; IT main visual (Fettine in salsa) prints no size; DE case EAN 9003579309568 page shows the same pouch. No carton visual found.",
+  "lens_hint": "Royal Canin Care Digestive thin slices in gravy 12 x 85 g box"
+ },
+ {
+  "product_id": "1255",
+  "sku": "9003579308936",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579308936/1-royalcanin.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/2e55ccae-8a49-497f-b882-b1ef00126512/2e55ccae-8a49-497f-b882-b1ef00126512_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/uk/cats/products/retail-products/instinctive-gravy-4059)",
+    "keyed_by": "RC UK page ld+json gtin13 9003579308936, size '12x85 g' (sku 12-9003579308936)",
+    "seen": "FHN-Wet-InstinctiveGravy-MV-Eretailkit: Instinctive pouch with '85g x12' badge, GRAVY texture tile, 2186 px; brand main visual, has 'Health Nutrition / Instinctively preferred' icons on the left (not a bare packshot)"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1255",
+  "sku": "9003579309513",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch). RC UK/DE/14 other country pages for instinctive-jelly-4074 (UK keys our EAN as '12x85 g'; DE case EAN 9003579309544). The only '85g x12' image on that page is FHN-Wet-InstinctiveLoaf-MV-Eretailkit, which shows the LOAF texture, so it was rejected (wrong texture, mis-tagged by RC). thevetshed.com.au, which prints the case EAN 9003579309544, shows the single jelly pouch only.",
+  "lens_hint": "Royal Canin Instinctive thin slices in jelly 12 x 85 g box \"85g x12\" jelly"
+ },
+ {
+  "product_id": "1256",
+  "sku": "10030111604351",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/10030111604351/1-royalcanin-se.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/ca9401d3-d03d-45f5-b529-b20b003c6854/ca9401d3-d03d-45f5-b529-b20b003c6854_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/se/cats/products/retail-products/kitten--chunks-in-gravy-4058)",
+    "keyed_by": "brand page for the same recipe (world-wide item 4058, 12x85 g, case EAN 9003579308745); RC UK keys our GTIN-14 10030111604351 to item 4058 '12x85 g'",
+    "seen": "SOL - KITTEN CIG - WET - PACKSHOT BOX: closed carton, front prints '12 x 85 g Pouch', KITTEN up to 12 months, 'IN GRAVY', 'x12' on the side; 3480x3508, white background, product sits upper-left with large margin"
+   },
+   {
+    "file": "found/10030111604351/2-royalcanin-fr.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/5524040b-ae1d-4b5d-91e0-b20b003817da/5524040b-ae1d-4b5d-91e0-b20b003817da_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/fr/cats/products/retail-products/kitten--chunks-in-gravy-4058)",
+    "keyed_by": "brand page for the same recipe (item 4058, 12x85 g)",
+    "seen": "RC-SPT-WET-Kitten-CIG-MV-1-fr_FR: Kitten pouch with '85 g x12' badge, chunks in gravy tile; French captions 'Bouchées en sauce'"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1256",
+  "sku": "9003579311714",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579311714/1-royalcanin.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/48ac2866-9068-44e9-bb56-b1ef001bcb7b/48ac2866-9068-44e9-bb56-b1ef001bcb7b_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/uk/cats/products/retail-products/kitten--chunks-in-jelly-4150)",
+    "keyed_by": "RC UK page ld+json gtin13 9003579311714, size '12x85 g'",
+    "seen": "SOL HERO IMAGE WET KITTEN CIJ MV1: Kitten pouch with '85 g x12' badge, 'Chunks in jelly' + jelly bowl, 5000 px; brand main visual with a texture call-out on the left"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1256",
+  "sku": "9003579003848",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579003848/1-royalcanin.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/1422f990-15c4-40fa-a274-b1ef001bd0ed/1422f990-15c4-40fa-a274-b1ef001bd0ed_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/uk/cats/products/retail-products/kitten-loaf-in-sauce-4145)",
+    "keyed_by": "RC UK page ld+json gtin13 9003579003848, size '12x85 g'",
+    "seen": "SOL HERO IMAGE WET KITTEN LOAF MV1: Kitten pouch with '85 g x12' badge, 'Loaf in sauce' + loaf slices, 5000 px; brand main visual with a texture call-out on the left. (carrefour-es's photo under this EAN shows a Kitten JELLY pouch; ignored)"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1257",
+  "sku": "9003579310168",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch). RC UK instinctive-7+-gravy-4083 keys our EAN as '12x85 g' (12 × pouch); DE case EAN 9003579310182. Every country page shows only FHNW16_INS7_CIG_S_POUCH (single pouch, '85 g'). No MV or box visual for this recipe.",
+  "lens_hint": "Royal Canin Instinctive 7+ chunks in gravy 12 x 85 g box"
+ },
+ {
+  "product_id": "1259",
+  "sku": "9003579050057",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch). RC DE ageing-11+-chunks-in-jelly-4153 lists 9003579050057 as the AGEING 11+ chunks in jelly 85 g POUCH (case EAN 9003579050040). The recipe is now sold as '11+' (the old '12+' pack is renamed). Every visual on FR/IT/SE/PL/FI/NL pages (Ageing 12+/11+ In Jelly MV series, PSR-FHN25 packshot) shows the single 85 g pouch. No box or x12 visual.",
+  "lens_hint": "Royal Canin Ageing 11+ (12+) chunks in jelly 12 x 85 g box"
+ },
+ {
+  "product_id": "1260",
+  "sku": "9003579311776",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579311776/1-royalcanin.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/0482b0ae-11b6-40a2-853c-b1ef0012690f/0482b0ae-11b6-40a2-853c-b1ef0012690f_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/uk/cats/products/retail-products/sterilised-jelly-4156)",
+    "keyed_by": "RC UK page ld+json gtin13 9003579311776, size '12x85 g'",
+    "seen": "FHN-Wet-SterilisedJelly-MV-Eretailkit: Sterilised pouch with '85g x12' badge, JELLY texture tile, 2186 px; brand main visual with 'Weight maintenance' icons on the left"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1260",
+  "sku": "9003579003916",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579003916/1-royalcanin.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/14d414be-82a0-4280-a745-b1ef00126a39/14d414be-82a0-4280-a745-b1ef00126a39_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/nl/cats/products/retail-products/sterilised-loaf-4147)",
+    "keyed_by": "RC NL/DE page: our EAN 9003579003916 is the '12x85 g' pack (packMultiplicator 1, i.e. a case EAN)",
+    "seen": "FHN-Wet-SterilisedLoaf-MV-Eretailkit: Sterilised pouch with '85g x12' badge, LOAF texture tile, 2186 px; brand main visual with 'Weight maintenance' icons on the left"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch). The variant's gallery is empty now: this is its only image.",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1264",
+  "sku": "9003579018514",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579018514/1-royalcanin-fr.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/2207fa77-4327-4e7f-b662-b20b002d891b/2207fa77-4327-4e7f-b662-b20b002d891b_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/fr/cats/products/retail-products/sensory-smell-chunks-in-gravy-1517)",
+    "keyed_by": "brand page for the same recipe (item 1517, 12x85 g, case EAN 9003579018507); RC UK keys our EAN 9003579018514 as '12x85 g'",
+    "seen": "FHNW21 SENSORY SMELL CIG PACKSHOT BOX (open): Sensory Smell display carton filled with pouches, front pouch reads '85 g Chunks in gravy'; 3480x3508, white bg. The carton's own 'x12' is not visible in this open-box shot. A closed-box shot was not found for Smell"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1265",
+  "sku": "9003579018866",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579018866/1-royalcanin-se.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/82400f93-6457-4900-8901-b20b002d8914/82400f93-6457-4900-8901-b20b002d8914_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/se/cats/products/retail-products/sensory-taste-chunks-in-gravy-1518)",
+    "keyed_by": "brand page for the same recipe (item 1518, 12x85 g, case EAN 9003579018859); RC UK keys our EAN 9003579018866 as '12x85 g'",
+    "seen": "FHNW21 SENSORY TASTE CIG PACKSHOT BOX-C: closed carton, 'x12 Pouch' on front and side, '85 g/г Chunks in gravy', SENSORY TASTE; 3480x3508"
+   },
+   {
+    "file": "found/9003579018866/2-royalcanin-fr.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/66981a34-8d13-4d3d-8c3b-b20b002d8995/66981a34-8d13-4d3d-8c3b-b20b002d8995_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/fr/cats/products/retail-products/sensory-taste-chunks-in-gravy-1518)",
+    "keyed_by": "brand page for the same recipe (item 1518, 12x85 g)",
+    "seen": "FHNW21 SENSORY TASTE CIG PACKSHOT BOX-O: open display carton, pouch reads SENSORY TASTE, 85 g Chunks in gravy"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1266",
+  "sku": "9003579018941",
+  "status": "skip-case-variant-not-purchasable",
+  "images": [
+   {
+    "file": "found/9003579018941/1-royalcanin-se.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/a8ee3f79-44fa-47bd-9e3c-b20b002d8672/a8ee3f79-44fa-47bd-9e3c-b20b002d8672_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/se/cats/products/retail-products/sensory-feel-morsels-in-gravy-1519)",
+    "keyed_by": "brand page for the same recipe (item 1519, 12x85 g, case EAN 9003579018934); RC UK keys our EAN 9003579018941 as '12x85 g'",
+    "seen": "FHNW21 SENSORY FEEL MIG PACKSHOT BOX C: closed carton, 'x12 Pouch' on front and side, '85 g Morsels in gravy', SENSORY FEEL; 3480x3508"
+   },
+   {
+    "file": "found/9003579018941/2-royalcanin-fr.jpg",
+    "url": "https://marspetcareaprimocdn.petcare.global/0cdb49bd-c39f-4b0c-8fc1-b1ef00126ed9/0cdb49bd-c39f-4b0c-8fc1-b1ef00126ed9_DownloadAsJpg.jpg",
+    "source": "royalcanin.com (https://www.royalcanin.com/fr/cats/products/retail-products/sensory-feel-morsels-in-gravy-1519)",
+    "keyed_by": "brand page for the same recipe (item 1519, 12x85 g)",
+    "seen": "FHNW21 SENSORY FEEL MIG PACKSHOT BOX-O: open display carton, pouch reads SENSORY FEEL, 85 g Morsels in gravy"
+   }
+  ],
+  "tried": "royalcanin.com product pages (UK/IE/DE/NL/FR/IT/ES/PL/SE/BE/AT/CH/AU/FI/DK/NO/HU/PT/RU/UA/KZ/GE/TR/AE) incl. every DAM image label on the page; ean-image-lookup.py (carrefour-es shows the single pouch only); WebSearch EAN + '12x85g' retailers (thevetshed.com.au, petcity, jollyes, zooplus show the single pouch)",
+  "lens_hint": ""
+ }
+]

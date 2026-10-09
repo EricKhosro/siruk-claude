@@ -1,0 +1,542 @@
+[
+ {
+  "product_id": "653",
+  "product": "Solo Monoprotein Adult Dog Paté",
+  "brand": "Monge",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 777,
+    "sku": "014217",
+    "label": "Chicken 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (Հավ )",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico հավ 400գ  ",
+    "ean": "8009470014212",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4820",
+      "file": "monge-dog-solo-chicken-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4820.jpg",
+      "md5": "e71792f1822481864bd9c60806b03475"
+     },
+     {
+      "pos": 1,
+      "media": "4823",
+      "file": "monge-dog-solo-chicken-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4823.jpg",
+      "md5": "e02124876ef7f79ba1002e1ad9f64426"
+     },
+     {
+      "pos": 2,
+      "media": "4826",
+      "file": "monge-dog-solo-chicken-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4826.jpg",
+      "md5": "882ce8f1d8f67bf8fb4be91f1fcdde49"
+     },
+     {
+      "pos": 3,
+      "media": "4829",
+      "file": "monge-dog-solo-chicken-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4829.jpg",
+      "md5": "6a95487f9c0561435df2de1627e8a268"
+     }
+    ]
+   },
+   {
+    "variant_id": 778,
+    "sku": "014227",
+    "label": "Turkey 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Turkey; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (Հնդկահավ)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico հնդկահավ  400գ",
+    "ean": "8009470014229",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4832",
+      "file": "monge-dog-solo-turkey-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4832.jpg",
+      "md5": "9cecce71feaa72b684f920009f77099b"
+     },
+     {
+      "pos": 1,
+      "media": "4835",
+      "file": "monge-dog-solo-turkey-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4835.jpg",
+      "md5": "1d19974385452dad6f16ed82ceb070f3"
+     },
+     {
+      "pos": 2,
+      "media": "4838",
+      "file": "monge-dog-solo-turkey-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4838.jpg",
+      "md5": "8d2b40eede052eb3eb4190228ec0b5d1"
+     },
+     {
+      "pos": 3,
+      "media": "4841",
+      "file": "monge-dog-solo-turkey-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4841.jpg",
+      "md5": "d8145f0915930aad9609db67fe04bf58"
+     }
+    ]
+   },
+   {
+    "variant_id": 779,
+    "sku": "014237",
+    "label": "Lamb 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Lamb; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (Գառ)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico` գառ, 400գ",
+    "ean": "8009470014236",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4844",
+      "file": "monge-dog-solo-lamb-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4844.jpg",
+      "md5": "6b8bf419842204df6792a44499c9ce98"
+     },
+     {
+      "pos": 1,
+      "media": "4847",
+      "file": "monge-dog-solo-lamb-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4847.jpg",
+      "md5": "a65c74ada04c45a34408ca4a4b017404"
+     },
+     {
+      "pos": 2,
+      "media": "4850",
+      "file": "monge-dog-solo-lamb-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4850.jpg",
+      "md5": "24eec715d5f474dca4396fa66a251bd8"
+     },
+     {
+      "pos": 3,
+      "media": "4853",
+      "file": "monge-dog-solo-lamb-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4853.jpg",
+      "md5": "0513ea3d09b818b48b85d4d7c62dea81"
+     }
+    ]
+   },
+   {
+    "variant_id": 780,
+    "sku": "014247",
+    "label": "Tuna 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Tuna; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների պահածո Monge Monoprotein  (Թյունոս)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico, ձուկ 400գ ",
+    "ean": "8009470014243",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4856",
+      "file": "monge-dog-solo-tuna-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4856.jpg",
+      "md5": "026d797a922b7b13fc52d98aaa6cc0a2"
+     },
+     {
+      "pos": 1,
+      "media": "4859",
+      "file": "monge-dog-solo-tuna-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4859.jpg",
+      "md5": "b04c1eaf47b92e046580fecfcc06f248"
+     },
+     {
+      "pos": 2,
+      "media": "4862",
+      "file": "monge-dog-solo-tuna-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4862.jpg",
+      "md5": "1f7539fd966e36ab144bfe04ee983124"
+     },
+     {
+      "pos": 3,
+      "media": "4865",
+      "file": "monge-dog-solo-tuna-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4865.jpg",
+      "md5": "fa1d6115e2f2a29b16526718f893b1ab"
+     }
+    ]
+   },
+   {
+    "variant_id": 781,
+    "sku": "014437",
+    "label": "Duck 400 g",
+    "size_label": "400 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Կեր շների համար պահածո Monge Monoprotein (բադ)",
+    "hafo_variant_hy": "Պահածո շն Monge Grain Free Monoproteico բադ 400գ",
+    "ean": "8009470014434",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4868",
+      "file": "monge-dog-solo-duck-400g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4868.jpg",
+      "md5": "6aff85a9fe4262863cdb4507aef3cabd"
+     },
+     {
+      "pos": 1,
+      "media": "4871",
+      "file": "monge-dog-solo-duck-400g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4871.jpg",
+      "md5": "496077ac1f82c64556d446faf12601f6"
+     },
+     {
+      "pos": 2,
+      "media": "4874",
+      "file": "monge-dog-solo-duck-400g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4874.jpg",
+      "md5": "f3be9921c1dbd5a536eb04925902a16f"
+     },
+     {
+      "pos": 3,
+      "media": "4877",
+      "file": "monge-dog-solo-duck-400g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4877.jpg",
+      "md5": "067133ec81f7bdfe1a5a6db7642e687b"
+     }
+    ]
+   },
+   {
+    "variant_id": 782,
+    "sku": "014137",
+    "label": "Chicken 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Chicken; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Monoproteico հավով պաշտետ (150 գ)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, հավ 150գ",
+    "ean": "8009470014137",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4880",
+      "file": "monge-dog-solo-chicken-150g.jpg-4",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4880.jpg",
+      "md5": "dd6ec20016ea90a66131e2db29da672c"
+     },
+     {
+      "pos": 1,
+      "media": "7273",
+      "file": "SOLO-POLLO-VERTICALE_8009470014137",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7273.jpg",
+      "md5": "91d7a88527504c36ddb11abe945ba8be"
+     },
+     {
+      "pos": 2,
+      "media": "4883",
+      "file": "monge-dog-solo-chicken-150g.jpg-5",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4883.jpg",
+      "md5": "07a8c924b09413aa2dc93260737a6af9"
+     },
+     {
+      "pos": 3,
+      "media": "4886",
+      "file": "monge-dog-solo-chicken-150g.jpg-6",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4886.jpg",
+      "md5": "882ce8f1d8f67bf8fb4be91f1fcdde49"
+     },
+     {
+      "pos": 4,
+      "media": "4889",
+      "file": "monge-dog-solo-chicken-150g.jpg-7",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4889.jpg",
+      "md5": "6a95487f9c0561435df2de1627e8a268"
+     }
+    ]
+   },
+   {
+    "variant_id": 783,
+    "sku": "014147",
+    "label": "Turkey 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Turkey; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  հնդկահավի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, հնդկահավ 150գ",
+    "ean": "8009470014144",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4892",
+      "file": "monge-dog-solo-turkey-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4892.jpg",
+      "md5": "0734625349c1135525313b2df14b1b9b"
+     },
+     {
+      "pos": 1,
+      "media": "7276",
+      "file": "SOLO-TACCHINO-VERTICALE_8009470014144",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7276.jpg",
+      "md5": "9396b95af582cdf4a5610e142547d521"
+     },
+     {
+      "pos": 2,
+      "media": "4895",
+      "file": "monge-dog-solo-turkey-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4895.jpg",
+      "md5": "595e3161b3fc87a4e1a1fb9ace58c9e7"
+     },
+     {
+      "pos": 3,
+      "media": "4898",
+      "file": "monge-dog-solo-turkey-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4898.jpg",
+      "md5": "8d2b40eede052eb3eb4190228ec0b5d1"
+     },
+     {
+      "pos": 4,
+      "media": "4901",
+      "file": "monge-dog-solo-turkey-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4901.jpg",
+      "md5": "d8145f0915930aad9609db67fe04bf58"
+     }
+    ]
+   },
+   {
+    "variant_id": 784,
+    "sku": "014177",
+    "label": "Venison 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Venison; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  եղնիկի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, եղնիկ 150գ",
+    "ean": "8009470014175",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4904",
+      "file": "monge-dog-solo-deer-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4904.jpg",
+      "md5": "52ec2f872e2cd5f62c9c45a04ee7b0d4"
+     },
+     {
+      "pos": 1,
+      "media": "7279",
+      "file": "SOLO-CERVO-VERTICALE_8009470014175",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7279.jpg",
+      "md5": "fbcd131f073e66bce1e05dd8c0f2f11f"
+     },
+     {
+      "pos": 2,
+      "media": "4907",
+      "file": "monge-dog-solo-deer-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4907.jpg",
+      "md5": "5c8b319ce85981ce510c63628de64bc1"
+     },
+     {
+      "pos": 3,
+      "media": "4910",
+      "file": "monge-dog-solo-deer-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4910.jpg",
+      "md5": "d6eb7cf79bedcbc2cae59aeb746bd9f6"
+     },
+     {
+      "pos": 4,
+      "media": "4913",
+      "file": "monge-dog-solo-deer-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4913.jpg",
+      "md5": "c0d7c119f438f5dcd71c9487e73ada07"
+     }
+    ]
+   },
+   {
+    "variant_id": 785,
+    "sku": "014187",
+    "label": "Duck 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Duck; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  բադի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, բադ 150գ",
+    "ean": "8009470014182",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4916",
+      "file": "monge-dog-solo-duck-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4916.jpg",
+      "md5": "4b2f939a8ad2447283477fa54159fc7b"
+     },
+     {
+      "pos": 1,
+      "media": "7282",
+      "file": "SOLO-ANATRA-VERTICALE_8009470014182",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7282.jpg",
+      "md5": "44512e9949138f8e95e5a227882464d3"
+     },
+     {
+      "pos": 2,
+      "media": "4919",
+      "file": "monge-dog-solo-duck-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4919.jpg",
+      "md5": "83f013bc36826c36c0a420d5b738dfa0"
+     },
+     {
+      "pos": 3,
+      "media": "4922",
+      "file": "monge-dog-solo-duck-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4922.jpg",
+      "md5": "f3be9921c1dbd5a536eb04925902a16f"
+     },
+     {
+      "pos": 4,
+      "media": "4925",
+      "file": "monge-dog-solo-duck-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4925.jpg",
+      "md5": "067133ec81f7bdfe1a5a6db7642e687b"
+     }
+    ]
+   },
+   {
+    "variant_id": 786,
+    "sku": "014407",
+    "label": "Beef 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Beef; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  հորթի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, հորթ 150գ",
+    "ean": "8009470014403",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4928",
+      "file": "monge-dog-solo-beef-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4928.jpg",
+      "md5": "7bb3e3ad6d6938a23bbc8aa2f6278abb"
+     },
+     {
+      "pos": 1,
+      "media": "7285",
+      "file": "SOLO-MANZO-VERTICALE_8009470014403",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7285.jpg",
+      "md5": "b23bf735a3d635776bcdfde3d3a3cf37"
+     },
+     {
+      "pos": 2,
+      "media": "4931",
+      "file": "monge-dog-solo-beef-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4931.jpg",
+      "md5": "214a92648b5fa7960764dc50e437fef6"
+     },
+     {
+      "pos": 3,
+      "media": "4934",
+      "file": "monge-dog-solo-beef-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4934.jpg",
+      "md5": "c3fb660a1f93204f831df27aa966f7e4"
+     },
+     {
+      "pos": 4,
+      "media": "4937",
+      "file": "monge-dog-solo-beef-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4937.jpg",
+      "md5": "b4dcb11ad726662cf84a9c7b2b4ab78c"
+     }
+    ]
+   },
+   {
+    "variant_id": 787,
+    "sku": "014417",
+    "label": "Pork 150 g",
+    "size_label": "150 g",
+    "options": "Flavor=Pork; Food Texture=Pate; Packaging Type=Can",
+    "hafo_title_hy": "Monge Solo պաշտետ շների համար՝  խոզի համով, 150 գ (grain free)",
+    "hafo_variant_hy": "Կեր շն Monge Grain Free Monoproteico, խոզ 150գ",
+    "ean": "8009470014410",
+    "images": [
+     {
+      "pos": 0,
+      "media": "4940",
+      "file": "monge-dog-solo-pork-150g",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4940.jpg",
+      "md5": "b93771e98ddc02eb0c764099e3feba90"
+     },
+     {
+      "pos": 1,
+      "media": "7288",
+      "file": "SOLO-MAIALE-VERTICALE_8009470014410",
+      "dims": "978x978",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/7288.jpg",
+      "md5": "f34920aea8efcb91aeecb30c4718b02d"
+     },
+     {
+      "pos": 2,
+      "media": "4943",
+      "file": "monge-dog-solo-pork-150g.jpg-1",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4943.jpg",
+      "md5": "34d9997c397f043740d6efa4cf860d41"
+     },
+     {
+      "pos": 3,
+      "media": "4946",
+      "file": "monge-dog-solo-pork-150g.jpg-2",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4946.jpg",
+      "md5": "54a81cd327a094d3c0d56aaa4798611b"
+     },
+     {
+      "pos": 4,
+      "media": "4949",
+      "file": "monge-dog-solo-pork-150g.jpg-3",
+      "dims": "1100x1422",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4949.jpg",
+      "md5": "82b3b0749b2aa6019954e66c87f12e92"
+     }
+    ]
+   }
+  ]
+ }
+]

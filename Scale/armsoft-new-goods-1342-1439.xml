@@ -1,0 +1,6084 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1342</Code>
+    <Name>Royal Canin Maxi Adult, 15 կգ</Name>
+    <LongName>Royal Canin Maxi Adult — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00075</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1342</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182551055955</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1342</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00075</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1343</Code>
+    <Name>Royal Canin Maxi Adult 5+, 15 կգ</Name>
+    <LongName>Royal Canin Maxi Adult 5+ — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00076</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1343</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550402316</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1343</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00076</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1344</Code>
+    <Name>Royal Canin Maxi Puppy, 15 կգ</Name>
+    <LongName>Royal Canin Maxi Puppy — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00077</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1344</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550402163</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1344</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00077</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1345</Code>
+    <Name>Royal Canin Maxi Starter Mother &amp; Babydog, 15 կգ</Name>
+    <LongName>Royal Canin Maxi Starter Mother &amp; Babydog — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00078</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1345</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550778787</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1345</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00078</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1346</Code>
+    <Name>Royal Canin Medium Adult, 15 կգ</Name>
+    <LongName>Royal Canin Medium Adult — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00079</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1346</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182551055849</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1346</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00079</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1347</Code>
+    <Name>Royal Canin Medium Puppy, 15 կգ</Name>
+    <LongName>Royal Canin Medium Puppy — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00080</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1347</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550402132</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1347</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00080</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1348</Code>
+    <Name>Royal Canin Mini Adult, 8 կգ</Name>
+    <LongName>Royal Canin Mini Adult — 8 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00081</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1348</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182551055740</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1348</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00081</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1349</Code>
+    <Name>Royal Canin Mini Puppy, 8 կգ</Name>
+    <LongName>Royal Canin Mini Puppy — 8 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00082</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1349</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550793049</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1349</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00082</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1350</Code>
+    <Name>Royal Canin Mini Adult 8+, 8 կգ</Name>
+    <LongName>Royal Canin Mini Adult 8+ — 8 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00083</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1350</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550831406</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1350</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00083</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1351</Code>
+    <Name>Royal Canin Maxi Joint Care, 10 կգ</Name>
+    <LongName>Royal Canin Maxi Joint Care — 10 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00084</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1351</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550893701</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1351</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00084</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1352</Code>
+    <Name>Royal Canin Mini Starter Mother &amp; Babydog, 8 կգ</Name>
+    <LongName>Royal Canin Mini Starter Mother &amp; Babydog — 8 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00085</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1352</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550932691</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1352</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00085</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1353</Code>
+    <Name>Royal Canin Fit 32, 15 կգ</Name>
+    <LongName>Royal Canin Fit 32 — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00086</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1353</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550702256</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1353</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00086</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1354</Code>
+    <Name>Royal Canin Kitten, 10 կգ</Name>
+    <LongName>Royal Canin Kitten — 10 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00087</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1354</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550702973</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1354</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00087</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1355</Code>
+    <Name>Royal Canin Sterilised 37, 15 կգ</Name>
+    <LongName>Royal Canin Sterilised 37 — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00088</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1355</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550777308</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1355</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00088</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1356</Code>
+    <Name>Royal Canin Hairball Care, 10 կգ</Name>
+    <LongName>Royal Canin Hairball Care — 10 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00089</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1356</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550721424</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1356</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00089</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1357</Code>
+    <Name>Royal Canin Hypoallergenic կատուների համար, 4.5 կգ</Name>
+    <LongName>Royal Canin Hypoallergenic Cat — 4.5 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00090</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1357</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550939560</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1357</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00090</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1358</Code>
+    <Name>Royal Canin Urinary S/O կատուների համար, 7 կգ</Name>
+    <LongName>Royal Canin Urinary S/O Cat — 7 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00091</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>7.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1358</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550859554</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1358</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00091</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1359</Code>
+    <Name>Royal Canin Hypoallergenic շների համար, 14 կգ</Name>
+    <LongName>Royal Canin Hypoallergenic Dog — 14 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00092</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>14.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1359</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550939904</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1359</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00092</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1360</Code>
+    <Name>Royal Canin Gastrointestinal շների համար, 15 կգ</Name>
+    <LongName>Royal Canin Gastrointestinal Dog — 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00093</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1360</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550905695</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1360</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00093</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1361</Code>
+    <Name>Royal Canin Urinary S/O շների համար, 13 կգ</Name>
+    <LongName>Royal Canin Urinary S/O Dog — 13 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00094</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>13.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1361</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550896856</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1361</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00094</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1362</Code>
+    <Name>Royal Canin Renal շների համար, 14 կգ</Name>
+    <LongName>Royal Canin Renal Dog — 14 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00095</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>14.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1362</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550842556</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1362</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00095</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1363</Code>
+    <Name>Royal Canin Hepatic շների համար, 12 կգ</Name>
+    <LongName>Royal Canin Hepatic Dog — 12 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00096</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>12.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1363</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550771740</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1363</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00096</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1364</Code>
+    <Name>Royal Canin Gastrointestinal Puppy, 10 կգ</Name>
+    <LongName>Royal Canin Gastrointestinal Puppy — 10 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00097</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1364</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550771047</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1364</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00097</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1365</Code>
+    <Name>Royal Canin Hair &amp; Skin Care, բարակ շերտեր, սոուսում 12 × 85 գ</Name>
+    <LongName>Royal Canin Hair &amp; Skin Care Thin Slices — In Gravy 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579308721</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1365</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579308721</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1366</Code>
+    <Name>Royal Canin Hair &amp; Skin Care, բարակ շերտեր, սոուսում 85 գ</Name>
+    <LongName>Royal Canin Hair &amp; Skin Care Thin Slices — In Gravy 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579308929</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1366</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579308929</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1367</Code>
+    <Name>Royal Canin Hair &amp; Skin Care, բարակ շերտեր, ժելեում 12 × 85 գ</Name>
+    <LongName>Royal Canin Hair &amp; Skin Care Thin Slices — In Jelly 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311790</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1367</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311790</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1368</Code>
+    <Name>Royal Canin Hair &amp; Skin Care, բարակ շերտեր, ժելեում 85 գ</Name>
+    <LongName>Royal Canin Hair &amp; Skin Care Thin Slices — In Jelly 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311721</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1368</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311721</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1369</Code>
+    <Name>Royal Canin Sensitivity Control հավի մսով և բրնձով, հավ 12 × 85 գ</Name>
+    <LongName>Royal Canin Sensitivity Control Chicken with Rice — Chicken 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579011423</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1369</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579011423</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1370</Code>
+    <Name>Royal Canin Sensitivity Control հավի մսով և բրնձով, հավ 85 գ</Name>
+    <LongName>Royal Canin Sensitivity Control Chicken with Rice — Chicken 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579011430</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1370</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579011430</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1371</Code>
+    <Name>Royal Canin Digestive Care, բարակ շերտեր սոուսի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Digestive Care Thin Slices in Gravy — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579309568</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1371</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579309568</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1372</Code>
+    <Name>Royal Canin Digestive Care, բարակ շերտեր սոուսի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Digestive Care Thin Slices in Gravy — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579309537</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1372</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579309537</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1373</Code>
+    <Name>Royal Canin Instinctive, բարակ շերտեր, սոուսում 12 × 85 գ</Name>
+    <LongName>Royal Canin Instinctive Thin Slices — In Gravy 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579308738</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1373</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579308738</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1374</Code>
+    <Name>Royal Canin Instinctive, բարակ շերտեր, սոուսում 85 գ</Name>
+    <LongName>Royal Canin Instinctive Thin Slices — In Gravy 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579308936</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1374</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579308936</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1375</Code>
+    <Name>Royal Canin Instinctive, բարակ շերտեր, ժելեում 12 × 85 գ</Name>
+    <LongName>Royal Canin Instinctive Thin Slices — In Jelly 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579309544</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1375</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579309544</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1376</Code>
+    <Name>Royal Canin Instinctive, բարակ շերտեր, ժելեում 85 գ</Name>
+    <LongName>Royal Canin Instinctive Thin Slices — In Jelly 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579309513</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1376</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579309513</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1377</Code>
+    <Name>Royal Canin Kitten խոնավ կեր, սոուսում 12 × 85 գ</Name>
+    <LongName>Royal Canin Kitten Wet — In Gravy 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>10030111604351</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1377</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>10030111604351</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1378</Code>
+    <Name>Royal Canin Kitten խոնավ կեր, սոուսում 85 գ</Name>
+    <LongName>Royal Canin Kitten Wet — In Gravy 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579308943</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1378</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579308943</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1379</Code>
+    <Name>Royal Canin Kitten խոնավ կեր, ժելեում 12 × 85 գ</Name>
+    <LongName>Royal Canin Kitten Wet — In Jelly 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311783</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1379</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311783</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1380</Code>
+    <Name>Royal Canin Kitten խոնավ կեր, ժելեում 85 գ</Name>
+    <LongName>Royal Canin Kitten Wet — In Jelly 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311714</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1380</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311714</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1381</Code>
+    <Name>Royal Canin Kitten խոնավ կեր, պաշտետ 12 × 85 գ</Name>
+    <LongName>Royal Canin Kitten Wet — Loaf 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579003831</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1381</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579003831</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1382</Code>
+    <Name>Royal Canin Kitten խոնավ կեր, պաշտետ 85 գ</Name>
+    <LongName>Royal Canin Kitten Wet — Loaf 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579003848</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1382</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579003848</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1383</Code>
+    <Name>Royal Canin Instinctive 7+, կտորներ սոուսի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Instinctive 7+ Chunks in Gravy — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579310182</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1383</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579310182</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1384</Code>
+    <Name>Royal Canin Instinctive 7+, կտորներ սոուսի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Instinctive 7+ Chunks in Gravy — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579310168</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1384</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579310168</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1385</Code>
+    <Name>Royal Canin Light Weight Care, բարակ շերտեր, սոուսում 12 × 85 գ</Name>
+    <LongName>Royal Canin Light Weight Care Thin Slices — In Gravy 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579308707</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1385</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579308707</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1386</Code>
+    <Name>Royal Canin Light Weight Care, բարակ շերտեր, սոուսում 85 գ</Name>
+    <LongName>Royal Canin Light Weight Care Thin Slices — In Gravy 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579308769</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1386</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579308769</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1387</Code>
+    <Name>Royal Canin Light Weight Care, բարակ շերտեր, ժելեում 12 × 85 գ</Name>
+    <LongName>Royal Canin Light Weight Care Thin Slices — In Jelly 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311806</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1387</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311806</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1388</Code>
+    <Name>Royal Canin Light Weight Care, բարակ շերտեր, ժելեում 85 գ</Name>
+    <LongName>Royal Canin Light Weight Care Thin Slices — In Jelly 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311738</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1388</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311738</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1389</Code>
+    <Name>Royal Canin Ageing 12+, կտորներ ժելեի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Ageing 12+ Chunks in Jelly — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579050040</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1389</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579050040</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1390</Code>
+    <Name>Royal Canin Ageing 12+, կտորներ ժելեի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Ageing 12+ Chunks in Jelly — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579050057</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1390</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579050057</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1391</Code>
+    <Name>Royal Canin Sterilised խոնավ կեր, ժելեում 12 × 85 գ</Name>
+    <LongName>Royal Canin Sterilised Wet — In Jelly 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311844</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1391</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311844</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1392</Code>
+    <Name>Royal Canin Sterilised խոնավ կեր, ժելեում 85 գ</Name>
+    <LongName>Royal Canin Sterilised Wet — In Jelly 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311776</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1392</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311776</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1393</Code>
+    <Name>Royal Canin Sterilised խոնավ կեր, պաշտետ 12 × 85 գ</Name>
+    <LongName>Royal Canin Sterilised Wet — Loaf 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579003916</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1393</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579003916</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1394</Code>
+    <Name>Royal Canin Sterilised խոնավ կեր, պաշտետ 85 գ</Name>
+    <LongName>Royal Canin Sterilised Wet — Loaf 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579003923</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1394</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579003923</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1395</Code>
+    <Name>Royal Canin Urinary S/O, կտորներ սոուսի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Urinary S/O Morsels in Gravy — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579010044</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1395</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579010044</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1396</Code>
+    <Name>Royal Canin Urinary S/O, կտորներ սոուսի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Urinary S/O Morsels in Gravy — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579010051</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1396</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579010051</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1397</Code>
+    <Name>Royal Canin Renal, բարակ շերտեր սոուսի մեջ, հավ 12 × 85 գ</Name>
+    <LongName>Royal Canin Renal Thin Slices in Gravy — Chicken 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579000458</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1397</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579000458</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1398</Code>
+    <Name>Royal Canin Renal, բարակ շերտեր սոուսի մեջ, հավ 85 գ</Name>
+    <LongName>Royal Canin Renal Thin Slices in Gravy — Chicken 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579000465</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1398</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579000465</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1399</Code>
+    <Name>Royal Canin Renal, բարակ շերտեր սոուսի մեջ, ձուկ 12 × 85 գ</Name>
+    <LongName>Royal Canin Renal Thin Slices in Gravy — Fish 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579000519</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1399</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579000519</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1400</Code>
+    <Name>Royal Canin Renal, բարակ շերտեր սոուսի մեջ, ձուկ 85 գ</Name>
+    <LongName>Royal Canin Renal Thin Slices in Gravy — Fish 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579000526</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1400</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579000526</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1401</Code>
+    <Name>Royal Canin Urinary Care սոուսի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Urinary Care in Gravy — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579000359</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1401</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579000359</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1402</Code>
+    <Name>Royal Canin Urinary Care սոուսի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Urinary Care in Gravy — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579000366</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1402</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579000366</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1403</Code>
+    <Name>Royal Canin Sensory Smell, կտորներ սոուսի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Sensory Smell Chunks in Gravy — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579018507</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1403</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579018507</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1404</Code>
+    <Name>Royal Canin Sensory Smell, կտորներ սոուսի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Sensory Smell Chunks in Gravy — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579018514</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1404</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579018514</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1405</Code>
+    <Name>Royal Canin Sensory Taste, կտորներ սոուսի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Sensory Taste Chunks in Gravy — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579018859</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1405</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579018859</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1406</Code>
+    <Name>Royal Canin Sensory Taste, կտորներ սոուսի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Sensory Taste Chunks in Gravy — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579018866</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1406</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579018866</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1407</Code>
+    <Name>Royal Canin Sensory Feel, կտորներ սոուսի մեջ, 12 × 85 գ</Name>
+    <LongName>Royal Canin Sensory Feel Morsels in Gravy — 12 × 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579018934</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1407</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579018934</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1408</Code>
+    <Name>Royal Canin Sensory Feel, կտորներ սոուսի մեջ, 85 գ</Name>
+    <LongName>Royal Canin Sensory Feel Morsels in Gravy — 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579018941</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1408</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579018941</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1409</Code>
+    <Name>Royal Canin Mother &amp; Babycat, գերփափուկ մուսս, 195 գ</Name>
+    <LongName>Royal Canin Mother &amp; Babycat Ultra Soft Mousse — Mousse 195 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579311660</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1409</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579311660</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1410</Code>
+    <Name>Շերեփ կատուների լցանյութի համար L</Name>
+    <LongName>Trixie Litter Scoop for Ultra Litter — L</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>3926</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905404738</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1410</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905404738</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1411</Code>
+    <Name>Սանր շների սև մոխրագույն բռնակով 22սմ</Name>
+    <LongName>Trixie Coat Untangler Combi-Comb, 22 cm, dark grey/blue</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>9615</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905237732</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1411</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905237732</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1412</Code>
+    <Name>Կերային հավելում թութակների համար՝ կալցիումով, 40գ</Name>
+    <LongName>Trixie Calcium Stone with Sepia — 40 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905505404</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1412</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905505404</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1413</Code>
+    <Name>Կերային հավելում թութակների համար 90գ</Name>
+    <LongName>Trixie Iodine Pecking Stone — 90 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905051055</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1413</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905051055</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1414</Code>
+    <Name>Կերային հավելում թռչունների համար՝ Ծովախեցգետիններով քար, 30 գ</Name>
+    <LongName>Trixie Pecking Stone with Seashells — 30 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905051086</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1414</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905051086</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1415</Code>
+    <Name>Քարե աղ կրծողների համար 54գ</Name>
+    <LongName>Trixie Salt Lick — 2 × 54 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905060002</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1415</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905060002</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1416</Code>
+    <Name>Կերային հավելում կրծողների համար՝ բրեկետ, գազարով, 100գ</Name>
+    <LongName>Trixie Clay Stone with Carrot — 100 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905601465</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1416</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905601465</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1417</Code>
+    <Name>Կերային հավելում կրծողների համար՝ զլանակ, ճակնդեղով և մաղադանոսով, 200գ/10*18 սմ</Name>
+    <LongName>Trixie Hay Bale with Beetroot and Parsnip — 200 g, ø 10 × 18 cm</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4053032015487</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1417</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4053032015487</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1418</Code>
+    <Name>Վիտամինացված կեր՝ Prestige Premium, դեղձանիկների համար, 800 գ/21171</Name>
+    <LongName>Versele-Laga Prestige Premium Canaries — 800 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340211717</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1418</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340211717</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1419</Code>
+    <Name>Կեր ալիքավոր թութակների համար՝ PRESTIGE, 1 կգ/21620</Name>
+    <LongName>Versele-Laga Prestige Budgies — 1 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340216200</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1419</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340216200</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1420</Code>
+    <Name>Վիտամինացված կեր՝ Prestige Premium, ալիքավոր թութակների համար, 800 գ/21699</Name>
+    <LongName>Versele-Laga Prestige Premium Budgies — 800 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340216996</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1420</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340216996</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1421</Code>
+    <Name>Վիտամինացված կեր՝ Prestige Premium, խոշոր թութակների համար, Էկզոտիկ ընդեղենով, 750 գ/21782</Name>
+    <LongName>Versele-Laga Prestige Premium Exotic Parrots Nuts — 750 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340217825</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1421</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340217825</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1422</Code>
+    <Name>Կեր խոշոր թութակների համար՝ շատ հացահատիկ պարունակող, PRESTIGE PARROTS, 1 կգ/21795</Name>
+    <LongName>Versele-Laga Prestige Parrots — 1 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340217955</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1422</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340217955</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1423</Code>
+    <Name>Վիտամինացված կեր՝ Prestige African Parrot Mix, խոշոր թութակների համար, 1կգ/22201</Name>
+    <LongName>Versele-Laga Prestige Premium Loro Parque African Parrot Mix — 1 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340222010</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1423</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340222010</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1424</Code>
+    <Name>Վիտամինացված կեր՝ Prestige African Mix, անբաժան թութակների համար, սերմերով, 1 կգ/22220</Name>
+    <LongName>Versele-Laga Prestige Premium Loro Parque African Parakeet Mix — 1 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340222201</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1424</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340222201</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1425</Code>
+    <Name>Վիտամինացված կեր՝ Nature CUNI JUNIOR, ճագարի համար, բանջարեղենային, 700 գ/61407</Name>
+    <LongName>Versele-Laga Nature Cuni Junior — 700 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614075</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1425</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614075</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1426</Code>
+    <Name>Վիտամինացված կեր՝ Nature, ծովախոզուկի համար, բանջարեղենային, 700 գ/61409</Name>
+    <LongName>Versele-Laga Nature Cavia — 700 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614099</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1426</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614099</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1427</Code>
+    <Name>Վիտամինացված կեր՝ Nature, ճագարների համար, բանջարեղենային, 700 գ/61448</Name>
+    <LongName>Versele-Laga Nature Cuni — 700 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614488</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1427</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614488</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1428</Code>
+    <Name>Վիտամինացված կեր՝ Nature Original, ճագարի համար, բանջարեղեն և մրգեր, 750 գ/61455</Name>
+    <LongName>Versele-Laga Nature Original Cuni — 750 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614556</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1428</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614556</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1429</Code>
+    <Name>Վիտամինացված կեր՝ Nature Original, ծովախոզուկի համար, բանջարեղեն և մրգեր, 750 գ/61457</Name>
+    <LongName>Versele-Laga Nature Original Cavia — 750 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614570</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1429</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614570</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1430</Code>
+    <Name>Կեր ծովախոզուկների համար՝ հարուստ վիտամիններով, CRISPY, 400 գ/61698</Name>
+    <LongName>Versele-Laga Crispy Muesli Guinea Pigs — 400 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340616987</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1430</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340616987</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1431</Code>
+    <Name>Կեր ծովախոզուկների համար՝ հարուստ վիտամիններով, CRISPY, 1 կգ/61711</Name>
+    <LongName>Versele-Laga Crispy Muesli Guinea Pigs — 1 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340617113</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1431</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340617113</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1432</Code>
+    <Name>Կեր համստերների համար՝ հարուստ վիտամիններով, CRISPY, 400 գ/61699</Name>
+    <LongName>Versele-Laga Crispy Muesli Hamsters &amp; Co — 400 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340616994</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1432</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340616994</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1433</Code>
+    <Name>Հյուրասիրություն կրծողների համար՝ NATURE BERRIES, հատապտղային 85 գ/461434</Name>
+    <LongName>Versele-Laga Nature Snack — Berries 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614341</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1433</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614341</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1434</Code>
+    <Name>Հյուրասիրություն կրծողների համար՝ NATURE FRUITIES, մրգային 85 գ/461435</Name>
+    <LongName>Versele-Laga Nature Snack — Fruities 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614358</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1434</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614358</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1435</Code>
+    <Name>Վիտամինացված կեր՝ Nature Snack, կրծողների համար, 500 գ/61438</Name>
+    <LongName>Versele-Laga Nature Snack Cereals — 500 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614389</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1435</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614389</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1436</Code>
+    <Name>Վիտամինացված կեր՝ Nature, կրծողների համար, բանջարեղենային, 500 գ/61440</Name>
+    <LongName>Versele-Laga Nature Snack Fibres — 500 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340614402</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1436</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340614402</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1437</Code>
+    <Name>Խոտ՝ վիտամինացված, նախատեսված կրծողների համար, 1 կգ/24131</Name>
+    <LongName>Versele-Laga Natural Hay — 1 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>1214</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340241318</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1437</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340241318</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1438</Code>
+    <Name>Խոտ՝ Nature, վիտամինացված, ծաղիկներ և լոլիկ, նախատեսված կրծողների համար, 0.5 կգ/24194</Name>
+    <LongName>Versele-Laga Nature Timothy Hay Beetroot &amp; Tomato — 500 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>1214</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340241943</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1438</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340241943</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1439</Code>
+    <Name>Թեփ՝ կրծողների համար, 1 կգ/24128</Name>
+    <LongName>Versele-Laga Natural Wood Woodchips — 1 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4401</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>5410340241288</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1439</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>5410340241288</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+</Exchange>

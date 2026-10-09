@@ -67,8 +67,13 @@ Read-only on GET (never send back — `to_variant_payload` strips them):
 `delete_locked`, `attribute_value_labels`. `suppliers[]` is writable but we
 never send it (an absent key leaves the rows alone; suppliers are out of scope).
 
-`DELETE /products/<id>` → 204. A variant with stock history or orders can't be
-deleted (`delete_locked`) — keep it, zero its stock, or discontinue the product.
+`DELETE /products/<id>` → 204. **Archiving a variant** (2026-10-07): a variant
+with stock history or orders now carries `will_archive: true` — leaving it out
+of the product PUT moves it to the form's "Archived variants" (restorable)
+instead of deleting it; any `stock_to_write_off` on hand is written off. Still
+build the body with `siruk_payload.put_body` and drop the variant from it
+(`runs/2026-10-07-archive-rc-cases/archive.py` did the 22 RC cases).
+`delete_locked` + `delete_blockers` mark a variant that can't go even so.
 
 ### Size (net content)
 
@@ -178,7 +183,7 @@ DELIVERED ships (on_hand −); cancel releases.
   weight** (`delete_locked` / `stock_unit_locked`, computed: stock ≠ 0, any
   movement, order, cart …; `ProductRequest.php`). Setting stock to 0 never
   unlocks it. To retire one: stock → its allocation via `/stock/variants`,
-  then ask the developers, or discontinue the product. Lowering `on_hand`
+  then archive it (leave it out of the PUT — see "Archiving a variant" above). Lowering `on_hand`
   under `allocated` is refused.
 - Existing variant: never through the product PUT.
   `PUT /stock/variants/<v>` `{warehouse_id, on_hand, reason, note}` (set a

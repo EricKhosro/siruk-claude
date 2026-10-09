@@ -1,0 +1,594 @@
+[
+ {
+  "product_id": "341",
+  "product": "Soft Snack Rolls with Salmon",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 445,
+    "sku": "31498",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2900",
+      "file": "PHO_PRO_CLIP_31498-1_-SALL_-AWK_-V1",
+      "dims": "1010x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2900.jpg",
+      "md5": "41c205aa55a9f0df3d16cb8fea0ec5d5"
+     },
+     {
+      "pos": 1,
+      "media": "2903",
+      "file": "PHO_PRO_CLIP_31498-3_-SALL_-AWK_-V1",
+      "dims": "938x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2903.jpg",
+      "md5": "03027bd8b8ff88e0788426df2892a93e"
+     },
+     {
+      "pos": 2,
+      "media": "2906",
+      "file": "PHO_PAC_CLIP_31498-1_-SALL_-AWK_-V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2906.jpg",
+      "md5": "80c5f6a565345f8a8881692a522e53d8"
+     },
+     {
+      "pos": 3,
+      "media": "2909",
+      "file": "PHO_PAC_CLIP_31498-2_-SALL_-AWK_-V1",
+      "dims": "1155x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2909.jpg",
+      "md5": "b3914d31895333722e13173ecf31b0a9"
+     },
+     {
+      "pos": 4,
+      "media": "2912",
+      "file": "PHO_PRO_GROUP_CLIP_31498-1_-SALL_-AWK_-V1",
+      "dims": "1600x657",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2912.jpg",
+      "md5": "099b1c07b9841c9e5e656a3f6a9b89ef"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "342",
+  "product": "Soft Snack Bouncies with poultry, lamb & tripe",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 446,
+    "sku": "31507",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2915",
+      "file": "PHO_PAC_CLIP_31507-3_-SALL_-AWK_-V1",
+      "dims": "1315x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2915.jpg",
+      "md5": "7f5f65829130b14ea2595d5db70ede7d"
+     },
+     {
+      "pos": 1,
+      "media": "2918",
+      "file": "PHO_PAC_CLIP_31507-4_-SALL_-AWK_-V1",
+      "dims": "1211x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2918.jpg",
+      "md5": "41a9e1138ee684241c15dee45f367b52"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "343",
+  "product": "Soft Snack Baffos with beef & tripe",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 447,
+    "sku": "31508",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2921",
+      "file": "PHO_PAC_CLIP_31508-5_-SALL_-AWK_-V1",
+      "dims": "1304x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2921.jpg",
+      "md5": "6d5986ae93a4b2635f593be6f290928c"
+     },
+     {
+      "pos": 1,
+      "media": "2924",
+      "file": "PHO_PAC_CLIP_31508-6_-SALL_-AWK_-V1",
+      "dims": "1294x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2924.jpg",
+      "md5": "ed55146858cc582ec5c1cdd915984fa9"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "344",
+  "product": "Soft Snack Lupinos with lupins",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 448,
+    "sku": "31517",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2927",
+      "file": "PHO_PRO_CLIP_31517-1_-SALL_-AWK_-V1",
+      "dims": "1600x938",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2927.jpg",
+      "md5": "444da647a8b722751bc5d2eb66acaa73"
+     },
+     {
+      "pos": 1,
+      "media": "2930",
+      "file": "PHO_PAC_CLIP_31517-2_-SALL_-AWK_-V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2930.jpg",
+      "md5": "11233f62103d16c3e3078d8d809435c9"
+     },
+     {
+      "pos": 2,
+      "media": "5813",
+      "file": "PHO_PAC_CLIP_31517-3_-SALL_-AWK_-V1",
+      "dims": "1023x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5813.jpg",
+      "md5": "ebe64f1631d6ca7c5982a39f6ddc7a07"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "345",
+  "product": "Junior Soft Snack Bones",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 449,
+    "sku": "31518",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2933",
+      "file": "PHO_PRO_CLIP_31518-1_-SALL_-AWK_-V1",
+      "dims": "1600x803",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2933.jpg",
+      "md5": "7b46702851368fc70217d6fdd85745db"
+     },
+     {
+      "pos": 1,
+      "media": "5822",
+      "file": "PHO_PRO_CLIP_31518-2_-SALL_-AWK_-V1",
+      "dims": "1366x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5822.jpg",
+      "md5": "c68e01490c7221f67cf565786f94a6b1"
+     },
+     {
+      "pos": 2,
+      "media": "2936",
+      "file": "PHO_PAC_CLIP_31518-1_-SALL_-AWK_-V1",
+      "dims": "1362x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2936.jpg",
+      "md5": "20a4293dd8d488c2114ded290b11a831"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "346",
+  "product": "Junior Soft Snack Dots",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 450,
+    "sku": "31519",
+    "label": "140 g",
+    "size_label": "140 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2939",
+      "file": "PHO_PRO_CLIP_31519-1_-SALL_-AWK_-V1",
+      "dims": "1600x689",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2939.jpg",
+      "md5": "666e55915e79bfefb656e1aadde2fbbc"
+     },
+     {
+      "pos": 1,
+      "media": "5828",
+      "file": "PHO_PRO_CLIP_31519-2_-SALL_-AWK_-V1",
+      "dims": "1402x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5828.jpg",
+      "md5": "b3040512eca3b5fc242155ba4b93ff05"
+     },
+     {
+      "pos": 2,
+      "media": "2942",
+      "file": "PHO_PAC_CLIP_31519-1_-SALL_-AWK_-V1",
+      "dims": "1362x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2942.jpg",
+      "md5": "04ac3966a1dcc0acb6a3be619ec63d1e"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "347",
+  "product": "Soft Snack Dog'o'Rado with Chicken",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 451,
+    "sku": "31522",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2945",
+      "file": "PHO_PRO_CLIP_31522-3_-SALL_-AWK_-V1",
+      "dims": "1517x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2945.jpg",
+      "md5": "07ccf68082d86e4c4257721f6ad07332"
+     },
+     {
+      "pos": 1,
+      "media": "2948",
+      "file": "PHO_PAC_CLIP_31522-2_-SALL_-AWK_-V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2948.jpg",
+      "md5": "97276e9454c493d4a8aa05f3c1323b5d"
+     },
+     {
+      "pos": 2,
+      "media": "5834",
+      "file": "PHO_PAC_CLIP_31522-3_-SALL_-AWK_-V1",
+      "dims": "1060x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5834.jpg",
+      "md5": "9b5fd7392fb4ac8597a2dc168b196c20"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "348",
+  "product": "Trainer Snack Bones",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 452,
+    "sku": "31523",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2951",
+      "file": "PHO_PRO_CLIP_31523-4_-SALL_-AWK_-V1",
+      "dims": "1600x734",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2951.jpg",
+      "md5": "8c99fed1e196338f9a99f8571a8dfb27"
+     },
+     {
+      "pos": 1,
+      "media": "2954",
+      "file": "PHO_PAC_CLIP_31523-4_-SALL_-AWK_-V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2954.jpg",
+      "md5": "cbf11ed8010ae58509bc070cd9ad3f31"
+     },
+     {
+      "pos": 2,
+      "media": "5843",
+      "file": "PHO_PAC_CLIP_31523-5_-SALL_-AWK_-V1",
+      "dims": "1176x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5843.jpg",
+      "md5": "8f26385911a545257943d2a85932e5ef"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "349",
+  "product": "Trainer Snack Hearts",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 453,
+    "sku": "31524",
+    "label": "200 g",
+    "size_label": "200 g",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2957",
+      "file": "PHO_PRO_CLIP_31524-2_-SALL_-AWK_-V1",
+      "dims": "1600x1070",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2957.jpg",
+      "md5": "8ead0f1a1da25dc0382601f887110d4a"
+     },
+     {
+      "pos": 1,
+      "media": "2960",
+      "file": "PHO_PAC_CLIP_31524-1_-SALL_-AWK_-V1",
+      "dims": "1121x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2960.jpg",
+      "md5": "65f8fc889a570fba6e5823f49e02da67"
+     },
+     {
+      "pos": 2,
+      "media": "2963",
+      "file": "PHO_PRO_31524-1_-SALL_-AWK_-V1",
+      "dims": "1182x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2963.jpg",
+      "md5": "4485b844a93bfaa30026c23c339e1c71"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "350",
+  "product": "Soft Snack Bony Mix XXL",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 454,
+    "sku": "31526",
+    "label": "1,800 g",
+    "size_label": "1.8 kg",
+    "options": "",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2966",
+      "file": "PHO_PRO_CLIP_31526-2_-SALL_-AWK_-V1",
+      "dims": "1600x849",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2966.jpg",
+      "md5": "0142823ca4e6df3a25a19871e238a2b8"
+     },
+     {
+      "pos": 1,
+      "media": "2969",
+      "file": "PHO_PAC_CLIP_31526-1_-SALL_-AWK_-V1",
+      "dims": "1410x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2969.jpg",
+      "md5": "97d040068a96fb232a9afa3b70387837"
+     },
+     {
+      "pos": 2,
+      "media": "5849",
+      "file": "PHO_PAC_CLIP_31526-2_-SALL_-AWK_-V1",
+      "dims": "1600x1171",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5849.jpg",
+      "md5": "43e7e2be24db86a0ad227672a7cdcf21"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "351",
+  "product": "Trainer Snack Dots with Salmon",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 455,
+    "sku": "31527",
+    "label": "500 g",
+    "size_label": "500 g",
+    "options": "Flavor=Salmon",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2972",
+      "file": "PHO_PRO_CLIP_31527-1_-SALL_-AWK_-V1",
+      "dims": "1600x874",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2972.jpg",
+      "md5": "86d6b8ee6e39b53fb79887b862b37738"
+     },
+     {
+      "pos": 1,
+      "media": "2975",
+      "file": "PHO_PAC_CLIP_31527-2_-SALL_-AWK_-V1",
+      "dims": "1143x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2975.jpg",
+      "md5": "f8b1b5806749d7ea364064f4d480824a"
+     },
+     {
+      "pos": 2,
+      "media": "5852",
+      "file": "PHO_PAC_CLIP_31527-3_-SALL_-AWK_-V1",
+      "dims": "1076x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/5852.jpg",
+      "md5": "152e8b39023963ff397a575037b4b29a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "352",
+  "product": "Coins",
+  "brand": "Trixie",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 1382,
+    "sku": "31706",
+    "label": "Beef 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Beef",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "4049",
+      "file": "PHO_PRO_CLIP_31706-2_-SALL_-AWK_-V1",
+      "dims": "1600x805",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4049.jpg",
+      "md5": "8d3d6f5f324426779b035b168cbcd904"
+     },
+     {
+      "pos": 1,
+      "media": "6937",
+      "file": "PHO_PRO_CLIP_31706-4_-SALL_-AWK_-V1",
+      "dims": "829x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/6937.jpg",
+      "md5": "e9dee37a8824a0e76f6e6384f9b7d6de"
+     },
+     {
+      "pos": 2,
+      "media": "4052",
+      "file": "PHO_PAC_CLIP_31706-1_-SALL_-AWK_-V1",
+      "dims": "830x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/4052.jpg",
+      "md5": "2c3e922beb88457c8af49483cbe9dc0c"
+     }
+    ]
+   },
+   {
+    "variant_id": 456,
+    "sku": "31531",
+    "label": "Chicken Breast 100 g",
+    "size_label": "100 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "2978",
+      "file": "PHO_PRO_CLIP_31531-2_-SALL_-AWK_-V1",
+      "dims": "1600x806",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2978.jpg",
+      "md5": "6035b99a6ee69daad17c09ce90f115e1"
+     },
+     {
+      "pos": 1,
+      "media": "2981",
+      "file": "PHO_PAC_CLIP_31531-3_-SALL_-AWK_-V1",
+      "dims": "788x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/2981.jpg",
+      "md5": "0afe0ef9c5346ed7bd3b8acb5c99dcfc"
+     }
+    ]
+   },
+   {
+    "variant_id": 1383,
+    "sku": "31587",
+    "label": "Duck Breast 80 g",
+    "size_label": "80 g",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "3128",
+      "file": "PHO_PRO_CLIP_31587-2_-SALL_-AWK_-V1",
+      "dims": "1600x1129",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3128.jpg",
+      "md5": "14edfb86c4ce51e7ea2dba278a212be3"
+     },
+     {
+      "pos": 1,
+      "media": "3131",
+      "file": "PHO_PAC_CLIP_31587-2_-SALL_-AWK_-V1",
+      "dims": "830x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3131.jpg",
+      "md5": "57c6e9454c00e8f0b83055b12b62ab04"
+     },
+     {
+      "pos": 2,
+      "media": "3134",
+      "file": "PHO_PRO_GROUP_CLIP_31587-1_-SALL_-AWK_-V1",
+      "dims": "1600x1029",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/3134.jpg",
+      "md5": "cb3d3327761a53fc15aef24497d0697f"
+     }
+    ]
+   }
+  ]
+ }
+]

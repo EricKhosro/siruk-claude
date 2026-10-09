@@ -1,5 +1,6 @@
 ---
 name: attribute-manager
+mode: subagent
 description: Creates attributes, attribute values, and PRODUCT TYPES (the API's attribute-families) in the Siruk admin panel via the JSON API, including each type's per-attribute role (option/attribute), required/filterable/card flags and measure type. Use (a) before every import, fed the batch's gathered product data, to create or extend the product types the batch needs so every product has one, and (b) for batch attribute work — adding values, rebuilding vocabulary. It dedupes against what exists, creates the rest, refreshes reference/attribute-values.json and reference/product-types.json, and reports created ids. It never deletes anything unless the delegating prompt explicitly says the user asked for deletion.
 ---
 

@@ -1,0 +1,214 @@
+[
+ {
+  "product_id": "1337",
+  "product": "Rabbit Ears with Lamb for Mini Breeds",
+  "brand": "Derevenskie Lakomstva",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 2071,
+    "sku": "DL711856",
+    "label": "Lamb 55 g",
+    "size_label": "55 g",
+    "options": "Flavor=Lamb",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14962",
+      "file": "0mrc15mfl7089v3lf9ora1yy7hbnxt9y.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14962.jpg",
+      "md5": "dbf310d330d9533226937f56dd60f98a"
+     },
+     {
+      "pos": 1,
+      "media": "14965",
+      "file": "r8ac5eso1a377o4vxxq78w360h01fy1g.jpg",
+      "dims": "1600x941",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14965.jpg",
+      "md5": "225883670a990ff1b5f95a219acbc2f2"
+     },
+     {
+      "pos": 2,
+      "media": "14968",
+      "file": "sst14bykmvh6fojbn68oyu0f9upvt44h.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14968.jpg",
+      "md5": "b8c4cc63e9a9215aab657270cb798b47"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1338",
+  "product": "Calcium Bones for Mini Breeds",
+  "brand": "Derevenskie Lakomstva",
+  "type": "Treats",
+  "variants": [
+   {
+    "variant_id": 2072,
+    "sku": "DL711866",
+    "label": "Chicken 55 g",
+    "size_label": "55 g",
+    "options": "Flavor=Chicken",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14971",
+      "file": "mid8b28rduln0tdmrojuoqmihnkr8w25.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14971.jpg",
+      "md5": "80fa36012679ef29c817fd4491223ecf"
+     },
+     {
+      "pos": 1,
+      "media": "14974",
+      "file": "ea221r58020t9c0cu474dhk1s27cl694.jpg",
+      "dims": "1600x1088",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14974.jpg",
+      "md5": "4a95faf1ac46f428096ae300219b4e9c"
+     },
+     {
+      "pos": 2,
+      "media": "14977",
+      "file": "l2pp3vz6pyy0lsfb1hwq1qxk912p9eyo.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14977.jpg",
+      "md5": "bf2453d16c6c7e7dd11d1e8ac7b3a7cf"
+     }
+    ]
+   },
+   {
+    "variant_id": 2077,
+    "sku": "DL711876",
+    "label": "Duck 55 g",
+    "size_label": "55 g",
+    "options": "Flavor=Duck",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "15010",
+      "file": "mul2jr9whjmssr8l859ombc0lm1tdaxd.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15010.jpg",
+      "md5": "eed430eddbecb0b983422df87eaeddf5"
+     },
+     {
+      "pos": 1,
+      "media": "15013",
+      "file": "gsb4jj0pta052hk36pz2xi8525p8ssu9.jpg",
+      "dims": "1600x955",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15013.jpg",
+      "md5": "6df5d54dd7c7387102c29171e0532358"
+     },
+     {
+      "pos": 2,
+      "media": "15016",
+      "file": "yo9z16lwwiivgxqoj8tg1z2uy3mgzznr.jpg",
+      "dims": "1032x1600",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15016.jpg",
+      "md5": "a19ca8115a6a5f38a62bf0ec57eb8dd0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1339",
+  "product": "Classic Double Leather Collar",
+  "brand": "Kaskad",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 2073,
+    "sku": "01672K",
+    "label": "12 mm, 20–24 cm",
+    "size_label": null,
+    "options": "Color Family=Color Varies; Size=12 mm × 20–24 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "14890",
+      "file": "5qj0aeljnrfdflgllaigqyopeyiiv4lq.jpg",
+      "dims": "1600x1066",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/14890.jpg",
+      "md5": "9b2c6ff9ad0d978d006430c24cae7f70"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1340",
+  "product": "Collar, Reflecting",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 2078,
+    "sku": "41590",
+    "label": "various colours",
+    "size_label": null,
+    "options": "Color Family=Color Varies",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "15019",
+      "file": "41590-1.jpg",
+      "dims": "1600x703",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15019.jpg",
+      "md5": "859c225b006eec709f023eee7e69c16d"
+     },
+     {
+      "pos": 1,
+      "media": "15022",
+      "file": "41590-2.jpg",
+      "dims": "1600x732",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15022.jpg",
+      "md5": "c4eba88ad7677e5e3725d1155eb0d6c1"
+     },
+     {
+      "pos": 2,
+      "media": "15025",
+      "file": "41590-3.jpg",
+      "dims": "1600x719",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15025.jpg",
+      "md5": "4cb880b19f9bc64df052164aa3e2a4e1"
+     },
+     {
+      "pos": 3,
+      "media": "15028",
+      "file": "41590-4.jpg",
+      "dims": "1600x710",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15028.jpg",
+      "md5": "1e6ea659fa72f9156a55c3bc0f4701cb"
+     },
+     {
+      "pos": 4,
+      "media": "15031",
+      "file": "41590-group.jpg",
+      "dims": "1600x1054",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/15031.jpg",
+      "md5": "7eb70e77a58c2ce1525b05c2f3dda92e"
+     }
+    ]
+   }
+  ]
+ }
+]

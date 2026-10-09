@@ -1,0 +1,712 @@
+[
+ {
+  "product_id": "790",
+  "variant_id": 946,
+  "sku": "073502",
+  "label": "75 ml",
+  "pos": 0,
+  "media": "5801",
+  "verdict": "ok",
+  "seen": "Cliny dental gel (гель зубной) box, Ag+ silver ions + vitamin B5, dogs & cats; clean packshot"
+ },
+ {
+  "product_id": "790",
+  "variant_id": 946,
+  "sku": "073502",
+  "label": "75 ml",
+  "pos": 1,
+  "media": "5804",
+  "verdict": "ok",
+  "seen": "Back panel of Cliny dental gel: 'Объем: 75 мл', EAN 4607092073507 matches"
+ },
+ {
+  "product_id": "791",
+  "variant_id": 947,
+  "sku": "073532",
+  "label": "300 ml",
+  "pos": 0,
+  "media": "5807",
+  "verdict": "ok",
+  "seen": "Cliny oral care liquid (жидкость для полости рта) box, Ag+ + panthenol; clean packshot"
+ },
+ {
+  "product_id": "791",
+  "variant_id": 947,
+  "sku": "073532",
+  "label": "300 ml",
+  "pos": 1,
+  "media": "5810",
+  "verdict": "ok",
+  "seen": "Back panel of Cliny oral liquid: 'Объем: 300 мл', EAN 4607092073538 matches"
+ },
+ {
+  "product_id": "792",
+  "variant_id": 948,
+  "sku": "074282",
+  "label": "100 ml",
+  "pos": 0,
+  "media": "5816",
+  "verdict": "ok",
+  "seen": "Cliny oral care spray (спрей для полости рта) box, Ag+ + panthenol; clean packshot"
+ },
+ {
+  "product_id": "792",
+  "variant_id": 948,
+  "sku": "074282",
+  "label": "100 ml",
+  "pos": 1,
+  "media": "5819",
+  "verdict": "ok",
+  "seen": "Back panel of Cliny oral spray: 'Объем: 100 мл', EAN 4607092074283 matches"
+ },
+ {
+  "product_id": "793",
+  "variant_id": 949,
+  "sku": "073542",
+  "label": "50 ml",
+  "pos": 0,
+  "media": "5825",
+  "verdict": "ok",
+  "seen": "Cliny eye cleansing lotion (лосьон очищающий для глаз) box, Ag+ + panthenol; clean packshot"
+ },
+ {
+  "product_id": "793",
+  "variant_id": 949,
+  "sku": "073542",
+  "label": "50 ml",
+  "pos": 1,
+  "media": "5831",
+  "verdict": "ok",
+  "seen": "Back panel of Cliny eye lotion: 'Объем: 50 мл', EAN 4607092073545 matches"
+ },
+ {
+  "product_id": "794",
+  "variant_id": 950,
+  "sku": "073552",
+  "label": "50 ml",
+  "pos": 0,
+  "media": "5837",
+  "verdict": "ok",
+  "seen": "Cliny ear cleansing lotion (лосьон очищающий для ушей) box, Ag+ + panthenol; clean packshot"
+ },
+ {
+  "product_id": "794",
+  "variant_id": 950,
+  "sku": "073552",
+  "label": "50 ml",
+  "pos": 1,
+  "media": "5840",
+  "verdict": "ok",
+  "seen": "Side panel of Cliny ear lotion: indications, usage, composition; same product (volume not legible)"
+ },
+ {
+  "product_id": "795",
+  "variant_id": 951,
+  "sku": "073512",
+  "label": "Malt 75 ml",
+  "pos": 0,
+  "media": "5846",
+  "verdict": "ok",
+  "seen": "Cliny hairball paste (паста для вывода шерсти) tall box for cats, no flavour badge (malt/plain); 75 ml tall format, volume not legible"
+ },
+ {
+  "product_id": "795",
+  "variant_id": 2046,
+  "sku": "076912",
+  "label": "Chicken 30 ml",
+  "pos": 0,
+  "media": "14809",
+  "verdict": "ok",
+  "seen": "Cliny hairball paste box with 'вкус курицы' (chicken) badge, 'Объем: 30 мл' on side; clean packshot"
+ },
+ {
+  "product_id": "796",
+  "variant_id": 952,
+  "sku": "1101413",
+  "label": "5 l",
+  "pos": 0,
+  "media": "7399",
+  "verdict": "ok",
+  "seen": "Ok-Lock SMART plant-based clumping litter bag, '5 л' printed; clean packshot"
+ },
+ {
+  "product_id": "796",
+  "variant_id": 1309,
+  "sku": "1101213",
+  "label": "11 l",
+  "pos": 0,
+  "media": "7402",
+  "verdict": "ok",
+  "seen": "Ok-Lock SMART plant-based clumping litter bag, '11 л' printed; clean packshot"
+ },
+ {
+  "product_id": "798",
+  "variant_id": 954,
+  "sku": "24870",
+  "label": "0.2 l/ø 15 cm",
+  "pos": 0,
+  "media": "2819",
+  "verdict": "ok",
+  "seen": "Trixie stainless steel bowl with embossed fish and black rubber base ring; clean product shot (size not printed, single variant)"
+ },
+ {
+  "product_id": "799",
+  "variant_id": 955,
+  "sku": "41890",
+  "label": "39–60 cm/10 mm",
+  "pos": 0,
+  "media": "7972",
+  "verdict": "not-packshot-lead",
+  "seen": "Only two bungee leads (black and aqua) without the harness; group of two items, harness not shown"
+ },
+ {
+  "product_id": "799",
+  "variant_id": 955,
+  "sku": "41890",
+  "label": "39–60 cm/10 mm",
+  "pos": 1,
+  "media": "7975",
+  "verdict": "ok",
+  "seen": "Aqua mesh Y-harness with bungee lead (Trixie tag); colour not specified on variant"
+ },
+ {
+  "product_id": "799",
+  "variant_id": 955,
+  "sku": "41890",
+  "label": "39–60 cm/10 mm",
+  "pos": 2,
+  "media": "7978",
+  "verdict": "ok",
+  "seen": "Black mesh Y-harness with bungee lead (Trixie tag); colour not specified on variant"
+ },
+ {
+  "product_id": "799",
+  "variant_id": 955,
+  "sku": "41890",
+  "label": "39–60 cm/10 mm",
+  "pos": 3,
+  "media": "7981",
+  "verdict": "ok",
+  "seen": "Lifestyle: tabby cat wearing aqua mesh harness with lead; secondary image"
+ },
+ {
+  "product_id": "800",
+  "variant_id": 956,
+  "sku": "17321",
+  "label": "S: 30 cm, dark blue",
+  "pos": 0,
+  "media": "9569",
+  "verdict": "ok",
+  "seen": "BE NORDIC bandana collar, dark blue/navy with white anchor embroidery; clean shot (size not shown)"
+ },
+ {
+  "product_id": "800",
+  "variant_id": 1268,
+  "sku": "17333",
+  "label": "M: 40 cm, dark grey",
+  "pos": 0,
+  "media": "9536",
+  "verdict": "unclear",
+  "seen": "BE NORDIC bandana collar, dark grey with compass (N/E/S/W) embroidery - colour matches, but same photo as L variant; size M not distinguishable"
+ },
+ {
+  "product_id": "800",
+  "variant_id": 1269,
+  "sku": "17335",
+  "label": "L: 50 cm, dark grey",
+  "pos": 0,
+  "media": "9539",
+  "verdict": "unclear",
+  "seen": "BE NORDIC bandana collar, dark grey with compass embroidery - colour matches, but identical photo (same md5) as M variant; size L not distinguishable"
+ },
+ {
+  "product_id": "804",
+  "variant_id": 960,
+  "sku": "200728",
+  "label": "XS–S, 2.00 m/15 mm, aqua",
+  "pos": 0,
+  "media": "7984",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable double lead, aqua/teal; clean product shot"
+ },
+ {
+  "product_id": "804",
+  "variant_id": 1544,
+  "sku": "200717",
+  "label": "XS–S, 2.00 m/15 mm, apple",
+  "pos": 0,
+  "media": "14833",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, apple green; clean product shot"
+ },
+ {
+  "product_id": "804",
+  "variant_id": 1545,
+  "sku": "200722",
+  "label": "XS–S, 2.00 m/15 mm, coral",
+  "pos": 0,
+  "media": "7984",
+  "verdict": "wrong-colour",
+  "seen": "Aqua/teal Trixie Premium lead (same photo as aqua variant 200728); variant is coral"
+ },
+ {
+  "product_id": "804",
+  "variant_id": 1546,
+  "sku": "200713",
+  "label": "XS–S, 2.00 m/15 mm, indigo",
+  "pos": 0,
+  "media": "10857",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, indigo/navy blue; clean product shot"
+ },
+ {
+  "product_id": "804",
+  "variant_id": 1547,
+  "sku": "200725",
+  "label": "XS–S, 2.00 m/15 mm, purple",
+  "pos": 0,
+  "media": "14836",
+  "verdict": "wrong-colour",
+  "seen": "Pale light-lilac Trixie Premium lead (file 201025); variant label says purple. Photo looks like light lilac - possible label swap with 200720"
+ },
+ {
+  "product_id": "804",
+  "variant_id": 1721,
+  "sku": "200720",
+  "label": "XS–S, 2.00 m/15 mm, light lilac",
+  "pos": 0,
+  "media": "14152",
+  "verdict": "wrong-colour",
+  "seen": "Berry/magenta-purple Trixie Premium lead (file 200720-1); variant label says light lilac. Possible label swap with 200725"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 961,
+  "sku": "201301",
+  "label": "XS, 2.00 m/10 mm, black",
+  "pos": 0,
+  "media": "10006",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, black; clean product shot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1226,
+  "sku": "201303",
+  "label": "XS, 2.00 m/10 mm, red",
+  "pos": 0,
+  "media": "7987",
+  "verdict": "not-packshot-lead",
+  "seen": "Lifestyle: woman wearing red lead across body attached to a dog; colour red matches but not a clean packshot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1227,
+  "sku": "201311",
+  "label": "XS, 2.00 m/10 mm, fuchsia",
+  "pos": 0,
+  "media": "7990",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, fuchsia/raspberry pink; clean detail shot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1228,
+  "sku": "201316",
+  "label": "XS, 2.00 m/10 mm, graphite",
+  "pos": 0,
+  "media": "10009",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, graphite grey; clean product shot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1548,
+  "sku": "201018",
+  "label": "XS, 2.00 m/10 mm, papaya",
+  "pos": 0,
+  "media": "10006",
+  "verdict": "wrong-colour",
+  "seen": "Black Trixie Premium lead (same photo as black variant 201301); variant is papaya"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1554,
+  "sku": "201328",
+  "label": "XS, 2.00 m/10 mm, aqua",
+  "pos": 0,
+  "media": "10881",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, aqua/teal; clean detail shot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1555,
+  "sku": "201329",
+  "label": "XS, 2.00 m/10 mm, curry",
+  "pos": 0,
+  "media": "10890",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, curry/mustard yellow; clean detail shot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1556,
+  "sku": "201332",
+  "label": "XS, 2.00 m/10 mm, petrol",
+  "pos": 0,
+  "media": "10893",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, petrol (dark teal); clean detail shot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1557,
+  "sku": "201334",
+  "label": "XS, 2.00 m/10 mm, sage",
+  "pos": 0,
+  "media": "10896",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, sage green; clean detail shot"
+ },
+ {
+  "product_id": "805",
+  "variant_id": 1558,
+  "sku": "201336",
+  "label": "XS, 2.00 m/10 mm, sand",
+  "pos": 0,
+  "media": "10899",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, sand/beige; clean detail shot"
+ },
+ {
+  "product_id": "809",
+  "variant_id": 965,
+  "sku": "201320",
+  "label": "XS: 2.00 m/10 mm, purple",
+  "pos": 0,
+  "media": "10015",
+  "verdict": "ok",
+  "seen": "Trixie Premium adjustable lead, berry/magenta-purple shade; clean product shot (colour code 20 = same shade as variant 200720 photo)"
+ },
+ {
+  "product_id": "810",
+  "variant_id": 966,
+  "sku": "24428",
+  "label": "0.65 l/ø 22 cm",
+  "pos": 0,
+  "media": "9796",
+  "verdict": "ok",
+  "seen": "Trixie slate-blue plastic bowl with white rubber base ring; clean product shot (single variant)"
+ },
+ {
+  "product_id": "810",
+  "variant_id": 966,
+  "sku": "24428",
+  "label": "0.65 l/ø 22 cm",
+  "pos": 1,
+  "media": "9799",
+  "verdict": "ok",
+  "seen": "Same slate-blue bowl, side view"
+ },
+ {
+  "product_id": "810",
+  "variant_id": 966,
+  "sku": "24428",
+  "label": "0.65 l/ø 22 cm",
+  "pos": 2,
+  "media": "9802",
+  "verdict": "ok",
+  "seen": "Same slate-blue bowl, profile view"
+ },
+ {
+  "product_id": "810",
+  "variant_id": 966,
+  "sku": "24428",
+  "label": "0.65 l/ø 22 cm",
+  "pos": 3,
+  "media": "9805",
+  "verdict": "ok",
+  "seen": "Same bowl, top-down view"
+ },
+ {
+  "product_id": "811",
+  "variant_id": 967,
+  "sku": "24561",
+  "label": "45 × 25 cm, dark grey",
+  "pos": 0,
+  "media": "7993",
+  "verdict": "ok",
+  "seen": "Trixie dark grey figure-8 place mat with embossed paws; clean product shot"
+ },
+ {
+  "product_id": "811",
+  "variant_id": 967,
+  "sku": "24561",
+  "label": "45 × 25 cm, dark grey",
+  "pos": 1,
+  "media": "7996",
+  "verdict": "ok",
+  "seen": "Same dark grey mat in use with two steel bowls (bowls are other articles); secondary use shot"
+ },
+ {
+  "product_id": "812",
+  "variant_id": 968,
+  "sku": "24575",
+  "label": "48 × 30 cm, grey",
+  "pos": 0,
+  "media": "7999",
+  "verdict": "ok",
+  "seen": "BE NORDIC grey silicone place mat, '54°40' N | 9°24' E' print; clean product shot"
+ },
+ {
+  "product_id": "812",
+  "variant_id": 968,
+  "sku": "24575",
+  "label": "48 × 30 cm, grey",
+  "pos": 1,
+  "media": "8002",
+  "verdict": "ok",
+  "seen": "Same BE NORDIC grey mat, angled view with Trixie logo"
+ },
+ {
+  "product_id": "812",
+  "variant_id": 968,
+  "sku": "24575",
+  "label": "48 × 30 cm, grey",
+  "pos": 2,
+  "media": "8005",
+  "verdict": "wrong-size",
+  "seen": "Group shot of two BE NORDIC mats - smaller 24575 on top of the larger size 24576"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 969,
+  "sku": "2471",
+  "label": "0.25 l/ø 10 cm",
+  "pos": 0,
+  "media": "8008",
+  "verdict": "ok",
+  "seen": "Trixie plain plastic bowl, sage green (colour assorted, variant has no colour); clean product shot"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 969,
+  "sku": "2471",
+  "label": "0.25 l/ø 10 cm",
+  "pos": 1,
+  "media": "8011",
+  "verdict": "ok",
+  "seen": "Same plain plastic bowl, light grey colour"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 969,
+  "sku": "2471",
+  "label": "0.25 l/ø 10 cm",
+  "pos": 2,
+  "media": "8014",
+  "verdict": "ok",
+  "seen": "Same plain plastic bowl, dusty rose colour"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 969,
+  "sku": "2471",
+  "label": "0.25 l/ø 10 cm",
+  "pos": 3,
+  "media": "8017",
+  "verdict": "ok",
+  "seen": "Same plain plastic bowl, blue colour"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1536,
+  "sku": "24950",
+  "label": "0.3 l/ø 12 cm",
+  "pos": 0,
+  "media": "10818",
+  "verdict": "unclear",
+  "seen": "Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1536,
+  "sku": "24950",
+  "label": "0.3 l/ø 12 cm",
+  "pos": 1,
+  "media": "10821",
+  "verdict": "ok",
+  "seen": "Same handle bowl, blue colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1536,
+  "sku": "24950",
+  "label": "0.3 l/ø 12 cm",
+  "pos": 2,
+  "media": "10824",
+  "verdict": "ok",
+  "seen": "Same handle bowl, dusty rose colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1536,
+  "sku": "24950",
+  "label": "0.3 l/ø 12 cm",
+  "pos": 3,
+  "media": "10827",
+  "verdict": "ok",
+  "seen": "Same handle bowl, light grey colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1536,
+  "sku": "24950",
+  "label": "0.3 l/ø 12 cm",
+  "pos": 4,
+  "media": "10830",
+  "verdict": "ok",
+  "seen": "Lifestyle: dog eating from grey and sage handle bowls; secondary image"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1537,
+  "sku": "24951",
+  "label": "0.5 l/ø 14 cm",
+  "pos": 0,
+  "media": "10818",
+  "verdict": "unclear",
+  "seen": "Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1537,
+  "sku": "24951",
+  "label": "0.5 l/ø 14 cm",
+  "pos": 1,
+  "media": "10821",
+  "verdict": "ok",
+  "seen": "Same handle bowl, blue colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1537,
+  "sku": "24951",
+  "label": "0.5 l/ø 14 cm",
+  "pos": 2,
+  "media": "10824",
+  "verdict": "ok",
+  "seen": "Same handle bowl, dusty rose colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1537,
+  "sku": "24951",
+  "label": "0.5 l/ø 14 cm",
+  "pos": 3,
+  "media": "10827",
+  "verdict": "ok",
+  "seen": "Same handle bowl, light grey colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1537,
+  "sku": "24951",
+  "label": "0.5 l/ø 14 cm",
+  "pos": 4,
+  "media": "10830",
+  "verdict": "ok",
+  "seen": "Lifestyle: dog eating from grey and sage handle bowls; secondary image"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1538,
+  "sku": "24952",
+  "label": "0.75 l/ø 16 cm",
+  "pos": 0,
+  "media": "10818",
+  "verdict": "unclear",
+  "seen": "Trixie plastic bowl with handle cut-out and black rubber ring, sage green; generic range photo for 24950-24953, identical across 3 size variants - size not distinguishable"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1538,
+  "sku": "24952",
+  "label": "0.75 l/ø 16 cm",
+  "pos": 1,
+  "media": "10821",
+  "verdict": "ok",
+  "seen": "Same handle bowl, blue colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1538,
+  "sku": "24952",
+  "label": "0.75 l/ø 16 cm",
+  "pos": 2,
+  "media": "10824",
+  "verdict": "ok",
+  "seen": "Same handle bowl, dusty rose colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1538,
+  "sku": "24952",
+  "label": "0.75 l/ø 16 cm",
+  "pos": 3,
+  "media": "10827",
+  "verdict": "ok",
+  "seen": "Same handle bowl, light grey colour (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1538,
+  "sku": "24952",
+  "label": "0.75 l/ø 16 cm",
+  "pos": 4,
+  "media": "10830",
+  "verdict": "ok",
+  "seen": "Lifestyle: dog eating from grey and sage handle bowls; secondary image"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1561,
+  "sku": "24430",
+  "label": "0.25 l/ø 12 cm",
+  "pos": 0,
+  "media": "10905",
+  "verdict": "ok",
+  "seen": "Trixie clover/flower-shaped plastic bowl, turquoise; clean product shot (colour varies)"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1561,
+  "sku": "24430",
+  "label": "0.25 l/ø 12 cm",
+  "pos": 1,
+  "media": "10908",
+  "verdict": "ok",
+  "seen": "Same clover bowl, green"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1561,
+  "sku": "24430",
+  "label": "0.25 l/ø 12 cm",
+  "pos": 2,
+  "media": "10911",
+  "verdict": "ok",
+  "seen": "Same clover bowl, pink/magenta"
+ },
+ {
+  "product_id": "813",
+  "variant_id": 1561,
+  "sku": "24430",
+  "label": "0.25 l/ø 12 cm",
+  "pos": 3,
+  "media": "10914",
+  "verdict": "ok",
+  "seen": "Same clover bowl, grey"
+ }
+]

@@ -1,0 +1,462 @@
+[
+ {
+  "product_id": "637",
+  "variant_id": 759,
+  "sku": "005517",
+  "label": "Salmon 1.5 kg",
+  "pos": 0,
+  "media": "4682",
+  "verdict": "ok",
+  "seen": "Monge Speciality Line Adult >12 months, N°1 Salmon, 1,5kg cat bag (older design without the MONOPROTEIN band); clean packshot"
+ },
+ {
+  "product_id": "637",
+  "variant_id": 759,
+  "sku": "005517",
+  "label": "Salmon 1.5 kg",
+  "pos": 1,
+  "media": "7252",
+  "verdict": "ok",
+  "seen": "Monge Speciality Line Adult Monoprotein Salmon cat bag, 1,5kg printed"
+ },
+ {
+  "product_id": "637",
+  "variant_id": 759,
+  "sku": "005517",
+  "label": "Salmon 1.5 kg",
+  "pos": 2,
+  "media": "4685",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge Monoprotein Adult Losos (salmon) cat, bag 1,5kg shown, composition and feeding table"
+ },
+ {
+  "product_id": "637",
+  "variant_id": 759,
+  "sku": "005517",
+  "label": "Salmon 1.5 kg",
+  "pos": 3,
+  "media": "4688",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (fish-shaped cat kibble)"
+ },
+ {
+  "product_id": "638",
+  "variant_id": 760,
+  "sku": "005527",
+  "label": "Beef 1.5 kg",
+  "pos": 0,
+  "media": "4691",
+  "verdict": "ok",
+  "seen": "Monge Speciality Line Sterilised Monoprotein Beef cat bag, 1,5kg printed; clean packshot"
+ },
+ {
+  "product_id": "638",
+  "variant_id": 760,
+  "sku": "005527",
+  "label": "Beef 1.5 kg",
+  "pos": 1,
+  "media": "7255",
+  "verdict": "ok",
+  "seen": "Monge Speciality Line Sterilised Monoprotein Beef (Manzo) cat bag, 1,5kg printed"
+ },
+ {
+  "product_id": "639",
+  "variant_id": 761,
+  "sku": "011257",
+  "label": "Lamb & Rice 800 g",
+  "pos": 0,
+  "media": "1755",
+  "verdict": "wrong-size",
+  "seen": "Monge All Breeds Puppy and Junior Lamb with Rice dog bag, but 2,5kg printed (variant is 800 g)"
+ },
+ {
+  "product_id": "639",
+  "variant_id": 1573,
+  "sku": "011217",
+  "label": "Salmon & Rice 12 kg",
+  "pos": 0,
+  "media": "14008",
+  "verdict": "ok",
+  "seen": "Monge All Breeds Puppy and Junior Monoprotein Salmon with Rice dog bag, 12kg printed; clean packshot"
+ },
+ {
+  "product_id": "639",
+  "variant_id": 1654,
+  "sku": "011217-KG",
+  "label": "1 kg",
+  "pos": 0,
+  "media": "14008",
+  "verdict": "ok",
+  "seen": "Monge All Breeds Puppy and Junior Monoprotein Salmon with Rice dog bag, 12kg printed; clean packshot; -KG twin reuses its 12 kg bag gallery"
+ },
+ {
+  "product_id": "639",
+  "variant_id": 1574,
+  "sku": "006487",
+  "label": "Beef & Rice 15 kg",
+  "pos": 0,
+  "media": "14035",
+  "verdict": "unclear",
+  "seen": "Monge Best for Breeders Speciality Line 15kg generic breeder bag; front prints no recipe or lifestage, so Beef & Rice Puppy & Junior cannot be confirmed from the pack"
+ },
+ {
+  "product_id": "639",
+  "variant_id": 1574,
+  "sku": "006487",
+  "label": "Beef & Rice 15 kg",
+  "pos": 1,
+  "media": "14038",
+  "verdict": "ok",
+  "seen": "English infographic: Monge Best for Breeders All Breeds Puppy and Junior Monoprotein Beef with Rice, pack size 15kg"
+ },
+ {
+  "product_id": "639",
+  "variant_id": 1655,
+  "sku": "006487-KG",
+  "label": "1 kg",
+  "pos": 0,
+  "media": "14035",
+  "verdict": "unclear",
+  "seen": "Monge Best for Breeders Speciality Line 15kg generic breeder bag; front prints no recipe or lifestage, so Beef & Rice Puppy & Junior cannot be confirmed from the pack; -KG twin reuses its 15 kg bag gallery"
+ },
+ {
+  "product_id": "639",
+  "variant_id": 1655,
+  "sku": "006487-KG",
+  "label": "1 kg",
+  "pos": 1,
+  "media": "14038",
+  "verdict": "ok",
+  "seen": "English infographic: Monge Best for Breeders All Breeds Puppy and Junior Monoprotein Beef with Rice, pack size 15kg; -KG twin reuses its 15 kg bag gallery"
+ },
+ {
+  "product_id": "640",
+  "variant_id": 762,
+  "sku": "011407",
+  "label": "Chicken 800 g",
+  "pos": 0,
+  "media": "1758",
+  "verdict": "ok",
+  "seen": "Monge Daily Line Extra Small <2kg Puppy and Junior Rich in Chicken dog bag, 800g printed"
+ },
+ {
+  "product_id": "641",
+  "variant_id": 763,
+  "sku": "011477",
+  "label": "Lamb & Rice 800 g",
+  "pos": 0,
+  "media": "1761",
+  "verdict": "wrong-size",
+  "seen": "Monge Speciality Line Extra Small Adult Lamb with Rice and Potatoes dog bag, but 2,5kg printed (variant is 800 g)"
+ },
+ {
+  "product_id": "642",
+  "variant_id": 764,
+  "sku": "011937",
+  "label": "Chicken 1.5 kg",
+  "pos": 0,
+  "media": "4694",
+  "verdict": "ok",
+  "seen": "Monge Sterilised Rich in Chicken cat bag, 1,5kg printed; clean packshot"
+ },
+ {
+  "product_id": "642",
+  "variant_id": 764,
+  "sku": "011937",
+  "label": "Chicken 1.5 kg",
+  "pos": 1,
+  "media": "7258",
+  "verdict": "ok",
+  "seen": "Monge Sterilised Rich in Chicken cat bag, 1,5kg printed"
+ },
+ {
+  "product_id": "642",
+  "variant_id": 764,
+  "sku": "011937",
+  "label": "Chicken 1.5 kg",
+  "pos": 2,
+  "media": "4697",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge Daily Line Sterilised Kurczak (chicken) cat, bag 1,5kg shown"
+ },
+ {
+  "product_id": "642",
+  "variant_id": 764,
+  "sku": "011937",
+  "label": "Chicken 1.5 kg",
+  "pos": 3,
+  "media": "4700",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (round cat kibble)"
+ },
+ {
+  "product_id": "643",
+  "variant_id": 765,
+  "sku": "012007",
+  "label": "Hare 1.5 kg",
+  "pos": 0,
+  "media": "4703",
+  "verdict": "ok",
+  "seen": "Monge BWild Adult Hare (Lepre) cat bag, Low Grain, 1,5kg printed; lynx is pack artwork, clean packshot"
+ },
+ {
+  "product_id": "643",
+  "variant_id": 765,
+  "sku": "012007",
+  "label": "Hare 1.5 kg",
+  "pos": 1,
+  "media": "4706",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge BWild Low Grain Adult Zajac (hare) cat, 1,5 kg"
+ },
+ {
+  "product_id": "643",
+  "variant_id": 765,
+  "sku": "012007",
+  "label": "Hare 1.5 kg",
+  "pos": 2,
+  "media": "4709",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (oval cat kibble)"
+ },
+ {
+  "product_id": "644",
+  "variant_id": 766,
+  "sku": "012067",
+  "label": "Buffalo 1.5 kg",
+  "pos": 0,
+  "media": "4712",
+  "verdict": "ok",
+  "seen": "Monge BWild Grain Free Large Breed All Life Stage Buffalo with potatoes and lentils cat bag, 1,5kg; cat photo is pack artwork, clean packshot"
+ },
+ {
+  "product_id": "644",
+  "variant_id": 766,
+  "sku": "012067",
+  "label": "Buffalo 1.5 kg",
+  "pos": 1,
+  "media": "4715",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge BWild Grain Free Bawol (buffalo) large breed cat, 1,5kg"
+ },
+ {
+  "product_id": "644",
+  "variant_id": 766,
+  "sku": "012067",
+  "label": "Buffalo 1.5 kg",
+  "pos": 2,
+  "media": "4718",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (round cat kibble)"
+ },
+ {
+  "product_id": "645",
+  "variant_id": 767,
+  "sku": "012087",
+  "label": "Tuna with Peas 1.5 kg",
+  "pos": 0,
+  "media": "4721",
+  "verdict": "ok",
+  "seen": "Monge BWild Grain Free Sterilised Tuna with Peas cat bag, 1,5kg; cat photo is pack artwork, clean packshot"
+ },
+ {
+  "product_id": "645",
+  "variant_id": 767,
+  "sku": "012087",
+  "label": "Tuna with Peas 1.5 kg",
+  "pos": 1,
+  "media": "4724",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge BWild Grain Free Sterilised Tunczyk z groszkiem (tuna with peas) cat, 1,5kg"
+ },
+ {
+  "product_id": "645",
+  "variant_id": 767,
+  "sku": "012087",
+  "label": "Tuna with Peas 1.5 kg",
+  "pos": 2,
+  "media": "4727",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (square cat kibble)"
+ },
+ {
+  "product_id": "646",
+  "variant_id": 768,
+  "sku": "081517",
+  "label": "1.5 kg",
+  "pos": 0,
+  "media": "4730",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Gastrointestinal Pork with Anchovies Adult cat bag, 1,5kg; clean packshot"
+ },
+ {
+  "product_id": "646",
+  "variant_id": 768,
+  "sku": "081517",
+  "label": "1.5 kg",
+  "pos": 1,
+  "media": "7261",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Gastrointestinal Pork with Anchovies Adult cat bag, 1,5kg"
+ },
+ {
+  "product_id": "646",
+  "variant_id": 768,
+  "sku": "081517",
+  "label": "1.5 kg",
+  "pos": 2,
+  "media": "4733",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Gastrointestinal Feline bag, 1,5kg (older pack design, same line)"
+ },
+ {
+  "product_id": "646",
+  "variant_id": 768,
+  "sku": "081517",
+  "label": "1.5 kg",
+  "pos": 3,
+  "media": "4736",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge VetSolution Gastrointestinal wieprzowina z anchois cat, 1,5kg bag (mongeshop text watermark, not hafo)"
+ },
+ {
+  "product_id": "646",
+  "variant_id": 768,
+  "sku": "081517",
+  "label": "1.5 kg",
+  "pos": 4,
+  "media": "4739",
+  "verdict": "ok",
+  "seen": "English infographic: Monge VetSolution Gastrointestinal Pork with Anchovies feline, 1,5kg bag (mongeshop text watermark, not hafo)"
+ },
+ {
+  "product_id": "646",
+  "variant_id": 768,
+  "sku": "081517",
+  "label": "1.5 kg",
+  "pos": 5,
+  "media": "4742",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (square cat kibble)"
+ },
+ {
+  "product_id": "647",
+  "variant_id": 769,
+  "sku": "081657",
+  "label": "1.5 kg",
+  "pos": 0,
+  "media": "4745",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Renal Chicken with Anchovies Adult cat bag, 1,5kg; clean packshot"
+ },
+ {
+  "product_id": "647",
+  "variant_id": 769,
+  "sku": "081657",
+  "label": "1.5 kg",
+  "pos": 1,
+  "media": "7264",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Renal Chicken with Anchovies Adult cat bag, 1,5kg"
+ },
+ {
+  "product_id": "647",
+  "variant_id": 769,
+  "sku": "081657",
+  "label": "1.5 kg",
+  "pos": 2,
+  "media": "4748",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Renal Feline bag, 1,5kg (older pack design, same line)"
+ },
+ {
+  "product_id": "647",
+  "variant_id": 769,
+  "sku": "081657",
+  "label": "1.5 kg",
+  "pos": 3,
+  "media": "4751",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge VetSolution Renal kurczak z anchois cat, 1,5kg bag (mongeshop text watermark, not hafo)"
+ },
+ {
+  "product_id": "647",
+  "variant_id": 769,
+  "sku": "081657",
+  "label": "1.5 kg",
+  "pos": 4,
+  "media": "4754",
+  "verdict": "ok",
+  "seen": "English infographic: Monge VetSolution Renal Chicken with Anchovies feline, 1,5kg bag (mongeshop text watermark, not hafo)"
+ },
+ {
+  "product_id": "647",
+  "variant_id": 769,
+  "sku": "081657",
+  "label": "1.5 kg",
+  "pos": 5,
+  "media": "4757",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (square cat kibble)"
+ },
+ {
+  "product_id": "648",
+  "variant_id": 770,
+  "sku": "081687",
+  "label": "1.5 kg",
+  "pos": 0,
+  "media": "4760",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Hepatic Peas with Chicken Adult cat bag, 1,5kg; clean packshot"
+ },
+ {
+  "product_id": "648",
+  "variant_id": 770,
+  "sku": "081687",
+  "label": "1.5 kg",
+  "pos": 1,
+  "media": "7267",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Hepatic Peas with Chicken Adult cat bag, 1,5kg"
+ },
+ {
+  "product_id": "648",
+  "variant_id": 770,
+  "sku": "081687",
+  "label": "1.5 kg",
+  "pos": 2,
+  "media": "4763",
+  "verdict": "ok",
+  "seen": "Monge VetSolution Hepatic Feline bag, 1,5kg (older pack design, same line)"
+ },
+ {
+  "product_id": "648",
+  "variant_id": 770,
+  "sku": "081687",
+  "label": "1.5 kg",
+  "pos": 3,
+  "media": "4766",
+  "verdict": "ok",
+  "seen": "Polish infographic: Monge VetSolution Hepatic groszek z kurczakiem cat, 1,5kg bag (mongeshop text watermark, not hafo)"
+ },
+ {
+  "product_id": "648",
+  "variant_id": 770,
+  "sku": "081687",
+  "label": "1.5 kg",
+  "pos": 4,
+  "media": "4769",
+  "verdict": "ok",
+  "seen": "English infographic: Monge VetSolution Hepatic Peas with Chicken feline, 1,5kg bag (mongeshop text watermark, not hafo)"
+ },
+ {
+  "product_id": "648",
+  "variant_id": 770,
+  "sku": "081687",
+  "label": "1.5 kg",
+  "pos": 5,
+  "media": "4772",
+  "verdict": "ok",
+  "seen": "Kibble close-up with ruler, no pack shown; secondary image (square cat kibble)"
+ }
+]

@@ -1,0 +1,232 @@
+[
+ {
+  "product_id": "964",
+  "sku": "5431112",
+  "status": "found",
+  "ean": "064992543112",
+  "images": [
+   {
+    "file": "found/5431112/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/7/800/3000275_pla_acana_highest_protein_mit_rind_lamm_schwein_forelle_11_4kg_01_3000275_1000215_7.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992543112 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2644776 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Highest Protein Ranchlands Recipe bag, new look, 'NET WEIGHT | POIDS NET 11.4 KG | 25 LB' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/5431112/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/5/800/3000275_pla_acana_highest_protein_mit_rind_lamm_schwein_forelle_11_4kg_02_3000275_1000215_5.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992543112 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2644776 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Highest Protein Ranchlands Recipe bag, new look, 'NET WEIGHT | POIDS NET 11.4 KG | 25 LB' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/5431112/3-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/7/800/3000275_pla_acana_highest_protein_mit_rind_lamm_schwein_forelle_11_4kg_03_3000275_1000215_7.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992543112 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2644776 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Highest Protein Ranchlands Recipe bag, new look, 'NET WEIGHT | POIDS NET 11.4 KG | 25 LB' printed; 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1006",
+  "sku": "5401112",
+  "status": "found",
+  "ean": "064992540111",
+  "images": [
+   {
+    "file": "found/5401112/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/0/800/3000249_pla_Acana_Highest_Protein_Huhn_Pute_Huehnerinnereien_11_4kg_01_3000249_1000215_0.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992540111 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645384 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Highest Protein Wild Prairie Recipe bag, new look, 'POIDS NET 11.4 KG | 25 LB' printed (small but legible); 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/5401112/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/7/800/3000249_pla_left_Acana_Highest_Protein_Huhn_Pute_Huehnerinnereien_11_4kg_02_3000249_1000215_7.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992540111 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645384 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Highest Protein Wild Prairie Recipe bag, new look, 'POIDS NET 11.4 KG | 25 LB' printed (small but legible); 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1009",
+  "sku": "5121112",
+  "status": "found",
+  "ean": "064992512118",
+  "images": [
+   {
+    "file": "found/5121112/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/9/800/3000312_pla_acana_light_fit_mit_huhn_pute_und_fisch_11_4kg_01_3000312_1000215_9.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992512118 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2646764 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Light & Fit Recipe bag (chicken & hake), 'NET WEIGHT | POIDS NET 11.4 kg | 25 lb' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/5121112/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/6/800/3000312_pla_acana_light_fit_mit_huhn_pute_und_fisch_11_4kg_02_3000312_1000215_6.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992512118 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2646764 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Light & Fit Recipe bag (chicken & hake), 'NET WEIGHT | POIDS NET 11.4 kg | 25 lb' printed; 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1018",
+  "sku": "5721212",
+  "status": "found",
+  "ean": "064992572129",
+  "images": [
+   {
+    "file": "found/5721212/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/2/800/3000297_pla_acana_singles_mit_yorkshire_schwein_11_4kg_01_3000297_1000215_2.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992572129 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645770 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Singles Formula Yorkshire Pork bag, '11.4 KG | 25 LB' printed; PREVIOUS (Singles Formula/25 years) design, not the new Limited Ingredient Diet look - it is the design zooplus and polypet.com.sg show for this exact EAN; no new-design 11.4 kg render found; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/5721212/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/7/800/3000297_pla_acana_singles_mit_yorkshire_schwein_11_4kg_02_3000297_1000215_7.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992572129 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645770 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Singles Formula Yorkshire Pork bag, '11.4 KG | 25 LB' printed; PREVIOUS (Singles Formula/25 years) design, not the new Limited Ingredient Diet look - it is the design zooplus and polypet.com.sg show for this exact EAN; no new-design 11.4 kg render found; 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1024",
+  "sku": "AC5701212",
+  "status": "found",
+  "ean": "064992570125",
+  "images": [
+   {
+    "file": "found/AC5701212/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/7/800/3000279_pla_acana_singles_lamm_mit_apfel_und_lavendel_11_4kg_01_3000279_1000215_7.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992570125 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645645 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Singles Limited Ingredient Diet Grass-Fed Lamb Recipe bag, new look, 'NET WT. | POIDS NET 11.4kg | 25lb' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/AC5701212/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/9/800/3000279_pla_acana_singles_lamm_mit_apfel_und_lavendel_11_4kg_02_3000279_1000215_9.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992570125 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645645 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Singles Limited Ingredient Diet Grass-Fed Lamb Recipe bag, new look, 'NET WT. | POIDS NET 11.4kg | 25lb' printed; 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1029",
+  "sku": "AC5001112",
+  "status": "found",
+  "ean": "064992500115",
+  "images": [
+   {
+    "file": "found/AC5001112/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/4/800/3000303_pla_acana_puppy_mit_huhn__pute_und_fisch_11_4kg_01_3000303_1000215_4.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992500115 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645294 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Puppy Recipe bag (fresh chicken & raw hake), 'NET WEIGHT | POIDS NET 11.4 kg | 25 lb' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/AC5001112/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/6/800/3000303_pla_acana_puppy_mit_huhn__pute_und_fisch_11_4kg_02_3000303_1000215_6.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992500115 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645294 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Puppy Recipe bag (fresh chicken & raw hake), 'NET WEIGHT | POIDS NET 11.4 kg | 25 lb' printed; 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1033",
+  "sku": "AC5421112",
+  "status": "found",
+  "ean": "064992542115",
+  "images": [
+   {
+    "file": "found/AC5421112/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/8/800/3000259_pla_Acana_Highest_Protein_Lamm_Ente_und_Eier_11_4kg_01_3000259_1000215_8.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992542115 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645586 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Highest Protein Grasslands Recipe bag, new look, 'NET WEIGHT | POIDS NET 11.4 KG | 25 LB' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/AC5421112/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/3/800/3000259_pla_Acana_Highest_Protein_Lamm_Ente_und_Eier_11_4kg_02_3000259_1000215_3.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992542115 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645586 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Highest Protein Grasslands Recipe bag, new look, 'NET WEIGHT | POIDS NET 11.4 KG | 25 LB' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/AC5421112/3-carrefour.jpg",
+    "url": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/original/0064992542115_1.jpg",
+    "source": "carrefour.es picture bucket",
+    "keyed_by": "EAN 0064992542115 in file name",
+    "seen": "3/4 view, Acana Highest Protein Grasslands new look, 'POIDS NET 11.4 KG | 25 LB' printed; 928x928, clean"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1035",
+  "sku": "AC5411112",
+  "status": "found",
+  "ean": "064992541118",
+  "images": [
+   {
+    "file": "found/AC5411112/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/2/800/3000269_pla_acana_highest_protein_hering_lachs_und_flunder_11_4kg_01_3000269_1000215_2.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992541118 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2644407 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Highest Protein Pacifica Recipe bag, new look, 'NET WEIGHT | POIDS NET 11.4 KG | 25 LB' printed; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/AC5411112/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/9/800/3000269_pla_acana_highest_protein_hering_lachs_und_flunder_11_4kg_02_3000269_1000215_9.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992541118 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2644407 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Highest Protein Pacifica Recipe bag, new look, 'NET WEIGHT | POIDS NET 11.4 KG | 25 LB' printed; 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ },
+ {
+  "product_id": "1036",
+  "sku": "AC5711212",
+  "status": "found",
+  "ean": "064992571122",
+  "images": [
+   {
+    "file": "found/AC5711212/1-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/9/800/3000293_pla_acana_singles_mit_ente_birnen_und_lavendel_11_4kg_01_3000293_1000215_9.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992571122 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645675 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "front, Acana Singles Formula Free-Run Duck bag, '11.4 KG | 25 LB' printed; PREVIOUS (Singles Formula/25 years) design, not the new Limited Ingredient Diet look - it is the design zooplus and polypet.com.sg show for this exact EAN; no new-design 11.4 kg render found; 800x800, clean white bg, unwatermarked"
+   },
+   {
+    "file": "found/AC5711212/2-zooplus.jpg",
+    "url": "https://media.zooplus.com/bilder/5/800/3000293_pla_acana_singles_mit_ente_birnen_und_lavendel_11_4kg_02_3000293_1000215_5.jpg",
+    "source": "zooplus.pl",
+    "keyed_by": "EAN 064992571122 = 11.4 kg variant on https://www.zooplus.pl/shop/psy/karma_dla_psa_sucha/acana_karma/2645675 (page JSON ean/gtin13 maps to this 11_4kg image set)",
+    "seen": "3/4 view, Acana Singles Formula Free-Run Duck bag, '11.4 KG | 25 LB' printed; PREVIOUS (Singles Formula/25 years) design, not the new Limited Ingredient Diet look - it is the design zooplus and polypet.com.sg show for this exact EAN; no new-design 11.4 kg render found; 800x800, clean white bg, unwatermarked"
+   }
+  ],
+  "tried": "brand site emea.acana.com (6 kg render only; 11.4 kg filename variants 404), UPC rebuilt 0064992+recipe/size code+check (from csv/acana-orijen.csv / scale XML), ean-image-lookup.py (carrefour-es bucket: mostly <500 px or old/overlaid), WebSearch EAN, multitronic/ox.ee/polypet (EAN printed, images too small or lifestyle), zooplus.pl (EAN-keyed 11.4 kg variant images)",
+  "lens_hint": ""
+ }
+]

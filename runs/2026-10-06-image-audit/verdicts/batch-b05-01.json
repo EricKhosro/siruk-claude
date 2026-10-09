@@ -1,0 +1,452 @@
+[
+ {
+  "product_id": "327",
+  "variant_id": 431,
+  "sku": "40121",
+  "label": "38 × 17 × 58 cm, grey",
+  "pos": 0,
+  "media": "1770",
+  "verdict": "ok",
+  "seen": "Trixie Carlo-style oval open tray, dark grey basin with light grey rim, no hood (tray height ~17 cm matches 38x17x58); Trixie art. 40121 photo (note: product name says 'with Hood' but article 40121 is the open rim tray shown)"
+ },
+ {
+  "product_id": "327",
+  "variant_id": 431,
+  "sku": "40121",
+  "label": "38 × 17 × 58 cm, grey",
+  "pos": 1,
+  "media": "2810",
+  "verdict": "ok",
+  "seen": "same grey oval rim tray, other angle, no hood"
+ },
+ {
+  "product_id": "327",
+  "variant_id": 431,
+  "sku": "40121",
+  "label": "38 × 17 × 58 cm, grey",
+  "pos": 2,
+  "media": "8371",
+  "verdict": "ok",
+  "seen": "same grey oval rim tray (duplicate of pos 0 shot)"
+ },
+ {
+  "product_id": "328",
+  "variant_id": 432,
+  "sku": "40181",
+  "label": "mint green/white",
+  "pos": 0,
+  "media": "8377",
+  "verdict": "ok",
+  "seen": "Classic rectangular tray with clip-on rim, mint/turquoise basin with white rim, clean packshot"
+ },
+ {
+  "product_id": "328",
+  "variant_id": 1424,
+  "sku": "40187",
+  "label": "purple/white",
+  "pos": 0,
+  "media": "8266",
+  "verdict": "unclear",
+  "seen": "Classic rectangular tray with white rim, basin reads blue-grey/slate rather than purple; Trixie's own 40187 photo, so colour name 'purple/white' vs shown blue-grey needs checking"
+ },
+ {
+  "product_id": "328",
+  "variant_id": 1424,
+  "sku": "40187",
+  "label": "purple/white",
+  "pos": 1,
+  "media": "8272",
+  "verdict": "unclear",
+  "seen": "same Classic tray, white rim, basin blue-grey/slate (not clearly purple)"
+ },
+ {
+  "product_id": "328",
+  "variant_id": 1424,
+  "sku": "40187",
+  "label": "purple/white",
+  "pos": 2,
+  "media": "8278",
+  "verdict": "unclear",
+  "seen": "same Classic tray, other angle, basin blue-grey/slate (not clearly purple)"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 0,
+  "media": "1773",
+  "verdict": "ok",
+  "seen": "Delio tray with high white rim printed with row of cat silhouettes, grey-violet (purple) basin, clean packshot"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 1,
+  "media": "2813",
+  "verdict": "ok",
+  "seen": "Delio grey-violet basin alone without rim"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 2,
+  "media": "2816",
+  "verdict": "ok",
+  "seen": "Delio side view, cat-silhouette white rim, grey-violet basin"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 3,
+  "media": "5654",
+  "verdict": "ok",
+  "seen": "Delio front view, perforated white rim, grey-violet basin"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 4,
+  "media": "5660",
+  "verdict": "ok",
+  "seen": "Delio 3/4 view other side, grey-violet basin"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 5,
+  "media": "8383",
+  "verdict": "ok",
+  "seen": "Delio cat-silhouette rim, grey-violet basin (dup of pos 0)"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 6,
+  "media": "8389",
+  "verdict": "ok",
+  "seen": "Delio grey-violet basin alone (dup of pos 1)"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 7,
+  "media": "8395",
+  "verdict": "ok",
+  "seen": "Delio side view, grey-violet basin (dup of pos 2)"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 8,
+  "media": "8398",
+  "verdict": "wrong-colour",
+  "seen": "Delio tray with cat-silhouette rim but basin is steel blue-grey, not purple - the grey/white colour variant"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 9,
+  "media": "8401",
+  "verdict": "wrong-colour",
+  "seen": "same image as pos 8: Delio blue-grey/white colour variant, not purple"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 10,
+  "media": "8407",
+  "verdict": "wrong-colour",
+  "seen": "Delio side view, basin steel blue-grey (grey/white variant), not purple"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 11,
+  "media": "8410",
+  "verdict": "wrong-colour",
+  "seen": "Delio front view, basin steel blue-grey (grey/white variant), not purple"
+ },
+ {
+  "product_id": "329",
+  "variant_id": 433,
+  "sku": "40397",
+  "label": "38 × 20 × 50 cm, purple/white",
+  "pos": 12,
+  "media": "8416",
+  "verdict": "wrong-colour",
+  "seen": "Delio basin alone in steel blue-grey (grey variant), not purple"
+ },
+ {
+  "product_id": "330",
+  "variant_id": 434,
+  "sku": "42404",
+  "label": "750 g, active carbon",
+  "pos": 0,
+  "media": "1776",
+  "verdict": "ok",
+  "seen": "Trixie Simple'n'Clean Katzenstreudeo / Cat Litter Deodorizer, odourless (Geruchsneutral), bottle #42404 printed; weight not printed on front, single-size article"
+ },
+ {
+  "product_id": "330",
+  "variant_id": 434,
+  "sku": "42404",
+  "label": "750 g, active carbon",
+  "pos": 1,
+  "media": "8422",
+  "verdict": "ok",
+  "seen": "same Trixie Simple'n'Clean deodorizer bottle #42404"
+ },
+ {
+  "product_id": "330",
+  "variant_id": 434,
+  "sku": "42404",
+  "label": "750 g, active carbon",
+  "pos": 2,
+  "media": "8428",
+  "verdict": "ok",
+  "seen": "same Trixie Simple'n'Clean deodorizer bottle #42404 (shop image)"
+ },
+ {
+  "product_id": "330",
+  "variant_id": 434,
+  "sku": "42404",
+  "label": "750 g, active carbon",
+  "pos": 3,
+  "media": "8436",
+  "verdict": "ok",
+  "seen": "same Trixie Simple'n'Clean deodorizer bottle #42404 (identical to pos 2)"
+ },
+ {
+  "product_id": "331",
+  "variant_id": 435,
+  "sku": "00265",
+  "label": "150 g",
+  "pos": 0,
+  "media": "9449",
+  "verdict": "unclear",
+  "seen": "Trixie 'Snack Chew Bites' pouch, 'with parsley & peppermint', #31501 printed; no 'Denta Fun' wording and no weight on pack - line name/article (sku 00265) and 150 g cannot be confirmed"
+ },
+ {
+  "product_id": "331",
+  "variant_id": 435,
+  "sku": "00265",
+  "label": "150 g",
+  "pos": 1,
+  "media": "9452",
+  "verdict": "ok",
+  "seen": "close-up of green/brown ridged chew bites matching the #31501 parsley & peppermint pouch"
+ },
+ {
+  "product_id": "331",
+  "variant_id": 435,
+  "sku": "00265",
+  "label": "150 g",
+  "pos": 2,
+  "media": "7960",
+  "verdict": "unclear",
+  "seen": "Trixie 'Snack Chew Bites' pouch, 'with parsley & peppermint', #31501 printed; no 'Denta Fun' wording and no weight on pack - line name/article (sku 00265) and 150 g cannot be confirmed (same pack as pos 0, higher res)"
+ },
+ {
+  "product_id": "331",
+  "variant_id": 435,
+  "sku": "00265",
+  "label": "150 g",
+  "pos": 3,
+  "media": "7963",
+  "verdict": "ok",
+  "seen": "close-up of the same green ridged chew bites"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 0,
+  "media": "2822",
+  "verdict": "not-packshot-lead",
+  "seen": "single brown treat piece close-up, not the pouch; pouch is Trixie Tablettenversteck #25841 (pos 1)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 1,
+  "media": "2825",
+  "verdict": "ok",
+  "seen": "Trixie Tablettenversteck / Hiding Place for Tablets pouch, #25841 printed, for dogs; weight not printed on front, single-size article"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 2,
+  "media": "8439",
+  "verdict": "ok",
+  "seen": "same Trixie Hiding Place for Tablets pouch #25841"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 3,
+  "media": "8445",
+  "verdict": "ok",
+  "seen": "same Trixie Hiding Place for Tablets pouch #25841 (shop image)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 4,
+  "media": "2828",
+  "verdict": "ok",
+  "seen": "single treat with white tablet inserted (usage close-up)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 5,
+  "media": "5675",
+  "verdict": "ok",
+  "seen": "hands inserting tablet into a treat (usage shot)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 6,
+  "media": "5678",
+  "verdict": "ok",
+  "seen": "hands inserting tablet into a treat (usage shot)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 7,
+  "media": "5684",
+  "verdict": "ok",
+  "seen": "hands inserting tablet into a treat, close (usage shot)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 8,
+  "media": "8451",
+  "verdict": "ok",
+  "seen": "single treat with tablet inserted (dup of pos 4)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 9,
+  "media": "8457",
+  "verdict": "ok",
+  "seen": "Trixie Hiding Place for Tablets pouch #25841 (identical to pos 3)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 10,
+  "media": "8463",
+  "verdict": "ok",
+  "seen": "five hollow brown treats close-up"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 11,
+  "media": "8466",
+  "verdict": "ok",
+  "seen": "single treat with tablet inserted"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 12,
+  "media": "8469",
+  "verdict": "ok",
+  "seen": "hands inserting tablet into treat (usage shot)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 13,
+  "media": "5687",
+  "verdict": "ok",
+  "seen": "lifestyle: Labrador looking at a treat on owner's hand"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 14,
+  "media": "2831",
+  "verdict": "ok",
+  "seen": "group of five hollow brown treats close-up"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 15,
+  "media": "8475",
+  "verdict": "ok",
+  "seen": "group of five hollow brown treats (dup of pos 14)"
+ },
+ {
+  "product_id": "332",
+  "variant_id": 436,
+  "sku": "25841",
+  "label": "100 g",
+  "pos": 16,
+  "media": "5693",
+  "verdict": "ok",
+  "seen": "illustration of hollow treats with tablet and capsule (pack artwork)"
+ }
+]

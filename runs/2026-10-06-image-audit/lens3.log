@@ -1,0 +1,13 @@
+[2026-10-07 13:09:24] INFO: Fetched (200) <GET https://www.google.com/search?sca_esv=4e6a8b8a41d3312c&lns_surface=26&authuser=0&hl=en-AM&sxsrf=APpeQnvxYtL9Sd-Vf5HzSeIqXlMlTNrZpQ:1791364137808&udm=48&vsrid=CJ2E5bjL-9rqUBACGAEiJGU0MjNiM2QzLTYwODQtNDFlMS1iODQxLTk5ZWFlMmJmNzg0ZTKBASICcmQoC0JzCi5sZmUtZHVtbXk6MGY2MjFhZjgtZTZlMC00YTVjLTk4NDMtMzA1NTQ3MGE1ZDFmEkEKPy9ibnMvcmQvYm9yZy9yZC9ibnMvbGVucy1mcm9udGVuZC1hcGkvcHJvZC5sZW5zLWZyb250ZW5kLWFwaS83MloECgJyZDj00du4x6eXAw&vsint=CAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABELwFGLwFJQAAgD8&lns_mode=un&source=lns.web.gsbubb&vsdim=700,700&gsessionid=f6k2tcwbPj09Al55i18jrfpzaZW56lnP0gUwDfqumH0clPZlhTfvMw&lsessionid=pAVZ2-wc7ydSUwUmfcrdZGdLqgX3wpmsgxbswgcH8o0UN89uzXfxEg&vsrid=CJ2E5bjL-9rqUBACGAEiJDVjNDRiMjkwLTkyN2EtNDJkNy04MjE4LTBlYzQ2MDU2NGVhZDKBASICcmQoC0JzCi5sZmUtZHVtbXk6MGY2MjFhZjgtZTZlMC00YTVjLTk4NDMtMzA1NTQ3MGE1ZDFmEkEKPy9ibnMvcmQvYm9yZy9yZC9ibnMvbGVucy1mcm9udGVuZC1hcGkvcHJvZC5sZW5zLWZyb250ZW5kLWFwaS83MloECgJyZDj00du4x6eXA1AA&q=&sa=X&ved=2ahUKEwjtp-O4x6eXAxXQSvEDHdlvInQQs6gLegQIFRAB&biw=1920&bih=1080&dpr=2> (referer: https://www.google.com/)
+902135~L/lens: 9 results
+[2026-10-07 13:10:34] INFO: Fetched (303) <GET https://id.uzum.uz/api/auth/redirect?redirectUrl=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fmyau-sukhoj-korm-dlya-kotyat-11-433507> (referer: https://www.google.com/)
+[2026-10-07 13:10:34] INFO: Fetched (302) <GET https://uzum.uz/ru/product/myau-sukhoj-korm-dlya-kotyat-11-433507> (referer: https://www.google.com/)
+[2026-10-07 13:10:34] INFO: Fetched (307) <GET https://uzum.uz/ru/product/myau-sukhoj-korm-dlya-kotyat-11-433507?_ycch=1> (referer: https://www.google.com/)
+[2026-10-07 13:10:34] INFO: Fetched (307) <GET https://uzum.uz/ru/product/myau-sukhoj-korm-dlya-kotyat-11-433507> (referer: https://www.google.com/)
+[2026-10-07 13:10:34] INFO: Fetched (200) <GET https://uzum.uz/ru/product/myau-sukhoj-korm-dlya-kotyat-11-433507> (referer: https://www.google.com/)
+902135~u/page: 1 results
+[2026-10-07 13:10:43] INFO: Fetched (404) <GET https://zoomir.az/en/catalogue/1_8804/> (referer: https://www.google.com/)
+902135~z/page: 1 results
+[2026-10-07 13:10:53] INFO: Fetched (200) <GET https://www.google.com/search?hl=en&udm=2&q=%D0%9C%D1%8F%D1%83%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82%2011%20%D0%BA%D0%B3%20%D0%BC%D1%96%D1%88%D0%BE%D0%BA> (referer: https://www.google.com/)
+902135~i/images: 100 results
+wrote runs/2026-10-06-image-audit/lens3-results.json

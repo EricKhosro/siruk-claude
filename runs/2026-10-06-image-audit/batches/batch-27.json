@@ -1,0 +1,1194 @@
+[
+ {
+  "product_id": "1053",
+  "product": "Cat Pouch in Jelly",
+  "brand": "Mooor",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1349,
+    "sku": "83010J",
+    "label": "Juicy Chicken",
+    "size_label": "75 g",
+    "options": "Flavor=Chicken; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների համար՝ Moor, հավ-сочная курочка, 75 գ",
+    "hafo_variant_hy": "Պաուչ կատուների համար՝ Moor, հավ-сочная курочка, 75 գ/020",
+    "ean": "4620213830100",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13969",
+      "file": "1349-1.png",
+      "dims": "649x837",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13969.png",
+      "md5": "f212c6b0979b2e206bb06d0dfe09335f"
+     }
+    ]
+   },
+   {
+    "variant_id": 1350,
+    "sku": "83014J",
+    "label": "Appetising Beef",
+    "size_label": "75 g",
+    "options": "Flavor=Beef; Food Texture=Chunks in Jelly; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ կատուների համար՝ Moor, տավար- аппетитная говядина, 75 գ",
+    "hafo_variant_hy": "Պաուչ կատուների համար՝ Moor, տավար- аппетитная говядина, 75 գ/021",
+    "ean": "4620213830148",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13972",
+      "file": "1350-1.png",
+      "dims": "649x848",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13972.png",
+      "md5": "14234511070afe38767f2e19f888e878"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1054",
+  "product": "Adult Dog Pouch",
+  "brand": "Justin",
+  "type": "Wet Food",
+  "variants": [
+   {
+    "variant_id": 1351,
+    "sku": "83077J",
+    "label": "Beef in Gravy",
+    "size_label": "75 g",
+    "options": "Flavor=Beef; Food Texture=Chunks in Gravy; Packaging Type=Pouch",
+    "hafo_title_hy": "Պաուչ շների  համար՝ Justin, տավարը սոուսում 75 գ",
+    "hafo_variant_hy": "Պաուչ շների  համար՝ Justin, տավարը սոուսում 75 գ/101",
+    "ean": "4620213830773",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13975",
+      "file": "1351-1.png",
+      "dims": "647x832",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13975.png",
+      "md5": "62292d4413b3dd0875049d54bb1fbba3"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1055",
+  "product": "No Stress Collar for Cats",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1352,
+    "sku": "13228",
+    "label": "35 cm",
+    "size_label": null,
+    "options": "Size=35 cm",
+    "hafo_title_hy": "Հակասթրեսային վզնոց կատուների համար, 35 սմ/ NO STRESS",
+    "hafo_variant_hy": "Հակասթրեսային վզնոց կատուների համար, 35 սմ/ NO STRESS",
+    "ean": "8711231132287",
+    "images": [
+     {
+      "pos": 0,
+      "media": "11963",
+      "file": "13228_337151-A_1613744564",
+      "dims": "678x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11963.jpg",
+      "md5": "ace6b2b1f090897c4ca9b3e7075761a1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1056",
+  "product": "Stop It Cat Repellent Spray",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1353,
+    "sku": "12527",
+    "label": "100 ml",
+    "size_label": "100 ml",
+    "options": "",
+    "hafo_title_hy": "Beaphar Stop It Cat՝ կատուներին անցանկալի վայրերից հեռու պահող միջոց, 100 մլ",
+    "hafo_variant_hy": "Ցողարկիչ՝ կատուներին  վանելու համար, Stop It Indoor, 100 մլ",
+    "ean": "8711231125272",
+    "images": [
+     {
+      "pos": 0,
+      "media": "11960",
+      "file": "12527",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/11960.jpg",
+      "md5": "983b952e02331fdeb494c8c5282fcd1c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1057",
+  "product": "Stop It Indoor Repellent Spray",
+  "brand": "Beaphar",
+  "type": "Supplements",
+  "variants": [
+   {
+    "variant_id": 1354,
+    "sku": "21382",
+    "label": "200 ml",
+    "size_label": "200 ml",
+    "options": "",
+    "hafo_title_hy": "Ցողարկիչ՝ կատուներին և շներին վանելու համար, Stop It Indoor, 200 մլ",
+    "hafo_variant_hy": "Ցողարկիչ՝ կատուներին և շներին վանելու համար, Stop It Indoor, 200 մլ/1000526",
+    "ean": "8711231213825",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13978",
+      "file": "1354-1-white.jpg",
+      "dims": "2000x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13978.jpg",
+      "md5": "d1ba68cf359f82f7ed4bb69d60e1f8ae"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1058",
+  "product": "DO IT YOURSELF Narciso Perfume",
+  "brand": "Iv San Bernard",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1355,
+    "sku": "05565IVS",
+    "label": "125 ml",
+    "size_label": "125 ml",
+    "options": "",
+    "hafo_title_hy": "Օծանելիք՝ DO IT YOURSELF, NARCISO PERFUME, 125 մլ",
+    "hafo_variant_hy": "Օծանելիք՝ DO IT YOURSELF, NARCISO PERFUME, 125 մլ/PRONA125",
+    "ean": "8022767055651",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13981",
+      "file": "1355-1-white.jpg",
+      "dims": "1500x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13981.jpg",
+      "md5": "59d20f8c96b226b9b89bd97fa21c6768"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1059",
+  "product": "DO IT YOURSELF Ocean Perfume",
+  "brand": "Iv San Bernard",
+  "type": "Grooming",
+  "variants": [
+   {
+    "variant_id": 1356,
+    "sku": "05566IVS",
+    "label": "125 ml",
+    "size_label": "125 ml",
+    "options": "",
+    "hafo_title_hy": "Օծանելիք՝ DO IT YOURSELF, OCEAN PERFUME, 125 մլ",
+    "hafo_variant_hy": "Օծանելիք՝ DO IT YOURSELF, OCEAN PERFUME, 125 մլ/PROC125",
+    "ean": "8022767055668",
+    "images": [
+     {
+      "pos": 0,
+      "media": "13984",
+      "file": "1356-1-white.jpg",
+      "dims": "1500x2000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/13984.jpg",
+      "md5": "fdacc6c58d5dc5de4825c765e01a15fe"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1061",
+  "product": "Davio Top Litter Tray with Hood",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1428,
+    "sku": "40570",
+    "label": "56 × 39 × 39 cm, sage/white",
+    "size_label": null,
+    "options": "Color Family=Sage",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10410",
+      "file": "63586_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10410.jpg",
+      "md5": "e732f258378d5bb84caf117bf8d21cdf"
+     },
+     {
+      "pos": 1,
+      "media": "10413",
+      "file": "63587_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10413.jpg",
+      "md5": "eb5c25dbb5ea40780a6d956aa0d2a701"
+     },
+     {
+      "pos": 2,
+      "media": "10416",
+      "file": "63588_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10416.jpg",
+      "md5": "42d46f0dd7c130e45f389d04c75ffa78"
+     },
+     {
+      "pos": 3,
+      "media": "10419",
+      "file": "63589_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10419.jpg",
+      "md5": "b2e6380b84ea349751acb7421674987f"
+     },
+     {
+      "pos": 4,
+      "media": "10422",
+      "file": "63590_0",
+      "dims": "1600x873",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10422.jpg",
+      "md5": "21bbe231366fedf09622baeaf7b423cd"
+     },
+     {
+      "pos": 5,
+      "media": "10425",
+      "file": "63591_0",
+      "dims": "1920x1024",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10425.jpg",
+      "md5": "04d31ecaafa086fe586d0b0d66b44236"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1062",
+  "product": "Litter Tray Carlo",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1429,
+    "sku": "40211",
+    "label": "31 × 14 × 43 cm, anthracite/grey-green",
+    "size_label": null,
+    "options": "Color Family=Grey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10428",
+      "file": "PHO_PRO_CLIP_40211-40212-1_-SALL_-AWK_-V1",
+      "dims": "1600x1018",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10428.jpg",
+      "md5": "2c7463fc66e5249aa53a439920199a92"
+     },
+     {
+      "pos": 1,
+      "media": "10431",
+      "file": "PHO_PRO_CLIP_40211-40212-2_-SALL_-AWK_-V1",
+      "dims": "1600x1010",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10431.jpg",
+      "md5": "fa919a39e9039315369514cbf58a2304"
+     },
+     {
+      "pos": 2,
+      "media": "10434",
+      "file": "PHO_PRO_CLIP_40211-40212-3_-SALL_-AWK_-V1",
+      "dims": "1600x874",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10434.jpg",
+      "md5": "fe8fb518ac9e170af38ce0a0001099ed"
+     },
+     {
+      "pos": 3,
+      "media": "10437",
+      "file": "PHO_PRO_DET_CLIP_40211-40212-1_-SALL_-AWK_-V1",
+      "dims": "1600x896",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10437.jpg",
+      "md5": "8da4ea0f40f174d2e1c840e0fc675592"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1063",
+  "product": "Waist Belt with Lead for Medium-Sized and Large Dogs",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1430,
+    "sku": "12767",
+    "label": "belt: 70–130 cm/9 cm, lead: 1.20–1.50 m/25 mm, graphite/black",
+    "size_label": null,
+    "options": "Color Family=Grey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10440",
+      "file": "PHO_PRO_CLIP_12767-3_-SALL_-AWK_-V1",
+      "dims": "1600x800",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10440.jpg",
+      "md5": "63169d4e8612a02400ab9c4e8c9f5008"
+     },
+     {
+      "pos": 1,
+      "media": "10443",
+      "file": "PHO_PRO_DET_CLIP_12767-2_-SALL_-AWK_-V1",
+      "dims": "1600x462",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10443.jpg",
+      "md5": "e55707cc358d6a1de8dd30bd52be46ec"
+     },
+     {
+      "pos": 2,
+      "media": "10446",
+      "file": "PHO_PRO_DOG_12767-3_-SALL_-AWK_-V1",
+      "dims": "1200x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10446.jpg",
+      "md5": "5a0b2ff5bceb16d1c13c67aee99f5604"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1064",
+  "product": "Premium H-Harness",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1474,
+    "sku": "203428",
+    "label": "M–L, 52–75 cm/20 mm, aqua",
+    "size_label": null,
+    "options": "Color Family=Aqua; Size=M–L",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10503",
+      "file": "PHO_PRO_CLIP_203228-203328-203428-203528-204828-204928-1_-SALL_-AWK_-V1",
+      "dims": "1431x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10503.jpg",
+      "md5": "078fc4060c10bcae3df7f66703bc3d0b"
+     }
+    ]
+   },
+   {
+    "variant_id": 1475,
+    "sku": "203431",
+    "label": "M–L, 52–75 cm/20 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=M–L",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10506",
+      "file": "PHO_PRO_CLIP_203231-203331-203431-203531-204831-204931-1_-SALL_-AWK_-V1",
+      "dims": "1457x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10506.jpg",
+      "md5": "ce2f09502bbdfa9435b86197639a0b28"
+     }
+    ]
+   },
+   {
+    "variant_id": 1476,
+    "sku": "203302",
+    "label": "S–M, 42–60 cm/15 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=S–M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10509",
+      "file": "PHO_PRO_CLIP_Premium-204802-203202-203302-203402-204902-203502-1__23SALL__23AWK__23V1",
+      "dims": "1402x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10509.jpg",
+      "md5": "86fc27b7c7ce1ad9bc92ae6d5ac005c0"
+     },
+     {
+      "pos": 1,
+      "media": "10512",
+      "file": "trixie-premium-nylon-hundegeschirr-1674742109",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10512.jpg",
+      "md5": "b4b1587b34fa9e4ad19d3c35218765c9"
+     }
+    ]
+   },
+   {
+    "variant_id": 1477,
+    "sku": "203231",
+    "label": "XS–S, 30–44 cm/10 mm, sangria",
+    "size_label": null,
+    "options": "Color Family=Purple; Size=XS–S",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10506",
+      "file": "PHO_PRO_CLIP_203231-203331-203431-203531-204831-204931-1_-SALL_-AWK_-V1",
+      "dims": "1457x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10506.jpg",
+      "md5": "ce2f09502bbdfa9435b86197639a0b28"
+     }
+    ]
+   },
+   {
+    "variant_id": 1478,
+    "sku": "204829",
+    "label": "XXS–XS, 20–32 cm/10 mm, curry",
+    "size_label": null,
+    "options": "Color Family=Yellow; Size=XXS–XS",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10515",
+      "file": "PHO_PRO_CLIP_203229-203329-203429-203529-204829-204929-1_-SALL_-AWK_-V1",
+      "dims": "1453x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10515.jpg",
+      "md5": "2027d7107e26057b66dd22dd4717a2ff"
+     }
+    ]
+   },
+   {
+    "variant_id": 1479,
+    "sku": "204833",
+    "label": "XXS–XS, 20–32 cm/10 mm, olive green",
+    "size_label": null,
+    "options": "Color Family=Green; Size=XXS–XS",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10518",
+      "file": "PHO_PRO_CLIP_203233-203333-203433-203533-204833-204933-1_-SALL_-AWK_-V1",
+      "dims": "1464x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10518.jpg",
+      "md5": "b7fdc8f430dabee813012dc3f1f110d0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1065",
+  "product": "Premium One Touch Harness",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1480,
+    "sku": "204501",
+    "label": "M, 50–65 cm/20 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10521",
+      "file": "trixie-premium-one-touch-nylon-hundegeschirr_9_x793_y1000",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10521.jpg",
+      "md5": "44853c8d5953d62bd5a992e02febe8b7"
+     }
+    ]
+   },
+   {
+    "variant_id": 1481,
+    "sku": "204535",
+    "label": "M, 50–65 cm/20 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10524",
+      "file": "PHO_PRO_CLIP_204335-204435-204535-204635-1_-SALL_-AWK_-V1",
+      "dims": "1016x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10524.jpg",
+      "md5": "a1143580b88489250aa5e943e70609ac"
+     }
+    ]
+   },
+   {
+    "variant_id": 1482,
+    "sku": "204511",
+    "label": "M, 50–65 cm/20 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10527",
+      "file": "trixie-premium-one-touch-nylon-hundegeschirr_3_x840_y1000",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10527.jpg",
+      "md5": "1c7055d37c70eb266b4aacff43734445"
+     }
+    ]
+   },
+   {
+    "variant_id": 1483,
+    "sku": "204516",
+    "label": "M, 50–65 cm/20 mm, graphite",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10530",
+      "file": "trixie-premium-one-touch-nylon-hundegeschirr_6_x802_y1000",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10530.jpg",
+      "md5": "1a690339657be96b8aeb6eab5a29be54"
+     }
+    ]
+   },
+   {
+    "variant_id": 1484,
+    "sku": "204532",
+    "label": "M, 50–65 cm/20 mm, petrol",
+    "size_label": null,
+    "options": "Color Family=Teal; Size=M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10533",
+      "file": "PHO_PRO_CLIP_204332-204432-204532-204632-1_-SALL_-AWK_-V1",
+      "dims": "1025x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10533.jpg",
+      "md5": "ec7fbf21894673465ccb81818941bb21"
+     }
+    ]
+   },
+   {
+    "variant_id": 1485,
+    "sku": "204402",
+    "label": "S, 40–50 cm/15 mm, royal blue",
+    "size_label": null,
+    "options": "Color Family=Blue; Size=S",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10536",
+      "file": "trixie-premium-one-touch-nylon-hundegeschirr_10_x821_y1000",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10536.jpg",
+      "md5": "a3361b65489e83f2d4b1d5c2207fa250"
+     }
+    ]
+   },
+   {
+    "variant_id": 1486,
+    "sku": "204335",
+    "label": "XS–S, 30–40 cm/10 mm, blush",
+    "size_label": null,
+    "options": "Color Family=Blush; Size=XS–S",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10524",
+      "file": "PHO_PRO_CLIP_204335-204435-204535-204635-1_-SALL_-AWK_-V1",
+      "dims": "1016x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10524.jpg",
+      "md5": "a1143580b88489250aa5e943e70609ac"
+     }
+    ]
+   },
+   {
+    "variant_id": 1487,
+    "sku": "204311",
+    "label": "XS–S, 30–40 cm/10 mm, fuchsia",
+    "size_label": null,
+    "options": "Color Family=Pink; Size=XS–S",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10527",
+      "file": "trixie-premium-one-touch-nylon-hundegeschirr_3_x840_y1000",
+      "dims": "1000x1000",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10527.jpg",
+      "md5": "1c7055d37c70eb266b4aacff43734445"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1066",
+  "product": "Tennis Ball with Fabric Animals",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1496,
+    "sku": "36121",
+    "label": "16 cm",
+    "size_label": null,
+    "options": "Toy Type=Fetch & Retrieve; Toy Size=16 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "12320",
+      "file": "PHO_PRO_CLIP_3476-4_-SALL_-AWK_-V1",
+      "dims": "1213x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/12320.jpg",
+      "md5": "a9a02de06544cbb3d368f946faff4b26"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1067",
+  "product": "Flamingo Dog Toy",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1497,
+    "sku": "35969",
+    "label": "35 cm",
+    "size_label": null,
+    "options": "Toy Type=Plush; Material=Plush; Toy Size=35 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10602",
+      "file": "PHO_PRO_CLIP_35969-1_-SALL_-AWK_-V1",
+      "dims": "794x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10602.jpg",
+      "md5": "a8a7c44dbe06a9d3fc6c92d5985bbe71"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1068",
+  "product": "Dog with rope",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1498,
+    "sku": "35894",
+    "label": "32 cm",
+    "size_label": null,
+    "options": "Toy Type=Plush; Toy Size=32 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10605",
+      "file": "PHO_PRO_CLIP_35894-1_-SALL_-AWK_-V1",
+      "dims": "1600x887",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10605.jpg",
+      "md5": "79c2336e63259d1ab97e2df404a258b1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1069",
+  "product": "Sheep, long-legged",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1499,
+    "sku": "35763",
+    "label": "30 cm",
+    "size_label": null,
+    "options": "Toy Type=Plush; Material=Plush; Toy Size=30 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10608",
+      "file": "PHO_PRO_CLIP_35763-1_-SALL_-AWK_-V1",
+      "dims": "683x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10608.jpg",
+      "md5": "66ece93f5e8da02c6a81c345cf080cf3"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1071",
+  "product": "Dustpan with Rake",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1501,
+    "sku": "23650",
+    "label": "57–102 cm, grey/blue",
+    "size_label": null,
+    "options": "Color Family=Grey",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10623",
+      "file": "PHO_PRO_CLIP_23650-3_-SALL_-AWK_-V1",
+      "dims": "328x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10623.jpg",
+      "md5": "47f2555312baf870a3e104e87ec95993"
+     },
+     {
+      "pos": 1,
+      "media": "10626",
+      "file": "PHO_PRO_CLIP_23650-4_-SALL_-AWK_-V1",
+      "dims": "184x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10626.jpg",
+      "md5": "4b613ce1afab83d33ff95eaa341d31fd"
+     },
+     {
+      "pos": 2,
+      "media": "10629",
+      "file": "PHO_PRO_CLIP_23650-6_-SALL_-AWK_-V1",
+      "dims": "337x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10629.jpg",
+      "md5": "f5f63b7cbcfb66ebb6016f73cbb9a289"
+     },
+     {
+      "pos": 3,
+      "media": "10632",
+      "file": "PHO_PRO_CLIP_23650-7_-SALL_-AWK_-V1",
+      "dims": "283x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10632.jpg",
+      "md5": "00bdf3f351c49212544fb7994e0fabc1"
+     },
+     {
+      "pos": 4,
+      "media": "10635",
+      "file": "PHO_PRO_CLIP_23650-8_-SALL_-AWK_-V1",
+      "dims": "229x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10635.jpg",
+      "md5": "597237dbb312371f24799eb7c1dc5e06"
+     },
+     {
+      "pos": 5,
+      "media": "10638",
+      "file": "PHO_PRO_DET_CLIP_23650-1_-SALL_-AWK_-V1",
+      "dims": "1167x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10638.jpg",
+      "md5": "f62ab4bd54c818c14d37a4c221a74ff4"
+     },
+     {
+      "pos": 6,
+      "media": "10641",
+      "file": "PHO_PRO_DET_CLIP_23650-2_-SALL_-AWK_-V1",
+      "dims": "752x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10641.jpg",
+      "md5": "3311aa488f1b56d6d3a59aa988f91ab0"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1072",
+  "product": "BE NORDIC Poop Bag Dispenser",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1502,
+    "sku": "22856",
+    "label": "1 × 20 bags, sand",
+    "size_label": null,
+    "options": "Color Family=Beige",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10644",
+      "file": "PHO_PRO_CLIP_22856-1_-SALL_-AWK_-V1",
+      "dims": "434x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10644.jpg",
+      "md5": "0f48d58362ff6aea20cf8918b89e1587"
+     },
+     {
+      "pos": 1,
+      "media": "10647",
+      "file": "PHO_PRO_CLIP_22856-2_-SALL_-AWK_-V1",
+      "dims": "412x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10647.jpg",
+      "md5": "73022c0e11d1e688939ef30bbdd0ed0e"
+     },
+     {
+      "pos": 2,
+      "media": "10650",
+      "file": "PHO_PRO_CLIP_22856-3_-SALL_-AWK_-V1",
+      "dims": "433x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10650.jpg",
+      "md5": "fac035655880102e504b3a0ff87ad935"
+     },
+     {
+      "pos": 3,
+      "media": "10653",
+      "file": "PHO_PRO_CLIP_22856-4_-SALL_-AWK_-V1",
+      "dims": "349x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10653.jpg",
+      "md5": "01561689192f1939683aa3b28e854e20"
+     },
+     {
+      "pos": 4,
+      "media": "10656",
+      "file": "PHO_PRO_DET_CLIP_22856-1_-SALL_-AWK_-V1",
+      "dims": "434x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10656.jpg",
+      "md5": "a21fd34caecc6fc7a583c3bcd6f06159"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1073",
+  "product": "CityStyle Tracking Lead",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1505,
+    "sku": "2073501",
+    "label": "M–L, 5 m/20 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=M–L",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10662",
+      "file": "PHO_PRO_CLIP_2073501-2073601-1_-SALL_-AWK_-V1",
+      "dims": "1487x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10662.jpg",
+      "md5": "c1b572bc19d5a90df7bd677c92d22192"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1074",
+  "product": "Training Dummy Biting Roll",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1507,
+    "sku": "3295",
+    "label": "ø 4 × 26 cm/53 cm",
+    "size_label": null,
+    "options": "Toy Type=Fetch & Retrieve; Material=Jute; Toy Size=53 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10668",
+      "file": "PHO_PRO_CLIP_3295-1_-SALL_-AWK_-V1",
+      "dims": "1600x476",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10668.jpg",
+      "md5": "27358489260f5096aae70c39e7d9d7ac"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1075",
+  "product": "CityStyle Collar, extra wide",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1510,
+    "sku": "1970601",
+    "label": "M, 35–42 cm/25 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10680",
+      "file": "PHO_PRO_CLIP_1970401-1970501-1970601-1970701-1970801-1970901-1_-SALL_-AWK_-V1",
+      "dims": "1600x1037",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10680.jpg",
+      "md5": "f1f9c4b7d563d4e27e196634ce8cb56e"
+     },
+     {
+      "pos": 1,
+      "media": "10683",
+      "file": "PHO_PRO_CLIP_1970401-1970501-1970601-1970701-1970801-1970901-3_-SALL_-AWK_-V1",
+      "dims": "1600x184",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10683.jpg",
+      "md5": "4f6ade1c343d612879a00db87ace96b1"
+     }
+    ]
+   },
+   {
+    "variant_id": 1511,
+    "sku": "1970519",
+    "label": "S–M, 30–37 cm/25 mm, light grey",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=S–M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10686",
+      "file": "PHO_PRO_CLIP_1970419-1970519-1970619-1970719-1970819-1970919-1_-SALL_-AWK_-V1",
+      "dims": "1600x1014",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10686.jpg",
+      "md5": "22f95e1392069666406c600455e5df7f"
+     },
+     {
+      "pos": 1,
+      "media": "10689",
+      "file": "PHO_PRO_CLIP_1970419-1970519-1970619-1970719-1970819-1970919-3_-SALL_-AWK_-V1",
+      "dims": "1600x195",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10689.jpg",
+      "md5": "17356792ea6f6e3a504e025bc6b8ad2b"
+     }
+    ]
+   },
+   {
+    "variant_id": 1512,
+    "sku": "1970401",
+    "label": "XS–S, 25–32 cm/25 mm, black",
+    "size_label": null,
+    "options": "Color Family=Black; Size=XS–S",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10680",
+      "file": "PHO_PRO_CLIP_1970401-1970501-1970601-1970701-1970801-1970901-1_-SALL_-AWK_-V1",
+      "dims": "1600x1037",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10680.jpg",
+      "md5": "f1f9c4b7d563d4e27e196634ce8cb56e"
+     },
+     {
+      "pos": 1,
+      "media": "10683",
+      "file": "PHO_PRO_CLIP_1970401-1970501-1970601-1970701-1970801-1970901-3_-SALL_-AWK_-V1",
+      "dims": "1600x184",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10683.jpg",
+      "md5": "4f6ade1c343d612879a00db87ace96b1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1076",
+  "product": "Pegasus",
+  "brand": "Trixie",
+  "type": "Toys",
+  "variants": [
+   {
+    "variant_id": 1517,
+    "sku": "36124",
+    "label": "26 cm",
+    "size_label": null,
+    "options": "Toy Type=Plush; Material=Polyester; Toy Size=26 cm",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10704",
+      "file": "PHO_PRO_CLIP_36124-1_-SALL_-AWK_-V1",
+      "dims": "1115x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10704.jpg",
+      "md5": "8e506cea7c1027e891c9f860d6f96441"
+     },
+     {
+      "pos": 1,
+      "media": "10707",
+      "file": "PHO_PRO_CLIP_36124-2_-SALL_-AWK_-V1",
+      "dims": "1251x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10707.jpg",
+      "md5": "b7ee644f6a59949ead5aab87cafb571e"
+     },
+     {
+      "pos": 2,
+      "media": "10710",
+      "file": "PHO_PRO_DET_CLIP_36124-1_-SALL_-AWK_-V1",
+      "dims": "789x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10710.jpg",
+      "md5": "fb19e9814998ab1e51e68b70cf542461"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "product_id": "1077",
+  "product": "CityStyle H-Harness",
+  "brand": "Trixie",
+  "type": "Accessories",
+  "variants": [
+   {
+    "variant_id": 1518,
+    "sku": "1969719",
+    "label": "S–M, 42–60 cm/15 mm, light grey",
+    "size_label": null,
+    "options": "Color Family=Grey; Size=S–M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10713",
+      "file": "PHO_PRO_CLIP_1969619-1969719-1969819-1969919-1_-SALL_-AWK_-V1",
+      "dims": "1535x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10713.jpg",
+      "md5": "ab44ec457b0a0709aa55cf1be0f0f267"
+     }
+    ]
+   },
+   {
+    "variant_id": 1519,
+    "sku": "1969716",
+    "label": "S–M, 42–60 cm/15 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=S–M",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10716",
+      "file": "PHO_PRO_CLIP_1969616-1969716-1969816-1969916-1_-SALL_-AWK_-V1",
+      "dims": "1559x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10716.jpg",
+      "md5": "7c173a22b118c52223a391cd9bc2c7aa"
+     }
+    ]
+   },
+   {
+    "variant_id": 1520,
+    "sku": "1969616",
+    "label": "XS–S, 30–44 cm/10 mm, sage",
+    "size_label": null,
+    "options": "Color Family=Sage; Size=XS–S",
+    "hafo_title_hy": null,
+    "hafo_variant_hy": null,
+    "ean": null,
+    "images": [
+     {
+      "pos": 0,
+      "media": "10716",
+      "file": "PHO_PRO_CLIP_1969616-1969716-1969816-1969916-1_-SALL_-AWK_-V1",
+      "dims": "1559x1200",
+      "local": "/Users/conceptmacmini01/Documents/Projects/Siruk-claude/runs/2026-10-06-image-audit/img/10716.jpg",
+      "md5": "7c173a22b118c52223a391cd9bc2c7aa"
+     }
+    ]
+   }
+  ]
+ }
+]

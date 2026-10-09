@@ -293,3 +293,19 @@ re-files the whole catalogue). Product types (API: attribute families): 1 Dry Fo
 attributes, roles and flags are in `reference/product-types.json`; type
 skills say how to pick values.
 Any id in a note written before 2026-08-12 predates the rebuild and is wrong.
+
+## Running under OpenCode (2026-10-07)
+
+`CLAUDE.md` and `AGENTS.md` are the same file — `AGENTS.md` is a symlink to
+this one, so OpenCode (which loads `AGENTS.md` only) and Claude Code read
+identical instructions. Skills stay in `.claude/skills/`; the `/` commands and
+the `attribute-manager` agent live in `.opencode/` (see `.opencode/README.md`).
+
+Two tool-name differences when the text below or a skill names a Claude tool:
+
+- `Read` → `read`, `WebFetch` → `webfetch`, `WebSearch` → `websearch`.
+- chrome-devtools MCP tools carry the server prefix:
+  `evaluate_script` → `chrome-devtools_evaluate_script`, etc.
+- A skill body shows `$ARGUMENTS` literally under OpenCode; read it as
+  "the arguments for this run", which the `/`-command (or the user's message)
+  supplies.
