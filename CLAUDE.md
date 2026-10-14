@@ -214,6 +214,8 @@ linked doc before you rely on a number from memory.
   (gitignored). Check with `scripts/api.sh GET /account`; re-capture per
   `scripts/README.md` on 401.
 - Pacing / retries / image verification: `config.json` (read on every call).
+- A batch's source of truth: `batches/<batch>/` (invoices, `batch.xlsx`,
+  `products.csv`; committed).
 - Working files: `.siruk-cache/` (gitignored). Run scratch: `runs/<date>/`
   (clear once closed). **What outlives a run lives in `state/`** — the one
   open-items worklist, the register's code mappings and hand overrides, info
@@ -221,6 +223,14 @@ linked doc before you rely on a number from memory.
 
 ## The pipeline (one row at a time, verified before the next)
 
+0. **Invoices → the batch Excel** (user, 2026-10-14). A new batch starts from
+   its invoices (any language, any headers): `/invoice-intake` transcribes
+   each one, checks it against its printed total, and builds
+   `batches/<batch>/batch.xlsx`, **the batch's source of truth**, plus the
+   `products.csv` the import reads. Cost = unit price incl. VAT. A foreign
+   currency needs the user's rate. Questions in the sheet → stop for the
+   user; none → straight on. Corrections go back into the xlsx.
+   `reference/invoice-intake.md`.
 1. `scripts/api.sh GET /account` → 200. `scripts/ids.sh` for live ids.
 2. Load `reference/attribute-values.json` (refresh with
    `scripts/refresh-attributes.sh` if the user edited attributes).
@@ -280,6 +290,7 @@ linked doc before you rely on a number from memory.
 
 | Doc | When |
 |---|---|
+| `reference/invoice-intake.md` | step 0: reading invoices into the batch Excel — header names in hy/ru/en, the JSON shape, VAT/currency/case rules |
 | `reference/pricing.md` | anything touching `price` or `cost_price` — the full policy, cross-checks and the two output CSVs |
 | `reference/hafo.md` | the hafo API, SKU formats per brand, what the lookup script returns |
 | `reference/image-sources.md` | every place a product photo can come from, in rule-7 order — the brand sites, the distributors, the EAN-keyed shops and the web-search last resort |
@@ -297,7 +308,7 @@ linked doc before you rely on a number from memory.
 
 ## Skills
 
-`/add-products <csv>` imports; `/create-brand <name>` adds a brand with a
+`/invoice-intake <invoices>` builds a batch's source-of-truth Excel from its invoices (step 0) and hands it to `/add-products`; `/add-products <csv>` imports; `/create-brand <name>` adds a brand with a
 verified official logo; `/manage-attributes` edits the vocabulary (never deletes
 without an explicit ask); `/google-lens` runs Google search + Lens for a photo
 (image rung 9c, mandatory before a hafo placeholder); `/armsoft-sync <export.xml>`

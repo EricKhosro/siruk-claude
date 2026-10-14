@@ -31,6 +31,11 @@ BRAND_PATTERNS = [
     (r"Moor", "Moor"), (r"Kormell", "Kormell"), (r"Justin", "Justin"),
     (r"SMART", "SMART"), (r"Comfy", "Comfy"), (r"DOGMAN", "Dogman"),
     (r"Интеко", "Интеко"), (r"Отидез|Дезацид", "Api-San"),
+    # added 2026-10-14 for the invoice intake (build-batch-sheet.py)
+    (r"SCHESIR|Schesir|\bSCH\b", "Schesir"), (r"STUZZY|Stuzzy|\bSTZ\b", "Stuzzy"),
+    (r"ROYAL CANIN|Royal Canin|\bRC\b", "Royal Canin"), (r"ACANA|Acana", "Acana"),
+    (r"ORIJEN|Orijen", "Orijen"), (r"8in1|8 in 1", "8in1"), (r"BEAPHAR|Beaphar", "Beaphar"),
+    (r"TRIXIE|Trixie", "Trixie"),
 ]
 # Article-code suffix → brand, used only when the text gives nothing.
 SUFFIX_BRAND = [("MG", "Monge"), ("IVS", "Iv San Bernard"), ("Tx", "Trixie"),
@@ -73,39 +78,44 @@ def category_of(d):
             return name
     return ""
 
-rows = list(csv.DictReader(open(SRC)))
-by_code = collections.OrderedDict()
-for r in rows:
-    code = r["Article Code"].strip()
-    d = r["Description (as printed)"]
-    e = by_code.setdefault(code, {"desc": d, "price": r["Unit Price (AMD)"],
-                                  "qty": 0.0, "srcs": set(), "dates": set()})
-    # keep the longest description seen (duplicate copies sometimes truncate)
-    if len(d) > len(e["desc"]): e["desc"] = d
-    try: e["qty"] += float(r["Qty"] or 0)
-    except ValueError: pass
-    e["srcs"].add(r["Source PDF"]); e["dates"].add(r["Date"])
+def main():
+    rows = list(csv.DictReader(open(SRC)))
+    by_code = collections.OrderedDict()
+    for r in rows:
+        code = r["Article Code"].strip()
+        d = r["Description (as printed)"]
+        e = by_code.setdefault(code, {"desc": d, "price": r["Unit Price (AMD)"],
+                                      "qty": 0.0, "srcs": set(), "dates": set()})
+        # keep the longest description seen (duplicate copies sometimes truncate)
+        if len(d) > len(e["desc"]): e["desc"] = d
+        try: e["qty"] += float(r["Qty"] or 0)
+        except ValueError: pass
+        e["srcs"].add(r["Source PDF"]); e["dates"].add(r["Date"])
 
-prod, review = [], []
-for code, e in by_code.items():
-    d = e["desc"]
-    brand, how = brand_of(d, code)
-    row = {"Article Code": code, "Brand": brand,
-           "Product Name (as printed)": d,
-           "Species": species_of(d), "Category": category_of(d),
-           "Buy Price (AMD)": e["price"], "Qty Received": int(e["qty"]) if e["qty"]==int(e["qty"]) else e["qty"],
-           "Sale Price (AMD)": "", "Invoice Date": sorted(e["dates"])[0],
-           "Source": sorted(e["srcs"])[0], "Brand Source": how}
-    (prod if brand else review).append(row)
+    prod, review = [], []
+    for code, e in by_code.items():
+        d = e["desc"]
+        brand, how = brand_of(d, code)
+        row = {"Article Code": code, "Brand": brand,
+               "Product Name (as printed)": d,
+               "Species": species_of(d), "Category": category_of(d),
+               "Buy Price (AMD)": e["price"], "Qty Received": int(e["qty"]) if e["qty"]==int(e["qty"]) else e["qty"],
+               "Sale Price (AMD)": "", "Invoice Date": sorted(e["dates"])[0],
+               "Source": sorted(e["srcs"])[0], "Brand Source": how}
+        (prod if brand else review).append(row)
 
-FIELDS = list(prod[0].keys())
-for path, data in ((OUT, prod), (REVIEW, review)):
-    with open(path, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS); w.writeheader(); w.writerows(data)
+    FIELDS = list(prod[0].keys())
+    for path, data in ((OUT, prod), (REVIEW, review)):
+        with open(path, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=FIELDS); w.writeheader(); w.writerows(data)
 
-print(f"{len(by_code)} unique article codes from {len(rows)} invoice lines")
-print(f"  {len(prod):>4} with an identified brand  -> {OUT}")
-print(f"  {len(review):>4} needing review           -> {REVIEW}")
-print("\nBy brand:")
-for b, n in collections.Counter(r["Brand"] for r in prod).most_common():
-    print(f"  {b:<18} {n:>4}")
+    print(f"{len(by_code)} unique article codes from {len(rows)} invoice lines")
+    print(f"  {len(prod):>4} with an identified brand  -> {OUT}")
+    print(f"  {len(review):>4} needing review           -> {REVIEW}")
+    print("\nBy brand:")
+    for b, n in collections.Counter(r["Brand"] for r in prod).most_common():
+        print(f"  {b:<18} {n:>4}")
+
+
+if __name__ == "__main__":
+    main()

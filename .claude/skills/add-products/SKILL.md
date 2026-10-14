@@ -8,6 +8,11 @@ Import the products listed in the CSV into the Siruk admin panel in three
 phases: **A** gather every row's data (no admin writes), **B** make sure every
 row has a product type that allows what it will carry, **C** write the rows
 one at a time.
+A new batch of invoices goes through `/invoice-intake` first (step 0,
+`reference/invoice-intake.md`). This skill then reads
+`batches/<batch>/products.csv`, and corrections go back into that batch's
+`batch.xlsx`.
+
 CSV path (or inline product names):
 
 $ARGUMENTS

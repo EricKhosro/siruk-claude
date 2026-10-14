@@ -4,6 +4,14 @@ In every shape, **a price column is our cost**. The sale price comes from hafo
 (`reference/pricing.md`). CSV always wins over brand-site data for identity
 fields (pack weight, flavour…).
 
+## Shape D — the batch Excel (`batches/<batch>/batch.xlsx`, from 2026-10-14)
+
+Every new batch starts here (`reference/invoice-intake.md`). Its `Products`
+sheet is Shape C plus `EAN`, `Invoice Lines` (file/page/line of every source
+line) and `Notes`. It is exported to `batches/<batch>/products.csv` and read
+exactly like Shape C. `Buy Price (AMD)` is already incl. VAT, per retail unit
+and in AMD. `Sale Price (AMD)` is empty.
+
 ## Shape C — invoice extract (`csv/products.csv`, current)
 
 Columns: `Article Code`, `Brand`, `Product Name (as printed)`, `Species`,

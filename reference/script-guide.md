@@ -28,6 +28,14 @@ and the debugging notes; this guide is the "which one, and when".
 | Before picking attributes for a type | `scripts/product-types.py --dump` | rewrites `reference/product-types.json` — per type its measure, sale mode, and per attribute role (`option`/`attribute`), required, filterable, on-card. Run it after the PM or the `attribute-manager` agent changed a type |
 | Curious about pacing | `scripts/pace.sh show` | the effective delay / retry settings from `config.json` |
 
+## 1a. A new batch: invoices first (step 0, 2026-10-14)
+
+| Step | Command | What you get |
+|---|---|---|
+| Transcribe | by hand, `/invoice-intake`: each invoice → `batches/<batch>/lines/<n>.json` | the shape and header table: `reference/invoice-intake.md` |
+| Build | `uv run --with openpyxl python3 scripts/build-batch-sheet.py batches/<batch>` | `batch.xlsx` (Products · Lines · Invoices · Questions) + `products.csv`; line and printed-total checks, VAT-inclusive cost, cases split, rows per code; exit 2 = questions for the user. Refuses to overwrite an existing xlsx without `--force` |
+| After the user's edits | `… build-batch-sheet.py batches/<batch> --from-xlsx` | the edited Products sheet → `products.csv`; exit 2 while a question is unanswered or a row has no cost |
+
 ## 1b. Batch import, token-lean (in trial since 2026-09-23)
 
 Code makes every decision it can; a model only fills the parts that need
