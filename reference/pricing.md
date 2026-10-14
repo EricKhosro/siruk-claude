@@ -157,6 +157,31 @@ or `scripts/nemo-lookup.py --url <the product's url>` by hand and compare its
 zoovet/nemo-priced so they're not silently skipped by the periodic hafo-only
 check.
 
+## Price recommendations when no rival sells the item (user rule 2026-10-12)
+
+The sale price is the **highest of hafo.am, zoovet.am and nemo.am** for the exact item. When none of
+them sells it and the sibling fallback below doesn't apply, we do not invent a price. We
+**recommend** one and the user decides:
+
+- `uv run --with openpyxl python scripts/recommend-price.py items.json --out final/price-recommendations-<date>.xlsx`.
+  One item per entry: key, name, brand_id, animal (category root), type (product type name),
+  leaf_id, measure_type/content (if sized), cost.
+- **Comparables** are live variants of the **same brand, same animal, same product type**, whose
+  own price is a rival price (`final/siruk-source-of-truth.csv` source = hafo / zoovet / nemo).
+  They are ranked same leaf first, then same measure type, then nearest pack size.
+- **Method A, markup:** cost × the median price/cost of the comparables (same-leaf ones when
+  there are any), rounded to 10 AMD. This is the recommendation.
+- **Method B, unit price:** the median price per g / ml / pc of same-measure comparables × our size.
+  It's a cross-check, and a gap over 25% from A is flagged (different pack sizes carry different
+  per-unit prices).
+- **Flagged rows:** fewer than 3 comparables (low confidence), at or below cost, or no comparable.
+- **The workbook:** a Recommendations sheet with Decision and Approved-price columns, and a
+  Comparables sheet with up to 8 per item, each with price, cost, ratio, unit price and link.
+- **Only an approved price is written.** Its source in the truth file is "user-approved
+  recommendation (comparables …)". Rival rechecks keep looking for a real rival price later.
+- Example (2026-10-12): Trixie cat plush toys sell at about ×1.6 cost at rival prices, so a new one
+  at cost 1,000 gets 1,600.
+
 ## Sibling-price fallback (user rule 2026-09-10)
 
 The one way a row hafo cannot price still gets imported. All three must hold:

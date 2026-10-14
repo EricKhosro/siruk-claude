@@ -40,16 +40,22 @@ def api(path):
     return json.loads(r.stdout[i:]) if i >= 0 else {}
 
 
-def looks_like_hafo(filename):
+HAFO_TS = re.compile(r"^(1[4-7]\d{8})(-\d{1,8})?$|^(1[4-7]\d{15,16})$")
+
+
+def looks_like_hafo(filename, source_url=None):
+    """hafo's own file names: an upload timestamp, either "<10-digit epoch>-<article>" or 17-18 bare
+    digits, epoch 2014–2027 (1643034845-25189.jpg, 164381185448408127.jpg), or anything starting "hafo".
+    A known source url decides first: only hafo's CDN counts (zakaz.ua / lohmatik files also start
+    with long digit runs, which the old ">= 10 digits" rule wrongly flagged — 2026-10-12)."""
+    if source_url:
+        return HAFO_CDN in source_url or "hafo.am" in source_url
     base = str(filename or "").rsplit("/", 1)[-1]
     if base.lower().startswith("hafo"):
         return True
-    stem = base.split(".")[0]
+    stem = re.sub(r"(\.(jpe?g|png|webp|gif))+(-adminThumbnail)?(\.(jpe?g|png|webp|gif))?$", "", base, flags=re.I)
     stem = re.sub(r"-adminThumbnail$", "", stem)
-    head = stem.split("-")[0]
-    # hafo names files after the upload timestamp: 17 bare digits, or
-    # "<10-digit epoch>-<article>"
-    return head.isdigit() and len(head) >= 10
+    return bool(HAFO_TS.match(stem))
 
 
 def main():

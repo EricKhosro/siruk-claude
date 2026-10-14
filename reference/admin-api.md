@@ -143,6 +143,20 @@ exists yet.
 Our writer: `scripts/bulk-create.py` (create-product.sh's pre-flight per item, chunked by
 `config.json → bulk`, never auto-retried, read-back + `verify-translations.py`).
 
+## Bulk update — `PUT /products/bulk` (siruk-web e67f9c19, 2026-10-12)
+
+`{"products": [{"id": 12, …the full body a single PUT takes…}, …]}`, up to
+`CATALOG_BULK_UPDATE_MAX` (100) per call. Each item is validated and saved on its own
+(one failure never blocks the rest). The response is `{"data": [{index, status: "updated"|"failed", id, slug, errors}],
+"summary": {updated, failed}}`.
+- **It replaces like a single PUT does.** Categories and variants are replaced, so send every
+  existing variant with its `id`. Build each body with `siruk_payload.put_body` from a fresh GET.
+- **Translatable fields** (product `name`, variant texts) may be `{en, ru, hy}` objects in the
+  same call. The locales you leave out are untouched, and a plain string writes the request locale
+  (en). One call replaces the three PUTs (en, then set-translation ru/hy).
+- Used by `scripts/fill-gaps-bulk.py`. Tested 2026-10-12 on 214/269/278: only the new
+  texts changed, in all three locales.
+
 ## Product types — `/attribute-families`
 
 The admin calls them **Product types**; the API/DB keep "attribute family".
@@ -263,6 +277,56 @@ the source *before* the target PUT claims the SKU (else 422 "SKU already in
 use"). Back bodies up first; bucket writes by target product and write each
 once.
 
+## Variant codes — `barcode`, `accounting_code`, `price_source_url` (siruk-web bc49dfbf, 2026-10-09)
+
+`product_variants.barcode` (≤32, indexed), `accounting_code` (≤16, indexed),
+`price_source_url` (≤2048). Accepted on `POST /products`, `POST /products/bulk`
+and `PUT /products/<id>` per variant; returned by `GET /products/<id>`.
+**The server changes only the keys a request carries** — the admin form shows
+them read-only and never sends them, and `siruk_payload.to_variant_payload`
+never copies them back either, so an ordinary PUT keeps them. Our values
+(user, 2026-10-12): barcode = the pack's EAN, but the **5-digit scale PLU** on
+a 1 kg loose variant (`<bag sku>-KG`); accounting_code = the ArmSoft good code
+(4 digits — the bag and its 1 kg variant share one, per `Scale/scale-codes-per-kg.csv`);
+price_source_url = the hafo / zoovet / nemo page the price came from, `null`
+for a register-file price or a user decision. `siruk_payload.check_codes`
+validates all three; `scripts/backfill-variant-codes.py` plans (and with
+`--apply` writes) them for the whole catalogue from
+`final/siruk-source-of-truth.csv` + the scale csv, checking each barcode
+against its good in `csv/all-xml-scale.xml`.
+
+## Recommendations and merchandising (siruk-web fff688a3 / cd4dce3c, 2026-10-09)
+
+Nothing links products by hand — every rail is computed (full algorithms in
+`CLAUDE.local.md`):
+
+- **PDP** `GET /api/products/<id>/recommendations?variant_id=` (public) →
+  `relatedProducts` (4: same leaf + same product type → same leaf → sibling
+  leaf → same brand; price band first, compared per kg/l/pc when both share
+  a `measure_type`) + `frequentlyBoughtTogether` (real orders only).
+- **Cart** `GET /api/cart/recommendations?product_ids[]=…&free_shipping_remaining=`
+  → `complements` (bought-together pairs from the nightly
+  `catalog:refresh-associations` → the categories' `complement_category_ids`
+  → best of the cart's pet outside the cart's categories), `freeShipping`,
+  `suggestions` (buy again → recently viewed → popular). In stock only, ≤2
+  per brand.
+- **Listing order** = nightly `relevance_score` + `merch_boost` (−3…+3, on the
+  product) with category pins (`pinned_product_ids`, ≤24) on top.
+
+Category fields: `complement_category_ids` (array of category ids; "Goes well
+with categories" in the admin form) and `pinned_product_ids`. **Category PUT
+quirk:** `name` + `slug` are required and only sent keys change, except
+`list_as_products`, which resets to false when absent — send it back.
+`scripts/set-complements.py` applies `reference/complement-categories.json`
+with exactly `{name, slug, parent_id, list_as_products, complement_category_ids}`.
+`merch_boost`, pins and the complement map are the PM's; imports never send
+them (`siruk_payload` refuses `MERCH_REFUSED`).
+
+**Universal attribute values:** `attribute_values.is_universal` is true on
+`breed-size` All Breeds and `lifestage` All Lifestages; a filter on any value
+of that attribute also matches the universal one. Never set a universal
+value together with a specific one on a variant.
+
 ## Media — `POST /medias`
 
 `multipart/form-data`, parts `file` (binary with filename) and `fileInfo` (JSON
@@ -334,7 +398,7 @@ The admin panel and its API are `/Users/conceptmacmini01/Documents/Projects/siru
 - Refresh the pickable menu after the user edits values:
   `scripts/refresh-attributes.sh` → `reference/attribute-values.json`.
 
-## Live reference ids (demo, after the 2026-08-12 rebuild; `scripts/ids.sh` wins)
+## Live reference ids (after the 2026-08-12 rebuild, now production; `scripts/ids.sh` wins)
 
 **Categories** (live 2026-09-10): 1 Dog → {2 Food → [3 Dry Food, 4 Wet Food,
 5 Health Condition], 6 Treat → [7 Dog Bones, Bully Sticks & Chews], 15 Toys →
@@ -453,3 +517,4 @@ onto plain Blue/Pink), bowl capacities on `size` (846–854) and toy sizes on
 - attribute-family endpoint should 422 an unknown/echoed key
 - category listing renders one card per **variant**; collapse to product?
 - importer-side: assert price vs cost before writing (we do this in scripts)
+- PDP related items: the same-brand tier (4) ignores the pet, so small leaves show another species' products (a cat litter scoop → Trixie dog diapers; 21 products / 39 cards on 2026-10-12, `runs/2026-10-12/recommendation-audit.csv`). Limit tier 4 to the viewed product's pet roots?

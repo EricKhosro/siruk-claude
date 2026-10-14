@@ -33,6 +33,15 @@ linked doc before you rely on a number from memory.
    beats cost. Neither outranks the other; try either. Order: hafo →
    confirmed zoovet/nemo → sibling → `no-hafo-price.csv`. `reference/zoovet.md`,
    `reference/pricing.md`.
+2c. **No rival price → recommend, never set** (user, 2026-10-12). When none of
+   hafo / zoovet / nemo sells the exact item and the sibling rule (2a) doesn't
+   apply, `scripts/recommend-price.py` lists comparables: same brand, same
+   animal, same product type, closest leaf and size, priced from a rival.
+   It suggests our cost × their median price/cost ratio, with the unit-price
+   method beside it as a cross-check. The list goes to the user as an Excel;
+   only an approved price is written (source: "user-approved
+   recommendation"). Order: hafo → zoovet/nemo → sibling → recommendation →
+   `no-hafo-price.csv`. `reference/pricing.md` → "Price recommendations".
 3. **Each variant gets its own hafo price** — never the top-level listing
    price (the cheapest size only). Only `price_source: "variant"` may be
    written; unpriced variants go to the CSV individually.
@@ -157,6 +166,15 @@ linked doc before you rely on a number from memory.
    **10 on every variant, whatever the CSV Qty says** (user 2026-10-01); an existing variant's stock changes only
    through `/stock/variants/<id>` (set / receive / write-off, with a note),
    never the product PUT. `reference/admin-api.md` → "Stock".
+10b. **Every variant carries its codes** (siruk-web 2026-10-09, user
+   2026-10-12): `barcode` = the pack's EAN, or the **5-digit scale PLU** on a
+   1 kg loose variant (`<bag sku>-KG`); `accounting_code` = the **ArmSoft good
+   code** (a bag and its 1 kg share one); `price_source_url` = the hafo /
+   zoovet / nemo page the sale price came from (empty for a register-file
+   price). Import-only fields: the admin form never sends them, and a PUT that
+   leaves them out keeps them. `siruk_payload.check_codes` validates them;
+   `scripts/backfill-variant-codes.py` fills the live catalogue.
+   `reference/admin-api.md` → "Variant codes".
 11. **Brand sites are read-only.** No cart, no accounts, no forms. Extract
    with `evaluate_script`, don't `take_snapshot` product pages.
 12. **Weights are metric (kg/g), never lbs.** Name never contains the brand;
@@ -172,14 +190,29 @@ linked doc before you rely on a number from memory.
    `translate-attributes.py --verify-only` output, never from what was
    sent.** Full per-resource rules and API quirks: `reference/admin-api.md`
    → "Translations".
+14. **Recommendations are computed from our data, never linked by hand**
+   (siruk-web 2026-10-09). PDP "Related items" = same leaf + same product type
+   → sibling leaf → same brand, ranked by price per kg/l/pc; the cart's
+   "goes well with" = bought-together pairs → the category's
+   `complement_category_ids` (`reference/complement-categories.json`,
+   `scripts/set-complements.py`) → same pet, categories not in the cart. So a
+   wrong leaf, a missing product type, a missing `content` or a mis-split
+   product now breaks other products' rails too. `merch_boost`, category
+   pins and the complement map belong to the PM — an import never sends them
+   (`siruk_payload` refuses). **All Breeds / All Lifestages are universal**
+   (they match every filter value), so never tag them next to a specific
+   size/age. Audit: `scripts/audit-recommendation-data.py`. Algorithms:
+   `CLAUDE.local.md`, `reference/admin-api.md` → "Recommendations".
 
 ## Environments
-- Admin (demo): `https://demo-api.siruk.am/admin/login` —
-  `dev@conceptstudio.club` / `C6iA7HLmHU00v/0`. Production needs a dedicated
-  catalog-only service account (not yet requested).
-- API: `https://demo-api.siruk.am/api/admin/*`, `Authorization: Bearer <JWT>`
-  (cookies alone fail). Token in `.siruk-token` (gitignored, ~1 year). Check
-  with `scripts/api.sh GET /account`; re-capture per `scripts/README.md` on 401.
+- Admin (production): `https://api.siruk.am/admin/login` —
+  `dev@conceptstudio.club` / `C6iA7HLmHU00v/0` (the demo host is gone).
+  Claude never types the password: the user logs in in the chrome-devtools
+  window, then the token is read from `localStorage.access_token`.
+- API: `https://api.siruk.am/api/admin/*` (the `scripts/lib.sh` default),
+  `Authorization: Bearer <JWT>` (cookies alone fail). Token in `.siruk-token`
+  (gitignored). Check with `scripts/api.sh GET /account`; re-capture per
+  `scripts/README.md` on 401.
 - Pacing / retries / image verification: `config.json` (read on every call).
 - Working files: `.siruk-cache/` (gitignored). Run scratch: `runs/<date>/`
   (clear once closed). **What outlives a run lives in `state/`** — the one
@@ -231,7 +264,8 @@ linked doc before you rely on a number from memory.
    done; `reference/admin-api.md` → "Bulk create"). Payload shape:
    the docstring of `scripts/siruk_payload.py` (`price` = hafo pack price,
    size in `measure_type`/`content`/`pack_count`, `initial_stock`,
-   `attribute_values` by attribute id or code).
+   `attribute_values` by attribute id or code, and the rule-10b codes:
+   `barcode`, `accounting_code`, `price_source_url`).
 8. **Translate** — write `.siruk-cache/tr-<id>-ru.json` and `-hy.json`
    (name + per-SKU texts; the hafo Armenian `title` is a good source for
    the `hy` name) and run `scripts/set-translation.py` for each.

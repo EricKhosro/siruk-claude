@@ -22,6 +22,13 @@ Tables in this file:
 Attribute `lifestage` — menu values: `Puppy · Kitten · Adult · Senior ·
 All Lifestages` (see `reference/attribute-redesign.md`).
 
+**All Lifestages and All Breeds are universal values** (siruk-web
+`is_universal`, 2026-10-09): the storefront filter treats them as matching
+every other value of the attribute — an All Lifestages food shows under
+"Puppy", an All Breeds food under "Small Breeds". So a variant gets **either**
+the universal value **or** specific ones, never both, and the rules below for
+when a product really is "all" still apply (a two-stage claim is not "all").
+
 ### Cats
 
 | Stage | Age |
@@ -260,7 +267,7 @@ produces exactly the wrong facet — this table exists because that happened onc
 
 | Brand / source wording | What it actually means | Our attribute |
 |---|---|---|
-| Royal Canin "Size", "Size Health Nutrition", Mini / Medium / Maxi / Giant; Brit "Large Breed"; Farmina "Mini/Medium/Maxi" | the **dog's** body size | `breed-size` — Extra Small / Small / Medium / Large / Giant Breeds |
+| Royal Canin "Size", "Size Health Nutrition", Mini / Medium / Maxi / Giant; Brit "Large Breed"; Farmina "Mini/Medium/Maxi" | the **dog's** body size | `breed-size` — Extra Small / Small / Medium / Large / Giant Breeds; "all breeds / all sizes" → All Breeds alone (universal: it already matches every size filter) |
 | Royal Canin "Breed", "Breed Health Nutrition" (German Shepherd, Labrador, Persian) | a specific breed | **no attribute** — it goes in the product Name and makes its own product |
 | Bag / pack weight: "8 kg", "400 g", "Format", "Pack size", "Available sizes", a brand's own "Weight" | how much food is in the pack | **no attribute** — the variant's net content (`measure_type` / `content` / `pack_count`, CLAUDE.md 8a). The `product-weight` attribute that held it (2026-08-12 → 2026-09-29) is retired |
 | Chewy "Product Weight" filter bands ("5–10 lbs") | computed weight ranges | **no attribute** — the server builds the weight filter from the variants' net content |

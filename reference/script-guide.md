@@ -225,6 +225,26 @@ Other brands: extract from the page with the browser (`reference/brand-sites.md`
 | The PM's register (rule 2c) | `scripts/register-audit.py` → `scripts/register-price-sync.py --run state/register [--apply]` — every live variant whose price differs from `Վաճառքի գին` is re-priced; at-or-below-cost and typo-level jumps are written to `price-sync.csv` as SKIP / SUSPECT, never applied |
 | Historical fix for toys priced from hafo's top-level price | `scripts/fix-toy-prices.py` — corrects only where hafo's wholesale price equals our cost, never at or below cost |
 
+## 9b. Variant codes and recommendation data (siruk-web 2026-10-09)
+
+| Job | Command | Notes |
+|---|---|---|
+| Read the whole catalogue raw | `scripts/dump-products.py` (`--ids …` after a run, `--refresh` for all) | full admin GET per product → `.siruk-cache/live/products/`; resumable, paced (~2 h for ~950) — background it |
+| Fill barcode / ArmSoft code / price url | `scripts/backfill-variant-codes.py --run runs/<date>` then `--apply` | CLAUDE.md 10b. Plan from `final/siruk-source-of-truth.csv` + `Scale/scale-codes-per-kg.csv`, every barcode checked against its good in `csv/all-xml-scale.xml`; keeps a different live value unless `--overwrite`. Re-run after an ArmSoft import gives new goods their codes |
+| Audit what the rails are computed from | `scripts/audit-recommendation-data.py --run runs/<date> [--recs] [--ids …]` | read-only: no type / parent or wrong leaf / no size / universal+specific / kg-sku / multi-species; `--recs` also reads every product's live "Related items" and flags other-species and same-line floods |
+| Merge review (rule 9) | `uv run --with openpyxl python scripts/find-merge-candidates.py --run runs/<date>` | read-only: groups products that look like one line (same brand / type / categories, same name before the first flavour/texture/colour word, no lifestage/diet/packaging/material disagreement, Trixie's catalogue not splitting them) → `merge-candidates.xlsx` with a Decision column for the user, + a "Kept apart" sheet. The decided groups then go through section 2b |
+| "Goes well with" category map | `scripts/set-complements.py` (dry run) then `--apply` | applies `reference/complement-categories.json` (paths → ids); the map is the PM's to edit — a new leaf gets a row there |
+
+## 9c. No rival price
+
+| Job | Command | Notes |
+|---|---|---|
+| Measure the gaps | `uv run --with openpyxl python scripts/build-gap-matrix.py --out final/catalogue-gaps-<date>.xlsx` | per variant: filled / EMPTY / WRONG / n/a for texts, photos, size, codes, ru/hy, filter attributes; needs the en/ru/hy dumps (`dump-products.py --lang ru|hy --fast`) |
+| Fill gaps from reviewed cards | `scripts/fill-gaps-bulk.py --run runs/<date>/fill [--only ids] [--dry-run]` | cards per `reference/gap-fill-guide.md`; only EMPTY fields (or a provably non-English one in replace_wrong); one PUT /products/bulk per 25 products with en/ru/hy maps; backup + verify-fill per product |
+| Verify a write | `scripts/verify-fill.py --backup <dir> <ids>` | only texts / names / attributes / photos / size may have moved, and they're listed; everything else must be identical in en/ru/hy |
+| Data corrections | `scripts/apply-corrections.py plan.json [--dry-run]` | renames (en/ru/hy), labels, attributes (null removes), sizes, text replacements, each with its evidence; bulk PUT, then a check that each change landed |
+| Recommend a price from comparables | `uv run --with openpyxl python scripts/recommend-price.py items.json --out final/price-recommendations-<date>.xlsx` | CLAUDE.md 2c: same brand + animal + type, rival-priced comparables, median markup (+ unit-price check). Never writes; the user approves |
+
 ## 10. Preparing supplier data
 
 | Input | Command | Output |

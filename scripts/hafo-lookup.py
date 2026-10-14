@@ -64,11 +64,16 @@ def sku_matches(hafo_sku, code):
         # matched hafo's 'TX 152661' (a dog leash) on nothing but a shared
         # 5-digit prefix (found 2026-09-09, Trixie hafo-lookup batch).
         if code.lower().endswith("tx"):
-            hd = re.sub(r"^[a-z]+", "", h)          # drop 'tx'/'mg' prefix
+            # hafo also writes 'TX 35718Trx' (a 'trx' suffix as well as the prefix — 2026-10-12)
+            hd = re.sub(r"[a-z]+$", "", re.sub(r"^[a-z]+", "", h))   # drop 'tx'/'mg' prefix and 'trx' suffix
             cd = re.sub(r"^[a-z]+", "", cs)
             if hd.isdigit() and cd.isdigit():
                 a, b = hd.lstrip("0"), cd.lstrip("0")
-                if a == b or (a.startswith(b) and len(a) - len(b) == 1):
+                if a == b:
+                    return True
+                # the extra trailing variant digit only on hafo's own Trixie spelling ('TX 040201');
+                # without the 'tx' prefix it matched a Tetra filter for our 2410Tx (2026-10-12)
+                if h.startswith("tx") and a.startswith(b) and len(a) - len(b) == 1:
                     return True
     return False
 

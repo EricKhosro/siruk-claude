@@ -10,7 +10,7 @@
 #
 # Pacing and retry knobs live in config.json — see that file and scripts/README.md.
 
-SIRUK_API="${SIRUK_API:-https://demo-api.siruk.am/api/admin}"
+SIRUK_API="${SIRUK_API:-https://api.siruk.am/api/admin}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TOKEN_FILE="${SIRUK_TOKEN_FILE:-$ROOT/.siruk-token}"
 CONFIG_FILE="${SIRUK_CONFIG:-$ROOT/config.json}"

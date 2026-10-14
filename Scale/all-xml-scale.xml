@@ -5330,14 +5330,14 @@
   </Goods>
   <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <Code>0009</Code>
-    <Name>Կեր կատուների ACANA HOMESTEAD(հավ/հնդկահավ) 4.5 կգ</Name>
+    <Name>Կեր կատ. ACANA HOMESTEAD(հավ/հնդկ.) 4.5 կգ</Name>
     <LongName>Homestead Harvest, 4.5 kg</LongName>
     <Type>1</Type>
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -5353,15 +5353,23 @@
     <Point>0.0000</Point>
     <Coeff>1.0000</Coeff>
     <Discount>0.0000</Discount>
-    <PLUCode i:nil="true" />
+    <PLUCode>0</PLUCode>
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>0064992714376</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00099</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -5371,8 +5379,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0009</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>0064992714376</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0009</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00099</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -5389,14 +5402,14 @@
   </Goods>
   <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <Code>0010</Code>
-    <Name>Կեր կատուների ACANA BOUNTIFUL (ձուկ) 4.5 կգ</Name>
-    <LongName>Bountiful Catch, 4.5 kg</LongName>
+    <Name>Կեր կատուների ACANA BOUNTIFUL (ձուկ) 4,5կգ</Name>
+    <LongName>BOUNTIFUL Catch 4,5կգ</LongName>
     <Type>1</Type>
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -5412,15 +5425,23 @@
     <Point>0.0000</Point>
     <Coeff>1.0000</Coeff>
     <Discount>0.0000</Discount>
-    <PLUCode i:nil="true" />
+    <PLUCode>0</PLUCode>
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>0064992714444</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00098</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -5430,8 +5451,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0010</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>0064992714444</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0010</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00098</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -5443,19 +5469,19 @@
     <AdditionalDescr2></AdditionalDescr2>
     <CheckMarking>false</CheckMarking>
     <LabelUnit></LabelUnit>
-    <LabelCoeff>0.0000000000</LabelCoeff>
+    <LabelCoeff>1.0000000000</LabelCoeff>
     <IgnoreBonus i:nil="true" />
   </Goods>
   <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <Code>0011</Code>
-    <Name>Կեր կատուների ACANA Wild Prairie(առանց հացահատիկի) 4.5 կգ</Name>
+    <Name>Կեր կատ. ACANA Wild Prairie(առանց հատիկ.) 4.5 կգ</Name>
     <LongName>Highest Protein Wild Prairie, 4.5 kg</LongName>
     <Type>1</Type>
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -5471,15 +5497,23 @@
     <Point>0.0000</Point>
     <Coeff>1.0000</Coeff>
     <Discount>0.0000</Discount>
-    <PLUCode i:nil="true" />
+    <PLUCode>0</PLUCode>
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>0064992714581</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00100</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -5489,8 +5523,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0011</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>0064992714581</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0011</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00100</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -5507,14 +5546,14 @@
   </Goods>
   <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <Code>0012</Code>
-    <Name>Կեր կատուների ACANA Grasslands (առանց հացահատիկի, գառ) 4.5 կգ</Name>
+    <Name>Կեր կատ. ACANA Grasslands 4.5 կգ, գառ</Name>
     <LongName>Highest Protein Grasslands, 4.5 kg</LongName>
     <Type>1</Type>
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -5530,15 +5569,23 @@
     <Point>0.0000</Point>
     <Coeff>1.0000</Coeff>
     <Discount>0.0000</Discount>
-    <PLUCode i:nil="true" />
+    <PLUCode>0</PLUCode>
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>0064992714727</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00101</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -5548,8 +5595,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0012</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>0064992714727</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0012</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00101</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -5566,14 +5618,14 @@
   </Goods>
   <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <Code>0013</Code>
-    <Name>Կեր կատուների ACANA Pacifica(առանց հացահատիկի, ձուկ) 4.5 կգ</Name>
+    <Name>Կեր կատ. ACANA Pacifica 4.5 կգ, ձուկ</Name>
     <LongName>Highest Protein Pacifica, 4.5 kg</LongName>
     <Type>1</Type>
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -5589,15 +5641,23 @@
     <Point>0.0000</Point>
     <Coeff>1.0000</Coeff>
     <Discount>0.0000</Discount>
-    <PLUCode i:nil="true" />
+    <PLUCode>0</PLUCode>
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>0064992714659</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00102</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -5607,8 +5667,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0013</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>0064992714659</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0013</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00102</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -5631,8 +5696,8 @@
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -5648,15 +5713,23 @@
     <Point>0.0000</Point>
     <Coeff>1.0000</Coeff>
     <Discount>0.0000</Discount>
-    <PLUCode i:nil="true" />
+    <PLUCode>0</PLUCode>
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>0064992714772</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00104</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -5666,8 +5739,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0014</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>0064992714772</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0014</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00104</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -5690,8 +5768,8 @@
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -5707,15 +5785,23 @@
     <Point>0.0000</Point>
     <Coeff>1.0000</Coeff>
     <Discount>0.0000</Discount>
-    <PLUCode i:nil="true" />
+    <PLUCode>0</PLUCode>
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>0064992714512</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00105</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -5725,8 +5811,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0019</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>0064992714512</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0019</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00105</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -13321,7 +13412,7 @@
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
     <IsWeight>false</IsWeight>
-    <BarCode></BarCode>
+    <BarCode>4820269142534</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
@@ -13333,7 +13424,13 @@
         <IsAltUnit i:nil="true" />
       </QuantityUnitPart>
     </GoodQuantityUnits>
-    <GoodBarCodes />
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0210</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4820269142534</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
     <ExternalCode></ExternalCode>
     <Extension />
     <Image></Image>
@@ -21870,7 +21967,7 @@
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
     <IsWeight>false</IsWeight>
-    <BarCode></BarCode>
+    <BarCode>4820269147249</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
@@ -21882,7 +21979,13 @@
         <IsAltUnit i:nil="true" />
       </QuantityUnitPart>
     </GoodQuantityUnits>
-    <GoodBarCodes />
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0355</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4820269147249</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
     <ExternalCode></ExternalCode>
     <Extension />
     <Image></Image>
@@ -28177,7 +28280,7 @@
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
     <IsWeight>false</IsWeight>
-    <BarCode></BarCode>
+    <BarCode>4610011700026</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
@@ -28189,7 +28292,13 @@
         <IsAltUnit i:nil="true" />
       </QuantityUnitPart>
     </GoodQuantityUnits>
-    <GoodBarCodes />
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0462</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4610011700026</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
     <ExternalCode></ExternalCode>
     <Extension />
     <Image></Image>
@@ -28230,7 +28339,7 @@
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
     <IsWeight>false</IsWeight>
-    <BarCode></BarCode>
+    <BarCode>4610011700019</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
@@ -28242,7 +28351,13 @@
         <IsAltUnit i:nil="true" />
       </QuantityUnitPart>
     </GoodQuantityUnits>
-    <GoodBarCodes />
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0463</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4610011700019</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
     <ExternalCode></ExternalCode>
     <Extension />
     <Image></Image>
@@ -39788,7 +39903,7 @@
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
     <IsWeight>false</IsWeight>
-    <BarCode></BarCode>
+    <BarCode>4011905357188</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
@@ -39800,7 +39915,13 @@
         <IsAltUnit i:nil="true" />
       </QuantityUnitPart>
     </GoodQuantityUnits>
-    <GoodBarCodes />
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0659</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905357188</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
     <ExternalCode></ExternalCode>
     <Extension />
     <Image></Image>
@@ -80008,7 +80129,7 @@
     <PLUCode>0</PLUCode>
     <VAT>true</VAT>
     <IsWeight>false</IsWeight>
-    <BarCode></BarCode>
+    <BarCode>8009470014618</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
@@ -80020,7 +80141,13 @@
         <IsAltUnit i:nil="true" />
       </QuantityUnitPart>
     </GoodQuantityUnits>
-    <GoodBarCodes />
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1341</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8009470014618</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
     <ExternalCode></ExternalCode>
     <Extension />
     <Image></Image>

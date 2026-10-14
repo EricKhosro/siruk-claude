@@ -32,7 +32,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CACHE = ROOT / ".siruk-cache" / "dedup"
-API = os.environ.get("SIRUK_API", "https://demo-api.siruk.am/api/admin")
+API = os.environ.get("SIRUK_API", "https://api.siruk.am/api/admin")
 UA = "siruk-dedup/1.0"
 
 # Hand-checked exceptions: (product id, group-mate) pairs that the name signal

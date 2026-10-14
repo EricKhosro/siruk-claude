@@ -22,7 +22,13 @@ A NEW variant is written in the new shape:
     "pack_count": 1,                            # 12 for "12 × 85 g"
     "initial_stock": 10,                        # new variants only — stock is a ledger now
     "attribute_values": {"flavor": [38], "lifestage": [27]},   # attribute id OR code → [value ids]
-    "images": [8293] }
+    "images": [8293],
+    "barcode": "4048422122074",                 # the pack's EAN; a "-KG" 1 kg loose variant: its 5-digit PLU
+    "accounting_code": "1111",                  # ArmSoft good code (a bag and its 1 kg share one)
+    "price_source_url": "https://hafo.am/products/…" }   # the page the price came from; omit for a register price
+The three code fields are import-only (the admin form never sends them) and a PUT that leaves
+them out keeps them, so to_variant_payload never copies them back (check_codes validates them).
+merch_boost / pinned / complement fields are the PM's and are refused (MERCH_REFUSED).
 Legacy input is converted where it is mechanical (attribute_value_ids → attribute_values,
 stock → initial_stock, pricing_type "fixed" dropped) and refused where it is not
 (pricing_type "per_kg", weight, unit, net_quantity, product-weight — give the pack price
@@ -46,6 +52,14 @@ VTEXT = ("about_this_item", "ingredient_information", "feeding_instructions")
 LEGACY_REFUSED = ("price_per_kg", "weight", "unit", "net_quantity", "vendor_stock", "item_content",
                   "min_quantity", "quantity_step", "max_quantity")
 MEASURE_TYPES = ("mass", "volume", "count")
+# siruk-web bc49dfbf (2026-10-09): written by imports only — the admin form never sends them, and the
+# server changes only the keys a request carries, so they are NOT in VARIANT_KEYS: a re-sent variant
+# leaves them alone. Set them on a new variant, or with --patch / a backfill.
+CODE_KEYS = ("barcode", "accounting_code", "price_source_url")
+PRICE_SOURCE_HOSTS = ("hafo.am", "zoovet.am", "nemo.am")
+# Merchandising and machine fields: the PM's (boost/pins/complements) or the nightly jobs' — never ours.
+MERCH_REFUSED = ("merch_boost", "relevance_score", "sales_count", "pinned_product_ids",
+                 "complement_category_ids")
 
 
 class PayloadError(Exception):
@@ -168,6 +182,43 @@ def normalize_new(v, ptype):
     return v
 
 
+def check_codes(v):
+    """barcode / accounting_code / price_source_url of one variant. Returns (errors, warnings).
+
+    The user's rule (2026-10-12): a pack's barcode is its EAN; a loose-sale 1 kg variant (SKU
+    "<bag sku>-KG", CLAUDE.md 8a) carries the 5-digit scale PLU instead. accounting_code is the
+    ArmSoft good code (4 digits; a bag and its 1 kg variant share one). price_source_url is the
+    page the sale price came from — empty when the price came from a register file, not a site."""
+    errs, warns = [], []
+    tag = f"variant {v.get('sku')}"
+    loose = str(v.get("sku") or "").upper().endswith("-KG")
+    bc = v.get("barcode")
+    if bc not in (None, ""):
+        bc = str(bc)
+        if not bc.isdigit() or len(bc) > 32:
+            errs.append(f"{tag}: barcode '{bc}' must be digits only, ≤32")
+        elif loose and len(bc) != 5:
+            errs.append(f"{tag}: a 1 kg loose variant's barcode is the 5-digit PLU, got '{bc}'")
+        elif not loose and len(bc) not in (8, 12, 13, 14):
+            warns.append(f"{tag}: barcode '{bc}' is not an EAN-8/UPC-12/EAN-13/GTIN-14")
+    elif loose:
+        warns.append(f"{tag}: 1 kg loose variant without its PLU barcode")
+    ac = v.get("accounting_code")
+    if ac not in (None, ""):
+        ac = str(ac)
+        if len(ac) > 16:
+            errs.append(f"{tag}: accounting_code '{ac}' is longer than 16")
+        elif not re.fullmatch(r"\d{4}", ac):
+            warns.append(f"{tag}: accounting_code '{ac}' is not a 4-digit ArmSoft good code")
+    url = v.get("price_source_url")
+    if url not in (None, ""):
+        if not re.match(r"https?://", str(url)) or len(str(url)) > 2048:
+            errs.append(f"{tag}: price_source_url must be an http(s) url ≤2048, got '{url}'")
+        elif not any(re.match(rf"https?://(www\.)?{re.escape(h)}/", str(url)) for h in PRICE_SOURCE_HOSTS):
+            warns.append(f"{tag}: price_source_url host is not one of {PRICE_SOURCE_HOSTS}: {url}")
+    return errs, warns
+
+
 def check_variants(variants, ptype, new_skus=()):
     """ProductRequest's product-type checks plus ours. Returns (errors, warnings)."""
     errs, warns = [], []
@@ -175,6 +226,10 @@ def check_variants(variants, ptype, new_skus=()):
     amap_by_id = {a["id"]: a for a in attributes().values()}
     for v in variants:
         tag = f"variant {v.get('sku')}"
+        if any(k in v for k in CODE_KEYS):
+            e, w = check_codes(v)
+            errs += e
+            warns += w
         if not v.get("sku"):
             errs.append("a variant has no sku")
         price = v.get("price") or 0
@@ -277,6 +332,9 @@ SIZE_IN_NAME = re.compile(r"(?<![–\-\d.,])\b\d+(?:[.,]\d+)?\s*(?:kg|g|ml|кг|
 
 def post_body(payload):
     body = {k: payload[k] for k in payload if k != "variants"}
+    merch = [k for k in MERCH_REFUSED if k in body]
+    if merch:
+        raise PayloadError(f"{merch} belong to the PM / the nightly jobs — an import never sends them")
     names = body.get("name")      # a string, or {en, ru, hy} for POST /products/bulk
     for n in (names.values() if isinstance(names, dict) else [names]):
         if SIZE_IN_NAME.search(n or ""):

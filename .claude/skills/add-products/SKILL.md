@@ -320,8 +320,16 @@ For a prepared run, phase C goes one of two ways:
      `reference/product-rules.md`), `brand_id`, `attribute_family_id` (the
      phase-B product type), variants with sku / `price` (the sale **pack**
      price) / `cost_price` (CSV) / `measure_type` + `content` + `pack_count` /
-     `initial_stock` (10) / images, and `attribute_values` from step 6
-     (attribute code or id → [value ids]). Shape: `scripts/siruk_payload.py`.
+     `initial_stock` (10) / images, `attribute_values` from step 6
+     (attribute code or id → [value ids]), and the **codes** (CLAUDE.md 10b):
+     `barcode` = the hafo-confirmed EAN (a `-KG` 1 kg variant: its 5-digit
+     scale PLU from `Scale/scale-codes-per-kg.csv`, none yet → leave it out
+     and list the row for the PLU), `accounting_code` = the ArmSoft good code
+     when the good already exists (new goods get theirs from `/armsoft-sync`
+     — re-run `scripts/backfill-variant-codes.py` after that import),
+     `price_source_url` = the exact hafo / zoovet / nemo page whose price you
+     wrote (none for a register price or the sibling rule). Never
+     `merch_boost` / pins / complements. Shape: `scripts/siruk_payload.py`.
      Both write scripts refuse a variant priced at or below cost and anything
      the product type refuses. It refuses if a similar product already exists
      (`FORCE=1` overrides), then POSTs and reads back.
@@ -408,7 +416,7 @@ Write `runs/<date>-report.md` and summarize it in the reply. Per product:
 
 End with the aggregated lists, and write the CSVs into `runs/<date>/`
 (columns in `reference/pricing.md`): `no-hafo-price.csv`, `not-found.csv`, plus
-`sibling-priced.csv` / `zoovet-priced.csv` for rows a fallback priced and
+`sibling-priced.csv` / `zoovet-priced.csv` for rows a fallback priced, `price-recommendations-<date>.xlsx` (scripts/recommend-price.py, CLAUDE.md 2c) for rows no rival prices — held until the user approves a price and
 `needs-image.csv` / `needs-packshot.csv` for the picture worklists:
 
 - **Flagged candidates** — picks that need a human yes/no (with evidence).
@@ -418,3 +426,10 @@ End with the aggregated lists, and write the CSVs into `runs/<date>/`
   attribute Y?").
 - Brands created during the run (name → id, logo source) and categories missing
   in admin (do not create categories).
+- **Recommendation check** (CLAUDE.md 14): run
+  `scripts/dump-products.py --ids <the run's product ids>` then
+  `scripts/audit-recommendation-data.py --run runs/<date>` and report any
+  finding on this run's products (no type, parent/wrong leaf, no size,
+  universal+specific, kg-sku, related-other-species with `--recs`). A new
+  leaf the complement map does not cover yet → add a row to
+  `reference/complement-categories.json` for the PM and say so.

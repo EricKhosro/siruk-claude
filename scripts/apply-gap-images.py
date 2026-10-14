@@ -54,10 +54,14 @@ def hafo_ids():
     st = load("enrich-images.state.json", {"media": {}})
     ids = {v for u, v in list(mc.items()) + list(st.get("media", {}).items())
            if "d1b3l6j8a0ngef.cloudfront.net" in u and isinstance(v, int) and v}
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("hafo_audit", os.path.join(ROOT, "scripts", "hafo-audit.py"))
+    ha = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ha)
+    src = {v: u for u, v in list(mc.items()) + list(st.get("media", {}).items()) if isinstance(v, int)}
     for mid, fn in load("media-filenames.json", {}).items():
-        base = str(fn).rsplit("/", 1)[-1]
-        stem = base.split(".")[0]
-        if base.startswith("hafo") or (stem.split("-")[0].isdigit() and len(stem.split("-")[0]) >= 10):
+        name = fn.get("filename") if isinstance(fn, dict) else fn
+        if ha.looks_like_hafo(name, src.get(int(mid))):
             ids.add(int(mid))
     return ids
 

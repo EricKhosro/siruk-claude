@@ -24,7 +24,7 @@ files the user imports by hand.
 | the export (argument) | ArmSoft's current state. Copy it to `Scale/armsoft-export-<YYYY-MM-DD>.xml` first; never overwrite `Scale/all-xml.xml` (the 2026-10-02 export, kept for history). |
 | `csv/all-xml-scale.xml` (= `Scale/all-xml-scale.xml`, keep the two identical) | **our target**: every good ArmSoft should have, 1,439 goods on 2026-10-09, barcodes fixed that day. |
 | `Scale/scale-codes-per-kg.csv` | Siruk variant id ↔ ArmSoft good code, with SKU, EAN and price. |
-| `final/siruk-source-of-truth.csv` | every live Siruk variant: name, variant, price, barcode, PLU (1 kg scale code). |
+| `final/siruk-source-of-truth.csv` | every live Siruk variant: name, variant, price, buying price, margin, margin %, barcode, PLU (1 kg scale code). |
 | `state/armsoft-extra-prices.csv` | sourced prices for goods that are not on Siruk. |
 | `scripts/build-armsoft-import.py` | `parse_goods()` reads the XML; `prices_rows()` gives the price per good + unit. Reuse them (import the file with `importlib`) instead of re-writing the logic. Its own output is `csv/Siruk-hx.xlsx` — rebuild only the sheets that changed (`--sheets MATERIALS,MTBARCODES`), PRICES only when the user wants today's date on it. |
 | `Scale/armsoft-new-goods-1342-1439.xml`, `final/armsoft-new-goods-prices.xlsx` | the 2026-10-09 new-goods import + its prices. Superseded by whatever this run builds. |
@@ -87,6 +87,14 @@ with `xml.dom.minidom` before handing it over.
 6. **Verify** (after an import): every good, unit and barcode from the import
    files is in the new export, with the same values. Report anything that did
    not land.
+
+7. **Mirror the codes onto Siruk** (CLAUDE.md 10b, since 2026-10-12). Every
+   Siruk variant carries `accounting_code` = its ArmSoft good code and
+   `barcode` = the pack EAN (the 5-digit PLU on a `-KG` 1 kg variant). Once
+   `Scale/scale-codes-per-kg.csv` and `final/siruk-source-of-truth.csv` hold
+   the new goods, run `scripts/backfill-variant-codes.py --run runs/<date>`.
+   It only plans. Hand the user the plan and run `--apply` only after they say
+   yes: it writes to Siruk, which this skill otherwise never does.
 
 ## What to hand the user
 

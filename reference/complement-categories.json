@@ -1,0 +1,109 @@
+{
+  "_comment": [
+    "The cart's 'Goes well with' map (categories.complement_category_ids, siruk-web fff688a3, 2026-10-09).",
+    "Applied by scripts/set-complements.py, keyed by category path so it survives an id change.",
+    "How the cart uses it (CartRecommendationService): for each cart product, the lists of its categories AND their ancestors are merged and expanded to subcategories; products from them rank after real bought-together pairs and before the automatic fallback (same pet, categories not in the cart). Only the cart's own pet trees are searched, so a cross-pet target is useless. At most 8 cards, 2 per brand, in stock only.",
+    "Rules used: set on LEAVES (a list on a parent is inherited by every leaf under it — a vet diet must not inherit 'treats' from Dog > Food); 2–3 targets each, the most likely add-on first; a vet-diet / pharmacy category never points at treats; food points at the other food form (mixed feeding) plus the add-on a food buyer needs (treats, bowls, litter for cats).",
+    "Drafted 2026-10-12 for the PM to review — the PM can edit any row in the admin (Category → 'Goes well with categories')."
+  ],
+  "map": {
+    "Dog > Food > Dry Food":                        ["Dog > Food > Wet Food", "Dog > Treat", "Dog > Supplies > Bowls & Feeders"],
+    "Dog > Food > Wet Food":                        ["Dog > Food > Dry Food", "Dog > Treat", "Dog > Supplies > Bowls & Feeders"],
+    "Dog > Food > Health Condition":                ["Dog > Health & Pharmacy > Vitamins & Supplements", "Dog > Health & Pharmacy > Probiotics & Digestive Health", "Dog > Supplies > Bowls & Feeders"],
+
+    "Dog > Treat > Bones, Bully Sticks & Naturals": ["Dog > Toys", "Dog > Food > Dry Food"],
+    "Dog > Treat > Soft & Chewy Treats":            ["Dog > Supplies > Training & Behavior", "Dog > Toys", "Dog > Food > Dry Food"],
+    "Dog > Treat > Dental Treats":                  ["Dog > Toys > Chew & Dental", "Dog > Food > Dry Food"],
+    "Dog > Treat > Biscuits & Cookies":             ["Dog > Toys", "Dog > Food > Dry Food"],
+    "Dog > Treat > Long-Lasting Chews":             ["Dog > Toys > Chew & Dental", "Dog > Food > Dry Food"],
+    "Dog > Treat > Jerky Treats":                   ["Dog > Supplies > Training & Behavior", "Dog > Toys", "Dog > Food > Dry Food"],
+    "Dog > Treat > Freeze-Dried & Dehydrated":      ["Dog > Supplies > Training & Behavior", "Dog > Food > Dry Food"],
+    "Dog > Treat > Lickable Treats":                ["Dog > Toys > Activity & Intelligence", "Dog > Food > Wet Food"],
+
+    "Dog > Toys > Plush":                           ["Dog > Treat", "Dog > Supplies > Beds"],
+    "Dog > Toys > Latex & Rubber":                  ["Dog > Treat", "Dog > Toys > Fetch & Retrieve"],
+    "Dog > Toys > Rope & Tug":                      ["Dog > Treat", "Dog > Toys > Fetch & Retrieve"],
+    "Dog > Toys > Fetch & Retrieve":                ["Dog > Treat", "Dog > Toys > Rope & Tug"],
+    "Dog > Toys > Chew & Dental":                   ["Dog > Treat > Dental Treats", "Dog > Treat > Long-Lasting Chews"],
+    "Dog > Toys > Activity & Intelligence":         ["Dog > Treat > Soft & Chewy Treats", "Dog > Treat > Lickable Treats"],
+
+    "Dog > Grooming > Brushes & Combs":             ["Dog > Grooming > Shampoos & Conditioners", "Dog > Grooming > Grooming Tools"],
+    "Dog > Grooming > Shampoos & Conditioners":     ["Dog > Grooming > Brushes & Combs", "Dog > Grooming > Ear Care", "Dog > Health & Pharmacy > Flea & Tick"],
+    "Dog > Grooming > Grooming Tools":              ["Dog > Grooming > Brushes & Combs", "Dog > Grooming > Paw & Nail Care"],
+    "Dog > Grooming > Paw & Nail Care":             ["Dog > Grooming > Grooming Tools", "Dog > Grooming > Skin Care"],
+    "Dog > Grooming > Ear Care":                    ["Dog > Grooming > Shampoos & Conditioners", "Dog > Grooming > Skin Care"],
+    "Dog > Grooming > Skin Care":                   ["Dog > Grooming > Shampoos & Conditioners", "Dog > Grooming > Paw & Nail Care"],
+
+    "Dog > Health & Pharmacy > Flea & Tick":                  ["Dog > Health & Pharmacy > Heartworm & Dewormers", "Dog > Grooming > Shampoos & Conditioners", "Dog > Grooming > Brushes & Combs"],
+    "Dog > Health & Pharmacy > Vitamins & Supplements":       ["Dog > Treat > Dental Treats", "Dog > Health & Pharmacy > Heartworm & Dewormers", "Dog > Health & Pharmacy > Probiotics & Digestive Health"],
+    "Dog > Health & Pharmacy > Probiotics & Digestive Health": ["Dog > Health & Pharmacy > Vitamins & Supplements", "Dog > Food > Health Condition"],
+    "Dog > Health & Pharmacy > Allergy & Itch Relief":        ["Dog > Grooming > Skin Care", "Dog > Grooming > Shampoos & Conditioners"],
+    "Dog > Health & Pharmacy > Heartworm & Dewormers":        ["Dog > Health & Pharmacy > Flea & Tick", "Dog > Health & Pharmacy > Vitamins & Supplements"],
+    "Dog > Health & Pharmacy > Pharmacy & Prescriptions":     ["Dog > Health & Pharmacy > Vitamins & Supplements", "Dog > Health & Pharmacy > Flea & Tick", "Dog > Health & Pharmacy > Probiotics & Digestive Health"],
+    "Dog > Health & Pharmacy > Anxiety & Calming Care":       ["Dog > Supplies > Beds", "Dog > Toys > Activity & Intelligence"],
+
+    "Dog > Supplies > Collars, Leashes & Harnesses": ["Dog > Cleaning & Potty > Poop Bags & Scoopers", "Dog > Supplies > Training & Behavior", "Dog > Treat > Soft & Chewy Treats"],
+    "Dog > Supplies > Bowls & Feeders":              ["Dog > Food > Dry Food", "Dog > Food > Wet Food"],
+    "Dog > Supplies > Beds":                         ["Dog > Toys > Plush", "Dog > Supplies > Clothing & Accessories"],
+    "Dog > Supplies > Clothing & Accessories":       ["Dog > Supplies > Collars, Leashes & Harnesses", "Dog > Supplies > Beds"],
+    "Dog > Supplies > Carriers & Travel":            ["Dog > Cleaning & Potty > Pee Pads & Diapers", "Dog > Supplies > Bowls & Feeders"],
+    "Dog > Supplies > Training & Behavior":          ["Dog > Treat > Soft & Chewy Treats", "Dog > Supplies > Collars, Leashes & Harnesses"],
+
+    "Dog > Cleaning & Potty > Pee Pads & Diapers":      ["Dog > Cleaning & Potty > Cleaners & Stain Removers", "Dog > Cleaning & Potty > Poop Bags & Scoopers"],
+    "Dog > Cleaning & Potty > Poop Bags & Scoopers":    ["Dog > Supplies > Collars, Leashes & Harnesses", "Dog > Cleaning & Potty > Pee Pads & Diapers"],
+    "Dog > Cleaning & Potty > Cleaners & Stain Removers": ["Dog > Cleaning & Potty > Pee Pads & Diapers", "Dog > Cleaning & Potty > Poop Bags & Scoopers"],
+
+    "Cat > Food > Dry Food":                        ["Cat > Food > Wet Food", "Cat > Treat", "Cat > Litter"],
+    "Cat > Food > Wet Food":                        ["Cat > Food > Dry Food", "Cat > Treat", "Cat > Litter"],
+
+    "Cat > Treat > Crunchy Treats":                 ["Cat > Toys", "Cat > Food > Dry Food"],
+    "Cat > Treat > Lickable Treats":                ["Cat > Toys", "Cat > Food > Wet Food"],
+    "Cat > Treat > Soft & Chewy Treats":            ["Cat > Toys", "Cat > Food > Wet Food"],
+    "Cat > Treat > Dental Treats":                  ["Cat > Health & Pharmacy > Vitamins & Supplements", "Cat > Food > Dry Food"],
+    "Cat > Treat > Catnip":                         ["Cat > Toys > Catnip", "Cat > Trees, Condos & Scratchers"],
+    "Cat > Treat > Cat Grass":                      ["Cat > Treat > Catnip", "Cat > Toys"],
+
+    "Cat > Toys > Mice & Animals":                  ["Cat > Treat", "Cat > Trees, Condos & Scratchers"],
+    "Cat > Toys > Balls":                           ["Cat > Treat", "Cat > Trees, Condos & Scratchers"],
+    "Cat > Toys > Catnip":                          ["Cat > Treat > Catnip", "Cat > Trees, Condos & Scratchers"],
+    "Cat > Toys > Activity & Intelligence":         ["Cat > Treat", "Cat > Trees, Condos & Scratchers"],
+
+    "Cat > Grooming > Brushes & Combs":             ["Cat > Grooming > Shampoos & Conditioners", "Cat > Grooming > Grooming Tools"],
+    "Cat > Grooming > Shampoos & Conditioners":     ["Cat > Grooming > Brushes & Combs", "Cat > Grooming > Ear Care", "Cat > Health & Pharmacy > Flea & Tick"],
+    "Cat > Grooming > Grooming Tools":              ["Cat > Grooming > Brushes & Combs", "Cat > Grooming > Paw & Nail Care"],
+    "Cat > Grooming > Paw & Nail Care":             ["Cat > Grooming > Grooming Tools", "Cat > Trees, Condos & Scratchers"],
+    "Cat > Grooming > Ear Care":                    ["Cat > Grooming > Shampoos & Conditioners", "Cat > Grooming > Skin Care"],
+    "Cat > Grooming > Skin Care":                   ["Cat > Grooming > Shampoos & Conditioners", "Cat > Grooming > Brushes & Combs"],
+
+    "Cat > Health & Pharmacy > Flea & Tick":                  ["Cat > Health & Pharmacy > Pharmacy & Prescriptions", "Cat > Grooming > Shampoos & Conditioners", "Cat > Grooming > Brushes & Combs"],
+    "Cat > Health & Pharmacy > Vitamins & Supplements":       ["Cat > Health & Pharmacy > Probiotics & Digestive Health", "Cat > Treat > Dental Treats"],
+    "Cat > Health & Pharmacy > Probiotics & Digestive Health": ["Cat > Health & Pharmacy > Vitamins & Supplements", "Cat > Treat > Cat Grass"],
+    "Cat > Health & Pharmacy > Allergy & Itch Relief":        ["Cat > Grooming > Skin Care", "Cat > Grooming > Shampoos & Conditioners"],
+    "Cat > Health & Pharmacy > Pharmacy & Prescriptions":     ["Cat > Health & Pharmacy > Flea & Tick", "Cat > Health & Pharmacy > Vitamins & Supplements"],
+    "Cat > Health & Pharmacy > Anxiety & Calming Care":       ["Cat > Trees, Condos & Scratchers", "Cat > Toys > Catnip"],
+    "Cat > Health & Pharmacy > Urinary Tract & Kidneys":      ["Cat > Health & Pharmacy > Vitamins & Supplements", "Cat > Food > Wet Food"],
+
+    "Cat > Litter > Clumping":                      ["Cat > Supplies > Litter Boxes & Accessories", "Cat > Food > Dry Food"],
+    "Cat > Litter > Scented":                       ["Cat > Supplies > Litter Boxes & Accessories", "Cat > Food > Dry Food"],
+    "Cat > Litter > Unscented":                     ["Cat > Supplies > Litter Boxes & Accessories", "Cat > Food > Dry Food"],
+    "Cat > Litter > Natural":                       ["Cat > Supplies > Litter Boxes & Accessories", "Cat > Food > Dry Food"],
+    "Cat > Litter > Lightweight":                   ["Cat > Supplies > Litter Boxes & Accessories", "Cat > Food > Dry Food"],
+    "Cat > Litter > Crystal":                       ["Cat > Supplies > Litter Boxes & Accessories", "Cat > Food > Dry Food"],
+
+    "Cat > Supplies > Litter Boxes & Accessories":  ["Cat > Litter", "Cat > Food > Dry Food"],
+    "Cat > Supplies > Collars, Leashes & Harnesses": ["Cat > Toys", "Cat > Treat"],
+    "Cat > Trees, Condos & Scratchers > Scratchers & Scratching Posts": ["Cat > Toys", "Cat > Treat > Catnip"],
+
+    "Bird > Food":                                  ["Bird > Treats & Supplements", "Bird > Grooming"],
+    "Bird > Treats & Supplements":                  ["Bird > Food", "Bird > Grooming"],
+    "Bird > Grooming":                              ["Bird > Food", "Bird > Treats & Supplements"],
+
+    "Small Animal > Food":                          ["Small Animal > Hay", "Small Animal > Treats", "Small Animal > Bedding"],
+    "Small Animal > Hay":                           ["Small Animal > Food", "Small Animal > Supplements & Salt Licks", "Small Animal > Bedding"],
+    "Small Animal > Treats":                        ["Small Animal > Food", "Small Animal > Hay"],
+    "Small Animal > Supplements & Salt Licks":      ["Small Animal > Food", "Small Animal > Hay"],
+    "Small Animal > Bedding":                       ["Small Animal > Food", "Small Animal > Hay", "Small Animal > Supplies"],
+    "Small Animal > Grooming":                      ["Small Animal > Bedding", "Small Animal > Treats"],
+    "Small Animal > Supplies":                      ["Small Animal > Food", "Small Animal > Bedding"]
+  }
+}

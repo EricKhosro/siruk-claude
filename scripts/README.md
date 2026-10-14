@@ -7,7 +7,7 @@ and JSON to **stdout**, so you can pipe or redirect any of them.
 ## Token (do this once; it survives reboots)
 
 The API needs `Authorization: Bearer <JWT>` — cookies alone don't authenticate.
-Log in to the admin (`https://demo-api.siruk.am/admin/login`, creds in
+Log in to the admin (`https://api.siruk.am/admin/login`, creds in
 `CLAUDE.md`), then in the browser console:
 
 ```js
@@ -110,6 +110,11 @@ before running it.
 | `pace.sh [product\|api\|media\|show]` | `show` prints the effective pacing/retry settings; `product` is the breather to call between two CSV rows |
 | `build-armsoft-import.py [--date <d>] [--sheets …]` | fills the ArmSoft import workbook `csv/Siruk-hx.xlsx` from `csv/all-xml-scale.xml`: **MATERIALS** one row per `<Goods>` column for column, **MTQUNIT** one row per `<QuantityUnitPart>` (the good's `<AltUnit>` flagged), **MTBARCODES** one row per `<MTBarCode>`, and **PRICES** one row per (good, unit) — price type `01`, AMD, date = today — with the live Siruk sale price from `Scale/scale-codes-per-kg.csv`, so a loose good gets `303` = its 1 kg variant price and `003` = its bag price. Goods not on Siruk are priced only from `state/armsoft-extra-prices.csv` and otherwise skipped and listed on stderr: it never derives a price. `--dry-run` prints the counts and the first rows |
 | `scale-export.py --catalogue <dir> --media <json>` | fills the ArmSoft goods export `Scale/all-xml.xml` for the shop scale → `Scale/all-xml-scale.xml` + `scale-export-report.csv`: EAN (XML → PM register → run data, check digit verified, one good per EAN), first gallery image URL in the report CSV only (`<Image>` stays empty: the importer wants base64 bytes and fails on a URL with "not a valid Base-64 string"; `--image-urls` writes it anyway), and per-kg goods (bag with a `-KG` twin) laid out like good 0002 with a 5-digit scale code from `state/scale-codes.json` (sequential 00001, 00002, …; a new per-kg good takes the next free number). Read-only: needs a `/products/<id>` dump and a media listing |
+| `dump-products.py [--ids …] [--refresh]` | the full admin GET of every live product → `.siruk-cache/live/products/<id>.json` + `index.json`. Resumable and paced; the input of the two audits below. GET only |
+| `backfill-variant-codes.py --run runs/<date> [--apply [--only ids]] [--overwrite]` | CLAUDE.md 10b: plans `barcode` (EAN; a `-KG` 1 kg variant gets its 5-digit PLU), `accounting_code` (ArmSoft good code) and `price_source_url` (hafo/zoovet/nemo page) for every live variant → `variant-codes-plan.csv` + `variant-codes-report.md`; `--apply` PUTs through `siruk_payload.put_body` and reads back |
+| `audit-recommendation-data.py --run runs/<date> [--recs] [--ids …]` | read-only audit of the data the storefront's related items / cart rails are computed from (CLAUDE.md 14) → `recommendation-audit.csv` + `.md` |
+| `find-merge-candidates.py --run runs/<date>` (needs openpyxl: `uv run --with openpyxl python …`) | read-only merge review from the dump → `merge-candidates.xlsx` / `.json`; `NO_API=1` takes brand names from `.siruk-cache/live/brand-names.json` |
+| `set-complements.py [--apply]` | applies `reference/complement-categories.json` to the categories' `complement_category_ids` ("Goes well with categories"); dry run by default; sends only name/slug/parent_id/list_as_products/complement_category_ids and verifies nothing else moved |
 
 ## Pacing, retries and the image check — `config.json`
 
