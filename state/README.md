@@ -7,7 +7,8 @@ default to these paths; update the files here instead of starting a new copy
 in a run folder.
 
 Created 2026-09-23, when the runs up to then were closed and cleared (see
-`final-report-2026-09-23.md`).
+`final-report-2026-09-23.md`). Runs cleared again 2026-10-14 when batch 1
+closed; the archive is outside git (`runs/README.md`).
 
 | File | What it is | Written by | Read by |
 |---|---|---|---|
@@ -27,6 +28,7 @@ Created 2026-09-23, when the runs up to then were closed and cleared (see
 | `register/twin-plan.json` | per-kg twins to create | 2026-09-16 | `scripts/make-perkg-twin.py` |
 | `register/register-status.json` | per register row: code, where it came from, live or not | `register-status.py` | `register-audit.py`, the planners (`REGISTER_STATUS=`) |
 | `register/register-audit.{csv,json}`, `register-ledger.csv`, `register-extras.csv` | the audit: per row exists / price / per-kg / family / completeness; the PM-facing ledger; live variants no register row points at | `register-audit.py` | you, `register-price-sync.py` |
+| `barcodes/` | article code → EAN evidence harvested during batch 1: `barcode-sourced-*.csv` (brand/EAN research, 2026-09-25/28, 10-02), `barcode-web-2026-09-28.json` (confirmed web EANs), `rc-barcodes-2026-09-30.csv` (Royal Canin), `register-found-2026-10-01.csv` (register rows → EAN), `hafo-*.json` (hafo articles + barcodes, trimmed from the 2026-10-02 runs). Moved out of `runs/` on 2026-10-14 | those runs | `scripts/scale-export.py` |
 | `scale-codes.json` | ArmSoft good code → the 5-digit scale code of each per-kg good (sequential 00001…, renumbered once on 2026-10-04); keep it so a re-export never renumbers the scale | `scripts/scale-export.py` | `scripts/scale-export.py` |
 
 ## Re-running the register audit

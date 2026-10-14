@@ -26,3 +26,7 @@ __pycache__/
 *.tiff
 *.heic
 CLAUDE.local.md
+
+# run scratch — only the README is committed (runs/README.md)
+runs/*
+!runs/README.md

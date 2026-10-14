@@ -7,7 +7,7 @@ ArmSoft scale program — so the workbook and the XML can never drift apart:
   MATERIALS   one row per <Goods>, column for column (see FIELDS below).
   PRICES      one row per (good, quantity unit). Price type is always "01",
               currency AMD, date = today (--date). The price is the live Siruk
-              sale price, taken from runs/2026-10-04-rival-prices/
+              sale price, taken from
               final/siruk-source-of-truth.csv through Scale/scale-codes-per-kg.csv,
               which already joins each source-of-truth variant to its good.
               A good sold loose has two rows under one code: 303 carries its

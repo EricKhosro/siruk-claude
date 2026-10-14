@@ -95,17 +95,17 @@ def harvest_by_code():
         if code and ean and (ean, src) not in out[code]:
             out[code].append((ean, src))
 
-    for f in ['runs/2026-10-02-found/barcode-sourced.csv',
-              'runs/2026-09-28/barcode-sourced.csv',
-              'runs/2026-09-25/import/barcode-sourced.csv']:
+    for f in ['state/barcodes/barcode-sourced-2026-10-02.csv',
+              'state/barcodes/barcode-sourced-2026-09-28.csv',
+              'state/barcodes/barcode-sourced-2026-09-25.csv']:
         if os.path.exists(p(f)):
             for r in csv.DictReader(open(p(f), encoding='utf-8-sig')):
                 add(r.get('Article Code'), r.get('EAN'), f)
-    f = 'runs/2026-09-25/barcode-web-2026-09-28.json'
+    f = 'state/barcodes/barcode-web-2026-09-28.json'
     if os.path.exists(p(f)):
         for code, (ean, _) in json.load(open(p(f)))['confirmed'].items():
             add(code, ean, f + ' (confirmed)')
-    f = 'runs/2026-09-30-rc/barcodes.csv'
+    f = 'state/barcodes/rc-barcodes-2026-09-30.csv'
     if os.path.exists(p(f)):
         for r in csv.DictReader(open(p(f), encoding='utf-8-sig')):
             add(r['sku'], r['barcode_ean'], f)
@@ -114,7 +114,7 @@ def harvest_by_code():
         for art, eans in json.load(open(p(f))).items():
             if len(eans) == 1:
                 add(art + 'TX', eans[0], 'trixie.de GTIN')
-    for f in sorted(glob.glob(p('runs/*/hafo.json')), reverse=True):
+    for f in sorted(glob.glob(p('state/barcodes/hafo-*.json')), reverse=True):
         try:
             d = json.load(open(f))
         except Exception:
@@ -211,7 +211,7 @@ def main():
     for r in status.values():
         status_by_name[nz(r['name_hy'])].append(r)
     found = {}
-    f = p('runs/2026-10-01-register/found.csv')
+    f = p('state/barcodes/register-found-2026-10-01.csv')
     if os.path.exists(f):
         for r in csv.DictReader(open(f, encoding='utf-8-sig')):
             if r.get('Barcode (EAN)'):
@@ -235,7 +235,7 @@ def main():
 
     used_reg, rows, eans_seen = set(), [], collections.defaultdict(list)
     blocked = {}
-    RANK = {'XML': 0, 'PM register': 1, 'runs/2026-10-01-register/found.csv': 2}
+    RANK = {'XML': 0, 'PM register': 1, 'state/barcodes/register-found-2026-10-01.csv': 2}
 
     def convert(m):
         nonlocal next_code
@@ -277,7 +277,7 @@ def main():
         cand.append((cur, 'XML'))
         if reg:
             cand.append((reg.get('N') or '', 'PM register'))
-        cand.append((found.get(reg_no, ''), 'runs/2026-10-01-register/found.csv'))
+        cand.append((found.get(reg_no, ''), 'state/barcodes/register-found-2026-10-01.csv'))
         if st:
             cand.append(((st.get('hafo') or {}).get('barcode') or '', 'hafo (register state)'))
             cand += by_code.get(ncode(st.get('code')), [])
