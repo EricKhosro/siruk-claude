@@ -36,7 +36,7 @@ XML = os.path.join(ROOT, "csv", "all-xml-scale.xml")
 
 
 def is_loose(v):
-    return str(v.get("sku") or "").upper().endswith("-KG")
+    return str(v.get("sku") or "").upper().endswith(("-KG", "-100G"))
 
 
 def price_url(link):

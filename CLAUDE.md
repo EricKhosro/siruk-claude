@@ -127,8 +127,12 @@ linked doc before you rely on a number from memory.
    as its bag, placed right after it. **Never `sale_mode: "weight"`** — the
    PM paused by-weight sale on 2026-10-01 until its UI is tested; the 84
    by-weight variants were deleted by the developers that day. A bag with no
-   per-kg price gets no 1 kg variant — never derive one. Detail:
-   `reference/pricing.md` → loose sale.
+   per-kg price gets no 1 kg variant — never derive one. **Treats sold
+   loose get a "100 g" variant instead** (user 2026-10-15: nobody buys 1 kg
+   of a ~1.3 kg treat bag) — SKU `<bag sku>-100G`, `content` 100, price =
+   the user-approved per-100 g price, cost = bag cost ÷ (bag g / 100), PLU
+   barcode; ArmSoft/scale keep it per kg (303 price = 10 × the 100 g price).
+   Detail: `reference/pricing.md` → loose sale.
 8b. **Every product has a product type** (the admin's name for the API's
    attribute family; 2026-09-23, reworked 2026-09-30). Before an import,
    once the batch's product data is gathered, the `attribute-manager` agent

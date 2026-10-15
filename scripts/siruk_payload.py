@@ -186,23 +186,24 @@ def check_codes(v):
     """barcode / accounting_code / price_source_url of one variant. Returns (errors, warnings).
 
     The user's rule (2026-10-12): a pack's barcode is its EAN; a loose-sale 1 kg variant (SKU
-    "<bag sku>-KG", CLAUDE.md 8a) carries the 5-digit scale PLU instead. accounting_code is the
+    "<bag sku>-KG", CLAUDE.md 8a) — or a treat's 100 g loose variant, "<bag sku>-100G" (2026-10-15) —
+    carries the 5-digit scale PLU instead. accounting_code is the
     ArmSoft good code (4 digits; a bag and its 1 kg variant share one). price_source_url is the
     page the sale price came from — empty when the price came from a register file, not a site."""
     errs, warns = [], []
     tag = f"variant {v.get('sku')}"
-    loose = str(v.get("sku") or "").upper().endswith("-KG")
+    loose = str(v.get("sku") or "").upper().endswith(("-KG", "-100G"))
     bc = v.get("barcode")
     if bc not in (None, ""):
         bc = str(bc)
         if not bc.isdigit() or len(bc) > 32:
             errs.append(f"{tag}: barcode '{bc}' must be digits only, ≤32")
         elif loose and len(bc) != 5:
-            errs.append(f"{tag}: a 1 kg loose variant's barcode is the 5-digit PLU, got '{bc}'")
+            errs.append(f"{tag}: a loose variant's barcode is the 5-digit PLU, got '{bc}'")
         elif not loose and len(bc) not in (8, 12, 13, 14):
             warns.append(f"{tag}: barcode '{bc}' is not an EAN-8/UPC-12/EAN-13/GTIN-14")
     elif loose:
-        warns.append(f"{tag}: 1 kg loose variant without its PLU barcode")
+        warns.append(f"{tag}: loose variant without its PLU barcode")
     ac = v.get("accounting_code")
     if ac not in (None, ""):
         ac = str(ac)

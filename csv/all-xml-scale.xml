@@ -24779,8 +24779,8 @@
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -24798,13 +24798,21 @@
     <Discount>0.0000</Discount>
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>4011905315263</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00107</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>1.8000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -24814,8 +24822,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0403</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>4011905315263</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0403</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00107</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -28083,8 +28096,8 @@
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -28102,13 +28115,21 @@
     <Discount>0.0000</Discount>
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>4011905316710</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00111</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>1.3000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -28118,8 +28139,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0459</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>4011905316710</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0459</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00111</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -31446,8 +31472,8 @@
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -31465,13 +31491,21 @@
     <Discount>0.0000</Discount>
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>4011905316628</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00108</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>1.3000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -31481,8 +31515,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0516</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>4011905316628</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0516</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00108</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -31505,8 +31544,8 @@
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -31524,13 +31563,21 @@
     <Discount>0.0000</Discount>
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>4011905316635</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00109</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>1.3000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -31540,8 +31587,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0517</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>4011905316635</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0517</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00109</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
@@ -33570,8 +33622,8 @@
     <Group>00009</Group>
     <SubstituteItemsGroup></SubstituteItemsGroup>
     <CPACode>2309</CPACode>
-    <Unit>001</Unit>
-    <AltUnit>001</AltUnit>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
     <ExpMethod>1</ExpMethod>
     <ShowInPriceList>true</ShowInPriceList>
     <MainSupplier></MainSupplier>
@@ -33589,13 +33641,21 @@
     <Discount>0.0000</Discount>
     <PLUCode i:nil="true" />
     <VAT>false</VAT>
-    <IsWeight>false</IsWeight>
-    <BarCode>4011905316642</BarCode>
+    <IsWeight>true</IsWeight>
+    <BarCode>00110</BarCode>
     <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
     <GoodQuantityUnits>
       <QuantityUnitPart>
         <GoodsCode></GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
+        <Coef>1.2500000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
         <Coef>1.0000000000</Coef>
         <IsDefault>true</IsDefault>
         <Image></Image>
@@ -33605,8 +33665,13 @@
     <GoodBarCodes>
       <MTBarCode>
         <GoodsCode>0552</GoodsCode>
-        <Unit>001</Unit>
+        <Unit>003</Unit>
         <BarCode>4011905316642</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0552</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00110</BarCode>
       </MTBarCode>
     </GoodBarCodes>
     <ExternalCode></ExternalCode>
