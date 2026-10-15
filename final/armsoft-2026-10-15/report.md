@@ -14,14 +14,14 @@ These were unit 001 (piece) with sales history, so ArmSoft may refuse to change 
 
 | Good | Product | Bag | 003 bag price | 303 price per kg | PLU | Bag EAN (003) |
 |---|---|---|---|---|---|---|
-| 0403 | Trixie Soft Snack Bony Mix XXL | 1.8 kg | 11,500 | 6,500 | 00107 | 4011905315263 |
-| 0516 | Trixie Cookie Bones | 1.3 kg | 4,900 | 5,000 | 00108 | 4011905316628 |
-| 0517 | Trixie Cookie Farmies | 1.3 kg | 4,900 | 5,000 | 00109 | 4011905316635 |
-| 0552 | Trixie Cookie Giants with Lamb | 1.25 kg | 4,250 | 5,200 | 00110 | 4011905316642 |
-| 0459 | Trixie Cookie Snack Loops | 1.3 kg | 5,980 | 6,000 | 00111 | 4011905316710 |
+| 0403 | Trixie Soft Snack Bony Mix XXL | 1.8 kg | 11,500 | 7,000 | 00107 | 4011905315263 |
+| 0516 | Trixie Cookie Bones | 1.3 kg | 4,900 | 4,100 | 00108 | 4011905316628 |
+| 0517 | Trixie Cookie Farmies | 1.3 kg | 4,900 | 4,100 | 00109 | 4011905316635 |
+| 0552 | Trixie Cookie Giants with Lamb | 1.25 kg | 4,250 | 3,700 | 00110 | 4011905316642 |
+| 0459 | Trixie Cookie Snack Loops | 1.3 kg | 5,980 | 5,100 | 00111 | 4011905316710 |
 
-Per-kg price = zoovet.am's own loose (на развес 1 kg) price for the same item (user, 2026-10-15).
-Siruk sells them as **100 g** at a tenth of that (650 / 500 / 500 / 520 / 600), with the PLU as barcode.
+Siruk sells them as **100 g**: 700 / 410 / 410 / 370 / 510 (our bag rate +10%, user 2026-10-15; no rival sells
+them by 100 g — zoovet.am only by 1 kg). The scale is per kg = 10 × that. Barcode on Siruk = the PLU.
 
 ## Kept in step
 `csv/` = `Scale/all-xml-scale.xml`, `state/scale-codes.json`, `Scale/scale-codes-per-kg.csv`,
