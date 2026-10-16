@@ -1,0 +1,3435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>0403</Code>
+    <Name>Հյուր. շն. Bony Mix` գուն. Ոսկ. կգ</Name>
+    <LongName>Soft Snack Bony Mix XXL — 1,800 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00107</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>1.8000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0403</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>4011905315263</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0403</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00107</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>0459</Code>
+    <Name>Պեչենի շն.` գունավոր օղակներ Vegan Loops, կգ</Name>
+    <LongName>Cookie Snack Loops — 1.3 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00111</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>1.3000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0459</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>4011905316710</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0459</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00111</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>0516</Code>
+    <Name>Պեչենի շն.` գունավոր խառը ոսկորիկներ, մեծ կգ</Name>
+    <LongName>Cookie Bones — 1.3 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00108</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>1.3000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0516</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>4011905316628</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0516</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00108</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>0517</Code>
+    <Name>Պեչենի շն.` գունավոր մանր կենդանիներ, Farmies կգ</Name>
+    <LongName>Cookie Farmies — 1.3 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00109</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>1.3000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0517</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>4011905316635</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0517</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00109</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>0552</Code>
+    <Name>Թխվածքաբլիթներ շն.` գառան մսով, կգ</Name>
+    <LongName>Cookie Giants with Lamb — 1.25 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00110</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>1.2500000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>0552</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>4011905316642</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>0552</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00110</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1443</Code>
+    <Name>Շան կեր 15կգ MAXI ADULT+5</Name>
+    <LongName>Շան կեր 15կգ MAXI ADULT+5</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00076</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1443</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550402316</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1443</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00076</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1444</Code>
+    <Name>Շան կեր 15 կգ SHN Maxi adult</Name>
+    <LongName>Շան կեր 15 կգ SHN Maxi adult</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00075</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1444</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182551055955</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1444</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00075</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1445</Code>
+    <Name>Շան կեր 15 կգ SHN Maxi puppy</Name>
+    <LongName>Շան կեր 15 կգ SHN Maxi puppy</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00077</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1445</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550402163</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1445</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00077</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1446</Code>
+    <Name>Շան կեր Maxi Starter Mother &amp; Babydog 15kg</Name>
+    <LongName>Շան կեր Maxi Starter Mother &amp; Babydog 15kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00078</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1446</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550778787</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1446</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00078</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1447</Code>
+    <Name>Շան կեր 15 կգ SHN Medium adult</Name>
+    <LongName>Շան կեր 15 կգ SHN Medium adult</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00079</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1447</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182551055849</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1447</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00079</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1448</Code>
+    <Name>Շան կեր 15 կգ SHN Medium puppy</Name>
+    <LongName>Շան կեր 15 կգ SHN Medium puppy</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00080</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1448</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550402132</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1448</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00080</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1449</Code>
+    <Name>Շան կեր 8 կգ Mini adult</Name>
+    <LongName>Շան կեր 8 կգ Mini adult</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00081</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1449</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182551055740</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1449</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00081</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1450</Code>
+    <Name>Շան կեր 8կգ Mini puppy</Name>
+    <LongName>Շան կեր 8կգ Mini puppy</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00082</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1450</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550793049</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1450</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00082</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1451</Code>
+    <Name>Շան կեր 8 կգ SHN Mini adult 8+</Name>
+    <LongName>Շան կեր 8 կգ SHN Mini adult 8+</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00083</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1451</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550831406</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1451</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00083</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1452</Code>
+    <Name>Շան կեր 10 կգ CCN Maxi JOINT CARE</Name>
+    <LongName>Շան կեր 10 կգ CCN Maxi JOINT CARE</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00084</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1452</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550893701</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1452</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00084</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1453</Code>
+    <Name>Շան կեր Mini start M&amp;B 8kg</Name>
+    <LongName>Շան կեր Mini start M&amp;B 8kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00085</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>8.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1453</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550932691</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1453</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00085</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1454</Code>
+    <Name>Կատվի կեր 15 կգ Fit32 Regular</Name>
+    <LongName>Կատվի կեր 15 կգ Fit32 Regular</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00086</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1454</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550702256</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1454</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00086</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1455</Code>
+    <Name>Կատվի կեր 10 կգ Kitten second age</Name>
+    <LongName>Կատվի կեր 10 կգ Kitten second age</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00087</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1455</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550702973</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1455</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00087</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1457</Code>
+    <Name>Կատվի կեր 10 կգ FCN INTENSE Hairball /care</Name>
+    <LongName>Կատվի կեր 10 կգ FCN INTENSE Hairball /care</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00089</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1457</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550721424</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1457</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00089</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1458</Code>
+    <Name>Կատվի կեր 4,5կգ VD CAT HYPOALLERGENIC</Name>
+    <LongName>Կատվի կեր 4,5կգ VD CAT HYPOALLERGENIC</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00090</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>4.5000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1458</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550939560</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1458</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00090</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1459</Code>
+    <Name>Կատվի կեր 7 կգ VD URINARY CAT SO</Name>
+    <LongName>Կատվի կեր 7 կգ VD URINARY CAT SO</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00091</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>7.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1459</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550859554</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1459</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00091</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1460</Code>
+    <Name>Շան կեր 14 կգ VD DOG Hypoalergenik</Name>
+    <LongName>Շան կեր 14 կգ VD DOG Hypoalergenik</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00092</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>14.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1460</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550939904</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1460</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00092</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1461</Code>
+    <Name>Շան կեր 15 կգ VHN C GASTRO INT 15KG INT</Name>
+    <LongName>Շան կեր 15 կգ VHN C GASTRO INT 15KG INT</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00093</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1461</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550905695</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1461</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00093</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1462</Code>
+    <Name>Շան կեր 13 կգ VHN C URINARY SO</Name>
+    <LongName>Շան կեր 13 կգ VHN C URINARY SO</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00094</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>13.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1462</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550896856</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1462</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00094</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1463</Code>
+    <Name>Շան կեր 14կգ Vdiet Renal dog</Name>
+    <LongName>Շան կեր 14կգ Vdiet Renal dog</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00095</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>14.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1463</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550842556</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1463</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00095</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1464</Code>
+    <Name>Շան կեր 12 կգ HEPATIC</Name>
+    <LongName>Շան կեր 12 կգ HEPATIC</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00096</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>12.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1464</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550771740</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1464</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00096</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1465</Code>
+    <Name>Շան կեր VHN C GI PUPPY 10KG</Name>
+    <LongName>Շան կեր VHN C GI PUPPY 10KG</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00097</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1465</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>3182550771047</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1465</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00097</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1466</Code>
+    <Name>Կատվի կեր SENSIT CTRL CK 12X85G INT 22D</Name>
+    <LongName>Կատվի կեր SENSIT CTRL CK 12X85G INT 22D</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579011423</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1466</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579011423</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1467</Code>
+    <Name>Կատվի կեր 12*85գ KITTEN Gravy INSTINCTIVE PORK FREE</Name>
+    <LongName>Կատվի կեր 12*85գ KITTEN Gravy INSTINCTIVE PORK FREE</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>10030111604351</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1467</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>10030111604351</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1468</Code>
+    <Name>Կատվի կեր 12X85 INSTINCTIVE +7 gravy</Name>
+    <LongName>Կատվի կեր 12X85 INSTINCTIVE +7 gravy</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0005</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>9003579310182</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1468</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>9003579310182</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1474</Code>
+    <Name>Felix Cat Sensations Turkey&amp;Bacon 26x75g - կատվի կեր 12512762</Name>
+    <LongName>Felix Cat Sensations Turkey&amp;Bacon 26x75g - կատվի կեր 12512762</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290149183</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1474</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290149183</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1475</Code>
+    <Name>Felix Cat Sensations Cod&amp;Tomatoes 26x75g - կատվի կեր 12512751</Name>
+    <LongName>Felix Cat Sensations Cod&amp;Tomatoes 26x75g - կատվի կեր 12512751</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290149152</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1475</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290149152</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1476</Code>
+    <Name>Felix Kitten Chicken 26x75g- կատվի կեր 12512743</Name>
+    <LongName>Felix Kitten Chicken 26x75g- կատվի կեր 12512743</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290141835</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1476</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290141835</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1477</Code>
+    <Name>Felix Adult Cat Chicken &amp; Tomato 26x75g - կատվի կեր 12512737</Name>
+    <LongName>Felix Adult Cat Chicken &amp; Tomato 26x75g - կատվի կեր 12512737</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290140135</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1477</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290140135</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1478</Code>
+    <Name>Pro Plan Cat Sterilised Adult Turkey 10 kg - կատվի կեր 12390976</Name>
+    <LongName>Pro Plan Cat Sterilised Adult Turkey 10 kg - կատվի կեր 12390976</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00106</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1478</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>7613033566547</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1478</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00106</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1479</Code>
+    <Name>Felix Adult Cat Salmon 26x75g - կատվի կեր 12512726</Name>
+    <LongName>Felix Adult Cat Salmon 26x75g - կատվի կեր 12512726</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290140111</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1479</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290140111</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1480</Code>
+    <Name>Felix Adult Cat Chicken 26x75g - կատվի կեր 12512733</Name>
+    <LongName>Felix Adult Cat Chicken 26x75g - կատվի կեր 12512733</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290136947</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1480</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290136947</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1481</Code>
+    <Name>Felix Adult Cat Turkey 26x75g - կատվի կեր 12512734</Name>
+    <LongName>Felix Adult Cat Turkey 26x75g - կատվի կեր 12512734</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290140159</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1481</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290140159</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1482</Code>
+    <Name>Felix Adult Cat Beef 26x75g - կատվի կեր 12512741</Name>
+    <LongName>Felix Adult Cat Beef 26x75g - կատվի կեր 12512741</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290141552</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1482</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290141552</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1483</Code>
+    <Name>Felix Adult Cat Lamb 26x75g - կատվի կեր 12512756</Name>
+    <LongName>Felix Adult Cat Lamb 26x75g - կատվի կեր 12512756</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290141576</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1483</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290141576</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1484</Code>
+    <Name>Felix Adult Cat Trout 26x75g - կատվի կեր 12512757</Name>
+    <LongName>Felix Adult Cat Trout 26x75g - կատվի կեր 12512757</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290141811</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1484</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290141811</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1485</Code>
+    <Name>Felix Cat Sensations Beef&amp;Tomatoes 26x75g - կատվի կեր 12512760</Name>
+    <LongName>Felix Cat Sensations Beef&amp;Tomatoes 26x75g - կատվի կեր 12512760</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290146335</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1485</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290146335</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1486</Code>
+    <Name>Felix Adult Cat Rabbit 26x75g - կատվի կեր 12512765</Name>
+    <LongName>Felix Adult Cat Rabbit 26x75g - կատվի կեր 12512765</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290141590</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1486</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290141590</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1487</Code>
+    <Name>Felix Cat Meat slices Duck 26x75g - կատվի կեր 12461395</Name>
+    <LongName>Felix Cat Meat slices Duck 26x75g - կատվի կեր 12461395</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>7613287160959</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1487</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>7613287160959</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1488</Code>
+    <Name>Felix Cat Meat slices Chicken 26x75g - կատվի կեր 12461403</Name>
+    <LongName>Felix Cat Meat slices Chicken 26x75g - կատվի կեր 12461403</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>7613287155627</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1488</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>7613287155627</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1489</Code>
+    <Name>Felix Cat Meat slices Beef 26x75g - կատվի կեր 12461480</Name>
+    <LongName>Felix Cat Meat slices Beef 26x75g - կատվի կեր 12461480</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>7613287160935</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1489</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>7613287160935</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1490</Code>
+    <Name>Felix Cat Double Yummy Turkey&amp;Liver 26x75g - կատվի կեր 12512752</Name>
+    <LongName>Felix Cat Double Yummy Turkey&amp;Liver 26x75g - կատվի կեր 12512752</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290149206</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1490</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290149206</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1491</Code>
+    <Name>Felix Cat Double Yummy Beef&amp;Poultry 26x75g - կատվի կեր 12512754</Name>
+    <LongName>Felix Cat Double Yummy Beef&amp;Poultry 26x75g - կատվի կեր 12512754</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290149220</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1491</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290149220</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1492</Code>
+    <Name>Felix Cat Double Yummy Lamb&amp;Chicken 26x75g - կատվի կեր 12512755</Name>
+    <LongName>Felix Cat Double Yummy Lamb&amp;Chicken 26x75g - կատվի կեր 12512755</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290149244</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1492</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290149244</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1493</Code>
+    <Name>Felix Cat Double Yummy Salmon&amp;Trout 26x75g - կատվի կեր 12512763</Name>
+    <LongName>Felix Cat Double Yummy Salmon&amp;Trout 26x75g - կատվի կեր 12512763</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8445290149268</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1493</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8445290149268</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1494</Code>
+    <Name>Felix Cat Sensations Beef &amp; Lamb 26x75g - կատվի կեր 19900360</Name>
+    <LongName>Felix Cat Sensations Beef &amp; Lamb 26x75g - կատվի կեր 19900360</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4600680033334</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1494</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4600680033334</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1495</Code>
+    <Name>Felix Cat Sensations Chicken and Rabbit 26x75g - կատվի կեր 19901639</Name>
+    <LongName>Felix Cat Sensations Chicken and Rabbit 26x75g - կատվի կեր 19901639</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>000002</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <VAT>true</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4600680033327</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1495</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4600680033327</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+</Exchange>
