@@ -193,3 +193,35 @@ on. `scripts/identify-by-name.py` drives the search and writes both files.
 Research the official site (manufacturer domain, not a marketplace), add a row
 to `reference/brand-sites.md`, then `/create-brand`. Do this once, so later runs
 skip the research.
+
+## Stock watch tower (2026-10-15)
+
+hafo agreed (meeting, 2026-10-15) that Siruk may show their stock on items we
+are out of: "available, not same-day". They give no API, so
+`scripts/hafo-watch.py` reads the same public listing as above.
+
+- **One full read = 168 requests** (40 per page is fixed; `per_page`-style
+  params are ignored): 6,687 listings, 8,576 rows, ~3 min, 2.4 MB gzipped.
+  Every row has `qty_in_stock` (fractional on by-weight rows) and `in_stock`.
+  Rows at 0 stay listed. robots.txt allows everything.
+- **hafo refreshes its stock at about :15/:16 and :45/:46**, roughly 09:00–22:00
+  Yerevan. Polling more often than every 30 min gains nothing. One cycle on
+  2026-10-15 had 12 count changes, 1 in/out flip and 0 price changes.
+- **The "42k products"** hafo mentioned is not on the site. Their row ids reach
+  ~32,000, but 8,576 are listed. We can only watch what is listed.
+- **Join:** our variant `barcode` = hafo row `barcode` (unique on hafo). On
+  2026-10-15, 1,214 variants on 846 products matched. 227 variants are not on
+  hafo, and 105 are loose 1 kg variants, which are never linked.
+- **How Siruk shows it** (siruk-web `StockStatusService`): variant
+  `out_of_stock_policy: dropship` + an active `supplier_products` row with
+  `dropship_allowed` → "Ships from supplier" / "Отправка от поставщика" /
+  "Առաքվում է մատակարարից", with the supplier's `default_lead_days` (1), only
+  while our own free stock is 0. Our stock always wins.
+- **Developer items** (structural, not ours to fix):
+  1. Availability ignores `supplier_products.stock_qty` and `stock_updated_at`.
+     It should require `stock_qty > 0` and a fresh `stock_updated_at`, so a
+     stopped job can't keep stale availability showing.
+  2. A dropship line can take up to 20 units (`max_line_quantity`) even when
+     hafo has 2. The cap should be `min(line cap, stock_qty)`.
+- Commands, brakes and the fail-safe: `scripts/hafo-watch.py` docstring.
+  Schedule: `scripts/launchd/am.siruk.hafo-watch.plist`.

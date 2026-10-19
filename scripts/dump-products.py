@@ -30,9 +30,16 @@ def get(path):
 def all_ids():
     ids, page = [], 1
     while True:
-        d, _ = get(f"/products?page={page}")
-        ids += [p["id"] for p in (d or {}).get("data") or []]
-        if not d or page >= d["meta"]["last_page"]:
+        d, err = get(f"/products?page={page}")
+        if not d or "meta" not in d:       # a failed page must not shrink the catalogue (and delete files)
+            for _ in range(3):
+                d, err = get(f"/products?page={page}")
+                if d and "meta" in d:
+                    break
+            else:
+                sys.exit(f"product list page {page} failed: {err}")
+        ids += [p["id"] for p in d.get("data") or []]
+        if page >= d["meta"]["last_page"]:
             return ids
         page += 1
 

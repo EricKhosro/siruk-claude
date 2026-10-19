@@ -133,6 +133,14 @@ linked doc before you rely on a number from memory.
    the user-approved per-100 g price, cost = bag cost ÷ (bag g / 100), PLU
    barcode; ArmSoft/scale keep it per kg (303 price = 10 × the 100 g price).
    Detail: `reference/pricing.md` → loose sale.
+   **Multipacks: ask about single sale** (user 2026-10-19). Any variant with
+   `pack_count` > 1 ("10 × 5 g" sticks, "4 × 15 g" purée, "6 pcs / 60 g")
+   → ask the user whether the single unit is sold too; never decide alone.
+   On a yes: a variant on the same product, label "<flavour>, 1 × 5 g", SKU
+   `<pack sku>-1`, content one unit, price = a rival's single-unit price
+   (zoovet lists "1 шт, 5 г"; never pack price ÷ N; none → recommendation,
+   rule 2c), cost = pack cost ÷ N, its own single-unit photo, stock 10.
+   ArmSoft gives the good a piece unit (as Felix: 001 + case unit).
 8b. **Every product has a product type** (the admin's name for the API's
    attribute family; 2026-09-23, reworked 2026-09-30). Before an import,
    once the batch's product data is gathered, the `attribute-manager` agent
@@ -333,7 +341,7 @@ Dog 1 → Food 2 {Dry 3, Wet 4, Health Condition 5}, Treat 6 (leaves 7, 82–88)
 Toys 15 {17–22}, Grooming 27 {28–33}, Health & Pharmacy 41 {42–49}, Supplies
 68 {69–74}, Cleaning & Potty 75 {76–78}. Cat 8 → Food 9 {Dry 10, Wet 11},
 Treat 14 (leaves 89–94), Toys 16 {23–26}, Grooming 34 {35–40}, Health &
-Pharmacy 50 {51–58}, Litter 59 {60–65}, Supplies 66 {67, 79}, Trees 80 {81}.
+Pharmacy 50 {51–58}, Litter 59 {60–65}, Supplies 66 {67, 79, Beds 107 (2026-10-19)}, Trees 80 {81}.
 Bird 95 → {Food 96, Treats & Supplements 97}; Small Animal 98 → {Food 99,
 Hay 100, Treats 101, Supplements & Salt Licks 102, Bedding 103} (2026-09-28).
 **Accessories 13 is not a product category** — never file a row there.

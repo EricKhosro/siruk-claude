@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  hafo.am stock watch tower: scripts/hafo-watch.py sync (apply mode) at :20 and :50 every hour,
+  10 minutes after hafo refreshes its stock (:15/:45). The script itself skips 00:00–07:00 Yerevan.
+
+  Install (only after the link step has been applied; see reference/hafo.md):
+    cp scripts/launchd/am.siruk.hafo-watch.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/am.siruk.hafo-watch.plist
+  Stop:
+    launchctl bootout gui/$(id -u)/am.siruk.hafo-watch
+  Log: .siruk-cache/hafo-watch/sync.log (and launchd.log for crashes)
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>am.siruk.hafo-watch</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/python3</string>
+    <string>scripts/hafo-watch.py</string>
+    <string>sync</string>
+    <string>--apply</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/conceptmacmini01/Documents/Projects/Siruk-claude</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Minute</key><integer>50</integer></dict>
+  </array>
+  <key>StandardOutPath</key>
+  <string>/Users/conceptmacmini01/Documents/Projects/Siruk-claude/.siruk-cache/hafo-watch/launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/conceptmacmini01/Documents/Projects/Siruk-claude/.siruk-cache/hafo-watch/launchd.log</string>
+</dict>
+</plist>

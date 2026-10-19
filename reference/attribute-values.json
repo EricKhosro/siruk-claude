@@ -145,7 +145,10 @@
       "Cod & Tomato": 894,
       "Beef & Tomato": 895,
       "Beef & Lamb": 896,
-      "Chicken & Rabbit": 897
+      "Chicken & Rabbit": 897,
+      "Crab": 898,
+      "Lamb & Turkey": 899,
+      "Chicken & Liver": 900
     }
   },
   "special-diet": {
@@ -358,7 +361,9 @@
       "Steel": 335,
       "Mesh": 336,
       "Carpet": 337,
-      "Coated Steel": 338
+      "Coated Steel": 338,
+      "Natural Fur": 901,
+      "Sisal": 902
     }
   },
   "toy-feature": {
@@ -488,7 +493,9 @@
       "53 cm": 856,
       "19 cm": 857,
       "75 cm": 858,
-      "16 cm": 859
+      "16 cm": 859,
+      "4 cm": 903,
+      "5–8 cm": 904
     }
   },
   "ingredient": {

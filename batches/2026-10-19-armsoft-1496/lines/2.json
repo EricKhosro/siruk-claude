@@ -1,0 +1,63 @@
+{
+ "supplier": "SIROOK (hafo.am)",
+ "language": "ru/hy",
+ "currency": "AMD",
+ "fx_rate": null,
+ "prices_include_vat": true,
+ "vat_rate": 20,
+ "printed_subtotal": null,
+ "headers": {
+  "№": "line",
+  "Артикул": "code",
+  "Товар": "name",
+  "Количество": "qty + unit",
+  "Цена": "unit_price",
+  "Сумма": "line_total",
+  "Итого": "printed_total"
+ },
+ "file": "invoices/scan-19-oct-2026.pdf",
+ "invoice_no": "p.2 (no number printed)",
+ "date": "2026-10-17",
+ "printed_total": 2055,
+ "note": "Scan p.2. Ղափանցյան 1/3. A handwritten '206,335' is crossed out. The same two articles (703813, 703803) are also on the big 17 Oct invoice (lines 72-73).",
+ "lines": [
+  {
+   "page": 2,
+   "line": 1,
+   "code": "703813",
+   "name": "Մնյամս կատուների համար պյուրե թյունոսով, կացուո և մագուրո ձկներով 15գ x4",
+   "unit": "հատ",
+   "qty": 2,
+   "unit_price": 685,
+   "line_total": 1370,
+   "line_vat": null,
+   "barcode": "",
+   "units_per_item": 1,
+   "supplier_rrp": null,
+   "unreadable": [],
+   "list_price": null,
+   "discount_pct": null,
+   "armsoft_good": "1576",
+   "note": ""
+  },
+  {
+   "page": 2,
+   "line": 2,
+   "code": "703803",
+   "name": "Մնյամս կատուների համար պյուրե թյունոսով կացուո 15գ x 4",
+   "unit": "հատ",
+   "qty": 1,
+   "unit_price": 685,
+   "line_total": 685,
+   "line_vat": null,
+   "barcode": "",
+   "units_per_item": 1,
+   "supplier_rrp": null,
+   "unreadable": [],
+   "list_price": null,
+   "discount_pct": null,
+   "armsoft_good": "1577",
+   "note": ""
+  }
+ ]
+}

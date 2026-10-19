@@ -176,14 +176,15 @@ product in a parent adds nothing and breaks the leaf rule.
 | Case | Categories | Evidence to require |
 |---|---|---|
 | Dual species | the **mirror leaf in both trees**, or the nearest leaf that species actually has — 29+36 Shampoos, 30+37 Grooming Tools, 31+38 Paw & Nail, 32+39 Ear Care, 33+40 Skin Care, 42+51 Flea & Tick, 47+55 Pharmacy, 43+52 Vitamins, 69+79 Collars | the pack/brand page says "for dogs and cats" (or the invoice names both `շն` and `կատ`) |
-| Dewormer for both species | 46 Heartworm & Dewormers **+** 55 Pharmacy & Prescriptions (Cat has **no** dewormer leaf, so 46 mirrors to 55) | the pack names both species |
+| Dewormer for both species | 46 Heartworm & Dewormers **+** 55 Pharmacy & Prescriptions (Cat has **no** dewormer leaf, so 46 mirrors to 55) **+** 42 + 51 Flea & Tick | the pack names both species |
+| Any dewormer (user, 2026-10-16) | also the species' **Flea & Tick** leaf: cat 51 + 55, dog 42 + 46 (applied to Gelmintal 767–780 and Inspector Quadro Tabs 763) | it is an anthelmintic |
 | Veterinary diet | its food leaf (3/4/10/11) **+** 5 Health Condition | a stated clinical indication |
 
 Checked 2026-09-12 so the table stays honest: 46 holds 12 dewormers, 55 holds
 the cat ones, and 47 holds only the First Aid Kit and the SexControl tablets —
 so "every dewormer also goes in 47" is **not** a convention here and must not
 be applied. Where a species has no shelf at all (Cat has no Health Condition,
-Bowls & Feeders, Beds, Clothing, Carriers or Cleaning & Potty node), report the
+Bowls & Feeders, Clothing, Carriers or Cleaning & Potty node; Cat › Supplies › Beds 107 exists since 2026-10-19), report the
 gap; creating a category needs an explicit ask (rule 8).
 
 Add a leaf only on the product's own evidence — never a species the brand does

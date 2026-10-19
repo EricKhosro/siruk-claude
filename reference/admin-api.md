@@ -454,6 +454,7 @@ Beaphar, 31 8in1, 32 Mooor, 33 KorMell, 34 Justin, 35 Myau, **36 Versele-Laga,
 **43 Dogman, 44 Inteko** (added 2026-09-23; Inteko has no logo — no official site found).
 45 Gav!, 46 Kotoffey, 47 My Love (production, 2026-10-02); **48 Felix, 49 Pro Plan**
 (production, 2026-10-14; Nestlé Purina, logos from purina.ru, ~380 px).
+**50 INABA, 51 Ferma Kota Fedora, 52 GoSi** (production, 2026-10-19; GoSi logo is the 250 px PNG from zoopetto.ru).
 
 **Attribute families** (after the 2026-09-10 Chewy sync): 1 Dry Food
 `[product-weight, flavor, breed-size, lifestage, special-diet, health-feature,

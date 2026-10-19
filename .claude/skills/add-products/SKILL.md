@@ -57,6 +57,11 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
   never `sale_mode: "weight"` (paused by the PM 2026-10-01). **No pack
   size in the product Name** (CLAUDE.md 12). Each pack size shows its own
   photo (rule 7). Suppliers are out of scope.
+- **A multipack (`pack_count` > 1, "10 × 5 g") → ask the user whether the
+  single unit is sold too** (CLAUDE.md 8a, user 2026-10-19). List each one in
+  the report's questions with the rival single price you found (zoovet sells
+  "1 шт" singles). Add a `<pack sku>-1` single variant only on a yes, priced
+  from a rival, never pack price ÷ N.
 
 - Source data from the **brand's official website** (per the brand map in
   CLAUDE.md), NOT Chewy. Sites are **read-only** (no cart, no account, no forms).

@@ -137,10 +137,11 @@ def dup_barcodes(rows):
 
 
 def apply(rows, only):
-    todo = defaultdict(dict)
+    todo, seen = defaultdict(dict), {}
     for r in rows:
         if r["_change"] and (not only or r["product_id"] in only):
             todo[r["product_id"]][r["variant_id"]] = r["_change"]
+            seen[r["variant_id"]] = {k: r[f"live_{k}"] for k in r["_change"]}   # live value the plan saw
     done = failed = 0
     for pid, changes in todo.items():
         try:
@@ -153,7 +154,7 @@ def apply(rows, only):
                     cur = fresh.get(vid, {}).get(k)
                     if cur == ch[k]:            # already there (a resumed run)
                         ch.pop(k)
-                    elif cur not in (None, ""):
+                    elif (cur or "") != (seen.get(vid, {}).get(k) or ""):   # --overwrite plans replace the value the plan saw, nothing newer
                         print(f"  {pid}/{vid}: {k} changed live since the plan — kept", file=sys.stderr)
                         ch.pop(k)
                 if vid not in fresh:

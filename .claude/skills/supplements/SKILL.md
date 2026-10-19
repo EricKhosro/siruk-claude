@@ -21,6 +21,9 @@ leaf in each tree — never a parent, which rolls its children up anyway).
 Prescriptions and a **dual-species dewormer is 46 + 55** (Inspector Quadro
 Tabs 763–765, Gelmintal 779–780). A dog-only dewormer is just 46 — do **not**
 also add 47, which holds only first-aid and SexControl.
+**Every dewormer also goes in Flea & Tick** (user, 2026-10-16: shoppers look
+for wormers there) — 42 for a dog one, 51 for a cat one, both for both: a cat
+dewormer is 51 + 55, a dog one 42 + 46, a dual one 42 + 46 + 51 + 55.
 Product type **4 Supplements** (`measure_type: volume`,
 `default_sale_mode: pack` — but each variant picks its own measure, below).
 **The live product type decides which attributes exist, their role (`option` /

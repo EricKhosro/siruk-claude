@@ -58,6 +58,17 @@ with `xml.dom.minidom` before handing it over.
    - in the export → compare name, unit set, `IsWeight`, barcodes.
    For every good in the export but not in the target → **ArmSoft-only**: list
    it (code, name, barcode), don't delete it.
+   **ArmSoft creates goods by itself when the shop posts a supplier invoice**
+   (user, 2026-10-16). Such a good has the invoice's line as its name (often
+   the supplier SKU or "26x75g" in it), no barcode, no price, and **cannot be
+   deleted** because the invoice is a movement on it. So before planning a
+   new good for a Siruk variant, look for an invoice-made good for the same
+   product (name, SKU, pack, codes above the last target code) and map the
+   variant to **that** code. When an invoice-made good and one of our imported
+   goods are the same product, keep the invoice-made one, move the barcodes
+   and prices onto it, and list ours for deletion. Never build a new-goods XML
+   for a product that has been invoiced into ArmSoft. This is how RC
+   1443–1472 and Felix/Pro Plan 1474–1495 happened on 2026-10-16.
    Then every live variant in `final/siruk-source-of-truth.csv` must reach a
    good through `scale-codes-per-kg.csv` (or, for a "1 kg" row, the bag's good
    with unit 303). List any that don't.
@@ -66,6 +77,14 @@ with `xml.dom.minidom` before handing it over.
    - missing in ArmSoft → to add; different → to fix (show both);
    - every barcode must pass the EAN/UPC check digit (5-digit scale codes
      excepted) and sit on **one good only**, across ArmSoft and the new goods;
+   - **the barcode is what the till's scanner reads off the pack, digit for
+     digit**: ArmSoft matches the exact string. Pro Plan 1478's bag scans as
+     `07613033566547` (14 digits, leading 0). With the 13-digit
+     `7613033566547` the till did not find it (user, 2026-10-16). A barcode
+     the user typed from a scan or from the pack beats ours. Never strip or
+     add a leading 0 to "normalise" it. Compare as strings, and treat a
+     difference that is only a leading 0 as a question for the user, not
+     a fix;
    - a barcode we don't have anywhere: find it with the barcode rules in
      `reference/image-sources.md` → "Barcode lookup" (official page, or two
      independent pages with every axis matching) — never derive one from a
@@ -128,7 +147,10 @@ and keep `csv/all-xml-scale.xml`, `Scale/all-xml-scale.xml` and
   mt/ie/za/au sites) and the old box price. Ask whether to import them at all.
 - A code clash, a renamed good, or a barcode ArmSoft has that differs from
   ours: show both, let the user pick.
-- Anything to be deleted from ArmSoft.
+- Anything to be deleted from ArmSoft. Only our own imported goods can go.
+  An invoice-made good can't be deleted, so it is always the one we keep
+  (Royal Canin, user 2026-10-16: keep 1443–1472 and delete our 1342–1407
+  duplicates once they are empty).
 
 Answer in plain language: what ArmSoft is missing, what to import, in which
 order (new goods → updates → prices), and what still needs a person (a pack to

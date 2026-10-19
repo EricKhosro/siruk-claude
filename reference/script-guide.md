@@ -128,6 +128,8 @@ is a new toys CSV.
 | change its stock | `scripts/api.sh PUT /stock/variants/<variant-id> -` (set a count, with `reason` + `note`), `POST …/receive`, `POST …/write-off` | CLAUDE.md 10a — never through the product PUT; bodies in `reference/admin-api.md` → "Stock" |
 | add a variant | `scripts/add-variant.sh <id> variant.json` | |
 | rename | `scripts/rename-product.sh <id> "<new name>" [slug]` | variants untouched; the name never contains the brand |
+| product flag | `scripts/set-product-flag.py <id> show_unit_price\|is_best_seller\|is_on_sale\|is_discontinued true\|false [--dry-run]` | fresh GET → siruk_payload PUT body, flag read back. `show_unit_price false` hides the per-100 g / per-kg rate (user 2026-10-19: single stick + 10-stick pack, product 1384) |
+| add a category | `scripts/add-category.py <id> <leaf-id> [<leaf-id> …] [--dry-run]` | fresh GET → siruk_payload PUT body; category_ids only ever grows (rule 7), read back. E.g. `add-category.py 1365 107` (Luna cave also under Cat › Beds, 2026-10-19) |
 | anything else | `scripts/api.sh GET/PUT/DELETE /path [payload.json\|-]` | the escape hatch. Never a hand-written `PUT /products` body |
 | fix / replace its images | section 6 | |
 
@@ -252,6 +254,15 @@ Other brands: extract from the page with the browser (`reference/brand-sites.md`
 | Verify a write | `scripts/verify-fill.py --backup <dir> <ids>` | only texts / names / attributes / photos / size may have moved, and they're listed; everything else must be identical in en/ru/hy |
 | Data corrections | `scripts/apply-corrections.py plan.json [--dry-run]` | renames (en/ru/hy), labels, attributes (null removes), sizes, text replacements, each with its evidence; bulk PUT, then a check that each change landed |
 | Recommend a price from comparables | `uv run --with openpyxl python scripts/recommend-price.py items.json --out final/price-recommendations-<date>.xlsx` | CLAUDE.md 2c: same brand + animal + type, rival-priced comparables, median markup (+ unit-price check). Never writes; the user approves |
+
+## 9d. hafo stock watch tower (2026-10-15)
+
+| Job | Command | Notes |
+|---|---|---|
+| What changed on hafo | `scripts/hafo-watch.py crawl` | read-only: all ~8,600 hafo rows (168 pages, ~3 min) → `.siruk-cache/hafo-watch/snapshot.json`; changes appended to `changes-YYYY-MM.csv` |
+| Link our variants to hafo | `scripts/hafo-watch.py link` then `--apply [--limit 5]` | plan by EAN → `runs/<date>/hafo-links-plan.csv`; apply creates the `hafo` supplier, one supplier link per variant, and sets `out_of_stock_policy: dropship` (PUT via `siruk_payload.put_body`). Re-run after an import so new variants get linked |
+| The scheduled job | `scripts/hafo-watch.py sync --apply` | `scripts/launchd/am.siruk.hafo-watch.plist`, :20/:50, 07:00–24:00 Yerevan; writes only changed counts / switches; brakes and fail-safe in the docstring |
+| Kill switch / health | `scripts/hafo-watch.py off`, `on`, `status` | `off` is one call: the whole supplier goes inactive and every variant is back to plain out-of-stock |
 
 ## 10. Preparing supplier data
 

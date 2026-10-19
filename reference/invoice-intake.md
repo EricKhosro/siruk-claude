@@ -127,3 +127,13 @@ Fold any answer back into the JSON first, or make that edit in the xlsx only.
 rules apply unchanged: identity by code, the sale price from hafo → zoovet /
 nemo → sibling → recommendation, initial stock 10 whatever the qty.
 `Qty Received` is kept for the record only.
+
+## ArmSoft makes its own goods from the invoice (user, 2026-10-16)
+
+When the shop posts the same invoice in ArmSoft, ArmSoft adds a good for
+every new line by itself. The good is named from the invoice line, with no
+barcode and no price, and **it can't be deleted** because the invoice is a
+movement on it. Those codes are the batch's real ArmSoft codes. After the
+import, `/armsoft-sync` maps each new Siruk variant onto its invoice-made
+good and only adds barcodes, units and prices. It never creates a second
+good for the same product (`armsoft-sync` skill, step 2).
