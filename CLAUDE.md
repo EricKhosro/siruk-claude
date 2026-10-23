@@ -228,6 +228,11 @@ linked doc before you rely on a number from memory.
 - Pacing / retries / image verification: `config.json` (read on every call).
 - A batch's source of truth: `batches/<batch>/` (invoices, `batch.xlsx`,
   `products.csv`; committed).
+- **`knowledge/`** (2026-10-23): what we learned — resolved blockers, what each
+  ArmSoft document is, cost checks against hafo's wholesale, how each kind of
+  good is set up. Read the area's file before ArmSoft / invoice / cost work;
+  add a dated bullet the moment a blocker lifts or a fact is learned
+  (`knowledge/README.md`).
 - Working files: `.siruk-cache/` (gitignored). Run scratch: `runs/<date>/`
   (clear once closed). **What outlives a run lives in `state/`** — the one
   open-items worklist, the register's code mappings and hand overrides, info
@@ -325,7 +330,11 @@ verified official logo; `/manage-attributes` edits the vocabulary (never deletes
 without an explicit ask); `/google-lens` runs Google search + Lens for a photo
 (image rung 9c, mandatory before a hafo placeholder); `/armsoft-sync <export.xml>`
 compares a fresh ArmSoft goods export with Siruk and builds the import files
-(new goods, barcode/unit updates, prices). Big attribute batches → the `attribute-manager` agent.
+(new goods, barcode/unit updates, prices); `armsoft-app` drives the ArmSoft
+desktop program itself with computer use (export goods + prices, add barcodes;
+2026-10-23). **ArmSoft hard rules** (user, 2026-10-23: name < 50 chars for the HDM,
+price / selling unit / barcodes / code match Siruk, bag coefficient = bag kg,
+VAT off, per-kg goods: main unit kg + Քաշային): `/armsoft-sync` → "Hard rules". Big attribute batches → the `attribute-manager` agent.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,
 `supplements`, `grooming`, `accessories` (`.claude/skills/<type>/SKILL.md`) —
 says which categories that type gets and how to pick its values and size;

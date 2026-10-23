@@ -36,7 +36,7 @@ def api(method, path, payload=None, lang=None):
     env = dict(os.environ, SIRUK_NO_PACE=os.environ.get("SIRUK_NO_PACE", ""))
     if lang:
         env["SIRUK_LANG"] = lang
-    args = [os.path.join(ROOT, "scripts/api.sh"), method, path]
+    args = ["bash", os.path.join(ROOT, "scripts/api.sh"), method, path]
     if payload is not None:
         p = os.path.join(CACHE, f"_tr-{lang or 'w'}.json")
         json.dump(payload, open(p, "w"), ensure_ascii=False)
