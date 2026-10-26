@@ -325,7 +325,9 @@ verified official logo; `/manage-attributes` edits the vocabulary (never deletes
 without an explicit ask); `/google-lens` runs Google search + Lens for a photo
 (image rung 9c, mandatory before a hafo placeholder); `/armsoft-sync <export.xml>`
 compares a fresh ArmSoft goods export with Siruk and builds the import files
-(new goods, barcode/unit updates, prices). Big attribute batches → the `attribute-manager` agent.
+(new goods, barcode/unit updates, prices); `/glovo-export` fills Glovo's
+Pelican Partners xlsx from the live catalogue, one row per variant
+(`reference/glovo/README.md`). Big attribute batches → the `attribute-manager` agent.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,
 `supplements`, `grooming`, `accessories` (`.claude/skills/<type>/SKILL.md`) —
 says which categories that type gets and how to pick its values and size;
