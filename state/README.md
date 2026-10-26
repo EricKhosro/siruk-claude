@@ -17,6 +17,7 @@ closed; the archive is outside git (`runs/README.md`).
 | `import-sources.json` | per article code: the page its name/images/description came from, and the zoovet/nemo/sibling price source where a fallback priced it | collected from every old run report | `scripts/build-import-ledger.py` |
 | `fixes-report-2026-09-23.md` | what was fixed after that report, and what is still open and why | 2026-09-23 | you |
 | `carried-items.json` | open items no automatic check can re-derive (a picture judged by eye); the worklist rebuild keeps them — delete an entry once fixed | by hand | worklist rebuild |
+| `armsoft-duplicate-codes.csv` | ArmSoft goods that are a second copy of another good (same EAN): old/duplicate code → the kept code Siruk points at. ArmSoft can't delete them (they have movements), so their old sales stay on the old code. | from `final/armsoft-2026-10-19/duplicates-to-delete.xlsx` (2026-10-26) | `scripts/restock-report.py` |
 | `final-report-2026-09-23.md` | the register (`csv/AllAngineProduct.xlsx`) vs the live site, in full | 2026-09-23 | you |
 | `register/register.csv` | the register rows: `csv/AllAngineProduct.xlsx`, with `Վաճառքի գին` filled from `csv/Product.numbers` where the xlsx is blank (the two files are otherwise identical) | `scripts/read-register.py` | `match-register.py` |
 | `register/register-match.json` | register row → article code from the invoice CSV (exact name, or fuzzy name + equal cost) | `scripts/match-register.py` | `register-status.py` |

@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def api(path):
-    r = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET", path], capture_output=True, text=True, cwd=ROOT)
+    r = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET", path], capture_output=True, text=True, cwd=ROOT)
     t = r.stdout
     return json.loads(t[t.find("{"):])["data"]
 

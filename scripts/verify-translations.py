@@ -40,7 +40,7 @@ def identity_ok(en_value, stored, lang, kind):
 
 def api(path, lang):
     env = dict(os.environ, SIRUK_NO_PACE="1", SIRUK_LANG=lang)
-    r = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET", path], capture_output=True, text=True, cwd=ROOT, env=env, timeout=120)
+    r = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET", path], capture_output=True, text=True, cwd=ROOT, env=env, timeout=120)
     i = r.stdout.find("{")
     return json.loads(r.stdout[i:]) if i >= 0 else {}
 

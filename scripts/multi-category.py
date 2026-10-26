@@ -97,7 +97,7 @@ VET = re.compile(r"vetsolution|veterinary diet|dietetic|clinical|"
 
 def load_tree():
     """{leaf id -> 'Dog'|'Cat'} and {id -> name}, read from the live tree."""
-    out = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET",
+    out = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET",
                           "/categories?forProducts=true"],
                          capture_output=True, text=True, cwd=ROOT, timeout=180).stdout
     data = json.loads(out[out.index("{"):])["data"]
