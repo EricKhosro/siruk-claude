@@ -334,7 +334,9 @@ compares a fresh ArmSoft goods export with Siruk and builds the import files
 desktop program itself with computer use (export goods + prices, add barcodes;
 2026-10-23). **ArmSoft hard rules** (user, 2026-10-23: name < 50 chars for the HDM,
 price / selling unit / barcodes / code match Siruk, bag coefficient = bag kg,
-VAT off, per-kg goods: main unit kg + Քաշային): `/armsoft-sync` → "Hard rules". Big attribute batches → the `attribute-manager` agent.
+VAT off, per-kg goods: main unit kg + Քաշային): `/armsoft-sync` → "Hard rules".
+`/glovo-export` fills Glovo's Pelican Partners xlsx from the live catalogue, one
+row per variant (`reference/glovo/README.md`). Big attribute batches → the `attribute-manager` agent.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,
 `supplements`, `grooming`, `accessories` (`.claude/skills/<type>/SKILL.md`) —
 says which categories that type gets and how to pick its values and size;
