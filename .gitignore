@@ -32,3 +32,7 @@ runs/*
 !runs/README.md
 .postimages-key
 .imgbb-key
+
+# uv project env for the siruk CLI / TUI / MCP (2026-10-26)
+.venv/
+uv.lock.bak

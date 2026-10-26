@@ -2,6 +2,22 @@
 
 Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
 
+## 2026-10-26
+
+- **Lifted — Windows image prep on upload.** `upload-media.sh` flattens and
+  downscales with macOS `sips`, which silently does nothing here. `siruk media
+  upload` does the same with Pillow, so transparent PNGs and images over
+  `max_pixels` are handled on this laptop.
+- **Still — uv-managed Pythons.** `uv python install` fails here ("Missing
+  expected target directory for Python minor version link" under
+  `AppData\Roaming\uv\python`). The project pins `.python-version` 3.15, the
+  system Python; `uv sync` works with it (textual, mcp 2.x, pillow, pydantic all
+  have 3.15 wheels).
+- **Fact — mcp 2.x.** `FastMCP` is now `mcp.server.mcpserver.MCPServer`. Only a
+  `ToolError` message reaches the model; any other exception shows as "Error
+  executing tool <name>" with its text hidden. `siruk/mcp_server.py` converts
+  rule refusals and API errors to `ToolError`.
+
 ## 2026-10-23
 
 - **Lifted — printing.** The shop printer (HP Color LaserJet MFP M183fw,

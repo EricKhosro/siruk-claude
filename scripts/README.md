@@ -1,8 +1,30 @@
 # scripts/ — Siruk admin API helpers
 
-Plain bash + `curl` + `jq` (all preinstalled on macOS). No Python, no deps.
-Every script sources `lib.sh`, prints `HTTP <code> <METHOD> <PATH>` to **stderr**
-and JSON to **stdout**, so you can pipe or redirect any of them.
+Bash (`curl` + `jq`, sourcing `lib.sh`) and Python 3 scripts. Each one prints
+`HTTP <code> <METHOD> <PATH>` to **stderr** and JSON to **stdout**, so you can
+pipe or redirect any of them.
+
+**The `siruk` package (2026-10-26).** The per-row writers also exist as one CLI,
+`uv run siruk …`, with a TUI (`siruk tui`) and an MCP server (`siruk-mcp`) on
+top. See CLAUDE.md → "`siruk` CLI, TUI and MCP server". They map onto the
+scripts like this:
+
+| script | `siruk` |
+|---|---|
+| `api.sh GET /account` | `siruk doctor` |
+| `ids.sh`, `refresh-attributes.sh`, `product-types.py --dump` | `siruk ids [kind]`, `siruk refresh` |
+| `find-product.sh`, `show-product.sh` | `siruk find`, `siruk show [--lang] [--raw]` |
+| `product-types.py --check` | `siruk check` |
+| `create-product.sh`, `add-variant.sh`, `set-variant.sh`, `rename-product.sh` | `siruk create`, `add-variant`, `set-variant`, `rename` (all `--dry-run`) |
+| `set-translation.py` | `siruk translate <id> ru\|hy <file>` |
+| `api.sh … /stock/variants/…` | `siruk stock show\|receive\|write-off\|set` |
+| `upload-media.sh` | `siruk media upload` (Pillow flattens/downscales, so it also works on Windows, unlike `sips`) |
+| `hafo-lookup.py`, `zoovet-lookup.py`, `nemo-lookup.py` | `siruk price hafo\|zoovet\|nemo` |
+| `pace.sh product` | `siruk pace product` |
+
+`siruk_payload.py` is now a shim over `siruk/payload.py`. Its API calls go through
+the Python client (same token, `config.json` and pace files as `lib.sh`), not
+`api.sh`.
 
 ## Token (do this once; it survives reboots)
 

@@ -238,6 +238,28 @@ linked doc before you rely on a number from memory.
   open-items worklist, the register's code mappings and hand overrides, info
   sources (`state/README.md`).
 
+## `siruk` CLI, TUI and MCP server (2026-10-26)
+
+One Python package (`siruk/`) owns the API client and the write rules; three
+faces share it. `scripts/siruk_payload.py` is now a shim over `siruk/payload.py`,
+so the scripts and these tools enforce the same rules.
+
+- **CLI** — `uv run siruk <command>` (or `python -m siruk` with no install for
+  the stdlib commands): `doctor`, `find`, `show`, `ids`, `refresh`, `check`,
+  `create`, `add-variant`, `set-variant`, `rename`, `translate`, `stock`,
+  `media upload`, `price hafo|zoovet|nemo`, `api`, `pace`. Every write takes
+  `--dry-run` (prints the diff) and reads back after writing; the guards are
+  the env vars above or `--allow-below-cost` / `--allow-no-image` / `--force`,
+  only on the user's say-so. Exit 1 = refused by a rule, 2 = API error.
+- **TUI** — `uv run siruk tui`: search, product + variants (margin, red below
+  cost), variant/stock/hafo tabs; `e` edit variant, `t` translate, `s` stock,
+  `n` rename, `h` hafo price. Every write shows its diff and asks first.
+- **MCP** — `siruk` in `.mcp.json` / `opencode.jsonc` (`uv run siruk-mcp`):
+  read tools plus guarded writes that are **dry runs unless `confirm: true`**.
+  No deletes, no raw API, no below-cost / no-image override (CLI only).
+- Same token (`.siruk-token`), `config.json` pacing and `.siruk-cache/.pace-*`
+  state as `scripts/api.sh`. Tests: `uv run --group dev pytest` (offline).
+
 ## The pipeline (one row at a time, verified before the next)
 
 0. **Invoices → the batch Excel** (user, 2026-10-14). A new batch starts from
