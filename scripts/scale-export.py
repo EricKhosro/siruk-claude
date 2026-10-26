@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fill the ArmSoft goods export (Scale/all-xml.xml) for the shop's scale.
+"""Fill the ArmSoft goods export (newest Scale/armsoft-export-*.xml) for the shop's scale.
 
 Per <Goods>:
   * BarCode     -> the product's EAN (existing value, PM register, run data)
@@ -18,7 +18,7 @@ Scale codes are kept in state/scale-codes.json (good -> code) so a rebuild
 keeps them. Read-only against the API: it reads a product dump made earlier.
 
   scripts/scale-export.py --catalogue <dir of /products/<id> JSON> \
-      --media <medias.json {id: {url}}> [--in Scale/all-xml.xml] \
+      --media <medias.json {id: {url}}> [--in <export.xml>, default: newest Scale/armsoft-export-*.xml] \
       [--out Scale/all-xml-scale.xml] [--report Scale/scale-export-report.csv]
 """
 import argparse, collections, csv, glob, json, os, re, sys, zipfile
@@ -183,9 +183,16 @@ def qu(unit, coef, default):
             '      </QuantityUnitPart>']
 
 
+def latest_export():
+    """The newest ArmSoft goods export (Scale/armsoft-export-*.xml); all-xml.xml
+    is the 2026-10-02 one and lacks every good added since (1342+)."""
+    found = glob.glob(p('Scale/armsoft-export-*.xml'))
+    return max(found, key=os.path.getmtime) if found else p('Scale/all-xml.xml')
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--in', dest='inp', default=p('Scale/all-xml.xml'))
+    ap.add_argument('--in', dest='inp', default=latest_export())
     ap.add_argument('--out', default=p('Scale/all-xml-scale.xml'))
     ap.add_argument('--report', default=p('Scale/scale-export-report.csv'))
     ap.add_argument('--catalogue', required=True)

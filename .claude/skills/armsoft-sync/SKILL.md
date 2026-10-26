@@ -13,9 +13,58 @@ run step 6.)
 
 ArmSoft is the shop's accounting / till program. Siruk (the website) is the
 catalogue of record: every live Siruk variant must exist in ArmSoft as a good
-with the right unit, barcode and price. **This skill never writes to the Siruk
-admin, and never to ArmSoft itself** — it only reads the export and writes
-files the user imports by hand.
+with the right unit, barcode and price. The goal (user, 2026-10-23): keep
+siruk.am / api.siruk.am and ArmSoft in sync — goods, barcodes, scale PLUs,
+prices.
+
+**Writing into ArmSoft** (since 2026-10-23, user asked): when computer use is
+on, read and change ArmSoft directly with the `armsoft-app` skill — export
+the goods XML and the price list yourself, add the missing barcodes per unit,
+re-export and verify. No export handed over? Make one (armsoft-app → Export).
+Deletes (barcode rows, units, goods) are refused by the permission check:
+list them for the user. This skill still never writes to the Siruk admin
+except step 7 after the user's yes.
+
+**What every good needs** (user, 2026-10-23): a barcode and a sale price on
+each unit that is really different. Two units with the same coefficient
+(Pro Plan 1478: 001 and 003, both ×1) need only one. A case/box unit used for
+receiving (Felix 002 ×26, RC 002 ×12) needs neither: **Royal Canin and other
+pouches are always sold one by one** (PM) — the till scans one pouch and types
+12. A bag + kg good needs both (bag EAN on 003, 5-digit PLU on 303, both
+prices). `scripts/armsoft-gaps.py` lists what is missing per good + unit.
+
+## Hard rules (user, 2026-10-23)
+
+Every good must satisfy all of these; `scripts/armsoft-gaps.py` checks the
+ArmSoft-side ones (sheet "Rules"), steps 3–5 below check the Siruk match.
+
+1. **`Name` under 50 characters** — the till sends it to the HDM (fiscal
+   receipt), which cuts longer names. How to shorten (user, 2026-10-23):
+   - never drop the brand, or anything that tells this good apart from its
+     siblings (line, lifestage, colour, size S/M/XS);
+   - a two-part flavour ("lamb & rice", "սաղմոն/արտիճուկ") keeps only the
+     main one — unless that makes two goods read the same;
+   - keep the supplier code at the end (`/sh-07435`, `/42993`, `EU051`);
+   - keep a physical size (`10 սմ`, `40*45*40 սմ`) and the pack (`15 գ`);
+   - cut the filler instead: "կատուների համար" → "կատ.", "Խաղալիք" →
+     "Խաղ.", "Հյուրասիրություն" → "Հյուրաս.", "բնական մորթուց" → "մորթի".
+   The 66 renamed on 2026-10-23: `final/armsoft-2026-10-23/short-names.tsv`.
+2. **Every good matches Siruk** on:
+   - **price** — each unit's sale price = the Siruk variant's price (bag unit
+     = bag variant, 303 = the "1 kg" variant);
+   - **selling unit** — Siruk sells the whole pack and per kg ⇔ ArmSoft has
+     the bag unit 003 *and* the kg unit 303; pack only ⇔ no 303; and the
+     other way round;
+   - **barcodes** — the pack EAN on the pack unit, the 5-digit PLU on 303;
+   - **code** — Siruk's `accounting_code` = the ArmSoft good `Code`.
+3. **Recalculation coefficient (վերահաշվարկի գործակից) = bag kg** on a good
+   sold both per kg and as a pack: a 10 kg bag sold loose has unit 003 with
+   Coef 10 ("1 պարկ = 10 կգ"). That is what converts kg stock to bags.
+4. **`VAT` (ԱԱՀ) off** (`<VAT>false</VAT>`) on every good, no exceptions.
+5. **A good with a per-kg selling unit**: main unit = kg (`Unit 303`, alt
+   unit 003) and **Քաշային (`IsWeight`) on**, so its PLU is sent to the
+   scale. A kg unit hanging off a 001/003 main unit is wrong (armsoft-app →
+   "Switching the main unit").
 
 ## Files
 
@@ -139,12 +188,35 @@ Then update `state/open-items.csv` (close what is fixed, add what is open),
 and keep `csv/all-xml-scale.xml`, `Scale/all-xml-scale.xml` and
 `Scale/scale-codes-per-kg.csv` in step with any barcode you confirmed.
 
+## Checking a cost or a price against the rivals (user, 2026-10-23)
+
+Whenever a cost looks odd, comes from a sibling or a guess, or Siruk and
+ArmSoft disagree, check it against the rivals before asking anyone:
+
+- **hafo is the supplier's own shop and publishes its wholesale price**:
+  `scripts/hafo-lookup.py --code <article>` (Trixie articles take the `Tx`
+  suffix: `31662Tx`) → `wholesale_price_amd`. It matched our purchase price
+  to the dram on every row checked (Monge 1341: 470; Trixie treats 3935 /
+  2875 / 2515). `price_amd` is hafo's retail price.
+- **Per-kg listings**: hafo, nemo and zoovet sell some packs by weight. hafo's
+  text says "Կայքում նշված է կգ-ի արժեքը" (price per kg), nemo's may say
+  500 g, zoovet adds "на развес 1 кг". Then both hafo prices are **per kg**:
+  pack cost = wholesale × pack kg. Missing this put the per-kg cost on the
+  bag in Siruk for 5 Trixie treats (fixed 2026-10-23).
+- Selling price: `zoovet-lookup.py --search` (Russian) and `nemo-lookup.py
+  --search` (Armenian/Latin) by name, then compare pack and per-kg prices
+  with ours. Rivals never show their cost; only hafo's wholesale does.
+- Report a table: cost (hafo wholesale × pack size, ArmSoft receipt, Siruk),
+  each rival's pack and per-kg price, ours, margin at the real cost. Write a
+  corrected cost only on the user's yes (`scripts/set-variant.sh <pid> <sku>
+  '{"cost_price": …}'`, read back).
+
 ## Decisions that belong to the user — ask, don't assume
 
-- **Royal Canin 12-box goods** (22 of them, odd codes 1365–1407): Siruk
-  archived the box variants on 2026-10-07 because boxes are opened and the
-  pouches sold one by one. The box goods carry the 12-box EAN (Royal Canin
-  mt/ie/za/au sites) and the old box price. Ask whether to import them at all.
+- **Royal Canin 12-box goods**: never sold as boxes (PM, 2026-10-23), so no
+  box price. The invoice-made box goods 1466–1472 still hold the box EAN and
+  the received stock; whether they become the pouch good or their stock moves
+  is the user's call (open item). Never add a 12-box good or price.
 - A code clash, a renamed good, or a barcode ArmSoft has that differs from
   ours: show both, let the user pick.
 - Anything to be deleted from ArmSoft. Only our own imported goods can go.

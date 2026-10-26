@@ -70,7 +70,7 @@ def api(method, path, payload=None, lang=None):
     env = dict(os.environ)
     if lang:
         env["SIRUK_LANG"] = lang
-    args = [os.path.join(ROOT, "scripts/api.sh"), method, path]
+    args = ["bash", os.path.join(ROOT, "scripts/api.sh"), method, path]
     if payload is not None:
         args.append("-")
     r = subprocess.run(args, input=json.dumps(payload, ensure_ascii=False) if payload is not None else None,
