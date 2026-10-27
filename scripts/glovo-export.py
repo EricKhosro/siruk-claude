@@ -15,7 +15,11 @@ Glovo onboarding video shows (reference/glovo/README.md):
   G Availability <- 1 in stock and purchasable, else 0
   H/I/J Section  <- the product's category leaves in Armenian ("Չոր կեր շների համար")
 
-Input: the product dumps from scripts/dump-products.py (en + `--lang hy`).
+Input: --from-export reads the whole catalogue (hy) in one call through
+scripts/catalogue_export.py (~15 s, categories included). Without it: the product
+dumps from scripts/dump-products.py (en + `--lang hy`, ~1 h each) and the hy category tree.
+
+    .venv-img/bin/python scripts/glovo-export.py --from-export --upload
 
     scripts/dump-products.py --refresh --fast
     scripts/dump-products.py --lang hy --refresh --fast
@@ -29,6 +33,9 @@ media id -> direct link in .siruk-cache/glovo/imgbb.json, so a re-run only
 uploads new images. Without --upload, column D gets the image's original
 api.siruk.am url (not square) and the row is listed in the problems CSV.
 
+Discontinued products and the variants on state/glovo-exclude.csv (Siruk can only
+discontinue a whole product) are left out.
+
 Read-only towards Siruk: GET /medias/<id> only.
 """
 import argparse, glob, html, io, json, os, re, subprocess, sys, time, urllib.error, urllib.request
@@ -41,6 +48,7 @@ TEMPLATE = os.path.join(ROOT, 'reference/glovo/Pelican-Partners-Template.xlsx')
 CACHE = os.path.join(ROOT, '.siruk-cache/glovo')
 MEDIA_CACHE = os.path.join(CACHE, 'media.json')       # media id -> {url, dimensions}
 IMGBB_CACHE = os.path.join(CACHE, 'imgbb.json')       # media id -> i.ibb.co 500×500 direct link
+EXCLUDE = os.path.join(ROOT, 'state/glovo-exclude.csv')  # sku,…: variants kept off Glovo (no per-variant discontinue on Siruk)
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36'
 
 PET = {1: 'շների', 8: 'կատուների', 95: 'թռչունների', 98: 'կրծողների'}
@@ -119,7 +127,7 @@ def load(dirname, ids):
 
 
 def api_get(path):
-    r = subprocess.run([os.path.join(ROOT, 'scripts/api.sh'), 'GET', path], capture_output=True,
+    r = subprocess.run(['bash', os.path.join(ROOT, 'scripts/api.sh'), 'GET', path], capture_output=True,
                        text=True, cwd=ROOT, timeout=120, env=dict(os.environ, SIRUK_NO_PACE='1'))
     i = r.stdout.find('{')
     return json.loads(r.stdout[i:]) if i >= 0 else None
@@ -242,13 +250,26 @@ def main():
     ap.add_argument('--upload', action='store_true', help='make 500×500 squares and upload them to ImgBB (cached; the video used postimages.org)')
     ap.add_argument('--ids', type=int, nargs='*')
     ap.add_argument('--limit', type=int)
+    ap.add_argument('--from-export', action='store_true',
+                    help='read the catalogue from one GET /products/export (hy) instead of the dump-products.py copies')
     a = ap.parse_args()
 
     if a.upload and not os.path.exists(os.path.join(ROOT, '.imgbb-key')):
         sys.exit('no .imgbb-key: get a key at api.imgbb.com and save it there')
     ids = set(a.ids or [])
-    en, hy = load('products', ids), load('products-hy', ids)
-    cats = json.load(open(os.path.join(ROOT, '.siruk-cache/glovo-categories-hy.json')))['data']
+    cats_file = os.path.join(ROOT, '.siruk-cache/glovo-categories-hy.json')
+    export_media = {}
+    if a.from_export:
+        sys.path.insert(0, os.path.join(ROOT, 'scripts'))
+        import catalogue_export
+        hy, export_media = catalogue_export.products('hy')
+        hy = {k: v for k, v in hy.items() if not ids or k in ids}
+        en = hy      # structure is the same in every language, and variant labels stay English
+        json.dump(catalogue_export.api_get('/categories?per_page=500', 'hy'), open(cats_file, 'w', encoding='utf-8'),
+                  ensure_ascii=False)
+    else:
+        en, hy = load('products', ids), load('products-hy', ids)
+    cats = json.load(open(cats_file, encoding='utf-8'))['data']
     node, parent = {}, {}
 
     def walk(n, p=None):
@@ -271,7 +292,11 @@ def main():
 
     brands = {b['id']: b['name'] for b in (api_get('/brands?per_page=500') or {}).get('data', [])}
     mcache, pcache = jload(MEDIA_CACHE), jload(IMGBB_CACHE)
+    for k, url in export_media.items():      # the export already gives each image's original url
+        if url and k not in mcache:
+            mcache[k] = {'url': url}
 
+    excluded = {l.split(',')[0] for l in open(EXCLUDE, encoding='utf-8').read().splitlines()[1:] if l} if os.path.exists(EXCLUDE) else set()
     rows, problems = [], []
     limited = False
     for pid in sorted(en):
@@ -303,6 +328,9 @@ def main():
         varying = {k for k, labels in seen.items() if len(labels) > 1}   # only what tells variants apart
         for v in p.get('variants') or []:
             vh = hy_vars.get(v['id'], v)
+            if v.get('sku') in excluded:
+                problems.append((p['id'], v['sku'], 'on state/glovo-exclude.csv — left out'))
+                continue
             if not v.get('price'):
                 problems.append((p['id'], v.get('sku'), 'no price — left out'))
                 continue
