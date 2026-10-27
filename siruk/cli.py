@@ -4,6 +4,9 @@
     siruk find "royal canin mini"        search before create (rule 9)
     siruk show 874 [--lang hy]           one line per variant
     siruk add-variant 874 v.json --dry-run
+    siruk bulk-create runs/<date>/bulk/*.json --dry-run
+    siruk verify-translations --only 874,875
+    siruk recheck-prices --only 874 [--apply]
     siruk tui                            the full-screen editor
     siruk mcp                            the MCP server on stdio
 
@@ -273,6 +276,101 @@ def cmd_stock(a):
     return 0
 
 
+def _ids_arg(s):
+    return [int(x) for x in s.split(",") if x.strip()] if s else None
+
+
+def cmd_verify_translations(a):
+    from siruk import verify
+    if not a.paced:
+        os.environ["SIRUK_NO_PACE"] = "1"  # a read-only sweep, as the script always did
+    only = _ids_arg(a.only)
+    progress = None if a.json or a.quiet else (
+        lambda i, n: print(f"\r  products {i}/{n}", end="" if i < n else "\n", file=sys.stderr))
+    res = verify.translations(only=only, catalogue=not a.products_only, progress=progress)
+    if a.json:
+        output.dump(res)
+    else:
+        verify.print_report(res, a.out)
+    return 0 if res["complete"] else 1
+
+
+def cmd_recheck_prices(a):
+    from siruk import pricecheck
+    if not a.paced:
+        os.environ["SIRUK_NO_PACE"] = "1"
+    show = None if a.json else (lambda pid, p, rows: print(
+        f"{pid:>4} {(p.get('name') or '')[:40]:<40} " + "  ".join(
+            f"{r['sku']}:{r['siruk_price']}→{r['hafo_price'] or '?'} {r['status'][:9]}" for r in rows)))
+    rows = pricecheck.check(_ids_arg(a.only), progress=show)
+    path = pricecheck.write_csv(rows, a.out)
+    fx = pricecheck.fixes(rows)
+    if a.json and not a.apply:
+        output.dump({"summary": pricecheck.summary(rows), "fixable": fx, "csv": path, "rows": rows})
+        return 0
+    if not a.json:
+        print("\n== summary ==", pricecheck.summary(rows), "\n→", path)
+    if not a.apply:
+        print(f"{sum(len(v) for v in fx.values())} variant(s) would be updated; run with --apply")
+        return 0
+    bad = 0
+    for pid, skus in fx.items():
+        try:
+            res = pricecheck.apply_prices(pid, skus, dry_run=True)
+            output.diff(res.diff)
+            if not _confirm(a, f"hafo prices on product {pid}"):
+                continue
+            res = pricecheck.apply_prices(pid, skus, dry_run=a.dry_run)
+            for w in res.warnings:
+                print(f"  !! {pid}/{w}")
+            print(("dry run " if a.dry_run else "ok  ") + f"{pid}: " + ", ".join(
+                f"{d['sku']}→{d['new']}" for d in res.diff if d["field"] == "price"))
+        except PayloadError as e:
+            bad += 1
+            print(f"  !! {e}")
+    return 1 if bad else 0
+
+
+def cmd_bulk_create(a):
+    from siruk import bulk, verify
+    items = []
+    for f in a.files:
+        try:
+            items.append((f, _load_json(f)))
+        except (OSError, ValueError) as e:
+            items.append((f, {"_unreadable": str(e)}))
+    kw = dict(en_only=a.en_only, force=_env_flag(a.force, "FORCE"),
+              allow_below_cost=_env_flag(a.allow_below_cost, "ALLOW_BELOW_COST"),
+              allow_no_image=_env_flag(a.allow_no_image, "ALLOW_NO_IMAGE"))
+    log = (lambda m: None) if a.json else (lambda m: print(m, file=sys.stderr))
+    results = bulk.create(items, dry_run=True, log=log, **kw)
+    ready = sum(1 for r in results.values() if r["status"] == "ready")
+    if not a.dry_run and ready:
+        if not _confirm(a, f"{ready} new product(s)"):
+            return 1
+        results = bulk.create(items, dry_run=False, log=lambda m: None, **kw)
+    for r in results.values():
+        r.pop("body", None)
+    if a.out:
+        with open(a.out, "w", encoding="utf-8") as f:
+            json.dump(results, f, ensure_ascii=False, indent=1)
+    if a.json:
+        output.dump(results)
+    else:
+        rows = [{"item": k, "status": r["status"], "id": r.get("id"), "detail":
+                 (r.get("read_back") if r.get("read_back") not in (None, "ok") else "")
+                 or str(r.get("errors") or "")[:90] or r.get("name")} for k, r in results.items()]
+        output.table(rows, [("item", "item"), ("status", "status"), ("id", "id"), ("detail", "detail")])
+        if a.dry_run:
+            print(f"\ndry run: {ready} ready, {len(results) - ready} refused — nothing sent")
+    ids = [r["id"] for r in results.values() if r["status"] == "created"]
+    if ids and not a.json:
+        print("\n# translations (CLAUDE.md 13 — report from this, not from what was sent):")
+        os.environ["SIRUK_NO_PACE"] = "1"
+        verify.print_report(verify.translations(only=ids, catalogue=False))
+    return 0 if bulk.ok(results) else 1
+
+
 def cmd_media(a):
     from siruk import media
     log = _client.stderr_log
@@ -408,6 +506,24 @@ def build_parser():
     p.add_argument("--note", default="")
     p.add_argument("--reason", default="correction")
     p.add_argument("--unit-cost", type=float)
+    p = add("bulk-create", cmd_bulk_create, "create many NEW products in one call (en/ru/hy)", writes=True)
+    p.add_argument("files", nargs="+", help="create payloads (bulk-create.py's shape)")
+    p.add_argument("--en-only", action="store_true", help="allow a missing ru/hy (translate after)")
+    p.add_argument("--out", help="write the results JSON here")
+    p.add_argument("--force", action="store_true", help="create even if a similar name exists")
+    p.add_argument("--allow-below-cost", action="store_true")
+    p.add_argument("--allow-no-image", action="store_true")
+    p = add("verify-translations", cmd_verify_translations, "the ru/hy audit (rule 13); exit 1 if anything missing")
+    p.add_argument("--only", help="product ids, comma-separated (default: every product)")
+    p.add_argument("--products-only", action="store_true", help="skip categories and brands")
+    p.add_argument("--out", help="write the full missing list as JSON")
+    p.add_argument("--paced", action="store_true", help="keep config.json pacing (default: off, as the script)")
+    p = add("recheck-prices", cmd_recheck_prices, "hafo price recheck (rule 4) → runs/<date>/price-check.csv",
+            writes=True)
+    p.add_argument("--only", help="product ids, comma-separated (default: the whole catalogue)")
+    p.add_argument("--apply", action="store_true", help="also fix the unflagged mismatches (asks per product)")
+    p.add_argument("--out", help="csv path (default runs/<date>/price-check.csv)")
+    p.add_argument("--paced", action="store_true", help="keep config.json pacing (default: off, as the script)")
     p = add("media", cmd_media, "upload / check media", writes=True)
     p.add_argument("action", choices=["upload", "check"])
     p.add_argument("target", nargs="+", help="upload: file or url; check: media ids")

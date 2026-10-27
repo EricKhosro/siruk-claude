@@ -21,6 +21,9 @@ scripts like this:
 | `upload-media.sh` | `siruk media upload` (Pillow flattens/downscales, so it also works on Windows, unlike `sips`) |
 | `hafo-lookup.py`, `zoovet-lookup.py`, `nemo-lookup.py` | `siruk price hafo\|zoovet\|nemo` |
 | `pace.sh product` | `siruk pace product` |
+| `bulk-create.py` | `siruk bulk-create <payloads…> [--en-only] [--dry-run]` (the script is now a wrapper over `siruk/bulk.py`) |
+| `verify-translations.py` | `siruk verify-translations [--only ids] [--products-only]` (wrapper over `siruk/verify.py`) |
+| `check-hafo-prices.py` | `siruk recheck-prices [--only ids] [--apply]` (wrapper over `siruk/pricecheck.py`; also runs on Windows now, since it no longer executes `api.sh` directly) |
 
 `siruk_payload.py` is now a shim over `siruk/payload.py`. Its API calls go through
 the Python client (same token, `config.json` and pace files as `lib.sh`), not

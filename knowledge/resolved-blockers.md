@@ -4,6 +4,24 @@ Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
 
 ## 2026-10-26
 
+- **Lifted — hafo SKU matcher over-matched Trixie codes.** `hafo-lookup.py`
+  `sku_matches` stripped *any* trailing letters off hafo's SKU for a `…Tx` form, so
+  our Trixie 4123 (product 1416, 300 AMD) matched hafo's `04123IVS` (an Iv San
+  Bernard 3 l shampoo whose listing has an empty `product_maker`, so the brand
+  filter let it through). The old `check-hafo-prices.py --apply` would have set
+  it to 54 550. `siruk/pricecheck.py` now rejects a Trixie match whose hafo SKU
+  ends in letters other than Tx / Trx / TXN, and flags a hafo wholesale more
+  than 3× off our cost.
+  Fixed in the matcher too (same day): a Trixie-form match may only drop Tx /
+  Trx / TXN. Against the cached hafo data (10 929 hafo SKUs × 3 288 of our code
+  forms) it lost 22 matches and gained none, and kept 2 406. All 22 were other
+  suppliers' goods (IVS perfumes, AQ heaters and sand, a Furminator `…F`, BP
+  bird food, Ciao Churu `…IN`), and none of the Siruk variants they hit had that
+  hafo price.
+- **Lifted — `check-hafo-prices.py` and `bulk-create.py` on Windows.** Both
+  executed `scripts/api.sh` directly, which Windows can't do. They now go
+  through `siruk/` (Python client).
+
 - **Lifted — Windows image prep on upload.** `upload-media.sh` flattens and
   downscales with macOS `sips`, which silently does nothing here. `siruk media
   upload` does the same with Pillow, so transparent PNGs and images over

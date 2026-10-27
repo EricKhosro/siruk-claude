@@ -8,14 +8,18 @@ a raw-API tool, and the below-cost / no-image / force overrides — those need t
 user's explicit say-so and stay in the CLI (`siruk … --allow-below-cost`).
 """
 import functools, json, os
+from collections import Counter
 
 from mcp.server.mcpserver import MCPServer
 from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
 from siruk import client as _client
-from siruk import config, lookups, media, products, refdata, stock, translations
+from siruk import bulk, config, lookups, media, pricecheck, products, refdata, stock, translations, verify
 from siruk.payload import PayloadError
+
+MAX_IDS = 50       # per call: a full-catalogue sweep belongs in the CLI (`siruk verify-translations`)
+MAX_BULK = 25
 
 INSTRUCTIONS = """Siruk PetShop admin (production: api.siruk.am). Rules that matter here (CLAUDE.md):
 - Search before create: find_products first; an existing product gets the row as a variant.
@@ -216,6 +220,80 @@ def upload_media(source: str, folder: str, keep_alpha: bool = False, confirm: bo
     """Upload an image (local path or url) into products/<brand-slug>/<type>, logos, categories or
     banners, verify it is readable, and return its media id for a variant's images."""
     return media.upload(source, folder, keep_alpha=keep_alpha, dry_run=not confirm)
+
+
+# ------------------------------------------------------- end-of-run checks ----
+def _ids(product_ids):
+    ids = sorted({int(i) for i in product_ids or []})
+    if not ids:
+        raise ToolError("give the product ids to check (the whole catalogue: `uv run siruk …` in a terminal)")
+    if len(ids) > MAX_IDS:
+        raise ToolError(f"at most {MAX_IDS} products per call; split the list or use the CLI")
+    return ids
+
+
+@mcp.tool(annotations=READ)
+@_clean
+def verify_translations(product_ids: list[int], include_catalogue: bool = False) -> dict:
+    """The ru/hy audit (CLAUDE.md 13: report translation status from this, never from what was sent).
+    A locale is missing when empty or identical to en. include_catalogue also checks every category
+    and brand (slow)."""
+    res = verify.translations(only=_ids(product_ids), catalogue=include_catalogue)
+    res["missing"] = {k: [dict(zip(("id", "lang", "field", "en_name"), t)) for t in v]
+                      for k, v in res["missing"].items()}
+    return res
+
+
+@mcp.tool(annotations=READ)
+@_clean
+def hafo_price_recheck(product_ids: list[int]) -> dict:
+    """The after-import price recheck (CLAUDE.md rule 4) for hafo-priced rows: every variant's
+    price against hafo's own row for its sku, cross-checked with hafo's /product/change.
+    Status: match | MISMATCH | MISMATCH (flagged — not auto-fixed) | sibling match | not on hafo …
+    zoovet/nemo-priced rows need their own recheck against that source."""
+    rows = pricecheck.check(_ids(product_ids))
+    return {"summary": pricecheck.summary(rows), "fixable": pricecheck.fixes(rows), "rows": rows}
+
+
+@mcp.tool(annotations=WRITE)
+@_clean
+def apply_hafo_prices(product_id: int, confirm: bool = False) -> dict:
+    """Recheck one product against hafo and set every unflagged MISMATCH variant to hafo's price
+    (never at or below cost, flagged rows are left alone). Dry run unless confirm=true."""
+    rows = pricecheck.check([product_id])
+    fx = pricecheck.fixes(rows).get(product_id) or {}
+    if not fx:
+        return {"product_id": product_id, "written": False, "summary": pricecheck.summary(rows),
+                "note": "nothing to fix — no unflagged mismatch", "rows": rows}
+    d = _write(pricecheck.apply_prices(product_id, fx, dry_run=not confirm))
+    d["rows"] = rows
+    return d
+
+
+@mcp.tool(annotations=WRITE)
+@_clean
+def bulk_create_products(payloads: list[dict], en_only: bool = False, confirm: bool = False) -> dict:
+    """Create up to 25 NEW products in one call (POST /products/bulk), en/ru/hy together: name and
+    variant texts as {en, ru, hy}, or a "translations": {ru: {name, variants: {sku: {...}}}, hy: …}
+    block. Each item gets create_product's checks (above cost, an image, a product type, no similar
+    live product); a refused item is never sent. en_only allows a missing ru/hy (translate after).
+    Dry run unless confirm=true; then each created product is read back. Run verify_translations
+    on the new ids afterwards."""
+    if not payloads:
+        raise ToolError("no payloads")
+    if len(payloads) > MAX_BULK:
+        raise ToolError(f"at most {MAX_BULK} products per call")
+    items = [(p.get("slug") or f"item {i}", p) for i, p in enumerate(payloads)]
+    results = bulk.create(items, dry_run=not confirm, en_only=en_only, force=False,
+                          allow_below_cost=False, allow_no_image=False)
+    for r in results.values():
+        r.pop("body", None)
+    out = {"written": confirm, "results": results,
+           "counts": dict(Counter(r["status"] for r in results.values()))}
+    if not confirm:
+        out["next_step"] = ("nothing was sent — show the user the ready/refused list; call again with "
+                            "confirm=true to create the ready ones")
+    return out
 
 
 # --------------------------------------------------------------- resources ----

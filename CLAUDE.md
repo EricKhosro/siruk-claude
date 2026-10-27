@@ -247,7 +247,9 @@ so the scripts and these tools enforce the same rules.
 - **CLI** — `uv run siruk <command>` (or `python -m siruk` with no install for
   the stdlib commands): `doctor`, `find`, `show`, `ids`, `refresh`, `check`,
   `create`, `add-variant`, `set-variant`, `rename`, `translate`, `stock`,
-  `media upload`, `price hafo|zoovet|nemo`, `api`, `pace`. Every write takes
+  `media upload`, `price hafo|zoovet|nemo`, `api`, `pace`, and the batch /
+  end-of-run jobs `bulk-create`, `verify-translations` (rule 13) and
+  `recheck-prices` (rule 4; `--apply` asks per product). Every write takes
   `--dry-run` (prints the diff) and reads back after writing; the guards are
   the env vars above or `--allow-below-cost` / `--allow-no-image` / `--force`,
   only on the user's say-so. Exit 1 = refused by a rule, 2 = API error.
@@ -257,6 +259,11 @@ so the scripts and these tools enforce the same rules.
 - **MCP** — `siruk` in `.mcp.json` / `opencode.jsonc` (`uv run siruk-mcp`):
   read tools plus guarded writes that are **dry runs unless `confirm: true`**.
   No deletes, no raw API, no below-cost / no-image override (CLI only).
+  `verify_translations` / `hafo_price_recheck` take ≤ 50 product ids,
+  `bulk_create_products` ≤ 25 payloads; full-catalogue sweeps are CLI jobs.
+- `scripts/verify-translations.py`, `check-hafo-prices.py` and `bulk-create.py`
+  are thin wrappers over `siruk/verify.py`, `pricecheck.py` and `bulk.py` (same
+  arguments and output).
 - Same token (`.siruk-token`), `config.json` pacing and `.siruk-cache/.pace-*`
   state as `scripts/api.sh`. Tests: `uv run --group dev pytest` (offline).
 
