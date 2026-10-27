@@ -46,7 +46,7 @@ Notes that matter:
 Product type **3 Treats** (`measure_type: mass`, `default_sale_mode: pack`).
 **The live product type decides which attributes exist, their role (`option` /
 `attribute`) and flags** — `reference/product-types.json`
-(`scripts/product-types.py --dump`); it wins over this file. Read 2026-09-30:
+(`siruk refresh`); it wins over this file. Read 2026-09-30:
 `flavor`, `health-feature` and `size` are `option`; lifestage, special-diet,
 breed-size, packaging, ingredient are `attribute`. An attribute the batch
 needs that the type lacks → the `attribute-manager` agent before the import
@@ -111,9 +111,9 @@ the `flavor` value. "Barbecue Ribs with Duck" and "Barbecue Ribs with Chicken"
 are ONE product "Barbecue Ribs" with two variants, however the brand pages
 them (trixie.de gives every flavour its own page — that is not a split
 signal for food). Before creating a treat, look for the line product
-(`scripts/find-product.sh "Barbecue Ribs"`); a single-variant product whose
+(`siruk find "Barbecue Ribs"`); a single-variant product whose
 Name carries the flavour or pack (`… with Duck 110 g`) takes the row as a
-variant and is renamed to the line name (`scripts/rename-product.sh`). The
+variant and is renamed to the line name (`siruk rename`). The
 2026-09-16 sweep folded 21 Trixie
 and Monge treat lines this way; `scripts/plan-variant-merge.py` is the tool.
 A line whose members differ by lifestage or health function (Monge Gift

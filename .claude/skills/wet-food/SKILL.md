@@ -14,7 +14,7 @@ type **2 Wet Food** (`measure_type: mass`, `default_sale_mode: pack`).
 
 **The live product type decides which attributes exist, their role (`option` /
 `attribute`) and flags** — `reference/product-types.json`
-(`scripts/product-types.py --dump`); it wins over this file. Read 2026-09-30:
+(`siruk refresh`); it wins over this file. Read 2026-09-30:
 `flavor`, `texture` and `packaging` are `option`; lifestage, special-diet,
 health-feature, ingredient, breed-size are `attribute`. An
 attribute the batch needs that the type lacks → the `attribute-manager` agent

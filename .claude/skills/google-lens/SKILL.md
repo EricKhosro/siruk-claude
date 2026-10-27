@@ -69,7 +69,8 @@ may keep one, this skill must have run for it and the result must be logged
    one stock photo for every flavour (2026-10-02: three Myau flavours all showed
    the beef bag). Before writing, run `scripts/variant-image-audit.py <product id>`
    and compare each sibling's first image side by side.
-7. Upload with `scripts/upload-media.sh <url> products/<brand-slug>/<type>` and
+7. Upload with `siruk media upload <url> --folder products/<brand-slug>/<type>`
+   (MCP `upload_media`) and
    put it **first**; hafo's photo comes out of the gallery once a real one is
    in (or stays last only if the new one is not the same pack — log why).
 8. Log every variant, found or not, in `runs/<date>/needs-image.csv` /

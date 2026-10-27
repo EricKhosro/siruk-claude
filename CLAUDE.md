@@ -45,7 +45,7 @@ linked doc before you rely on a number from memory.
 3. **Each variant gets its own hafo price** — never the top-level listing
    price (the cheapest size only). Only `price_source: "variant"` may be
    written; unpriced variants go to the CSV individually.
-4. **Re-check after any import** — `scripts/check-hafo-prices.py` for
+4. **Re-check after any import** — `siruk recheck-prices` for
    hafo-priced rows (`--apply` fixes unflagged rows only); a row priced from
    zoovet or nemo needs its own recheck against that source, not hafo — per
    row with `zoovet-lookup.py` / `nemo-lookup.py --url`, no batch script yet; see `reference/pricing.md` → "Recheck gap".
@@ -147,7 +147,7 @@ linked doc before you rely on a number from memory.
    is fed that data and creates or extends whatever product types the batch
    needs — we decide roles and flags logically, the PM edits later — then
    `scripts/product-types.py --check` must pass on every payload before the
-   first write. Suppliers are out of scope for now.
+   first write (`siruk check` does the same). Suppliers are out of scope for now.
 8c. **The product type decides the attributes** (2026-09-29). Per attribute
    it sets `role` — `option` (what the customer picks: a selector axis, one
    value per variant) or `attribute` (specs and filters) — plus
@@ -155,7 +155,7 @@ linked doc before you rely on a number from memory.
    attribute) and `show_on_product_card`. The API refuses a value outside the
    type or a second value on an option. Live: `reference/product-types.json`
    (`scripts/product-types.py --dump`).
-9. **Search before create.** `scripts/find-product.sh` first; an existing
+9. **Search before create.** `find_products` / `siruk find` first; an existing
    product gets the row as a variant, never a second product. Variant axes
    are the net content plus the product type's `option`-role attributes
    (flavour, texture, colour, toy size…) — nothing else tells variants apart. **A flavour, dose band or colour
@@ -170,9 +170,9 @@ linked doc before you rely on a number from memory.
    still has one). `scripts/siruk_payload.py` refuses both before writing;
    `scripts/backfill-variant-axes.py` after any merge. Full detail:
    `reference/admin-api.md` → "Variants and attributes".
-10. **Write only through `scripts/`** — every product/variant body is built
-   by `scripts/siruk_payload.py` (it mirrors the admin form's
-   `toVariantPayload`). Never hand-write a `PUT /products` body (it replaces
+10. **Write only through `siruk` (or `scripts/`)** — every product/variant
+   body is built by `siruk/payload.py` (`scripts/siruk_payload.py` is its
+   shim), which mirrors the admin form's `toVariantPayload`. Never hand-write a `PUT /products` body (it replaces
    the whole variants array). Never trust an unverified media id.
 10a. **Stock is a ledger** (2026-09-29). A new variant sends `initial_stock`
    **10 on every variant, whatever the CSV Qty says** (user 2026-10-01); an existing variant's stock changes only
@@ -200,7 +200,7 @@ linked doc before you rely on a number from memory.
    `translate-*.py` scripts). Variant labels stay single-language English.
    **Report translation status only from `scripts/verify-translations.py` /
    `translate-attributes.py --verify-only` output, never from what was
-   sent.** Full per-resource rules and API quirks: `reference/admin-api.md`
+   sent** (`siruk verify-translations` is the same audit). Full per-resource rules and API quirks: `reference/admin-api.md`
    → "Translations".
 14. **Recommendations are computed from our data, never linked by hand**
    (siruk-web 2026-10-09). PDP "Related items" = same leaf + same product type
@@ -244,12 +244,51 @@ One Python package (`siruk/`) owns the API client and the write rules; three
 faces share it. `scripts/siruk_payload.py` is now a shim over `siruk/payload.py`,
 so the scripts and these tools enforce the same rules.
 
+**Use `siruk` first** (user, 2026-10-27). For every job it covers, call the
+`siruk` MCP tool (reads; writes as a dry run, show the diff, `confirm: true`
+on the user's yes) or the CLI, not the script. The scripts stay as the
+fallback: for jobs `siruk` has no command for, when the MCP server is not
+loaded, or when a `siruk` command fails in a way a script doesn't. A skill or
+doc that still names a script means its `siruk` equivalent from this table:
+
+| Job | MCP tool | CLI | Fallback script |
+|---|---|---|---|
+| token / API check | `account_status` | `siruk doctor` | `api.sh GET /account` |
+| live ids | `list_reference` | `siruk ids [brands\|categories\|types\|attributes]` | `ids.sh` |
+| refresh the menus | — | `siruk refresh` | `refresh-attributes.sh` + `product-types.py --dump` |
+| search before create | `find_products` | `siruk find <text>` | `find-product.sh` |
+| show a product | `get_product` | `siruk show <id> [--lang]` | `show-product.sh` |
+| validate payloads | `validate_payload` | `siruk check <payload…>` | `product-types.py --check` |
+| create one product | `create_product` | `siruk create <payload>` | `create-product.sh` |
+| create many new products | `bulk_create_products` (≤ 25) | `siruk bulk-create <payloads…>` | `bulk-create.py` |
+| add a variant | `add_variant` | `siruk add-variant <id> <variant>` | `add-variant.sh` |
+| patch a variant | `update_variant` | `siruk set-variant <id> <sku> <patch>` | `set-variant.sh` |
+| rename | `rename_product` | `siruk rename <id> <name> [--slug]` | `rename-product.sh` |
+| ru / hy translation | `set_translation`, `get_translation` | `siruk translate <id> ru\|hy <file>` | `set-translation.py` |
+| translation audit (rule 13) | `verify_translations` (≤ 50 ids) | `siruk verify-translations` | `verify-translations.py` |
+| media upload | `upload_media` | `siruk media upload <file\|url> --folder <folder>` | `upload-media.sh` |
+| media check | — | `siruk media check <ids…>` | `verify-media.sh` |
+| stock | `stock_movements`, `stock_receive` / `_write_off` / `_set` | `siruk stock show\|receive\|write-off\|set <vid> …` | `api.sh /stock/variants/…` |
+| hafo / zoovet / nemo price | `hafo_lookup`, `zoovet_search`, `nemo_search` | `siruk price hafo --code X --name "…"` / `price zoovet\|nemo --search "…"` | `hafo-lookup.py`, `zoovet-lookup.py`, `nemo-lookup.py` |
+| hafo recheck (rule 4) | `hafo_price_recheck`, `apply_hafo_prices` (≤ 50 ids) | `siruk recheck-prices [--apply]` | `check-hafo-prices.py` |
+| whole-catalogue read / audit | `export_catalogue`, `catalogue_audit`, `save_catalogue_export` | `siruk export [--audit]` | `dump-products.py` (still needed for attribute ids / GET shape) |
+| pacing between rows | — (the client paces itself) | `siruk pace product` | `pace.sh product` |
+| any other endpoint | — (no raw API in the MCP) | `siruk api METHOD PATH [body]` | `api.sh` |
+
+Everything else (hafo identify-by-name, barcode / 4lapy / Trixie image
+lookups, google-lens, translate-*.py, backfills, ArmSoft, Glovo, scale) stays
+a script.
+
 - **CLI** — `uv run siruk <command>` (or `python -m siruk` with no install for
   the stdlib commands): `doctor`, `find`, `show`, `ids`, `refresh`, `check`,
   `create`, `add-variant`, `set-variant`, `rename`, `translate`, `stock`,
   `media upload`, `price hafo|zoovet|nemo`, `api`, `pace`, and the batch /
   end-of-run jobs `bulk-create`, `verify-translations` (rule 13) and
-  `recheck-prices` (rule 4; `--apply` asks per product). Every write takes
+  `recheck-prices` (rule 4; `--apply` asks per product). `siruk export`
+  saves the admin's catalogue export (one row per variant, xlsx/json/csv,
+  `--lang`, `--since`, `--search`); `siruk export --audit` runs the
+  catalogue-wide checks on it (below cost, missing codes / images / size,
+  duplicate barcodes and SKUs) in one call. Every write takes
   `--dry-run` (prints the diff) and reads back after writing; the guards are
   the env vars above or `--allow-below-cost` / `--allow-no-image` / `--force`,
   only on the user's say-so. Exit 1 = refused by a rule, 2 = API error.
@@ -259,6 +298,8 @@ so the scripts and these tools enforce the same rules.
 - **MCP** — `siruk` in `.mcp.json` / `opencode.jsonc` (`uv run siruk-mcp`):
   read tools plus guarded writes that are **dry runs unless `confirm: true`**.
   No deletes, no raw API, no below-cost / no-image override (CLI only).
+  `export_catalogue` (paged, compact fields by default), `catalogue_audit`
+  and `save_catalogue_export` read the export.
   `verify_translations` / `hafo_price_recheck` take ≤ 50 product ids,
   `bulk_create_products` ≤ 25 payloads; full-catalogue sweeps are CLI jobs.
 - `scripts/verify-translations.py`, `check-hafo-prices.py` and `bulk-create.py`
@@ -277,15 +318,17 @@ so the scripts and these tools enforce the same rules.
    currency needs the user's rate. Questions in the sheet → stop for the
    user; none → straight on. Corrections go back into the xlsx.
    `reference/invoice-intake.md`.
-1. `scripts/api.sh GET /account` → 200. `scripts/ids.sh` for live ids.
-2. Load `reference/attribute-values.json` (refresh with
-   `scripts/refresh-attributes.sh` if the user edited attributes).
-3. **hafo** — `scripts/hafo-lookup.py --code <code> --name "<name>"`
-   (`reference/hafo.md`). Need `confirmed: true` **and** `price_source:
+1. `account_status` / `siruk doctor` → 200 (fallback `scripts/api.sh GET /account`).
+   `list_reference` / `siruk ids` for live ids.
+2. Load `reference/attribute-values.json` (refresh with `siruk refresh` if
+   the user edited attributes).
+3. **hafo** — `hafo_lookup` / `siruk price hafo --code <code> --name "<name>"`
+   (same JSON as `scripts/hafo-lookup.py`; `reference/hafo.md`). Need `confirmed: true` **and** `price_source:
    "variant"`. Confirmed but no price → try zoovet / nemo by name (rule 2b,
    `scripts/zoovet-lookup.py`, `scripts/nemo-lookup.py`), then the sibling
    fallback, then
-   `no-hafo-price.csv`. Not confirmed → `not-found.csv`. **A row with no
+   `no-hafo-price.csv`. (`zoovet_search` / `nemo_search`, or
+   `siruk price zoovet|nemo --search "<name>"`.) Not confirmed → `not-found.csv`. **A row with no
    code at all** (the register) goes through `scripts/identify-by-name.py`
    first — hafo by name, then nemo/zoovet (its `shop_candidates`), then a web
    search, every axis matching
@@ -307,26 +350,30 @@ so the scripts and these tools enforce the same rules.
    it to the `attribute-manager` agent to create/extend product types (rule
    8b); then per row: closed menu, evidence quote per pick, only attributes
    of the row's product type, our definitions (`reference/data-tables.md`)
-   beat the brand's wording. `scripts/product-types.py --check` on all
-   payloads before step 7.
+   beat the brand's wording. `validate_payload` / `siruk check <payloads…>`
+   on all payloads before step 7.
 6. **Group / exists?** — `reference/product-rules.md` for product-vs-variant,
-   Name/slug/label, categories. `scripts/find-product.sh` before writing.
-7. **Write** — `scripts/upload-media.sh <file> products/<brand-slug>/<type>`
-   per image (all gallery images; Trixie: `scripts/trixie-image.sh <art>`
+   Name/slug/label, categories. `find_products` / `siruk find` before writing.
+7. **Write** — `upload_media` / `siruk media upload <file> --folder
+   products/<brand-slug>/<type>` per image (all gallery images; Trixie: `scripts/trixie-image.sh <art>`
    lists them all, .de plus the .es shop), then
-   `scripts/create-product.sh` or `scripts/add-variant.sh` — or, for a
-   batch of **new** products, `scripts/bulk-create.py <payloads…>`
+   `create_product` / `siruk create` or `add_variant` / `siruk add-variant`
+   — or, for a batch of **new** products, `bulk_create_products` /
+   `siruk bulk-create <payloads…>`
    (`POST /products/bulk`, en/ru/hy in the same call, so step 8 is already
    done; `reference/admin-api.md` → "Bulk create"). Payload shape:
-   the docstring of `scripts/siruk_payload.py` (`price` = hafo pack price,
+   the docstring of `siruk/payload.py` (`price` = hafo pack price,
    size in `measure_type`/`content`/`pack_count`, `initial_stock`,
    `attribute_values` by attribute id or code, and the rule-10b codes:
    `barcode`, `accounting_code`, `price_source_url`).
 8. **Translate** — write `.siruk-cache/tr-<id>-ru.json` and `-hy.json`
    (name + per-SKU texts; the hafo Armenian `title` is a good source for
-   the `hy` name) and run `scripts/set-translation.py` for each.
-9. **Verify** — `scripts/show-product.sh <id>`; `scripts/verify-media.sh` at
-   the end of the run. `scripts/pace.sh product` between rows.
+   the `hy` name) and run `set_translation` / `siruk translate <id> ru|hy
+   <file>` for each.
+9. **Verify** — `get_product` / `siruk show <id>`; `siruk media check` (or
+   `scripts/verify-media.sh`) at the end of the run; `siruk export --audit`
+   for the catalogue-wide checks. `siruk pace product` between rows (the MCP
+   tools pace themselves).
 10. **Report** — `runs/<date>/report.md` + the two CSVs (`reference/pricing.md`
    has their columns). List "wanted but missing" vocabulary as questions.
    Then fold what is still open into `state/open-items.csv` and anything a

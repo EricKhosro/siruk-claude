@@ -28,7 +28,8 @@ and the debugging notes; this guide is the "which one, and when".
 | Before picking attributes for a type | `scripts/product-types.py --dump` | rewrites `reference/product-types.json` — per type its measure, sale mode, and per attribute role (`option`/`attribute`), required, filterable, on-card. Run it after the PM or the `attribute-manager` agent changed a type |
 | Curious about pacing | `scripts/pace.sh show` | the effective delay / retry settings from `config.json` |
 
-Same jobs through the `siruk` package (2026-10-26): `uv run siruk doctor`
+**Prefer the `siruk` package for these jobs** (user, 2026-10-27; the scripts
+are the fallback; job → MCP tool → CLI table in CLAUDE.md): `uv run siruk doctor`
 (token, API, pacing), `siruk ids [brands|categories|types|attributes]`,
 `siruk refresh` (both reference snapshots at once). For browsing and hand
 fixes, `uv run siruk tui`. The script ↔ command table is in `scripts/README.md`.

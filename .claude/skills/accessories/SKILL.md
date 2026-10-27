@@ -21,7 +21,7 @@ Product type **8 `accessories`** (created 2026-09-15 as a family, from
 attributes that already existed; `measure_type: null`). Cat litter is its own
 type, **9 `litter`** (`measure_type: volume`). **The live product type decides
 which attributes exist, their role (`option` / `attribute`) and flags** —
-`reference/product-types.json` (`scripts/product-types.py --dump`); it wins
+`reference/product-types.json` (`siruk refresh`); it wins
 over this file. Read 2026-09-30: Accessories — `size` 28 and `color-family` 15
 are `option`; `material` 12, `breed-size` 4, `pet-weight-range` 27,
 `product-form` 18 are `attribute`. Litter — `material` 12, `product-form` 18,
@@ -81,7 +81,7 @@ that breaks it). Litter volumes are net content now (above), not the old
 `product-weight` values 190 / 191.
 
 Before creating an accessory, check for siblings already in the catalogue:
-`scripts/find-product.sh "<line name>"`, and `scripts/find-duplicate-products.py`
+`siruk find "<line name>"`, and `scripts/find-duplicate-products.py`
 to sweep the whole catalogue.
 
 ## Pricing

@@ -2,6 +2,17 @@
 
 Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
 
+## 2026-10-27
+
+- **Fact — the catalogue export grew (siruk-web efbf2d33).** `GET
+  /api/admin/products/export` now also returns `brand_id`, `category_ids`,
+  `image_ids`, `image_urls` (originals) and `about_this_item_html`, and
+  `format=json` gives the same records as JSON (`{"data": [...]}`). The whole
+  catalogue (1041 products, 1644 variants) comes back in about 12 s. The
+  CLAUDE.local.md note that it has "no media ids / image urls, category ids,
+  brand id" predates this. Wrapped as `siruk export` / `--audit` and the MCP
+  tools `export_catalogue`, `catalogue_audit`, `save_catalogue_export`.
+
 ## 2026-10-26
 
 - **Lifted — hafo SKU matcher over-matched Trixie codes.** `hafo-lookup.py`

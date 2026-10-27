@@ -28,7 +28,7 @@ Product type **7 `grooming`** (created 2026-09-15 as a family, from
 attributes that already existed; `measure_type: null`, `default_sale_mode:
 pack`). **The live product type decides which attributes exist, their role
 (`option` / `attribute`) and flags** — `reference/product-types.json`
-(`scripts/product-types.py --dump`); it wins over this file. Read 2026-09-30:
+(`siruk refresh`); it wins over this file. Read 2026-09-30:
 `size` 28, `color-family` 15 and `flavor` 5 are `option`; `material` 12,
 `breed-size` 4, `product-form` 18, `active-ingredient` 19, `health-feature` 7
 are `attribute`. An attribute no product carries a value for simply does not

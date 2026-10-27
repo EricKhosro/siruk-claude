@@ -23,6 +23,7 @@ scripts like this:
 | `pace.sh product` | `siruk pace product` |
 | `bulk-create.py` | `siruk bulk-create <payloads…> [--en-only] [--dry-run]` (the script is now a wrapper over `siruk/bulk.py`) |
 | `verify-translations.py` | `siruk verify-translations [--only ids] [--products-only]` (wrapper over `siruk/verify.py`) |
+| `dump-products.py` (for a price / code / stock / image check) | `siruk export [--format json] [--since …]`, `siruk export --audit`. One call: `GET /products/export`, one row per variant, including image ids/urls and category ids |
 | `check-hafo-prices.py` | `siruk recheck-prices [--only ids] [--apply]` (wrapper over `siruk/pricecheck.py`; also runs on Windows now, since it no longer executes `api.sh` directly) |
 
 `siruk_payload.py` is now a shim over `siruk/payload.py`. Its API calls go through

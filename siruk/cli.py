@@ -7,6 +7,7 @@
     siruk bulk-create runs/<date>/bulk/*.json --dry-run
     siruk verify-translations --only 874,875
     siruk recheck-prices --only 874 [--apply]
+    siruk export [--lang hy] [--format csv] | siruk export --audit
     siruk tui                            the full-screen editor
     siruk mcp                            the MCP server on stdio
 
@@ -371,6 +372,37 @@ def cmd_bulk_create(a):
     return 0 if bulk.ok(results) else 1
 
 
+def cmd_export(a):
+    from siruk import export
+    kw = dict(lang=a.lang, updated_since=a.since, search=a.search, dates=a.dates)
+    if a.audit:
+        res = export.audit(export.records(**kw), examples=a.examples)
+        if a.json:
+            output.dump(res)
+            return 0
+        print(f"{res['products']} products · {res['variants']} variants · "
+              + ", ".join(f"{k}: {n}" for k, n in sorted(res["by_type"].items(), key=lambda x: -x[1])))
+        output.table([{"check": k, "n": res["counts"][k], "what": res["checks"][k]} for k in res["checks"]],
+                     [("check", "check"), ("n", "n"), ("what", "what")])
+        for k, ex in res["examples"].items():
+            if k in ("no_price_source", "out_of_stock") and not a.all:
+                continue
+            print(f"\n## {k}")
+            for e in ex:
+                if "variants" in e:
+                    print(f"  {e.get('barcode') or e.get('sku')}: "
+                          + ", ".join(f"{v['product_id']}/{v['sku']}" for v in e["variants"]))
+                else:
+                    print(f"  {e['product_id']:>5} {e['sku'] or '-':<18} {e['price']} / {e['cost']}  {e['product']}")
+        return 0
+    r = export.save(a.out, a.format, **kw)
+    if a.json:
+        output.dump(r)
+    else:
+        print(f"{r['path']}  ({r.get('rows', '')}{' rows' if 'rows' in r else str(r['bytes']) + ' bytes'})")
+    return 0
+
+
 def cmd_media(a):
     from siruk import media
     log = _client.stderr_log
@@ -524,6 +556,17 @@ def build_parser():
     p.add_argument("--apply", action="store_true", help="also fix the unflagged mismatches (asks per product)")
     p.add_argument("--out", help="csv path (default runs/<date>/price-check.csv)")
     p.add_argument("--paced", action="store_true", help="keep config.json pacing (default: off, as the script)")
+    p = add("export", cmd_export, "the catalogue export (one row per variant) → xlsx/json/csv, or --audit")
+    p.add_argument("--lang", choices=["en", "ru", "hy"], default="en")
+    p.add_argument("--format", choices=["xlsx", "json", "csv"], default="xlsx")
+    p.add_argument("-o", "--out", help="file path (default runs/<date>/products_<lang>_<date>.<format>)")
+    p.add_argument("--since", help="only products/variants updated after this date (2026-10-20 or an ISO time)")
+    p.add_argument("--search", help="the admin list's search")
+    p.add_argument("--dates", help="created between d/m/Y,d/m/Y (the admin list's date filter)")
+    p.add_argument("--audit", action="store_true",
+                   help="print catalogue checks instead of saving (below cost, missing codes/images/size, duplicates)")
+    p.add_argument("--examples", type=int, default=20, help="--audit: rows shown per check")
+    p.add_argument("--all", action="store_true", help="--audit: also list no-price-source and out-of-stock rows")
     p = add("media", cmd_media, "upload / check media", writes=True)
     p.add_argument("action", choices=["upload", "check"])
     p.add_argument("target", nargs="+", help="upload: file or url; check: media ids")

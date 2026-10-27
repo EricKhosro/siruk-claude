@@ -194,7 +194,7 @@ Whenever a cost looks odd, comes from a sibling or a guess, or Siruk and
 ArmSoft disagree, check it against the rivals before asking anyone:
 
 - **hafo is the supplier's own shop and publishes its wholesale price**:
-  `scripts/hafo-lookup.py --code <article>` (Trixie articles take the `Tx`
+  `siruk price hafo --code <article>` (Trixie articles take the `Tx`
   suffix: `31662Tx`) → `wholesale_price_amd`. It matched our purchase price
   to the dram on every row checked (Monge 1341: 470; Trixie treats 3935 /
   2875 / 2515). `price_amd` is hafo's retail price.
@@ -203,13 +203,13 @@ ArmSoft disagree, check it against the rivals before asking anyone:
   500 g, zoovet adds "на развес 1 кг". Then both hafo prices are **per kg**:
   pack cost = wholesale × pack kg. Missing this put the per-kg cost on the
   bag in Siruk for 5 Trixie treats (fixed 2026-10-23).
-- Selling price: `zoovet-lookup.py --search` (Russian) and `nemo-lookup.py
+- Selling price: `siruk price zoovet --search` (Russian) and `siruk price nemo
   --search` (Armenian/Latin) by name, then compare pack and per-kg prices
   with ours. Rivals never show their cost; only hafo's wholesale does.
 - Report a table: cost (hafo wholesale × pack size, ArmSoft receipt, Siruk),
   each rival's pack and per-kg price, ours, margin at the real cost. Write a
-  corrected cost only on the user's yes (`scripts/set-variant.sh <pid> <sku>
-  '{"cost_price": …}'`, read back).
+  corrected cost only on the user's yes (`siruk set-variant <pid> <sku>
+  '{"cost_price": …}'` or MCP `update_variant`; it reads back).
 
 ## Decisions that belong to the user — ask, don't assume
 

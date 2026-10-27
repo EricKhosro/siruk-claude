@@ -197,6 +197,35 @@ class Client:
         return self.request("POST", path, raw_body=b"".join(parts), channel="media",
                             content_type=f"multipart/form-data; boundary={boundary}")
 
+    def download(self, path, timeout=None):
+        """GET a file endpoint (an .xlsx export) → (bytes, filename or None). Same auth, pacing
+        and retries as request(); raises ApiError on a final ≥400."""
+        cfg = self.cfg_loader()
+        url = self.base + path
+        headers = {"Authorization": f"Bearer {self.token()}", "Accept": "*/*", "User-Agent": config.UA}
+        attempts = max(1, int(float(cfg["retry"]["attempts"])))
+        timeout = timeout or float(cfg["request"]["timeout_seconds"])
+        for attempt in range(1, attempts + 1):
+            self.pacer.pace("api", self.log)
+            req = urllib.request.Request(url, headers=headers)
+            try:
+                with self.opener(req, timeout=timeout) as resp:
+                    data = resp.read()
+                    disp = resp.headers.get("Content-Disposition", "") if resp.headers else ""
+                self.log(f"HTTP {resp.status}  GET {path}  ({len(data)} bytes)")
+                name = disp.split("filename=")[-1].strip('"; ') if "filename=" in disp else None
+                return data, name
+            except urllib.error.HTTPError as e:
+                status, text = e.code, e.read().decode("utf-8", "replace")
+            except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+                status, text = 0, f"network error: {e}"
+            if not (self._retryable(status, cfg) and attempt < attempts):
+                self.log(f"HTTP {status:03d}  GET {path}")
+                raise ApiError(status, "GET", path, text)
+            wait = self._backoff(attempt, cfg)
+            self.log(f"HTTP {status:03d}  GET {path} — retrying in {wait:g}s (attempt {attempt}/{attempts})")
+            self.sleep(wait)
+
     def url_status(self, url):
         """HTTP status of a plain GET on a storage url (no auth). 0 = no answer."""
         cfg = self.cfg_loader()

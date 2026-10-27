@@ -97,7 +97,8 @@ categories, the product type you'd give it, attribute picks with quotes,
 **wanted-but-missing** values/attributes, image URLs, texts, `existing_id`.
 
 **Phase B — product types (once per run, before any write).**
-1. `python3 scripts/product-types.py --dump` (live roles and flags).
+1. `siruk refresh` (live roles and flags → `reference/product-types.json`;
+   fallback `python3 scripts/product-types.py --dump`).
 2. Spawn the `attribute-manager` agent in pre-import mode and feed it the
    batch: per row the code, name, intended type, category leaves, size
    (measure + content), attribute picks and the wanted-but-missing list. It
@@ -106,10 +107,11 @@ categories, the product type you'd give it, attribute picks with quotes,
    The user delegated these decisions to us; the PM edits later. Put the
    agent's created/flagged lists in the report.
 3. Save the agent's map as `runs/<date>/product-types-map.json`
-   (`{code: type id}`), refresh the menu (`scripts/refresh-attributes.sh`,
+   (`{code: type id}`), refresh the menu (`siruk refresh`,
    `scripts/live-ids.py`), build every payload — for a prepared run
    `scripts/card-import.py --run runs/<date> <code> --payload` per card — and
-   run `python3 scripts/product-types.py --check <payloads…>`. Every payload
+   run `siruk check <payloads…>` (MCP `validate_payload`; fallback
+   `python3 scripts/product-types.py --check`). Every payload
    must pass before phase C; a failing row is fixed or held, never written.
 
 For a prepared run, phase C goes one of two ways:
@@ -119,7 +121,8 @@ For a prepared run, phase C goes one of two ways:
   `-hy.json`, in set-translation.py's shape and keyed by sku, the `-KG` twin included.
   Then run `scripts/card-import.py --run runs/<date> <code> --queue` per card, which
   uploads the gallery and writes `runs/<date>/bulk/<code>.json`. Finish with
-  `scripts/bulk-create.py runs/<date>/bulk/*.json --out runs/<date>/bulk-results.json`.
+  `siruk bulk-create runs/<date>/bulk/*.json --out runs/<date>/bulk-results.json`
+  (MCP `bulk_create_products` for ≤ 25; fallback `scripts/bulk-create.py`, same arguments).
   That one call creates en/ru/hy together, refuses an item without ru/hy, fails a bad
   item alone, reads every product back and runs verify-translations.py. Then fix any
   failed items and re-run with just those files, and do step 10 per id from the results.
@@ -129,23 +132,25 @@ For a prepared run, phase C goes one of two ways:
 
 **Phase C — write (steps 7–11, one row at a time).**
 
-1. **Auth** — check `scripts/api.sh GET /account` first; if it returns 200 the
+1. **Auth** — check `siruk doctor` (MCP `account_status`; fallback
+   `scripts/api.sh GET /account`) first; if it returns 200 the
    token in `.siruk-token` is still good (they last ~1 year — do NOT re-capture
    per session). On 401: navigate to the admin, run
    `JSON.parse(localStorage.access_token).token` via `evaluate_script` (log in
    with CLAUDE.md credentials if needed), write it to `.siruk-token`, re-verify.
-   Then confirm the reference ids with `scripts/ids.sh` — the wipe renumbered
+   Then confirm the reference ids with `siruk ids` (MCP `list_reference`) — the wipe renumbered
    brands/categories once already, so never trust ids from an old report.
 2. **Load the attribute menu** — `reference/attribute-values.json`
    (attribute code → label → value id). If the user edited attributes in the
-   admin since it was written, refresh it first: `scripts/refresh-attributes.sh`.
+   admin since it was written, refresh it first: `siruk refresh`.
    This menu is the ONLY source of pickable attribute values.
 3. **Read the CSV** with the Read tool. For each row, do steps 3a–10. If the
    row's brand isn't in the admin brand list, run the `/create-brand` skill for
    it first and use the brand id it returns (creating one brand once, not per
    row); note the creation in the report.
-3a. **hafo first** — `scripts/hafo-lookup.py --code <article code> --name
-   "<name>"` (`reference/hafo.md`). **A row with no article code** (the PM's
+3a. **hafo first** — `siruk price hafo --code <article code> --name
+   "<name>"` (MCP `hafo_lookup`; same JSON as `scripts/hafo-lookup.py`;
+   `reference/hafo.md`). **A row with no article code** (the PM's
    register) is identified by name first — `scripts/identify-by-name.py`:
    hafo by Armenian name, then nemo.am / zoovet.am by name (the script adds
    their hits as `shop_candidates` when hafo is weak), then a web search —
@@ -168,8 +173,10 @@ For a prepared run, phase C goes one of two ways:
    **Before that fallback, try zoovet.am and nemo.am** (CLAUDE.md rule 2b,
    `reference/zoovet.md`; neither outranks the other), both **by product
    name** — neither carries our article code:
-   `scripts/zoovet-lookup.py --search "<russian/latin words>" [--brand <slug>]`,
-   `scripts/nemo-lookup.py --search "<armenian/latin words>" [--brand <slug>]`.
+   `siruk price zoovet --search "<russian/latin words>" [--brand <slug>]`,
+   `siruk price nemo --search "<armenian/latin words>" [--brand <slug>]`
+   (MCP `zoovet_search` / `nemo_search`; fallback `scripts/zoovet-lookup.py`,
+   `scripts/nemo-lookup.py`, same flags).
    Their hits are always `confirmed: false` — usable only once you confirm the
    identity (the article read off the pack in the full-size photo, or brand +
    line + flavour + pack all matching) and the price beats cost. Log it in
@@ -279,8 +286,10 @@ For a prepared run, phase C goes one of two ways:
      brand page; product-wide facts (breed size, food form, diet, health
      feature) are identical on every variant — if they aren't, it's a separate
      product (see `reference/data-tables.md`).
-7. **Images** — `scripts/upload-media.sh <image-url> products/<brand-slug>/<type>`
-   per image (it downloads with a browser User-Agent and prints the media id).
+7. **Images** — `siruk media upload <image-url> --folder products/<brand-slug>/<type>`
+   per image (MCP `upload_media`; fallback `scripts/upload-media.sh <url> <folder>`).
+   It downloads with a browser User-Agent, flattens / downscales, verifies and
+   prints the media id.
    The folder is required by rule 7 — never the media root; `<type>` is the
    type skill's name (`dry-food`, `toys`, …). `MEDIA_DIR=…` in the environment
    does the same for scripts that call it without the argument. Collect the ids for the
@@ -306,9 +315,9 @@ For a prepared run, phase C goes one of two ways:
    a hafo photo, which is a watermarked placeholder: last in the gallery and
    on `runs/<date>/needs-image.csv` (CLAUDE.md rules 7, 7a, 7b).
 8. **Does it already exist?** — before writing anything:
-   `scripts/find-product.sh "<product line name>"` (try the line name without
+   `siruk find "<product line name>"` (MCP `find_products`; try the line name without
    lifestage/weight/flavor, then the brand name if that misses), and
-   `scripts/show-product.sh <id>` on any hit. A hit is the **same product** only
+   `siruk show <id>` (`get_product`) on any hit. A hit is the **same product** only
    if brand, line, lifestage, breed size, food form, diet and health claims all
    match and it differs only in **pack weight, flavor or texture** (food) or
    **size, colour, dose band** (accessories, grooming, antiparasitics) — then
@@ -317,14 +326,16 @@ For a prepared run, phase C goes one of two ways:
    Ribs with Duck". A live single-variant product whose Name still carries the
    axis ("Barbecue Ribs with Chicken", "Flash USB Light Collar, nylon, M–L …,
    red") IS the line product: add the row to it and rename it to the line name
-   with `scripts/rename-product.sh` (label + attributes carry the axis from
+   with `siruk rename` / `rename_product` (label + attributes carry the axis from
    then on). For Trixie the strongest key is the **page**: a live product whose
    variant sits on the same trixie.de page takes the row (`plan-trixie.py`
    does this with `existing_id`). 55 duplicates made by ignoring this were
    folded away on 2026-09-16.
-9. **Write via API** — one of two paths, both scripted (write the JSON to
-   `.siruk-cache/` and pass the path):
-   - **New product** → `scripts/create-product.sh <payload.json>`. Payload shape
+9. **Write via API** — one of two paths, through `siruk` (write the JSON to
+   `.siruk-cache/` and pass the path; add `--dry-run` to see the body and diff
+   first; via MCP the tool is a dry run until `confirm: true`):
+   - **New product** → `siruk create <payload.json>` (MCP `create_product`;
+     fallback `scripts/create-product.sh`). Payload shape
      in CLAUDE.md / the script header: name, slug, `category_ids` (**every**
      leaf that fits — the category map and the multi-category table in
      `reference/product-rules.md`), `brand_id`, `attribute_family_id` (the
@@ -339,11 +350,12 @@ For a prepared run, phase C goes one of two ways:
      — re-run `scripts/backfill-variant-codes.py` after that import),
      `price_source_url` = the exact hafo / zoovet / nemo page whose price you
      wrote (none for a register price or the sibling rule). Never
-     `merch_boost` / pins / complements. Shape: `scripts/siruk_payload.py`.
-     Both write scripts refuse a variant priced at or below cost and anything
+     `merch_boost` / pins / complements. Shape: `siruk/payload.py`.
+     Both write paths refuse a variant priced at or below cost and anything
      the product type refuses. It refuses if a similar product already exists
-     (`FORCE=1` overrides), then POSTs and reads back.
-   - **Existing product** → `scripts/add-variant.sh <id> <variant.json>` with
+     (`--force` / `FORCE=1` overrides, on the user's say-so), then POSTs and reads back.
+   - **Existing product** → `siruk add-variant <id> <variant.json>` (MCP
+     `add_variant`; fallback `scripts/add-variant.sh`) with
      ONE variant object (no `id`; it sets `is_default`, `sort_order` and the
      sale mode for you). It rebuilds the PUT body from a fresh GET and
      refuses to write if any existing variant would be lost, or if the new
@@ -352,7 +364,7 @@ For a prepared run, phase C goes one of two ways:
      variants array, so an omitted variant is deleted (silently, 200; 422 if it
      was the default). If the product Name still carries a pack weight from when
      it was single-variant (e.g. "… 8kg"), fix Name/slug with
-     `scripts/rename-product.sh`, and move the weight into the variant labels.
+     `siruk rename`, and move the weight into the variant labels.
 
    Group rows into products using "Product vs variant" in
    `reference/data-tables.md` — **the shelf test**: variants are the same pack
@@ -371,11 +383,12 @@ For a prepared run, phase C goes one of two ways:
    of the English you just wrote, no new claims. Keep the variant labels,
    units and numbers as in English ("12 x 85 g" stays). For the `hy` name
    prefer the wording hafo's Armenian `title` uses when the row was
-   hafo-confirmed. Run `scripts/set-translation.py <id> ru <file>` then `hy`;
-   both must print OK. A product added as a variant to an existing product
+   hafo-confirmed. Run `siruk translate <id> ru <file>` then `hy` (MCP
+   `set_translation`; fallback `scripts/set-translation.py`, same file);
+   both must read back OK. A product added as a variant to an existing product
    needs the new variant's texts translated too (same script, same product id).
-10. **Verify** — `scripts/show-product.sh <id>` (both write scripts already
-   print this): confirm name, categories (**all** of them — a dual-species item
+10. **Verify** — `siruk show <id>` (`get_product`; the writes already read
+   back): confirm name, categories (**all** of them — a dual-species item
    must show both trees' leaves), that **every** variant (pre-existing +
    new) is present with the right price, size label, available stock and
    images, and that `attribute_values` are set as intended. For a
@@ -384,7 +397,7 @@ For a prepared run, phase C goes one of two ways:
    — every variant reachable, no two "Size" rows.
    Record status, and say in the report whether the row was created as a new
    product or added as a variant to an existing one.
-11. **Breathe, then next row** — `scripts/pace.sh product` between rows (the
+11. **Breathe, then next row** — `siruk pace product` between rows (the
    pause comes from `config.json → product.pause_seconds`; API calls and uploads
    are paced and retried by the scripts themselves — don't add your own sleeps,
    change `config.json` instead).

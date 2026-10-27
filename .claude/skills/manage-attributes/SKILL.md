@@ -26,12 +26,13 @@ Base `https://demo-api.siruk.am/api/admin` · header
 `Authorization: Bearer <JWT>` · always send a real User-Agent (WAF 403s
 `Python-urllib`; curl default is fine).
 
-**Use `scripts/api.sh METHOD PATH [payload.json|-]` for every call** (it handles
-auth, status codes and error dumps) and `scripts/ids.sh` to see what exists —
+**Use `siruk api METHOD PATH [payload.json|-|inline JSON]` for every call** (it
+handles auth, pacing, retries and status codes; fallback `scripts/api.sh`, same
+arguments) and `siruk ids` to see what exists —
 see `scripts/README.md`. The paths below are what to pass it.
 
 - Token: `.siruk-token` in the repo root (gitignored, survives reboots). Verify
-  with `scripts/api.sh GET /account`; only if that 401s, re-capture from the
+  with `siruk doctor`; only if that 401s, re-capture from the
   logged-in SPA via chrome-devtools MCP
   (`JSON.parse(localStorage.access_token).token`) and rewrite that file.
 - List: `GET /attributes?forProducts=true` → `{data:[{id,code,name,values:[{id,label,value}]}]}`
@@ -103,10 +104,10 @@ see `scripts/README.md`. The paths below are what to pass it.
    the customer picks between variants of one product (flavour, colour, toy
    size, dose band), `attribute` for specs and filters; `is_filterable` on the
    type is what puts an attribute in the category sidebar.
-5. **Refresh the snapshots**: `scripts/refresh-attributes.sh` (regenerates
+5. **Refresh the snapshots**: `siruk refresh` (regenerates
    `reference/attribute-values.json` from a fresh
-   `GET /attributes?forProducts=true`, atomic write) and, after any product-type
-   change, `scripts/product-types.py --dump` (→ `reference/product-types.json`).
+   `GET /attributes?forProducts=true` and `reference/product-types.json`, atomic
+   writes; fallback `scripts/refresh-attributes.sh` + `scripts/product-types.py --dump`).
 6. **Report**: table of created (name → id), skipped-as-duplicate,
    flagged near-matches/questions, and any endpoint discoveries appended to
    `reference/admin-api.md`.

@@ -15,7 +15,7 @@ from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
 from siruk import client as _client
-from siruk import bulk, config, lookups, media, pricecheck, products, refdata, stock, translations, verify
+from siruk import bulk, config, export, lookups, media, pricecheck, products, refdata, stock, translations, verify
 from siruk.payload import PayloadError
 
 MAX_IDS = 50       # per call: a full-catalogue sweep belongs in the CLI (`siruk verify-translations`)
@@ -220,6 +220,45 @@ def upload_media(source: str, folder: str, keep_alpha: bool = False, confirm: bo
     """Upload an image (local path or url) into products/<brand-slug>/<type>, logos, categories or
     banners, verify it is readable, and return its media id for a variant's images."""
     return media.upload(source, folder, keep_alpha=keep_alpha, dry_run=not confirm)
+
+
+# ------------------------------------------------------------------ export ----
+@mcp.tool(annotations=READ)
+@_clean
+def export_catalogue(lang: str = "en", updated_since: str = "", search: str = "", fields: list[str] | None = None,
+                     limit: int = 200, offset: int = 0) -> dict:
+    """The whole catalogue in one call, one record per variant (GET /products/export?format=json).
+    Default fields are compact (no long texts); pass fields to choose, e.g. ["sku", "price",
+    "about_this_item"]. All fields: product_id, product_name, slug, brand_id, brand, category_ids,
+    categories, product_type, is_discontinued, is_on_sale, is_best_seller, variant_id, sku,
+    variant_name, size, options, barcode, accounting_code, sale_mode, measure_type, content,
+    pack_count, price, compare_at_price, cost_price, unit_price, stock_status, available,
+    is_purchasable, price_source_url, image_ids, image_urls, about_this_item, about_this_item_html,
+    ingredients, feeding_instructions, updated_at. updated_since (a date) narrows to recent edits;
+    page with limit/offset (limit ≤ 1000)."""
+    rows = export.records(lang, updated_since or None, search or None)
+    limit = max(1, min(int(limit), 1000))
+    return {"total": len(rows), "offset": offset, "limit": limit,
+            "rows": export.pick(rows, fields, limit, offset),
+            "more": offset + limit < len(rows)}
+
+
+@mcp.tool(annotations=READ)
+@_clean
+def catalogue_audit(updated_since: str = "", search: str = "", examples: int = 20) -> dict:
+    """Catalogue-wide checks from one export: below cost, no barcode, no ArmSoft code, empty
+    gallery, no price source, pack with no content, not purchasable, out of stock, products with
+    no variants, duplicate barcodes and SKUs. Counts plus up to `examples` rows per check."""
+    return export.audit(export.records("en", updated_since or None, search or None), examples=examples)
+
+
+@mcp.tool(annotations=ToolAnnotations(read_only_hint=False, destructive_hint=False, idempotent_hint=True,
+                                      open_world_hint=True))
+@_clean
+def save_catalogue_export(format: str = "xlsx", lang: str = "en", updated_since: str = "", search: str = "") -> dict:
+    """Save the export as a file in runs/<date>/ for the user (xlsx = the admin's own sheet; json or
+    csv). Changes nothing on the server. Returns the path."""
+    return export.save(None, format, lang, updated_since or None, search or None)
 
 
 # ------------------------------------------------------- end-of-run checks ----
