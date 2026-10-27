@@ -13,7 +13,7 @@
       },
       "siruk": {
         "type": "local",
-        "command": ["uv", "run", "--quiet", "siruk-mcp"]
+        "command": ["uv", "run", "--quiet", "python", "-m", "siruk.mcp_server"]
       }
     }
   },

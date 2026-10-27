@@ -12,6 +12,15 @@ Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
   CLAUDE.local.md note that it has "no media ids / image urls, category ids,
   brand id" predates this. Wrapped as `siruk export` / `--audit` and the MCP
   tools `export_catalogue`, `catalogue_audit`, `save_catalogue_export`.
+- **Lifted — `uv run siruk` failed while an MCP server ran** ("failed to remove
+  file … siruk-mcp.exe … used by another process"). `.mcp.json` started the
+  server through the `siruk-mcp.exe` entry point, which every Claude window
+  keeps open, and once a sync fails uv retries it on every `uv run`. The server
+  now starts as `uv run --quiet python -m siruk.mcp_server` (python.exe is never
+  replaced). Tested in a copy of the project: old launch → the CLI fails, new
+  launch → the CLI re-installs and runs while the server keeps serving. Windows
+  opened before 2026-10-27 15:30 still run the old launch until their MCP
+  server restarts; meanwhile `uv run --no-sync siruk …` works.
 
 ## 2026-10-26
 

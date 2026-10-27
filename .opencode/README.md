@@ -12,7 +12,7 @@ Nothing in `.claude/` was removed — Claude Code still works unchanged.
 | Skills | `.claude/skills/*/SKILL.md` | Auto-discovered by OpenCode's project-compatibility search. No copy needed. |
 | Slash commands | `.opencode/commands/*.md` | `/add-products`, `/create-brand`, `/manage-attributes`, `/google-lens`. Each loads its skill via the `skill` tool. OpenCode does not turn a skill into a `/` command by itself, so these replace the Claude Code behaviour. |
 | `attribute-manager` agent | `.opencode/agents/attribute-manager.md` | A **symlink** to `.claude/agents/attribute-manager.md`. OpenCode does not read `.claude/agents/`, and its file layout is the same (frontmatter + body = system prompt). The shared file carries `mode: subagent` for OpenCode and `name:` for Claude Code; each ignores the other's field. |
-| MCP servers | `opencode.jsonc` (repo root), `mcp.servers` | `.mcp.json` is Claude Code's file and is not read. `chrome-devtools` and `siruk` (the admin API as tools, `uv run siruk-mcp`) are repeated there. |
+| MCP servers | `opencode.jsonc` (repo root), `mcp.servers` | `.mcp.json` is Claude Code's file and is not read. `chrome-devtools` and `siruk` (the admin API as tools, `uv run python -m siruk.mcp_server`) are repeated there. |
 | Permissions | `opencode.jsonc`, `permissions` | Demo work runs unattended; commands touching `api.siruk.am` (production) ask first. |
 
 ## Using it

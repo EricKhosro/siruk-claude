@@ -295,7 +295,8 @@ a script.
 - **TUI** — `uv run siruk tui`: search, product + variants (margin, red below
   cost), variant/stock/hafo tabs; `e` edit variant, `t` translate, `s` stock,
   `n` rename, `h` hafo price. Every write shows its diff and asks first.
-- **MCP** — `siruk` in `.mcp.json` / `opencode.jsonc` (`uv run siruk-mcp`):
+- **MCP** — `siruk` in `.mcp.json` / `opencode.jsonc` (`uv run python -m
+  siruk.mcp_server`, not the `siruk-mcp` exe — see the venv-lock bullet below):
   read tools plus guarded writes that are **dry runs unless `confirm: true`**.
   No deletes, no raw API, no below-cost / no-image override (CLI only).
   `export_catalogue` (paged, compact fields by default), `catalogue_audit`
@@ -307,6 +308,13 @@ a script.
   arguments and output).
 - Same token (`.siruk-token`), `config.json` pacing and `.siruk-cache/.pace-*`
   state as `scripts/api.sh`. Tests: `uv run --group dev pytest` (offline).
+- **Venv lock on Windows** (2026-10-27). `uv run` re-installs the project
+  whenever `pyproject.toml` changed or an earlier sync failed, and Windows
+  can't replace an `.exe` that is running. So the MCP server starts as
+  `python -m siruk.mcp_server` and holds no entry-point exe. If `uv run siruk`
+  still fails with "failed to remove file … siruk-mcp.exe / siruk.exe … used by
+  another process" (a session started before this change, or a TUI open), use
+  `uv run --no-sync siruk …`, or restart that session's `siruk` MCP server.
 
 ## The pipeline (one row at a time, verified before the next)
 

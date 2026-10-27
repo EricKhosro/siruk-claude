@@ -6,7 +6,7 @@
     },
     "siruk": {
       "command": "uv",
-      "args": ["run", "--quiet", "siruk-mcp"]
+      "args": ["run", "--quiet", "python", "-m", "siruk.mcp_server"]
     }
   }
 }
