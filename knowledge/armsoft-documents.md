@@ -40,13 +40,17 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   cost). The toilet: user approved **9,800** (recommendation 9,820; hafo's
   plain Vico same size/cost sells at 9,800) → ArmSoft **1617** (price by XML),
   Siruk **1442** (EAN 4011905402109). ArmSoft 0302 is named "Vico Be Eco" but
-  is the Be Eco **Carlo** tray 40211 (Siruk 1062) — name to fix. Receipt waits
-  for the S Color identity.
+  is the Be Eco **Carlo** tray 40211 (Siruk 1062) — name to fix. The "S Color"
+  leash = EAN **4000498014219** (box label "flexi Colo… blau") = flexi Color
+  Dots S cord 5 m blue (PetSky prints the EAN; discontinued on flexi.de); no
+  rival price, user approved the recommendation **8,100** → ArmSoft **1618**,
+  Siruk **1443**. All four on **receipt 0024**, posted.
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0024** | 28/10 | Pet House **A1081354321** (23,185 incl. VAT): 1617 Be Eco Vico 6,125 · 1615 Neon M blue 8,000 · 1616 Black Design S cord pink 4,000 · 1618 Color Dots S cord blue 5,060, 1 each | posted by Claude, user yes |
 | receipt **0023** | 28/10 | Pet House **A3297411457** (56,500 incl. VAT): 0039 Monge Indoor 10 kg as 303 × 10 @ 2,700; 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500** (29,500 / 15 kg doesn't fit 2 decimals). Stock after: 0039 16.74 kg, 0043 1.807 bags (27.1 kg) | posted by Claude, user yes |
 | receipt **0022** | 27/10 | Pet House **A1412872447** (103,215 incl. VAT, 39 lines, 72 pcs): 29 existing goods at their last cost + 10 new goods 1605–1614 (imported the same day from `final/armsoft-2026-10-27/new-goods-1605-1614.xml`); 16 Nappy pads 0197 | posted by Claude |
 | receipt **0021** | 27/10 | Pet House **A4477972797** (pulled with the e-invoice import, 57,865 incl. VAT): 0237 0238 litter ×1, 0040 Monge Kitten 10 kg (303 × 10 @ 2,700), 0049 Gemon Mini 20 kg (303 × 20 @ 1,000), 1499 Jimmy bed ×1. Bags booked in kg, not as 1 kg. All five already on Siruk, costs equal. User: under half of the order came; the nappy pads were not on it | posted by Claude (made from the XML, not from the e-invoice) |
