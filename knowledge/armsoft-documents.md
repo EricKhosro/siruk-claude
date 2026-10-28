@@ -50,6 +50,8 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0025** | 28/10 | 0300 Carlo tray with rim 38×17×58 grey (Trixie 40121) +1 at 2,560, no supplier — other half of issue 0003 | posted by Claude, user yes |
+| issue **0003** | 28/10 | 0302 −1 (cost 2,560): 0302 "Vico Be Eco" was a duplicate of 0300 (seller's tag on the tray: #40121, EAN 4011905401218, user 2026-10-28). Barcode 4011905402116 (Trixie 40211, ours by mistake) removed from 0302; 0302 stays unused. Siruk 1062 "Litter Tray Carlo" (40211) set discontinued, ArmSoft code cleared | posted by Claude, user yes |
 | receipt **0024** | 28/10 | Pet House **A1081354321** (23,185 incl. VAT): 1617 Be Eco Vico 6,125 · 1615 Neon M blue 8,000 · 1616 Black Design S cord pink 4,000 · 1618 Color Dots S cord blue 5,060, 1 each | posted by Claude, user yes |
 | receipt **0023** | 28/10 | Pet House **A3297411457** (56,500 incl. VAT): 0039 Monge Indoor 10 kg as 303 × 10 @ 2,700; 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500** (29,500 / 15 kg doesn't fit 2 decimals). Stock after: 0039 16.74 kg, 0043 1.807 bags (27.1 kg) | posted by Claude, user yes |
 | receipt **0022** | 27/10 | Pet House **A1412872447** (103,215 incl. VAT, 39 lines, 72 pcs): 29 existing goods at their last cost + 10 new goods 1605–1614 (imported the same day from `final/armsoft-2026-10-27/new-goods-1605-1614.xml`); 16 Nappy pads 0197 | posted by Claude |
