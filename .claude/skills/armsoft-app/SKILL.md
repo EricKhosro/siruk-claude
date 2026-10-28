@@ -294,6 +294,13 @@ scrollbar right; outgoing shows red and negative), comment. Double-click a row
 to open the document read-only: maximize it to see the lines (unit 003 = a
 whole bag, 303 + PLU = loose kg). Escape closes it without saving.
 
+## New goods + sale prices by XML (2026-10-28)
+
+One XML can carry `<Goods>` and `<Prices>` (PriceType 01, Unit, Date, Price)
+blocks; navigator `Ներմուծել` → Ներմուծել տվյալներ → Բացել lists both types,
+tick both, Ներմուծել. Prices land without typing (the hand-typed price was
+refused before). Example: `final/armsoft-2026-10-28/new-goods-1615-1616.xml`.
+
 ## What needs the user
 
 - **Prices**: typing a price (edit form → Գներ, or the price list) was refused

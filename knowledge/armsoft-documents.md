@@ -30,6 +30,14 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   56,500 incl. VAT): Monge Indoor cat 10 kg 27,000 (0039, Siruk 1162) and
   Monge Medium Adult 15 kg 29,500 (0043, Siruk 1319), 1 bag each; costs equal
   Siruk's → receipt 0023.
+- Fourth pull 2026-10-28 imported **A1081354321** (Pet House, 28/10, 23,185
+  incl. VAT, 4 × 1): Trixie Be Eco Vico 40×40×56 grey-green 6,125 (Trixie
+  40210 per Galaxus — no hafo/zoovet/nemo row; ArmSoft 0302 is a different
+  Be Eco tray, EAN 4011905402116); flexi New Neon M tape blue 8,000 (hafo
+  032118 → ArmSoft **1615**, Siruk 1150 variant 2236); flexi Black Design S
+  cord black/pink 4,000 (hafo 033318 → ArmSoft **1616**, Siruk 1441); leash
+  "S, 12 kg 5 m blue, S Color" 5,060 — not identified (no hafo row at that
+  cost). Receipt waits for the toilet's price and the S Color identity.
 
 ## Documents (newest first)
 
