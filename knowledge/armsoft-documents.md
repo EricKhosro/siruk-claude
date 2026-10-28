@@ -37,7 +37,11 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   032118 → ArmSoft **1615**, Siruk 1150 variant 2236); flexi Black Design S
   cord black/pink 4,000 (hafo 033318 → ArmSoft **1616**, Siruk 1441); leash
   "S, 12 kg 5 m blue, S Color" 5,060 — not identified (no hafo row at that
-  cost). Receipt waits for the toilet's price and the S Color identity.
+  cost). The toilet: user approved **9,800** (recommendation 9,820; hafo's
+  plain Vico same size/cost sells at 9,800) → ArmSoft **1617** (price by XML),
+  Siruk **1442** (EAN 4011905402109). ArmSoft 0302 is named "Vico Be Eco" but
+  is the Be Eco **Carlo** tray 40211 (Siruk 1062) — name to fix. Receipt waits
+  for the S Color identity.
 
 ## Documents (newest first)
 
