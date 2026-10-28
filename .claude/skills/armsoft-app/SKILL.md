@@ -221,6 +221,11 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
   the period from 01/01/25) — it holds invoices the online list misses
   (Ucom, Toz-Master, the shop-bag supplier). Double-click → tab
   Անվանացուցակ for the lines.
+  The report and the journal's period dialog can open **behind the main
+  window** (2026-10-28: the screen looked unchanged after Կատարել). Find
+  them with EnumWindows on the AS Trade process (title "Ստացված հաշիվների
+  մատյան") and bring them forward (AttachThreadInput + SetForegroundWindow).
+  The report footer "Չներմուծված փաստաթղթերի քանակը N" = N already in.
 
 - **e-invoicing** (home tile, or navigator search `հարկային`): "Ստացված
   հարկային հաշիվներ" lists the supplier tax invoices straight from the tax
@@ -250,6 +255,12 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
   went wrong: Tab after the code leaves the grid, Ctrl+A in a cell selects
   text elsewhere, and new rows scroll the grid so fixed coordinates drift.
   Example: `final/armsoft-2026-10-23/stock-fix-receipt-0017.xml`.
+  **Price takes at most 2 decimals** (2026-10-28: 1966.6667 refused, "'Գին'
+  … 0 - 2 միջակայքից"; errors show on the import window's Մանրամասն tab).
+  When bag cost ÷ kg isn't a round 2-decimal number, book the bag in its bag
+  unit (003 × 1 @ bag cost) — the stock in kg comes out the same.
+  A document opened from a list can open behind the main window: raise it
+  (EnumWindows on the AS Trade process, AttachThreadInput + SetForegroundWindow).
 - **Editing a posted receipt**: Գլխավոր ribbon → "Սևագիր" (Ctrl+Shift+D)
   turns it back into a draft (its stock leaves until reposted), edit, Ctrl+S.
   In the grid, click a cell **then press ↓ before typing**: a click puts the

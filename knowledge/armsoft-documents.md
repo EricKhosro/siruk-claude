@@ -22,11 +22,20 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   «ՏՈՊՐԱԿ ՄՈԼ», 255,000, no VAT) = shop carrier bags 28×24×14 and 37×32×20,
   supplies, no receipt; Ucom A4320961395 A5995523535 A3029868195 and
   Toz-Master A7715964500 = services.
+- Pull run 2026-10-28 for 01/10–28/10: 13 invoices, all already in ("Ոչ");
+  nothing new since A1412872447 (27/10, receipt 0022). Re-run the same day:
+  same 13. A2193010659 (08/10, «ՀԱՅԿԱԿԱՆ ԾՐԱ…», ՀՎՀՀ 00807555, 19,000)
+  = services (likely the ArmSoft vendor), no receipt.
+- Third pull 2026-10-28 (17:19) imported **A3297411457** (Pet House, 28/10,
+  56,500 incl. VAT): Monge Indoor cat 10 kg 27,000 (0039, Siruk 1162) and
+  Monge Medium Adult 15 kg 29,500 (0043, Siruk 1319), 1 bag each; costs equal
+  Siruk's → receipt 0023.
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0023** | 28/10 | Pet House **A3297411457** (56,500 incl. VAT): 0039 Monge Indoor 10 kg as 303 × 10 @ 2,700; 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500** (29,500 / 15 kg doesn't fit 2 decimals). Stock after: 0039 16.74 kg, 0043 1.807 bags (27.1 kg) | posted by Claude, user yes |
 | receipt **0022** | 27/10 | Pet House **A1412872447** (103,215 incl. VAT, 39 lines, 72 pcs): 29 existing goods at their last cost + 10 new goods 1605–1614 (imported the same day from `final/armsoft-2026-10-27/new-goods-1605-1614.xml`); 16 Nappy pads 0197 | posted by Claude |
 | receipt **0021** | 27/10 | Pet House **A4477972797** (pulled with the e-invoice import, 57,865 incl. VAT): 0237 0238 litter ×1, 0040 Monge Kitten 10 kg (303 × 10 @ 2,700), 0049 Gemon Mini 20 kg (303 × 20 @ 1,000), 1499 Jimmy bed ×1. Bags booked in kg, not as 1 kg. All five already on Siruk, costs equal. User: under half of the order came; the nappy pads were not on it | posted by Claude (made from the XML, not from the e-invoice) |
 | receipt **0020** | 27/10 | **settled 27/10: turned into a draft** after 0022 brought the real 16 pads (0197 stock 11 = 16 − 5 sold); delete is the user's. Was **temporary**: 0197 Nappy 60×90 × 8 pcs at 255 (2,040), no supplier — the delivery's e-invoice wasn't issued yet, a customer wanted it; fix when it arrives (state/open-items.csv) | posted by Claude, user asked |
