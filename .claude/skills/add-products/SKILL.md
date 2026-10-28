@@ -286,8 +286,11 @@ For a prepared run, phase C goes one of two ways:
      brand page; product-wide facts (breed size, food form, diet, health
      feature) are identical on every variant — if they aren't, it's a separate
      product (see `reference/data-tables.md`).
-7. **Images** — `siruk media upload <image-url> --folder products/<brand-slug>/<type>`
-   per image (MCP `upload_media`; fallback `scripts/upload-media.sh <url> <folder>`).
+7. **Images** — `siruk media upload <image-url> --folder products/<brand-slug>/<type>
+   --alt "{Brand} {Name}"` per image (MCP `upload_media` with `alt`; fallback
+   `scripts/upload-media.sh <url> <folder>`, then `scripts/set-media-alt.py --ids …`).
+   alt = caption is the SEO text (rule 15); create / add-variant re-set it from
+   the final name anyway.
    It downloads with a browser User-Agent, flattens / downscales, verifies and
    prints the media id.
    The folder is required by rule 7 — never the media root; `<type>` is the
@@ -385,7 +388,9 @@ For a prepared run, phase C goes one of two ways:
    prefer the wording hafo's Armenian `title` uses when the row was
    hafo-confirmed. Run `siruk translate <id> ru <file>` then `hy` (MCP
    `set_translation`; fallback `scripts/set-translation.py`, same file);
-   both must read back OK. A product added as a variant to an existing product
+   both must read back OK. Each translate also writes that locale's SEO meta
+   from the new name (rule 15, ≤ 60 / ≤ 160 chars) — no separate step; the
+   en meta went with the create. A product added as a variant to an existing product
    needs the new variant's texts translated too (same script, same product id).
 10. **Verify** — `siruk show <id>` (`get_product`; the writes already read
    back): confirm name, categories (**all** of them — a dual-species item

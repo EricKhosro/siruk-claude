@@ -13,6 +13,7 @@ from dataclasses import dataclass, field
 
 from siruk import client as _client
 from siruk import payload as P
+from siruk import seo
 from siruk.config import CACHE
 
 PayloadError = P.PayloadError
@@ -197,6 +198,9 @@ def create(payload, dry_run=False, force=False, allow_below_cost=None, allow_no_
         if hits:
             raise DuplicateError(name, hits)
     body = P.post_body(payload, warnings=warns)
+    brand = seo.brand_name(body.get("brand_id"))
+    if brand:
+        body["meta"] = seo.meta("en", brand, name)   # ru / hy meta comes with each translate
     diff = [{"sku": v["sku"], "field": "(new variant)", "old": None,
              "new": {k: v.get(k) for k in ("name", "price", "cost_price", "content")}} for v in body["variants"]]
     res = WriteResult("create", None, dry_run, body, diff, warns)
@@ -204,6 +208,7 @@ def create(payload, dry_run=False, force=False, allow_below_cost=None, allow_no_
         return res
     made = _c().post("/products", body) or {}
     res.product_id = (made.get("data") or {}).get("id")
+    res.warnings += [f"image alt set on media {m}" for m in seo.set_image_alts(res.product_id)]
     res.after = get(res.product_id)
     _snapshot(res.product_id, "after", res.after)
     return res
@@ -222,7 +227,10 @@ def add_variant(pid, variant, dry_run=False, allow_below_cost=None, allow_no_ima
     _snapshot(pid, "before", before)
     P.image_guard([variant], before.get("variants") or [], allow=allow_no_image)
     body = P.put_body(before, variant, warnings=warns)
-    return _put(int(pid), before, body, "add_variant", dry_run, warns, added=1)
+    res = _put(int(pid), before, body, "add_variant", dry_run, warns, added=1)
+    if not dry_run:
+        seo.set_image_alts(pid)
+    return res
 
 
 def update_variant(pid, sku, patch, replace_attrs=False, dry_run=False, allow_below_cost=None):
@@ -261,4 +269,10 @@ def rename(pid, name, slug=None, dry_run=False):
     body["name"] = name
     if slug:
         body["slug"] = slug
-    return _put(int(pid), before, body, "rename", dry_run, warns)
+    brand = seo.brand_name(before.get("brand_id"))
+    if brand:
+        body["meta"] = seo.meta("en", brand, name)
+    res = _put(int(pid), before, body, "rename", dry_run, warns)
+    if not dry_run:
+        seo.set_image_alts(pid)
+    return res

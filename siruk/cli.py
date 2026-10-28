@@ -8,6 +8,7 @@
     siruk verify-translations --only 874,875
     siruk recheck-prices --only 874 [--apply]
     siruk export [--lang hy] [--format csv] | siruk export --audit
+    siruk listing-order show | set groups.json --dry-run
     siruk tui                            the full-screen editor
     siruk mcp                            the MCP server on stdio
 
@@ -277,6 +278,47 @@ def cmd_stock(a):
     return 0
 
 
+def cmd_listing_order(a):
+    from siruk import listing
+    if a.action == "show":
+        rows = listing.show()
+        if a.json:
+            output.dump(rows)
+        elif not rows:
+            print("no listing order set — Relevance is relevance_score + merch_boost only")
+        else:
+            output.table(rows, [("position", "#"), ("brand", "brand"), ("category", "category"),
+                                ("brand_id", "brand id"), ("category_id", "cat id")])
+        return 0
+    fn = {"set": lambda d: listing.set_groups(_load_json(a.groups), dry_run=d),
+          "add": lambda d: listing.add(a.brand, a.category, a.at, dry_run=d),
+          "remove": lambda d: listing.remove(a.position, dry_run=d),
+          "clear": lambda d: listing.set_groups([], dry_run=d, allow_empty=True)}[a.action]
+    if a.action == "set" and not a.groups:
+        raise PayloadError("set needs the groups: [{\"brand\": \"Monge\", \"category\": 3}, …] (file, '-' or inline)")
+    if a.action == "add" and not a.brand:
+        raise PayloadError("add needs --brand (id or name)")
+    if a.action == "remove" and not a.position:
+        raise PayloadError("remove needs --position")
+    res = fn(True)
+    if not a.dry_run and res["changed"]:
+        if not _confirm(a, f"listing order ({len(res['after'])} groups)"):
+            return 1
+        res = fn(False)
+    if a.json:
+        output.dump(res)
+        return 0
+    print("listing order: " + ("unchanged" if not res["changed"] else
+                               "DRY RUN — nothing written" if res["dry_run"] else "written, read back verified"))
+    cols = [("position", "#"), ("brand", "brand"), ("category", "category")]
+    if res["changed"]:
+        print("before:")
+        output.table(res["before"], cols)
+        print("after:")
+    output.table(res["after"], cols)
+    return 0
+
+
 def _ids_arg(s):
     return [int(x) for x in s.split(",") if x.strip()] if s else None
 
@@ -412,7 +454,7 @@ def cmd_media(a):
         return 0 if ok else 1
     folder = a.folder or os.environ.get("MEDIA_DIR", "")
     r = media.upload(a.target[0], folder, keep_alpha=a.keep_alpha or os.environ.get("KEEP_ALPHA") == "1",
-                     dry_run=a.dry_run, log=log)
+                     dry_run=a.dry_run, log=log, alt=a.alt)
     if a.json:
         output.dump(r)
     else:
@@ -538,6 +580,14 @@ def build_parser():
     p.add_argument("--note", default="")
     p.add_argument("--reason", default="correction")
     p.add_argument("--unit-cost", type=float)
+    p = add("listing-order", cmd_listing_order,
+            "brand + category groups that lead Relevance listings (the PM's / user's order)", writes=True)
+    p.add_argument("action", choices=["show", "set", "add", "remove", "clear"])
+    p.add_argument("groups", nargs="?", help="set: the whole ordered list as JSON (file, '-' or inline)")
+    p.add_argument("--brand", help="add: brand id or exact name")
+    p.add_argument("--category", type=int, help="add: category id (default: the whole brand)")
+    p.add_argument("--at", type=int, help="add: 1-based position (default: the end)")
+    p.add_argument("--position", type=int, help="remove: the group's position")
     p = add("bulk-create", cmd_bulk_create, "create many NEW products in one call (en/ru/hy)", writes=True)
     p.add_argument("files", nargs="+", help="create payloads (bulk-create.py's shape)")
     p.add_argument("--en-only", action="store_true", help="allow a missing ru/hy (translate after)")
@@ -572,6 +622,7 @@ def build_parser():
     p.add_argument("target", nargs="+", help="upload: file or url; check: media ids")
     p.add_argument("--folder", help="products/<brand-slug>/<type> | logos | categories | banners")
     p.add_argument("--keep-alpha", action="store_true")
+    p.add_argument("--alt", help='alt = caption, e.g. "{Brand} {Name}" (SEO); default the file name')
     p = add("price", cmd_price, "rival price lookups: hafo (by code), zoovet / nemo (by name)")
     p.add_argument("source", choices=["hafo", "zoovet", "nemo"])
     p.add_argument("--code")

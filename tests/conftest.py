@@ -79,6 +79,8 @@ class FakeClient(_client.Client):
         if path.startswith("/products?search="):
             return {"data": [{"id": 874, "name": PRODUCT["name"], "brand": "Gemon", "categories": []}],
                     "meta": {"last_page": 1}}
+        if path.startswith("/brands"):
+            return {"data": [{"id": 18, "name": "Gemon"}]}
         if path == "/account":
             return {"currentUser": {"email": "dev@example.test", "role": "admin"}}
         raise AssertionError(f"unexpected GET {path}")

@@ -21,7 +21,7 @@ Created products are read back (skus, prices, image counts, ru/hy names).
 import copy, os
 
 from siruk import client as _client
-from siruk import config, products
+from siruk import config, products, seo
 from siruk import payload as P
 
 LOCALES = ("en", "hy", "ru")
@@ -239,6 +239,13 @@ def create(items, dry_run=False, en_only=False, force=None, allow_below_cost=Non
                 probs = read_back(item["id"], b)
                 results[label] = {"status": "created", "id": item["id"], "slug": item["slug"],
                                   "read_back": probs or "ok"}
+                # a bulk body can't carry per-product meta (HasSeo reads the top-level request)
+                try:
+                    results[label]["seo"] = seo.apply_meta(item["id"], langs=seo.LANGS if not en_only else ("en",))
+                    results[label]["image_alts"] = len(seo.set_image_alts(item["id"]))
+                except (PayloadError, ValueError, _client.ApiError) as e:
+                    results[label]["seo"] = f"failed: {e}"
+                    log(f"⚠ {label}: SEO meta / image alt not set — {e}")
             else:
                 results[label] = {"status": "failed", "errors": item.get("errors")}
                 log(f"✗ {label}: {item.get('errors')}")

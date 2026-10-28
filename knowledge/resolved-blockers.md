@@ -4,6 +4,31 @@ Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
 
 ## 2026-10-27
 
+- **Fact — the invoices are the source of truth for what Siruk sells (PM via
+  the user).** The PM's Excel lists were what she *ordered*; what the supplier
+  didn't have was never sent. The first import (2026-08-12) was built from the
+  Starter Inventory planning list, so it put never-received goods on the site.
+  Audit of all 1644 variants against csv/products.csv, batches/* and the
+  ArmSoft supplier receipts: 16 had nothing behind them, all Royal Canin
+  (13 single 85 g pouches + Mother & Babycat 195 g). User-approved and done:
+  products 1252 1254 1255 1259 1260 1261 1265 1266 1267 **discontinued**;
+  variants 1850 1852 (product 1256), 1856 (1258) and 1868 (1262) set to stock 0
+  (ledger reason correction). **Discontinued alone is not enough:** the
+  product's own page (/dp/<variant id>) still opens from a direct link or
+  Google and stays buyable (the cart doesn't check `is_discontinued`), so the
+  12 variants of the 9 discontinued products were set to stock 0 as well → the
+  page says out of stock, `orderable: false`. Hide = discontinue **and** stock
+  0. To bring one back when it arrives: untick discontinued + receive the
+  stock. Review sheet:
+  `final/not-received-review-2026-10-27.xlsx`; scripts in
+  `runs/2026-10-27-invoice-audit/`. Their ArmSoft goods (1366–1408 even codes
+  outside the 7 box-fed ones, and 1409) were left untouched.
+- **Lifted — `GET /admin/products/export` returned HTTP 500 on production
+  around 12:00**, so the audit re-read every product one by one
+  (`dump-products.py --refresh --fast`, ~40 min). By ~13:00 it answered 200
+  again (`format=json`, 4 MB, ~19 s) — likely mid-deploy of efbf2d33. Retry
+  it before falling back to the slow dump.
+
 - **Fact — the catalogue export grew (siruk-web efbf2d33).** `GET
   /api/admin/products/export` now also returns `brand_id`, `category_ids`,
   `image_ids`, `image_urls` (originals) and `about_this_item_html`, and
@@ -21,6 +46,18 @@ Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
   launch → the CLI re-installs and runs while the server keeps serving. Windows
   opened before 2026-10-27 15:30 still run the old launch until their MCP
   server restarts; meanwhile `uv run --no-sync siruk …` works.
+- **Lifted — ArmSoft could not find the scale after the shop PC moved from
+  Wi-Fi to the LAN cable.** The scale is at **192.168.0.99, port 33581**, on
+  its own subnet, while the Ucom router (192.168.1.1) hands out 192.168.1.x.
+  The PC's fixed IP had been set on its Wi-Fi adapter only, so the Ethernet
+  adapter came up on DHCP. Fix: the shop PC's Ethernet (DESKTOP-L8T6UGG) now
+  has two fixed addresses, **192.168.1.201** (gateway 192.168.1.1, DNS
+  8.8.8.8 / 8.8.4.4, for internet) and **192.168.0.10** /24 (for the scale).
+  Its old DHCP address .109 now belongs to another device, so don't reuse it.
+  Check from the shop PC: `ping 192.168.0.99` and `Test-NetConnection
+  192.168.0.99 -Port 33581`. Through AnyDesk, digits typed as keystrokes don't
+  arrive; put the command on the clipboard and right-click to paste it into
+  cmd.
 
 ## 2026-10-26
 

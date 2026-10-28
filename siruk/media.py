@@ -171,8 +171,10 @@ def _cache_put(url, mid):
 
 
 # ------------------------------------------------------------------ upload ----
-def upload(src, folder, keep_alpha=False, dry_run=False, log=lambda m: None):
-    """→ {"id", "folder", "name", "cached"}. src is a local file or an http(s) url."""
+def upload(src, folder, keep_alpha=False, dry_run=False, log=lambda m: None, alt=None):
+    """→ {"id", "folder", "name", "cached"}. src is a local file or an http(s) url.
+    alt: the image's alt = caption (SEO; "{Brand} {Name}" for a product photo, siruk.seo.alt).
+    Without it the file name is used, and set_image_alts fixes it once the product exists."""
     folder = (folder or "").strip("/")
     if not FOLDER_RE.match(folder):
         raise PayloadError(f"folder '{folder}' is outside the layout: products/<brand-slug>/<type>, "
@@ -204,7 +206,7 @@ def upload(src, folder, keep_alpha=False, dry_run=False, log=lambda m: None):
     if dry_run:
         return {"id": None, "folder": folder, "name": name, "bytes": len(data), "dims": dims, "dry_run": True}
     ensure_folder(folder, log)
-    caption = os.path.splitext(decoded)[0]
+    caption = (alt or "").strip()[:255] or os.path.splitext(decoded)[0]
     info = json.dumps({"filename": name, "caption": caption, "alt": caption, "dimensions": dims,
                        "directory": folder}, ensure_ascii=False)
     mime = mimetypes.guess_type(name)[0] or mime

@@ -151,6 +151,20 @@ the row at (262, 402)), alt unit 001 Հատ, coefficient 0.1; the form then show
 must move to 004 (the row delete is the user's click; then type the EAN in
 the main barcode field, which adds the 004 row).
 
+**Piece good with a pack unit for receiving** (Trixie Nappy pads 0197 0132 0129,
+2026-10-27): main unit stays **001 Հատ** (one piece), alt unit 004 Փաթեթ with
+the coefficient = pieces per pack ("1 փաթեթ = 8 հատ"). Save. Then **Barcodes
+tab: the Unit cell of an existing row is editable here** (click it twice, a
+dropdown shows, Ctrl+A, `004`, Tab), so the pack EAN moves 001 → 004 without a
+delete. Save, then type the internal code into the General tab's main barcode
+field — it adds the 001 row. Zoom on the grid before each save: once the
+barcode cell came out as "1" after the unit edit (0132); retyping the EAN in
+that cell fixed it before saving.
+
+After a fresh start the news popup ignores clicks for ~30 s while it loads;
+wait, then press Փակել. The goods list opens with a filter dialog — press
+Կատարել (667, 502) with it empty.
+
 **Pack good → per-kg good** (Trixie treats 0403 0459 0516 0517 0552,
 2026-10-23, after the ArmSoft update unlocked it): use **001 Հատ for the pack,
 never 003 Պարկ** (user). General tab: main unit field Ctrl+A, `303`, Tab — the
@@ -196,10 +210,22 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
 
 ## e-invoicing and warehouse receipts (learned 2026-10-23)
 
+- **Pull new invoices from the tax service first** (PM, 2026-10-27: they do
+  not arrive by themselves). Home tab → e-invoicing → middle column
+  "Ստացված հաշիվների ներմուծում" (double-click) → Ներմուծել ▾ → **1
+  e-invoicing (ուղիղ կապ)** (double-click the row), Դուրս գրման
+  ժամանակահատված = the period (both dates required), tick **Հարկային
+  հաշիվներ**, Կատարել (~15 s). The report lists every invoice of the
+  period: "Այո" = imported now, "Ոչ … փաստաթուղթը գոյություն ունի" = already
+  in. Then read them in "Ստացված հաշիվների մատյան" (same middle column; set
+  the period from 01/01/25) — it holds invoices the online list misses
+  (Ucom, Toz-Master, the shop-bag supplier). Double-click → tab
+  Անվանացուցակ for the lines.
+
 - **e-invoicing** (home tile, or navigator search `հարկային`): "Ստացված
   հարկային հաշիվներ" lists the supplier tax invoices straight from the tax
   service (set both start dates to 01/01/25, Կատարել; slow, and the link
-  sometimes needs a second double-click). It shows totals only, no lines.
+  sometimes needs a second double-click). The list shows totals only; **double-click an invoice → tab Անվանացուցակ** (314, 154) for its lines, footer = total quantity, Escape closes it (2026-10-26). If the navigator link does nothing, use the home tab (Գլխավոր էջ) → e-invoicing → "Ստացված հարկային հաշիվներ" (double-click), then clear Սերիա և համար to list all.
   Type "Ծառայություններ" rows are services, not goods. "Ստացված հաշիվների
   մատյան" (the local journal) was empty.
 - **The goods arrive as warehouse receipts** ("Պահեստի մուտքի օրդեր"),
@@ -247,11 +273,26 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
 - The lower panel of a receipt ("Ընթացիկ տողի վահանակ") shows the good's
   current stock ("Մնացորդ"), a quick check after posting.
 
+## One good's history (learned 2026-10-26)
+
+Navigator `Ապրանքներ և ծառայություններ` → Գնումներ → **Ապրանքների
+գործողությունների մատյան**: set the start date to 01/01/01, type the good code
+in Ապրանք, Tab, Կատարել. One row per movement: date, document number, type
+(Պահեստի մուտք receipt, Վաճառք (Կտրոն) till check), quantity (drag the bottom
+scrollbar right; outgoing shows red and negative), comment. Double-click a row
+to open the document read-only: maximize it to see the lines (unit 003 = a
+whole bag, 303 + PLU = loose kg). Escape closes it without saving.
+
 ## What needs the user
 
 - **Prices**: typing a price (edit form → Գներ, or the price list) was refused
-  by the permission check ("real-world transactions"). Hand over code, unit,
-  price.
+  by the permission check ("real-world transactions") on 2026-10-23. When the
+  user asks for the prices by code, unit and amount in their own message, it
+  went through (1442, 2026-10-26). Without that, hand over code, unit and price.
+- **"The desktop shell is frontmost" mid-form** (2026-10-28): the taskbar took focus and every click/key was refused; plain `SetForegroundWindow` returned False. What worked: PowerShell, find the AS Trade window whose title contains "(" (the edit form), `AttachThreadInput` to the foreground thread, `ShowWindow` 6 then 9, `BringWindowToTop`, `SetForegroundWindow`. Unsaved edits in the form survive it.
+- **A barcode ArmSoft refuses as "already attached to <code>"**: stop. Don't
+  move it. The code read off a tag may belong to a sibling good (1533 got
+  1534's 4627090332307 on 2026-10-26). Check the other good, and Siruk, first.
 - **Deleting** a good, a unit or a row in the global lists — refused. Hand over
   the exact list.
 - Switching the main unit of a good with stock (e.g. 001 bag → 303 kg) changes

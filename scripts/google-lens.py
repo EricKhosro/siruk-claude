@@ -183,15 +183,28 @@ def is_captcha(page):
 
 def run(jobs, captcha_wait, pause):
     from scrapling.fetchers import StealthySession
-    import fcntl
     os.makedirs(PROFILE, exist_ok=True)
     # one Chrome per profile: a second run waits instead of failing on the profile lock
     lock = open(os.path.join(os.path.dirname(PROFILE), "google-profile.lock"), "w")
-    try:
-        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-    except BlockingIOError:
-        print("another google-lens.py run holds the Chrome profile — waiting for it", file=sys.stderr, flush=True)
-        fcntl.flock(lock, fcntl.LOCK_EX)
+    if os.name == "nt":   # no fcntl on Windows; msvcrt.LK_LOCK retries for ~10 s, so loop
+        import msvcrt
+        try:
+            msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
+        except OSError:
+            print("another google-lens.py run holds the Chrome profile — waiting for it", file=sys.stderr, flush=True)
+            while True:
+                try:
+                    msvcrt.locking(lock.fileno(), msvcrt.LK_LOCK, 1)
+                    break
+                except OSError:
+                    pass
+    else:
+        import fcntl
+        try:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            print("another google-lens.py run holds the Chrome profile — waiting for it", file=sys.stderr, flush=True)
+            fcntl.flock(lock, fcntl.LOCK_EX)
     results = {}
     with StealthySession(headless=False, real_chrome=True, user_data_dir=PROFILE,
                          locale="en-US", network_idle=True, timeout=60000,

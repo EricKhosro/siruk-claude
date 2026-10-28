@@ -17,8 +17,16 @@ def ids(kind):
         raise ValueError(f"kind must be one of {list(KINDS)}")
     data = (_client.default().get(KINDS[kind]) or {}).get("data") or []
     if kind == "categories":
-        return [{"id": c.get("id"), "name": c.get("name"), "parent_id": c.get("parent_id") or c.get("parentId")}
-                for c in data]
+        # the API nests the tree under `children`; flatten it, parents first
+        out = []
+
+        def walk(nodes, parent=None):
+            for c in nodes or []:
+                out.append({"id": c.get("id"), "name": c.get("name"),
+                            "parent_id": c.get("parent_id") or c.get("parentId") or parent})
+                walk(c.get("children"), c.get("id"))
+        walk(data)
+        return out
     if kind == "attributes":
         return [{"id": a.get("id"), "code": a.get("code"), "name": a.get("name"),
                  "values": len(a.get("values") or [])} for a in data]

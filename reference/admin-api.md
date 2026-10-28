@@ -310,8 +310,20 @@ Nothing links products by hand — every rail is computed (full algorithms in
   → best of the cart's pet outside the cart's categories), `freeShipping`,
   `suggestions` (buy again → recently viewed → popular). In stock only, ≤2
   per brand.
-- **Listing order** = nightly `relevance_score` + `merch_boost` (−3…+3, on the
-  product) with category pins (`pinned_product_ids`, ≤24) on top.
+- **Listing order** (siruk-web d67fb7f8, 2026-10-27) = **listing groups** first,
+  then nightly `relevance_score` + `merch_boost` (−3…+3, on the product; it
+  only reorders products inside one group). Category pins no longer lead
+  Relevance. `GET /listing-groups` → `[{id, brand_id, category_id, position}]`;
+  `PUT /listing-groups {"groups": [{brand_id, category_id|null}]}` **replaces
+  the whole list**, positions from the array order; a brand + category pair
+  twice is refused. A product takes the lowest position whose brand matches and
+  whose category is null (whole brand) or holds one of its categories or a
+  descendant (nested set). Unmatched products follow all grouped ones. Admin
+  page: Catalog → Listing order. Ours: `siruk listing-order show|set|add|remove`
+  and the MCP `get_listing_order` / `set_listing_order` (`siruk/listing.py`).
+  Live order (user, 2026-10-27): Monge dry, Acana dry, Royal Canin dry, Monge
+  wet, Acana wet, Royal Canin wet, Monge/Acana/Royal Canin Health Condition —
+  each Dog then Cat leaf; `siruk listing-order show` is the truth.
 
 Category fields: `complement_category_ids` (array of category ids; "Goes well
 with categories" in the admin form) and `pinned_product_ids`. **Category PUT
@@ -319,7 +331,7 @@ quirk:** `name` + `slug` are required and only sent keys change, except
 `list_as_products`, which resets to false when absent — send it back.
 `scripts/set-complements.py` applies `reference/complement-categories.json`
 with exactly `{name, slug, parent_id, list_as_products, complement_category_ids}`.
-`merch_boost`, pins and the complement map are the PM's; imports never send
+`merch_boost`, pins, the listing order and the complement map are the PM's; imports never send
 them (`siruk_payload` refuses `MERCH_REFUSED`).
 
 **Universal attribute values:** `attribute_values.is_universal` is true on

@@ -15,7 +15,7 @@ from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
 from siruk import client as _client
-from siruk import bulk, config, export, lookups, media, pricecheck, products, refdata, stock, translations, verify
+from siruk import bulk, config, export, listing, lookups, media, pricecheck, products, refdata, stock, translations, verify
 from siruk.payload import PayloadError
 
 MAX_IDS = 50       # per call: a full-catalogue sweep belongs in the CLI (`siruk verify-translations`)
@@ -216,10 +216,33 @@ def stock_set(variant_id: int, on_hand: float, reason: str, note: str, confirm: 
 
 @mcp.tool(annotations=WRITE)
 @_clean
-def upload_media(source: str, folder: str, keep_alpha: bool = False, confirm: bool = False) -> dict:
+def upload_media(source: str, folder: str, alt: str = "", keep_alpha: bool = False, confirm: bool = False) -> dict:
     """Upload an image (local path or url) into products/<brand-slug>/<type>, logos, categories or
-    banners, verify it is readable, and return its media id for a variant's images."""
-    return media.upload(source, folder, keep_alpha=keep_alpha, dry_run=not confirm)
+    banners, verify it is readable, and return its media id for a variant's images.
+    alt: alt = caption text — "{Brand} {Name}" for a product photo, "{Brand} logo" for a logo."""
+    return media.upload(source, folder, keep_alpha=keep_alpha, dry_run=not confirm, alt=alt or None)
+
+
+# ----------------------------------------------------------- listing order ----
+@mcp.tool(annotations=READ)
+@_clean
+def get_listing_order() -> list:
+    """The brand + category groups that lead every "Relevance" listing, in order. A product takes
+    the first group whose brand matches and whose category is empty (whole brand) or holds one of
+    its categories (or a descendant); unmatched products follow, by relevance + merch_boost."""
+    return listing.show()
+
+
+@mcp.tool(annotations=WRITE)
+@_clean
+def set_listing_order(groups: list[dict], confirm: bool = False) -> dict:
+    """Replace the whole listing order. groups, in order: [{"brand": id or exact name,
+    "category": category id or null for the whole brand}]. The order is the PM's / user's —
+    set it only on their ask. An empty list (clearing it) is CLI-only: `siruk listing-order clear`."""
+    d = listing.set_groups(groups, dry_run=not confirm)
+    if d["dry_run"] and d["changed"]:
+        d["next_step"] = "nothing was written — show the user before/after; call again with confirm=true to write"
+    return d
 
 
 # ------------------------------------------------------------------ export ----

@@ -13,7 +13,9 @@ Verified 2026-09-10 on the demo API:
 translation.json:
   {"name": "…",
    "variants": {"<sku>": {"about_this_item": "<html>", "ingredient_information": "…", "feeding_instructions": "…"}}}
-(`meta` is accepted but the products API has no SEO meta field — it is ignored.)
+(`meta` = {"title", "description"}: the product's SEO meta for that locale — HasSeo reads a
+top-level `meta` off the request. Sent only when the file carries it; a body without `meta`
+leaves every locale's meta alone. scripts/set-seo-meta.py fills meta from the templates.)
 Missing keys keep whatever that locale already holds (read back before the PUT),
 falling back to the English text only where the locale has nothing — so a file
 that translates one new variant does not wipe the other variants' translations
@@ -80,7 +82,8 @@ def main():
 
     body = product_body(en)
     body["name"] = tr.get("name") or (cur.get("name") if cur.get("name") and cur.get("name") != en["name"] else en["name"])
-    body["meta"] = tr.get("meta") if tr.get("meta") is not None else en.get("meta")
+    if tr.get("meta") is not None:
+        body["meta"] = tr["meta"]
     body["locale"] = lang
     body["variants"] = []
     allowed = {a["id"] for a in product_type(en["attribute_family_id"]).get("attributes") or []}

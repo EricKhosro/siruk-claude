@@ -210,11 +210,23 @@ linked doc before you rely on a number from memory.
    `scripts/set-complements.py`) → same pet, categories not in the cart. So a
    wrong leaf, a missing product type, a missing `content` or a mis-split
    product now breaks other products' rails too. `merch_boost`, category
-   pins and the complement map belong to the PM — an import never sends them
+   pins, the listing order (brand + category groups that lead Relevance,
+   `siruk listing-order`; 2026-10-27) and the complement map belong to the PM — an import never sends them
    (`siruk_payload` refuses). **All Breeds / All Lifestages are universal**
    (they match every filter value), so never tag them next to a specific
    size/age. Audit: `scripts/audit-recommendation-data.py`. Algorithms:
    `CLAUDE.local.md`, `reference/admin-api.md` → "Recommendations".
+15. **Every product and image ships with SEO text** (user 2026-10-27, limits
+   dev 2026-10-28). Product meta in en/ru/hy: "Buy {Brand} {Name}" (≤ 60
+   chars) and "Shop {Brand} {Name} online at Siruk. …" (≤ 160), with the
+   fallback steps in `siruk/seo.py` — the one place the templates and limits
+   live. Image alt = caption = "{Brand} {Name}" (logos "{Brand} logo").
+   `siruk create` / `rename` / `translate` send the meta in their own PUT;
+   `bulk-create` and `add-variant` set meta and image alts right after;
+   `siruk media upload --alt` names an image at upload. Bulk PUT can't carry
+   per-product meta (the server's `HasSeo` reads the top-level request). A
+   write outside `siruk` → `scripts/set-seo-meta.py <id>` and
+   `scripts/set-media-alt.py --ids …` after it.
 
 ## Environments
 - Admin (production): `https://api.siruk.am/admin/login` —
@@ -282,7 +294,7 @@ a script.
 - **CLI** — `uv run siruk <command>` (or `python -m siruk` with no install for
   the stdlib commands): `doctor`, `find`, `show`, `ids`, `refresh`, `check`,
   `create`, `add-variant`, `set-variant`, `rename`, `translate`, `stock`,
-  `media upload`, `price hafo|zoovet|nemo`, `api`, `pace`, and the batch /
+  `media upload`, `price hafo|zoovet|nemo`, `listing-order`, `api`, `pace`, and the batch /
   end-of-run jobs `bulk-create`, `verify-translations` (rule 13) and
   `recheck-prices` (rule 4; `--apply` asks per product). `siruk export`
   saves the admin's catalogue export (one row per variant, xlsx/json/csv,
