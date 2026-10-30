@@ -1,0 +1,31 @@
+[project]
+name = "siruk"
+version = "0.1.0"
+description = "Siruk PetShop admin: CLI, TUI and MCP server over the admin JSON API"
+requires-python = ">=3.12"
+# The core (siruk.client / payload / products …) is stdlib only, so `python -m siruk`
+# runs from the repo root without an install. These power the TUI, the MCP server
+# and image flattening in `siruk media upload`.
+dependencies = [
+    "textual>=0.80",
+    "rich>=13",
+    "mcp>=2.3",          # 2.x: mcp.server.mcpserver.MCPServer (FastMCP's new name)
+    "pillow>=10",
+]
+
+[project.scripts]
+siruk = "siruk.cli:main"
+siruk-mcp = "siruk.mcp_server:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["siruk"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

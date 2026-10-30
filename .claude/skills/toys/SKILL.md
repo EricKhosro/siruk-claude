@@ -20,7 +20,7 @@ closed menu `reference/attribute-values.json`. Pick only from the menu.
 Product type **5 Toys** (`measure_type: null` — a toy has no net content, so
 no `measure_type`/`content`; `default_sale_mode: pack`). **The live product
 type decides which attributes exist, their role (`option` / `attribute`) and
-flags** — `reference/product-types.json` (`scripts/product-types.py --dump`);
+flags** — `reference/product-types.json` (`siruk refresh`);
 it wins over this file. Read 2026-09-30: `toy-type`, `material` and
 `toy-size` are `option`; `toy-feature`, `color-family`, `lifestage`,
 `breed-size` are `attribute`. An attribute the batch needs that the type

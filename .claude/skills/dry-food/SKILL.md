@@ -15,7 +15,7 @@ Dry Food**. Bird / small-animal food (96 / 99) uses this type too. Product type
 
 **The live product type decides which attributes exist, their role (`option` /
 `attribute`) and flags** — `reference/product-types.json`
-(`scripts/product-types.py --dump`); it wins over this file. Read 2026-09-30:
+(`siruk refresh`); it wins over this file. Read 2026-09-30:
 `flavor` is the only `option`; breed-size, lifestage, special-diet,
 health-feature, packaging, ingredient are `attribute` (specs / filters). An
 attribute the batch needs that the type lacks → the `attribute-manager` agent

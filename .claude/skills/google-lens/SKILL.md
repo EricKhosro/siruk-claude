@@ -28,6 +28,7 @@ may keep one, this skill must have run for it and the result must be logged
   user in chat** to clear it in the open Chrome window. Never click, solve or
   bypass a CAPTCHA; never turn on `solve_cloudflare`. The cleared cookie stays in
   the profile, so it rarely comes back.
+- **Leave `--debug` off by default** (2026-10-28): its full-page screenshot of a long Google Images page timed out after 60 s per job and the window looked frozen (the user closed it twice). Add `--debug` only to rerun one job whose result looks empty. On Windows the venv is `.venv-scrapling/Scripts/python.exe`.
 - Pace: one window, queries in a batch with `--pause` (default 6 s) between
   them. No parallel Google sessions.
 - Lens is fed by **uploading the file through the camera icon**:
@@ -69,7 +70,8 @@ may keep one, this skill must have run for it and the result must be logged
    one stock photo for every flavour (2026-10-02: three Myau flavours all showed
    the beef bag). Before writing, run `scripts/variant-image-audit.py <product id>`
    and compare each sibling's first image side by side.
-7. Upload with `scripts/upload-media.sh <url> products/<brand-slug>/<type>` and
+7. Upload with `siruk media upload <url> --folder products/<brand-slug>/<type>`
+   (MCP `upload_media`) and
    put it **first**; hafo's photo comes out of the gallery once a real one is
    in (or stays last only if the new one is not the same pack — log why).
 8. Log every variant, found or not, in `runs/<date>/needs-image.csv` /

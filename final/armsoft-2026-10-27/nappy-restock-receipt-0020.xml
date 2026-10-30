@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <MTIncome xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDeleted>false</IsDeleted>
+    <IsDraft>true</IsDraft>
+    <Owner></Owner>
+    <DocumentDate>2026-10-27T00:00:00</DocumentDate>
+    <DocumentNumber>0020</DocumentNumber>
+    <Storage>01</Storage>
+    <CurrencyCode>AMD</CurrencyCode>
+    <CurrencyExchangeRate>1.0000</CurrencyExchangeRate>
+    <CurrencyExchangeBase>1.0000</CurrencyExchangeBase>
+    <VATType>2</VATType>
+    <PriceType></PriceType>
+    <PartnerCode></PartnerCode>
+    <Contract></Contract>
+    <PartnerAmount>0</PartnerAmount>
+    <InvoiceNumber></InvoiceNumber>
+    <InvoiceDate>2026-10-27T00:00:00</InvoiceDate>
+    <Comment>Ժամանակավոր մուտք՝ Trixie Nappy 60×90, 1 փաթեթ (8 հատ), ապրանքագիրը դեռ չկա; ճշտել ստացված հարկային հաշվով</Comment>
+    <BaseISN></BaseISN>
+    <Trust></Trust>
+    <Mediator></Mediator>
+    <MediatorCaption></MediatorCaption>
+    <Machine></Machine>
+    <ChiefAccountant></ChiefAccountant>
+    <Allower></Allower>
+    <Response></Response>
+    <DiscountPercent>0</DiscountPercent>
+    <ISN>a21fd9f0-d9fc-415e-b229-d098bda14889</ISN>
+    <Specification>
+      <MTIncomeSpecificationRow>
+        <Code>0197</Code>
+        <Unit>001</Unit>
+        <Quantity>8.0000</Quantity>
+        <Price>255.0000</Price>
+        <Discount>0.0000</Discount>
+        <DiscountPrice>255.0000</DiscountPrice>
+        <Amount>2040.0000</Amount>
+        <VAT>false</VAT>
+        <ExtraPercent>0</ExtraPercent>
+        <SalePrice>0</SalePrice>
+        <SaleAmount>0</SaleAmount>
+        <UseFulLife i:nil="true" />
+        <Country></Country>
+        <Producer></Producer>
+        <Property1></Property1>
+        <Property2></Property2>
+        <UnitList>
+          <QuantityUnitPart>
+            <GoodsCode>0197</GoodsCode>
+            <Unit>001</Unit>
+            <Coef>1.0000000000</Coef>
+            <IsDefault>true</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+          <QuantityUnitPart>
+            <GoodsCode>0197</GoodsCode>
+            <Unit>004</Unit>
+            <Coef>8.0000000000</Coef>
+            <IsDefault>false</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+        </UnitList>
+        <Description></Description>
+      </MTIncomeSpecificationRow>
+    </Specification>
+    <Attachments />
+    <IncludeVATInCost>false</IncludeVATInCost>
+  </MTIncome>
+</Exchange>

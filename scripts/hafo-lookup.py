@@ -27,6 +27,8 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 # Supplier suffixes that hafo may or may not carry on its own SKU.
 SUFFIXES = ("Tx", "TXN", "MG", "IVS", "PCHL", "AQ", "K", "S", "V", "E", "J", "B", "M")
+# the only trailing letters a Trixie-form match may drop from hafo's SKU ('TX 35718Trx')
+TRIXIE_TAILS = ("tx", "trx", "txn")
 
 
 def norm_sku(s):
@@ -64,8 +66,14 @@ def sku_matches(hafo_sku, code):
         # matched hafo's 'TX 152661' (a dog leash) on nothing but a shared
         # 5-digit prefix (found 2026-09-09, Trixie hafo-lookup batch).
         if code.lower().endswith("tx"):
-            # hafo also writes 'TX 35718Trx' (a 'trx' suffix as well as the prefix — 2026-10-12)
-            hd = re.sub(r"[a-z]+$", "", re.sub(r"^[a-z]+", "", h))   # drop 'tx'/'mg' prefix and 'trx' suffix
+            # hafo also writes 'TX 35718Trx' (a 'trx' suffix as well as the prefix — 2026-10-12).
+            # Only Trixie's own suffixes may go: stripping ANY letters matched our 4123Tx (a
+            # plush ball) to hafo's '04123IVS', an Iv San Bernard shampoo (2026-10-26).
+            hp = re.sub(r"^[a-z]+", "", h)                           # drop the 'tx'/'mg' prefix
+            tail = re.search(r"[a-z]+$", hp)
+            if tail and tail.group() not in TRIXIE_TAILS:
+                continue
+            hd = hp[: tail.start()] if tail else hp
             cd = re.sub(r"^[a-z]+", "", cs)
             if hd.isdigit() and cd.isdigit():
                 a, b = hd.lstrip("0"), cd.lstrip("0")

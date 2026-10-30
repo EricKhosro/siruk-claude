@@ -3,6 +3,10 @@
     "chrome-devtools": {
       "command": "npx",
       "args": ["-y", "chrome-devtools-mcp@latest"]
+    },
+    "siruk": {
+      "command": "uv",
+      "args": ["run", "--quiet", "python", "-m", "siruk.mcp_server"]
     }
   }
 }

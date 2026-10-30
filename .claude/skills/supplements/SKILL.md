@@ -28,7 +28,7 @@ Product type **4 Supplements** (`measure_type: volume`,
 `default_sale_mode: pack` — but each variant picks its own measure, below).
 **The live product type decides which attributes exist, their role (`option` /
 `attribute`) and flags** — `reference/product-types.json`
-(`scripts/product-types.py --dump`); it wins over this file. Read 2026-09-30:
+(`siruk refresh`); it wins over this file. Read 2026-09-30:
 `pet-weight-range`, `size` and `color-family` are `option`; food-form,
 lifestage, health-feature, packaging, product-form, active-ingredient,
 special-diet, flavor, breed-size, material are `attribute`. An attribute the

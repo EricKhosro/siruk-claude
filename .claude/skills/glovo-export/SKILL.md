@@ -15,6 +15,21 @@ row 2, **data from row 3**). How to fill it comes from Glovo's Armenian video
 ## Run
 
 ```bash
+.venv-img/bin/python scripts/glovo-export.py --from-export --squares  # 1st: cut the 500×500 squares
+# 2nd: upload .siruk-cache/glovo/squares/*.jpg to postimages.org in a real Chrome (below)
+.venv-img/bin/python scripts/glovo-export.py --from-export            # 3rd: → final/glovo/siruk-glovo-products.xlsx
+```
+
+(Windows: `.venv-img/Scripts/python`.) `--from-export` reads the whole catalogue
+in Armenian from one `GET /products/export?lang=hy&format=json` (siruk-web
+2026-10-27, ~15 s) through `scripts/catalogue_export.py`, which rebuilds each
+variant's attribute values (id, role, label) from the export's options text and
+fetches the hy category tree. 2026-10-27: field for field identical to the
+per-product dumps on all 1,644 variants (`catalogue_export.py --lang hy --check`).
+
+Without `--from-export` (the old way, ~1 h per language):
+
+```bash
 scripts/dump-products.py --refresh --fast            # en, ~1040 products, read-only
 scripts/dump-products.py --lang hy --refresh --fast  # hy texts for title/description
 SIRUK_LANG=hy scripts/api.sh GET "/categories?per_page=500" > .siruk-cache/glovo-categories-hy.json
@@ -69,8 +84,13 @@ per line in `.imgbb-key`.
 | G | Availability | `1` in stock and purchasable, else `0` |
 | H, I, J | Section 1–3 | the product's category leaves in Armenian with the pet, e.g. `Չոր կեր շների համար`; a dog+cat product gets one section per tree |
 
-Left out: discontinued products and variants with no price (listed in
-`<out>-problems.csv` with variants that have no image or a failed upload).
+Left out: discontinued products, variants with no price, and the variants on
+`state/glovo-exclude.csv`. Siruk can discontinue only a whole product, so a
+single variant that is off sale goes on that list (sku, variant id, product id,
+reason). 2026-10-27: 4 never-received Royal Canin pouches from
+`final/not-received-review-2026-10-27.xlsx`. Take a row off the list when the
+variant arrives. All of these are listed in `<out>-problems.csv`, together with
+variants that have no image or a failed upload.
 
 ## After a run
 

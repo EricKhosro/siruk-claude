@@ -33,6 +33,14 @@ are two products; Sterilised in gravy + in jelly is one product with two
 variants. Unclear → separate products + flag. Full reasoning in
 `reference/data-tables.md` §2.
 
+**A differently designed bag of the same recipe is a separate product** (user,
+2026-10-26). Example: Monge's 10 kg cat sacks are the "Best for Breeders
+GATTI·CATS" bag (articles `MG 004797…005137`, hafo photo shows it), not a
+bigger size of the retail Natural Superpremium 1.5 kg. Each is its own product
+(1161–1165 and 1432 Sterilised Cat), never a variant of the retail one, and
+its photo is the breeder sack (EAN-keyed shops such as hotline.ua). A monge.it
+/ espacemonge.fr retail-bag photo is wrong for these even when it says 10 kg.
+
 **Those axes are the FOOD axes.** A product type's own skill overrides them,
 within the options its live type defines: `accessories` adds **size, colour
 and volume**, so one collar in six sizes and five colours is one product with

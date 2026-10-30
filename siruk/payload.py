@@ -1,0 +1,411 @@
+"""The ONE place that builds product/variant bodies for the admin API.
+
+Moved here from scripts/siruk_payload.py on 2026-10-26; that file is now a shim
+that re-exports this module, so every script that imports it shares these rules.
+API calls go through siruk.client (same token, config.json pacing and retries as
+scripts/api.sh).
+
+Since the 2026-09-29 catalog model (siruk-web docs/catalog-model.md) the API
+refuses the old variant fields (pricing_type, price_per_kg, weight, unit,
+net_quantity, stock, attribute_value_ids, item_content …) and checks every
+variant against its product type. This module mirrors the admin form's own
+`toVariantPayload` (siruk-web backend/resources/js/catalog/products/variantPayload.js)
+so a re-sent unmodified variant never bounces, and it checks a variant against
+the live product type before anything is written.
+
+As a library (Python writers):   from siruk.payload import …   (or the old `from siruk_payload import …`)
+As a CLI (the shell writers, through the shim):
+  siruk_payload.py put-body   <get.json> [<new-variant.json>] [--patch-sku SKU --patch JSON [--replace-attrs]]
+  siruk_payload.py post-body  <payload.json>
+Both print the body on stdout, or exit 1 with the reasons on stderr.
+
+A NEW variant is written in the new shape:
+  { "sku": "…", "name": "2 kg", "price": 9000, "cost_price": 6500,
+    "sale_mode": "pack",                        # default: the product type's default_sale_mode
+    "measure_type": "mass", "content": 2000,    # g / ml / pcs; content may have 3 decimals (0.4 ml)
+    "pack_count": 1,                            # 12 for "12 × 85 g"
+    "initial_stock": 10,                        # new variants only — stock is a ledger now
+    "attribute_values": {"flavor": [38], "lifestage": [27]},   # attribute id OR code → [value ids]
+    "images": [8293],
+    "barcode": "4048422122074",                 # the pack's EAN; a "-KG" 1 kg loose variant: its 5-digit PLU
+    "accounting_code": "1111",                  # ArmSoft good code (a bag and its 1 kg share one)
+    "price_source_url": "https://hafo.am/products/…" }   # the page the price came from; omit for a register price
+The three code fields are import-only (the admin form never sends them) and a PUT that leaves
+them out keeps them, so to_variant_payload never copies them back (check_codes validates them).
+merch_boost / pinned / complement fields are the PM's and are refused (MERCH_REFUSED).
+Legacy input is converted where it is mechanical (attribute_value_ids → attribute_values,
+stock → initial_stock, pricing_type "fixed" dropped) and refused where it is not
+(pricing_type "per_kg", weight, unit, net_quantity, product-weight — give the pack price
+and measure_type/content instead).
+"""
+import json, os, re, sys
+
+from siruk import client as _client
+from siruk.config import ROOT
+
+PRODUCT_KEYS = ("name", "slug", "category_ids", "brand_id", "attribute_family_id",
+                "is_best_seller", "is_on_sale", "is_discontinued", "show_unit_price")
+# toVariantPayload's keys, in its order. suppliers is left out on purpose: an absent key
+# leaves a variant's supplier rows untouched.
+VARIANT_KEYS = ("id", "sku", "name", "about_this_item", "ingredient_information", "feeding_instructions",
+                "is_default", "attribute_values", "images", "sale_mode", "measure_type", "content",
+                "pack_count", "qty_step", "qty_min", "qty_max", "price", "compare_at_price",
+                "min_allowed_price", "cost_price", "track_inventory", "out_of_stock_policy",
+                "backorder_lead_days", "low_stock_threshold", "reorder_point", "reorder_qty")
+NEW_ONLY = ("initial_stock", "initial_stock_warehouse_id", "initial_stock_unit_cost")
+VTEXT = ("about_this_item", "ingredient_information", "feeding_instructions")
+LEGACY_REFUSED = ("price_per_kg", "weight", "unit", "net_quantity", "vendor_stock", "item_content",
+                  "min_quantity", "quantity_step", "max_quantity")
+MEASURE_TYPES = ("mass", "volume", "count")
+# siruk-web bc49dfbf (2026-10-09): written by imports only — the admin form never sends them, and the
+# server changes only the keys a request carries, so they are NOT in VARIANT_KEYS: a re-sent variant
+# leaves them alone. Set them on a new variant, or with --patch / a backfill.
+CODE_KEYS = ("barcode", "accounting_code", "price_source_url")
+PRICE_SOURCE_HOSTS = ("hafo.am", "zoovet.am", "nemo.am")
+# Merchandising and machine fields: the PM's (boost/pins/complements) or the nightly jobs' — never ours.
+MERCH_REFUSED = ("merch_boost", "relevance_score", "sales_count", "pinned_product_ids",
+                 "complement_category_ids")
+
+
+class PayloadError(Exception):
+    pass
+
+
+def api(method, path, payload=None, lang=None):
+    """The scripts' old entry point (13 of them import it): parsed JSON, PayloadError on failure."""
+    try:
+        return _client.default().request(method, path, body=payload, lang=lang) or {}
+    except _client.ApiError as e:
+        raise PayloadError(f"api {method} {path} failed: {e}") from e
+
+
+def _emit(warns, sink):
+    """Warnings go to `sink` (a list) when the caller collects them, else to stderr as before."""
+    if sink is not None:
+        sink.extend(warns)
+    else:
+        for w in warns:
+            print(f"⚠ {w}", file=sys.stderr)
+
+
+def price_guard(variants, allow=None):
+    """lib.sh price_guard (CLAUDE.md rule 5): a sale price at or below cost is the wrong hafo row
+    or an invented price. Raises unless allowed (ALLOW_BELOW_COST=1 — the user's explicit say-so)."""
+    bad = [f"sku={v.get('sku')} sale={v.get('price') or 0} cost={v.get('cost_price')}"
+           for v in variants
+           if (v.get("cost_price") or 0) > 0 and (v.get("price") or 0) <= (v.get("cost_price") or 0)]
+    if not bad:
+        return []
+    if allow is None:
+        allow = os.environ.get("ALLOW_BELOW_COST") == "1"
+    if not allow:
+        raise PayloadError("sale price at or below cost — the wrong hafo row or an invented price: "
+                           + "; ".join(bad) + " (override only on the user's explicit approval)")
+    return [f"below cost, allowed by the user: {b}" for b in bad]
+
+
+def image_guard(variants, existing=(), allow=None):
+    """No product ships with an empty gallery (user rule 2026-09-23; ALLOW_NO_IMAGE=1 overrides)."""
+    if any(v.get("images") for v in list(variants) + list(existing)):
+        return
+    if allow is None:
+        allow = os.environ.get("ALLOW_NO_IMAGE") == "1"
+    if not allow:
+        raise PayloadError("no variant has any images — every product needs at least one")
+
+
+_types, _attrs = {}, None
+
+
+def product_type(type_id):
+    """The live product type (roles, flags, measure_type) — never a cached doc."""
+    if type_id not in _types:
+        _types[type_id] = api("GET", f"/attribute-families/{type_id}").get("data") or {}
+    if not _types[type_id].get("id"):
+        raise PayloadError(f"product type {type_id} does not exist")
+    return _types[type_id]
+
+
+def attributes():
+    """code → {id, inputType, values: {value id}}, from the live attribute list."""
+    global _attrs
+    if _attrs is None:
+        data = api("GET", "/attributes?forProducts=true").get("data") or []
+        _attrs = {a["code"]: {"id": a["id"], "inputType": a.get("inputType"),
+                              "values": {v["id"] for v in a.get("values") or []}} for a in data}
+    return _attrs
+
+
+def to_variant_payload(v, allowed_ids=None):
+    """A GET variant → what the API accepts back (server-only fields stripped)."""
+    out = {k: v[k] for k in VARIANT_KEYS if k in v}
+    if out.get("sale_mode") != "weight":
+        out.pop("qty_step", None)
+        out.pop("qty_min", None)
+    else:
+        # a weight variant reads back measure_type "mass" (set by the server) but refuses
+        # measure_type / content / pack_count on write (ProductRequest::weightRules)
+        for k in ("measure_type", "content", "pack_count"):
+            out.pop(k, None)
+    if out.get("out_of_stock_policy") == "deny":
+        out["backorder_lead_days"] = None
+    av = out.get("attribute_values")
+    if isinstance(av, dict) and allowed_ids is not None:
+        out["attribute_values"] = {k: ids for k, ids in av.items() if int(k) in allowed_ids}
+    elif not av:
+        out["attribute_values"] = {}
+    out["images"] = out.get("images") or []
+    return out
+
+
+def product_body(p):
+    return {k: p[k] for k in PRODUCT_KEYS if k in p}
+
+
+def _attr_id(key, amap):
+    if str(key).isdigit():
+        return int(key)
+    if key not in amap:
+        raise PayloadError(f"unknown attribute '{key}'")
+    return amap[key]["id"]
+
+
+def normalize_new(v, ptype):
+    """A new variant from our planners → the new shape. Raises on anything not mechanical."""
+    v = dict(v)
+    errs = []
+    if "id" in v:
+        errs.append("a new variant must not carry an id")
+    for k in LEGACY_REFUSED:
+        if k in v:
+            errs.append(f"'{k}' is gone — give the pack price in price and the size as measure_type/content/pack_count")
+    pt = v.pop("pricing_type", None)
+    if pt not in (None, "fixed"):
+        errs.append(f"pricing_type '{pt}' is gone — price is the pack price (sale_mode weight = price per kg)")
+    if "stock" in v:
+        v.setdefault("initial_stock", v.pop("stock"))
+    amap = attributes()
+    legacy = v.pop("attribute_value_ids", None) or {}
+    av = {}
+    for key, ids in list(legacy.items()) + list((v.pop("attribute_values", None) or {}).items()):
+        if key == "product-weight":
+            errs.append("product-weight is retired — the pack size goes in measure_type/content")
+            continue
+        try:
+            aid = _attr_id(key, amap)
+        except PayloadError as e:
+            errs.append(str(e)); continue
+        ids = ids if isinstance(ids, list) else [ids]
+        av.setdefault(str(aid), [])
+        av[str(aid)] += [int(i) for i in ids if int(i) not in av[str(aid)]]
+    v["attribute_values"] = av
+    v.setdefault("sale_mode", ptype.get("defaultSaleMode") or "pack")
+    if v["sale_mode"] == "weight" and os.environ.get("ALLOW_WEIGHT_SALE") != "1":
+        # PM 2026-10-01: by-weight sale is paused until its UI is tested — sell a 1 kg pack instead
+        errs.append("sale_mode 'weight' is paused (CLAUDE.md 8a) — add a 1 kg pack variant instead")
+    if v["sale_mode"] == "pack":
+        if v.get("content") is not None and not v.get("measure_type"):
+            v["measure_type"] = ptype.get("measureType")
+        if v.get("measure_type") and v["measure_type"] not in MEASURE_TYPES:
+            errs.append(f"measure_type '{v['measure_type']}' is not one of {MEASURE_TYPES}")
+        v.setdefault("pack_count", 1)
+    v["images"] = v.get("images") or []
+    if errs:
+        raise PayloadError(f"variant {v.get('sku')}: " + "; ".join(errs))
+    return v
+
+
+def check_codes(v):
+    """barcode / accounting_code / price_source_url of one variant. Returns (errors, warnings).
+
+    The user's rule (2026-10-12): a pack's barcode is its EAN; a loose-sale 1 kg variant (SKU
+    "<bag sku>-KG", CLAUDE.md 8a) — or a treat's 100 g loose variant, "<bag sku>-100G" (2026-10-15) —
+    carries the 5-digit scale PLU instead. accounting_code is the
+    ArmSoft good code (4 digits; a bag and its 1 kg variant share one). price_source_url is the
+    page the sale price came from — empty when the price came from a register file, not a site."""
+    errs, warns = [], []
+    tag = f"variant {v.get('sku')}"
+    loose = str(v.get("sku") or "").upper().endswith(("-KG", "-100G"))
+    bc = v.get("barcode")
+    if bc not in (None, ""):
+        bc = str(bc)
+        if not bc.isdigit() or len(bc) > 32:
+            errs.append(f"{tag}: barcode '{bc}' must be digits only, ≤32")
+        elif loose and len(bc) != 5:
+            errs.append(f"{tag}: a loose variant's barcode is the 5-digit PLU, got '{bc}'")
+        elif not loose and len(bc) not in (8, 12, 13, 14):
+            warns.append(f"{tag}: barcode '{bc}' is not an EAN-8/UPC-12/EAN-13/GTIN-14")
+    elif loose:
+        warns.append(f"{tag}: loose variant without its PLU barcode")
+    ac = v.get("accounting_code")
+    if ac not in (None, ""):
+        ac = str(ac)
+        if len(ac) > 16:
+            errs.append(f"{tag}: accounting_code '{ac}' is longer than 16")
+        elif not re.fullmatch(r"\d{4}", ac):
+            warns.append(f"{tag}: accounting_code '{ac}' is not a 4-digit ArmSoft good code")
+    url = v.get("price_source_url")
+    if url not in (None, ""):
+        if not re.match(r"https?://", str(url)) or len(str(url)) > 2048:
+            errs.append(f"{tag}: price_source_url must be an http(s) url ≤2048, got '{url}'")
+        elif not any(re.match(rf"https?://(www\.)?{re.escape(h)}/", str(url)) for h in PRICE_SOURCE_HOSTS):
+            warns.append(f"{tag}: price_source_url host is not one of {PRICE_SOURCE_HOSTS}: {url}")
+    return errs, warns
+
+
+def check_variants(variants, ptype, new_skus=()):
+    """ProductRequest's product-type checks plus ours. Returns (errors, warnings)."""
+    errs, warns = [], []
+    pivot = {a["id"]: a for a in ptype.get("attributes") or []}
+    amap_by_id = {a["id"]: a for a in attributes().values()}
+    for v in variants:
+        tag = f"variant {v.get('sku')}"
+        if any(k in v for k in CODE_KEYS):
+            e, w = check_codes(v)
+            errs += e
+            warns += w
+        if not v.get("sku"):
+            errs.append("a variant has no sku")
+        price = v.get("price") or 0
+        if price <= 0 or price % 10:
+            errs.append(f"{tag}: price {price} must be > 0 and a multiple of 10")
+        for aid_s, ids in (v.get("attribute_values") or {}).items():
+            aid = int(aid_s)
+            a = pivot.get(aid)
+            if a is None:
+                errs.append(f"{tag}: attribute {aid} is not part of product type '{ptype.get('name')}'")
+                continue
+            known = (amap_by_id.get(aid) or {}).get("values") or set()
+            if any(i not in known for i in ids):
+                errs.append(f"{tag}: a value of {a['name']} does not belong to it ({ids})")
+            multi = a["role"] == "attribute" and a.get("inputType") == "multiselect"
+            if len(ids) > 1 and not multi:
+                errs.append(f"{tag}: {a['name']} takes one value, got {len(ids)}")
+        for a in pivot.values():
+            if a.get("isRequired") and not (v.get("attribute_values") or {}).get(str(a["id"])):
+                errs.append(f"{tag}: {a['name']} is required by the product type")
+        if v.get("sale_mode") == "pack" and v.get("sku") in new_skus and ptype.get("measureType") \
+                and v.get("content") is None:
+            msg = f"{tag}: product type '{ptype.get('name')}' is sized ({ptype['measureType']}) but the variant has no measure_type/content"
+            (warns if os.environ.get("ALLOW_NO_SIZE") == "1" else errs).append(msg)
+    # rule 9a: an option set on one variant must be set on all, or that variant loses its tile row
+    if len(variants) > 1:
+        for a in pivot.values():
+            if a["role"] != "option":
+                continue
+            have = [bool((v.get("attribute_values") or {}).get(str(a["id"]))) for v in variants]
+            if any(have) and not all(have):
+                missing = [v.get("sku") for v, h in zip(variants, have) if not h]
+                (errs if set(missing) & set(new_skus) else warns).append(
+                    f"option {a['name']} is set on some variants but not on {missing}")
+        # two variants the customer cannot tell apart (same options + same size)
+        seen = {}
+        for v in variants:
+            sig = (tuple(sorted((k, tuple(sorted(ids))) for k, ids in (v.get("attribute_values") or {}).items()
+                                if pivot.get(int(k), {}).get("role") == "option")),
+                   v.get("sale_mode"), v.get("measure_type"), _num(v.get("content")), v.get("pack_count") or 1)
+            if sig in seen:
+                errs.append(f"variants {seen[sig]} and {v.get('sku')} have the same options and size — "
+                            "the storefront cannot tell them apart")
+            seen[sig] = v.get("sku")
+    defaults = sum(1 for v in variants if v.get("is_default"))
+    if defaults != 1:
+        errs.append(f"exactly one variant must be default, got {defaults}")
+    return errs, warns
+
+
+def _num(x):
+    return None if x is None else round(float(x), 3)
+
+
+def put_body(get_data, new_variant=None, patch_sku=None, patch=None, replace_attrs=False, warnings=None):
+    """Full PUT body from a fresh GET, optionally appending one new variant or patching one.
+    Pass a list as `warnings` to collect the warnings instead of printing them."""
+    p = get_data
+    if not (p.get("attribute_family_id") or 0) > 0:
+        raise PayloadError(f"product {p.get('id')} has no product type — every product needs one")
+    ptype = product_type(p["attribute_family_id"])
+    allowed = {a["id"] for a in ptype.get("attributes") or []}
+    variants = [to_variant_payload(v, allowed) for v in p["variants"]]
+    new_skus = set()
+    if patch_sku:
+        hit = [v for v in variants if v["sku"] == patch_sku]
+        if not hit:
+            raise PayloadError(f"product {p['id']} has no variant with sku {patch_sku}")
+        v = hit[0]
+        patch = dict(patch)
+        for k in LEGACY_REFUSED + ("pricing_type", "stock", "attribute_value_ids"):
+            if k in patch:
+                raise PayloadError(f"patch field '{k}' is gone in the new model (stock: use the stock endpoints)")
+        if "attribute_values" in patch:
+            amap = attributes()
+            conv = {str(_attr_id(k, amap)): (ids if isinstance(ids, list) else [ids])
+                    for k, ids in patch.pop("attribute_values").items()}
+            v["attribute_values"] = conv if replace_attrs else {**v["attribute_values"], **conv}
+            v["attribute_values"] = {k: ids for k, ids in v["attribute_values"].items() if ids}
+        v.update(patch)
+    if new_variant is not None:
+        nv = normalize_new(new_variant, ptype)
+        if any(v["sku"] == nv["sku"] for v in variants):
+            raise PayloadError(f"product {p['id']} already has a variant with sku {nv['sku']}")
+        nv.setdefault("sort_order", len(variants))
+        nv["is_default"] = not any(v.get("is_default") for v in variants)
+        variants.append(nv)
+        new_skus.add(nv["sku"])
+    errs, warns = check_variants(variants, ptype, new_skus | ({patch_sku} if patch_sku else set()))
+    _emit(warns, warnings)
+    if errs:
+        raise PayloadError("; ".join(errs))
+    body = product_body(p)
+    body["variants"] = variants
+    return body
+
+
+SIZE_IN_NAME = re.compile(r"(?<![–\-\d.,])\b\d+(?:[.,]\d+)?\s*(?:kg|g|ml|кг|г|мл|կգ|գ|մլ)\.?\s*$", re.I)
+
+
+def post_body(payload, warnings=None):
+    body = {k: payload[k] for k in payload if k != "variants"}
+    merch = [k for k in MERCH_REFUSED if k in body]
+    if merch:
+        raise PayloadError(f"{merch} belong to the PM / the nightly jobs — an import never sends them")
+    names = body.get("name")      # a string, or {en, ru, hy} for POST /products/bulk
+    for n in (names.values() if isinstance(names, dict) else [names]):
+        if SIZE_IN_NAME.search(n or ""):
+            # CLAUDE.md 12 (user 2026-10-01): the storefront appends the size label to the name
+            raise PayloadError(f"name '{n}' ends in a pack size — the size belongs in the variant only")
+    if not (body.get("attribute_family_id") or 0) > 0:
+        raise PayloadError("payload has no attribute_family_id — every product needs a product type")
+    ptype = product_type(body["attribute_family_id"])
+    variants = [normalize_new(v, ptype) for v in payload.get("variants") or []]
+    if variants and not any(v.get("is_default") for v in variants):
+        variants[0]["is_default"] = True
+    for i, v in enumerate(variants):
+        v.setdefault("sort_order", i)
+        v.setdefault("is_default", False)
+    errs, warns = check_variants(variants, ptype, {v["sku"] for v in variants})
+    _emit(warns, warnings)
+    if errs:
+        raise PayloadError("; ".join(errs))
+    body["variants"] = variants
+    return body
+
+
+def main(argv):
+    if len(argv) < 2 or argv[0] not in ("put-body", "post-body"):
+        sys.exit(__doc__)
+    try:
+        data = json.load(open(argv[1], encoding="utf-8"))
+        if argv[0] == "post-body":
+            out = post_body(data)
+        else:
+            get_data = data.get("data", data)
+            new = json.load(open(argv[2], encoding="utf-8")) if len(argv) > 2 and not argv[2].startswith("--") else None
+            sku = argv[argv.index("--patch-sku") + 1] if "--patch-sku" in argv else None
+            patch = json.loads(argv[argv.index("--patch") + 1]) if "--patch" in argv else None
+            out = put_body(get_data, new, sku, patch, "--replace-attrs" in argv)
+    except PayloadError as e:
+        print(f"error: {e}", file=sys.stderr)
+        sys.exit(1)
+    sys.stdout.reconfigure(encoding="utf-8")
+    print(json.dumps(out, ensure_ascii=False))

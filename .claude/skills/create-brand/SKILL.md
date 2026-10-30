@@ -23,10 +23,10 @@ Write via the admin JSON API using `scripts/create-brand.sh`. The UI form
 
 ## Steps
 
-1. **Auth** — `scripts/api.sh GET /account`. On 401, re-capture the token per
+1. **Auth** — `siruk doctor` (MCP `account_status`). On 401, re-capture the token per
    `scripts/README.md` (`.siruk-token`, lasts ~1 year).
-2. **Does it exist already?** — `scripts/ids.sh` (or
-   `scripts/api.sh GET '/brands?forProducts=true'`). An exact match (ignoring
+2. **Does it exist already?** — `siruk ids brands` (MCP `list_reference`, or
+   `siruk api GET '/brands?forProducts=true'`). An exact match (ignoring
    case/punctuation) means **use that id, create nothing**. A near-match is a
    judgment call the user makes, not you: "Brit" vs "Brit Care", "Monge" vs
    "Monge Superpremium" — stop and ask which one the product belongs to.
@@ -138,7 +138,7 @@ Only if the API create fails in a way the error doesn't explain: open
 `https://demo-api.siruk.am/admin/catalog/brands/create`, `fill_form` the name
 (slug usually auto-fills), attach the logo from the media library or with
 `upload_file`, save, then read the id back via
-`scripts/api.sh GET '/brands?forProducts=true'`. The logo rules above apply
+`siruk ids brands`. The logo rules above apply
 unchanged — the image still has to be one you looked at.
 
 ## Safety

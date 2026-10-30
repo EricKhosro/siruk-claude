@@ -22,7 +22,7 @@ SENT = re.compile(r"(?<=[.!?])\s+(?=[A-Z(])")
 
 def api_get(pid):
     env = dict(os.environ, SIRUK_NO_PACE="1", SIRUK_LANG="en")
-    r = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET", f"/products/{pid}"],
+    r = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET", f"/products/{pid}"],
                        capture_output=True, text=True, cwd=ROOT, env=env, timeout=120)
     i = r.stdout.find("{")
     return json.loads(r.stdout[i:])["data"]

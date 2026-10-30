@@ -15,7 +15,7 @@ PLANS = ("trixie-5", "8in1", "wetfood", "rest")
 
 
 def api(path):
-    r = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET", path],
+    r = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET", path],
                        capture_output=True, text=True, cwd=ROOT, timeout=180)
     i = r.stdout.find("{")
     return json.loads(r.stdout[i:]) if i >= 0 else {}

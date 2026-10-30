@@ -40,7 +40,8 @@ ACCEPT_IMAGES = "image%2Fjpeg%2Cimage%2Fpng%2Cimage%2Fwebp%2Cimage%2Favif%2Cimag
 
 
 def api(method, path, body=None):
-    r = subprocess.run([API, method, path] + (["-"] if body is not None else []),
+    # through bash: Windows can't exec a .sh directly
+    r = subprocess.run(["bash", API, method, path] +(["-"] if body is not None else []),
                        input=json.dumps(body) if body is not None else None,
                        capture_output=True, text=True, cwd=ROOT, timeout=300)
     out = r.stdout

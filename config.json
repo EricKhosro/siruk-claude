@@ -10,7 +10,7 @@
   ],
   "request": {
     "_comment": "Applies to every JSON API call (api.sh and everything built on it).",
-    "delay_seconds": 0.6,
+    "delay_seconds": 1.0,
     "jitter_seconds": 0.3,
     "chunk_size": 15,
     "chunk_pause_seconds": 5,

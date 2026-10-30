@@ -28,7 +28,7 @@ def get(pid, lang):
     env = dict(os.environ)
     if lang != "en":
         env["SIRUK_LANG"] = lang
-    r = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET", f"/products/{pid}"],
+    r = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET", f"/products/{pid}"],
                        capture_output=True, text=True, cwd=ROOT, env=env)
     return json.loads(r.stdout[r.stdout.find("{"):])
 

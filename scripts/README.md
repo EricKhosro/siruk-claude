@@ -1,8 +1,34 @@
 # scripts/ — Siruk admin API helpers
 
-Plain bash + `curl` + `jq` (all preinstalled on macOS). No Python, no deps.
-Every script sources `lib.sh`, prints `HTTP <code> <METHOD> <PATH>` to **stderr**
-and JSON to **stdout**, so you can pipe or redirect any of them.
+Bash (`curl` + `jq`, sourcing `lib.sh`) and Python 3 scripts. Each one prints
+`HTTP <code> <METHOD> <PATH>` to **stderr** and JSON to **stdout**, so you can
+pipe or redirect any of them.
+
+**The `siruk` package (2026-10-26).** The per-row writers also exist as one CLI,
+`uv run siruk …`, with a TUI (`siruk tui`) and an MCP server (`siruk-mcp`) on
+top. See CLAUDE.md → "`siruk` CLI, TUI and MCP server". They map onto the
+scripts like this:
+
+| script | `siruk` |
+|---|---|
+| `api.sh GET /account` | `siruk doctor` |
+| `ids.sh`, `refresh-attributes.sh`, `product-types.py --dump` | `siruk ids [kind]`, `siruk refresh` |
+| `find-product.sh`, `show-product.sh` | `siruk find`, `siruk show [--lang] [--raw]` |
+| `product-types.py --check` | `siruk check` |
+| `create-product.sh`, `add-variant.sh`, `set-variant.sh`, `rename-product.sh` | `siruk create`, `add-variant`, `set-variant`, `rename` (all `--dry-run`) |
+| `set-translation.py` | `siruk translate <id> ru\|hy <file>` |
+| `api.sh … /stock/variants/…` | `siruk stock show\|receive\|write-off\|set` |
+| `upload-media.sh` | `siruk media upload` (Pillow flattens/downscales, so it also works on Windows, unlike `sips`) |
+| `hafo-lookup.py`, `zoovet-lookup.py`, `nemo-lookup.py` | `siruk price hafo\|zoovet\|nemo` |
+| `pace.sh product` | `siruk pace product` |
+| `bulk-create.py` | `siruk bulk-create <payloads…> [--en-only] [--dry-run]` (the script is now a wrapper over `siruk/bulk.py`) |
+| `verify-translations.py` | `siruk verify-translations [--only ids] [--products-only]` (wrapper over `siruk/verify.py`) |
+| `dump-products.py` (for a price / code / stock / image check) | `siruk export [--format json] [--since …]`, `siruk export --audit`. One call: `GET /products/export`, one row per variant, including image ids/urls and category ids |
+| `check-hafo-prices.py` | `siruk recheck-prices [--only ids] [--apply]` (wrapper over `siruk/pricecheck.py`; also runs on Windows now, since it no longer executes `api.sh` directly) |
+
+`siruk_payload.py` is now a shim over `siruk/payload.py`. Its API calls go through
+the Python client (same token, `config.json` and pace files as `lib.sh`), not
+`api.sh`.
 
 ## Token (do this once; it survives reboots)
 
@@ -67,6 +93,8 @@ before running it.
 | `create-product.sh <payload.json>` | validates required fields, **refuses a variant priced at or below its cost** (`ALLOW_BELOW_COST=1` only on the user's say-so), warns if a similar product exists (`FORCE=1` to override), builds the body with `siruk_payload.py post-body` (checked against the product type), POSTs, reads back. Payload shape in its header: `price` = pack price, `measure_type`/`content`/`pack_count`, `initial_stock`, `attribute_values` |
 | `add-variant.sh <id> <variant.json>` | GET → append via `siruk_payload.py put-body` (checked against the product type) → safety-check (incl. the price-vs-cost guard) → PUT → read back. `variant.json` is one new variant in the catalog-model shape, no `id` |
 | `set-translation.py <id> <ru\|hy> <translation.json>` | stores a product's Russian/Armenian name, meta and variant texts per locale; copies every single-language field from `en`, verifies `en` untouched. `SIRUK_LANG=ru api.sh GET …` reads a locale |
+| `set-seo-meta.py <id…> \| --all [--redo] [--dry-run] \| --scan` | SEO meta title (≤ 60) + description (≤ 160) in en/ru/hy from `siruk/seo.py` (rule 15); skips a locale already equal to the target, diffs each product before/after, resumable log in `.siruk-cache/seo-meta/` (`--redo` ignores it) |
+| `set-media-alt.py --dry-run \| --ids … \| --all [--refresh]` | alt = caption on every media-library image: "{Brand} {Name}" from the product, "{Brand} logo", category / page titles, else a readable file name; plan CSV in `runs/<date>/`, resumable log in `.siruk-cache/media-alt/` |
 | `create-category.py <spec.json> [--dry-run]` | creates categories from a spec list, idempotently (dedupes on parent+name). Each entry `{parent, name, slug, meta_title}`; `parent` is an id or a path already in the file (`"Dog > Supplies"`), so a parent and its leaves go in one run. **Only on an explicit user ask.** Add the ru/hy pair to `translate-categories.py` afterwards |
 | `translate-categories.py [--dry-run]` | ru/hy names for every category from its built-in table |
 | `translate-brands.py [--dry-run]` | ru/hy for every brand (Latin name in all locales, translated meta) |
@@ -114,6 +142,7 @@ before running it.
 | `build-armsoft-import.py [--date <d>] [--sheets …]` | fills the ArmSoft import workbook `csv/Siruk-hx.xlsx` from `csv/all-xml-scale.xml`: **MATERIALS** one row per `<Goods>` column for column, **MTQUNIT** one row per `<QuantityUnitPart>` (the good's `<AltUnit>` flagged), **MTBARCODES** one row per `<MTBarCode>`, and **PRICES** one row per (good, unit) — price type `01`, AMD, date = today — with the live Siruk sale price from `Scale/scale-codes-per-kg.csv`, so a loose good gets `303` = its 1 kg variant price and `003` = its bag price. Goods not on Siruk are priced only from `state/armsoft-extra-prices.csv` and otherwise skipped and listed on stderr: it never derives a price. `--dry-run` prints the counts and the first rows |
 | `scale-export.py --catalogue <dir> --media <json>` | fills the newest ArmSoft goods export (`Scale/armsoft-export-*.xml`, `--in` to pick another) for the shop scale → `Scale/all-xml-scale.xml` + `scale-export-report.csv`: EAN (XML → PM register → run data, check digit verified, one good per EAN), first gallery image URL in the report CSV only (`<Image>` stays empty: the importer wants base64 bytes and fails on a URL with "not a valid Base-64 string"; `--image-urls` writes it anyway), and per-kg goods (bag with a `-KG` twin) laid out like good 0002 with a 5-digit scale code from `state/scale-codes.json` (sequential 00001, 00002, …; a new per-kg good takes the next free number). Read-only: needs a `/products/<id>` dump and a media listing |
 | `dump-products.py [--ids …] [--refresh]` | the full admin GET of every live product → `.siruk-cache/live/products/<id>.json` + `index.json`. Resumable and paced; the input of the two audits below. GET only |
+| `catalogue_export.py --lang en\|ru\|hy [--check]` | the whole catalogue in one `GET /products/export?format=json` (~15 s) → `.siruk-cache/live/export-<lang>.json`; as a module, `products(lang)` gives each product in the GET `/products/<id>` shape (attribute values rebuilt from the options text). `--check` compares with the `dump-products.py` copies. GET only |
 | `backfill-variant-codes.py --run runs/<date> [--apply [--only ids]] [--overwrite]` | CLAUDE.md 10b: plans `barcode` (EAN; a `-KG` 1 kg variant gets its 5-digit PLU), `accounting_code` (ArmSoft good code) and `price_source_url` (hafo/zoovet/nemo page) for every live variant → `variant-codes-plan.csv` + `variant-codes-report.md`; `--apply` PUTs through `siruk_payload.put_body` and reads back |
 | `audit-recommendation-data.py --run runs/<date> [--recs] [--ids …]` | read-only audit of the data the storefront's related items / cart rails are computed from (CLAUDE.md 14) → `recommendation-audit.csv` + `.md` |
 | `find-merge-candidates.py --run runs/<date>` (needs openpyxl: `uv run --with openpyxl python …`) | read-only merge review from the dump → `merge-candidates.xlsx` / `.json`; `NO_API=1` takes brand names from `.siruk-cache/live/brand-names.json` |

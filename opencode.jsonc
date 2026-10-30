@@ -2,13 +2,18 @@
   // OpenCode project configuration. See .opencode/README.md for the layout.
   "$schema": "https://opencode.ai/config.json",
 
-  // OpenCode does not read Claude Code's .mcp.json, so the chrome-devtools MCP
-  // server the brand-site skills drive is configured here instead.
+  // OpenCode does not read Claude Code's .mcp.json, so its MCP servers are
+  // repeated here: chrome-devtools (the brand-site skills) and siruk (the admin
+  // API as tools — siruk/mcp_server.py; writes are dry runs unless confirm=true).
   "mcp": {
     "servers": {
       "chrome-devtools": {
         "type": "local",
         "command": ["npx", "-y", "chrome-devtools-mcp@latest"]
+      },
+      "siruk": {
+        "type": "local",
+        "command": ["uv", "run", "--quiet", "python", "-m", "siruk.mcp_server"]
       }
     }
   },

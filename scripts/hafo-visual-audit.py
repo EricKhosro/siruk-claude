@@ -33,7 +33,7 @@ import imagehash  # noqa: E402
 
 def api(path):
     for _ in range(3):
-        r = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET", path],
+        r = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET", path],
                            capture_output=True, text=True, cwd=ROOT, timeout=180)
         i = r.stdout.find("{")
         if i >= 0:

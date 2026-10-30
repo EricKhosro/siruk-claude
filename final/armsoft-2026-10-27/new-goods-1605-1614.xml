@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1605</Code>
+    <Name>Կոշիկներ շն.՝ Walker Care, 2 հատ, S, սև</Name>
+    <LongName>Կոշիկներ շն. համար՝ Walker Care, 2 հատ, S, սև</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4201</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905019567</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1605</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905019567</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1606</Code>
+    <Name>կատ. ձագ. ճանկ. տախտ.՝ ալիք, 38*7*18 սմ/մանուշ.</Name>
+    <LongName>Կատուների ձագերի ճանկելու տախտակ՝ ալիք, ստվարաթղթից, 38*7*18 սմ/մանուշակագույն, կանաչ</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4823</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905480121</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1606</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905480121</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1607</Code>
+    <Name>Տակդիր շն.՝ ակտիվ ածուխով, 60*60 սմ, 1 հատ</Name>
+    <LongName>Տակդիր շների համար՝ ակտիվ ածուխով, 60*60 սմ (փաթեթ 10 հատ)</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4818</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>004</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>00119</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>004</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1607</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>00119</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1607</GoodsCode>
+        <Unit>004</Unit>
+        <BarCode>4047974233726</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1608</Code>
+    <Name>Կատ. ճանկ. տախտ.՝ ստվա., XXL, 64*11*37 սմ/մոխր.</Name>
+    <LongName>Կատուների ճանկելու տախտակ՝ ստվարաթղթից, XXL, 64*11*37 սմ/բաց մոխրագույն</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4823</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905480305</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1608</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905480305</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1609</Code>
+    <Name>Կատ. ճանկ. տախտ.՝ ալիք, XXL, 64*14*37 սմ/մոխր.</Name>
+    <LongName>Կատուների ճանկելու տախտակ՝ ստվարաթղթից ալիք, XXL, 64*14*37 սմ/բաց մոխրագույն</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4823</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905480312</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1609</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905480312</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1610</Code>
+    <Name>Կատ. ճանկ. տախտ.՝ խորը, մահճակալ, 45*12*33 սմ</Name>
+    <LongName>Կատուների ճանկելու տախտակ՝ խորը, մահճակալի տեսքով, 45*12*33 սմ</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4823</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905480138</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1610</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905480138</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1611</Code>
+    <Name>Անկողին Petmil Релакс, 50*40 սմ, մոխրագույն</Name>
+    <LongName>Անկողին՝ բարձր կողքերով, &quot;Petmil Релакс&quot; 50*40 սմ, մոխրագույն/ЛУ 03 П1П1 Ф0 П8 Г3 08</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>6307</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0001</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4627104435604</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1611</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4627104435604</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1612</Code>
+    <Name>Տակդիր Petmil WC PREMIUM, 60*40 սմ, 1 հատ</Name>
+    <LongName>Տակդիր՝ Petmil WC PREMIUM, 60*40 սմ (փաթեթ 10 հատ)</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4818</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>004</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>00120</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>004</Unit>
+        <Coef>10.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1612</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>00120</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1612</GoodsCode>
+        <Unit>004</Unit>
+        <BarCode>4627104432696</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1613</Code>
+    <Name>Անկողին Petmil Релакс, 50*40 սմ, կապույտ-աստղ.</Name>
+    <LongName>Անկողին՝ բարձր կողքերով, &quot;Petmil Релакс&quot; 50*40 սմ/ЛУ 03 Б4Б4 Ф0 П8 Г5 09 (10126)/կապույտ-աստղիկ</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>6307</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0001</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4670245101266</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1613</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4670245101266</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1614</Code>
+    <Name>Անկողին Petmil Релакс, 50*40 սմ, մոխր.-աստղ.</Name>
+    <LongName>Անկողին՝ բարձր կողքերով, &quot;Petmil Релакс&quot; 50*40 սմ/ЛУ 03 Б5Б5 Ф0 П8 Г5 09 (10127)/մոխրագույն-աստղիկ</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>6307</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier>0001</MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode>0</PLUCode>
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4670245101273</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1614</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4670245101273</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>1.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+</Exchange>

@@ -37,11 +37,11 @@ precise report of what was created (with ids), skipped, or flagged.
   Always send a real User-Agent — the WAF returns 403 for `Python-urllib`;
   curl's default UA works.
 - **Use the repo's scripts instead of hand-built curl:**
-  `scripts/api.sh METHOD PATH [payload.json|-]` for every call,
-  `scripts/ids.sh` to list what exists, `scripts/refresh-attributes.sh` to
-  regenerate the menu file. See `scripts/README.md`.
+  `siruk api METHOD PATH [payload.json|-]` for every call (fallback
+  `scripts/api.sh`, same arguments), `siruk ids` to list what exists,
+  `siruk refresh` to regenerate the menu files. See `scripts/README.md`.
 - Getting the token: it lives in `.siruk-token` at the repo root (gitignored,
-  survives reboots) — verify with `scripts/api.sh GET /account`. Only if that
+  survives reboots) — verify with `siruk doctor`. Only if that
   401s, re-capture via the chrome-devtools MCP: navigate to
   `https://demo-api.siruk.am/admin`, run
   `JSON.parse(localStorage.access_token).token` via `evaluate_script` (log in
@@ -108,7 +108,8 @@ precise report of what was created (with ids), skipped, or flagged.
      attribute ids each type now has.
 5. **Verify as you go:** every create response must contain an id; keep a
    running map. After the batch, regenerate the menus:
-   `scripts/refresh-attributes.sh` and `python3 scripts/product-types.py --dump`.
+   `siruk refresh` (fallback `scripts/refresh-attributes.sh` and
+   `python3 scripts/product-types.py --dump`).
 6. **NEVER delete or rename anything** unless the delegating prompt states
    the user explicitly asked for it. If deletion was asked: before deleting a
    value, check products for variants referencing its id and list them in the

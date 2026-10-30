@@ -37,7 +37,7 @@ UNIVERSAL = {"breed-size": "All Breeds", "lifestage": "All Lifestages"}   # valu
 
 
 def admin_get(path):
-    r = subprocess.run([os.path.join(ROOT, "scripts/api.sh"), "GET", path],
+    r = subprocess.run(["bash", os.path.join(ROOT, "scripts/api.sh"), "GET", path],
                        capture_output=True, text=True, cwd=ROOT, timeout=180)
     return json.loads(r.stdout[r.stdout.find("{"):])
 
