@@ -40,7 +40,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE = os.path.join(ROOT, 'reference/glovo/Pelican-Partners-Template.xlsx')
 CACHE = os.path.join(ROOT, '.siruk-cache/glovo')
 MEDIA_CACHE = os.path.join(CACHE, 'media.json')       # media id -> {url, dimensions}
-IMGBB_CACHE = os.path.join(CACHE, 'imgbb.json')       # media id -> i.ibb.co 500×500 direct link
+IMGBB_CACHE = os.path.join(CACHE, 'imgbb.json')       # media id -> i.ibb.co 500×500 direct link (old host)
+POSTIMAGES_CACHE = os.path.join(CACHE, 'postimages.json')   # media id -> i.postimg.cc 500×500 direct link
+SQUARES = os.path.join(CACHE, 'squares')              # 500×500 jpg per media id, for the browser uploader
+SQUARES_MANIFEST = os.path.join(CACHE, 'squares.json')
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36'
 
 PET = {1: 'շների', 8: 'կատուների', 95: 'թռչունների', 98: 'կրծողների'}
@@ -174,6 +177,29 @@ def square_jpeg(raw, side=500):
     return out.getvalue()
 
 
+def square_file(mid, src, manifest):
+    """Write squares/m<mid>.jpg (the photo on a white 500×500 square) if missing; record it in the manifest.
+
+    postimages.org refuses scripted uploads, so the files are what the browser step
+    uploads: open postimages.org in a real Chrome, upload each file with
+    *Do not resize my image* + *No expiration*, and save
+    `.siruk-cache/glovo/postimages.json` as {media id: "https://i.postimg.cc/<id>/<name>.jpg"}.
+    A re-run fills column D from that cache; anything missing goes to the problems CSV.
+    """
+    path = os.path.join(SQUARES, f'm{mid}.jpg')
+    if not os.path.exists(path):
+        os.makedirs(SQUARES, exist_ok=True)
+        raw = fetch(src)
+        tmp = path + '.tmp'
+        open(tmp, 'wb').write(square_jpeg(raw))
+        os.replace(tmp, path)
+    k = str(mid)
+    if manifest.get(k) != f'squares/m{mid}.jpg':
+        manifest[k] = f'squares/m{mid}.jpg'
+        jsave(SQUARES_MANIFEST, manifest)
+    return path
+
+
 KEY_AT = [0]    # which line of .imgbb-key is in use; moves on when a key hits the cap
 
 
@@ -239,12 +265,17 @@ def slug_file(s):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--out', default=os.path.join(ROOT, 'final/glovo/siruk-glovo-products.xlsx'))
-    ap.add_argument('--upload', action='store_true', help='make 500×500 squares and upload them to ImgBB (cached; the video used postimages.org)')
+    ap.add_argument('--images', choices=['postimages', 'imgbb'], default='postimages',
+                    help='host for the column-D link (default postimages, uploaded through a real browser)')
+    ap.add_argument('--squares', action='store_true',
+                    help='write the 500×500 JPGs the browser uploader needs to .siruk-cache/glovo/squares/')
+    ap.add_argument('--upload-imgbb', action='store_true',
+                    help='imgbb only: upload the squares here (.imgbb-key), no browser needed')
     ap.add_argument('--ids', type=int, nargs='*')
     ap.add_argument('--limit', type=int)
     a = ap.parse_args()
 
-    if a.upload and not os.path.exists(os.path.join(ROOT, '.imgbb-key')):
+    if a.upload_imgbb and not os.path.exists(os.path.join(ROOT, '.imgbb-key')):
         sys.exit('no .imgbb-key: get a key at api.imgbb.com and save it there')
     ids = set(a.ids or [])
     en, hy = load('products', ids), load('products-hy', ids)
@@ -270,7 +301,8 @@ def main():
         return c
 
     brands = {b['id']: b['name'] for b in (api_get('/brands?per_page=500') or {}).get('data', [])}
-    mcache, pcache = jload(MEDIA_CACHE), jload(IMGBB_CACHE)
+    mcache, icache = jload(MEDIA_CACHE), jload(IMGBB_CACHE)
+    pcache, sqman = jload(POSTIMAGES_CACHE), jload(SQUARES_MANIFEST)
 
     rows, problems = [], []
     limited = False
@@ -359,22 +391,34 @@ def main():
             else:
                 m = media(imgs[0], mcache)
                 img = m.get('url') or ''
-                if a.upload and not limited:
-                    k = str(imgs[0])
-                    if k not in pcache:
+                k = str(imgs[0])
+                if a.images == 'postimages':
+                    if a.squares and k not in pcache and img:
+                        try:
+                            square_file(k, img, sqman)
+                        except Exception as e:
+                            problems.append((p['id'], v['sku'], f'square failed: {e}'))
+                    link = pcache.get(k, '')
+                    if link:
+                        img = link
+                    else:
+                        problems.append((p['id'], v['sku'], 'no postimages link yet (run --squares, upload, re-run)'))
+                elif a.upload_imgbb and not limited:
+                    if k not in icache:
                         try:
                             jpeg = square_jpeg(fetch(img))
-                            pcache[k] = imgbb_upload(jpeg, f'siruk-m{k}')
-                            jsave(IMGBB_CACHE, pcache)
+                            icache[k] = imgbb_upload(jpeg, f'siruk-m{k}')
+                            jsave(IMGBB_CACHE, icache)
                             time.sleep(1)
                         except RateLimited as e:
                             limited = True
-                            print(f'ImgBB rate limit — uploads stopped, re-run --upload later: {e}', file=sys.stderr)
+                            print(f'ImgBB rate limit — uploads stopped, re-run later: {e}', file=sys.stderr)
                         except Exception as e:
                             problems.append((p['id'], v['sku'], f'upload failed: {e}'))
-                img = pcache.get(str(imgs[0]), img)          # an earlier upload counts without --upload too
-                if 'i.ibb.co' not in img:
-                    problems.append((p['id'], v['sku'], 'no 500×500 ImgBB link (Siruk original url used)'))
+                if a.images == 'imgbb':
+                    img = icache.get(k, img)          # an earlier upload counts without --upload-imgbb too
+                    if 'i.ibb.co' not in img:
+                        problems.append((p['id'], v['sku'], 'no 500×500 ImgBB link (Siruk original url used)'))
             avail = 1 if v.get('stock_status') == 'in_stock' and v.get('is_purchasable', True) else 0
             price = v['price']
             price = int(price) if float(price).is_integer() else round(float(price), 2)

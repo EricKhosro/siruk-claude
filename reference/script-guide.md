@@ -129,7 +129,7 @@ is a new toys CSV.
 | add a variant | `scripts/add-variant.sh <id> variant.json` | |
 | rename | `scripts/rename-product.sh <id> "<new name>" [slug]` | variants untouched; the name never contains the brand |
 | product flag | `scripts/set-product-flag.py <id> show_unit_price\|is_best_seller\|is_on_sale\|is_discontinued true\|false [--dry-run]` | fresh GET → siruk_payload PUT body, flag read back. `show_unit_price false` hides the per-100 g / per-kg rate (user 2026-10-19: single stick + 10-stick pack, product 1384) |
-| add a category | `scripts/add-category.py <id> <leaf-id> [<leaf-id> …] [--dry-run]` | fresh GET → siruk_payload PUT body; category_ids only ever grows (rule 7), read back. E.g. `add-category.py 1365 107` (Luna cave also under Cat › Beds, 2026-10-19) |
+| add a category | `scripts/add-category.py <id> <leaf-id> [<leaf-id> …] [--remove <leaf-id>] [--dry-run]` | fresh GET → siruk_payload PUT body; category_ids only ever grows (rule 7) unless `--remove` (a wrong category, only on the user's say-so), read back. E.g. `add-category.py 1365 107` (Luna cave also under Cat › Beds, 2026-10-19); `add-category.py 798 109 --remove 70` (cat-only bowl out of Dog, 2026-10-27) |
 | anything else | `scripts/api.sh GET/PUT/DELETE /path [payload.json\|-]` | the escape hatch. Never a hand-written `PUT /products` body |
 | fix / replace its images | section 6 | |
 

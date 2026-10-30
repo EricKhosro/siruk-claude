@@ -352,7 +352,7 @@ Dog 1 → Food 2 {Dry 3, Wet 4, Health Condition 5}, Treat 6 (leaves 7, 82–88)
 Toys 15 {17–22}, Grooming 27 {28–33}, Health & Pharmacy 41 {42–49}, Supplies
 68 {69–74}, Cleaning & Potty 75 {76–78}. Cat 8 → Food 9 {Dry 10, Wet 11},
 Treat 14 (leaves 89–94), Toys 16 {23–26}, Grooming 34 {35–40}, Health &
-Pharmacy 50 {51–58}, Litter 59 {60–65}, Supplies 66 {67, 79, Beds 107 (2026-10-19)}, Trees 80 {81}.
+Pharmacy 50 {51–58}, Litter 59 {60–65}, Supplies 66 {67, 79, Beds 107 (2026-10-19), Carriers 108, Bowls & Feeders 109 (2026-10-27)}, Trees 80 {81}.
 Bird 95 → {Food 96, Treats & Supplements 97}; Small Animal 98 → {Food 99,
 Hay 100, Treats 101, Supplements & Salt Licks 102, Bedding 103} (2026-09-28).
 **Accessories 13 is not a product category** — never file a row there.

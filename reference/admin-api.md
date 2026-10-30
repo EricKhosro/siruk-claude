@@ -421,7 +421,9 @@ Kidneys, 58 Test Kits]. The flat **12 Vitamins & Supplements was deleted**
 (empty) — supplements go in 43 / 52.
 **Cat Litter** 59 → [60 Clumping, 61 Scented, 62 Unscented, 63 Natural,
 64 Lightweight, 65 Crystal]; **Cat Supplies** 66 → [67 Litter Boxes &
-Accessories, 79 Collars, Leashes & Harnesses]; **Cat Trees, Condos &
+Accessories, 79 Collars, Leashes & Harnesses, 107 Beds, 108 Carriers & Travel,
+109 Bowls & Feeders (2026-10-27: Trixie's cat-tree bowls; dual-species bowls
+also keep Dog 70)]; **Cat Trees, Condos &
 Scratchers** 80 → [81 Scratchers & Scratching Posts].
 **Bird / Small Animal** (created 2026-09-28 on user approval for the sirook.pdf
 invoice): Bird 95 → [96 Food, 97 Treats & Supplements]; Small Animal 98 →
