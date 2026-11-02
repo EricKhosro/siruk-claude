@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1619</Code>
+    <Name>Կեր շների MONGE Speciality HYPO սաղմ/թյուն. 15կգ</Name>
+    <LongName>Speciality Line Adult Hypo — Salmon &amp; Tuna 15 kg</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>303</Unit>
+    <AltUnit>003</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>true</IsWeight>
+    <BarCode>00121</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>003</Unit>
+        <Coef>15.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>303</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1619</GoodsCode>
+        <Unit>003</Unit>
+        <BarCode>8009470006439</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1619</GoodsCode>
+        <Unit>303</Unit>
+        <BarCode>00121</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1619</Code>
+    <PriceType>01</PriceType>
+    <Unit>303</Unit>
+    <Date>2026-11-02T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>3550.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1619</Code>
+    <PriceType>01</PriceType>
+    <Unit>003</Unit>
+    <Date>2026-11-02T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>51000.0000</Price>
+    <Comment></Comment>
+  </Prices>
+</Exchange>

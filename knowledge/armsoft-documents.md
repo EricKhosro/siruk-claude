@@ -46,10 +46,30 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   rival price, user approved the recommendation **8,100** → ArmSoft **1618**,
   Siruk **1443**. All four on **receipt 0024**, posted.
 
+- Pull 2026-11-02 for 25/10–02/11: 8 invoices, 4 new. **A5514649574** (Pet
+  House, 31/10, 31,000: Monge All Breeds Adult Monoprotein Beef & Rice 12 kg,
+  0005, Siruk 1152) → receipt 0026; **A4577070686** (Pet House, 01/11, 20,300:
+  Acana Bountiful Catch 4.5 kg, 0010, Siruk 969) → receipt 0027 — both costs
+  equal the 09/09 receipt A6833625890. **A2847444750** (Pet House, 30/10,
+  37,000: 1 × "Կեր շն MONGE Speciality Line HYPOALLEGENIC 15կգ") was held
+  (no ArmSoft good, no Siruk product), then imported the same day on the
+  user's yes: hafo 006437 / EAN 8009470006439 = Monge **Best for Breeders**
+  Speciality Line Adult Hypo Salmon & Tuna 15 kg (mongebestforbreeders.com
+  code 800947000643) → Siruk **1444** (bag 51,000 + 1 kg 3,550 = hafo's own
+  per-kg price, user approved), ArmSoft good **1619** (303 + 003 × 15, PLU
+  00121, prices by XML) → receipt 0028. **A2943992285** («ԱՈՒԹՕՄԱՖԻՆԳ» ՓԲԸ, ՀՎՀՀ 00101514,
+  31/10, 120,000) = accounting/tax services, no receipt.
+  The pull's report opens as a **tab** ("Ստացված հաշիվների ներմուծում"), not a
+  window.
+
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0028** | 02/11 | Pet House **A2847444750** (30/10, 37,000 incl. VAT): 1619 Monge Speciality Line Adult Hypo Salmon & Tuna 15 kg (new good, same day) as 003 × 1 @ 37,000. Stock after 1 bag | posted by Claude, user asked |
+| receipt **0027** | 02/11 | Pet House **A4577070686** (01/11, 20,300 incl. VAT): 0010 Acana Bountiful Catch 4.5 kg as 003 × 1 @ 20,300. Stock after 1.444 bags | posted by Claude, user asked |
+| receipt **0026** | 02/11 | Pet House **A5514649574** (31/10, 31,000 incl. VAT): 0005 Monge All Breeds Adult Monoprotein Beef & Rice 12 kg as 003 × 1 @ 31,000. Stock after 1.761 bags | posted by Claude, user asked |
+| issue **0004** | 02/11 | 0536 Premio Stripes Lamb 100 g −1 (cost 1,215), stock count correction (stock 1 → 0). Comment "Stock count correction: 1 Premio Stripes Lamb 100 g short" | posted by Claude, user asked |
 | receipt **0025** | 28/10 | 0300 Carlo tray with rim 38×17×58 grey (Trixie 40121) +1 at 2,560, no supplier — other half of issue 0003 | posted by Claude, user yes |
 | issue **0003** | 28/10 | 0302 −1 (cost 2,560): 0302 "Vico Be Eco" was a duplicate of 0300 (seller's tag on the tray: #40121, EAN 4011905401218, user 2026-10-28). Barcode 4011905402116 (Trixie 40211, ours by mistake) removed from 0302; 0302 stays unused. Siruk 1062 "Litter Tray Carlo" (40211) set discontinued, ArmSoft code cleared | posted by Claude, user yes |
 | receipt **0024** | 28/10 | Pet House **A1081354321** (23,185 incl. VAT): 1617 Be Eco Vico 6,125 · 1615 Neon M blue 8,000 · 1616 Black Design S cord pink 4,000 · 1618 Color Dots S cord blue 5,060, 1 each | posted by Claude, user yes |

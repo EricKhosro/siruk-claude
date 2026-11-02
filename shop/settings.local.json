@@ -1,0 +1,55 @@
+{
+  "permissions": {
+    "deny": [
+      "mcp__siruk__create_product",
+      "mcp__siruk__bulk_create_products",
+      "mcp__siruk__add_variant",
+      "mcp__siruk__update_variant",
+      "mcp__siruk__rename_product",
+      "mcp__siruk__set_translation",
+      "mcp__siruk__upload_media",
+      "mcp__siruk__apply_hafo_prices",
+      "mcp__siruk__set_listing_order",
+      "mcp__siruk__stock_receive",
+      "mcp__siruk__stock_write_off",
+      "mcp__siruk__stock_set",
+
+      "Skill(add-products)",
+      "Skill(add-products *)",
+      "Skill(invoice-intake)",
+      "Skill(invoice-intake *)",
+      "Skill(create-brand)",
+      "Skill(create-brand *)",
+      "Skill(manage-attributes)",
+      "Skill(manage-attributes *)",
+      "Skill(armsoft-sync)",
+      "Skill(armsoft-sync *)",
+      "Skill(glovo-export)",
+      "Skill(glovo-export *)",
+      "Skill(google-lens)",
+      "Skill(google-lens *)",
+      "Agent(attribute-manager)",
+
+      "Bash(uv run siruk *)",
+      "Bash(uv run --no-sync siruk *)",
+      "Bash(python -m siruk *)",
+      "Bash(./scripts/api.sh *)",
+      "Bash(./scripts/create-product.sh *)",
+      "Bash(./scripts/add-variant.sh *)",
+      "Bash(./scripts/set-variant.sh *)",
+      "Bash(./scripts/rename-product.sh *)",
+      "Bash(./scripts/upload-media.sh *)",
+      "Bash(./scripts/set-translation.py *)",
+      "Bash(python scripts/bulk-create.py *)",
+      "Bash(uv run python scripts/bulk-create.py *)",
+      "PowerShell(uv run siruk *)",
+      "PowerShell(uv run --no-sync siruk *)",
+      "PowerShell(python -m siruk *)",
+
+      "Bash(git push --force *)",
+      "Bash(git reset --hard *)",
+      "PowerShell(git push --force *)",
+      "PowerShell(git reset --hard *)"
+    ]
+  }
+}

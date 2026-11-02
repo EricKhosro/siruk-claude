@@ -39,3 +39,6 @@ uv.lock.bak
 
 # Office lock files
 ~$*
+
+# per-machine Claude Code settings (the shop copies shop/settings.local.json here)
+.claude/settings.local.json

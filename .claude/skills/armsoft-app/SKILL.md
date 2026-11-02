@@ -13,6 +13,17 @@ this file every time something new is found (memory: skills-for-recurring-work).
 
 - `request_access` with `["ՀԾ-Առևտուր", "AS Trade"]` (the Armenian name uses
   **և**, not ե‌ւ — the resolver refuses "Առեւտուր").
+- **Starting it** (2026-11-02): `open_application` and a plain `Start-Process`
+  crash it at once (Event log: "Could not load DevExpress.Data.Desktop.v25.2")
+  — its runtimeconfig probes `lib` relative to the *working directory*. Start
+  it with PowerShell `Start-Process "<dir>\AS Trade.exe" -WorkingDirectory
+  "<dir>"` (`<dir>` = `C:\Program Files\Armenian Software\AS Trade`). The
+  login window can hide behind XPrinter (minimize it); the login's database
+  dropdown may say **TestAPI_SIRUK** — pick **Siruk** before Կատարել.
+- **Write off a few pieces** (2026-11-02, issue 0004): home → Պահեստ →
+  Պահեստի ելքի օրդեր opens a new order; click the Գծիկավոր կոդ box, type the
+  EAN, Enter (adds qty 1), type the reason in Մեկնաբանություն, click the grid,
+  Ctrl+S → "Գրանցված", cost filled in. Escape closes it.
 - **Never call `open_application`** when ArmSoft is already running: it starts
   a second instance on the login screen. If that happens, press its
   "Դադարեցնել" and close the empty window (title without "Siruk -").
@@ -221,6 +232,9 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
   the period from 01/01/25) — it holds invoices the online list misses
   (Ucom, Toz-Master, the shop-bag supplier). Double-click → tab
   Անվանացուցակ for the lines.
+  On 2026-11-02 the report opened as a new **tab** of the main window
+  ("Ստացված հաշիվների ներմուծում"), Այո/Ոչ per invoice. Home-page section
+  links (e-invoicing, Պահեստ) need a double-click.
   The report and the journal's period dialog can open **behind the main
   window** (2026-10-28: the screen looked unchanged after Կատարել). Find
   them with EnumWindows on the AS Trade process (title "Ստացված հաշիվների

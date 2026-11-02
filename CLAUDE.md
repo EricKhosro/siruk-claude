@@ -431,6 +431,9 @@ desktop program itself with computer use (export goods + prices, add barcodes;
 2026-10-23). **ArmSoft hard rules** (user, 2026-10-23: name < 50 chars for the HDM,
 price / selling unit / barcodes / code match Siruk, bag coefficient = bag kg,
 VAT off, per-kg goods: main unit kg + Քաշային): `/armsoft-sync` → "Hard rules".
+`/receive-invoices` is the **shop computer's** one command (seller-run): new supplier
+e-invoices → ArmSoft receipts, restocks only — an invoice with a product Siruk
+lacks is left for the office (`shop/README.md` for that machine's setup).
 `/glovo-export` fills Glovo's Pelican Partners xlsx from the live catalogue, one
 row per variant (`reference/glovo/README.md`). Big attribute batches → the `attribute-manager` agent.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,

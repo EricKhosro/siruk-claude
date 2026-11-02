@@ -22,3 +22,4 @@ and why" for each kind, with the goods that follow it.
 - 2026-10-26: good 1442 renamed "Կեր կատուների Monge STERILISED, հավ 10 կգ" (user: brand in the name so it can be found); EAN 8009470005135 on 003, PLU 00115 on 303, prices 35,500 / 3,650 — typed in the edit form by Claude, saved without a permission refusal this time.
 - 2026-10-27: 00116 / 00117 / 00118 went to the single Trixie Nappy pads (goods 0197 / 0132 / 0129; Siruk variants 1318 / 1062 / 1061), in the PLU file only like the stick singles. Next free: 00119.
 - 2026-10-27: 00119 / 00120 went to the new per-piece pads 1607 (Trixie charcoal 60×60, pack of 10 on 004) and 1612 (Petmil WC Premium 60×40, pack of 10 on 004). Next free: 00121.
+- 2026-11-02: 00121 went to Monge Speciality Line Adult Hypo Salmon & Tuna 1 kg (new good 1619, Siruk 1444 variant 2241; bag on 003 × 15 = EAN 8009470006439). Next free: 00122.
