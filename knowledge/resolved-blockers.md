@@ -154,3 +154,8 @@ Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
   correction receipt.
 - **Still — litter is never sold per kg** (user). 1441 keeps kg as its stock
   unit only because its stock and receipts are in kg.
+- **Learned 2026-11-03 — a till refund needs no warehouse receipt.** A
+  Վերադարձ (Կտրոն) against an HDM sale puts its goods back in stock itself
+  (02/11 return 126: Felix 1479 / 1483 / 1484 back to 20 / 20 / 17 in the
+  movement journal). `/refund` relies on it; goods returned unfit to sell
+  need an issue order from the office instead.

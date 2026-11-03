@@ -66,6 +66,8 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| return **0000002** | 02/11 | HDM return slip **00000126** against till sale 0000142 (HDM 124, 2,200, rung as cash; the customer paid by card and sale 0000143 / HDM 125 rang it again on card): Felix Adult Cat 1479 Salmon × 2, 1483 Lamb × 4, 1484 Trout × 5. Made at the office, printed at the shop. **Checked 2026-11-03: the return restocks by itself** — journal 1479 / 1483 / 1484 = 20 / 20 / 17, the single real sale counted once; no warehouse receipt needed | made by Claude, user asked |
+| receipt **0029** | 02/11 | **temporary**: 0536 Premio Stripes Lamb 100 g × 3 at 1,215 (3,645), no supplier — 3 packs arrived 02/11, their e-invoice not issued yet (not in the 25/10–02/11 pull; a second pull timed out). Stock after 3 (user: "it should show 3", so issue 0004 stands). When the invoice arrives: receive it as usual, then turn 0029 into a draft (state/open-items.csv) | posted by Claude, user asked |
 | receipt **0028** | 02/11 | Pet House **A2847444750** (30/10, 37,000 incl. VAT): 1619 Monge Speciality Line Adult Hypo Salmon & Tuna 15 kg (new good, same day) as 003 × 1 @ 37,000. Stock after 1 bag | posted by Claude, user asked |
 | receipt **0027** | 02/11 | Pet House **A4577070686** (01/11, 20,300 incl. VAT): 0010 Acana Bountiful Catch 4.5 kg as 003 × 1 @ 20,300. Stock after 1.444 bags | posted by Claude, user asked |
 | receipt **0026** | 02/11 | Pet House **A5514649574** (31/10, 31,000 incl. VAT): 0005 Monge All Breeds Adult Monoprotein Beef & Rice 12 kg as 003 × 1 @ 31,000. Stock after 1.761 bags | posted by Claude, user asked |

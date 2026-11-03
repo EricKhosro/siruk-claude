@@ -308,6 +308,29 @@ scrollbar right; outgoing shows red and negative), comment. Double-click a row
 to open the document read-only: maximize it to see the lines (unit 003 = a
 whole bag, 303 + PLU = loose kg). Escape closes it without saving.
 
+## Refund a wrong HDM receipt (2026-11-02)
+
+A seller printed a cash receipt (124) for a card sale, then sold it again on
+card (125). Fix = a return against the wrong receipt:
+- Check the title bar says **Siruk**, not TestAPI_SIRUK (the app was left on
+  the test DB). Switch: ☰ → Աշխատանքի սկիզբ → database dropdown → Siruk →
+  Կատարել; the news popup ignores clicks ~30 s, then a subscription notice.
+- Navigator search `կտրոն` → ՀԴՄ կտրոններ (period dialog → Կատարել). Right-click
+  the wrong row → Ստեղծել փաստաթղթի հիման վրա → **Վերադարձ (Կտրոն)**: the
+  lines and cash amount are filled from the sale. Save → "Գրանցված", stock back
+  (checked 2026-11-03 in the movement journal: the return restocks once, no
+  warehouse receipt needed). The seller's flow: `/refund`.
+- **The HDM part only works on the shop computer** (the register is attached
+  there): ՀԴՄ (F3) from the office did nothing. At the shop: open the same
+  return in the journal, ՀԴՄ (F3). Never make a second return (double stock).
+- The shop gets "Data Matrix … ծածկագրերը անցկացված չեն … Շարունակե՞լ" for
+  marked goods (Felix) with no codes: Այո, the sale sent none either.
+- After the slip printed, the office journal kept showing an empty ՀԴՄ
+  կտրոնի N even on refresh; only an ArmSoft restart showed it (00000126).
+  Restart: ☰ → Ելք (Այո on "Աշխատանքի ավարտ"), then the Start-Process line
+  above; the login and the main window can open behind other windows
+  (AttachThreadInput + SetForegroundWindow, ShowWindow 3 to maximize).
+
 ## New goods + sale prices by XML (2026-10-28)
 
 One XML can carry `<Goods>` and `<Prices>` (PriceType 01, Unit, Date, Price)

@@ -1,10 +1,14 @@
 # Shop computer setup
 
-The shop computer runs one command: **`/receive-invoices`** (skill:
-`.claude/skills/receive-invoices/SKILL.md`). It pulls new supplier
-e-invoices in ArmSoft and posts the warehouse receipt when every line is a
-good Siruk already sells. An invoice with a new product is left for the
-office (`state/open-items.csv`).
+The shop computer runs two commands:
+
+- **`/receive-invoices`** (skill: `.claude/skills/receive-invoices/SKILL.md`)
+  pulls new supplier e-invoices in ArmSoft and posts the warehouse receipt
+  when every line is a good Siruk already sells. An invoice with a new
+  product is left for the office (`state/open-items.csv`).
+- **`/refund`** (skill: `.claude/skills/refund/SKILL.md`) refunds a till
+  sale — one Վերադարձ (Կտրոն) against the original HDM receipt, printed on
+  the register attached to this computer (it doesn't print from the office).
 
 ## One-time setup
 
@@ -32,7 +36,7 @@ office (`state/open-items.csv`).
 git pull
 ```
 
-Then in Claude: `/receive-invoices`. Afterwards commit only what the run
+Then in Claude: `/receive-invoices` (or `/refund`). Afterwards commit only what the run
 writes:
 
 ```
