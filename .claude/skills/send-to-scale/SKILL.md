@@ -66,7 +66,7 @@ per-kg / per-100 g good, a new PLU, a renamed good. Then also reprint the
 counter's code lists (`scripts/scale-code-sheets.py`,
 `knowledge/resolved-blockers.md`).
 
-## Write it down
+## Write it down (on the shop computer: then commit, push and open the pull request per `shop/CLAUDE.local.md`)
 
 A dated bullet in `knowledge/goods-setups.md` (or the area's file): date, how
 many goods went, anything the scale refused.

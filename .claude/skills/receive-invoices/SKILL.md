@@ -22,8 +22,8 @@ first. Unit and cost traps: `knowledge/goods-setups.md`,
 
 ## 0. Before anything
 
-- The seller already ran `git pull`. If `git status` shows the tree behind or
-  conflicted, stop and tell them to call the office.
+- Git first: `shop/CLAUDE.local.md` → "Git on this computer" (main, pull,
+  a new `shop/<date>-receive` branch). A failed pull → stop, the office.
 - `account_status` (siruk MCP) → 200. A 401 means the Siruk login expired:
   tell the seller someone from the office has to log in again; stop.
 - ArmSoft is open and signed in (database "Siruk"). Don't open a second copy
@@ -113,7 +113,7 @@ Siruk's stock is a placeholder (10 on every variant, on purpose); real stock
 lives in ArmSoft only. A restock changes nothing on api.siruk.am — no stock
 call, no price change. The goods are on sale the moment the receipt is posted.
 
-## 6. Write it down (before the seller's `git push`)
+## 6. Write it down (then commit, push and open the pull request per `shop/CLAUDE.local.md`)
 
 - `knowledge/armsoft-documents.md`: the pull (date, period, how many
   invoices, which new) under "Reading the tax-invoice list", and a row per

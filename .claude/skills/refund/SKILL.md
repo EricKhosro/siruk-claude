@@ -103,7 +103,7 @@ Then check one returned good's stock (lower panel "Մնացորդ", or the movem
 journal per `/armsoft-app` → "One good's history"): it went up by the
 returned quantity, once.
 
-## 5. Write it down (before the seller's `git push`)
+## 5. Write it down (then commit, push and open the pull request per `shop/CLAUDE.local.md`)
 
 - `knowledge/armsoft-documents.md`, documents table (newest first): the
   return's document and ՀԴՄ numbers, date, which sale it refunds, the goods

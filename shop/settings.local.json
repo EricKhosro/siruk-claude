@@ -13,7 +13,6 @@
       "mcp__siruk__stock_receive",
       "mcp__siruk__stock_write_off",
       "mcp__siruk__stock_set",
-
       "Skill(add-products)",
       "Skill(add-products *)",
       "Skill(invoice-intake)",
@@ -29,7 +28,6 @@
       "Skill(google-lens)",
       "Skill(google-lens *)",
       "Agent(attribute-manager)",
-
       "Bash(uv run siruk *)",
       "Bash(uv run --no-sync siruk *)",
       "Bash(python -m siruk *)",
@@ -45,11 +43,26 @@
       "PowerShell(uv run siruk *)",
       "PowerShell(uv run --no-sync siruk *)",
       "PowerShell(python -m siruk *)",
-
       "Bash(git push --force *)",
       "Bash(git reset --hard *)",
       "PowerShell(git push --force *)",
-      "PowerShell(git reset --hard *)"
+      "PowerShell(git reset --hard *)",
+      "Bash(git push origin main*)",
+      "Bash(git push -u origin main*)",
+      "Bash(git merge *)",
+      "Bash(git rebase *)",
+      "Bash(gh pr merge *)",
+      "Bash(gh pr close *)",
+      "Bash(git add -A*)",
+      "Bash(git add .*)",
+      "PowerShell(git push origin main*)",
+      "PowerShell(git push -u origin main*)",
+      "PowerShell(git merge *)",
+      "PowerShell(git rebase *)",
+      "PowerShell(gh pr merge *)",
+      "PowerShell(gh pr close *)",
+      "PowerShell(git add -A*)",
+      "PowerShell(git add .*)"
     ]
   }
 }
