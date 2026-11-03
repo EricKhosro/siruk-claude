@@ -1,6 +1,6 @@
 # Shop computer setup
 
-The shop computer runs two commands:
+The shop computer runs three commands:
 
 - **`/receive-invoices`** (skill: `.claude/skills/receive-invoices/SKILL.md`)
   pulls new supplier e-invoices in ArmSoft and posts the warehouse receipt
@@ -9,6 +9,9 @@ The shop computer runs two commands:
 - **`/refund`** (skill: `.claude/skills/refund/SKILL.md`) refunds a till
   sale — one Վերադարձ (Կտրոն) against the original HDM receipt, printed on
   the register attached to this computer (it doesn't print from the office).
+- **`/send-to-scale`** (skill: `.claude/skills/send-to-scale/SKILL.md`)
+  sends every ArmSoft good to the Axiom label scale on the shop network
+  (192.168.0.99), e.g. after the office changes a per-kg price.
 
 ## One-time setup
 
@@ -36,7 +39,7 @@ The shop computer runs two commands:
 git pull
 ```
 
-Then in Claude: `/receive-invoices` (or `/refund`). Afterwards commit only what the run
+Then in Claude: `/receive-invoices` (or `/refund`, `/send-to-scale`). Afterwards commit only what the run
 writes:
 
 ```
