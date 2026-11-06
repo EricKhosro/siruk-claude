@@ -23,3 +23,15 @@ and why" for each kind, with the goods that follow it.
 - 2026-10-27: 00116 / 00117 / 00118 went to the single Trixie Nappy pads (goods 0197 / 0132 / 0129; Siruk variants 1318 / 1062 / 1061), in the PLU file only like the stick singles. Next free: 00119.
 - 2026-10-27: 00119 / 00120 went to the new per-piece pads 1607 (Trixie charcoal 60×60, pack of 10 on 004) and 1612 (Petmil WC Premium 60×40, pack of 10 on 004). Next free: 00121.
 - 2026-11-02: 00121 went to Monge Speciality Line Adult Hypo Salmon & Tuna 1 kg (new good 1619, Siruk 1444 variant 2241; bag on 003 × 15 = EAN 8009470006439). Next free: 00122.
+
+## ADG codes (learned 2026-11-05)
+
+- The HDM needs a classifier code on every receipt line (`adgCode`). Without one it refuses the line: error 192 "required", or 183 "wrong code". ArmSoft keeps the code on each good as **CPACode**, and its till sends `CPACode` as `adgCode` (decompiled `SamplePOSSaleWindow.xaml.cs`).
+- Two lists:
+  - Goods use the 4-digit customs code, ԱՏԳ ԱԱ (CNFEA). Food and treats are 2309, leads and collars 4201, plastic trays 3924, beds 6307, scratchers 4823, pads 4818, toys/plastics 3926.
+  - Services use the dotted activity code, ԱԴԳՏ (CPA). ArmSoft's service **1473 "Delivery" = 49.42**.
+- The 2026-10-27 ArmSoft export had a CPACode on all 1,559 records. Our new-good import files (`final/armsoft-*/new-good*.xml`) carry one too. Ops copies the code from ArmSoft's goods on import, so a good added to ArmSoft after the last Ops import has no ADG code in Ops until it is filled in.
+- 2026-11-05: in the Ops dev database, Delivery was set to 49.42 and the 23 goods with no code were filled in:
+  - 1605–1619 from our import files;
+  - 1620–1623 with 2309, the code of every similar treat (only ArmSoft holds their real value);
+  - 387807-OLD and 387817-OLD with 2309; 40211 with 3924.
