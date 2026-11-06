@@ -26,3 +26,15 @@ and why" for each kind, with the goods that follow it.
 - 2026-11-03: Siruk variant 2102 (Kotoffey litter, ArmSoft 1441) changed from 14.4 L (volume) to 8,100 g (mass) so the ArmSoft stock sync, which reads 1441 in kg, divides by the bag weight. The label still shows "8.1 kg (14.4 l)". Its sister bag 2029 (0236, counted in pieces in ArmSoft) went to 2,700 g the same day so both sizes read in kg (user). Both labels keep the litres: "2.7 kg (4.8 l)", "8.1 kg (14.4 l)".
 - 2026-11-05 (user: "I don't like how half is litre, half is kg — make all kg"): every Kotoffey litter is now **mass**, size from the weight printed on the bag: Hygienic 2030 → 2,700 g, 2246 → 8,100 g; Dark Wood 2031 and Light Wood 2032 → 2,000 g. The labels keep the litres ("2 kg (6 l)"); the shop cards now read "…, 2.7 kg / 8.1 kg / 2 kg" with a per-kg price. The Litter product type's default is still volume, so a new litter variant must be sent as mass by hand. Other brands' litters (Ok-Lock, Eco-Premium, Trixie, Versele-Laga) are still litres.
 - 2026-11-03 (user): **a bag that sold even 100 g loose is no longer a sealed bag.** ArmSoft counts a bag good in kg, so its stock = sealed bags (whole multiples of the 003 coefficient) + one open bag (the rest); a good with 0 sealed bags is re-ordered. `scripts/sealed-stock-report.py <turnover.xlsx> <goods.xml>` builds the sheet (order list, bags & packs, piece goods). It assumes one open bag per good at a time. Pouches and pads come in cases but sell one by one, so they count as pieces. First run: `final/sealed-stock-2026-11-03.xlsx`: 22 goods with only an open bag, 45 sold out.
+
+## ADG codes (learned 2026-11-05)
+
+- The HDM needs a classifier code on every receipt line (`adgCode`). Without one it refuses the line: error 192 "required", or 183 "wrong code". ArmSoft keeps the code on each good as **CPACode**, and its till sends `CPACode` as `adgCode` (decompiled `SamplePOSSaleWindow.xaml.cs`).
+- Two lists:
+  - Goods use the 4-digit customs code, ԱՏԳ ԱԱ (CNFEA). Food and treats are 2309, leads and collars 4201, plastic trays 3924, beds 6307, scratchers 4823, pads 4818, toys/plastics 3926.
+  - Services use the dotted activity code, ԱԴԳՏ (CPA). ArmSoft's service **1473 "Delivery" = 49.42**.
+- The 2026-10-27 ArmSoft export had a CPACode on all 1,559 records. Our new-good import files (`final/armsoft-*/new-good*.xml`) carry one too. Ops copies the code from ArmSoft's goods on import, so a good added to ArmSoft after the last Ops import has no ADG code in Ops until it is filled in.
+- 2026-11-05: in the Ops dev database, Delivery was set to 49.42 and the 23 goods with no code were filled in:
+  - 1605–1619 from our import files;
+  - 1620–1623 with 2309, the code of every similar treat (only ArmSoft holds their real value);
+  - 387807-OLD and 387817-OLD with 2309; 40211 with 3924.
