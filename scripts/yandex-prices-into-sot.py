@@ -5,9 +5,12 @@ those columns and that sheet each time and leaves everything else alone.
 
 Every cell holds a plain value (no formulas: viewers that don't recalculate show
 formula cells empty). The rule, with the settings sheet's values:
-  a checked Zoovet match ("same"): max(floor(Zoovet price × (1 − undercut)), floor price)
+  a checked Zoovet match ("same"): max(floor(Zoovet price × (1 − undercut)), Zoovet floor)
   otherwise:                       max(ceiling(Siruk price × (1 + uplift)), floor price)
-  floor price = ceiling(cost ÷ (1 − commission − minimum margin)), all to 50 ֏.
+  floor price  = ceiling(cost ÷ (1 − commission − minimum margin))
+  Zoovet floor = ceiling(cost ÷ (1 − commission − minimum margin under Zoovet)), all to 50 ֏.
+The lower Zoovet floor (user 2026-11-05) keeps every matched item cheaper than
+Zoovet; at 15% on every row, 65 matched items came out equal to or above it.
 To change the rule, edit the yellow cells on "Yandex pricing" and re-run: the
 script reads them back from the file.
 
@@ -30,10 +33,16 @@ SETTINGS = [
     ('Uplift on the Siruk price when Zoovet has no such item', 0.14,
      "Zoovet's Yandex prices are a median 1.20× our Siruk prices; 1.20 × (1 − 5%) ≈ +14%"),
     ('Round to (֏)', 50, ''),
+    ('Minimum net margin when undercutting Zoovet', 0.05,
+     'user 2026-11-05: stay cheaper than Zoovet even below the usual minimum margin'),
 ]
 HEAD = ['Zoovet Yandex item', 'Zoovet Yandex price (AMD)', 'Suggested Yandex price (AMD)', 'vs Zoovet %',
         'Price basis', 'Match check', 'Match note', 'Net after Yandex commission (AMD)',
         'Net margin % on Yandex', 'vs Siruk price %']
+# Brands that skip the Zoovet undercut and take the Siruk price + uplift (15% floor),
+# even where Zoovet sells the same item. User 2026-11-05: Royal Canin is out of stock
+# across the city, so it sells without being cheaper than Zoovet.
+NO_UNDERCUT = ('Royal Canin',)
 WIDTH = dict(L=55, M=12, N=13, O=10, P=26, Q=11, R=34, S=14, T=11, U=10)
 
 
@@ -51,7 +60,7 @@ def main():
             if isinstance(old[f'B{i}'].value, (int, float)):
                 row[1] = old[f'B{i}'].value
         del wb['Yandex pricing']
-    comm, under, minm, upl, rnd = (r[1] for r in settings)
+    comm, under, minm, upl, rnd, minz = (r[1] for r in settings)
     up = lambda x: math.ceil(round(x / rnd, 6)) * rnd
     down = lambda x: math.floor(round(x / rnd, 6)) * rnd
     st = wb.create_sheet('Yandex pricing')
@@ -92,17 +101,23 @@ def main():
             same = vv.get('verdict') == 'same'
         cost, price = ws[f'D{r}'].value or 0, ws[f'C{r}'].value or 0
         floor = up(cost / (1 - comm - minm)) if cost else 0
-        if same:
+        exempt = same and (ws[f'A{r}'].value or '').startswith(NO_UNDERCUT)
+        if same and not exempt:
             rival = float(mm['rival_price'])
             want = down(rival * (1 - under))
-            sug = max(want, floor)
-            basis = 'under Zoovet' if want >= floor else 'minimum margin (Zoovet too cheap)'
+            zfloor = up(cost / (1 - comm - minz)) if cost else 0
+            sug = max(want, zfloor)
+            basis = 'under Zoovet' if want >= floor else ('under Zoovet, lower margin' if want >= zfloor
+                                                          else 'minimum margin (Zoovet too cheap)')
             ws[f'O{r}'] = round(sug / rival - 1, 4)
             n['zoovet'] += 1
         else:
             want = up(price * (1 + upl))
             sug = max(want, floor)
             basis = 'Siruk price + uplift' if want >= floor else 'minimum margin'
+            if exempt:
+                basis += ' (no Zoovet undercut for this brand)'
+                ws[f'O{r}'] = round(sug / float(mm['rival_price']) - 1, 4)
             n['uplift'] += 1
         net = sug * (1 - comm) - cost
         ws[f'N{r}'], ws[f'P{r}'], ws[f'S{r}'] = sug, basis, round(net)

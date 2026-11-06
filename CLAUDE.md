@@ -439,7 +439,12 @@ checked 2026-11-03). `shop/README.md` for that machine's setup.
 `/send-to-scale` pushes every ArmSoft good (name, price list 01, PLU) to the shop's Axiom
 label scale through ArmSoft's own export (goods list → Արտահանել → Խմբային).
 `/glovo-export` fills Glovo's Pelican Partners xlsx from the live catalogue, one
-row per variant (`reference/glovo/README.md`). `/yandex-eda` lists variants
+row per variant (`reference/glovo/README.md`). `/glovo-portal` runs the live
+Glovo store (prices from that sheet — `scripts/glovo-prices-into-sheet.py` fills it,
+just under Zoovet's Glovo price on every shared item, 2026-11-06 — on/off availability — Glovo keeps no
+quantities, SKU zero fixes) through the partner portal's catalogue GraphQL API, token
+from the built-in browser (`reference/glovo/portal.md`, `scripts/glovo-portal.py`;
+2026-11-05). `/yandex-eda` lists variants
 on Yandex Eda through the retailer cabinet's JSON API, driven from the
 built-in browser where the user's Yandex sign-in lives (one card per variant,
 Russian name with size, white 1000×1000 photo; `reference/yandex/README.md`). Big attribute batches → the `attribute-manager` agent.

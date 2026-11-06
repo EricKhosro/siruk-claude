@@ -170,6 +170,20 @@ Zoovet (`zoovetam`, place 2285402) on 2026-11-02:
 - Matches and the price proposal: `scripts/yandex-price-compare.py` →
   agent/hand check (`<slug>-verdicts.json`) → `scripts/yandex-price-sheet.py`
   → `final/yandex/siruk-yandex-prices.xlsx`.
+- **The prices of record** are column N of `final/siruk-source-of-truth.xlsx`
+  (plain values, `scripts/yandex-prices-into-sot.py`). The formula sheet
+  `siruk-yandex-prices.xlsx` shows blanks in viewers that don't recalculate,
+  and it goes stale when Siruk prices change. Glovo starts from the same column N
+  (user 2026-11-05), then goes just under Zoovet's **Glovo** price wherever Zoovet sells
+  the same item there, Royal Canin included (user 2026-11-06,
+  `scripts/glovo-prices-into-sheet.py`, skill `/glovo-portal`).
+- A confirmed Zoovet twin is always priced under Zoovet, with its own lower
+  margin floor of 5% net after commission (user 2026-11-05). Every other row
+  keeps the 15% floor.
+- **Royal Canin skips the undercut** (user 2026-11-05: out of stock across the
+  city, it sells anyway): Siruk price + uplift with the 15% floor, even where
+  Zoovet is cheaper. `NO_UNDERCUT` in the script. On Yandex only: Glovo undercuts
+  Royal Canin too (2026-11-06).
 
 ## Photos: reuse of the Glovo squares
 

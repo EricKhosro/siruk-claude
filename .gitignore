@@ -42,3 +42,6 @@ uv.lock.bak
 
 # per-machine Claude Code settings (the shop copies shop/settings.local.json here)
 .claude/settings.local.json
+
+# Glovo partner portal tokens (access + refresh) — never commit
+.glovo-token
