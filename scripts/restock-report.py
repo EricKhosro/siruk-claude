@@ -65,13 +65,15 @@ def col(header, name):
 
 def load_turnover(path):
     rows = list(openpyxl.load_workbook(path, read_only=True).active.iter_rows(values_only=True))
-    h = list(rows[2])
+    # "Արտահանել Excel" puts a blank row under the title, "(մեծ տվյալներ)" doesn't: find the header
+    hi = next(k for k, r in enumerate(rows[:6]) if r and r[0] == "Կոդ")
+    h, rows = list(rows[hi]), rows[hi + 1:]
     i_ret = col(h, "Վերադարձներ/Քանակ մուտք")
     i_s1, i_s2 = col(h, "Վաճառքներ/Քանակ ելք"), col(h, "Վաճառք (Մանրածախ)/Քանակ ելք")
     i_end = col(h, "Վերջնական քանակ")
     i_in = [i for i, x in enumerate(h) if x and x.endswith("Քանակ մուտք")]
     out = []
-    for r in rows[3:]:
+    for r in rows:
         if not r or not r[0] or r[0] == "Ընդամենը":
             continue
         n = lambda i: float(r[i] or 0)

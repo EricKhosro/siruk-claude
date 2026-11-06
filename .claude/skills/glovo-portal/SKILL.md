@@ -74,6 +74,21 @@ sells out or comes back:
 `runs/<date>/glovo-availability.csv`. Never switch the whole catalogue off/on
 without an explicit ask (the store would vanish from Glovo).
 
+**From ArmSoft stock** (user, 2026-11-06 — "count the sealed and unsealed stock"):
+1. ArmSoft turnover export (`/armsoft-app` → "Stock / turnover"), saved as
+   `Scale/armsoft-turnover-<date>.xlsx`; the latest goods XML for bag sizes.
+2. `uv run --no-sync --with openpyxl python scripts/glovo-portal.py stock
+   Scale/armsoft-turnover-<date>.xlsx Scale/armsoft-export-<date>.xml
+   --out final/glovo/glovo-availability-<date>.xlsx` (dry run). Rule: a bag needs
+   a **sealed** bag (stock ≥ bag kg); its `-KG` / `-100G` variant needs 1 kg /
+   100 g of open + sealed stock; everything else needs 1. Matched on the Siruk
+   variant's `accounting_code`; zero-stripped Glovo SKUs handled.
+3. Show the user the list, then `--apply`. It refuses to switch off over 25 % of
+   the store without `--force` (a broken export, not a sell-out).
+4. "off on Glovo but in stock": someone switched it off by hand — ask, don't
+   `--on` by default (2026-11-06 both were ArmSoft stock errors → write-off).
+5. Re-run the dry run: it should say 0 to switch off.
+
 ## 4. SKUs that lost their zeros
 
 Onboarding went through Excel, so `011137` became `11137` on Glovo (202

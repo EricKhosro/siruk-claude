@@ -89,6 +89,17 @@ Context menu on a good (right-click): Խմբագրել (Ctrl+E), Գներ (price
   ribbon "Արտահանել Excel" ▾ → "Արտահանել Excel (առանց ձևավորման)", save as
   `armsoft-prices-<date>.xlsx`. Header row has Ամսաթիվ, Կոդ, Գնի տեսակ
   (01 = sale), Միավոր, Գին.
+- **Stock / turnover → Excel** (2026-11-06): the top search box "Փնտրել
+  (Ctrl+K)" (833, 13) → type `շրջանառ` → "Ապրանքների շրջանառություն"
+  (Գնումներ - Հաշվետվություններ). Start date: click (483, 182), Ctrl+A,
+  `010101`, Tab; tick **Բացված ըստ գործողությունների** (640, 483); Կատարել
+  (667, 621), ~8 s for 1,560 goods. Ribbon "Արտահանել Excel" ▾ (363, 97) →
+  "Արտահանել Excel (մեծ տվյալներ)", path `Scale/armsoft-turnover-<date>.xlsx`.
+  That variant has no blank row under the title (the plain one has); the
+  scripts find the header row themselves. Feeds `sealed-stock-report.py`,
+  `restock-report.py` and `glovo-portal.py stock`.
+- If ArmSoft was left open overnight it greets you with "Հաստատել ընթացիկ
+  ամսաթվի փոփոխությունը" (confirm the working-date change): Այո.
 - `scripts/armsoft-gaps.py <goods.xml> <prices.xlsx> --out x.xlsx` lists every
   good + unit with no barcode or no sale price.
 

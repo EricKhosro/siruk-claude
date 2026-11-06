@@ -22,6 +22,8 @@ Every write is a DRY RUN unless --apply. Writes are paced (config: PACE seconds)
   python3 scripts/glovo-portal.py fix-skus [--apply]           # 11137 → 011137 (Excel ate the zeros)
   python3 scripts/glovo-portal.py set-price 4020 9800 [--apply]
   python3 scripts/glovo-portal.py set-active 4020 4026 --off [--apply]
+  python3 scripts/glovo-portal.py stock Scale/armsoft-turnover-<date>.xlsx Scale/armsoft-export-<date>.xml \
+      [--out final/glovo/glovo-availability-<date>.xlsx] [--on] [--apply]
 
 `prices` compares the live Glovo price with column F (Price) of the Glovo sheet,
 matched by SKU (column A), and updates the differences. A change of more than
@@ -328,6 +330,123 @@ def cmd_set_active(a):
         print('→', runlog('glovo-availability.csv', ['time', 'sku', 'name', 'active', 'note'], rows))
 
 
+MAX_OFF_SHARE = 0.25   # refuse to switch off more than this share of the store without --force
+
+
+def armsoft_stock(turnover, goods_xml):
+    """ArmSoft code → {unit_kg, stock, bag} from the turnover export + goods XML (sealed-stock-report.py)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('ssr', os.path.join(ROOT, 'scripts', 'sealed-stock-report.py'))
+    ssr = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ssr)
+    goods, turn = ssr.load_goods(goods_xml), ssr.load_turnover(turnover)
+    ssr.fold_duplicates(turn)
+    return {c: {'kg': t['unit'] == 'կգ', 'stock': round(t['stock'], 3),
+                'bag': goods.get(c, {}).get('pack', 0) if t['unit'] == 'կգ' else 0} for c, t in turn.items()}
+
+
+def variant_need(v, st):
+    """(needed stock in ArmSoft's main unit, what it means) for one Siruk variant, or (None, why)."""
+    sku = str(v['sku'])
+    if not st['kg']:
+        return (None, 'per-kg variant on a piece good') if sku.endswith(('-KG', '-100G')) else (1, '1 in stock')
+    if sku.endswith('-KG'):
+        return 1, '1 kg loose (open + sealed)'
+    if sku.endswith('-100G'):
+        return 0.1, '100 g loose (open + sealed)'
+    if st['bag']:
+        return st['bag'], f'1 sealed {st["bag"]:g} kg bag'
+    return None, 'kg good with no bag unit in ArmSoft'
+
+
+def cmd_stock(a):
+    """Glovo availability from ArmSoft stock: a bag needs a sealed bag, 1 kg / 100 g needs that much loose
+    (open bag + sealed ones), anything else needs 1 in stock. Off by default; --on also switches back on."""
+    import openpyxl
+    from openpyxl.styles import Font, PatternFill
+    stock = armsoft_stock(a.turnover, a.goods)
+    siruk_names()                                   # refreshes the Siruk export if older than a day
+    ours = {str(r['sku']): r for r in json.load(open(SIRUK_EXPORT, encoding='utf-8'))}
+    live = {i['sku']: i for i in all_products()}
+    m, amb = match_skus(live, ours)
+    rows, off, on = [], [], []
+    for g, item in sorted(live.items(), key=lambda kv: kv[1]['name']):
+        o = m.get(g)
+        v = ours.get(o)
+        code = (v or {}).get('accounting_code') or ''
+        code = code.strip()
+        st = stock.get(code, {'kg': False, 'stock': 0, 'bag': 0}) if code else None
+        if not v:
+            need, why, avail = None, 'no Siruk variant with this SKU', None
+        elif not code:
+            need, why, avail = None, 'Siruk variant has no ArmSoft code', None
+        else:
+            if code not in stock and (v.get('measure_type') == 'mass' and str(o).endswith(('-KG', '-100G'))):
+                st = {'kg': True, 'stock': 0, 'bag': 0}
+            need, why = variant_need(v, st)
+            avail = None if need is None else st['stock'] >= need - 1e-6
+            if code not in stock:
+                why += ' — never stocked in ArmSoft'
+        sealed = math_floor(st['stock'] / st['bag']) if st and st['bag'] and st['stock'] > 0 else None
+        action = ''
+        if avail is False and item['active']:
+            action = 'OFF'; off.append(g)
+        elif avail is True and not item['active']:
+            action = 'ON' if a.on else 'back in stock (use --on)'
+            if a.on:
+                on.append(g)
+        rows.append([g, o or '', item['name'], code, (st or {}).get('stock'), 'kg' if st and st['kg'] else 'pcs' if st else '',
+                     (st or {}).get('bag') or '', sealed, round(st['stock'] - sealed * st['bag'], 3) if sealed is not None else '',
+                     why, need, {True: 'yes', False: 'NO', None: '?'}[avail], 'on' if item['active'] else 'off', action])
+    n_act = sum(1 for i in live.values() if i['active'])
+    print(f'{len(live)} Glovo products ({n_act} on). ArmSoft: {sum(1 for r in rows if r[11] == "NO")} not available, '
+          f'{sum(1 for r in rows if r[11] == "?")} unknown (left alone).')
+    print(f'switch OFF: {len(off)}' + (f', switch ON: {len(on)}' if a.on else
+          f'; {sum(1 for r in rows if r[13].startswith("back"))} are off on Glovo but in stock (not touched without --on)')
+          + ('' if a.apply else '  (DRY RUN — add --apply)'))
+    for r in rows:
+        if r[13] in ('OFF', 'ON'):
+            print(f'  {r[13]:<3} {r[0]:>14}  {r[3]:<5} stock {r[4]!s:<7} {r[5]:<3} need {r[10]!s:<5} {r[2][:55]}')
+    for g, n, c in amb:
+        print('  ambiguous SKU, left alone:', g, n[:50], c)
+    if a.out:
+        wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'Glovo availability'
+        ws.append(['Glovo SKU', 'Siruk SKU', 'Glovo name', 'ArmSoft code', 'Stock', 'Unit', 'Bag kg', 'Sealed bags',
+                   'Open bag left', 'Rule', 'Needs', 'Available', 'Glovo now', 'Action'])
+        for c in ws[1]:
+            c.font = Font(bold=True, color='FFFFFF'); c.fill = PatternFill('solid', fgColor='1F4E78')
+        for r in sorted(rows, key=lambda r: ({'OFF': 0, 'ON': 1}.get(r[13], 2 if r[13] else 3), r[2])):
+            ws.append(r)
+            if r[13]:
+                ws.cell(ws.max_row, 14).fill = PatternFill('solid', fgColor='F8CBAD' if r[13] == 'OFF' else 'C6EFCE')
+        for j, w in enumerate([15, 17, 60, 9, 8, 5, 7, 8, 9, 40, 6, 9, 8, 22], start=1):
+            ws.column_dimensions[openpyxl.utils.get_column_letter(j)].width = w
+        ws.freeze_panes = 'D2'; ws.auto_filter.ref = ws.dimensions
+        wb.save(a.out)
+        print('→', a.out)
+    if len(off) > MAX_OFF_SHARE * max(n_act, 1) and not a.force:
+        sys.exit(f'refused: {len(off)} of {n_act} active products would go off — check the export (--force to allow)')
+    if not a.apply:
+        return
+    log, failed = [], []
+    for g, act in [(g, False) for g in off] + [(g, True) for g in on]:
+        try:
+            r = update(g, {'active': act}, True)
+            log.append((datetime.datetime.now().isoformat(timespec='seconds'), g, live[g]['name'], r['active'],
+                        a.note or ('ArmSoft stock: ' + ('none left' if not act else 'back in stock'))))
+        except Exception as e:
+            failed.append((g, str(e)[:200]))
+    p = runlog('glovo-availability.csv', ['time', 'sku', 'name', 'active', 'note'], log)
+    print(f'switched {len(log)}, failed {len(failed)} → {p}')
+    for f in failed:
+        print('  FAIL', *f)
+
+
+def math_floor(x):
+    import math
+    return math.floor(x + 1e-6)
+
+
 def main():
     global TOKEN
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -345,6 +464,11 @@ def main():
     p = sub.add_parser('set-active'); p.add_argument('skus', nargs='+')
     g = p.add_mutually_exclusive_group(required=True); g.add_argument('--on', action='store_true'); g.add_argument('--off', action='store_true')
     p.add_argument('--note'); p.add_argument('--apply', action='store_true'); p.set_defaults(f=cmd_set_active)
+    p = sub.add_parser('stock', help='availability from an ArmSoft turnover export (sealed bags vs open)')
+    p.add_argument('turnover'); p.add_argument('goods')
+    p.add_argument('--on', action='store_true', help='also switch back on what is in stock again')
+    p.add_argument('--out', help='review sheet (.xlsx)'); p.add_argument('--note')
+    p.add_argument('--apply', action='store_true'); p.add_argument('--force', action='store_true'); p.set_defaults(f=cmd_stock)
     a = ap.parse_args()
     TOKEN = load_token()
     a.f(a)

@@ -42,13 +42,15 @@ def load_goods(path):
 
 def load_turnover(path):
     rows = list(openpyxl.load_workbook(path, read_only=True).active.iter_rows(values_only=True))
-    h = list(rows[2])
+    # "Արտահանել Excel" puts a blank row under the title, "(մեծ տվյալներ)" doesn't: find the header
+    hi = next(k for k, r in enumerate(rows[:6]) if r and r[0] == "Կոդ")
+    h, rows = list(rows[hi]), rows[hi + 1:]
     i = lambda name: h.index(name)
     i_rec = [i("Պահեստի մուտքի օրդեր/Քանակ մուտք"), i("Ապրանքների մնացորդների մուտք/Քանակ մուտք")]
     i_ret, i_end = i("Վերադարձներ/Քանակ մուտք"), i("Վերջնական քանակ")
     i_sold = [i("Վաճառքներ/Քանակ ելք"), i("Վաճառք (Մանրածախ)/Քանակ ելք")]
     out = {}
-    for r in rows[3:]:
+    for r in rows:
         if not r or not r[0] or r[0] == "Ընդամենը":
             continue
         n = lambda j: float(r[j] or 0)

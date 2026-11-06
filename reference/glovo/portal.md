@@ -56,6 +56,8 @@ is open; the schema is cached in `.siruk-cache/glovo/catalog-schema.json`.
 `maximumSalesQuantity` (per-order cap; 0 = none). Without the "Stock & Price
 integration" nobody switches a product off when it sells out. That is us
 (`glovo-portal.py set-active <sku> --off`), the partner app, or the portal toggle.
+`glovo-portal.py stock` sets it from an ArmSoft turnover export (sealed bag vs open bag;
+skill → Availability). 2026-11-06: 73 switched off, 1,517 of 1,597 left on.
 
 ## Token
 
