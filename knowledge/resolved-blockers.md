@@ -2,6 +2,16 @@
 
 Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
 
+## 2026-11-06
+
+- **Lifted — `scripts/hafo-watch.py` crashed on Windows** ("No time zone found
+  with key Asia/Yerevan": Windows ships no tz database). Run it as
+  `uv run --no-sync --with tzdata python scripts/hafo-watch.py crawl`.
+- **Lifted — `siruk api GET /products/1242` from Git Bash** went to
+  `/api/adminC:/Program Files/Git/products/1242` (MSYS turns a leading-slash
+  argument into a Windows path). Prefix `MSYS_NO_PATHCONV=1`, or use PowerShell
+  or the MCP tools.
+
 ## 2026-10-27
 
 - **Fact — the invoices are the source of truth for what Siruk sells (PM via
