@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <MTIncome xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDeleted>false</IsDeleted>
+    <IsDraft>true</IsDraft>
+    <Owner></Owner>
+    <DocumentDate>2026-11-03T00:00:00</DocumentDate>
+    <DocumentNumber>0030</DocumentNumber>
+    <Storage>01</Storage>
+    <CurrencyCode>AMD</CurrencyCode>
+    <CurrencyExchangeRate>1.0000</CurrencyExchangeRate>
+    <CurrencyExchangeBase>1.0000</CurrencyExchangeBase>
+    <VATType>2</VATType>
+    <PriceType></PriceType>
+    <PartnerCode></PartnerCode>
+    <Contract></Contract>
+    <PartnerAmount>0</PartnerAmount>
+    <InvoiceNumber></InvoiceNumber>
+    <InvoiceDate>2026-11-03T00:00:00</InvoiceDate>
+    <Comment>Till sale 0000144 (HDM 127): 0.9 kg rung as 0015 (PLU 00009), was 0017 Puppy; other half of issue 0005</Comment>
+    <BaseISN></BaseISN>
+    <Trust></Trust>
+    <Mediator></Mediator>
+    <MediatorCaption></MediatorCaption>
+    <Machine></Machine>
+    <ChiefAccountant></ChiefAccountant>
+    <Allower></Allower>
+    <Response></Response>
+    <DiscountPercent>0</DiscountPercent>
+    <ISN>c7457710-5346-4c74-a92b-e432fed126ea</ISN>
+    <Specification>
+      <MTIncomeSpecificationRow>
+        <Code>0015</Code>
+        <Unit>303</Unit>
+        <Quantity>0.9000</Quantity>
+        <Price>2791.6700</Price>
+        <Discount>0.0000</Discount>
+        <DiscountPrice>2791.6700</DiscountPrice>
+        <Amount>2512.5000</Amount>
+        <VAT>false</VAT>
+        <ExtraPercent>0</ExtraPercent>
+        <SalePrice>0</SalePrice>
+        <SaleAmount>0</SaleAmount>
+        <UseFulLife i:nil="true" />
+        <Country></Country>
+        <Producer></Producer>
+        <Property1></Property1>
+        <Property2></Property2>
+        <UnitList>
+          <QuantityUnitPart>
+            <GoodsCode>0015</GoodsCode>
+            <Unit>003</Unit>
+            <Coef>12.0000000000</Coef>
+            <IsDefault>false</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+          <QuantityUnitPart>
+            <GoodsCode>0015</GoodsCode>
+            <Unit>303</Unit>
+            <Coef>1.0000000000</Coef>
+            <IsDefault>true</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+        </UnitList>
+        <Description></Description>
+      </MTIncomeSpecificationRow>
+    </Specification>
+    <Attachments />
+    <IncludeVATInCost>false</IncludeVATInCost>
+  </MTIncome>
+</Exchange>

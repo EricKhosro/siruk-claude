@@ -61,13 +61,73 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   31/10, 120,000) = accounting/tax services, no receipt.
   The pull's report opens as a **tab** ("Ստացված հաշիվների ներմուծում"), not a
   window.
+- Pull 2026-11-03 for 30/10–03/11: 6 invoices, 2 new, both Pet House 02/11:
+  **A1973228940** (58,000: Monge Turkey 12 kg 0018 + Indoor 10 kg 0039) →
+  receipt 0031; **A6045547258** (6,815) = the invoice temporary 0029 was
+  waiting for, plus 4 goods Siruk lacked — hafo identified them exactly
+  (207766 / 207796 / 207756 Derevenskie Lakomstva cat pillows 30 g, TX427161
+  Trixie Premio Duck Filet Bites 50 g; the invoice's "բադի մսով Bites 50g" is
+  **not** 0800 Hearts, though both cost 685) → Siruk 1445 / 1446, ArmSoft
+  1620–1623 (prices by XML) → receipt 0032. A pull from 30/09 timed out
+  ("connection attempt failed … e-invoicing.taxservice.am:443"); the shorter
+  period worked.
+- Pull 2026-11-04 (15:57) for 30/10–04/11: the same 6 invoices, all already
+  in ("Ոչ"); nothing new, no receipt. Again at 16:43 for 28/10–04/11: 8
+  invoices (+ A1081354321 / A3297411457 of 28/10, receipts 0024 / 0023), all
+  already in. Third try 17:51–17:54 (28/10–04/11, then 01/11–04/11, three
+  runs): every run failed with "Առկա է տեխնիկական սխալ …
+  e-invoicing.taxservice.am/api/invoice/invoice-count կանչը պատասխան չի
+  վերադարձրել" — the tax service's API didn't answer (its website did,
+  HTTP 200). 18:41 (28/10–04/11): "e-invoicing: The operation has timed
+  out." 18:45 for 02/11–04/11 worked: 2 invoices (A6045547258, A1973228940),
+  both already in — nothing new. ArmSoft's start-up notice: the
+  subscription (key TCLD2879) ends **07/11/26**, renewal 19,000 AMD.
+- Pull 2026-11-05: 01/11–05/11 failed twice at 11:46 and 12:04 ("A connection
+  attempt failed … e-invoicing.taxservice.am:443"), although the site
+  answered a plain GET in 5–15 s and the API endpoint at once (405 to a GET).
+  03/11–05/11 at 12:05 worked: 1 invoice, new — **A1077764349** (Pet House,
+  05/11, 44,576 incl. VAT, no replacement note): Monge All Breeds Adult
+  Salmon & Rice 12 kg × 1 @ 33,500 (0015, Siruk 1648); Kormell cat pâté beef &
+  liver 75 g × 28 @ 117 (0348, Siruk 1347); Kotoffey hygienic litter
+  2.7 kg / 4.8 l × 2 @ 1,090 (0237, Siruk 2030) — costs equal the last
+  receipts; and **Kotoffey hygienic litter 8.1 kg / 14.4 l × 2 @ 2,810** =
+  hafo **KF5200611** (EAN 4627106520063, sale 4,500, wholesale 2,810), **not
+  1441**: 1441 / Siruk 2102 is the *clumping* 14.4 l, KF5200511 (A0969245265
+  of 01/10 named it «գնդվող»; today's line says «հիգիենիկ», hafo's exact
+  name). Same cost, so cost can't tell them apart — the name does. No ArmSoft
+  good, no Siruk variant → invoice held, then added the same day on the user's
+  yes: Siruk **1316 variant 2246** (8.1 kg (14.4 l), volume 14,400 ml like its
+  2.7 kg sister, 4,500 / cost 2,810, photo = zoovet's unwatermarked packshot
+  printed «ГИГИЕНИЧЕСКИЙ 8,1 кг … 14,4 л», media 17179; kotoffey.ru, the
+  barcode lookup, 4lapy and a web search for the EAN had nothing), ArmSoft
+  good **1624** (001 piece, EAN on 001, price 4,500 by XML,
+  `final/armsoft-2026-11-05/new-good-1624.xml`) → **receipt 0033**, posted.
+- **hafo orders vs invoices** (checked 2026-11-05 from the user's hafo.am
+  "Իմ Պատվերները" page): an order usually equals one or two invoices to the
+  dram — #11934 (31/10, 20,300) = A4577070686; #11968 (02/11, 10 units,
+  64,815) = A1973228940 + A6045547258. **#11997** (03/11, 52,608) does not
+  match A1077764349: Club 4 Paws chicken in gravy 85 g × 24 @ 225 ordered and
+  **delivered** (user) but not invoiced; Kormell 24 ordered, 28 invoiced;
+  Monge 12 kg shown as 44,400 on the order page, invoiced 33,500; the 4
+  Kotoffey bags are invoiced but not on this order. User: wait for Pet
+  House's invoice, no temporary receipt (state/open-items.csv). The order
+  page needs the user's hafo login — Claude can't open it; ask for a
+  screenshot of the order's lines.
+- Pull 2026-11-05 14:09 for 03/11–05/11: 1 invoice, A1077764349, already in
+  ("Ոչ") — the Club 4 Paws invoice has not been issued yet.
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| till sale **0000155** / HDM **00000138** | 05/11 | **Was left as a draft (Սևագիր), HDM N "XXXXXXXX"** after the shop's internet dropped mid-sale (~16:57): 0371 Monge Grain Free Monoproteico can 400 g × 1 @ 2,000 + 0372 the same, the other flavour, × 1 @ 2,000 = 4,000, card (Բանկ_POS). The bank terminal approved the card for 4,000 (merchant slip 16:57, RRN 630912680821, auth 680869). Draft = no stock moved; not in the offline journal (ՀԴՄ կտրոններ (Օֆլայն) held only return 0000002). Last fiscal number ArmSoft knows: 00000137 (0000154, 970, same day). "XXXXXXXX" = ArmSoft sent the print and never got the answer. **The register DID print it**: the seller's reprint on the register ("(Ֆ) Կրկնօրինակ", the last-receipt duplicate) reads **ԿՀ 00000138, fiscal number 81151246**, 05-11-26 16:56:51, cashier 3, 0371 + 0372 × 1 @ 2,000, Անկանխիկ 4,000; ԱՀ NCD300425106 = the same Newland N950 that printed the bank slip. Fix found in the journal's right-click menu: **Խմբագրել ՀԴՄ կտրոնի N-ը** (set 00000138), then **Գրանցել** (post) — never ՀԴՄ (F3) again (a second fiscal receipt). Menu also has Վերջին կտրոնի կրկնօրինակի տպում (reprint the last receipt) **Fixed 17:28**: HDM N set to 00000138 (right-click → Խմբագրել ՀԴՄ կտրոնի N-ը), then Գրանցել + Այո → **Գրանցված**; ՀԴՄ (F3) greyed out after; stock 0371 1 → 0, 0372 1 → 0 | fixed by Claude at the office, user yes |
+| receipt **0033** | 05/11 | Pet House **A1077764349** (05/11, 44,576 incl. VAT): 0015 Monge All Breeds Adult Salmon & Rice 12 kg as **003 × 1 @ 33,500** (33,500 / 12 doesn't fit 2 decimals), 0348 Kormell pâté beef & liver 75 g × 28 @ 117, 0237 Kotoffey hygienic 2.7 kg × 2 @ 1,090, **1624** Kotoffey hygienic 8.1 kg × 2 @ 2,810 (new good, same day). Stock after: 0015 1 bag, 0348 28, 0237 2, 1624 2. File `final/armsoft-2026-11-05/pethouse-A1077764349-receipt-0033.xml` | posted by Claude, user yes |
+| receipt **0032** | 03/11 | Pet House **A6045547258** (02/11, 6,815 incl. VAT, 8 pcs): new goods 1620 1621 1622 (Derevenskie Lakomstva cat Pillows with Purée 30 g salmon / crab / beef, 355 each) and 1623 (Trixie Premio Filet Bites with Duck Breast 50 g, 685), all imported the same day; 0507 calcium dental bones 2 pcs 105 g × 1 @ 1,420; **0536 Premio Stripes Lamb × 3 @ 1,215 = the 3 packs on temporary 0029**. 0536 stock after 4 (3 on 0029 − 2 sold 02/11 + 3 here); **0029 turned into a draft 04/11** (user asked) → 0536 stock 1 | posted by Claude, user asked |
+| receipt **0031** | 03/11 | Pet House **A1973228940** (02/11, 58,000 incl. VAT): 0018 Monge All Breeds Adult Monoprotein Turkey & Rice 12 kg as **003 × 1 @ 31,000** (last receipt 33,000, −6 %; 31,000 / 12 doesn't fit 2 decimals), 0039 Monge Indoor 10 kg as 303 × 10 @ 2,700. Stock after: 0018 2 bags, 0039 26.74 kg | posted by Claude, user asked |
+| receipt **0030** | 03/11 | 0015 Monge All Breeds Adult Salmon & Rice 12 kg **+0.9 kg** (303) at 2,791.67 (= 33,500 / 12, its own cost; 2,512.50), no supplier — other half of issue 0005. File `final/armsoft-2026-11-03/0017-to-0015-fix-receipt-0030.xml`. Stock after 12 kg, so the bag sells whole again | posted by Claude, user asked |
+| issue **0005** | 03/11 | 0017 Monge All Breeds Puppy & Junior Salmon & Rice 12 kg **−0.9 kg** (cost 2,625): till sale **0000144 / HDM 127** (03/11, 10,520) rang 0.9 kg under PLU **00009 (0015)** at 3,800; the customer took **0017** (PLU 00011, 3,900). User chose a stock-only fix — **HDM 127 still prints 0015** at 3,420. Stock after 11.1 kg | posted by Claude, user asked |
 | return **0000002** | 02/11 | HDM return slip **00000126** against till sale 0000142 (HDM 124, 2,200, rung as cash; the customer paid by card and sale 0000143 / HDM 125 rang it again on card): Felix Adult Cat 1479 Salmon × 2, 1483 Lamb × 4, 1484 Trout × 5. Made at the office, printed at the shop. **Checked 2026-11-03: the return restocks by itself** — journal 1479 / 1483 / 1484 = 20 / 20 / 17, the single real sale counted once; no warehouse receipt needed | made by Claude, user asked |
-| receipt **0029** | 02/11 | **temporary**: 0536 Premio Stripes Lamb 100 g × 3 at 1,215 (3,645), no supplier — 3 packs arrived 02/11, their e-invoice not issued yet (not in the 25/10–02/11 pull; a second pull timed out). Stock after 3 (user: "it should show 3", so issue 0004 stands). When the invoice arrives: receive it as usual, then turn 0029 into a draft (state/open-items.csv) | posted by Claude, user asked |
+| receipt **0029** | 02/11 | **settled 04/11: turned into a draft** by Claude (user asked) after 0032 brought the same 3 packs; 0536 stock 1 (the receipt's Մնացորդ panel); delete is the user's. Was **temporary**: 0536 Premio Stripes Lamb 100 g × 3 at 1,215 (3,645), no supplier — 3 packs arrived 02/11, their e-invoice not issued yet (not in the 25/10–02/11 pull; a second pull timed out). Stock after 3 (user: "it should show 3", so issue 0004 stands). When the invoice arrives: receive it as usual, then turn 0029 into a draft (state/open-items.csv) | posted by Claude, user asked |
 | receipt **0028** | 02/11 | Pet House **A2847444750** (30/10, 37,000 incl. VAT): 1619 Monge Speciality Line Adult Hypo Salmon & Tuna 15 kg (new good, same day) as 003 × 1 @ 37,000. Stock after 1 bag | posted by Claude, user asked |
 | receipt **0027** | 02/11 | Pet House **A4577070686** (01/11, 20,300 incl. VAT): 0010 Acana Bountiful Catch 4.5 kg as 003 × 1 @ 20,300. Stock after 1.444 bags | posted by Claude, user asked |
 | receipt **0026** | 02/11 | Pet House **A5514649574** (31/10, 31,000 incl. VAT): 0005 Monge All Breeds Adult Monoprotein Beef & Rice 12 kg as 003 × 1 @ 31,000. Stock after 1.761 bags | posted by Claude, user asked |

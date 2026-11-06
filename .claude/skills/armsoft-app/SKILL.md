@@ -24,6 +24,26 @@ this file every time something new is found (memory: skills-for-recurring-work).
   Պահեստի ելքի օրդեր opens a new order; click the Գծիկավոր կոդ box, type the
   EAN, Enter (adds qty 1), type the reason in Մեկնաբանություն, click the grid,
   Ctrl+S → "Գրանցված", cost filled in. Escape closes it.
+- **The window stops drawing** (2026-11-04, ~17:30, after an idle hour):
+  screenshots keep the old picture, clicks and keys do nothing, then the
+  window goes black; the process still says Responding. A restart fixes it —
+  sometimes only the second (the first came back blank white, only images
+  drawn). Close it blind: PostMessage WM_CLOSE to the news / subscription
+  popups if open, `CloseMainWindow()`, then front the invisible
+  "Աշխատանքի ավարտ" prompt (EnumWindows) and press Enter (= Այո). Then the
+  Start-Process line above; the login window can open behind (front it).
+- **"…/api/invoice/invoice-count կանչը պատասխան չի վերադարձրել"** on a pull
+  (2026-11-04 17:51, three runs, short and long periods alike): the tax
+  service's API is down while its website still answers. Not ours to fix —
+  try later, with a **short period** (02/11–04/11 went through at 18:45 when
+  28/10–04/11 had just timed out).
+- **While a pull waits on the tax service the window is blocked and the
+  computer-use screenshot goes stale** (it kept showing the page without the
+  dialog, clicks did nothing). The result — the report tab or an
+  "e-invoicing: The operation has timed out." box — was only visible in a
+  PowerShell `Graphics.CopyFromScreen` capture. Wait ~60 s, capture that
+  way, and click the box's Ok at its position in the capture (× 1456/1536 for
+  the computer-use frame). The 17:30 "freeze" above was probably the same.
 - **Never call `open_application`** when ArmSoft is already running: it starts
   a second instance on the login screen. If that happens, press its
   "Դադարեցնել" and close the empty window (title without "Siruk -").
@@ -241,6 +261,16 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
   մատյան") and bring them forward (AttachThreadInput + SetForegroundWindow).
   The report footer "Չներմուծված փաստաթղթերի քանակը N" = N already in.
 
+- **The e-invoicing login** (2026-11-05): ArmSoft calls
+  `https://e-invoicing.taxservice.am` (port 443, e.g. `/api/invoice/
+  invoice-count`) with its own stored e-invoicing session for **TIN (ՀՎՀՀ)
+  20092252**. The username and password were typed once by whoever connected
+  it; ArmSoft doesn't show them. The status-bar item "e-invoicing" (bottom
+  right) asks **"Անջատե՞լ կապը e-invoicing համակարգի հետ"** = *disconnect?* —
+  answer Ոչ; reconnecting needs that login, which is the user's.
+  "A connection attempt failed … :443" / "timed out" is the tax service not
+  answering, not a login problem (a plain HTTPS GET of the site with no login
+  timed out too on 2026-11-05).
 - **e-invoicing** (home tile, or navigator search `հարկային`): "Ստացված
   հարկային հաշիվներ" lists the supplier tax invoices straight from the tax
   service (set both start dates to 01/01/25, Կատարել; slow, and the link
@@ -330,6 +360,30 @@ card (125). Fix = a return against the wrong receipt:
   Restart: ☰ → Ելք (Այո on "Աշխատանքի ավարտ"), then the Start-Process line
   above; the login and the main window can open behind other windows
   (AttachThreadInput + SetForegroundWindow, ShowWindow 3 to maximize).
+
+## A till sale stuck as a draft, HDM N "XXXXXXXX" (2026-11-05)
+
+The shop's internet dropped mid-sale: the card was charged and the register
+printed the fiscal receipt, but ArmSoft never got the answer — sale 0000155
+stayed **Սևագիր** with ՀԴՄ կտրոնի N **XXXXXXXX**, no stock moved, nothing in
+"ՀԴՄ կտրոններ (Օֆլայն)". The seller's till kept the sale open.
+- **First find out if the register printed.** The bank terminal's slip
+  (Merchant copy, RRN, auth code) is NOT the fiscal receipt. Have the seller
+  reprint the last receipt on the register ("(Ֆ) Կրկնօրինակ"): it shows ԿՀ
+  (the receipt number, next after ArmSoft's last), the fiscal number, time,
+  lines and total. The same reprint is in the journal's right-click menu:
+  "Վերջին կտրոնի կրկնօրինակի տպում" (shop computer only).
+- **It printed** → journal ՀԴՄ կտրոններ, right-click the draft → **Խմբագրել
+  ՀԴՄ կտրոնի N-ը** (one field; Ctrl+A, the 8-digit number, Կատարել), then
+  right-click → **Գրանցել** → "Հաստատեք … գրանցելը" → Այո. The row turns
+  green, the form's ՀԴՄ (F3) goes grey, stock drops. Works from the office.
+- **Never press ՀԴՄ (F3) or pay on the stuck sale** — a second fiscal
+  receipt and maybe a second card charge. The seller closes it on the till
+  without paying.
+- It didn't print → not tried yet: the fiscal receipt must be issued without
+  charging the card again; ask the user / ArmSoft support.
+- Clicking a line of a posted sale (to read its Մնացորդ) can put the cell in
+  edit mode: the first Escape cancels the cell, the second closes the form.
 
 ## New goods + sale prices by XML (2026-10-28)
 
