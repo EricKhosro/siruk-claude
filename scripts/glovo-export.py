@@ -6,7 +6,7 @@ Glovo onboarding video shows (reference/glovo/README.md):
 
   A sku          <- variant sku
   B BARCODE      <- variant barcode, only an 8/13/14-digit EAN/GTIN (a 5-digit PLU is left out)
-  C Title        <- Armenian: "<kind> «Brand» <hy name>, <hy options>, <size>"
+  C Title        <- Armenian, Zoovet pattern: "<Brand> <hy name / line> <kind>, <hy options>, <size>"
   D Image link   <- the variant's first image, made a white-padded 500×500 square and
                     uploaded to postimages.org as Glovo's video does: its direct link
                     https://i.postimg.cc/<id>/siruk-m<media id>.jpg
@@ -396,11 +396,13 @@ def main():
             elif (kind and lead and (group(lead) in (6, 14, 15, 16, 97, 101) or lead in KIND_LEAF)
                   and kind.split()[0].lower() not in name_hy.lower()):   # "Նապաստակ" -> a toy, for dogs
                 descr = kind if 'համար' in name_hy else f'{kind} {pet}'.strip()
-            if descr:
-                descr = descr[0].upper() + descr[1:]
-                head = f'{descr} «{brand}» {rest}' if brand else f'{descr} {rest}'
+            # Zoovet's pattern (user 2026-11-05 / 2026-11-09): brand first, Latin, no «»,
+            # then the line, then what it is in lowercase Armenian.
+            body = f'{rest} {descr[0].lower() + descr[1:]}' if descr else name_hy
+            if brand and not body.lower().startswith(brand.lower()):
+                head = f'{brand} {body}'
             else:
-                head = f'{name_hy} «{brand}»' if brand else name_hy
+                head = body
             title = ', '.join([head] + opts + ([size] if size else []))
             bc = (v.get('barcode') or '').strip()
             if re.fullmatch(r'\d{12}', bc):        # UPC-A (Acana) -> its EAN-13 form; Glovo takes 8/13/14 only

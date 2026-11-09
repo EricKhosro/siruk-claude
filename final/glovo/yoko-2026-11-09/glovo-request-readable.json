@@ -1,0 +1,221 @@
+{
+ "query": "mutation($v: VendorIdentifier!, $r: ProductsRequest!){\n  createProductsRequest(vendorIdentifier:$v, productsRequest:$r){\n    __typename\n    ... on CreateProductsRequestSuccessful { status }\n    ... on CreateProductsRequestErrorDuplicatesFound { products { __typename } } } }",
+ "variables": {
+  "v": {
+   "platformVendorId": "982410",
+   "globalEntityId": "GV_AM"
+  },
+  "r": {
+   "products": [
+    {
+     "sku": "YOKO-1625",
+     "name": "YOKO չորացրած ցլի արմատ փոքր և միջին ցեղատեսակի շների համար, S, 40 գ",
+     "price": 1550.0,
+     "description": "Չորացրած ցլի արմատ՝ YOKO-ի բնական, մեկ բաղադրիչով ծամելիք։ 100% բնական արտադրանք։ S չափսը՝ փոքր և միջին ցեղերի, M չափսը՝ միջին և խոշոր ցեղերի շների համար։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1625",
+     "imagesEncoded": [
+      "<YOKO-1625.jpg, 45988 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1628",
+     "name": "YOKO չորացրած ցլի արմատ միջին և խոշոր ցեղատեսակի շների համար, M, 80 գ",
+     "price": 2700.0,
+     "description": "Չորացրած ցլի արմատ՝ YOKO-ի բնական, մեկ բաղադրիչով ծամելիք։ 100% բնական արտադրանք։ S չափսը՝ փոքր և միջին ցեղերի, M չափսը՝ միջին և խոշոր ցեղերի շների համար։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1628",
+     "imagesEncoded": [
+      "<YOKO-1628.jpg, 25592 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1626",
+     "name": "YOKO չորացրած տավարի թոք փոքր ցեղատեսակի շների համար, 40 գ",
+     "price": 2300.0,
+     "description": "Չորացրած տավարի թոք YOKO-ից՝ թեթև, մեկ բաղադրիչով բնական հյուրասիրություն շների համար։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1626",
+     "imagesEncoded": [
+      "<YOKO-1626.jpg, 22588 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1634",
+     "name": "YOKO չորացրած տավարի թոք միջին և խոշոր ցեղատեսակի շների համար, 40 գ",
+     "price": 2300.0,
+     "description": "Չորացրած տավարի թոք YOKO-ից՝ թեթև, մեկ բաղադրիչով բնական հյուրասիրություն շների համար։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1634",
+     "imagesEncoded": [
+      "<YOKO-1634.jpg, 35588 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1629",
+     "name": "YOKO չորացրած հավի քարաճիկ փոքր ցեղատեսակի շների համար, 65 գ",
+     "price": 2700.0,
+     "description": "Չորացրած հավի քարաճիկ YOKO-ից փոքր ցեղերի շների համար։ Մեկ բաղադրիչով բնական հյուրասիրություն։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1629",
+     "imagesEncoded": [
+      "<YOKO-1629.jpg, 37028 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1633",
+     "name": "YOKO չորացրած հավի վիզ փոքր ցեղատեսակի շների համար, 65 գ",
+     "price": 2300.0,
+     "description": "Չորացրած հավի վիզ YOKO-ից՝ բնական, մեկ բաղադրիչով ծամելիք շների համար։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1633",
+     "imagesEncoded": [
+      "<YOKO-1633.jpg, 23964 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1636",
+     "name": "YOKO չորացրած հավի վիզ միջին և խոշոր ցեղատեսակի շների համար, 65 գ",
+     "price": 2300.0,
+     "description": "Չորացրած հավի վիզ YOKO-ից՝ բնական, մեկ բաղադրիչով ծամելիք շների համար։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1636",
+     "imagesEncoded": [
+      "<YOKO-1636.jpg, 37436 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1632",
+     "name": "YOKO չորացրած տավարի ուղեղ փոքր ցեղատեսակի շների համար, 65 գ",
+     "price": 2700.0,
+     "description": "Չորացրած տավարի ուղեղ YOKO-ից՝ մեկ բաղադրիչով բնական հյուրասիրություն շների համար։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1632",
+     "imagesEncoded": [
+      "<YOKO-1632.jpg, 28856 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1635",
+     "name": "YOKO չորացրած տավարի ուղեղ միջին և խոշոր ցեղատեսակի շների համար, 65 գ",
+     "price": 2700.0,
+     "description": "Չորացրած տավարի ուղեղ YOKO-ից՝ մեկ բաղադրիչով բնական հյուրասիրություն շների համար։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1635",
+     "imagesEncoded": [
+      "<YOKO-1635.jpg, 41480 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1627",
+     "name": "YOKO չորացրած կապելին ձուկ շների և կատուների համար, 50 գ",
+     "price": 2700.0,
+     "description": "Չորացրած կապելին YOKO-ից՝ ամբողջական մանր ձուկ, մեկ բաղադրիչով բնական հյուրասիրություն կատուների և շների համար։ 100% բնական արտադրանք։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1627",
+     "imagesEncoded": [
+      "<YOKO-1627.jpg, 33380 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      },
+      {
+       "id": "7078",
+       "name": "Անուշեղեն Կատուների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1630",
+     "name": "YOKO չորացրած ցլի ամորձի բոլոր ցեղատեսակի շների համար, 50 գ",
+     "price": 2700.0,
+     "description": "Չորացրած ցլի ամորձի YOKO-ից՝ ծամելու, մեկ բաղադրիչով բնական հյուրասիրություն բոլոր ցեղատեսակների շների համար։ 100% բնական, առանց հացահատիկի, արտադրված Հայաստանում։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1630",
+     "imagesEncoded": [
+      "<YOKO-1630.jpg, 37200 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    },
+    {
+     "sku": "YOKO-1631",
+     "name": "YOKO չորացրած տավարի երիկամ բոլոր ցեղատեսակի շների համար, 65 գ",
+     "price": 2700.0,
+     "description": "Չորացրած տավարի երիկամ YOKO-ից՝ մեկ բաղադրիչով բնական հյուրասիրություն բոլոր ցեղատեսակների շների համար։ 100% բնական, առանց հացահատիկի, արտադրված Հայաստանում։",
+     "barcode": null,
+     "requestId": "siruk-YOKO-1631",
+     "imagesEncoded": [
+      "<YOKO-1631.jpg, 48468 base64 chars>"
+     ],
+     "categoryList": [
+      {
+       "id": "7145",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

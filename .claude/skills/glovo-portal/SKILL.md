@@ -116,10 +116,15 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
 
 ## 6. Not scripted yet (do by hand in the portal, or explore first)
 
-- **New products** (our variants not on Glovo; `prices` lists them): the portal's
-  Add Products goes through Glovo's review (`createProductsRequest` /
-  `createSimpleProductBatch`). Explore and document in `reference/glovo/portal.md`
-  before scripting it.
+- **New products** (our variants not on Glovo; `prices` lists them): Glovo's
+  review via `createProductsRequest` (`reference/glovo/portal.md` → "Adding NEW
+  products through the API"). Use `scripts/glovo-add-products.py <sheet.xlsx>
+  --brand <Brand> --category <vendor cat id> [--also SKU:cat]`. The script is a dry
+  run until `--apply`. Its `--out` writes the exact request plus a readable copy for
+  the user, and it refuses any title not in **Zoovet's pattern** (brand first,
+  Latin, no «», `glovo-titles.py` `check()`). Titles follow `glovo-export` → column C.
+  Price = 50 ֏ under Zoovet's Glovo price (§2). Show the user the request file and
+  get a yes before `--apply`. Example: YOKO × 12, 2026-11-09.
 - Titles / descriptions show read-only in the portal drawer. `ProductUpdate`
   takes `titles` / `descriptions`, but it is untested.
 - Orders (bot-protected), promotions, opening times, store pause.

@@ -50,6 +50,51 @@ is open; the schema is cached in `.siruk-cache/glovo/catalog-schema.json`.
   `deleteProduct`, `promotions` / `createPromotionAsync`, `auditLogs`, `productDetails`.
   Not yet used by us.
 
+## Adding NEW products through the API (explored 2026-11-09)
+
+The schema (introspection is open) is bigger than the portal uses. What matters for
+new products:
+
+- `validateProductsRequest(vendorIdentifier, productsRequest)` is a **query**, returns
+  `ValidateProductsRequestSuccessful { status }` or `…ErrorDuplicatesFound { products }`.
+  It is almost a no-op: on 2026-11-09 it answered `ok` for a **nonexistent category id**,
+  for an **empty `categoryList`**, and for an **SKU that already exists on Glovo**
+  (`10268S`). It only proves the payload parses — not that the product is acceptable.
+- `ProductsRequest { products: [ProductRequest!]! }` and
+  `ProductRequest { sku, name, price, description, barcode, requestId,
+  imagesEncoded: [String!]!, categoryList: [{id, name}] }`.
+  `imagesEncoded` takes each JPEG as a **data URL** (`data:image/jpeg;base64,<…>`). Plain
+  base64 fails the whole call with `imageservice.dhis_upload.parsing_error` and files
+  nothing (tested 2026-11-09). One entry per image; the first is the packshot.
+- **First real submission 2026-11-09 (YOKO × 12, `scripts/glovo-add-products.py`):**
+  `createProductsRequest` answered `ok` once, but `productsRequests` then listed **three**
+  cases (`500bO000018FsZKQA0`, `500bO000018G0gWQAS`, `500bO000018FfvZQAS`). All three were
+  created at 12:59:37Z, each holding all 12 products, with status `Received`. Our `gql()`
+  retries only on HTTP 5xx, after 2–4 s, so this looks like Glovo's side. There is no
+  withdraw mutation. Watch for duplicates when they are approved. Per-product status is
+  `productsRequestDetails(vendorIdentifier, jiraIssueKey){ products{ sku status } }`, which
+  is `null` while the case waits for review.
+- `categoryList` is the **vendor category** from `categories` (e.g. `26752 Ոսկորներ և
+  ձողիկներ`, `7145 Անուշեղեն Շների Համար`), **not** the Pelican "Section 1/2" names
+  (`Ոսկորներ, ջիլեր և բնական հյուրասիրություններ շների համար`, …). Those section names are
+  Glovo's own taxonomy: they are in the onboarding sheet but never became vendor
+  categories — the live 75-category tree has no such leaves.
+- `createProductsRequest(vendorIdentifier, productsRequest)` submits it as a **review
+  case** (result union `CreateProductsRequestSuccessful { status }` /
+  `CreateProductsRequestErrorDuplicatesFound { products }`). Bulk variants:
+  `createSimpleProductBatch(productsRequest)` and
+  `createSimpleProductBatchCsv(vendorIdentifier, csvString)` — the portal's Add Products
+  upload.
+- Review status: `productsRequests(filter: {vendorIdentifier, status, searchTerm,
+  creationDateRange}, page)` → `ExistingProductsRequest { creationDate, jiraIssueKey,
+  productsAmount, rejectedProductsAmount, status }`; per product
+  `productsRequestDetails(vendorIdentifier, jiraIssueKey)` → `ProductsRequestProduct
+  { sku, status, rejectionData, … }`. On 2026-11-09 the list was **empty** (onboarding
+  went through the Excel, never this feature), so the status vocabulary is still unknown.
+- `createProduct` / `createProducts` (`ProductCreate { code, categoryIds, price,
+  vendorIdentifier, active, sku }`) exist but carry no name/description/images —
+  untested, probably only for stock integrations.
+
 ## Stock on Glovo
 
 **No quantities.** A product is `active` (orderable) or not, plus an optional
@@ -124,9 +169,11 @@ How it is built:
 
 Some older Zoovet titles are generic (`Monge Fresh Շների Թաց Կեր 100գ`) or still Russian.
 
-Ours (from the Pelican sheet) follow Glovo's video instead:
-`<Type> <for whom> «Brand» <Line>, <Flavour>, <size>`. The brand sits in the
-middle, or at the end for accessories.
+Ours (from the Pelican sheet) first followed Glovo's video
+(`<Type> <for whom> «Brand» <Line>, <Flavour>, <size>`); the 2026-11-05 bulk
+rename moved them to Zoovet's pattern. **Every new title uses Zoovet's pattern**
+(user 2026-11-09: a YOKO batch built in the old pattern was sent back).
+`glovo-export` column C and `scripts/glovo-add-products.py` enforce it.
 
 ## Renaming a product through the API (tested on 4020, 2026-11-05)
 
