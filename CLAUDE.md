@@ -438,6 +438,10 @@ sale and prints it on the register, which also restocks (no warehouse receipt;
 checked 2026-11-03). `shop/README.md` for that machine's setup.
 `/send-to-scale` pushes every ArmSoft good (name, price list 01, PLU) to the shop's Axiom
 label scale through ArmSoft's own export (goods list → Արտահանել → Խմբային).
+`/hafo-restock` (office, 2026-11-09) decides what to reorder from hafo and how many
+(ArmSoft stock, sales over ~14 days, hafo orders still on the way, hafo's stock;
+`scripts/hafo-restock.py`), fills the hafo basket and places the order (cash) only
+on the user's yes to the final basket and total.
 `/glovo-export` fills Glovo's Pelican Partners xlsx from the live catalogue, one
 row per variant (`reference/glovo/README.md`). `/glovo-portal` runs the live
 Glovo store (prices from that sheet — `scripts/glovo-prices-into-sheet.py` fills it,
