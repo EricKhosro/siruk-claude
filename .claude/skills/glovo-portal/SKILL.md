@@ -97,6 +97,13 @@ name), but `fix-skus` renames them back so they match exactly:
 `glovo-portal.py fix-skus` (dry run) → user's yes → `--apply` →
 `runs/<date>/glovo-skus.csv`. Run it before the first big price push. A
 collision it can't settle is printed and left alone.
+**After every posted warehouse receipt** (user 2026-11-09; office and shop alike): run
+the check above with `--on-codes <the receipt's ArmSoft codes>`. It switches on only
+what that delivery restocked, plus off anything sold out since the last run.
+Something switched off by hand elsewhere stays off. Office: show the user the two
+lists and apply on their yes. Shop: `/receive-invoices` → 5b. A run after till sales
+alone (no receipt) is the plain check with no `--on…`.
+
 
 ## 5. Armenian titles (Zoovet-style pattern)
 

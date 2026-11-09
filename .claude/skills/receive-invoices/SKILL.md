@@ -113,6 +113,31 @@ Siruk's stock is a placeholder (10 on every variant, on purpose); real stock
 lives in ArmSoft only. A restock changes nothing on api.siruk.am — no stock
 call, no price change. The goods are on sale the moment the receipt is posted.
 
+## 5b. Glovo: back on, and anything sold out off (user 2026-11-09)
+
+Glovo keeps no stock, only on/off per product, so it is fixed after **every**
+posted receipt:
+
+1. Fresh ArmSoft turnover export (`/armsoft-app` → "Stock / turnover") to
+   `Scale/armsoft-turnover-<today>.xlsx`; the goods XML is the newest
+   `Scale/armsoft-export-*.xml`.
+2. `python scripts/glovo-portal.py whoami`. If it reports expired or no
+   token: when the built-in browser on this computer already shows
+   portal.glovoapp.com signed in, re-read the token from it (`/glovo-portal`
+   → step 0.3). **Never sign in.** If there's no signed-in session, skip to
+   step 5 and note "Glovo on/off after receipt <no>: office" in
+   `state/open-items.csv`.
+3. Dry run, switching on only the goods of the receipt just posted:
+   `uv run --no-sync --with openpyxl python scripts/glovo-portal.py stock Scale/armsoft-turnover-<today>.xlsx Scale/armsoft-export-<latest>.xml --on-codes <the receipt's ArmSoft codes> --out final/glovo/glovo-availability-<today>.xlsx`
+   It lists what goes ON (received, and Glovo had it off) and what goes OFF
+   (sold out since the last check).
+4. Show the seller the two lists in plain words. On their yes, the same command
+   with `--apply` (log: `runs/<today>/glovo-availability.csv`). A refusal
+   ("would go off" over 25 %) means a broken export: stop and tell the office.
+   Never `--force`, never plain `--on`. Something the office switched off by
+   hand stays off.
+5. In the seller summary, say what is now on Glovo again.
+
 ## 6. Write it down (then commit, push and open the pull request per `shop/CLAUDE.local.md`)
 
 - `knowledge/armsoft-documents.md`: the pull (date, period, how many

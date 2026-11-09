@@ -392,8 +392,10 @@ def cmd_stock(a):
         if avail is False and item['active']:
             action = 'OFF'; off.append(g)
         elif avail is True and not item['active']:
-            action = 'ON' if a.on else 'back in stock (use --on)'
-            if a.on:
+            # --on-codes (a posted receipt's goods) switches on only those; --on switches on everything in stock
+            want_on = a.on or (a.on_codes and code in a.on_codes)
+            action = 'ON' if want_on else 'back in stock (use --on)'
+            if want_on:
                 on.append(g)
         rows.append([g, o or '', item['name'], code, (st or {}).get('stock'), 'kg' if st and st['kg'] else 'pcs' if st else '',
                      (st or {}).get('bag') or '', sealed, round(st['stock'] - sealed * st['bag'], 3) if sealed is not None else '',
@@ -401,7 +403,7 @@ def cmd_stock(a):
     n_act = sum(1 for i in live.values() if i['active'])
     print(f'{len(live)} Glovo products ({n_act} on). ArmSoft: {sum(1 for r in rows if r[11] == "NO")} not available, '
           f'{sum(1 for r in rows if r[11] == "?")} unknown (left alone).')
-    print(f'switch OFF: {len(off)}' + (f', switch ON: {len(on)}' if a.on else
+    print(f'switch OFF: {len(off)}' + (f', switch ON: {len(on)}' if a.on or a.on_codes else
           f'; {sum(1 for r in rows if r[13].startswith("back"))} are off on Glovo but in stock (not touched without --on)')
           + ('' if a.apply else '  (DRY RUN — add --apply)'))
     for r in rows:
@@ -467,6 +469,8 @@ def main():
     p = sub.add_parser('stock', help='availability from an ArmSoft turnover export (sealed bags vs open)')
     p.add_argument('turnover'); p.add_argument('goods')
     p.add_argument('--on', action='store_true', help='also switch back on what is in stock again')
+    p.add_argument('--on-codes', nargs='+', default=[], metavar='CODE',
+                   help='switch back on only these ArmSoft codes (the goods of a receipt just posted)')
     p.add_argument('--out', help='review sheet (.xlsx)'); p.add_argument('--note')
     p.add_argument('--apply', action='store_true'); p.add_argument('--force', action='store_true'); p.set_defaults(f=cmd_stock)
     a = ap.parse_args()

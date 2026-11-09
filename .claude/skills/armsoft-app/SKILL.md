@@ -316,6 +316,10 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
   unit (003 × 1 @ bag cost) — the stock in kg comes out the same.
   A document opened from a list can open behind the main window: raise it
   (EnumWindows on the AS Trade process, AttachThreadInput + SetForegroundWindow).
+  **Once it is posted, fix Glovo** (user 2026-11-09): a fresh turnover export, then
+  `glovo-portal.py stock … --on-codes <the receipt's codes>` (`/glovo-portal` →
+  "After every posted warehouse receipt"). Restocked goods go back on, and anything
+  sold out goes off. On the shop computer, `/receive-invoices` → 5b.
 - **Editing a posted receipt**: Գլխավոր ribbon → "Սևագիր" (Ctrl+Shift+D)
   turns it back into a draft (its stock leaves until reposted), edit, Ctrl+S.
   In the grid, click a cell **then press ↓ before typing**: a click puts the
