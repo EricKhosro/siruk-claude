@@ -40,3 +40,58 @@ and why" for each kind, with the goods that follow it.
   - 1605–1619 from our import files;
   - 1620–1623 with 2309, the code of every similar treat (only ArmSoft holds their real value);
   - 387807-OLD and 387817-OLD with 2309; 40211 with 3924.
+- 2026-11-09: good **1625** (Ցլի արմատ (փոքր), small bull root, from the
+  ԴԱՎԻԹ ԼԵՎՈՆՅԱՆ ԱՁ invoice B6860271375, row 4: 10 × 800, sells at 1,200)
+  was added to ArmSoft by hand in the form, with no ԱՏԳ ԱԱ code. The till
+  refused the sale with an "ԱՏԳ ԱԱ / ԱԴԳՏ" error. The fix is the code from
+  the invoice's ԱՏԳ ԱԱ column, **2309**. A good typed in by hand needs that
+  field filled before its first sale; the XML import files already carry it.
+  Claude set 2309 on 1625 the same day (user yes). The goods are the
+  **YOKO** brand (zoovet sells the same packs); 1626–1636 followed by XML
+  with the code, group 00004 like 1625.
+- 2026-11-09 (user): **Glovo prices live in ArmSoft as price type 02
+  "Glovo"**, next to 01 Վաճառքի Գին (shop / siruk.am / scale). Glovo takes
+  ~20 % commission, so its prices are higher; before this the seller had to
+  overwrite the 01 price to ring up a Glovo order (3 orders 06–08/11). Set up:
+  price type **02 Glovo** (AMD, rounding 0.01, VAT included, like 01); buyer
+  **000008 Glovo** (buyer only), whose main contract carries price type 02;
+  1,597 type-02 prices imported from the live Glovo catalogue
+  (`scripts/armsoft-glovo-prices.py` →
+  `final/armsoft-2026-11-09/glovo-prices-02.xml`, 0 errors). **A Glovo sale:
+  till → Գնորդ 000008 Glovo first, then scan** — the lines take the 02 price
+  (tested: 1485 Felix Sensations → 250, shop price 200; test not saved). Never
+  edit the 01 price for Glovo again. When Glovo prices change (glovo-portal
+  `prices --apply`), re-run the script and import the XML again.
+- 2026-11-09 (user): **loose food for Glovo gets its own weighed unit so the
+  scale prints the Glovo price.** New unit **399 "Կիլոգրամ Glovo"** (short
+  name կգ, so receipts still read "կգ"). Pilot on **1454 RC Fit 32**: unit 399
+  ×1 (= 1 kg, stock shared), barcode/PLU **10086** on 399 (Քաշային ticked) —
+  Glovo PLU = 1 + the shop PLU (00086) — and price 4,800 on 399 under both
+  01 and 02 (`final/armsoft-2026-11-09/price-1454-glovo-kg-399.xml`). Till
+  check: 10086 → 1 կգ × 4,800 with no buyer (test closed unsaved). **Open:**
+  does /send-to-scale carry the second unit's PLU and price to the scale?
+  User to send and weigh a 10086 label. If yes → roll out to every per-kg
+  good (~94) by XML; if no → Glovo loose orders stay buyer 000008 + F8.
+  **Result 2026-11-09 (user): 10086 did NOT reach the scale** — ArmSoft's
+  scale export sends one code per good (the main unit's PLU), not a second
+  unit. A Glovo-price sticker would need the PLUs loaded on the scale by its
+  own software, outside ArmSoft. Pilot removed the same day (user): barcode
+  10086, both 399 prices, unit 399 on 1454 and unit 399 itself deleted.
+  User's call instead: a **duplicate good per product for Glovo**, carrying
+  the Glovo price as its own 01 price.
+
+## Scale label layout (learned 2026-11-09)
+
+- The label the Axiom/Unitech scale prints is edited in **TM-xA Management
+  Program** on the shop PC (desktop shortcut "TM-xA Management", folder
+  `TM-A Disc`; runs as administrator, so AnyDesk needs elevation). Login
+  user "user", Data File Default.
+- Database → Print Format shows only built-ins until you read the scale:
+  Ethernet panel → tick 192.168.0.99, only **Print Format**, **Upload (To
+  Software)**, Execute. ArmSoft's "format 10" is **10 "Unitech 2020"**
+  (58 × 26 mm).
+- 2026-11-09 (user): removed every money field from format 10: the Գին text,
+  Payable Unit Price, the Ընդամենը text and Grand Total. Kept name, PLU,
+  ՔԱՇ/ԿԳ + Weight/Pcs, barcode, dates, footer. Sent back with **Download (To
+  Device)**, Print Format only, Clear old data off. The barcode may still
+  encode the price/weight (unchanged).

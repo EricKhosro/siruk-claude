@@ -115,11 +115,55 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   screenshot of the order's lines.
 - Pull 2026-11-05 14:09 for 03/11–05/11: 1 invoice, A1077764349, already in
   ("Ոչ") — the Club 4 Paws invoice has not been issued yet.
+- **2026-11-09: ArmSoft won't open the Siruk database.** At login (Կատարել)
+  it says the monthly key **TCLD2879** is deactivated, so the monthly services
+  need a renewed subscription, and offers the demo version (Այո / Ոչ). Ոչ goes
+  back to the login screen. The subscription ended 07/11/26 (renewal 19,000
+  AMD, start-up notice of 04/11). No pull possible until it is renewed. The
+  user decides whether to renew or try the demo version.
+  11:11 the same day the login went through (key working again; status bar
+  still "Ծրագիրը սպասարկման մեջ չէ"). The pull 03/11–09/11 then failed:
+  "e-invoicing սխալ. «20092252n» օգտագործողի մուտքը համակարգ հնարավոր է որոշ
+  ժամանակ անց" (the tax service lets that user log in only after a while).
+  A few minutes later ArmSoft showed its own **e-invoicing login box** (ՀՎՀՀ
+  20092252, user 20092252n, password saved, Մուտք) — the user's sign-in,
+  not Claude's to press. The user signed in and the pull ran by itself.
+- Pull 2026-11-09 11:17 for 03/11–09/11: 6 invoices, 5 new. Services, no
+  receipt (by supplier, lines not opened): **A8251288089** Toz-Master 07/11
+  3,600; **A0964047876** Ucom 06/11 1,800; **A1897768240** Ucom 05/11 6,500
+  (Ucom / Toz-Master dates are supply dates of 31/10; the journal lists them
+  only from a start date before 01/11). Goods, both Pet House 08/11, no
+  replacement note, **not received yet**:
+  - **A6814768463**, 12,580 incl. VAT: Monge Fresh kitten pâté beef 85 g
+    × 28 @ 310 (8,680); clumping litter 2.7 kg / 4.8 l × 1 @ 1,090; clumping
+    litter 8.1 kg / 14.4 l × 1 @ 2,810 (ArmSoft maps it to 1441).
+  - **A2631104009**, 42,815 incl. VAT, 11 lines: kitten scratcher wave
+    38×7×18 light purple/green 1 @ 2,000; scratcher wood/cardboard 4 legs
+    46×4×25 1 @ 5,125; Mnyams cat treats Healthy Teeth (ատամներ) 60 g (707953) 2 @ 515;
+    Mnyams sterilised cat treats L-carnitine 60 g (706273) 2 @ 515; square
+    scratcher 35×4×35 1 @ 4,875; cat purée chicken 5×14 g 3 @ 625; tuna &
+    shrimp (ծովախեցգետին) 5×14 g 3 @ 625; tuna & whitefish 5×14 g 3 @ 625;
+    deep cardboard scratcher 45×10 open purple 1 @ 7,560; Rolf Club flea &
+    tick spray dogs 200 ml (R422) 2 @ 3,785; Petmil pads 60×40 (100 per
+    pack) 100 @ 80 (8,000). None mapped to an ArmSoft code by the invoice.
+  - **Against the hafo orders** (hafo.am/my-orders, read in the built-in
+    browser after the user signed in; `/my-orders/<id>` is server-rendered
+    HTML with name | SKU | qty | price | total per line): the two invoices
+    together are exactly order **#12073** (06/11, 31,010) — 55,395 = 31,010 +
+    24,385 from 4 lines billed differently: Monge Fresh kitten 85 g ordered 1,
+    invoiced 28; Petmil pads ordered 1 (@ 80), invoiced 100; replacement
+    cardboards 48021-10Tx (655) and 48020-10Tx (1,250) invoiced as the full
+    46×4×25 (5,125) and 35×4×35 (4,875) boards. Orders #12105 (30,465), #12106
+    (15,395), #12110 (4,150), all 08/11, and #11997's Club 4 Paws × 24 are not
+    invoiced yet (state/open-items.csv).
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| issue **0007** | 09/11 | **1625** YOKO bull root S × 3 written off at cost 800 (2,400): sold at the shop without ArmSoft (user: "write them off"). Stock after 7 | posted by Claude, user asked |
+| receipt **0034** | 09/11 | ԴԱՎԻԹ ԼԵՎՈՆՅԱՆ ԱՁ (ՀՎՀՀ 20169575) **B6860271375** (08/11, 48,400, no VAT), rows 1–3 and 5–12: new goods **1626–1636** (YOKO chews, imported the same day from `final/armsoft-2026-11-09/new-goods-1626-1636.xml`, CPA 2309, group 00004, sale price = cost × 1.5 per the user), 30 pcs, 40,400. No partner code (supplier not set up); invoice no. + supplier in the comment | posted by Claude, user asked |
+| receipt **0018** (2nd use of the number) | 09/11 | Same invoice, row 4: **1625** Ցլի արմատ (փոքր) × 10. Typed by narek at **1,200 with VAT**; Claude turned it back to a draft and fixed it to **800, no VAT**, invoice B6860271375 + supplier in the comment, reposted (user yes). 1625 itself was made by hand with no ԱՏԳ ԱԱ code; Claude set **2309** (user yes) | fixed by Claude |
 | issue **0006** | 06/11 | Stock count correction, user: "we don't have them" — both were off on Glovo by hand while ArmSoft still showed stock: **1456** RC Sterilised 15 kg −1.5 kg (303, PLU 00088; cost 5,200.01) and **1121** Trixie Creamy Snacks Chicken 5×14 g −1 (cost 625.00), total 5,825.01. Comment "Stock count correction: not on the shelf, Glovo off (user, 2026-11-06)". Stock after 0 / 0 (the line panel read 1.5 kg / 1 before) | posted by Claude, user asked |
 | till sale **0000155** / HDM **00000138** | 05/11 | **Was left as a draft (Սևագիր), HDM N "XXXXXXXX"** after the shop's internet dropped mid-sale (~16:57): 0371 Monge Grain Free Monoproteico can 400 g × 1 @ 2,000 + 0372 the same, the other flavour, × 1 @ 2,000 = 4,000, card (Բանկ_POS). The bank terminal approved the card for 4,000 (merchant slip 16:57, RRN 630912680821, auth 680869). Draft = no stock moved; not in the offline journal (ՀԴՄ կտրոններ (Օֆլայն) held only return 0000002). Last fiscal number ArmSoft knows: 00000137 (0000154, 970, same day). "XXXXXXXX" = ArmSoft sent the print and never got the answer. **The register DID print it**: the seller's reprint on the register ("(Ֆ) Կրկնօրինակ", the last-receipt duplicate) reads **ԿՀ 00000138, fiscal number 81151246**, 05-11-26 16:56:51, cashier 3, 0371 + 0372 × 1 @ 2,000, Անկանխիկ 4,000; ԱՀ NCD300425106 = the same Newland N950 that printed the bank slip. Fix found in the journal's right-click menu: **Խմբագրել ՀԴՄ կտրոնի N-ը** (set 00000138), then **Գրանցել** (post) — never ՀԴՄ (F3) again (a second fiscal receipt). Menu also has Վերջին կտրոնի կրկնօրինակի տպում (reprint the last receipt) **Fixed 17:28**: HDM N set to 00000138 (right-click → Խմբագրել ՀԴՄ կտրոնի N-ը), then Գրանցել + Այո → **Գրանցված**; ՀԴՄ (F3) greyed out after; stock 0371 1 → 0, 0372 1 → 0 | fixed by Claude at the office, user yes |
 | receipt **0033** | 05/11 | Pet House **A1077764349** (05/11, 44,576 incl. VAT): 0015 Monge All Breeds Adult Salmon & Rice 12 kg as **003 × 1 @ 33,500** (33,500 / 12 doesn't fit 2 decimals), 0348 Kormell pâté beef & liver 75 g × 28 @ 117, 0237 Kotoffey hygienic 2.7 kg × 2 @ 1,090, **1624** Kotoffey hygienic 8.1 kg × 2 @ 2,810 (new good, same day). Stock after: 0015 1 bag, 0348 28, 0237 2, 1624 2. File `final/armsoft-2026-11-05/pethouse-A1077764349-receipt-0033.xml` | posted by Claude, user yes |
