@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1625</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>1550.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1628</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2700.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1626</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2300.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1634</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2300.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1629</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2700.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1633</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2300.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1636</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2300.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1632</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2700.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1635</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2700.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1627</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2700.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1630</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2700.0000</Price><Comment></Comment></Prices>
+<Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Code>1631</Code><PriceType>02</PriceType><Unit>001</Unit><Date>2026-11-09T00:00:00</Date><CurrencyCode>AMD</CurrencyCode><Price>2700.0000</Price><Comment></Comment></Prices>
+</Exchange>

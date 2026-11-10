@@ -407,6 +407,25 @@ blocks; navigator `Ներմուծել` → Ներմուծել տվյալներ �
 tick both, Ներմուծել. Prices land without typing (the hand-typed price was
 refused before). Example: `final/armsoft-2026-10-28/new-goods-1615-1616.xml`.
 
+## Glovo price type 02 and buyer Glovo (2026-11-09)
+
+- Price types (search `տեսակ` → Գների տեսակներ): **01** Վաճառքի Գին (shop,
+  siruk.am, scale), **02 Glovo** (AMD, rounding 0.01, VAT included). A new
+  price type: ribbon Ավելացնել; the form suggests the next free code; pick the
+  rounding in its dropdown (the list opens scrolled to 10; scroll up for 0.01).
+- Buyer **000008 Glovo** (Գործընկերներ, buyer only). Its form → Պայմանագրեր
+  tab → the main contract's **Գ..** column (tooltip "Գնի տեսակ") = 02. Typing
+  in that cell doesn't stick; open its dropdown and double-click the row.
+- The prices: an XML of `<Prices>` with `<PriceType>02</PriceType>` from
+  `scripts/armsoft-glovo-prices.py`, imported like any price XML
+  (search `Ներմուծել` → Ներմուծել տվյալներ → Բացել → tick Գին → Ներմուծել;
+  1,597 rows ≈ 40 s).
+- **A Glovo sale at the till**: Վաճառք (Կտրոն) → Գնորդ `000008` first, then
+  add the goods; each line takes its 02 price. Tested 2026-11-09 with 1485
+  (250 vs 200 at 01) and closed unsaved ("Հաստատեք պատուհանի փակումը" → Այո
+  closes without saving). In the entry field, a bare number is read as a
+  barcode; type the good code and press **F8** to add by code.
+
 ## What needs the user
 
 - **Prices**: typing a price (edit form → Գներ, or the price list) was refused

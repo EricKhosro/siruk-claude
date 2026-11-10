@@ -63,6 +63,14 @@ filled by `scripts/glovo-prices-into-sheet.py`:
    ~10 min for the whole catalogue; run it in the background). Log:
    `runs/<date>/glovo-prices.csv`.
 4. Re-run `prices`. It should say 0 changes.
+5. **Bring ArmSoft's Glovo prices (price type 02) up to date** (2026-11-09).
+   The shop rings up a Glovo order with the buyer "000008 Glovo", whose
+   contract uses price type 02, so ArmSoft must hold the same prices as Glovo:
+   `glovo-portal.py dump`, `siruk export --format json -o runs/<date>/siruk-export.json`,
+   a fresh ArmSoft price export (`armsoft-app` → Export → Prices), then
+   `uv run --no-sync --with openpyxl python scripts/armsoft-glovo-prices.py <prices.xlsx> --siruk runs/<date>/siruk-export.json --date <yyyy-mm-dd> --out final/armsoft-<date>/glovo-prices-02.xml`
+   and import the XML (`armsoft-app` → "Glovo price type 02"). Read the CSV
+   it writes next to the XML: its notes (ArmSoft 01 ≠ Siruk) go to the user.
 
 One product: `set-price <sku> <price> [--apply]`. A subset: `prices --sku a b c`.
 
@@ -89,6 +97,13 @@ without an explicit ask (the store would vanish from Glovo).
    `--on` by default (2026-11-06 both were ArmSoft stock errors → write-off).
 5. Re-run the dry run: it should say 0 to switch off.
 
+**After every posted warehouse receipt** (user 2026-11-09; office and shop alike): run
+the check above with `--on-codes <the receipt's ArmSoft codes>`. It switches on only
+what that delivery restocked, plus off anything sold out since the last run.
+Something switched off by hand elsewhere stays off. Office: show the user the two
+lists and apply on their yes. Shop: `/receive-invoices` → 5b. A run after till sales
+alone (no receipt) is the plain check with no `--on…`.
+
 ## 4. SKUs that lost their zeros
 
 Onboarding went through Excel, so `011137` became `11137` on Glovo (202
@@ -97,13 +112,6 @@ name), but `fix-skus` renames them back so they match exactly:
 `glovo-portal.py fix-skus` (dry run) → user's yes → `--apply` →
 `runs/<date>/glovo-skus.csv`. Run it before the first big price push. A
 collision it can't settle is printed and left alone.
-**After every posted warehouse receipt** (user 2026-11-09; office and shop alike): run
-the check above with `--on-codes <the receipt's ArmSoft codes>`. It switches on only
-what that delivery restocked, plus off anything sold out since the last run.
-Something switched off by hand elsewhere stays off. Office: show the user the two
-lists and apply on their yes. Shop: `/receive-invoices` → 5b. A run after till sales
-alone (no receipt) is the plain check with no `--on…`.
-
 
 ## 5. Armenian titles (Zoovet-style pattern)
 

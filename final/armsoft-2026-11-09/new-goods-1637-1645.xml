@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1637</Code>
+    <Name>Պաուչ կատ. ձագ. համար Monge FRESH տավար 85գ</Name>
+    <LongName>Monge Fresh Kitten — Beef 85 g</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>2309</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>8009470301053</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1637</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>8009470301053</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1637</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>450.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1638</Code>
+    <Name>Կատ. ճանկ. մահճակալ Lilly, ø45*10 սմ, բաց մանուշ.</Name>
+    <LongName>Trixie Scratching Bed Lilly — ø 45 × 10 cm, light lilac</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4823</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4011905480145</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1638</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4011905480145</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1638</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>12100.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1639</Code>
+    <Name>Տակդիր Petmil, 60*40 սմ, 1 հատ</Name>
+    <LongName>Petmil Disposable Absorbent Pad — 60 × 40 cm, 1 pc (bag of 100 on 004)</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4818</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>004</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>00122</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>004</Unit>
+        <Coef>100.0000000000</Coef>
+        <IsDefault>false</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1639</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>00122</BarCode>
+      </MTBarCode>
+      <MTBarCode>
+        <GoodsCode>1639</GoodsCode>
+        <Unit>004</Unit>
+        <BarCode>4627104433808</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1639</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>130.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1640</Code>
+    <Name>Ձգափոկ Trixie Cavo, L-XL 1մ/18մմ, սև</Name>
+    <LongName>Trixie Cavo Lead — L–XL, 1.00 m/ø 18 mm, black</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4201</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4053032024458</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1640</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4053032024458</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1640</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>4950.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1641</Code>
+    <Name>Ձգափոկ Trixie Cavo, L-XL 1մ/18մմ, կապույտ</Name>
+    <LongName>Trixie Cavo Lead — L–XL, 1.00 m/ø 18 mm, indigo/royal blue</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4201</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4053032024472</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1641</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4053032024472</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1641</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>4950.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1642</Code>
+    <Name>Ձգափոկ բրեզենտե Kaskad, 25մմ/3մ, սև</Name>
+    <LongName>Kaskad Classic Canvas Lead — 25 mm, 3 m, black</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4201</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4605350005970</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1642</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4605350005970</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1642</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>4000.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1643</Code>
+    <Name>Ձգափոկ բրեզենտե կարված Kaskad, 25մմ/5մ, սև</Name>
+    <LongName>Kaskad Classic Canvas Lead, stitched — 25 mm, 5 m, black</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4201</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4605350058471</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1643</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4605350058471</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1643</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>5100.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1644</Code>
+    <Name>Ձգափոկ բրեզենտե կարված Kaskad, 20մմ/2մ, սև</Name>
+    <LongName>Kaskad Classic Canvas Lead, stitched — 20 mm, 2 m, black</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4201</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4605350057047</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1644</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4605350057047</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1644</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>2650.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Goods xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1645</Code>
+    <Name>Ձգափոկ Trixie Premium, XS 1.20մ/10մմ, կապույտ</Name>
+    <LongName>Trixie Premium Lead — XS, 1.20 m/10 mm, royal blue</LongName>
+    <Type>1</Type>
+    <Group>00009</Group>
+    <SubstituteItemsGroup></SubstituteItemsGroup>
+    <CPACode>4201</CPACode>
+    <Unit>001</Unit>
+    <AltUnit>001</AltUnit>
+    <ExpMethod>1</ExpMethod>
+    <ShowInPriceList>true</ShowInPriceList>
+    <MainSupplier></MainSupplier>
+    <Description></Description>
+    <Country></Country>
+    <Producer></Producer>
+    <Property1></Property1>
+    <Property2></Property2>
+    <MinQTY>0</MinQTY>
+    <MaxQTY>0</MaxQTY>
+    <Extra>0.0000</Extra>
+    <Bonus>0.0000</Bonus>
+    <Point>0.0000</Point>
+    <Coeff>1.0000</Coeff>
+    <Discount>0.0000</Discount>
+    <PLUCode i:nil="true" />
+    <ShelfLifeDays>0</ShelfLifeDays>
+    <VAT>false</VAT>
+    <IsWeight>false</IsWeight>
+    <BarCode>4047974200025</BarCode>
+    <EnvironmentalFeePercent>0.0000</EnvironmentalFeePercent>
+    <GoodQuantityUnits>
+      <QuantityUnitPart>
+        <GoodsCode></GoodsCode>
+        <Unit>001</Unit>
+        <Coef>1.0000000000</Coef>
+        <IsDefault>true</IsDefault>
+        <Image></Image>
+        <IsAltUnit i:nil="true" />
+      </QuantityUnitPart>
+    </GoodQuantityUnits>
+    <GoodBarCodes>
+      <MTBarCode>
+        <GoodsCode>1645</GoodsCode>
+        <Unit>001</Unit>
+        <BarCode>4047974200025</BarCode>
+      </MTBarCode>
+    </GoodBarCodes>
+    <ExternalCode></ExternalCode>
+    <Extension />
+    <Image></Image>
+    <CaptionEN></CaptionEN>
+    <CaptionRU></CaptionRU>
+    <AdditionalDescr1></AdditionalDescr1>
+    <AdditionalDescr2></AdditionalDescr2>
+    <CheckMarking>false</CheckMarking>
+    <LabelUnit></LabelUnit>
+    <LabelCoeff>0.0000000000</LabelCoeff>
+    <IgnoreBonus i:nil="true" />
+  </Goods>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1645</Code>
+    <PriceType>01</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-09T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>3000.0000</Price>
+    <Comment></Comment>
+  </Prices>
+</Exchange>

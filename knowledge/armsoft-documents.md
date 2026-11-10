@@ -156,11 +156,39 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
     46×4×25 (5,125) and 35×4×35 (4,875) boards. Orders #12105 (30,465), #12106
     (15,395), #12110 (4,150), all 08/11, and #11997's Club 4 Paws × 24 are not
     invoiced yet (state/open-items.csv).
+  - **User 2026-11-09 (asked Pet House):** Monge Fresh × 28 and the 100 pads
+    are right as invoiced; the two scratching boards 48020 / 48021 were **sent
+    by mistake — skip them**. So receipt 0036 takes A2631104009 **without** those
+    two lines: 32,815 against the invoice's 42,815 (comment on the receipt).
+    Pet House owes a corrected invoice or takes the boards back.
+- Pull 2026-11-09 17:12 for 05/11–09/11: 8 invoices, 2 new, both Pet House
+  09/11: **A2576225977** (19,330, 11 lines) = order #12106's six leads (Trixie
+  Cavo 144201 / 144213 3,090 each, Trixie Premium 200002 1,875, Kaskad canvas
+  00597K 2,500 / 05847K 3,185 / 05704K 1,655) + #12105's three Derevenskie
+  pillows (355 each) + #12110's pizza toy 35952 (1,655) and hedgehog 34748
+  (1,215); **A8770854680** (23,000) = #12105's Club 4 Paws rabbit 14 kg (order
+  page said 29,400; invoiced 23,000 = our cost). Still not invoiced: #12110's
+  Premio chicken pâté 3179Tx (1,280) and #11997's Club 4 Paws × 24.
+  The supplier's leash codes ("…02445", "…02447") are EAN digits 8–12, and
+  "72120011" / "02125012" / "72125017" are Kaskad articles.
+- **2026-11-09 new goods 1637–1645** (`final/armsoft-2026-11-09/new-goods-1637-1645.xml`,
+  group 00009, VAT off, price type 01 by XML): 1637 Monge Fresh Kitten beef 85 g
+  (450), 1638 Trixie Scratching Bed Lilly 48014 (12,100, CPA 4823), 1639 Petmil
+  plain pad 60×40 (001 = one pad, code **00122**, price 130; 004 × 100 = the bag
+  EAN 4627104433808, no price — like 1612), 1640 / 1641 Trixie Cavo lead L–XL
+  black / blue (4,950), 1642 Kaskad canvas lead 25 mm × 3 m (4,000), 1643 / 1644
+  Kaskad stitched canvas lead 25 mm × 5 m / 20 mm × 2 m (5,100 / 2,650), 1645
+  Trixie Premium lead XS royal blue (3,000); leads CPA 4201. Siruk first:
+  products 1469–1475 (variants 2259–2267) with these accounting codes.
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0038** | 09/11 | Pet House **A8770854680** (09/11, 23,000 incl. VAT): 0071 Club 4 Paws rabbit 14 kg as **003 × 1 @ 23,000** (23,000 / 14 doesn't fit 2 decimals). Stock after 1.536 bags. File `final/armsoft-2026-11-09/pethouse-A8770854680-receipt-0038.xml` | posted by Claude, user yes |
+| receipt **0037** | 09/11 | Pet House **A2576225977** (09/11, 19,330 incl. VAT, 11 pcs): new 1640 1641 (3,090), 1642 (2,500), 1643 (3,185), 1644 (1,655), 1645 (1,875); 1620 1621 1622 × 1 @ 355, 1038 @ 1,655, 1114 @ 1,215 | posted by Claude, user yes |
+| receipt **0036** | 09/11 | Pet House **A2631104009** (08/11) **without** the boards 48020 / 48021 (sent by mistake, user): 32,815 of 42,815. 1606 @ 2,000, 0418 / 0421 × 2 @ 515, 1121 1122 1123 × 3 @ 625, new 1638 @ 7,560, 0153 × 2 @ 3,785, new 1639 × 100 (001) @ 80 | posted by Claude, user yes |
+| receipt **0035** | 09/11 | Pet House **A6814768463** (08/11, 12,580 incl. VAT): new 1637 × 28 @ 310, 0236 × 1 @ 1,090, 1441 as **003 × 1 @ 2,810** | posted by Claude, user yes |
 | issue **0007** | 09/11 | **1625** YOKO bull root S × 3 written off at cost 800 (2,400): sold at the shop without ArmSoft (user: "write them off"). Stock after 7 | posted by Claude, user asked |
 | receipt **0034** | 09/11 | ԴԱՎԻԹ ԼԵՎՈՆՅԱՆ ԱՁ (ՀՎՀՀ 20169575) **B6860271375** (08/11, 48,400, no VAT), rows 1–3 and 5–12: new goods **1626–1636** (YOKO chews, imported the same day from `final/armsoft-2026-11-09/new-goods-1626-1636.xml`, CPA 2309, group 00004, sale price = cost × 1.5 per the user), 30 pcs, 40,400. No partner code (supplier not set up); invoice no. + supplier in the comment | posted by Claude, user asked |
 | receipt **0018** (2nd use of the number) | 09/11 | Same invoice, row 4: **1625** Ցլի արմատ (փոքր) × 10. Typed by narek at **1,200 with VAT**; Claude turned it back to a draft and fixed it to **800, no VAT**, invoice B6860271375 + supplier in the comment, reposted (user yes). 1625 itself was made by hand with no ԱՏԳ ԱԱ code; Claude set **2309** (user yes) | fixed by Claude |
