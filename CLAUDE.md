@@ -227,6 +227,14 @@ linked doc before you rely on a number from memory.
    per-product meta (the server's `HasSeo` reads the top-level request). A
    write outside `siruk` → `scripts/set-seo-meta.py <id>` and
    `scripts/set-media-alt.py --ids …` after it.
+   **Categories and brands** (2026-11-10): "Buy {Category} Online" /
+   "Buy {category} online at Siruk. Choose from trusted brands and get
+   delivery in Yerevan." ({Category} from `reference/category-seo-phrases.json`,
+   SEO image = the category's `image`) and "{Brand} – Buy Online in Yerevan" /
+   "Buy {Brand} online at Siruk. Browse the full range, delivered in Yerevan."
+   (SEO image = the logo). `scripts/set-category-seo.py` /
+   `scripts/set-brand-seo.py --logo` (`--apply` to write) — re-run after a new
+   category, brand or image.
 
 ## Environments
 - Admin (production): `https://api.siruk.am/admin/login` —
