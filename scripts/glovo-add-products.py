@@ -5,7 +5,8 @@
       --brand YOKO --category 7145 [--also YOKO-1627:7078] [--out <dir>] [--apply]
 
 The sheet ("Glovo products", or the first sheet) has the Pelican columns: A sku, C title,
-E description, F price. The photo for each row is <sheet dir>/<sku>.jpg (500x500 JPEG).
+E description, F price. Optional per row (2026-11-12, mixed-brand batches): K brand, L vendor
+category ids ("20620+20619"); they override --brand / --category, which are then not needed. The photo for each row is <sheet dir>/<sku>.jpg (500x500 JPEG).
 
 Every title must be in Zoovet's pattern (user 2026-11-05 / 2026-11-09): the brand first,
 Latin, no «», and pass glovo-titles.py check() (no number lost, <= 110 chars). A row that
@@ -14,7 +15,7 @@ writes the exact request (glovo-request-exact.json), a readable copy
 (glovo-request-readable.json) and a photo preview (glovo-request-preview.html) for the user.
 Nothing is live until Glovo approves; validateProductsRequest is not a real check.
 """
-import argparse, base64, html, importlib.util, json, os, sys
+import argparse, base64, html, importlib.util, json, os, sys, time
 
 import openpyxl
 
@@ -28,20 +29,29 @@ def load(name, file):
     return m
 
 
+# Never in a Glovo title or description (user 2026-11-12): լակոտ is an insult in Armenian for a puppy —
+# write «շան ձագ»; plus the obvious Russian / English ones.
+BAD_WORDS = ['լակոտ', 'сука', 'суки', 'сучк', 'бляд', 'блят', 'хуй', 'хуё', 'пизд', 'ебат', 'ебан', 'дерьм', 'говн',
+             'bitch', 'fuck', 'shit', 'bastard']
+
+
 MUTATION = """mutation($v: VendorIdentifier!, $r: ProductsRequest!){
   createProductsRequest(vendorIdentifier:$v, productsRequest:$r){
     __typename
     ... on CreateProductsRequestSuccessful { status }
-    ... on CreateProductsRequestErrorDuplicatesFound { products { __typename } } } }"""
+    ... on CreateProductsRequestErrorDuplicatesFound { products { __typename
+          ... on DuplicateMasterProduct { barcode name requestId status createdAt image } } } } }"""
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('sheet')
-    ap.add_argument('--brand', required=True, help='brand as it must open every title (Latin)')
-    ap.add_argument('--category', required=True, help='vendor category id for every row')
+    ap.add_argument('--brand', help='brand as it must open every title (Latin); column K overrides it per row')
+    ap.add_argument('--category', help='vendor category id for every row; column L ("7069+7148") overrides it per row')
     ap.add_argument('--also', nargs='*', default=[], help='SKU:catid extra categories')
     ap.add_argument('--out', help='dir for the request files (default: the sheet dir)')
+    ap.add_argument('--batch', help='N/SIZE: send only the N-th slice of SIZE rows (1-based). A 51-row, 2.4 MB request was '
+                                    'refused VENDOR_RATE_LIMITED on 2026-11-12; 12 rows (~0.5 MB) went through on 2026-11-09')
     ap.add_argument('--apply', action='store_true')
     a = ap.parse_args()
 
@@ -68,13 +78,23 @@ def main():
         if not sku or str(sku).startswith('sku'):
             continue
         sku, title, desc, price = str(sku), r[2], r[4], r[5]
-        probs = gt.check(title, title, a.brand)
+        brand = (r[10] if len(r) > 10 and r[10] else None) or a.brand
+        row_cats = str(r[11]).split('+') if len(r) > 11 and r[11] else ([a.category] if a.category else [])
+        if not brand or not row_cats:
+            bad.append(f'{sku}: no brand (--brand / column K) or no category (--category / column L)')
+            continue
+        probs = gt.check(title, title, brand)
+        low = f'{title} {desc or ""}'.lower()
+        probs += [f'rude word "{w}"' for w in BAD_WORDS if w in low]
         if probs:
             bad.append(f'{sku}: {", ".join(probs)} | {title}')
         img = open(os.path.join(d, f'{sku}.jpg'), 'rb').read()
-        cats = [a.category] + extra.get(sku, [])
+        cats = row_cats + extra.get(sku, [])
         products.append({'sku': sku, 'name': title, 'price': float(price), 'description': desc,
-                         'barcode': (str(r[1]) if r[1] else None), 'requestId': 'siruk-' + sku,
+                         # a zero-padded scale PLU / internal code (00000108) is no EAN: Glovo's master catalogue
+                         # has other shops' goods under those numbers and refuses the whole batch (2026-11-12)
+                         'barcode': (str(r[1]) if r[1] and not str(r[1]).startswith('0000') else None),
+                         'requestId': 'siruk-' + sku,
                          'imagesEncoded': ['data:image/jpeg;base64,' + base64.b64encode(img).decode()],   # plain base64 -> dhis_upload.parsing_error
                          'categoryList': [{'id': c, 'name': names.get(c, '')} for c in cats]})
     if bad:
@@ -82,6 +102,11 @@ def main():
     missing = sorted({c['id'] for p in products for c in p['categoryList'] if not c['name']})
     if names and missing:
         sys.exit(f'unknown vendor category ids: {missing} (glovo-portal.py categories --locale hy)')
+    if a.batch:
+        n, size = map(int, a.batch.split('/'))
+        products = products[(n - 1) * size:n * size]
+        if not products:
+            sys.exit(f'batch {a.batch}: no rows')
 
     for p in products:
         print(p['sku'], int(p['price']), '+'.join(c['id'] for c in p['categoryList']), '|', p['name'])
@@ -108,7 +133,8 @@ def main():
 
     if not a.apply:
         sys.exit('dry run - show the user the request files, then --apply')
-    print(json.dumps(gp.gql(MUTATION, req['variables']), ensure_ascii=False, indent=1))
+    time.sleep(3)   # right after the categories call Glovo answers VENDOR_RATE_LIMITED (2026-11-12); nothing is filed then
+    print(json.dumps(gp.gql(MUTATION, req['variables'], tries=1), ensure_ascii=False, indent=1))   # never retried: a retry could file it again
 
 
 if __name__ == '__main__':

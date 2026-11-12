@@ -81,6 +81,49 @@ new products:
   `productsRequests(filter:{vendorIdentifier}, page:{pageNumber:0, pageSize:50}){ items{
   creationDate jiraIssueKey productsAmount rejectedProductsAmount status } }` (filter type
   `ProductsRequestFilter!`, result `PagedProductsRequests`).
+- **2026-11-12 (51 shop goods not on Glovo, `final/glovo/new-2026-11-12/`):**
+  - **Three cases per call is Glovo's doing.** Two calls, each made with `tries=1` (no retry),
+    each filed three identical cases (`500bO000018eWc6…`, `…e8wJ…`, `…e8zW…`; `…ec7x…`, `…eu1Z…`,
+    `…es31…`). The YOKO triple was the same. Expect duplicates if all three get approved.
+  - **`VENDOR_RATE_LIMITED`** ("Retry after 1 seconds", but it isn't): a 51-row (2.4 MB)
+    call was refused outright. After two accepted calls within ~4 min, a third was still
+    refused 2 and 6 min later. Nothing is filed on a refusal. Send ≤ 11–12 rows per call
+    (`--batch N/11`) and leave a long gap between calls; the window is not known yet.
+  - **Duplicates are checked by barcode against Glovo's master catalogue (PIM)** before
+    anything is filed. One hit refuses the whole call (`CreateProductsRequestErrorDuplicatesFound`
+    → `DuplicateMasterProduct { barcode name status: ALREADY_EXISTS_IN_PIM image }`).
+    - Our zero-padded scale PLUs (`00000008`…) belong to other shops' goods there (a rose,
+      bananas, toilet paper), so `glovo-add-products.py` now sends no barcode starting with
+      `0000`.
+    - A real EAN already in PIM (18 of our 40: Trixie toys, flexi, Kotoffey, Monge 800 g…)
+      can't be requested as new. Look them up with `masterProducts(filter:{vendorIdentifier,
+      locale, barcode})` → `code`. `assignOrUpdateProduct(vendorIdentifier, request:
+      AssignOrUpdateProductInput{chainId code sku price activeness titles descriptions images
+      vendorAssignments …})` probably links such a master product to our store. **Untested.**
+      Some PIM entries are mislabelled: 6921959207750 (Derevenskie pillows, beef) is
+      "Cat Fest … Creme Cat".
+  - **Don't link** (user 2026-11-12): never attach a Glovo master (PIM) product to our store,
+    neither by the portal's "Use this product" nor by `assignOrUpdateProduct`. Its title and
+    photo are locked to the master entry. The one test (3242) is below.
+  - **Goods already in PIM are sent as new products without the barcode** (user 2026-11-12:
+    "I want all of them added… do whatever is necessary"), with our own title, photo and
+    price, through `glovo-add-products.py` with column B left empty. Glovo's review may
+    still match them to the master entry. Adding missing goods to Glovo is pre-approved: no
+    confirmation per batch.
+  - **Linking a PIM product works through the portal form, tested on 3242, 2026-11-12:**
+    1. Store Management → Add Products (`/store-management/add-products`) → **With Barcode**.
+    2. Type the EAN. The form says "already exists in our database" → **Use this product**.
+    3. The titles (hy + en), description, photo and brand are **locked** to the master
+       entry. We set price, SKU, categories (up to 5) and Availability → **Add Product**.
+    4. It goes **live at once**: no review case, active, `pieceBarcodes` = the EAN.
+
+    The API behind it is `assignOrUpdateProduct`. Our `chainId` =
+    `3455dc93-9732-4e1f-aedc-0602b0a750b9` (from `BOVendors(filter:{platformVendorIds:["982410"]},
+    pagination:{mode:OFFSET_BASED, offsetPagination:{offset:0, limit:5}})`; `chains` answers
+    `not_enough_permission`). The exact payload was not captured: the network buffer had
+    dropped it.
+  - **Rename guard `VARIETY`:** `ProductUpdate` refuses a title that changes too many words at
+    once. Swapping one phrase (`լակոտների` → `շան ձագերի`, MG006107-KG) went through.
 - `categoryList` is the **vendor category** from `categories` (e.g. `26752 Ոսկորներ և
   ձողիկներ`, `7145 Անուշեղեն Շների Համար`), **not** the Pelican "Section 1/2" names
   (`Ոսկորներ, ջիլեր և բնական հյուրասիրություններ շների համար`, …). Those section names are

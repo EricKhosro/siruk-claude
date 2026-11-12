@@ -140,6 +140,15 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
   Latin, no «», `glovo-titles.py` `check()`). Titles follow `glovo-export` → column C.
   Price = 50 ֏ under Zoovet's Glovo price (§2). Show the user the request file and
   get a yes before `--apply`. Example: YOKO × 12, 2026-11-09.
+  Since 2026-11-12, adding missing goods is pre-approved: every product we sell belongs on Glovo,
+  so don't ask per batch.
+  - Mixed brands go in one sheet, with column K for the brand and L for the categories.
+  - Send `--batch N/11` with a gap between calls; a `VENDOR_RATE_LIMITED` refusal files nothing.
+  - The script drops padded scale codes (`0000…`) from the barcode.
+  - A good whose EAN is already in Glovo's master catalogue goes in with column B empty.
+    **Never link it** ("Use this product"): the title and photo get locked.
+  - Find what is missing with an "in ArmSoft stock but not on Glovo" check, not from the sheet.
+    The onboarding silently dropped 39 rows (`reference/glovo/portal.md` → 2026-11-12).
 - Titles / descriptions show read-only in the portal drawer. `ProductUpdate`
   takes `titles` / `descriptions`, but it is untested.
 - Orders (bot-protected), promotions, opening times, store pause.

@@ -80,7 +80,9 @@ def vendor():
     return {'platformVendorId': TOKEN['platform_vendor_id'], 'globalEntityId': TOKEN['global_entity_id']}
 
 
-def gql(query, variables):
+def gql(query, variables, tries=3):
+    """tries=1 for a mutation that must never run twice (createProductsRequest): a retry after a 5xx could
+    file it again. (Glovo files three identical review cases per call anyway — seen with one attempt, 2026-11-12.)"""
     body = json.dumps({'query': query, 'variables': variables}).encode()
     req = urllib.request.Request(API, body, {
         'Authorization': 'Bearer ' + TOKEN['access_token'],
@@ -88,7 +90,7 @@ def gql(query, variables):
         'x-client-source': 'one-web',
         'Origin': 'https://portal.glovoapp.com',
         'User-Agent': 'siruk-glovo-client'})
-    for attempt in range(3):
+    for attempt in range(tries):
         try:
             with urllib.request.urlopen(req, timeout=60) as f:
                 d = json.load(f)
@@ -98,7 +100,7 @@ def gql(query, variables):
         except urllib.error.HTTPError as e:
             if e.code == 401:
                 sys.exit('401 from Glovo — token expired or revoked; re-capture it (skill glovo-portal → Token)')
-            if e.code >= 500 and attempt < 2:
+            if e.code >= 500 and attempt < tries - 1:
                 time.sleep(2 * (attempt + 1)); continue
             raise RuntimeError(f'HTTP {e.code}: {e.read()[:400]!r}')
 
