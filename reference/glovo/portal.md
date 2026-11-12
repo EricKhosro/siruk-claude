@@ -143,6 +143,42 @@ new products:
     dropped it.
   - **Rename guard `VARIETY`:** `ProductUpdate` refuses a title that changes too many words at
     once. Swapping one phrase (`լակոտների` → `շան ձագերի`, MG006107-KG) went through.
+- **What Glovo's review does with our cases** (2026-11-12, first 64 reviewed within hours).
+  Check it with `glovo-add-products.py <every sheet sent> --review`.
+  - **Result per product:** `listProductJobs(filter:{vendorIdentifier, locale, includeItems,
+    itemPageSize}, page)` → `jobs { caseId status createdAt items { sku status title } }`.
+    Item status is `SUCCESS` or `FAILURE`. `ProductJobItem` has **no reason field**.
+    62 SUCCESS, 4 FAILURE (12767 and 4097, each in two cases).
+  - **Why those two "failed":** Glovo's staff had already created both by hand, from our old
+    onboarding rows, just before our cases were reviewed. So the SKU existed and our case was
+    refused as a duplicate.
+    - Their copies used the old title pattern («Trixie», English "belt:/lead:").
+    - They also had an old price: 12767 at 10300 → ours, 4097 at 1800 → ours.
+    - **Don't resend such a row.** Fix its price and categories instead.
+  - **Wrong merges happen.** In the same sweep they created `12007` from two onboarding rows:
+    the Monge hare name, the Kaskad collar's hy text, price 1000. We switched it off and ask
+    Glovo to delete it. Our real Kaskad collar is `00012007`.
+  - **What reviewers change in accepted products:**
+    - **Kept as sent:** our hy titles and prices.
+    - **Restyled:** nearly every en title ("Yoko Dried Bull Pizzle S 40g").
+    - **Mistakes they made in en titles:**
+      - 23410 "7pcs" for a single pad;
+      - 31662-100G and 31663-100G both "Trixie Cookies 100g";
+      - MG006117-KG "Best for Breeders";
+      - MG006067-KG with "Mini" lost.
+    - **Categories:** multi-category products were cut to one.
+    - `--review` flags an en title only when a number was added or changed, or another species
+      is named.
+  - **Fixing afterwards:**
+    - **Price and categories:** two separate updates, `{'price': …}` and
+      `{'categoryInternalIds': […]}` (`--review --apply`). A combined price + categories +
+      titles update answers `unexpected_error`.
+    - **Titles:** a title update needs `original` and still meets the guards. `QUANTITY` (a
+      changed count, 23410), `HIJACKING` (31662-100G/31663-100G; 12767's hy) and `VARIETY`
+      (the MG pair; 4097's hy) refused most title fixes.
+      - The brand-first step (`glovo-titles.step1`) went through for 12767 and 4097. The
+        rest of those titles is for Glovo support.
+    - En fixes that went through: MG006077-KG, 006487-KG, YOKO-1635.
 - `categoryList` is the **vendor category** from `categories` (e.g. `26752 Ոսկորներ և
   ձողիկներ`, `7145 Անուշեղեն Շների Համար`), **not** the Pelican "Section 1/2" names
   (`Ոսկորներ, ջիլեր և բնական հյուրասիրություններ շների համար`, …). Those section names are

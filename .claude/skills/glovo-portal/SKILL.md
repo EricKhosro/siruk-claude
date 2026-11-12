@@ -154,6 +154,27 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
     **Never link it** ("Use this product"): the title and photo get locked.
   - Find what is missing with an "in ArmSoft stock but not on Glovo" check, not from the sheet.
     The onboarding silently dropped 39 rows (`reference/glovo/portal.md` → 2026-11-12).
+  - **After sending, review what Glovo did** (user 2026-11-12). Glovo's team accepts or
+    rejects the cases by hand, within hours. Re-run this until no case is "In progress":
+    `uv run --no-sync --with openpyxl python scripts/glovo-add-products.py <every sheet sent> --review`
+    It lists:
+    - rows not live (with the case status);
+    - a twin under a zero-stripped SKU that isn't ours;
+    - a price or category set that isn't ours;
+    - a changed hy title;
+    - an en title where a number or species is wrong.
+    Then:
+    1. `--review --apply` restores our price and categories. This is pre-approved, like the add.
+    2. A rejected row with no twin lands in `glovo-retry-<date>.xlsx` next to its sheet. Find
+       out why first (a Glovo-made copy under another SKU or name, the photo, the title), fix
+       it, then send that sheet.
+    3. A "FAILURE" on a product that is live is a copy Glovo's staff made by hand. Fix its price
+       and categories; don't resend it.
+    4. Titles go through the guards: brand first (`glovo-titles.py` two-step rename, with
+       `original`). Whatever the guards refuse goes on a list for Glovo support, together with
+       wrong products to delete.
+    Finally, add the new SKUs and prices to `final/glovo/siruk-glovo-products.xlsx`, so
+    `prices` knows them.
 - Titles / descriptions show read-only in the portal drawer. `ProductUpdate`
   takes `titles` / `descriptions`, but it is untested.
 - Orders (bot-protected), promotions, opening times, store pause.
