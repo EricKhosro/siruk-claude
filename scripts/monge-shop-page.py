@@ -97,7 +97,7 @@ def main():
         out[u] = parse(u, h)
         print(f"[{i}/{len(src)}] {'cache' if cached else 'net'} {out[u]['name'][:60]} imgs={len(out[u]['images'])} card={len(out[u]['card'])}", file=sys.stderr)
         if not cached:
-            time.sleep(0.8)
+            time.sleep(1.5)
         if i % 10 == 0:
             json.dump(out, open(outp, "w"), ensure_ascii=False, indent=1)
     json.dump(out, open(outp, "w"), ensure_ascii=False, indent=1)

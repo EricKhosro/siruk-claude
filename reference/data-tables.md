@@ -29,6 +29,14 @@ every other value of the attribute — an All Lifestages food shows under
 the universal value **or** specific ones, never both, and the rules below for
 when a product really is "all" still apply (a two-stage claim is not "all").
 
+### 1a. Non-food items (user 2026-11-12)
+
+The "explicit claim only" rule below is for **food**. A collar, toy, brush, supplement or treat is not silent about age — it is for every age unless it is made for one. Lifestage is single-select, and an empty value drops the product out of the lifestage filter (the collar page showed only "Puppy"), so:
+
+- Lifestage: Puppy / Kitten / Senior when the name or label says the item is made for that age ("Junior", "Puppy Trainer"); "puppies and dogs up to 10 kg" covers adults too → All Lifestages. Everything else → **All Lifestages**.
+- Breed size (dog items only; cat-only items get none): accessories, toys and grooming take it from the variant's size code — XXS/XS → Extra Small, S → Small, M → Medium, L → Large, XL/XXL → Giant Breeds; a range (S–M, L–XL) takes its smaller end. No size code → All Breeds. A supplement dosed by dog weight ("over 10 kg") is left empty.
+- The first sweep (2026-11-12) set this on 799 products; the same rule is now the default for every import.
+
 ### Cats
 
 | Stage | Age |

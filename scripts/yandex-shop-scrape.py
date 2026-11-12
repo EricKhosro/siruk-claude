@@ -73,7 +73,7 @@ def main():
                 p = path(cc['id'])
                 if p not in row['categories']:
                     row['categories'].append(p)
-        time.sleep(0.3)
+        time.sleep(1.5)
         print(f"{len(items):5} items after {c['name'].strip()}", file=sys.stderr)
 
     os.makedirs(OUT, exist_ok=True)

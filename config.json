@@ -1,22 +1,26 @@
 {
   "_comment": [
-    "Pacing / retry knobs for everything in scripts/. All times are SECONDS",
+    "Pacing / retry knobs for everything in scripts/ and siruk/. All times are SECONDS",
     "(decimals allowed). Edit this file — the scripts read it on every call, no",
     "restart needed. Env vars win over the file: SIRUK_DELAY, SIRUK_CHUNK_SIZE,",
     "SIRUK_CHUNK_PAUSE, SIRUK_MEDIA_DELAY, SIRUK_RETRIES, SIRUK_TIMEOUT, MAX_PX.",
-    "SIRUK_NO_PACE=1 disables all waiting for one command (single ad-hoc calls).",
-    "SIRUK_CONFIG=/path/other.json points at a different config file.",
-    "Turn any knob off with 0."
+    "HARD FLOOR (user 2026-11-12, 'slow down the requests, bake it into all workflows'):",
+    "every API request waits >= 1.0 s and every upload >= 2.5 s, enforced in siruk/config.py",
+    "and scripts/lib.sh. No env var, SIRUK_NO_PACE=1, --no-pace, --fast or a 0 here goes below it;",
+    "SIRUK_NO_PACE=1 only drops the chunk pauses. Our API: one request at a time, never parallel.",
+    "Outside sites (hafo, zoovet, nemo, brand sites, Glovo, CDNs): >= 1.5 s apart, at most 2 at once.",
+    "SIRUK_CONFIG=/path/other.json points at a different config file."
   ],
   "request": {
     "_comment": "Applies to every JSON API call (api.sh and everything built on it).",
-    "delay_seconds": 0.6,
-    "jitter_seconds": 0.3,
-    "chunk_size": 15,
-    "chunk_pause_seconds": 5,
+    "delay_seconds": 1.5,
+    "jitter_seconds": 0.5,
+    "chunk_size": 10,
+    "chunk_pause_seconds": 10,
     "idle_reset_seconds": 120,
     "timeout_seconds": 60,
-    "connect_timeout_seconds": 15
+    "connect_timeout_seconds": 15,
+    "min_delay_seconds": 1.0
   },
   "retry": {
     "_comment": "Automatic retry with exponential backoff. Applies to API calls and media uploads.",
@@ -37,10 +41,10 @@
   },
   "media": {
     "_comment": "Uploads are the heavy calls (multipart + server-side thumbnail/webp generation) — pace them harder than plain API calls.",
-    "delay_seconds": 2,
-    "jitter_seconds": 0.5,
+    "delay_seconds": 3,
+    "jitter_seconds": 1,
     "chunk_size": 5,
-    "chunk_pause_seconds": 15,
+    "chunk_pause_seconds": 20,
     "max_pixels": 2000,
     "verify": {
       "_comment": "The demo server sometimes returns a media id whose file was never written (silent 404 on the storage URL, found 2026-08-13). After each upload, fetch the media record and HEAD its URL before trusting the id.",
@@ -50,11 +54,12 @@
       "delete_broken": true,
       "retry_upload": true,
       "upload_attempts": 2
-    }
+    },
+    "min_delay_seconds": 2.5
   },
   "product": {
     "_comment": "pause_seconds is the breather between two CSV rows in an import run — call scripts/pace.sh product between products.",
-    "pause_seconds": 3
+    "pause_seconds": 5
   },
   "bulk": {
     "_comment": "scripts/bulk-create.py → POST /products/bulk (siruk-web 2026-10-01). The server caps one request at 100 products (catalog.bulk_create_max); each item is a full product write, so keep requests smaller and give them a long timeout. The POST is never auto-retried.",
@@ -106,7 +111,7 @@
         "rank_first_image": 3,
         "rank_other_images": 4,
         "refresh_days": 30,
-        "delay_seconds": 0.4
+        "delay_seconds": 1.5
       },
       {
         "id": "trixie-shop",
@@ -123,7 +128,7 @@
           "created-with-AI"
         ],
         "refresh_days": 30,
-        "delay_seconds": 0.8
+        "delay_seconds": 1.5
       },
       {
         "id": "trixiecz",
@@ -140,7 +145,7 @@
         "rank_first_image": 4,
         "rank_other_images": 5,
         "refresh_days": 30,
-        "parallel": 12
+        "parallel": 2
       },
       {
         "id": "zoovet",
@@ -165,7 +170,7 @@
         "rank_first_image": 4,
         "rank_other_images": 5,
         "refresh_days": 30,
-        "delay_seconds": 0.5
+        "delay_seconds": 1.5
       },
       {
         "id": "4lapy",
@@ -176,7 +181,7 @@
         "key": "the manufacturer barcode (Штрихкод) printed on each pack-size offer = our EAN",
         "_note": "Added 2026-09-23 (user's fallback list). Any brand. Per-offer gallery plus Russian description/composition/feeding. robots.txt disallows /search/, so products are found through the product sitemap. RUB prices are never used.",
         "refresh_days": 30,
-        "delay_seconds": 1.0
+        "delay_seconds": 1.5
       },
       {
         "id": "carrefour-es",
@@ -231,5 +236,10 @@
         "log_to": "runs/<date>/needs-image.csv"
       }
     ]
+  },
+  "external": {
+    "_comment": "Outside sites. Scripts hard-code these as their minimum (time.sleep / DELAY / PARALLEL); keep any new script at or above them.",
+    "min_delay_seconds": 1.5,
+    "max_parallel": 2
   }
 }

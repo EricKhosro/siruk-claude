@@ -61,7 +61,7 @@ def check(url, retries, side):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--xlsx', default='final/glovo/siruk-glovo-products.xlsx')
-    ap.add_argument('--workers', type=int, default=8)
+    ap.add_argument('--workers', type=int, default=2)
     ap.add_argument('--retries', type=int, default=3)
     ap.add_argument('--side', type=int, default=500, help='required square side (0 = any size)')
     ap.add_argument('--json', help='write the per-link results here')

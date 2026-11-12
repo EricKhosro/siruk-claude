@@ -30,7 +30,7 @@ per-product dumps on all 1,644 variants (`catalogue_export.py --lang hy --check`
 Without `--from-export` (the old way, ~1 h per language):
 
 ```bash
-scripts/dump-products.py --refresh --fast            # en, ~1040 products, read-only
+scripts/dump-products.py --refresh --fast            # en, ~1040 products, read-only (--fast still waits ≥1 s per call)
 scripts/dump-products.py --lang hy --refresh --fast  # hy texts for title/description
 SIRUK_LANG=hy scripts/api.sh GET "/categories?per_page=500" > .siruk-cache/glovo-categories-hy.json
 .venv-img/bin/python scripts/glovo-export.py --squares   # 1st: cut the 500×500 squares

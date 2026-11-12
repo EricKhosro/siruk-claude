@@ -436,8 +436,16 @@ Kidneys, 58 Test Kits]. The flat **12 Vitamins & Supplements was deleted**
 were already filed in 65 Crystal, so both leaves listed the same products. **Cat Supplies** 66 → [67 Litter Boxes &
 Accessories, 79 Collars, Leashes & Harnesses, 107 Beds, 108 Carriers & Travel,
 109 Bowls & Feeders (2026-10-27: Trixie's cat-tree bowls; dual-species bowls
-also keep Dog 70)]; **Cat Trees, Condos &
-Scratchers** 80 → [81 Scratchers & Scratching Posts].
+also keep Dog 70), 112 Cleaners & Stain Removers (2026-11-12, user: mirror of
+Dog 78 for the dog+cat lint rollers and odour sprays), 81 Trees, Condos & Scratchers]. **2026-11-12 (user, from
+Chewy's menu):** 81 (was "Scratchers & Scratching Posts" under a top-level
+"Cat Trees, Condos & Scratchers" 80) moved under Supplies 66 and renamed; 80 is
+left empty — the storefront menu prunes categories with no products
+(`CategoryService::pruneTreeWithoutProducts`), so it is hidden, not deleted.
+New the same day: **110 Cat › Food › Health Condition** (cat vet diets, beside
+their 10/11 leaf) and **111 Cat › Toys › Teasers & Wands** (wands and playing
+rods, out of 26). 41/50 are now "Health Care" and 47/55 "Care & Recovery" —
+no Siruk category says Pharmacy or Prescriptions (user, 2026-11-12).
 **Bird / Small Animal** (created 2026-09-28 on user approval for the sirook.pdf
 invoice): Bird 95 → [96 Food, 97 Treats & Supplements]; Small Animal 98 →
 [99 Food, 100 Hay, 101 Treats, 102 Supplements & Salt Licks, 103 Bedding].

@@ -5,6 +5,8 @@ description: Product-type spec for Accessories — categories, product type (and
 
 # Accessories — product-type spec
 
+**Non-food default (user 2026-11-12):** every Accessories / Toys / Grooming / Supplements / Treats variant gets a lifestage — Puppy/Kitten/Senior when the item is made for that age ("Junior", "Puppy"; "puppies and dogs up to 10 kg" is not), otherwise **All Lifestages**. Dog items also get a breed size: from the variant's size code (XS → Extra Small, S → Small, M → Medium, L → Large, XL/XXL → Giant; a range takes its smaller end) on accessories/toys/grooming, otherwise All Breeds (a dose by dog weight: leave it). Cat-only items get no breed size. A missing value hides the product from the filter; never leave these empty because the text is silent. `reference/data-tables.md` §1a.
+
 **Status: template pre-filled from the live admin (2026-09-10). The user will
 edit this to say which attributes and values Accessories should show (Chewy-style).
 Until it is edited, the live product type is the spec.**
@@ -12,8 +14,10 @@ Until it is edited, the live product type is the spec.**
 ## Where it is filed
 
 Cat litter → Cat → 59 Litter → leaf by type (60 Clumping, 61 Scented, 62 Unscented, 63 Natural, 65 Crystal). Litter boxes, scoops, mats → Cat → 66 Supplies → 67 Litter Boxes & Accessories. Everything else → the **leaf** under Dog 68 Supplies / 75 Cleaning & Potty or Cat 66 Supplies / 80 Trees, Condos & Scratchers (created 2026-09-11 from the Chewy menu): 69 Collars, Leashes & Harnesses · 70 Bowls & Feeders · 71 Beds · 72 Clothing & Accessories · 73 Carriers & Travel · 74 Training & Behavior · 76 Pee Pads & Diapers · 77 Poop Bags & Scoopers · 78 Cleaners & Stain Removers · 79 Collars, Leashes & Harnesses (cat) · 81 Scratchers & Scratching Posts. **13 Accessories is NOT a product category** — `forProducts` omits it; a row landing there is a bug, not a fallback.
+Cat litter → Cat → 59 Litter → leaf by type (60 Clumping, 61 Scented, 62 Unscented, 63 Natural, 64 Lightweight, 65 Crystal). Litter boxes, scoops, mats → Cat → 66 Supplies → 67 Litter Boxes & Accessories. Everything else → the **leaf** under Dog 68 Supplies / 75 Cleaning & Potty or Cat 66 Supplies (created 2026-09-11 from the Chewy menu): 69 Collars, Leashes & Harnesses · 70 Bowls & Feeders · 71 Beds · 72 Clothing & Accessories · 73 Carriers & Travel · 74 Training & Behavior · 76 Pee Pads & Diapers · 77 Poop Bags & Scoopers · 78 Cleaners & Stain Removers · 79 Collars, Leashes & Harnesses (cat) · 81 Trees, Condos & Scratchers (under Cat 66 Supplies since 2026-11-12) · 107 Beds · 108 Carriers & Travel · 109 Bowls & Feeders (cat). **13 Accessories is NOT a product category** — `forProducts` omits it; a row landing there is a bug, not a fallback.
 
 **Dual species → both trees.** `category_ids` is a list: a bowl, mat or collar the pack sells for dogs *and* cats goes in both leaves (e.g. 69 + 79). Never add a parent. See `reference/product-rules.md`.
+**Species come from the brand's catalogue, not our description** (user, 2026-11-12). A bed's text rarely names the animal, so check where the brand files it: Trixie → the trixie.shop tags `01_hund` / `01_katze` / `01_kleintier` (`scripts/trixie-shop-index.py`); other brands → the site section(s) the product appears in. Tagged for both → both leaves: Beds 71 + 107, Carriers 73 + 108, Bowls 70 + 109, Collars 69 + 79; small animals 105 Supplies. After the import, `scripts/species-categories.py` (audit, then `--apply`) catches what was missed.
 
 ## Attributes
 

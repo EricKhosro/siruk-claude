@@ -186,14 +186,31 @@ product in a parent adds nothing and breaks the leaf rule.
 | Dual species | the **mirror leaf in both trees**, or the nearest leaf that species actually has — 29+36 Shampoos, 30+37 Grooming Tools, 31+38 Paw & Nail, 32+39 Ear Care, 33+40 Skin Care, 42+51 Flea & Tick, 47+55 Pharmacy, 43+52 Vitamins, 69+79 Collars | the pack/brand page says "for dogs and cats" (or the invoice names both `շն` and `կատ`) |
 | Dewormer for both species | 46 Heartworm & Dewormers **+** 55 Pharmacy & Prescriptions (Cat has **no** dewormer leaf, so 46 mirrors to 55) **+** 42 + 51 Flea & Tick | the pack names both species |
 | Any dewormer (user, 2026-10-16) | also the species' **Flea & Tick** leaf: cat 51 + 55, dog 42 + 46 (applied to Gelmintal 767–780 and Inspector Quadro Tabs 763) | it is an anthelmintic |
-| Veterinary diet | its food leaf (3/4/10/11) **+** 5 Health Condition | a stated clinical indication |
+| Veterinary diet | its food leaf **+** the species' Health Condition: dog 3/4 + 5, cat 10/11 + 110 (since 2026-11-12) | a stated clinical indication |
 
 Checked 2026-09-12 so the table stays honest: 46 holds 12 dewormers, 55 holds
 the cat ones, and 47 holds only the First Aid Kit and the SexControl tablets —
 so "every dewormer also goes in 47" is **not** a convention here and must not
-be applied. Where a species has no shelf at all (Cat has no Health Condition,
-Bowls & Feeders, Clothing, Carriers or Cleaning & Potty node; Cat › Supplies › Beds 107 exists since 2026-10-19), report the
+be applied. Where a species has no shelf at all (Cat has no
+Clothing, Training or Cleaning & Potty node; Cat › Supplies has Beds 107, Carriers 108, Bowls 109, Cleaners & Stain Removers 112, and
+Cat › Food › Health Condition 110 exists since 2026-11-12), report the
 gap; creating a category needs an explicit ask (rule 8).
+
+**Beds, carriers, bowls, brushes: the brand's catalogue decides the species,
+not our description** (user, 2026-11-12). Our stored text rarely says "for dogs
+and cats" — Trixie's copy just describes the bed — so text-only checks filed
+Harvey/Boho beds, Junior Cave and the Capri/Relax transport boxes under one
+species while Trixie sells them for both. At import and in audits, read the
+brand's own species assignment: for Trixie the trixie.shop tags `01_hund` /
+`01_katze` / `01_kleintier` (`scripts/trixie-shop-index.py` caches them); for
+other brands the category/breadcrumb the product sits in on the brand site
+(dog section *and* cat section → both). Then add the mirror leaf: Beds 71 ↔ 107,
+Carriers 73 ↔ 108, Bowls 70 ↔ 109, Cleaners 78 ↔ 112, Collars/ID tags 69 ↔ 79, grooming 28–33 ↔
+35–40, pharmacy 47 ↔ 55; small animals → 104 Grooming / 105 Supplies.
+`scripts/species-categories.py` does the whole catalogue (audit → `--apply`)
+and writes the leaves with no mirror (Cat has no Cleaning leaf for lint
+rollers until 2026-11-12) to `runs/<date>/species-gaps.csv`. First run 2026-11-12: 24 products,
+then Cleaning 78 ↔ 112 Cat › Supplies › Cleaners & Stain Removers (created on the user's ask) took the 6 lint rollers / sprays.
 
 Add a leaf only on the product's own evidence — never a species the brand does
 not claim (rule 8 still applies). And because `PUT /products` replaces the

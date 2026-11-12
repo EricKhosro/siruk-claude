@@ -9,7 +9,7 @@ Chewy food filters (user decision 2026-09-10): **Special Diet, Health Feature,
 Flavor, Ingredient, Packaging Type**, plus Lifestage and our Food Texture.
 
 ## Where it is filed
-Dog → **4 Wet Food** (veterinary also → 5); Cat → **11 Wet Food**. Product
+Dog → **4 Wet Food** (veterinary also → 5); Cat → **11 Wet Food** (veterinary also → 110). Product
 type **2 Wet Food** (`measure_type: mass`, `default_sale_mode: pack`).
 
 **The live product type decides which attributes exist, their role (`option` /

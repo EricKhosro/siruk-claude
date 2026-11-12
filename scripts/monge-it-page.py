@@ -76,7 +76,7 @@ def main():
         out[u] = parse(u, h)
         print(f"[{i}/{len(urls)}] {'cache' if cached else 'net'} {out[u]['name'][:60]} imgs={len(out[u]['images'])}", file=sys.stderr)
         if not cached:
-            time.sleep(0.8)
+            time.sleep(1.5)
     json.dump(out, open(outp, "w"), ensure_ascii=False, indent=1)
 
 

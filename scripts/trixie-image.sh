@@ -59,11 +59,12 @@ probe() {  # CDN probe for the clean shots; appends "<rank>\t<url>" lines to $tm
   for pfx in PHO_PRO_CLIP PHO_PAC_CLIP; do
     for i in 1 2 3 4 5 6 7 8; do
       u="https://cdn.trixie.de/assets/img/1600mx1200m/${pfx}_${n}-${i}_%23SALL_%23AWK_%23V1.jpg"
-      ( c=$(curl -sS -A "$UA" -o /dev/null -w '%{http_code}' --max-time 25 "$u" 2>/dev/null)
-        [ "$c" = 200 ] && rank "$u" >> "$tmp.p" ) &
+      # one probe at a time, 1.5 s apart (user 2026-11-12: slow every request down)
+      c=$(curl -sS -A "$UA" -o /dev/null -w '%{http_code}' --max-time 25 "$u" 2>/dev/null)
+      [ "$c" = 200 ] && rank "$u" >> "$tmp.p"
+      sleep 1.5
     done
   done
-  wait
 }
 
 # no page at all → the probe is the whole gallery; page without a packshot →

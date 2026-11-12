@@ -163,7 +163,7 @@ def main(argv):
                 words = {(r.get("name") or "").split(" ")[0].lower() for r in rel}
                 if len(brands) == 1 and len(words) == 1:
                     flag(p, "related-siblings", "; ".join(r.get("name") or "" for r in rel))
-            time.sleep(0.4)
+            time.sleep(1.5)
             if n % 100 == 0:
                 print(f"  related {n}/{len(products)}", file=sys.stderr)
 

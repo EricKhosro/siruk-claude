@@ -71,7 +71,7 @@ def main():
             out.append(res)
             print(f"{code:<9} {'OK ' if res.get('matched') else 'no '} {eans[0]}  "
                   f"{(res.get('name_en') or '')[:58]}", file=sys.stderr)
-            time.sleep(0.6)
+            time.sleep(1.5)
         o = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else None
         js = json.dumps(out, ensure_ascii=False, indent=1)
         open(o, "w").write(js) if o else print(js)

@@ -140,6 +140,44 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
   Latin, no «», `glovo-titles.py` `check()`). Titles follow `glovo-export` → column C.
   Price = 50 ֏ under Zoovet's Glovo price (§2). Show the user the request file and
   get a yes before `--apply`. Example: YOKO × 12, 2026-11-09.
+  **Route:** the script sends `createSimpleProductBatch`, the portal's own Add Product call.
+  Every row needs the hy title in column C **and** the English title in column M; Armenia
+  requires both. Afterwards, check that the products show under Store Management →
+  Actions Overview → Added Products. The old `createProductsRequest` cases never reached
+  Glovo's reviewers (2026-11-12).
+  Since 2026-11-12, adding missing goods is pre-approved: every product we sell belongs on Glovo,
+  so don't ask per batch.
+  - Mixed brands go in one sheet, with column K for the brand and L for the categories.
+  - Send `--batch N/11` with a gap between calls; a `VENDOR_RATE_LIMITED` refusal files nothing.
+  - The script drops padded scale codes (`0000…`) from the barcode.
+  - A good whose EAN is already in Glovo's master catalogue goes in with column B empty.
+    **Never link it** ("Use this product"): the title and photo get locked.
+  - Find what is missing with an "in ArmSoft stock but not on Glovo" check, not from the sheet.
+    The onboarding silently dropped 39 rows (`reference/glovo/portal.md` → 2026-11-12).
+  - **After sending, review what Glovo did** (user 2026-11-12). Glovo's team accepts or
+    rejects the cases by hand, within hours. Re-run this until no case is "In progress":
+    `uv run --no-sync --with openpyxl python scripts/glovo-add-products.py <every sheet sent> --review`
+    It lists:
+    - rows not live (with the case status);
+    - a twin under a zero-stripped SKU that isn't ours;
+    - a price or category set that isn't ours;
+    - a changed hy title;
+    - an en title where a number or species is wrong.
+    Then:
+    1. `--review --apply` restores our price and categories. This is pre-approved, like the add.
+    2. A rejected row with no twin lands in `glovo-retry-<date>.xlsx` next to its sheet. Find
+       out why first (a Glovo-made copy under another SKU or name, the photo, the title), fix
+       it, then send that sheet.
+    3. A "FAILURE" on a product that is live is a copy Glovo's staff made by hand. Fix its price
+       and categories; don't resend it.
+    4. Titles go through the guards: brand first (`glovo-titles.py` two-step rename, with
+       `original`). Removing wrong words and reordering pass. Adding a variety, flavour, size or
+       line word ('mini', 'bone') never does: that goes on a list for Glovo support.
+    5. A wrong product Glovo's staff created (not one of our SKUs): `glovo-portal.py set-active
+       <sku> --off --apply`, then `glovo-portal.py delete <sku>` (dry run). Delete it with
+       `--apply` only on the user's yes, because a delete is permanent.
+    Finally, add the new SKUs and prices to `final/glovo/siruk-glovo-products.xlsx`, so
+    `prices` knows them.
 - Titles / descriptions show read-only in the portal drawer. `ProductUpdate`
   takes `titles` / `descriptions`, but it is untested.
 - Orders (bot-protected), promotions, opening times, store pause.

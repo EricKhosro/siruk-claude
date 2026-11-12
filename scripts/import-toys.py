@@ -54,7 +54,7 @@ def image_for(article, imgmap):
     url = out.splitlines()[0].strip() if out else ""
     imgmap[article] = url
     save(IMGMAP, imgmap)
-    time.sleep(0.8)                     # trixie.de throttles bursts
+    time.sleep(1.5)                     # trixie.de throttles bursts
     return url
 
 

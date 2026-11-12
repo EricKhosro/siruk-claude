@@ -166,8 +166,8 @@ def plan_for(d, inv):
     mv = VET.search(t)
     if mv and cur & {3, 4} and 5 not in cur:
         add.add(5); reasons.append(f"veterinary diet -> also 5 Health Condition: '{mv.group(0)}'")
-    if mv and cur & {10, 11}:
-        gaps.append("cat veterinary diet, but Cat has no Health Condition leaf")
+    if mv and cur & {10, 11} and 110 not in cur:   # Cat > Food > Health Condition, 2026-11-12
+        add.add(110); reasons.append(f"veterinary diet -> also 110 Health Condition (cat): '{mv.group(0)}'")
 
     add -= cur
     return add, reasons, gaps

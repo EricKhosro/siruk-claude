@@ -5,6 +5,8 @@ description: Product-type spec for TOYS — which categories, product type and v
 
 # Toys — product-type spec
 
+**Non-food default (user 2026-11-12):** every Accessories / Toys / Grooming / Supplements / Treats variant gets a lifestage — Puppy/Kitten/Senior when the item is made for that age ("Junior", "Puppy"; "puppies and dogs up to 10 kg" is not), otherwise **All Lifestages**. Dog items also get a breed size: from the variant's size code (XS → Extra Small, S → Small, M → Medium, L → Large, XL/XXL → Giant; a range takes its smaller end) on accessories/toys/grooming, otherwise All Breeds (a dose by dog weight: leave it). Cat-only items get no breed size. A missing value hides the product from the filter; never leave these empty because the text is silent. `reference/data-tables.md` §1a.
+
 Replicates Chewy's toy filters (user decision 2026-09-10): **Breed Size,
 Color Family, Toy Feature, Material**, plus a hidden **Toy Size** as the
 variant axis. Skipped on purpose: Collection, Made In. One value per attribute
@@ -37,6 +39,7 @@ the parent 15/16) — so every variant of one toy carries the same `toy-type`:
 | Ball / Fetch & Retrieve | 20 Fetch & Retrieve | 24 Balls |
 | Chew & Dental | 21 Chew & Dental | flag |
 | Activity & Intelligence | 22 Activity & Intelligence | 26 Activity & Intelligence |
+| Teasers & Wands (wand / playing rod) | — | 111 Teasers & Wands (2026-11-12) |
 | Catnip | — | 25 Catnip |
 | Mouse & Animal | — | 23 Mice & Animals |
 
@@ -47,12 +50,12 @@ though Chewy shows it as a category, not a filter.
 
 | Attribute | id | Values | How to fill |
 |---|---|---|---|
-| `breed-size` | 4 | Chewy's 6 | only when the page states a size/breed claim ("for small dogs", "XS"); a length range with no claim → empty |
+| `breed-size` | 4 | Chewy's 6 | when the page states a size/breed claim ("for small dogs", "XS") → specific value; otherwise the universal value (All Lifestages / All Breeds; dog items only for breed size) — data-tables §1a |
 | `color-family` | 15 | Chewy's 24 (Multi … Navy, Color Varies, Glow In The Dark) | from the page text or the packshot you looked at; 2+ colours → **Multi**; Trixie "assorted colours" (random shipment) → **Color Varies**. A colour that differs per article code is a variant axis |
 | `toy-feature` | 13 | Chewy's 30 (Squeaky, Tough Chewer, Exercise, Training, Dental, Teething, Outdoor, Water Toy, Crinkle, Bouncy, Stuffing-Free, Variety Pack, Durable, Electronic, Glowing & Light-Up, Puzzle Toy, Battery Operated, Replacement, Herding, Catnip, Floats, Nylon, TPR, Natural, Spring, Waterproof, Animal & Figure, App-Controlled, Scented, Scratcher) + our 5 extras (Massages Gums, Mint Flavour, Shock Absorber, With Bell, With Rope) | the feature the page leads with, with a quote. Trixie wording → Chewy value: "squeaker" → Squeaky; "floats" → Floats; "glow" → Glowing & Light-Up; "for teeth cleaning / dental care" → Dental; "with catnip" → Catnip; "robust / strong chewers" → Tough Chewer; "intelligence / strategy game" → Puzzle Toy; "water" → Water Toy |
 | `material` | 12 | Chewy's 46 + our 3 extras (Plush, Cotton/Polyester, Paper Cord) | the material the page prints (Trixie prints one on almost every toy). **You may create a value** for a material not in the menu — see below |
 | `toy-size` | 16 (option, not filterable on this type) | "<n> cm", 42 values | from the label/page dimension ("22 cm", "ø 6 cm"). Create a missing size with `/manage-attributes` in the same "<n> cm" form. **Not shown in the storefront sidebar** (`is_filterable` off on the Toys type) — it is the size selector, never net content (CLAUDE.md 8a) |
-| `lifestage` | 3 | Nursing, Puppy, Kitten, Adult, Senior, All Lifestages | only on an explicit claim ("puppy toy", "for kittens") |
+| `lifestage` | 3 | Nursing, Puppy, Kitten, Adult, Senior, All Lifestages | on an explicit claim ("puppy toy", "for kittens") → specific value; otherwise the universal value (All Lifestages / All Breeds; dog items only for breed size) — data-tables §1a |
 
 Every non-empty pick needs a quote from the page. Empty beats a guess.
 

@@ -120,7 +120,7 @@ def lookup(article, brand="", name="", ean=None, outdir=None, limit=10, queries=
             kind, key = classify(h, keys)
             h.update(evidence=kind, key=key, query=q)
             hits.append(h)
-        time.sleep(1.2)
+        time.sleep(1.5)
     hits.sort(key=lambda h: {"keyed-file": 0, "keyed-page": 1, "name-only": 2}[h["evidence"]])
 
     outdir = outdir or os.path.join(ROOT, ".siruk-cache/imgsearch", str(article))

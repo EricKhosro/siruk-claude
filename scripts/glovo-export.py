@@ -436,7 +436,7 @@ def main():
                             jpeg = square_jpeg(fetch(img))
                             icache[k] = imgbb_upload(jpeg, f'siruk-m{k}')
                             jsave(IMGBB_CACHE, icache)
-                            time.sleep(1)
+                            time.sleep(1.5)
                         except RateLimited as e:
                             limited = True
                             print(f'ImgBB rate limit — uploads stopped, re-run later: {e}', file=sys.stderr)

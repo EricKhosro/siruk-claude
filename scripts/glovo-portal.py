@@ -37,7 +37,7 @@ CACHE = os.path.join(ROOT, '.siruk-cache', 'glovo')
 DUMP = os.path.join(CACHE, 'portal-products.json')
 SHEET = os.path.join(ROOT, 'final', 'glovo', 'siruk-glovo-products.xlsx')
 API = 'https://catalog-vss-api-eu.deliveryhero.io/graphql'
-PACE = 0.35            # seconds between writes
+PACE = 1.5            # seconds between writes
 MAX_JUMP = 0.40        # refuse a price change larger than this share without --force
 
 Q_PRODUCTS = '''query GetProducts($filter: ProductFilter!, $page: PageInput!) {
@@ -80,7 +80,9 @@ def vendor():
     return {'platformVendorId': TOKEN['platform_vendor_id'], 'globalEntityId': TOKEN['global_entity_id']}
 
 
-def gql(query, variables):
+def gql(query, variables, tries=3):
+    """tries=1 for a mutation that must never run twice (createProductsRequest): a retry after a 5xx could
+    file it again. (Glovo files three identical review cases per call anyway — seen with one attempt, 2026-11-12.)"""
     body = json.dumps({'query': query, 'variables': variables}).encode()
     req = urllib.request.Request(API, body, {
         'Authorization': 'Bearer ' + TOKEN['access_token'],
@@ -88,7 +90,7 @@ def gql(query, variables):
         'x-client-source': 'one-web',
         'Origin': 'https://portal.glovoapp.com',
         'User-Agent': 'siruk-glovo-client'})
-    for attempt in range(3):
+    for attempt in range(tries):
         try:
             with urllib.request.urlopen(req, timeout=60) as f:
                 d = json.load(f)
@@ -98,7 +100,7 @@ def gql(query, variables):
         except urllib.error.HTTPError as e:
             if e.code == 401:
                 sys.exit('401 from Glovo — token expired or revoked; re-capture it (skill glovo-portal → Token)')
-            if e.code >= 500 and attempt < 2:
+            if e.code >= 500 and attempt < tries - 1:
                 time.sleep(2 * (attempt + 1)); continue
             raise RuntimeError(f'HTTP {e.code}: {e.read()[:400]!r}')
 
@@ -330,6 +332,33 @@ def cmd_set_active(a):
         print('→', runlog('glovo-availability.csv', ['time', 'sku', 'name', 'active', 'note'], rows))
 
 
+M_DELETE = '''mutation($r: DeleteProductRequest!){ deleteProduct(deleteProductRequest:$r){ status reason } }'''
+
+
+def cmd_delete(a):
+    """Delete one product from our Glovo store for good (2026-11-12: Glovo staff's wrong merge 12007).
+    Permanent: the user confirms each one. A product that is only sold out is switched off, not deleted.
+    Refuses a SKU that is one of ours in Siruk, and an active product."""
+    hit = [i for i in all_products(a.sku) if i['sku'] == a.sku]
+    if not hit:
+        sys.exit(f'{a.sku}: not on Glovo')
+    i = hit[0]
+    print(f'{a.sku}  internal id {i["internalId"]}  price {i["price"]:.0f}  active {i["active"]}  {i["categoryNames"]}\n  {i["name"]}')
+    if a.sku in siruk_names():
+        sys.exit('refused: this SKU is one of our Siruk variants — switch it off instead (set-active --off)')
+    if i['active']:
+        sys.exit('refused: switch it off first (set-active --off), then delete')
+    if not a.apply:
+        sys.exit('DRY RUN — a delete cannot be undone; on the user\'s yes add --apply')
+    r = gql(M_DELETE, {'r': {'productInternalId': int(i['internalId']), 'vendorIdentifier': vendor()}}, tries=1)['deleteProduct']
+    print('→', r)
+    print(runlog('glovo-deleted.csv', ['time', 'sku', 'internal id', 'name', 'price', 'note', 'status', 'reason'],
+                 [(datetime.datetime.now().isoformat(timespec='seconds'), a.sku, i['internalId'], i['name'], i['price'],
+                   a.note or '', r['status'], r['reason'])]))
+    left = [x for x in all_products(a.sku) if x['sku'] == a.sku]
+    print('still listed!' if left else 'gone from the store')
+
+
 MAX_OFF_SHARE = 0.25   # refuse to switch off more than this share of the store without --force
 
 
@@ -466,6 +495,8 @@ def main():
     p = sub.add_parser('set-active'); p.add_argument('skus', nargs='+')
     g = p.add_mutually_exclusive_group(required=True); g.add_argument('--on', action='store_true'); g.add_argument('--off', action='store_true')
     p.add_argument('--note'); p.add_argument('--apply', action='store_true'); p.set_defaults(f=cmd_set_active)
+    p = sub.add_parser('delete', help='delete one product from the Glovo store (permanent; user confirms)')
+    p.add_argument('sku'); p.add_argument('--note'); p.add_argument('--apply', action='store_true'); p.set_defaults(f=cmd_delete)
     p = sub.add_parser('stock', help='availability from an ArmSoft turnover export (sealed bags vs open)')
     p.add_argument('turnover'); p.add_argument('goods')
     p.add_argument('--on', action='store_true', help='also switch back on what is in stock again')

@@ -70,7 +70,7 @@ def main():
     urls = [u for u in sitemap_urls() if "/product" in u or "/prodotto" in u or "/producto" in u]
     todo = [u for u in urls if u not in have][:limit]
     print(f"{len(urls)} product urls, {len(todo)} to fetch", file=sys.stderr)
-    with concurrent.futures.ThreadPoolExecutor(8) as ex:
+    with concurrent.futures.ThreadPoolExecutor(2) as ex:
         for i, (u, d) in enumerate(ex.map(parse, todo), 1):
             if d:
                 have[u] = d

@@ -46,7 +46,7 @@ def head_ok(u):
 def probe(art):
     urls = [f"https://cdn.trixie.de/assets/img/1600mx1200m/{p}_{art}-{i}_%23SALL_%23AWK_%23V1.jpg"
             for p in ("PHO_PRO_CLIP", "PHO_PAC_CLIP") for i in range(1, 9)]
-    with concurrent.futures.ThreadPoolExecutor(8) as ex:
+    with concurrent.futures.ThreadPoolExecutor(2) as ex:
         ok = list(ex.map(head_ok, urls))
     return [u for u, o in zip(urls, ok) if o]
 
@@ -57,7 +57,7 @@ def resolve(art, page_gallery, cache):
     urls = [u for u in page_gallery if keyed(u.rsplit("/", 1)[-1], art)]
     if not any(rank(u) == 1 for u in urls):
         urls += [u for u in probe(art) if u not in urls]
-        time.sleep(0.5)
+        time.sleep(1.5)
     urls = sorted(dict.fromkeys(urls), key=lambda u: (rank(u), u))
     cache[art] = urls
     return urls

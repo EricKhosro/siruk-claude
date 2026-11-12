@@ -56,6 +56,63 @@ def meta(lang, brand, name):
     return {"title": fit_title(lang, brand, name), "description": desc}
 
 
+# Category meta (SEO specialist, 2026-11-10): "Buy {Category} Online" /
+# "Buy {category} online at Siruk. Choose from trusted brands and get delivery in Yerevan."
+# {Category} is the phrase in reference/category-seo-phrases.json. Longest first; the first that fits wins.
+CATEGORY_TITLES = {
+    "en": ("Buy {P} Online", "Buy {P}", "{P}"),
+    "ru": ("Купить {p} онлайн", "Купить {p}", "{P}"),
+    "hy": ("Գնել {p} առցանց", "Գնել {p}", "{P}"),
+}
+CATEGORY_DESCRIPTIONS = {
+    "en": ("Buy {p} online at Siruk. Choose from trusted brands and get delivery in Yerevan.",
+           "Buy {p} online at Siruk with delivery in Yerevan."),
+    "ru": ("Купите {p} онлайн в Siruk. Выбирайте проверенные бренды и получайте доставку по Еревану.",
+           "Купите {p} онлайн в Siruk с доставкой по Еревану."),
+    "hy": ("Գնեք {p} առցանց Siruk-ում։ Ընտրեք վստահելի բրենդներ և ստացեք առաքում Երևանում։",
+           "Գնեք {p} առցանց Siruk-ում՝ առաքմամբ Երևանում։"),
+}
+
+
+def category_meta(lang, phrase):
+    """{title, description} for one category and locale, within TITLE_MAX / DESC_MAX.
+    phrase: en in Title Case (lower-cased inside the description), ru/hy already lower case."""
+    low = phrase.lower() if lang == "en" else phrase
+    cap = phrase[:1].upper() + phrase[1:]
+    fill = lambda t: t.format(P=phrase if lang == "en" else cap, p=low)
+    title = next((t for t in map(fill, CATEGORY_TITLES[lang]) if len(t) <= TITLE_MAX), None)
+    desc = next((d for d in map(fill, CATEGORY_DESCRIPTIONS[lang]) if len(d) <= DESC_MAX), None)
+    if title is None or desc is None:
+        raise ValueError(f"category phrase too long for the SEO limits [{lang}]: {phrase!r}")
+    return {"title": title, "description": desc}
+
+
+# Brand meta (SEO specialist, 2026-11-10): "{Brand} – Buy Online in Yerevan" /
+# "Buy {Brand} online at Siruk. Browse the full range, delivered in Yerevan." Longest first.
+BRAND_TITLES = {
+    "en": ("{B} – Buy Online in Yerevan", "{B} – Buy Online", "{B}"),
+    "ru": ("{B} – купить онлайн в Ереване", "{B} – купить онлайн", "{B}"),
+    "hy": ("{B} – գնել առցանց Երևանում", "{B} – գնել առցանց", "{B}"),
+}
+BRAND_DESCRIPTIONS = {
+    "en": ("Buy {B} online at Siruk. Browse the full range, delivered in Yerevan.",
+           "Buy {B} online at Siruk, delivered in Yerevan."),
+    "ru": ("Купите {B} онлайн в Siruk. Весь ассортимент с доставкой по Еревану.",
+           "Купите {B} онлайн в Siruk с доставкой по Еревану."),
+    "hy": ("Գնեք {B} առցանց Siruk-ում։ Ամբողջ տեսականին՝ առաքմամբ Երևանում։",
+           "Գնեք {B} առցանց Siruk-ում՝ առաքմամբ Երևանում։"),
+}
+
+
+def brand_meta(lang, brand):
+    """{title, description} for one brand page and locale, within TITLE_MAX / DESC_MAX."""
+    title = next((t.format(B=brand) for t in BRAND_TITLES[lang] if len(t.format(B=brand)) <= TITLE_MAX), None)
+    desc = next((d.format(B=brand) for d in BRAND_DESCRIPTIONS[lang] if len(d.format(B=brand)) <= DESC_MAX), None)
+    if title is None or desc is None:
+        raise ValueError(f"brand name too long for the SEO limits [{lang}]: {brand!r}")
+    return {"title": title, "description": desc}
+
+
 def alt(brand, name):
     return f"{brand} {name}".strip()[:ALT_MAX]
 

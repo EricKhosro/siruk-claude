@@ -5,6 +5,8 @@ description: Product-type spec for HEALTH & PHARMACY (vitamins, supplements, dew
 
 # Health & Pharmacy — product-type spec
 
+**Non-food default (user 2026-11-12):** every Accessories / Toys / Grooming / Supplements / Treats variant gets a lifestage — Puppy/Kitten/Senior when the item is made for that age ("Junior", "Puppy"; "puppies and dogs up to 10 kg" is not), otherwise **All Lifestages**. Dog items also get a breed size: from the variant's size code (XS → Extra Small, S → Small, M → Medium, L → Large, XL/XXL → Giant; a range takes its smaller end) on accessories/toys/grooming, otherwise All Breeds (a dose by dog weight: leave it). Cat-only items get no breed size. A missing value hides the product from the filter; never leave these empty because the text is silent. `reference/data-tables.md` §1a.
+
 Chewy health & pharmacy filters (user decision 2026-09-10): **Food Form,
 Product Form, Active Ingredient, Special Diet, Flavor, Health Feature,
 Lifestage, Breed Size, Material**.
@@ -52,7 +54,7 @@ Skipped on purpose from Chewy: Made In, Deals & Savings.
 | `food-form` | Treats, Dry Food, Wet Food, Sticks, Freeze-Dried, Frozen, Food Topping, Air-Dried, Dehydrated, Liquid, Dried Fruits, Shelf Stable… (+ our Paste, Powder, Tablets) | only for edible supplements that are food-like (a topper, a snack-form supplement); otherwise empty |
 | `special-diet` | Chewy's 42 (incl. Medicated, Low Sugar, Sugar Free) | claim on the pack |
 | `flavor` | Chewy's 61 | only if a flavour is named ("chicken flavour tablets") |
-| `lifestage` | Nursing, Puppy, Kitten, Adult, Senior, All Lifestages | explicit claim ("for puppies", "senior") |
+| `lifestage` | Nursing, Puppy, Kitten, Adult, Senior, All Lifestages | explicit claim ("for puppies", "senior") → specific value; otherwise the universal value (All Lifestages / All Breeds; dog items only for breed size) — data-tables §1a |
 | `breed-size` | Chewy's 6 | weight-banded dewormers / spot-ons ("for dogs 10–25 kg" → the matching band via table 3 of data-tables.md; flag if unsure) |
 | `material` | Chewy's 46 | only for non-consumables (pill dispenser, dental brush, collar) |
 | `packaging` | Bottle, Tube, Box, Tub, Shaker, Pouch… | from the format |

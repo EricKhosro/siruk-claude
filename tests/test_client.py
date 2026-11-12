@@ -39,8 +39,18 @@ def make(seq, seen, **retry):
 def test_config_env_overrides_file_and_no_pace():
     c = config.load(env={"SIRUK_CONFIG": "nonexistent.json", "SIRUK_DELAY": "1.5", "SIRUK_RETRIES": "2"})
     assert c["request"]["delay_seconds"] == 1.5 and c["retry"]["attempts"] == 2
-    c = config.load(env={"SIRUK_CONFIG": "nonexistent.json", "SIRUK_NO_PACE": "1"})
-    assert c["request"]["delay_seconds"] == 0 and c["media"]["chunk_size"] == 0 and c["product"]["pause_seconds"] == 0
+    # SIRUK_NO_PACE drops chunk pauses only; the hard floor (user 2026-11-12) always holds
+    c = config.load(env={"SIRUK_CONFIG": "nonexistent.json", "SIRUK_NO_PACE": "1", "SIRUK_DELAY": "0", "SIRUK_MEDIA_DELAY": "0"})
+    assert c["request"]["delay_seconds"] == 1.0 and c["media"]["delay_seconds"] == 2.5
+    assert c["media"]["chunk_size"] == 0 and c["product"]["pause_seconds"] == 0
+
+
+def test_floor_cannot_be_lowered_in_the_file(tmp_path):
+    p = tmp_path / "c.json"
+    p.write_text(json.dumps({"request": {"delay_seconds": 0, "min_delay_seconds": 0},
+                             "media": {"delay_seconds": 0, "min_delay_seconds": 0}}))
+    c = config.load(env={"SIRUK_CONFIG": str(p)})
+    assert c["request"]["delay_seconds"] == 1.0 and c["media"]["delay_seconds"] == 2.5
 
 
 def test_headers_and_retry_then_ok():

@@ -42,6 +42,8 @@ is open; the schema is cached in `.siruk-cache/glovo/catalog-schema.json`.
   (the on/off toggle), or `{sku, vendorIdentifier, productInternalId, categoryInternalIds}`.
   `ProductUpdate` also takes `barcode`, `titles`/`descriptions` (`[{locale, value}]`), `images`,
   `maximumSalesQuantity`.
+- **Images** (2026-11-10, 11235S): `images: [<public url>]` + `original` + `productInternalId`
+  replaces the photo; Glovo fetches the URL and re-hosts it. `scripts/glovo-set-image.py`.
 - **Rename a SKU**: `productUpdateSKU(vendorIdentifier, oldSku, newSku) { status }` → `UPDATE_SUCCESS`.
 - **Categories**: `categories(filter: {vendorIdentifier, locale, leavesOnly}, page)` → `internalId name parentId`
   (our store's tree is Armenian: Շուն 7066, Կատու 7067, Թութակներ 7075, Կրծողներ 7093, Ձուկ 7084 …).
@@ -74,6 +76,147 @@ new products:
   withdraw mutation. Watch for duplicates when they are approved. Per-product status is
   `productsRequestDetails(vendorIdentifier, jiraIssueKey){ products{ sku status } }`, which
   is `null` while the case waits for review.
+- **Checked 2026-11-10 08:50Z:** all three cases still `Received`, `rejectedProductsAmount`
+  null, every product `status: null`; `find YOKO` → 0 live. Working query shape:
+  `productsRequests(filter:{vendorIdentifier}, page:{pageNumber:0, pageSize:50}){ items{
+  creationDate jiraIssueKey productsAmount rejectedProductsAmount status } }` (filter type
+  `ProductsRequestFilter!`, result `PagedProductsRequests`).
+- **Use `createSimpleProductBatch`, not `createProductsRequest`** (2026-11-12, evening).
+  - **Why:** Glovo support said they saw **no** products waiting for review, and the
+    portal's **Actions Overview → Added Products** was empty. Yet `createProductsRequest`
+    had answered `ok` for YOKO and our first 52, and `productsRequests` lists those cases as
+    `Received`. They are invisible to the team that approves.
+  - **What the portal does:** its own Add Product page (`AddProductsV4` bundle) sends
+    `createSimpleProductBatch(productsRequest:{simpleProducts:[…]})`. Per product:
+    - `name` / `description`: `[{locale:"hy"|"en", name}]`. Armenia requires **both** the
+      hy and the en title (country config: `pimLocale` hy/en, `catalogLocale` hy_AM/en_AM).
+    - `barcode` padded to 14 digits.
+    - `imagesEncoded`: data URLs.
+    - `sku`, `price`, `activeness`, `isSoldByWeight: false`, `weighableSoldByPiece: false`.
+    - `categories: [{id, locale, name}]`.
+    - `vendorsIdentifier: [{globalEntityId, platformVendorId}]`.
+  - **Answer:** `SimpleProductBatchSuccess { message caseId }`. One call opened one case
+    (`500bO000018fRDeQAM`, test 48030), and the product appeared in Added Products as
+    "In progress" within seconds.
+  - **In the script:** `glovo-add-products.py` uses this by default. Column M holds the
+    English title. `--legacy` keeps the old call; don't use it.
+- **2026-11-12 (51 shop goods not on Glovo, `final/glovo/new-2026-11-12/`):**
+  - **Three cases per call is Glovo's doing.** Two calls, each made with `tries=1` (no retry),
+    each filed three identical cases (`500bO000018eWc6…`, `…e8wJ…`, `…e8zW…`; `…ec7x…`, `…eu1Z…`,
+    `…es31…`). The YOKO triple was the same. Expect duplicates if all three get approved.
+  - **`VENDOR_RATE_LIMITED`** ("Retry after 1 seconds", but it isn't): a 51-row (2.4 MB)
+    call was refused outright. After two accepted calls within ~4 min, a third was still
+    refused 2 and 6 min later. Nothing is filed on a refusal. Send ≤ 11–12 rows per call
+    (`--batch N/11`) and leave a long gap between calls; the window is not known yet.
+  - **Duplicates are checked by barcode against Glovo's master catalogue (PIM)** before
+    anything is filed. One hit refuses the whole call (`CreateProductsRequestErrorDuplicatesFound`
+    → `DuplicateMasterProduct { barcode name status: ALREADY_EXISTS_IN_PIM image }`).
+    - Our zero-padded scale PLUs (`00000008`…) belong to other shops' goods there (a rose,
+      bananas, toilet paper), so `glovo-add-products.py` now sends no barcode starting with
+      `0000`.
+    - A real EAN already in PIM (18 of our 40: Trixie toys, flexi, Kotoffey, Monge 800 g…)
+      can't be requested as new. Look them up with `masterProducts(filter:{vendorIdentifier,
+      locale, barcode})` → `code`. `assignOrUpdateProduct(vendorIdentifier, request:
+      AssignOrUpdateProductInput{chainId code sku price activeness titles descriptions images
+      vendorAssignments …})` probably links such a master product to our store. **Untested.**
+      Some PIM entries are mislabelled: 6921959207750 (Derevenskie pillows, beef) is
+      "Cat Fest … Creme Cat".
+  - **Don't link** (user 2026-11-12): never attach a Glovo master (PIM) product to our store,
+    neither by the portal's "Use this product" nor by `assignOrUpdateProduct`. Its title and
+    photo are locked to the master entry. The one test (3242) is below.
+  - **Goods already in PIM are sent as new products without the barcode** (user 2026-11-12:
+    "I want all of them added… do whatever is necessary"), with our own title, photo and
+    price, through `glovo-add-products.py` with column B left empty. Glovo's review may
+    still match them to the master entry. Adding missing goods to Glovo is pre-approved: no
+    confirmation per batch.
+  - **Linking a PIM product works through the portal form, tested on 3242, 2026-11-12:**
+    1. Store Management → Add Products (`/store-management/add-products`) → **With Barcode**.
+    2. Type the EAN. The form says "already exists in our database" → **Use this product**.
+    3. The titles (hy + en), description, photo and brand are **locked** to the master
+       entry. We set price, SKU, categories (up to 5) and Availability → **Add Product**.
+    4. It goes **live at once**: no review case, active, `pieceBarcodes` = the EAN.
+
+    The API behind it is `assignOrUpdateProduct`. Our `chainId` =
+    `3455dc93-9732-4e1f-aedc-0602b0a750b9` (from `BOVendors(filter:{platformVendorIds:["982410"]},
+    pagination:{mode:OFFSET_BASED, offsetPagination:{offset:0, limit:5}})`; `chains` answers
+    `not_enough_permission`). The exact payload was not captured: the network buffer had
+    dropped it.
+  - **Rename guard `VARIETY`:** `ProductUpdate` refuses a title that changes too many words at
+    once. Swapping one phrase (`լակոտների` → `շան ձագերի`, MG006107-KG) went through.
+- **What Glovo's review does with our cases** (2026-11-12, first 64 reviewed within hours).
+  Check it with `glovo-add-products.py <every sheet sent> --review`.
+  - **Result per product:** `listProductJobs(filter:{vendorIdentifier, locale, includeItems,
+    itemPageSize}, page)` → `jobs { caseId status createdAt items { sku status title } }`.
+    Item status is `SUCCESS` or `FAILURE`. `ProductJobItem` has **no reason field**.
+    62 SUCCESS, 4 FAILURE (12767 and 4097, each in two cases).
+  - **Why those two "failed":** Glovo's staff had already created both by hand, from our old
+    onboarding rows, just before our cases were reviewed. So the SKU existed and our case was
+    refused as a duplicate.
+    - Their copies used the old title pattern («Trixie», English "belt:/lead:").
+    - They also had an old price: 12767 at 10300 → ours, 4097 at 1800 → ours.
+    - **Don't resend such a row.** Fix its price and categories instead.
+  - **Wrong merges happen.** In the same sweep they created `12007` from two onboarding rows:
+    the Monge hare name, the Kaskad collar's hy text, price 1000. We switched it off and ask
+    Glovo to delete it. Our real Kaskad collar is `00012007`.
+  - **What reviewers change in accepted products:**
+    - **Kept as sent:** our hy titles and prices.
+    - **Restyled:** nearly every en title ("Yoko Dried Bull Pizzle S 40g").
+    - **Mistakes they made in en titles:**
+      - 23410 "7pcs" for a single pad;
+      - 31662-100G and 31663-100G both "Trixie Cookies 100g";
+      - MG006117-KG "Best for Breeders";
+      - MG006067-KG with "Mini" lost.
+    - **Categories:** multi-category products were cut to one.
+    - `--review` flags an en title only when a number was added or changed, or another species
+      is named.
+  - **Fixing afterwards:**
+    - **Price and categories:** two separate updates, `{'price': …}` and
+      `{'categoryInternalIds': […]}` (`--review --apply`). A combined price + categories +
+      titles update answers `unexpected_error`.
+    - **Titles:** a title update needs `original` and still meets the guards. `QUANTITY` (a
+      changed count, 23410), `HIJACKING` (31662-100G/31663-100G; 12767's hy) and `VARIETY`
+      (the MG pair; 4097's hy) refused most title fixes.
+      - The brand-first step (`glovo-titles.step1`) went through for 12767 and 4097. The
+        rest of those titles is for Glovo support.
+    - En fixes that went through: MG006077-KG, 006487-KG, YOKO-1635.
+    - **What the guards allow** (their full messages, 2026-11-12, later):
+      - **Allowed:**
+        - Removing wrong words: 23410 "… 30x50cm 7pcs" → "… 30x50cm"; MG006117-KG lost
+          "Best for Breeders".
+        - Reordering the same words: 4097 hy.
+        - Removing stray English words: 12767 hy lost "belt:/lead:".
+      - **Refused:** adding any token Glovo classes as variety, flavour, size, breed or
+        product line, e.g. 'bone', 'bones', 'farmies' (31662-100G/31663-100G), 'mini',
+        'small breed' (MG006067-KG).
+      - So **an en title can be cleaned through the API but not made more specific**.
+        Adding a variety word is for Glovo support.
+      - **Re-adding doesn't help** (tried 2026-11-12, case `500bO000018fEDFQA2`). We renamed
+        the live SKU to `-OLD`, sent the product again with a Glovo-style en title, and
+        deleted the old copy once the new one was live. The review took 10 minutes, so it is
+        probably automatic. It accepted all three but stripped the en words again:
+        - "Trixie Cookie Bones Dog Treats 100g" → "Trixie Dog Treats 100g"
+        - "Trixie Cookie Farmies Dog Treats 100g" → "Trixie Farmies Dog Treats 100g"
+          (Farmies survived)
+        - "Monge Natural Superpremium Mini Adult …" → "Monge Dry Dog Food Lamb Adult 1kg"
+        Our hy titles, prices, categories and photos came through untouched. For a missing
+        en variety word, ask Glovo support; don't re-add.
+      - **Zoovet has no English titles:** its en title is its hy title, in all 221 checked
+        (2026-11-12), probably from its onboarding sheet. We tried copying that on 31662-100G.
+        - As an edit (en_AM = the hy text): refused, HIJACKING.
+        - Leaving en_AM out of the update: answers "ok" and changes nothing.
+        - As a re-add with the hy text in both slots (case `500bO000018fpr7QAA`): the review
+          wrote its own en, "Trixie Cookies 100g".
+        - It is no character limit: Zoovet's titles run to 115 chars, and ours were 22–60.
+      - **A re-used temporary SKU is refused.** `productUpdateSKU` to a name a deleted
+        product once had answers `NEW_SKU_EXISTS_IN_CHAIN`, so use a fresh one (`-OLD2`).
+        Check the rename's status before sending, or the add goes out against the live SKU and
+        fails as a duplicate.
+- **Deleting a product** (2026-11-12): `deleteProduct(deleteProductRequest:{productInternalId,
+  vendorIdentifier}) → { status reason }`; the internal id comes from `products`.
+  - It is permanent, so the user confirms each delete.
+  - `glovo-portal.py delete <sku> [--note …] [--apply]` is a dry run without `--apply`. It
+    refuses a SKU that is one of our Siruk variants, and an active product.
+  - For something sold out, switch it off instead. Log: `runs/<date>/glovo-deleted.csv`.
 - `categoryList` is the **vendor category** from `categories` (e.g. `26752 Ոսկորներ և
   ձողիկներ`, `7145 Անուշեղեն Շների Համար`), **not** the Pelican "Section 1/2" names
   (`Ոսկորներ, ջիլեր և բնական հյուրասիրություններ շների համար`, …). Those section names are
@@ -205,6 +348,23 @@ brand-first title with their old words. 54 are unchanged. Glovo's refusal codes:
 - `PROTECTED_DESCRIPTOR` (3) and `QUANTITY` (1).
 - `unexpected_error` (54): every call fails, even a pure reorder, with or without the
   description. Mostly Trixie bowls and harnesses and some Monge cans. Cause unknown.
+
+**Stale master title (2026-11-10).** In 8 loose items (011157-KG, 297257-KG,
+3182550793049-KG, 3182550893701-KG, 3182551055849-KG, MG 004817-KG, MG006107-KG, +1), the
+current title is not the master title. Any master-field update (a description, say) with
+`original.titles` = the current title is refused as a title change from the master. Sending
+`original.titles` = the master (onboarding sheet column C) is **accepted, but it puts the
+title back to the master**. Tested on MG006107-KG: the description was written, and the
+title reverted to `Չոր կեր լակոտների համար «Monge» Mini Puppy & Junior, Հավ, 1 կգ`. Putting
+the earlier title back was refused (VARIETY `հավ` → `հավով`). A second call then renamed it
+to a brand-first reorder of the master's own words, `Monge Mini Puppy & Junior չոր կեր
+լակոտների համար, Հավ, 1 կգ` (original = the master title + the new description). That was
+accepted and the description stayed. So it takes two calls per item, and the title ends up as
+a reorder of the onboarding words, not the fuller title it had. The same day, a third call
+(original = the reordered title + the note) put the earlier fuller title back on 5 of the 8,
+and the note stayed. Glovo refused it on 297257-KG (adding chicken and rice), 3182550893701-KG
+(`Maxi Joint Care` → `խոշոր ցեղատեսակի չափահաս`) and MG006107-KG (`հավ` → `հավով`).
+Log: `runs/2026-11-10/glovo-title-restore.csv`.
 
 Glovo's message quotes the "from" words of the **master** title, so it judges a change
 against the original listing, not the current title. The safe edit is a reorder that

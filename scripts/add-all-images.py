@@ -50,7 +50,7 @@ def gallery(article, cache):
     rc, out, _ = sh([os.path.join(ROOT, "scripts/trixie-image.sh"), article])
     urls = [u for u in out.splitlines() if u.startswith("http")]
     cache[article] = urls; json.dump(cache, open(URLS, "w"), indent=1)
-    time.sleep(0.8)
+    time.sleep(1.5)
     return urls
 
 

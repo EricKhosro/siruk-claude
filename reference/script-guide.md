@@ -149,6 +149,7 @@ Create in `en`, then write `ru` and `hy`. One locale per request.
 | Many products | `scripts/backfill-translations.py [--only id,…] [--dry-run]` | after a batch import; uses the phrase tables in `reference/translations.json` |
 | Categories | `scripts/create-category.py <spec.json>` | creating categories — only on an explicit user ask; `--dry-run` first |
 | Categories | `scripts/translate-categories.py [--dry-run]` | after adding a category (add it to the table inside the script first) |
+| Blog posts | `scripts/blog-translate.py status` → `export` → `check` → `apply --apply` | a new blog post; the `/translate-blog` skill |
 | Brands | `scripts/translate-brands.py [--dry-run]` | after `/create-brand` |
 | Attributes, values, families | `scripts/translate-attributes.py [--dry-run\|--verify-only]` | after adding attribute values: add their ru/hy pair to `reference/translations-attributes.json`, then run. Probes a throwaway attribute first and refuses if English would be overwritten |
 | Build the attribute table | `scripts/archive/_build-attr-translations.py`, then `archive/_build-attr-translations-2.py` (archived; move back into `scripts/` before running — their `ROOT` is one level up) | only when extending the vocabulary in bulk; they regenerate the JSON from their inline tables and list what is still untranslated |
@@ -248,6 +249,7 @@ Other brands: extract from the page with the browser (`reference/brand-sites.md`
 | Read the whole catalogue raw | `scripts/dump-products.py` (`--ids …` after a run, `--refresh` for all) | full admin GET per product → `.siruk-cache/live/products/`; resumable, paced (~2 h for ~950) — background it |
 | Fill barcode / ArmSoft code / price url | `scripts/backfill-variant-codes.py --run runs/<date>` then `--apply` | CLAUDE.md 10b. Plan from `final/siruk-source-of-truth.csv` + `Scale/scale-codes-per-kg.csv`, every barcode checked against its good in `csv/all-xml-scale.xml`; keeps a different live value unless `--overwrite`. Re-run after an ArmSoft import gives new goods their codes |
 | Audit what the rails are computed from | `scripts/audit-recommendation-data.py --run runs/<date> [--recs] [--ids …]` | read-only: no type / parent or wrong leaf / no size / universal+specific / kg-sku / multi-species; `--recs` also reads every product's live "Related items" and flags other-species and same-line floods |
+| Put products under every species the brand sells them for (beds, carriers, bowls, brushes…) | `scripts/species-categories.py [--apply] [--export <json>]` | Trixie: trixie.shop species tags (refresh `trixie-shop-index.py` first) + "for dogs and cats" text → mirror leaf (71↔107, 73↔108, 70↔109, 69↔79, grooming, pharmacy, small animal 104/105); never removes; `runs/<date>/species-plan.csv` + `species-gaps.csv` (2026-11-12) |
 | Merge review (rule 9) | `uv run --with openpyxl python scripts/find-merge-candidates.py --run runs/<date>` | read-only: groups products that look like one line (same brand / type / categories, same name before the first flavour/texture/colour word, no lifestage/diet/packaging/material disagreement, Trixie's catalogue not splitting them) → `merge-candidates.xlsx` with a Decision column for the user, + a "Kept apart" sheet. The decided groups then go through section 2b |
 | "Goes well with" category map | `scripts/set-complements.py` (dry run) then `--apply` | applies `reference/complement-categories.json` (paths → ids); the map is the PM's to edit — a new leaf gets a row there |
 
@@ -359,7 +361,7 @@ All of these except `plan-schesir.py` and `restore-toy-size.py` now live in
 | Variable | Effect |
 |---|---|
 | `SIRUK_LANG=ru` | read that locale (`Content-Language`) |
-| `SIRUK_NO_PACE=1` | skip pacing for one ad-hoc call |
+| `SIRUK_NO_PACE=1` | no chunk pauses for one ad-hoc call — the hard floor (1 s per request, 2.5 s per upload) still applies |
 | `SIRUK_TOKEN=…` / `SIRUK_TOKEN_FILE=…` | token override |
 | `SIRUK_API=…` | another environment (production needs its own service account) |
 | `SIRUK_CONFIG=…`, `SIRUK_DELAY`, `SIRUK_CHUNK_SIZE`, `SIRUK_MEDIA_DELAY`, `SIRUK_RETRIES`, `MAX_PX` | pacing / retry / image-size overrides for one run |

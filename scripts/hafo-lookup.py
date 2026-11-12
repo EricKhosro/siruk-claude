@@ -264,7 +264,7 @@ def main():
         print(f"[{i}/{len(rows)}] {r['Article Code']:<10} "
               f"{'OK  ' + (res['brand'] or '?') if res['hafo_id'] else 'MISS'}"
               f"  {res.get('title_hy') or ''}"[:110], file=sys.stderr)
-        time.sleep(0.8)
+        time.sleep(1.5)
     js = json.dumps(out, ensure_ascii=False, indent=2)
     if a.out:
         open(a.out, "w").write(js); print(f"\nwrote {a.out}", file=sys.stderr)

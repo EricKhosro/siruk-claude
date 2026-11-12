@@ -38,7 +38,7 @@ RANK = {"PHO_PRO_CLIP": 1, "PHO_PAC_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SE
         "PHO_PRO_USE_CLIP": 5, "PHO_PRO_USE": 5, "PHO_PRO_DOG_CLIP": 6, "PHO_PRO_CAT_CLIP": 6,
         "PHO_PRO_DOG": 6, "PHO_PRO_CAT": 6, "PHO_PRO": 3, "GRA_PRO": 7}
 LO, HI = 1, 14          # index range (overridable: --range 15-26)
-PARALLEL = 32
+PARALLEL = 2
 
 
 def rank(url):
@@ -73,7 +73,7 @@ def sweep(articles, chunk=40, lo=None, hi=None):
                 found.setdefault(m.group(1), []).append(url)
         done = min(i + chunk, len(articles))
         print(f"  {done}/{len(articles)} articles, {sum(len(v) for v in found.values())} images", file=sys.stderr)
-        time.sleep(1)
+        time.sleep(1.5)
     return {a: sorted(set(u), key=rank) for a, u in found.items()}
 
 
