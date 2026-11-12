@@ -171,8 +171,11 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
     3. A "FAILURE" on a product that is live is a copy Glovo's staff made by hand. Fix its price
        and categories; don't resend it.
     4. Titles go through the guards: brand first (`glovo-titles.py` two-step rename, with
-       `original`). Whatever the guards refuse goes on a list for Glovo support, together with
-       wrong products to delete.
+       `original`). Removing wrong words and reordering pass. Adding a variety, flavour, size or
+       line word ('mini', 'bone') never does: that goes on a list for Glovo support.
+    5. A wrong product Glovo's staff created (not one of our SKUs): `glovo-portal.py set-active
+       <sku> --off --apply`, then `glovo-portal.py delete <sku>` (dry run). Delete it with
+       `--apply` only on the user's yes, because a delete is permanent.
     Finally, add the new SKUs and prices to `final/glovo/siruk-glovo-products.xlsx`, so
     `prices` knows them.
 - Titles / descriptions show read-only in the portal drawer. `ProductUpdate`

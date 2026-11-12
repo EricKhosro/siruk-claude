@@ -179,6 +179,23 @@ new products:
       - The brand-first step (`glovo-titles.step1`) went through for 12767 and 4097. The
         rest of those titles is for Glovo support.
     - En fixes that went through: MG006077-KG, 006487-KG, YOKO-1635.
+    - **What the guards allow** (their full messages, 2026-11-12, later):
+      - **Allowed:**
+        - Removing wrong words: 23410 "… 30x50cm 7pcs" → "… 30x50cm"; MG006117-KG lost
+          "Best for Breeders".
+        - Reordering the same words: 4097 hy.
+        - Removing stray English words: 12767 hy lost "belt:/lead:".
+      - **Refused:** adding any token Glovo classes as variety, flavour, size, breed or
+        product line, e.g. 'bone', 'bones', 'farmies' (31662-100G/31663-100G), 'mini',
+        'small breed' (MG006067-KG).
+      - So **an en title can be cleaned through the API but not made more specific**.
+        Adding a variety word is for Glovo support.
+- **Deleting a product** (2026-11-12): `deleteProduct(deleteProductRequest:{productInternalId,
+  vendorIdentifier}) → { status reason }`; the internal id comes from `products`.
+  - It is permanent, so the user confirms each delete.
+  - `glovo-portal.py delete <sku> [--note …] [--apply]` is a dry run without `--apply`. It
+    refuses a SKU that is one of our Siruk variants, and an active product.
+  - For something sold out, switch it off instead. Log: `runs/<date>/glovo-deleted.csv`.
 - `categoryList` is the **vendor category** from `categories` (e.g. `26752 Ոսկորներ և
   ձողիկներ`, `7145 Անուշեղեն Շների Համար`), **not** the Pelican "Section 1/2" names
   (`Ոսկորներ, ջիլեր և բնական հյուրասիրություններ շների համար`, …). Those section names are
