@@ -200,6 +200,17 @@ new products:
         - "Monge Natural Superpremium Mini Adult …" → "Monge Dry Dog Food Lamb Adult 1kg"
         Our hy titles, prices, categories and photos came through untouched. For a missing
         en variety word, ask Glovo support; don't re-add.
+      - **Zoovet has no English titles:** its en title is its hy title, in all 221 checked
+        (2026-11-12), probably from its onboarding sheet. We tried copying that on 31662-100G.
+        - As an edit (en_AM = the hy text): refused, HIJACKING.
+        - Leaving en_AM out of the update: answers "ok" and changes nothing.
+        - As a re-add with the hy text in both slots (case `500bO000018fpr7QAA`): the review
+          wrote its own en, "Trixie Cookies 100g".
+        - It is no character limit: Zoovet's titles run to 115 chars, and ours were 22–60.
+      - **A re-used temporary SKU is refused.** `productUpdateSKU` to a name a deleted
+        product once had answers `NEW_SKU_EXISTS_IN_CHAIN`, so use a fresh one (`-OLD2`).
+        Check the rename's status before sending, or the add goes out against the live SKU and
+        fails as a duplicate.
 - **Deleting a product** (2026-11-12): `deleteProduct(deleteProductRequest:{productInternalId,
   vendorIdentifier}) → { status reason }`; the internal id comes from `products`.
   - It is permanent, so the user confirms each delete.
