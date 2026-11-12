@@ -190,6 +190,16 @@ new products:
         'small breed' (MG006067-KG).
       - So **an en title can be cleaned through the API but not made more specific**.
         Adding a variety word is for Glovo support.
+      - **Re-adding doesn't help** (tried 2026-11-12, case `500bO000018fEDFQA2`). We renamed
+        the live SKU to `-OLD`, sent the product again with a Glovo-style en title, and
+        deleted the old copy once the new one was live. The review took 10 minutes, so it is
+        probably automatic. It accepted all three but stripped the en words again:
+        - "Trixie Cookie Bones Dog Treats 100g" → "Trixie Dog Treats 100g"
+        - "Trixie Cookie Farmies Dog Treats 100g" → "Trixie Farmies Dog Treats 100g"
+          (Farmies survived)
+        - "Monge Natural Superpremium Mini Adult …" → "Monge Dry Dog Food Lamb Adult 1kg"
+        Our hy titles, prices, categories and photos came through untouched. For a missing
+        en variety word, ask Glovo support; don't re-add.
 - **Deleting a product** (2026-11-12): `deleteProduct(deleteProductRequest:{productInternalId,
   vendorIdentifier}) → { status reason }`; the internal id comes from `products`.
   - It is permanent, so the user confirms each delete.
