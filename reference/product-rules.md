@@ -77,7 +77,7 @@ see the table in the `treats` skill (dog: 7 Bones/Bully Sticks & Naturals,
 Vitamins & supplements → **43**
 (dog) / **52** (cat), the other Health & Pharmacy leaves by purpose (42–49 /
 51–58, see `reference/admin-api.md`) · Cat litter → the leaf under 59 by type
-(60 Clumping, 61 Scented, 62 Unscented, 63 Natural, 64 Lightweight, 65
+(60 Clumping, 61 Scented, 62 Unscented, 63 Natural, 65
 Crystal — silica gel = Crystal, plant-based clumping = Clumping unless the
 pack says "natural") · litter trays, scoops, mats → 67. Veterinary dog diets
 also → 5. Toys → the **leaf** under

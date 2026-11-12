@@ -432,7 +432,8 @@ Supplements, 53 Probiotics & Digestive Health, 54 Allergy & Itch Relief,
 Kidneys, 58 Test Kits]. The flat **12 Vitamins & Supplements was deleted**
 (empty) — supplements go in 43 / 52.
 **Cat Litter** 59 → [60 Clumping, 61 Scented, 62 Unscented, 63 Natural,
-64 Lightweight, 65 Crystal]; **Cat Supplies** 66 → [67 Litter Boxes &
+65 Crystal]; 64 Lightweight was deleted 2026-11-12 — its two silica litters
+were already filed in 65 Crystal, so both leaves listed the same products. **Cat Supplies** 66 → [67 Litter Boxes &
 Accessories, 79 Collars, Leashes & Harnesses, 107 Beds, 108 Carriers & Travel,
 109 Bowls & Feeders (2026-10-27: Trixie's cat-tree bowls; dual-species bowls
 also keep Dog 70)]; **Cat Trees, Condos &

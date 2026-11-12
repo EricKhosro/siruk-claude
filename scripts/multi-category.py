@@ -70,7 +70,7 @@ MIRROR = {
     74: 67, 67: 74,
     # No counterpart on the other side:
     46: 55,                # dog dewormers -> cat Pharmacy
-    57: None, 59: None, 60: None, 61: None, 62: None, 63: None, 64: None,
+    57: None, 59: None, 60: None, 61: None, 62: None, 63: None,
     65: None, 5: None, 70: None, 71: None, 72: None, 73: None, 76: None,
     77: None, 78: None, 81: None, 17: None, 18: None, 19: None, 20: None,
     21: None, 23: None, 24: None, 25: None, 93: None, 94: None,
