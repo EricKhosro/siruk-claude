@@ -5,6 +5,8 @@ description: Product-type spec for Accessories — categories, product type (and
 
 # Accessories — product-type spec
 
+**Non-food default (user 2026-11-12):** every Accessories / Toys / Grooming / Supplements / Treats variant gets a lifestage — Puppy/Kitten/Senior when the item is made for that age ("Junior", "Puppy"; "puppies and dogs up to 10 kg" is not), otherwise **All Lifestages**. Dog items also get a breed size: from the variant's size code (XS → Extra Small, S → Small, M → Medium, L → Large, XL/XXL → Giant; a range takes its smaller end) on accessories/toys/grooming, otherwise All Breeds (a dose by dog weight: leave it). Cat-only items get no breed size. A missing value hides the product from the filter; never leave these empty because the text is silent. `reference/data-tables.md` §1a.
+
 **Status: template pre-filled from the live admin (2026-09-10). The user will
 edit this to say which attributes and values Accessories should show (Chewy-style).
 Until it is edited, the live product type is the spec.**

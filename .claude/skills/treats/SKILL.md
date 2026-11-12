@@ -5,6 +5,8 @@ description: Product-type spec for TREATS (snacks, chews, dental sticks, trainin
 
 # Treats — product-type spec
 
+**Non-food default (user 2026-11-12):** every Accessories / Toys / Grooming / Supplements / Treats variant gets a lifestage — Puppy/Kitten/Senior when the item is made for that age ("Junior", "Puppy"; "puppies and dogs up to 10 kg" is not), otherwise **All Lifestages**. Dog items also get a breed size: from the variant's size code (XS → Extra Small, S → Small, M → Medium, L → Large, XL/XXL → Giant; a range takes its smaller end) on accessories/toys/grooming, otherwise All Breeds (a dose by dog weight: leave it). Cat-only items get no breed size. A missing value hides the product from the filter; never leave these empty because the text is silent. `reference/data-tables.md` §1a.
+
 Chewy treat filters (user decision 2026-09-10): **Flavor, Ingredient, Special
 Diet, Breed Size, Health Feature, Lifestage, Packaging Type**.
 
@@ -75,9 +77,9 @@ Skipped on purpose from Chewy: Made In, Deals & Savings.
 | `flavor` | Chewy's 61 (incl. treat flavours: Cranberry, Smoked, Blueberry, Strawberry, Ginger, Mint, Vanilla, Honey, Cinnamon, Carob, Hickory, Ostrich…) | the named flavour/protein in the product name |
 | `ingredient` | Chewy's 69 (incl. Bananas, Butternut Squash, Chia Seeds, Coconut Flour, Gelatin, Glycerin, Oat Flour, Oats, Pumpkin Puree…) | first ingredient of the composition |
 | `special-diet` | Chewy's 42 (Grain-Free, Rawhide-Free, Sugar Free, Odor-Free, Low Phosphorus, Low Sodium…) | front-of-pack claim |
-| `breed-size` | Chewy's 6 | only on a stated size ("for small dogs", "S/M/L" on dental sticks) |
+| `breed-size` | Chewy's 6 | on a stated size ("for small dogs", "S/M/L" on dental sticks) → specific value; otherwise the universal value (All Lifestages / All Breeds; dog items only for breed size) — data-tables §1a |
 | `health-feature` | Chewy's 52 | "dental" → Dental & Breath Care; "digestion" → Digestive Health; "calming" → Calming |
-| `lifestage` | Puppy, Kitten, Adult, Senior, All Lifestages | explicit claim only ("puppy treats") |
+| `lifestage` | Puppy, Kitten, Adult, Senior, All Lifestages | explicit claim  ("puppy treats") → specific value; otherwise the universal value (All Lifestages / All Breeds; dog items only for breed size) — data-tables §1a |
 | `packaging` | Bag, Pouch, Box, Tub, Tube, Can, Tray, Roll, Cup, Bottle, Shaker | from the format |
 
 ### Single-value consequence
