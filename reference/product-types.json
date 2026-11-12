@@ -80,7 +80,7 @@
     "inputType": "select",
     "role": "attribute",
     "isRequired": false,
-    "isFilterable": false,
+    "isFilterable": true,
     "showOnProductCard": false,
     "position": 6
    }
@@ -167,7 +167,7 @@
     "inputType": "select",
     "role": "attribute",
     "isRequired": false,
-    "isFilterable": false,
+    "isFilterable": true,
     "showOnProductCard": false,
     "position": 6
    },
@@ -265,7 +265,7 @@
     "inputType": "select",
     "role": "attribute",
     "isRequired": false,
-    "isFilterable": false,
+    "isFilterable": true,
     "showOnProductCard": false,
     "position": 6
    },
@@ -617,6 +617,17 @@
     "isFilterable": true,
     "showOnProductCard": true,
     "position": 7
+   },
+   {
+    "id": 3,
+    "code": "lifestage",
+    "name": "Lifestage",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 8
    }
   ]
  },
@@ -670,7 +681,7 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": false,
-    "position": 4
+    "position": 3
    },
    {
     "id": 27,
@@ -681,12 +692,23 @@
     "isRequired": false,
     "isFilterable": true,
     "showOnProductCard": false,
-    "position": 5
+    "position": 4
    },
    {
     "id": 18,
     "code": "product-form",
     "name": "Product Form",
+    "inputType": "select",
+    "role": "attribute",
+    "isRequired": false,
+    "isFilterable": true,
+    "showOnProductCard": false,
+    "position": 5
+   },
+   {
+    "id": 3,
+    "code": "lifestage",
+    "name": "Lifestage",
     "inputType": "select",
     "role": "attribute",
     "isRequired": false,

@@ -83,7 +83,7 @@ def main():
                 print(f"{code:<10} {ean} {len(r['images'])} img  {r['slug_words'][:60]}", flush=True)
             else:
                 print(f"{code:<10} {ean} -", flush=True)
-            time.sleep(0.8)
+            time.sleep(1.5)
         dest = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else "/tmp/ean-images.json"
         json.dump(out, open(dest, "w"), indent=1)
         print(f"{len(out)}/{len(src)} resolved -> {dest}")

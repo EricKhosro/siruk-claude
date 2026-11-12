@@ -42,7 +42,7 @@ SITE = "https://www.trixiecz.cz"
 SITEMAPS = [f"{SITE}/1/sitemap_products.xml", f"{SITE}/2/sitemap_products.xml"]
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
-PARALLEL = 12           # polite: the shop is a small Czech host, not a CDN
+PARALLEL = 2           # polite: the shop is a small Czech host, not a CDN
 HEAD_CHUNK = 600
 GET_CHUNK = 120
 
@@ -113,7 +113,7 @@ def reparse(have):
             merge(have, rec.pop("_code"), rec, replace=True)
         print(f"  {min(i + GET_CHUNK, len(urls))}/{len(urls)}", file=sys.stderr)
         save(have)
-        time.sleep(1)
+        time.sleep(1.5)
 
 
 # --------------------------------------------------------------- sitemap mode
@@ -136,7 +136,7 @@ def from_sitemap(have):
                 merge(have, rec.pop("_code"), rec)
             print(f"  {min(i + GET_CHUNK, len(urls))}/{len(urls)} pages, {len(have)} codes", file=sys.stderr)
             save(have)
-            time.sleep(1)
+            time.sleep(1.5)
 
 
 # ------------------------------------------------------------------ id sweep
@@ -206,13 +206,13 @@ def sweep(have, lo, hi, refresh):
                 if m:
                     rec["id"] = int(m.group(1))
                 merge(have, code, rec)
-            time.sleep(1)
+            time.sleep(1.5)
         done |= set(batch)
         st["done"] = sorted(done)
         json.dump(st, open(STATE, "w"))
         save(have)
         print(f"  ids {batch[0]}-{batch[-1]}: {len(live)} live, {len(have)} codes total", file=sys.stderr)
-        time.sleep(1)
+        time.sleep(1.5)
 
 
 def save(have):

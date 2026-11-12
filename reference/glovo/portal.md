@@ -42,6 +42,8 @@ is open; the schema is cached in `.siruk-cache/glovo/catalog-schema.json`.
   (the on/off toggle), or `{sku, vendorIdentifier, productInternalId, categoryInternalIds}`.
   `ProductUpdate` also takes `barcode`, `titles`/`descriptions` (`[{locale, value}]`), `images`,
   `maximumSalesQuantity`.
+- **Images** (2026-11-10, 11235S): `images: [<public url>]` + `original` + `productInternalId`
+  replaces the photo; Glovo fetches the URL and re-hosts it. `scripts/glovo-set-image.py`.
 - **Rename a SKU**: `productUpdateSKU(vendorIdentifier, oldSku, newSku) { status }` → `UPDATE_SUCCESS`.
 - **Categories**: `categories(filter: {vendorIdentifier, locale, leavesOnly}, page)` → `internalId name parentId`
   (our store's tree is Armenian: Շուն 7066, Կատու 7067, Թութակներ 7075, Կրծողներ 7093, Ձուկ 7084 …).
@@ -74,6 +76,11 @@ new products:
   withdraw mutation. Watch for duplicates when they are approved. Per-product status is
   `productsRequestDetails(vendorIdentifier, jiraIssueKey){ products{ sku status } }`, which
   is `null` while the case waits for review.
+- **Checked 2026-11-10 08:50Z:** all three cases still `Received`, `rejectedProductsAmount`
+  null, every product `status: null`; `find YOKO` → 0 live. Working query shape:
+  `productsRequests(filter:{vendorIdentifier}, page:{pageNumber:0, pageSize:50}){ items{
+  creationDate jiraIssueKey productsAmount rejectedProductsAmount status } }` (filter type
+  `ProductsRequestFilter!`, result `PagedProductsRequests`).
 - `categoryList` is the **vendor category** from `categories` (e.g. `26752 Ոսկորներ և
   ձողիկներ`, `7145 Անուշեղեն Շների Համար`), **not** the Pelican "Section 1/2" names
   (`Ոսկորներ, ջիլեր և բնական հյուրասիրություններ շների համար`, …). Those section names are
@@ -205,6 +212,23 @@ brand-first title with their old words. 54 are unchanged. Glovo's refusal codes:
 - `PROTECTED_DESCRIPTOR` (3) and `QUANTITY` (1).
 - `unexpected_error` (54): every call fails, even a pure reorder, with or without the
   description. Mostly Trixie bowls and harnesses and some Monge cans. Cause unknown.
+
+**Stale master title (2026-11-10).** In 8 loose items (011157-KG, 297257-KG,
+3182550793049-KG, 3182550893701-KG, 3182551055849-KG, MG 004817-KG, MG006107-KG, +1), the
+current title is not the master title. Any master-field update (a description, say) with
+`original.titles` = the current title is refused as a title change from the master. Sending
+`original.titles` = the master (onboarding sheet column C) is **accepted, but it puts the
+title back to the master**. Tested on MG006107-KG: the description was written, and the
+title reverted to `Չոր կեր լակոտների համար «Monge» Mini Puppy & Junior, Հավ, 1 կգ`. Putting
+the earlier title back was refused (VARIETY `հավ` → `հավով`). A second call then renamed it
+to a brand-first reorder of the master's own words, `Monge Mini Puppy & Junior չոր կեր
+լակոտների համար, Հավ, 1 կգ` (original = the master title + the new description). That was
+accepted and the description stayed. So it takes two calls per item, and the title ends up as
+a reorder of the onboarding words, not the fuller title it had. The same day, a third call
+(original = the reordered title + the note) put the earlier fuller title back on 5 of the 8,
+and the note stayed. Glovo refused it on 297257-KG (adding chicken and rice), 3182550893701-KG
+(`Maxi Joint Care` → `խոշոր ցեղատեսակի չափահաս`) and MG006107-KG (`հավ` → `հավով`).
+Log: `runs/2026-11-10/glovo-title-restore.csv`.
 
 Glovo's message quotes the "from" words of the **master** title, so it judges a change
 against the original listing, not the current title. The safe edit is a reorder that

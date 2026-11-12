@@ -37,6 +37,7 @@ the parent 15/16) — so every variant of one toy carries the same `toy-type`:
 | Ball / Fetch & Retrieve | 20 Fetch & Retrieve | 24 Balls |
 | Chew & Dental | 21 Chew & Dental | flag |
 | Activity & Intelligence | 22 Activity & Intelligence | 26 Activity & Intelligence |
+| Teasers & Wands (wand / playing rod) | — | 111 Teasers & Wands (2026-11-12) |
 | Catnip | — | 25 Catnip |
 | Mouse & Animal | — | 23 Mice & Animals |
 

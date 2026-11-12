@@ -36,7 +36,7 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDEX = os.path.join(ROOT, ".siruk-cache", "4lapy-index.json")
 BARCODES = os.path.join(ROOT, ".siruk-cache", "4lapy-barcodes.json")
-DELAY = 1.0
+DELAY = 1.5
 
 
 def fetch(url):

@@ -47,7 +47,7 @@ def crawl(vendor=None, pages=200):
         out += [p for p in d if not vendor or p.get("vendor", "").upper() == vendor.upper()]
         print(f"  page {page}: {len(d)} products ({len(out)} kept)", file=sys.stderr)
         page += 1
-        time.sleep(0.5)
+        time.sleep(1.5)
     return out
 
 

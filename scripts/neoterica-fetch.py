@@ -18,7 +18,7 @@ def get(url):
     for i in range(3):
         r = subprocess.run(["curl", "-sS", "-A", UA, "-L", "--max-time", "60", url], capture_output=True, text=True)
         if r.returncode == 0 and len(r.stdout) > 3000:
-            open(p, "w", encoding="utf-8").write(r.stdout); time.sleep(0.7); return r.stdout
+            open(p, "w", encoding="utf-8").write(r.stdout); time.sleep(1.5); return r.stdout
         time.sleep(2)
     return ""
 

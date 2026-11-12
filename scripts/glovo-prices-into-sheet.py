@@ -78,7 +78,7 @@ def cmd_harvest(a):
                                                  'out_of_stock': t.get('outOfStock'), 'promotions': t.get('promotions') or [],
                                                  'description': t.get('description', '')})
             page += 1
-            time.sleep(1.0)
+            time.sleep(1.5)
         print(f'{name}: {len(seen)}', flush=True)
     os.makedirs(CACHE, exist_ok=True)
     json.dump(out, open(ZOOVET, 'w'), ensure_ascii=False)

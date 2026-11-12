@@ -10,7 +10,7 @@ Flavor, Ingredient, Packaging Type**, plus Lifestage and Breed Size.
 
 ## Where it is filed
 Dog → **3 Dry Food** (a veterinary diet also → 5 Health Condition); Cat → **10
-Dry Food**. Bird / small-animal food (96 / 99) uses this type too. Product type
+Dry Food** (a veterinary diet also → 110 Health Condition, 2026-11-12). Bird / small-animal food (96 / 99) uses this type too. Product type
 **1 Dry Food** (`measure_type: mass`, `default_sale_mode: pack`).
 
 **The live product type decides which attributes exist, their role (`option` /

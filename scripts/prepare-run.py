@@ -238,7 +238,7 @@ def main():
             n_lookups += 1
             if n_lookups % 10 == 0:
                 json.dump(hcache, open(hafo_path, "w"), ensure_ascii=False)
-            time.sleep(0.8)
+            time.sleep(1.5)
         confirmed = bool(h.get("hafo_id")) and h.get("confirmed", False)
         hafo_price = h.get("price_amd") if confirmed and h.get("price_source") == "variant" else None
         rec["hafo"] = {k: h.get(k) for k in ("hafo_id", "url", "title_hy", "brand", "price_source",

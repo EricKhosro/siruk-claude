@@ -65,7 +65,7 @@ def pull():
         out += products
         print(f"  page {page}: {len(products)} products ({len(out)} total)", file=sys.stderr)
         page += 1
-        time.sleep(0.8)
+        time.sleep(1.5)
     json.dump(out, open(RAW, "w"), ensure_ascii=False)
     return out
 

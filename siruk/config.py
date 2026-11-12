@@ -3,7 +3,12 @@
 Defaults mirror lib.sh's _CFG_DEFAULTS; config.json is deep-merged over them and
 re-read on every call (edit it mid-run, no restart). Env wins over the file:
 SIRUK_DELAY, SIRUK_CHUNK_SIZE, SIRUK_CHUNK_PAUSE, SIRUK_MEDIA_DELAY,
-SIRUK_RETRIES, SIRUK_TIMEOUT, MAX_PX; SIRUK_NO_PACE=1 turns all waiting off.
+SIRUK_RETRIES, SIRUK_TIMEOUT, MAX_PX.
+
+Hard floor (user 2026-11-12: "slow down the requests … bake it into all workflows"): every
+API request waits at least request.min_delay_seconds and every upload media.min_delay_seconds,
+whatever config.json, an env var, SIRUK_NO_PACE=1, --no-pace or --fast says. SIRUK_NO_PACE=1
+now only drops the chunk pauses and the between-product pause; it never goes below the floor.
 """
 import copy, json, os, sys
 
@@ -15,18 +20,18 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
 DEFAULTS = {
-    "request": {"delay_seconds": 0.6, "jitter_seconds": 0.3, "chunk_size": 15,
-                "chunk_pause_seconds": 5, "idle_reset_seconds": 120,
+    "request": {"delay_seconds": 1.5, "jitter_seconds": 0.5, "chunk_size": 10,
+                "chunk_pause_seconds": 10, "idle_reset_seconds": 120, "min_delay_seconds": 1.0,
                 "timeout_seconds": 60, "connect_timeout_seconds": 15},
     "retry": {"attempts": 4, "backoff_seconds": 2, "backoff_factor": 2,
               "max_backoff_seconds": 30,
               "retry_on_status": [408, 425, 429, 500, 502, 503, 504],
               "retry_on_network_error": True},
-    "media": {"delay_seconds": 2, "jitter_seconds": 0.5, "chunk_size": 5,
-              "chunk_pause_seconds": 15, "max_pixels": 2000,
+    "media": {"delay_seconds": 3, "jitter_seconds": 1, "chunk_size": 5,
+              "chunk_pause_seconds": 20, "max_pixels": 2000, "min_delay_seconds": 2.5,
               "verify": {"enabled": True, "wait_seconds": 2, "attempts": 3,
                          "delete_broken": True, "retry_upload": True, "upload_attempts": 2}},
-    "product": {"pause_seconds": 3},
+    "product": {"pause_seconds": 5},
     "bulk": {"max_per_request": 25, "timeout_seconds": 300},
 }
 
@@ -75,8 +80,12 @@ def load(env=None):
                 pass
     if env.get("SIRUK_NO_PACE") == "1":
         for sec in ("request", "media"):
-            cfg[sec].update(delay_seconds=0, jitter_seconds=0, chunk_size=0)
+            cfg[sec].update(jitter_seconds=0, chunk_size=0)
         cfg["product"]["pause_seconds"] = 0
+    for sec in ("request", "media"):   # the floor: nothing above may go below it
+        floor = max(float(cfg[sec].get("min_delay_seconds") or 0), float(DEFAULTS[sec]["min_delay_seconds"]))
+        cfg[sec]["min_delay_seconds"] = floor
+        cfg[sec]["delay_seconds"] = max(float(cfg[sec].get("delay_seconds") or 0), floor)
     return cfg
 
 

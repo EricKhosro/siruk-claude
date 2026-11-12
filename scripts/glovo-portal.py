@@ -37,7 +37,7 @@ CACHE = os.path.join(ROOT, '.siruk-cache', 'glovo')
 DUMP = os.path.join(CACHE, 'portal-products.json')
 SHEET = os.path.join(ROOT, 'final', 'glovo', 'siruk-glovo-products.xlsx')
 API = 'https://catalog-vss-api-eu.deliveryhero.io/graphql'
-PACE = 0.35            # seconds between writes
+PACE = 1.5            # seconds between writes
 MAX_JUMP = 0.40        # refuse a price change larger than this share without --force
 
 Q_PRODUCTS = '''query GetProducts($filter: ProductFilter!, $page: PageInput!) {

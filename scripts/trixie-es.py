@@ -47,7 +47,7 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 CACHE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                      ".siruk-cache", "trixie-es.json")
-DELAY = 0.4          # the shop is small; keep the crawl polite
+DELAY = 1.5          # the shop is small; keep the crawl polite
 MAX_CANDIDATES = 4   # search hits to open per article
 NAV = {"whatsapp", "see product", "ver producto", "find outlets", "see document"}
 

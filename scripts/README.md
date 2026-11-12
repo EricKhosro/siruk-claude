@@ -97,6 +97,7 @@ before running it.
 | `set-media-alt.py --dry-run \| --ids … \| --all [--refresh]` | alt = caption on every media-library image: "{Brand} {Name}" from the product, "{Brand} logo", category / page titles, else a readable file name; plan CSV in `runs/<date>/`, resumable log in `.siruk-cache/media-alt/` |
 | `create-category.py <spec.json> [--dry-run]` | creates categories from a spec list, idempotently (dedupes on parent+name). Each entry `{parent, name, slug, meta_title}`; `parent` is an id or a path already in the file (`"Dog > Supplies"`), so a parent and its leaves go in one run. **Only on an explicit user ask.** Add the ru/hy pair to `translate-categories.py` afterwards |
 | `translate-categories.py [--dry-run]` | ru/hy names for every category from its built-in table |
+| `blog-translate.py status\|export\|check\|apply <id> [--apply]` | the `/translate-blog` skill: lists posts missing ru/hy, exports a post's English, checks the ru/hy files (banned words, script purity, links, tags, meta length), PUTs both locales and reads back; en untouched |
 | `translate-brands.py [--dry-run]` | ru/hy for every brand (Latin name in all locales, translated meta) |
 | `backfill-translations.py [--only id,…] [--dry-run]` | ru/hy for every product from `reference/translations.json` (names, recurring bullet phrases, paragraphs) via `set-translation.py` |
 | `verify-translations.py` | **after every import** — audits ru/hy coverage of all products, categories and brands; exit 1 if anything is English-only |
@@ -152,23 +153,35 @@ before running it.
 
 Everything in `scripts/` reads `config.json` in the repo root on every call, so
 editing it takes effect immediately — no restart, nothing to re-source.
-All times are **seconds** (decimals fine); `0` turns a knob off.
+All times are **seconds** (decimals fine); `0` turns a knob off — except the
+**hard floor** below, which nothing turns off.
+
+> **Hard floor (user 2026-11-12: "slow down the requests … bake it into all
+> workflows").** Every API request waits **≥ 1.0 s** after the previous one and
+> every upload **≥ 2.5 s**, enforced in `siruk/config.py` and `scripts/lib.sh`.
+> No env var, `SIRUK_NO_PACE=1`, `--no-pace`, `--fast` or a `0` in this file goes
+> below it. Our API takes **one request at a time** (parallel calls 500 it).
+> Outside sites (hafo, zoovet, nemo, brand sites, Trixie mirrors, Glovo, CDNs):
+> **≥ 1.5 s apart, at most 2 at once** — the scripts hard-code that as their
+> minimum (`time.sleep` / `DELAY` / `PARALLEL`); a new script must too.
 
 ```jsonc
-"request": { "delay_seconds": 0.6,    // minimum gap between two API calls
-             "jitter_seconds": 0.3,   // random extra, so calls aren't metronomic
-             "chunk_size": 15,        // after this many calls…
-             "chunk_pause_seconds": 5,//  …take a longer breather
+"request": { "delay_seconds": 1.5,    // gap between two API calls (floor 1.0)
+             "min_delay_seconds": 1.0,// the hard floor — cannot be lowered
+             "jitter_seconds": 0.5,   // random extra, so calls aren't metronomic
+             "chunk_size": 10,        // after this many calls…
+             "chunk_pause_seconds": 10,// …take a longer breather
              "idle_reset_seconds": 120, "timeout_seconds": 60,
              "connect_timeout_seconds": 15 },
 "retry":   { "attempts": 4, "backoff_seconds": 2, "backoff_factor": 2,
              "max_backoff_seconds": 30,
              "retry_on_status": [408,425,429,500,502,503,504],
              "retry_on_network_error": true },
-"media":   { "delay_seconds": 2, "chunk_size": 5, "chunk_pause_seconds": 15,
+"media":   { "delay_seconds": 3, "min_delay_seconds": 2.5, "chunk_size": 5, "chunk_pause_seconds": 20,
              "max_pixels": 2000,
              "verify": { "enabled": true, ... } },   // see below
-"product": { "pause_seconds": 3 }                    // between two CSV rows
+"product": { "pause_seconds": 5 },                   // between two CSV rows
+"external": { "min_delay_seconds": 1.5, "max_parallel": 2 } // outside sites (documented minimum)
 ```
 
 The gap is measured from the *previous request*, and the counter lives in
@@ -182,8 +195,8 @@ from plain API calls.
 
 Env vars beat the file for one-off overrides: `SIRUK_DELAY`, `SIRUK_CHUNK_SIZE`,
 `SIRUK_CHUNK_PAUSE`, `SIRUK_MEDIA_DELAY`, `SIRUK_RETRIES`, `MAX_PX`,
-`SIRUK_CONFIG=/path/to/other.json`, and `SIRUK_NO_PACE=1` to skip all waiting
-for a single ad-hoc call.
+`SIRUK_CONFIG=/path/to/other.json`, and `SIRUK_NO_PACE=1` to drop the chunk
+pauses for a single ad-hoc call (the 1 s / 2.5 s floor still applies).
 
 ### Dead images: always verify an upload
 

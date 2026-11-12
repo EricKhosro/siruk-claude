@@ -69,7 +69,7 @@ def refresh():
     (CACHE / "detail").mkdir(parents=True, exist_ok=True)
     first = get("/products?page=1")
     rows = list(first["data"])
-    with ThreadPoolExecutor(4) as ex:
+    with ThreadPoolExecutor(1) as ex:
         for d in ex.map(lambda p: get(f"/products?page={p}")["data"],
                         range(2, first["meta"]["last_page"] + 1)):
             rows.extend(d)
@@ -80,7 +80,7 @@ def refresh():
         d.mkdir(exist_ok=True)
         def one(pid, d=d, lang=lang):
             (d / f"{pid}.json").write_text(json.dumps(get(f"/products/{pid}", lang), ensure_ascii=False))
-        with ThreadPoolExecutor(4) as ex:
+        with ThreadPoolExecutor(1) as ex:
             list(ex.map(one, ids))
     print(f"refreshed {len(ids)} products", file=sys.stderr)
 

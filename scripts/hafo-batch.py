@@ -24,6 +24,6 @@ for i, r in enumerate(rows, 1):
     print(f"[{i}/{len(rows)}] {code:<10} {tag}  {(x.get('title_hy') or '')[:60]}", flush=True)
     if n % 10 == 0:
         json.dump(res, open(out, "w"), ensure_ascii=False)
-    time.sleep(0.8)
+    time.sleep(1.5)
 json.dump(res, open(out, "w"), ensure_ascii=False)
 print("DONE", len(res))

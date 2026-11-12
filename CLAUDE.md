@@ -103,6 +103,10 @@ linked doc before you rely on a number from memory.
    an existing product already has. Dual-species and vet-diet second-leaf
    conventions, and what to do when no matching leaf exists: `reference/product-rules.md`
    → "Multiple categories per product".
+   **Which species = the brand's catalogue, not our description** (user,
+   2026-11-12): a bed/carrier/bowl the brand files under dogs *and* cats
+   (Trixie: trixie.shop tags `01_hund`/`01_katze`/`01_kleintier`) gets both
+   leaves even when its text names neither — `scripts/species-categories.py`.
 8. **Never fabricate specs.** Empty field beats a guess. Attribute values
    only from the closed menu `reference/attribute-values.json`, evidence
    quote per pick. Don't create attributes, values or categories without an
@@ -246,6 +250,13 @@ linked doc before you rely on a number from memory.
   (gitignored). Check with `scripts/api.sh GET /account`; re-capture per
   `scripts/README.md` on 401.
 - Pacing / retries / image verification: `config.json` (read on every call).
+  **Slow requests, everywhere** (user 2026-11-12): our API ≥ 1.0 s between
+  calls (default 1.5 s), uploads ≥ 2.5 s — a hard floor in `siruk/config.py` and
+  `scripts/lib.sh` that `SIRUK_NO_PACE` / `--no-pace` / `--fast` cannot lower —
+  and **one call at a time, never parallel** (no concurrent tool calls, no
+  thread pools, no background job running beside another writer). Outside sites
+  (hafo, zoovet, nemo, brand sites, Glovo, CDNs): ≥ 1.5 s apart, ≤ 2 at once.
+  Any new script, one-off helper or sub-agent brief keeps to the same pace.
 - A batch's source of truth: `batches/<batch>/` (invoices, `batch.xlsx`,
   `products.csv`; committed).
 - **`knowledge/`** (2026-10-23): what we learned — resolved blockers, what each
@@ -459,7 +470,7 @@ from the built-in browser (`reference/glovo/portal.md`, `scripts/glovo-portal.py
 2026-11-05). `/yandex-eda` lists variants
 on Yandex Eda through the retailer cabinet's JSON API, driven from the
 built-in browser where the user's Yandex sign-in lives (one card per variant,
-Russian name with size, white 1000×1000 photo; `reference/yandex/README.md`). Big attribute batches → the `attribute-manager` agent.
+Russian name with size, white 1000×1000 photo; `reference/yandex/README.md`). `/translate-blog [id|new|all]` (2026-11-12) translates blog posts into `hy` and `ru` by meaning (never word for word, no insult words such as լակոտ for puppy, pure language, no "!") and writes them with `scripts/blog-translate.py` (status / export / check / apply). Big attribute batches → the `attribute-manager` agent.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,
 `supplements`, `grooming`, `accessories` (`.claude/skills/<type>/SKILL.md`) —
 says which categories that type gets and how to pick its values and size;
@@ -473,9 +484,9 @@ brand list, family list and attribute-value ids: `reference/admin-api.md`)
 
 Dog 1 → Food 2 {Dry 3, Wet 4, Health Condition 5}, Treat 6 (leaves 7, 82–88),
 Toys 15 {17–22}, Grooming 27 {28–33}, Health & Pharmacy 41 {42–49}, Supplies
-68 {69–74}, Cleaning & Potty 75 {76–78}. Cat 8 → Food 9 {Dry 10, Wet 11},
-Treat 14 (leaves 89–94), Toys 16 {23–26}, Grooming 34 {35–40}, Health &
-Pharmacy 50 {51–58}, Litter 59 {60–65}, Supplies 66 {67, 79, Beds 107 (2026-10-19), Carriers 108, Bowls & Feeders 109 (2026-10-27)}, Trees 80 {81}.
+68 {69–74}, Cleaning & Potty 75 {76–78}. Cat 8 → Food 9 {Dry 10, Wet 11, Health Condition 110},
+Treat 14 (leaves 89–94), Toys 16 {23–26, Teasers & Wands 111}, Grooming 34 {35–40}, Health &
+Pharmacy 50 {51–58}, Litter 59 {60–65}, Supplies 66 {67, 79, Beds 107 (2026-10-19), Carriers 108, Bowls & Feeders 109 (2026-10-27), Trees, Condos & Scratchers 81 (moved here 2026-11-12; the old top-level 80 is empty and hidden)}.
 Bird 95 → {Food 96, Treats & Supplements 97}; Small Animal 98 → {Food 99,
 Hay 100, Treats 101, Supplements & Salt Licks 102, Bedding 103} (2026-09-28).
 **Accessories 13 is not a product category** — never file a row there.

@@ -149,7 +149,7 @@ def hafo_page_images(code, rec, cache):
                     urls.append(u)
         except Exception:
             pass
-        time.sleep(0.4)
+        time.sleep(1.5)
     cache[code] = urls
     json.dump(cache, open(HAFO_PAGES, "w"), indent=0)
     return urls

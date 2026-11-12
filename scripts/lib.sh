@@ -6,7 +6,8 @@
 #   SIRUK_TOKEN       JWT inline (takes precedence over the token file)
 #   SIRUK_TOKEN_FILE  path to the token file (default: <repo>/.siruk-token)
 #   SIRUK_CONFIG      pacing/retry config file (default: <repo>/config.json)
-#   SIRUK_NO_PACE=1   skip all pacing for this command (single ad-hoc calls)
+#   SIRUK_NO_PACE=1   no chunk pauses for this command (single ad-hoc calls); the hard
+#                     minimum gap (1 s per request, 2.5 s per upload) still applies
 #
 # Pacing and retry knobs live in config.json — see that file and scripts/README.md.
 
@@ -29,19 +30,19 @@ siruk_token() {
 # Defaults live here so the scripts still run if config.json is missing or
 # partial; the file is deep-merged over them.
 _CFG_DEFAULTS='{
-  "request": {"delay_seconds":0.6,"jitter_seconds":0.3,"chunk_size":15,
-              "chunk_pause_seconds":5,"idle_reset_seconds":120,
+  "request": {"delay_seconds":1.5,"jitter_seconds":0.5,"chunk_size":10,
+              "chunk_pause_seconds":10,"idle_reset_seconds":120,
               "timeout_seconds":60,"connect_timeout_seconds":15},
   "retry":   {"attempts":4,"backoff_seconds":2,"backoff_factor":2,
               "max_backoff_seconds":30,
               "retry_on_status":[408,425,429,500,502,503,504],
               "retry_on_network_error":true},
-  "media":   {"delay_seconds":2,"jitter_seconds":0.5,"chunk_size":5,
-              "chunk_pause_seconds":15,"max_pixels":2000,
+  "media":   {"delay_seconds":3,"jitter_seconds":1,"chunk_size":5,
+              "chunk_pause_seconds":20,"max_pixels":2000,
               "verify":{"enabled":true,"wait_seconds":2,"attempts":3,
                         "delete_broken":true,"retry_upload":true,
                         "upload_attempts":2}},
-  "product": {"pause_seconds":3}
+  "product": {"pause_seconds":5}
 }'
 
 _cfg_load() {
@@ -86,7 +87,7 @@ _cfg_load() {
     ($d * $f) as $c
     | def num($v; $fallback): if ($v | type) == "number" and $v >= 0 then $v else $fallback end;
       def yn($v; $fallback):  if ($v | type) == "boolean" then $v else $fallback end;
-      [ ["REQ_DELAY",           num($c.request.delay_seconds; 0.6)],
+      [ ["REQ_DELAY",           num($c.request.delay_seconds; 1.5)],
         ["REQ_JITTER",          num($c.request.jitter_seconds; 0)],
         ["REQ_CHUNK",           num($c.request.chunk_size; 0)],
         ["REQ_CHUNK_PAUSE",     num($c.request.chunk_pause_seconds; 0)],
@@ -123,10 +124,13 @@ _cfg_load() {
   CFG_MEDIA_MAX_PX=${MAX_PX:-$CFG_MEDIA_MAX_PX}
 
   if [[ ${SIRUK_NO_PACE:-} == 1 ]]; then
-    CFG_REQ_DELAY=0;   CFG_REQ_JITTER=0;   CFG_REQ_CHUNK=0
-    CFG_MEDIA_DELAY=0; CFG_MEDIA_JITTER=0; CFG_MEDIA_CHUNK=0
+    CFG_REQ_JITTER=0;   CFG_REQ_CHUNK=0
+    CFG_MEDIA_JITTER=0; CFG_MEDIA_CHUNK=0
     CFG_PRODUCT_PAUSE=0
   fi
+  # Hard floor (user 2026-11-12): no config value, env var or SIRUK_NO_PACE goes below it.
+  CFG_REQ_DELAY=$(awk -v d="${CFG_REQ_DELAY:-0}" 'BEGIN{ printf "%s", (d+0 < 1.0) ? "1.0" : d }')
+  CFG_MEDIA_DELAY=$(awk -v d="${CFG_MEDIA_DELAY:-0}" 'BEGIN{ printf "%s", (d+0 < 2.5) ? "2.5" : d }')
 }
 
 # ---------------------------------------------------------------- pacing ----

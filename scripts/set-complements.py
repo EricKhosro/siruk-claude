@@ -3,6 +3,7 @@
 
     scripts/set-complements.py              # dry run: resolve every path, show what would change
     scripts/set-complements.py --apply      # PUT the changed categories, read each back
+    scripts/set-complements.py --apply --only 23,24   # just these ids
 
 The map is keyed by category path ("Dog > Food > Dry Food"); every path must resolve against the
 live tree or nothing is written. A category not in the map is left alone (its list is never
@@ -74,6 +75,10 @@ def main(argv):
     if "--apply" not in argv:
         print("dry run — nothing written (--apply to write)")
         return
+    if "--only" in argv:   # --only 23,24,…: write just these category ids (2026-11-12)
+        only = {int(x) for x in argv[argv.index("--only") + 1].split(",")}
+        plan = [row for row in plan if row[0] in only]
+        print(f"--only: writing {len(plan)} of them")
     failed = 0
     for cid, src, old, new in plan:
         c = api("GET", f"/categories/{cid}")["data"]
