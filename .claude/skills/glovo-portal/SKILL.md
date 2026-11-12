@@ -140,6 +140,11 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
   Latin, no «», `glovo-titles.py` `check()`). Titles follow `glovo-export` → column C.
   Price = 50 ֏ under Zoovet's Glovo price (§2). Show the user the request file and
   get a yes before `--apply`. Example: YOKO × 12, 2026-11-09.
+  **Route:** the script sends `createSimpleProductBatch`, the portal's own Add Product call.
+  Every row needs the hy title in column C **and** the English title in column M; Armenia
+  requires both. Afterwards, check that the products show under Store Management →
+  Actions Overview → Added Products. The old `createProductsRequest` cases never reached
+  Glovo's reviewers (2026-11-12).
   Since 2026-11-12, adding missing goods is pre-approved: every product we sell belongs on Glovo,
   so don't ask per batch.
   - Mixed brands go in one sheet, with column K for the brand and L for the categories.

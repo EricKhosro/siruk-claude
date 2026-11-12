@@ -81,6 +81,25 @@ new products:
   `productsRequests(filter:{vendorIdentifier}, page:{pageNumber:0, pageSize:50}){ items{
   creationDate jiraIssueKey productsAmount rejectedProductsAmount status } }` (filter type
   `ProductsRequestFilter!`, result `PagedProductsRequests`).
+- **Use `createSimpleProductBatch`, not `createProductsRequest`** (2026-11-12, evening).
+  - **Why:** Glovo support said they saw **no** products waiting for review, and the
+    portal's **Actions Overview → Added Products** was empty. Yet `createProductsRequest`
+    had answered `ok` for YOKO and our first 52, and `productsRequests` lists those cases as
+    `Received`. They are invisible to the team that approves.
+  - **What the portal does:** its own Add Product page (`AddProductsV4` bundle) sends
+    `createSimpleProductBatch(productsRequest:{simpleProducts:[…]})`. Per product:
+    - `name` / `description`: `[{locale:"hy"|"en", name}]`. Armenia requires **both** the
+      hy and the en title (country config: `pimLocale` hy/en, `catalogLocale` hy_AM/en_AM).
+    - `barcode` padded to 14 digits.
+    - `imagesEncoded`: data URLs.
+    - `sku`, `price`, `activeness`, `isSoldByWeight: false`, `weighableSoldByPiece: false`.
+    - `categories: [{id, locale, name}]`.
+    - `vendorsIdentifier: [{globalEntityId, platformVendorId}]`.
+  - **Answer:** `SimpleProductBatchSuccess { message caseId }`. One call opened one case
+    (`500bO000018fRDeQAM`, test 48030), and the product appeared in Added Products as
+    "In progress" within seconds.
+  - **In the script:** `glovo-add-products.py` uses this by default. Column M holds the
+    English title. `--legacy` keeps the old call; don't use it.
 - **2026-11-12 (51 shop goods not on Glovo, `final/glovo/new-2026-11-12/`):**
   - **Three cases per call is Glovo's doing.** Two calls, each made with `tries=1` (no retry),
     each filed three identical cases (`500bO000018eWc6…`, `…e8wJ…`, `…e8zW…`; `…ec7x…`, `…eu1Z…`,
