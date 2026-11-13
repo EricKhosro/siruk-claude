@@ -2,6 +2,37 @@
 
 Newest first. "Lifted" = no longer a blocker; "Still" = still stops us.
 
+## 2026-11-12
+
+- **Lifted — hafo order #12126 had no invoice.** Pet House invoiced it on
+  10/11 as A9066878431 + A1771977413 (65,815 together). Receipts 0039 / 0040
+  are posted. Today's turnover shows stock 1 on each of the 20 codes
+  (`knowledge/armsoft-documents.md`).
+- **Lifted — the Glovo token had expired** (3,875 min), so the post-receipt
+  on/off run was stuck. The user signed in again in the built-in browser and
+  the run switched 40 products. A re-check against the 13:34 turnover found 0
+  to switch.
+- **Lifted — dog toys had no Breed Size (0 of 159)**, because toy texts
+  rarely name a dog size. The user's rule (`reference/data-tables.md` §1a:
+  size code, else All Breeds) and today's sweep brought it to 135 of 159 by
+  14:00. A second pass in product-id order (14:08–15:01+) did the last 24, so
+  it is 159 of 159 (export 15:01). That pass stopped at 15:23. It touched
+  567 products and only added values: Lifestage on 810 variants, Breed Size
+  on 562, and the mirror species leaf on 16 products (grooming 28→35 /
+  30→37, bowls 70→109, beds 71→107, lint roller 78→112). No price, code,
+  barcode or stock changed.
+- **Lifted (2026-11-10) — the till could not find YOKO 1626–1636**, which had
+  no barcodes. Fixed from the shop's back-label scans; see
+  `knowledge/goods-setups.md` → "Local maker with no web listing". Checked
+  today: the ArmSoft export and Siruk carry the same 485005424… / 00123 /
+  00125 codes.
+- **Still — YOKO is not on Glovo.** The 3 review cases from 2026-11-09 still
+  say "Received" and no product is live. The request carried no barcodes, so
+  add them once Glovo approves.
+- **Still — 2 Pet House invoices are missing:** hafo #11997 (24 Club 4 Paws
+  pouches, ArmSoft 0342 still 20) and #12110 (Premio 3179Tx). The 10/11–12/11
+  pull did not bring either.
+
 ## 2026-11-06
 
 - **Lifted — `scripts/hafo-watch.py` crashed on Windows** ("No time zone found

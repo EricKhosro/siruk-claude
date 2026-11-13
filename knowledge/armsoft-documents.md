@@ -181,10 +181,18 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   Trixie Premium lead XS royal blue (3,000); leads CPA 4201. Siruk first:
   products 1469–1475 (variants 2259–2267) with these accounting codes.
 
+- Pull 2026-11-12 11:00 for 10/11–12/11 (08/11–12/11 timed out first: "The operation has timed out."; ArmSoft was closed and was started with the Start-Process line, the user pressed Կատարել on the login): 2 invoices, both new, Pet House 10/11, no replacement note. Together **65,815 = hafo order #12126** (09/11, 20 lines / 23 units, built from the restock sheet `final/glovo/hafo-restock-suggestion-2026-11-09.xlsx`) to the dram, so every line is a good we already sell: the invoice's line text = the ArmSoft good's name.
+  - **A9066878431** (31,175, 15 × 1): 1050 Trixie Dog Poop Bags 8×20 @ 1,300 · 1167 melamine bowl 0.2 l @ 1,965 · 1088 comb long-hair cats 22 cm @ 2,435 · 1429 Nature Original guinea pig @ 2,000 · 1001 8in1 PRO Fillets Dental 80 g @ 1,190 · 0487 duck breast mini 55 g @ 1,000 · 0508 avocado dental 35 g @ 580 · 0510 calcium bones 60 g @ 965 · 0296 Monge VetSolution GI cat 1.5 kg @ 7,300 · 0297 Monge Sterilised chicken 1.5 kg @ 6,200 · 1411 Combi comb 22 cm @ 2,465 (0773 also costs 2,465 but isn't on the order) · 0198 Cat Malt 100 g @ 1,500 · 0572 Denta Fun rabbit rolls @ 1,030 · 1410 Ultra litter scoop L @ 655 · 0654 litter scoop with mesh L @ 590. Costs equal Siruk's cost on every line.
+  - **A1771977413** (34,640): 0332 Gemon Adult Mousse salmon 85 g × 4 @ 335 · 0371 Monge Monoprotein lamb 400 g @ 1,450 · 0372 chicken 400 g @ 1,450 · 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500** · 0393 Monge Fresh Senior turkey 400 g @ 900.
+  - Receipt XMLs built (not yet imported/posted): `final/armsoft-2026-11-12/pethouse-A9066878431-receipt-0039.xml`, `…A1771977413-receipt-0040.xml`.
+  - A receipt **0019 dated 11/11/26, 0.00, no supplier, narek.outstaffing** appeared in the purchase list since 09/11 — an empty receipt someone made by hand.
+
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0040** | 12/11 | Pet House **A1771977413** (10/11, 34,640 incl. VAT): 0332 Gemon Adult Mousse salmon 85 g × 4 @ 335, 0371 / 0372 Monge Monoprotein lamb / chicken 400 g @ 1,450, 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500**, 0393 Monge Fresh Senior turkey 400 g @ 900. File `final/armsoft-2026-11-12/pethouse-A1771977413-receipt-0040.xml` | posted by Claude, user yes |
+| receipt **0039** | 12/11 | Pet House **A9066878431** (10/11, 31,175 incl. VAT, 15 × 1): 1050 1167 1088 1429 1001 0487 0508 0510 0296 0297 1411 0198 0572 1410 0654 at their last cost (1411 had none; 2,465). Stock after: 1 each. File `final/armsoft-2026-11-12/pethouse-A9066878431-receipt-0039.xml` | posted by Claude, user yes |
 | receipt **0038** | 09/11 | Pet House **A8770854680** (09/11, 23,000 incl. VAT): 0071 Club 4 Paws rabbit 14 kg as **003 × 1 @ 23,000** (23,000 / 14 doesn't fit 2 decimals). Stock after 1.536 bags. File `final/armsoft-2026-11-09/pethouse-A8770854680-receipt-0038.xml` | posted by Claude, user yes |
 | receipt **0037** | 09/11 | Pet House **A2576225977** (09/11, 19,330 incl. VAT, 11 pcs): new 1640 1641 (3,090), 1642 (2,500), 1643 (3,185), 1644 (1,655), 1645 (1,875); 1620 1621 1622 × 1 @ 355, 1038 @ 1,655, 1114 @ 1,215 | posted by Claude, user yes |
 | receipt **0036** | 09/11 | Pet House **A2631104009** (08/11) **without** the boards 48020 / 48021 (sent by mistake, user): 32,815 of 42,815. 1606 @ 2,000, 0418 / 0421 × 2 @ 515, 1121 1122 1123 × 3 @ 625, new 1638 @ 7,560, 0153 × 2 @ 3,785, new 1639 × 100 (001) @ 80 | posted by Claude, user yes |

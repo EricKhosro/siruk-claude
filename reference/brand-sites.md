@@ -315,7 +315,7 @@ keeps one picture — and 149 of our articles have no page at all. Every file is
 named `<PREFIX>_<article>-<n>_%23SALL_%23AWK_%23V1.jpg` under
 `https://cdn.trixie.de/assets/img/1600mx1200m/`, so the gallery can be probed
 directly: `scripts/trixie-cdn-sweep.py --plan <plan>` HEADs all prefixes
-(`PHO_PRO_CLIP` packshot, `PHO_PAC_CLIP` pack, `PHO_PRO_DET_CLIP`,
+(`PHO_PRO_CLIP` bare product, `PHO_PAC_CLIP` pack — first in our gallery when it exists, `PHO_PRO_DET_CLIP`,
 `PHO_PRO_SET_CLIP`, `PHO_PRO_USE(_CLIP)`, `PHO_PRO_DOG/CAT(_CLIP)`, `PHO_PRO`,
 `GRA_PRO`) × n = 1..26 with one parallel curl (~450 req/s) and caches the hits in
 `.siruk-cache/trixie-cdn-gallery.json`. Two facts the probe taught us:
@@ -341,7 +341,17 @@ directly: `scripts/trixie-cdn-sweep.py --plan <plan>` HEADs all prefixes
   1600mx1200m image whose file name carries the article — `PHO_PRO_CLIP`
   packshot first, then `PHO_PAC_CLIP`, lifestyle (`PHO_PRO_DOG/CAT`), group
   shots (`PHO_PRO_GROUP_CLIP_<a>-<b>…`) and `GRA_PRO` drawings — one URL per
-  line; `--first` gives only the thumbnail. Articles without a catalogue page
+  line; `--first` gives only the thumbnail. **That is the script's order, not
+  our gallery order** (user 2026-11-13): `PHO_PRO_CLIP` is the bare product
+  (loose treats, an unboxed bottle), `PHO_PAC_CLIP` is the bag / box / tube
+  it is sold in. **When an article has a `PHO_PAC_CLIP`, that goes first** —
+  treats, grooming bottles in a box, salt licks, pads, soft grass, towel in its
+  tube. Items with no pack photo (brushes, combs, scissors, tubes, lollies)
+  keep `PHO_PRO_CLIP` first. On 2026-11-13, 22 variants were found with the
+  pack behind the bare shot (Premio Stripes 356 among them) and reordered;
+  31498 still led with the old blue "Happy Rolls" tub. Find more with the
+  export: a variant whose `image_urls` has `PHO_PAC_CLIP` anywhere but first
+  (`runs/2026-11-13/pack-first-plan.csv`). Articles without a catalogue page
   (litter 4020) fall back to a CDN probe that keeps every hit. Upload all of
   them (`scripts/add-all-images.py` backfills). The article number is printed
   on the pack in the photo, so a hit is self-verifying. trixie.de throttles

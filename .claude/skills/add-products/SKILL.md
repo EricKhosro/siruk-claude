@@ -303,8 +303,9 @@ For a prepared run, phase C goes one of two ways:
    report and move on. Before writing, **look at the image you put first**
    (download it and view it): it must be a clean packshot — product alone,
    plain background, no animal, no hand, no scene, no group of siblings. If it
-   isn't, move the packshot to the front (Trixie: `PHO_PRO_CLIP`, then
-   `PHO_PAC_CLIP`; other brands: by eye). A lifestyle/group shot may lead only
+   isn't, move the packshot to the front (Trixie: the pack `PHO_PAC_CLIP`
+   first when the article has one, then the bare product `PHO_PRO_CLIP` —
+   user 2026-11-13; other brands: by eye). A lifestyle/group shot may lead only
    when the product has no clean image at all — then add the variant to
    `runs/<date>/needs-packshot.csv`.
    Source order for the gallery: brand site **including its country domains**

@@ -33,7 +33,7 @@ URL = "https://trixie.shop/products.json?limit=250&page={}"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 AI = "created-with-AI"
-RANK = {"PHO_PRO_CLIP": 1, "PHO_PAC_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SET_CLIP": 4, "PHO_PRO": 3,
+RANK = {"PHO_PAC_CLIP": 1, "PHO_PRO_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SET_CLIP": 4, "PHO_PRO": 3,
         "PHO_PRO_USE_CLIP": 5, "PHO_PRO_USE": 5, "PHO_PRO_DOG_CLIP": 6, "PHO_PRO_CAT_CLIP": 6,
         "PHO_PRO_DOG": 6, "PHO_PRO_CAT": 6, "PHO_PRO_GROUP_CLIP": 7, "PHO_PRO_GROUP": 7,
         "GRA_PRO": 8, "GRA_INFO": 8}
@@ -114,9 +114,9 @@ def main():
     arts, names = index(products)
     json.dump(arts, open(OUT, "w"), ensure_ascii=False, indent=0)
     json.dump(names, open(NAMES, "w"), ensure_ascii=False, indent=0)
-    packshot = sum(1 for u in arts.values() if u and prefix(u[0].rsplit("/", 1)[-1]) == "PHO_PRO_CLIP")
+    packshot = sum(1 for u in arts.values() if u and prefix(u[0].rsplit("/", 1)[-1]) in ("PHO_PAC_CLIP", "PHO_PRO_CLIP"))
     print(f"{len(products)} products -> {len(arts)} article numbers with images "
-          f"({packshot} lead with a PHO_PRO_CLIP packshot) -> {OUT}")
+          f"({packshot} lead with a pack or packshot) -> {OUT}")
 
 
 if __name__ == "__main__":

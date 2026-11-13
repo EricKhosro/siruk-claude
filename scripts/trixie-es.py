@@ -98,11 +98,11 @@ def search(article, loc):
 
 
 def rank(url):
-    """packshot, pack, other photo, group shot, drawing — same order as the CDN."""
+    """pack, bare-product shot, other photo, group shot, drawing — same order as the CDN."""
     f = url.rsplit("/", 1)[-1]
-    if f.startswith("PHO_PRO_CLIP"):
+    if f.startswith("PHO_PAC_CLIP"):  # the pack leads (user 2026-11-13)
         return 1
-    if f.startswith("PHO_PAC_CLIP"):
+    if f.startswith("PHO_PRO_CLIP"):
         return 2
     if f.startswith("PHO_PRO_GROUP"):
         return 4

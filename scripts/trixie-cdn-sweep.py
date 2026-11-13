@@ -34,7 +34,7 @@ TAIL = "_%23SALL_%23AWK_%23V1.jpg"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 PFX = ["PHO_PRO_CLIP", "PHO_PAC_CLIP", "PHO_PRO_DET_CLIP", "PHO_PRO_SET_CLIP", "PHO_PRO_USE_CLIP", "PHO_PRO_USE",
        "PHO_PRO_DOG_CLIP", "PHO_PRO_CAT_CLIP", "PHO_PRO_DOG", "PHO_PRO_CAT", "PHO_PRO", "GRA_PRO"]
-RANK = {"PHO_PRO_CLIP": 1, "PHO_PAC_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SET_CLIP": 4,
+RANK = {"PHO_PAC_CLIP": 1, "PHO_PRO_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SET_CLIP": 4,
         "PHO_PRO_USE_CLIP": 5, "PHO_PRO_USE": 5, "PHO_PRO_DOG_CLIP": 6, "PHO_PRO_CAT_CLIP": 6,
         "PHO_PRO_DOG": 6, "PHO_PRO_CAT": 6, "PHO_PRO": 3, "GRA_PRO": 7}
 LO, HI = 1, 14          # index range (overridable: --range 15-26)

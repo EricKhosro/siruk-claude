@@ -8,8 +8,8 @@ product has nothing clean at all; those go to needs-packshot.csv for the user.
 
 Classification is by the media FILENAME. Two conventions are known —
 Trixie's CDN prefixes and Champion Petfoods' (Acana / Orijen) view-in-the-name:
-    PHO_PRO_CLIP_*   packshot   rank 1   clean
-    PHO_PAC_CLIP_*   pack       rank 2   clean
+    PHO_PAC_CLIP_*   pack       rank 1   clean    (the bag/box/tube — leads, 2026-11-13)
+    PHO_PRO_CLIP_*   packshot   rank 2   clean    (the bare product)
     PHO_PRO_GROUP*   group      rank 4   not clean
     GRA_*            drawing    rank 5   not clean
     PHO_PRO_<other>  lifestyle  rank 3   not clean (DOG/CAT/… = animal playing)
@@ -65,8 +65,10 @@ def api(method, path, payload=None):
 def classify(fname):
     f = fname or ""
     # Trixie CDN convention
-    if re.match(r"PHO_PRO_CLIP_", f): return "packshot", 1
-    if re.match(r"PHO_PAC_CLIP_", f): return "pack", 2
+    # the pack leads, the bare product follows (user 2026-11-13: Premio Stripes
+    # showed loose treats first; the customer should see the bag they buy)
+    if re.match(r"PHO_PAC_CLIP_", f): return "pack", 1
+    if re.match(r"PHO_PRO_CLIP_", f): return "packshot", 2
     if re.match(r"PHO_PRO_GROUP", f): return "group", 4
     if re.match(r"GRA_", f): return "drawing", 5
     if re.match(r"PHO_PRO_[A-Z]+_", f): return "lifestyle", 3
