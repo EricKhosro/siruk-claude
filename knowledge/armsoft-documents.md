@@ -242,6 +242,9 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   13 of its goods are not in Siruk. The journal shows prices without VAT
   (× 1.2 = the order price). Still not invoiced: TX 045091 (#12190), #11997
   Club 4 Paws × 24, #12110 3179Tx — 7,555 together.
+- Pull 2026-11-15 21:15 for 10/11–15/11: 9 invoices, all already in, nothing new. hafo
+  orders unchanged (newest still #12252); still not invoiced: TX 045091 (#12190, 875), #11997
+  Club 4 Paws chicken × 24 (5,400), #12110 3179Tx (1,280) = 7,555.
 - **2026-11-15 new goods 1653–1666** (`final/armsoft-2026-11-15/new-goods-1653-1666.xml`,
   group 00009, VAT off, unit 001, EAN on 001, price 01 by XML; CPA 2309, toy
   6307): 1653 KorMell turkey pâté 75 g 83043J (150), 1654 / 1655 Trixie Denta
