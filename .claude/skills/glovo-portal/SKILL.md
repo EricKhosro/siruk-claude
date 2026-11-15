@@ -39,6 +39,11 @@ dry run until `--apply`. Show the user the dry run and get a yes before `--apply
 
 ## 2. Prices
 
+**Rule changed 2026-11-15 (user): default Siruk ÷ 0.8, 50 ֏ under Zoovet on shared goods, floor
+Siruk + 15 % — `reference/glovo/portal.md` → "New rule". The live prices were set from
+`final/glovo/glovo-price-plan-2026-11-15.xlsx`; the script and sheet below still carry the old
+rule and must be updated before they are used again.**
+
 Prices of record for Glovo = column F of `final/glovo/siruk-glovo-products.xlsx`,
 filled by `scripts/glovo-prices-into-sheet.py`:
 - base = column N of `final/siruk-source-of-truth.xlsx` (the Yandex price,

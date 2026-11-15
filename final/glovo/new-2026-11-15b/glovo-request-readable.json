@@ -1,0 +1,501 @@
+{
+ "query": "mutation($r: CreateSimpleProductBatchPayload!){\n  createSimpleProductBatch(productsRequest:$r){\n    __typename\n    ... on SimpleProductBatchSuccess { message caseId }\n    ... on SimpleProductBatchValidationError { csvValidationErrors { error message column }\n                                               productValidationErrors { barcode errors index } } } }",
+ "variables": {
+  "r": {
+   "simpleProducts": [
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Denta Fun Rolls ոլորած ձողիկներ շների համար, բադ, 17 սմ, 3 հատ/140 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Denta Fun Rolls Duck 17 cm 3 pcs/140 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Հում կաշի՝ բադի մսի շերտով, հատկապես հաստ կաշի՝ ավելի երկար ծամելու համար, 17 սմ, 3 հատ։"
+      }
+     ],
+     "barcode": "04011905313733",
+     "imagesEncoded": [
+      "<31373.jpg, 46651 base64 chars>"
+     ],
+     "sku": "31373",
+     "brand": null,
+     "activeness": true,
+     "price": 3150.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Denta Fun Rolls ոլորած ձողիկներ շների համար, հավ, 12 սմ, 30 հատ/240 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Denta Fun Rolls Chicken 12 cm 30 pcs/240 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Denta Fun ծամելու ոլորած ձողիկներ հավի մսով, 12 սմ, 30 հատ։"
+      }
+     ],
+     "barcode": "04011905313788",
+     "imagesEncoded": [
+      "<31378.jpg, 56095 base64 chars>"
+     ],
+     "sku": "31378",
+     "brand": null,
+     "activeness": true,
+     "price": 5900.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Denta Fun Dentros ձողիկներ շների համար, հավ, 7 հատ/180 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Denta Fun Dentros with Chicken 7 pcs/180 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Ամրացնում են ատամները և ծնոտի մկանները, աջակցում են ատամների հիգիենային և թարմացնում շնչառությունը։ Առանց ավելացված շաքարի, 7 հատ։"
+      }
+     ],
+     "barcode": "04011905031736",
+     "imagesEncoded": [
+      "<3173.jpg, 51583 base64 chars>"
+     ],
+     "sku": "3173",
+     "brand": null,
+     "activeness": true,
+     "price": 1400.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Փափուկ արջուկ խաղալիք շների համար, 30 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Teddy Bear Plush Dog Toy 30 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Արջուկ՝ փափուկ խաղալիք շների համար։ Նյութը՝ փափուկ կտոր (պոլիէսթեր), չափը՝ 30 սմ։"
+      }
+     ],
+     "barcode": "04011905358598",
+     "imagesEncoded": [
+      "<35859.jpg, 62719 base64 chars>"
+     ],
+     "sku": "35859",
+     "brand": null,
+     "activeness": true,
+     "price": 4050.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "28241",
+       "locale": "hy_AM",
+       "name": "Շների համար խաղալիքներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "8in1 PRO Dental Twisted Sticks ձողիկներ շների համար, հավ, XS, 35 հատ/190 գ"
+      },
+      {
+       "locale": "en",
+       "name": "8in1 PRO Dental Twisted Sticks Chicken XS 35 pcs/190 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Հավի կրծքամիս՝ փաթաթված տավարի կաշվի մեջ, ատամնափառի դեմ բանաձևով և մաքրող հանքանյութերով։ 35 ձողիկ, 190 գ։"
+      }
+     ],
+     "barcode": "04048422122654",
+     "imagesEncoded": [
+      "<12265S.jpg, 12811 base64 chars>"
+     ],
+     "sku": "12265S",
+     "brand": null,
+     "activeness": true,
+     "price": 8700.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "8in1 Delights Spirals պարույրներ շների համար, հավ, 6 հատ/60 գ"
+      },
+      {
+       "locale": "en",
+       "name": "8in1 Delights Spirals Chicken 6 pcs/60 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Տավարի կաշվից և հավի կրծքամսից պարույրներ՝ երկար ծամելու համար։ Ցածր յուղայնություն, առանց ավելացված շաքարի։"
+      }
+     ],
+     "barcode": "04048422154761",
+     "imagesEncoded": [
+      "<15476.jpg, 82875 base64 chars>"
+     ],
+     "sku": "15476",
+     "brand": null,
+     "activeness": true,
+     "price": 2700.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "8in1 Delights Spirals պարույրներ շների համար, բադ, 6 հատ/60 գ"
+      },
+      {
+       "locale": "en",
+       "name": "8in1 Delights Spirals Duck 6 pcs/60 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Տավարի կաշվից և բադի կրծքամսից պարույրներ՝ երկար ծամելու համար։ Ցածր յուղայնություն, առանց ավելացված շաքարի։"
+      }
+     ],
+     "barcode": "04048422154822",
+     "imagesEncoded": [
+      "<15482.jpg, 85515 base64 chars>"
+     ],
+     "sku": "15482",
+     "brand": null,
+     "activeness": true,
+     "price": 2700.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "8in1 Tasties Calcium Bones կալցիումի ոսկորիկներ շների համար, հավ, 85 գ"
+      },
+      {
+       "locale": "en",
+       "name": "8in1 Tasties Calcium Bones Chicken 85 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Հավի կրծքամիս՝ փաթաթված կալցիումի ոսկորիկի շուրջ։ Ցածր յուղայնություն, առանց ավելացված շաքարի։"
+      }
+     ],
+     "barcode": "04048422152781",
+     "imagesEncoded": [
+      "<15278.jpg, 75055 base64 chars>"
+     ],
+     "sku": "15278",
+     "brand": null,
+     "activeness": true,
+     "price": 2150.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Mnyams Dental ատամնային սնեք շների համար, տավարի միս, 95 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Mnyams Dental Snack for Dogs Beef 95 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Տավարի մսով հյուրասիրություն մեծ ցեղատեսակների շների համար. մաքրում է ատամները, կանխում ատամնափառը և մերսում լնդերը։"
+      }
+     ],
+     "barcode": "04630147176793",
+     "imagesEncoded": [
+      "<176793.jpg, 41175 base64 chars>"
+     ],
+     "sku": "176793",
+     "brand": null,
+     "activeness": true,
+     "price": 1100.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Mnyams Dental ատամնային ձողիկներ շների համար, տավարի միս, 100 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Mnyams Dental Sticks for Dogs Beef 100 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Տավարի մսով ատամնային ձողիկներ հասուն շների և 3 ամսականից բարձր ձագերի համար. կանխում են ատամնափառը և մերսում լնդերը։"
+      }
+     ],
+     "barcode": "04630147170432",
+     "imagesEncoded": [
+      "<170433.jpg, 46831 base64 chars>"
+     ],
+     "sku": "170433",
+     "brand": null,
+     "activeness": true,
+     "price": 1500.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Mnyams Dental ատամնային ձողիկներ շների համար, քլորոֆիլ և ճագար, 100 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Mnyams Dental Sticks for Dogs Chlorophyll & Rabbit 100 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Քլորոֆիլով ատամնային ձողիկներ հասուն շների և 3 ամսականից բարձր ձագերի համար. կանխում են ատամնափառը և թարմացնում շնչառությունը։"
+      }
+     ],
+     "barcode": "04630147170456",
+     "imagesEncoded": [
+      "<170453.jpg, 45315 base64 chars>"
+     ],
+     "sku": "170453",
+     "brand": null,
+     "activeness": true,
+     "price": 1500.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Mnyams Dental ատամնային ոսկորիկներ շների համար, տավարի միս, 70 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Mnyams Dental Bones for Dogs Beef 70 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Ատամնային ոսկորիկներ հասուն շների և 3 ամսականից բարձր ձագերի համար. մաքրում են ատամները և կանխում ատամնափառը։"
+      }
+     ],
+     "barcode": "04630147170425",
+     "imagesEncoded": [
+      "<170423.jpg, 45463 base64 chars>"
+     ],
+     "sku": "170423",
+     "brand": null,
+     "activeness": true,
+     "price": 1000.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

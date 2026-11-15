@@ -232,6 +232,48 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   7 invoices, **all already in** (A8519891402, A8707682798, A0750259960,
   A1433256986, A2164605176, A9066878431, A1771977413), nothing new. hafo
   orders #12237 / #12238 still have no invoice.
+- Pull 2026-11-15 18:09 for 10/11–15/11: 9 invoices, **2 imported now**, both
+  Pet House, 15/11, **not received** (each has goods Siruk lacks; lines in
+  `state/open-items.csv`): **A1614547319** (54,528) = hafo #12252 (15/11,
+  53,124) with 28 of each Kormell pâté instead of 24 — turkey 83043J is new,
+  chicken 0349, duck 0351, ACANA Grass-Fed Lamb 11.4 kg 0074 @ 44,700;
+  **A3182055782** (53,130, 23 lines / 31 units) = hafo #12237 + #12238
+  (48,725) plus one more Simple'n'Clean 5 l and one more Dentros 3173Tx —
+  13 of its goods are not in Siruk. The journal shows prices without VAT
+  (× 1.2 = the order price). Still not invoiced: TX 045091 (#12190), #11997
+  Club 4 Paws × 24, #12110 3179Tx — 7,555 together.
+- **2026-11-15 new goods 1653–1666** (`final/armsoft-2026-11-15/new-goods-1653-1666.xml`,
+  group 00009, VAT off, unit 001, EAN on 001, price 01 by XML; CPA 2309, toy
+  6307): 1653 KorMell turkey pâté 75 g 83043J (150), 1654 / 1655 Trixie Denta
+  Fun Rolls duck 3 pcs/140 g 31373 (2,750) and chicken 30 pcs/240 g 31378
+  (5,150), 1656 Trixie Dentros with Chicken 180 g 3173 (1,200), 1657 Trixie
+  Teddy Bear 30 cm 35859 (3,550), 1658 8in1 PRO Dental Twisted Sticks XS 190 g
+  12265S (7,600), 1659 / 1660 8in1 Delights Spirals chicken / duck 60 g 15476 /
+  15482 (2,350), 1661 8in1 Tasties Calcium Bones 85 g 15278 (1,850), 1662
+  SmartBones Peanut Butter Bones 2 pcs/158 g 02721S (2,850; new Siruk brand
+  55), 1663 / 1664 Mnyams Dental Sticks beef / chlorophyll & rabbit 100 g
+  170433 / 170453 (1,300), 1665 Mnyams Dental Bones beef 70 g 170423 (850),
+  1666 Mnyams Dental Snack beef 95 g 176793 (950). Siruk: variants 2275–2278
+  added to 1052 / 521 / 1047, new products 1481–1486 (variants 2279–2285),
+  codes set; 1663–1665 = Siruk products 1487 Dental Sticks (variants 2286, 2287) and
+  1488 Dental Bones (2288), created with `--force` on the user's yes after
+  `siruk create` refused them as look-alikes of other brands' products. hafo "DENTAL - HARD chlorophyll" = mnyams.ru «Зубные палочки» с
+  хлорофиллом и кроликом (art. 170456); hafo "MEDIUM bones, phytocomplex 70 g"
+  = «Зубные косточки» с говядиной (170425). Glovo: ACANA Grass-Fed Lamb,
+  31225, 4026, 31347 switched back on 19:10; 12 new goods sent to review, case
+  **500bO000018w3IDQAY** (`final/glovo/new-2026-11-15b/`; KorMell turkey and
+  SmartBones held back for a clean photo). Sent at Siruk + 14 %; the user then
+  chose **Siruk + 20 %** (rounded up to 50) for these 12 — none is on Zoovet's
+  Glovo store — and `glovo-portal.py set-price` applied it (3,300 6,200 1,450
+  4,300 9,150 2,850 2,850 2,250 1,150 1,600 1,600 1,050). Whether +20 % becomes
+  the general base instead of +14 % is not decided.
+- **Lens on this Windows machine** (2026-11-15): `.venv-scrapling` did not exist; `python -m venv
+  .venv-scrapling` + `pip install "scrapling[fetchers]"` and `scripts/google-lens.py` ran with
+  `.venv-scrapling/Scripts/python.exe`, no CAPTCHA, 9 jobs in ~8 min. Lens results carry the page
+  url, not the image: the photo comes from the page's `og:image`. `scripts/hafo-audit.py` is too
+  slow here (reads every product) and its file-name test misfires on `…-s1350x1350.jpg`; a
+  contact sheet of the suspects found the three real hafo photos (83043J, 02721S, 12265S), all
+  replaced the same evening.
 - **2026-11-15 new goods 1646–1652** (`final/armsoft-2026-11-15/new-goods-1646-1652.xml`,
   group 00009, VAT off, unit 001, EAN on 001, price type 01 by XML): 1646 Trixie
   puppy toilet Nappy Loo 49 × 41 cm 23415 (5,850, CPA 3924), 1647 / 1648 / 1649
@@ -251,8 +293,9 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   Glovo's review the same day: `final/glovo/new-2026-11-15/glovo-new-2026-11-15.xlsx`,
   price = Siruk + 14 % rounded up to 50 (no Zoovet match looked up), categories
   from the map (7074 / 20619 / 7077 / 7078), with their EANs, case
-  **500bO000018v24qQAA** ("All the operations were successful"); not reviewed
-  yet (`glovo-add-products.py … --review`). `jq` 1.8.2 was installed with
+  **500bO000018v24qQAA** ("All the operations were successful"); `--review` the same
+  afternoon: all 7 SUCCESS, prices and categories kept, Glovo reworded 6
+  titles (KF5200811's hy title lost "light wood"). `jq` 1.8.2 was installed with
   winget for this (user yes) — it lands in `%LOCALAPPDATA%\Microsoft\WinGet\Links`,
   which a running session must add to PATH; `uv` is still not on PATH
   (`python -m siruk …` works; set `PYTHONUTF8=1` and, in Git Bash,
@@ -267,6 +310,8 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0047** | 15/11 | Pet House **A3182055782** (15/11, 53,130 incl. VAT, 23 lines / 31 pcs) = hafo #12237 + #12238 plus 1 more 0217 and 1 more 1656: 1007 @ 3,500; new 1654 × 2 @ 1,715; 0407 @ 685; 1011 @ 965; 1015 @ 1,685; new 1657 @ 2,215; new 1658 @ 4,900; new 1662 × 2 @ 1,835; new 1661 @ 1,190; new 1659, 1660 @ 1,515; new 1664, 1663 @ 810; new 1665 @ 530; new 1666 @ 590; 0449 × 3 @ 1,450; 0512 @ 1,160; 0217 × 2 @ 3,655; new 1656 × 2 @ 750; 0573 × 2 @ 1,340; new 1655 @ 3,215; 0632 @ 1,655; 0633 × 2 @ 1,625 | posted by Claude, user asked |
+| receipt **0046** | 15/11 | Pet House **A1614547319** (15/11, 54,528) = hafo #12252 with 28 of each pâté instead of 24: new 1653 × 28, 0349 × 28, 0351 × 28 @ 117; 0074 ACANA Grass-Fed Lamb 11.4 kg as **003 × 1 @ 44,700**. Both in `final/armsoft-2026-11-15/pethouse-receipts-0046-0047.xml` | posted by Claude, user asked |
 | receipt **0045** | 15/11 | Pet House **A0750259960** (14/11, 5,400 incl. VAT) = hafo order #12225: 0399 Club 4 Paws Sterilised chicken jelly 80 g × 24 @ 225. Siruk variant 885 was out of stock since 28/10 → stock set back to 10 | posted by Claude, user asked |
 | receipt **0044** | 15/11 | Pet House **A8707682798** (14/11, 4,305) = hafo #12220: 1620 × 3 @ 355, 1121 1122 1123 × 1 @ 625, 0559 Beaphar Cat-a-dent Bits 35 g × 1 @ 805, new **1652** Trixie Dentinos 50 g × 1 @ 560 | posted by Claude, user asked |
 | receipt **0043** | 15/11 | Pet House **A8519891402** (14/11, 11,400) = hafo #12211: 1001 × 3 @ 1,190, 0499 × 3 @ 1,450, 0512 × 3 @ 1,160 | posted by Claude, user asked |

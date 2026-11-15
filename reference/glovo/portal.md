@@ -357,6 +357,18 @@ It needs the headers `glovo-app-platform: web`, `glovo-app-type: customer`,
 - **Price under Zoovet's Glovo price: 50–200 ֏, not 5%** (user 2026-11-15: on expensive goods
   the Yandex 5% undercut was thousands of ֏). A matched row is priced zp − 50/100/150/200 by
   our net at zp, raised as well as lowered (`glovo-prices-into-sheet.py` `TIERS`, skill §2).
+- **New rule, user 2026-11-15 evening (replaces the +14 % base and the 50–200 tiers):**
+  Glovo keeps 20 % of the Glovo price, so the default is **Siruk price ÷ 0.8** (+25 %),
+  rounded up to 50 ֏ — a Glovo sale then earns the shop profit. A product Zoovet also sells
+  (a checked match, in stock, not a per-kg / per-piece price): **50 ֏ under Zoovet** (rounded
+  down to 50, to 10 when that opens a gap over 100). **Floor: Siruk + 15 %** rounded up to 50
+  — below that we stop following Zoovet. Why: at +14 % a typical product kept 77 % of its shop
+  profit; Zoovet's Glovo prices are a median 1.30 × our Siruk prices (124 comparable matches).
+  Applied to the whole store that evening from `final/glovo/glovo-price-plan-2026-11-15.xlsx`
+  (builder `runs/2026-11-15/glovo_price_plan.py`; 1,610 changes).
+  **`glovo-prices-into-sheet.py` and `final/glovo/siruk-glovo-products.xlsx` still hold the
+  old rule — do not run `fill --write` + `prices` from them until the script is updated, or
+  it will put the old prices back.**
 
 **Zoovet's title pattern** (its newer, consistent titles):
 `<Brand> <Line, Latin> <what it is, lowercase Armenian> <main flavour -ով> <for whom … համար>, <size>`.
