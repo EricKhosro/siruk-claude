@@ -50,6 +50,35 @@ first. Unit and cost traps: `knowledge/goods-setups.md`,
 Nothing new → tell the seller "no new invoices", record the pull date (step
 6) and finish.
 
+## 1b. The invoice is what arrived — the hafo order is only what we asked for (user 2026-11-15)
+
+hafo doesn't always send what was ordered. **The supplier's e-invoice is the
+source of truth for what came into the shop**: what is on it, in its
+quantities and at its prices, is what gets received. A hafo order
+(hafo.am/my-orders) is never received from, never used to add, drop or change
+a line, and never a reason to hold an invoice. The one exception stays the
+user's own word about a specific line ("sent by mistake — skip it", receipt
+0036).
+
+The order is only used to see what is **missing**, at the office (the shop
+has no hafo login; there, skip this step):
+
+1. With the user signed in to hafo.am in the built-in browser (never sign in
+   for them), read every order since the last one settled in
+   `knowledge/armsoft-documents.md` — `/hafo-restock` step 5 has the snippet.
+2. Pair orders with invoices by total, then line by line (name, quantity,
+   price). An order often equals one or two invoices to the dram.
+3. Report two sums, every time:
+   - **invoiced, not yet received** — goods invoices with no receipt, incl. VAT;
+   - **ordered, not invoiced** — whole orders with no invoice, plus single
+     lines left off an invoice, at the order's prices.
+4. Write the "ordered, not invoiced" lines to `state/open-items.csv`
+   ("Waiting: Pet House invoice for hafo order #N"), and close a row once
+   its invoice comes. They are not stock and not owed until invoiced: no
+   temporary receipt, unless the user asks for one.
+5. A line invoiced but never ordered, or in another quantity: receive it as
+   invoiced and tell the user, who settles it with Pet House.
+
 ## 2. Match every line
 
 Per new invoice open the lines (tab Անվանացուցակ / Ապրանքացանկ). Every line

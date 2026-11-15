@@ -5,14 +5,19 @@ those columns and that sheet each time and leaves everything else alone.
 
 Every cell holds a plain value (no formulas: viewers that don't recalculate show
 formula cells empty). The rule, with the settings sheet's values:
-  a checked Zoovet match ("same"): max(floor(Zoovet price × (1 − undercut)), Zoovet floor)
+  a checked Zoovet match ("same"): max(Zoovet price − U, Zoovet floor), U = 50–200 ֏ by our net
+                                   per unit at Zoovet's price (TIERS; user 2026-11-15: the old 5%
+                                   was a lot on expensive goods). Same tiers as Glovo
+                                   (scripts/glovo-prices-into-sheet.py).
   otherwise:                       max(ceiling(Siruk price × (1 + uplift)), floor price)
   floor price  = ceiling(cost ÷ (1 − commission − minimum margin))
   Zoovet floor = ceiling(cost ÷ (1 − commission − minimum margin under Zoovet)), all to 50 ֏.
 The lower Zoovet floor (user 2026-11-05) keeps every matched item cheaper than
 Zoovet; at 15% on every row, 65 matched items came out equal to or above it.
 To change the rule, edit the yellow cells on "Yandex pricing" and re-run: the
-script reads them back from the file.
+script reads them back from the file (by the setting's name).
+Zoovet's matches come from .siruk-cache/yandex/; without that cache the script keeps the
+match columns L, M, Q, R already in the sheet.
 
   uv run --no-sync --with openpyxl python scripts/yandex-prices-into-sot.py
 """
@@ -28,7 +33,9 @@ SHORT = os.path.join(ROOT, 'final', 'yandex', 'siruk-yandex-prices-short.xlsx')
 CACHE = os.path.join(ROOT, '.siruk-cache', 'yandex')
 SETTINGS = [
     ('Yandex commission', 0.20, 'placeholder until the contract rate is known (user 2026-11-02: keep 20%)'),
-    ('Undercut vs Zoovet on Yandex', 0.05, "how much cheaper than Zoovet's Yandex price"),
+    ('Largest undercut vs Zoovet on Yandex (֏)', 200,
+     "50–200 ֏ under Zoovet by our net per unit at Zoovet's price: net < 500 → 50, < 1500 → 100, "
+     '< 3000 → 150, else 200 (user 2026-11-15; was 5%)'),
     ('Minimum net margin after commission', 0.15, 'floor price = cost ÷ (1 − commission − this)'),
     ('Uplift on the Siruk price when Zoovet has no such item', 0.14,
      "Zoovet's Yandex prices are a median 1.20× our Siruk prices; 1.20 × (1 − 5%) ≈ +14%"),
@@ -43,24 +50,45 @@ HEAD = ['Zoovet Yandex item', 'Zoovet Yandex price (AMD)', 'Suggested Yandex pri
 # even where Zoovet sells the same item. User 2026-11-05: Royal Canin is out of stock
 # across the city, so it sells without being cheaper than Zoovet.
 NO_UNDERCUT = ('Royal Canin',)
+# Undercut under Zoovet by our net per unit at Zoovet's price: (net below this, undercut ֏).
+TIERS = ((500, 50), (1500, 100), (3000, 150), (math.inf, 200))
+FINE_ROUND = 10
 WIDTH = dict(L=55, M=12, N=13, O=10, P=26, Q=11, R=34, S=14, T=11, U=10)
 
 
 def main():
-    matches = {m['variant_id']: m for m in json.load(open(os.path.join(CACHE, 'zoovetam-matches.json'), encoding='utf-8'))['matches']}
-    verdicts = json.load(open(os.path.join(CACHE, 'zoovetam-verdicts.json'), encoding='utf-8'))
-
     wb = openpyxl.load_workbook(SOT)
     ws = wb.worksheets[0]
+    if os.path.exists(os.path.join(CACHE, 'zoovetam-matches.json')):
+        matches = {m['variant_id']: m for m in json.load(open(os.path.join(CACHE, 'zoovetam-matches.json'), encoding='utf-8'))['matches']}
+        verdicts = json.load(open(os.path.join(CACHE, 'zoovetam-verdicts.json'), encoding='utf-8'))
+    else:                                            # no cache on this machine: keep the sheet's own match columns
+        matches, verdicts = {}, {}
+        for r in range(2, ws.max_row + 1):
+            m = re.search(r'/dp/(\d+)', ws[f'H{r}'].value or '')
+            if m and ws[f'L{r}'].value and isinstance(ws[f'M{r}'].value, (int, float)):
+                vid = int(m.group(1))
+                matches[vid] = {'variant_id': vid, 'rival_name': ws[f'L{r}'].value, 'rival_price': ws[f'M{r}'].value}
+                verdicts[str(vid)] = {'verdict': ws[f'Q{r}'].value or 'unchecked', 'note': ws[f'R{r}'].value or ''}
+        print(f'no {CACHE}: {len(matches)} Zoovet matches kept from the sheet')
 
     settings = [list(r) for r in SETTINGS]
     if 'Yandex pricing' in wb.sheetnames:            # keep the user's edits to the yellow cells
         old = wb['Yandex pricing']
-        for i, row in enumerate(settings, start=2):
-            if isinstance(old[f'B{i}'].value, (int, float)):
-                row[1] = old[f'B{i}'].value
+        had = {old[f'A{i}'].value: old[f'B{i}'].value for i in range(2, old.max_row + 1)}
+        for row in settings:
+            if isinstance(had.get(row[0]), (int, float)):
+                row[1] = had[row[0]]
         del wb['Yandex pricing']
-    comm, under, minm, upl, rnd, minz = (r[1] for r in settings)
+    comm, maxu, minm, upl, rnd, minz = (r[1] for r in settings)
+
+    def under_zoovet(rival, cost):
+        """Zoovet's price − U (TIERS), down to 50 ֏ if the gap stays ≤ the largest undercut, else to 10 ֏."""
+        u = min(next(u for limit, u in TIERS if rival * (1 - comm) - cost < limit), maxu)
+        for step in (rnd, FINE_ROUND, 1):
+            p = math.floor(round((rival - u) / step, 6)) * step
+            if rival - p <= maxu:
+                return p
     up = lambda x: math.ceil(round(x / rnd, 6)) * rnd
     down = lambda x: math.floor(round(x / rnd, 6)) * rnd
     st = wb.create_sheet('Yandex pricing')
@@ -104,7 +132,7 @@ def main():
         exempt = same and (ws[f'A{r}'].value or '').startswith(NO_UNDERCUT)
         if same and not exempt:
             rival = float(mm['rival_price'])
-            want = down(rival * (1 - under))
+            want = under_zoovet(rival, cost)
             zfloor = up(cost / (1 - comm - minz)) if cost else 0
             sug = max(want, zfloor)
             basis = 'under Zoovet' if want >= floor else ('under Zoovet, lower margin' if want >= zfloor

@@ -37,6 +37,13 @@ What it decides from:
    - when in doubt, compare an order's lines with the goods' receipt column in
      the turnover export (Պահեստի մուտքի օրդեր).
 
+   **An order is a request, not a delivery** (user 2026-11-15): hafo may send
+   less, more or something else, and the e-invoice says what really came
+   (`/receive-invoices` → 1b). So count a line as on the way only while it is
+   neither invoiced nor received; a line left off its order's invoice for
+   more than a few days is probably not coming — say so and let the user
+   decide whether to reorder it.
+
    Read each open order's lines with this snippet and save them as
    `runs/<today>/hafo-pending.json`:
    ```js

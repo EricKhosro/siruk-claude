@@ -180,11 +180,98 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   Kaskad stitched canvas lead 25 mm × 5 m / 20 mm × 2 m (5,100 / 2,650), 1645
   Trixie Premium lead XS royal blue (3,000); leads CPA 4201. Siruk first:
   products 1469–1475 (variants 2259–2267) with these accounting codes.
+- Pull 2026-11-15 11:23 for 07/11–15/11 (office; driven from PowerShell, the
+  computer-use tools were not loaded): 13 invoices, 4 imported now
+  (A8519891402, A8707682798, A0750259960, A3595953555), 9 already in.
+  **A3595953555** («ՀԱՅԿԱԿԱՆ ԾՐԱԳՐԵՐ», 09/11, 19,000) = the ArmSoft
+  subscription, a service, no receipt. Found in Գնման փաստաթղթեր and not in
+  these notes before: **receipt 0039** (12/11, A9066878431 of 10/11, 31,175)
+  and **receipt 0040** (12/11, A1771977413 of 10/11, 34,640), both Pet House,
+  posted — together 65,815 = hafo order #12126's total; and two **0.00**
+  receipts with reused numbers, no supplier, no comment: **0019** (11/11) and
+  **0020** (14/11) — lines not opened, who made them not checked.
+  **Five Pet House invoices have no receipt** (none has a replacement note;
+  no line is mapped to an ArmSoft code by the invoice; prices incl. VAT;
+  candidates from the 05/11 goods export by name only — cost, Siruk variant
+  and goods added after 05/11 not checked):
+  - **A1433256986** (13/11, 10,055): ceramic bowl wide-rim 0.6 l / 23 cm grey
+    1 @ 3,215; ceramic bowl with cat picture, grey, 0.25 l / 13 cm 1 @ 1,250;
+    ceramic bowl «Մալինոլի», white petals, high, 0.15 l / 13 cm 1 @ 1,935;
+    puppy toilet with rubber base 49 × 41 cm beige 1 @ 3,655. No candidate.
+  - **A2164605176** (13/11, 7,300): cat litter light wood 2 kg / 6 l 1 @ 1,060
+    (0235); light wood 6 kg / 18 l 1 @ 2,590 (none); dark wood 2 kg / 6 l
+    1 @ 1,060 (0238); dark wood 6 kg / 18 l 1 @ 2,590 (none).
+  - **A8519891402** (14/11, 11,400): Filet chicken PRO DENTAL 80 g 3 @ 1,190
+    (1001); dog duck sticks 90 g 3 @ 1,450 (0499); calcium bone for dogs'
+    teeth 4 pcs 90 g 3 @ 1,160 (none: 0510 is 60 g).
+  - **A8707682798** (14/11, 4,305): cat pillows salmon purée 30 g 3 @ 355
+    (1620); cat purée 5×14 g chicken / tuna & shrimp / tuna & whitefish 1 each
+    @ 625 (1121 1122 1123); cat treat pillow-shaped 35 g 1 @ 805 (none);
+    Dentinos Denta Fun 50 g cat 1 @ 560 (none).
+  - **A0750259960** (14/11, 5,400): Club 4 Paws jelly for cats Sterilised 80 g
+    24 @ 225 (0399 by exact name). Not the 24 chicken-in-gravy 85 g pouches
+    (0342) still awaited for order #11997 — same count and price, other name.
+  - **Against the hafo orders** (hafo.am/my-orders, built-in browser,
+    2026-11-15): #12126 (09/11, 65,815) = A9066878431 + A1771977413 by total
+    (receipts 0039 / 0040; lines not compared). **#12190** (12/11, 18,230,
+    9 lines) = A1433256986 + A2164605176 (17,355) **minus one line not
+    invoiced: cat teaser with feather TX 045091 × 1 @ 875**. Its hafo SKUs:
+    puppy toilet 23415Tx, bowls 24652Tx / 24797Tx / 24802Tx, Kotoffey wood
+    litter KF 5200811 (light 18 l), KF 5200411 (light 6 l), KF 5200311 (dark
+    6 l), KF 5200711 (dark 18 l). **#12211** (13/11, 11,400) = A8519891402
+    line for line: 11235S, DL 711226, DL 304006 (the "calcium bone 4 pcs
+    90 g"). **#12220** (14/11, 4,305) = A8707682798: 207766, TX 042661
+    (Dentinos), 11406 (pillow-shaped 35 g), 42681Tx / 42682Tx / 42683Tx.
+    **#12225** (14/11, 5,400) = A0750259960: 908935 Club 4 Paws Sterilised
+    chicken jelly 80 g × 24. **Not invoiced yet**: #12237 (14/11 17:38,
+    42,855, 21 lines / 27 units, dog dental treats) and #12238 (14/11 19:42,
+    5,870: plush bear toy 35859Tx 2,215 + Simple'n'Clean silicate litter 5 l
+    TX 040261 3,655); still also #11997's Club 4 Paws chicken × 24 and
+    #12110's Premio pâté 3179Tx.
+- Pull 2026-11-15 14:24 for 10/11–15/11 (office, user asked to check again):
+  7 invoices, **all already in** (A8519891402, A8707682798, A0750259960,
+  A1433256986, A2164605176, A9066878431, A1771977413), nothing new. hafo
+  orders #12237 / #12238 still have no invoice.
+- **2026-11-15 new goods 1646–1652** (`final/armsoft-2026-11-15/new-goods-1646-1652.xml`,
+  group 00009, VAT off, unit 001, EAN on 001, price type 01 by XML): 1646 Trixie
+  puppy toilet Nappy Loo 49 × 41 cm 23415 (5,850, CPA 3924), 1647 / 1648 / 1649
+  Trixie ceramic bowls 24652 / 24797 / 24802 (2,000 / 3,100 / 5,150, CPA 6912),
+  1650 / 1651 Kotoffey light / dark wood litter 6 kg (18 l) (4,150, CPA 4401),
+  1652 Trixie Dentinos with Vitamins 50 g, art. 4266 (900, CPA 2309). Siruk:
+  variants 2268–2273 already existed without a code (products 1476–1479,
+  1318, 1317; added 13/11) and got these codes; **Dentinos was new → Siruk
+  1480**, variant 2274 (hafo TX 042661, EAN 4011905042664, 900 / cost 560,
+  trixie.de texts and 4 photos, ru / hy). Glovo price type 02 not set for
+  1646–1652 yet. The invoice's "pillow-shaped 35 g" is Beaphar Cat-a-dent
+  Bits (hafo 11406, ArmSoft 0559); its "calcium bone 4 pcs 90 g" is DL304006
+  (ArmSoft 0512).
+- **Glovo after receipts 0041–0045** (2026-11-15): KF5200411 and KF5200311
+  switched back on; the other nine restocked goods were already on. The seven
+  new goods (23415 24652 24797 24802 KF5200811 KF5200711 4266) were sent to
+  Glovo's review the same day: `final/glovo/new-2026-11-15/glovo-new-2026-11-15.xlsx`,
+  price = Siruk + 14 % rounded up to 50 (no Zoovet match looked up), categories
+  from the map (7074 / 20619 / 7077 / 7078), with their EANs, case
+  **500bO000018v24qQAA** ("All the operations were successful"); not reviewed
+  yet (`glovo-add-products.py … --review`). `jq` 1.8.2 was installed with
+  winget for this (user yes) — it lands in `%LOCALAPPDATA%\Microsoft\WinGet\Links`,
+  which a running session must add to PATH; `uv` is still not on PATH
+  (`python -m siruk …` works; set `PYTHONUTF8=1` and, in Git Bash,
+  `MSYS_NO_PATHCONV=1`). The stock check also listed 21 goods to switch off as
+  sold out — applied at 12:52 from a second export taken at 12:51 (identical to the 11:54 one; user asked for a fresh one): 18 at stock 0 and 3 bags with no sealed bag left (0022 6.4 of 7 kg, 1450 7 of 8 kg, 1459 4 of 7 kg). `final/glovo/glovo-availability-2026-11-15-1250.xlsx`; the re-run says 0 to switch off. Two of the 21 (Trixie 31347, 4026) are on hafo orders #12237 / #12238, delivered per the user but not invoiced, so not in ArmSoft.
+- **Driving ArmSoft without computer use** (2026-11-15): `scripts/armsoft-drive.ps1`
+  (`-Do front|shot|click|dbl|drag|keys|paste|wins`, screen pixels, a capture
+  after each step, Armenian text pasted from a UTF-8 file) did the pull, both
+  exports, the XML imports and the posting.
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0045** | 15/11 | Pet House **A0750259960** (14/11, 5,400 incl. VAT) = hafo order #12225: 0399 Club 4 Paws Sterilised chicken jelly 80 g × 24 @ 225. Siruk variant 885 was out of stock since 28/10 → stock set back to 10 | posted by Claude, user asked |
+| receipt **0044** | 15/11 | Pet House **A8707682798** (14/11, 4,305) = hafo #12220: 1620 × 3 @ 355, 1121 1122 1123 × 1 @ 625, 0559 Beaphar Cat-a-dent Bits 35 g × 1 @ 805, new **1652** Trixie Dentinos 50 g × 1 @ 560 | posted by Claude, user asked |
+| receipt **0043** | 15/11 | Pet House **A8519891402** (14/11, 11,400) = hafo #12211: 1001 × 3 @ 1,190, 0499 × 3 @ 1,450, 0512 × 3 @ 1,160 | posted by Claude, user asked |
+| receipt **0042** | 15/11 | Pet House **A2164605176** (13/11, 7,300) = part of hafo #12190: 0235 and 0238 (2 kg / 6 l) × 1 @ 1,060, new **1650** light and **1651** dark wood litter 6 kg / 18 l × 1 @ 2,590 | posted by Claude, user asked |
+| receipt **0041** | 15/11 | Pet House **A1433256986** (13/11, 10,055) = part of hafo #12190: new **1649** bowl 24802 @ 3,215, **1647** bowl 24652 @ 1,250, **1648** bowl 24797 @ 1,935, **1646** puppy toilet 23415 @ 3,655, 1 each. All five receipts in one file, `final/armsoft-2026-11-15/pethouse-receipts-0041-0045.xml` (five `MTIncome` in one XML import fine) | posted by Claude, user asked |
 | receipt **0038** | 09/11 | Pet House **A8770854680** (09/11, 23,000 incl. VAT): 0071 Club 4 Paws rabbit 14 kg as **003 × 1 @ 23,000** (23,000 / 14 doesn't fit 2 decimals). Stock after 1.536 bags. File `final/armsoft-2026-11-09/pethouse-A8770854680-receipt-0038.xml` | posted by Claude, user yes |
 | receipt **0037** | 09/11 | Pet House **A2576225977** (09/11, 19,330 incl. VAT, 11 pcs): new 1640 1641 (3,090), 1642 (2,500), 1643 (3,185), 1644 (1,655), 1645 (1,875); 1620 1621 1622 × 1 @ 355, 1038 @ 1,655, 1114 @ 1,215 | posted by Claude, user yes |
 | receipt **0036** | 09/11 | Pet House **A2631104009** (08/11) **without** the boards 48020 / 48021 (sent by mistake, user): 32,815 of 42,815. 1606 @ 2,000, 0418 / 0421 × 2 @ 515, 1121 1122 1123 × 3 @ 625, new 1638 @ 7,560, 0153 × 2 @ 3,785, new 1639 × 100 (001) @ 80 | posted by Claude, user yes |
