@@ -374,6 +374,44 @@ def cmd_recheck_prices(a):
     return 1 if bad else 0
 
 
+def cmd_restock_check(a):
+    from siruk import restock
+    lines = restock.load_lines(a.lines)
+    show = None if a.json else (lambda r: print(
+        f"{r['line_code']:>6} {r['sku']:<14} cost {r['siruk_cost']}→{r['new_cost']} {r['cost_status']:<12} "
+        f"price {r['siruk_price']} | hafo {r['hafo']} zoovet {r['zoovet']} nemo {r['nemo']} → {r['price_status']}"))
+    rows = restock.check(lines, progress=show)
+    path = restock.write_csv(rows, a.out)
+    fx = restock.fixes(rows)
+    if a.json and not a.apply:
+        output.dump({"summary": restock.summary(rows), "fixable": fx, "csv": path, "rows": rows})
+        return 0
+    if not a.json:
+        for r in rows:
+            if r["flags"]:
+                print(f"  !! {r['line_code']} {r['sku']}: {r['flags']}")
+        print("\n== summary ==", restock.summary(rows), "\n→", path)
+    if not a.apply:
+        print(f"{sum(len(v) for v in fx.values())} variant(s) would be updated; run with --apply")
+        return 0
+    bad = 0
+    for pid, patches in fx.items():
+        try:
+            for res in restock.apply(pid, patches, dry_run=True):
+                output.diff(res.diff)
+            if not _confirm(a, f"restock cost / price on product {pid}"):
+                continue
+            for res in restock.apply(pid, patches, dry_run=a.dry_run):
+                for w in res.warnings:
+                    print(f"  !! {pid}/{w}")
+                print(("dry run " if a.dry_run else "ok  ") + f"{pid}: " + ", ".join(
+                    f"{d['sku']} {d['field']} {d['old']}→{d['new']}" for d in res.diff))
+        except PayloadError as e:
+            bad += 1
+            print(f"  !! {e}")
+    return 1 if bad else 0
+
+
 def cmd_bulk_create(a):
     from siruk import bulk, verify
     items = []
@@ -606,7 +644,15 @@ def build_parser():
     p.add_argument("--apply", action="store_true", help="also fix the unflagged mismatches (asks per product)")
     p.add_argument("--out", help="csv path (default runs/<date>/price-check.csv)")
     p.add_argument("--paced", action="store_true", help="keep config.json pacing incl. chunk pauses (default: minimum 1 s gap only)")
-    p = add("export", cmd_export, "the catalogue export (one row per variant) → xlsx/json/csv, or --audit")
+    p = add("restock-check", cmd_restock_check,
+            "after a receipt: invoice cost vs Siruk cost, and the highest of hafo / zoovet / nemo vs our price "
+            "→ runs/<date>/restock-check.csv", writes=True)
+    p.add_argument("lines", nargs="+",
+                   help="CODE=COST (ArmSoft good code or SKU = invoice cost incl. VAT per pack; "
+                        "CODE=COST/kg for a per-kg cost), or a .json / .csv file of code,cost[,per]")
+    p.add_argument("--apply", action="store_true", help="also write the unflagged changes (asks per product)")
+    p.add_argument("--out", help="csv path (default runs/<date>/restock-check.csv)")
+    p = add("export", cmd_export,"the catalogue export (one row per variant) → xlsx/json/csv, or --audit")
     p.add_argument("--lang", choices=["en", "ru", "hy"], default="en")
     p.add_argument("--format", choices=["xlsx", "json", "csv"], default="xlsx")
     p.add_argument("-o", "--out", help="file path (default runs/<date>/products_<lang>_<date>.<format>)")

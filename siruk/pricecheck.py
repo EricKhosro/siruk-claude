@@ -56,7 +56,11 @@ class Hafo:
         self.opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(self.jar))
         self.csrf = None
         self.cache_path = os.path.join(CACHE, "hafo-price-cache.json")
+        # the listing cache only saves repeat searches within one day's run: an older file
+        # would answer a recheck with last month's hafo prices (found 2026-11-15)
         try:
+            if datetime.date.fromtimestamp(os.path.getmtime(self.cache_path)) != datetime.date.today():
+                raise OSError("stale")
             with open(self.cache_path, encoding="utf-8") as f:
                 self.cache = json.load(f)
         except (OSError, ValueError):

@@ -157,6 +157,48 @@ or `scripts/nemo-lookup.py --url <the product's url>` by hand and compare its
 zoovet/nemo-priced so they're not silently skipped by the periodic hafo-only
 check.
 
+## Restock check: cost and price after every receipt (user, 2026-11-15)
+
+A restock used to change nothing on Siruk: a variant kept the cost of its first
+import, and its price was only looked at again when someone ran the hafo
+recheck. Now every posted receipt is followed by
+
+`siruk restock-check <code>=<cost> … [--apply]` → `runs/<date>/restock-check.csv`
+
+one argument per received line: the ArmSoft good code (or the SKU) and the
+invoice cost **incl. VAT per pack** (`0352=1400`), or per kg for a bag booked by
+the kilo (`0403=3935/kg`). A `.json` / `.csv` file of `code,cost[,per]` works too.
+
+**Cost.** The invoice cost replaces `cost_price` when it differs. The variants
+made from the same pack follow by rule 8a: `<sku>-KG` = pack cost ÷ pack kg,
+`<sku>-100G` = ÷ (pack g / 100), `<sku>-1` = ÷ `pack_count`. Flagged and not
+written: a move over 15 % (another size, or a case booked as a piece), a cost at
+or above the sale price, a code that no variant or several variants carry.
+
+**Price.** The three rivals are read live, nothing is cached, and the target is
+the **highest** of them for the exact item:
+
+- hafo by article code, with the `/product/change` cross-check, as the recheck does;
+- zoovet.am and nemo.am only on a page whose identity was confirmed by hand:
+  the variant's own `price_source_url`, or its row in `state/rival-urls.csv`
+  (`sku,zoovet_url,nemo_url,checked,note`; write `none` when the shop is
+  confirmed not to sell it). A name search is never a price, so a shop with no
+  confirmed page shows as "not checked".
+
+| Status | Meaning | `--apply` |
+|---|---|---|
+| `match` | our price = the highest checked rival | nothing |
+| `RAISE` | a confirmed rival is above us | sets the price and `price_source_url` to that page |
+| `LOWER` | all three shops are settled (a price, or `none`) and the highest is below us | same |
+| `CHECK BY HAND` | the highest *checked* rival is below us, but a shop is not checked, and it may be the one holding our price | nothing; confirm that shop's page, add it to `state/rival-urls.csv`, re-run |
+| `PRICE FLAGGED` | a move over 30 % (a per-kg listing, another pack), or a rival at or below our cost | nothing |
+| `not checked` / `no rival price` | no confirmed price anywhere (a hafo discount marker counts as not checked) | nothing |
+
+The 1 kg, 100 g and single-unit variants get their new cost but keep their
+price: their rival price is a per-kg or single-unit listing, checked by hand.
+Every write is a guarded PUT per variant with a diff first, on the user's yes.
+`siruk recheck-prices` stays the catalogue-wide hafo sweep.
+
 ## Price recommendations when no rival sells the item (user rule 2026-10-12)
 
 The sale price is the **highest of hafo.am, zoovet.am and nemo.am** for the exact item. When none of

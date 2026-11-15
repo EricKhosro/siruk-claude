@@ -14,6 +14,12 @@ against the rivals". Facts behind it:
 - ArmSoft stock cost is **ex VAT**; Siruk `cost_price` is incl. VAT (a 20 %
   gap is normal, e.g. Felix 118.13 vs 141.75).
 - Supplier boxes: cost per pouch = box cost ÷ pouches (RC 7,500 / 12 = 625).
+- **A restock never updated Siruk** until 2026-11-15: `cost_price` stayed at the
+  first import's figure and the price was not re-read. `siruk restock-check`
+  now does both after each receipt (`reference/pricing.md` → "Restock check").
+- **The hafo recheck kept its listing cache forever** (`.siruk-cache/hafo-price-cache.json`,
+  no expiry), so on a machine with an old file `recheck-prices` compared against
+  old hafo prices. Since 2026-11-15 the file is only used on the day it was written.
 
 ## Cases checked
 
