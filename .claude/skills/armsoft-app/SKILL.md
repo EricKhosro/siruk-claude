@@ -98,6 +98,11 @@ Context menu on a good (right-click): Խմբագրել (Ctrl+E), Գներ (price
   That variant has no blank row under the title (the plain one has); the
   scripts find the header row themselves. Feeds `sealed-stock-report.py`,
   `restock-report.py` and `glovo-portal.py stock`.
+  **A turnover tab that is already open** (2026-11-15): ribbon Թարմացնել
+  (Տվյալներ group) re-runs it in place with the same settings (~10 s; the
+  row count and footer totals change), then export as above. After the save
+  ArmSoft opens the file in the default xlsx program (VS Code on the office
+  PC) — leave that window alone.
 - If ArmSoft was left open overnight it greets you with "Հաստատել ընթացիկ
   ամսաթվի փոփոխությունը" (confirm the working-date change): Այո.
 - `scripts/armsoft-gaps.py <goods.xml> <prices.xlsx> --out x.xlsx` lists every
