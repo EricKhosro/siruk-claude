@@ -245,6 +245,25 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
 - Pull 2026-11-15 21:15 for 10/11–15/11: 9 invoices, all already in, nothing new. hafo
   orders unchanged (newest still #12252); still not invoiced: TX 045091 (#12190, 875), #11997
   Club 4 Paws chicken × 24 (5,400), #12110 3179Tx (1,280) = 7,555.
+- Pull 2026-11-16 12:28 for 15/11–16/11 (office): 2 invoices (A1614547319, A3182055782), both
+  already in, nothing new. Still not invoiced: TX 045091, #11997 Club 4 Paws × 24, #12110 3179Tx.
+  The start-date box takes a 2-digit year: type `151126` after Home (`15112026` became 15/11/20).
+- **2026-11-16 (user): Pet House lets us keep the two mis-sent boards at 20 % off.**
+  48020 (invoiced 5,125 on A2631104009) → cost **4,100**; 48021 (4,875) → **3,900**
+  (VAT-inclusive invoice line × 0.8). Siruk products 1489 (48020, variant 2289) and
+  1490 (48021, variant 2290) created the same day at hafo's 8,200 / 7,800. ArmSoft
+  goods **1667 / 1668** (`final/armsoft-2026-11-16/new-goods-1667-1668.xml`, group
+  00009, CPA 4823 like 1606, VAT off, unit 001, EAN on 001, price 01 8,200 / 7,800)
+  and receipt **0048** (`pethouse-receipt-0048-boards.xml`, user said post now) imported
+  and posted 16/11. Siruk codes set. Glovo: sent the same day, case
+  **500bO00001901WIQAY** (`final/glovo/new-2026-11-16-boards/`, 10,250 / 9,750 = Siruk ÷ 0.8,
+  category 20619); ArmSoft price type 02 imported (`glovo-prices-02-1667-1668.xml`).
+  The replacement cardboards 48020-10Tx /
+  48021-10Tx that were really ordered are still not delivered.
+- **2026-11-16 Glovo price type 02 for goods 1646–1666** imported
+  (`final/armsoft-2026-11-16/glovo-prices-02-1646-1666.xml`, 21 rows, unit 001, "Ներմուծումը
+  բարեհաջող ավարտվեց", 0 errors) = the live Glovo price under the 2026-11-15 rule (Siruk ÷ 0.8,
+  50 under Zoovet, floor +15 %). Built from the new-goods XMLs' 01 prices, no price-list export needed.
 - **2026-11-15 new goods 1653–1666** (`final/armsoft-2026-11-15/new-goods-1653-1666.xml`,
   group 00009, VAT off, unit 001, EAN on 001, price 01 by XML; CPA 2309, toy
   6307): 1653 KorMell turkey pâté 75 g 83043J (150), 1654 / 1655 Trixie Denta
@@ -324,6 +343,8 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| issue **0009** | 16/11 | Stock count correction, user: "write it off" — the seller said Royal Canin Kitten dry is finished while the 11:46 turnover still showed **1455** RC Kitten 10 kg at 4.5 kg (open bag). Added by PLU **00087** (line 1455, 303 kg) × 4.5, cost 7,762.50 (1,725/kg). Comment "Stock count correction: seller says none left; Royal Canin supplier has none (user, 2026-11-16)". Stock after 0 (turnover 12:13). Siruk 1955 and Glovo 3182550702973-KG were already off | posted by Claude, user asked |
+| receipt **0048** | 16/11 | Pet House **A2631104009** (08/11), the two boards left out of 0036: new 1667 (48020) × 1 @ 4,100 and new 1668 (48021) × 1 @ 3,900 = 8,000 = invoice lines × 0.8. Pet House gave 20 % off for the mistake; comment on the receipt | posted by Claude, user asked |
 | receipt **0047** | 15/11 | Pet House **A3182055782** (15/11, 53,130 incl. VAT, 23 lines / 31 pcs) = hafo #12237 + #12238 plus 1 more 0217 and 1 more 1656: 1007 @ 3,500; new 1654 × 2 @ 1,715; 0407 @ 685; 1011 @ 965; 1015 @ 1,685; new 1657 @ 2,215; new 1658 @ 4,900; new 1662 × 2 @ 1,835; new 1661 @ 1,190; new 1659, 1660 @ 1,515; new 1664, 1663 @ 810; new 1665 @ 530; new 1666 @ 590; 0449 × 3 @ 1,450; 0512 @ 1,160; 0217 × 2 @ 3,655; new 1656 × 2 @ 750; 0573 × 2 @ 1,340; new 1655 @ 3,215; 0632 @ 1,655; 0633 × 2 @ 1,625 | posted by Claude, user asked |
 | receipt **0046** | 15/11 | Pet House **A1614547319** (15/11, 54,528) = hafo #12252 with 28 of each pâté instead of 24: new 1653 × 28, 0349 × 28, 0351 × 28 @ 117; 0074 ACANA Grass-Fed Lamb 11.4 kg as **003 × 1 @ 44,700**. Both in `final/armsoft-2026-11-15/pethouse-receipts-0046-0047.xml` | posted by Claude, user asked |
 | receipt **0045** | 15/11 | Pet House **A0750259960** (14/11, 5,400 incl. VAT) = hafo order #12225: 0399 Club 4 Paws Sterilised chicken jelly 80 g × 24 @ 225. Siruk variant 885 was out of stock since 28/10 → stock set back to 10 | posted by Claude, user asked |

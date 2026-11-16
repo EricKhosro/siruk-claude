@@ -29,7 +29,8 @@
    "Adult": 27,
    "Senior": 28,
    "All Lifestages": 29,
-   "Nursing": 671
+   "Nursing": 671,
+   "Junior": 937
   }
  },
  "breed-size": {
@@ -151,7 +152,9 @@
    "Chicken & Liver": 900,
    "Salmon & Tuna": 909,
    "Turkey & Citrus": 915,
-   "Hare": 922
+   "Hare": 922,
+   "Berries": 935,
+   "Fruit Mix": 936
   }
  },
  "special-diet": {
@@ -872,6 +875,152 @@
    "0.25 l/ø 13 cm": 932,
    "0.15 l/ø 13 cm": 933,
    "49 × 41 cm": 934
+  }
+ },
+ "gear-feature": {
+  "attribute_id": 38,
+  "name": "Feature",
+  "values": {
+   "Waterproof": 938,
+   "Water-resistant": 939,
+   "Reflective": 940,
+   "Light-up": 941
+  }
+ },
+ "litter-feature": {
+  "attribute_id": 39,
+  "name": "Litter Feature",
+  "values": {
+   "Clumping": 942,
+   "Dust-free": 943,
+   "Odour Control": 944
+  }
+ },
+ "bed-feature": {
+  "attribute_id": 40,
+  "name": "Bed Feature",
+  "values": {
+   "Cooling": 945,
+   "Washable": 946,
+   "Waterproof": 947
+  }
+ },
+ "grooming-feature": {
+  "attribute_id": 41,
+  "name": "Grooming Feature",
+  "values": {
+   "Detangling": 948,
+   "Deshedding": 949,
+   "Massage": 950,
+   "Flea & Dust Removal": 951
+  }
+ },
+ "kills-or-treats": {
+  "attribute_id": 42,
+  "name": "Kills or Treats",
+  "values": {
+   "Fleas": 952,
+   "Ticks": 953,
+   "Lice": 954,
+   "Mosquitoes": 955,
+   "Worms": 956
+  }
+ },
+ "capacity": {
+  "attribute_id": 43,
+  "name": "Capacity",
+  "values": {
+   "0.15 l/ø 13 cm": 957,
+   "0.2 l/ø 14 cm": 958,
+   "0.2 l/ø 15 cm": 959,
+   "0.25 l/ø 10 cm": 960,
+   "0.25 l/ø 12 cm": 961,
+   "0.25 l/ø 13 cm": 962,
+   "0.25 l/ø 17 cm": 963,
+   "0.25 l/ø 19 cm": 964,
+   "0.3 l/ø 12 cm": 965,
+   "0.3 l/ø 16 cm": 966,
+   "0.45 l/ø 19 cm": 967,
+   "500 ml/ø 13 cm": 968,
+   "0.5 l/ø 14 cm": 969,
+   "0.6 l/ø 23 cm": 970,
+   "0.65 l/ø 22 cm": 971,
+   "0.7 l/ø 21 cm": 972,
+   "0.75 l/ø 16 cm": 973,
+   "0.75 l/ø 17 cm": 974,
+   "0.8 l/ø 17 cm": 975,
+   "0.8 l/ø 22 cm": 976,
+   "0.9 l/ø 17 cm": 977,
+   "0.9 l/ø 19 cm": 978,
+   "0.9 l/ø 23 cm": 979,
+   "0.9 l/ø 25 cm": 980,
+   "1.0 l/ø 15 cm": 981,
+   "1.0 l/ø 21 cm": 982,
+   "1.1 l/ø 21 cm": 983,
+   "1.4 l/ø 21 cm": 984,
+   "1.4 l/ø 25 cm": 985,
+   "1.5 l/ø 21 cm": 986,
+   "1.5 l/ø 24 cm": 987,
+   "1.7 l/ø 21 cm": 988,
+   "1.75 l/ø 30 cm": 989,
+   "1.9 l/ø 21 cm": 990,
+   "2.0 l/ø 20 cm": 991,
+   "2.2 l/ø 23 cm": 992,
+   "2.5 l/ø 24 cm": 993,
+   "2.7 l/ø 32 cm": 994
+  }
+ },
+ "dimensions": {
+  "attribute_id": 44,
+  "name": "Dimensions",
+  "values": {
+   "5 × 18 cm": 995,
+   "5 × 21 cm": 996,
+   "6 × 13 cm": 997,
+   "7 × 16 cm": 998,
+   "9 × 13 cm": 999,
+   "9 × 15 cm": 1000,
+   "9 × 16 cm": 1001,
+   "11 × 14 cm": 1002,
+   "12 × 15 cm": 1003,
+   "12 × 16 cm": 1004,
+   "30 × 22 × 4.5 cm": 1005,
+   "30 × 50 cm": 1006,
+   "37 × 28 × 6 cm": 1007,
+   "40 × 60 cm": 1008,
+   "42.5 × 31 × 8 cm": 1009,
+   "49 × 41 cm": 1010,
+   "60 × 90 cm": 1011
+  }
+ },
+ "length": {
+  "attribute_id": 45,
+  "name": "Length",
+  "values": {
+   "11 cm": 1012,
+   "13.5 cm": 1013,
+   "12 mm × 20–24 cm": 1014,
+   "20 cm": 1015,
+   "23 cm": 1016,
+   "15 mm × 24–30 cm": 1017,
+   "10 mm × 28 cm": 1018,
+   "35 cm": 1019,
+   "25 mm × 39–46 cm": 1020,
+   "40 cm": 1021,
+   "45 cm/2.5 mm": 1022,
+   "30 mm × 49–58 cm": 1023,
+   "35 mm × 50–59 cm": 1024,
+   "55 cm/3.5 mm": 1025,
+   "60 cm/3.5 mm": 1026,
+   "65 cm": 1027,
+   "65 cm/4 mm": 1028,
+   "70 cm/4 mm": 1029,
+   "75 cm": 1030,
+   "78 cm/4 mm": 1031,
+   "85 cm": 1032,
+   "20 mm × 2 m": 1033,
+   "25 mm × 3 m": 1034,
+   "25 mm × 5 m": 1035
   }
  }
 }

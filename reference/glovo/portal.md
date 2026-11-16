@@ -365,10 +365,10 @@ It needs the headers `glovo-app-platform: web`, `glovo-app-type: customer`,
   — below that we stop following Zoovet. Why: at +14 % a typical product kept 77 % of its shop
   profit; Zoovet's Glovo prices are a median 1.30 × our Siruk prices (124 comparable matches).
   Applied to the whole store that evening from `final/glovo/glovo-price-plan-2026-11-15.xlsx`
-  (builder `runs/2026-11-15/glovo_price_plan.py`; 1,610 changes).
-  **`glovo-prices-into-sheet.py` and `final/glovo/siruk-glovo-products.xlsx` still hold the
-  old rule — do not run `fill --write` + `prices` from them until the script is updated, or
-  it will put the old prices back.**
+  (builder `runs/2026-11-15/glovo_price_plan.py`, since cleared; 1,610 changes).
+  2026-11-16: `glovo-prices-into-sheet.py` now implements this rule (`glovo_price()`, all 1,681
+  plan prices reproduced) and the user confirmed it as the one rule for every product,
+  replacing the +14 % / +20 % bases; ArmSoft price type 02 = the same price.
 
 **Zoovet's title pattern** (its newer, consistent titles):
 `<Brand> <Line, Latin> <what it is, lowercase Armenian> <main flavour -ով> <for whom … համար>, <size>`.

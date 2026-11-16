@@ -44,6 +44,13 @@ this file every time something new is found (memory: skills-for-recurring-work).
   PowerShell `Graphics.CopyFromScreen` capture. Wait ~60 s, capture that
   way, and click the box's Ok at its position in the capture (× 1456/1536 for
   the computer-use frame). The 17:30 "freeze" above was probably the same.
+- **Task Manager left open on top** (2026-11-16): it is elevated, so computer use can't
+  click it and it masks the left half of the screen (the import window's tick box and
+  Ներմուծել button). Drag doesn't move ArmSoft windows. Instead, use PowerShell
+  `MoveWindow((Get-Process -Id <AS Trade pid>).MainWindowHandle, 830, 26, 896, 577, true)`;
+  the open window, e.g. "Ներմուծել", is then the process's MainWindow. That moves it
+  clear, and its dialogs then show up beside it. The Open-file dialog takes a typed path
+  even while it is hidden.
 - **Never call `open_application`** when ArmSoft is already running: it starts
   a second instance on the login screen. If that happens, press its
   "Դադարեցնել" and close the empty window (title without "Siruk -").

@@ -1,0 +1,326 @@
+{
+ "_about": "Hand decisions on merge candidates (scripts/find-merge-candidates.py skips 'keep apart' groups). One entry per decided group.",
+ "groups": [
+  {
+   "ids": [
+    671,
+    673,
+    676
+   ],
+   "decision": "keep apart",
+   "reason": "Gemon Adult Cat: pâté can / chunks can / mousse — different texture and packaging (pouch / tray / can are kept apart, 2026-09-16 rule)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    670,
+    674,
+    677
+   ],
+   "decision": "keep apart",
+   "reason": "Gemon Sterilised Cat: pâté can / chunks can / mousse — different texture and packaging (pouch / tray / can are kept apart, 2026-09-16 rule)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    1397,
+    1398
+   ],
+   "decision": "keep apart",
+   "reason": "INABA CIAO Grilled Chicken vs Grilled Tuna: different base and weight",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    1194,
+    1324
+   ],
+   "decision": "keep apart",
+   "reason": "Kaskad trays: different EAN series, no common source",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    622,
+    711
+   ],
+   "decision": "keep apart",
+   "reason": "Monge BWild Adult Cat: chunks pouch vs pâté tray — different texture and packaging (pouch / tray / can are kept apart, 2026-09-16 rule)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    623,
+    712
+   ],
+   "decision": "keep apart",
+   "reason": "Monge BWild Sterilised Cat: chunks pouch vs pâté tray — different texture and packaging (pouch / tray / can are kept apart, 2026-09-16 rule)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    655,
+    713
+   ],
+   "decision": "keep apart",
+   "reason": "Monge Fresh Adult Dog: 400 g can vs 100 g tray — different texture and packaging (pouch / tray / can are kept apart, 2026-09-16 rule)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    324,
+    326
+   ],
+   "decision": "keep apart",
+   "reason": "Simba: chunks can vs pâté tray — different texture and packaging (pouch / tray / can are kept apart, 2026-09-16 rule)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    335,
+    517
+   ],
+   "decision": "keep apart",
+   "reason": "Trixie Knot (natural, 31121) vs Knot with Chicken (3132x): different lines",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    337,
+    389
+   ],
+   "decision": "keep apart",
+   "reason": "Trixie Sticks with Vegetables vs Sticks with chicken / rabbit: different lines",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    1119,
+    1124
+   ],
+   "decision": "keep apart",
+   "reason": "Beaphar White Coat vs Brown Coat shampoo: different products",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    731,
+    733
+   ],
+   "decision": "keep apart",
+   "reason": "Iv San Bernard shampoo vs conditioner",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    821,
+    822
+   ],
+   "decision": "keep apart",
+   "reason": "Trixie bowl sets on different trays (47×3×26 vs 40×5×23 cm)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    460,
+    496
+   ],
+   "decision": "keep apart",
+   "reason": "Brush double sided 2315 vs 24153: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    579,
+    580
+   ],
+   "decision": "keep apart",
+   "reason": "Colour Shampoo White vs Black: different products",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    900,
+    1421,
+    1436
+   ],
+   "decision": "keep apart",
+   "reason": "Scratching cardboard 48011 / Fish 48015 / XXL 48030: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    448,
+    449
+   ],
+   "decision": "keep apart",
+   "reason": "Soft Brush 2300 vs 2301: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    850,
+    851
+   ],
+   "decision": "keep apart",
+   "reason": "Bottle with Bowl 24606 vs 24607: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    477,
+    502
+   ],
+   "decision": "keep apart",
+   "reason": "Claw Clippers 2370 vs 2423: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    212,
+    224
+   ],
+   "decision": "keep apart",
+   "reason": "Denta Fun Ball 32941/42 vs 33680: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    211,
+    286
+   ],
+   "decision": "keep apart",
+   "reason": "Denta Fun Rugby Ball 3290 vs 33132: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    1068,
+    1078
+   ],
+   "decision": "keep apart",
+   "reason": "Dog with Rope 35894 vs 361004: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    226,
+    292
+   ],
+   "decision": "keep apart",
+   "reason": "Hedgehog Ball 3428 vs 34091: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    252,
+    254
+   ],
+   "decision": "keep apart",
+   "reason": "Monkey 35511 vs 35523: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    305,
+    306
+   ],
+   "decision": "keep apart",
+   "reason": "Mouse in display 41115 vs 41116: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    204,
+    208,
+    279,
+    404
+   ],
+   "decision": "keep apart",
+   "reason": "Playing Rope 32651–53 / 3274 / 3275 / 3271–73 + 32830: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    209,
+    291
+   ],
+   "decision": "keep apart",
+   "reason": "Playing Rope Tugger 3278 vs 33663: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    203,
+    260
+   ],
+   "decision": "keep apart",
+   "reason": "Rope with Woven-in Ball 32650 vs 35697: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    823,
+    825
+   ],
+   "decision": "keep apart",
+   "reason": "Slow Feeding Bowl 25026/28 vs 25032: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    475,
+    478,
+    479
+   ],
+   "decision": "keep apart",
+   "reason": "Claw Scissors 2367 / 2371 / 2373: Trixie sells them as separate products (trixie.shop and trixie.de)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    679,
+    681
+   ],
+   "decision": "merge",
+   "reason": "Gemon Medium Adult Chunks 415 g, beef & liver + chicken & rice (EANs 8009470387859 / …873, both \"Medium Adult\" chunks)",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    683,
+    679
+   ],
+   "decision": "keep apart",
+   "reason": "NOT with 679/681: the 1.25 kg cans are hafo \"pâté for large dogs\" — check line, breed size, texture",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    686,
+    688
+   ],
+   "decision": "merge",
+   "reason": "Monge Gift Soft Sticks Adult Cat, recipes as flavour + health-feature",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    642,
+    1432
+   ],
+   "decision": "merge",
+   "reason": "Monge Sterilised Cat 1.5 kg + 10 kg: identical composition",
+   "date": "2026-11-16"
+  },
+  {
+   "ids": [
+    1087,
+    872
+   ],
+   "decision": "merge",
+   "reason": "Trixie BE NORDIC Bowl 25060–25065 — after the Size / Capacity split",
+   "date": "2026-11-16"
+  }
+ ]
+}

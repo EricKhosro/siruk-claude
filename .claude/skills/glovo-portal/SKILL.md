@@ -39,22 +39,22 @@ dry run until `--apply`. Show the user the dry run and get a yes before `--apply
 
 ## 2. Prices
 
-**Rule changed 2026-11-15 (user): default Siruk ÷ 0.8, 50 ֏ under Zoovet on shared goods, floor
-Siruk + 15 % — `reference/glovo/portal.md` → "New rule". The live prices were set from
-`final/glovo/glovo-price-plan-2026-11-15.xlsx`; the script and sheet below still carry the old
-rule and must be updated before they are used again.**
+**Rule of 2026-11-15 (user), one rule for every product (confirmed 2026-11-16) —
+`reference/glovo/portal.md` → "New rule":**
 
 Prices of record for Glovo = column F of `final/glovo/siruk-glovo-products.xlsx`,
-filled by `scripts/glovo-prices-into-sheet.py`:
-- base = column N of `final/siruk-source-of-truth.xlsx` (the Yandex price,
-  `scripts/yandex-prices-into-sot.py`; rules in `reference/yandex/README.md`);
-- **every product Zoovet also sells on Glovo goes 50–200 ֏ under Zoovet's Glovo price**,
-  up or down from the base, Royal Canin included (user 2026-11-06, 2026-11-15). The undercut
-  grows with our net per unit at Zoovet's price (price × 0.8 − cost): under 500 → 50 ֏,
-  under 1,500 → 100, under 3,000 → 150, else 200 (`TIERS` in the script). The checked
-  matches are in `state/glovo-zoovet-matches.csv`. A row is never priced at a loss, and a
-  Zoovet per-kg / per-piece price (under 40% of ours) is not compared. `fill` writes
+filled by `scripts/glovo-prices-into-sheet.py` (`glovo_price()`; reproduces all 1,681 prices of
+`final/glovo/glovo-price-plan-2026-11-15.xlsx`, checked 2026-11-16):
+- **default: Siruk price ÷ 0.8** (+25 %), rounded up to 50 ֏ — Glovo keeps 20 %, so a Glovo
+  sale earns the shop profit. Siruk price and cost come from the Siruk export
+  (`.siruk-cache/glovo/siruk-export.json`); the Yandex column N is no longer read;
+- **a product Zoovet also sells on Glovo** (checked match in `state/glovo-zoovet-matches.csv`,
+  in stock): **50 ֏ under Zoovet's Glovo price** (rounded down to 50, to 10 when that opens a
+  gap over 100), up or down from the default, Royal Canin included;
+- **floor: Siruk + 15 %**, rounded up to 50 — the floor wins even above Zoovet. A Zoovet
+  per-kg / per-piece price (under 40 % of our Siruk price) is not compared. `fill` writes
   `runs/<date>/glovo-undercut-dryrun.csv` (one line per matched row) for the user to review.
+- ArmSoft price type 02 (Glovo) for a good = the same price.
 
 0. Whenever the source of truth or Zoovet's prices may have moved:
    `uv run --no-sync --with openpyxl python scripts/glovo-prices-into-sheet.py harvest`

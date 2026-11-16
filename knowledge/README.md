@@ -17,4 +17,5 @@ and leave a one-line pointer here.
 | `resolved-blockers.md` | things that used to stop us and no longer do (or still do), with the date and how |
 | `armsoft-documents.md` | the ArmSoft receipts, issue orders and tax invoices we touched, what each one is, and how to read e-invoicing |
 | `costs-and-rivals.md` | where a cost comes from, how to confirm it against hafo's wholesale price, per-kg traps, cases checked |
+| `dormant-goods.md` | goods hidden or at stock 0 (never received, lost, no text source) and what to do when they come back |
 | `goods-setups.md` | how each kind of good is set up in ArmSoft (bag + kg, pack + single, boxes, litter) and why |
