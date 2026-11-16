@@ -41,6 +41,13 @@ for something else, and Zoovet may have put it on Glovo. See step 2b.
    - when in doubt, compare an order's lines with the goods' receipt column in
      the turnover export (Պահեստի մուտքի օրդեր).
 
+   **An order is a request, not a delivery** (user 2026-11-15): hafo may send
+   less, more or something else, and the e-invoice says what really came
+   (`/receive-invoices` → 1b). So count a line as on the way only while it is
+   neither invoiced nor received; a line left off its order's invoice for
+   more than a few days is probably not coming — say so and let the user
+   decide whether to reorder it.
+
    Read each open order's lines with this snippet and save them as
    `runs/<today>/hafo-pending.json`:
    ```js
@@ -107,7 +114,9 @@ is capped at hafo's stock. The groups:
      or, for zoovet, the Glovo match's ME code. Anything else is only a name search:
      the "Rival candidates" column lists them. Confirm one by hand (every axis:
      brand, line, flavour, size) and add it to `state/rival-urls.csv`
-     (`sku,site,url,checked,note`), then re-run. A candidate's price is never used.
+     (`sku,zoovet_url,nemo_url,checked,note`; `none` = that shop doesn't sell
+     it; the same file `siruk restock-check` reads), then re-run. A candidate's
+     price is never used.
    - **Rule price** = the highest confirmed rival price (reference/pricing.md).
      A rule price at or below the new cost is not proposed; it's flagged
      "CHECK BY HAND" (rule 5).
@@ -116,6 +125,10 @@ is capped at hafo's stock. The groups:
      brand + size name candidate with no checked match yet. Confirm it the
      /glovo-portal way and add it to the matches CSV.
 3. The TO DO column is a **proposal**. Nothing is written here.
+
+This is the check **before ordering**, from hafo's listed prices. After the goods
+arrive, `siruk restock-check` (/receive-invoices) checks again against the
+invoice's real cost.
 
 ## 3. Ask (always)
 

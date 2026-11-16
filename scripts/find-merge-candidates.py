@@ -80,7 +80,29 @@ def load():
         if os.path.exists(path):
             m = json.load(open(path))
             trixie[key] = m.get("a2p", m) if isinstance(m, dict) else {}
+    # No dedup maps (2026-11-16: they were gone, so 15 Trixie look-alikes came back as "merge"):
+    # build the same article -> product key from the trixie.shop / trixie.de caches.
+    shop_raw = os.path.join(ROOT, ".siruk-cache", "trixie-shop-catalogue.json")
+    if "shop" not in trixie and os.path.exists(shop_raw):
+        trixie["shop"] = {(v.get("sku") or "").strip(): p.get("id")
+                          for p in json.load(open(shop_raw, encoding="utf-8"))
+                          for v in p.get("variants") or [] if (v.get("sku") or "").strip()}
+    de_raw = os.path.join(ROOT, ".siruk-cache", "trixie-catalogue.json")
+    if "page" not in trixie and os.path.exists(de_raw):
+        trixie["page"] = {a: e["url"].split("?")[0] for a, e in json.load(open(de_raw, encoding="utf-8")).items()
+                          if isinstance(e, dict) and e.get("url")}
     return prods, menu, types, cats, brands, trixie
+
+
+DECISIONS = os.path.join(ROOT, "state", "merge-decisions.json")
+
+
+def decided():
+    """Hand decisions that outlive a run: [{"ids": [..], "decision": "keep apart"|"merge", "reason": ..}]."""
+    if not os.path.exists(DECISIONS):
+        return []
+    return [d for d in json.load(open(DECISIONS, encoding="utf-8")).get("groups", [])
+            if d.get("decision") == "keep apart"]
 
 
 def build(prods, menu, types, cats, brands, trixie):
@@ -153,6 +175,7 @@ def build(prods, menu, types, cats, brands, trixie):
                 stem(p["name"]))].append(p)
 
     groups, kept = [], []
+    keep_apart = decided()
     for (bid, tid, cids, st), members in blocks.items():
         if len(members) < 2 or not st:
             continue
@@ -173,6 +196,11 @@ def build(prods, menu, types, cats, brands, trixie):
         if any(len(v) > 1 for v in kinds.values()):    # Trixie's own catalogue splits them
             reasons.append("Trixie sells them as separate products (" + ", ".join(
                 f"{k}: {len(v)}" for k, v in kinds.items()) + ")")
+        ids = {p["id"] for p in members}
+        for d in keep_apart:                            # decided by hand earlier (state/merge-decisions.json)
+            if len(ids & set(d["ids"])) > 1:
+                reasons.append(f"kept apart by hand ({d.get('date', '')}): {d.get('reason', '')}")
+                break
         option_codes = [c for c, role in r.items() if role == "option"]
         sigs, collide = {}, []
         for p in members:

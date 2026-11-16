@@ -14,6 +14,19 @@ against the rivals". Facts behind it:
 - ArmSoft stock cost is **ex VAT**; Siruk `cost_price` is incl. VAT (a 20 %
   gap is normal, e.g. Felix 118.13 vs 141.75).
 - Supplier boxes: cost per pouch = box cost ÷ pouches (RC 7,500 / 12 = 625).
+- **A restock never updated Siruk** until 2026-11-15: `cost_price` stayed at the
+  first import's figure and the price was not re-read. `siruk restock-check`
+  now does both after each receipt (`reference/pricing.md` → "Restock check").
+- **The hafo recheck kept its listing cache forever** (`.siruk-cache/hafo-price-cache.json`,
+  no expiry), so on a machine with an old file `recheck-prices` compared against
+  old hafo prices. Since 2026-11-15 the file is only used on the day it was written.
+
+- **Deliberately below hafo's wholesale** (2026-11-16, user): Trixie 48020 / 48021
+  (Siruk 1489 / 1490) cost 4,100 / 3,900 = 80 % of the Pet House invoice
+  (5,125 / 4,875). Pet House gave 20 % off for sending them by mistake. A cost
+  check or `restock-check` will show them 20 % under hafo's wholesale. That is
+  correct for these units, so don't "fix" it back. A later restock at the normal
+  price uses that invoice's cost.
 
 - **The restock checks prices first** (2026-11-16, user). `hafo-watch.py crawl` now
   keeps each row's `wholesale` (and `kg_price`) in the snapshot and logs a

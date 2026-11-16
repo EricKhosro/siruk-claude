@@ -1,0 +1,91 @@
+{
+ "query": "mutation($r: CreateSimpleProductBatchPayload!){\n  createSimpleProductBatch(productsRequest:$r){\n    __typename\n    ... on SimpleProductBatchSuccess { message caseId }\n    ... on SimpleProductBatchValidationError { csvValidationErrors { error message column }\n                                               productValidationErrors { barcode errors index } } } }",
+ "variables": {
+  "r": {
+   "simpleProducts": [
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie ճանկելու ստվարաթուղթ փայտե շրջանակով և 4 գնդակով կատուների համար, 46 × 4 × 25 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Scratching Cardboard with Wooden Frame 46 × 4 × 25 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Կատուների ճանկելու ստվարաթուղթ՝ փայտե շրջանակով, 46 × 4 × 25 սմ։ MDF շրջանակ։ 4 խաղալիք գնդակով (պլաստիկ)։ Փոխարինող ստվարաթուղթ՝ ապրանք 48020-10։"
+      }
+     ],
+     "barcode": "04011905480206",
+     "imagesEncoded": [
+      "<48020.jpg, 46695 base64 chars>"
+     ],
+     "sku": "48020",
+     "brand": null,
+     "activeness": true,
+     "price": 10250.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "20619",
+       "locale": "hy_AM",
+       "name": "Կատուների աքսեսուարներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie շեղանկյուն ճանկելու ստվարաթուղթ փայտե շրջանակով և 4 գնդակով կատուների համար, 35 × 4 × 35 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Diamond Scratching Cardboard with Wooden Frame 35 × 4 × 35 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Կատուների ճանկելու տախտակ՝ փայտե շրջանակով, 35 × 4 × 35 սմ։ Պատրաստված է փայտից և ստվարաթղթից։ 4 պլաստիկ գնդակով։ Փոխարինող ստվարաթուղթ՝ ապրանք 48021-10։"
+      }
+     ],
+     "barcode": "04011905480213",
+     "imagesEncoded": [
+      "<48021.jpg, 44803 base64 chars>"
+     ],
+     "sku": "48021",
+     "brand": null,
+     "activeness": true,
+     "price": 9750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "20619",
+       "locale": "hy_AM",
+       "name": "Կատուների աքսեսուարներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

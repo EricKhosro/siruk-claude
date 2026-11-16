@@ -16,7 +16,8 @@ Per line:
            when the pack figure only fits as per-kg × bag kg, it is scaled and marked "per kg".
   Rivals   hafo retail (snapshot, exact row by EAN/article) — always.
            zoovet / nemo — only CONFIRMED pages: the variant's price_source_url, a row of
-           state/rival-urls.csv (hand-checked), or for zoovet the Glovo match's ME code
+           state/rival-urls.csv (hand-checked; "none" = that shop doesn't sell it; shared with
+           `siruk restock-check`), or for zoovet the Glovo match's ME code
            (state/glovo-zoovet-matches.csv), searched and kept only when the page's code is that
            code. Anything else is a name search → "candidates" to confirm by hand, never a price.
            Rule price = the highest confirmed rival price (reference/pricing.md); a suggestion
@@ -86,11 +87,14 @@ def site_of(url):
 
 
 def load_rival_urls():
+    """state/rival-urls.csv (shared with `siruk restock-check`): sku,zoovet_url,nemo_url,checked,note.
+    A url = the confirmed page; "none" = confirmed that shop doesn't sell it."""
     out = {}
     if os.path.exists(RIVAL_URLS):
-        for r in csv.DictReader(open(RIVAL_URLS, encoding='utf-8')):
-            if r.get('url') and r.get('sku'):
-                out.setdefault(r['sku'].strip(), {})[r['site'].strip()] = r['url'].strip()
+        for r in csv.DictReader(open(RIVAL_URLS, encoding='utf-8-sig')):
+            sku = (r.get('sku') or '').strip()
+            if sku:
+                out[sku] = {s: (r.get(f'{s}_url') or '').strip() for s in ('zoovet', 'nemo') if (r.get(f'{s}_url') or '').strip()}
     return out
 
 
@@ -220,6 +224,8 @@ def main():
         if not a.offline:
             for site, mod in (('zoovet', zv), ('nemo', nm)):
                 url = known.get(site)
+                if url == 'none':
+                    continue                                 # confirmed: this shop doesn't sell it
                 if not url and site == 'zoovet':
                     for code in g_codes.get(sku, []):        # the Glovo match's code is zoovet.am's own code
                         res = paced(zv.fetch, zv.SEARCH.format(q=urllib.parse.quote(code)))

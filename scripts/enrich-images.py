@@ -5,8 +5,8 @@ sources honestly offer, and never leave one with none.
 Sources, in the order they are ranked into the gallery (CLAUDE.md rule 7: the
 first image is the feature image and must be a clean product shot):
 
-  1 brand packshot   Trixie PHO_PRO_CLIP  ·  monge.it / monge.shop pack photo
-  2 brand pack shot  Trixie PHO_PAC_CLIP
+  1 brand pack shot  Trixie PHO_PAC_CLIP  ·  monge.it / monge.shop pack photo
+  2 brand packshot   Trixie PHO_PRO_CLIP (bare product; the pack leads, 2026-11-13)
   3 detail / set     Trixie PHO_PRO_DET_CLIP, PHO_PRO_SET_CLIP, extra shop shots
   4 distributor      trixiecz.cz's leading photo (570px packshot, keyed by the
                      `Kód` printed on the page) — only reached when the brand
@@ -45,7 +45,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 # Every PUT body is rebuilt by the one payload builder (catalog model 2026-09-29),
 # which also checks the variants against the product type before anything is written.
 from siruk_payload import PayloadError, put_body  # noqa: E402
-TRIXIE_RANK = {"PHO_PRO_CLIP": 1, "PHO_PAC_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SET_CLIP": 4, "PHO_PRO": 3,
+TRIXIE_RANK = {"PHO_PAC_CLIP": 1, "PHO_PRO_CLIP": 2, "PHO_PRO_DET_CLIP": 3, "PHO_PRO_SET_CLIP": 4, "PHO_PRO": 3,
                "PHO_PRO_USE_CLIP": 5, "PHO_PRO_USE": 5, "PHO_PRO_DOG_CLIP": 6, "PHO_PRO_CAT_CLIP": 6,
                "PHO_PRO_DOG": 6, "PHO_PRO_CAT": 6, "PHO_PRO_GROUP_CLIP": 7, "PHO_PRO_GROUP": 7,
                "GRA_PRO": 8, "GRA_INFO": 8}

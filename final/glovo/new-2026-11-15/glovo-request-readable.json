@@ -1,0 +1,296 @@
+{
+ "query": "mutation($r: CreateSimpleProductBatchPayload!){\n  createSimpleProductBatch(productsRequest:$r){\n    __typename\n    ... on SimpleProductBatchSuccess { message caseId }\n    ... on SimpleProductBatchValidationError { csvValidationErrors { error message column }\n                                               productValidationErrors { barcode errors index } } } }",
+ "variables": {
+  "r": {
+   "simpleProducts": [
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Տուալետ շների համար Nappy Loo, 49 × 41 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Nappy Loo Dog Toilet 49 × 41 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Տուալետ շների համար՝ տանը մաքրությանը վարժեցնելու, 49 × 41 սմ, բեժ/կրեմ։ Համապատասխանում է Trixie 23371, 23411 և 23417 հիգիենիկ տակդիրներին։ Տանը մաքրությանը վարժեցնելու համար։ Բացվող շրջանակը ամուր պահում է հիգիենիկ տակդիրը նույնիսկ մեծ ծանրաբեռնվածության դեպքում։ Չի սահում ռետինե ոտիկների շնորհիվ։"
+      }
+     ],
+     "barcode": "04011905234151",
+     "imagesEncoded": [
+      "<23415.jpg, 21495 base64 chars>"
+     ],
+     "sku": "23415",
+     "brand": null,
+     "activeness": true,
+     "price": 6700.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7074",
+       "locale": "hy_AM",
+       "name": "Տակդիրներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Կերամիկական կերաման՝ կատվի նկարով, 0.25 լ/ø 13 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Ceramic Bowl with Cat Motif 0.25 l/ø 13 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Ծանծաղ կերամիկական կերաման կատուների համար՝ կատվի նկարով, 0.25 լ / ø 13 սմ, մոխրագույն։ Ծանծաղ ձև։"
+      }
+     ],
+     "barcode": "04057589246523",
+     "imagesEncoded": [
+      "<24652.jpg, 37303 base64 chars>"
+     ],
+     "sku": "24652",
+     "brand": null,
+     "activeness": true,
+     "price": 2300.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "20619",
+       "locale": "hy_AM",
+       "name": "Կատուների աքսեսուարներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Կերամիկական կերաման, բարձր, 0.15 լ/ø 13 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Elevated Ceramic Bowl 0.15 l/ø 13 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Բարձր կերամիկական կերաման կատուների համար, 0.15 լ / ø 13 սմ, մորագույն՝ սպիտակ թաթիկներով։ Բարձրացված, էրգոնոմիկ ձև։ Ստուգված է կենդանիների բարեկեցության և պաշտպանության անկախ փորձագիտական մարմնի կողմից։"
+      }
+     ],
+     "barcode": "04047974247976",
+     "imagesEncoded": [
+      "<24797.jpg, 51507 base64 chars>"
+     ],
+     "sku": "24797",
+     "brand": null,
+     "activeness": true,
+     "price": 3550.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "20619",
+       "locale": "hy_AM",
+       "name": "Կատուների աքսեսուարներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Կերամիկական կերաման, լայնահարթակ, 0.6 լ/ø 23 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Ceramic Bowl Flat and Wide 0.6 l/ø 23 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Հարթ ու լայն կերամիկական կերաման կատուների համար, 0.6 լ / ø 23 սմ, մոխրագույն։ Հարթ և լայն ձև։ Աջակցում է կերակրման բնական վարքին։ Մաքուր կերակրման տարածք։ Ստուգված է կենդանիների բարեկեցության և պաշտպանության անկախ փորձագիտական մարմնի կողմից։"
+      }
+     ],
+     "barcode": "04047974248027",
+     "imagesEncoded": [
+      "<24802.jpg, 31779 base64 chars>"
+     ],
+     "sku": "24802",
+     "brand": null,
+     "activeness": true,
+     "price": 5900.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "20619",
+       "locale": "hy_AM",
+       "name": "Կատուների աքսեսուարներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Kotoffey Բաց փայտե հիմքով լցանյութ կատուների զուգարանի համար, 6 կգ (18 լ)"
+      },
+      {
+       "locale": "en",
+       "name": "Kotoffey Light Wood Cat Litter 6 kg (18 l)"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Kotoffey փայտե լցանյութ կատուների զուգարանի համար՝ փայտի բնական բույրով, որը դուր է գալիս կատուներին, ուստի նրանք արագ են վարժվում սկուտեղին։ Փայտե հատիկներն արագ կլանում են խոնավությունը՝ պահելով թաթերը մաքուր և վերացնելով տհաճ հոտերը։"
+      }
+     ],
+     "barcode": "04627106520087",
+     "imagesEncoded": [
+      "<KF5200811.jpg, 47663 base64 chars>"
+     ],
+     "sku": "KF5200811",
+     "brand": null,
+     "activeness": true,
+     "price": 4750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7077",
+       "locale": "hy_AM",
+       "name": "Կատվի Lցանյութ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Kotoffey Մուգ փայտե հիմքով լցանյութ կատուների զուգարանի համար, 6 կգ (18 լ)"
+      },
+      {
+       "locale": "en",
+       "name": "Kotoffey Dark Wood Cat Litter 6 kg (18 l)"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Kotoffey բնական փայտե լցանյութ կատուների զուգարանի համար՝ պատրաստված սոճու և եղևնու փայտից, առանց քիմիական և արհեստական հավելումների։"
+      }
+     ],
+     "barcode": "04627106520070",
+     "imagesEncoded": [
+      "<KF5200711.jpg, 58775 base64 chars>"
+     ],
+     "sku": "KF5200711",
+     "brand": null,
+     "activeness": true,
+     "price": 4750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7077",
+       "locale": "hy_AM",
+       "name": "Կատվի Lցանյութ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Dentinos վիտամիններով հյուրասիրություն կատուների համար, 50 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Dentinos with Vitamins Cat Treats 50 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Հարուստ է վիտամիններով։ Հատուկ ձևը և կառուցվածքը օգնում են մաքրել ատամները և միջատամնային տարածքները։ Առանց ավելացված շաքարի։"
+      }
+     ],
+     "barcode": "04011905042664",
+     "imagesEncoded": [
+      "<4266.jpg, 64091 base64 chars>"
+     ],
+     "sku": "4266",
+     "brand": null,
+     "activeness": true,
+     "price": 1050.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7078",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Կատուների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

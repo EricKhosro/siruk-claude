@@ -41,7 +41,8 @@ those in the run report instead, not here.
 | Mooor, KorMell, Justin | `https://rupetfood.ru` (producer, АО «Лемниската»); Justin also `https://justin-petfood.ru` | Three brands of one Russian producer — **EAN prefix `4620213…` for all three**, which is what proves they are separate brands and not one brand spelled three ways. Corporate sites only: brand logos yes, **per-article packshots no**, and justin-petfood.ru's "Justin" assets are all packshots rather than a wordmark. Justin's logo is white-on-transparent — keep the alpha (`KEEP_ALPHA=1`), the storefront composites on black. Photos for these articles come from hafo |
 | Myau (`Мяу!`) | `https://miau.ua` | Kormotech's Ukrainian economy cat line — **a separate brand from Club 4 Paws** (brand 17), both Kormotech, which hafo confirms by listing `МЯУ` and `Club4Paws` as distinct brand values. The site is a **single-page app**: every path returns the same shell, so there is no per-article page and no packshot to key on. The logo is there though: `/frontAssets/assets/img/logo-red.svg` (render it, don't take the bitmap). **EAN prefix `4820269…`** |
 | Versele-Laga (brand 36, 2026-09-17) | `https://www.versele.com/en/vl` | Belgian litter (eXtreme Compact, Senegal, Silica); GS1 `5410340…`, our codes end `V`. Packshots are literally `<EAN>pack.ashx` — EAN-keyed. Rebranded "Versele" in 2025; packs still say Versele-Laga. Also bird food (Prestige / Prestige Premium) and small-animal lines (Nature, Crispy, hay, woodchips), 2026-09-28. **Find a page by EAN**: in a versele.com tab, `POST /api/products/queryproducts` with `contextId=53c9ce99-6050-4702-b227-bb93e39805c8&query=<EAN>&pageNumber=1&pageSize=4&language=en&region=vl&maxItems=-1` returns the product link; pages list every size with its EAN under "Available in" and have ONE packshot. Crispy relaunched in 2025 (850 g…); our 400 g / 1 kg EANs (`…616987`, `…617113`, `…616994`) have no page and no packshot — zoovet has the old-pack photos |
-| Mnyams / Мнямс (37) | `https://mnyams.ru` | Russian cat treats; GS1 `4610011…` (older articles) / `4620202…` (current). Our `5488xx` codes are the current articles while hafo carries the older EANs — two pillow flavours changed between generations, check the pack |
+| SmartBones (55) | `https://smartbones.eu/en` (EU packs; `https://www.smartbones.com` US) | Spectrum Brands, as 8in1. EU site lists Classics and Flavours (beef, sweet potato) only — **no Peanut Butter page**; EAN prefix `0810833…`. Logo: the header wordmark `/_assets/…/Smartbones-Logo-oben-und-unten.png` (310 × 70) |
+| Mnyams / Мнямс (37) | `https://mnyams.ru` | Russian cat and dog treats; dog Dental line at `/catalog/lakomstva-dlya-sobak-dental`, pages print «Артикул» = the last 6 digits of the EAN (hafo's code can differ by the last digit: 170423 → 170425); GS1 `4610011…` (older articles) / `4620202…` (current). Our `5488xx` codes are the current articles while hafo carries the older EANs — two pillow flavours changed between generations, check the pack |
 | Derevenskie Lakomstva / Деревенские лакомства (38) | `https://derlak.ru` | dog jerky made in China for ООО ТК Адресник, GS1 `6921959…` / `6921499…`; pages print the article |
 | My Love (production brand 47, 2026-10-02) | `https://mylovepetfood.com` | Kormotech's standard dog/cat food line (sibling of Club 4 Paws, Myau, Gav!). The site is a single-page app with no per-article pages; logo = `/frontAssets/assets/img/logo-red.svg` rendered at 1200 px. Junior 11 kg (EAN 4820269143074): texts and packshot from e-fresh.gr / emag.ro, both print the EAN |
 | Felix (production brand 48, 2026-10-14) | `https://www.purina.ru` (Nestlé Russia; `/cats/korm-dlya-koshek/<slug>`, brand page `/brands/felix_cats`) | Nestlé Purina cat food; the CIS range (Аппетитные кусочки = Tasty Chunks, Двойная вкуснятина = Double Yummy, Мясные ломтики = Meat Slices, Sensations, Вкусный паштет = Tasty Pâté). **Not on hafo** (hafo carries no Purina at all); priced from zoovet.am. Supplier codes are Nestlé material numbers (`1251xxxx`, `1246xxxx`, `1990xxxx`) that no web page prints — the page EAN sits in the dataLayer `entityTitle` ("<EAN> <title>"). Gallery: full-size `/sites/default/files/<yyyy-mm>/<uuid>.jpeg` (strip `styles/product_380x380/public/`); order is front, back, 3 × box-of-26, then Russian tiles (careline, cross-sell, transition guide) — keep pouch shots + hero/ingredients/feeding tiles only. felix.ru is an unrelated furniture firm. |
@@ -315,7 +316,7 @@ keeps one picture — and 149 of our articles have no page at all. Every file is
 named `<PREFIX>_<article>-<n>_%23SALL_%23AWK_%23V1.jpg` under
 `https://cdn.trixie.de/assets/img/1600mx1200m/`, so the gallery can be probed
 directly: `scripts/trixie-cdn-sweep.py --plan <plan>` HEADs all prefixes
-(`PHO_PRO_CLIP` packshot, `PHO_PAC_CLIP` pack, `PHO_PRO_DET_CLIP`,
+(`PHO_PRO_CLIP` bare product, `PHO_PAC_CLIP` pack — first in our gallery when it exists, `PHO_PRO_DET_CLIP`,
 `PHO_PRO_SET_CLIP`, `PHO_PRO_USE(_CLIP)`, `PHO_PRO_DOG/CAT(_CLIP)`, `PHO_PRO`,
 `GRA_PRO`) × n = 1..26 with one parallel curl (~450 req/s) and caches the hits in
 `.siruk-cache/trixie-cdn-gallery.json`. Two facts the probe taught us:
@@ -341,7 +342,17 @@ directly: `scripts/trixie-cdn-sweep.py --plan <plan>` HEADs all prefixes
   1600mx1200m image whose file name carries the article — `PHO_PRO_CLIP`
   packshot first, then `PHO_PAC_CLIP`, lifestyle (`PHO_PRO_DOG/CAT`), group
   shots (`PHO_PRO_GROUP_CLIP_<a>-<b>…`) and `GRA_PRO` drawings — one URL per
-  line; `--first` gives only the thumbnail. Articles without a catalogue page
+  line; `--first` gives only the thumbnail. **That is the script's order, not
+  our gallery order** (user 2026-11-13): `PHO_PRO_CLIP` is the bare product
+  (loose treats, an unboxed bottle), `PHO_PAC_CLIP` is the bag / box / tube
+  it is sold in. **When an article has a `PHO_PAC_CLIP`, that goes first** —
+  treats, grooming bottles in a box, salt licks, pads, soft grass, towel in its
+  tube. Items with no pack photo (brushes, combs, scissors, tubes, lollies)
+  keep `PHO_PRO_CLIP` first. On 2026-11-13, 22 variants were found with the
+  pack behind the bare shot (Premio Stripes 356 among them) and reordered;
+  31498 still led with the old blue "Happy Rolls" tub. Find more with the
+  export: a variant whose `image_urls` has `PHO_PAC_CLIP` anywhere but first
+  (`runs/2026-11-13/pack-first-plan.csv`). Articles without a catalogue page
   (litter 4020) fall back to a CDN probe that keeps every hit. Upload all of
   them (`scripts/add-all-images.py` backfills). The article number is printed
   on the pack in the photo, so a hit is self-verifying. trixie.de throttles

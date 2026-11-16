@@ -180,11 +180,183 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   Kaskad stitched canvas lead 25 mm × 5 m / 20 mm × 2 m (5,100 / 2,650), 1645
   Trixie Premium lead XS royal blue (3,000); leads CPA 4201. Siruk first:
   products 1469–1475 (variants 2259–2267) with these accounting codes.
+- Pull 2026-11-15 11:23 for 07/11–15/11 (office; driven from PowerShell, the
+  computer-use tools were not loaded): 13 invoices, 4 imported now
+  (A8519891402, A8707682798, A0750259960, A3595953555), 9 already in.
+  **A3595953555** («ՀԱՅԿԱԿԱՆ ԾՐԱԳՐԵՐ», 09/11, 19,000) = the ArmSoft
+  subscription, a service, no receipt. Found in Գնման փաստաթղթեր and not in
+  these notes before: **receipt 0039** (12/11, A9066878431 of 10/11, 31,175)
+  and **receipt 0040** (12/11, A1771977413 of 10/11, 34,640), both Pet House,
+  posted — together 65,815 = hafo order #12126's total; and two **0.00**
+  receipts with reused numbers, no supplier, no comment: **0019** (11/11) and
+  **0020** (14/11) — lines not opened, who made them not checked.
+  **Five Pet House invoices have no receipt** (none has a replacement note;
+  no line is mapped to an ArmSoft code by the invoice; prices incl. VAT;
+  candidates from the 05/11 goods export by name only — cost, Siruk variant
+  and goods added after 05/11 not checked):
+  - **A1433256986** (13/11, 10,055): ceramic bowl wide-rim 0.6 l / 23 cm grey
+    1 @ 3,215; ceramic bowl with cat picture, grey, 0.25 l / 13 cm 1 @ 1,250;
+    ceramic bowl «Մալինոլի», white petals, high, 0.15 l / 13 cm 1 @ 1,935;
+    puppy toilet with rubber base 49 × 41 cm beige 1 @ 3,655. No candidate.
+  - **A2164605176** (13/11, 7,300): cat litter light wood 2 kg / 6 l 1 @ 1,060
+    (0235); light wood 6 kg / 18 l 1 @ 2,590 (none); dark wood 2 kg / 6 l
+    1 @ 1,060 (0238); dark wood 6 kg / 18 l 1 @ 2,590 (none).
+  - **A8519891402** (14/11, 11,400): Filet chicken PRO DENTAL 80 g 3 @ 1,190
+    (1001); dog duck sticks 90 g 3 @ 1,450 (0499); calcium bone for dogs'
+    teeth 4 pcs 90 g 3 @ 1,160 (none: 0510 is 60 g).
+  - **A8707682798** (14/11, 4,305): cat pillows salmon purée 30 g 3 @ 355
+    (1620); cat purée 5×14 g chicken / tuna & shrimp / tuna & whitefish 1 each
+    @ 625 (1121 1122 1123); cat treat pillow-shaped 35 g 1 @ 805 (none);
+    Dentinos Denta Fun 50 g cat 1 @ 560 (none).
+  - **A0750259960** (14/11, 5,400): Club 4 Paws jelly for cats Sterilised 80 g
+    24 @ 225 (0399 by exact name). Not the 24 chicken-in-gravy 85 g pouches
+    (0342) still awaited for order #11997 — same count and price, other name.
+  - **Against the hafo orders** (hafo.am/my-orders, built-in browser,
+    2026-11-15): #12126 (09/11, 65,815) = A9066878431 + A1771977413 by total
+    (receipts 0039 / 0040; lines not compared). **#12190** (12/11, 18,230,
+    9 lines) = A1433256986 + A2164605176 (17,355) **minus one line not
+    invoiced: cat teaser with feather TX 045091 × 1 @ 875**. Its hafo SKUs:
+    puppy toilet 23415Tx, bowls 24652Tx / 24797Tx / 24802Tx, Kotoffey wood
+    litter KF 5200811 (light 18 l), KF 5200411 (light 6 l), KF 5200311 (dark
+    6 l), KF 5200711 (dark 18 l). **#12211** (13/11, 11,400) = A8519891402
+    line for line: 11235S, DL 711226, DL 304006 (the "calcium bone 4 pcs
+    90 g"). **#12220** (14/11, 4,305) = A8707682798: 207766, TX 042661
+    (Dentinos), 11406 (pillow-shaped 35 g), 42681Tx / 42682Tx / 42683Tx.
+    **#12225** (14/11, 5,400) = A0750259960: 908935 Club 4 Paws Sterilised
+    chicken jelly 80 g × 24. **Not invoiced yet**: #12237 (14/11 17:38,
+    42,855, 21 lines / 27 units, dog dental treats) and #12238 (14/11 19:42,
+    5,870: plush bear toy 35859Tx 2,215 + Simple'n'Clean silicate litter 5 l
+    TX 040261 3,655); still also #11997's Club 4 Paws chicken × 24 and
+    #12110's Premio pâté 3179Tx.
+- Pull 2026-11-15 14:24 for 10/11–15/11 (office, user asked to check again):
+  7 invoices, **all already in** (A8519891402, A8707682798, A0750259960,
+  A1433256986, A2164605176, A9066878431, A1771977413), nothing new. hafo
+  orders #12237 / #12238 still have no invoice.
+- Pull 2026-11-15 18:09 for 10/11–15/11: 9 invoices, **2 imported now**, both
+  Pet House, 15/11, **not received** (each has goods Siruk lacks; lines in
+  `state/open-items.csv`): **A1614547319** (54,528) = hafo #12252 (15/11,
+  53,124) with 28 of each Kormell pâté instead of 24 — turkey 83043J is new,
+  chicken 0349, duck 0351, ACANA Grass-Fed Lamb 11.4 kg 0074 @ 44,700;
+  **A3182055782** (53,130, 23 lines / 31 units) = hafo #12237 + #12238
+  (48,725) plus one more Simple'n'Clean 5 l and one more Dentros 3173Tx —
+  13 of its goods are not in Siruk. The journal shows prices without VAT
+  (× 1.2 = the order price). Still not invoiced: TX 045091 (#12190), #11997
+  Club 4 Paws × 24, #12110 3179Tx — 7,555 together.
+- Pull 2026-11-15 21:15 for 10/11–15/11: 9 invoices, all already in, nothing new. hafo
+  orders unchanged (newest still #12252); still not invoiced: TX 045091 (#12190, 875), #11997
+  Club 4 Paws chicken × 24 (5,400), #12110 3179Tx (1,280) = 7,555.
+- Pull 2026-11-16 12:28 for 15/11–16/11 (office): 2 invoices (A1614547319, A3182055782), both
+  already in, nothing new. Still not invoiced: TX 045091, #11997 Club 4 Paws × 24, #12110 3179Tx.
+  The start-date box takes a 2-digit year: type `151126` after Home (`15112026` became 15/11/20).
+- **2026-11-16 (user): Pet House lets us keep the two mis-sent boards at 20 % off.**
+  48020 (invoiced 5,125 on A2631104009) → cost **4,100**; 48021 (4,875) → **3,900**
+  (VAT-inclusive invoice line × 0.8). Siruk products 1489 (48020, variant 2289) and
+  1490 (48021, variant 2290) created the same day at hafo's 8,200 / 7,800. ArmSoft
+  goods **1667 / 1668** (`final/armsoft-2026-11-16/new-goods-1667-1668.xml`, group
+  00009, CPA 4823 like 1606, VAT off, unit 001, EAN on 001, price 01 8,200 / 7,800)
+  and receipt **0048** (`pethouse-receipt-0048-boards.xml`, user said post now) imported
+  and posted 16/11. Siruk codes set. Glovo: sent the same day, case
+  **500bO00001901WIQAY** (`final/glovo/new-2026-11-16-boards/`, 10,250 / 9,750 = Siruk ÷ 0.8,
+  category 20619); ArmSoft price type 02 imported (`glovo-prices-02-1667-1668.xml`).
+  Live on Glovo the same afternoon (review: 2 ok, price + category ours, en titles shortened
+  by Glovo); added to `final/glovo/siruk-glovo-products.xlsx` rows 1667–1668.
+  The replacement cardboards 48020-10Tx /
+  48021-10Tx that were really ordered are still not delivered.
+- **2026-11-16 Glovo price type 02 for goods 1646–1666** imported
+  (`final/armsoft-2026-11-16/glovo-prices-02-1646-1666.xml`, 21 rows, unit 001, "Ներմուծումը
+  բարեհաջող ավարտվեց", 0 errors) = the live Glovo price under the 2026-11-15 rule (Siruk ÷ 0.8,
+  50 under Zoovet, floor +15 %). Built from the new-goods XMLs' 01 prices, no price-list export needed.
+- **2026-11-15 new goods 1653–1666** (`final/armsoft-2026-11-15/new-goods-1653-1666.xml`,
+  group 00009, VAT off, unit 001, EAN on 001, price 01 by XML; CPA 2309, toy
+  6307): 1653 KorMell turkey pâté 75 g 83043J (150), 1654 / 1655 Trixie Denta
+  Fun Rolls duck 3 pcs/140 g 31373 (2,750) and chicken 30 pcs/240 g 31378
+  (5,150), 1656 Trixie Dentros with Chicken 180 g 3173 (1,200), 1657 Trixie
+  Teddy Bear 30 cm 35859 (3,550), 1658 8in1 PRO Dental Twisted Sticks XS 190 g
+  12265S (7,600), 1659 / 1660 8in1 Delights Spirals chicken / duck 60 g 15476 /
+  15482 (2,350), 1661 8in1 Tasties Calcium Bones 85 g 15278 (1,850), 1662
+  SmartBones Peanut Butter Bones 2 pcs/158 g 02721S (2,850; new Siruk brand
+  55), 1663 / 1664 Mnyams Dental Sticks beef / chlorophyll & rabbit 100 g
+  170433 / 170453 (1,300), 1665 Mnyams Dental Bones beef 70 g 170423 (850),
+  1666 Mnyams Dental Snack beef 95 g 176793 (950). Siruk: variants 2275–2278
+  added to 1052 / 521 / 1047, new products 1481–1486 (variants 2279–2285),
+  codes set; 1663–1665 = Siruk products 1487 Dental Sticks (variants 2286, 2287) and
+  1488 Dental Bones (2288), created with `--force` on the user's yes after
+  `siruk create` refused them as look-alikes of other brands' products. hafo "DENTAL - HARD chlorophyll" = mnyams.ru «Зубные палочки» с
+  хлорофиллом и кроликом (art. 170456); hafo "MEDIUM bones, phytocomplex 70 g"
+  = «Зубные косточки» с говядиной (170425). Glovo: ACANA Grass-Fed Lamb,
+  31225, 4026, 31347 switched back on 19:10; 12 new goods sent to review, case
+  **500bO000018w3IDQAY** (`final/glovo/new-2026-11-15b/`; KorMell turkey and
+  SmartBones held back for a clean photo). Sent at Siruk + 14 %; the user then
+  chose **Siruk + 20 %** (rounded up to 50) for these 12 — none is on Zoovet's
+  Glovo store — and `glovo-portal.py set-price` applied it (3,300 6,200 1,450
+  4,300 9,150 2,850 2,850 2,250 1,150 1,600 1,600 1,050). Whether +20 % becomes
+  the general base instead of +14 % is not decided.
+- **Lens on this Windows machine** (2026-11-15): `.venv-scrapling` did not exist; `python -m venv
+  .venv-scrapling` + `pip install "scrapling[fetchers]"` and `scripts/google-lens.py` ran with
+  `.venv-scrapling/Scripts/python.exe`, no CAPTCHA, 9 jobs in ~8 min. Lens results carry the page
+  url, not the image: the photo comes from the page's `og:image`. `scripts/hafo-audit.py` is too
+  slow here (reads every product) and its file-name test misfires on `…-s1350x1350.jpg`; a
+  contact sheet of the suspects found the three real hafo photos (83043J, 02721S, 12265S), all
+  replaced the same evening.
+- **2026-11-15 new goods 1646–1652** (`final/armsoft-2026-11-15/new-goods-1646-1652.xml`,
+  group 00009, VAT off, unit 001, EAN on 001, price type 01 by XML): 1646 Trixie
+  puppy toilet Nappy Loo 49 × 41 cm 23415 (5,850, CPA 3924), 1647 / 1648 / 1649
+  Trixie ceramic bowls 24652 / 24797 / 24802 (2,000 / 3,100 / 5,150, CPA 6912),
+  1650 / 1651 Kotoffey light / dark wood litter 6 kg (18 l) (4,150, CPA 4401),
+  1652 Trixie Dentinos with Vitamins 50 g, art. 4266 (900, CPA 2309). Siruk:
+  variants 2268–2273 already existed without a code (products 1476–1479,
+  1318, 1317; added 13/11) and got these codes; **Dentinos was new → Siruk
+  1480**, variant 2274 (hafo TX 042661, EAN 4011905042664, 900 / cost 560,
+  trixie.de texts and 4 photos, ru / hy). Glovo price type 02 not set for
+  1646–1652 yet. The invoice's "pillow-shaped 35 g" is Beaphar Cat-a-dent
+  Bits (hafo 11406, ArmSoft 0559); its "calcium bone 4 pcs 90 g" is DL304006
+  (ArmSoft 0512).
+- **Glovo after receipts 0041–0045** (2026-11-15): KF5200411 and KF5200311
+  switched back on; the other nine restocked goods were already on. The seven
+  new goods (23415 24652 24797 24802 KF5200811 KF5200711 4266) were sent to
+  Glovo's review the same day: `final/glovo/new-2026-11-15/glovo-new-2026-11-15.xlsx`,
+  price = Siruk + 14 % rounded up to 50 (no Zoovet match looked up), categories
+  from the map (7074 / 20619 / 7077 / 7078), with their EANs, case
+  **500bO000018v24qQAA** ("All the operations were successful"); `--review` the same
+  afternoon: all 7 SUCCESS, prices and categories kept, Glovo reworded 6
+  titles (KF5200811's hy title lost "light wood"). `jq` 1.8.2 was installed with
+  winget for this (user yes) — it lands in `%LOCALAPPDATA%\Microsoft\WinGet\Links`,
+  which a running session must add to PATH; `uv` is still not on PATH
+  (`python -m siruk …` works; set `PYTHONUTF8=1` and, in Git Bash,
+  `MSYS_NO_PATHCONV=1`). The stock check also listed 21 goods to switch off as
+  sold out — applied at 12:52 from a second export taken at 12:51 (identical to the 11:54 one; user asked for a fresh one): 18 at stock 0 and 3 bags with no sealed bag left (0022 6.4 of 7 kg, 1450 7 of 8 kg, 1459 4 of 7 kg). `final/glovo/glovo-availability-2026-11-15-1250.xlsx`; the re-run says 0 to switch off. Two of the 21 (Trixie 31347, 4026) are on hafo orders #12237 / #12238, delivered per the user but not invoiced, so not in ArmSoft.
+- **Driving ArmSoft without computer use** (2026-11-15): `scripts/armsoft-drive.ps1`
+  (`-Do front|shot|click|dbl|drag|keys|paste|wins`, screen pixels, a capture
+  after each step, Armenian text pasted from a UTF-8 file) did the pull, both
+  exports, the XML imports and the posting.
+
+- Pull 2026-11-12 11:00 for 10/11–12/11 (08/11–12/11 timed out first: "The operation has timed out."; ArmSoft was closed and was started with the Start-Process line, the user pressed Կատարել on the login): 2 invoices, both new, Pet House 10/11, no replacement note. Together **65,815 = hafo order #12126** (09/11, 20 lines / 23 units, built from the restock sheet `final/glovo/hafo-restock-suggestion-2026-11-09.xlsx`) to the dram, so every line is a good we already sell: the invoice's line text = the ArmSoft good's name.
+  - **A9066878431** (31,175, 15 × 1): 1050 Trixie Dog Poop Bags 8×20 @ 1,300 · 1167 melamine bowl 0.2 l @ 1,965 · 1088 comb long-hair cats 22 cm @ 2,435 · 1429 Nature Original guinea pig @ 2,000 · 1001 8in1 PRO Fillets Dental 80 g @ 1,190 · 0487 duck breast mini 55 g @ 1,000 · 0508 avocado dental 35 g @ 580 · 0510 calcium bones 60 g @ 965 · 0296 Monge VetSolution GI cat 1.5 kg @ 7,300 · 0297 Monge Sterilised chicken 1.5 kg @ 6,200 · 1411 Combi comb 22 cm @ 2,465 (0773 also costs 2,465 but isn't on the order) · 0198 Cat Malt 100 g @ 1,500 · 0572 Denta Fun rabbit rolls @ 1,030 · 1410 Ultra litter scoop L @ 655 · 0654 litter scoop with mesh L @ 590. Costs equal Siruk's cost on every line.
+  - **A1771977413** (34,640): 0332 Gemon Adult Mousse salmon 85 g × 4 @ 335 · 0371 Monge Monoprotein lamb 400 g @ 1,450 · 0372 chicken 400 g @ 1,450 · 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500** · 0393 Monge Fresh Senior turkey 400 g @ 900.
+  - Receipt XMLs built (not yet imported/posted): `final/armsoft-2026-11-12/pethouse-A9066878431-receipt-0039.xml`, `…A1771977413-receipt-0040.xml`.
+  - A receipt **0019 dated 11/11/26, 0.00, no supplier, narek.outstaffing** appeared in the purchase list since 09/11 — an empty receipt someone made by hand.
+
+- Pull 2026-11-13 17:37 for 10/11–13/11 (first try, no timeout): 4 invoices, 2 new, both Pet House 13/11, no replacement note — **neither received**, each has lines with no ArmSoft good and no Siruk variant (state/open-items.csv):
+  - **A1433256986** (10,055 incl. VAT, 4 × 1, no barcodes): ceramic bowl wide-rim 0.6 l / 23 cm grey @ 3,215; ceramic bowl with cat print 0.25 l / 13 cm grey @ 1,250; ceramic bowl raspberry with white paws, high, 0.15 l / 13 cm @ 1,935; puppy toilet with rubber rim 49 × 41 cm beige @ 3,655. **None** known to ArmSoft or Siruk.
+  - **A2164605176** (7,300 incl. VAT, 4 × 1): Kotoffey wood litter light 2 kg / 6 l @ 1,060 (**0235**, Siruk 1318 v2032, cost equal) and dark 2 kg / 6 l @ 1,060 (**0238**, Siruk 1317 v2031, cost equal); light and dark **6 kg / 18 l** @ 2,590 each — no ArmSoft good, no Siruk variant.
+  - Club 4 Paws × 24 (#11997) and Premio 3179Tx (#12110) still not invoiced.
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| issue **0009** | 16/11 | Stock count correction, user: "write it off" — the seller said Royal Canin Kitten dry is finished while the 11:46 turnover still showed **1455** RC Kitten 10 kg at 4.5 kg (open bag). Added by PLU **00087** (line 1455, 303 kg) × 4.5, cost 7,762.50 (1,725/kg). Comment "Stock count correction: seller says none left; Royal Canin supplier has none (user, 2026-11-16)". Stock after 0 (turnover 12:13). Siruk 1955 and Glovo 3182550702973-KG were already off | posted by Claude, user asked |
+| receipt **0048** | 16/11 | Pet House **A2631104009** (08/11), the two boards left out of 0036: new 1667 (48020) × 1 @ 4,100 and new 1668 (48021) × 1 @ 3,900 = 8,000 = invoice lines × 0.8. Pet House gave 20 % off for the mistake; comment on the receipt | posted by Claude, user asked |
+| receipt **0047** | 15/11 | Pet House **A3182055782** (15/11, 53,130 incl. VAT, 23 lines / 31 pcs) = hafo #12237 + #12238 plus 1 more 0217 and 1 more 1656: 1007 @ 3,500; new 1654 × 2 @ 1,715; 0407 @ 685; 1011 @ 965; 1015 @ 1,685; new 1657 @ 2,215; new 1658 @ 4,900; new 1662 × 2 @ 1,835; new 1661 @ 1,190; new 1659, 1660 @ 1,515; new 1664, 1663 @ 810; new 1665 @ 530; new 1666 @ 590; 0449 × 3 @ 1,450; 0512 @ 1,160; 0217 × 2 @ 3,655; new 1656 × 2 @ 750; 0573 × 2 @ 1,340; new 1655 @ 3,215; 0632 @ 1,655; 0633 × 2 @ 1,625 | posted by Claude, user asked |
+| receipt **0046** | 15/11 | Pet House **A1614547319** (15/11, 54,528) = hafo #12252 with 28 of each pâté instead of 24: new 1653 × 28, 0349 × 28, 0351 × 28 @ 117; 0074 ACANA Grass-Fed Lamb 11.4 kg as **003 × 1 @ 44,700**. Both in `final/armsoft-2026-11-15/pethouse-receipts-0046-0047.xml` | posted by Claude, user asked |
+| receipt **0045** | 15/11 | Pet House **A0750259960** (14/11, 5,400 incl. VAT) = hafo order #12225: 0399 Club 4 Paws Sterilised chicken jelly 80 g × 24 @ 225. Siruk variant 885 was out of stock since 28/10 → stock set back to 10 | posted by Claude, user asked |
+| receipt **0044** | 15/11 | Pet House **A8707682798** (14/11, 4,305) = hafo #12220: 1620 × 3 @ 355, 1121 1122 1123 × 1 @ 625, 0559 Beaphar Cat-a-dent Bits 35 g × 1 @ 805, new **1652** Trixie Dentinos 50 g × 1 @ 560 | posted by Claude, user asked |
+| receipt **0043** | 15/11 | Pet House **A8519891402** (14/11, 11,400) = hafo #12211: 1001 × 3 @ 1,190, 0499 × 3 @ 1,450, 0512 × 3 @ 1,160 | posted by Claude, user asked |
+| receipt **0042** | 15/11 | Pet House **A2164605176** (13/11, 7,300) = part of hafo #12190: 0235 and 0238 (2 kg / 6 l) × 1 @ 1,060, new **1650** light and **1651** dark wood litter 6 kg / 18 l × 1 @ 2,590 | posted by Claude, user asked |
+| receipt **0041** | 15/11 | Pet House **A1433256986** (13/11, 10,055) = part of hafo #12190: new **1649** bowl 24802 @ 3,215, **1647** bowl 24652 @ 1,250, **1648** bowl 24797 @ 1,935, **1646** puppy toilet 23415 @ 3,655, 1 each. All five receipts in one file, `final/armsoft-2026-11-15/pethouse-receipts-0041-0045.xml` (five `MTIncome` in one XML import fine) | posted by Claude, user asked |
+| return **0000004** | 13/11 | HDM return slip **00000192** against till sale **0000200 / HDM 00000179** (11/11, cash): 0237 Kotoffey hygienic cat litter 2.7 kg (4.8 l, EAN 4627106520025) × 1, **1,750 AMD cash back**. Customer returned a sealed bag → back on the shelf, no write-off. Made and printed at the shop by the user from Claude's step-by-step guide; Claude checked it from the office: base = sale 0000200, one return only, movement journal 0237 +1 −1 +1 −1 +2 −1 +1 = **2** | made by the user, checked by Claude |
+| receipt **0040** | 12/11 | Pet House **A1771977413** (10/11, 34,640 incl. VAT): 0332 Gemon Adult Mousse salmon 85 g × 4 @ 335, 0371 / 0372 Monge Monoprotein lamb / chicken 400 g @ 1,450, 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500**, 0393 Monge Fresh Senior turkey 400 g @ 900. File `final/armsoft-2026-11-12/pethouse-A1771977413-receipt-0040.xml` | posted by Claude, user yes |
+| receipt **0039** | 12/11 | Pet House **A9066878431** (10/11, 31,175 incl. VAT, 15 × 1): 1050 1167 1088 1429 1001 0487 0508 0510 0296 0297 1411 0198 0572 1410 0654 at their last cost (1411 had none; 2,465). Stock after: 1 each. File `final/armsoft-2026-11-12/pethouse-A9066878431-receipt-0039.xml` | posted by Claude, user yes |
 | receipt **0038** | 09/11 | Pet House **A8770854680** (09/11, 23,000 incl. VAT): 0071 Club 4 Paws rabbit 14 kg as **003 × 1 @ 23,000** (23,000 / 14 doesn't fit 2 decimals). Stock after 1.536 bags. File `final/armsoft-2026-11-09/pethouse-A8770854680-receipt-0038.xml` | posted by Claude, user yes |
 | receipt **0037** | 09/11 | Pet House **A2576225977** (09/11, 19,330 incl. VAT, 11 pcs): new 1640 1641 (3,090), 1642 (2,500), 1643 (3,185), 1644 (1,655), 1645 (1,875); 1620 1621 1622 × 1 @ 355, 1038 @ 1,655, 1114 @ 1,215 | posted by Claude, user yes |
 | receipt **0036** | 09/11 | Pet House **A2631104009** (08/11) **without** the boards 48020 / 48021 (sent by mistake, user): 32,815 of 42,815. 1606 @ 2,000, 0418 / 0421 × 2 @ 515, 1121 1122 1123 × 3 @ 625, new 1638 @ 7,560, 0153 × 2 @ 3,785, new 1639 × 100 (001) @ 80 | posted by Claude, user yes |

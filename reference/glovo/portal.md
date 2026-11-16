@@ -238,6 +238,62 @@ new products:
   vendorIdentifier, active, sku }`) exist but carry no name/description/images —
   untested, probably only for stock integrations.
 
+## Vendor categories: audit and fix (2026-11-15)
+
+The owner saw toys in the treats section. `scripts/glovo-categories.py` audits every
+Glovo product against Siruk (category leaves + product type + the Material option for
+bowls). The map is in `reference/glovo/category-map.json`: Siruk leaf → vendor category
+ids, with the hy names and an English gloss beside each id.
+
+- **Run:** `audit` (`--refresh` re-reads Glovo first) writes
+  `runs/<date>/glovo-categories-plan.csv` plus a breakdown CSV of product types per
+  category, now and after the plan. `apply` is a dry run unless `--apply`.
+  - It sends one `{sku, vendorIdentifier, productInternalId, categoryInternalIds}` per
+    row, paced at 1 s. `categoryInternalIds` is `[Int!]` and `productInternalId` is a `Long`
+    (introspected 2026-11-15).
+  - It re-reads the store first and skips a row that changed since the audit.
+  - It backs up the before-state (`glovo-categories-before.json`), and `--restore`
+    puts it back.
+- **Tree:** our store's 75 vendor categories. Several leaves were empty on 2026-11-15:
+  - dog / cat veterinary food (20614, 7146);
+  - the "For pets" beds and dishes (28235; plastic 28238, metal 28239, other 28240);
+  - bird supplements (7090);
+  - the duplicates 7079 / 7080 / 6169 / 28243 (cat side; 7146 / 7147 / 7077 are the ones in use).
+  - Loyalty card (27603…) and "Նորույթ" (29761…) are not product categories.
+  - There is no cat grooming leaf (20617 "hygiene supplies" holds cat brushes and
+    shampoos), no dog hygiene leaf, and no leaf for rodent or bird care. Those map to the
+    closest category, marked `approximate`.
+- **First audit (1,662 products, all matched to Siruk):** 1,355 ok, 225 change,
+  82 approximate, 0 no-match.
+  - Only **45 sit in a wrong category**. The rest only lack a category: the second species,
+    vet food, beds, dishes, or Bones & sticks.
+  - The wrong ones:
+    - 7 catnip **toys**, 1 catnip spray and 3 Beaphar vitamin tablets in cat treats (7078);
+    - 5 dog chew **toys** making up all of Bones & sticks (26752);
+    - a toy in dog treats;
+    - 4 rabbit-ear **dog** treats in rodent treats;
+    - 4 Club 4 Paws **cat** wet foods in rodent food or cat treats;
+    - 5 litter buckets in cat litter;
+    - 2 bowl place mats, a litter scoop and a litter tray in pads (7074);
+    - 3 bird supplements in bird food;
+    - a flea spray in dog care;
+    - cat-only bowls in dog accessories.
+- **Why:** our onboarding sheet was right in all 45 rows. Its Section 1/2 named the Siruk
+  leaf, but Glovo's staff picked the vendor category from the hy title and the section
+  wording.
+  - `տակդիր` (place mat, but also diaper) → Pads.
+  - `Ճագարի` (rabbit) → rodents.
+  - `լցանյութի` (litter, in "bucket for litter") → Cat litter.
+  - `հյուրասիրություն` (treat) → treats.
+  - Section `Կատվախոտ կատուների համար` → cat treats. Siruk has "Catnip" both as a toy leaf
+    (25) and as a treat leaf (93), so the section text alone can't tell them apart.
+  - Section `Ծամելու և ատամների խնամքի շների համար` (Chew & Dental *toys*) → Bones & sticks.
+  - They also **cut every multi-section product to one category**. 138 onboarding rows
+    had a Section 2, and 3 kept more than one. 157 of the 161 dog + cat products show
+    one species only.
+- **Products added later** (`glovo-add-products.py`, 65 rows) kept the categories we sent.
+  None of the 45 came from it.
+
 ## Stock on Glovo
 
 **No quantities.** A product is `active` (orderable) or not, plus an optional
@@ -298,6 +354,21 @@ It needs the headers `glovo-app-platform: web`, `glovo-app-type: customer`,
   The `/v3/…/search` endpoint answers 503.
 - Checked matches of ours ↔ Zoovet Glovo: `state/glovo-zoovet-matches.csv` (157, 2026-11-06).
   Some Zoovet big bags (Monge 12–15 kg) and single sticks are priced per kg / per piece.
+- **Price under Zoovet's Glovo price: 50–200 ֏, not 5%** (user 2026-11-15: on expensive goods
+  the Yandex 5% undercut was thousands of ֏). A matched row is priced zp − 50/100/150/200 by
+  our net at zp, raised as well as lowered (`glovo-prices-into-sheet.py` `TIERS`, skill §2).
+- **New rule, user 2026-11-15 evening (replaces the +14 % base and the 50–200 tiers):**
+  Glovo keeps 20 % of the Glovo price, so the default is **Siruk price ÷ 0.8** (+25 %),
+  rounded up to 50 ֏ — a Glovo sale then earns the shop profit. A product Zoovet also sells
+  (a checked match, in stock, not a per-kg / per-piece price): **50 ֏ under Zoovet** (rounded
+  down to 50, to 10 when that opens a gap over 100). **Floor: Siruk + 15 %** rounded up to 50
+  — below that we stop following Zoovet. Why: at +14 % a typical product kept 77 % of its shop
+  profit; Zoovet's Glovo prices are a median 1.30 × our Siruk prices (124 comparable matches).
+  Applied to the whole store that evening from `final/glovo/glovo-price-plan-2026-11-15.xlsx`
+  (builder `runs/2026-11-15/glovo_price_plan.py`, since cleared; 1,610 changes).
+  2026-11-16: `glovo-prices-into-sheet.py` now implements this rule (`glovo_price()`, all 1,681
+  plan prices reproduced) and the user confirmed it as the one rule for every product,
+  replacing the +14 % / +20 % bases; ArmSoft price type 02 = the same price.
 
 **Zoovet's title pattern** (its newer, consistent titles):
 `<Brand> <Line, Latin> <what it is, lowercase Armenian> <main flavour -ով> <for whom … համար>, <size>`.
@@ -375,3 +446,13 @@ The change shows at once in `products(locale: hy_AM)` and in the portal drawer. 
 and active are untouched. 4020's old titles are in `.siruk-cache/glovo/backup/4020-before.json`.
 The public store page couldn't be checked: Siruk isn't listed on glovoapp.com yet
 (the store is still in onboarding, "Getting started").
+
+## The category tree is Glovo's, not ours (2026-11-15)
+
+- A partner can't create, rename or delete a category: the catalogue API has no category
+  mutation (live introspection 2026-11-15) and Store Management only filters by category.
+  The tree is Glovo's shared pet-shop list for Armenia; Zoovet's store uses the same names.
+- The owner wants Siruk's own tree (83 leaves in use) on Glovo. That is a request to Glovo:
+  `final/glovo/glovo-category-request-2026-11-15.xlsx` (tree in hy + every SKU's categories).
+- Beds stay with their species (dog / cat accessories), never in the shared
+  "For pets → Beds" leaf 28235 (user 2026-11-15; 15 products moved back).

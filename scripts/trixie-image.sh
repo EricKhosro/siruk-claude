@@ -7,7 +7,7 @@
 # Source of truth is the product page (server-rendered, ~100 KB), found through the
 # cached catalogue (`scripts/trixie-catalogue.py --lookup`). Its gallery references
 # the 1600mx1200m CDN renditions, and every file name carries the article number:
-#   PHO_PRO_CLIP_<art>-<n>   packshot            PHO_PAC_CLIP_<art>-<n>   pack
+#   PHO_PAC_CLIP_<art>-<n>   pack (bag/box/tube) PHO_PRO_CLIP_<art>-<n>   bare product
 #   PHO_PRO_DOG/CAT_<art>-<n> lifestyle          PHO_PRO_GROUP_CLIP_<a>-<b>-… group shot
 #   GRA_PRO_<art>-<n>        drawing/graphic
 # Only images keyed to THIS article (or a group shot naming it) are returned, in
@@ -29,7 +29,7 @@ tmp="$(mktemp)"; trap 'rm -f "$tmp"' EXIT
 rank() {  # print "<rank>\t<url>" so sort gives packshot, pack, lifestyle, group, graphic
   local u=$1 f; f=${u##*/}
   case "$f" in
-    PHO_PRO_CLIP_*) echo "1	$u";; PHO_PAC_CLIP_*) echo "2	$u";;
+    PHO_PAC_CLIP_*) echo "1	$u";; PHO_PRO_CLIP_*) echo "2	$u";;  # pack leads (2026-11-13)
     PHO_PRO_GROUP*) echo "4	$u";; GRA_*) echo "5	$u";; *) echo "3	$u";;
   esac
 }

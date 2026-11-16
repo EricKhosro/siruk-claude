@@ -49,6 +49,11 @@ linked doc before you rely on a number from memory.
    hafo-priced rows (`--apply` fixes unflagged rows only); a row priced from
    zoovet or nemo needs its own recheck against that source, not hafo — per
    row with `zoovet-lookup.py` / `nemo-lookup.py --url`, no batch script yet; see `reference/pricing.md` → "Recheck gap".
+   **And after every restock** (user 2026-11-15): `siruk restock-check
+   <ArmSoft code>=<invoice cost> …` updates `cost_price` from the invoice and
+   re-reads all three rivals live for the highest price (zoovet / nemo only on
+   hand-confirmed pages, `state/rival-urls.csv`); `--apply` writes unflagged
+   rows on the user's yes. `reference/pricing.md` → "Restock check".
 5. **Sale price must beat cost** — at or below our CSV cost means the wrong
    row (or an invented price), stop and check by hand. The write scripts
    refuse such a variant (`ALLOW_BELOW_COST=1` only on the user's explicit
@@ -302,6 +307,7 @@ doc that still names a script means its `siruk` equivalent from this table:
 | stock | `stock_movements`, `stock_receive` / `_write_off` / `_set` | `siruk stock show\|receive\|write-off\|set <vid> …` | `api.sh /stock/variants/…` |
 | hafo / zoovet / nemo price | `hafo_lookup`, `zoovet_search`, `nemo_search` | `siruk price hafo --code X --name "…"` / `price zoovet\|nemo --search "…"` | `hafo-lookup.py`, `zoovet-lookup.py`, `nemo-lookup.py` |
 | hafo recheck (rule 4) | `hafo_price_recheck`, `apply_hafo_prices` (≤ 50 ids) | `siruk recheck-prices [--apply]` | `check-hafo-prices.py` |
+| restock check: cost + highest rival price (rule 4) | — | `siruk restock-check <code>=<cost>… [--apply]` | — |
 | whole-catalogue read / audit | `export_catalogue`, `catalogue_audit`, `save_catalogue_export` | `siruk export [--audit]` | `dump-products.py` (still needed for attribute ids / GET shape) |
 | pacing between rows | — (the client paces itself) | `siruk pace product` | `pace.sh product` |
 | any other endpoint | — (no raw API in the MCP) | `siruk api METHOD PATH [body]` | `api.sh` |

@@ -3,7 +3,7 @@
 cached page (scripts/trixie-parse.py) plus a CDN probe, cached per article in
 .siruk-cache/trixie-gallery-urls.json (same file scripts/trixie-image.sh uses).
 
-Ranking = scripts/trixie-image.sh: PHO_PRO_CLIP (packshot) 1, PHO_PAC_CLIP 2,
+Ranking = scripts/trixie-image.sh: PHO_PAC_CLIP (pack) 1, PHO_PRO_CLIP (bare product) 2,
 other article-keyed shots 3, group shots naming the article 4, GRA_ drawings 5.
 Only file names carrying THIS article number count. When the page has no
 PHO_PRO_CLIP (or there is no page) the CDN is probed for PHO_PRO_CLIP/PHO_PAC_CLIP
@@ -23,8 +23,8 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 
 def rank(u):
     f = u.rsplit("/", 1)[-1]
-    if f.startswith("PHO_PRO_CLIP_"): return 1
-    if f.startswith("PHO_PAC_CLIP_"): return 2
+    if f.startswith("PHO_PAC_CLIP_"): return 1  # the pack leads (user 2026-11-13)
+    if f.startswith("PHO_PRO_CLIP_"): return 2
     if f.startswith("PHO_PRO_GROUP"): return 4
     if f.startswith("GRA_"): return 5
     return 3
