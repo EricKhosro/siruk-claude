@@ -4,7 +4,8 @@
     uv run --no-sync --with openpyxl python scripts/hafo-restock.py \
         --now Scale/armsoft-turnover-<today>.xlsx --before Scale/armsoft-turnover-<~14 days ago>.xlsx \
         --pending runs/<today>/hafo-pending.json [--cover 14] [--siruk <export.json>] \
-        --out final/hafo/hafo-restock-<today>.xlsx --cart runs/<today>/hafo-cart.json
+        --out final/hafo/hafo-restock-<today>.xlsx --cart runs/<today>/hafo-cart.json \
+        --lines runs/<today>/restock-lines.json      # → scripts/restock-price-check.py
 
 Inputs
   --now / --before  ArmSoft "Ապրանքների շրջանառություն", period from 01/01/01, "Բացված ըստ
@@ -22,7 +23,9 @@ Per ArmSoft good that hafo sells (matched Siruk variant → hafo row by EAN, els
   rate     = sold in the window ÷ days   (sold = Վաճառքներ + Վաճառք (Մանրածախ) − Վերադարձներ)
   have     = ArmSoft stock + what is on the way (open hafo orders)
   need     = rate × cover − have; pieces → ceil(need), bags (per-kg goods) → ceil(need ÷ bag kg)
-  ORDER    = need capped at hafo's stock
+  ORDER    = need capped at hafo's stock. A by-weight hafo listing (price == kg_price: Trixie
+             loose treats) takes kilos in the basket: ORDER = whole bags × bag kg (cart unit "kg").
+  Match: EAN, else article, else for Trixie the article + "Tx" (hafo's form, 2026-11-16).
 Groups:
   A  sells, runs short within --cover days → order
   B  out of stock and nothing on the way, sold before but not in the window → 1, optional (not in the cart)
@@ -43,6 +46,7 @@ from openpyxl.utils import get_column_letter
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SNAP = os.path.join(ROOT, '.siruk-cache', 'hafo-watch', 'snapshot.json')
 SIRUK = os.path.join(ROOT, '.siruk-cache', 'glovo', 'siruk-export.json')
+TRIXIE = 8
 
 
 def turnover(path):
@@ -86,6 +90,7 @@ def main():
     ap.add_argument('--cover', type=float, default=14, help='days of sales to have on hand (default 14)')
     ap.add_argument('--out', required=True)
     ap.add_argument('--cart', help='write the A-group basket plan here')
+    ap.add_argument('--lines', help='write the A and B lines (with Siruk price/cost) here, for restock-price-check.py')
     a = ap.parse_args()
 
     days = a.days or ((file_date(a.now) - file_date(a.before)).days if file_date(a.now) and file_date(a.before) else None)
@@ -109,6 +114,11 @@ def main():
         code = str(v['accounting_code']).strip()
         h = h_ean.get(ean(v.get('barcode'))) or h_art.get(art(v.get('sku')))
         how = 'EAN' if h_ean.get(ean(v.get('barcode'))) else ('article' if h else '')
+        if not h and v.get('brand_id') == TRIXIE and v.get('sku'):
+            # hafo writes Trixie articles "31526Tx" and gives its loose treats an internal
+            # barcode (2001002…), so neither the EAN nor the bare article finds them (2026-11-16)
+            h = h_art.get(art(v['sku']) + 'TX')
+            how = 'article+Tx' if h else ''
         if code not in goods or (h and not goods[code][1]):
             goods[code] = (v, h, how)
 
@@ -163,18 +173,31 @@ def main():
         if not h:
             group = 'C'
         hq = h['qty'] if h else None
-        order = 0 if group in ('S', 'C') else (min(n, int(hq)) if hq is not None else n)
-        if h and hq is not None and hq <= 0 and group in ('A', 'B'):
-            group, order = 'D', 0
+        # a by-weight hafo listing (price == kg_price: Trixie loose treats) sells and counts stock in kg,
+        # so the basket takes kilos: whole bags × bag kg, capped at the whole bags hafo has
+        per_kg = bool(h and bag and h.get('kg_price') and h.get('price') == h.get('kg_price'))
+        cap = (int(hq // bag) if per_kg else int(hq)) if hq is not None else None
+        bags = 0 if group in ('S', 'C') else (min(n, cap) if cap is not None else n)
+        order = round(bags * bag, 3) if per_kg else bags
+        if per_kg:
+            unit = f'kg on hafo ({bags} × {bag:g} kg bag)'
+        if h and cap is not None and cap <= 0 and group in ('A', 'B'):
+            group, order, bags = 'D', 0, 0
         cost = v.get('cost_price') or 0
         unit_cost = cost * bag if bag and str(v.get('measure_type')) == 'mass' and (v.get('content') or 0) < 2000 else cost
         lines.append({'group': group, 'code': code, 'brand': v.get('brand') or '', 'product': v.get('product_name') or '',
                       'size': v.get('size') or (f'{bag:g} kg' if bag else ''), 'armsoft': t['name'],
                       'stock': round(t['stock'], 3), 'unit': 'kg' if t['kg'] else 'pcs', 'incoming': round(inc, 3),
-                      'sold_window': round(sold, 3), 'per_week': round(rate * 7, 2), 'suggested': n, 'order_unit': unit,
+                      'sold_window': round(sold, 3), 'per_week': round(rate * 7, 2), 'suggested': n, 'order_unit': unit, 'bags': bags, 'hafo_per_kg': per_kg,
                       'hafo_sku': (h or {}).get('sku', ''), 'match': how, 'hafo_qty': int(hq) if hq is not None else '',
                       'hafo_price': (h or {}).get('price', ''), 'order': order, 'why': why,
-                      'url': (h or {}).get('url', ''), 'row_id': (h or {}).get('row_id', '')})
+                      'url': (h or {}).get('url', ''), 'row_id': (h or {}).get('row_id', ''),
+                      # for scripts/restock-price-check.py (cost / rival / Glovo check before the basket)
+                      'sku': v.get('sku'), 'product_id': v.get('product_id'), 'variant_id': v.get('variant_id'),
+                      'brand_id': v.get('brand_id'), 'siruk_price': v.get('price'), 'siruk_cost': cost,
+                      'measure_type': v.get('measure_type'), 'content': v.get('content'),
+                      'price_source_url': v.get('price_source_url') or '', 'barcode': v.get('barcode') or '',
+                      'hafo_wholesale': (h or {}).get('wholesale'), 'hafo_kg_price': (h or {}).get('kg_price')})
 
     order_key = {'A': 0, 'B': 1, 'S': 2, 'D': 3, 'C': 4}
     lines.sort(key=lambda r: (order_key[r['group']], -r['per_week'], r['brand'].lower(), r['product']))
@@ -224,7 +247,8 @@ def main():
     wb.save(a.out)
 
     cart = [{'code': r['code'], 'product': r['product'], 'url': r['url'], 'row_id': r['row_id'], 'qty': r['order'],
-             'hafo_sku': r['hafo_sku'], 'price': r['hafo_price']} for r in lines if r['group'] == 'A' and r['order'] > 0]
+             'hafo_sku': r['hafo_sku'], 'price': r['hafo_price'],
+             'unit': 'kg' if r['hafo_per_kg'] else 'pcs'} for r in lines if r['group'] == 'A' and r['order'] > 0]
     if a.cart:
         os.makedirs(os.path.dirname(os.path.abspath(a.cart)), exist_ok=True)
         json.dump(cart, open(a.cart, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
@@ -233,6 +257,10 @@ def main():
         rs = [r for r in lines if r['group'] == g]
         print(f'  {names[g]}: {len(rs)} lines, {sum(r["order"] for r in rs)} to order, '
               f'~{sum((r["hafo_price"] or 0) * r["order"] for r in rs):,.0f} AMD at hafo prices')
+    if a.lines:
+        os.makedirs(os.path.dirname(os.path.abspath(a.lines)), exist_ok=True)
+        json.dump({'fetched': fetched, 'xlsx': a.out, 'lines': [r for r in lines if r['group'] in ('A', 'B')]},
+                  open(a.lines, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     if unmatched:
         print(f'  {len(unmatched)} open-order lines not matched to an ArmSoft good: '
               + ', '.join(p['sku'] for p in unmatched[:10]))

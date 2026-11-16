@@ -15,6 +15,23 @@ against the rivals". Facts behind it:
   gap is normal, e.g. Felix 118.13 vs 141.75).
 - Supplier boxes: cost per pouch = box cost ÷ pouches (RC 7,500 / 12 = 625).
 
+- **The restock checks prices first** (2026-11-16, user). `hafo-watch.py crawl` now
+  keeps each row's `wholesale` (and `kg_price`) in the snapshot and logs a
+  "wholesale" change when it moves. `scripts/restock-price-check.py` compares,
+  for the lines we may order, wholesale vs our cost, hafo/zoovet/nemo retail vs
+  our price, and our Glovo price vs Zoovet's. Proposals only.
+  hafo's `kg_price` (checked 2026-11-16): on a by-weight listing it equals
+  `price` (Trixie Bony Mix 31526Tx: 6,300 / 6,300, wholesale 3,935 per kg). On a
+  bag listing it is hafo's loose per-kg retail (Monge Medium Adult 15 kg: price
+  39,000, wholesale 29,500 = our cost, kg_price 2,700).
+  **Cost = hafo wholesale × 0.97 on about 50 goods** (2026-11-16, whole-catalogue
+  compare). These are some Trixie (19510 1,212.46 vs 1,250; 41110 300.69 vs 310), GoSi
+  and Деревенские Лакомства goods; about 1,200 others equal wholesale exactly.
+  This looks like a 3% invoice discount. Not confirmed against a receipt yet.
+  The price check counts it as no change. Still open: does the
+  hafo basket charge retail or wholesale? Order #12126's page needs the user's
+  hafo sign-in, so it wasn't checked. Settle it at the next basket.
+
 ## Cases checked
 
 | Date | Good | Finding | Done |

@@ -157,6 +157,8 @@ def crawl(sleep):
                 qty = 0.0
             rows[sku] = {"sku": r.get("sku"), "barcode": norm_ean(r.get("barcode")), "qty": qty,
                          "in_stock": int(r.get("in_stock") or 0), "price": r.get("price"),
+                         # our buying price (= Pet House's invoice price); per kg on a by-weight listing
+                         "wholesale": r.get("wholesale_price"), "kg_price": r.get("kg_price"),
                          "name": r.get("name"), "url": f"https://hafo.am/products/{it.get('slug')}",
                          "row_id": r.get("id")}
     snap = {"fetched": now().isoformat(timespec="seconds"), "seconds": round(time.time() - t0),
@@ -186,6 +188,8 @@ def diff(prev, cur):
             out.append((sku, "qty", o["qty"], r["qty"]))
         if o["price"] != r["price"]:
             out.append((sku, "price", o["price"], r["price"]))
+        if o.get("wholesale") is not None and o.get("wholesale") != r.get("wholesale"):
+            out.append((sku, "wholesale", o["wholesale"], r.get("wholesale")))   # our buying price moved
     out += [(sku, "gone", a[sku]["qty"], "") for sku in a if sku not in b]
     return out
 
