@@ -258,6 +258,8 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   and posted 16/11. Siruk codes set. Glovo: sent the same day, case
   **500bO00001901WIQAY** (`final/glovo/new-2026-11-16-boards/`, 10,250 / 9,750 = Siruk ÷ 0.8,
   category 20619); ArmSoft price type 02 imported (`glovo-prices-02-1667-1668.xml`).
+  Live on Glovo the same afternoon (review: 2 ok, price + category ours, en titles shortened
+  by Glovo); added to `final/glovo/siruk-glovo-products.xlsx` rows 1667–1668.
   The replacement cardboards 48020-10Tx /
   48021-10Tx that were really ordered are still not delivered.
 - **2026-11-16 Glovo price type 02 for goods 1646–1666** imported
