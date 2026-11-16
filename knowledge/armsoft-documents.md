@@ -187,10 +187,16 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   - Receipt XMLs built (not yet imported/posted): `final/armsoft-2026-11-12/pethouse-A9066878431-receipt-0039.xml`, `…A1771977413-receipt-0040.xml`.
   - A receipt **0019 dated 11/11/26, 0.00, no supplier, narek.outstaffing** appeared in the purchase list since 09/11 — an empty receipt someone made by hand.
 
+- Pull 2026-11-13 17:37 for 10/11–13/11 (first try, no timeout): 4 invoices, 2 new, both Pet House 13/11, no replacement note — **neither received**, each has lines with no ArmSoft good and no Siruk variant (state/open-items.csv):
+  - **A1433256986** (10,055 incl. VAT, 4 × 1, no barcodes): ceramic bowl wide-rim 0.6 l / 23 cm grey @ 3,215; ceramic bowl with cat print 0.25 l / 13 cm grey @ 1,250; ceramic bowl raspberry with white paws, high, 0.15 l / 13 cm @ 1,935; puppy toilet with rubber rim 49 × 41 cm beige @ 3,655. **None** known to ArmSoft or Siruk.
+  - **A2164605176** (7,300 incl. VAT, 4 × 1): Kotoffey wood litter light 2 kg / 6 l @ 1,060 (**0235**, Siruk 1318 v2032, cost equal) and dark 2 kg / 6 l @ 1,060 (**0238**, Siruk 1317 v2031, cost equal); light and dark **6 kg / 18 l** @ 2,590 each — no ArmSoft good, no Siruk variant.
+  - Club 4 Paws × 24 (#11997) and Premio 3179Tx (#12110) still not invoiced.
+
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| return **0000004** | 13/11 | HDM return slip **00000192** against till sale **0000200 / HDM 00000179** (11/11, cash): 0237 Kotoffey hygienic cat litter 2.7 kg (4.8 l, EAN 4627106520025) × 1, **1,750 AMD cash back**. Customer returned a sealed bag → back on the shelf, no write-off. Made and printed at the shop by the user from Claude's step-by-step guide; Claude checked it from the office: base = sale 0000200, one return only, movement journal 0237 +1 −1 +1 −1 +2 −1 +1 = **2** | made by the user, checked by Claude |
 | receipt **0040** | 12/11 | Pet House **A1771977413** (10/11, 34,640 incl. VAT): 0332 Gemon Adult Mousse salmon 85 g × 4 @ 335, 0371 / 0372 Monge Monoprotein lamb / chicken 400 g @ 1,450, 0043 Monge Medium Adult 15 kg as **003 × 1 @ 29,500**, 0393 Monge Fresh Senior turkey 400 g @ 900. File `final/armsoft-2026-11-12/pethouse-A1771977413-receipt-0040.xml` | posted by Claude, user yes |
 | receipt **0039** | 12/11 | Pet House **A9066878431** (10/11, 31,175 incl. VAT, 15 × 1): 1050 1167 1088 1429 1001 0487 0508 0510 0296 0297 1411 0198 0572 1410 0654 at their last cost (1411 had none; 2,465). Stock after: 1 each. File `final/armsoft-2026-11-12/pethouse-A9066878431-receipt-0039.xml` | posted by Claude, user yes |
 | receipt **0038** | 09/11 | Pet House **A8770854680** (09/11, 23,000 incl. VAT): 0071 Club 4 Paws rabbit 14 kg as **003 × 1 @ 23,000** (23,000 / 14 doesn't fit 2 decimals). Stock after 1.536 bags. File `final/armsoft-2026-11-09/pethouse-A8770854680-receipt-0038.xml` | posted by Claude, user yes |
