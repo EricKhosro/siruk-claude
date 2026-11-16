@@ -180,6 +180,11 @@ Zoovet (`zoovetam`, place 2285402) on 2026-11-02:
 - A confirmed Zoovet twin is always priced under Zoovet, with its own lower
   margin floor of 5% net after commission (user 2026-11-05). Every other row
   keeps the 15% floor.
+- **How far under Zoovet: 50–200 ֏, never a percentage** (user 2026-11-15: "5% is a wrong
+  rule", it was a lot on expensive goods). By our net per unit at Zoovet's price (Zoovet × 0.8 −
+  cost): under 500 → 50, under 1,500 → 100, under 3,000 → 150, else 200 (`TIERS`; the same
+  tiers as Glovo). Re-run on 2026-11-15: 154 prices in column N changed. Without
+  `.siruk-cache/yandex/` the script keeps the match columns already in the sheet.
 - **Royal Canin skips the undercut** (user 2026-11-05: out of stock across the
   city, it sells anyway): Siruk price + uplift with the 15% floor, even where
   Zoovet is cheaper. `NO_UNDERCUT` in the script. On Yandex only: Glovo undercuts

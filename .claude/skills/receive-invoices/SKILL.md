@@ -7,8 +7,9 @@ description: The shop computer's one job — pull new supplier e-invoices into A
 
 Who runs it: the seller in the shop, on the shop computer (`shop/README.md`).
 What it does: new supplier e-invoice → ArmSoft warehouse receipt, **restocks
-only**. It never creates a product, a good or a price, and it never changes
-Siruk. Anything it can't settle by the rules below goes to the office as a
+only**. It never creates a product, a good or a price, and at the shop it
+never changes Siruk (the office applies the restock check of step 5).
+Anything it can't settle by the rules below goes to the office as a
 written note — the seller is not asked to decide it.
 
 Speak to the seller in their language, short and plain. No codes, XML or
@@ -49,6 +50,35 @@ first. Unit and cost traps: `knowledge/goods-setups.md`,
 
 Nothing new → tell the seller "no new invoices", record the pull date (step
 6) and finish.
+
+## 1b. The invoice is what arrived — the hafo order is only what we asked for (user 2026-11-15)
+
+hafo doesn't always send what was ordered. **The supplier's e-invoice is the
+source of truth for what came into the shop**: what is on it, in its
+quantities and at its prices, is what gets received. A hafo order
+(hafo.am/my-orders) is never received from, never used to add, drop or change
+a line, and never a reason to hold an invoice. The one exception stays the
+user's own word about a specific line ("sent by mistake — skip it", receipt
+0036).
+
+The order is only used to see what is **missing**, at the office (the shop
+has no hafo login; there, skip this step):
+
+1. With the user signed in to hafo.am in the built-in browser (never sign in
+   for them), read every order since the last one settled in
+   `knowledge/armsoft-documents.md` — `/hafo-restock` step 5 has the snippet.
+2. Pair orders with invoices by total, then line by line (name, quantity,
+   price). An order often equals one or two invoices to the dram.
+3. Report two sums, every time:
+   - **invoiced, not yet received** — goods invoices with no receipt, incl. VAT;
+   - **ordered, not invoiced** — whole orders with no invoice, plus single
+     lines left off an invoice, at the order's prices.
+4. Write the "ordered, not invoiced" lines to `state/open-items.csv`
+   ("Waiting: Pet House invoice for hafo order #N"), and close a row once
+   its invoice comes. They are not stock and not owed until invoiced: no
+   temporary receipt, unless the user asks for one.
+5. A line invoiced but never ordered, or in another quantity: receive it as
+   invoiced and tell the user, who settles it with Pet House.
 
 ## 2. Match every line
 
@@ -107,11 +137,33 @@ Stop the invoice too (same note, reason given) when, on a matched line:
   seller's yes.** A no → leave the draft and note it for the office.
 - After posting, check a couple of lines' stock (lower panel "Մնացորդ").
 
-## 5. Siruk: nothing
+## 5. Siruk: no stock call, but check the cost and the price (user 2026-11-15)
 
 Siruk's stock is a placeholder (10 on every variant, on purpose); real stock
-lives in ArmSoft only. A restock changes nothing on api.siruk.am — no stock
-call, no price change. The goods are on sale the moment the receipt is posted.
+lives in ArmSoft only, so a restock makes no stock call. The goods are on sale
+the moment the receipt is posted.
+
+What a restock does change is what we paid, and maybe what the rivals charge.
+After **every** posted receipt, run the restock check on its lines:
+
+`uv run --no-sync siruk restock-check <ArmSoft code>=<invoice cost incl. VAT per pack> …`
+
+(a bag booked by the kilo: `<code>=<cost per kg>/kg`). It compares each cost
+with Siruk's `cost_price`, reads hafo, zoovet and nemo live, and writes
+`runs/<today>/restock-check.csv`. It changes nothing without `--apply`.
+Statuses and rules: `reference/pricing.md` → "Restock check".
+
+- **At the shop**: never `--apply`. If the summary shows anything but `same` and
+  `match`, add one row to `state/open-items.csv`: "office: restock check after
+  receipt <no>", with the lines and what the check proposed. Say nothing about
+  it to the seller.
+- **At the office**: show the user the proposed cost and price changes and the
+  flagged rows, in plain words. On their yes, the same command with `--apply`
+  (it shows each diff and writes only unflagged rows). A `CHECK BY HAND` row
+  needs the missing shop's page confirmed by hand and added to
+  `state/rival-urls.csv` first; a flagged row is settled with the user, never
+  forced. A changed price then has to reach ArmSoft, the scale and Glovo:
+  `/armsoft-sync`, `/send-to-scale`, `/glovo-portal`.
 
 ## 5b. Glovo: back on, and anything sold out off (user 2026-11-09)
 
@@ -153,8 +205,9 @@ sale, what is waiting for the office.
 
 ## Never, from this command
 
-- Create or edit a product, variant, brand, price or translation on Siruk;
-  create a good or set a price in ArmSoft.
+- Create or edit a product, variant, brand, price or translation on Siruk
+  (the one exception: the office's `restock-check --apply` of step 5, on the
+  user's yes); create a good or set a price in ArmSoft.
 - Edit or delete a posted receipt or any other document, or receive an
   invoice twice.
 - Receive part of an invoice.

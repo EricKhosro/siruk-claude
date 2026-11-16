@@ -39,14 +39,22 @@ dry run until `--apply`. Show the user the dry run and get a yes before `--apply
 
 ## 2. Prices
 
+**Rule changed 2026-11-15 (user): default Siruk ÷ 0.8, 50 ֏ under Zoovet on shared goods, floor
+Siruk + 15 % — `reference/glovo/portal.md` → "New rule". The live prices were set from
+`final/glovo/glovo-price-plan-2026-11-15.xlsx`; the script and sheet below still carry the old
+rule and must be updated before they are used again.**
+
 Prices of record for Glovo = column F of `final/glovo/siruk-glovo-products.xlsx`,
 filled by `scripts/glovo-prices-into-sheet.py`:
 - base = column N of `final/siruk-source-of-truth.xlsx` (the Yandex price,
   `scripts/yandex-prices-into-sot.py`; rules in `reference/yandex/README.md`);
-- **every product Zoovet also sells on Glovo goes just under Zoovet's Glovo price**
-  (rounded down to 50 ֏ below it), Royal Canin included (user 2026-11-06). The checked
+- **every product Zoovet also sells on Glovo goes 50–200 ֏ under Zoovet's Glovo price**,
+  up or down from the base, Royal Canin included (user 2026-11-06, 2026-11-15). The undercut
+  grows with our net per unit at Zoovet's price (price × 0.8 − cost): under 500 → 50 ֏,
+  under 1,500 → 100, under 3,000 → 150, else 200 (`TIERS` in the script). The checked
   matches are in `state/glovo-zoovet-matches.csv`. A row is never priced at a loss, and a
-  Zoovet per-kg / per-piece price (under 40% of ours) is not compared.
+  Zoovet per-kg / per-piece price (under 40% of ours) is not compared. `fill` writes
+  `runs/<date>/glovo-undercut-dryrun.csv` (one line per matched row) for the user to review.
 
 0. Whenever the source of truth or Zoovet's prices may have moved:
    `uv run --no-sync --with openpyxl python scripts/glovo-prices-into-sheet.py harvest`
@@ -129,6 +137,34 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
    per product (Glovo's anti-hijacking check), sending `original` each time. Log:
    `runs/<date>/glovo-titles.csv`. A HIJACKING refusal is logged; reword that row by hand.
 
+## Categories (2026-11-15)
+
+Glovo's vendor categories are set from Siruk: the product's category leaves, plus its product
+type and the bowl Material where needed. The map is `reference/glovo/category-map.json`, with
+names beside every id. A dog + cat product gets both species. Glovo has no leaf for some
+things, so they go to the closest one, marked `approximate`. Never create Glovo categories.
+
+1. `python scripts/glovo-categories.py audit --refresh`. It writes
+   `runs/<date>/glovo-categories-plan.csv` with the action `ok`, `change`, `approximate`,
+   `ambiguous` or `no-siruk-match` per product, and the reason. It also writes
+   `glovo-categories-breakdown.csv`: product types per category, now and after the plan.
+   The Siruk side is `.siruk-cache/glovo/siruk-export.json` (`siruk export`).
+2. The user reviews the plan, especially the rows marked "WRONG" and `approximate`.
+   Mapping fixes go into the map: a leaf rule, `by_type`, `name_rules` or `sku_overrides`.
+   Then re-run the audit.
+3. `apply` is a dry run. On the user's yes, run `apply --apply`. Add
+   `--include-approximate` only if the user wants those rows too. Use `--sku …` /
+   `--limit N` to try a few first.
+   - It sends one category update per row, never combined with price or titles, and
+     re-reads the store first.
+   - It backs up the before-state to `glovo-categories-before.json` next to the plan.
+   - Log: `glovo-categories.csv` there, with any `validationErrors`.
+   - `apply --restore [--apply]` puts the backed-up categories back.
+4. Re-run `audit --refresh`. The updated rows should be `ok`.
+
+New products: give `glovo-add-products.py` the per-row categories (column L) that the map
+gives. One `--category` for a mixed batch files every row in one place.
+
 ## 6. Not scripted yet (do by hand in the portal, or explore first)
 
 - **New products** (our variants not on Glovo; `prices` lists them): Glovo's
@@ -138,7 +174,7 @@ Pattern: `<Brand> <Line> <what it is> <flavour -ով> <for whom … համար>,
   run until `--apply`. Its `--out` writes the exact request plus a readable copy for
   the user, and it refuses any title not in **Zoovet's pattern** (brand first,
   Latin, no «», `glovo-titles.py` `check()`). Titles follow `glovo-export` → column C.
-  Price = 50 ֏ under Zoovet's Glovo price (§2). Show the user the request file and
+  Price = 50–200 ֏ under Zoovet's Glovo price by the §2 tiers, else the base. Show the user the request file and
   get a yes before `--apply`. Example: YOKO × 12, 2026-11-09.
   **Route:** the script sends `createSimpleProductBatch`, the portal's own Add Product call.
   Every row needs the hy title in column C **and** the English title in column M; Armenia

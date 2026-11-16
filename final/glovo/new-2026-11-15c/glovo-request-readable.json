@@ -1,0 +1,311 @@
+{
+ "query": "mutation($r: CreateSimpleProductBatchPayload!){\n  createSimpleProductBatch(productsRequest:$r){\n    __typename\n    ... on SimpleProductBatchSuccess { message caseId }\n    ... on SimpleProductBatchValidationError { csvValidationErrors { error message column }\n                                               productValidationErrors { barcode errors index } } } }",
+ "variables": {
+  "r": {
+   "simpleProducts": [
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "KorMell պաշտետ կատուների համար, հնդկահավ, 75 գ"
+      },
+      {
+       "locale": "en",
+       "name": "KorMell Pate for Cats Turkey 75 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "KorMell նուրբ պաշտետ կատուների համար հնդկահավի մսով։ Փափուկ, թեթև կառուցվածք մեկանգամյա փաթեթում։"
+      }
+     ],
+     "barcode": "04620213830438",
+     "imagesEncoded": [
+      "<83043J.jpg, 66807 base64 chars>"
+     ],
+     "sku": "83043J",
+     "brand": null,
+     "activeness": true,
+     "price": 200.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7147",
+       "locale": "hy_AM",
+       "name": "Կատվի Թաց Կեր"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Flexi New Neon ժապավենով ձգափոկ-ռուլետ շների համար, M, 5 մ, կապույտ"
+      },
+      {
+       "locale": "en",
+       "name": "flexi New Neon Tape Lead M 5 m Blue"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Մինչև 25 կգ շների համար։ Ռուլետ 5 մ ժապավենով։ Ամուր ժապավեն վառ նեոնային գույնով, լուսանդրադարձիչ կողային տարրեր, հարմար արգելակման համակարգ։"
+      }
+     ],
+     "barcode": "04000498032114",
+     "imagesEncoded": [
+      "<032118.jpg, 35743 base64 chars>"
+     ],
+     "sku": "032118",
+     "brand": null,
+     "activeness": true,
+     "price": 16000.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "28233",
+       "locale": "hy_AM",
+       "name": "Շների վզկապներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Petmil Relax անկողին բարձր կողքերով, 50 × 40 սմ, մոխրագույն-սպիտակ վանդակավոր"
+      },
+      {
+       "locale": "en",
+       "name": "Petmil Relax Bed with Sides 50 × 40 cm Grey/White Check"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Հարմարավետ անկողին բարձր կողքերով, գույնը՝ մոխրագույն-սպիտակ վանդակավոր։ Կատուների և փոքր ու միջին ցեղերի շների համար։ Չափը՝ 50 × 40 սմ։"
+      }
+     ],
+     "barcode": "04627104435604",
+     "imagesEncoded": [
+      "<43560ML.jpg, 62919 base64 chars>"
+     ],
+     "sku": "43560ML",
+     "brand": null,
+     "activeness": true,
+     "price": 5450.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "20620",
+       "locale": "hy_AM",
+       "name": "Շների աքսեսուարներ"
+      },
+      {
+       "id": "20619",
+       "locale": "hy_AM",
+       "name": "Կատուների աքսեսուարներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Monge Speciality Line Adult Hypo չոր կեր շների համար, սաղմոն և թյունոս, 15 կգ"
+      },
+      {
+       "locale": "en",
+       "name": "Monge Speciality Line Adult Hypo Dry Dog Food Salmon & Tuna 15 kg"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Monge Speciality Line Adult Hypo սաղմոնով և թյունոսով՝ ամբողջական դիետիկ կեր բոլոր չափերի չափահաս շների համար, 15 կգ։"
+      }
+     ],
+     "barcode": "08009470006439",
+     "imagesEncoded": [
+      "<006437.jpg, 44511 base64 chars>"
+     ],
+     "sku": "006437",
+     "brand": null,
+     "activeness": true,
+     "price": 63750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7069",
+       "locale": "hy_AM",
+       "name": "Շան Չոր Կեր"
+      },
+      {
+       "id": "20614",
+       "locale": "hy_AM",
+       "name": "Շների բժշկական կեր"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Premio Filet Bites անուշեղեն կատուների համար, բադի կրծքամիս, 50 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Premio Filet Bites with Duck Breast for Cats 50 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Premio Filet Bites՝ բադի կրծքամսի նուրբ պատառներ կատուների համար, մսի պարունակությունը՝ 79 %։ Առանց սնձանի, առանց ավելացված շաքարի։"
+      }
+     ],
+     "barcode": "04011905427164",
+     "imagesEncoded": [
+      "<42716.jpg, 66331 base64 chars>"
+     ],
+     "sku": "42716",
+     "brand": null,
+     "activeness": true,
+     "price": 1400.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7078",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Կատուների Համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Premium ձգափոկ շների համար, XS, 1.20 մ/10 մմ, կապույտ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Premium Lead XS 1.20 m/10 mm Royal Blue"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Premium ձգափոկ շների համար՝ առանձնապես ամուր երկշերտ ժապավենից, նեոպրենային միջադիրով բռնակով։ XS, 1.20 մ/10 մմ։"
+      }
+     ],
+     "barcode": "04047974200025",
+     "imagesEncoded": [
+      "<200002.jpg, 22223 base64 chars>"
+     ],
+     "sku": "200002",
+     "brand": null,
+     "activeness": true,
+     "price": 3750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "28233",
+       "locale": "hy_AM",
+       "name": "Շների վզկապներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "SmartBones Peanut Butter Bones ոսկորիկներ շների համար գետնանուշի կարագով, 2 հատ/158 գ"
+      },
+      {
+       "locale": "en",
+       "name": "SmartBones Peanut Butter Bones Medium 2 pcs/158 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Ոսկորիկներ գետնանուշի կարագով, հավի մսով և բանջարեղենով։ Ցածր յուղայնություն, չի պարունակում հում կաշի։ 2 միջին ոսկորիկ, 158 գ։"
+      }
+     ],
+     "barcode": "00810833027217",
+     "imagesEncoded": [
+      "<02721S.jpg, 64323 base64 chars>"
+     ],
+     "sku": "02721S",
+     "brand": null,
+     "activeness": true,
+     "price": 3600.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7145",
+       "locale": "hy_AM",
+       "name": "Անուշեղեն Շների Համար"
+      },
+      {
+       "id": "26752",
+       "locale": "hy_AM",
+       "name": "Ոսկորներ և ձողիկներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

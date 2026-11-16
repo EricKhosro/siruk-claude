@@ -7,17 +7,23 @@
 
 Then push with `scripts/glovo-portal.py prices` (skill /glovo-portal).
 
-The rule (user 2026-11-06, "make sure everything is even a little under zoovet"):
+The rule (user 2026-11-06 "a little under zoovet"; 2026-11-15 "5% becomes a lot on expensive
+products — sell it 50–200 ֏ cheaper, based on our margin"):
   1. base = the Yandex/Glovo price, column N of final/siruk-source-of-truth.xlsx
-     (scripts/yandex-prices-into-sot.py: 5% under Zoovet's *Yandex* price, else Siruk + 14%).
-  2. Where the same item is on Zoovet's *Glovo* store (state/glovo-zoovet-matches.csv, checked
-     matches) and base ≥ Zoovet's Glovo price, the price becomes Zoovet's Glovo price minus a
-     little: rounded down to 50 ֏ below it (900 → 850, 980 → 950). Royal Canin included — the
-     Yandex rule's Royal Canin exemption does not apply on Glovo.
+     (scripts/yandex-prices-into-sot.py: 50–200 ֏ under Zoovet's *Yandex* price by the same
+     tiers, else Siruk + 14%).
+     Rows not on Zoovet's Glovo store keep the base.
+  2. Where the same item is on Zoovet's *Glovo* store, in stock (state/glovo-zoovet-matches.csv,
+     checked matches; the lowest if several), the price is Zoovet's Glovo price zp minus an
+     undercut U set by our net per unit at zp (zp × 0.8 − cost): net < 500 → 50 ֏,
+     < 1500 → 100, < 3000 → 150, else 200 (TIERS). zp − U is rounded down to 50 ֏ if the gap
+     stays ≤ 200, else to 10 ֏, so the gap is always 50–200 ֏. Both ways: a base below that is
+     raised to it. Royal Canin included — the Yandex Royal Canin exemption does not apply here.
   3. Never at a loss: if that price leaves nothing after the 20% commission
      (price × 0.8 ≤ cost) the base stays and the row is reported.
   4. A Zoovet price under 40% of ours is a per-kg / per-piece price (big Monge bags, single sticks):
      not compared, the base stays.
+`fill` also writes runs/<date>/glovo-undercut-dryrun.csv: one line per matched row.
 
 Zoovet's Glovo store: store 452954, branch address 712865 — the branch customers see as open.
 (The address-less site shows branch 761345, closed, with another catalogue and lower prices.)
@@ -34,6 +40,24 @@ ZOOVET = os.path.join(CACHE, 'zoovet-glovo-open.json')
 EXPORT = os.path.join(CACHE, 'siruk-export.json')
 STORE, ADDRESS = 452954, 712865
 COMMISSION, ROUND, PER_UNIT = 0.20, 50, 0.40
+# Undercut under Zoovet's Glovo price by our net per unit at Zoovet's price (user 2026-11-15):
+# (net below this, undercut ֏); the last row catches everything else.
+TIERS = ((500, 50), (1500, 100), (3000, 150), (math.inf, 200))
+MAX_GAP, FINE_ROUND = 200, 10          # the gap to Zoovet never exceeds MAX_GAP ֏
+WILD = 0.40                            # |zp / base − 1| above this → flagged as a likely wrong match
+
+
+def undercut(net):
+    return next(u for limit, u in TIERS if net < limit)
+
+
+def under_zoovet(zp, u):
+    """zp − u rounded down to 50 ֏ when the gap stays ≤ MAX_GAP, else to 10 ֏ (else to 1 ֏)."""
+    for step in (ROUND, FINE_ROUND, 1):
+        p = math.floor(round((zp - u) / step, 6)) * step
+        if zp - p <= MAX_GAP:
+            return p
+    return math.floor(zp - u)
 H = {'glovo-app-platform': 'web', 'glovo-app-type': 'customer', 'glovo-language-code': 'hy',
      'glovo-location-city-code': 'YRV', 'glovo-api-version': '14', 'glovo-app-version': '7',
      'User-Agent': 'Mozilla/5.0'}
@@ -81,13 +105,12 @@ def cmd_harvest(a):
             time.sleep(1.5)
         print(f'{name}: {len(seen)}', flush=True)
     os.makedirs(CACHE, exist_ok=True)
-    json.dump(out, open(ZOOVET, 'w'), ensure_ascii=False)
+    json.dump(out, open(ZOOVET, 'w', encoding='utf-8'), ensure_ascii=False)
     print(f'{len(out)} Zoovet Glovo products → {ZOOVET}')
 
 
 def cmd_fill(a):
     import openpyxl
-    down = lambda x: math.floor(round(x / ROUND, 6)) * ROUND
     export = json.load(open(EXPORT, encoding='utf-8'))
     sku_vid = {str(v['sku']): v['variant_id'] for v in export if v.get('sku')}
     cost = {str(v['sku']): v.get('cost_price') or 0 for v in export if v.get('sku')}
@@ -107,7 +130,7 @@ def cmd_fill(a):
 
     wb = openpyxl.load_workbook(SHEET)
     ws = wb.worksheets[0]
-    changes, losses, per_unit, nobase, under = [], [], [], [], 0
+    changes, losses, per_unit, nobase, wild, log, under = [], [], [], [], [], [], 0
     for row in ws.iter_rows(min_row=3):
         sku = str(row[0].value).strip() if row[0].value is not None else ''
         if not sku:
@@ -119,24 +142,41 @@ def cmd_fill(a):
         price = base
         if sku in zmatch:
             zp, code = min(zmatch[sku])
+            c = cost.get(sku, 0)
+            net_z = zp * (1 - COMMISSION) - c
+            u = undercut(net_z)
+            want = under_zoovet(zp, u)
+            if abs(zp / base - 1) > WILD and zp >= PER_UNIT * base:
+                wild.append((sku, brand.get(sku), base, zp, code))
             if zp < PER_UNIT * base:
-                per_unit.append((sku, base, zp, code))
-            elif base >= zp:
-                want = down(zp - 1)
-                if want * (1 - COMMISSION) > cost.get(sku, 0):
-                    price = want; under += 1
-                else:
-                    losses.append((sku, brand.get(sku), base, zp, cost.get(sku)))
+                per_unit.append((sku, base, zp, code)); status = 'per-unit-skipped'
+            elif want * (1 - COMMISSION) > c:
+                price = want; under += 1; status = 'changed' if old != price else 'unchanged'
+            else:
+                losses.append((sku, brand.get(sku), base, zp, c)); status = 'loss-kept-base'
+            log.append(dict(sku=sku, brand=brand.get(sku), cost=c, base=base, sheet_price=old,
+                            zoovet_glovo_price=zp, zoovet_code=code, net_at_zoovet=round(net_z),
+                            undercut=u if status != 'per-unit-skipped' else '', new_price=price,
+                            gap=round(zp - price), net_at_new=round(price * (1 - COMMISSION) - c),
+                            zoovet_vs_base=f'{zp / base - 1:+.1%}', status=status))
         if old != price:
             changes.append((sku, old, price, base, zmatch.get(sku, [(None,)])[0][0]))
             if a.write:
                 row[5].value = price
     for s, o, p, b, z in changes:
         print(f'{s:>18} {o!s:>8} → {p:>8}   base {b:>8}   Zoovet Glovo {z if z else "-"}')
-    print(f'{len(changes)} changes in column F; {under} priced just under Zoovet Glovo; '
+    print(f'{len(changes)} changes in column F; {under} priced 50–200 ֏ under Zoovet Glovo; '
           f'{len(per_unit)} Zoovet per-kg/per-piece prices not compared; {len(nobase)} SKUs with no base price (left as is)')
     for s, br, b, z, c in losses:
         print(f'  CAN\'T BEAT Zoovet at a profit: {s} {br}  base {b}, Zoovet {z}, cost {c}')
+    for s, br, b, z, code in wild:
+        print(f'  CHECK THE MATCH (Zoovet {z / b - 1:+.0%} vs our base): {s} {br}  base {b}, Zoovet {z} {code}')
+    out = os.path.join(ROOT, 'runs', time.strftime('%Y-%m-%d'), 'glovo-undercut-dryrun.csv')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, 'w', newline='', encoding='utf-8-sig') as f:
+        w = csv.DictWriter(f, fieldnames=list(log[0]) if log else ['sku'])
+        w.writeheader(); w.writerows(log)
+    print(f'{len(log)} matched rows → {out}')
     if a.write and changes:
         wb.save(SHEET)
         print(f'→ {SHEET}')
