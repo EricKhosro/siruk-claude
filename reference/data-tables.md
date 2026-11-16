@@ -33,7 +33,9 @@ when a product really is "all" still apply (a two-stage claim is not "all").
 
 The "explicit claim only" rule below is for **food**. A collar, toy, brush, supplement or treat is not silent about age — it is for every age unless it is made for one. Lifestage is single-select, and an empty value drops the product out of the lifestage filter (the collar page showed only "Puppy"), so:
 
-- Lifestage: Puppy / Kitten / Senior when the name or label says the item is made for that age ("Junior", "Puppy Trainer"); "puppies and dogs up to 10 kg" covers adults too → All Lifestages. Everything else → **All Lifestages**.
+- Lifestage: Puppy / Kitten / Senior when the name or label says the item is made for that age ("Junior", "Puppy Trainer"); "puppies and dogs up to 10 kg" covers adults too → All Lifestages.
+- **Adult** when a puppy or kitten cannot use that variant (user 2026-11-12: "how can something be for all lifestages if puppy cannot use it"): dog collars/harnesses/leads sized M–L and up, prong/choke/semi-choke collars, power-chewer toys, hard long-lasting chews and supplements whose text sets a minimum age or adult dose, sterilisation products. XXS–S and S–M sizes fit puppies → All Lifestages.
+- Everything else → **All Lifestages** — only when a young animal can use it too.
 - Breed size (dog items only; cat-only items get none): accessories, toys and grooming take it from the variant's size code — XXS/XS → Extra Small, S → Small, M → Medium, L → Large, XL/XXL → Giant Breeds; a range (S–M, L–XL) takes its smaller end. No size code → All Breeds. A supplement dosed by dog weight ("over 10 kg") is left empty.
 - The first sweep (2026-11-12) set this on 799 products; the same rule is now the default for every import.
 
@@ -79,8 +81,11 @@ Note the species difference: **senior starts at 10 for cats but 8 for dogs.**
    marketed for, otherwise `null` + flag. Do **not** use All Lifestages as a
    catch-all for "more than one stage" — it means the brand markets it for every
    age.
-6. **Veterinary / therapeutic diets** often state no lifestage — leave `null`,
-   don't infer one from the condition.
+6. **Veterinary / therapeutic diets** often state no lifestage. Use **Adult**
+   (their feeding guides are for adult animals) unless the line is a puppy/kitten
+   one (user 2026-11-12: an empty value drops the product out of the filter).
+   Bird and small-animal food with no age → All Lifestages. Dog food that claims
+   no size → breed size **All Breeds**; never leave it empty.
 7. Confidence gate, evidence quotes, and "wanted but missing" reporting work
    exactly as in the `add-products` skill; a mapping done via this table counts
    as direct evidence (quote the age or wording you mapped from).
