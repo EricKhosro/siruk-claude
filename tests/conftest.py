@@ -70,6 +70,10 @@ class FakeClient(_client.Client):
         return {"data": {}}
 
     def get(self, path, lang=None, **kw):
+        if path.startswith("/price-types"):
+            raise _client.ApiError(404, "GET", path, '{"message": "Not found.", "error": "not_found"}')
+        if path.startswith("/stock?"):   # StockController::index meta.stock_in_ops (Controllers/Admin/Catalog)
+            return {"data": [], "meta": {"stock_in_ops": getattr(self, "stock_in_ops", False)}}
         if path.startswith("/attribute-families/"):
             return {"data": copy.deepcopy(PTYPE)}
         if path.startswith("/attributes"):
@@ -99,12 +103,123 @@ class FakeClient(_client.Client):
 def fake(monkeypatch, tmp_path):
     fc = FakeClient()
     _client.set_default(fc)
-    P._types.clear()
-    P._attrs = None
+    _reset_payload_caches()
     monkeypatch.setattr("siruk.products.CACHE", str(tmp_path))
     for var in ("ALLOW_BELOW_COST", "ALLOW_NO_IMAGE", "ALLOW_NO_SIZE", "FORCE"):
         monkeypatch.delenv(var, raising=False)
     yield fc
     _client.set_default(None)
+    _reset_payload_caches()
+
+
+def _reset_payload_caches():
     P._types.clear()
     P._attrs = None
+    P._model = P._ptypes = None
+
+
+# siruk-web SingleProductResource::typePrices (Resources/Admin/Catalog): `prices` rows and no flat price, floats.
+# PriceTypeController::index?forSelect=1 (Controllers/Admin/Catalog) answers {data: [{id, code, name}]}.
+PRICE_TYPES = [{"id": 1, "code": "website", "name": "Website"}, {"id": 2, "code": "store", "name": "Store"},
+               {"id": 3, "code": "glovo", "name": "Glovo"}, {"id": 4, "code": "yandex", "name": "Yandex"}]
+
+
+def _price_row(row_id, type_id, price, compare=None, barcode=None):
+    t = next(t for t in PRICE_TYPES if t["id"] == type_id)
+    return {"id": row_id, "price_type_id": type_id, "price_type_code": t["code"], "price_type_name": t["name"],
+            "price": float(price), "compare_at_price": compare, "min_allowed_price": None, "barcode": barcode}
+
+
+def pt_variant(i, sku, flavor, price=2100, cost=1300, default=False, rows=()):
+    v = variant(i, sku, flavor, price, cost, default)
+    for k in ("price", "compare_at_price", "min_allowed_price"):
+        v.pop(k, None)
+    v["prices"] = [_price_row(i * 10, 1, price)] + [_price_row(i * 10 + n + 1, *r) for n, r in enumerate(rows)]
+    return v
+
+
+PT_PRODUCT = {**PRODUCT, "variants": [pt_variant(1030, "387957", "Salmon", default=True, rows=[(2, 1900, None, "20001")]),
+                                      pt_variant(1031, "387967", "Veal")]}
+
+
+class FakePriceTypesClient(FakeClient):
+    """The price-types backend: GET /price-types answers, variant `prices` are rows, writes are applied."""
+
+    def __init__(self):
+        super().__init__()
+        self.product = copy.deepcopy(PT_PRODUCT)
+        self.next_id = 5000
+
+    def get(self, path, lang=None, **kw):
+        if path.startswith("/price-types"):
+            return {"data": copy.deepcopy(PRICE_TYPES)}
+        return super().get(path, lang=lang, **kw)
+
+    def _rows(self, rows):
+        out = []
+        for r in rows:
+            self.next_id += 1
+            out.append(_price_row(r.get("id") or self.next_id, r["price_type_id"], r["price"], r.get("compare_at_price"),
+                                  r.get("barcode")))
+        return out
+
+    def request(self, method, path, body=None, lang=None, **kw):
+        method = method.upper()
+        if method == "GET":
+            return self.get(path, lang=lang)
+        self.writes.append((method, path, body))
+        if method == "PUT" and path.startswith("/product-variants/"):
+            vid = int(path.rsplit("/", 1)[1])
+            for v in self.product["variants"]:
+                if v["id"] == vid:
+                    v.update({k: x for k, x in body.items() if k != "prices"})
+                    v["prices"] = self._rows(body["prices"])
+            return {"data": {"id": vid}}
+        if method == "PUT" and path.startswith("/products/"):
+            variants = []
+            for nv in body["variants"]:
+                old = next((v for v in self.product["variants"] if v.get("id") == nv.get("id")), {})
+                self.next_id += 1
+                variants.append({**old, **{k: x for k, x in nv.items() if k != "prices"}, "id": old.get("id") or self.next_id,
+                                 "prices": self._rows(nv["prices"])})
+            self.product = {**self.product, **{k: v for k, v in body.items() if k != "variants"}, "variants": variants}
+            return {"data": {"id": self.product["id"]}}
+        return super().request(method, path, body, lang)
+
+
+@pytest.fixture
+def fake_pt(monkeypatch, tmp_path):
+    fc = FakePriceTypesClient()
+    _client.set_default(fc)
+    _reset_payload_caches()
+    monkeypatch.setattr("siruk.products.CACHE", str(tmp_path))
+    for var in ("ALLOW_BELOW_COST", "ALLOW_NO_IMAGE", "ALLOW_NO_SIZE", "FORCE"):
+        monkeypatch.delenv(var, raising=False)
+    yield fc
+    _client.set_default(None)
+    _reset_payload_caches()
+
+
+@pytest.fixture
+def ops_fake(monkeypatch, tmp_path):
+    from ops_fakes import FakeOpsClient
+    from siruk.ops import client as _ops
+    for var in ("SIRUK_OPS_TOKEN", "SIRUK_OPS_API"):
+        monkeypatch.delenv(var, raising=False)
+    monkeypatch.setenv("SIRUK_OPS_TOKEN_FILE", str(tmp_path / ".ops-token"))
+    monkeypatch.setenv("SIRUK_CONFIG", str(tmp_path / "no-config.json"))
+    fc = FakeOpsClient()
+    _ops.set_default(fc)
+    yield fc
+    _ops.set_default(None)
+
+
+@pytest.fixture
+def admin_fake(monkeypatch, tmp_path):
+    from admin_fakes import FakeAdminClient
+    monkeypatch.delenv("SIRUK_LANG", raising=False)
+    monkeypatch.setenv("SIRUK_CONFIG", str(tmp_path / "no-config.json"))
+    fc = FakeAdminClient()
+    _client.set_default(fc)
+    yield fc
+    _client.set_default(None)

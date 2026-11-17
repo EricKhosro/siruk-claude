@@ -98,10 +98,9 @@ def preflight(p, en_only, allow_below_cost=None, allow_no_image=None):
             f"no translation for {', '.join(missing[:6])}{' …' if len(missing) > 6 else ''}"
             + (" — translate after" if en_only else " (CLAUDE.md 13; en_only to translate later)"))
     vs = p.get("variants") or []
-    if not vs or not all(v.get("sku") and (v.get("price") or 0) > 0 for v in vs):
+    if not vs or not all(v.get("sku") and (P.website_price(v) or 0) > 0 for v in vs):
         errs.append("every variant needs sku and price (the pack price)")
-    below = [f"{v.get('sku')} sale={v.get('price')} cost={v.get('cost_price')}" for v in vs
-             if (v.get("cost_price") or 0) > 0 and (v.get("price") or 0) <= v["cost_price"]]
+    below = P.below_cost(vs)
     if below:
         msg = "sale price at or below cost (wrong hafo row or invented price): " + "; ".join(below)
         (warns if _flag(allow_below_cost, "ALLOW_BELOW_COST") else errs).append(msg)
@@ -175,8 +174,8 @@ def read_back(pid, body):
         if not got:
             probs.append(f"variant {v['sku']} missing")
             continue
-        if int(got.get("price") or 0) != int(v["price"]):
-            probs.append(f"{v['sku']} price {got.get('price')} ≠ {v['price']}")
+        if int(P.website_price(got) or 0) != int(P.website_price(v) or 0):
+            probs.append(f"{v['sku']} price {P.website_price(got)} ≠ {P.website_price(v)}")
         if len(got.get("images") or []) != len(v.get("images") or []):
             probs.append(f"{v['sku']} {len(got.get('images') or [])} images ≠ {len(v.get('images') or [])} sent")
     if set(lv) != {v["sku"] for v in body["variants"]}:

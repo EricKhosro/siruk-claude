@@ -84,7 +84,7 @@ def html(s):
 price = row["price"]["amount"]
 assert price and price > row["cost"], f"{code}: price {price} vs cost {row['cost']}"
 variant = {"sku": code, "name": card["label"], "price": price, "cost_price": row["cost"],
-           "sale_mode": "pack", "initial_stock": 10, "attribute_values": attrs,   # every variant stocks 10 (user 2026-10-01)
+           "sale_mode": "pack", "initial_stock": 10, "attribute_values": attrs,   # every variant stocks 10 (user 2026-10-01); siruk_payload drops it, with a warning, on a price-types server
            "about_this_item": html(texts.get("about_this_item")),
            "ingredient_information": html(texts.get("ingredient_information")),
            "feeding_instructions": html(texts.get("feeding_instructions")),

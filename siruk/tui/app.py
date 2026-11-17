@@ -13,6 +13,7 @@ from textual.widgets import DataTable, Footer, Header, Input, Static, TabbedCont
 
 from siruk import client as _client
 from siruk import config, lookups, products, refdata, stock
+from siruk import payload as P
 from siruk.config import ROOT
 from siruk.tui.editors import RenameEditor, StockEditor, TranslationEditor, VariantEditor, err_text, short
 
@@ -233,7 +234,7 @@ class SirukApp(App):
         r = products.variant_row(v)
         lines = [f"[b]{v.get('name')}[/b]  sku {v.get('sku')} · variant id {v.get('id')} · "
                  f"{v.get('sale_mode')} {v.get('size_label') or ''}",
-                 f"price {v.get('price')} · cost {v.get('cost_price')} · compare-at {v.get('compare_at_price') or '—'}"
+                 f"price {r['price']} · cost {v.get('cost_price')} · compare-at {P.website_price(v, 'compare_at_price') or '—'}"
                  + (f" · margin {r['margin_pct']}%" if r["margin_pct"] is not None else ""),
                  f"barcode {v.get('barcode') or '—'} · ArmSoft {v.get('accounting_code') or '—'}",
                  f"price source {v.get('price_source_url') or '—'}",
@@ -331,7 +332,7 @@ class SirukApp(App):
         except Exception as e:
             self.call_from_thread(self.query_one("#hafo", Static).update, f"[red]{err_text(e)}[/]")
             return
-        ours, cost = v.get("price"), v.get("cost_price")
+        ours, cost = P.website_price(v), v.get("cost_price")
         if not r.get("hafo_id"):
             text = f"[yellow]hafo has no product for article {v['sku']}[/] (tried {r.get('tried')})"
         else:

@@ -26,7 +26,11 @@ INSTRUCTIONS = """Siruk PetShop admin (production: api.siruk.am). Rules that mat
 - Sale price comes from hafo (hafo_lookup, price_source must be "variant") or a confirmed zoovet/nemo
   match — never markup or arithmetic, and always above cost (the server-side tools refuse otherwise).
 - Pack size is measure_type + content (g/ml/pcs) + pack_count, never in the product name; the name
-  never contains the brand either. New variants: initial_stock 10.
+  never contains the brand either. New variants: initial_stock 10 on a flat-price server; a
+  price-types server refuses it (stock is received in Siruk Ops: `siruk ops docs new receipt …`).
+- Prices: price / compare_at_price are the website price on either server. On a price-types server
+  other types go in prices {"store": {"price": 2000, "barcode": "20001"}, "glovo": null (removes)};
+  prices must be multiples of 10 and the website row never has a barcode.
 - Every write tool is a dry run unless confirm=true. Show the user the diff and get a yes first.
 - Stock changes only through the stock_* tools, with a note. No deletes exist here."""
 
@@ -150,8 +154,9 @@ def nemo_search(search: str = "", brand: str = "", url: str = "", limit: int = 1
 def create_product(payload: dict, confirm: bool = False) -> dict:
     """Create a product. payload: name (no brand, no size), slug (with brand), brand_id,
     attribute_family_id, category_ids (leaves), variants [{sku, name, price, cost_price,
-    measure_type, content, pack_count, initial_stock: 10, images, attribute_values, barcode,
-    accounting_code, price_source_url}]. Refused if a similar name already exists."""
+    measure_type, content, pack_count, initial_stock: 10 (flat-price server only), prices (price-types
+    server: {code: {price, compare_at_price, min_allowed_price, barcode}}), images, attribute_values,
+    barcode, accounting_code, price_source_url}]. Refused if a similar name already exists."""
     return _write(products.create(payload, dry_run=not confirm, force=False,
                                   allow_below_cost=False, allow_no_image=False))
 
@@ -168,8 +173,9 @@ def add_variant(product_id: int, variant: dict, confirm: bool = False) -> dict:
 @_clean
 def update_variant(product_id: int, sku: str, patch: dict, replace_attrs: bool = False,
                    confirm: bool = False) -> dict:
-    """Patch one variant in place (price, cost_price, name, texts, barcode, accounting_code,
-    price_source_url, attribute_values by id or code, images, content…). Not stock."""
+    """Patch one variant in place (price = the website price, prices {code: {...} | null}, cost_price,
+    name, texts, barcode, accounting_code, price_source_url, attribute_values by id or code, images,
+    content…). Not stock."""
     return _write(products.update_variant(product_id, sku, patch, replace_attrs, dry_run=not confirm,
                                           allow_below_cost=False))
 
@@ -196,7 +202,7 @@ def set_translation(product_id: int, lang: str, translation: dict, confirm: bool
 @_clean
 def stock_receive(variant_id: int, quantity: float, note: str, unit_cost: float | None = None,
                   confirm: bool = False) -> dict:
-    """Receive stock into the main warehouse (needs a note)."""
+    """Receive stock into the main warehouse (needs a note). Refused when the server keeps stock in Siruk Ops."""
     return stock.receive(variant_id, quantity, note, unit_cost, dry_run=not confirm)
 
 

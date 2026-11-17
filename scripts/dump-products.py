@@ -14,6 +14,9 @@ background. Read-only: GET only.
 import json, os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+from siruk.payload import add_flat_prices  # noqa: E402
+
 OUT = os.path.join(ROOT, ".siruk-cache", "live", "products")
 ENV = dict(os.environ)
 
@@ -68,7 +71,7 @@ def main(argv):
         d, err = get(f"/products/{pid}")
         path = os.path.join(OUT, f"{pid}.json")
         if d and d.get("data"):
-            json.dump(d["data"], open(path, "w"), ensure_ascii=False)
+            json.dump(add_flat_prices(d["data"]), open(path, "w"), ensure_ascii=False)
         elif "404" in (err or ""):
             if os.path.exists(path):
                 os.remove(path)

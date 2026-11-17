@@ -50,9 +50,12 @@ Armenian shops), `reference/image-sources.md` (every image source, in order),
   product type). Types are created/extended in phase B, never mid-write
   (CLAUDE.md rule 8b).
 - **Size is the variant's net content, stock is a ledger** (CLAUDE.md 8a,
-  10a): `measure_type` + `content` + `pack_count`, `price` = the pack price,
-  `initial_stock` on new variants only — **10 on every variant, whatever the
-  CSV Qty** (user 2026-10-01). A per-kg price on the row → **every bag gets a
+  10a): `measure_type` + `content` + `pack_count`, `price` = the pack price
+  (the website price; a store / Glovo price: `reference/workflows.md` recipe 2),
+  `initial_stock` on new variants only, **flat-price server only** — **10 on
+  every variant, whatever the CSV Qty** (user 2026-10-01). On a price-types
+  server the CLI drops it with a warning and the stock comes by a receipt
+  (`reference/workflows.md` recipe 1). A per-kg price on the row → **every bag gets a
   "1 kg" pack variant** (`<bag sku>-KG`, price = per-kg price, CLAUDE.md 8a);
   never `sale_mode: "weight"` (paused by the PM 2026-10-01). **No pack
   size in the product Name** (CLAUDE.md 12). Each pack size shows its own
@@ -345,7 +348,7 @@ For a prepared run, phase C goes one of two ways:
      `reference/product-rules.md`), `brand_id`, `attribute_family_id` (the
      phase-B product type), variants with sku / `price` (the sale **pack**
      price) / `cost_price` (CSV) / `measure_type` + `content` + `pack_count` /
-     `initial_stock` (10) / images, `attribute_values` from step 6
+     `initial_stock` (10, flat-price server only) / images, `attribute_values` from step 6
      (attribute code or id → [value ids]), and the **codes** (CLAUDE.md 10b):
      `barcode` = the hafo-confirmed EAN (a `-KG` 1 kg variant: its 5-digit
      scale PLU from `Scale/scale-codes-per-kg.csv`, none yet → leave it out

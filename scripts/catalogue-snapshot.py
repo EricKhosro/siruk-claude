@@ -12,6 +12,9 @@ re-reading all 700+ (about an hour at the configured pacing).
 import json, os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+from siruk.payload import add_flat_prices  # noqa: E402
+
 OUT = os.path.join(ROOT, ".siruk-cache", "catalogue-snapshot.json")
 
 
@@ -72,7 +75,7 @@ def main():
                 snap.pop(str(pid), None)
                 print(f"  {pid}: gone — dropped", file=sys.stderr)
             else:
-                snap[str(pid)] = shape(int(pid), p)
+                snap[str(pid)] = shape(int(pid), add_flat_prices(p))
                 print(f"  {pid}: {p.get('name')} ({len(p.get('variants') or [])} variants)", file=sys.stderr)
         json.dump(snap, open(OUT, "w"), indent=1)
         print(f"wrote {OUT}: {len(snap)} products, "
@@ -90,7 +93,7 @@ def main():
     for n, pid in enumerate(todo, 1):
         d = api(f"/products/{pid}")
         p = d.get("data", d)
-        snap[str(pid)] = shape(pid, p)
+        snap[str(pid)] = shape(pid, add_flat_prices(p))
         if n % 20 == 0:
             json.dump(snap, open(OUT, "w"), indent=1)
             print(f"  {n}/{len(todo)}", file=sys.stderr)

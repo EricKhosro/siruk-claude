@@ -183,10 +183,15 @@ linked doc before you rely on a number from memory.
    body is built by `siruk/payload.py` (`scripts/siruk_payload.py` is its
    shim), which mirrors the admin form's `toVariantPayload`. Never hand-write a `PUT /products` body (it replaces
    the whole variants array). Never trust an unverified media id.
-10a. **Stock is a ledger** (2026-09-29). A new variant sends `initial_stock`
+10a. **Stock is a ledger** (2026-09-29). On a flat-price server a new variant sends `initial_stock`
    **10 on every variant, whatever the CSV Qty says** (user 2026-10-01); an existing variant's stock changes only
    through `/stock/variants/<id>` (set / receive / write-off, with a note),
    never the product PUT. `reference/admin-api.md` → "Stock".
+   **Where stock lives in Ops** (`GET /stock` says `meta.stock_in_ops`) there
+   is no automatic stock: a price-types server refuses `initial_stock` (the CLI
+   drops it with a warning), stock arrives by a receipt (`siruk ops docs new
+   receipt`, then `docs post`), and `siruk stock receive|write-off|set` refuse.
+   `reference/ops.md`, `reference/workflows.md`.
 10b. **Every variant carries its codes** (siruk-web 2026-10-09, user
    2026-10-12): `barcode` = the pack's EAN, or the **5-digit scale PLU** on a
    1 kg loose variant (`<bag sku>-KG`); `accounting_code` = the **ArmSoft good
@@ -196,6 +201,11 @@ linked doc before you rely on a number from memory.
    leaves them out keeps them. `siruk_payload.check_codes` validates them;
    `scripts/backfill-variant-codes.py` fills the live catalogue.
    `reference/admin-api.md` → "Variant codes".
+   **Per price type** (price-types server): a store or Glovo price may carry
+   its own `barcode` / PLU (`siruk prices set … --barcode`, siruk's); the
+   variant's main barcode and a loose good's PLU stay Ops's (`siruk ops goods
+   plu`). A code never splits stock: any code resolves to one variant, and the
+   type only sets the price. `reference/admin-api.md` → "Price types".
 11. **Brand sites are read-only.** No cart, no accounts, no forms. Extract
    with `evaluate_script`, don't `take_snapshot` product pages.
 12. **Weights are metric (kg/g), never lbs.** Name never contains the brand;
@@ -246,10 +256,9 @@ linked doc before you rely on a number from memory.
    category, brand or image.
 
 ## Environments
-- Admin (production): `https://api.siruk.am/admin/login` —
-  `dev@conceptstudio.club` / `C6iA7HLmHU00v/0` (the demo host is gone).
+- Admin (production): `https://api.siruk.am/admin/login` (the demo host is gone).
   Claude never types the password: the user logs in in the chrome-devtools
-  window, then the token is read from `localStorage.access_token`.
+  window, then the token is read from `localStorage.access_token`. The token lives in `.siruk-token` (or `SIRUK_TOKEN`) and is set with `siruk token set`; Ops has its own key (`reference/ops.md`).
 - API: `https://api.siruk.am/api/admin/*` (the `scripts/lib.sh` default),
   `Authorization: Bearer <JWT>` (cookies alone fail). Token in `.siruk-token`
   (gitignored). Check with `scripts/api.sh GET /account`; re-capture per
@@ -310,6 +319,18 @@ doc that still names a script means its `siruk` equivalent from this table:
 | restock check: cost + highest rival price (rule 4) | — | `siruk restock-check <code>=<cost>… [--apply]` | — |
 | whole-catalogue read / audit | `export_catalogue`, `catalogue_audit`, `save_catalogue_export` | `siruk export [--audit]` | `dump-products.py` (still needed for attribute ids / GET shape) |
 | pacing between rows | — (the client paces itself) | `siruk pace product` | `pace.sh product` |
+| price types, a price or code per type | — | `siruk price-types`, `siruk prices show <id>`, `siruk prices set <id> <sku> --type <code> …` (dry by default) | — |
+| goods in Ops: fiscal name, ADG, barcodes, PLU, reorder levels, locations, open a bag | — | `siruk ops goods list\|show\|set\|set-many\|barcode\|plu`, `ops locations`, `ops open-bag` | — |
+| stock documents: receipt, write-off, count, transfer | — | `siruk ops docs list\|show\|new\|lines\|post\|delete` | — |
+| purchasing: suppliers, purchase orders, reorder list | — | `siruk ops suppliers …`, `ops po …`, `ops reorder …`, `ops hafo stock` | — |
+| supplier e-invoices into Ops | — | `siruk ops einvoices …`, `ops goods-links …` | `/receive-invoices` (ArmSoft, until cutover) |
+| Ops reads: stock, history, sales, reports, orders, catalogue sync | — | `siruk ops stock\|history\|sales\|report\|orders\|receipts\|incidents\|outbox\|catalog\|settings\|services\|promotions` | — |
+| Ops sign-in and checks | — | `siruk ops token set` (key from stdin), `ops doctor`, `ops whoami`, `ops api` | — |
+| web orders in Ops: accept, gift, pack, ship (the HDM receipt is printed in the Ops app) | — | `siruk ops orders accept\|gift add\|gift rm\|pack\|ship\|damaged` | — |
+| till services and shop promotions in Ops | — | `siruk ops services add\|set`, `ops promotions add\|set` | — |
+| Ops staff, tills, settings, catalogue auto-sync (an `office:admin` key; the owner's yes each time) | — | `siruk ops staff list\|add\|set`, `ops tills list\|set`, `ops settings set`, `ops catalog auto-sync` | — |
+| every `siruk ops` command from an agent (second MCP server `siruk-ops`; no `ops token`, no `ops api`) | `ops_commands`, `ops_read`, `ops_write` (dry run, then `confirm_code`) | `siruk ops …` | — |
+| admin panel work: orders, payments, promotions, vouchers, content, search, categories / brands / product types, variants, suppliers, reports | — | `siruk admin <noun> <verb>` (dry by default, `--apply <code>`, `--lang en\|ru\|hy`), `siruk admin api` | `api.sh` |
 | any other endpoint | — (no raw API in the MCP) | `siruk api METHOD PATH [body]` | `api.sh` |
 
 Everything else (hafo identify-by-name, barcode / 4lapy / Trixie image
@@ -328,7 +349,10 @@ a script.
   duplicate barcodes and SKUs) in one call. Every write takes
   `--dry-run` (prints the diff) and reads back after writing; the guards are
   the env vars above or `--allow-below-cost` / `--allow-no-image` / `--force`,
-  only on the user's say-so. Exit 1 = refused by a rule, 2 = API error.
+  only on the user's say-so. Exit 1 = refused by a rule, 2 = API error, 3 = a
+  write whose outcome is unknown (check before repeating). **Ops commands,
+  `siruk admin` writes and `prices set` are the other way round: dry by default, sent only with
+  `--apply <code>`** (`reference/ops.md`); `reference/siruk-cli.md` lists every command.
 - **TUI** — `uv run siruk tui`: search, product + variants (margin, red below
   cost), variant/stock/hafo tabs; `e` edit variant, `t` translate, `s` stock,
   `n` rename, `h` hafo price. Every write shows its diff and asks first.
@@ -408,7 +432,7 @@ a script.
    (`POST /products/bulk`, en/ru/hy in the same call, so step 8 is already
    done; `reference/admin-api.md` → "Bulk create"). Payload shape:
    the docstring of `siruk/payload.py` (`price` = hafo pack price,
-   size in `measure_type`/`content`/`pack_count`, `initial_stock`,
+   size in `measure_type`/`content`/`pack_count`, `initial_stock` (flat-price server only, rule 10a),
    `attribute_values` by attribute id or code, and the rule-10b codes:
    `barcode`, `accounting_code`, `price_source_url`).
 8. **Translate** — write `.siruk-cache/tr-<id>-ru.json` and `-hy.json`
@@ -435,6 +459,9 @@ a script.
 | `reference/zoovet.md` | zoovet.am — unwatermarked photos, a second price, the `ME-…` code trap and how to confirm a candidate |
 | `reference/brand-sites.md` | brand → official site, per-site extraction notes, image sourcing (Trixie CDN, Schesir JSON, Monge caveats) |
 | `reference/admin-api.md` | endpoints, payload shapes, pricing types, media rules, known API quirks, **live ids** (brands, categories, families, attributes) |
+| `reference/siruk-cli.md` | the `siruk` CLI: setup, the two backends and their env vars, exit codes, every command (generated) |
+| `reference/ops.md` | before any `siruk ops` write: who owns what, units, signing in with a key, the dry-run → `--apply` protocol, the tiers, staff / tills / settings and the warned keys, the `siruk-ops` MCP server, the never-list |
+| `reference/workflows.md` | step-by-step recipes: add a product, a price per type, receive an invoice, purchase orders, write-off / count / transfer / bag, reorder, "where is my stock", web orders, admin order status, promotions and vouchers, categories / brands / types, archive / move / merge variants, staff and settings, reports |
 | `reference/product-rules.md` | Name / slug / label rules, product vs variant, category map, admin form field map, storefront behaviour |
 | `reference/csv-formats.md` | the input CSV shapes (starter list, vendor sheets, invoice extract) and how to decode vendor strings |
 | `reference/data-tables.md` | our attribute definitions (lifestage etc.), brand wording → our values, pricing-type table |
@@ -477,6 +504,12 @@ from the built-in browser (`reference/glovo/portal.md`, `scripts/glovo-portal.py
 on Yandex Eda through the retailer cabinet's JSON API, driven from the
 built-in browser where the user's Yandex sign-in lives (one card per variant,
 Russian name with size, white 1000×1000 photo; `reference/yandex/README.md`). `/translate-blog [id|new|all]` (2026-11-12) translates blog posts into `hy` and `ru` by meaning (never word for word, no insult words such as լակոտ for puppy, pure language, no "!") and writes them with `scripts/blog-translate.py` (status / export / check / apply). Big attribute batches → the `attribute-manager` agent.
+`/ops-receiving`, `/ops-stock` and `/ops-goods` (2026-11-16) drive Siruk Ops through
+`siruk ops …`: receiving (e-invoices, paper invoices, purchase orders), stock
+(write-off, count, transfer, open a bag, reorder, "where is my stock") and goods
+(fiscal name, ADG, barcodes, PLU, a price per type). They write only as dry run →
+the user's yes → `--apply <code>` (`reference/ops.md`); the ArmSoft skills above
+stay until cutover.
 **One spec skill per product type** — `toys`, `dry-food`, `wet-food`, `treats`,
 `supplements`, `grooming`, `accessories` (`.claude/skills/<type>/SKILL.md`) —
 says which categories that type gets and how to pick its values and size;

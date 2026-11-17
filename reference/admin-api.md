@@ -193,6 +193,12 @@ DELIVERED ships (on_hand −); cancel releases.
   **10 on every pack variant, 10000 g on a weight variant**, whatever the CSV
   Qty — production was levelled to that on 2026-10-01
   (`runs/2026-10-01-fix/stock.py`).
+- **Flat-price server only** (see "Price types"): everything above about
+  `initial_stock` and `/stock/variants` applies to the legacy model. On a
+  price-types server stock lives in Siruk Ops (`GET /stock` answers
+  `meta.stock_in_ops: true`): the API refuses `initial_stock*`, the CLI drops
+  it with a warning, and `siruk stock receive|write-off|set` refuse and point
+  at `siruk ops docs new receipt|write_off|count` (`reference/workflows.md`).
 - **A variant with any stock history can't be deleted or switched pack ↔
   weight** (`delete_locked` / `stock_unit_locked`, computed: stock ≠ 0, any
   movement, order, cart …; `ProductRequest.php`). Setting stock to 0 never
@@ -210,6 +216,43 @@ DELIVERED ships (on_hand −); cancel releases.
 - Per-variant policy fields on the product form: `track_inventory` (default
   true), `out_of_stock_policy` (default deny), `low_stock_threshold`,
   `reorder_point`, `reorder_qty`. Leave them at the defaults unless asked.
+
+## Price types — `prices[]` (siruk-web decision 2026-11-09)
+
+Every price, the website one too, is a row in `variant_prices`: one per
+variant × price type, with `price`, `compare_at_price`, `min_allowed_price` and
+a `barcode` (unique, nullable; the type's own barcode / PLU). `GET
+/price-types?forSelect=1` lists the active types as `{id, code, name}`
+(`website`, `store`, `glovo`, `yandex`, …). Decision text: siruk-web
+`backend/docs/admin-panel-guide.md` §4.
+
+**Two server models.** `siruk.payload.server_model()` tells them apart (a
+product GET with `prices` lists, else a 404 on the `/price-types` probe):
+
+| | legacy (flat price) | price-types |
+| --- | --- | --- |
+| Variant GET | `price`, `compare_at_price`, `min_allowed_price` | `prices[]` rows `{id, price_type_id, price_type_code, price_type_name, price, compare_at_price, min_allowed_price, barcode}` and **no flat price** |
+| Variant body | flat price keys, `initial_stock*` | `prices` rows; flat price keys and `initial_stock*` are refused |
+| Rows | — | exactly one `website` row (no barcode of its own); other types optional; a type once per variant; price > 0 and a multiple of 10; compare-at above price; a type's barcode unique in the product and never a variant's main barcode |
+| Stock | `/stock/variants/<id>`, `initial_stock` | Siruk Ops: `siruk ops docs new receipt …` |
+
+**What our writers take.** Input stays simple and `adapt_variant()` puts it in
+the server's shape: a flat `price` / `compare_at_price` / `min_allowed_price`
+is the **website** price; or a `prices` dict keyed by type code,
+
+    "prices": {"store": {"price": 2000, "barcode": "20001"}, "glovo": null}
+
+where `null` removes that type's row (never `website`); a `prices` **list** is
+the server's own rows, kept with their ids. On a legacy server a dict with any
+type but `website` is refused. A PUT replaces the variant's rows, so the CLI
+sends back the GET's rows with the change merged in. Read a price with
+`payload.website_price(v)`, never `v["price"]`; `payload.api` adds the flat
+website keys to a price-types product GET so older readers keep working.
+
+CLI: `siruk price-types`, `siruk prices show <product id>`, `siruk prices set
+<product id> <sku> --type <code> [--price N] [--compare-at N] [--min-allowed N]
+[--barcode CODE] [--remove]` (dry by default, `--apply <code>`). Tests:
+`tests/test_price_types.py`.
 
 ## Translations — `en` / `ru` / `hy` (verified 2026-09-10)
 

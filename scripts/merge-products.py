@@ -30,7 +30,8 @@ kept); axis attributes are written as attribute_values keyed by attribute id.
 `price` is the pack price for every variant (no per_kg branch). A plan axis on
 `product-weight` is skipped — pack size is measure_type/content on the variant,
 carried over as it is. Stock is a ledger: an absorbed variant is re-created
-with `initial_stock` = the available quantity it had before the DELETE.
+with `initial_stock` = the available quantity it had before the DELETE. A price-types server has no
+initial_stock: a group whose absorbed variant holds stock is refused there (post it in Siruk Ops).
 
 Resumable: --state remembers the groups that finished.
 """
@@ -41,7 +42,7 @@ CACHE = ROOT / ".siruk-cache"
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from siruk_payload import (VTEXT, attributes, check_variants, product_body,  # noqa: E402
-                           product_type, to_variant_payload)
+                           product_type, to_variant_payload, website_price)
 
 
 class NotFound(Exception):
@@ -101,7 +102,15 @@ def build(p, attrs, live):
         # the target's own variants keep their ids; the absorbed ones are new
         if pv["from_product"] != p["target"]:
             out.pop("id", None)
-            out["initial_stock"] = int(v.get("available_quantity") or 0)
+            qty = int(v.get("available_quantity") or 0)
+            if isinstance(out.get("prices"), list):
+                for r in out["prices"]:
+                    r.pop("id", None)         # a price row's id belongs to the variant that is deleted
+                if qty:
+                    raise SystemExit(f"{out['sku']}: {qty} in stock cannot be carried into the re-created variant on a "
+                                     "price-types server (no initial_stock) — receive it in Siruk Ops: `siruk ops docs new receipt …`")
+            else:
+                out["initial_stock"] = qty
             new_skus.add(out["sku"])
         order += 1
         variants.append(out)
@@ -125,10 +134,10 @@ def check(p, body, ptype, new_skus=()):
     assert sum(1 for x in v if x["is_default"]) == 1, f"{p['name']}: not exactly one default"
     for x in v:
         # price is the pack price for every variant (catalog model 2026-09-29)
-        assert (x.get("price") or 0) > 0, f"{p['name']} {x['sku']}: no price"
+        assert (website_price(x) or 0) > 0, f"{p['name']} {x['sku']}: no price"
         if x.get("cost_price"):
-            assert x["price"] > x["cost_price"], \
-                f"{p['name']} {x['sku']}: price {x['price']} does not beat cost {x['cost_price']}"
+            assert website_price(x) > x["cost_price"], \
+                f"{p['name']} {x['sku']}: price {website_price(x)} does not beat cost {x['cost_price']}"
     errs, warns = check_variants(v, ptype, set(new_skus))
     for w in warns:
         print(f"  ⚠ {p['name']}: {w}", file=sys.stderr)

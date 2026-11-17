@@ -4,7 +4,9 @@
 
   // OpenCode does not read Claude Code's .mcp.json, so its MCP servers are
   // repeated here: chrome-devtools (the brand-site skills) and siruk (the admin
-  // API as tools — siruk/mcp_server.py; writes are dry runs unless confirm=true).
+  // API as tools — siruk/mcp_server.py; writes are dry runs unless confirm=true) and
+  // siruk-ops (the `siruk ops` commands as three tools — siruk/ops_mcp.py; writes are dry runs
+  // until the confirm code is given).
   "mcp": {
     "servers": {
       "chrome-devtools": {
@@ -14,6 +16,11 @@
       "siruk": {
         "type": "local",
         "command": ["uv", "run", "--quiet", "python", "-m", "siruk.mcp_server"]
+      },
+      "siruk-ops": {
+        "type": "local",
+        // no project-dir variable here: OpenCode starts servers from the project root, so "." is that root
+        "command": ["uv", "run", "--quiet", "--no-sync", "--project", ".", "python", "-m", "siruk.ops_mcp"]
       }
     }
   },

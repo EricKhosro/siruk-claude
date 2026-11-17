@@ -4,7 +4,8 @@ Same token lookup, same config.json knobs, and the SAME pacing state files
 (.siruk-cache/.pace-<channel>, "<last ms> <count>"), so a run that mixes bash
 scripts and `siruk` commands still keeps one request budget against the server.
 Retries network errors and retry_on_status with exponential backoff; a POST to
-/products/bulk is never retried (each item is a full write).
+/products/bulk is never retried (each item is a full write). A redirect is never followed
+(the token would be replayed where the caller never named) and is raised as an ApiError.
 """
 import json, os, random, sys, time, urllib.error, urllib.parse, urllib.request, uuid
 
@@ -36,6 +37,30 @@ class ApiError(Exception):
         if self.status in (401, 403):
             out += " → token expired or WAF-blocked; refresh it (`siruk token set`, scripts/README.md)"
         return out
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    """A redirect would replay the request, with the token, somewhere the caller never named."""
+
+    def redirect_request(self, *a, **kw):
+        return None
+
+
+def _location(headers):
+    try:
+        return str(headers.get("Location") or "") if headers else ""
+    except AttributeError:
+        return ""
+
+
+def _redirected(status, method, path, location):
+    """Only the Location's host and path are named: its query can carry a signature or token."""
+    try:   # the header is the server's: a bad bracket or port must still end as an ApiError
+        u = urllib.parse.urlsplit(location or "")
+        where = f"{u.hostname or ''}{f':{u.port}' if u.hostname and u.port else ''}{u.path[:120]}" or "?"
+    except ValueError:
+        where = "?"
+    return ApiError(status, method, path, f"redirected, not followed (check SIRUK_API): {where}")
 
 
 # ------------------------------------------------------------------ pacing ----
@@ -95,7 +120,8 @@ class Client:
         self.base = (base or config.api_base()).rstrip("/")
         self._token = token
         self.log = log or (lambda msg: None)
-        self.opener = opener or urllib.request.urlopen
+        self.opener = opener or urllib.request.build_opener(_NoRedirect).open
+        self._follow = opener or urllib.request.urlopen   # url_status carries no token
         self.sleep = sleep
         self.cfg_loader = cfg_loader
         self.pacer = pacer or Pacer(cfg_loader=cfg_loader, sleep=sleep)
@@ -118,12 +144,16 @@ class Client:
         w = float(r["backoff_seconds"]) * float(r["backoff_factor"]) ** (attempt - 1)
         return max(0.0, min(w, float(r["max_backoff_seconds"])))
 
-    def _send(self, req, timeout):
-        """→ (status, body text). status 0 = network error."""
+    def _send(self, req, timeout, opener=None):
+        """→ (status, body text; a 3xx's Location instead). status 0 = network error."""
         try:
-            with self.opener(req, timeout=timeout) as resp:
+            with (opener or self.opener)(req, timeout=timeout) as resp:
+                if 300 <= resp.status < 400:
+                    return resp.status, _location(getattr(resp, "headers", None))
                 return resp.status, resp.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
+            if 300 <= e.code < 400:
+                return e.code, _location(e.headers)
             return e.code, e.read().decode("utf-8", "replace")
         except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
             return 0, f"network error: {e}"
@@ -163,6 +193,8 @@ class Client:
                 continue
             break
         self.log(f"HTTP {status:03d}  {method} {path}")
+        if 300 <= status < 400:
+            raise _redirected(status, method, path, text)
         if status == 0 or status >= 400:
             raise ApiError(status, method, path, text)
         if not text.strip():
@@ -210,12 +242,18 @@ class Client:
             req = urllib.request.Request(url, headers=headers)
             try:
                 with self.opener(req, timeout=timeout) as resp:
+                    if 300 <= resp.status < 400:
+                        self.log(f"HTTP {resp.status}  GET {path}")
+                        raise _redirected(resp.status, "GET", path, _location(getattr(resp, "headers", None)))
                     data = resp.read()
                     disp = resp.headers.get("Content-Disposition", "") if resp.headers else ""
                 self.log(f"HTTP {resp.status}  GET {path}  ({len(data)} bytes)")
                 name = disp.split("filename=")[-1].strip('"; ') if "filename=" in disp else None
                 return data, name
             except urllib.error.HTTPError as e:
+                if 300 <= e.code < 400:
+                    self.log(f"HTTP {e.code}  GET {path}")
+                    raise _redirected(e.code, "GET", path, _location(e.headers))
                 status, text = e.code, e.read().decode("utf-8", "replace")
             except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
                 status, text = 0, f"network error: {e}"
@@ -231,7 +269,7 @@ class Client:
         cfg = self.cfg_loader()
         self.pacer.pace("api", self.log)
         req = urllib.request.Request(url, headers={"User-Agent": config.UA})
-        status, _ = self._send(req, float(cfg["request"]["timeout_seconds"]))
+        status, _ = self._send(req, float(cfg["request"]["timeout_seconds"]), self._follow)
         return status
 
     def paginate(self, path, lang=None, max_pages=200):

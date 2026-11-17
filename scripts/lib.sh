@@ -201,11 +201,21 @@ _backoff() {
 }
 
 # ------------------------------------------------------------------- api ----
+# _redirect_note <code> <location> → stderr line naming only the Location's host and path
+# (a query can carry a signature, userinfo a password)
+_redirect_note() {
+  local u=${2#*://} host path=""
+  u=${u%%[?#]*}; host=${u%%/*}; host=${host##*@}
+  [[ $u == */* ]] && path=/${u#*/}
+  [[ -n $2 ]] || { note "$1 redirected, not followed (check SIRUK_API)"; return; }
+  note "$1 redirected, not followed (check SIRUK_API): $host$path"
+}
+
 # api METHOD PATH [PAYLOAD_FILE|-]   → JSON body on stdout, "HTTP <code>" on stderr.
 # Paced and retried per config.json. Exits non-zero on a final >=400 and dumps
 # the error body to stderr.
 api() {
-  local method=$1 path=$2 data=${3:-} out code body tok rc attempt=1 wait
+  local method=$1 path=$2 data=${3:-} out code body tok rc attempt=1 wait redir=""
   # resolve the token first: die() inside $( ) would only kill the subshell,
   # and an empty Bearer header comes back as a confusing 401
   tok=$(siruk_token) || exit 1
@@ -214,7 +224,7 @@ api() {
                  -H 'Accept: application/json'
                  --connect-timeout "$CFG_REQ_CONNECT_TIMEOUT"
                  --max-time "$CFG_REQ_TIMEOUT"
-                 -w '\n%{http_code}')
+                 -w '\n%{http_code} %{redirect_url}')
   [[ -n $data ]] && args+=(-H 'Content-Type: application/json' --data-binary @"$data")
   # Content locale for READS (en|ru|hy). Writes carry "locale" in the body instead
   # (reference/admin-api.md → Translations); the header is harmless on a write.
@@ -225,6 +235,7 @@ api() {
     if out=$(curl "${args[@]}" "${SIRUK_API}${path}"); then rc=0; else rc=$?; fi
     if (( rc == 0 )); then
       code=${out##*$'\n'}; body=${out%$'\n'*}
+      redir=${code#* }; code=${code%% *}
     else
       code=000; body="curl exited $rc (network/timeout)"
     fi
@@ -240,6 +251,7 @@ api() {
   done
 
   note "HTTP $code  $method $path"
+  if (( rc == 0 && code >= 300 && code < 400 )); then _redirect_note "$code" "$redir"; exit 1; fi
   if (( rc != 0 )) || (( code >= 400 )); then
     printf '%s\n' "$body" >&2
     (( code == 401 || code == 403 )) && note "→ token expired or WAF-blocked; refresh it (scripts/README.md)"

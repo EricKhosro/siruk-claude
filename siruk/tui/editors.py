@@ -12,6 +12,7 @@ from textual.widgets import (Button, Checkbox, DataTable, Input, Label, Rule, Se
 
 from siruk import client as _client
 from siruk import config, products, stock, translations
+from siruk import payload as P
 from siruk.payload import VTEXT, PayloadError
 
 TEXT_LABELS = {"about_this_item": "About this item", "ingredient_information": "Ingredients",
@@ -160,7 +161,7 @@ class VariantEditor(BaseEditor):
                 with Grid(classes="form"):
                     for key, label in NUM_FIELDS + STR_FIELDS:
                         yield Label(label)
-                        val = v.get(key)
+                        val = P.website_price(v, key) if key in P.FLAT_PRICE_KEYS else v.get(key)
                         yield Input("" if val is None else str(val), id=f"f-{key}",
                                     type="number" if key in dict(NUM_FIELDS) else "text")
                 yield Rule()
@@ -188,7 +189,7 @@ class VariantEditor(BaseEditor):
         for key, _ in NUM_FIELDS:
             raw = self.query_one(f"#f-{key}", Input).value.strip()
             new = None if raw == "" else (float(raw) if "." in raw else int(raw))
-            old = v.get(key)
+            old = P.website_price(v, key) if key in P.FLAT_PRICE_KEYS else v.get(key)
             if (old if old is None else float(old)) != (new if new is None else float(new)):
                 if key in ("price", "cost_price") and new is None:
                     raise PayloadError(f"{key} cannot be empty")

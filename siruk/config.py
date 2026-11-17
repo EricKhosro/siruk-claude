@@ -10,11 +10,12 @@ API request waits at least request.min_delay_seconds and every upload media.min_
 whatever config.json, an env var, SIRUK_NO_PACE=1, --no-pace or --fast says. SIRUK_NO_PACE=1
 now only drops the chunk pauses and the between-product pause; it never goes below the floor.
 """
-import copy, json, os, sys
+import copy, json, os, sys, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".siruk-cache")
 DEFAULT_API = "https://api.siruk.am/api/admin"
+DEFAULT_OPS_API = "https://ops.siruk.am/api"
 # brand CDNs and the API's WAF refuse urllib's default agent (403 on Python-urllib)
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -113,3 +114,39 @@ def token(env=None):
 
 def is_production(env=None):
     return "demo" not in api_base(env)
+
+
+# ------------------------------------------------------------------- ops ----
+def ops_api_base(env=None):
+    """SIRUK_OPS_API, else config.json {"ops": {"api": …}}, else the default."""
+    env = os.environ if env is None else env
+    if env.get("SIRUK_OPS_API"):
+        return env["SIRUK_OPS_API"].rstrip("/")
+    ops = load(env).get("ops")
+    return ((ops.get("api") if isinstance(ops, dict) else None) or DEFAULT_OPS_API).rstrip("/")
+
+
+def ops_token_file(env=None):
+    env = os.environ if env is None else env
+    return env.get("SIRUK_OPS_TOKEN_FILE") or os.path.join(ROOT, ".ops-token")
+
+
+def ops_token(env=None):
+    """SIRUK_OPS_TOKEN, else the file: an `ops_…` API key or a JWT, both sent as Bearer."""
+    env = os.environ if env is None else env
+    if env.get("SIRUK_OPS_TOKEN"):
+        return "".join(env["SIRUK_OPS_TOKEN"].split()) or None
+    path = ops_token_file(env)
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        return "".join(f.read().split()) or None
+
+
+def url_is_production(url):
+    host = (urllib.parse.urlparse(url).hostname or "").lower()
+    return not (host in ("localhost", "127.0.0.1", "host.docker.internal") or host.endswith(".test"))
+
+
+def ops_is_production(env=None):
+    return url_is_production(ops_api_base(env))

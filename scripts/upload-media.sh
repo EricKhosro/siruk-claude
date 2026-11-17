@@ -143,7 +143,7 @@ info=$(jq -nc --arg f "$name" --arg c "$caption" --arg d "$dims" --arg dir "$dir
 tok=$(siruk_token) || exit 1
 
 post_media() {
-  local out code body rc attempt=1 wait
+  local out code body rc attempt=1 wait redir=""
   while :; do
     pace media
     if out=$(curl -sS -X POST "$SIRUK_API/medias" \
@@ -153,9 +153,10 @@ post_media() {
                   --max-time "$CFG_REQ_TIMEOUT" \
                   -F "file=@${path};filename=${name}" \
                   -F "fileInfo=${info}" \
-                  -w '\n%{http_code}'); then rc=0; else rc=$?; fi
+                  -w '\n%{http_code} %{redirect_url}'); then rc=0; else rc=$?; fi
     if (( rc == 0 )); then
       code=${out##*$'\n'}; body=${out%$'\n'*}
+      redir=${code#* }; code=${code%% *}
     else
       code=000; body="curl exited $rc (network/timeout)"
     fi
@@ -171,6 +172,7 @@ post_media() {
   done
 
   note "HTTP $code  POST /medias  ($name ${dims:-no-dims})"
+  if (( rc == 0 && code >= 300 && code < 400 )); then _redirect_note "$code" "$redir"; return 1; fi
   (( rc == 0 && code < 400 )) || { printf '%s\n' "$body" >&2; return 1; }
   jq -r '.data.id' <<<"$body"
 }

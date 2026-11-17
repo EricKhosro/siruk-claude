@@ -11,6 +11,9 @@
     siruk listing-order show | set groups.json --dry-run
     siruk tui                            the full-screen editor
     siruk mcp                            the MCP server on stdio
+    siruk price-types | prices show <product> | prices set <product> <sku> --type store --price N
+    siruk commands [--json|--markdown]   every command: backend, endpoints, tier, example
+    siruk ops doctor | whoami | token set | api   Siruk Ops (stock, till, receiving)
 
 Every write builds its body through siruk.payload (the rules) and reads the
 product back. --dry-run prints the diff and writes nothing. Guards: the same
@@ -22,6 +25,7 @@ import argparse, json, os, sys, time
 
 from siruk import client as _client
 from siruk import config, output
+from siruk.commands import Registry, entry, register_all
 from siruk.payload import PayloadError
 
 
@@ -546,6 +550,23 @@ def cmd_mcp(a):
     return 0
 
 
+def cmd_commands(a):
+    rows = a.manifest
+    if a.json:
+        output.dump(rows)
+        return 0
+    if a.markdown:
+        cell = lambda x: str(x or "-").replace("|", "\\|")
+        print("| command | backend | tier | roles | endpoints | help | example |\n| --- | --- | --- | --- | --- | --- | --- |")
+        for r in rows:
+            print(f"| `siruk {cell(r['name'])}` | {r['backend']} | {r['tier']} | {cell(r['roles'])} | "
+                  f"{cell(', '.join(r['api']))} | {cell(r['help'])} | {cell(r['example'])} |")
+        return 0
+    output.table([{**r, "name": f"siruk {r['name']}"} for r in rows],
+                 [("name", "command"), ("backend", "backend"), ("tier", "tier"), ("help", "what")])
+    return 0
+
+
 # ------------------------------------------------------------------ parser ----
 def build_parser():
     def globals_parser(default):
@@ -567,51 +588,76 @@ def build_parser():
                                  formatter_class=argparse.RawDescriptionHelpFormatter, parents=[top])
     sub = ap.add_subparsers(dest="cmd", required=True, metavar="<command>")
 
-    def add(name, fn, help, writes=False, **kw):
+    manifest = []
+
+    def add(name, fn, help, writes=False, api=(), tier=None, roles="", example="", **kw):
+        manifest.append(entry(name, "admin", api, tier or ("draft" if writes else "read"), roles, help, example))
         p = sub.add_parser(name, help=help, parents=[common] + ([w] if writes else []), **kw)
         p.set_defaults(fn=fn)
         return p
 
-    add("doctor", cmd_doctor, "check token, API, config and pacing")
-    p = add("token", cmd_token, "store a JWT (validated with /account)")
+    add("doctor", cmd_doctor, "check token, API, config and pacing", api=["GET /account"], example="siruk doctor")
+    p = add("token", cmd_token, "store a JWT (validated with /account)",
+            api=["GET /account"],
+            example="siruk token set < token.txt")
     p.add_argument("action", choices=["set"])
     p.add_argument("value", nargs="?", help="the token (default: read stdin)")
-    p = add("ids", cmd_ids, "live ids: brands, categories, types, attributes")
+    p = add("ids", cmd_ids, "live ids: brands, categories, types, attributes",
+            api=["GET /brands", "GET /categories", "GET /attribute-families", "GET /attributes"],
+            example="siruk ids brands")
     p.add_argument("kind", nargs="?", choices=["brands", "categories", "types", "attributes"])
-    add("refresh", cmd_refresh, "rewrite reference/attribute-values.json + product-types.json")
-    p = add("find", cmd_find, "search products by name (before any create)")
+    add("refresh", cmd_refresh, "rewrite reference/attribute-values.json + product-types.json",
+            api=["GET /attribute-families", "GET /attributes"],
+            example="siruk refresh")
+    p = add("find", cmd_find, "search products by name (before any create)",
+            api=["GET /products?search="],
+            example='siruk find "royal canin mini"')
     p.add_argument("text", nargs="+")
-    p = add("show", cmd_show, "one product, one line per variant")
+    p = add("show", cmd_show, "one product, one line per variant", api=["GET /products/:id"], example="siruk show 874 --lang hy")
     p.add_argument("id", type=int)
     p.add_argument("--lang", choices=["en", "ru", "hy"])
     p.add_argument("--raw", action="store_true", help="the full GET body")
-    p = add("check", cmd_check, "validate payloads against the live product types (no write)")
+    p = add("check", cmd_check, "validate payloads against the live product types (no write)",
+            api=["GET /attribute-families/:id", "GET /attributes"],
+            example="siruk check runs/<date>/p1.json")
     p.add_argument("files", nargs="+")
-    p = add("create", cmd_create, "create a product from a payload", writes=True)
+    p = add("create", cmd_create, "create a product from a payload", writes=True,
+            api=["GET /products?search=", "GET /price-types", "POST /products"],
+            example="siruk create p.json --dry-run")
     p.add_argument("payload")
     p.add_argument("--force", action="store_true", help="create even if a similar name exists")
     p.add_argument("--allow-below-cost", action="store_true")
     p.add_argument("--allow-no-image", action="store_true")
-    p = add("add-variant", cmd_add_variant, "append a variant to an existing product", writes=True)
+    p = add("add-variant", cmd_add_variant, "append a variant to an existing product", writes=True,
+            api=["GET /products/:id", "GET /price-types", "PUT /products/:id"],
+            example="siruk add-variant 874 v.json --dry-run")
     p.add_argument("id", type=int)
     p.add_argument("variant", help="file, '-' for stdin, or inline JSON")
     p.add_argument("--allow-below-cost", action="store_true")
     p.add_argument("--allow-no-image", action="store_true")
-    p = add("set-variant", cmd_set_variant, "patch one variant in place", writes=True)
+    p = add("set-variant", cmd_set_variant, "patch one variant in place", writes=True,
+            api=["GET /products/:id", "GET /price-types", "PUT /products/:id", "PUT /product-variants/:id"],
+            example="siruk set-variant 874 387957 '{\"price\": 2200}' --dry-run")
     p.add_argument("id", type=int)
     p.add_argument("sku")
     p.add_argument("patch", help="JSON object (file, '-' or inline)")
     p.add_argument("--replace-attrs", action="store_true")
     p.add_argument("--allow-below-cost", action="store_true")
-    p = add("rename", cmd_rename, "rename a product (no brand, no size in the name)", writes=True)
+    p = add("rename", cmd_rename, "rename a product (no brand, no size in the name)", writes=True,
+            api=["GET /products/:id", "PUT /products/:id"],
+            example='siruk rename 874 "All Breeds Adult" --dry-run')
     p.add_argument("id", type=int)
     p.add_argument("name")
     p.add_argument("--slug")
-    p = add("translate", cmd_translate, "store a ru/hy translation", writes=True)
+    p = add("translate", cmd_translate, "store a ru/hy translation", writes=True,
+            api=["GET /products/:id", "PUT /products/:id"],
+            example="siruk translate 874 hy hy.json --dry-run")
     p.add_argument("id", type=int)
     p.add_argument("lang", choices=["ru", "hy"])
     p.add_argument("file")
-    p = add("stock", cmd_stock, "stock ledger of a variant", writes=True)
+    p = add("stock", cmd_stock, "stock ledger of a variant", writes=True,
+            api=["GET /stock", "GET /stock/variants/:id/movements", "POST /stock/variants/:id/receive", "POST /stock/variants/:id/write-off", "PUT /stock/variants/:id"],
+            example='siruk stock receive 1030 12 --note "delivery" --dry-run', tier="irreversible")
     p.add_argument("action", choices=["show", "receive", "write-off", "set"])
     p.add_argument("variant_id", type=int)
     p.add_argument("quantity", nargs="?", type=float, help="receive/write-off: qty; set: on_hand")
@@ -619,40 +665,49 @@ def build_parser():
     p.add_argument("--reason", default="correction")
     p.add_argument("--unit-cost", type=float)
     p = add("listing-order", cmd_listing_order,
-            "brand + category groups that lead Relevance listings (the PM's / user's order)", writes=True)
+            "brand + category groups that lead Relevance listings (the PM's / user's order)", writes=True, api=["GET /listing-groups", "PUT /listing-groups"], example="siruk listing-order show")
     p.add_argument("action", choices=["show", "set", "add", "remove", "clear"])
     p.add_argument("groups", nargs="?", help="set: the whole ordered list as JSON (file, '-' or inline)")
     p.add_argument("--brand", help="add: brand id or exact name")
     p.add_argument("--category", type=int, help="add: category id (default: the whole brand)")
     p.add_argument("--at", type=int, help="add: 1-based position (default: the end)")
     p.add_argument("--position", type=int, help="remove: the group's position")
-    p = add("bulk-create", cmd_bulk_create, "create many NEW products in one call (en/ru/hy)", writes=True)
+    p = add("bulk-create", cmd_bulk_create, "create many NEW products in one call (en/ru/hy)", writes=True,
+            api=["GET /products?search=", "GET /price-types", "POST /products/bulk"],
+            example="siruk bulk-create runs/<date>/bulk/*.json --dry-run")
     p.add_argument("files", nargs="+", help="create payloads (bulk-create.py's shape)")
     p.add_argument("--en-only", action="store_true", help="allow a missing ru/hy (translate after)")
     p.add_argument("--out", help="write the results JSON here")
     p.add_argument("--force", action="store_true", help="create even if a similar name exists")
     p.add_argument("--allow-below-cost", action="store_true")
     p.add_argument("--allow-no-image", action="store_true")
-    p = add("verify-translations", cmd_verify_translations, "the ru/hy audit (rule 13); exit 1 if anything missing")
+    p = add("verify-translations", cmd_verify_translations, "the ru/hy audit (rule 13); exit 1 if anything missing",
+            api=["GET /products", "GET /products/:id", "GET /categories/:id", "GET /brands/:id"],
+            example="siruk verify-translations --only 874,875")
     p.add_argument("--only", help="product ids, comma-separated (default: every product)")
     p.add_argument("--products-only", action="store_true", help="skip categories and brands")
     p.add_argument("--out", help="write the full missing list as JSON")
     p.add_argument("--paced", action="store_true", help="keep config.json pacing incl. chunk pauses (default: minimum 1 s gap only)")
     p = add("recheck-prices", cmd_recheck_prices, "hafo price recheck (rule 4) → runs/<date>/price-check.csv",
-            writes=True)
+            writes=True, api=["GET /brands", "GET /products", "GET /products/:id", "GET /price-types", "PUT /products/:id"], example="siruk recheck-prices --only 874")
     p.add_argument("--only", help="product ids, comma-separated (default: the whole catalogue)")
     p.add_argument("--apply", action="store_true", help="also fix the unflagged mismatches (asks per product)")
     p.add_argument("--out", help="csv path (default runs/<date>/price-check.csv)")
     p.add_argument("--paced", action="store_true", help="keep config.json pacing incl. chunk pauses (default: minimum 1 s gap only)")
     p = add("restock-check", cmd_restock_check,
             "after a receipt: invoice cost vs Siruk cost, and the highest of hafo / zoovet / nemo vs our price "
-            "→ runs/<date>/restock-check.csv", writes=True)
+            "→ runs/<date>/restock-check.csv", writes=True,
+            api=["GET /products/export", "GET /products/:id", "GET /price-types", "PUT /products/:id",
+                 "PUT /product-variants/:id"],
+            example="siruk restock-check 1234=5600 --json")
     p.add_argument("lines", nargs="+",
                    help="CODE=COST (ArmSoft good code or SKU = invoice cost incl. VAT per pack; "
                         "CODE=COST/kg for a per-kg cost), or a .json / .csv file of code,cost[,per]")
     p.add_argument("--apply", action="store_true", help="also write the unflagged changes (asks per product)")
     p.add_argument("--out", help="csv path (default runs/<date>/restock-check.csv)")
-    p = add("export", cmd_export,"the catalogue export (one row per variant) → xlsx/json/csv, or --audit")
+    p = add("export", cmd_export, "the catalogue export (one row per variant) → xlsx/json/csv, or --audit",
+            api=["GET /products/export"],
+            example="siruk export --audit")
     p.add_argument("--lang", choices=["en", "ru", "hy"], default="en")
     p.add_argument("--format", choices=["xlsx", "json", "csv"], default="xlsx")
     p.add_argument("-o", "--out", help="file path (default runs/<date>/products_<lang>_<date>.<format>)")
@@ -663,13 +718,17 @@ def build_parser():
                    help="print catalogue checks instead of saving (below cost, missing codes/images/size, duplicates)")
     p.add_argument("--examples", type=int, default=20, help="--audit: rows shown per check")
     p.add_argument("--all", action="store_true", help="--audit: also list no-price-source and out-of-stock rows")
-    p = add("media", cmd_media, "upload / check media", writes=True)
+    p = add("media", cmd_media, "upload / check media", writes=True,
+            api=["GET /media-folders", "GET /brands", "POST /media-folders", "POST /medias", "GET /medias/:id", "DELETE /medias/:id"],
+            example="siruk media upload photo.jpg --folder products/gemon/wet-food")
     p.add_argument("action", choices=["upload", "check"])
     p.add_argument("target", nargs="+", help="upload: file or url; check: media ids")
     p.add_argument("--folder", help="products/<brand-slug>/<type> | logos | categories | banners")
     p.add_argument("--keep-alpha", action="store_true")
     p.add_argument("--alt", help='alt = caption, e.g. "{Brand} {Name}" (SEO); default the file name')
-    p = add("price", cmd_price, "rival price lookups: hafo (by code), zoovet / nemo (by name)")
+    p = add("price", cmd_price, "rival price lookups: hafo (by code), zoovet / nemo (by name)",
+            api=[],
+            example='siruk price hafo --code 12345 --name "Gemon"')
     p.add_argument("source", choices=["hafo", "zoovet", "nemo"])
     p.add_argument("--code")
     p.add_argument("--name")
@@ -677,15 +736,33 @@ def build_parser():
     p.add_argument("--brand")
     p.add_argument("--url")
     p.add_argument("--limit", type=int, default=10)
-    p = add("api", cmd_api, "raw API call (escape hatch)", writes=True)
+    p = add("api", cmd_api, "raw API call (escape hatch)", writes=True,
+            api=["GET|POST|PUT|PATCH|DELETE /*"],
+            example="siruk api GET /account", tier="irreversible")
     p.add_argument("method")
     p.add_argument("path")
     p.add_argument("body", nargs="?")
     p.add_argument("--lang", choices=["en", "ru", "hy"])
-    p = add("pace", cmd_pace, "wait like pace.sh (between rows: `siruk pace product`)")
+    p = add("pace", cmd_pace, "wait like pace.sh (between rows: `siruk pace product`)", api=[], example="siruk pace product")
     p.add_argument("channel", choices=["product", "api", "media"])
-    add("tui", cmd_tui, "full-screen browser and editor")
-    add("mcp", cmd_mcp, "run the MCP server on stdio")
+    add("tui", cmd_tui, "full-screen browser and editor", tier="draft", example="siruk tui",
+        api=["GET /account", "GET /products?search=", "GET /products/:id", "PUT /products/:id",
+             "GET /price-types", "PUT /product-variants/:id", "GET /stock", "GET /stock/variants/:id/movements",
+             "POST /stock/variants/:id/receive", "POST /stock/variants/:id/write-off", "PUT /stock/variants/:id",
+             "GET /brands", "GET /categories", "GET /attribute-families", "GET /attributes"])
+    add("mcp", cmd_mcp, "run the MCP server on stdio", tier="draft", example="siruk mcp",
+        api=["GET /account", "GET /products?search=", "GET /products/:id", "POST /products", "POST /products/bulk",
+             "PUT /products/:id", "GET /price-types", "PUT /product-variants/:id", "GET /stock",
+             "GET /stock/variants/:id/movements", "POST /stock/variants/:id/receive",
+             "POST /stock/variants/:id/write-off", "PUT /stock/variants/:id", "GET /listing-groups",
+             "PUT /listing-groups", "GET /products/export", "GET /brands", "GET /categories", "GET /categories/:id",
+             "GET /brands/:id", "GET /attribute-families", "GET /attributes", "GET /media-folders",
+             "POST /media-folders", "POST /medias"])
+    p = add("commands", cmd_commands, "every command: backend, endpoints, tier, example", api=[],
+            example="siruk commands --json")
+    p.add_argument("--markdown", action="store_true", help="a markdown table instead of the text one")
+    p.set_defaults(manifest=manifest)
+    register_all(Registry(sub, common, manifest))
     return ap
 
 

@@ -11,6 +11,9 @@ import csv, json, os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUN = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "runs", __import__("datetime").date.today().isoformat())
+sys.path.insert(0, ROOT)
+from siruk.payload import add_flat_prices  # noqa: E402
+
 PLANS = ("trixie-5", "8in1", "wetfood", "rest")
 
 
@@ -37,7 +40,7 @@ def main():
     made = created()
     rows = []
     for slug, rec in sorted(made.items(), key=lambda kv: kv[1]["id"]):
-        d = api(f"/products/{rec['id']}").get("data") or {}
+        d = add_flat_prices(api(f"/products/{rec['id']}").get("data") or {})
         rows.append({"slug": slug, "plan": rec["plan"], "id": rec["id"],
                      "name": d.get("name"), "category_ids": d.get("category_ids"),
                      "brand_id": d.get("brand_id"),

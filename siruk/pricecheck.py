@@ -144,7 +144,7 @@ class Hafo:
 def _check_product(H, p):
     rows = []
     for v in p.get("variants", []):
-        sale, cost = int(v.get("price") or 0), int(v.get("cost_price") or 0)
+        sale, cost = int(P.website_price(v) or 0), int(v.get("cost_price") or 0)
         listing, row, note = H.find(v["sku"], p.get("brand_id"), cost)
         rec = dict.fromkeys(COLUMNS, "")
         rec.update(product_id=p["id"], product=p.get("name"), variant=v.get("name"), sku=v["sku"],
@@ -256,18 +256,18 @@ def apply_prices(pid, prices, dry_run=False):
         elif (nv.get("cost_price") or 0) >= hp:
             skipped.append(f"{nv['sku']}: refusing {hp} <= cost {nv.get('cost_price')}")
         else:
-            nv["price"] = hp
+            P.set_website_price(nv, hp)
             applied[nv["sku"]] = hp
     unknown = set(prices) - {v["sku"] for v in body["variants"]}
     skipped += [f"{s}: not a variant of product {pid}" for s in sorted(unknown)]
     if not applied:
         raise P.PayloadError(f"product {pid}: nothing to apply — " + "; ".join(skipped))
-    errs, warns = P.check_variants(body["variants"], ptype)
+    errs, warns = P.check_variants(body["variants"], ptype, main_barcodes=[v["barcode"] for v in before["variants"] if v.get("barcode")])
     if errs:
         raise P.PayloadError(f"product {pid}: refused before writing: " + "; ".join(errs))
     res = products._put(int(pid), before, body, "apply_hafo_prices", dry_run, warns + skipped)
     if not dry_run:
-        got = {v["sku"]: int(v.get("price") or 0) for v in res.after["variants"]}
+        got = {v["sku"]: int(P.website_price(v) or 0) for v in res.after["variants"]}
         bad = [s for s, hp in applied.items() if abs(got.get(s, -1) - hp) > 1]
         if bad:
             raise P.PayloadError(f"product {pid}: written but read-back shows other prices for {bad}")

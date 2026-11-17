@@ -33,6 +33,14 @@ A NEW variant is written in the new shape:
 The three code fields are import-only (the admin form never sends them) and a PUT that leaves
 them out keeps them, so to_variant_payload never copies them back (check_codes validates them).
 merch_boost / pinned / complement fields are the PM's and are refused (MERCH_REFUSED).
+
+Two server models (siruk-web price types, 2026-11): a legacy one with a flat price /
+compare_at_price / min_allowed_price and initial_stock, and a price-types one that refuses
+those and wants `prices` rows (exactly one website row; a barcode and the other types on
+the other rows) on every variant, with stock received in Siruk Ops. server_model() tells
+them apart; adapt_variant() turns one variant into the server's own shape. Input stays
+simple: flat price keys = the website price, or `prices` {type code: {price, compare_at_price,
+min_allowed_price, barcode} | null (remove)}; a `prices` list is the server's rows.
 Legacy input is converted where it is mechanical (attribute_value_ids → attribute_values,
 stock → initial_stock, pricing_type "fixed" dropped) and refused where it is not
 (pricing_type "per_kg", weight, unit, net_quantity, product-weight — give the pack price
@@ -53,6 +61,11 @@ VARIANT_KEYS = ("id", "sku", "name", "about_this_item", "ingredient_information"
                 "min_allowed_price", "cost_price", "track_inventory", "out_of_stock_policy",
                 "backorder_lead_days", "low_stock_threshold", "reorder_point", "reorder_qty")
 NEW_ONLY = ("initial_stock", "initial_stock_warehouse_id", "initial_stock_unit_cost")
+LEGACY, PRICE_TYPES = "legacy", "price-types"
+WEBSITE = "website"
+FLAT_PRICE_KEYS = ("price", "compare_at_price", "min_allowed_price")
+ROW_FIELDS = FLAT_PRICE_KEYS + ("barcode",)
+RECEIVE_IN_OPS = "stock is received in Siruk Ops: `siruk ops docs new receipt …`"
 VTEXT = ("about_this_item", "ingredient_information", "feeding_instructions")
 LEGACY_REFUSED = ("price_per_kg", "weight", "unit", "net_quantity", "vendor_stock", "item_content",
                   "min_quantity", "quantity_step", "max_quantity")
@@ -74,9 +87,169 @@ class PayloadError(Exception):
 def api(method, path, payload=None, lang=None):
     """The scripts' old entry point (13 of them import it): parsed JSON, PayloadError on failure."""
     try:
-        return _client.default().request(method, path, body=payload, lang=lang) or {}
+        out = _client.default().request(method, path, body=payload, lang=lang) or {}
     except _client.ApiError as e:
         raise PayloadError(f"api {method} {path} failed: {e}") from e
+    if method.upper() == "GET" and re.fullmatch(r"/products/\d+(\?.*)?", path) and isinstance(out.get("data"), dict):
+        add_flat_prices(out["data"])
+    return out
+
+
+# ------------------------------------------------------------ server model ----
+_model, _ptypes = None, None
+
+
+def price_types():
+    """{code: {id, code, name}} of the active price types; {} on a legacy server.
+    Probes GET /price-types?forSelect=1 once per process: 200 = price-types, 404 = legacy."""
+    global _model, _ptypes
+    if _ptypes is None:
+        try:
+            data = _client.default().get("/price-types?forSelect=1")
+        except _client.ApiError as e:
+            if e.status != 404:
+                raise
+            _model, _ptypes = LEGACY, {}
+        else:
+            _model = PRICE_TYPES
+            _ptypes = {t["code"]: t for t in (data or {}).get("data") or []}
+    return _ptypes
+
+
+def server_model(product=None):
+    """"price-types" or "legacy": from a product GET when it has variants, else from the probe."""
+    variants = (product or {}).get("variants") or []
+    if any(isinstance(v.get("prices"), list) for v in variants):
+        return PRICE_TYPES
+    if variants:
+        return LEGACY
+    price_types()
+    return _model
+
+
+def _amd(x):
+    if x in (None, ""):
+        return None
+    f = float(x)
+    return int(f) if f.is_integer() else f
+
+
+def _is_website(row):
+    if row.get("price_type_code") is not None:
+        return row["price_type_code"] == WEBSITE
+    wid = (price_types().get(WEBSITE) or {}).get("id")
+    return wid is not None and row.get("price_type_id") == wid
+
+
+def website_price(v, key="price"):
+    """The website price (or compare_at_price / min_allowed_price) of a variant in any shape:
+    a `prices` dict by code, flat keys, or a `prices` list of rows. The one place a price is read."""
+    rows = v.get("prices")
+    if isinstance(rows, dict) and isinstance(rows.get(WEBSITE), dict) and key in rows[WEBSITE]:
+        return _amd(rows[WEBSITE][key])
+    if key in v:
+        return _amd(v[key])
+    if isinstance(rows, list):
+        row = next((r for r in rows if _is_website(r)), None)
+        return _amd(row.get(key)) if row else None
+    return None
+
+
+def set_website_price(v, price):
+    row = next((r for r in v["prices"] if _is_website(r)), None) if isinstance(v.get("prices"), list) else None
+    if row is not None:
+        row["price"] = price
+    else:
+        v["price"] = price
+
+
+def add_flat_prices(product):
+    """Give every price-types variant the flat website keys, so readers of a GET keep working."""
+    for v in (product or {}).get("variants") or []:
+        if isinstance(v.get("prices"), list):
+            for k in FLAT_PRICE_KEYS:
+                v[k] = website_price({"prices": v["prices"]}, k)
+    return product
+
+
+def _type_id(code, baseline):
+    t = price_types().get(code)
+    if t:
+        return t["id"]
+    row = next((r for r in baseline if r.get("price_type_code") == code), None)
+    if row:
+        return row["price_type_id"]   # a type deactivated since: its row stays editable
+    raise PayloadError(f"unknown price type '{code}' (active: {', '.join(price_types())})")
+
+
+def adapt_variant(v, baseline=(), model=None):
+    """Put one variant's price and stock input into the server's own shape, in place. → warnings.
+    Dict beats flat keys beats `baseline` (the server's rows, kept with their ids)."""
+    model = model or server_model()
+    tag = f"variant {v.get('sku')}"
+    given = v.pop("prices", None)
+    flat = {k: v.pop(k) for k in FLAT_PRICE_KEYS if k in v}
+    if model == LEGACY:
+        if isinstance(given, list):
+            given = {r.get("price_type_code"): r for r in given}
+        if given:
+            other = [c for c in given if c != WEBSITE]
+            if other:
+                raise PayloadError(f"{tag}: this server has one flat price — a price for {other} needs the price-types backend")
+            site = given[WEBSITE]
+            if site is None:
+                raise PayloadError(f"{tag}: the website price cannot be removed")
+            if not isinstance(site, dict):
+                raise PayloadError(f"{tag}: price 'website' must be an object like {{\"price\": 2000}}")
+            flat.update({k: site[k] for k in FLAT_PRICE_KEYS if k in site})
+            if site.get("barcode"):
+                raise PayloadError(f"{tag}: the website price has no barcode of its own")
+        v.update(flat)
+        return []
+    warns = []
+    present = [k for k in NEW_ONLY if k in v]
+    for k in present:
+        del v[k]
+    if present:
+        warns.append(f"{tag}: {', '.join(present)} dropped — {RECEIVE_IN_OPS}")
+    if isinstance(given, list):
+        baseline, given = given, None
+
+    def website_id():
+        site = next((r for r in baseline if r.get("price_type_code") == WEBSITE), None)
+        return site["price_type_id"] if site else (price_types().get(WEBSITE) or {}).get("id")
+
+    rows = {r["price_type_id"]: {k: r[k] for k in ("id", "price_type_id") + ROW_FIELDS if k in r} for r in baseline}
+    if flat:
+        rows.setdefault(website_id(), {"price_type_id": website_id()}).update(flat)
+    for code, spec in (given or {}).items():
+        tid = _type_id(code, baseline)
+        if spec is None:
+            if tid == website_id():
+                raise PayloadError(f"{tag}: the website price cannot be removed")
+            rows.pop(tid, None)
+            continue
+        if not isinstance(spec, dict):
+            raise PayloadError(f"{tag}: price '{code}' must be an object like {{\"price\": 2000}} or null")
+        bad = set(spec) - set(ROW_FIELDS)
+        if bad:
+            raise PayloadError(f"{tag}: price '{code}' has no field {sorted(bad)} (only {ROW_FIELDS})")
+        if tid == website_id() and spec.get("barcode"):
+            raise PayloadError(f"{tag}: the website price has no barcode of its own — put it on the variant's barcode")
+        rows.setdefault(tid, {"price_type_id": tid}).update(spec)
+    out = []
+    for tid, r in sorted(rows.items(), key=lambda kv: kv[0] != website_id()):
+        row = {"price_type_id": tid} if "id" not in r else {"id": r["id"], "price_type_id": tid}
+        row.update({k: _amd(r.get(k)) for k in FLAT_PRICE_KEYS})
+        if tid != website_id():
+            bc = r.get("barcode")
+            bc = str(bc).strip() if bc not in (None, "") else None
+            if bc and len(bc) > 32:
+                raise PayloadError(f"{tag}: barcode '{bc}' of price {tid} is longer than 32")
+            row["barcode"] = bc or None
+        out.append(row)
+    v["prices"] = out
+    return warns
 
 
 def _emit(warns, sink):
@@ -88,12 +261,57 @@ def _emit(warns, sink):
             print(f"⚠ {w}", file=sys.stderr)
 
 
-def price_guard(variants, allow=None):
-    """lib.sh price_guard (CLAUDE.md rule 5): a sale price at or below cost is the wrong hafo row
+def _row_code(r):
+    return WEBSITE if _is_website(r) else r.get("price_type_code") or f"type-{r.get('price_type_id')}"
+
+
+def type_prices(v, baseline=()):
+    """{type code: price} a variant will carry: the server's `baseline` rows, then flat price, then the
+    `prices` dict by code (null removes a type) — the order adapt_variant applies. A `prices` list replaces the baseline."""
+    given = v.get("prices")
+    if isinstance(given, list):
+        baseline, given = given, None
+    out = {WEBSITE: None, **{_row_code(r): _amd(r.get("price")) for r in baseline}}
+    if "price" in v:
+        out[WEBSITE] = _amd(v["price"])
+    for c, spec in (given if isinstance(given, dict) else {}).items():
+        if spec is None:
+            out.pop(c, None)
+        elif isinstance(spec, dict) and "price" in spec:
+            out[c] = _amd(spec["price"])
+    return out
+
+
+def set_codes(patch):
+    """The price type codes a patch gives a price for (barcode-only and removed rows are not among them)."""
+    rows, codes = patch.get("prices"), set()
+    if "price" in patch:
+        codes.add(WEBSITE)
+    if isinstance(rows, list):
+        codes |= {_row_code(r) for r in rows if r.get("price") is not None}
+    elif isinstance(rows, dict):
+        codes |= {c for c, spec in rows.items() if isinstance(spec, dict) and "price" in spec}
+    return codes
+
+
+def below_cost(variants, baseline=(), only=None):
+    """["sku=… type=… sale=… cost=…"] for every price (any type) at or below its variant's cost.
+    No cost, or none above zero: no check. `baseline`: the server's rows of the one variant;
+    `only`: just these type codes."""
+    bad = []
+    for v in variants:
+        cost = _amd(v.get("cost_price")) or 0
+        if cost <= 0:
+            continue
+        bad += [f"sku={v.get('sku')} type={c} sale={p or 0} cost={cost}" for c, p in type_prices(v, baseline).items()
+                if (only is None or c in only) and (p is not None or c == WEBSITE) and (p or 0) <= cost]
+    return bad
+
+
+def price_guard(variants, allow=None, baseline=(), only=None):
+    """lib.sh price_guard (CLAUDE.md rule 5): a sale price of any type at or below cost is the wrong hafo row
     or an invented price. Raises unless allowed (ALLOW_BELOW_COST=1 — the user's explicit say-so)."""
-    bad = [f"sku={v.get('sku')} sale={v.get('price') or 0} cost={v.get('cost_price')}"
-           for v in variants
-           if (v.get("cost_price") or 0) > 0 and (v.get("price") or 0) <= (v.get("cost_price") or 0)]
+    bad = below_cost(variants, baseline, only)
     if not bad:
         return []
     if allow is None:
@@ -155,6 +373,10 @@ def to_variant_payload(v, allowed_ids=None):
     elif not av:
         out["attribute_values"] = {}
     out["images"] = out.get("images") or []
+    if isinstance(v.get("prices"), list):
+        for k in FLAT_PRICE_KEYS:
+            out.pop(k, None)   # products.get() puts the website price back on the variant; the API refuses it
+        adapt_variant(out, v["prices"], PRICE_TYPES)
     return out
 
 
@@ -170,8 +392,9 @@ def _attr_id(key, amap):
     return amap[key]["id"]
 
 
-def normalize_new(v, ptype):
-    """A new variant from our planners → the new shape. Raises on anything not mechanical."""
+def normalize_new(v, ptype, model=None, warns=None):
+    """A new variant from our planners → the new shape. Raises on anything not mechanical.
+    Price and stock input is put in the server's shape (adapt_variant); its warnings go to `warns`."""
     v = dict(v)
     errs = []
     if "id" in v:
@@ -210,6 +433,13 @@ def normalize_new(v, ptype):
             errs.append(f"measure_type '{v['measure_type']}' is not one of {MEASURE_TYPES}")
         v.setdefault("pack_count", 1)
     v["images"] = v.get("images") or []
+    try:
+        w = adapt_variant(v, (), model)
+    except PayloadError as e:
+        errs.append(str(e).removeprefix(f"variant {v.get('sku')}: "))
+    else:
+        if warns is not None:
+            warns.extend(w)
     if errs:
         raise PayloadError(f"variant {v.get('sku')}: " + "; ".join(errs))
     return v
@@ -253,9 +483,45 @@ def check_codes(v):
     return errs, warns
 
 
-def check_variants(variants, ptype, new_skus=()):
-    """ProductRequest's product-type checks plus ours. Returns (errors, warnings)."""
+def check_prices(variants, main_barcodes=()):
+    """VariantRules' price checks for variants whose prices are rows: one website row, price > 0 and a
+    multiple of 10, compare-at above price, a type barcode unique in the product and never a main barcode."""
+    errs = []
+    mains = {str(v["barcode"]) for v in variants if v.get("barcode")} | {str(b) for b in main_barcodes}
+    seen = {}
+    for v in variants:
+        tag, rows = f"variant {v.get('sku')}", v["prices"]
+        if sum(1 for r in rows if _is_website(r)) != 1:
+            errs.append(f"{tag}: exactly one website price is required")
+        for r in rows:
+            who = f"{tag} price type {r.get('price_type_id')}"
+            price, cmp_, low = r.get("price"), r.get("compare_at_price"), r.get("min_allowed_price")
+            if price is None or price <= 0 or price % 10:
+                errs.append(f"{who}: price {price} must be > 0 and a multiple of 10")
+            if cmp_ is not None and (cmp_ < 0 or cmp_ % 10):
+                errs.append(f"{who}: compare-at {cmp_} must be a multiple of 10")
+            if cmp_ is not None and price is not None and cmp_ <= price:
+                errs.append(f"{who}: compare-at {cmp_} must be above the price {price}")
+            if low is not None and price is not None and price < low:
+                errs.append(f"{who}: price {price} is below the minimum allowed {low}")
+            bc = r.get("barcode")
+            if bc:
+                if bc in mains:
+                    errs.append(f"{who}: barcode {bc} is a variant's main barcode")
+                elif bc in seen:
+                    errs.append(f"{who}: barcode {bc} is already on {seen[bc]}")
+                seen.setdefault(bc, f"{tag} price type {r.get('price_type_id')}")
+        if len({r.get("price_type_id") for r in rows}) != len(rows):
+            errs.append(f"{tag}: a price type appears twice")
+    return errs
+
+
+def check_variants(variants, ptype, new_skus=(), main_barcodes=()):
+    """ProductRequest's product-type checks plus ours. Returns (errors, warnings).
+    main_barcodes: the variants' saved barcodes (a body carries none), for the price-barcode clash."""
     errs, warns = [], []
+    if variants and all(isinstance(v.get("prices"), list) for v in variants):
+        errs += check_prices(variants, main_barcodes)
     pivot = {a["id"]: a for a in ptype.get("attributes") or []}
     amap_by_id = {a["id"]: a for a in attributes().values()}
     for v in variants:
@@ -266,9 +532,10 @@ def check_variants(variants, ptype, new_skus=()):
             warns += w
         if not v.get("sku"):
             errs.append("a variant has no sku")
-        price = v.get("price") or 0
-        if price <= 0 or price % 10:
-            errs.append(f"{tag}: price {price} must be > 0 and a multiple of 10")
+        if not isinstance(v.get("prices"), list):
+            price = website_price(v) or 0
+            if price <= 0 or price % 10:
+                errs.append(f"{tag}: price {price} must be > 0 and a multiple of 10")
         for aid_s, ids in (v.get("attribute_values") or {}).items():
             aid = int(aid_s)
             a = pivot.get(aid)
@@ -324,6 +591,8 @@ def put_body(get_data, new_variant=None, patch_sku=None, patch=None, replace_att
     p = get_data
     if not (p.get("attribute_family_id") or 0) > 0:
         raise PayloadError(f"product {p.get('id')} has no product type — every product needs one")
+    model = server_model(p)
+    stock_warns = []
     ptype = product_type(p["attribute_family_id"])
     allowed = {a["id"] for a in ptype.get("attributes") or []}
     variants = [to_variant_payload(v, allowed) for v in p["variants"]]
@@ -343,17 +612,24 @@ def put_body(get_data, new_variant=None, patch_sku=None, patch=None, replace_att
                     for k, ids in patch.pop("attribute_values").items()}
             v["attribute_values"] = conv if replace_attrs else {**v["attribute_values"], **conv}
             v["attribute_values"] = {k: ids for k, ids in v["attribute_values"].items() if ids}
+        price_in = {k: patch.pop(k) for k in FLAT_PRICE_KEYS + ("prices",) if k in patch}
+        rows = next(x for x in p["variants"] if x["sku"] == patch_sku).get("prices")
+        baseline = rows if isinstance(rows, list) else []   # the GET's own rows, which still name their type codes
+        v.pop("prices", None)
         v.update(patch)
+        v.update(price_in)
+        stock_warns += adapt_variant(v, baseline, model)
     if new_variant is not None:
-        nv = normalize_new(new_variant, ptype)
+        nv = normalize_new(new_variant, ptype, model, stock_warns)
         if any(v["sku"] == nv["sku"] for v in variants):
             raise PayloadError(f"product {p['id']} already has a variant with sku {nv['sku']}")
         nv.setdefault("sort_order", len(variants))
         nv["is_default"] = not any(v.get("is_default") for v in variants)
         variants.append(nv)
         new_skus.add(nv["sku"])
-    errs, warns = check_variants(variants, ptype, new_skus | ({patch_sku} if patch_sku else set()))
-    _emit(warns, warnings)
+    mains = [v["barcode"] for v in p["variants"] if v.get("barcode")]
+    errs, warns = check_variants(variants, ptype, new_skus | ({patch_sku} if patch_sku else set()), mains)
+    _emit(stock_warns + warns, warnings)
     if errs:
         raise PayloadError("; ".join(errs))
     body = product_body(p)
@@ -377,14 +653,15 @@ def post_body(payload, warnings=None):
     if not (body.get("attribute_family_id") or 0) > 0:
         raise PayloadError("payload has no attribute_family_id — every product needs a product type")
     ptype = product_type(body["attribute_family_id"])
-    variants = [normalize_new(v, ptype) for v in payload.get("variants") or []]
+    stock_warns, model = [], server_model()
+    variants = [normalize_new(v, ptype, model, stock_warns) for v in payload.get("variants") or []]
     if variants and not any(v.get("is_default") for v in variants):
         variants[0]["is_default"] = True
     for i, v in enumerate(variants):
         v.setdefault("sort_order", i)
         v.setdefault("is_default", False)
     errs, warns = check_variants(variants, ptype, {v["sku"] for v in variants})
-    _emit(warns, warnings)
+    _emit(stock_warns + warns, warnings)
     if errs:
         raise PayloadError("; ".join(errs))
     body["variants"] = variants

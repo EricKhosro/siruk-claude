@@ -45,3 +45,7 @@ uv.lock.bak
 
 # Glovo partner portal tokens (access + refresh) — never commit
 .glovo-token
+
+# Siruk Ops API key / JWT and any per-person admin token copies — never commit
+.ops-token*
+.siruk-token*
