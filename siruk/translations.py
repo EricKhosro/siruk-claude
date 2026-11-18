@@ -95,6 +95,8 @@ def set_translation(pid, lang, tr, dry_run=False):
         brand = seo.brand_name(en.get("brand_id"))
         if brand and body.get("name"):
             body["meta"] = seo.meta(lang, brand, body["name"])   # the locale's SEO follows its name
+    from siruk import seo as _seo
+    _seo.keep_meta_image(body, en)                                # a meta PUT without it clears the SEO image
     diff = []
     if body["name"] != cur.get("name"):
         diff.append({"sku": None, "field": f"name[{lang}]", "old": cur.get("name"), "new": body["name"]})
@@ -154,6 +156,8 @@ def set_meta(pid, lang, meta, dry_run=False, en=None, cur=None):
         body, en, cur = build(pid, lang, {"meta": meta}, en=en, cur=cur)
     else:
         raise PayloadError("lang must be en, ru or hy")
+    from siruk import seo as _seo
+    _seo.keep_meta_image(body, en)                                # a meta PUT without it clears the SEO image
     _check_invariants(en, body)
     old = cur.get("meta") or {}
     diff = [{"sku": None, "field": f"meta.{k}[{lang}]", "old": old.get(k), "new": meta.get(k)}

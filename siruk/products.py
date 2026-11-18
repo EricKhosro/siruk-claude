@@ -325,6 +325,7 @@ def rename(pid, name, slug=None, dry_run=False):
     brand = seo.brand_name(before.get("brand_id"))
     if brand:
         body["meta"] = seo.meta("en", brand, name)
+        seo.keep_meta_image(body, before)                     # a meta PUT without it clears the SEO image
     res = _put(int(pid), before, body, "rename", dry_run, warns)
     if not dry_run:
         seo.set_image_alts(pid)

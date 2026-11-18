@@ -8,7 +8,8 @@
 Text: siruk/seo.py category_meta() with the phrase from reference/category-seo-phrases.json
 ("Buy Dry Dog Food Online" / "Buy dry dog food online at Siruk. Choose from trusted brands and get
 delivery in Yerevan."), title <= 60 and description <= 160 characters in every locale.
-SEO image (meta_image) = the category's own `image` (not featured_image); no image -> left empty.
+SEO image (meta_image) = the one already set (the padded 1200×630 from scripts/seo-images.py
+--categories, 2026-11-17), else the category's own `image` (not featured_image); no image -> left empty.
 
 One PUT per locale (Content-Language picks the seo row's locale): {name (that locale's), slug,
 parent_id, list_as_products, meta, meta_image}. HasSeo re-syncs meta_image on every PUT that carries
@@ -43,7 +44,7 @@ def main():
         if only and cid not in only:
             continue
         en = cats["en"][cid]
-        img = en.get("image")
+        img = en.get("meta_image") or en.get("image")   # keep a padded SEO image (seo-images.py --categories)
         for i, l in enumerate(LANGS):
             want = category_meta(l, phrases[cid][i])
             cur = cats[l][cid]

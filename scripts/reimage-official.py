@@ -101,6 +101,7 @@ def main():
         body["category_ids"] = [c["id"] if isinstance(c, dict) else c
                                 for c in (d.get("categories") or d.get("category_ids") or [])]
         if d.get("meta"): body["meta"] = d["meta"]
+        if d.get("meta") and d.get("meta_image"): body["meta_image"] = d["meta_image"]  # else HasSeo clears it
         r = sh([f"{ROOT}/scripts/api.sh", "PUT", f"/products/{pid}", "-"], input=json.dumps(body))
         ok = "HTTP 200" in (r.stdout.splitlines()[0] if r.stdout else "")
         print(f"{pid:<4} {d['name'][:44]:<44} {'ok' if ok else 'FAILED ' + r.stdout[:120]}")

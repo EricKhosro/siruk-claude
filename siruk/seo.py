@@ -113,6 +113,15 @@ def brand_meta(lang, brand):
     return {"title": title, "description": desc}
 
 
+def keep_meta_image(body, rec):
+    """The server's HasSeo re-syncs the SEO image on every PUT that carries `meta`, and a body
+    without `meta_image` CLEARS it. So any product PUT that sends meta re-sends the stored one
+    (rec = a GET of the product; meta_image is not translatable). Returns body."""
+    if "meta" in body and "meta_image" not in body and (rec or {}).get("meta_image"):
+        body["meta_image"] = rec["meta_image"]
+    return body
+
+
 def alt(brand, name):
     return f"{brand} {name}".strip()[:ALT_MAX]
 

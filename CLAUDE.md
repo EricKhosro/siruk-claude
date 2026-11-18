@@ -74,8 +74,9 @@ linked doc before you rely on a number from memory.
    (no animal/hand/scene/group) or it goes to `needs-packshot.csv`. **No
    product ships with an empty gallery** (2026-09-23; `ALLOW_NO_IMAGE=1` is
    the rare hand override) and every upload goes in a media-library folder
-   — `products/<brand-slug>/<type>/`, `logos/`, `categories/`, or `banners/`
-   (page-top banners only) — never the root. The full
+   — `products/<brand-slug>/<type>/`, `logos/`, `categories/`, `banners/`
+   (page-top banners only) or `seo/` (padded 1200×630 SEO images,
+   `scripts/seo-images.py`, 2026-11-17) — never the root. The full
    fallback ladder (country TLDs → **barcode lookup** (2026-09-25: hafo's
    confirmed EAN → `scripts/barcode-lookup.py` + a web search for the EAN;
    identity from two EAN pages, content only from pages printing our EAN) →
@@ -242,7 +243,12 @@ linked doc before you rely on a number from memory.
    live. Image alt = caption = "{Brand} {Name}" (logos "{Brand} logo").
    `siruk create` / `rename` / `translate` send the meta in their own PUT;
    `bulk-create` and `add-variant` set meta and image alts right after;
-   `siruk media upload --alt` names an image at upload. Bulk PUT can't carry
+   `siruk media upload --alt` names an image at upload.
+   **SEO image** (2026-11-17): `scripts/seo-images.py <ids> --apply` pads the
+   default variant's first photo onto a white 1200×630, kept inside the centre
+   square so Google's square thumbnail shows it whole too (never cropped), uploads it
+   to `seo/` and sets `meta_image`. Any product PUT that sends `meta` must re-send
+   `meta_image` or the server clears it (`seo.keep_meta_image`). Bulk PUT can't carry
    per-product meta (the server's `HasSeo` reads the top-level request). A
    write outside `siruk` → `scripts/set-seo-meta.py <id>` and
    `scripts/set-media-alt.py --ids …` after it.

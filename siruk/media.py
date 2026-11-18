@@ -3,7 +3,7 @@ first version that flattens and downscales on Windows (the bash one needs
 macOS `sips`; here Pillow does it, and its absence is reported, not hidden).
 
 Rule 7: every upload goes in a folder — products/<brand-slug>/<type>, logos,
-categories or banners. A 201 is not proof: the record must exist AND its file
+categories, banners, or seo (the padded 1200×630 SEO / share images, scripts/seo-images.py). A 201 is not proof: the record must exist AND its file
 must answer 200 (media 621, 2026-08-13), else the dud is deleted and re-uploaded.
 """
 import io, json, mimetypes, os, re, time, urllib.parse, urllib.request
@@ -12,8 +12,9 @@ from siruk import client as _client
 from siruk import config
 from siruk.payload import PayloadError
 
-FOLDER_RE = re.compile(r"^(products/[^/]+/[^/]+|logos|categories|banners(/.*)?)$")
-TOP_NAMES = {"products": "Products", "logos": "Logos", "categories": "Categories", "banners": "Banners"}
+FOLDER_RE = re.compile(r"^(products/[^/]+/[^/]+|logos|categories|seo|banners(/.*)?)$")
+TOP_NAMES = {"products": "Products", "logos": "Logos", "categories": "Categories", "banners": "Banners",
+             "seo": "SEO"}
 CACHE_FILE = os.path.join(config.CACHE, "media-cache.json")
 EXT_BY_TYPE = {"png": "png", "jpeg": "jpg", "jpg": "jpg", "webp": "webp", "avif": "avif", "gif": "gif"}
 
@@ -178,7 +179,7 @@ def upload(src, folder, keep_alpha=False, dry_run=False, log=lambda m: None, alt
     folder = (folder or "").strip("/")
     if not FOLDER_RE.match(folder):
         raise PayloadError(f"folder '{folder}' is outside the layout: products/<brand-slug>/<type>, "
-                           "logos, categories or banners (rule 7)")
+                           "logos, categories, seo or banners (rule 7)")
     cfg = config.load()["media"]
     is_url = src.startswith(("http://", "https://"))
     if is_url:

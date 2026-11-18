@@ -456,3 +456,20 @@ The public store page couldn't be checked: Siruk isn't listed on glovoapp.com ye
   `final/glovo/glovo-category-request-2026-11-15.xlsx` (tree in hy + every SKU's categories).
 - Beds stay with their species (dog / cat accessories), never in the shared
   "For pets → Beds" leaf 28235 (user 2026-11-15; 15 products moved back).
+
+## Shops Promotions (first used 2026-11-17)
+
+- Portal → Shops Promotions → Create Promotion: 1 Information (name + definition per locale,
+  `en_AM` and, through "Add or Edit Country/Language", `hy_AM`; reason from Overstock / Delisting /
+  Competitiveness / Expiring Soon / Festival / Event / Trading; start/end date + time, Yerevan time),
+  2 Products, 3 Summary → Create Promotion. Status goes Creating → Upcoming → active.
+- Products step → Add Products → Paste: one SKU per row, then the Discounts page (`20%`, or an AMD
+  amount). The pane cannot read the Mac clipboard (the Paste button hangs): focus "Add Row", press
+  Return once per row, and fill the rows. Validate lists each product with original and discounted price.
+- Customers never see the promotion name: Glovo shows its own "-20%" badge, the old price crossed out,
+  and a "Promotions" section at the top of the store menu (as on Zoovet's store).
+- API (same GraphQL host): `promotions`, `validatePromotion`, `createPromotionAsync`, `editPromotion`,
+  `deactivatePromotion`; vendor uuid `320a9bdc-4647-473e-8883-e3d13cf061c8`, chain 30709. Not scripted yet.
+- 2026-11-17: "Bowls 20% off" / "Ամանների զեղչ 20%", 56 active bowls (Bowls & Feeders leaves 70/109,
+  no place mats or travel bottles), 17 Nov 16:50 → 22 Nov 23:59. Margin after Glovo's 20 % fee ≈ 18 %
+  (lowest 12 %, 25257): runs/2026-11-17/glovo-bowls-promo-margin.csv.
