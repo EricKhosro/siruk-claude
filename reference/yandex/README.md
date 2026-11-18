@@ -1,7 +1,14 @@
 # Yandex Eda — Retailer cabinet (ЛК Ритейлера / Picker App admin)
 
 Explored 2026-11-02 (admin version 1.206.2). Siruk sells on Yandex Eda
-(Armenia) through the retailer cabinet at `https://pickerapp.eda.yandex.ru/pa/`.
+(Armenia) through the retailer cabinet at `https://pickerapp.eats.yango.com/pa/`.
+
+> **Domain moved 2026-11-18** (Yandex told the user to use it): the cabinet is
+> now `https://pickerapp.eats.yango.com/pa/`, signed in with **Yango ID**
+> (passport.yango.com, a separate sign-in from Yandex ID). Same backend: same
+> network 13258, store 3315164, category and product uuids, same endpoints.
+> The old `pickerapp.eda.yandex.ru` is not used any more. On 2026-11-18
+> brand settings read `department: "zoo"` (was `"other"`).
 
 ## Account
 
@@ -10,22 +17,22 @@ Explored 2026-11-02 (admin version 1.206.2). Siruk sells on Yandex Eda
 | User | 37540, role **Manager**, "Eric" (+374 41 518808) |
 | Chain (network / brand) | **Siruk Pet Shop**, `brand_slug` = `siruk_pet_shop_shop`, `network_id` = **13258**, brand id 312237 |
 | Store | store id **2360618** (`/pa/stores/view?id=2360618`), **`place_id` = 3315164** — Hovhannes Badalyan St 13/4, entrance 1, Yerevan |
-| Brand settings | `department: "other"` (not grocery / flowers), `is_catalog_enabled: true`, **`is_partner_types_enabled: false`** → the form uses the **v2** product endpoints and the partner-type / ОКПД2 / ТН ВЭД fields do not apply |
+| Brand settings | `department: "zoo"` since 2026-11-18 (was "other") (not grocery / flowers), `is_catalog_enabled: true`, **`is_partner_types_enabled: false`** → the form uses the **v2** product endpoints and the partner-type / ОКПД2 / ТН ВЭД fields do not apply |
 
 ## Sign-in and session
 
-- Sign-in is **Yandex ID** (passport.yandex.ru). Claude never types the
+- Sign-in is **Yango ID** (passport.yango.com). Claude never types the
   password: the user signs in **in the Claude desktop app's built-in
   browser** (the browser pane). Its profile is persistent, so the session
   cookies stay for later sessions until Yandex expires them.
 - Yandex's `Session_id` cookies are httpOnly — they can't be read or
   copied out. So **every API call runs inside the browser pane**
-  (`mcp__Claude_Browser__javascript_tool` on a `pickerapp.eda.yandex.ru` tab),
+  (`mcp__Claude_Browser__javascript_tool` on a `pickerapp.eats.yango.com` tab),
   where `fetch` carries the cookies by itself.
 - Every write needs the header `X-CSRF-Token`: `GET
   /v1/pickerapp/csrf-token-generator` → `{"sk": "<token>",
   "max-age-seconds": N}`. Fetch a fresh one per batch.
-- Logged out? The page redirects to `passport.yandex.ru/...origin=pikerka_dc`.
+- Logged out? The page redirects to `passport.yango.com/...origin=pikerka_dc`.
   Ask the user to sign in again in the pane.
 
 ## Sections (top menu)
@@ -48,13 +55,13 @@ and the **Export** (XLSX) and **Import** (CSV) buttons at the top.
 - **No variants.** Every pack size / flavour / colour is its own card. The
   pet-shop rules forbid choice-in-one-card ("Не указывайте в одной карточке
   варианты товара на выбор"). One Siruk variant = one Yandex product.
-- New products get `moderation_info.status: "required"`. Yandex moderates
+- New products get `moderation_info.status: "required"`. On the old Yandex domain nothing ever left `required` (2026-11-02 → 11-18, a hand-made card too); our API body matches what the form sends. Yandex moderates
   each card before it shows in the app (Каталог → Модерация товаров).
 - Categories: free-form tree we create (`parent_id` for subcategories).
   Today there is one category, **"Կեր"** (`de76cdfd-049a-480f-9735-ef1960d8f504`),
   empty since the test product "Կեր կեր" was deleted on 2026-11-02.
 
-## JSON API (all `POST` unless noted; snake_case keys; base `https://pickerapp.eda.yandex.ru`)
+## JSON API (all `POST` unless noted; snake_case keys; base `https://pickerapp.eats.yango.com`)
 
 | Job | Call |
 |---|---|

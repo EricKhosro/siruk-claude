@@ -1,6 +1,6 @@
 ---
 name: yandex-eda
-description: List and maintain Siruk's products on Yandex Eda through the retailer cabinet (ЛК Ритейлера, pickerapp.eda.yandex.ru) — one Yandex card per Siruk variant, Armenian name in Yandex's order, white 1000×1000 photo, EAN, price per store, category tree. Drives the cabinet's own JSON API from the Claude desktop app's built-in browser, where the user's Yandex sign-in lives. Use when the user asks to add / update / remove products on Yandex, Yandex Eda, the picker app, or ЛК Ритейлера, or to check their moderation status.
+description: List and maintain Siruk's products on Yandex Eda through the retailer cabinet (ЛК Ритейлера, pickerapp.eats.yango.com) — one Yandex card per Siruk variant, Armenian name in Yandex's order, white 1000×1000 photo, EAN, price per store, category tree. Drives the cabinet's own JSON API from the Claude desktop app's built-in browser, where the user's Yango ID sign-in lives. Use when the user asks to add / update / remove products on Yandex, Yandex Eda, the picker app, or ЛК Ритейлера, or to check their moderation status.
 ---
 
 # Yandex Eda catalogue
@@ -14,8 +14,8 @@ the procedure.
 1. Open the cabinet in the **built-in browser** (never Claude in Chrome,
    never chrome-devtools: the sign-in lives in the built-in browser's
    profile): `mcp__Claude_Browser__preview_start` with
-   `url: https://pickerapp.eda.yandex.ru/pa/catalog/edit?id=siruk_pet_shop_shop`.
-2. `get_page_text`. A `passport.yandex.ru` login page means the session
+   `url: https://pickerapp.eats.yango.com/pa/catalog/edit?id=siruk_pet_shop_shop`.
+2. `get_page_text`. A `passport.yango.com` login page means the session
    expired. Call `tabs_context`. If the pane is hidden, ask the user to
    press Cmd+Shift+B, then ask them to sign in there. **Never type the
    password.**
