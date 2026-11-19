@@ -223,9 +223,12 @@ def plan_location_create(body, existing_codes):
 
 
 def plan_location_set(loc, body):
-    if loc.get("kind") == "supplier":
-        raise PayloadError(f"{loc.get('code')} is a supplier warehouse: its connector manages it, not the CLI")
     rows = [(f, loc.get(f), v) for f, v in body.items() if loc.get(f) != v]
+    if loc.get("kind") == "supplier" and any(f != "sirukWarehouseCode" for f, _, _ in rows):
+        # Ops (locations.service.ts) takes only the siruk link for a supplier warehouse; its connector
+        # keeps the name, the switch and the ArmSoft storage.
+        raise PayloadError(f"{loc.get('code')} is a supplier warehouse: only --siruk-warehouse-code "
+                           "(or --clear siruk-warehouse-code) can be set; its connector manages the rest")
     if not rows:
         return None
     patch = {f: a for f, _, a in rows}

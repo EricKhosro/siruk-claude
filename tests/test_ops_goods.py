@@ -427,8 +427,16 @@ def test_locations_set_clears_with_null_and_shows_before_after(ops, capsys):
     assert writes(ops) == [("PATCH", f"/locations/{SHOP}", {"armsoftStorage": None})]
 
 
+def test_locations_set_links_a_supplier_warehouse_and_nothing_else(ops, capsys):
+    # locations.service.ts: a supplier warehouse takes only sirukWarehouseCode (2026-11-19)
+    ops.on("PATCH", f"/locations/{HAFO}", {**LOCATIONS[2], "sirukWarehouseCode": "hafo"})
+    assert apply(["ops", "locations", "set", "HAFO", "--siruk-warehouse-code", "hafo"], capsys) == 0
+    assert writes(ops) == [("PATCH", f"/locations/{HAFO}", {"sirukWarehouseCode": "hafo"})]
+
+
 def test_locations_set_refuses_a_supplier_warehouse_and_an_empty_command(ops):
     assert run(["ops", "locations", "set", "HAFO", "--name", "x"]) == 1
+    assert run(["ops", "locations", "set", "HAFO", "--siruk-warehouse-code", "hafo", "--inactive"]) == 1
     assert run(["ops", "locations", "set", "SHOP"]) == 1
     assert run(["ops", "locations", "set", "SHOP", "--name", " "]) == 1
     assert writes(ops) == []

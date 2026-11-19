@@ -449,3 +449,59 @@ def test_the_six_commands_are_in_the_manifest_with_every_field_filled(capsys):
     assert {"GET /goods", "GET /goods/:variantId"} <= set(rows["ops docs lines"]["api"])
     for r in rows.values():
         assert r["backend"] == "ops" and r["api"] and r["roles"] == "manager, warehouse" and r["help"] and r["example"]
+
+
+# ------------------------------------------------- many lines: one list read ----
+def many_goods(n):
+    ids = ["7a1c2b3d-0000-4000-8000-%012d" % (100 + i) for i in range(n)]
+    return ids, [good(v, f"SKU-{i}", "pack", i, 0) for i, v in enumerate(ids)]
+
+
+def paged_list(goods, size):
+    def answer(p):
+        page = int(p["page"])
+        return {"items": goods[(page - 1) * size: page * size], "total": len(goods), "page": page,
+                "pageSize": size}
+    return answer
+
+
+def test_a_big_document_reads_the_goods_list_once_not_each_line(world, capsys):
+    ids, goods = many_goods(250)
+    world.on("GET", "/goods", paged_list(goods, 200)).on("POST", "/documents", lambda _: detail())
+    lines = [{"variant": v, "quantity": 1, "amount_amd": 100} for v in ids[:240]] + \
+            [{"variant": f"SKU-{i}", "quantity": 2, "amount_amd": 200} for i in range(240, 250)]
+    body = posted_body(world, new("opening_balance", "--location", "shop", lines=lines), capsys)
+    assert [l["variantId"] for l in body["lines"]] == ids
+    gets = [c for c in world.calls if c[0] == "GET" and c[1].startswith("/goods")]
+    assert all(c[1] == "/goods" for c in gets) and len(gets) == 4   # 2 pages, dry run and apply
+
+
+def test_a_small_document_still_reads_each_line(world, capsys):
+    plan(new("receipt", "--location", "shop", "--supplier", "Hafo", "--invoice", INVOICE,
+             lines=[{"variant": PACK, "quantity": 1, "unit_cost_amd": 1300}]), capsys)
+    assert ("GET", f"/goods/{PACK}", None) in world.calls
+    assert not [c for c in world.calls if c[1] == "/goods"]
+
+
+def test_a_ref_the_list_does_not_settle_falls_back_to_one_lookup(world, capsys):
+    ids, goods = many_goods(25)
+    world.on("GET", "/goods", lambda p: paged_list(goods, 200)(p) if "q" not in p else
+             {"items": [], "total": 0, "page": 1, "pageSize": 50})
+    lines = [{"variant": v, "quantity": 1, "amount_amd": 1} for v in ids[:24]] +             [{"variant": "NOT-THERE", "quantity": 1, "amount_amd": 1}]
+    capsys.readouterr()
+    assert run(new("opening_balance", "--location", "shop", lines=lines)) == 1   # refused as before
+    assert "no good matches 'NOT-THERE'" in capsys.readouterr().err
+    assert ("GET", "/goods", {"q": "NOT-THERE", "page": 1}) in world.calls
+
+
+def test_post_review_of_a_big_document_reads_the_list(world, capsys):
+    ids, goods = many_goods(30)
+    world.on("GET", "/goods", paged_list(goods, 200))
+    doc = detail(type_="opening_balance", supplierId=None, supplierName=None, invoiceSerial=None)
+    doc["lines"] = [{**doc["lines"][0], "id": f"l{i}", "variantId": v, "sku": f"SKU-{i}", "quantity": 1}
+                    for i, v in enumerate(ids)]
+    world.on("GET", f"/documents/{DOC}", doc)
+    capsys.readouterr()
+    assert run(["ops", "docs", "post", DOC]) == 0
+    assert "SKU-29" in capsys.readouterr().out
+    assert not [c for c in world.calls if c[1].startswith("/goods/")]

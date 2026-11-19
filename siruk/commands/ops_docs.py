@@ -138,10 +138,13 @@ def cmd_post(a):
     doc = _draft(_doc(a.id))
     if not a.apply:
         cache = {}
+        many = len(doc.get("lines") or []) >= resolve.BULK_FROM
+        catalogue = resolve.Catalogue.load() if many else None
 
         def fetch(variant_id):
             if variant_id not in cache:
-                cache[variant_id] = _ops.default().get(f"/goods/{variant_id}") or {}
+                cache[variant_id] = (catalogue.variant(variant_id) if catalogue else
+                                     _ops.default().get(f"/goods/{variant_id}") or {})
             return cache[variant_id]
 
         rows = D.review(doc, fetch)

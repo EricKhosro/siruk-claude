@@ -84,8 +84,9 @@ def build_lines(type_, raw):
     """The API's line bodies; each variant is resolved and its quantity read in its own unit."""
     check_lines_shape(type_, raw)
     out, seen = [], set()
+    lookup = resolve.variant_lookup(len(raw))
     for i, l in enumerate(raw, 1):
-        good = resolve.variant(l["variant"])
+        good = lookup(l["variant"])
         at = f"line {i} ({good.get('sku')})"
         if type_ == "count":
             if good["variantId"] in seen:
@@ -104,7 +105,7 @@ def build_lines(type_, raw):
         except PayloadError as e:
             raise PayloadError(f"{at}: {e}")
         if l.get("target") is not None:
-            row["targetVariantId"] = resolve.variant(l["target"])["variantId"]
+            row["targetVariantId"] = lookup(l["target"])["variantId"]
         note = _text(l.get("note"), f"{at}: note", MAX_LINE_NOTE)
         if note:
             row["note"] = note

@@ -48,6 +48,55 @@ def variant(ref):
                 f"{(g.get('productName') or {}).get('en') or ''} {g.get('label') or ''}".strip())
 
 
+# A document of this many lines or more reads the whole goods list once (GET /goods, 200 a page: ~9 calls
+# for the catalogue) instead of one GET per line. 380 lines went from ~380 paced calls to ~9 (2026-11-19).
+BULK_FROM = 20
+PAGE_MAX = 200
+
+
+class Catalogue:
+    """Every good in Ops, read once, answering `variant(ref)` from memory with the same matching as
+    `variant()`: a variant id, or an exact SKU, barcode, accounting code or extra barcode. A ref the
+    list doesn't settle (absent, or several goods) falls back to `variant()`, so the answer and its
+    refusal are the same as one lookup per line."""
+
+    def __init__(self, goods):
+        self.by_id, self.by_code = {}, {}
+        for g in goods:
+            if g.get("variantId"):
+                self.by_id[str(g["variantId"]).lower()] = g
+            codes = {g.get("sku"), g.get("barcode"), g.get("accountingCode"),
+                     *[b.get("code") for b in g.get("extraBarcodes") or []]}
+            for c in codes:
+                if c is not None:
+                    self.by_code.setdefault(str(c).lower(), []).append(g)
+
+    @classmethod
+    def load(cls):
+        goods = []
+        for page in range(1, MAX_PAGES + 1):
+            r = _ops.default().get("/goods", {"page": page, "pageSize": PAGE_MAX}) or {}
+            items = r.get("items") or []
+            goods += items
+            if not items or page * int(r.get("pageSize") or len(items)) >= int(r.get("total") or 0):
+                return cls(goods)
+        raise PayloadError(f"the goods list has more than {MAX_PAGES} pages")
+
+    def variant(self, ref):
+        key = str(ref).strip().lower()
+        if _is_uuid(key):
+            hit = self.by_id.get(key)
+        else:
+            rows = self.by_code.get(key) or []
+            hit = rows[0] if len(rows) == 1 else None
+        return hit if hit is not None else variant(ref)
+
+
+def variant_lookup(count):
+    """`variant` for a few refs; a `Catalogue` read once when there are `count` >= BULK_FROM of them."""
+    return Catalogue.load().variant if count >= BULK_FROM else variant
+
+
 def location(ref):
     ref = str(ref).strip()
     rows = _ops.default().get("/locations") or []
