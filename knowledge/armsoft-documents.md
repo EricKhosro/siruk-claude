@@ -341,10 +341,24 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   - **A2164605176** (7,300 incl. VAT, 4 × 1): Kotoffey wood litter light 2 kg / 6 l @ 1,060 (**0235**, Siruk 1318 v2032, cost equal) and dark 2 kg / 6 l @ 1,060 (**0238**, Siruk 1317 v2031, cost equal); light and dark **6 kg / 18 l** @ 2,590 each — no ArmSoft good, no Siruk variant.
   - Club 4 Paws × 24 (#11997) and Premio 3179Tx (#12110) still not invoiced.
 
+- Pull 2026-11-19 15:07 for 16/11–19/11 (office, first try): 10 invoices, 2 new, both Pet House
+  19/11, no replacement note, every line a known good at Siruk's cost → **receipts 0057 / 0058**,
+  posted the same day. **A3286265698** (8,800) = hafo #12321 (18/11, 9,900) without **08541MG
+  Monge Gift Puppy & Junior pork/milk × 1 @ 1,100** (ArmSoft 0433) — ordered, not invoiced
+  (state/open-items.csv). **A0739601276** (20,300) = #12332 (18/11). A0739601276 was missing from the
+  first journal run (01/11–19/11) and there in the second (01/01/26–19/11) a minute later — re-run
+  the journal if a pulled invoice isn't listed. Restock check: all
+  same / match. Glovo token re-read from the built-in browser; `--on-codes` takes the codes
+  space-separated (a comma list matches nothing). Glovo after 0057 / 0058 (user yes, turnover
+  `Scale/armsoft-turnover-2026-11-19-1518.xlsx`): 08544MG Monge Gift duck ON, 45808 Trixie thread
+  mouse 5 cm OFF (sold out); the other four already on; re-run 0 / 0.
+
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0058** | 19/11 | Pet House **A0739601276** (19/11, 20,300 incl. VAT) = hafo #12332: 0010 Acana Bountiful Catch 4.5 kg as **003 × 1 @ 20,300** (cost = Siruk's). Stock after 2 bags | posted by Claude, user asked |
+| receipt **0057** | 19/11 | Pet House **A3286265698** (19/11, 8,800 incl. VAT) = hafo #12321 minus 08541MG: Monge Gift dog sticks 45 g 0430 × 3, 0431 × 3, 0432 × 1, 0435 × 1 @ 1,100. Both in `final/armsoft-2026-11-19/pethouse-receipts-0057-0058.xml`. 0430 stock after 4 | posted by Claude, user asked |
 | issue **0009** | 16/11 | Stock count correction, user: "write it off" — the seller said Royal Canin Kitten dry is finished while the 11:46 turnover still showed **1455** RC Kitten 10 kg at 4.5 kg (open bag). Added by PLU **00087** (line 1455, 303 kg) × 4.5, cost 7,762.50 (1,725/kg). Comment "Stock count correction: seller says none left; Royal Canin supplier has none (user, 2026-11-16)". Stock after 0 (turnover 12:13). Siruk 1955 and Glovo 3182550702973-KG were already off | posted by Claude, user asked |
 | receipt **0048** | 16/11 | Pet House **A2631104009** (08/11), the two boards left out of 0036: new 1667 (48020) × 1 @ 4,100 and new 1668 (48021) × 1 @ 3,900 = 8,000 = invoice lines × 0.8. Pet House gave 20 % off for the mistake; comment on the receipt | posted by Claude, user asked |
 | receipt **0047** | 15/11 | Pet House **A3182055782** (15/11, 53,130 incl. VAT, 23 lines / 31 pcs) = hafo #12237 + #12238 plus 1 more 0217 and 1 more 1656: 1007 @ 3,500; new 1654 × 2 @ 1,715; 0407 @ 685; 1011 @ 965; 1015 @ 1,685; new 1657 @ 2,215; new 1658 @ 4,900; new 1662 × 2 @ 1,835; new 1661 @ 1,190; new 1659, 1660 @ 1,515; new 1664, 1663 @ 810; new 1665 @ 530; new 1666 @ 590; 0449 × 3 @ 1,450; 0512 @ 1,160; 0217 × 2 @ 3,655; new 1656 × 2 @ 750; 0573 × 2 @ 1,340; new 1655 @ 3,215; 0632 @ 1,655; 0633 × 2 @ 1,625 | posted by Claude, user asked |
