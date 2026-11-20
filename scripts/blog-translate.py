@@ -38,7 +38,9 @@ BANNED = {
 # Proper names allowed in Latin script inside ru/hy text. Extend when a post cites a new source.
 LATIN_OK = {"Siruk", "PetMD", "Pet", "Poison", "Helpline", "Merck", "FEDIAF", "Schesir", "In", "Jelly",
             "WSAVA", "Purina", "Institute", "International", "Cat", "Care", "A", "B", "C", "D", "E",
-            "Royal", "Canin", "Pro", "Plan", "Acana", "Orijen", "Brit", "Monge", "Trixie", "Hill", "Hill's"}
+            "Royal", "Canin", "Pro", "Plan", "Acana", "Orijen", "Brit", "Monge", "Trixie", "Hill", "Hill's", "Hill’s",
+            "Cesar", "Hepper", "Mounds", "PetsRadar", "Chewy", "AAFCO", "WebMD", "PetSafe", "NASC", "AAHA",
+            "ASPCA", "FDA", "Nutrition"}
 
 
 def api(method, path, body=None, lang=None):
@@ -156,7 +158,7 @@ def check(pid, quiet=False):
             if len(en_links) != len(tr_links):
                 problems.append(f"{l} block {b['id']}: {len(tr_links)} links vs en {len(en_links)}")
         text = " ".join(texts)
-        latin = sorted(set(re.findall(r"[A-Za-z][A-Za-z']*", text)) - LATIN_OK)
+        latin = sorted(set(re.findall(r"[A-Za-z][A-Za-z'’]*", text)) - LATIN_OK)
         other = re.findall(r"[А-Яа-яЁё]+" if l == "hy" else r"[Ա-և]+", text)
         hits = [w for w in BANNED[l] if w in text.lower()]
         if latin:
