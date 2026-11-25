@@ -69,7 +69,7 @@ and the **Export** (XLSX) and **Import** (CSV) buttons at the top.
 | Brand settings | `GET /admin/v1/brands/settings?brand_slug=siruk_pet_shop_shop&language=en` |
 | Category tree | `/admin/v2/menu-catalog/categories/list?brand_slug=…&locale=en` body `{}` |
 | Create category | `/admin/v2/menu-catalog/category/create?brand_slug=…` body `{"name": "...", "parent_id": "<uuid>"?}` → `{category_id}` |
-| Rename / delete category | `/admin/v1/menu-catalog/category/update`, `/category/delete` |
+| Rename / delete category | `/admin/v1/menu-catalog/category/update`; delete: `/admin/v1/menu-catalog/category/delete?network_id=13258&category_id=<uuid>` body `{}` → 204 (both in the query; verified 2026-11-18, children first) |
 | Products in a category | `/admin/v2/menu-catalog/products/list?brand_slug=…&limit=20&offset=0&locale=en` body `{"category_id": "…"}` (also `name_part`, `moderation_status`, `is_available`) |
 | Products in a store | `/admin/v2/menu-catalog/place/products/list?place_id=3315164&limit=…&offset=…&locale=en` |
 | Product detail | `/admin/v2/menu-catalog/product/detail-info?brand_slug=…&product_id=<uuid>&locale=en` body `{}` |
@@ -116,6 +116,44 @@ failing after a Yandex release.
   `vendor_name`, `vendor_country`, `barcodes`, `package_quantity` (pieces per
   pack). Required: name, category, store, measure, price, **at least one
   photo**.
+
+## Prices and product set (user 2026-11-18, replaces column N and the Siruk-price rule)
+
+- **Yandex price** (user 2026-11-19; replaces "= our Glovo price"): Glovo's rule, `glovo_price()`, run
+  against **Zoovet's Yandex price**:
+  - Siruk × 1.25, rounded up to 50 ֏. Yandex keeps 20 %, so the net equals the Siruk price.
+  - Where Zoovet sells the same item on Yandex, in stock: 50–100 ֏ under Zoovet, up or down from the +25 %
+    (the user allows 50–200 under).
+  - Where Zoovet is below Siruk + 25 %: still under Zoovet, but **never below Siruk + 15 %**. The user
+    picked this for the clash on 2026-11-19.
+  - Zoovet prices under 40 % of ours are per kg / per piece and are skipped.
+  - Same item = a checked match: `state/glovo-zoovet-matches.csv` by Zoovet code (its Yandex names end
+    in `#<code>`), or a "same" row of the source of truth. Royal Canin follows the same rule.
+  - Never Glovo's own price: that one undercuts Zoovet's **Glovo** price.
+  - Push changes with `place/products/update-or-create?place_id=3315164`, body
+    `{"place_products":[{"product_id","is_available","price":{"value"}}]}`, ≤ 25 per call.
+- Every other decision is Glovo's: the Glovo product set, no PIM linking.
+- **Everything that is live on Glovo goes** (user 2026-11-18 evening; the morning's "food and care
+  only" is lifted). Yandex has no piece unit, so **piece goods** (toys, collars, bowls, beds…) go with
+  `measure` **1 GRM**, as Zoovet lists its own piece goods on Yandex. The real size (cm, S/M/L,
+  colour, count) goes in the name, never "1 г". **Loose -KG / -100G variants** go as 1 KGRM / 100 GRM
+  cards at their Glovo price, without a barcode (theirs is a scale PLU).
+- **Stock = Glovo's on/off**: a product switched off on Glovo (the ArmSoft stock check) goes up switched
+  off on Yandex. Siruk's own stock is a placeholder, never read for this.
+  Since 2026-11-19 (user) live cards follow ArmSoft by Glovo's rule after every receipt and stock change:
+  `scripts/yandex-availability.py` plans, the cabinet tab applies `set-availability` (`/yandex-eda` →
+  "Keeping it in sync").
+- **Categories = Siruk's own tree** in Armenian (pet → group → leaf). The 2026-11-02/18 test
+  cards and categories were all deleted on 2026-11-18 at the user's word.
+- `scripts/yandex-price-plan.py` → `final/yandex/yandex-plan-<date>.xlsx` + `.siruk-cache/yandex/plan.json`.
+
+### Bulk upload (2026-11-18)
+Card payloads are too big to paste. Gzip+base64 them into `.siruk-cache/yandex/chunk-NN.b64`, serve that folder on
+`http://localhost:8765` with `Access-Control-Allow-Origin: *` and `Access-Control-Allow-Private-Network: true`
+(`127.0.0.1` fails, `localhost` works), and in the cabinet tab `eval` the served `runner.js`. It lists the store first,
+skips every card already there (key = name + measure value), uploads image → creates → sets `is_available: false` for
+cards off on Glovo, and re-lists between passes so a 504 that did create the card is never duplicated. State in
+`window.__ys`. A page reload kills it: just eval `runner.js` again.
 
 ## Yandex's rules (summary; source: `support/retail/ru/catalog/requirements`)
 

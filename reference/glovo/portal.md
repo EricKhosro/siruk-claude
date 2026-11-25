@@ -207,6 +207,14 @@ new products:
         - As a re-add with the hy text in both slots (case `500bO000018fpr7QAA`): the review
           wrote its own en, "Trixie Cookies 100g".
         - It is no character limit: Zoovet's titles run to 115 chars, and ours were 22–60.
+- **2026-11-21 (case `500bO000019gDw4QAE`, 4 rows sent WITH their EANs, no `masterProducts` check
+  first):** all 4 SUCCESS and live within ~5 minutes, our price and category kept, active. 3 of 4
+  (Simba 009087 / 009527, Trixie 45579) came back matched to existing master entries: hy title,
+  en title and photo replaced by the master's (pim-glovo / global-catalog images; the Simba hy
+  titles are Zoovet's), `pieceBarcodes` = the EAN. The master titles dropped "kidney" (009527)
+  and the brand (45579). Only 45534 kept our title and photo. So an EAN in PIM is matched by the
+  review even through `createSimpleProductBatch`: check `masterProducts` by barcode first and send
+  those rows with column B empty if our title must stay.
       - **A re-used temporary SKU is refused.** `productUpdateSKU` to a name a deleted
         product once had answers `NEW_SKU_EXISTS_IN_CHAIN`, so use a fresh one (`-OLD2`).
         Check the rename's status before sending, or the add goes out against the live SKU and
@@ -456,6 +464,9 @@ The public store page couldn't be checked: Siruk isn't listed on glovoapp.com ye
   `final/glovo/glovo-category-request-2026-11-15.xlsx` (tree in hy + every SKU's categories).
 - Beds stay with their species (dog / cat accessories), never in the shared
   "For pets → Beds" leaf 28235 (user 2026-11-15; 15 products moved back).
+- 2026-11-16: 33360 (Trixie dumbbell) joins the `unexpected_error` group: hy-only and hy + en
+  title updates both fail, so its "with Soft Ends" title is for Glovo support. The photo
+  update (`glovo-set-image.py`) still works on such products (45558, 10203 the same day).
 
 ## Shops Promotions (first used 2026-11-17)
 
@@ -473,3 +484,9 @@ The public store page couldn't be checked: Siruk isn't listed on glovoapp.com ye
 - 2026-11-17: "Bowls 20% off" / "Ամանների զեղչ 20%", 56 active bowls (Bowls & Feeders leaves 70/109,
   no place mats or travel bottles), 17 Nov 16:50 → 22 Nov 23:59. Margin after Glovo's 20 % fee ≈ 18 %
   (lowest 12 %, 25257): runs/2026-11-17/glovo-bowls-promo-margin.csv.
+- **2026-11-24: adding products without `.glovo-token`.** When the token can't be re-captured, the
+  same `createSimpleProductBatch` goes out from the signed-in portal tab: a `__gq` helper that reads
+  `accessToken` from `document.cookie` on every call (a helper that captured it once goes stale:
+  "Unexpected end of JSON input"), and each photo fetched in the page from a wsrv.nl 500×500 white-pad
+  URL → `FileReader.readAsDataURL` → `imagesEncoded`. 16 rows in two batches of 8, both accepted
+  (`runs/2026-11-23/build_glovo_sheet.py` writes the sheet and the light request).

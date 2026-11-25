@@ -112,6 +112,10 @@ Something switched off by hand elsewhere stays off. Office: show the user the tw
 lists and apply on their yes. Shop: `/receive-invoices` → 5b. A run after till sales
 alone (no receipt) is the plain check with no `--on…`.
 
+**Yandex Eda follows the same run** (user 2026-11-19): same turnover, same rule, same
+`--on-codes`, through `scripts/yandex-availability.py` and the built-in browser
+(`/receive-invoices` → 5c, `/yandex-eda` → "Keeping it in sync"). Do both every time.
+
 ## 4. SKUs that lost their zeros
 
 Onboarding went through Excel, so `011137` became `11137` on Glovo (202

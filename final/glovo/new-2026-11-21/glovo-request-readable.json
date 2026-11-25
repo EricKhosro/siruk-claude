@@ -1,0 +1,173 @@
+{
+ "query": "mutation($r: CreateSimpleProductBatchPayload!){\n  createSimpleProductBatch(productsRequest:$r){\n    __typename\n    ... on SimpleProductBatchSuccess { message caseId }\n    ... on SimpleProductBatchValidationError { csvValidationErrors { error message column }\n                                               productValidationErrors { barcode errors index } } } }",
+ "variables": {
+  "r": {
+   "simpleProducts": [
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Simba Chunkies Adult թաց կեր ճագարի մսով չափահաս կատուների համար, 415 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Simba Chunkies Adult Wet Cat Food Rabbit 415 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "SIMBA CAT ՃԱԳԱՐՈՎ ԿՏՈՐՆԵՐ՝ լիարժեք կեր չափահաս կատուների համար։ Սոուսով կտորները, պատրաստված որակյալ բաղադրիչներից, ինչպիսին է ճագարը՝ սպիտակուցի և հանքանյութերի աղբյուր, թխված են ջեռոցում՝ ընդգծելու դրանց բնական համը և խթանելու ձեր ընտանի կենդանու ամենօրյա ախորժակը։"
+      }
+     ],
+     "barcode": "08009470009089",
+     "imagesEncoded": [
+      "<009087.jpg, 66579 base64 chars>"
+     ],
+     "sku": "009087",
+     "brand": null,
+     "activeness": true,
+     "price": 750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7147",
+       "locale": "hy_AM",
+       "name": "Կատվի Թաց Կեր"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Simba Chunkies Adult թաց կեր հնդկահավի մսով և երիկամով չափահաս կատուների համար, 415 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Simba Chunkies Adult Wet Cat Food Turkey & Kidney 415 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "SIMBA CAT ՀՆԴԿԱՀԱՎՈՎ ԵՎ ԵՐԻԿԱՄՈՎ ԿՏՈՐՆԵՐ՝ լիարժեք կեր չափահաս կատուների համար։ Սոուսով կտորները, պատրաստված որակյալ բաղադրիչներից, ինչպիսիք են հնդկահավը և երիկամը՝ սպիտակուցի և հանքանյութերի աղբյուր, թխված են ջեռոցում՝ ընդգծելու դրանց բնական համը և խթանելու ձեր ընտանի կենդանու ամենօրյա ախորժակը։"
+      }
+     ],
+     "barcode": "08009470009522",
+     "imagesEncoded": [
+      "<009527.jpg, 71723 base64 chars>"
+     ],
+     "sku": "009527",
+     "brand": null,
+     "activeness": true,
+     "price": 750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7147",
+       "locale": "hy_AM",
+       "name": "Կատվի Թաց Կեր"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie պլյուշե մկնիկ սրտիկով կատուների համար, 11 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Plush Mouse with Heart Cat Toy 11 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Փափուկ պլյուշե մկնիկ կատուների համար՝ ասեղնագործված սրտիկով։ Նյութ՝ պլյուշ (պոլիէսթեր)։ Չափս՝ 11 սմ։"
+      }
+     ],
+     "barcode": "04011905455792",
+     "imagesEncoded": [
+      "<45579.jpg, 34771 base64 chars>"
+     ],
+     "sku": "45579",
+     "brand": null,
+     "activeness": true,
+     "price": 2000.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "28242",
+       "locale": "hy_AM",
+       "name": "Կատուների համար խաղալիքներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie կտորե ձի կատվախոտով կատուների համար, 10 սմ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Fabric Horse with Catnip Cat Toy 10 cm"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Փափուկ խաղալիք կատուների համար՝ պատրաստված խիտ կտորից՝ ջուտե ներդիրով։ Ներսում բնական կատվախոտ և խշխշացող թաղանթ՝ կատվի ուշադրությունը գրավելու համար։ Առանց փոքր սոսնձված պլաստիկ մասերի։ Նյութ՝ կտոր, ջուտ։ Կատվախոտով։ Խշխշացող թաղանթով։ Չափս՝ 10 սմ։ Գույն՝ շագանակագույն։"
+      }
+     ],
+     "barcode": "04011905455341",
+     "imagesEncoded": [
+      "<45534.jpg, 45423 base64 chars>"
+     ],
+     "sku": "45534",
+     "brand": null,
+     "activeness": true,
+     "price": 2200.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "28242",
+       "locale": "hy_AM",
+       "name": "Կատուների համար խաղալիքներ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

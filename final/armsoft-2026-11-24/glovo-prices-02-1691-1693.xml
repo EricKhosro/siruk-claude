@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1691</Code>
+    <PriceType>02</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-24T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>550.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1692</Code>
+    <PriceType>02</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-24T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>850.0000</Price>
+    <Comment></Comment>
+  </Prices>
+  <Prices xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Code>1693</Code>
+    <PriceType>02</PriceType>
+    <Unit>001</Unit>
+    <Date>2026-11-24T00:00:00</Date>
+    <CurrencyCode>AMD</CurrencyCode>
+    <Price>1300.0000</Price>
+    <Comment></Comment>
+  </Prices>
+</Exchange>

@@ -1,0 +1,91 @@
+{
+ "query": "mutation($r: CreateSimpleProductBatchPayload!){\n  createSimpleProductBatch(productsRequest:$r){\n    __typename\n    ... on SimpleProductBatchSuccess { message caseId }\n    ... on SimpleProductBatchValidationError { csvValidationErrors { error message column }\n                                               productValidationErrors { barcode errors index } } } }",
+ "variables": {
+  "r": {
+   "simpleProducts": [
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Tofu գնդվող բուսական լցանյութ կատուների համար, 2.5 կգ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Tofu Clumping Cat Litter 2.5 kg"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "TRIXIE տոֆուից լցանյութը պատրաստված է բուսական հիմքով՝ տոֆուի արտադրության ենթամթերքից։ Այն շատ լավ կլանում է, արագ առաջացնում է ամուր գնդիկներ և հուսալիորեն պահում է տհաճ հոտերը։ Չի պարունակում արհեստական բուրավետիչներ։"
+      }
+     ],
+     "barcode": "04011905730080",
+     "imagesEncoded": [
+      "<40250.jpg, 55375 base64 chars>"
+     ],
+     "sku": "40250",
+     "brand": null,
+     "activeness": true,
+     "price": 5650.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7077",
+       "locale": "hy_AM",
+       "name": "Կատվի Lցանյութ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Trixie Cat Malt Plus ածիկի մածուկ կատուների համար, 100 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Trixie Cat Malt Plus Malt Paste for Cats 100 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "TRIXIE Cat Malt Plus-ը ածիկով մածուկ է կատուների համար՝ բնական իմունոգլոբուլիններով և պրեբիոտիկ բաղադրիչներով։ Օգնում է մարսողությանը և հեշտացնում կուլ տված մազերի դուրս բերումը։ Բարելավում է մարսողությունը և կանխում մազագնդիկների առաջացումը։ Իմունոգլոբուլինները աջակցում են իմունային համակարգին։"
+      }
+     ],
+     "barcode": "04011905042213",
+     "imagesEncoded": [
+      "<4221.jpg, 32331 base64 chars>"
+     ],
+     "sku": "4221",
+     "brand": null,
+     "activeness": true,
+     "price": 3750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7083",
+       "locale": "hy_AM",
+       "name": "Կատվի Վիտամիններ"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

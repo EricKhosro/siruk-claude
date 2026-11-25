@@ -298,6 +298,17 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
   հարկային հաշիվներ" lists the supplier tax invoices straight from the tax
   service (set both start dates to 01/01/25, Կատարել; slow, and the link
   sometimes needs a second double-click). The list shows totals only; **double-click an invoice → tab Անվանացուցակ** (314, 154) for its lines, footer = total quantity, Escape closes it (2026-10-26). If the navigator link does nothing, use the home tab (Գլխավոր էջ) → e-invoicing → "Ստացված հարկային հաշիվներ" (double-click), then clear Սերիա և համար to list all.
+- **Copy an e-invoice's lines as text** (2026-11-17): in the journal (search `հաշիվների մատյան`)
+  double-click the invoice → tab Անվանացուցակ (318, 155) → click the first row's **row header**
+  (28, 226), Ctrl+A, Ctrl+C, then PowerShell `Get-Clipboard -Raw` gives tab-separated rows (type,
+  our code, our name, unit, supplier name, unit, qty, price ex VAT, discount, amount, VAT %, VAT,
+  —, total incl. VAT, CPA). Clicking a cell instead copies only that cell. The journal's own
+  "Արտահանել XML" refuses ("XML արտահանումը նախատեսված չէ"). Pet House line names equal
+  hafo's catalogue names, so `.siruk-cache/hafo-catalogue.json` `rows` matches them exactly.
+- **The pull report can lag the computer-use screenshot**: after Կատարել the screenshot kept the
+  home page for a minute; a PowerShell CopyFromScreen showed the report tab. The Claude window
+  covering the right third of the screen also hides home-page links there (e-invoicing): use the
+  top search box (833, 13) instead.
   Type "Ծառայություններ" rows are services, not goods. "Ստացված հաշիվների
   մատյան" (the local journal) was empty.
 - **The goods arrive as warehouse receipts** ("Պահեստի մուտքի օրդեր"),
@@ -332,6 +343,9 @@ A good keeps its unit as հատ (001) even when it is a box: 1 հատ = 1 box
   `glovo-portal.py stock … --on-codes <the receipt's codes>` (`/glovo-portal` →
   "After every posted warehouse receipt"). Restocked goods go back on, and anything
   sold out goes off. On the shop computer, `/receive-invoices` → 5b.
+  **And Yandex the same way** (user 2026-11-19): `scripts/yandex-availability.py plan …
+  --on-codes …`, applied from the built-in browser (`/receive-invoices` → 5c). The same
+  pair runs after a write-off, a count or a till-sales check (no `--on-codes` then).
 - **Editing a posted receipt**: Գլխավոր ribbon → "Սևագիր" (Ctrl+Shift+D)
   turns it back into a draft (its stock leaves until reposted), edit, Ctrl+S.
   In the grid, click a cell **then press ↓ before typing**: a click puts the

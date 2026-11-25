@@ -103,6 +103,10 @@ def gql(query, variables, tries=3):
             if e.code >= 500 and attempt < tries - 1:
                 time.sleep(2 * (attempt + 1)); continue
             raise RuntimeError(f'HTTP {e.code}: {e.read()[:400]!r}')
+        except (TimeoutError, urllib.error.URLError) as e:   # a slow page: retry reads (2026-11-18)
+            if attempt < tries - 1:
+                time.sleep(3 * (attempt + 1)); continue
+            raise
 
 
 def all_products(search=''):

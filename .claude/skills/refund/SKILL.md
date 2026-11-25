@@ -77,15 +77,29 @@ the job is only step 4's printing.
    amount on the right (Վերադարձման) must equal the money given back.
    *Not tried yet* — the first partial refund: check the amount follows the
    lines, and write what happened into `/armsoft-app`.
-3. Show the seller: the original slip (number, date, total), each line on the
+3. **Data Matrix codes must match the sale's** (2026-11-17). Open the sale
+   (read-only) and look at its Դրոշմավորում column: every line that says
+   "Լրացված է" sent a code. Select that line → Դրոշմավորում → click the
+   code row, Ctrl+C. On the **new, unsaved** return, the same line →
+   Դրոշմավորում → click the entry field, paste or type the code →
+   Ավելացնել → "1 entered, 0 left" → Կատարել; the line turns "Լրացված է".
+   Skip this and the register refuses the slip with **416** ("the number of
+   control marks on the return doesn't match the sale's"). Once a return has
+   been sent to the register (HDM N XXXXXXXX) its lines are locked, even as a
+   draft — the fix is to make it a draft, delete it (on the user's yes) and
+   make a new one with the codes entered before the first save.
+4. Show the seller: the original slip (number, date, total), each line on the
    return (name, quantity, price) and the amount to give back, and how
    (cash / card). **Save only on the seller's yes** → "Գրանցված".
 
 ## 4. Print it on the register
 
-Still in the return, **ՀԴՄ (F3)**. Marked goods (Felix) with no codes give
-"Data Matrix … ծածկագրերը անցկացված չեն … Շարունակե՞լ" → Այո (the sale sent
-none either). The return slip prints. Read its ՀԴՄ number back from the
+Still in the return, **ՀԴՄ (F3)**. Marked goods with no codes give
+"Data Matrix … ծածկագրերը անցկացված չեն … Շարունակե՞լ" listing the good
+codes → Այո **only if** those lines had no code on the sale either (check
+the list against step 3). On 17/11 an office laptop in the shop printed
+from F3 (same network as the register; ArmSoft moved on to a blank new
+return after the slip — close it, "Հաստատեք պատուհանի փակումը" → Այո). The return slip prints. Read its ՀԴՄ number back from the
 journal (refresh; if it stays empty, restart ArmSoft per `/armsoft-app`).
 
 Money:

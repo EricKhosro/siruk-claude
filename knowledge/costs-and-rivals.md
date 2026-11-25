@@ -59,3 +59,13 @@ against the rivals". Facts behind it:
   (good 0483, Siruk 1201 Rabbit Ears for Puppies 90 g): hafo names the maker
   Деревенские Лакомства, dogfest.com prints the same EAN. A Dog Fest photo with
   our EAN is the right photo (2026-10-23).
+
+- **Siruk's `glovo` / `yandex` price types = the live channel prices (2026-11-19).**
+  Filled from Glovo's portal dump and Yandex's store list that day: 1,691 Glovo and
+  1,689 Yandex rows, matched by SKU (Yandex via `state/yandex-products.json`
+  product_id). The 56 bowls on Glovo's -20 % promo (2026-11-17) hold the
+  **regular** Glovo price (`originalPrice`), never the promo price (user's pick).
+  Glovo `23763` (Trixie comb 22 cm) has no Siruk variant. `glovo-portal.py prices`
+  and the Yandex price push do **not** write these types, so a later channel price
+  change leaves them stale until they are copied again. Log:
+  `runs/2026-11-19/channel-prices-log.csv`.

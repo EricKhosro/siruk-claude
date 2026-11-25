@@ -190,6 +190,28 @@ posted receipt:
    hand stays off.
 5. In the seller summary, say what is now on Glovo again.
 
+## 5c. Yandex Eda: the same on/off as Glovo (user 2026-11-19)
+
+Yandex keeps no stock either, only on/off per card, and follows ArmSoft by the
+same rule at the same moments: after every posted receipt, and after a stock
+change (write-off, count, till-sales check).
+
+1. Same turnover and goods XML as 5b. Plan:
+   `uv run --no-sync --with openpyxl python scripts/yandex-availability.py plan Scale/armsoft-turnover-<today>.xlsx Scale/armsoft-export-<latest>.xml --on-codes <the receipt's ArmSoft codes> --out final/yandex/yandex-availability-<today>.xlsx`
+2. The cabinet only answers from the built-in browser's Yango sign-in
+   (`/yandex-eda` → 0). If pickerapp.eats.yango.com is not signed in on this
+   computer, **never sign in**: skip, and note "Yandex on/off after receipt <no>:
+   office" in `state/open-items.csv`.
+3. Dry run in the cabinet tab (`javascript_tool`): `window.__yav_apply = false;`
+   + the text of `.siruk-cache/yandex/availability.js`, then poll
+   `JSON.stringify(window.__yav)` until `phase` is `done`; save it to
+   `.siruk-cache/yandex/availability-result.json` and
+   `python scripts/yandex-availability.py show <that file>` for the names.
+4. On the seller's (office: the user's) yes, the same with
+   `window.__yav_apply = true;`, poll to `done`, save the result, then
+   `python scripts/yandex-availability.py record <that file>`. Re-run the dry
+   run: 0 / 0. An `error` "refused: … would go off" is a broken export: stop.
+
 ## 6. Write it down (then commit, push and open the pull request per `shop/CLAUDE.local.md`)
 
 - `knowledge/armsoft-documents.md`: the pull (date, period, how many

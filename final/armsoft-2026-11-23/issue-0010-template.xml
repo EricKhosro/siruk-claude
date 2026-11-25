@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <MTExpense xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDeleted>false</IsDeleted>
+    <IsDraft>false</IsDraft>
+    <Owner></Owner>
+    <DocumentNumber>0010</DocumentNumber>
+    <DocumentDate>2026-11-20T00:00:00</DocumentDate>
+    <Comment>Siruk Ops till sales 20/11: SL-000001, SL-000002, SL-000004 (HDM printed by Ops)</Comment>
+    <Storage>01</Storage>
+    <Trust></Trust>
+    <Mediator></Mediator>
+    <Machine></Machine>
+    <ChiefAccountant></ChiefAccountant>
+    <Allower></Allower>
+    <Demand></Demand>
+    <BaseISN></BaseISN>
+    <ISN></ISN>
+    <Specification>
+      <MTExpenseSpecificationRow>
+        <MTCode>0019</MTCode>
+        <Unit>303</Unit>
+        <Quantity>1.0000</Quantity>
+        <Price>0.0000</Price>
+        <Amount>20300.0000</Amount>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+        <UnitList>
+          <QuantityUnitPart>
+            <GoodsCode>0019</GoodsCode>
+            <Unit>003</Unit>
+            <Coef>4.5000000000</Coef>
+            <IsDefault>false</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+          <QuantityUnitPart>
+            <GoodsCode>0019</GoodsCode>
+            <Unit>303</Unit>
+            <Coef>1.0000000000</Coef>
+            <IsDefault>true</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+        </UnitList>
+      </MTExpenseSpecificationRow>
+      <MTExpenseSpecificationRow>
+        <MTCode>0045</MTCode>
+        <Unit>303</Unit>
+        <Quantity>1.0000</Quantity>
+        <Price>0.0000</Price>
+        <Amount>2066.6700</Amount>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+        <UnitList>
+          <QuantityUnitPart>
+            <GoodsCode>0045</GoodsCode>
+            <Unit>003</Unit>
+            <Coef>15.0000000000</Coef>
+            <IsDefault>false</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+          <QuantityUnitPart>
+            <GoodsCode>0045</GoodsCode>
+            <Unit>303</Unit>
+            <Coef>1.0000000000</Coef>
+            <IsDefault>true</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+        </UnitList>
+      </MTExpenseSpecificationRow>
+      <MTExpenseSpecificationRow>
+        <MTCode>1484</MTCode>
+        <Unit>001</Unit>
+        <Quantity>1.0000</Quantity>
+        <Price>0.0000</Price>
+        <Amount>118.1300</Amount>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+        <UnitList>
+          <QuantityUnitPart>
+            <GoodsCode>1484</GoodsCode>
+            <Unit>001</Unit>
+            <Coef>1.0000000000</Coef>
+            <IsDefault>true</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+          <QuantityUnitPart>
+            <GoodsCode>1484</GoodsCode>
+            <Unit>002</Unit>
+            <Coef>26.0000000000</Coef>
+            <IsDefault>false</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+        </UnitList>
+      </MTExpenseSpecificationRow>
+      <MTExpenseSpecificationRow>
+        <MTCode>1639</MTCode>
+        <Unit>001</Unit>
+        <Quantity>10.0000</Quantity>
+        <Price>0.0000</Price>
+        <Amount>666.6700</Amount>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+        <UnitList>
+          <QuantityUnitPart>
+            <GoodsCode>1639</GoodsCode>
+            <Unit>001</Unit>
+            <Coef>1.0000000000</Coef>
+            <IsDefault>true</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+          <QuantityUnitPart>
+            <GoodsCode>1639</GoodsCode>
+            <Unit>004</Unit>
+            <Coef>100.0000000000</Coef>
+            <IsDefault>false</IsDefault>
+            <Image></Image>
+            <IsAltUnit i:nil="true" />
+          </QuantityUnitPart>
+        </UnitList>
+      </MTExpenseSpecificationRow>
+    </Specification>
+  </MTExpense>
+</Exchange>

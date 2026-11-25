@@ -341,6 +341,14 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   - **A2164605176** (7,300 incl. VAT, 4 × 1): Kotoffey wood litter light 2 kg / 6 l @ 1,060 (**0235**, Siruk 1318 v2032, cost equal) and dark 2 kg / 6 l @ 1,060 (**0238**, Siruk 1317 v2031, cost equal); light and dark **6 kg / 18 l** @ 2,590 each — no ArmSoft good, no Siruk variant.
   - Club 4 Paws × 24 (#11997) and Premio 3179Tx (#12110) still not invoiced.
 
+- Pull 2026-11-25 11:26 **through ArmSoft** for 22/11–25/11 (office; the Ops pull stayed 409
+  EINVOICE_LOGIN_PENDING, user chose ArmSoft): 6 invoices, all "Այո" — ArmSoft's journal lacked even the four
+  already received (A1599184972, A6824234528, A6767160732, A4611131207: receipts made by XML import don't put the
+  e-invoice in the journal). **2 new**, held until their goods were imported the same day (Siruk 1511–1516, ArmSoft 1698–1712), then received as **0067** / **0068** (Ops RC-000011 / RC-000012); the Ops pull worked once the Ops till app was open on the office PC: **A1413999226** «ՊՐԵՄԻԵՐ ՖՈՒԴ» ՍՊԸ
+  (TIN 02252609, Nestlé Purina distributor, 25/11, 82,791) — 4 Pro Plan dog foods Siruk lacks + Felix 1476 / 1494
+  × 26 each @ 141.75 (Felix lines carry a 19 % discount in the journal); **A1485800728** Zoo Ek (24/11, 108,000)
+  — 12 Leonardo cat wet foods, brand in Siruk (11) but no products. Neither is in Ops yet (pull it there too
+  before receiving). ArmSoft was not running: started with the Start-Process line, the user signed in.
 - Pull 2026-11-19 15:07 for 16/11–19/11 (office, first try): 10 invoices, 2 new, both Pet House
   19/11, no replacement note, every line a known good at Siruk's cost → **receipts 0057 / 0058**,
   posted the same day. **A3286265698** (8,800) = hafo #12321 (18/11, 9,900) without **08541MG
@@ -352,14 +360,182 @@ Database "Siruk", warehouse 01. Receipts = Պահեստի մուտքի օրդե�
   space-separated (a comma list matches nothing). Glovo after 0057 / 0058 (user yes, turnover
   `Scale/armsoft-turnover-2026-11-19-1518.xlsx`): 08544MG Monge Gift duck ON, 45808 Trixie thread
   mouse 5 cm OFF (sold out); the other four already on; re-run 0 / 0.
+- **Full ArmSoft check 2026-11-19 15:30–16:05** (user: "export everything from ArmSoft, check stock"):
+  goods XML `Scale/armsoft-export-2026-11-19.xml` (1,628 goods, up to 1673), prices
+  `Scale/armsoft-prices-2026-11-19.xlsx` (3,357 rows), turnover 15:50, `scripts/armsoft-vs-siruk.py` ->
+  `final/armsoft-2026-11-19/armsoft-vs-siruk-2026-11-19.xlsx`. Prices, barcodes and codes: no difference;
+  every live Siruk variant has a good. ArmSoft-only: **1027** comb (stock 1) + 12 RC pouches (discontinued,
+  empty). Ops was 18 codes off ArmSoft: receipts 0057/0058 (Ops has no e-invoices pulled), ten goods sold at
+  the till since the 11:21 opening balance, and the known 1027 / 1625 / 1628. **Posted in Ops on the user's
+  yes (~16:00)**: RC-000001 (A3286265698, 8,800 = ArmSoft 0057) and RC-000002 (A0739601276, 20,300 = 0058),
+  manual receipts, supplier Pet House (hafo.am); BO-000001 bag opening 0011 Wild Prairie 4.5 kg -> 4.5 kg
+  loose on 7145812-KG; CN-000001 count of 10 lines to ArmSoft's 15:50 numbers ("till sales after the 11:21
+  opening balance"). Re-check: Ops = ArmSoft except 1027 / 1625 / 1628. `siruk ops docs post` takes the
+  document **id**, not its number. Ops drifts with every till sale until cutover: re-run the script with
+  `siruk ops stock --json` and count the differences. Website stock: Ops `siruk.pushStock` off, site
+  `stock_in_ops: true` -> `siruk stock set` refuses; the sheet's three "Siruk …" tabs are report-only (owner's
+  call). Glovo: 34 goods off although ArmSoft has stock (not switched on: may be off by hand). Yandex after
+  0057/0058 applied the same day (`yandex-availability.py`): 45808 mouse off, 08544MG duck on, checked live.
+- **ArmSoft → Ops stock sync 2026-11-20 13:48** (user: "sync the stock of armsoft with siruk ops"): turnover
+  `Scale/armsoft-turnover-2026-11-20-1348.xlsx` + `siruk ops stock --json`, `armsoft-vs-siruk.py` (yesterday's
+  goods XML / prices / export are fine for the Ops sheet) → 9 codes higher in Ops, all till sales. Posted on
+  the user's yes: **BO-000002** open 1 × 1465 Gastrointestinal Puppy 10 kg → 3182550771047-KG (ArmSoft showed
+  9 kg = the bag opened, 1 kg sold), then **CN-000002** count of 9 lines (`runs/2026-11-20/ops-count-armsoft-sales.json`;
+  a kg good: whole bags stay, loose grams = ArmSoft kg − bags × bag kg). Open the bag *before* the count. Re-check:
+  Ops = ArmSoft except 1027 / 1625 / 1628.
+- **Till-sales availability check 2026-11-20 16:36** (user: whole 15 kg bag of **1443** RC Maxi Adult 5+ sold):
+  turnover `Scale/armsoft-turnover-2026-11-20-1636.xlsx` (Թարմացնել on the open tab, then export) showed 1443 at
+  0 kg. Plain run, no `--on`. **Glovo, 7 switched off**: 1443 bag + -KG; 0011 Wild Prairie 4.5 kg (3.5 kg open, no
+  sealed bag); 1465 Gastro Puppy 10 kg (9 kg, the bag opened at 13:48); 0388 Monge Fresh lamb; 0572 Trixie Denta Fun
+  Rolls; 0175 Trixie barley paste. **Yandex, 2 switched off** (1443 bag + 1 kg); the other five were already off
+  there. Re-checked: Glovo 0 to switch off, both Yandex cards off live. Glovo still has the same 34 cards switched off
+  although they are in stock (left alone). The Glovo token had expired; it was read again from the browser.
+  Later the same day the user said those 34 were fine ("turn the list on"). All 34 were switched **on** on Glovo
+  (`set-active --on`) and on Yandex (the same ArmSoft codes). The user also said the shop is out of **1449** RC Mini
+  Adult 8 kg (ArmSoft 0, already off everywhere) and **1458** RC Hypoallergenic cat 4.5 kg. ArmSoft still showed
+  1458 at 3.5 kg (an open bag; a scale label PLU 00090 was printed at 15:58). Its -KG option was switched off by
+  hand on Glovo and Yandex. Until the ArmSoft stock is corrected (a sale or a write-off), a run with `--on-codes
+  1458` would switch it back on. **User: the rest is reserved for a customer pickup on Sunday 22/11.** ArmSoft keeps the
+  3.5 kg (no write-off) and both cards stay off. The hold is in `state/open-items.csv`. The first `set-active` call failed with "wrong credentials" a minute after the
+  token re-read; the same call worked when retried.
+- **ArmSoft → Ops sync of the last 10 sales, 2026-11-20 23:30** (user): ArmSoft sales after the 14:16 sync
+  never reached Ops. Posted **CN-000004** (DL711806, 08514MG, 11244S → 0; 3182550831406-KG → 1 kg; KF5200111
+  → 2). Ops then = ArmSoft for every good sold 19–20/11, except 1443 Maxi Adult 5+ (Ops 1 bag from till add
+  TA-000002, ArmSoft 0). The shop still rang 0000299 in ArmSoft after Ops went live (HDM 00000279).
+- **Glovo/Yandex orders rung in ArmSoft, synced 2026-11-22 14:00** (user: the shop sold yesterday's Glovo/Yandex
+  orders in ArmSoft instead of Ops). Method = a **delta**, not a count to ArmSoft's totals (Ops had its own sales
+  since): turnover `Scale/armsoft-turnover-2026-11-22-1352.xlsx` minus `…-2026-11-21-0948.xlsx` (the last Ops =
+  ArmSoft point) per code → only the Վաճառքներ column moved (sales to buyers), 12 codes
+  (`runs/2026-11-22/armsoft-delta-since-1121-0948.json`). Target = Ops now − that sale; for 10 codes it equalled
+  ArmSoft's final quantity. Posted **CN-000006** (0058, 0210, 0274, 0341, 0343, 0344, 0358, 0631, 1370, 1457), checked
+  live. Left out: **1620** (Ops already 4 = ArmSoft; Ops took 1 for WEB-000008 — same unit or a second sale? user to
+  say) and **1625** YOKO bull root S (Ops 1000 after till add TA-000004 +720 on 21/11; ArmSoft 6 pcs — needs a shelf
+  count). Ops has no Glovo/Yandex orders of its own (`ops orders list` = siruk channel only). Availability from the
+  same turnover, on the user's yes: 6 sold-out cards off on **both** Glovo and Yandex (24155 brush, 7145112 Acana
+  Indoor 4.5 kg, MG006347 Monge Medium Puppy 15 kg, 11244S, DL711806, 08514MG); re-check 0 to switch off. Held off by
+  hand the same day (`state/open-items.csv`): 1848 Kitten Wet gravy (last unit) and 1959 Urinary S/O cat 1 kg
+  (customer hold, stock untouched).
+- **Full ArmSoft ↔ Ops sync 2026-11-23 18:52–19:27** (user: "sync armsoft and ops completely"). Snapshots: turnover
+  `Scale/armsoft-turnover-2026-11-23-1852.xlsx`, goods `Scale/armsoft-export-2026-11-23.xml` (1,632 goods, up to 1677),
+  `siruk ops stock --json` at the same minute; diff script `runs/2026-11-23/diff_ops_armsoft.py` (ArmSoft per code vs Ops
+  bags × bag kg + loose g, plus what moved in ArmSoft since a base turnover). 62 codes differed; every one was traced to a
+  document. Plan `final/armsoft-2026-11-23/sync-plan.md`, one user yes. **Ops**: BO-000006 (open RC Hypoallergenic Dog 14 kg)
+  + **CN-000010** (18 lines = ArmSoft-only sales since 22/11 13:52, mostly Glovo/Yandex pouches rung in ArmSoft). **ArmSoft**:
+  new goods **1678** Trixie Cat Malt Plus 100 g and **1679** Trixie Tofu litter 2.5 kg (CPA 3824 from the invoice; Ops had
+  1404, fixed), receipts **0061** (= Ops RC-000005) and **0062** (= RC-000006), and issue **0012** (29 lines = Ops till sales
+  SL-000005…14 and web orders WEB-000006…12 since 21/11). Re-check 19:27: Ops = ArmSoft except 1678/1679 (Ops had no
+  accounting code yet — set on Siruk 2302/2301, Ops picks it up on catalogue sync) and the four left for a shelf count:
+  **1454** Fit 32 loose (ArmSoft 4 kg, Ops 2 kg: Ops web order WEB-000007 5 kg 21/11 never reached ArmSoft, ArmSoft sold
+  2 kg since, Ops till add TA-000006 +1 kg), **0820** Gift Dental rabbit (ArmSoft 2, Ops 3 — Ops till add TA-000003 +1),
+  **1451** Mini Adult 8+ loose (ArmSoft 0, Ops 300 g), YOKO **1625/1628** (grams vs pieces).
+  - **An ArmSoft issue order imports as XML**: `<MTExpense>` with `MTExpenseSpecificationRow` (MTCode, Unit, Quantity,
+    Price 0, Amount 0, PartyMethod Ավտոընտրություն, UnitList from the goods export), `IsDraft` true; Ctrl+S fills the
+    cost. Template = an exported issue (`final/armsoft-2026-11-23/issue-0010-template.xml`, from Պահեստ home page →
+    Պահեստի փաստաթղթեր journal → tick → Արտահանել XML). No more typing issue lines.
+  - **An Ops hold blocks the till and makes a phantom.** RC Urinary S/O 1 kg: the 3 kg held for a customer (HD-000008)
+    left 0 available, so the seller did a till stock add (TA-000005 +3 kg) to ring the sale (SL-000013); after the hold
+    released, Ops showed 3 kg that did not exist and the site sold them. Fixed by **CN-000009** (→ 0). When a held
+    customer collects, ring the sale against the hold, not with a till add — or check every TA right after.
+  - Hairball Care 1 kg (1457): ArmSoft 1.803 kg − Ops web order WEB-000011 1 kg = ~803 g → **CN-000008** (user: 1 kg
+    out of stock), site 0, Glovo/Yandex 1 kg off.
+- **Ops pull 2026-11-24 16:28 for 21/11–24/11** (office, user: "check for new invoices and see if every hafo
+  order was received"): first answer 409 EINVOICE_LOGIN_PENDING again, same code worked ~1 min later. 6 fetched,
+  **3 new**, all Pet House 24/11, Ops matched 3 of 18 lines on its own:
+  **A6767160732** (30,060) = #12425 (МЯУ 142615 × 24) + #12429 (Gemon Regular 20 kg, Monge Fresh puppy × 2, veal)
+  + #12424's cans (Simba cat duck/chicken/rabbit/turkey/poultry × 1, Gemon cat 300737 / 300747);
+  **A4611131207** (10,430) = #12400 (wipes 29417Tx / 29418Tx × 2) + #12424's Stop It 12527, Mr.Fresh F403 075732 and
+  F407 EF076412; **A6824234528** (6,550) = #12440 (08524MG × 3, Rolf Club 790762). Every order line is there.
+  **Received the same day (user: "Yes, receive them")**: two new goods first — hafo's "Simba թռչնամիս" MS 009537 is
+  really **Simba Chunkies with Wild Game** (hafo's own photo shows the Selvaggina can with a pheasant; monge.it ES
+  page `simba-bocaditos-con-carne-de-caza-2` + EN spec PDF) → Siruk 325 / v**2319** "Wild Game 415 g" (flavour
+  Wild Game 681, image 21550), ArmSoft **1696**; RolfClub 3D drops dogs ≤ 4 kg **box of 3 pipettes** (EAN
+  4610117790761, R444; neoterica.ru has only the single-pipette R402 page, the box photo came from eapteka.ru
+  id518271, which prints our EAN, flattened onto white) → Siruk 742 / v**2320** "up to 4 kg, 3 pipettes" (count 3,
+  image 21553; the pipette volume is not printed for the box, so no "0.5 ml"), ArmSoft **1697**. Prices hafo 600 / 8,080, glovo + yandex 750 / 10,100; ru/hy written,
+  verify-translations 0 missing. ArmSoft goods `final/armsoft-2026-11-24/new-goods-1696-1697.xml`; Ops fiscal name
+  = ArmSoft name, ADG 2309 / 3004. Ops: 15 lines matched by hand → **RC-000008 / 09 / 10** posted. ArmSoft:
+  **0064 / 0065 / 0066** from `final/armsoft-2026-11-24/pethouse-receipt-006x.xml` (0050 Gemon Regular as
+  003 × 1 @ 20,000), opened from Գնման փաստաթղթեր and Ctrl+S. Restock check: 18 codes, costs same, prices match
+  (`runs/2026-11-24/restock-check.csv`). The seller couldn't find the Rolf box in ArmSoft before 1697 existed.
+  Glovo/Yandex availability planned from `Scale/armsoft-turnover-2026-11-24-1718.xlsx` (Glovo 8 on, 2 off:
+  074082 Gelmintal cats > 4 kg, 42708 Premio Mini Sticks). The 2 off were **not** applied: Ops holds 1 of each
+  while ArmSoft says 0 (a mismatch to settle). On the user's yes, only the 8 went on: Glovo via `set-active … --on`,
+  Yandex via the plan script with its OFF set emptied (the stock script switches off too) — 8 / 8 each, 0 failed
+  (`runs/2026-11-24/glovo-availability.csv`, `yandex-availability.csv`).
+  **Order ↔ invoice pairing 14/11–24/11** (orders `runs/2026-11-24/hafo-orders-12237-12292.txt` and
+  `…-12352-12440.txt`, invoices `runs/2026-11-24/einv-*.json`; line by line except #12211, #12220, #12277, #12287,
+  #12308, #12309, paired by exact total): #12211 = A8519891402, #12220 = A8707682798, #12225 = A0750259960,
+  #12237 + #12238 = A3182055782 (+1 Simple'n'Clean 5 l, +1 3173Tx over the order), #12252 = A1614547319 (Kormell
+  28 × 3 instead of 24), #12262 = A7797790622 (+ Moor 75 g × 56 not on any order), #12277 = A3791960255,
+  #12287 = A3864198017, #12290 + #12292 = A9401828007 + A9528982883 **without 12207S × 1 @ 1,800**, #12308 =
+  A2134253540, #12309 = A1727680813, #12321 = A3286265698 without 08541MG, #12332 = A0739601276,
+  #12352 = A6362862657 + A6596590411, #12367 + #12369 = A7305674976 + A7995305466 **without 08505MG × 1 @ 700**,
+  #12397 + #12398 = A1599184972. Ordered, not invoiced now: 12207S 1,800 · 08505MG 700 · 08541MG 1,100 ·
+  TX 045091 875 · 3179Tx 1,280 · Club 4 Paws 142525 × 24 = 5,400 (pouches arrived, user 05/11) — 11,155
+  (`state/open-items.csv`). The 17/11 basket (43 lines) was placed as **#12292** (39 lines / 42 units) minus Moor
+  0335 × 7, Doktorskie 217866, Relax bed 43560ML and pill pockets 25842Tx; its open-items row is gone. Invoiced, not
+  received: today's three only (47,040); A1727680813 / A1433256986 / A2164605176 are receipts 0056 / 0041 / 0042.
+- **Pet House A1599184972 (22/11, 22 lines, 21,585) received 2026-11-23 22:00** after importing its 16 new goods
+  (Siruk 1499–1510, v2303–2318; `runs/2026-11-23-import-report.md`). New ArmSoft goods **1680–1695**
+  (`final/armsoft-2026-11-23/new-goods-1680-1695.xml`, group 00009, unit 001, CPA from the invoice classifiers,
+  price 01 = Siruk, 02 = Glovo default Siruk ÷ 0.8 up to 50), the same Glovo price set as Siruk's glovo **and**
+  yandex price type (Ops shows them as price types), `accounting_code` on the 16 variants, Ops fiscal name = ArmSoft
+  name + ADG (`ops goods set-many`, ref = EAN). Ops: 22 lines matched by hand (no barcodes on the lines) →
+  **RC-000007** posted. ArmSoft: **0063** from `pethouse-receipt-0063.xml` (MTIncome, IsDraft, comment "Ops
+  RC-000007") → opened in Գնման փաստաթղթեր and Ctrl+S. The list shows a fresh import only after the ribbon's
+  Թարմացնել (F5 doesn't refresh it). Existing goods on it: 1220, 0127, 0155, 0158, 1556, 1597; 1597 (45808) was
+  off on Glovo and Yandex and went back on. `siruk set-variant` asks "write …? [y/N]" — pass `-y` from a script.
+- **Invoices through Ops' own e-invoicing, 2026-11-22** (user: "use Ops' one, not ArmSoft's"). `siruk ops einvoices
+  pull` answered **409 EINVOICE_LOGIN_PENDING** first: the API never signs in to the tax service itself, it queues
+  the login for an Ops till in Armenia (the shop's) — retry ~30 s later with the same code, it then pulled.
+  2026-11-25: pull 22/11–25/11 stayed 409 for 8 tries over ~4 min (same code) — no till ran the login, so
+  nothing was fetched; the till app in the shop has to be open. Two new
+  Pet House invoices of 21/11. Ops matched no line on its own (no barcodes on these lines): matched by hand from the
+  ArmSoft name / hafo code (hafo SKU = Siruk SKU, e.g. 08513MG = 0823 although Siruk says "Hairball" and the invoice
+  "Skin Support"). **A7305674976** (6,480, Kotoffey 0235/0236/0237 × 2) → **RC-000005** posted. **A7995305466**
+  (39,140) has 6 of 8 lines matched; it waits for two new products: Trixie tofu litter 2.5 kg (hafo 40250Tx, EAN
+  4011905730080) and Trixie Malt Paste Plus 100 g (4221Tx, EAN 4011905042213; not our Cat Malt 4220). **Neither is
+  in ArmSoft** (no ArmSoft receipt made). The older "new" Ops invoices (13–19/11) predate the Ops opening balance:
+  leave them. A loop that dry-runs and applies its own codes is refused by the permission check — dry-run all
+  lines, show them, then apply with the listed codes.
+- **Pull 2026-11-21 00:16 for 19/11–21/11** (office, user: "invoice check, receive into ArmSoft and Ops"):
+  4 invoices, 2 new, both Pet House 20/11, no replacement note. Both had lines with no good, so the user said
+  "add and receive": Siruk got Simba Chunkies Adult **Rabbit 415 g** (325 / v2297, SKU 009087) and
+  **Turkey & Kidney 415 g** (v2298, 009527), Trixie **1495** Plush Mouse with Heart 11 cm (v2299) and **1496**
+  Fabric Horse with Catnip 10 cm (v2300) (`runs/2026-11-21-report.md`). New ArmSoft goods **1674–1677**
+  (`final/armsoft-2026-11-21/new-goods-1674-1677.xml`, group 00009, unit 001, CPA 2309 cans / 6307 toys,
+  price 01 = Siruk 600 / 600 / 1,600 / 1,750). Ops: fiscal name = ArmSoft name and ADG set on the 4 new goods.
+  Receipts **0059 / 0060** (`final/armsoft-2026-11-21/pethouse-receipts-0059-0060.xml`) and Ops
+  **RC-000003 / RC-000004** via `einvoices match / receive / post`. ArmSoft = Ops for all 9 goods after.
 
 ## Documents (newest first)
 
 | Doc | Date | What it is | Status |
 |---|---|---|---|
+| receipt **0068** | 25/11 | Premier Food («ՊՐԵՄԻԵՐ ՖՈՒԴՍ», TIN 02252609, **no ArmSoft partner code**: supplier in the comment, as 0034) **A1413999226** (25/11, 82,791) **without line 4** (12367238 Pro Plan S&M Adult Chicken 7 kg, 18,660: invoiced, not delivered, user) = 64,131 = Ops **RC-000012** (a manual Ops receipt: `einvoices receive` would make an Ops good from the unmatched line, so the e-invoice stays unreceived in Ops). New 1698 / 1699 as **003 × 1** @ 18,680 / 35,610 (cost ÷ kg not 2 decimals), 1700 × 1 @ 2,470, Felix 1476 / 1494 as **002 × 1** (case of 26) @ 3,685.50 | posted by Claude, user yes |
+| receipt **0067** | 25/11 | Zoo Ek **A1485800728** (24/11, 108,000) = Ops **RC-000011** (from the e-invoice): new Leonardo 1711 / 1712 Drink 40 g × 20 @ 300, 1701–1710 Finest Selection 85 g × 16 @ 600 | posted by Claude, user yes |
+| receipt **0066** | 24/11 | Pet House **A6824234528** (24/11, 6,550) = Ops RC-000010 = hafo #12440: 1528 × 3 @ 500, new **1697** Rolf Club 3D ≤ 4 kg 3 pipettes × 1 @ 5,050 | posted by Claude, user yes |
+| receipt **0065** | 24/11 | Pet House **A4611131207** (24/11, 10,430) = Ops RC-000009 = #12400 + part of #12424: 1218, 0180 × 2, 0181 × 2, 0185, 1338 | posted by Claude, user yes |
+| receipt **0064** | 24/11 | Pet House **A6767160732** (24/11, 30,060) = Ops RC-000008 = #12425 + #12429 + part of #12424: 0337 × 24, 0366, 0367, 1674, 1675, new **1696**, 0050 (003 × 1 @ 20,000), 0385 × 2, 0389, 0397, 0398 | posted by Claude, user yes |
+| issue **0012** | 23/11 | Mirror of Ops sales 21–23/11 that ArmSoft never got: till SL-000005…14, web WEB-000006…12 (29 lines, 13.46 kg + 30 pcs, cost 40,853.03). Imported as `<MTExpense>` XML `final/armsoft-2026-11-23/ops-sales-issue-0012.xml` | posted by Claude, user yes |
+| receipt **0062** | 23/11 | Pet House **A7995305466** (21/11, 39,140) = Ops RC-000006: 0418×5, 1141×2, 0820×2, 0823×2, new **1679**×2, 0217×1, 0218×3, new **1678**×2 | posted by Claude, user yes |
+| receipt **0061** | 23/11 | Pet House **A7305674976** (21/11, 6,480) = Ops RC-000005: Kotoffey 0235/0236/0237 × 2 | posted by Claude, user yes |
+| issue **0011** | 20/11 | **1450** Mini Puppy 1 kg out: Siruk web order WEB-000005, whose stock Ops had already moved. Same day in Ops: **CN-000005**, which set 1443 Maxi Adult 5+ to 0 (the owner's log says it was sold 20/11 16:36) and YOKO bull roots 1625 = 280 g (7 × 40 g) and 1628 = 800 g (10 × 80 g); Ops keeps those two as loose gram goods. Re-check 21/11 09:48: Ops = ArmSoft on every code except **1027** (comb, no Siruk product) | posted by Claude, user asked |
+| issue **0010** | 20/11 | Stock-only mirror of the Siruk Ops till sales of 20/11 (SL-000001, SL-000002, SL-000004; SL-000003 was refunded; Ops printed the HDM receipts): **0019** ACANA Indoor 1 kg, **0045** MONGE Medium Puppy 1 kg, **1484** Felix Trout × 1, **1639** Petmil pad × 10. Total cost 23,151.47; **0019** went out at 20,300/kg, so its average cost holds a whole bag price per kg. User wants a warehouse issue order for Ops sales, not a sale document. Re-check 21/11 09:38: Ops = ArmSoft except 1027 / 1443 / 1450 / 1625 / 1628 | posted by Claude, user asked |
+| receipt **0060** | 21/11 | Pet House **A6596590411** (20/11, 2,090 incl. VAT): new **1676** Trixie Plush Mouse with Heart 11 cm @ 1,000, new **1677** Trixie Fabric Horse with Catnip 10 cm @ 1,090, 1 each. Ops RC-000004. Stock after 1 each | posted by Claude, user yes |
+| receipt **0059** | 21/11 | Pet House **A6362862657** (20/11, 4,840 incl. VAT): Simba 415 g @ 440 — cat 0367 × 1, new **1674** rabbit × 1, new **1675** turkey & kidney × 1; dog 0375 0376 0377 0378 × 2. Ops RC-000003. 0367 stock after 2 | posted by Claude, user yes |
 | receipt **0058** | 19/11 | Pet House **A0739601276** (19/11, 20,300 incl. VAT) = hafo #12332: 0010 Acana Bountiful Catch 4.5 kg as **003 × 1 @ 20,300** (cost = Siruk's). Stock after 2 bags | posted by Claude, user asked |
 | receipt **0057** | 19/11 | Pet House **A3286265698** (19/11, 8,800 incl. VAT) = hafo #12321 minus 08541MG: Monge Gift dog sticks 45 g 0430 × 3, 0431 × 3, 0432 × 1, 0435 × 1 @ 1,100. Both in `final/armsoft-2026-11-19/pethouse-receipts-0057-0058.xml`. 0430 stock after 4 | posted by Claude, user asked |
 | issue **0009** | 16/11 | Stock count correction, user: "write it off" — the seller said Royal Canin Kitten dry is finished while the 11:46 turnover still showed **1455** RC Kitten 10 kg at 4.5 kg (open bag). Added by PLU **00087** (line 1455, 303 kg) × 4.5, cost 7,762.50 (1,725/kg). Comment "Stock count correction: seller says none left; Royal Canin supplier has none (user, 2026-11-16)". Stock after 0 (turnover 12:13). Siruk 1955 and Glovo 3182550702973-KG were already off | posted by Claude, user asked |
+| return **0000008**, HDM **00000239** | 17/11 | Վերադարձ (Կտրոն) against card sale **0000261** (HDM 00000238, 4,900): 1662 SmartBones × 1, 0248 Monge Fresh God Fish × 1 (with the sale's Data Matrix code), 0251 Monge Fresh × 2, 1486 Felix rabbit × 2; card refund through Բանկ_POS. The seller's first return **0000007** got HDM error **416** (Data Matrix count ≠ the sale's: the sale sent a code for 0248, the return none) and, once sent, was locked (HDM N XXXXXXXX, lines not editable even as a draft) → made draft and **deleted** (user said do it), redone as 0000008 with the code entered before saving | made by Claude, user yes |
+| receipt **0056** | 18/11 | Pet House **A1727680813** (18/11, 24,525 incl. VAT): new **1671** Flensburg hoodie M 50 cm blue @ 7,500, new **1672** Flensburg hoodie L 55 cm grey @ 8,215, new **1673** Arlay coat S 36 cm berry @ 8,810, 1 each. File `final/armsoft-2026-11-18/pethouse-A1727680813-receipt-0056.xml`. Stock after 1 each | posted by Claude, user yes |
+| receipt **0055** | 18/11 | Zoo Ek («ԶՈՈ ԷԿՈ», partner 0005) **A6363750124** (18/11, 86,500 incl. VAT): 1448 RC Medium Puppy 15 kg as **003 × 1 @ 41,500** (41,500 / 15 not 2 decimals); 1464 RC Hepatic 12 kg as 303 × 12 @ 3,750. Costs = Siruk's. Hepatic stock after 20 kg | posted by Claude, user yes |
+| receipt **0054** | 18/11 | Pet House **A2134253540** (18/11, 23,000): 0057 Club 4 Paws cat chicken 14 kg as **003 × 1 @ 23,000**. Stock after 1.575 bags. Both in `final/armsoft-2026-11-18/receipts-0054-0055.xml` | posted by Claude, user yes |
+| receipt **0053** | 17/11 | Pet House **A3864198017** (17/11, 3,755): 1576 × 3, 1577 @ 685; new **1670** Happy Jungle Daily Menu large parrots 500 g @ 1,015 | posted by Claude, user asked |
+| receipt **0052** | 16/11 | Pet House **A7797790622** (16/11, 62,460): new **1669** Orijen Regional Red 11.4 kg as 003 × 1 @ 57,700; 0335 Moor beef pouch × 56 @ 85 | posted by Claude, user asked |
+| receipt **0051** | 17/11 | Pet House **A3791960255** (4,000): 0476 × 2, 0491, 0495 @ 1,000 | posted by Claude, user asked |
+| receipt **0050** | 17/11 | Pet House **A9528982883** (6,610): 0307 @ 660, 0236 × 3 @ 1,090, 0375 0377 @ 440, 0384 0386 @ 900 | posted by Claude, user asked |
+| receipt **0049** | 17/11 | Pet House **A9401828007** (46,030, 33 lines / 36 pcs), all known goods; `final/armsoft-2026-11-17/pethouse-receipts-0049-0051.xml` (0052–0053 in `…-0052-0053.xml`) | posted by Claude, user asked |
 | receipt **0048** | 16/11 | Pet House **A2631104009** (08/11), the two boards left out of 0036: new 1667 (48020) × 1 @ 4,100 and new 1668 (48021) × 1 @ 3,900 = 8,000 = invoice lines × 0.8. Pet House gave 20 % off for the mistake; comment on the receipt | posted by Claude, user asked |
 | receipt **0047** | 15/11 | Pet House **A3182055782** (15/11, 53,130 incl. VAT, 23 lines / 31 pcs) = hafo #12237 + #12238 plus 1 more 0217 and 1 more 1656: 1007 @ 3,500; new 1654 × 2 @ 1,715; 0407 @ 685; 1011 @ 965; 1015 @ 1,685; new 1657 @ 2,215; new 1658 @ 4,900; new 1662 × 2 @ 1,835; new 1661 @ 1,190; new 1659, 1660 @ 1,515; new 1664, 1663 @ 810; new 1665 @ 530; new 1666 @ 590; 0449 × 3 @ 1,450; 0512 @ 1,160; 0217 × 2 @ 3,655; new 1656 × 2 @ 750; 0573 × 2 @ 1,340; new 1655 @ 3,215; 0632 @ 1,655; 0633 × 2 @ 1,625 | posted by Claude, user asked |
 | receipt **0046** | 15/11 | Pet House **A1614547319** (15/11, 54,528) = hafo #12252 with 28 of each pâté instead of 24: new 1653 × 28, 0349 × 28, 0351 × 28 @ 117; 0074 ACANA Grass-Fed Lamb 11.4 kg as **003 × 1 @ 44,700**. Both in `final/armsoft-2026-11-15/pethouse-receipts-0046-0047.xml` | posted by Claude, user asked |
@@ -446,3 +622,61 @@ wholesale prices match its invoices — likely the same company, not confirmed),
   shortfall. Real: 15 kg in, 15 kg out, stock 0. ArmSoft's 16 kg sold
   overstates it by 1 kg. The user decided (2026-10-26) the +1 kg receipt
   stays as it is.
+- **Pull 2026-11-17 19:00 for 10/11–17/11** (office): 5 new Pet House invoices, none received yet
+  (last receipt 0048): A7797790622 (16/11, 62,460: Orijen Regional 11.4 kg **new** @ 57,700, Moor beef
+  pouch 0335 × 56 @ 85), A9401828007 (17/11, 46,030, 33 lines / 36 pcs, all known goods),
+  A9528982883 (17/11, 6,610, all known), A3791960255 (17/11, 4,000, DL treats 0476 × 2, 0491, 0495),
+  A3864198017 (17/11, 3,755: Mnyams purée 1576 × 3, 1577, Happy Jungle large parrots 500 g
+  EF076062 **new** @ 1,015). New goods need Siruk + ArmSoft setup before their receipts.
+- **Pull 2026-11-18 17:27 for 15/11–18/11** (office): 10 invoices, 3 new, none replacing another. A2134253540 (Pet House, 23,000) → receipt 0054; A6363750124 (Zoo Ek, 86,500, lines already mapped to 1448 / 1464 in the journal) → receipt 0055; **A1727680813** (Pet House, 24,525: Trixie Flensburg hoodie M 7,500 and L 8,215, Arlay vest S 61891 8,810) **not received** — no ArmSoft good / Siruk variant (state/open-items.csv). Restock check: all three costs same, no rival price readable (runs/2026-11-18/restock-check.csv). Glovo: the product-list read times out often (no retry in `glovo-portal.py` for read timeouts); a wrapper retrying `gql` got through. On the user's word a fresh turnover was taken first (`Scale/armsoft-turnover-2026-11-18-1840.xlsx`), then `stock --on-codes 0057 1448 1464 --apply` (codes space-separated — a comma list matches nothing): 3 on (RC Medium Puppy 15 kg + 1 kg, Hepatic 12 kg), 24 off, 0 failed (`runs/2026-11-18/glovo-availability.csv`). Siruk left untouched (user): RC 1799 / 1948 / 1831 still show out of stock there.
+- **Pull 2026-11-18 19:13 for 16/11–18/11** (office): 8 invoices, **all already in** ("Ոչ"), nothing new, no
+  receipt. A1727680813 (Trixie clothes) still held: no Siruk product for Flensburg / Arlay yet.
+- **Pull 2026-11-19 11:00 for 15/11–19/11** (office): 10 invoices, **all already in** ("Ոչ"), each
+  with its posted receipt (0046–0056); the journal also ends at 18/11. Nothing to receive. Turnover
+  re-run to 19/11 (an open turnover tab keeps its old end date — change it in Փոխել պարամետրերը
+  before Թարմացնել) → `Scale/armsoft-turnover-2026-11-19-1104.xlsx`: 1,611 goods, 1,517 with stock,
+  none negative. No discontinued Siruk product has ArmSoft stock (codeless 398 / 472 / 597 / 678 /
+  1062 checked by name too). Open: **0787** "Սանր նիկել կոմպլեկտ 11 x 14 սմ" (stock 1) is coded to
+  Siruk 470 "Soft Brush with Brush Cleaner, wooden handle" (Trixie 2356), while the discontinued,
+  variant-less 472 "Soft Brush with Comb, nickel-plated, 11 × 14 cm" fits its name — check which is
+  right; **1027** dog comb 22 cm (stock 1) has no Siruk variant.
+- **ArmSoft stock → Ops opening balance, 2026-11-19 (user: "update the stock in ops based on armsoft")**.
+  Ops held nothing but 3 Felix 1476 (a till stock add). Turnover 11:21 → `runs/2026-11-19/ops-opening-plan.csv`:
+  ArmSoft code = Ops `accountingCode`; a kg good splits into whole sealed bags (bag variant, pieces) +
+  the rest in grams on its loose good (`-KG` / `-100G`); value = Siruk `cost_price` (loose: per kg from the
+  loose variant's content). Posted **OB-000001…000004** (380 lines each, Ops caps a document at 500) at
+  location 01: 1,520 lines, 3,491 pcs + 320.005 kg, 6,469,536 AMD; Ops after = 1,521 goods, matching.
+  Left out: 1027 (no Ops good), **1625 / 1628** YOKO bull root S / M (7 / 10 pcs in ArmSoft, but Ops has
+  them as loose 40 g / 80 g goods — fix the model first). An opening balance is the right type (it
+  carries value; a count would come in at 0 cost). Ops key: staff person "Claude (office PC)", manager,
+  no sign-in; key "Claude Code (office PC) - stock sync 2026-11-19", office:read + office:write. The
+  website still keeps its own stock (Ops `siruk.pushStock` off; **corrected 15:40**: the site's `GET /stock`
+  says `stock_in_ops: true`, so `siruk stock set` refuses — website stock can't be changed from siruk now). Speed: the CLI
+  read every line with its own paced GET (~10 min per 380-line step, ×4 steps); since this day a
+  document of 20+ lines reads the goods list once (`resolve.Catalogue`), ~15 s per step.
+- **A1727680813 imported and received 2026-11-18 (user: "Yes, import them")**. Invoice lines = hafo names:
+  "Flensburg, M չափ, 50սմ - մեջք" = **67487Tx** (blue — hafo's table; the M 50 cm grey 67497 has the
+  same 7,500 cost, so read the line text), "L չափ, 55 սմ - մեջք/մոխրագույն" = **67498Tx**, Arlay
+  "…/61891" = hafo **680336Tx** = Trixie art. **680336** (trixie.de prints EAN 4053032618916 with it; the
+  "61891" is the EAN's middle). trixie.de's Flensburg page now lists only 67480/67481 + 6807xx; the grey
+  6749x series is gone — its clean photo came from greenview.com.mt/products/67498 (prints our EAN,
+  file PHO_PRO_CLIP_67490-67499-1); trixie.kiev.ua's are watermarked. Siruk **1493** BE NORDIC
+  Flensburg Hoodie (variants 2294 M blue 12,000, 2295 L grey 13,150) and **1494** Arlay Coat (2296,
+  14,100), leaf 72, type Accessories, ru/hy, SEO images. New ArmSoft goods **1671 / 1672 / 1673**
+  (`final/armsoft-2026-11-18/new-goods-1671-1673.xml`, group 00009, CPA 4201 like the raincoats 1515 /
+  1525, unit 001, VAT off, EAN on 001, price 01 = Siruk) → receipt **0056**. Glovo price type 02 not
+  set. The server now keeps stock in Ops: `siruk create` dropped `initial_stock`, so the three new
+  Siruk variants show stock 0 (1491 / 1492 of 17/11 still got 10). User 2026-11-18: leave them at 0 — no
+  Ops receipt.
+- **Leading-0 barcodes at the till** (2026-11-17): SmartBones 1662 "not found" on scan. The pack prints
+  `0 810833 027217`; ArmSoft, Siruk and hafo all hold 0810833027217 — no script drops the 0. A 13-digit
+  code starting with 0 is a UPC-A, and scanners usually send it as 12 digits (810833027217); ArmSoft
+  matches the exact string. Test: added 810833027217 as a second barcode on 1662 / 001 (kept the 13-digit
+  one), seller to rescan. Same risk on 10 bags stored as 00649927… / 0064992… (0008 0009 0010 0011 0012
+  0013 0014 0019 0026 0027) and the pending Orijen Regional (0064992184124); Acana 0025 0028 0029 0068
+  0069 0073–0080 are already stored as 12 digits.
+- **New goods 1669 / 1670** (2026-11-17, `final/armsoft-2026-11-17/new-goods-1669-1670.xml`, goods + 01 prices,
+  0 errors): 1669 Orijen Regional Red per kg (303, PLU **00126**, 6,700) + bag 003 ×11.4 (75,000), bag EAN in both
+  forms 0064992184124 and 064992184124; 1670 Happy Jungle Daily Menu large parrots 500 g (001, 4607092076065,
+  1,630). Siruk 1491 (variants 2291, 2292-KG) and 1492 (2293); brand Happy Jungle = Siruk brand 56, maker
+  Ekoprom (ekoprom.org). Glovo price type 02 not set for them yet.

@@ -1,0 +1,91 @@
+{
+ "query": "mutation($r: CreateSimpleProductBatchPayload!){\n  createSimpleProductBatch(productsRequest:$r){\n    __typename\n    ... on SimpleProductBatchSuccess { message caseId }\n    ... on SimpleProductBatchValidationError { csvValidationErrors { error message column }\n                                               productValidationErrors { barcode errors index } } } }",
+ "variables": {
+  "r": {
+   "simpleProducts": [
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Orijen Regional Red չոր կեր տավարի, վայրի վարազի և բիզոնի մսով շների համար, 11.4 կգ"
+      },
+      {
+       "locale": "en",
+       "name": "Orijen Regional Red Dry Dog Food 11.4 kg"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "ORIJEN Regional Red՝ չոր կեր շների համար։ 85% որակյալ կենդանական բաղադրիչներ՝ հում տավարի, վայրի վարազի, բիզոնի, գառան և խոզի միս։ WholePrey բաղադրիչներ՝ միս, ենթամթերք և ոսկոր։ Առաջին 5 բաղադրիչները՝ հում տավարի միս, վայրի վարազ, բիզոն, գառ և խոզ։"
+      }
+     ],
+     "barcode": "00064992184124",
+     "imagesEncoded": [
+      "<1841212.jpg, 47119 base64 chars>"
+     ],
+     "sku": "1841212",
+     "brand": null,
+     "activeness": true,
+     "price": 93750.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7069",
+       "locale": "hy_AM",
+       "name": "Շան Չոր Կեր"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    },
+    {
+     "name": [
+      {
+       "locale": "hy",
+       "name": "Happy Jungle Daily Menu կեր խոշոր թութակների համար, 500 գ"
+      },
+      {
+       "locale": "en",
+       "name": "Happy Jungle Daily Menu Food for Large Parrots 500 g"
+      }
+     ],
+     "description": [
+      {
+       "locale": "hy",
+       "name": "Happy Jungle 3in1 Daily Menu BioMix՝ ամենօրյա հիմնական կեր խոշոր թութակների համար։ Սերմերն ու գետնանուշը կազմում են սննդակարգի հիմքը։ Մրգերն ու մեղրը հագեցնում են վիտամիններով։ Հանքանյութերը՝ խեցիների փշրանքից, ամրացնում են ոսկորները և բարելավում փետրածածկույթը։"
+      }
+     ],
+     "barcode": "04607092076065",
+     "imagesEncoded": [
+      "<EF076062.jpg, 82807 base64 chars>"
+     ],
+     "sku": "EF076062",
+     "brand": null,
+     "activeness": true,
+     "price": 2050.0,
+     "isSoldByWeight": false,
+     "weighableSoldByPiece": false,
+     "categories": [
+      {
+       "id": "7088",
+       "locale": "hy_AM",
+       "name": "Կեր թռչունների համար"
+      }
+     ],
+     "vendorsIdentifier": [
+      {
+       "platformVendorId": "982410",
+       "globalEntityId": "GV_AM"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -37,8 +37,9 @@ the user's go-ahead for the batch.** Show them the planned cards first.
 **Language:** names follow Zoovet (Latin brand/line + Russian, see `name`); descriptions
 and category names stay **Armenian** (Zoovet's own categories are Armenian too). Sources: the
 live catalogue export in `hy` (descriptions) and `ru` (name words), one row per variant.
-Skip a variant whose `content` is empty unless its label is a plain size («250 ml»); a toy,
-bowl or leash has no mass/volume for `measure`, so ask the user.
+Piece goods (no `content`): `measure` 1 GRM as Zoovet does, the real size/colour/count in the name
+(user 2026-11-18). Loose -KG / -100G: 1 KGRM / 100 GRM, no barcode. `scripts/yandex-price-plan.py` sets
+`kind` (pack / piece / loose) and `glovo_active` (off on Glovo → off on Yandex).
 
 | Yandex field | From Siruk |
 |---|---|
@@ -46,21 +47,20 @@ bowl or leash has no mass/volume for `measure`, so ask the user.
 | `description` | hy description, HTML stripped, ≤ 2400 chars, no links |
 | `vendor_name` | brand name |
 | `barcodes` | `[{"value": barcode}]` only for a real 8/13-digit EAN. Never a 5-digit PLU. |
-| `measure` | mass → `GRM` (< 1000 g) / `KGRM`; volume → `MLT` / `LT`; value = content × pack_count. `count` items have no unit: use the pack's mass if known, else ask the user. |
+| `measure` | mass → `GRM` (< 1000 g) / `KGRM`; volume → `MLT` / `LT`; value = content × pack_count. Piece goods and `count` items: 1 GRM (Zoovet's way, user 2026-11-18). |
 | `package_quantity` | `pack_count` when > 1 |
-| `places_prices` | `[{"place_id": 3315164, "price": {"value": "<price>"}}]`. **The Siruk price** for now (PM, 2026-11-02); the suggested prices in `final/yandex/` are not used yet. |
+| `places_prices` | `[{"place_id": 3315164, "price": {"value": "<price>"}}]`. **Siruk × 1.25 (rounded up to 50 ֏), or 50–100 ֏ under Zoovet's Yandex price where Zoovet sells the same item** (up or down; floor Siruk + 15 %; user 2026-11-19). Never Glovo's price: `yandex_price` from `scripts/yandex-price-plan.py`. README → "Prices and product set". |
 | `place_ids` / `place_ids_to_add` | `[3315164]` |
 | `category_id` | the Yandex category made from the Siruk leaf (step 2) |
 | `images` | `[{"url": image_url}]` from step 3 |
 
-**Skip, and list for the user:** 1 kg / 100 g loose variants (`-KG`,
-`-100G` SKUs), out-of-stock or discontinued variants, vet medicines (Yandex
+**Skip, and list for the user:** discontinued variants (out of stock = sent switched off, as on Glovo), vet medicines (Yandex
 bans vet pharmacy without a licence; supplements need a per-item call),
 items bigger than 40×25×40 cm, and variants with no usable photo.
 
 ## 2. Categories
 
-`categories/list` first. Mirror Siruk's tree (user, 2026-11-02): pet →
+`categories/list` first. (Built 2026-11-18: 68 nodes, map in `state/yandex-categories.json`; `category/create` needs ~1 s between calls, so a full tree takes longer than one 45 s browser call — run it as a background loop in the page and poll.) Mirror Siruk's tree (user, 2026-11-02): pet →
 group → leaf, with Siruk's Armenian category names. Delete the empty
 placeholder «Կեր» once the tree exists. Create only the missing
 ones (`category/create`, `parent_id` for children). Keep a map
@@ -107,5 +107,28 @@ batches of ≤ 25, and save the map after each card.
 ## Keeping it in sync
 
 Price change in Siruk → `product/update` (or store-level
-`place/products/update-or-create`). Out of stock → `place/product/set-availability`
-`is_available: false`. A deleted Siruk variant → `products/delete`.
+`place/products/update-or-create`). A deleted Siruk variant → `products/delete`.
+
+**On/off follows ArmSoft stock, at the same moments as Glovo** (user 2026-11-19):
+after every posted warehouse receipt (`--on-codes <its codes>`), and after a
+write-off, count or till-sales check (plain run). Rule = Glovo's: a bag needs a
+sealed bag, its -KG / -100G card 1 kg / 100 g loose, anything else 1 in stock;
+sold out → off; back on only for a receipt's goods (or `--on`), so a card
+switched off by hand stays off.
+
+1. `uv run --no-sync --with openpyxl python scripts/yandex-availability.py plan
+   Scale/armsoft-turnover-<date>.xlsx Scale/armsoft-export-<date>.xml
+   [--on-codes …] --out final/yandex/yandex-availability-<date>.xlsx` → writes
+   `.siruk-cache/yandex/availability.js`.
+2. In the cabinet tab: `window.__yav_apply = false;` + that file's text. It lists
+   the live store (~20 s) and keeps the differences in `window.__yav`; poll
+   `JSON.stringify(window.__yav)` to `phase: "done"`, save it to
+   `.siruk-cache/yandex/availability-result.json`, then
+   `python scripts/yandex-availability.py show <file>` for the names.
+3. On the user's yes: the same with `window.__yav_apply = true;`, poll to
+   `done` (1.1 s per card), save, `… record <file>` (updates
+   `state/yandex-products.json`, logs `runs/<date>/yandex-availability.csv`).
+   Re-run the dry run: 0 / 0. It refuses to switch off over 25 % of the cards
+   that are on (a broken export).
+First run 2026-11-19: same two changes as Glovo (thread mouse 45808 off,
+Monge Gift duck 08544MG on).
